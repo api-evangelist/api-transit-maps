@@ -174,3 +174,6 @@ Suite (7) became atlases automatically; six thin catalogs (< 25 operations) mapp
 ### Batch 3 (2026-11-14)
 - **Flat RPC catalogs split by leaf word.** Delx.ai is ~1,000 tools under `/api/v1/x402/<name>`; path grouping bottomed out in singletons and one line held 987 stops (a 78,636 px sheet). When a group of > 2 x max_line has a next segment that is > 60% distinct leaves, lines come from the leaf's first word (json, evm, csv), then its last word (check, sum), then alphabetical runs of <= max_line ("X402 A–C"). Delx.ai: 3 -> 106 lines, 12,610 x 11,540 px. Regression check over all mapped providers: only oracle-hospitality changed (430 -> 467 lines; worst sheet 124 -> 101 labels, sheet 3 14,660 -> 6,170 px).
 - Providers with < 2 operations are not built (amazon-vpn); they and atlassian-confluence (no operations) are in skip.yml.
+
+### Batch 4 (2026-11-14)
+- **Local lines are capped at 30 stops.** A family's 1-2 stop resources ride one Local line; Kong had 122 of them on one tram that snaked across the sheet. Locals now cut into path-ordered runs of <= 30 ("More Local 1..5"). Rebuilt the 20 published maps it changed: worst lines adyen 131 -> 44, adobe 147 -> 64, oracle-hospitality 142 -> 120, scvd-store 94 -> 35, linkedin 64 -> 22, kong 122 -> 29 (12,281 x 8,051 -> 6,876 x 9,884 px).

@@ -370,8 +370,20 @@ def load(PROV, FAM_FILE=None):
                     o['orig_tag'] = o.get('orig_tag', o['tag']); o['tag'] = name
                     merged.append(o)
             merged.sort(key=order_key)
-            lines[name] = merged; tag2fam[name] = fam['name']; local_lines.add(name)
-            fam.setdefault('tags', []).append(name)
+            # a family with dozens of loose resources (Kong: 122 stops) would get one endless tram;
+            # cut it into path-ordered runs of <= 30, numbered (Local 1, Local 2, ...)
+            CAP = 30
+            nch = -(-len(merged) // CAP)
+            for c_ in range(nch):
+                part = merged[c_ * len(merged) // nch:(c_ + 1) * len(merged) // nch]
+                if nch > 1:
+                    nm_ = f"{name} {c_ + 1}"
+                    for o in part:
+                        o['tag'] = nm_
+                else:
+                    nm_ = name
+                lines[nm_] = part; tag2fam[nm_] = fam['name']; local_lines.add(nm_)
+                fam.setdefault('tags', []).append(nm_)
 
     # ---------- resource homes + interchanges ----------
     home = {}          # collection name -> op (prefer GET /coll/{id})

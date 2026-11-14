@@ -1,0 +1,1044 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3760 3190" width="3760" height="3190" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3760" height="3190" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Cockroach-Labs API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">170 operations as stops · 26 tags as lines · 20 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1360" y1="930" x2="1360" y2="980" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1360" y1="930" x2="1360" y2="980" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="860" y1="530" x2="810" y2="480" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="860" y1="530" x2="810" y2="480" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1410" y1="930" x2="1360" y2="980" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1410" y1="930" x2="1360" y2="980" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1360" y1="1030" x2="1360" y2="980" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1360" y1="1030" x2="1360" y2="980" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="760" y1="430" x2="810" y2="480" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="760" y1="430" x2="810" y2="480" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="API Keys" d="M1560.0,2480.0 L1560.0,2380.0 L1560.0,2294.0 Q1560.0,2280.0 1574.0,2280.0 L1710.0,2280.0 L1810.0,2280.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Backup/Restore" d="M1310.0,730.0 L1260.0,680.0 L1169.9,589.9 Q1160.0,580.0 1160.0,566.0 L1160.0,480.0 L1160.0,380.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Backup/Restore</title></path>
+<path class="line" data-line="Private Endpoint Services" d="M1510.0,930.0 L1600.1,839.9 Q1610.0,830.0 1624.0,830.0 L1696.0,830.0 Q1710.0,830.0 1710.0,816.0 L1710.0,794.0 Q1710.0,780.0 1719.9,770.1 L1750.1,739.9 Q1760.0,730.0 1774.0,730.0 L1910.0,730.0 L1996.0,730.0 Q2010.0,730.0 2019.9,720.1 L2050.1,689.9 Q2060.0,680.0 2074.0,680.0 L2246.0,680.0 Q2260.0,680.0 2269.9,689.9 L2300.1,720.1 Q2310.0,730.0 2324.0,730.0 L2396.0,730.0 Q2410.0,730.0 2419.9,720.1 L2500.1,639.9 Q2510.0,630.0 2524.0,630.0 L2610.0,630.0 L2696.0,630.0 Q2710.0,630.0 2719.9,620.1 L2850.1,489.9 Q2860.0,480.0 2874.0,480.0 L2960.0,480.0 L3060.0,480.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Private Endpoint Services</title></path>
+<path class="line" data-line="Blackout Windows" d="M1360.0,930.0 L1500.1,1070.1 Q1510.0,1080.0 1510.0,1094.0 L1510.0,1180.0 L1510.0,1216.0 Q1510.0,1230.0 1519.9,1239.9 L1550.1,1270.1 Q1560.0,1280.0 1574.0,1280.0 L1660.0,1280.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Blackout Windows</title></path>
+<path class="line" data-line="Client CA Certificates" d="M1260.0,1030.0 L1119.9,889.9 Q1110.0,880.0 1096.0,880.0 L1024.0,880.0 Q1010.0,880.0 1000.1,870.1 L969.9,839.9 Q960.0,830.0 946.0,830.0 L810.0,830.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Client CA Certificates</title></path>
+<path class="line" data-line="Clusters" d="M1360.0,380.0 L1360.0,480.0 L1360.0,580.0 L1360.0,966.0 Q1360.0,980.0 1350.1,970.1 L1169.9,789.9 Q1160.0,780.0 1160.0,766.0 L1160.0,730.0 L1160.0,694.0 Q1160.0,680.0 1150.1,670.1 L1019.9,539.9 Q1010.0,530.0 996.0,530.0 L960.0,530.0 L860.0,530.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Clusters</title></path>
+<path class="line" data-line="CMEK" d="M1210.0,1130.0 L1169.9,1170.1 Q1160.0,1180.0 1150.1,1170.1 L1119.9,1139.9 Q1110.0,1130.0 1096.0,1130.0 L1010.0,1130.0 L660.0,1130.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>CMEK</title></path>
+<path class="line" data-line="Databases" d="M1310.0,1130.0 L1169.9,1270.1 Q1160.0,1280.0 1146.0,1280.0 L1074.0,1280.0 Q1060.0,1280.0 1050.1,1270.1 L1019.9,1239.9 Q1010.0,1230.0 996.0,1230.0 L760.0,1230.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Databases</title></path>
+<path class="line" data-line="Egress Private Endpoints" d="M1410.0,930.0 L1500.1,839.9 Q1510.0,830.0 1524.0,830.0 L1596.0,830.0 Q1610.0,830.0 1619.9,820.1 L1650.1,789.9 Q1660.0,780.0 1660.0,766.0 L1660.0,644.0 Q1660.0,630.0 1669.9,620.1 L1700.1,589.9 Q1710.0,580.0 1710.0,566.0 L1710.0,530.0 L1710.0,430.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Egress Private Endpoints</title></path>
+<path class="line" data-line="Egress Rules" d="M1510.0,730.0 L1546.0,730.0 Q1560.0,730.0 1560.0,716.0 L1560.0,494.0 Q1560.0,480.0 1550.1,470.1 L1519.9,439.9 Q1510.0,430.0 1510.0,416.0 L1510.0,330.0 L1510.0,230.0" fill="none" stroke="#dd5b93" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Egress Rules</title></path>
+<path class="line" data-line="Folders" d="M1860.0,2930.0 L1860.0,2830.0 L1860.0,2730.0 L1860.0,2644.0 Q1860.0,2630.0 1869.9,2620.1 L1960.0,2530.0 L2060.0,2430.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Folders</title></path>
+<path class="line" data-line="IP Allowlists" d="M1460.0,1030.0 L1596.0,1030.0 Q1610.0,1030.0 1619.9,1020.1 L1700.1,939.9 Q1710.0,930.0 1724.0,930.0 L1810.0,930.0 L1960.0,930.0" fill="none" stroke="#e86a51" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>IP Allowlists</title></path>
+<path class="line" data-line="JWT Issuers" d="M410.0,1430.0 L410.0,1330.0 L410.0,1194.0 Q410.0,1180.0 396.0,1180.0 L324.0,1180.0 Q310.0,1180.0 300.1,1189.9 L210.0,1280.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>JWT Issuers</title></path>
+<path class="line" data-line="Log Export" d="M1360.0,1030.0 L1319.9,1070.1 Q1310.0,1080.0 1310.0,1094.0 L1310.0,1280.0 L1310.0,1380.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Log Export</title></path>
+<path class="line" data-line="Maintenance Windows" d="M1260.0,930.0 L1060.0,730.0 L1010.0,680.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Maintenance Windows</title></path>
+<path class="line" data-line="Metric Export" d="M1410.0,1130.0 L1410.0,1230.0 L1410.0,1266.0 Q1410.0,1280.0 1419.9,1289.9 L1550.1,1420.1 Q1560.0,1430.0 1574.0,1430.0 L1610.0,1430.0 L1696.0,1430.0 Q1710.0,1430.0 1719.9,1439.9 L1810.0,1530.0 L1860.0,1580.0 L1960.0,1680.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Metric Export</title></path>
+<path class="line" data-line="Migration Assistant" d="M1510.0,1080.0 L1550.1,1120.1 Q1560.0,1130.0 1574.0,1130.0 L1660.0,1130.0 L1696.0,1130.0 Q1710.0,1130.0 1719.9,1120.1 L1800.1,1039.9 Q1810.0,1030.0 1824.0,1030.0 L1846.0,1030.0 Q1860.0,1030.0 1869.9,1039.9 L1960.0,1130.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Migration Assistant</title></path>
+<path class="line" data-line="Physical Cluster Replication" d="M160.0,1080.0 L246.0,1080.0 Q260.0,1080.0 269.9,1070.1 L360.0,980.0 L460.0,880.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Physical Cluster Replication</title></path>
+<path class="line" data-line="Ranges" d="M760.0,430.0 L624.0,430.0 Q610.0,430.0 610.0,444.0 L610.0,680.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ranges</title></path>
+<path class="line" data-line="Role Management" d="M1310.0,2430.0 L1310.0,2330.0 L1310.0,2230.0 L1310.0,2130.0 L1310.0,1980.0 L1310.0,1830.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Role Management</title></path>
+<path class="line" data-line="Runtime Scanning" d="M1210.0,980.0 L969.9,739.9 Q960.0,730.0 946.0,730.0 L924.0,730.0 Q910.0,730.0 900.1,720.1 L860.0,680.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Runtime Scanning</title></path>
+<path class="line" data-line="SCIM" d="M1110.0,830.0 L1210.0,830.0 L1310.0,830.0 L1410.0,830.0 L1496.0,830.0 Q1510.0,830.0 1519.9,839.9 L1610.0,930.0 L1710.0,1030.0 L1800.1,1120.1 Q1810.0,1130.0 1810.0,1144.0 L1810.0,1230.0 L1810.0,1330.0 L1810.0,1416.0 Q1810.0,1430.0 1800.1,1439.9 L1710.0,1530.0 L1610.0,1630.0 L1519.9,1720.1 Q1510.0,1730.0 1496.0,1730.0 L1410.0,1730.0 L1310.0,1730.0 L1224.0,1730.0 Q1210.0,1730.0 1200.1,1720.1 L1110.0,1630.0 L1010.0,1530.0 L919.9,1439.9 Q910.0,1430.0 910.0,1416.0 L910.0,1330.0 L910.0,1230.0 L910.0,1144.0 Q910.0,1130.0 919.9,1120.1 L1010.0,1030.0 L1100.1,939.9 Q1110.0,930.0 1110.0,916.0 L1110.0,830.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>SCIM</title></path>
+<path class="line" data-line="Service Accounts" d="M1010.0,3030.0 L1110.0,2930.0 L1200.1,2839.9 Q1210.0,2830.0 1210.0,2816.0 L1210.0,2744.0 Q1210.0,2730.0 1196.0,2730.0 L1110.0,2730.0 L1010.0,2730.0 L910.0,2730.0 L810.0,2730.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Accounts</title></path>
+<path class="line" data-line="SQL Users" d="M1110.0,1030.0 L1069.9,989.9 Q1060.0,980.0 1046.0,980.0 L910.0,980.0 L860.0,980.0 L760.0,980.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SQL Users</title></path>
+<path class="line" data-line="Virtual Cluster Workspaces" d="M1260.0,280.0 L1260.0,480.0 L1260.0,566.0 Q1260.0,580.0 1269.9,589.9 L1400.1,720.1 Q1410.0,730.0 1419.9,720.1 L1500.1,639.9 Q1510.0,630.0 1510.0,616.0 L1510.0,580.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Cluster Workspaces</title></path>
+<path class="line" data-line="More Local" d="M160.0,930.0 L160.0,830.0 L160.0,744.0 Q160.0,730.0 169.9,720.1 L250.1,639.9 Q260.0,630.0 274.0,630.0 L396.0,630.0 Q410.0,630.0 419.9,620.1 L450.1,589.9 Q460.0,580.0 474.0,580.0 L696.0,580.0 Q710.0,580.0 719.9,570.1 L810.0,480.0 L910.0,380.0 L1010.0,280.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1560" y1="2480" x2="1560.0" y2="2514.0" stroke="#1d33a9" stroke-width="7"/><rect x="1536.0" y="2503.0" width="48" height="22" rx="5" fill="#1d33a9"><title>API Keys</title></rect><text x="1560.0" y="2519.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="1810" y1="2280" x2="1844.0" y2="2280.0" stroke="#1d33a9" stroke-width="7"/><rect x="1820.0" y="2269.0" width="48" height="22" rx="5" fill="#1d33a9"><title>API Keys</title></rect><text x="1844.0" y="2285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="1310" y1="730" x2="1334.0416305603426" y2="754.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1310.0416305603426" y="743.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Backup/Restore</title></rect><text x="1334.0416305603426" y="759.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BR</text>
+<line x1="1160" y1="380" x2="1160.0" y2="346.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1136.0" y="335.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Backup/Restore</title></rect><text x="1160.0" y="351.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BR</text>
+<line x1="1510" y1="930" x2="1485.9583694396574" y2="954.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1461.9583694396574" y="943.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Private Endpoint Services</title></rect><text x="1485.9583694396574" y="959.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PES</text>
+<line x1="3060" y1="480" x2="3094.0" y2="480.0" stroke="#D6264F" stroke-width="7"/><rect x="3070.0" y="469.0" width="48" height="22" rx="5" fill="#D6264F"><title>Private Endpoint Services</title></rect><text x="3094.0" y="485.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PES</text>
+<line x1="1360" y1="930" x2="1335.9583694396574" y2="905.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1311.9583694396574" y="894.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Blackout Windows</title></rect><text x="1335.9583694396574" y="910.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BW</text>
+<line x1="1660" y1="1280" x2="1694.0" y2="1280.0" stroke="#2E7D32" stroke-width="7"/><rect x="1670.0" y="1269.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Blackout Windows</title></rect><text x="1694.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BW</text>
+<line x1="1260" y1="1030" x2="1284.0416305603426" y2="1054.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1260.0416305603426" y="1043.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Client CA Certificates</title></rect><text x="1284.0416305603426" y="1059.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CCC</text>
+<line x1="810" y1="830" x2="776.0" y2="830.0" stroke="#0B7A75" stroke-width="7"/><rect x="752.0" y="819.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Client CA Certificates</title></rect><text x="776.0" y="835.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CCC</text>
+<line x1="1360" y1="380" x2="1360.0" y2="346.0" stroke="#E07B12" stroke-width="7"/><rect x="1336.0" y="335.0" width="48" height="22" rx="5" fill="#E07B12"><title>Clusters</title></rect><text x="1360.0" y="351.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLU</text>
+<line x1="860" y1="530" x2="826.0" y2="530.0" stroke="#E07B12" stroke-width="7"/><rect x="802.0" y="519.0" width="48" height="22" rx="5" fill="#E07B12"><title>Clusters</title></rect><text x="826.0" y="535.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLU</text>
+<line x1="1210" y1="1130" x2="1234.0416305603426" y2="1105.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1210.0416305603426" y="1094.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>CMEK</title></rect><text x="1234.0416305603426" y="1110.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CME</text>
+<line x1="660" y1="1130" x2="626.0" y2="1130.0" stroke="#0E9F6E" stroke-width="7"/><rect x="602.0" y="1119.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>CMEK</title></rect><text x="626.0" y="1135.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CME</text>
+<line x1="1310" y1="1130" x2="1334.0416305603426" y2="1105.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1310.0416305603426" y="1094.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Databases</title></rect><text x="1334.0416305603426" y="1110.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="760" y1="1230" x2="726.0" y2="1230.0" stroke="#B0287F" stroke-width="7"/><rect x="702.0" y="1219.0" width="48" height="22" rx="5" fill="#B0287F"><title>Databases</title></rect><text x="726.0" y="1235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="1410" y1="930" x2="1385.9583694396574" y2="954.0416305603426" stroke="#af2328" stroke-width="7"/><rect x="1361.9583694396574" y="943.0416305603426" width="48" height="22" rx="5" fill="#af2328"><title>Egress Private Endpoints</title></rect><text x="1385.9583694396574" y="959.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EPE</text>
+<line x1="1710" y1="430" x2="1710.0" y2="396.0" stroke="#af2328" stroke-width="7"/><rect x="1686.0" y="385.0" width="48" height="22" rx="5" fill="#af2328"><title>Egress Private Endpoints</title></rect><text x="1710.0" y="401.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EPE</text>
+<line x1="1510" y1="730" x2="1476.0" y2="730.0" stroke="#dd5b93" stroke-width="7"/><rect x="1452.0" y="719.0" width="48" height="22" rx="5" fill="#dd5b93"><title>Egress Rules</title></rect><text x="1476.0" y="735.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ER</text>
+<line x1="1510" y1="230" x2="1510.0" y2="196.0" stroke="#dd5b93" stroke-width="7"/><rect x="1486.0" y="185.0" width="48" height="22" rx="5" fill="#dd5b93"><title>Egress Rules</title></rect><text x="1510.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ER</text>
+<line x1="1860" y1="2930" x2="1860.0" y2="2964.0" stroke="#B0287F" stroke-width="7"/><rect x="1836.0" y="2953.0" width="48" height="22" rx="5" fill="#B0287F"><title>Folders</title></rect><text x="1860.0" y="2969.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FOL</text>
+<line x1="2060" y1="2430" x2="2084.0416305603426" y2="2405.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="2060.0416305603426" y="2394.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Folders</title></rect><text x="2084.0416305603426" y="2410.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FOL</text>
+<line x1="1460" y1="1030" x2="1426.0" y2="1030.0" stroke="#e86a51" stroke-width="7"/><rect x="1402.0" y="1019.0" width="48" height="22" rx="5" fill="#e86a51"><title>IP Allowlists</title></rect><text x="1426.0" y="1035.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IA</text>
+<line x1="1960" y1="930" x2="1994.0" y2="930.0" stroke="#e86a51" stroke-width="7"/><rect x="1970.0" y="919.0" width="48" height="22" rx="5" fill="#e86a51"><title>IP Allowlists</title></rect><text x="1994.0" y="935.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IA</text>
+<line x1="410" y1="1430" x2="410.0" y2="1464.0" stroke="#5C6BC0" stroke-width="7"/><rect x="386.0" y="1453.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>JWT Issuers</title></rect><text x="410.0" y="1469.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JI</text>
+<line x1="210" y1="1280" x2="185.9583694396574" y2="1304.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="161.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>JWT Issuers</title></rect><text x="185.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JI</text>
+<line x1="1360" y1="1030" x2="1396.7695526217005" y2="993.2304473782996" stroke="#B8860B" stroke-width="7"/><rect x="1372.7695526217005" y="982.2304473782996" width="48" height="22" rx="5" fill="#B8860B"><title>Log Export</title></rect><text x="1396.7695526217005" y="998.2304473782996" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LE</text>
+<line x1="1310" y1="1380" x2="1310.0" y2="1414.0" stroke="#B8860B" stroke-width="7"/><rect x="1286.0" y="1403.0" width="48" height="22" rx="5" fill="#B8860B"><title>Log Export</title></rect><text x="1310.0" y="1419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LE</text>
+<line x1="1260" y1="930" x2="1284.0416305603426" y2="954.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1260.0416305603426" y="943.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Maintenance Windows</title></rect><text x="1284.0416305603426" y="959.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MW</text>
+<line x1="1010" y1="680" x2="985.9583694396574" y2="655.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="961.9583694396574" y="644.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Maintenance Windows</title></rect><text x="985.9583694396574" y="660.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MW</text>
+<line x1="1410" y1="1130" x2="1410.0" y2="1096.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1386.0" y="1085.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Metric Export</title></rect><text x="1410.0" y="1101.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ME</text>
+<line x1="1960" y1="1680" x2="1984.0416305603426" y2="1704.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1960.0416305603426" y="1693.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Metric Export</title></rect><text x="1984.0416305603426" y="1709.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ME</text>
+<line x1="1510" y1="1080" x2="1485.9583694396574" y2="1055.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1461.9583694396574" y="1044.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Migration Assistant</title></rect><text x="1485.9583694396574" y="1060.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MA</text>
+<line x1="1960" y1="1130" x2="1984.0416305603426" y2="1154.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1960.0416305603426" y="1143.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Migration Assistant</title></rect><text x="1984.0416305603426" y="1159.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MA</text>
+<line x1="160" y1="1080" x2="126.0" y2="1080.0" stroke="#00838F" stroke-width="7"/><rect x="102.0" y="1069.0" width="48" height="22" rx="5" fill="#00838F"><title>Physical Cluster Replication</title></rect><text x="126.0" y="1085.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PCR</text>
+<line x1="460" y1="880" x2="484.04163056034264" y2="855.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="460.04163056034264" y="844.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Physical Cluster Replication</title></rect><text x="484.04163056034264" y="860.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PCR</text>
+<line x1="760" y1="430" x2="794.0" y2="430.0" stroke="#E07B12" stroke-width="7"/><rect x="770.0" y="419.0" width="48" height="22" rx="5" fill="#E07B12"><title>Ranges</title></rect><text x="794.0" y="435.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RAN</text>
+<line x1="610" y1="680" x2="610.0" y2="714.0" stroke="#E07B12" stroke-width="7"/><rect x="586.0" y="703.0" width="48" height="22" rx="5" fill="#E07B12"><title>Ranges</title></rect><text x="610.0" y="719.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RAN</text>
+<line x1="1310" y1="2430" x2="1310.0" y2="2464.0" stroke="#0B7A75" stroke-width="7"/><rect x="1286.0" y="2453.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Role Management</title></rect><text x="1310.0" y="2469.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RM</text>
+<line x1="1310" y1="1830" x2="1310.0" y2="1796.0" stroke="#0B7A75" stroke-width="7"/><rect x="1286.0" y="1785.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Role Management</title></rect><text x="1310.0" y="1801.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RM</text>
+<line x1="1210" y1="980" x2="1234.0416305603426" y2="1004.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1210.0416305603426" y="993.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Runtime Scanning</title></rect><text x="1234.0416305603426" y="1009.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RS</text>
+<line x1="860" y1="680" x2="835.9583694396574" y2="655.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="811.9583694396574" y="644.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Runtime Scanning</title></rect><text x="835.9583694396574" y="660.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RS</text>
+<rect x="1080" y="777" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="1110" y="795" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">SCI</text>
+<line x1="1010" y1="3030" x2="985.9583694396574" y2="3054.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="961.9583694396574" y="3043.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Service Accounts</title></rect><text x="985.9583694396574" y="3059.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="810" y1="2730" x2="776.0" y2="2730.0" stroke="#7B3FE4" stroke-width="7"/><rect x="752.0" y="2719.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Service Accounts</title></rect><text x="776.0" y="2735.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="1110" y1="1030" x2="1134.0416305603426" y2="1054.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1110.0416305603426" y="1043.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>SQL Users</title></rect><text x="1134.0416305603426" y="1059.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SU</text>
+<line x1="760" y1="980" x2="726.0" y2="980.0" stroke="#1F5FD1" stroke-width="7"/><rect x="702.0" y="969.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>SQL Users</title></rect><text x="726.0" y="985.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SU</text>
+<line x1="1260" y1="280" x2="1260.0" y2="246.0" stroke="#C2410C" stroke-width="7"/><rect x="1236.0" y="235.0" width="48" height="22" rx="5" fill="#C2410C"><title>Virtual Cluster Workspaces</title></rect><text x="1260.0" y="251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VCW</text>
+<line x1="1510" y1="580" x2="1510.0" y2="546.0" stroke="#C2410C" stroke-width="7"/><rect x="1486.0" y="535.0" width="48" height="22" rx="5" fill="#C2410C"><title>Virtual Cluster Workspaces</title></rect><text x="1510.0" y="551.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VCW</text>
+<line x1="160" y1="930" x2="160.0" y2="964.0" stroke="#D6264F" stroke-width="7"/><rect x="136.0" y="953.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="160.0" y="969.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1010" y1="280" x2="1034.0416305603426" y2="255.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1010.0416305603426" y="244.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1034.0416305603426" y="260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-api-keys-api/#op-CockroachCloud_ListApiKeys" target="_blank" class="st" data-op="CockroachCloud_ListApiKeys"><title>GET /api/v1/api-keys
+API Keys line · CockroachCloud_ListApiKeys</title>
+<circle cx="1560" cy="2480" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1572" y="2485" text-anchor="start" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-api-keys-api/#op-CockroachCloud_CreateApiKey" target="_blank" class="st" data-op="CockroachCloud_CreateApiKey"><title>POST /api/v1/api-keys
+API Keys line · CockroachCloud_CreateApiKey</title>
+<circle cx="1560" cy="2380" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1572" y="2385" text-anchor="start" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-api-keys-api/#op-CockroachCloud_DeleteApiKey" target="_blank" class="st" data-op="CockroachCloud_DeleteApiKey"><title>DELETE /api/v1/api-keys/{id}
+API Keys line · CockroachCloud_DeleteApiKey</title>
+<circle cx="1810" cy="2280" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<line x1="1806" y1="2284" x2="1814" y2="2276" stroke="#1d33a9" stroke-width="2"/>
+<text x="1804" y="2292" text-anchor="end" transform="rotate(-45 1804 2292)" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-api-keys-api/#op-CockroachCloud_GetApiKey" target="_blank" class="st" data-op="CockroachCloud_GetApiKey"><title>GET /api/v1/api-keys/{id}
+API Keys line · CockroachCloud_GetApiKey</title>
+<circle cx="1560" cy="2280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1548.0" y="2285" text-anchor="end" style="fill:#1A1F2C">Get api key</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-api-keys-api/#op-CockroachCloud_UpdateApiKey" target="_blank" class="st" data-op="CockroachCloud_UpdateApiKey"><title>PATCH /api/v1/api-keys/{id}
+API Keys line · CockroachCloud_UpdateApiKey</title>
+<circle cx="1710" cy="2280" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1716" y="2268" transform="rotate(-45 1716 2268)" style="fill:#1A1F2C">Update api key</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-audit-logs-api/#op-CockroachCloud_ListAuditLogs" target="_blank" class="st" data-op="CockroachCloud_ListAuditLogs"><title>GET /api/v1/auditlogevents
+More Local line · CockroachCloud_ListAuditLogs</title>
+<circle cx="160" cy="930" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="148.0" y="935" text-anchor="end" style="fill:#1A1F2C">List auditlogevents</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-auth-api/#op-Login" target="_blank" class="st" data-op="Login"><title>POST /api/v2/login/
+More Local line · Login</title>
+<circle cx="460" cy="580" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="448.0" y="585" text-anchor="end" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-auth-api/#op-Logout" target="_blank" class="st" data-op="Logout"><title>POST /api/v2/logout/
+More Local line · Logout</title>
+<circle cx="710" cy="580" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="722" y="585" text-anchor="start" style="fill:#1A1F2C">Update logout</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-backup-restore-api/#op-CockroachCloud_ListBackups" target="_blank" class="st" data-op="CockroachCloud_ListBackups"><title>GET /api/v1/clusters/{cluster_id}/backups
+Backup/Restore line · CockroachCloud_ListBackups</title>
+<circle cx="1310" cy="730" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1301.0" y="749" text-anchor="end" style="fill:#1A1F2C">List backups <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-backup-restore-api/#op-CockroachCloud_GetBackupConfiguration" target="_blank" class="st" data-op="CockroachCloud_GetBackupConfiguration"><title>GET /api/v1/clusters/{cluster_id}/backups-config
+Backup/Restore line · CockroachCloud_GetBackupConfiguration</title>
+<circle cx="1260" cy="680" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1251.0" y="699" text-anchor="end" style="fill:#1A1F2C">Get backups config</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-backup-restore-api/#op-CockroachCloud_UpdateBackupConfiguration" target="_blank" class="st" data-op="CockroachCloud_UpdateBackupConfiguration"><title>PATCH /api/v1/clusters/{cluster_id}/backups-config
+Backup/Restore line · CockroachCloud_UpdateBackupConfiguration</title>
+<circle cx="1160" cy="580" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1160" y="552" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1160" dy="13">backups config</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-backup-restore-api/#op-CockroachCloud_ListRestores" target="_blank" class="st" data-op="CockroachCloud_ListRestores"><title>GET /api/v1/clusters/{cluster_id}/restores
+Backup/Restore line · CockroachCloud_ListRestores</title>
+<circle cx="1160" cy="480" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1172" y="485" text-anchor="start" style="fill:#1A1F2C">List restores</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-backup-restore-api/#op-CreateRestore" target="_blank" class="st" data-op="CreateRestore"><title>POST /api/v1/clusters/{cluster_id}/restores
+Private Endpoint Services line · CreateRestore</title>
+<circle cx="2860" cy="480" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2869" y="470" text-anchor="start" style="fill:#1A1F2C">Create restore</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-backup-restore-api/#op-CockroachCloud_GetRestore" target="_blank" class="st" data-op="CockroachCloud_GetRestore"><title>GET /api/v1/clusters/{cluster_id}/restores/{restore_id}
+Backup/Restore line · CockroachCloud_GetRestore</title>
+<circle cx="1160" cy="380" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1172" y="385" text-anchor="start" style="fill:#1A1F2C">Get restore</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-billing-api/#op-ListInvoices" target="_blank" class="st" data-op="ListInvoices"><title>GET /api/v1/invoices
+More Local line · ListInvoices</title>
+<circle cx="160" cy="830" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="835" text-anchor="start" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-billing-api/#op-GetInvoice" target="_blank" class="st" data-op="GetInvoice"><title>GET /api/v1/invoices/{invoice_id}
+More Local line · GetInvoice</title>
+<circle cx="160" cy="730" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="735" text-anchor="start" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-blackout-windows-api/#op-CockroachCloud_ListBlackoutWindows" target="_blank" class="st" data-op="CockroachCloud_ListBlackoutWindows"><title>GET /api/v1/clusters/{cluster_id}/blackout-windows
+Blackout Windows line · CockroachCloud_ListBlackoutWindows</title>
+<circle cx="1360" cy="930" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1369" y="920" text-anchor="start" style="fill:#1A1F2C">List blackout windows</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-blackout-windows-api/#op-CockroachCloud_CreateBlackoutWindow" target="_blank" class="st" data-op="CockroachCloud_CreateBlackoutWindow"><title>POST /api/v1/clusters/{cluster_id}/blackout-windows
+Blackout Windows line · CockroachCloud_CreateBlackoutWindow</title>
+<circle cx="1510" cy="1180" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1522" y="1185" text-anchor="start" style="fill:#1A1F2C">Create blackout window</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-blackout-windows-api/#op-CockroachCloud_DeleteBlackoutWindow" target="_blank" class="st" data-op="CockroachCloud_DeleteBlackoutWindow"><title>DELETE /api/v1/clusters/{cluster_id}/blackout-windows/{blackout_window_id}
+Blackout Windows line · CockroachCloud_DeleteBlackoutWindow</title>
+<circle cx="1660" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1656" y1="1284" x2="1664" y2="1276" stroke="#2E7D32" stroke-width="2"/>
+<text x="1654" y="1292" text-anchor="end" transform="rotate(-45 1654 1292)" style="fill:#1A1F2C">Delete blackout window</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-blackout-windows-api/#op-CockroachCloud_GetBlackoutWindow" target="_blank" class="st" data-op="CockroachCloud_GetBlackoutWindow"><title>GET /api/v1/clusters/{cluster_id}/blackout-windows/{blackout_window_id}
+Blackout Windows line · CockroachCloud_GetBlackoutWindow</title>
+<circle cx="1510" cy="1230" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1522" y="1235" text-anchor="start" style="fill:#1A1F2C">Get blackout window</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-blackout-windows-api/#op-CockroachCloud_UpdateBlackoutWindow" target="_blank" class="st" data-op="CockroachCloud_UpdateBlackoutWindow"><title>PATCH /api/v1/clusters/{cluster_id}/blackout-windows/{blackout_window_id}
+Blackout Windows line · CockroachCloud_UpdateBlackoutWindow</title>
+<circle cx="1560" cy="1280" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1560" y="1302" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1560" dy="13">blackout window</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-client-ca-certificates-api/#op-CockroachCloud_DeleteClientCACert" target="_blank" class="st" data-op="CockroachCloud_DeleteClientCACert"><title>DELETE /api/v1/clusters/{cluster_id}/client-ca-cert
+Client CA Certificates line · CockroachCloud_DeleteClientCACert</title>
+<circle cx="810" cy="830" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="806" y1="834" x2="814" y2="826" stroke="#0B7A75" stroke-width="2"/>
+<text x="819" y="820" text-anchor="start" style="fill:#1A1F2C">Delete client ca cert</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-client-ca-certificates-api/#op-CockroachCloud_GetClientCACert" target="_blank" class="st" data-op="CockroachCloud_GetClientCACert"><title>GET /api/v1/clusters/{cluster_id}/client-ca-cert
+Client CA Certificates line · CockroachCloud_GetClientCACert</title>
+<circle cx="1260" cy="1030" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1254" y="1042" text-anchor="end" transform="rotate(-45 1254 1042)" style="fill:#1A1F2C">Get client ca cert <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-client-ca-certificates-api/#op-CockroachCloud_UpdateClientCACert" target="_blank" class="st" data-op="CockroachCloud_UpdateClientCACert"><title>PATCH /api/v1/clusters/{cluster_id}/client-ca-cert
+Client CA Certificates line · CockroachCloud_UpdateClientCACert</title>
+<circle cx="960" cy="830" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="951.0" y="849" text-anchor="end" style="fill:#1A1F2C">Update client ca cert</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-client-ca-certificates-api/#op-CockroachCloud_SetClientCACert" target="_blank" class="st" data-op="CockroachCloud_SetClientCACert"><title>POST /api/v1/clusters/{cluster_id}/client-ca-cert
+Client CA Certificates line · CockroachCloud_SetClientCACert</title>
+<circle cx="1010" cy="880" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="998.0" y="885" text-anchor="end" style="fill:#1A1F2C">Update client ca cert</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-cluster-disruption-api/#op-CockroachCloud_GetClusterDisruptionInfo" target="_blank" class="st" data-op="CockroachCloud_GetClusterDisruptionInfo"><title>GET /api/v1/clusters/{cluster_id}/disrupt
+Private Endpoint Services line · CockroachCloud_GetClusterDisruptionInfo</title>
+<circle cx="1510" cy="930" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1498.0" y="935" text-anchor="end" style="fill:#1A1F2C">Get disrupt <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-cluster-disruption-api/#op-CockroachCloud_UpdateClusterDisruption" target="_blank" class="st" data-op="CockroachCloud_UpdateClusterDisruption"><title>PUT /api/v1/clusters/{cluster_id}/disrupt
+Private Endpoint Services line · CockroachCloud_UpdateClusterDisruption</title>
+<circle cx="1710" cy="830" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1722" y="835" text-anchor="start" style="fill:#1A1F2C">Update disrupt</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-ListClusters" target="_blank" class="st" data-op="ListClusters"><title>GET /api/v1/clusters
+Clusters line · ListClusters</title>
+<circle cx="1360" cy="480" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1372" y="485" text-anchor="start" style="fill:#1A1F2C">List clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-CreateCluster" target="_blank" class="st" data-op="CreateCluster"><title>POST /api/v1/clusters
+Clusters line · CreateCluster</title>
+<circle cx="1360" cy="580" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1372" y="585" text-anchor="start" style="fill:#1A1F2C">Create cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-GetCluster" target="_blank" class="st" data-op="GetCluster"><title>GET /api/v1/clusters/{cluster_id}
+Clusters line · GetCluster</title>
+<circle cx="1360" cy="980" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348.0" y="985" text-anchor="end" style="fill:#1A1F2C">Get cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-UpdateCluster" target="_blank" class="st" data-op="UpdateCluster"><title>PATCH /api/v1/clusters/{cluster_id}
+Clusters line · UpdateCluster</title>
+<circle cx="1160" cy="730" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1172" y="735" text-anchor="start" style="fill:#1A1F2C">Update cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-DeleteCluster" target="_blank" class="st" data-op="DeleteCluster"><title>DELETE /api/v1/clusters/{cluster_id}
+Clusters line · DeleteCluster</title>
+<circle cx="1160" cy="680" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1156" y1="684" x2="1164" y2="676" stroke="#E07B12" stroke-width="2"/>
+<text x="1169" y="670" text-anchor="start" style="fill:#1A1F2C">Delete cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-GetConnectionString" target="_blank" class="st" data-op="GetConnectionString"><title>GET /api/v1/clusters/{cluster_id}/connection-string
+Clusters line · GetConnectionString</title>
+<circle cx="960" cy="530" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="966" y="518" transform="rotate(-45 966 518)" style="fill:#1A1F2C">Get connection string</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-ListClusterNodes" target="_blank" class="st" data-op="ListClusterNodes"><title>GET /api/v1/clusters/{cluster_id}/nodes
+Clusters line · ListClusterNodes</title>
+<circle cx="860" cy="530" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="866" y="518" transform="rotate(-45 866 518)" style="fill:#1A1F2C">List nodes</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-ListAvailableRegions" target="_blank" class="st" data-op="ListAvailableRegions"><title>GET /api/v1/clusters/available-regions
+Clusters line · ListAvailableRegions</title>
+<circle cx="1010" cy="530" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1019" y="520" text-anchor="start" style="fill:#1A1F2C">List available regions</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-clusters-api/#op-ListMajorClusterVersions" target="_blank" class="st" data-op="ListMajorClusterVersions"><title>GET /api/v1/cluster-versions
+Clusters line · ListMajorClusterVersions</title>
+<circle cx="1360" cy="380" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1372" y="385" text-anchor="start" style="fill:#1A1F2C">List cluster versions</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-cmek-api/#op-GetCMEKClusterInfo" target="_blank" class="st" data-op="GetCMEKClusterInfo"><title>GET /api/v1/clusters/{cluster_id}/cmek
+CMEK line · GetCMEKClusterInfo</title>
+<circle cx="1210" cy="1130" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1222" y="1135" text-anchor="start" style="fill:#1A1F2C">Get cmek <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-cmek-api/#op-EnableCMEKSpec" target="_blank" class="st" data-op="EnableCMEKSpec"><title>POST /api/v1/clusters/{cluster_id}/cmek
+CMEK line · EnableCMEKSpec</title>
+<circle cx="1160" cy="1180" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1160" y="1203" text-anchor="middle" style="fill:#1A1F2C">Update cmek</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-cmek-api/#op-UpdateCMEKSpec" target="_blank" class="st" data-op="UpdateCMEKSpec"><title>PUT /api/v1/clusters/{cluster_id}/cmek
+CMEK line · UpdateCMEKSpec</title>
+<circle cx="1010" cy="1130" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1004" y="1142" text-anchor="end" transform="rotate(-45 1004 1142)" style="fill:#1A1F2C">Update cmek</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-cmek-api/#op-UpdateCMEKStatus" target="_blank" class="st" data-op="UpdateCMEKStatus"><title>PATCH /api/v1/clusters/{cluster_id}/cmek
+CMEK line · UpdateCMEKStatus</title>
+<circle cx="660" cy="1130" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="666" y="1118" transform="rotate(-45 666 1118)" style="fill:#1A1F2C">Update cmek</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-databases-api/#op-ListDatabases" target="_blank" class="st" data-op="ListDatabases"><title>GET /api/v1/clusters/{cluster_id}/databases
+Databases line · ListDatabases</title>
+<circle cx="1310" cy="1130" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1319" y="1120" text-anchor="start" style="fill:#1A1F2C">List databases <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-databases-api/#op-CreateDatabase" target="_blank" class="st" data-op="CreateDatabase"><title>POST /api/v1/clusters/{cluster_id}/databases
+Databases line · CreateDatabase</title>
+<circle cx="1160" cy="1280" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1151.0" y="1299" text-anchor="end" style="fill:#1A1F2C">Create databas</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-databases-api/#op-CockroachCloud_EditDatabase2" target="_blank" class="st" data-op="CockroachCloud_EditDatabase2"><title>PATCH /api/v1/clusters/{cluster_id}/databases
+Databases line · CockroachCloud_EditDatabase2</title>
+<circle cx="1060" cy="1280" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1048.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Create databas</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-databases-api/#op-EditDatabase" target="_blank" class="st" data-op="EditDatabase"><title>PATCH /api/v1/clusters/{cluster_id}/databases/{name}
+Databases line · EditDatabase</title>
+<circle cx="1010" cy="1230" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1022" y="1235" text-anchor="start" style="fill:#1A1F2C">Update databas</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-databases-api/#op-DeleteDatabase" target="_blank" class="st" data-op="DeleteDatabase"><title>DELETE /api/v1/clusters/{cluster_id}/databases/{name}
+Databases line · DeleteDatabase</title>
+<circle cx="760" cy="1230" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="756" y1="1234" x2="764" y2="1226" stroke="#B0287F" stroke-width="2"/>
+<text x="766" y="1218" transform="rotate(-45 766 1218)" style="fill:#1A1F2C">Delete databas</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-private-endpoints-api/#op-CockroachCloud_ListEgressPrivateEndpoints" target="_blank" class="st" data-op="CockroachCloud_ListEgressPrivateEndpoints"><title>GET /api/v1/clusters/{cluster_id}/networking/egress-private-endpoints
+Egress Private Endpoints line · CockroachCloud_ListEgressPrivateEndpoints</title>
+<circle cx="1410" cy="930" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1419" y="949" text-anchor="start" style="fill:#1A1F2C">List egress private endpoints</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-private-endpoints-api/#op-CockroachCloud_CreateEgressPrivateEndpoint" target="_blank" class="st" data-op="CockroachCloud_CreateEgressPrivateEndpoint"><title>POST /api/v1/clusters/{cluster_id}/networking/egress-private-endpoints
+Egress Private Endpoints line · CockroachCloud_CreateEgressPrivateEndpoint</title>
+<circle cx="1610" cy="830" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1601.0" y="820" text-anchor="end" style="fill:#1A1F2C">Create egress private endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-private-endpoints-api/#op-CockroachCloud_DeleteEgressPrivateEndpoint" target="_blank" class="st" data-op="CockroachCloud_DeleteEgressPrivateEndpoint"><title>DELETE /api/v1/clusters/{cluster_id}/networking/egress-private-endpoints/{id}
+Egress Private Endpoints line · CockroachCloud_DeleteEgressPrivateEndpoint</title>
+<circle cx="1710" cy="530" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<line x1="1706" y1="534" x2="1714" y2="526" stroke="#af2328" stroke-width="2"/>
+<text x="1722" y="535" text-anchor="start" style="fill:#1A1F2C">Delete egress private endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-private-endpoints-api/#op-CockroachCloud_GetEgressPrivateEndpoint" target="_blank" class="st" data-op="CockroachCloud_GetEgressPrivateEndpoint"><title>GET /api/v1/clusters/{cluster_id}/networking/egress-private-endpoints/{id}
+Egress Private Endpoints line · CockroachCloud_GetEgressPrivateEndpoint</title>
+<circle cx="1660" cy="630" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1672" y="635" text-anchor="start" style="fill:#1A1F2C">Get egress private endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-private-endpoints-api/#op-CockroachCloud_UpdateEgressPrivateEndpoint" target="_blank" class="st" data-op="CockroachCloud_UpdateEgressPrivateEndpoint"><title>PATCH /api/v1/clusters/{cluster_id}/networking/egress-private-endpoints/{id}
+Egress Private Endpoints line · CockroachCloud_UpdateEgressPrivateEndpoint</title>
+<circle cx="1710" cy="580" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1722" y="585" text-anchor="start" style="fill:#1A1F2C">Update egress private endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-private-endpoints-api/#op-CockroachCloud_UpdateEgressPrivateEndpointDomainNames" target="_blank" class="st" data-op="CockroachCloud_UpdateEgressPrivateEndpointDomainNames"><title>PATCH /api/v1/clusters/{cluster_id}/networking/egress-private-endpoints/{id}/domain-names
+Egress Private Endpoints line · CockroachCloud_UpdateEgressPrivateEndpointDomainNames
+DEPRECATED</title>
+<circle cx="1710" cy="430" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1722" y="435" text-anchor="start" style="fill:#A0A7B4">Create domain name</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-rules-api/#op-CockroachCloud_ListEgressRules" target="_blank" class="st" data-op="CockroachCloud_ListEgressRules"><title>GET /api/v1/clusters/{cluster_id}/networking/egress-rules
+Egress Rules line · CockroachCloud_ListEgressRules</title>
+<circle cx="1510" cy="730" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1519" y="749" text-anchor="start" style="fill:#1A1F2C">List egress rules <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-rules-api/#op-CockroachCloud_AddEgressRule" target="_blank" class="st" data-op="CockroachCloud_AddEgressRule"><title>POST /api/v1/clusters/{cluster_id}/networking/egress-rules
+Egress Rules line · CockroachCloud_AddEgressRule</title>
+<circle cx="1560" cy="730" r="5.5" fill="#dd5b93" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="1569" y="720" text-anchor="start" style="fill:#1A1F2C">Create egress rule</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-rules-api/#op-CockroachCloud_SetEgressTrafficPolicy" target="_blank" class="st" data-op="CockroachCloud_SetEgressTrafficPolicy"><title>POST /api/v1/clusters/{cluster_id}/networking/egress-rules/egress-traffic-policy
+Egress Rules line · CockroachCloud_SetEgressTrafficPolicy</title>
+<circle cx="1510" cy="230" r="5.5" fill="#dd5b93" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="1522" y="235" text-anchor="start" style="fill:#1A1F2C">Update egress traffic policy</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-rules-api/#op-CockroachCloud_DeleteEgressRule" target="_blank" class="st" data-op="CockroachCloud_DeleteEgressRule"><title>DELETE /api/v1/clusters/{cluster_id}/networking/egress-rules/{rule_id}
+Egress Rules line · CockroachCloud_DeleteEgressRule</title>
+<circle cx="1510" cy="330" r="5.5" fill="#fff" stroke="#dd5b93" stroke-width="2.5"/>
+<line x1="1506" y1="334" x2="1514" y2="326" stroke="#dd5b93" stroke-width="2"/>
+<text x="1522" y="335" text-anchor="start" style="fill:#1A1F2C">Delete egress rule</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-rules-api/#op-CockroachCloud_GetEgressRule" target="_blank" class="st" data-op="CockroachCloud_GetEgressRule"><title>GET /api/v1/clusters/{cluster_id}/networking/egress-rules/{rule_id}
+Egress Rules line · CockroachCloud_GetEgressRule</title>
+<circle cx="1560" cy="480" r="5.5" fill="#fff" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="1572" y="485" text-anchor="start" style="fill:#1A1F2C">Get egress rule</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-egress-rules-api/#op-CockroachCloud_EditEgressRule" target="_blank" class="st" data-op="CockroachCloud_EditEgressRule"><title>PATCH /api/v1/clusters/{cluster_id}/networking/egress-rules/{rule_id}
+Egress Rules line · CockroachCloud_EditEgressRule</title>
+<circle cx="1510" cy="430" r="5.5" fill="#dd5b93" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="1522" y="435" text-anchor="start" style="fill:#1A1F2C">Update egress rule</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-folders-api/#op-ListFolders" target="_blank" class="st" data-op="ListFolders"><title>GET /api/v1/folders
+Folders line · ListFolders</title>
+<circle cx="1860" cy="2930" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1872" y="2935" text-anchor="start" style="fill:#1A1F2C">List folders</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-folders-api/#op-CreateFolder" target="_blank" class="st" data-op="CreateFolder"><title>POST /api/v1/folders
+Folders line · CreateFolder</title>
+<circle cx="1860" cy="2830" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1872" y="2835" text-anchor="start" style="fill:#1A1F2C">Create folder</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-folders-api/#op-GetFolder" target="_blank" class="st" data-op="GetFolder"><title>GET /api/v1/folders/{folder_id}
+Folders line · GetFolder</title>
+<circle cx="1860" cy="2730" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1872" y="2735" text-anchor="start" style="fill:#1A1F2C">Get folder</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-folders-api/#op-UpdateFolder" target="_blank" class="st" data-op="UpdateFolder"><title>PATCH /api/v1/folders/{folder_id}
+Folders line · UpdateFolder</title>
+<circle cx="1860" cy="2630" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1872" y="2635" text-anchor="start" style="fill:#1A1F2C">Update folder</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-folders-api/#op-DeleteFolder" target="_blank" class="st" data-op="DeleteFolder"><title>DELETE /api/v1/folders/{folder_id}
+Folders line · DeleteFolder</title>
+<circle cx="1960" cy="2530" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1956" y1="2534" x2="1964" y2="2526" stroke="#B0287F" stroke-width="2"/>
+<text x="1972" y="2535" text-anchor="start" style="fill:#1A1F2C">Delete folder</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-folders-api/#op-ListFolderContents" target="_blank" class="st" data-op="ListFolderContents"><title>GET /api/v1/folders/{folder_id}/contents
+Folders line · ListFolderContents</title>
+<circle cx="2060" cy="2430" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2072" y="2435" text-anchor="start" style="fill:#1A1F2C">List contents</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-health-api/#op-Health" target="_blank" class="st" data-op="Health"><title>GET /api/v2/health/
+More Local line · Health</title>
+<circle cx="410" cy="630" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="422" y="635" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ip-allowlists-api/#op-CockroachCloud_ListAllowlistEntries" target="_blank" class="st" data-op="CockroachCloud_ListAllowlistEntries"><title>GET /api/v1/clusters/{cluster_id}/networking/allowlist
+IP Allowlists line · CockroachCloud_ListAllowlistEntries</title>
+<circle cx="1460" cy="1030" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1469" y="1020" text-anchor="start" style="fill:#1A1F2C">Get allowlist <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ip-allowlists-api/#op-CockroachCloud_AddAllowlistEntry" target="_blank" class="st" data-op="CockroachCloud_AddAllowlistEntry"><title>POST /api/v1/clusters/{cluster_id}/networking/allowlist
+IP Allowlists line · CockroachCloud_AddAllowlistEntry</title>
+<circle cx="1610" cy="1030" r="5.5" fill="#e86a51" stroke="#e86a51" stroke-width="2.5"/>
+<text x="1610" y="1052" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1610" dy="13">allowlist</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ip-allowlists-api/#op-CockroachCloud_DeleteAllowlistEntry" target="_blank" class="st" data-op="CockroachCloud_DeleteAllowlistEntry"><title>DELETE /api/v1/clusters/{cluster_id}/networking/allowlist/{cidr_ip}/{cidr_mask}
+IP Allowlists line · CockroachCloud_DeleteAllowlistEntry</title>
+<circle cx="1960" cy="930" r="5.5" fill="#fff" stroke="#e86a51" stroke-width="2.5"/>
+<line x1="1956" y1="934" x2="1964" y2="926" stroke="#e86a51" stroke-width="2"/>
+<text x="1951.0" y="920" text-anchor="end" style="fill:#1A1F2C">Delete allowlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ip-allowlists-api/#op-CockroachCloud_UpdateAllowlistEntry" target="_blank" class="st" data-op="CockroachCloud_UpdateAllowlistEntry"><title>PATCH /api/v1/clusters/{cluster_id}/networking/allowlist/{cidr_ip}/{cidr_mask}
+IP Allowlists line · CockroachCloud_UpdateAllowlistEntry</title>
+<circle cx="1810" cy="930" r="5.5" fill="#e86a51" stroke="#e86a51" stroke-width="2.5"/>
+<text x="1816" y="918" transform="rotate(-45 1816 918)" style="fill:#1A1F2C">Update allowlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ip-allowlists-api/#op-CockroachCloud_AddAllowlistEntry2" target="_blank" class="st" data-op="CockroachCloud_AddAllowlistEntry2"><title>PUT /api/v1/clusters/{cluster_id}/networking/allowlist/{cidr_ip}/{cidr_mask}
+IP Allowlists line · CockroachCloud_AddAllowlistEntry2</title>
+<circle cx="1710" cy="930" r="5.5" fill="#e86a51" stroke="#e86a51" stroke-width="2.5"/>
+<text x="1710" y="902" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1710" dy="13">allowlist</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-jwt-issuers-api/#op-CockroachCloud_ListJWTIssuers" target="_blank" class="st" data-op="CockroachCloud_ListJWTIssuers"><title>GET /api/v1/jwt-issuers
+JWT Issuers line · CockroachCloud_ListJWTIssuers</title>
+<circle cx="410" cy="1430" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="422" y="1435" text-anchor="start" style="fill:#1A1F2C">List jwt issuers</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-jwt-issuers-api/#op-CockroachCloud_AddJWTIssuer" target="_blank" class="st" data-op="CockroachCloud_AddJWTIssuer"><title>POST /api/v1/jwt-issuers
+JWT Issuers line · CockroachCloud_AddJWTIssuer</title>
+<circle cx="410" cy="1330" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="422" y="1335" text-anchor="start" style="fill:#1A1F2C">Create jwt issuer</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-jwt-issuers-api/#op-CockroachCloud_DeleteJWTIssuer" target="_blank" class="st" data-op="CockroachCloud_DeleteJWTIssuer"><title>DELETE /api/v1/jwt-issuers/{id}
+JWT Issuers line · CockroachCloud_DeleteJWTIssuer</title>
+<circle cx="210" cy="1280" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="206" y1="1284" x2="214" y2="1276" stroke="#5C6BC0" stroke-width="2"/>
+<text x="222" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete jwt issuer</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-jwt-issuers-api/#op-CockroachCloud_GetJWTIssuer" target="_blank" class="st" data-op="CockroachCloud_GetJWTIssuer"><title>GET /api/v1/jwt-issuers/{id}
+JWT Issuers line · CockroachCloud_GetJWTIssuer</title>
+<circle cx="410" cy="1180" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="422" y="1185" text-anchor="start" style="fill:#1A1F2C">Get jwt issuer</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-jwt-issuers-api/#op-CockroachCloud_UpdateJWTIssuer" target="_blank" class="st" data-op="CockroachCloud_UpdateJWTIssuer"><title>PATCH /api/v1/jwt-issuers/{id}
+JWT Issuers line · CockroachCloud_UpdateJWTIssuer</title>
+<circle cx="310" cy="1180" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="298.0" y="1185" text-anchor="end" style="fill:#1A1F2C">Update jwt issuer</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-log-export-api/#op-CockroachCloud_DeleteLogExport" target="_blank" class="st" data-op="CockroachCloud_DeleteLogExport"><title>DELETE /api/v1/clusters/{cluster_id}/logexport
+Log Export line · CockroachCloud_DeleteLogExport</title>
+<circle cx="1310" cy="1380" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1306" y1="1384" x2="1314" y2="1376" stroke="#B8860B" stroke-width="2"/>
+<text x="1322" y="1385" text-anchor="start" style="fill:#1A1F2C">Delete logexport</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-log-export-api/#op-CockroachCloud_GetLogExportInfo" target="_blank" class="st" data-op="CockroachCloud_GetLogExportInfo"><title>GET /api/v1/clusters/{cluster_id}/logexport
+Log Export line · CockroachCloud_GetLogExportInfo</title>
+<circle cx="1360" cy="1030" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348.0" y="1035" text-anchor="end" style="fill:#1A1F2C">Get logexport</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-log-export-api/#op-CockroachCloud_EnableLogExport" target="_blank" class="st" data-op="CockroachCloud_EnableLogExport"><title>POST /api/v1/clusters/{cluster_id}/logexport
+Log Export line · CockroachCloud_EnableLogExport</title>
+<circle cx="1310" cy="1280" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1298.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Update logexport</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-maintenance-windows-api/#op-CockroachCloud_DeleteMaintenanceWindow" target="_blank" class="st" data-op="CockroachCloud_DeleteMaintenanceWindow"><title>DELETE /api/v1/clusters/{cluster_id}/maintenance-window
+Maintenance Windows line · CockroachCloud_DeleteMaintenanceWindow</title>
+<circle cx="1010" cy="680" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="1006" y1="684" x2="1014" y2="676" stroke="#8D6E63" stroke-width="2"/>
+<text x="1022" y="678" text-anchor="start" style="fill:#1A1F2C">Delete<tspan x="1022" dy="13">maintenance window</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-maintenance-windows-api/#op-CockroachCloud_GetMaintenanceWindow" target="_blank" class="st" data-op="CockroachCloud_GetMaintenanceWindow"><title>GET /api/v1/clusters/{cluster_id}/maintenance-window
+Maintenance Windows line · CockroachCloud_GetMaintenanceWindow</title>
+<circle cx="1260" cy="930" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1248.0" y="928" text-anchor="end" style="fill:#1A1F2C">Get maintenance<tspan x="1248.0" dy="13">window <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-maintenance-windows-api/#op-CockroachCloud_SetMaintenanceWindow" target="_blank" class="st" data-op="CockroachCloud_SetMaintenanceWindow"><title>PUT /api/v1/clusters/{cluster_id}/maintenance-window
+Maintenance Windows line · CockroachCloud_SetMaintenanceWindow</title>
+<circle cx="1060" cy="730" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1069" y="720" text-anchor="start" style="fill:#1A1F2C">Update maintenance window</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_DeleteCloudWatchMetricExport" target="_blank" class="st" data-op="CockroachCloud_DeleteCloudWatchMetricExport"><title>DELETE /api/v1/clusters/{cluster_id}/metricexport/cloudwatch
+Metric Export line · CockroachCloud_DeleteCloudWatchMetricExport</title>
+<circle cx="1410" cy="1280" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1406" y1="1284" x2="1414" y2="1276" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1422" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete cloudwatch</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_GetCloudWatchMetricExportInfo" target="_blank" class="st" data-op="CockroachCloud_GetCloudWatchMetricExportInfo"><title>GET /api/v1/clusters/{cluster_id}/metricexport/cloudwatch
+Metric Export line · CockroachCloud_GetCloudWatchMetricExportInfo</title>
+<circle cx="1410" cy="1130" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1404" y="1142" text-anchor="end" transform="rotate(-45 1404 1142)" style="fill:#1A1F2C">Get cloudwatch <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_EnableCloudWatchMetricExport" target="_blank" class="st" data-op="CockroachCloud_EnableCloudWatchMetricExport"><title>POST /api/v1/clusters/{cluster_id}/metricexport/cloudwatch
+Metric Export line · CockroachCloud_EnableCloudWatchMetricExport</title>
+<circle cx="1410" cy="1230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1422" y="1228" text-anchor="start" style="fill:#1A1F2C">Update<tspan x="1422" dy="13">cloudwatch</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_DeleteDatadogMetricExport" target="_blank" class="st" data-op="CockroachCloud_DeleteDatadogMetricExport"><title>DELETE /api/v1/clusters/{cluster_id}/metricexport/datadog
+Metric Export line · CockroachCloud_DeleteDatadogMetricExport</title>
+<circle cx="1710" cy="1430" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1706" y1="1434" x2="1714" y2="1426" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1719" y="1420" text-anchor="start" style="fill:#1A1F2C">Delete datadog</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_GetDatadogMetricExportInfo" target="_blank" class="st" data-op="CockroachCloud_GetDatadogMetricExportInfo"><title>GET /api/v1/clusters/{cluster_id}/metricexport/datadog
+Metric Export line · CockroachCloud_GetDatadogMetricExportInfo</title>
+<circle cx="1560" cy="1430" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1548.0" y="1435" text-anchor="end" style="fill:#1A1F2C">Get datadog</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_EnableDatadogMetricExport" target="_blank" class="st" data-op="CockroachCloud_EnableDatadogMetricExport"><title>POST /api/v1/clusters/{cluster_id}/metricexport/datadog
+Metric Export line · CockroachCloud_EnableDatadogMetricExport</title>
+<circle cx="1610" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1616" y="1418" transform="rotate(-45 1616 1418)" style="fill:#1A1F2C">Update datadog <tspan font-weight="700" style="fill:#1d33a9">⇄AK</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_DeletePrometheusMetricExport" target="_blank" class="st" data-op="CockroachCloud_DeletePrometheusMetricExport"><title>DELETE /api/v1/clusters/{cluster_id}/metricexport/prometheus
+Metric Export line · CockroachCloud_DeletePrometheusMetricExport</title>
+<circle cx="1960" cy="1680" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1956" y1="1684" x2="1964" y2="1676" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1972" y="1685" text-anchor="start" style="fill:#1A1F2C">Delete prometheu</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_GetPrometheusMetricExportInfo" target="_blank" class="st" data-op="CockroachCloud_GetPrometheusMetricExportInfo"><title>GET /api/v1/clusters/{cluster_id}/metricexport/prometheus
+Metric Export line · CockroachCloud_GetPrometheusMetricExportInfo</title>
+<circle cx="1810" cy="1530" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1822" y="1535" text-anchor="start" style="fill:#1A1F2C">List prometheus</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-metric-export-api/#op-CockroachCloud_EnablePrometheusMetricExport" target="_blank" class="st" data-op="CockroachCloud_EnablePrometheusMetricExport"><title>POST /api/v1/clusters/{cluster_id}/metricexport/prometheus
+Metric Export line · CockroachCloud_EnablePrometheusMetricExport</title>
+<circle cx="1860" cy="1580" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1872" y="1585" text-anchor="start" style="fill:#1A1F2C">Create prometheu</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-migration-assistant-api/#op-CockroachCloud_DeleteMigrationAssistant" target="_blank" class="st" data-op="CockroachCloud_DeleteMigrationAssistant"><title>DELETE /api/v1/clusters/{cluster_id}/migration-assistant
+Migration Assistant line · CockroachCloud_DeleteMigrationAssistant</title>
+<circle cx="1660" cy="1130" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1656" y1="1134" x2="1664" y2="1126" stroke="#B8860B" stroke-width="2"/>
+<text x="1660" y="1102" text-anchor="middle" style="fill:#1A1F2C">Delete migration<tspan x="1660" dy="13">assistant</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-migration-assistant-api/#op-CockroachCloud_GetMigrationAssistant" target="_blank" class="st" data-op="CockroachCloud_GetMigrationAssistant"><title>GET /api/v1/clusters/{cluster_id}/migration-assistant
+Migration Assistant line · CockroachCloud_GetMigrationAssistant</title>
+<circle cx="1510" cy="1080" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1522" y="1085" text-anchor="start" style="fill:#1A1F2C">Get migration assistant <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-migration-assistant-api/#op-CockroachCloud_CreateMigrationAssistant" target="_blank" class="st" data-op="CockroachCloud_CreateMigrationAssistant"><title>POST /api/v1/clusters/{cluster_id}/migration-assistant
+Migration Assistant line · CockroachCloud_CreateMigrationAssistant</title>
+<circle cx="1560" cy="1130" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1569" y="1149" text-anchor="start" style="fill:#1A1F2C">Update migration assistant</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-migration-assistant-api/#op-CockroachCloud_DeleteMigrationAssistantSourceCACert" target="_blank" class="st" data-op="CockroachCloud_DeleteMigrationAssistantSourceCACert"><title>DELETE /api/v1/clusters/{cluster_id}/migration-assistant/source-ca-cert
+Migration Assistant line · CockroachCloud_DeleteMigrationAssistantSourceCACert</title>
+<circle cx="1960" cy="1130" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1956" y1="1134" x2="1964" y2="1126" stroke="#B8860B" stroke-width="2"/>
+<text x="1972" y="1135" text-anchor="start" style="fill:#1A1F2C">Delete source ca cert</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-migration-assistant-api/#op-CockroachCloud_GetMigrationAssistantSourceCACert" target="_blank" class="st" data-op="CockroachCloud_GetMigrationAssistantSourceCACert"><title>GET /api/v1/clusters/{cluster_id}/migration-assistant/source-ca-cert
+Migration Assistant line · CockroachCloud_GetMigrationAssistantSourceCACert</title>
+<circle cx="1710" cy="1130" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1710" y="1166" text-anchor="middle" style="fill:#1A1F2C">Get source ca cert</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-migration-assistant-api/#op-CockroachCloud_UpdateMigrationAssistantSourceCACert" target="_blank" class="st" data-op="CockroachCloud_UpdateMigrationAssistantSourceCACert"><title>PATCH /api/v1/clusters/{cluster_id}/migration-assistant/source-ca-cert
+Migration Assistant line · CockroachCloud_UpdateMigrationAssistantSourceCACert</title>
+<circle cx="1860" cy="1030" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1860" y="1016" text-anchor="middle" style="fill:#1A1F2C">Update source ca cert</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-nodes-api/#op-ListNodes" target="_blank" class="st" data-op="ListNodes"><title>GET /api/v2/nodes/
+More Local line · ListNodes</title>
+<circle cx="810" cy="480" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="822" y="485" text-anchor="start" style="fill:#1A1F2C">List nodes</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-organizations-api/#op-GetOrganizationInfo" target="_blank" class="st" data-op="GetOrganizationInfo"><title>GET /api/v1/organization
+More Local line · GetOrganizationInfo</title>
+<circle cx="260" cy="630" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="248.0" y="635" text-anchor="end" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-physical-cluster-replication-api/#op-CockroachCloud_ListPhysicalReplicationStreams" target="_blank" class="st" data-op="CockroachCloud_ListPhysicalReplicationStreams"><title>GET /api/v1/physical-replication-streams
+Physical Cluster Replication line · CockroachCloud_ListPhysicalReplicationStreams</title>
+<circle cx="160" cy="1080" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="166" y="1068" transform="rotate(-45 166 1068)" style="fill:#1A1F2C">List physical replication streams</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-physical-cluster-replication-api/#op-CockroachCloud_CreatePhysicalReplicationStream" target="_blank" class="st" data-op="CockroachCloud_CreatePhysicalReplicationStream"><title>POST /api/v1/physical-replication-streams
+Physical Cluster Replication line · CockroachCloud_CreatePhysicalReplicationStream</title>
+<circle cx="260" cy="1080" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="272" y="1085" text-anchor="start" style="fill:#1A1F2C">Create physical replication stream</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-physical-cluster-replication-api/#op-CockroachCloud_GetPhysicalReplicationStream" target="_blank" class="st" data-op="CockroachCloud_GetPhysicalReplicationStream"><title>GET /api/v1/physical-replication-streams/{id}
+Physical Cluster Replication line · CockroachCloud_GetPhysicalReplicationStream</title>
+<circle cx="360" cy="980" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="372" y="985" text-anchor="start" style="fill:#1A1F2C">Get physical replication stream</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-physical-cluster-replication-api/#op-CockroachCloud_UpdatePhysicalReplicationStream" target="_blank" class="st" data-op="CockroachCloud_UpdatePhysicalReplicationStream"><title>PATCH /api/v1/physical-replication-streams/{id}
+Physical Cluster Replication line · CockroachCloud_UpdatePhysicalReplicationStream</title>
+<circle cx="460" cy="880" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="472" y="885" text-anchor="start" style="fill:#1A1F2C">Update physical replication stream</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_ListAwsEndpointConnections" target="_blank" class="st" data-op="CockroachCloud_ListAwsEndpointConnections"><title>GET /api/v1/clusters/{cluster_id}/networking/aws-endpoint-connections
+Private Endpoint Services line · CockroachCloud_ListAwsEndpointConnections</title>
+<circle cx="1710" cy="780" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1722" y="785" text-anchor="start" style="fill:#1A1F2C">List aws endpoint connections</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_SetAwsEndpointConnectionState" target="_blank" class="st" data-op="CockroachCloud_SetAwsEndpointConnectionState"><title>PATCH /api/v1/clusters/{cluster_id}/networking/aws-endpoint-connections/{endpoint_id}
+Private Endpoint Services line · CockroachCloud_SetAwsEndpointConnectionState</title>
+<circle cx="1760" cy="730" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1769" y="720" text-anchor="start" style="fill:#1A1F2C">Update aws endpoint connection</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_ListPrivateEndpointConnections" target="_blank" class="st" data-op="CockroachCloud_ListPrivateEndpointConnections"><title>GET /api/v1/clusters/{cluster_id}/networking/private-endpoint-connections
+Private Endpoint Services line · CockroachCloud_ListPrivateEndpointConnections</title>
+<circle cx="1910" cy="730" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1910" y="753" text-anchor="middle" style="fill:#1A1F2C">List private endpoint connections</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_AddPrivateEndpointConnection" target="_blank" class="st" data-op="CockroachCloud_AddPrivateEndpointConnection"><title>POST /api/v1/clusters/{cluster_id}/networking/private-endpoint-connections
+Private Endpoint Services line · CockroachCloud_AddPrivateEndpointConnection</title>
+<circle cx="2010" cy="730" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2022" y="735" text-anchor="start" style="fill:#1A1F2C">Create private endpoint connection</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_DeletePrivateEndpointConnection" target="_blank" class="st" data-op="CockroachCloud_DeletePrivateEndpointConnection"><title>DELETE /api/v1/clusters/{cluster_id}/networking/private-endpoint-connections/{endpoint_id}
+Private Endpoint Services line · CockroachCloud_DeletePrivateEndpointConnection</title>
+<circle cx="2060" cy="680" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2056" y1="684" x2="2064" y2="676" stroke="#D6264F" stroke-width="2"/>
+<text x="2048.0" y="685" text-anchor="end" style="fill:#1A1F2C">Delete private endpoint connection</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_ListPrivateEndpointServices" target="_blank" class="st" data-op="CockroachCloud_ListPrivateEndpointServices"><title>GET /api/v1/clusters/{cluster_id}/networking/private-endpoint-services
+Private Endpoint Services line · CockroachCloud_ListPrivateEndpointServices</title>
+<circle cx="2260" cy="680" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2269" y="670" text-anchor="start" style="fill:#1A1F2C">List private endpoint services</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_CreatePrivateEndpointServices" target="_blank" class="st" data-op="CockroachCloud_CreatePrivateEndpointServices"><title>POST /api/v1/clusters/{cluster_id}/networking/private-endpoint-services
+Private Endpoint Services line · CockroachCloud_CreatePrivateEndpointServices</title>
+<circle cx="2310" cy="730" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2301.0" y="749" text-anchor="end" style="fill:#1A1F2C">Create private endpoint service</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_ListPrivateEndpointTrustedOwners" target="_blank" class="st" data-op="CockroachCloud_ListPrivateEndpointTrustedOwners"><title>GET /api/v1/clusters/{cluster_id}/networking/private-endpoint-trusted-owners
+Private Endpoint Services line · CockroachCloud_ListPrivateEndpointTrustedOwners</title>
+<circle cx="2410" cy="730" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2422" y="735" text-anchor="start" style="fill:#1A1F2C">List private endpoint trusted owners</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_AddPrivateEndpointTrustedOwner" target="_blank" class="st" data-op="CockroachCloud_AddPrivateEndpointTrustedOwner"><title>POST /api/v1/clusters/{cluster_id}/networking/private-endpoint-trusted-owners
+Private Endpoint Services line · CockroachCloud_AddPrivateEndpointTrustedOwner</title>
+<circle cx="2510" cy="630" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2498.0" y="635" text-anchor="end" style="fill:#1A1F2C">Create private endpoint trusted owner</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_RemovePrivateEndpointTrustedOwner" target="_blank" class="st" data-op="CockroachCloud_RemovePrivateEndpointTrustedOwner"><title>DELETE /api/v1/clusters/{cluster_id}/networking/private-endpoint-trusted-owners/{owner_id}
+Private Endpoint Services line · CockroachCloud_RemovePrivateEndpointTrustedOwner</title>
+<circle cx="2710" cy="630" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2706" y1="634" x2="2714" y2="626" stroke="#D6264F" stroke-width="2"/>
+<text x="2722" y="635" text-anchor="start" style="fill:#1A1F2C">Delete private endpoint trusted owner</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-private-endpoint-services-api/#op-CockroachCloud_GetPrivateEndpointTrustedOwner" target="_blank" class="st" data-op="CockroachCloud_GetPrivateEndpointTrustedOwner"><title>GET /api/v1/clusters/{cluster_id}/networking/private-endpoint-trusted-owners/{owner_id}
+Private Endpoint Services line · CockroachCloud_GetPrivateEndpointTrustedOwner</title>
+<circle cx="2610" cy="630" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2616" y="618" transform="rotate(-45 2616 618)" style="fill:#1A1F2C">Get private endpoint trusted owner</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ranges-api/#op-ListNodeRanges" target="_blank" class="st" data-op="ListNodeRanges"><title>GET /api/v2/nodes/{node_id}/ranges/
+Ranges line · ListNodeRanges</title>
+<circle cx="760" cy="430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="754" y="442" text-anchor="end" transform="rotate(-45 754 442)" style="fill:#1A1F2C">List ranges</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ranges-api/#op-ListHotRanges" target="_blank" class="st" data-op="ListHotRanges"><title>GET /api/v2/ranges/hot/
+Ranges line · ListHotRanges</title>
+<circle cx="610" cy="680" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="622" y="685" text-anchor="start" style="fill:#1A1F2C">Get hot</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-ranges-api/#op-GetRange" target="_blank" class="st" data-op="GetRange"><title>GET /api/v2/ranges/{range_id}/
+Ranges line · GetRange</title>
+<circle cx="610" cy="430" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="598.0" y="435" text-anchor="end" style="fill:#1A1F2C">Get range</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-role-management-api/#op-CockroachCloud_ListRoleGrants" target="_blank" class="st" data-op="CockroachCloud_ListRoleGrants"><title>GET /api/v1/roles
+Role Management line · CockroachCloud_ListRoleGrants</title>
+<circle cx="1310" cy="2430" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1322" y="2435" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-role-management-api/#op-CockroachCloud_GetAllRolesForUser" target="_blank" class="st" data-op="CockroachCloud_GetAllRolesForUser"><title>GET /api/v1/roles/{user_id}
+Role Management line · CockroachCloud_GetAllRolesForUser</title>
+<circle cx="1310" cy="2330" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1322" y="2335" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-role-management-api/#op-CockroachCloud_SetRolesForUser" target="_blank" class="st" data-op="CockroachCloud_SetRolesForUser"><title>PUT /api/v1/roles/{user_id}
+Role Management line · CockroachCloud_SetRolesForUser</title>
+<circle cx="1310" cy="2230" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1322" y="2235" text-anchor="start" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-role-management-api/#op-CockroachCloud_RemoveUserFromRole" target="_blank" class="st" data-op="CockroachCloud_RemoveUserFromRole"><title>DELETE /api/v1/roles/{user_id}/{resource_type}/{resource_id}/{role_name}
+Role Management line · CockroachCloud_RemoveUserFromRole</title>
+<circle cx="1310" cy="1980" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1306" y1="1984" x2="1314" y2="1976" stroke="#0B7A75" stroke-width="2"/>
+<text x="1322" y="1985" text-anchor="start" style="fill:#1A1F2C">Delete role</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-role-management-api/#op-CockroachCloud_AddUserToRole" target="_blank" class="st" data-op="CockroachCloud_AddUserToRole"><title>POST /api/v1/roles/{user_id}/{resource_type}/{resource_id}/{role_name}
+Role Management line · CockroachCloud_AddUserToRole</title>
+<circle cx="1310" cy="2130" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1322" y="2135" text-anchor="start" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-role-management-api/#op-CockroachCloud_GetPersonUsersByEmail" target="_blank" class="st" data-op="CockroachCloud_GetPersonUsersByEmail"><title>GET /api/v1/users/persons-by-email
+Role Management line · CockroachCloud_GetPersonUsersByEmail</title>
+<circle cx="1310" cy="1830" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1322" y="1835" text-anchor="start" style="fill:#1A1F2C">Get persons by email</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-rules-api/#op-GetAlertingRules" target="_blank" class="st" data-op="GetAlertingRules"><title>GET /api/v2/rules/
+More Local line · GetAlertingRules</title>
+<circle cx="910" cy="380" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="922" y="385" text-anchor="start" style="fill:#1A1F2C">List rules</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-runtime-scanning-api/#op-CockroachCloud_DisableClusterRuntimeScanning" target="_blank" class="st" data-op="CockroachCloud_DisableClusterRuntimeScanning"><title>DELETE /api/v1/clusters/{cluster_id}/runtime-scanning
+Runtime Scanning line · CockroachCloud_DisableClusterRuntimeScanning</title>
+<circle cx="860" cy="680" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="856" y1="684" x2="864" y2="676" stroke="#C2410C" stroke-width="2"/>
+<text x="848.0" y="685" text-anchor="end" style="fill:#1A1F2C">Delete runtime scanning</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-runtime-scanning-api/#op-CockroachCloud_GetClusterRuntimeScanning" target="_blank" class="st" data-op="CockroachCloud_GetClusterRuntimeScanning"><title>GET /api/v1/clusters/{cluster_id}/runtime-scanning
+Runtime Scanning line · CockroachCloud_GetClusterRuntimeScanning</title>
+<circle cx="1210" cy="980" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1198.0" y="978" text-anchor="end" style="fill:#1A1F2C">Get runtime<tspan x="1198.0" dy="13">scanning <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-runtime-scanning-api/#op-CockroachCloud_EnableClusterRuntimeScanning" target="_blank" class="st" data-op="CockroachCloud_EnableClusterRuntimeScanning"><title>POST /api/v1/clusters/{cluster_id}/runtime-scanning
+Runtime Scanning line · CockroachCloud_EnableClusterRuntimeScanning</title>
+<circle cx="910" cy="730" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="898.0" y="735" text-anchor="end" style="fill:#1A1F2C">Update runtime scanning</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetGroups" target="_blank" class="st" data-op="CockroachCloud_GetGroups"><title>GET /api/scim/v2/Groups
+SCIM line · CockroachCloud_GetGroups</title>
+<circle cx="1110" cy="830" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1101.0" y="849" text-anchor="end" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_CreateGroup" target="_blank" class="st" data-op="CockroachCloud_CreateGroup"><title>POST /api/scim/v2/Groups
+SCIM line · CockroachCloud_CreateGroup</title>
+<circle cx="1210" cy="830" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1216" y="818" transform="rotate(-45 1216 818)" style="fill:#1A1F2C">Create group</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_SearchGroups" target="_blank" class="st" data-op="CockroachCloud_SearchGroups"><title>POST /api/scim/v2/Groups/.search
+SCIM line · CockroachCloud_SearchGroups</title>
+<circle cx="1310" cy="830" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1310" y="816" text-anchor="middle" style="fill:#1A1F2C">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetGroups2" target="_blank" class="st" data-op="CockroachCloud_GetGroups2"><title>PUT /api/scim/v2/Groups/.search
+SCIM line · CockroachCloud_GetGroups2
+DEPRECATED</title>
+<circle cx="1410" cy="830" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1410" y="853" text-anchor="middle" style="fill:#A0A7B4">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_DeleteGroup" target="_blank" class="st" data-op="CockroachCloud_DeleteGroup"><title>DELETE /api/scim/v2/Groups/{id}
+SCIM line · CockroachCloud_DeleteGroup</title>
+<circle cx="1810" cy="1130" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1806" y1="1134" x2="1814" y2="1126" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1822" y="1135" text-anchor="start" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetGroup" target="_blank" class="st" data-op="CockroachCloud_GetGroup"><title>GET /api/scim/v2/Groups/{id}
+SCIM line · CockroachCloud_GetGroup</title>
+<circle cx="1510" cy="830" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1510" y="803" text-anchor="middle" style="fill:#1A1F2C">Get group</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_PatchGroup" target="_blank" class="st" data-op="CockroachCloud_PatchGroup"><title>PATCH /api/scim/v2/Groups/{id}
+SCIM line · CockroachCloud_PatchGroup</title>
+<circle cx="1710" cy="1030" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1722" y="1035" text-anchor="start" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_UpdateGroup" target="_blank" class="st" data-op="CockroachCloud_UpdateGroup"><title>PUT /api/scim/v2/Groups/{id}
+SCIM line · CockroachCloud_UpdateGroup</title>
+<circle cx="1610" cy="930" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1622" y="935" text-anchor="start" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_SearchGroup" target="_blank" class="st" data-op="CockroachCloud_SearchGroup"><title>POST /api/scim/v2/Groups/{id}/.search
+SCIM line · CockroachCloud_SearchGroup</title>
+<circle cx="1810" cy="1230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1822" y="1235" text-anchor="start" style="fill:#1A1F2C">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetGroup2" target="_blank" class="st" data-op="CockroachCloud_GetGroup2"><title>PUT /api/scim/v2/Groups/{id}/.search
+SCIM line · CockroachCloud_GetGroup2
+DEPRECATED</title>
+<circle cx="1810" cy="1330" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1822" y="1335" text-anchor="start" style="fill:#A0A7B4">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetResourceTypes" target="_blank" class="st" data-op="CockroachCloud_GetResourceTypes"><title>GET /api/scim/v2/ResourceTypes
+SCIM line · CockroachCloud_GetResourceTypes</title>
+<circle cx="1810" cy="1430" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1822" y="1435" text-anchor="start" style="fill:#1A1F2C">List resourcetypes</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetResourceType" target="_blank" class="st" data-op="CockroachCloud_GetResourceType"><title>GET /api/scim/v2/ResourceTypes/{resourceId}
+SCIM line · CockroachCloud_GetResourceType</title>
+<circle cx="1710" cy="1530" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1698.0" y="1535" text-anchor="end" style="fill:#1A1F2C">Get resourcetype</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetSchemas" target="_blank" class="st" data-op="CockroachCloud_GetSchemas"><title>GET /api/scim/v2/Schemas
+SCIM line · CockroachCloud_GetSchemas</title>
+<circle cx="1610" cy="1630" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1622" y="1635" text-anchor="start" style="fill:#1A1F2C">List schemas</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetSchema" target="_blank" class="st" data-op="CockroachCloud_GetSchema"><title>GET /api/scim/v2/Schemas/{schemaId}
+SCIM line · CockroachCloud_GetSchema</title>
+<circle cx="1510" cy="1730" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1522" y="1735" text-anchor="start" style="fill:#1A1F2C">Get schema</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetServiceProviderConfig" target="_blank" class="st" data-op="CockroachCloud_GetServiceProviderConfig"><title>GET /api/scim/v2/ServiceProviderConfig
+SCIM line · CockroachCloud_GetServiceProviderConfig</title>
+<circle cx="1410" cy="1730" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1416" y="1718" transform="rotate(-45 1416 1718)" style="fill:#1A1F2C">Get serviceproviderconfig</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetUsers" target="_blank" class="st" data-op="CockroachCloud_GetUsers"><title>GET /api/scim/v2/Users
+SCIM line · CockroachCloud_GetUsers</title>
+<circle cx="1310" cy="1730" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1316" y="1718" transform="rotate(-45 1316 1718)" style="fill:#1A1F2C">List users <tspan font-weight="700" style="fill:#0B7A75">⇄RM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_CreateUser" target="_blank" class="st" data-op="CockroachCloud_CreateUser"><title>POST /api/scim/v2/Users
+SCIM line · CockroachCloud_CreateUser</title>
+<circle cx="1210" cy="1730" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1198.0" y="1735" text-anchor="end" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_SearchUsers" target="_blank" class="st" data-op="CockroachCloud_SearchUsers"><title>POST /api/scim/v2/Users/.search
+SCIM line · CockroachCloud_SearchUsers</title>
+<circle cx="1110" cy="1630" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1122" y="1635" text-anchor="start" style="fill:#1A1F2C">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetUsers2" target="_blank" class="st" data-op="CockroachCloud_GetUsers2"><title>PUT /api/scim/v2/Users/.search
+SCIM line · CockroachCloud_GetUsers2
+DEPRECATED</title>
+<circle cx="1010" cy="1530" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1022" y="1535" text-anchor="start" style="fill:#A0A7B4">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_DeleteUser" target="_blank" class="st" data-op="CockroachCloud_DeleteUser"><title>DELETE /api/scim/v2/Users/{id}
+SCIM line · CockroachCloud_DeleteUser</title>
+<circle cx="910" cy="1130" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="906" y1="1134" x2="914" y2="1126" stroke="#0E9F6E" stroke-width="2"/>
+<text x="901.0" y="1149" text-anchor="end" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetUser" target="_blank" class="st" data-op="CockroachCloud_GetUser"><title>GET /api/scim/v2/Users/{id}
+SCIM line · CockroachCloud_GetUser</title>
+<circle cx="910" cy="1430" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="922" y="1435" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_PatchUser" target="_blank" class="st" data-op="CockroachCloud_PatchUser"><title>PATCH /api/scim/v2/Users/{id}
+SCIM line · CockroachCloud_PatchUser</title>
+<circle cx="910" cy="1230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="919" y="1220" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_UpdateUser" target="_blank" class="st" data-op="CockroachCloud_UpdateUser"><title>PUT /api/scim/v2/Users/{id}
+SCIM line · CockroachCloud_UpdateUser</title>
+<circle cx="910" cy="1330" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="922" y="1335" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_SearchUser" target="_blank" class="st" data-op="CockroachCloud_SearchUser"><title>POST /api/scim/v2/Users/{id}/.search
+SCIM line · CockroachCloud_SearchUser</title>
+<circle cx="1010" cy="1030" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="998.0" y="1035" text-anchor="end" style="fill:#1A1F2C">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-scim-api/#op-CockroachCloud_GetUser2" target="_blank" class="st" data-op="CockroachCloud_GetUser2"><title>PUT /api/scim/v2/Users/{id}/.search
+SCIM line · CockroachCloud_GetUser2
+DEPRECATED</title>
+<circle cx="1110" cy="930" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1098.0" y="935" text-anchor="end" style="fill:#A0A7B4">Update .search</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_ListServiceAccounts" target="_blank" class="st" data-op="CockroachCloud_ListServiceAccounts"><title>GET /api/v1/service-accounts
+Service Accounts line · CockroachCloud_ListServiceAccounts</title>
+<circle cx="1010" cy="3030" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1022" y="3035" text-anchor="start" style="fill:#1A1F2C">List service accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_CreateServiceAccount" target="_blank" class="st" data-op="CockroachCloud_CreateServiceAccount"><title>POST /api/v1/service-accounts
+Service Accounts line · CockroachCloud_CreateServiceAccount</title>
+<circle cx="1110" cy="2930" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1122" y="2935" text-anchor="start" style="fill:#1A1F2C">Create service account</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_DeleteServiceAccount" target="_blank" class="st" data-op="CockroachCloud_DeleteServiceAccount"><title>DELETE /api/v1/service-accounts/{id}
+Service Accounts line · CockroachCloud_DeleteServiceAccount</title>
+<circle cx="1110" cy="2730" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1106" y1="2734" x2="1114" y2="2726" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1116" y="2718" transform="rotate(-45 1116 2718)" style="fill:#1A1F2C">Delete service account</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_GetServiceAccount" target="_blank" class="st" data-op="CockroachCloud_GetServiceAccount"><title>GET /api/v1/service-accounts/{id}
+Service Accounts line · CockroachCloud_GetServiceAccount</title>
+<circle cx="1210" cy="2830" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1222" y="2835" text-anchor="start" style="fill:#1A1F2C">Get service account</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_UpdateServiceAccount" target="_blank" class="st" data-op="CockroachCloud_UpdateServiceAccount"><title>PATCH /api/v1/service-accounts/{id}
+Service Accounts line · CockroachCloud_UpdateServiceAccount</title>
+<circle cx="1210" cy="2730" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1222" y="2735" text-anchor="start" style="fill:#1A1F2C">Update service account</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_ListServiceAccountCredentials" target="_blank" class="st" data-op="CockroachCloud_ListServiceAccountCredentials"><title>GET /api/v1/service-accounts/{service_account_id}/credentials
+Service Accounts line · CockroachCloud_ListServiceAccountCredentials</title>
+<circle cx="1010" cy="2730" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1016" y="2718" transform="rotate(-45 1016 2718)" style="fill:#1A1F2C">List credentials</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_CreateServiceAccountCredential" target="_blank" class="st" data-op="CockroachCloud_CreateServiceAccountCredential"><title>POST /api/v1/service-accounts/{service_account_id}/credentials
+Service Accounts line · CockroachCloud_CreateServiceAccountCredential</title>
+<circle cx="910" cy="2730" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="916" y="2718" transform="rotate(-45 916 2718)" style="fill:#1A1F2C">Create credential</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-service-accounts-api/#op-CockroachCloud_DeleteServiceAccountCredential" target="_blank" class="st" data-op="CockroachCloud_DeleteServiceAccountCredential"><title>DELETE /api/v1/service-accounts/{service_account_id}/credentials/{credential_id}
+Service Accounts line · CockroachCloud_DeleteServiceAccountCredential</title>
+<circle cx="810" cy="2730" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="806" y1="2734" x2="814" y2="2726" stroke="#7B3FE4" stroke-width="2"/>
+<text x="816" y="2718" transform="rotate(-45 816 2718)" style="fill:#1A1F2C">Delete credential</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-sessions-api/#op-ListSessions" target="_blank" class="st" data-op="ListSessions"><title>GET /api/v2/sessions/
+More Local line · ListSessions</title>
+<circle cx="1010" cy="280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="285" text-anchor="start" style="fill:#1A1F2C">List sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-sql-users-api/#op-CockroachCloud_ListSQLUsers" target="_blank" class="st" data-op="CockroachCloud_ListSQLUsers"><title>GET /api/v1/clusters/{cluster_id}/sql-users
+SQL Users line · CockroachCloud_ListSQLUsers</title>
+<circle cx="1110" cy="1030" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1104" y="1042" text-anchor="end" transform="rotate(-45 1104 1042)" style="fill:#1A1F2C">List sql users <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-sql-users-api/#op-CockroachCloud_CreateSQLUser" target="_blank" class="st" data-op="CockroachCloud_CreateSQLUser"><title>POST /api/v1/clusters/{cluster_id}/sql-users
+SQL Users line · CockroachCloud_CreateSQLUser</title>
+<circle cx="910" cy="980" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="916" y="968" transform="rotate(-45 916 968)" style="fill:#1A1F2C">Create sql user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-sql-users-api/#op-CockroachCloud_DeleteSQLUser" target="_blank" class="st" data-op="CockroachCloud_DeleteSQLUser"><title>DELETE /api/v1/clusters/{cluster_id}/sql-users/{name}
+SQL Users line · CockroachCloud_DeleteSQLUser</title>
+<circle cx="860" cy="980" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="856" y1="984" x2="864" y2="976" stroke="#1F5FD1" stroke-width="2"/>
+<text x="866" y="968" transform="rotate(-45 866 968)" style="fill:#1A1F2C">Delete sql user</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-sql-users-api/#op-CockroachCloud_UpdateSQLUserPassword" target="_blank" class="st" data-op="CockroachCloud_UpdateSQLUserPassword"><title>PUT /api/v1/clusters/{cluster_id}/sql-users/{name}/password
+SQL Users line · CockroachCloud_UpdateSQLUserPassword</title>
+<circle cx="760" cy="980" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="766" y="968" transform="rotate(-45 766 968)" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-version-deferral-api/#op-CockroachCloud_GetClusterVersionDeferral" target="_blank" class="st" data-op="CockroachCloud_GetClusterVersionDeferral"><title>GET /api/v1/clusters/{cluster_id}/version-deferral
+Private Endpoint Services line · CockroachCloud_GetClusterVersionDeferral</title>
+<circle cx="2960" cy="480" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2966" y="468" transform="rotate(-45 2966 468)" style="fill:#1A1F2C">Get version deferral</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-version-deferral-api/#op-CockroachCloud_SetClusterVersionDeferral" target="_blank" class="st" data-op="CockroachCloud_SetClusterVersionDeferral"><title>PUT /api/v1/clusters/{cluster_id}/version-deferral
+Private Endpoint Services line · CockroachCloud_SetClusterVersionDeferral</title>
+<circle cx="3060" cy="480" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3054" y="492" text-anchor="end" transform="rotate(-45 3054 492)" style="fill:#1A1F2C">Update version deferral</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-virtual-cluster-workspaces-api/#op-CockroachCloud_ListVirtualClusterWorkspaces" target="_blank" class="st" data-op="CockroachCloud_ListVirtualClusterWorkspaces"><title>GET /api/v1/virtual-cluster-workspaces
+Virtual Cluster Workspaces line · CockroachCloud_ListVirtualClusterWorkspaces</title>
+<circle cx="1260" cy="280" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1272" y="285" text-anchor="start" style="fill:#1A1F2C">List virtual cluster workspaces</text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-virtual-cluster-workspaces-api/#op-CockroachCloud_GetVirtualClusterWorkspace" target="_blank" class="st" data-op="CockroachCloud_GetVirtualClusterWorkspace"><title>GET /api/v1/virtual-cluster-workspaces/{workspace_id}
+Virtual Cluster Workspaces line · CockroachCloud_GetVirtualClusterWorkspace</title>
+<circle cx="1260" cy="480" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1260" y="452" text-anchor="middle" style="fill:#1A1F2C">Get virtual<tspan x="1260" dy="13">cluster workspace</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-virtual-cluster-workspaces-api/#op-CockroachCloud_UpdateVirtualClusterWorkspace" target="_blank" class="st" data-op="CockroachCloud_UpdateVirtualClusterWorkspace"><title>PATCH /api/v1/virtual-cluster-workspaces/{workspace_id}
+Virtual Cluster Workspaces line · CockroachCloud_UpdateVirtualClusterWorkspace</title>
+<circle cx="1260" cy="580" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1260" y="552" text-anchor="middle" style="fill:#1A1F2C">Update virtual<tspan x="1260" dy="13">cluster workspace</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-virtual-cluster-workspaces-api/#op-CockroachCloud_CreateVirtualCluster" target="_blank" class="st" data-op="CockroachCloud_CreateVirtualCluster"><title>POST /api/v1/virtual-cluster-workspaces/{workspace_id}/clusters
+Virtual Cluster Workspaces line · CockroachCloud_CreateVirtualCluster</title>
+<circle cx="1410" cy="730" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1410" y="752" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="1410" dy="13">cluster <tspan font-weight="700" style="fill:#E07B12">⇄CLU</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cockroach-labs/cockroach-labs-virtual-cluster-workspaces-api/#op-CockroachCloud_UpdateVirtualCluster" target="_blank" class="st" data-op="CockroachCloud_UpdateVirtualCluster"><title>PATCH /api/v1/virtual-cluster-workspaces/{workspace_id}/clusters/{cluster_id}
+Virtual Cluster Workspaces line · CockroachCloud_UpdateVirtualCluster</title>
+<circle cx="1510" cy="580" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1501.0" y="599" text-anchor="end" style="fill:#1A1F2C">Update cluster</text>
+</a>
+<text x="3250" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3250" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">NETWORKING</text>
+<rect x="3250" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3267" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PES</text><text x="3292" y="269" font-size="11" fill="#1A1F2C">Private Endpoint Services <tspan fill="#8A93A6">16</tspan></text>
+<rect x="3250" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="3267" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EPE</text><text x="3292" y="286" font-size="11" fill="#1A1F2C">Egress Private Endpoints <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3250" y="293" width="34" height="13" rx="3" fill="#dd5b93"/><text x="3267" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ER</text><text x="3292" y="303" font-size="11" fill="#1A1F2C">Egress Rules <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3250" y="310" width="34" height="13" rx="3" fill="#e86a51"/><text x="3267" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IA</text><text x="3292" y="320" font-size="11" fill="#1A1F2C">IP Allowlists <tspan fill="#8A93A6">5</tspan></text>
+<text x="3250" y="346" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">SCIM</text>
+<rect x="3250" y="353" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3267" y="363" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCI</text><text x="3292" y="363" font-size="11" fill="#1A1F2C">SCIM <tspan fill="#8A93A6">25</tspan></text>
+<text x="3250" y="389" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">METRICEXPORT</text>
+<rect x="3250" y="396" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3267" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ME</text><text x="3292" y="406" font-size="11" fill="#1A1F2C">Metric Export <tspan fill="#8A93A6">9</tspan></text>
+<rect x="3250" y="413" width="34" height="13" rx="3" fill="#1d33a9"/><text x="3267" y="423" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="3292" y="423" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">5</tspan></text>
+<text x="3250" y="449" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">CLUSTERS</text>
+<rect x="3250" y="456" width="34" height="13" rx="3" fill="#E07B12"/><text x="3267" y="466" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLU</text><text x="3292" y="466" font-size="11" fill="#1A1F2C">Clusters <tspan fill="#8A93A6">9</tspan></text>
+<text x="3250" y="492" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">SERVICE ACCOUNTS</text>
+<rect x="3250" y="499" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3267" y="509" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="3292" y="509" font-size="11" fill="#1A1F2C">Service Accounts <tspan fill="#8A93A6">8</tspan></text>
+<text x="3250" y="535" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">FOLDERS</text>
+<rect x="3250" y="542" width="34" height="13" rx="3" fill="#B0287F"/><text x="3267" y="552" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FOL</text><text x="3292" y="552" font-size="11" fill="#1A1F2C">Folders <tspan fill="#8A93A6">6</tspan></text>
+<text x="3250" y="578" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ROLES</text>
+<rect x="3250" y="585" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3267" y="595" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RM</text><text x="3292" y="595" font-size="11" fill="#1A1F2C">Role Management <tspan fill="#8A93A6">6</tspan></text>
+<text x="3250" y="621" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">MIGRATION ASSISTANT</text>
+<rect x="3250" y="628" width="34" height="13" rx="3" fill="#B8860B"/><text x="3267" y="638" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MA</text><text x="3292" y="638" font-size="11" fill="#1A1F2C">Migration Assistant <tspan fill="#8A93A6">6</tspan></text>
+<text x="3250" y="664" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">VIRTUAL CLUSTER WORKSPACES</text>
+<rect x="3250" y="671" width="34" height="13" rx="3" fill="#C2410C"/><text x="3267" y="681" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VCW</text><text x="3292" y="681" font-size="11" fill="#1A1F2C">Virtual Cluster Workspaces <tspan fill="#8A93A6">5</tspan></text>
+<text x="3250" y="707" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">BLACKOUT WINDOWS</text>
+<rect x="3250" y="714" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3267" y="724" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BW</text><text x="3292" y="724" font-size="11" fill="#1A1F2C">Blackout Windows <tspan fill="#8A93A6">5</tspan></text>
+<text x="3250" y="750" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">BACKUPS CONFIG</text>
+<rect x="3250" y="757" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3267" y="767" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BR</text><text x="3292" y="767" font-size="11" fill="#1A1F2C">Backup/Restore <tspan fill="#8A93A6">5</tspan></text>
+<text x="3250" y="793" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3250" y="800" width="34" height="13" rx="3" fill="#D6264F"/><text x="3267" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3292" y="810" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3250" y="817" width="34" height="13" rx="3" fill="#B0287F"/><text x="3267" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="3292" y="827" font-size="11" fill="#1A1F2C">Databases <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3250" y="834" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3267" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JI</text><text x="3292" y="844" font-size="11" fill="#1A1F2C">JWT Issuers <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3250" y="851" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3267" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CME</text><text x="3292" y="861" font-size="11" fill="#1A1F2C">CMEK <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3250" y="868" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3267" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CCC</text><text x="3292" y="878" font-size="11" fill="#1A1F2C">Client CA Certificates <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3250" y="885" width="34" height="13" rx="3" fill="#00838F"/><text x="3267" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PCR</text><text x="3292" y="895" font-size="11" fill="#1A1F2C">Physical Cluster Replication <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3250" y="902" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3267" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SU</text><text x="3292" y="912" font-size="11" fill="#1A1F2C">SQL Users <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3250" y="919" width="34" height="13" rx="3" fill="#B8860B"/><text x="3267" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LE</text><text x="3292" y="929" font-size="11" fill="#1A1F2C">Log Export <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3250" y="936" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3267" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MW</text><text x="3292" y="946" font-size="11" fill="#1A1F2C">Maintenance Windows <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3250" y="953" width="34" height="13" rx="3" fill="#E07B12"/><text x="3267" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RAN</text><text x="3292" y="963" font-size="11" fill="#1A1F2C">Ranges <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3250" y="970" width="34" height="13" rx="3" fill="#C2410C"/><text x="3267" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RS</text><text x="3292" y="980" font-size="11" fill="#1A1F2C">Runtime Scanning <tspan fill="#8A93A6">3</tspan></text>
+<text x="3500" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3518,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3544" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3518,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3544" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3518,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3544" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3518,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3544" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3518,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3544" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3518,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3544" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3518,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3544" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3518,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3544" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3500" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3500" y="463" font-size="10.5" fill="#5A6275">“Audit Logs” → More Local line · 1 op</text>
+<text x="3500" y="478" font-size="10.5" fill="#5A6275">“Auth” → More Local line · 2 ops</text>
+<text x="3500" y="493" font-size="10.5" fill="#5A6275">“Backup Restore” → Private Endpoint Services line · 1 op</text>
+<text x="3500" y="508" font-size="10.5" fill="#5A6275">“Billing” → More Local line · 2 ops</text>
+<text x="3500" y="523" font-size="10.5" fill="#5A6275">“Cluster Disruption” → Private Endpoint Services line · 2 ops</text>
+<text x="3500" y="538" font-size="10.5" fill="#5A6275">“Health” → More Local line · 1 op</text>
+<text x="3500" y="553" font-size="10.5" fill="#5A6275">“Nodes” → More Local line · 1 op</text>
+<text x="3500" y="568" font-size="10.5" fill="#5A6275">“Organizations” → More Local line · 1 op</text>
+<text x="3500" y="583" font-size="10.5" fill="#5A6275">“Rules” → More Local line · 1 op</text>
+<text x="3500" y="598" font-size="10.5" fill="#5A6275">“Sessions” → More Local line · 1 op</text>
+<text x="3500" y="613" font-size="10.5" fill="#5A6275">“Version Deferral” → Private Endpoint Services line · 2 ops</text>
+<text x="3500" y="663" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3500" y="680" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3160" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/cockroach-labs/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

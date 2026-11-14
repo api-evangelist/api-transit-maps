@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1020" width="1700" height="1020" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1700" height="1020" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Health-Gorilla API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">22 operations as stops · 4 tags as lines · 0 interchanges · 4 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="673.5454545454545" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">HEALTH GORILLA</text>
+<path class="line" data-line="Patient" d="M160.0,608.0 L244.0,524.0 L318.1,449.9 Q328.0,440.0 328.0,426.0 L328.0,370.0 Q328.0,356.0 314.0,356.0 L202.0,356.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Patient</title></path>
+<path class="line" data-line="RequestGroup" d="M748.0,230.0 L832.0,230.0 L916.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>RequestGroup</title></path>
+<path class="line" data-line="ServiceRequest" d="M790.0,860.0 L874.0,860.0 L958.0,860.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ServiceRequest</title></path>
+<path class="line" data-line="Health Gorilla Local" d="M370.0,608.0 L444.1,533.9 Q454.0,524.0 468.0,524.0 L580.0,524.0 L650.0,524.0 Q664.0,524.0 673.9,514.1 L748.0,440.0 L780.1,407.9 Q790.0,398.0 804.0,398.0 L860.0,398.0 Q874.0,398.0 883.9,407.9 L958.0,482.0 L990.1,514.1 Q1000.0,524.0 1000.0,538.0 L1000.0,608.0 L1000.0,692.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Health Gorilla Local</title></path>
+<line x1="160" y1="608" x2="135.9583694396574" y2="632.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="621.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Patient</title></rect><text x="135.9583694396574" y="637.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="202" y1="356" x2="168.0" y2="356.0" stroke="#0E9F6E" stroke-width="7"/><rect x="144.0" y="345.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Patient</title></rect><text x="168.0" y="361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="748" y1="230" x2="714.0" y2="230.0" stroke="#1F5FD1" stroke-width="7"/><rect x="690.0" y="219.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>RequestGroup</title></rect><text x="714.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RG</text>
+<line x1="916" y1="230" x2="950.0" y2="230.0" stroke="#1F5FD1" stroke-width="7"/><rect x="926.0" y="219.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>RequestGroup</title></rect><text x="950.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RG</text>
+<line x1="790" y1="860" x2="756.0" y2="860.0" stroke="#E07B12" stroke-width="7"/><rect x="732.0" y="849.0" width="48" height="22" rx="5" fill="#E07B12"><title>ServiceRequest</title></rect><text x="756.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="958" y1="860" x2="992.0" y2="860.0" stroke="#E07B12" stroke-width="7"/><rect x="968.0" y="849.0" width="48" height="22" rx="5" fill="#E07B12"><title>ServiceRequest</title></rect><text x="992.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="370" y1="608" x2="345.95836943965736" y2="632.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="321.95836943965736" y="621.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Health Gorilla Local</title></rect><text x="345.95836943965736" y="637.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HGL</text>
+<line x1="1000" y1="692" x2="1000.0" y2="726.0" stroke="#D6264F" stroke-width="7"/><rect x="976.0" y="715.0" width="48" height="22" rx="5" fill="#D6264F"><title>Health Gorilla Local</title></rect><text x="1000.0" y="731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HGL</text>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-binary-api/#op-readBinary" target="_blank" class="st" data-op="readBinary"><title>GET /Binary/{id}
+Health Gorilla Local line · readBinary</title>
+<circle cx="370" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="613" text-anchor="start" style="fill:#1A1F2C">Get binary</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-capability-statement-api/#op-getCapabilityStatement" target="_blank" class="st" data-op="getCapabilityStatement"><title>GET /metadata
+Health Gorilla Local line · getCapabilityStatement
+Express: X2</title>
+<circle cx="958" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="955" y="479" width="6" height="6" transform="rotate(45 958 482)" fill="#1A1F2C"/>
+<text x="970" y="487" text-anchor="start" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-coverage-api/#op-searchCoverage" target="_blank" class="st" data-op="searchCoverage"><title>GET /Coverage
+Health Gorilla Local line · searchCoverage
+Express: X1</title>
+<circle cx="454" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="451" y="521" width="6" height="6" transform="rotate(45 454 524)" fill="#1A1F2C"/>
+<text x="442.0" y="529" text-anchor="end" style="fill:#1A1F2C">Get coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-coverage-api/#op-readCoverage" target="_blank" class="st" data-op="readCoverage"><title>GET /Coverage/{id}
+Health Gorilla Local line · readCoverage
+Express: X1</title>
+<circle cx="580" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="521" width="6" height="6" transform="rotate(45 580 524)" fill="#1A1F2C"/>
+<text x="586" y="512" transform="rotate(-45 586 512)" style="fill:#1A1F2C">Get coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-diagnosticreport-api/#op-searchDiagnosticReports" target="_blank" class="st" data-op="searchDiagnosticReports"><title>GET /DiagnosticReport
+Health Gorilla Local line · searchDiagnosticReports
+Express: X4</title>
+<circle cx="664" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="521" width="6" height="6" transform="rotate(45 664 524)" fill="#1A1F2C"/>
+<text x="676" y="529" text-anchor="start" style="fill:#1A1F2C">Get diagnosticreport</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-diagnosticreport-api/#op-readDiagnosticReport" target="_blank" class="st" data-op="readDiagnosticReport"><title>GET /DiagnosticReport/{id}
+Health Gorilla Local line · readDiagnosticReport
+Express: X4</title>
+<circle cx="748" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="745" y="437" width="6" height="6" transform="rotate(45 748 440)" fill="#1A1F2C"/>
+<text x="760" y="445" text-anchor="start" style="fill:#1A1F2C">Get diagnosticreport</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-document-reference-api/#op-searchDocumentReferences" target="_blank" class="st" data-op="searchDocumentReferences"><title>GET /DocumentReference
+Health Gorilla Local line · searchDocumentReferences</title>
+<circle cx="790" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="778.0" y="403" text-anchor="end" style="fill:#1A1F2C">Get documentreference</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-document-reference-api/#op-readDocumentReference" target="_blank" class="st" data-op="readDocumentReference"><title>GET /DocumentReference/{id}
+Health Gorilla Local line · readDocumentReference</title>
+<circle cx="874" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="403" text-anchor="start" style="fill:#1A1F2C">Get documentreference</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-observation-api/#op-searchObservations" target="_blank" class="st" data-op="searchObservations"><title>GET /Observation
+Health Gorilla Local line · searchObservations
+Express: X4</title>
+<circle cx="1000" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="997" y="521" width="6" height="6" transform="rotate(45 1000 524)" fill="#1A1F2C"/>
+<text x="1012" y="529" text-anchor="start" style="fill:#1A1F2C">Get observation</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-patient-api/#op-searchPatients" target="_blank" class="st" data-op="searchPatients"><title>GET /Patient
+Patient line · searchPatients
+Express: X1, X2, X3, X4</title>
+<circle cx="160" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="157" y="605" width="6" height="6" transform="rotate(45 160 608)" fill="#1A1F2C"/>
+<text x="172" y="613" text-anchor="start" style="fill:#1A1F2C">Get patient</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-patient-api/#op-createPatient" target="_blank" class="st" data-op="createPatient"><title>POST /Patient
+Patient line · createPatient</title>
+<circle cx="244" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="256" y="529" text-anchor="start" style="fill:#1A1F2C">Update patient</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-patient-api/#op-readPatient" target="_blank" class="st" data-op="readPatient"><title>GET /Patient/{id}
+Patient line · readPatient
+Express: X3</title>
+<circle cx="328" cy="440" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="325" y="437" width="6" height="6" transform="rotate(45 328 440)" fill="#1A1F2C"/>
+<text x="340" y="445" text-anchor="start" style="fill:#1A1F2C">Get patient</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-patient-api/#op-updatePatient" target="_blank" class="st" data-op="updatePatient"><title>PUT /Patient/{id}
+Patient line · updatePatient</title>
+<circle cx="328" cy="356" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="361" text-anchor="start" style="fill:#1A1F2C">Update patient</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-patient-api/#op-patientEverything" target="_blank" class="st" data-op="patientEverything"><title>GET /Patient/{id}/$everything
+Patient line · patientEverything
+Express: X3</title>
+<circle cx="202" cy="356" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="199" y="353" width="6" height="6" transform="rotate(45 202 356)" fill="#1A1F2C"/>
+<text x="208" y="344" transform="rotate(-45 208 344)" style="fill:#1A1F2C">Get $everything</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-practitioner-api/#op-searchPractitioners" target="_blank" class="st" data-op="searchPractitioners"><title>GET /Practitioner
+Health Gorilla Local line · searchPractitioners</title>
+<circle cx="1000" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="613" text-anchor="start" style="fill:#1A1F2C">Get practitioner</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-practitioner-api/#op-readPractitioner" target="_blank" class="st" data-op="readPractitioner"><title>GET /Practitioner/{id}
+Health Gorilla Local line · readPractitioner</title>
+<circle cx="1000" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="697" text-anchor="start" style="fill:#1A1F2C">Get practitioner</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-requestgroup-api/#op-createRequestGroup" target="_blank" class="st" data-op="createRequestGroup"><title>POST /RequestGroup
+RequestGroup line · createRequestGroup
+Express: X2</title>
+<circle cx="832" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="829" y="227" width="6" height="6" transform="rotate(45 832 230)" fill="#1A1F2C"/>
+<text x="838" y="218" transform="rotate(-45 838 218)" style="fill:#1A1F2C">Update requestgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-requestgroup-api/#op-searchRequestGroups" target="_blank" class="st" data-op="searchRequestGroups"><title>GET /RequestGroup
+RequestGroup line · searchRequestGroups</title>
+<circle cx="748" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="754" y="218" transform="rotate(-45 754 218)" style="fill:#1A1F2C">Get requestgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-requestgroup-api/#op-readRequestGroup" target="_blank" class="st" data-op="readRequestGroup"><title>GET /RequestGroup/{id}
+RequestGroup line · readRequestGroup
+Express: X2</title>
+<circle cx="916" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="913" y="227" width="6" height="6" transform="rotate(45 916 230)" fill="#1A1F2C"/>
+<text x="910" y="242" text-anchor="end" transform="rotate(-45 910 242)" style="fill:#1A1F2C">Get requestgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-servicerequest-api/#op-searchServiceRequests" target="_blank" class="st" data-op="searchServiceRequests"><title>GET /ServiceRequest
+ServiceRequest line · searchServiceRequests</title>
+<circle cx="790" cy="860" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="796" y="848" transform="rotate(-45 796 848)" style="fill:#1A1F2C">Get servicerequest</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-servicerequest-api/#op-createServiceRequest" target="_blank" class="st" data-op="createServiceRequest"><title>POST /ServiceRequest
+ServiceRequest line · createServiceRequest
+Express: X2</title>
+<circle cx="874" cy="860" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="871" y="857" width="6" height="6" transform="rotate(45 874 860)" fill="#1A1F2C"/>
+<text x="880" y="848" transform="rotate(-45 880 848)" style="fill:#1A1F2C">Update servicerequest</text>
+</a>
+<a href="https://apis.apis.io/apis/health-gorilla/health-gorilla-servicerequest-api/#op-readServiceRequest" target="_blank" class="st" data-op="readServiceRequest"><title>GET /ServiceRequest/{id}
+ServiceRequest line · readServiceRequest</title>
+<circle cx="958" cy="860" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="952" y="872" text-anchor="end" transform="rotate(-45 952 872)" style="fill:#1A1F2C">Get servicerequest</text>
+</a>
+<text x="1190" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1190" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">HEALTH GORILLA</text>
+<rect x="1190" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1207" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HGL</text><text x="1232" y="269" font-size="11" fill="#1A1F2C">Health Gorilla Local <tspan fill="#8A93A6">11</tspan></text>
+<rect x="1190" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1207" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAT</text><text x="1232" y="286" font-size="11" fill="#1A1F2C">Patient <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1190" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1207" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RG</text><text x="1232" y="303" font-size="11" fill="#1A1F2C">RequestGroup <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1190" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1207" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SR</text><text x="1232" y="320" font-size="11" fill="#1A1F2C">ServiceRequest <tspan fill="#8A93A6">3</tspan></text>
+<text x="1440" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1458,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1458,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1458,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1484" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1458,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1484" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1458,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1484" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1458,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1484" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1458,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1484" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1458,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1484" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1440" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1440" y="463" font-size="10.5" fill="#5A6275">“Binary” → Health Gorilla Local line · 1 op</text>
+<text x="1440" y="478" font-size="10.5" fill="#5A6275">“Capability Statement” → Health Gorilla Local line · 1 op</text>
+<text x="1440" y="493" font-size="10.5" fill="#5A6275">“Coverage” → Health Gorilla Local line · 2 ops</text>
+<text x="1440" y="508" font-size="10.5" fill="#5A6275">“DiagnosticReport” → Health Gorilla Local line · 2 ops</text>
+<text x="1440" y="523" font-size="10.5" fill="#5A6275">“Document Reference” → Health Gorilla Local line · 2 ops</text>
+<text x="1440" y="538" font-size="10.5" fill="#5A6275">“Observation” → Health Gorilla Local line · 1 op</text>
+<text x="1440" y="553" font-size="10.5" fill="#5A6275">“Practitioner” → Health Gorilla Local line · 2 ops</text>
+<text x="1440" y="603" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1440" y="620" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="searchPatients searchCoverage readCoverage"><rect x="1440" y="632" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1455" y="643" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1477" y="643" font-size="11" fill="#1A1F2C">Health Gorilla Coverage Retrie</text></g>
+<g class="rt" data-stops="getCapabilityStatement searchPatients createServiceRequest createRequestGroup readRequestGroup"><rect x="1440" y="651" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1455" y="662" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1477" y="662" font-size="11" fill="#1A1F2C">Health Gorilla FHIR Lab Order</text></g>
+<g class="rt" data-stops="searchPatients readPatient patientEverything"><rect x="1440" y="670" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1455" y="681" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1477" y="681" font-size="11" fill="#1A1F2C">Health Gorilla Patient Everyth</text></g>
+<g class="rt" data-stops="searchPatients searchDiagnosticReports readDiagnosticReport searchObservations"><rect x="1440" y="689" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1455" y="700" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1477" y="700" font-size="11" fill="#1A1F2C">Health Gorilla Lab Results Ret</text></g>
+<text x="160" y="990" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/health-gorilla/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

@@ -139,9 +139,9 @@
     "ReservationConfig \u00b7 Hotels E Coupons",
     "ReservationConfig \u00b7 Hotels Guest Messages",
     "AccountsReceivables",
-    "Housekeeping",
     "Event Management",
     "BlockAsync",
+    "Housekeeping",
     "ExternalSystemsConfig"
    ],
    "ops": 450,
@@ -150,8 +150,8 @@
     "Block",
     "ReservationConfig",
     "Accounts",
-    "Rooms",
     "Blocks",
+    "Rooms",
     "Interfaces"
    ],
    "title": "Profile, Block, ReservationConfig +4"
@@ -310,14 +310,16 @@
     "HotelConfig \u00b7 Room Classes",
     "HotelConfig \u00b7 Yield Market Types",
     "HotelConfig \u00b7 Service Request Codes",
-    "Credit card"
+    "Credit card",
+    "Content"
    ],
-   "ops": 444,
+   "ops": 449,
    "families": [
     "HotelConfig",
-    "Credit Cards"
+    "Credit Cards",
+    "Hotels"
    ],
-   "title": "HotelConfig, Credit Cards"
+   "title": "HotelConfig, Credit Cards, Hotels"
   },
   {
    "lines": [
@@ -338,7 +340,11 @@
     "Cashiering \u00b7 Hotels Reservations Transactions",
     "Cashiering \u00b7 Hotels Reservations Vouchers",
     "Cashiering \u00b7 Hotels Source Reservations",
-    "More Local",
+    "More Local 3",
+    "More Local 5",
+    "More Local 1",
+    "More Local 2",
+    "More Local 4",
     "ResourceConfig \u00b7 Hotels",
     "ResourceConfig \u00b7 Upsert",
     "ResourceConfig \u00b7 Item Classes",
@@ -351,21 +357,17 @@
     "ResourceConfig \u00b7 Revenue Types",
     "ResourceConfig \u00b7 Catering Packages",
     "Shop",
-    "Content",
-    "INVStats",
     "Hotels"
    ],
-   "ops": 444,
+   "ops": 435,
    "families": [
     "Cashiering",
     "More",
     "ResourceConfig",
     "Addons",
-    "Hotels",
-    "Block Inventory Statistics",
     "Tokenizations"
    ],
-   "title": "Cashiering, ResourceConfig, Addons +4"
+   "title": "Cashiering, ResourceConfig, Addons +2"
   },
   {
    "lines": [
@@ -518,17 +520,17 @@
     "OperaContent",
     "LeisureManagement",
     "RSVStats",
-    "LOV \u00b7 List Of Values Year",
-    "ProfileStatistics"
+    "INVStats",
+    "LOV \u00b7 List Of Values Year"
    ],
-   "ops": 416,
+   "ops": 417,
    "families": [
     "Channel",
     "Rate Plan",
     "MembershipConfig",
     "Reservations",
-    "LOV",
-    "Profile Membership Statistics"
+    "Block Inventory Statistics",
+    "LOV"
    ],
    "title": "Channel, Rate Plan, MembershipConfig +3"
   },
@@ -543,8 +545,8 @@
     "BlockConfig",
     "RoomRotationConfig",
     "ActivityManagement",
-    "Commissions",
     "Activity",
+    "Commissions",
     "Export",
     "RatePlanAsync",
     "LeisureManagementConfig",
@@ -553,12 +555,13 @@
     "Report",
     "RoomRotation",
     "FOFStats",
-    "Customer Management",
     "SuspendedStay",
+    "Customer Management",
     "CRMAsync",
-    "ARI Publication"
+    "ARI Publication",
+    "ProfileStatistics"
    ],
-   "ops": 414,
+   "ops": 417,
    "families": [
     "Exclusive Preferences",
     "Availability",
@@ -567,8 +570,8 @@
     "Sales Managers",
     "Profiles",
     "Activity Results",
-    "Bank Accounts",
     "Activities",
+    "Bank Accounts",
     "Export Mappings",
     "Rate Plans",
     "Activity Locations",
@@ -577,12 +580,13 @@
     "Generic Reports",
     "Departure Start Date",
     "Front Office Statistics",
-    "Track Items",
     "Suspended Stay Record Id",
+    "Track Items",
     "Stay Records",
-    "Inventory"
+    "Inventory",
+    "Profile Membership Statistics"
    ],
-   "title": "Exclusive Preferences, Availability, External Systems +18"
+   "title": "Exclusive Preferences, Availability, External Systems +19"
   }
  ],
  "sheet_of_line": {
@@ -713,9 +717,9 @@
   "ReservationConfig \u00b7 Hotels E Coupons": 2,
   "ReservationConfig \u00b7 Hotels Guest Messages": 2,
   "AccountsReceivables": 2,
-  "Housekeeping": 2,
   "Event Management": 2,
   "BlockAsync": 2,
+  "Housekeeping": 2,
   "ExternalSystemsConfig": 2,
   "LOV \u00b7 List Of Values Hotels A\u2013J": 3,
   "LOV \u00b7 List Of Values Hotels K\u2013Y": 3,
@@ -861,6 +865,7 @@
   "HotelConfig \u00b7 Yield Market Types": 4,
   "HotelConfig \u00b7 Service Request Codes": 4,
   "Credit card": 4,
+  "Content": 4,
   "Cashiering \u00b7 Hotels Transactions": 5,
   "Cashiering \u00b7 Hotels Reservations Routing Instructions": 5,
   "Cashiering \u00b7 Hotels Prepaid Cards": 5,
@@ -878,7 +883,11 @@
   "Cashiering \u00b7 Hotels Reservations Transactions": 5,
   "Cashiering \u00b7 Hotels Reservations Vouchers": 5,
   "Cashiering \u00b7 Hotels Source Reservations": 5,
-  "More Local": 5,
+  "More Local 3": 5,
+  "More Local 5": 5,
+  "More Local 1": 5,
+  "More Local 2": 5,
+  "More Local 4": 5,
   "ResourceConfig \u00b7 Hotels": 5,
   "ResourceConfig \u00b7 Upsert": 5,
   "ResourceConfig \u00b7 Item Classes": 5,
@@ -891,8 +900,6 @@
   "ResourceConfig \u00b7 Revenue Types": 5,
   "ResourceConfig \u00b7 Catering Packages": 5,
   "Shop": 5,
-  "Content": 5,
-  "INVStats": 5,
   "Hotels": 5,
   "CashieringConfig \u00b7 Hotels Custom Charges": 6,
   "CashieringConfig \u00b7 Upsert": 6,
@@ -1032,8 +1039,8 @@
   "OperaContent": 7,
   "LeisureManagement": 7,
   "RSVStats": 7,
+  "INVStats": 7,
   "LOV \u00b7 List Of Values Year": 7,
-  "ProfileStatistics": 7,
   "ProfileConfiguration": 8,
   "Availability": 8,
   "ReservationAsync": 8,
@@ -1043,8 +1050,8 @@
   "BlockConfig": 8,
   "RoomRotationConfig": 8,
   "ActivityManagement": 8,
-  "Commissions": 8,
   "Activity": 8,
+  "Commissions": 8,
   "Export": 8,
   "RatePlanAsync": 8,
   "LeisureManagementConfig": 8,
@@ -1053,9 +1060,10 @@
   "Report": 8,
   "RoomRotation": 8,
   "FOFStats": 8,
-  "Customer Management": 8,
   "SuspendedStay": 8,
+  "Customer Management": 8,
   "CRMAsync": 8,
-  "ARI Publication": 8
+  "ARI Publication": 8,
+  "ProfileStatistics": 8
  }
 }

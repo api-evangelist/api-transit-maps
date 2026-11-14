@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1658 880" width="1658" height="880" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1658" height="880" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Medplum API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">11 operations as stops · 1 tags as lines · 0 interchanges · 10 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="545.6363636363636" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">MEDPLUM</text>
+<path class="line" data-line="Fhir" d="M958.0,482.0 L874.0,482.0 L804.0,482.0 Q790.0,482.0 780.1,491.9 L673.9,598.1 Q664.0,608.0 650.0,608.0 L622.0,608.0 L552.0,608.0 Q538.0,608.0 528.1,598.1 L454.0,524.0 L370.0,440.0 L328.0,398.0 L244.0,314.0 L160.0,230.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Fhir</title></path>
+<line x1="958" y1="482" x2="992.0" y2="482.0" stroke="#D6264F" stroke-width="7"/><rect x="968.0" y="471.0" width="48" height="22" rx="5" fill="#D6264F"><title>Fhir</title></rect><text x="992.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FHI</text>
+<line x1="160" y1="230" x2="135.9583694396574" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="111.95836943965739" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Fhir</title></rect><text x="135.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FHI</text>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-batch" target="_blank" class="st" data-op="batch"><title>POST /fhir/R4
+Fhir line · batch</title>
+<circle cx="958" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="952" y="494" text-anchor="end" transform="rotate(-45 952 494)" style="fill:#1A1F2C">Update r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-search" target="_blank" class="st" data-op="search"><title>GET /fhir/R4/{resourceType}
+Fhir line · search
+Express: X2, X5, X6, X7</title>
+<circle cx="874" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="871" y="479" width="6" height="6" transform="rotate(45 874 482)" fill="#1A1F2C"/>
+<text x="880" y="470" transform="rotate(-45 880 470)" style="fill:#1A1F2C">Get r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-createResource" target="_blank" class="st" data-op="createResource"><title>POST /fhir/R4/{resourceType}
+Fhir line · createResource
+Express: X3, X4, X5, X8, X9, X10</title>
+<circle cx="790" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="787" y="479" width="6" height="6" transform="rotate(45 790 482)" fill="#1A1F2C"/>
+<text x="778.0" y="487" text-anchor="end" style="fill:#1A1F2C">Update r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-conditionalUpdate" target="_blank" class="st" data-op="conditionalUpdate"><title>PUT /fhir/R4/{resourceType}
+Fhir line · conditionalUpdate</title>
+<circle cx="664" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="613" text-anchor="start" style="fill:#1A1F2C">Update r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-validateResource" target="_blank" class="st" data-op="validateResource"><title>POST /fhir/R4/{resourceType}/$validate
+Fhir line · validateResource</title>
+<circle cx="328" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="403" text-anchor="start" style="fill:#1A1F2C">Update $validate</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-readResource" target="_blank" class="st" data-op="readResource"><title>GET /fhir/R4/{resourceType}/{id}
+Fhir line · readResource
+Express: X1, X2, X3, X4, X5, X6, X7, X8, X10</title>
+<circle cx="622" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="619" y="605" width="6" height="6" transform="rotate(45 622 608)" fill="#1A1F2C"/>
+<text x="628" y="596" transform="rotate(-45 628 596)" style="fill:#1A1F2C">Get r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-updateResource" target="_blank" class="st" data-op="updateResource"><title>PUT /fhir/R4/{resourceType}/{id}
+Fhir line · updateResource
+Express: X1, X5, X9</title>
+<circle cx="538" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="535" y="605" width="6" height="6" transform="rotate(45 538 608)" fill="#1A1F2C"/>
+<text x="526.0" y="613" text-anchor="end" style="fill:#1A1F2C">Update r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-deleteResource" target="_blank" class="st" data-op="deleteResource"><title>DELETE /fhir/R4/{resourceType}/{id}
+Fhir line · deleteResource
+Express: X7</title>
+<circle cx="370" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="366" y1="444" x2="374" y2="436" stroke="#D6264F" stroke-width="2"/>
+<rect x="367" y="437" width="6" height="6" transform="rotate(45 370 440)" fill="#1A1F2C"/>
+<text x="382" y="445" text-anchor="start" style="fill:#1A1F2C">Delete r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-patchResource" target="_blank" class="st" data-op="patchResource"><title>PATCH /fhir/R4/{resourceType}/{id}
+Fhir line · patchResource
+Express: X6</title>
+<circle cx="454" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="451" y="521" width="6" height="6" transform="rotate(45 454 524)" fill="#1A1F2C"/>
+<text x="466" y="529" text-anchor="start" style="fill:#1A1F2C">Update r4</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-readResourceHistory" target="_blank" class="st" data-op="readResourceHistory"><title>GET /fhir/R4/{resourceType}/{id}/_history
+Fhir line · readResourceHistory
+Express: X1, X9</title>
+<circle cx="244" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="241" y="311" width="6" height="6" transform="rotate(45 244 314)" fill="#1A1F2C"/>
+<text x="256" y="319" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/medplum/medplum-fhir-api/#op-readVersion" target="_blank" class="st" data-op="readVersion"><title>GET /fhir/R4/{resourceType}/{id}/_history/{versionId}
+Fhir line · readVersion
+Express: X1, X9</title>
+<circle cx="160" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="157" y="227" width="6" height="6" transform="rotate(45 160 230)" fill="#1A1F2C"/>
+<text x="172" y="235" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<text x="1148" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1148" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">MEDPLUM</text>
+<rect x="1148" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1165" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FHI</text><text x="1190" y="269" font-size="11" fill="#1A1F2C">Fhir <tspan fill="#8A93A6">11</tspan></text>
+<text x="1398" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1416,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1442" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1416,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1442" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1416,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1442" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1416,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1442" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1416,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1442" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1416,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1442" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1416,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1442" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1416,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1442" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1398" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1398" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="readResource updateResource readResourceHistory readVersion"><rect x="1398" y="487" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="498" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1435" y="498" font-size="11" fill="#1A1F2C">Amend Resource With History</text></g>
+<g class="rt" data-stops="search readResource"><rect x="1398" y="506" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="517" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1435" y="517" font-size="11" fill="#1A1F2C">Clinical Data Query</text></g>
+<g class="rt" data-stops="createResource readResource"><rect x="1398" y="525" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="536" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1435" y="536" font-size="11" fill="#1A1F2C">Create Diagnostic Report</text></g>
+<g class="rt" data-stops="createResource readResource"><rect x="1398" y="544" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="555" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1435" y="555" font-size="11" fill="#1A1F2C">Deploy Bot</text></g>
+<g class="rt" data-stops="createResource readResource updateResource search"><rect x="1398" y="563" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="574" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1435" y="574" font-size="11" fill="#1A1F2C">FHIR Resource CRUD</text></g>
+<g class="rt" data-stops="search patchResource readResource"><rect x="1398" y="582" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="593" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1435" y="593" font-size="11" fill="#1A1F2C">Finalize Observation</text></g>
+<g class="rt" data-stops="search readResource deleteResource"><rect x="1398" y="601" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="612" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1435" y="612" font-size="11" fill="#1A1F2C">Find And Delete Resource</text></g>
+<g class="rt" data-stops="createResource readResource"><rect x="1398" y="620" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="631" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="1435" y="631" font-size="11" fill="#1A1F2C">Register Patient With Observat</text></g>
+<g class="rt" data-stops="createResource updateResource readResourceHistory readVersion"><rect x="1398" y="639" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="650" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="1435" y="650" font-size="11" fill="#1A1F2C">FHIR Resource Versioning</text></g>
+<g class="rt" data-stops="createResource readResource"><rect x="1398" y="658" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1413" y="669" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X10</text><text x="1435" y="669" font-size="11" fill="#1A1F2C">Schedule Encounter</text></g>
+<text x="160" y="850" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/medplum/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

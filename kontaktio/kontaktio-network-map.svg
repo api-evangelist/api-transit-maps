@@ -1,0 +1,592 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2960 2910" width="2960" height="2910" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2960" height="2910" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Kontaktio API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">96 operations as stops · 11 tags as lines · 5 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1042" y1="902" x2="1084" y2="944" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1042" y1="902" x2="1084" y2="944" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Locations" d="M538.0,356.0 L622.0,440.0 L664.0,482.0 L748.0,566.0 L790.0,608.0 L864.1,682.1 Q874.0,692.0 874.0,706.0 L874.0,804.0 Q874.0,818.0 883.9,827.9 L948.1,892.1 Q958.0,902.0 972.0,902.0 L1028.0,902.0 Q1042.0,902.0 1042.0,888.0 L1042.0,818.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Locations</title></path>
+<path class="line" data-line="Config" d="M2260.0,2162.0 L2176.0,2078.0 L2092.0,1994.0 L2059.9,1961.9 Q2050.0,1952.0 2050.0,1938.0 L2050.0,1840.0 Q2050.0,1826.0 2059.9,1816.1 L2082.1,1793.9 Q2092.0,1784.0 2106.0,1784.0 L2176.0,1784.0 L2260.0,1784.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Config</title></path>
+<path class="line" data-line="Device" d="M1000.0,2750.0 L916.0,2666.0 L841.9,2591.9 Q832.0,2582.0 832.0,2568.0 L832.0,2498.0 L832.0,2414.0 L832.0,2330.0 L832.0,2204.0 L832.0,2120.0 L832.0,2050.0 Q832.0,2036.0 818.0,2036.0 L762.0,2036.0 Q748.0,2036.0 738.1,2045.9 L715.9,2068.1 Q706.0,2078.0 692.0,2078.0 L552.0,2078.0 Q538.0,2078.0 528.1,2087.9 L496.0,2120.0 L421.9,2194.1 Q412.0,2204.0 398.0,2204.0 L328.0,2204.0 L244.0,2204.0 L160.0,2204.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Device</title></path>
+<path class="line" data-line="Bulk" d="M832.0,1700.0 L832.0,1616.0 L832.0,1532.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Bulk</title></path>
+<path class="line" data-line="Portalbeam" d="M1714.0,2162.0 L1630.0,2162.0 L1560.0,2162.0 Q1546.0,2162.0 1536.1,2171.9 L1504.0,2204.0 L1420.0,2288.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Portalbeam</title></path>
+<path class="line" data-line="Firmware" d="M1210.0,2036.0 L1126.0,2036.0 L1042.0,2036.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Firmware</title></path>
+<path class="line" data-line="Occupancy" d="M1168.0,1364.0 L1238.0,1364.0 Q1252.0,1364.0 1252.0,1350.0 L1252.0,1196.0 L1252.0,1168.0 Q1252.0,1154.0 1242.1,1144.1 L1177.9,1079.9 Q1168.0,1070.0 1168.0,1056.0 L1168.0,1000.0 Q1168.0,986.0 1182.0,986.0 L1252.0,986.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Occupancy</title></path>
+<path class="line" data-line="Order" d="M1924.0,1406.0 L1924.0,1322.0 L1924.0,1238.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Order</title></path>
+<path class="line" data-line="Channels" d="M1546.0,1196.0 L1546.0,1280.0 L1546.0,1350.0 Q1546.0,1364.0 1555.9,1373.9 L1630.0,1448.0 L1714.0,1532.0 L1798.0,1616.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Channels</title></path>
+<path class="line" data-line="Streams" d="M1126.0,1280.0 L1210.0,1280.0 L1294.0,1280.0 L1364.0,1280.0 Q1378.0,1280.0 1387.9,1289.9 L1462.0,1364.0 L1536.1,1438.1 Q1546.0,1448.0 1546.0,1462.0 L1546.0,1532.0 L1546.0,1602.0 Q1546.0,1616.0 1536.1,1625.9 L1462.0,1700.0 L1387.9,1774.1 Q1378.0,1784.0 1364.0,1784.0 L1294.0,1784.0 L1210.0,1784.0 L1140.0,1784.0 Q1126.0,1784.0 1116.1,1774.1 L1042.0,1700.0 L967.9,1625.9 Q958.0,1616.0 958.0,1602.0 L958.0,1532.0 L958.0,1462.0 Q958.0,1448.0 967.9,1438.1 L1042.0,1364.0 L1126.0,1280.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Streams</title></path>
+<path class="line" data-line="More Local" d="M1546.0,230.0 L1462.0,314.0 L1387.9,388.1 Q1378.0,398.0 1378.0,412.0 L1378.0,468.0 Q1378.0,482.0 1368.1,491.9 L1294.0,566.0 L1252.0,608.0 L1177.9,682.1 Q1168.0,692.0 1168.0,706.0 L1168.0,776.0 L1168.0,846.0 Q1168.0,860.0 1158.1,869.9 L1093.9,934.1 Q1084.0,944.0 1084.0,958.0 L1084.0,1140.0 Q1084.0,1154.0 1074.1,1163.9 L1051.9,1186.1 Q1042.0,1196.0 1042.0,1210.0 L1042.0,1280.0 L1042.0,1518.0 Q1042.0,1532.0 1051.9,1541.9 L1084.0,1574.0 L1168.0,1658.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="538" y1="356" x2="513.9583694396574" y2="331.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="489.9583694396574" y="320.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Locations</title></rect><text x="513.9583694396574" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="1042" y1="818" x2="1042.0" y2="784.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1018.0" y="773.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Locations</title></rect><text x="1042.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="2260" y1="2162" x2="2284.0416305603426" y2="2186.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="2260.0416305603426" y="2175.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Config</title></rect><text x="2284.0416305603426" y="2191.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="2260" y1="1784" x2="2294.0" y2="1784.0" stroke="#E07B12" stroke-width="7"/><rect x="2270.0" y="1773.0" width="48" height="22" rx="5" fill="#E07B12"><title>Config</title></rect><text x="2294.0" y="1789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1000" y1="2750" x2="1024.0416305603426" y2="2774.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1000.0416305603426" y="2763.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Device</title></rect><text x="1024.0416305603426" y="2779.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEV</text>
+<line x1="160" y1="2204" x2="126.0" y2="2204.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="2193.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Device</title></rect><text x="126.0" y="2209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEV</text>
+<line x1="832" y1="1700" x2="832.0" y2="1734.0" stroke="#B8860B" stroke-width="7"/><rect x="808.0" y="1723.0" width="48" height="22" rx="5" fill="#B8860B"><title>Bulk</title></rect><text x="832.0" y="1739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUL</text>
+<line x1="832" y1="1532" x2="832.0" y2="1498.0" stroke="#B8860B" stroke-width="7"/><rect x="808.0" y="1487.0" width="48" height="22" rx="5" fill="#B8860B"><title>Bulk</title></rect><text x="832.0" y="1503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUL</text>
+<line x1="1714" y1="2162" x2="1748.0" y2="2162.0" stroke="#0B7A75" stroke-width="7"/><rect x="1724.0" y="2151.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Portalbeam</title></rect><text x="1748.0" y="2167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POR</text>
+<line x1="1420" y1="2288" x2="1395.9583694396574" y2="2312.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1371.9583694396574" y="2301.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Portalbeam</title></rect><text x="1395.9583694396574" y="2317.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POR</text>
+<line x1="1210" y1="2036" x2="1244.0" y2="2036.0" stroke="#C2410C" stroke-width="7"/><rect x="1220.0" y="2025.0" width="48" height="22" rx="5" fill="#C2410C"><title>Firmware</title></rect><text x="1244.0" y="2041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIR</text>
+<line x1="1042" y1="2036" x2="1008.0" y2="2036.0" stroke="#C2410C" stroke-width="7"/><rect x="984.0" y="2025.0" width="48" height="22" rx="5" fill="#C2410C"><title>Firmware</title></rect><text x="1008.0" y="2041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIR</text>
+<line x1="1168" y1="1364" x2="1134.0" y2="1364.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1110.0" y="1353.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Occupancy</title></rect><text x="1134.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OCC</text>
+<line x1="1252" y1="986" x2="1286.0" y2="986.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1262.0" y="975.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Occupancy</title></rect><text x="1286.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OCC</text>
+<line x1="1924" y1="1406" x2="1924.0" y2="1440.0" stroke="#2E7D32" stroke-width="7"/><rect x="1900.0" y="1429.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Order</title></rect><text x="1924.0" y="1445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="1924" y1="1238" x2="1924.0" y2="1204.0" stroke="#2E7D32" stroke-width="7"/><rect x="1900.0" y="1193.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Order</title></rect><text x="1924.0" y="1209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="1546" y1="1196" x2="1546.0" y2="1162.0" stroke="#B0287F" stroke-width="7"/><rect x="1522.0" y="1151.0" width="48" height="22" rx="5" fill="#B0287F"><title>Channels</title></rect><text x="1546.0" y="1167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="1798" y1="1616" x2="1822.0416305603426" y2="1640.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1798.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Channels</title></rect><text x="1822.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<rect x="1096" y="1227" width="60" height="26" rx="13" fill="#D6264F"/><text x="1126" y="1245" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">STR</text>
+<line x1="1546" y1="230" x2="1570.0416305603426" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1546.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1570.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1168" y1="1658" x2="1192.0416305603426" y2="1682.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1168.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1192.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-buildings-api/#op-get-locations-buildings" target="_blank" class="st" data-op="get-locations-buildings"><title>GET /v2/locations/buildings
+Locations line · get-locations-buildings</title>
+<circle cx="538" cy="356" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="550" y="361" text-anchor="start" style="fill:#1A1F2C">List buildings</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-buildings-api/#op-get-v2-locations-buildings-id" target="_blank" class="st" data-op="get-v2-locations-buildings-id"><title>GET /v2/locations/buildings/{id}
+Locations line · get-v2-locations-buildings-id</title>
+<circle cx="622" cy="440" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="634" y="445" text-anchor="start" style="fill:#1A1F2C">Get building</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-campuses-api/#op-get-locations-campuses" target="_blank" class="st" data-op="get-locations-campuses"><title>GET /v2/locations/campuses
+Locations line · get-locations-campuses</title>
+<circle cx="664" cy="482" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="487" text-anchor="start" style="fill:#1A1F2C">List campuses</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-campuses-api/#op-getV2LocationsCampusesById" target="_blank" class="st" data-op="getV2LocationsCampusesById"><title>GET /v2/locations/campuses/{id}
+Locations line · getV2LocationsCampusesById</title>
+<circle cx="748" cy="566" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="760" y="571" text-anchor="start" style="fill:#1A1F2C">Get campus</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-colocations-api/#op-get-v3-novid-colocations" target="_blank" class="st" data-op="get-v3-novid-colocations"><title>GET /v3/novid/colocations
+More Local line · get-v3-novid-colocations</title>
+<circle cx="1042" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1030.0" y="1285" text-anchor="end" style="fill:#1A1F2C">List colocations</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-command-api/#op-getCommandEncrypt" target="_blank" class="st" data-op="getCommandEncrypt"><title>GET /command/encrypt
+More Local line · getCommandEncrypt</title>
+<circle cx="1546" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="235" text-anchor="start" style="fill:#1A1F2C">Get encrypt</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-getConfig" target="_blank" class="st" data-op="getConfig"><title>GET /config
+Config line · getConfig</title>
+<circle cx="2260" cy="2162" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2272" y="2167" text-anchor="start" style="fill:#1A1F2C">Get config</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-postConfigCreate" target="_blank" class="st" data-op="postConfigCreate"><title>POST /config/create
+Config line · postConfigCreate</title>
+<circle cx="2176" cy="2078" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2188" y="2083" text-anchor="start" style="fill:#1A1F2C">Create config</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-getConfigEncrypt" target="_blank" class="st" data-op="getConfigEncrypt"><title>GET /config/encrypt
+Config line · getConfigEncrypt</title>
+<circle cx="2050" cy="1952" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2062" y="1957" text-anchor="start" style="fill:#1A1F2C">Get encrypt</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-postConfigDelete" target="_blank" class="st" data-op="postConfigDelete"><title>POST /config/delete
+Config line · postConfigDelete</title>
+<circle cx="2092" cy="1994" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2104" y="1999" text-anchor="start" style="fill:#1A1F2C">Delete config</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-postConfigExport" target="_blank" class="st" data-op="postConfigExport"><title>POST /config/export
+Config line · postConfigExport</title>
+<circle cx="2050" cy="1826" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2062" y="1831" text-anchor="start" style="fill:#1A1F2C">Export config</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-postConfigImport" target="_blank" class="st" data-op="postConfigImport"><title>POST /config/import
+Config line · postConfigImport</title>
+<circle cx="2092" cy="1784" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2080.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Import config</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-getConfigReadall" target="_blank" class="st" data-op="getConfigReadall"><title>GET /config/readall
+Config line · getConfigReadall</title>
+<circle cx="2176" cy="1784" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2182" y="1772" transform="rotate(-45 2182 1772)" style="fill:#1A1F2C">Get readall</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-config-api/#op-getConfigByFileNameCsv" target="_blank" class="st" data-op="getConfigByFileNameCsv"><title>GET /config/{fileName}/csv
+Config line · getConfigByFileNameCsv</title>
+<circle cx="2260" cy="1784" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2254" y="1796" text-anchor="end" transform="rotate(-45 2254 1796)" style="fill:#1A1F2C">Get csv</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-3rd-party-api/#op-postDeviceVendorMerakiCreate" target="_blank" class="st" data-op="postDeviceVendorMerakiCreate"><title>POST /device/vendor/meraki/create
+Device line · postDeviceVendorMerakiCreate</title>
+<circle cx="538" cy="2078" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="526.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Create vendor meraki</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-3rd-party-api/#op-postDeviceVendorMerakiUpdate" target="_blank" class="st" data-op="postDeviceVendorMerakiUpdate"><title>POST /device/vendor/meraki/update
+Device line · postDeviceVendorMerakiUpdate</title>
+<circle cx="412" cy="2204" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="424" y="2209" text-anchor="start" style="fill:#1A1F2C">Update vendor meraki</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-3rd-party-api/#op-postDeviceVendorMerakiDelete" target="_blank" class="st" data-op="postDeviceVendorMerakiDelete"><title>POST /device/vendor/meraki/delete
+Device line · postDeviceVendorMerakiDelete</title>
+<circle cx="496" cy="2120" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="2125" text-anchor="start" style="fill:#1A1F2C">Delete meraki</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-getDevice" target="_blank" class="st" data-op="getDevice"><title>GET /device
+Device line · getDevice</title>
+<circle cx="1000" cy="2750" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1012" y="2755" text-anchor="start" style="fill:#1A1F2C">Get device</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-postDeviceDecrypt" target="_blank" class="st" data-op="postDeviceDecrypt"><title>POST /device/decrypt
+Device line · postDeviceDecrypt</title>
+<circle cx="916" cy="2666" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="2671" text-anchor="start" style="fill:#1A1F2C">Update decrypt</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-postDeviceUpdate" target="_blank" class="st" data-op="postDeviceUpdate"><title>POST /device/update
+Device line · postDeviceUpdate</title>
+<circle cx="706" cy="2078" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="2083" text-anchor="start" style="fill:#1A1F2C">Update device</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-getDeviceUnassignedByManagerId" target="_blank" class="st" data-op="getDeviceUnassignedByManagerId"><title>GET /device/unassigned/{managerId}
+Device line · getDeviceUnassignedByManagerId
+DEPRECATED</title>
+<circle cx="748" cy="2036" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="736.0" y="2041" text-anchor="end" style="fill:#A0A7B4">Get unassigned</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-postDeviceByUniqueIdAccess" target="_blank" class="st" data-op="postDeviceByUniqueIdAccess"><title>POST /device/{uniqueId}/access
+Device line · postDeviceByUniqueIdAccess</title>
+<circle cx="244" cy="2204" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="250" y="2192" transform="rotate(-45 250 2192)" style="fill:#1A1F2C">Update access</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-getDeviceByUniqueIdAccess" target="_blank" class="st" data-op="getDeviceByUniqueIdAccess"><title>GET /device/{uniqueId}/access
+Device line · getDeviceByUniqueIdAccess</title>
+<circle cx="328" cy="2204" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="334" y="2192" transform="rotate(-45 334 2192)" style="fill:#1A1F2C">Get access</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-deleteDeviceByUniqueIdAccessByEmail" target="_blank" class="st" data-op="deleteDeviceByUniqueIdAccessByEmail"><title>DELETE /device/{uniqueId}/access/{email}
+Device line · deleteDeviceByUniqueIdAccessByEmail</title>
+<circle cx="160" cy="2204" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="156" y1="2208" x2="164" y2="2200" stroke="#0E9F6E" stroke-width="2"/>
+<text x="166" y="2192" transform="rotate(-45 166 2192)" style="fill:#1A1F2C">Delete access</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-postBulkDeviceAccess" target="_blank" class="st" data-op="postBulkDeviceAccess"><title>POST /bulk/device-access
+Bulk line · postBulkDeviceAccess</title>
+<circle cx="832" cy="1616" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="820.0" y="1621" text-anchor="end" style="fill:#1A1F2C">Update device access</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-getBulkDeviceAccessStatusForAuthorizedManager" target="_blank" class="st" data-op="getBulkDeviceAccessStatusForAuthorizedManager"><title>GET /bulk/device-access
+Bulk line · getBulkDeviceAccessStatusForAuthorizedManager</title>
+<circle cx="832" cy="1700" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="844" y="1705" text-anchor="start" style="fill:#1A1F2C">Get device access</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-getBulkDeviceAccessStatus" target="_blank" class="st" data-op="getBulkDeviceAccessStatus"><title>GET /bulk/device-access/{jobKey}
+Bulk line · getBulkDeviceAccessStatus</title>
+<circle cx="832" cy="1532" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="820.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Get device access</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-postDeviceSync" target="_blank" class="st" data-op="postDeviceSync"><title>POST /device/sync
+Device line · postDeviceSync</title>
+<circle cx="832" cy="2120" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="2125" text-anchor="start" style="fill:#1A1F2C">Sync device</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-api/#op-postDeviceSyncToken" target="_blank" class="st" data-op="postDeviceSyncToken"><title>POST /device/sync/token
+Device line · postDeviceSyncToken</title>
+<circle cx="832" cy="2036" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="2041" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-portal-beam-api/#op-postPortalbeamImage" target="_blank" class="st" data-op="postPortalbeamImage"><title>POST /portalbeam/image
+Portalbeam line · postPortalbeamImage</title>
+<circle cx="1630" cy="2162" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1636" y="2150" transform="rotate(-45 1636 2150)" style="fill:#1A1F2C">Update image</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-portal-beam-api/#op-getPortalbeamImage" target="_blank" class="st" data-op="getPortalbeamImage"><title>GET /portalbeam/image
+Portalbeam line · getPortalbeamImage</title>
+<circle cx="1714" cy="2162" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1708" y="2174" text-anchor="end" transform="rotate(-45 1708 2174)" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-portal-beam-api/#op-postPortalbeamStitching" target="_blank" class="st" data-op="postPortalbeamStitching"><title>POST /portalbeam/stitching
+Portalbeam line · postPortalbeamStitching</title>
+<circle cx="1504" cy="2204" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="2209" text-anchor="start" style="fill:#1A1F2C">Update stitching</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-portal-beam-api/#op-getPortalbeamStitching" target="_blank" class="st" data-op="getPortalbeamStitching"><title>GET /portalbeam/stitching
+Portalbeam line · getPortalbeamStitching</title>
+<circle cx="1546" cy="2162" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1534.0" y="2167" text-anchor="end" style="fill:#1A1F2C">Get stitching</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-portal-beam-api/#op-deletePortalbeamStitching" target="_blank" class="st" data-op="deletePortalbeamStitching"><title>DELETE /portalbeam/stitching
+Portalbeam line · deletePortalbeamStitching</title>
+<circle cx="1420" cy="2288" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1416" y1="2292" x2="1424" y2="2284" stroke="#0B7A75" stroke-width="2"/>
+<text x="1432" y="2293" text-anchor="start" style="fill:#1A1F2C">Delete stitching</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-device-tags-api/#op-getTags" target="_blank" class="st" data-op="getTags"><title>GET /tags
+More Local line · getTags</title>
+<circle cx="1252" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="613" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-eddystone-api/#op-postEddystone" target="_blank" class="st" data-op="postEddystone"><title>POST /eddystone
+More Local line · postEddystone</title>
+<circle cx="1462" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="319" text-anchor="start" style="fill:#1A1F2C">Update eddystone</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-eddystone-api/#op-getNamespaces" target="_blank" class="st" data-op="getNamespaces"><title>GET /namespaces
+More Local line · getNamespaces</title>
+<circle cx="1378" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1390" y="487" text-anchor="start" style="fill:#1A1F2C">List namespaces</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-entity-integration-api/#op-createUpdateEntities" target="_blank" class="st" data-op="createUpdateEntities"><title>POST /v1/integration/entity
+More Local line · createUpdateEntities</title>
+<circle cx="1168" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="697" text-anchor="start" style="fill:#1A1F2C">Update entity</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-entity-integration-api/#op-entityDetails" target="_blank" class="st" data-op="entityDetails"><title>GET /v1/integration/entity/{entityId}
+More Local line · entityDetails</title>
+<circle cx="1168" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="781" text-anchor="start" style="fill:#1A1F2C">Get entity</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-external-device-api/#op-postDeviceDelete" target="_blank" class="st" data-op="postDeviceDelete"><title>POST /device/delete
+Device line · postDeviceDelete</title>
+<circle cx="832" cy="2582" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="2587" text-anchor="start" style="fill:#1A1F2C">Delete device</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-external-device-api/#op-postDeviceExternal" target="_blank" class="st" data-op="postDeviceExternal"><title>POST /device/external
+Device line · postDeviceExternal</title>
+<circle cx="832" cy="2498" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="2503" text-anchor="start" style="fill:#1A1F2C">Update external</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-external-device-api/#op-postDeviceExternalImport" target="_blank" class="st" data-op="postDeviceExternalImport"><title>POST /device/external/import
+Device line · postDeviceExternalImport</title>
+<circle cx="832" cy="2330" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="2335" text-anchor="start" style="fill:#1A1F2C">Import device external</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-external-device-api/#op-getDeviceExternalImport" target="_blank" class="st" data-op="getDeviceExternalImport"><title>GET /device/external/import
+Device line · getDeviceExternalImport</title>
+<circle cx="832" cy="2414" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="2419" text-anchor="start" style="fill:#1A1F2C">Import device external</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-external-device-api/#op-deleteDeviceExternalImportByJobKey" target="_blank" class="st" data-op="deleteDeviceExternalImportByJobKey"><title>DELETE /device/external/import/{jobKey}
+Device line · deleteDeviceExternalImportByJobKey</title>
+<circle cx="832" cy="2204" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="828" y1="2208" x2="836" y2="2200" stroke="#0E9F6E" stroke-width="2"/>
+<text x="844" y="2209" text-anchor="start" style="fill:#1A1F2C">Delete import</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-firmware-api/#op-getFirmware" target="_blank" class="st" data-op="getFirmware"><title>GET /firmware
+Firmware line · getFirmware</title>
+<circle cx="1210" cy="2036" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1204" y="2048" text-anchor="end" transform="rotate(-45 1204 2048)" style="fill:#1A1F2C">Get firmware</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-firmware-api/#op-getFirmwareByFirmwareVersion" target="_blank" class="st" data-op="getFirmwareByFirmwareVersion"><title>GET /firmware/{firmwareVersion}
+Firmware line · getFirmwareByFirmwareVersion
+DEPRECATED</title>
+<circle cx="1126" cy="2036" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1132" y="2024" transform="rotate(-45 1132 2024)" style="fill:#A0A7B4">Get firmware</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-firmware-api/#op-getFirmwareByFirmwareVersionFile" target="_blank" class="st" data-op="getFirmwareByFirmwareVersionFile"><title>GET /firmware/{firmwareVersion}/file
+Firmware line · getFirmwareByFirmwareVersionFile
+DEPRECATED</title>
+<circle cx="1042" cy="2036" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1048" y="2024" transform="rotate(-45 1048 2024)" style="fill:#A0A7B4">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-floors-api/#op-get-locations-floors" target="_blank" class="st" data-op="get-locations-floors"><title>GET /v2/locations/floors
+Locations line · get-locations-floors</title>
+<circle cx="790" cy="608" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="802" y="613" text-anchor="start" style="fill:#1A1F2C">List floors</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-footfall-spaces-api/#op-get-v2-locations-spaces" target="_blank" class="st" data-op="get-v2-locations-spaces"><title>GET /v2/locations/spaces
+Locations line · get-v2-locations-spaces</title>
+<circle cx="1042" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1051" y="892" text-anchor="start" style="fill:#1A1F2C">List spaces</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-gateways-api/#op-get-v2-locations-gateways" target="_blank" class="st" data-op="get-v2-locations-gateways"><title>GET /v2/locations/gateways
+Locations line · get-v2-locations-gateways</title>
+<circle cx="874" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="886" y="697" text-anchor="start" style="fill:#1A1F2C">List gateways</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-location-images-api/#op-get-v3-locations-images" target="_blank" class="st" data-op="get-v3-locations-images"><title>GET /v3/locations/images/{type}/{id}
+Locations line · get-v3-locations-images</title>
+<circle cx="1042" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1054" y="823" text-anchor="start" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-manager-api/#op-getManager" target="_blank" class="st" data-op="getManager"><title>GET /manager
+More Local line · getManager</title>
+<circle cx="1378" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1390" y="403" text-anchor="start" style="fill:#1A1F2C">Get manager</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-api/#op-getV3Occupancy" target="_blank" class="st" data-op="getV3Occupancy"><title>GET /v3/occupancy
+Occupancy line · getV3Occupancy</title>
+<circle cx="1168" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1177" y="1383" text-anchor="start" style="fill:#1A1F2C">Get occupancy</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-footfall-api/#op-get-v3-occupancy-spaces" target="_blank" class="st" data-op="get-v3-occupancy-spaces"><title>GET /v3/occupancy/spaces
+Occupancy line · get-v3-occupancy-spaces</title>
+<circle cx="1168" cy="986" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1156.0" y="984" text-anchor="end" style="fill:#1A1F2C">List<tspan x="1156.0" dy="13">spaces <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-footfall-api/#op-get-v3-occupancy-spaces-history" target="_blank" class="st" data-op="get-v3-occupancy-spaces-history"><title>GET /v3/occupancy/spaces/history
+Occupancy line · get-v3-occupancy-spaces-history</title>
+<circle cx="1252" cy="986" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1246" y="998" text-anchor="end" transform="rotate(-45 1246 998)" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-room-api/#op-get-v3-occupancy-rooms" target="_blank" class="st" data-op="get-v3-occupancy-rooms"><title>GET /v3/occupancy/rooms
+Occupancy line · get-v3-occupancy-rooms</title>
+<circle cx="1252" cy="1154" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1264" y="1159" text-anchor="start" style="fill:#1A1F2C">List rooms</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-room-api/#op-get-v2-occupancy-roomId" target="_blank" class="st" data-op="get-v2-occupancy-roomId"><title>GET /v3/occupancy/rooms/history
+Occupancy line · get-v2-occupancy-roomId</title>
+<circle cx="1168" cy="1070" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="1075" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-seats-api/#op-get-v3-occupancy-room-attributes" target="_blank" class="st" data-op="get-v3-occupancy-room-attributes"><title>GET /v3/occupancy/room-attributes
+Occupancy line · get-v3-occupancy-room-attributes</title>
+<circle cx="1252" cy="1364" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1264" y="1369" text-anchor="start" style="fill:#1A1F2C">List room attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-occupancy-seats-api/#op-get-v3-occupancy-room-attributes-history" target="_blank" class="st" data-op="get-v3-occupancy-room-attributes-history"><title>GET /v3/occupancy/room-attributes/history
+Occupancy line · get-v3-occupancy-room-attributes-history</title>
+<circle cx="1252" cy="1196" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1264" y="1201" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-order-api/#op-getOrder" target="_blank" class="st" data-op="getOrder"><title>GET /order
+Order line · getOrder</title>
+<circle cx="1924" cy="1406" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="1411" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-order-api/#op-postOrderClaim" target="_blank" class="st" data-op="postOrderClaim"><title>POST /order/claim
+Order line · postOrderClaim</title>
+<circle cx="1924" cy="1238" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="1243" text-anchor="start" style="fill:#1A1F2C">Update claim</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-order-api/#op-getOrderClaim" target="_blank" class="st" data-op="getOrderClaim"><title>GET /order/claim
+Order line · getOrderClaim</title>
+<circle cx="1924" cy="1322" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="1327" text-anchor="start" style="fill:#1A1F2C">Get claim</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-positions-api/#op-get-positions" target="_blank" class="st" data-op="get-positions"><title>GET /v2/positions
+More Local line · get-positions</title>
+<circle cx="1084" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1159" text-anchor="start" style="fill:#1A1F2C">List positions</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-positions-api/#op-get-positions-history" target="_blank" class="st" data-op="get-positions-history"><title>GET /v2/positions/history
+More Local line · get-positions-history</title>
+<circle cx="1042" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1201" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-presences-api/#op-get-presences" target="_blank" class="st" data-op="get-presences"><title>GET /v3/presences
+More Local line · get-presences</title>
+<circle cx="1042" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1537" text-anchor="start" style="fill:#1A1F2C">List presences</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-presences-api/#op-get-presences-history" target="_blank" class="st" data-op="get-presences-history"><title>GET /v3/presences/history
+More Local line · get-presences-history</title>
+<circle cx="1084" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1579" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-proximities-api/#op-getProximities" target="_blank" class="st" data-op="getProximities"><title>GET /proximities
+More Local line · getProximities</title>
+<circle cx="1294" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="571" text-anchor="start" style="fill:#1A1F2C">List proximities</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-rooms-api/#op-get-locations-rooms" target="_blank" class="st" data-op="get-locations-rooms"><title>GET /v2/locations/rooms
+Locations line · get-locations-rooms</title>
+<circle cx="958" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="946.0" y="907" text-anchor="end" style="fill:#1A1F2C">List rooms</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-rooms-api/#op-get-v2-locations-room-sensors" target="_blank" class="st" data-op="get-v2-locations-room-sensors"><title>GET /v2/locations/room-sensors
+Locations line · get-v2-locations-room-sensors</title>
+<circle cx="874" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="886" y="823" text-anchor="start" style="fill:#1A1F2C">List room sensors</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-spaces-api/#op-spacesList" target="_blank" class="st" data-op="spacesList"><title>GET /v1/spaces
+More Local line · spacesList</title>
+<circle cx="1168" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="865" text-anchor="start" style="fill:#1A1F2C">List spaces</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-spaces-api/#op-getSpace" target="_blank" class="st" data-op="getSpace"><title>GET /v1/spaces/{id}
+More Local line · getSpace</title>
+<circle cx="1084" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="949" text-anchor="start" style="fill:#1A1F2C">Get space</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-get-v3-channels" target="_blank" class="st" data-op="get-v3-channels"><title>GET /v3/channels
+Channels line · get-v3-channels</title>
+<circle cx="1546" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1558" y="1201" text-anchor="start" style="fill:#1A1F2C">List channels</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-post-v3-channels" target="_blank" class="st" data-op="post-v3-channels"><title>POST /v3/channels
+Channels line · post-v3-channels</title>
+<circle cx="1546" cy="1280" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1558" y="1285" text-anchor="start" style="fill:#1A1F2C">Create channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-get-v3-channels-id" target="_blank" class="st" data-op="get-v3-channels-id"><title>GET /v3/channels/{id}
+Channels line · get-v3-channels-id</title>
+<circle cx="1546" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1558" y="1369" text-anchor="start" style="fill:#1A1F2C">Get channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-delete-v3-channels-id" target="_blank" class="st" data-op="delete-v3-channels-id"><title>DELETE /v3/channels/{id}
+Channels line · delete-v3-channels-id</title>
+<circle cx="1714" cy="1532" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1710" y1="1536" x2="1718" y2="1528" stroke="#B0287F" stroke-width="2"/>
+<text x="1726" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-patch-v3-channels-id" target="_blank" class="st" data-op="patch-v3-channels-id"><title>PATCH /v3/channels/{id}
+Channels line · patch-v3-channels-id</title>
+<circle cx="1630" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1642" y="1453" text-anchor="start" style="fill:#1A1F2C">Update channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-get-v3-streams-subscriptions-telemetry" target="_blank" class="st" data-op="get-v3-streams-subscriptions-telemetry"><title>GET /v3/streams/subscriptions/telemetry
+Streams line · get-v3-streams-subscriptions-telemetry</title>
+<circle cx="1126" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1114.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Get telemetry <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-post-v3-streams-subscriptions-telemetry" target="_blank" class="st" data-op="post-v3-streams-subscriptions-telemetry"><title>POST /v3/streams/subscriptions/telemetry
+Streams line · post-v3-streams-subscriptions-telemetry</title>
+<circle cx="1042" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1705" text-anchor="start" style="fill:#1A1F2C">Update telemetry</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-patch-v3-streams-subscriptions-telemetry" target="_blank" class="st" data-op="patch-v3-streams-subscriptions-telemetry"><title>PATCH /v3/streams/subscriptions/telemetry
+Streams line · patch-v3-streams-subscriptions-telemetry</title>
+<circle cx="958" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="1621" text-anchor="start" style="fill:#1A1F2C">Update telemetry</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-delete-v3-streams-subscriptions-telemetry" target="_blank" class="st" data-op="delete-v3-streams-subscriptions-telemetry"><title>DELETE /v3/streams/subscriptions/telemetry
+Streams line · delete-v3-streams-subscriptions-telemetry</title>
+<circle cx="958" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="954" y1="1536" x2="962" y2="1528" stroke="#D6264F" stroke-width="2"/>
+<text x="946.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Delete telemetry</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-get-v3-channels-state" target="_blank" class="st" data-op="get-v3-channels-state"><title>GET /v3/channels/state/{id}
+Channels line · get-v3-channels-state</title>
+<circle cx="1798" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1810" y="1621" text-anchor="start" style="fill:#1A1F2C">Get state</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-get-v3-streams-subscriptions-position" target="_blank" class="st" data-op="get-v3-streams-subscriptions-position"><title>GET /v3/streams/subscriptions/position
+Streams line · get-v3-streams-subscriptions-position</title>
+<circle cx="1546" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1537" text-anchor="start" style="fill:#1A1F2C">Get position</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-post-v3-streams-subscriptions-position" target="_blank" class="st" data-op="post-v3-streams-subscriptions-position"><title>POST /v3/streams/subscriptions/position
+Streams line · post-v3-streams-subscriptions-position</title>
+<circle cx="1546" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1621" text-anchor="start" style="fill:#1A1F2C">Update position</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-patch-v3-streams-subscriptions-position" target="_blank" class="st" data-op="patch-v3-streams-subscriptions-position"><title>PATCH /v3/streams/subscriptions/position
+Streams line · patch-v3-streams-subscriptions-position</title>
+<circle cx="1462" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="1705" text-anchor="start" style="fill:#1A1F2C">Update position</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-delete-v3-streams-subscriptions-position" target="_blank" class="st" data-op="delete-v3-streams-subscriptions-position"><title>DELETE /v3/streams/subscriptions/position
+Streams line · delete-v3-streams-subscriptions-position</title>
+<circle cx="1378" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1374" y1="1788" x2="1382" y2="1780" stroke="#D6264F" stroke-width="2"/>
+<text x="1390" y="1789" text-anchor="start" style="fill:#1A1F2C">Delete position</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-getV3StreamsSubscriptionsOccupancy" target="_blank" class="st" data-op="getV3StreamsSubscriptionsOccupancy"><title>GET /v3/streams/subscriptions/occupancy
+Streams line · getV3StreamsSubscriptionsOccupancy</title>
+<circle cx="1126" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1135" y="1299" text-anchor="start" style="fill:#1A1F2C">Get occupancy <tspan font-weight="700" style="fill:#7B3FE4">⇄OCC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-postV3StreamsSubscriptionsOccupancy" target="_blank" class="st" data-op="postV3StreamsSubscriptionsOccupancy"><title>POST /v3/streams/subscriptions/occupancy
+Streams line · postV3StreamsSubscriptionsOccupancy</title>
+<circle cx="1210" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1210" y="1266" text-anchor="middle" style="fill:#1A1F2C">Update occupancy</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-patchV3StreamsSubscriptionsOccupancy" target="_blank" class="st" data-op="patchV3StreamsSubscriptionsOccupancy"><title>PATCH /v3/streams/subscriptions/occupancy
+Streams line · patchV3StreamsSubscriptionsOccupancy</title>
+<circle cx="1294" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="1268" transform="rotate(-45 1300 1268)" style="fill:#1A1F2C">Update occupancy</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-deleteV3StreamsSubscriptionsOccupancy" target="_blank" class="st" data-op="deleteV3StreamsSubscriptionsOccupancy"><title>DELETE /v3/streams/subscriptions/occupancy
+Streams line · deleteV3StreamsSubscriptionsOccupancy</title>
+<circle cx="1378" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1374" y1="1284" x2="1382" y2="1276" stroke="#D6264F" stroke-width="2"/>
+<text x="1390" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete occupancy</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-post-v3-streams-subscriptions-type-channels" target="_blank" class="st" data-op="post-v3-streams-subscriptions-type-channels"><title>POST /v3/streams/subscriptions/position/channels
+Streams line · post-v3-streams-subscriptions-type-channels</title>
+<circle cx="1294" cy="1784" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="1772" transform="rotate(-45 1300 1772)" style="fill:#1A1F2C">Create channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-delete-v3-streams-subscriptions-type-channels" target="_blank" class="st" data-op="delete-v3-streams-subscriptions-type-channels"><title>DELETE /v3/streams/subscriptions/position/channels
+Streams line · delete-v3-streams-subscriptions-type-channels</title>
+<circle cx="1210" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1206" y1="1788" x2="1214" y2="1780" stroke="#D6264F" stroke-width="2"/>
+<text x="1216" y="1772" transform="rotate(-45 1216 1772)" style="fill:#1A1F2C">Delete channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-postV3StreamsSubscriptionsTelemetryChannels" target="_blank" class="st" data-op="postV3StreamsSubscriptionsTelemetryChannels"><title>POST /v3/streams/subscriptions/telemetry/channels
+Streams line · postV3StreamsSubscriptionsTelemetryChannels</title>
+<circle cx="958" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="946.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Create channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-deleteV3StreamsSubscriptionsTelemetryChannels" target="_blank" class="st" data-op="deleteV3StreamsSubscriptionsTelemetryChannels"><title>DELETE /v3/streams/subscriptions/telemetry/channels
+Streams line · deleteV3StreamsSubscriptionsTelemetryChannels</title>
+<circle cx="1042" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1038" y1="1368" x2="1046" y2="1360" stroke="#D6264F" stroke-width="2"/>
+<text x="1030.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Delete channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-postV3StreamsSubscriptionsOccupancyChannels" target="_blank" class="st" data-op="postV3StreamsSubscriptionsOccupancyChannels"><title>POST /v3/streams/subscriptions/occupancy/channels
+Streams line · postV3StreamsSubscriptionsOccupancyChannels</title>
+<circle cx="1462" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1471" y="1354" text-anchor="start" style="fill:#1A1F2C">Create channel <tspan font-weight="700" style="fill:#B0287F">⇄CHA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-stream-api/#op-deleteV3StreamsSubscriptionsOccupancyChannels" target="_blank" class="st" data-op="deleteV3StreamsSubscriptionsOccupancyChannels"><title>DELETE /v3/streams/subscriptions/occupancy/channels
+Streams line · deleteV3StreamsSubscriptionsOccupancyChannels</title>
+<circle cx="1546" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1542" y1="1452" x2="1550" y2="1444" stroke="#D6264F" stroke-width="2"/>
+<text x="1534.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Delete channel</text>
+</a>
+<a href="https://apis.apis.io/apis/kontaktio/kontaktio-telemetry-api/#op-get-telemetry" target="_blank" class="st" data-op="get-telemetry"><title>GET /v3/telemetry
+More Local line · get-telemetry</title>
+<circle cx="1168" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1180" y="1663" text-anchor="start" style="fill:#1A1F2C">Get telemetry</text>
+</a>
+<text x="2450" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2450" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">STREAMS</text>
+<rect x="2450" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2467" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STR</text><text x="2492" y="269" font-size="11" fill="#1A1F2C">Streams <tspan fill="#8A93A6">18</tspan></text>
+<text x="2450" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">DEVICE</text>
+<rect x="2450" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2467" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DEV</text><text x="2492" y="312" font-size="11" fill="#1A1F2C">Device <tspan fill="#8A93A6">17</tspan></text>
+<text x="2450" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">LOCATIONS</text>
+<rect x="2450" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2467" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOC</text><text x="2492" y="355" font-size="11" fill="#1A1F2C">Locations <tspan fill="#8A93A6">10</tspan></text>
+<text x="2450" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">CONFIG</text>
+<rect x="2450" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="2467" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2492" y="398" font-size="11" fill="#1A1F2C">Config <tspan fill="#8A93A6">8</tspan></text>
+<text x="2450" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">OCCUPANCY</text>
+<rect x="2450" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2467" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OCC</text><text x="2492" y="441" font-size="11" fill="#1A1F2C">Occupancy <tspan fill="#8A93A6">7</tspan></text>
+<text x="2450" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">CHANNELS</text>
+<rect x="2450" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="2467" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="2492" y="484" font-size="11" fill="#1A1F2C">Channels <tspan fill="#8A93A6">6</tspan></text>
+<text x="2450" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">PORTALBEAM</text>
+<rect x="2450" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2467" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POR</text><text x="2492" y="527" font-size="11" fill="#1A1F2C">Portalbeam <tspan fill="#8A93A6">5</tspan></text>
+<text x="2450" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">BULK</text>
+<rect x="2450" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="2467" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BUL</text><text x="2492" y="570" font-size="11" fill="#1A1F2C">Bulk <tspan fill="#8A93A6">3</tspan></text>
+<text x="2450" y="596" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">FIRMWARE</text>
+<rect x="2450" y="603" width="34" height="13" rx="3" fill="#C2410C"/><text x="2467" y="613" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FIR</text><text x="2492" y="613" font-size="11" fill="#1A1F2C">Firmware <tspan fill="#8A93A6">3</tspan></text>
+<text x="2450" y="639" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">ORDER</text>
+<rect x="2450" y="646" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2467" y="656" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="2492" y="656" font-size="11" fill="#1A1F2C">Order <tspan fill="#8A93A6">3</tspan></text>
+<text x="2450" y="682" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2450" y="689" width="34" height="13" rx="3" fill="#D6264F"/><text x="2467" y="699" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2492" y="699" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">16</tspan></text>
+<text x="2700" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2718,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2744" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2718,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2744" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2718,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2744" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2718,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2744" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2718,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2744" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2718,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2744" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2718,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2744" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2718,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2744" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2700" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2700" y="463" font-size="10.5" fill="#5A6275">“Command” → More Local line · 1 op</text>
+<text x="2700" y="478" font-size="10.5" fill="#5A6275">“Eddystone” → More Local line · 1 op</text>
+<text x="2700" y="493" font-size="10.5" fill="#5A6275">“Integration” → More Local line · 2 ops</text>
+<text x="2700" y="508" font-size="10.5" fill="#5A6275">“Manager” → More Local line · 1 op</text>
+<text x="2700" y="523" font-size="10.5" fill="#5A6275">“Namespaces” → More Local line · 1 op</text>
+<text x="2700" y="538" font-size="10.5" fill="#5A6275">“Novid” → More Local line · 1 op</text>
+<text x="2700" y="553" font-size="10.5" fill="#5A6275">“Positions” → More Local line · 2 ops</text>
+<text x="2700" y="568" font-size="10.5" fill="#5A6275">“Presences” → More Local line · 2 ops</text>
+<text x="2700" y="583" font-size="10.5" fill="#5A6275">“Proximities” → More Local line · 1 op</text>
+<text x="2700" y="598" font-size="10.5" fill="#5A6275">“Spaces” → More Local line · 2 ops</text>
+<text x="2700" y="613" font-size="10.5" fill="#5A6275">“Tags” → More Local line · 1 op</text>
+<text x="2700" y="628" font-size="10.5" fill="#5A6275">“Telemetry” → More Local line · 1 op</text>
+<text x="2700" y="678" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2700" y="695" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2880" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/kontaktio/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
