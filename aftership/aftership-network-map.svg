@@ -1,0 +1,803 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3086 2868" width="3086" height="2868" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3086" height="2868" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Aftership API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">130 operations as stops · 22 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="706" y1="986" x2="664" y2="944" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="706" y1="986" x2="664" y2="944" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2218" y1="524" x2="2218" y2="482" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2218" y1="524" x2="2218" y2="482" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Cancel Labels" d="M160.0,1322.0 L160.0,1406.0 L160.0,1490.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cancel Labels</title></path>
+<path class="line" data-line="Cancel Pickups" d="M202.0,1658.0 L276.1,1583.9 Q286.0,1574.0 286.0,1560.0 L286.0,1532.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cancel Pickups</title></path>
+<path class="line" data-line="Claims" d="M706.0,2708.0 L790.0,2624.0 L906.1,2507.9 Q916.0,2498.0 916.0,2484.0 L916.0,2414.0 L916.0,2330.0 L916.0,2260.0 Q916.0,2246.0 925.9,2236.1 L990.1,2171.9 Q1000.0,2162.0 1014.0,2162.0 L1070.0,2162.0 Q1084.0,2162.0 1093.9,2171.9 L1158.1,2236.1 Q1168.0,2246.0 1168.0,2260.0 L1168.0,2288.0 L1168.0,2372.0 L1168.0,2498.0 L1168.0,2582.0 L1168.0,2666.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Claims</title></path>
+<path class="line" data-line="Courier connection" d="M1672.0,1910.0 L1588.0,1910.0 L1518.0,1910.0 Q1504.0,1910.0 1504.0,1924.0 L1504.0,1980.0 Q1504.0,1994.0 1513.9,2003.9 L1588.0,2078.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Courier connection</title></path>
+<path class="line" data-line="Coverages" d="M1756.0,1196.0 L1672.0,1280.0 L1588.0,1364.0 L1555.9,1396.1 Q1546.0,1406.0 1546.0,1420.0 L1546.0,1490.0 L1546.0,1574.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Coverages</title></path>
+<path class="line" data-line="Discoveries" d="M328.0,1280.0 L440.0,1280.0 Q454.0,1280.0 454.0,1294.0 L454.0,1350.0 Q454.0,1364.0 444.1,1373.9 L370.0,1448.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Discoveries</title></path>
+<path class="line" data-line="Fulfillments" d="M1336.0,2078.0 L1294.0,2036.0 L1261.9,2003.9 Q1252.0,1994.0 1238.0,1994.0 L1182.0,1994.0 Q1168.0,1994.0 1168.0,2008.0 L1168.0,2078.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Fulfillments</title></path>
+<path class="line" data-line="Labels" d="M622.0,1490.0 L580.0,1490.0 L496.0,1490.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Labels</title></path>
+<path class="line" data-line="Locations" d="M370.0,1952.0 L486.1,1835.9 Q496.0,1826.0 510.0,1826.0 L566.0,1826.0 Q580.0,1826.0 589.9,1835.9 L622.0,1868.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Locations</title></path>
+<path class="line" data-line="Manifests" d="M706.0,1406.0 L790.0,1322.0 L874.0,1238.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Manifests</title></path>
+<path class="line" data-line="Memberships" d="M916.0,2078.0 L1028.0,2078.0 Q1042.0,2078.0 1042.0,2064.0 L1042.0,1966.0 Q1042.0,1952.0 1028.0,1952.0 L958.0,1952.0 L874.0,1952.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Memberships</title></path>
+<path class="line" data-line="Orders" d="M2386.0,314.0 L2302.0,398.0 L2227.9,472.1 Q2218.0,482.0 2204.0,482.0 L2106.0,482.0 Q2092.0,482.0 2082.1,472.1 L2050.0,440.0 L2017.9,407.9 Q2008.0,398.0 2008.0,384.0 L2008.0,314.0 L2008.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Pickups" d="M580.0,1280.0 L622.0,1238.0 L706.0,1154.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Pickups</title></path>
+<path class="line" data-line="Products" d="M1126.0,1070.0 L1126.0,1154.0 L1126.0,1364.0 L1126.0,1476.0 Q1126.0,1490.0 1135.9,1499.9 L1158.1,1522.1 Q1168.0,1532.0 1182.0,1532.0 L1196.0,1532.0 Q1210.0,1532.0 1219.9,1522.1 L1252.0,1490.0 L1294.0,1448.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Products</title></path>
+<path class="line" data-line="Rates" d="M370.0,1658.0 L370.0,1742.0 L370.0,1826.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rates</title></path>
+<path class="line" data-line="Returns" d="M1000.0,1280.0 L1084.0,1280.0 L1168.0,1280.0 L1238.0,1280.0 Q1252.0,1280.0 1261.9,1289.9 L1336.0,1364.0 L1410.1,1438.1 Q1420.0,1448.0 1420.0,1462.0 L1420.0,1532.0 L1420.0,1616.0 L1420.0,1686.0 Q1420.0,1700.0 1410.1,1709.9 L1336.0,1784.0 L1261.9,1858.1 Q1252.0,1868.0 1238.0,1868.0 L1168.0,1868.0 L1084.0,1868.0 L1014.0,1868.0 Q1000.0,1868.0 990.1,1858.1 L916.0,1784.0 L841.9,1709.9 Q832.0,1700.0 832.0,1686.0 L832.0,1616.0 L832.0,1532.0 L832.0,1462.0 Q832.0,1448.0 841.9,1438.1 L916.0,1364.0 L1000.0,1280.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Returns</title></path>
+<path class="line" data-line="Shipper Accounts" d="M664.0,818.0 L664.0,902.0 L664.0,930.0 Q664.0,944.0 650.0,944.0 L594.0,944.0 Q580.0,944.0 570.1,934.1 L496.0,860.0 L454.0,818.0 L370.0,734.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Shipper Accounts</title></path>
+<path class="line" data-line="Stores" d="M1672.0,1742.0 L1597.9,1816.1 Q1588.0,1826.0 1574.0,1826.0 L1560.0,1826.0 Q1546.0,1826.0 1536.1,1816.1 L1513.9,1793.9 Q1504.0,1784.0 1490.0,1784.0 L1476.0,1784.0 Q1462.0,1784.0 1471.9,1774.1 L1546.0,1700.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Stores</title></path>
+<path class="line" data-line="Tracking" d="M1630.0,2288.0 L1546.0,2204.0 L1504.0,2162.0 L1471.9,2129.9 Q1462.0,2120.0 1452.1,2129.9 L1429.9,2152.1 Q1420.0,2162.0 1420.0,2176.0 L1420.0,2246.0 L1420.0,2330.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tracking</title></path>
+<path class="line" data-line="Warranty Registrations" d="M2218.0,524.0 L2218.0,608.0 L2218.0,692.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Warranty Registrations</title></path>
+<path class="line" data-line="Couriers Local" d="M874.0,818.0 L790.0,902.0 L706.0,986.0 L622.0,1070.0" fill="none" stroke="#B0287F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Couriers Local</title></path>
+<path class="line" data-line="More Local" d="M496.0,1616.0 L580.0,1616.0 L650.0,1616.0 Q664.0,1616.0 673.9,1625.9 L738.1,1690.1 Q748.0,1700.0 748.0,1714.0 L748.0,1784.0 L748.0,1868.0 L748.0,1952.0 L748.0,2036.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="160" y1="1322" x2="160.0" y2="1288.0" stroke="#0B7A75" stroke-width="7"/><rect x="136.0" y="1277.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Cancel Labels</title></rect><text x="160.0" y="1293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAL</text>
+<line x1="160" y1="1490" x2="160.0" y2="1524.0" stroke="#0B7A75" stroke-width="7"/><rect x="136.0" y="1513.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Cancel Labels</title></rect><text x="160.0" y="1529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAL</text>
+<line x1="202" y1="1658" x2="177.9583694396574" y2="1682.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="153.9583694396574" y="1671.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Cancel Pickups</title></rect><text x="177.9583694396574" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CP</text>
+<line x1="286" y1="1532" x2="286.0" y2="1498.0" stroke="#00838F" stroke-width="7"/><rect x="262.0" y="1487.0" width="48" height="22" rx="5" fill="#00838F"><title>Cancel Pickups</title></rect><text x="286.0" y="1503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CP</text>
+<line x1="706" y1="2708" x2="681.9583694396574" y2="2732.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="657.9583694396574" y="2721.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Claims</title></rect><text x="681.9583694396574" y="2737.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="1168" y1="2666" x2="1168.0" y2="2700.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1144.0" y="2689.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Claims</title></rect><text x="1168.0" y="2705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="1672" y1="1910" x2="1706.0" y2="1910.0" stroke="#C2410C" stroke-width="7"/><rect x="1682.0" y="1899.0" width="48" height="22" rx="5" fill="#C2410C"><title>Courier connection</title></rect><text x="1706.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CC</text>
+<line x1="1588" y1="2078" x2="1612.0416305603426" y2="2102.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1588.0416305603426" y="2091.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Courier connection</title></rect><text x="1612.0416305603426" y="2107.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CC</text>
+<line x1="1756" y1="1196" x2="1780.0416305603426" y2="1171.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1756.0416305603426" y="1160.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Coverages</title></rect><text x="1780.0416305603426" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COV</text>
+<line x1="1546" y1="1574" x2="1546.0" y2="1608.0" stroke="#0B7A75" stroke-width="7"/><rect x="1522.0" y="1597.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Coverages</title></rect><text x="1546.0" y="1613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COV</text>
+<line x1="328" y1="1280" x2="294.0" y2="1280.0" stroke="#5C6BC0" stroke-width="7"/><rect x="270.0" y="1269.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Discoveries</title></rect><text x="294.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="370" y1="1448" x2="345.95836943965736" y2="1472.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="321.95836943965736" y="1461.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Discoveries</title></rect><text x="345.95836943965736" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="1336" y1="2078" x2="1360.0416305603426" y2="2102.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1336.0416305603426" y="2091.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Fulfillments</title></rect><text x="1360.0416305603426" y="2107.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUL</text>
+<line x1="1168" y1="2078" x2="1168.0" y2="2112.0" stroke="#2E7D32" stroke-width="7"/><rect x="1144.0" y="2101.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Fulfillments</title></rect><text x="1168.0" y="2117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUL</text>
+<line x1="622" y1="1490" x2="656.0" y2="1490.0" stroke="#1F5FD1" stroke-width="7"/><rect x="632.0" y="1479.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Labels</title></rect><text x="656.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LAB</text>
+<line x1="496" y1="1490" x2="462.0" y2="1490.0" stroke="#1F5FD1" stroke-width="7"/><rect x="438.0" y="1479.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Labels</title></rect><text x="462.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LAB</text>
+<line x1="370" y1="1952" x2="345.95836943965736" y2="1976.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="321.95836943965736" y="1965.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Locations</title></rect><text x="345.95836943965736" y="1981.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="622" y1="1868" x2="646.0416305603426" y2="1892.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="622.0416305603426" y="1881.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Locations</title></rect><text x="646.0416305603426" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="706" y1="1406" x2="681.9583694396574" y2="1430.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="657.9583694396574" y="1419.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Manifests</title></rect><text x="681.9583694396574" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAN</text>
+<line x1="874" y1="1238" x2="898.0416305603426" y2="1213.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="874.0416305603426" y="1202.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Manifests</title></rect><text x="898.0416305603426" y="1218.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAN</text>
+<line x1="916" y1="2078" x2="882.0" y2="2078.0" stroke="#B8860B" stroke-width="7"/><rect x="858.0" y="2067.0" width="48" height="22" rx="5" fill="#B8860B"><title>Memberships</title></rect><text x="882.0" y="2083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MEM</text>
+<line x1="874" y1="1952" x2="840.0" y2="1952.0" stroke="#B8860B" stroke-width="7"/><rect x="816.0" y="1941.0" width="48" height="22" rx="5" fill="#B8860B"><title>Memberships</title></rect><text x="840.0" y="1957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MEM</text>
+<line x1="2386" y1="314" x2="2410.0416305603426" y2="289.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="2386.0416305603426" y="278.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Orders</title></rect><text x="2410.0416305603426" y="294.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="2008" y1="230" x2="2008.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1984.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Orders</title></rect><text x="2008.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="580" y1="1280" x2="555.9583694396574" y2="1304.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="531.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Pickups</title></rect><text x="555.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PIC</text>
+<line x1="706" y1="1154" x2="730.0416305603426" y2="1129.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="706.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Pickups</title></rect><text x="730.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PIC</text>
+<line x1="1126" y1="1070" x2="1126.0" y2="1036.0" stroke="#E07B12" stroke-width="7"/><rect x="1102.0" y="1025.0" width="48" height="22" rx="5" fill="#E07B12"><title>Products</title></rect><text x="1126.0" y="1041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1294" y1="1448" x2="1318.0416305603426" y2="1423.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1294.0416305603426" y="1412.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Products</title></rect><text x="1318.0416305603426" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="370" y1="1658" x2="370.0" y2="1624.0" stroke="#E07B12" stroke-width="7"/><rect x="346.0" y="1613.0" width="48" height="22" rx="5" fill="#E07B12"><title>Rates</title></rect><text x="370.0" y="1629.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RAT</text>
+<line x1="370" y1="1826" x2="370.0" y2="1860.0" stroke="#E07B12" stroke-width="7"/><rect x="346.0" y="1849.0" width="48" height="22" rx="5" fill="#E07B12"><title>Rates</title></rect><text x="370.0" y="1865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RAT</text>
+<rect x="970" y="1227" width="60" height="26" rx="13" fill="#D6264F"/><text x="1000" y="1245" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">RET</text>
+<line x1="664" y1="818" x2="664.0" y2="784.0" stroke="#B0287F" stroke-width="7"/><rect x="640.0" y="773.0" width="48" height="22" rx="5" fill="#B0287F"><title>Shipper Accounts</title></rect><text x="664.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="370" y1="734" x2="345.95836943965736" y2="709.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="321.95836943965736" y="698.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Shipper Accounts</title></rect><text x="345.95836943965736" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="1672" y1="1742" x2="1696.0416305603426" y2="1717.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1672.0416305603426" y="1706.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Stores</title></rect><text x="1696.0416305603426" y="1722.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="1546" y1="1700" x2="1570.0416305603426" y2="1675.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1546.0416305603426" y="1664.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Stores</title></rect><text x="1570.0416305603426" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="1630" y1="2288" x2="1654.0416305603426" y2="2312.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="1630.0416305603426" y="2301.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Tracking</title></rect><text x="1654.0416305603426" y="2317.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1420" y1="2330" x2="1420.0" y2="2364.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1396.0" y="2353.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Tracking</title></rect><text x="1420.0" y="2369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="2218" y1="524" x2="2218.0" y2="452.0" stroke="#1d33a9" stroke-width="7"/><rect x="2194.0" y="441.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Warranty Registrations</title></rect><text x="2218.0" y="457.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WR</text>
+<line x1="2218" y1="692" x2="2218.0" y2="726.0" stroke="#1d33a9" stroke-width="7"/><rect x="2194.0" y="715.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Warranty Registrations</title></rect><text x="2218.0" y="731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WR</text>
+<line x1="874" y1="818" x2="898.0416305603426" y2="793.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="874.0416305603426" y="782.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Couriers Local</title></rect><text x="898.0416305603426" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CL</text>
+<line x1="622" y1="1070" x2="597.9583694396574" y2="1094.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="573.9583694396574" y="1083.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Couriers Local</title></rect><text x="597.9583694396574" y="1099.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CL</text>
+<line x1="496" y1="1616" x2="462.0" y2="1616.0" stroke="#D6264F" stroke-width="7"/><rect x="438.0" y="1605.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="462.0" y="1621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="748" y1="2036" x2="748.0" y2="2070.0" stroke="#D6264F" stroke-width="7"/><rect x="724.0" y="2059.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="748.0" y="2075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/aftership/aftership-address-api/#op-post-addresses/validate" target="_blank" class="st" data-op="post-addresses/validate"><title>POST /addresses/validate
+More Local line · post-addresses/validate</title>
+<circle cx="580" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="586" y="1604" transform="rotate(-45 586 1604)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-address-validations-beta-api/#op-post-address-validations" target="_blank" class="st" data-op="post-address-validations"><title>POST /address-validations
+More Local line · post-address-validations</title>
+<circle cx="496" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="502" y="1604" transform="rotate(-45 502 1604)" style="fill:#1A1F2C">Create address validation</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-cancel-labels-api/#op-get-cancel-labels" target="_blank" class="st" data-op="get-cancel-labels"><title>GET /cancel-labels
+Cancel Labels line · get-cancel-labels</title>
+<circle cx="160" cy="1322" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="172" y="1327" text-anchor="start" style="fill:#1A1F2C">List cancel labels</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-cancel-labels-api/#op-post-cancel-labels" target="_blank" class="st" data-op="post-cancel-labels"><title>POST /cancel-labels
+Cancel Labels line · post-cancel-labels</title>
+<circle cx="160" cy="1406" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="172" y="1411" text-anchor="start" style="fill:#1A1F2C">Create cancel label</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-cancel-labels-api/#op-get-cancel-label" target="_blank" class="st" data-op="get-cancel-label"><title>GET /cancel-labels/{id}
+Cancel Labels line · get-cancel-label</title>
+<circle cx="160" cy="1490" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="148.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Get cancel label</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-cancel-pickups-api/#op-get-cancel-pickups" target="_blank" class="st" data-op="get-cancel-pickups"><title>GET /cancel-pickups
+Cancel Pickups line · get-cancel-pickups</title>
+<circle cx="202" cy="1658" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="214" y="1663" text-anchor="start" style="fill:#1A1F2C">List cancel pickups</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-cancel-pickups-api/#op-post-cancel-pickups" target="_blank" class="st" data-op="post-cancel-pickups"><title>POST /cancel-pickups
+Cancel Pickups line · post-cancel-pickups</title>
+<circle cx="286" cy="1574" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="298" y="1579" text-anchor="start" style="fill:#1A1F2C">Create cancel pickup</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-cancel-pickups-api/#op-get-cancel-pickup" target="_blank" class="st" data-op="get-cancel-pickup"><title>GET /cancel-pickups/{id}
+Cancel Pickups line · get-cancel-pickup</title>
+<circle cx="286" cy="1532" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="298" y="1537" text-anchor="start" style="fill:#1A1F2C">Get cancel pickup</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claim-items-api/#op-update-claim-item" target="_blank" class="st" data-op="update-claim-item"><title>PATCH /claims/{claim_id}/items/{item_id}
+Claims line · update-claim-item</title>
+<circle cx="1000" cy="2162" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="988.0" y="2167" text-anchor="end" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claim-shipments-api/#op-create-claim-shipment" target="_blank" class="st" data-op="create-claim-shipment"><title>POST /claims/{claim_id}/shipments
+Claims line · create-claim-shipment</title>
+<circle cx="1168" cy="2582" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="2587" text-anchor="start" style="fill:#1A1F2C">Create shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claim-shipments-api/#op-get-claim-shipment" target="_blank" class="st" data-op="get-claim-shipment"><title>GET /claims/{claim_id}/shipments/{shipment_id}
+Claims line · get-claim-shipment</title>
+<circle cx="1168" cy="2666" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="2671" text-anchor="start" style="fill:#1A1F2C">Get shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-get-claims" target="_blank" class="st" data-op="get-claims"><title>GET /claims
+Claims line · get-claims</title>
+<circle cx="706" cy="2708" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="2713" text-anchor="start" style="fill:#1A1F2C">List claims</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-get-claim-id" target="_blank" class="st" data-op="get-claim-id"><title>GET /claims/{id}
+Claims line · get-claim-id</title>
+<circle cx="790" cy="2624" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="2629" text-anchor="start" style="fill:#1A1F2C">Get claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-get-claim" target="_blank" class="st" data-op="get-claim"><title>GET /claims/{claim_id}
+Claims line · get-claim</title>
+<circle cx="916" cy="2498" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="2503" text-anchor="start" style="fill:#1A1F2C">Get claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-patch-claim" target="_blank" class="st" data-op="patch-claim"><title>PATCH /claims/{claim_id}
+Claims line · patch-claim</title>
+<circle cx="916" cy="2414" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="2419" text-anchor="start" style="fill:#1A1F2C">Update claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-approve-claim" target="_blank" class="st" data-op="approve-claim"><title>POST /claims/{claim_id}/approve
+Claims line · approve-claim</title>
+<circle cx="916" cy="2330" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="2335" text-anchor="start" style="fill:#1A1F2C">Approve claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-reject-claim" target="_blank" class="st" data-op="reject-claim"><title>POST /claims/{claim_id}/reject
+Claims line · reject-claim</title>
+<circle cx="1168" cy="2372" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="2377" text-anchor="start" style="fill:#1A1F2C">Reject claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-cancel-claim" target="_blank" class="st" data-op="cancel-claim"><title>POST /claims/{claim_id}/cancel
+Claims line · cancel-claim</title>
+<circle cx="916" cy="2246" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="2251" text-anchor="start" style="fill:#1A1F2C">Cancel claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-resolve-claim" target="_blank" class="st" data-op="resolve-claim"><title>POST /claims/{claim_id}/resolve
+Claims line · resolve-claim</title>
+<circle cx="1168" cy="2498" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="2503" text-anchor="start" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-receive-claim" target="_blank" class="st" data-op="receive-claim"><title>POST /claims/{claim_id}/receive
+Claims line · receive-claim</title>
+<circle cx="1168" cy="2288" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="2293" text-anchor="start" style="fill:#1A1F2C">Update receive</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-check-claim-resolution-availability" target="_blank" class="st" data-op="check-claim-resolution-availability"><title>POST /claims/{claim_id}/match-resolution
+Claims line · check-claim-resolution-availability</title>
+<circle cx="1084" cy="2162" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1096" y="2167" text-anchor="start" style="fill:#1A1F2C">Update match resolution</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-claims-api/#op-process-claim" target="_blank" class="st" data-op="process-claim"><title>POST /claims/{claim_id}/process
+Claims line · process-claim</title>
+<circle cx="1168" cy="2246" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="2251" text-anchor="start" style="fill:#1A1F2C">Process claim</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-courier-api/#op-detect-courier" target="_blank" class="st" data-op="detect-courier"><title>POST /couriers/detect
+Couriers Local line · detect-courier</title>
+<circle cx="790" cy="902" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="802" y="907" text-anchor="start" style="fill:#1A1F2C">Update detect</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-courier-connection-api/#op-get-courier-connections" target="_blank" class="st" data-op="get-courier-connections"><title>GET /courier-connections
+Courier connection line · get-courier-connections</title>
+<circle cx="1672" cy="1910" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1663.0" y="1929" text-anchor="end" style="fill:#1A1F2C">List courier connections</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-courier-connection-api/#op-post-courier-connections" target="_blank" class="st" data-op="post-courier-connections"><title>POST /courier-connections
+Courier connection line · post-courier-connections</title>
+<circle cx="1588" cy="1910" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1594" y="1898" transform="rotate(-45 1594 1898)" style="fill:#1A1F2C">Create courier connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-courier-connection-api/#op-get-courier-connections-by-id" target="_blank" class="st" data-op="get-courier-connections-by-id"><title>GET /courier-connections/{id}
+Courier connection line · get-courier-connections-by-id</title>
+<circle cx="1504" cy="1910" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1492.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Get courier connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-courier-connection-api/#op-put-courier-connections-by-id" target="_blank" class="st" data-op="put-courier-connections-by-id"><title>PATCH /courier-connections/{id}
+Courier connection line · put-courier-connections-by-id</title>
+<circle cx="1504" cy="1994" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1516" y="1999" text-anchor="start" style="fill:#1A1F2C">Update courier connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-courier-connection-api/#op-delete-courier-connections-by-id" target="_blank" class="st" data-op="delete-courier-connections-by-id"><title>DELETE /courier-connections/{id}
+Courier connection line · delete-courier-connections-by-id</title>
+<circle cx="1588" cy="2078" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1584" y1="2082" x2="1592" y2="2074" stroke="#C2410C" stroke-width="2"/>
+<text x="1600" y="2083" text-anchor="start" style="fill:#1A1F2C">Delete courier connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-couriers-api/#op-get-couriers" target="_blank" class="st" data-op="get-couriers"><title>GET /couriers
+Couriers Local line · get-couriers</title>
+<circle cx="874" cy="818" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="886" y="823" text-anchor="start" style="fill:#1A1F2C">List couriers</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-coverages-api/#op-get-coverages" target="_blank" class="st" data-op="get-coverages"><title>GET /coverages
+Coverages line · get-coverages</title>
+<circle cx="1756" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1768" y="1201" text-anchor="start" style="fill:#1A1F2C">List coverages</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-coverages-api/#op-post-coverage" target="_blank" class="st" data-op="post-coverage"><title>POST /coverages
+Coverages line · post-coverage</title>
+<circle cx="1672" cy="1280" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1684" y="1285" text-anchor="start" style="fill:#1A1F2C">Create coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-coverages-api/#op-get-coverage-id" target="_blank" class="st" data-op="get-coverage-id"><title>GET /coverages/{id}
+Coverages line · get-coverage-id</title>
+<circle cx="1588" cy="1364" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1600" y="1369" text-anchor="start" style="fill:#1A1F2C">Get coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-coverages-api/#op-post-coverage-id-update-tracking" target="_blank" class="st" data-op="post-coverage-id-update-tracking"><title>POST /coverages/update-tracking
+Coverages line · post-coverage-id-update-tracking</title>
+<circle cx="1546" cy="1490" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1558" y="1495" text-anchor="start" style="fill:#1A1F2C">Update update tracking</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-coverages-api/#op-post-coverage-void" target="_blank" class="st" data-op="post-coverage-void"><title>POST /coverages/void
+Coverages line · post-coverage-void</title>
+<circle cx="1546" cy="1574" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1558" y="1579" text-anchor="start" style="fill:#1A1F2C">Void coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-coverages-api/#op-post-coverage-calculate" target="_blank" class="st" data-op="post-coverage-calculate"><title>POST /coverages/calculate
+Coverages line · post-coverage-calculate</title>
+<circle cx="1546" cy="1406" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1558" y="1411" text-anchor="start" style="fill:#1A1F2C">Update calculate</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-discoveries-api/#op-post-discoveries-recommend" target="_blank" class="st" data-op="post-discoveries-recommend"><title>POST /discoveries/recommend
+Discoveries line · post-discoveries-recommend</title>
+<circle cx="328" cy="1280" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="334" y="1268" transform="rotate(-45 334 1268)" style="fill:#1A1F2C">Update recommend</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-discoveries-api/#op-post-discoveries-suggest" target="_blank" class="st" data-op="post-discoveries-suggest"><title>POST /discoveries/suggest
+Discoveries line · post-discoveries-suggest</title>
+<circle cx="454" cy="1364" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="466" y="1369" text-anchor="start" style="fill:#1A1F2C">Update suggest</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-discoveries-api/#op-post-discoveries-search" target="_blank" class="st" data-op="post-discoveries-search"><title>POST /discoveries/search
+Discoveries line · post-discoveries-search</title>
+<circle cx="454" cy="1280" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="463" y="1270" text-anchor="start" style="fill:#1A1F2C">Search discoveries</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-discoveries-api/#op-post-discoveries-tagging" target="_blank" class="st" data-op="post-discoveries-tagging"><title>POST /discoveries/tagging
+Discoveries line · post-discoveries-tagging</title>
+<circle cx="370" cy="1448" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="382" y="1453" text-anchor="start" style="fill:#1A1F2C">Update tagging</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-email-parses-api/#op-email-parses-v2" target="_blank" class="st" data-op="email-parses-v2"><title>POST /email-parses-v2
+More Local line · email-parses-v2</title>
+<circle cx="748" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="736.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Update email parses v2</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-email-parses-api/#op-email-parses" target="_blank" class="st" data-op="email-parses"><title>POST /email-parses
+More Local line · email-parses</title>
+<circle cx="664" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1621" text-anchor="start" style="fill:#1A1F2C">Create email pars</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-estimated-delivery-date-api/#op-predict" target="_blank" class="st" data-op="predict"><title>POST /estimated-delivery-date/predict
+More Local line · predict</title>
+<circle cx="748" cy="1784" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1789" text-anchor="start" style="fill:#1A1F2C">Update predict</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-estimated-delivery-date-api/#op-predict-batch" target="_blank" class="st" data-op="predict-batch"><title>POST /estimated-delivery-date/predict-batch
+More Local line · predict-batch</title>
+<circle cx="748" cy="1868" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1873" text-anchor="start" style="fill:#1A1F2C">Update predict batch</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-fulfillments-api/#op-create-fulfillment" target="_blank" class="st" data-op="create-fulfillment"><title>POST /fulfillments
+Fulfillments line · create-fulfillment</title>
+<circle cx="1294" cy="2036" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1306" y="2041" text-anchor="start" style="fill:#1A1F2C">Create fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-fulfillments-api/#op-get-fulfillments" target="_blank" class="st" data-op="get-fulfillments"><title>GET /fulfillments
+Fulfillments line · get-fulfillments</title>
+<circle cx="1336" cy="2078" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1348" y="2083" text-anchor="start" style="fill:#1A1F2C">List fulfillments</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-fulfillments-api/#op-get-fulfillment-by-id" target="_blank" class="st" data-op="get-fulfillment-by-id"><title>GET /fulfillments/{id}
+Fulfillments line · get-fulfillment-by-id</title>
+<circle cx="1252" cy="1994" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1264" y="1999" text-anchor="start" style="fill:#1A1F2C">Get fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-fulfillments-api/#op-update-fulfillment-by-id" target="_blank" class="st" data-op="update-fulfillment-by-id"><title>PATCH /fulfillments/{id}
+Fulfillments line · update-fulfillment-by-id</title>
+<circle cx="1168" cy="1994" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1156.0" y="1999" text-anchor="end" style="fill:#1A1F2C">Update fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-fulfillments-api/#op-update-fulfillment-status" target="_blank" class="st" data-op="update-fulfillment-status"><title>POST /fulfillments/{id}/update-status
+Fulfillments line · update-fulfillment-status</title>
+<circle cx="1168" cy="2078" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1180" y="2083" text-anchor="start" style="fill:#1A1F2C">Create update statu</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-item-tags-api/#op-list-item-tags" target="_blank" class="st" data-op="list-item-tags"><title>GET /item-tags
+More Local line · list-item-tags</title>
+<circle cx="748" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="736.0" y="1957" text-anchor="end" style="fill:#1A1F2C">List item tags</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-labels-api/#op-get-labels" target="_blank" class="st" data-op="get-labels"><title>GET /labels
+Labels line · get-labels</title>
+<circle cx="622" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="631" y="1480" text-anchor="start" style="fill:#1A1F2C">List labels</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-labels-api/#op-post-labels" target="_blank" class="st" data-op="post-labels"><title>POST /labels
+Labels line · post-labels</title>
+<circle cx="580" cy="1490" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="586" y="1478" transform="rotate(-45 586 1478)" style="fill:#1A1F2C">Create label</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-labels-api/#op-get-label" target="_blank" class="st" data-op="get-label"><title>GET /labels/{id}
+Labels line · get-label</title>
+<circle cx="496" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="502" y="1478" transform="rotate(-45 502 1478)" style="fill:#1A1F2C">Get label</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-locations-api/#op-create-location" target="_blank" class="st" data-op="create-location"><title>POST /locations
+Locations line · create-location</title>
+<circle cx="496" cy="1826" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="484.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Create location</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-locations-api/#op-get-locations" target="_blank" class="st" data-op="get-locations"><title>GET /locations
+Locations line · get-locations</title>
+<circle cx="370" cy="1952" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="1957" text-anchor="start" style="fill:#1A1F2C">List locations</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-locations-api/#op-get-location-by-id" target="_blank" class="st" data-op="get-location-by-id"><title>GET /locations/{id}
+Locations line · get-location-by-id</title>
+<circle cx="580" cy="1826" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="592" y="1831" text-anchor="start" style="fill:#1A1F2C">Get location</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-locations-api/#op-update-location-by-id" target="_blank" class="st" data-op="update-location-by-id"><title>PATCH /locations/{id}
+Locations line · update-location-by-id</title>
+<circle cx="622" cy="1868" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="1873" text-anchor="start" style="fill:#1A1F2C">Update location</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-manifests-api/#op-get-manifests" target="_blank" class="st" data-op="get-manifests"><title>GET /manifests
+Manifests line · get-manifests</title>
+<circle cx="706" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="718" y="1411" text-anchor="start" style="fill:#1A1F2C">List manifests</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-manifests-api/#op-post-manifests" target="_blank" class="st" data-op="post-manifests"><title>POST /manifests
+Manifests line · post-manifests</title>
+<circle cx="790" cy="1322" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="802" y="1327" text-anchor="start" style="fill:#1A1F2C">Create manifest</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-manifests-api/#op-get-manifest" target="_blank" class="st" data-op="get-manifest"><title>GET /manifests/{id}
+Manifests line · get-manifest</title>
+<circle cx="874" cy="1238" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="886" y="1243" text-anchor="start" style="fill:#1A1F2C">Get manifest</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-memberships-api/#op-get-memberships" target="_blank" class="st" data-op="get-memberships"><title>GET /memberships
+Memberships line · get-memberships</title>
+<circle cx="916" cy="2078" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="922" y="2066" transform="rotate(-45 922 2066)" style="fill:#1A1F2C">List memberships</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-memberships-api/#op-post-memberships" target="_blank" class="st" data-op="post-memberships"><title>POST /memberships
+Memberships line · post-memberships</title>
+<circle cx="1042" cy="2078" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1054" y="2083" text-anchor="start" style="fill:#1A1F2C">Create membership</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-memberships-api/#op-get-memberships-id" target="_blank" class="st" data-op="get-memberships-id"><title>GET /memberships/{id}
+Memberships line · get-memberships-id</title>
+<circle cx="1042" cy="1952" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1054" y="1957" text-anchor="start" style="fill:#1A1F2C">Get membership</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-memberships-api/#op-patch-memberships-:id" target="_blank" class="st" data-op="patch-memberships-:id"><title>PATCH /memberships/{id}
+Memberships line · patch-memberships-:id</title>
+<circle cx="958" cy="1952" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="952" y="1964" text-anchor="end" transform="rotate(-45 952 1964)" style="fill:#1A1F2C">Update membership</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-memberships-api/#op-delete-memberships-:id" target="_blank" class="st" data-op="delete-memberships-:id"><title>DELETE /memberships/{id}
+Memberships line · delete-memberships-:id</title>
+<circle cx="874" cy="1952" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="870" y1="1956" x2="878" y2="1948" stroke="#B8860B" stroke-width="2"/>
+<text x="880" y="1940" transform="rotate(-45 880 1940)" style="fill:#1A1F2C">Delete membership</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-create-order" target="_blank" class="st" data-op="create-order"><title>POST /orders
+Orders line · create-order</title>
+<circle cx="2302" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2314" y="403" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-get-orders" target="_blank" class="st" data-op="get-orders"><title>GET /orders
+Orders line · get-orders</title>
+<circle cx="2386" cy="314" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2398" y="319" text-anchor="start" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-get-order-by-id" target="_blank" class="st" data-op="get-order-by-id"><title>GET /orders/{id}
+Orders line · get-order-by-id</title>
+<circle cx="2218" cy="482" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2230" y="487" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-update-order-by-id" target="_blank" class="st" data-op="update-order-by-id"><title>PATCH /orders/{id}
+Orders line · update-order-by-id</title>
+<circle cx="2092" cy="482" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2080.0" y="487" text-anchor="end" style="fill:#1A1F2C">Update order</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-create-order-item" target="_blank" class="st" data-op="create-order-item"><title>POST /orders/{id}/items
+Orders line · create-order-item</title>
+<circle cx="2050" cy="440" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2062" y="445" text-anchor="start" style="fill:#1A1F2C">Create item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-get-order-item" target="_blank" class="st" data-op="get-order-item"><title>GET /orders/{id}/items/{item_id}
+Orders line · get-order-item</title>
+<circle cx="2008" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2020" y="403" text-anchor="start" style="fill:#1A1F2C">Get item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-update-order-item" target="_blank" class="st" data-op="update-order-item"><title>PATCH /orders/{id}/items/{item_id}
+Orders line · update-order-item</title>
+<circle cx="2008" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2020" y="319" text-anchor="start" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-orders-api/#op-delete-order-item" target="_blank" class="st" data-op="delete-order-item"><title>DELETE /orders/{id}/items/{item_id}
+Orders line · delete-order-item</title>
+<circle cx="2008" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2004" y1="234" x2="2012" y2="226" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2020" y="235" text-anchor="start" style="fill:#1A1F2C">Delete item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-pickups-api/#op-get-pickups" target="_blank" class="st" data-op="get-pickups"><title>GET /pickups
+Pickups line · get-pickups</title>
+<circle cx="580" cy="1280" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="592" y="1285" text-anchor="start" style="fill:#1A1F2C">List pickups</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-pickups-api/#op-post-pickups" target="_blank" class="st" data-op="post-pickups"><title>POST /pickups
+Pickups line · post-pickups</title>
+<circle cx="622" cy="1238" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="634" y="1243" text-anchor="start" style="fill:#1A1F2C">Create pickup</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-pickups-api/#op-get-pickup" target="_blank" class="st" data-op="get-pickup"><title>GET /pickups/{id}
+Pickups line · get-pickup</title>
+<circle cx="706" cy="1154" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="718" y="1159" text-anchor="start" style="fill:#1A1F2C">Get pickup</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-create-product" target="_blank" class="st" data-op="create-product"><title>POST /products
+Products line · create-product</title>
+<circle cx="1126" cy="1154" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1138" y="1159" text-anchor="start" style="fill:#1A1F2C">Create product</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-get-products" target="_blank" class="st" data-op="get-products"><title>GET /products
+Products line · get-products</title>
+<circle cx="1126" cy="1070" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1138" y="1075" text-anchor="start" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-get-product-by-id" target="_blank" class="st" data-op="get-product-by-id"><title>GET /products/{id}
+Products line · get-product-by-id</title>
+<circle cx="1126" cy="1364" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1138" y="1369" text-anchor="start" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-update-product-by-id" target="_blank" class="st" data-op="update-product-by-id"><title>PATCH /products/{id}
+Products line · update-product-by-id</title>
+<circle cx="1126" cy="1490" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1138" y="1495" text-anchor="start" style="fill:#1A1F2C">Update product</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-create-product-variant" target="_blank" class="st" data-op="create-product-variant"><title>POST /products/{id}/variants
+Products line · create-product-variant</title>
+<circle cx="1168" cy="1532" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1156.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Create variant</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-get-product-variant" target="_blank" class="st" data-op="get-product-variant"><title>GET /products/{id}/variants/{variant_id}
+Products line · get-product-variant</title>
+<circle cx="1210" cy="1532" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1222" y="1537" text-anchor="start" style="fill:#1A1F2C">Get variant</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-update-product-variant" target="_blank" class="st" data-op="update-product-variant"><title>PATCH /products/{id}/variants/{variant_id}
+Products line · update-product-variant</title>
+<circle cx="1252" cy="1490" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1264" y="1495" text-anchor="start" style="fill:#1A1F2C">Update variant</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-products-api/#op-delete-product-variant" target="_blank" class="st" data-op="delete-product-variant"><title>DELETE /products/{id}/variants/{variant_id}
+Products line · delete-product-variant</title>
+<circle cx="1294" cy="1448" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1290" y1="1452" x2="1298" y2="1444" stroke="#E07B12" stroke-width="2"/>
+<text x="1306" y="1453" text-anchor="start" style="fill:#1A1F2C">Delete variant</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-rates-api/#op-get-rates" target="_blank" class="st" data-op="get-rates"><title>GET /rates
+Rates line · get-rates</title>
+<circle cx="370" cy="1658" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="382" y="1663" text-anchor="start" style="fill:#1A1F2C">List rates</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-rates-api/#op-post-rates" target="_blank" class="st" data-op="post-rates"><title>POST /rates
+Rates line · post-rates</title>
+<circle cx="370" cy="1742" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="382" y="1747" text-anchor="start" style="fill:#1A1F2C">Create rate</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-rates-api/#op-get-rate" target="_blank" class="st" data-op="get-rate"><title>GET /rates/{id}
+Rates line · get-rate</title>
+<circle cx="370" cy="1826" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="358.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Get rate</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-return-dropoffs-api/#op-post-returns-rma-rma_number-dropoffs-dropoff_id-drops" target="_blank" class="st" data-op="post-returns-rma-rma_number-dropoffs-dropoff_id-drops"><title>POST /returns/rma/{rma_number}/dropoffs/{dropoff_id}/drops
+Returns line · post-returns-rma-rma_number-dropoffs-dropoff_id-drops</title>
+<circle cx="1420" cy="1532" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1537" text-anchor="start" style="fill:#1A1F2C">Create drop</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-return-items-api/#op-patch-returns-return_id-items-item_id" target="_blank" class="st" data-op="patch-returns-return_id-items-item_id"><title>PATCH /returns/{return_id}/items/{item_id}
+Returns line · patch-returns-return_id-items-item_id</title>
+<circle cx="832" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1705" text-anchor="start" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-return-items-api/#op-patch-returns-rma-rma_number-items-item_id" target="_blank" class="st" data-op="patch-returns-rma-rma_number-items-item_id"><title>PATCH /returns/rma/{rma_number}/items/{item_id}
+Returns line · patch-returns-rma-rma_number-items-item_id</title>
+<circle cx="1420" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1621" text-anchor="start" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-get-returns-return_id" target="_blank" class="st" data-op="get-returns-return_id"><title>GET /returns/{return_id}
+Returns line · get-returns-return_id</title>
+<circle cx="1084" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1090" y="1856" transform="rotate(-45 1090 1856)" style="fill:#1A1F2C">Get return</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-get-returns-rma-rma_number" target="_blank" class="st" data-op="get-returns-rma-rma_number"><title>GET /returns/rma/{rma_number}
+Returns line · get-returns-rma-rma_number</title>
+<circle cx="1252" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="1285" text-anchor="start" style="fill:#1A1F2C">Get rma</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-get-returns" target="_blank" class="st" data-op="get-returns"><title>GET /returns
+Returns line · get-returns</title>
+<circle cx="1000" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="988.0" y="1285" text-anchor="end" style="fill:#1A1F2C">List returns</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns" target="_blank" class="st" data-op="post-returns"><title>POST /returns
+Returns line · post-returns</title>
+<circle cx="1084" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1078" y="1292" text-anchor="end" transform="rotate(-45 1078 1292)" style="fill:#1A1F2C">Create return</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-rma-rma_number-approve" target="_blank" class="st" data-op="post-returns-rma-rma_number-approve"><title>POST /returns/rma/{rma_number}/approve
+Returns line · post-returns-rma-rma_number-approve</title>
+<circle cx="1336" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1369" text-anchor="start" style="fill:#1A1F2C">Approve rma</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-return_id-approve" target="_blank" class="st" data-op="post-returns-return_id-approve"><title>POST /returns/{return_id}/approve
+Returns line · post-returns-return_id-approve</title>
+<circle cx="1000" cy="1868" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1009" y="1887" text-anchor="start" style="fill:#1A1F2C">Approve return</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-rma-rma_number-resolve" target="_blank" class="st" data-op="post-returns-rma-rma_number-resolve"><title>POST /returns/rma/{rma_number}/resolve
+Returns line · post-returns-rma-rma_number-resolve</title>
+<circle cx="1168" cy="1868" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="1856" transform="rotate(-45 1174 1856)" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-return_id-resolve" target="_blank" class="st" data-op="post-returns-return_id-resolve"><title>POST /returns/{return_id}/resolve
+Returns line · post-returns-return_id-resolve</title>
+<circle cx="916" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1369" text-anchor="start" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-rma-rma_number-reject" target="_blank" class="st" data-op="post-returns-rma-rma_number-reject"><title>POST /returns/rma/{rma_number}/reject
+Returns line · post-returns-rma-rma_number-reject</title>
+<circle cx="1336" cy="1784" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1789" text-anchor="start" style="fill:#1A1F2C">Reject rma</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-return_id-reject" target="_blank" class="st" data-op="post-returns-return_id-reject"><title>POST /returns/{return_id}/reject
+Returns line · post-returns-return_id-reject</title>
+<circle cx="832" cy="1532" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1537" text-anchor="start" style="fill:#1A1F2C">Reject return</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-rma-rma_number-receive-items" target="_blank" class="st" data-op="post-returns-rma-rma_number-receive-items"><title>POST /returns/rma/{rma_number}/receive-items
+Returns line · post-returns-rma-rma_number-receive-items</title>
+<circle cx="1420" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1408.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Create receive item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-return_id-receive-items" target="_blank" class="st" data-op="post-returns-return_id-receive-items"><title>POST /returns/{return_id}/receive-items
+Returns line · post-returns-return_id-receive-items</title>
+<circle cx="832" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1621" text-anchor="start" style="fill:#1A1F2C">Create receive item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-rma-rma_number-attach-shipments" target="_blank" class="st" data-op="post-returns-rma-rma_number-attach-shipments"><title>POST /returns/rma/{rma_number}/attach-shipments
+Returns line · post-returns-rma-rma_number-attach-shipments</title>
+<circle cx="1420" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1429" y="1438" text-anchor="start" style="fill:#1A1F2C">Create attach shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-return_id-attach-shipments" target="_blank" class="st" data-op="post-returns-return_id-attach-shipments"><title>POST /returns/{return_id}/attach-shipments
+Returns line · post-returns-return_id-attach-shipments</title>
+<circle cx="916" cy="1784" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1789" text-anchor="start" style="fill:#1A1F2C">Create attach shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-return_id-remove-items" target="_blank" class="st" data-op="post-returns-return_id-remove-items"><title>POST /returns/{return_id}/remove-items
+Returns line · post-returns-return_id-remove-items</title>
+<circle cx="832" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1453" text-anchor="start" style="fill:#1A1F2C">Create remove item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-api/#op-post-returns-rma-rma_number-remove-items" target="_blank" class="st" data-op="post-returns-rma-rma_number-remove-items"><title>POST /returns/rma/{rma_number}/remove-items
+Returns line · post-returns-rma-rma_number-remove-items</title>
+<circle cx="1252" cy="1868" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="1873" text-anchor="start" style="fill:#1A1F2C">Create remove item</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-returns-page-api/#op-post-create-return-deep-link" target="_blank" class="st" data-op="post-create-return-deep-link"><title>POST /returns/link
+Returns line · post-create-return-deep-link</title>
+<circle cx="1168" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="1268" transform="rotate(-45 1174 1268)" style="fill:#1A1F2C">Link returns</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-roles-api/#op-get-roles" target="_blank" class="st" data-op="get-roles"><title>GET /roles
+More Local line · get-roles</title>
+<circle cx="748" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="2041" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-get-shipper-accounts" target="_blank" class="st" data-op="get-shipper-accounts"><title>GET /shipper-accounts
+Shipper Accounts line · get-shipper-accounts</title>
+<circle cx="664" cy="818" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="823" text-anchor="start" style="fill:#1A1F2C">List shipper accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-post-shipper-accounts" target="_blank" class="st" data-op="post-shipper-accounts"><title>POST /shipper-accounts
+Shipper Accounts line · post-shipper-accounts</title>
+<circle cx="664" cy="902" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="900" text-anchor="start" style="fill:#1A1F2C">Create shipper<tspan x="676" dy="13">account</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-get-shipper-accounts-id" target="_blank" class="st" data-op="get-shipper-accounts-id"><title>GET /shipper-accounts/{id}
+Shipper Accounts line · get-shipper-accounts-id</title>
+<circle cx="664" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="655.0" y="963" text-anchor="end" style="fill:#1A1F2C">Get shipper account</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-delete-shipper-accounts-id" target="_blank" class="st" data-op="delete-shipper-accounts-id"><title>DELETE /shipper-accounts/{id}
+Shipper Accounts line · delete-shipper-accounts-id</title>
+<circle cx="580" cy="944" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="576" y1="948" x2="584" y2="940" stroke="#B0287F" stroke-width="2"/>
+<text x="568.0" y="949" text-anchor="end" style="fill:#1A1F2C">Delete shipper account</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-put-shipper-accounts-id-info" target="_blank" class="st" data-op="put-shipper-accounts-id-info"><title>PUT /shipper-accounts/{id}/info
+Shipper Accounts line · put-shipper-accounts-id-info</title>
+<circle cx="454" cy="818" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="466" y="823" text-anchor="start" style="fill:#1A1F2C">Update info</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-patch-shipper-accounts-id-credentials" target="_blank" class="st" data-op="patch-shipper-accounts-id-credentials"><title>PATCH /shipper-accounts/{id}/credentials
+Shipper Accounts line · patch-shipper-accounts-id-credentials</title>
+<circle cx="496" cy="860" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="508" y="865" text-anchor="start" style="fill:#1A1F2C">Create credential</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-shipper-accounts-api/#op-patch-shipper-accounts-id-settings" target="_blank" class="st" data-op="patch-shipper-accounts-id-settings"><title>PATCH /shipper-accounts/{id}/settings
+Shipper Accounts line · patch-shipper-accounts-id-settings</title>
+<circle cx="370" cy="734" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="382" y="739" text-anchor="start" style="fill:#1A1F2C">Create setting</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-specific-shipper-accounts-api/#op-post-v3-couriers-fedex-shipper-accounts" target="_blank" class="st" data-op="post-v3-couriers-fedex-shipper-accounts"><title>POST /couriers/fedex/shipper-accounts
+Couriers Local line · post-v3-couriers-fedex-shipper-accounts</title>
+<circle cx="706" cy="986" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="718" y="991" text-anchor="start" style="fill:#1A1F2C">Create shipper account</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-specific-shipper-accounts-api/#op-post-v3-couriers-fedex-shipper-accounts-id-update" target="_blank" class="st" data-op="post-v3-couriers-fedex-shipper-accounts-id-update"><title>POST /couriers/fedex/shipper-accounts/{id}/update
+Couriers Local line · post-v3-couriers-fedex-shipper-accounts-id-update</title>
+<circle cx="622" cy="1070" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="634" y="1075" text-anchor="start" style="fill:#1A1F2C">Update fedex shipper accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-stores-api/#op-create-store" target="_blank" class="st" data-op="create-store"><title>POST /stores
+Stores line · create-store</title>
+<circle cx="1546" cy="1826" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1552" y="1814" transform="rotate(-45 1552 1814)" style="fill:#1A1F2C">Create store</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-stores-api/#op-get-stores" target="_blank" class="st" data-op="get-stores"><title>GET /stores
+Stores line · get-stores</title>
+<circle cx="1672" cy="1742" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1684" y="1747" text-anchor="start" style="fill:#1A1F2C">List stores</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-stores-api/#op-get-store-by-id" target="_blank" class="st" data-op="get-store-by-id"><title>GET /stores/{id}
+Stores line · get-store-by-id</title>
+<circle cx="1462" cy="1784" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1453.0" y="1774" text-anchor="end" style="fill:#1A1F2C">Get store</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-stores-api/#op-update-store-by-id" target="_blank" class="st" data-op="update-store-by-id"><title>PATCH /stores/{id}
+Stores line · update-store-by-id</title>
+<circle cx="1546" cy="1700" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="1705" text-anchor="start" style="fill:#1A1F2C">Update store</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-get-trackings" target="_blank" class="st" data-op="get-trackings"><title>GET /trackings
+Tracking line · get-trackings</title>
+<circle cx="1630" cy="2288" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1642" y="2293" text-anchor="start" style="fill:#1A1F2C">List trackings</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-create-tracking" target="_blank" class="st" data-op="create-tracking"><title>POST /trackings
+Tracking line · create-tracking</title>
+<circle cx="1546" cy="2204" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1558" y="2209" text-anchor="start" style="fill:#1A1F2C">Create tracking</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-get-tracking-by-id" target="_blank" class="st" data-op="get-tracking-by-id"><title>GET /trackings/{id}
+Tracking line · get-tracking-by-id</title>
+<circle cx="1504" cy="2162" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1516" y="2167" text-anchor="start" style="fill:#1A1F2C">Get tracking</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-update-tracking-by-id" target="_blank" class="st" data-op="update-tracking-by-id"><title>PUT /trackings/{id}
+Tracking line · update-tracking-by-id</title>
+<circle cx="1462" cy="2120" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1468" y="2108" transform="rotate(-45 1468 2108)" style="fill:#1A1F2C">Update tracking</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-delete-tracking-by-id" target="_blank" class="st" data-op="delete-tracking-by-id"><title>DELETE /trackings/{id}
+Tracking line · delete-tracking-by-id</title>
+<circle cx="1420" cy="2162" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1416" y1="2166" x2="1424" y2="2158" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1408.0" y="2167" text-anchor="end" style="fill:#1A1F2C">Delete tracking</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-retrack-tracking-by-id" target="_blank" class="st" data-op="retrack-tracking-by-id"><title>POST /trackings/{id}/retrack
+Tracking line · retrack-tracking-by-id</title>
+<circle cx="1420" cy="2330" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1432" y="2335" text-anchor="start" style="fill:#1A1F2C">Update retrack</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-tracking-api/#op-mark-tracking-completed-by-id" target="_blank" class="st" data-op="mark-tracking-completed-by-id"><title>POST /trackings/{id}/mark-as-completed
+Tracking line · mark-tracking-completed-by-id</title>
+<circle cx="1420" cy="2246" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1408.0" y="2251" text-anchor="end" style="fill:#1A1F2C">Update mark as completed</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-warranty-registrations-api/#op-get-order-warranty-registrations" target="_blank" class="st" data-op="get-order-warranty-registrations"><title>GET /orders/warranty-registrations
+Warranty Registrations line · get-order-warranty-registrations</title>
+<circle cx="2218" cy="524" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2230" y="529" text-anchor="start" style="fill:#1A1F2C">List warranty registrations</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-warranty-registrations-api/#op-patch-warranty-registration" target="_blank" class="st" data-op="patch-warranty-registration"><title>PATCH /warranty-registrations/{warranty_registration_id}
+Warranty Registrations line · patch-warranty-registration</title>
+<circle cx="2218" cy="608" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="2230" y="613" text-anchor="start" style="fill:#1A1F2C">Update warranty registration</text>
+</a>
+<a href="https://apis.apis.io/apis/aftership/aftership-warranty-registrations-api/#op-invalidate-warranty-registration" target="_blank" class="st" data-op="invalidate-warranty-registration"><title>POST /warranty-registrations/{warranty_registration_id}/invalidate
+Warranty Registrations line · invalidate-warranty-registration</title>
+<circle cx="2218" cy="692" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="2230" y="697" text-anchor="start" style="fill:#1A1F2C">Invalidate warranty registration</text>
+</a>
+<text x="2576" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2576" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">RETURNS</text>
+<rect x="2576" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2593" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RET</text><text x="2618" y="269" font-size="11" fill="#1A1F2C">Returns <tspan fill="#8A93A6">20</tspan></text>
+<text x="2576" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">CLAIMS</text>
+<rect x="2576" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2593" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLA</text><text x="2618" y="312" font-size="11" fill="#1A1F2C">Claims <tspan fill="#8A93A6">14</tspan></text>
+<text x="2576" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">ORDERS</text>
+<rect x="2576" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2593" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="2618" y="355" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2576" y="362" width="34" height="13" rx="3" fill="#1d33a9"/><text x="2593" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WR</text><text x="2618" y="372" font-size="11" fill="#1A1F2C">Warranty Registrations <tspan fill="#8A93A6">3</tspan></text>
+<text x="2576" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">PRODUCTS</text>
+<rect x="2576" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="2593" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2618" y="415" font-size="11" fill="#1A1F2C">Products <tspan fill="#8A93A6">8</tspan></text>
+<text x="2576" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">TRACKINGS</text>
+<rect x="2576" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2593" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="2618" y="458" font-size="11" fill="#1A1F2C">Tracking <tspan fill="#8A93A6">7</tspan></text>
+<text x="2576" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">SHIPPER ACCOUNTS</text>
+<rect x="2576" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="2593" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="2618" y="501" font-size="11" fill="#1A1F2C">Shipper Accounts <tspan fill="#8A93A6">7</tspan></text>
+<text x="2576" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">COVERAGES</text>
+<rect x="2576" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2593" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COV</text><text x="2618" y="544" font-size="11" fill="#1A1F2C">Coverages <tspan fill="#8A93A6">6</tspan></text>
+<text x="2576" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">MEMBERSHIPS</text>
+<rect x="2576" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="2593" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MEM</text><text x="2618" y="587" font-size="11" fill="#1A1F2C">Memberships <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">COURIER CONNECTIONS</text>
+<rect x="2576" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="2593" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CC</text><text x="2618" y="630" font-size="11" fill="#1A1F2C">Courier connection <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">FULFILLMENTS</text>
+<rect x="2576" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2593" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FUL</text><text x="2618" y="673" font-size="11" fill="#1A1F2C">Fulfillments <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">STORES</text>
+<rect x="2576" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2593" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STO</text><text x="2618" y="716" font-size="11" fill="#1A1F2C">Stores <tspan fill="#8A93A6">4</tspan></text>
+<text x="2576" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2576" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="2593" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2618" y="759" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2576" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="2593" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CL</text><text x="2618" y="776" font-size="11" fill="#1A1F2C">Couriers Local <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2593" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIS</text><text x="2618" y="793" font-size="11" fill="#1A1F2C">Discoveries <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="800" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2593" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOC</text><text x="2618" y="810" font-size="11" fill="#1A1F2C">Locations <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="817" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2593" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAL</text><text x="2618" y="827" font-size="11" fill="#1A1F2C">Cancel Labels <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="834" width="34" height="13" rx="3" fill="#00838F"/><text x="2593" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CP</text><text x="2618" y="844" font-size="11" fill="#1A1F2C">Cancel Pickups <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="851" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2593" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LAB</text><text x="2618" y="861" font-size="11" fill="#1A1F2C">Labels <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="868" width="34" height="13" rx="3" fill="#B8860B"/><text x="2593" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MAN</text><text x="2618" y="878" font-size="11" fill="#1A1F2C">Manifests <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="885" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2593" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PIC</text><text x="2618" y="895" font-size="11" fill="#1A1F2C">Pickups <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="902" width="34" height="13" rx="3" fill="#E07B12"/><text x="2593" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RAT</text><text x="2618" y="912" font-size="11" fill="#1A1F2C">Rates <tspan fill="#8A93A6">3</tspan></text>
+<text x="2826" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2844,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2870" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2844,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2870" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2844,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2870" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2844,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2870" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2844,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2870" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2844,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2870" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2844,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2870" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2844,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2870" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2826" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2826" y="463" font-size="10.5" fill="#5A6275">“Address” → More Local line · 1 op</text>
+<text x="2826" y="478" font-size="10.5" fill="#5A6275">“Address Validations (Beta)” → More Local line · 1 op</text>
+<text x="2826" y="493" font-size="10.5" fill="#5A6275">“Claim Items” → Claims line · 1 op</text>
+<text x="2826" y="508" font-size="10.5" fill="#5A6275">“Claim Shipments” → Claims line · 2 ops</text>
+<text x="2826" y="523" font-size="10.5" fill="#5A6275">“Courier” → Couriers Local line · 1 op</text>
+<text x="2826" y="538" font-size="10.5" fill="#5A6275">“Couriers” → Couriers Local line · 1 op</text>
+<text x="2826" y="553" font-size="10.5" fill="#5A6275">“Email Parses” → More Local line · 2 ops</text>
+<text x="2826" y="568" font-size="10.5" fill="#5A6275">“Estimated delivery date” → More Local line · 2 ops</text>
+<text x="2826" y="583" font-size="10.5" fill="#5A6275">“Item Tags” → More Local line · 1 op</text>
+<text x="2826" y="598" font-size="10.5" fill="#5A6275">“Return Dropoffs” → Returns line · 1 op</text>
+<text x="2826" y="613" font-size="10.5" fill="#5A6275">“Return items” → Returns line · 2 ops</text>
+<text x="2826" y="628" font-size="10.5" fill="#5A6275">“Returns Page” → Returns line · 1 op</text>
+<text x="2826" y="643" font-size="10.5" fill="#5A6275">“Roles” → More Local line · 1 op</text>
+<text x="2826" y="658" font-size="10.5" fill="#5A6275">“Specific Shipper Accounts” → Couriers Local line · 2 ops</text>
+<text x="2826" y="708" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2826" y="725" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2838" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/aftership/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

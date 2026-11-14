@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>API Transit Maps</title>
+<meta name="description" content="Every operation of 37 public APIs drawn as a metro map: operations are stops, tags are lines, every stop links to its documentation on APIs.io.">
+<style>
+:root{--bg:#FFFFFF;--fg:#1A1F2C;--mut:#5A6275;--card:#F6F7F9;--line:#DCE0E7;--accent:#D6264F}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#12151C;--fg:#E8EAF0;--mut:#9AA3B5;--card:#1B2029;--line:#2C3340;--accent:#F0567A}}
+:root[data-theme="dark"]{--bg:#12151C;--fg:#E8EAF0;--mut:#9AA3B5;--card:#1B2029;--line:#2C3340;--accent:#F0567A}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif}
+header,main,footer{max-width:1280px;margin:0 auto;padding:0 16px}
+header{padding-top:48px;padding-bottom:8px} h1{font-size:clamp(32px,5vw,52px);margin:0 0 8px;letter-spacing:-.5px}
+.lede{font-size:18px;color:var(--mut);max-width:820px;margin:0 0 20px}
+.key{display:flex;flex-wrap:wrap;gap:8px 22px;font-size:14px;color:var(--mut);margin:0 0 24px;padding:0;list-style:none}
+.key b{color:var(--fg)}
+.tools{display:flex;gap:12px;flex-wrap:wrap;margin:8px 0 22px}
+.tools input,.tools select{font:inherit;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
+.tools input{flex:1;min-width:200px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:20px;padding-bottom:40px}
+article{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.pic{display:block;aspect-ratio:4/3;background:#fff;overflow:hidden} .pic img{width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .3s}
+article:hover .pic img{transform:scale(1.04)}
+.body{padding:12px 14px 14px} h2{font-size:18px;margin:0 0 4px;display:flex;align-items:center;gap:8px}
+h2 a{color:inherit;text-decoration:none} .tag{font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;background:var(--accent);color:#fff;border-radius:5px;padding:1px 6px}
+.body p{margin:2px 0;font-size:14px;color:var(--mut)} .links a{color:var(--accent);text-decoration:none}
+footer{border-top:1px solid var(--line);padding-top:18px;padding-bottom:40px;font-size:14px;color:var(--mut)} footer a{color:var(--accent)}
+</style></head><body>
+<header><h1>API Transit Maps</h1>
+<p class="lede">Every operation of 37 public APIs, drawn as a metro map. 27,735 operations become stops, tags become lines, and the places where one resource reaches into another become interchanges. Every stop links to its documentation on <a href="https://apis.io">APIs.io</a>.</p>
+<ul class="key"><li><b>○</b> GET</li><li><b>●</b> POST</li><li><b>⊘</b> DELETE</li><li><b>⇄CODE</b> change for another line</li><li><b>◆</b> stop on an Arazzo workflow</li><li><b>Atlas</b> APIs too big for one sheet</li></ul>
+<div class="tools"><input id="q" type="search" placeholder="Find a provider…" aria-label="Find a provider">
+<select id="sort" aria-label="Sort"><option value="name">A–Z</option><option value="ops">Most operations</option></select></div>
+</header>
+<main><div class="grid" id="grid">
+<article data-name="ada" data-ops="58">
+<a class="pic" href="ada/ada-network-map.svg"><img src="thumbs/ada.png" alt="Ada API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="ada/ada-network-map.svg">Ada</a></h2>
+<p>58 operations · 10 lines · 2 interchanges</p><p class="links"><a href="ada/ada-network-map.svg">Open map</a> · <a href="https://apis.io/providers/ada/">On APIs.io</a></p></div></article>
+<article data-name="aftership" data-ops="130">
+<a class="pic" href="aftership/aftership-network-map.svg"><img src="thumbs/aftership.png" alt="AfterShip API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="aftership/aftership-network-map.svg">AfterShip</a></h2>
+<p>130 operations · 22 lines · 2 interchanges</p><p class="links"><a href="aftership/aftership-network-map.svg">Open map</a> · <a href="https://apis.io/providers/aftership/">On APIs.io</a></p></div></article>
+<article data-name="airwallex" data-ops="18">
+<a class="pic" href="airwallex/airwallex-network-map.svg"><img src="thumbs/airwallex.png" alt="Airwallex API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="airwallex/airwallex-network-map.svg">Airwallex</a></h2>
+<p>18 operations · 3 lines · 0 interchanges</p><p class="links"><a href="airwallex/airwallex-network-map.svg">Open map</a> · <a href="https://apis.io/providers/airwallex/">On APIs.io</a></p></div></article>
+<article data-name="algolia" data-ops="279">
+<a class="pic" href="algolia/algolia-network-map.svg"><img src="thumbs/algolia.png" alt="Algolia API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="algolia/algolia-network-map.svg">Algolia</a></h2>
+<p>279 operations · 18 lines · 16 interchanges</p><p class="links"><a href="algolia/algolia-network-map.svg">Open map</a> · <a href="https://apis.io/providers/algolia/">On APIs.io</a></p></div></article>
+<article data-name="anthropic" data-ops="194">
+<a class="pic" href="anthropic/anthropic-network-map.svg"><img src="thumbs/anthropic.png" alt="Anthropic API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="anthropic/anthropic-network-map.svg">Anthropic</a></h2>
+<p>194 operations · 14 lines · 3 interchanges</p><p class="links"><a href="anthropic/anthropic-network-map.svg">Open map</a> · <a href="https://apis.io/providers/anthropic/">On APIs.io</a></p></div></article>
+<article data-name="appwrite" data-ops="1022">
+<a class="pic" href="appwrite/appwrite-network-map.svg"><img src="thumbs/appwrite.png" alt="Appwrite API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="appwrite/appwrite-network-map.svg">Appwrite</a></h2>
+<p>1,022 operations · 62 lines · 59 interchanges</p><p class="links"><a href="appwrite/appwrite-network-map.svg">Open map</a> · <a href="https://apis.io/providers/appwrite/">On APIs.io</a></p></div></article>
+<article data-name="bigcommerce" data-ops="528">
+<a class="pic" href="bigcommerce/bigcommerce-network-map.svg"><img src="thumbs/bigcommerce.png" alt="BigCommerce API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="bigcommerce/bigcommerce-network-map.svg">BigCommerce</a></h2>
+<p>528 operations · 78 lines · 75 interchanges</p><p class="links"><a href="bigcommerce/bigcommerce-network-map.svg">Open map</a> · <a href="https://apis.io/providers/bigcommerce/">On APIs.io</a></p></div></article>
+<article data-name="cloudflare" data-ops="4531">
+<a class="pic" href="cloudflare/cloudflare-atlas.html"><img src="cloudflare/cloudflare-atlas-01-thumb.png" alt="Cloudflare API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="cloudflare/cloudflare-atlas.html">Cloudflare</a><span class="tag">Atlas</span></h2>
+<p>4,531 operations · 499 lines · 11-sheet atlas</p><p class="links"><a href="cloudflare/cloudflare-atlas.html">Open map</a> · <a href="https://apis.io/providers/cloudflare/">On APIs.io</a></p></div></article>
+<article data-name="confluent" data-ops="616">
+<a class="pic" href="confluent/confluent-network-map.svg"><img src="thumbs/confluent.png" alt="Confluent API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="confluent/confluent-network-map.svg">Confluent</a></h2>
+<p>616 operations · 102 lines · 76 interchanges</p><p class="links"><a href="confluent/confluent-network-map.svg">Open map</a> · <a href="https://apis.io/providers/confluent/">On APIs.io</a></p></div></article>
+<article data-name="customer.io" data-ops="220">
+<a class="pic" href="customer-io/customer-io-network-map.svg"><img src="thumbs/customer-io.png" alt="Customer.io API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="customer-io/customer-io-network-map.svg">Customer.io</a></h2>
+<p>220 operations · 33 lines · 27 interchanges</p><p class="links"><a href="customer-io/customer-io-network-map.svg">Open map</a> · <a href="https://apis.io/providers/customer-io/">On APIs.io</a></p></div></article>
+<article data-name="dynatrace" data-ops="118">
+<a class="pic" href="dynatrace/dynatrace-network-map.svg"><img src="thumbs/dynatrace.png" alt="Dynatrace API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="dynatrace/dynatrace-network-map.svg">Dynatrace</a></h2>
+<p>118 operations · 17 lines · 7 interchanges</p><p class="links"><a href="dynatrace/dynatrace-network-map.svg">Open map</a> · <a href="https://apis.io/providers/dynatrace/">On APIs.io</a></p></div></article>
+<article data-name="gainsight" data-ops="165">
+<a class="pic" href="gainsight/gainsight-network-map.svg"><img src="thumbs/gainsight.png" alt="Gainsight API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="gainsight/gainsight-network-map.svg">Gainsight</a></h2>
+<p>165 operations · 21 lines · 8 interchanges</p><p class="links"><a href="gainsight/gainsight-network-map.svg">Open map</a> · <a href="https://apis.io/providers/gainsight/">On APIs.io</a></p></div></article>
+<article data-name="github" data-ops="1278">
+<a class="pic" href="github/github-network-map.svg"><img src="thumbs/github.png" alt="GitHub API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="github/github-network-map.svg">GitHub</a></h2>
+<p>1,278 operations · 96 lines · 158 interchanges</p><p class="links"><a href="github/github-network-map.svg">Open map</a> · <a href="https://apis.io/providers/github/">On APIs.io</a></p></div></article>
+<article data-name="gitlab" data-ops="1863">
+<a class="pic" href="gitlab/gitlab-network-map.svg"><img src="thumbs/gitlab.png" alt="GitLab API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="gitlab/gitlab-network-map.svg">GitLab</a></h2>
+<p>1,863 operations · 151 lines · 232 interchanges</p><p class="links"><a href="gitlab/gitlab-network-map.svg">Open map</a> · <a href="https://apis.io/providers/gitlab/">On APIs.io</a></p></div></article>
+<article data-name="harness" data-ops="2838">
+<a class="pic" href="harness/harness-atlas.html"><img src="harness/harness-atlas-01-thumb.png" alt="Harness API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="harness/harness-atlas.html">Harness</a><span class="tag">Atlas</span></h2>
+<p>2,838 operations · 303 lines · 7-sheet atlas</p><p class="links"><a href="harness/harness-atlas.html">Open map</a> · <a href="https://apis.io/providers/harness/">On APIs.io</a></p></div></article>
+<article data-name="hubspot" data-ops="1052">
+<a class="pic" href="hubspot/hubspot-network-map.svg"><img src="thumbs/hubspot.png" alt="HubSpot API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="hubspot/hubspot-network-map.svg">HubSpot</a></h2>
+<p>1,052 operations · 81 lines · 67 interchanges</p><p class="links"><a href="hubspot/hubspot-network-map.svg">Open map</a> · <a href="https://apis.io/providers/hubspot/">On APIs.io</a></p></div></article>
+<article data-name="infobip" data-ops="967">
+<a class="pic" href="infobip/infobip-network-map.svg"><img src="thumbs/infobip.png" alt="Infobip API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="infobip/infobip-network-map.svg">Infobip</a></h2>
+<p>967 operations · 76 lines · 30 interchanges</p><p class="links"><a href="infobip/infobip-network-map.svg">Open map</a> · <a href="https://apis.io/providers/infobip/">On APIs.io</a></p></div></article>
+<article data-name="kinde" data-ops="179">
+<a class="pic" href="kinde/kinde-network-map.svg"><img src="thumbs/kinde.png" alt="Kinde API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="kinde/kinde-network-map.svg">Kinde</a></h2>
+<p>179 operations · 21 lines · 21 interchanges</p><p class="links"><a href="kinde/kinde-network-map.svg">Open map</a> · <a href="https://apis.io/providers/kinde/">On APIs.io</a></p></div></article>
+<article data-name="launchdarkly" data-ops="468">
+<a class="pic" href="launchdarkly/launchdarkly-network-map.svg"><img src="thumbs/launchdarkly.png" alt="LaunchDarkly API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="launchdarkly/launchdarkly-network-map.svg">LaunchDarkly</a></h2>
+<p>468 operations · 52 lines · 51 interchanges</p><p class="links"><a href="launchdarkly/launchdarkly-network-map.svg">Open map</a> · <a href="https://apis.io/providers/launchdarkly/">On APIs.io</a></p></div></article>
+<article data-name="lightspeed commerce" data-ops="291">
+<a class="pic" href="lightspeed/lightspeed-network-map.svg"><img src="thumbs/lightspeed.png" alt="Lightspeed Commerce API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="lightspeed/lightspeed-network-map.svg">Lightspeed Commerce</a></h2>
+<p>291 operations · 39 lines · 12 interchanges</p><p class="links"><a href="lightspeed/lightspeed-network-map.svg">Open map</a> · <a href="https://apis.io/providers/lightspeed/">On APIs.io</a></p></div></article>
+<article data-name="messagebird" data-ops="349">
+<a class="pic" href="messagebird/messagebird-network-map.svg"><img src="thumbs/messagebird.png" alt="Messagebird API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="messagebird/messagebird-network-map.svg">Messagebird</a></h2>
+<p>349 operations · 46 lines · 46 interchanges</p><p class="links"><a href="messagebird/messagebird-network-map.svg">Open map</a> · <a href="https://apis.io/providers/messagebird/">On APIs.io</a></p></div></article>
+<article data-name="nylas" data-ops="227">
+<a class="pic" href="nylas/nylas-network-map.svg"><img src="thumbs/nylas.png" alt="Nylas API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="nylas/nylas-network-map.svg">Nylas</a></h2>
+<p>227 operations · 36 lines · 26 interchanges</p><p class="links"><a href="nylas/nylas-network-map.svg">Open map</a> · <a href="https://apis.io/providers/nylas/">On APIs.io</a></p></div></article>
+<article data-name="openai" data-ops="352">
+<a class="pic" href="openai/openai-network-map.svg"><img src="thumbs/openai.png" alt="OpenAI API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="openai/openai-network-map.svg">OpenAI</a></h2>
+<p>352 operations · 39 lines · 37 interchanges</p><p class="links"><a href="openai/openai-network-map.svg">Open map</a> · <a href="https://apis.io/providers/openai/">On APIs.io</a></p></div></article>
+<article data-name="optimizely" data-ops="3504">
+<a class="pic" href="optimizely/optimizely-atlas.html"><img src="optimizely/optimizely-atlas-01-thumb.png" alt="Optimizely API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="optimizely/optimizely-atlas.html">Optimizely</a><span class="tag">Atlas</span></h2>
+<p>3,504 operations · 328 lines · 8-sheet atlas</p><p class="links"><a href="optimizely/optimizely-atlas.html">Open map</a> · <a href="https://apis.io/providers/optimizely/">On APIs.io</a></p></div></article>
+<article data-name="plaid" data-ops="370">
+<a class="pic" href="plaid/plaid-network-map.svg"><img src="thumbs/plaid.png" alt="Plaid API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="plaid/plaid-network-map.svg">Plaid</a></h2>
+<p>370 operations · 34 lines · 4 interchanges</p><p class="links"><a href="plaid/plaid-network-map.svg">Open map</a> · <a href="https://apis.io/providers/plaid/">On APIs.io</a></p></div></article>
+<article data-name="salesforce" data-ops="381">
+<a class="pic" href="salesforce/salesforce-network-map.svg"><img src="thumbs/salesforce.png" alt="Salesforce API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="salesforce/salesforce-network-map.svg">Salesforce</a></h2>
+<p>381 operations · 36 lines · 34 interchanges</p><p class="links"><a href="salesforce/salesforce-network-map.svg">Open map</a> · <a href="https://apis.io/providers/salesforce/">On APIs.io</a></p></div></article>
+<article data-name="sendgrid" data-ops="389">
+<a class="pic" href="sendgrid/sendgrid-network-map.svg"><img src="thumbs/sendgrid.png" alt="SendGrid API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="sendgrid/sendgrid-network-map.svg">SendGrid</a></h2>
+<p>389 operations · 52 lines · 41 interchanges</p><p class="links"><a href="sendgrid/sendgrid-network-map.svg">Open map</a> · <a href="https://apis.io/providers/sendgrid/">On APIs.io</a></p></div></article>
+<article data-name="shopify" data-ops="312">
+<a class="pic" href="shopify/shopify-network-map.svg"><img src="thumbs/shopify.png" alt="Shopify API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="shopify/shopify-network-map.svg">Shopify</a></h2>
+<p>312 operations · 37 lines · 39 interchanges</p><p class="links"><a href="shopify/shopify-network-map.svg">Open map</a> · <a href="https://apis.io/providers/shopify/">On APIs.io</a></p></div></article>
+<article data-name="snowflake" data-ops="279">
+<a class="pic" href="snowflake/snowflake-network-map.svg"><img src="thumbs/snowflake.png" alt="Snowflake API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="snowflake/snowflake-network-map.svg">Snowflake</a></h2>
+<p>279 operations · 43 lines · 35 interchanges</p><p class="links"><a href="snowflake/snowflake-network-map.svg">Open map</a> · <a href="https://apis.io/providers/snowflake/">On APIs.io</a></p></div></article>
+<article data-name="stripe" data-ops="518">
+<a class="pic" href="stripe/stripe-network-map.svg"><img src="thumbs/stripe.png" alt="Stripe API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="stripe/stripe-network-map.svg">Stripe</a></h2>
+<p>518 operations · 64 lines · 80 interchanges</p><p class="links"><a href="stripe/stripe-network-map.svg">Open map</a> · <a href="https://apis.io/providers/stripe/">On APIs.io</a></p></div></article>
+<article data-name="telnyx" data-ops="1473">
+<a class="pic" href="telnyx/telnyx-network-map.svg"><img src="thumbs/telnyx.png" alt="Telnyx API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="telnyx/telnyx-network-map.svg">Telnyx</a></h2>
+<p>1,473 operations · 168 lines · 111 interchanges</p><p class="links"><a href="telnyx/telnyx-network-map.svg">Open map</a> · <a href="https://apis.io/providers/telnyx/">On APIs.io</a></p></div></article>
+<article data-name="tray.ai" data-ops="105">
+<a class="pic" href="tray-ai/tray-ai-network-map.svg"><img src="thumbs/tray-ai.png" alt="Tray.ai API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="tray-ai/tray-ai-network-map.svg">Tray.ai</a></h2>
+<p>105 operations · 13 lines · 11 interchanges</p><p class="links"><a href="tray-ai/tray-ai-network-map.svg">Open map</a> · <a href="https://apis.io/providers/tray-ai/">On APIs.io</a></p></div></article>
+<article data-name="twilio" data-ops="1184">
+<a class="pic" href="twilio/twilio-network-map.svg"><img src="thumbs/twilio.png" alt="Twilio API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="twilio/twilio-network-map.svg">Twilio</a></h2>
+<p>1,184 operations · 131 lines · 88 interchanges</p><p class="links"><a href="twilio/twilio-network-map.svg">Open map</a> · <a href="https://apis.io/providers/twilio/">On APIs.io</a></p></div></article>
+<article data-name="wso2" data-ops="483">
+<a class="pic" href="wso2/wso2-network-map.svg"><img src="thumbs/wso2.png" alt="WSO2 API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="wso2/wso2-network-map.svg">WSO2</a></h2>
+<p>483 operations · 65 lines · 51 interchanges</p><p class="links"><a href="wso2/wso2-network-map.svg">Open map</a> · <a href="https://apis.io/providers/wso2/">On APIs.io</a></p></div></article>
+<article data-name="xero" data-ops="390">
+<a class="pic" href="xero/xero-network-map.svg"><img src="thumbs/xero.png" alt="Xero API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="xero/xero-network-map.svg">Xero</a></h2>
+<p>390 operations · 60 lines · 13 interchanges</p><p class="links"><a href="xero/xero-network-map.svg">Open map</a> · <a href="https://apis.io/providers/xero/">On APIs.io</a></p></div></article>
+<article data-name="zoho crm" data-ops="405">
+<a class="pic" href="zoho-crm/zoho-crm-network-map.svg"><img src="thumbs/zoho-crm.png" alt="Zoho CRM API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="zoho-crm/zoho-crm-network-map.svg">Zoho CRM</a></h2>
+<p>405 operations · 45 lines · 30 interchanges</p><p class="links"><a href="zoho-crm/zoho-crm-network-map.svg">Open map</a> · <a href="https://apis.io/providers/zoho-crm/">On APIs.io</a></p></div></article>
+<article data-name="zoominfo" data-ops="199">
+<a class="pic" href="zoominfo/zoominfo-network-map.svg"><img src="thumbs/zoominfo.png" alt="ZoomInfo API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="zoominfo/zoominfo-network-map.svg">ZoomInfo</a></h2>
+<p>199 operations · 33 lines · 34 interchanges</p><p class="links"><a href="zoominfo/zoominfo-network-map.svg">Open map</a> · <a href="https://apis.io/providers/zoominfo/">On APIs.io</a></p></div></article>
+</div></main>
+<footer><p>Generated from the API Evangelist catalog by <a href="https://github.com/api-evangelist/api-transit-maps">api-transit-maps</a> — the design notes explain which transit convention encodes which API fact. Maps CC BY-NC-SA 4.0, code Apache-2.0. Updated 2026-11-14.</p></footer>
+<script>
+(function(){var g=document.getElementById('grid'),q=document.getElementById('q'),s=document.getElementById('sort');
+var cards=[].slice.call(g.children);
+function apply(){var t=q.value.trim().toLowerCase();cards.forEach(function(c){c.style.display=c.dataset.name.indexOf(t)<0?'none':'';});
+var k=s.value;cards.slice().sort(function(a,b){return k==='ops'?b.dataset.ops-a.dataset.ops:a.dataset.name.localeCompare(b.dataset.name);}).forEach(function(c){g.appendChild(c);});}
+q.addEventListener('input',apply);s.addEventListener('change',apply);})();
+</script></body></html>

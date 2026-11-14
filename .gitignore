@@ -1,0 +1,14 @@
+# local working material, never published
+work/
+.venv/
+__pycache__/
+logs/
+previews/
+*/iterations/
+*.full.png
+transit_model.pre-auto.py
+# full-size previews: the SVG is the map; the gallery uses thumbs/
+*/*-network-map.png
+# the 2026-11-13 strip-diagram draft of Stripe, superseded by the network map
+stripe/stripe-transit-map.*
+.DS_Store

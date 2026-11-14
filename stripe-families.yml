@@ -1,0 +1,54 @@
+# Stripe tags grouped into colour families (the "operators" of the network).
+# Every tag not listed falls into the LAST family.
+families:
+- name: Payments
+  color: "#D6264F"
+  tags: [Customers, Payment Intents, Charges, Payment Methods, Setup Intents, Setup Attempts, Sources, Tokens,
+         Refunds, Payment Method Configurations, Payment Method Domains, Apple, Ephemeral Keys]
+- name: Billing
+  color: "#0E9F6E"
+  tags: [Invoices, Invoice, Invoice Items, Get, Delete, Subscriptions, Subscription Items, Subscription Schedules,
+         Plans, Prices, Products, Coupons, Promotion Codes, Credit Notes, Quotes, Billing Meters, Billing Portal,
+         Entitlements, Shipping Rates]
+- name: Tax
+  color: "#0B7A75"
+  tags: [Tax, Tax Codes, Tax Rates]
+- name: Checkout
+  color: "#7B3FE4"
+  tags: [Checkout, Payment Links, Crypto Onramp]
+- name: Connect
+  color: "#E07B12"
+  tags: [Account, Accounts, Person, Create, Lists, Capabilities, Capability, Applications, Transfers, Payouts,
+         Top Ups, Balance, Balance Transactions, Country Specs]
+- name: Money Movement
+  color: "#1F5FD1"
+  tags: [Treasury, Issuing, Financial Connections, Linked Accounts, Link Account Sessions]
+- name: Risk & Identity
+  color: "#B0287F"
+  tags: [Radar, Reviews, Disputes, Identity]
+- name: Data & Platform
+  color: "#4A5568"
+  tags: [Reporting, Sigma, Events, Webhook Endpoints, Files, Exchange Rates]
+- name: Edge
+  color: "#B8860B"
+  tags: [Terminal, Climate, Forwarding]
+- name: Test Depot
+  color: "#8A93A6"
+  inset: true
+  inset_note: "Test mode only: helpers that advance clocks, simulate readers and move test money. Not in service in live mode."
+  tags: [Test Helpers]
+
+# Tags that are artefacts of splitting the spec, not resources. Their operations are drawn on the
+# line that owns the path; the map key lists every merge so nothing is hidden.
+retag:
+- {tag: Create, to: Person}
+- {tag: Lists, to: Person}
+- {tag: Delete, match: 'people|persons', to: Person}
+- {tag: Delete, match: 'Invoice Items', to: Invoice Items}
+- {tag: Get, to: Invoice Items}
+- {tag: Invoice, to: Invoice Items}
+- {tag: Capabilities, to: Capability}
+- {tag: Accounts, to: Account}
+
+# Lines drawn as a closed loop around the centre (the backbone resource).
+circle: [Customers]

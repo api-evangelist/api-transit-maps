@@ -1,0 +1,5 @@
+# Published as an atlas: products are found automatically (scope roots /accounts/{id}
+# and /zones/{id} are skipped), then packed into sheets of <= sheet_max_ops operations.
+max_families: 60
+atlas:
+  sheet_max_ops: 450

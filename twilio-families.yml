@@ -1,0 +1,110 @@
+# Twilio as a transit network. Families are Twilio's products; a line joins a family by its tag
+# or, failing that, by the host most of its operations are served from (the host IS the product).
+center: auto
+
+split_by_host: [Services]
+
+families:
+- name: Core API
+  color: "#F22F46"          # Twilio red: the 2010-04-01 API every account starts on
+  hosts: [api.twilio.com]
+  tags: [Accounts, Calls, Messages, Media, Conferences, Queues, Recordings, Keys, Usage Records, Applications]
+- name: Messaging
+  color: "#E8618C"
+  hosts: [messaging.twilio.com, notify.twilio.com, routes.twilio.com, content.twilio.com]
+  tags: [Messaging Services, A2p, Tollfree, LinkShortening, Alpha Senders, Deactivations, Content, Routes,
+         Short Codes, Notify Services]
+- name: Voice & SIP
+  color: "#7A3CC9"
+  hosts: [voice.twilio.com, trunking.twilio.com]
+  tags: [Voice, Trunks, Trunking, ByocTrunks, SipDomains, ConnectionPolicies, IpRecords, SourceIpMappings,
+         DialingPermissions, Settings, Archives]
+- name: Video
+  color: "#1F8FE5"
+  hosts: [video.twilio.com, media.twilio.com]
+  tags: [Rooms, Compositions, Composition Hooks, Video Settings, PlayerStreamers, MediaProcessors, MediaRecordings, Video]
+- name: Conversations
+  color: "#0B9C8C"
+  hosts: [conversations.twilio.com, ip-messaging.twilio.com, chat.twilio.com, proxy.twilio.com]
+  tags: [Conversations, Conversations Services, Ip Messaging Services, Proxy Services, Users, Participants,
+         ParticipantConversations, Webhooks, Channels]
+- name: Verify & Lookup
+  color: "#2E7D32"
+  hosts: [verify.twilio.com, lookups.twilio.com]
+  tags: [Verify Services, Verifications, Attempts, Factors, Challenges, Entities, SafeList, Phone Numbers]
+- name: Developer Platform
+  color: "#F2A007"
+  hosts: [sync.twilio.com, serverless.twilio.com, studio.twilio.com]
+  tags: [Sync Services, Serverless Services, Flows, Marketplace]
+- name: Contact Center
+  color: "#0263E0"
+  hosts: [taskrouter.twilio.com, flex-api.twilio.com]
+  tags: [Workspaces, Flex Flows, Configuration, Interactions, Plugins, Web Channels]
+- name: AI & Customer Memory
+  color: "#9B2EA8"
+  hosts: [autopilot.twilio.com, preview.twilio.com, knowledge.twilio.com, intelligence.twilio.com, memory.twilio.com]
+  tags: [Assistants, Understand, Knowledge, KnowledgeBases, Intelligence Services, Transcripts, Operators,
+         OperatorResults, ConversationSummaries, Store, Profile, Observations, Retrieval, TraitGroup,
+         Identifiers, IdentityResolutionSettings, DataMapping, Configurations, RuleExecutions]
+- name: Trust Hub & Numbers
+  color: "#6D4C41"
+  hosts: [trusthub.twilio.com, numbers.twilio.com]
+  tags: [RegulatoryCompliance, Customer Profiles, TrustProducts, End Users, EndUserTypes, SupportingDocuments,
+         SupportingDocumentTypes, ComplianceInquiries, HostedNumber, Policies]
+- name: IoT
+  color: "#00838F"
+  hosts: [supersim.twilio.com, wireless.twilio.com, microvisor.twilio.com]
+  tags: [SIMs, Fleets, Networks, NetworkAccessProfiles, ESimProfiles, IpCommands, SmsCommands, Commands,
+         Devices, Configs, Secrets, Rate Plans]
+- name: Identity & Access
+  color: "#37474F"
+  hosts: [accounts.twilio.com, iam.twilio.com, preview-iam.twilio.com, oauth.twilio.com]
+  tags: [Credentials, Auth Tokens, OAuth, API Keys, Roles, Role Assignments, OrganizationAccounts, SCIM]
+- name: Insights & Events
+  color: "#5C6BC0"
+  hosts: [insights.twilio.com, events.twilio.com, monitor.twilio.com, bulkexports.twilio.com, pricing.twilio.com]
+  tags: [Insights, Sinks, Subscriptions, Event Schemas, Alerts, Events, Exports]
+- name: SendGrid Email
+  color: "#1A82E2"
+  hosts: [api.sendgrid.com]
+  tags: [Mail Send, Templates, Contacts, Lists, Suppressions, Senders]
+
+# Tags that are fragments of an operationId (IamV1ApiKey, OauthV2Token...) or versions of one resource
+# are drawn on the line they belong to. The key lists every merge.
+retag:
+- {tag: OauthV1Authorize, to: OAuth}
+- {tag: OauthV1Token, to: OAuth}
+- {tag: OauthV2Authorize, to: OAuth}
+- {tag: OauthV2Metadata, to: OAuth}
+- {tag: OauthV2Token, to: OAuth}
+- {tag: OAuth2, to: OAuth}
+- {tag: IamV1ApiKey, to: API Keys}
+- {tag: IamV1GetApiKeys, to: API Keys}
+- {tag: IamV1NewApiKey, to: API Keys}
+- {tag: IamV1RolePermission, to: Roles}
+- {tag: Access Tokens, to: Auth Tokens}
+- {tag: ContentV2Content, to: Content}
+- {tag: ContentV2ContentAndApprovals, to: Content}
+- {tag: ContentAndApprovals, to: Content}
+- {tag: LegacyContent, to: Content}
+- {tag: RoutesV3PhoneNumber, to: Routes}
+- {tag: RoutesV3ShortCode, to: Routes}
+- {tag: MessagingV3TypingIndicator, to: Conversations}
+- {tag: ChatV3Channel, to: Channels}
+- {tag: NumbersV3HostedNumbersHostedNumberOrder, to: HostedNumber}
+- {tag: V3Transcriptions, to: Transcripts}
+- {tag: TwilioInsights, to: Insights}
+- {tag: TwilioInsightsAsync, to: Insights}
+- {tag: TwilioInsightsConfig, to: Insights}
+- {tag: Verification Checks, to: Verifications}
+- {tag: Forms, to: Verifications}
+- {tag: Recording Rules, to: Video Settings}
+- {tag: Recording Settings, to: Video Settings}
+- {tag: CompositionSettings, to: Video Settings}
+- {tag: Types, to: Event Schemas}
+- {tag: Schemas, to: Event Schemas}
+- {tag: Traits, to: TraitGroup}
+- {tag: Email Validation, to: Mail Send}
+- {tag: Stats, to: Mail Send}
+
+branching: true
