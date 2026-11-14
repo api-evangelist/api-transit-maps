@@ -1,0 +1,558 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2160 1890" width="2160" height="1890" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2160" height="1890" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Honeycomb-Io API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">89 operations as stops · 14 tags as lines · 12 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="810" y1="780" x2="760" y2="780" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="810" y1="780" x2="760" y2="780" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1110" y1="1680" x2="1160" y2="1730" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1110" y1="1680" x2="1160" y2="1730" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Anomaly Detection" d="M760.0,780.0 L760.0,880.0 L760.0,1130.0 L760.0,1230.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Anomaly Detection</title></path>
+<path class="line" data-line="Boards" d="M710.0,530.0 L810.0,530.0 L910.0,530.0 L996.0,530.0 Q1010.0,530.0 1019.9,539.9 L1110.0,630.0 L1210.0,730.0 L1300.1,820.1 Q1310.0,830.0 1310.0,844.0 L1310.0,930.0 L1310.0,1030.0 L1310.0,1116.0 Q1310.0,1130.0 1300.1,1139.9 L1210.0,1230.0 L1110.0,1330.0 L1019.9,1420.1 Q1010.0,1430.0 996.0,1430.0 L910.0,1430.0 L810.0,1430.0 L724.0,1430.0 Q710.0,1430.0 700.1,1420.1 L610.0,1330.0 L510.0,1230.0 L419.9,1139.9 Q410.0,1130.0 410.0,1116.0 L410.0,1030.0 L410.0,930.0 L410.0,844.0 Q410.0,830.0 419.9,820.1 L510.0,730.0 L710.0,530.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Boards</title></path>
+<path class="line" data-line="Environments" d="M1160.0,1730.0 L1260.0,1630.0 L1300.1,1589.9 Q1310.0,1580.0 1310.0,1566.0 L1310.0,1444.0 Q1310.0,1430.0 1319.9,1420.1 L1360.0,1380.0 L1460.0,1280.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Environments</title></path>
+<path class="line" data-line="Burn Alerts" d="M660.0,980.0 L619.9,1020.1 Q610.0,1030.0 610.0,1044.0 L610.0,1130.0 L610.0,1216.0 Q610.0,1230.0 600.1,1239.9 L460.0,1380.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Burn Alerts</title></path>
+<path class="line" data-line="Calculated Fields" d="M860.0,880.0 L1000.1,1020.1 Q1010.0,1030.0 1024.0,1030.0 L1096.0,1030.0 Q1110.0,1030.0 1119.9,1039.9 L1150.1,1070.1 Q1160.0,1080.0 1150.1,1089.9 L1060.0,1180.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Calculated Fields</title></path>
+<path class="line" data-line="Columns" d="M960.0,880.0 L1000.1,920.1 Q1010.0,930.0 1024.0,930.0 L1110.0,930.0 L1210.0,930.0 L1460.0,930.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Columns</title></path>
+<path class="line" data-line="Datasets" d="M810.0,780.0 L1046.0,780.0 Q1060.0,780.0 1069.9,770.1 L1100.1,739.9 Q1110.0,730.0 1124.0,730.0 L1360.0,730.0 L1460.0,730.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Datasets</title></path>
+<path class="line" data-line="Key Management" d="M1110.0,1680.0 L1010.0,1680.0 L960.0,1680.0 L860.0,1680.0 L760.0,1680.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Key Management</title></path>
+<path class="line" data-line="Marker Settings" d="M810.0,980.0 L900.1,1070.1 Q910.0,1080.0 910.0,1094.0 L910.0,1130.0 L910.0,1230.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Marker Settings</title></path>
+<path class="line" data-line="Markers" d="M910.0,730.0 L960.0,680.0 L1010.0,630.0 L1100.1,539.9 Q1110.0,530.0 1124.0,530.0 L1210.0,530.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Markers</title></path>
+<path class="line" data-line="Query Annotations" d="M610.0,880.0 L560.0,930.0 L519.9,970.1 Q510.0,980.0 510.0,994.0 L510.0,1066.0 Q510.0,1080.0 500.1,1089.9 L310.0,1280.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query Annotations</title></path>
+<path class="line" data-line="Recipients" d="M810.0,630.0 L850.1,589.9 Q860.0,580.0 874.0,580.0 L946.0,580.0 Q960.0,580.0 969.9,570.1 L1110.0,430.0 L1210.0,330.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Recipients</title></path>
+<path class="line" data-line="SLOs" d="M710.0,680.0 L660.0,630.0 L569.9,539.9 Q560.0,530.0 560.0,516.0 L560.0,494.0 Q560.0,480.0 550.1,470.1 L510.0,430.0 L410.0,330.0 L310.0,230.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SLOs</title></path>
+<path class="line" data-line="Triggers" d="M660.0,780.0 L619.9,820.1 Q610.0,830.0 596.0,830.0 L524.0,830.0 Q510.0,830.0 500.1,839.9 L469.9,870.1 Q460.0,880.0 446.0,880.0 L324.0,880.0 Q310.0,880.0 300.1,889.9 L260.0,930.0 L160.0,1030.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Triggers</title></path>
+<line x1="760" y1="780" x2="760.0" y2="746.0" stroke="#00838F" stroke-width="7"/><rect x="736.0" y="735.0" width="48" height="22" rx="5" fill="#00838F"><title>Anomaly Detection</title></rect><text x="760.0" y="751.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AD</text>
+<line x1="760" y1="1230" x2="760.0" y2="1264.0" stroke="#00838F" stroke-width="7"/><rect x="736.0" y="1253.0" width="48" height="22" rx="5" fill="#00838F"><title>Anomaly Detection</title></rect><text x="760.0" y="1269.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AD</text>
+<rect x="680" y="477" width="60" height="26" rx="13" fill="#D6264F"/><text x="710" y="495" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">BOA</text>
+<line x1="1160" y1="1730" x2="1135.9583694396574" y2="1754.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1111.9583694396574" y="1743.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Environments</title></rect><text x="1135.9583694396574" y="1759.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENV</text>
+<line x1="1460" y1="1280" x2="1484.0416305603426" y2="1255.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1460.0416305603426" y="1244.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Environments</title></rect><text x="1484.0416305603426" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENV</text>
+<line x1="660" y1="980" x2="684.0416305603426" y2="955.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="660.0416305603426" y="944.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Burn Alerts</title></rect><text x="684.0416305603426" y="960.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BA</text>
+<line x1="460" y1="1380" x2="435.95836943965736" y2="1404.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="411.95836943965736" y="1393.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Burn Alerts</title></rect><text x="435.95836943965736" y="1409.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BA</text>
+<line x1="860" y1="880" x2="835.9583694396574" y2="855.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="811.9583694396574" y="844.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Calculated Fields</title></rect><text x="835.9583694396574" y="860.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CF</text>
+<line x1="1060" y1="1180" x2="1035.9583694396574" y2="1204.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1011.9583694396574" y="1193.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Calculated Fields</title></rect><text x="1035.9583694396574" y="1209.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CF</text>
+<line x1="960" y1="880" x2="935.9583694396574" y2="855.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="911.9583694396574" y="844.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Columns</title></rect><text x="935.9583694396574" y="860.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="1460" y1="930" x2="1494.0" y2="930.0" stroke="#0B7A75" stroke-width="7"/><rect x="1470.0" y="919.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Columns</title></rect><text x="1494.0" y="935.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="810" y1="780" x2="776.0" y2="806.0" stroke="#B8860B" stroke-width="7"/><rect x="752.0" y="795.0" width="48" height="22" rx="5" fill="#B8860B"><title>Datasets</title></rect><text x="776.0" y="811.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="1460" y1="730" x2="1494.0" y2="730.0" stroke="#B8860B" stroke-width="7"/><rect x="1470.0" y="719.0" width="48" height="22" rx="5" fill="#B8860B"><title>Datasets</title></rect><text x="1494.0" y="735.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="1110" y1="1680" x2="1144.0" y2="1680.0" stroke="#C2410C" stroke-width="7"/><rect x="1120.0" y="1669.0" width="48" height="22" rx="5" fill="#C2410C"><title>Key Management</title></rect><text x="1144.0" y="1685.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">KM</text>
+<line x1="760" y1="1680" x2="726.0" y2="1680.0" stroke="#C2410C" stroke-width="7"/><rect x="702.0" y="1669.0" width="48" height="22" rx="5" fill="#C2410C"><title>Key Management</title></rect><text x="726.0" y="1685.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">KM</text>
+<line x1="810" y1="980" x2="785.9583694396574" y2="955.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="761.9583694396574" y="944.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Marker Settings</title></rect><text x="785.9583694396574" y="960.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MS</text>
+<line x1="910" y1="1230" x2="910.0" y2="1264.0" stroke="#8D6E63" stroke-width="7"/><rect x="886.0" y="1253.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Marker Settings</title></rect><text x="910.0" y="1269.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MS</text>
+<line x1="910" y1="730" x2="885.9583694396574" y2="754.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="861.9583694396574" y="743.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Markers</title></rect><text x="885.9583694396574" y="759.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAR</text>
+<line x1="1210" y1="530" x2="1244.0" y2="530.0" stroke="#4A5568" stroke-width="7"/><rect x="1220.0" y="519.0" width="48" height="22" rx="5" fill="#4A5568"><title>Markers</title></rect><text x="1244.0" y="535.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAR</text>
+<line x1="610" y1="880" x2="634.0416305603426" y2="855.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="610.0416305603426" y="844.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Query Annotations</title></rect><text x="634.0416305603426" y="860.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QA</text>
+<line x1="310" y1="1280" x2="285.95836943965736" y2="1304.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="261.95836943965736" y="1293.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Query Annotations</title></rect><text x="285.95836943965736" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QA</text>
+<line x1="810" y1="630" x2="785.9583694396574" y2="654.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="761.9583694396574" y="643.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Recipients</title></rect><text x="785.9583694396574" y="659.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REC</text>
+<line x1="1210" y1="330" x2="1234.0416305603426" y2="305.95836943965736" stroke="#5C6BC0" stroke-width="7"/><rect x="1210.0416305603426" y="294.95836943965736" width="48" height="22" rx="5" fill="#5C6BC0"><title>Recipients</title></rect><text x="1234.0416305603426" y="310.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REC</text>
+<line x1="710" y1="680" x2="734.0416305603426" y2="704.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="710.0416305603426" y="693.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>SLOs</title></rect><text x="734.0416305603426" y="709.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SLO</text>
+<line x1="310" y1="230" x2="285.95836943965736" y2="205.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="261.95836943965736" y="194.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>SLOs</title></rect><text x="285.95836943965736" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SLO</text>
+<line x1="660" y1="780" x2="684.0416305603426" y2="755.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="660.0416305603426" y="744.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Triggers</title></rect><text x="684.0416305603426" y="760.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRI</text>
+<line x1="160" y1="1030" x2="135.9583694396574" y2="1054.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="111.95836943965739" y="1043.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Triggers</title></rect><text x="135.9583694396574" y="1059.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRI</text>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-anomaly-detection-api/#op-listSignals" target="_blank" class="st" data-op="listSignals"><title>GET /1/signals
+Anomaly Detection line · listSignals</title>
+<circle cx="760" cy="780" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="748.0" y="785" text-anchor="end" style="fill:#1A1F2C">List signals</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-anomaly-detection-api/#op-getSignal" target="_blank" class="st" data-op="getSignal"><title>GET /1/signals/{id}
+Anomaly Detection line · getSignal</title>
+<circle cx="760" cy="880" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="772" y="885" text-anchor="start" style="fill:#1A1F2C">Get signal</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-anomaly-detection-api/#op-updateSignal" target="_blank" class="st" data-op="updateSignal"><title>PUT /1/signals/{id}
+Anomaly Detection line · updateSignal</title>
+<circle cx="760" cy="1130" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="772" y="1135" text-anchor="start" style="fill:#1A1F2C">Update signal</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-anomaly-detection-api/#op-listSignalHistoricalAnomalies" target="_blank" class="st" data-op="listSignalHistoricalAnomalies"><title>GET /1/signals/{id}/historical_anomalies
+Anomaly Detection line · listSignalHistoricalAnomalies</title>
+<circle cx="760" cy="1230" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="769" y="1249" text-anchor="start" style="fill:#1A1F2C">List historical anomalies</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-auth-api/#op-getAuth" target="_blank" class="st" data-op="getAuth"><title>GET /1/auth
+Boards line · getAuth</title>
+<circle cx="710" cy="530" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="698.0" y="535" text-anchor="end" style="fill:#1A1F2C">Get auth <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-auth-api/#op-getV2Auth" target="_blank" class="st" data-op="getV2Auth"><title>GET /2/auth
+Environments line · getV2Auth</title>
+<circle cx="1160" cy="1730" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1172" y="1735" text-anchor="start" style="fill:#1A1F2C">Get auth</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-createBoard" target="_blank" class="st" data-op="createBoard"><title>POST /1/boards
+Boards line · createBoard</title>
+<circle cx="1010" cy="530" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="535" text-anchor="start" style="fill:#1A1F2C">Create board</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-listBoards" target="_blank" class="st" data-op="listBoards"><title>GET /1/boards
+Boards line · listBoards</title>
+<circle cx="910" cy="530" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="916" y="518" transform="rotate(-45 916 518)" style="fill:#1A1F2C">List boards</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-getBoard" target="_blank" class="st" data-op="getBoard"><title>GET /1/boards/{boardId}
+Boards line · getBoard</title>
+<circle cx="1110" cy="630" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1122" y="635" text-anchor="start" style="fill:#1A1F2C">Get board</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-updateBoard" target="_blank" class="st" data-op="updateBoard"><title>PUT /1/boards/{boardId}
+Boards line · updateBoard</title>
+<circle cx="1210" cy="730" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1219" y="720" text-anchor="start" style="fill:#1A1F2C">Update board</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-deleteBoard" target="_blank" class="st" data-op="deleteBoard"><title>DELETE /1/boards/{boardId}
+Boards line · deleteBoard</title>
+<circle cx="1310" cy="830" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1306" y1="834" x2="1314" y2="826" stroke="#D6264F" stroke-width="2"/>
+<text x="1322" y="835" text-anchor="start" style="fill:#1A1F2C">Delete board</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-listBoardViews" target="_blank" class="st" data-op="listBoardViews"><title>GET /1/boards/{boardId}/views
+Boards line · listBoardViews</title>
+<circle cx="1310" cy="930" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1319" y="920" text-anchor="start" style="fill:#1A1F2C">List views</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-createBoardView" target="_blank" class="st" data-op="createBoardView"><title>POST /1/boards/{boardId}/views
+Boards line · createBoardView</title>
+<circle cx="1310" cy="1030" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1322" y="1035" text-anchor="start" style="fill:#1A1F2C">Create view</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-getBoardView" target="_blank" class="st" data-op="getBoardView"><title>GET /1/boards/{boardId}/views/{viewId}
+Boards line · getBoardView</title>
+<circle cx="1310" cy="1130" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1322" y="1135" text-anchor="start" style="fill:#1A1F2C">Get view</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-deleteBoardView" target="_blank" class="st" data-op="deleteBoardView"><title>DELETE /1/boards/{boardId}/views/{viewId}
+Boards line · deleteBoardView</title>
+<circle cx="1110" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1106" y1="1334" x2="1114" y2="1326" stroke="#D6264F" stroke-width="2"/>
+<text x="1122" y="1335" text-anchor="start" style="fill:#1A1F2C">Delete view</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-boards-api/#op-updateBoardView" target="_blank" class="st" data-op="updateBoardView"><title>PUT /1/boards/{boardId}/views/{viewId}
+Boards line · updateBoardView</title>
+<circle cx="1210" cy="1230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="1235" text-anchor="start" style="fill:#1A1F2C">Update view</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-burn-alerts-api/#op-createBurnAlert" target="_blank" class="st" data-op="createBurnAlert"><title>POST /1/burn_alerts/{datasetSlug}
+Burn Alerts line · createBurnAlert</title>
+<circle cx="610" cy="1030" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="622" y="1035" text-anchor="start" style="fill:#1A1F2C">Update burn alert</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-burn-alerts-api/#op-listBurnAlertsBySlo" target="_blank" class="st" data-op="listBurnAlertsBySlo"><title>GET /1/burn_alerts/{datasetSlug}
+Burn Alerts line · listBurnAlertsBySlo</title>
+<circle cx="660" cy="980" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="651.0" y="970" text-anchor="end" style="fill:#1A1F2C">Get burn alert <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-burn-alerts-api/#op-getBurnAlert" target="_blank" class="st" data-op="getBurnAlert"><title>GET /1/burn_alerts/{datasetSlug}/{burnAlertId}
+Burn Alerts line · getBurnAlert</title>
+<circle cx="610" cy="1130" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="622" y="1135" text-anchor="start" style="fill:#1A1F2C">Get burn alert</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-burn-alerts-api/#op-updateBurnAlert" target="_blank" class="st" data-op="updateBurnAlert"><title>PUT /1/burn_alerts/{datasetSlug}/{burnAlertId}
+Burn Alerts line · updateBurnAlert</title>
+<circle cx="610" cy="1230" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="622" y="1235" text-anchor="start" style="fill:#1A1F2C">Update burn alert</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-burn-alerts-api/#op-deleteBurnAlert" target="_blank" class="st" data-op="deleteBurnAlert"><title>DELETE /1/burn_alerts/{datasetSlug}/{burnAlertId}
+Burn Alerts line · deleteBurnAlert</title>
+<circle cx="460" cy="1380" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="456" y1="1384" x2="464" y2="1376" stroke="#7B3FE4" stroke-width="2"/>
+<text x="472" y="1385" text-anchor="start" style="fill:#1A1F2C">Delete burn alert</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-calculated-fields-api/#op-createCalculatedField" target="_blank" class="st" data-op="createCalculatedField"><title>POST /1/derived_columns/{datasetSlug}
+Calculated Fields line · createCalculatedField</title>
+<circle cx="1010" cy="1030" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1019" y="1020" text-anchor="start" style="fill:#1A1F2C">Update derived column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-calculated-fields-api/#op-listCalculatedFields" target="_blank" class="st" data-op="listCalculatedFields"><title>GET /1/derived_columns/{datasetSlug}
+Calculated Fields line · listCalculatedFields</title>
+<circle cx="860" cy="880" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="851.0" y="899" text-anchor="end" style="fill:#1A1F2C">Get derived column <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-calculated-fields-api/#op-getCalculatedField" target="_blank" class="st" data-op="getCalculatedField"><title>GET /1/derived_columns/{datasetSlug}/{derivedColumnId}
+Calculated Fields line · getCalculatedField</title>
+<circle cx="1110" cy="1030" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1122" y="1035" text-anchor="start" style="fill:#1A1F2C">Get derived column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-calculated-fields-api/#op-updateCalculatedField" target="_blank" class="st" data-op="updateCalculatedField"><title>PUT /1/derived_columns/{datasetSlug}/{derivedColumnId}
+Calculated Fields line · updateCalculatedField</title>
+<circle cx="1160" cy="1080" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1172" y="1085" text-anchor="start" style="fill:#1A1F2C">Update derived column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-calculated-fields-api/#op-deleteCalculatedField" target="_blank" class="st" data-op="deleteCalculatedField"><title>DELETE /1/derived_columns/{datasetSlug}/{derivedColumnId}
+Calculated Fields line · deleteCalculatedField</title>
+<circle cx="1060" cy="1180" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1056" y1="1184" x2="1064" y2="1176" stroke="#B0287F" stroke-width="2"/>
+<text x="1072" y="1185" text-anchor="start" style="fill:#1A1F2C">Delete derived column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-columns-api/#op-createColumn" target="_blank" class="st" data-op="createColumn"><title>POST /1/columns/{datasetSlug}
+Columns line · createColumn</title>
+<circle cx="1010" cy="930" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1019" y="920" text-anchor="start" style="fill:#1A1F2C">Update column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-columns-api/#op-listColumns" target="_blank" class="st" data-op="listColumns"><title>GET /1/columns/{datasetSlug}
+Columns line · listColumns</title>
+<circle cx="960" cy="880" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="972" y="885" text-anchor="start" style="fill:#1A1F2C">Get column <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-columns-api/#op-getColumn" target="_blank" class="st" data-op="getColumn"><title>GET /1/columns/{datasetSlug}/{columnId}
+Columns line · getColumn</title>
+<circle cx="1110" cy="930" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1116" y="918" transform="rotate(-45 1116 918)" style="fill:#1A1F2C">Get column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-columns-api/#op-updateColumn" target="_blank" class="st" data-op="updateColumn"><title>PUT /1/columns/{datasetSlug}/{columnId}
+Columns line · updateColumn</title>
+<circle cx="1210" cy="930" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1216" y="918" transform="rotate(-45 1216 918)" style="fill:#1A1F2C">Update column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-columns-api/#op-deleteColumn" target="_blank" class="st" data-op="deleteColumn"><title>DELETE /1/columns/{datasetSlug}/{columnId}
+Columns line · deleteColumn</title>
+<circle cx="1460" cy="930" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1456" y1="934" x2="1464" y2="926" stroke="#0B7A75" stroke-width="2"/>
+<text x="1454" y="942" text-anchor="end" transform="rotate(-45 1454 942)" style="fill:#1A1F2C">Delete column</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-dataset-definitions-api/#op-patchDatasetDefinitions" target="_blank" class="st" data-op="patchDatasetDefinitions"><title>PATCH /1/dataset_definitions/{datasetSlug}
+Boards line · patchDatasetDefinitions</title>
+<circle cx="910" cy="1430" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="916" y="1418" transform="rotate(-45 916 1418)" style="fill:#1A1F2C">Update dataset definition</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-dataset-definitions-api/#op-listDatasetDefinitions" target="_blank" class="st" data-op="listDatasetDefinitions"><title>GET /1/dataset_definitions/{datasetSlug}
+Boards line · listDatasetDefinitions</title>
+<circle cx="1010" cy="1430" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="1435" text-anchor="start" style="fill:#1A1F2C">Get dataset definition</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-datasets-api/#op-createDataset" target="_blank" class="st" data-op="createDataset"><title>POST /1/datasets
+Datasets line · createDataset</title>
+<circle cx="1060" cy="780" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1072" y="785" text-anchor="start" style="fill:#1A1F2C">Create dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-datasets-api/#op-listDatasets" target="_blank" class="st" data-op="listDatasets"><title>GET /1/datasets
+Datasets line · listDatasets</title>
+<circle cx="810" cy="780" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="816" y="768" transform="rotate(-45 816 768)" style="fill:#1A1F2C">List datasets</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-datasets-api/#op-getDataset" target="_blank" class="st" data-op="getDataset"><title>GET /1/datasets/{datasetSlug}
+Datasets line · getDataset</title>
+<circle cx="1110" cy="730" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1098.0" y="735" text-anchor="end" style="fill:#1A1F2C">Get dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-datasets-api/#op-deleteDataset" target="_blank" class="st" data-op="deleteDataset"><title>DELETE /1/datasets/{datasetSlug}
+Datasets line · deleteDataset</title>
+<circle cx="1460" cy="730" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1456" y1="734" x2="1464" y2="726" stroke="#B8860B" stroke-width="2"/>
+<text x="1454" y="742" text-anchor="end" transform="rotate(-45 1454 742)" style="fill:#1A1F2C">Delete dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-datasets-api/#op-updateDataset" target="_blank" class="st" data-op="updateDataset"><title>PUT /1/datasets/{datasetSlug}
+Datasets line · updateDataset</title>
+<circle cx="1360" cy="730" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1366" y="718" transform="rotate(-45 1366 718)" style="fill:#1A1F2C">Update dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-environments-api/#op-listEnvironments" target="_blank" class="st" data-op="listEnvironments"><title>GET /2/teams/{teamSlug}/environments
+Environments line · listEnvironments</title>
+<circle cx="1260" cy="1630" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1272" y="1635" text-anchor="start" style="fill:#1A1F2C">List environments</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-environments-api/#op-createEnvironment" target="_blank" class="st" data-op="createEnvironment"><title>POST /2/teams/{teamSlug}/environments
+Environments line · createEnvironment</title>
+<circle cx="1310" cy="1580" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1322" y="1585" text-anchor="start" style="fill:#1A1F2C">Create environment</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-environments-api/#op-getEnvironment" target="_blank" class="st" data-op="getEnvironment"><title>GET /2/teams/{teamSlug}/environments/{ID}
+Environments line · getEnvironment</title>
+<circle cx="1310" cy="1430" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1322" y="1435" text-anchor="start" style="fill:#1A1F2C">Get environment</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-environments-api/#op-updateEnvironment" target="_blank" class="st" data-op="updateEnvironment"><title>PATCH /2/teams/{teamSlug}/environments/{ID}
+Environments line · updateEnvironment</title>
+<circle cx="1360" cy="1380" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1372" y="1385" text-anchor="start" style="fill:#1A1F2C">Update environment</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-environments-api/#op-deleteEnvironment" target="_blank" class="st" data-op="deleteEnvironment"><title>DELETE /2/teams/{teamSlug}/environments/{ID}
+Environments line · deleteEnvironment</title>
+<circle cx="1460" cy="1280" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1456" y1="1284" x2="1464" y2="1276" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1472" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete environment</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-events-api/#op-createEvents" target="_blank" class="st" data-op="createEvents"><title>POST /1/batch/{datasetSlug}
+Boards line · createEvents</title>
+<circle cx="810" cy="530" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="816" y="518" transform="rotate(-45 816 518)" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-events-api/#op-createEvent" target="_blank" class="st" data-op="createEvent"><title>POST /1/events/{datasetSlug}
+Boards line · createEvent</title>
+<circle cx="810" cy="1430" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="816" y="1418" transform="rotate(-45 816 1418)" style="fill:#1A1F2C">Update event</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-key-management-api/#op-listApiKeys" target="_blank" class="st" data-op="listApiKeys"><title>GET /2/teams/{teamSlug}/api-keys
+Key Management line · listApiKeys</title>
+<circle cx="1110" cy="1680" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1104" y="1692" text-anchor="end" transform="rotate(-45 1104 1692)" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-key-management-api/#op-createApiKey" target="_blank" class="st" data-op="createApiKey"><title>POST /2/teams/{teamSlug}/api-keys
+Key Management line · createApiKey</title>
+<circle cx="1010" cy="1680" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1016" y="1668" transform="rotate(-45 1016 1668)" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-key-management-api/#op-getApiKey" target="_blank" class="st" data-op="getApiKey"><title>GET /2/teams/{teamSlug}/api-keys/{ID}
+Key Management line · getApiKey</title>
+<circle cx="960" cy="1680" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="966" y="1668" transform="rotate(-45 966 1668)" style="fill:#1A1F2C">Get api key</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-key-management-api/#op-updateApiKey" target="_blank" class="st" data-op="updateApiKey"><title>PATCH /2/teams/{teamSlug}/api-keys/{ID}
+Key Management line · updateApiKey</title>
+<circle cx="860" cy="1680" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="866" y="1668" transform="rotate(-45 866 1668)" style="fill:#1A1F2C">Update api key</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-key-management-api/#op-deleteApiKey" target="_blank" class="st" data-op="deleteApiKey"><title>DELETE /2/teams/{teamSlug}/api-keys/{ID}
+Key Management line · deleteApiKey</title>
+<circle cx="760" cy="1680" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="756" y1="1684" x2="764" y2="1676" stroke="#C2410C" stroke-width="2"/>
+<text x="766" y="1668" transform="rotate(-45 766 1668)" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-kinesis-events-api/#op-createKinesisEvents" target="_blank" class="st" data-op="createKinesisEvents"><title>POST /1/kinesis_events/{datasetSlug}
+Boards line · createKinesisEvents</title>
+<circle cx="710" cy="1430" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="698.0" y="1435" text-anchor="end" style="fill:#1A1F2C">Update kinesis event</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-marker-settings-api/#op-createMarkerSetting" target="_blank" class="st" data-op="createMarkerSetting"><title>POST /1/marker_settings/{datasetSlug}
+Marker Settings line · createMarkerSetting</title>
+<circle cx="910" cy="1080" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="922" y="1085" text-anchor="start" style="fill:#1A1F2C">Update marker setting</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-marker-settings-api/#op-listMarkerSettings" target="_blank" class="st" data-op="listMarkerSettings"><title>GET /1/marker_settings/{datasetSlug}
+Marker Settings line · listMarkerSettings</title>
+<circle cx="810" cy="980" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="822" y="978" text-anchor="start" style="fill:#1A1F2C">Get marker<tspan x="822" dy="13">setting <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-marker-settings-api/#op-updateMarkerSettings" target="_blank" class="st" data-op="updateMarkerSettings"><title>PUT /1/marker_settings/{datasetSlug}/{markerSettingId}
+Marker Settings line · updateMarkerSettings</title>
+<circle cx="910" cy="1130" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="922" y="1135" text-anchor="start" style="fill:#1A1F2C">Update marker setting</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-marker-settings-api/#op-deleteMarkerSettings" target="_blank" class="st" data-op="deleteMarkerSettings"><title>DELETE /1/marker_settings/{datasetSlug}/{markerSettingId}
+Marker Settings line · deleteMarkerSettings</title>
+<circle cx="910" cy="1230" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="906" y1="1234" x2="914" y2="1226" stroke="#8D6E63" stroke-width="2"/>
+<text x="922" y="1235" text-anchor="start" style="fill:#1A1F2C">Delete marker setting</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-markers-api/#op-createMarker" target="_blank" class="st" data-op="createMarker"><title>POST /1/markers/{datasetSlug}
+Markers line · createMarker</title>
+<circle cx="960" cy="680" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="972" y="685" text-anchor="start" style="fill:#1A1F2C">Update marker</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-markers-api/#op-getMarker" target="_blank" class="st" data-op="getMarker"><title>GET /1/markers/{datasetSlug}
+Markers line · getMarker</title>
+<circle cx="910" cy="730" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="922" y="735" text-anchor="start" style="fill:#1A1F2C">Get marker <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-markers-api/#op-updateMarker" target="_blank" class="st" data-op="updateMarker"><title>PUT /1/markers/{datasetSlug}/{markerId}
+Markers line · updateMarker</title>
+<circle cx="1010" cy="630" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="998.0" y="635" text-anchor="end" style="fill:#1A1F2C">Update marker</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-markers-api/#op-deleteMarker" target="_blank" class="st" data-op="deleteMarker"><title>DELETE /1/markers/{datasetSlug}/{markerId}
+Markers line · deleteMarker</title>
+<circle cx="1210" cy="530" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="1206" y1="534" x2="1214" y2="526" stroke="#4A5568" stroke-width="2"/>
+<text x="1201.0" y="549" text-anchor="end" style="fill:#1A1F2C">Delete marker</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-queries-api/#op-createQuery" target="_blank" class="st" data-op="createQuery"><title>POST /1/queries/{datasetSlug}
+Boards line · createQuery</title>
+<circle cx="410" cy="1130" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="398.0" y="1135" text-anchor="end" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-queries-api/#op-getQuery" target="_blank" class="st" data-op="getQuery"><title>GET /1/queries/{datasetSlug}/{queryId}
+Boards line · getQuery</title>
+<circle cx="410" cy="1030" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="422" y="1035" text-anchor="start" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-annotations-api/#op-createQueryAnnotation" target="_blank" class="st" data-op="createQueryAnnotation"><title>POST /1/query_annotations/{datasetSlug}
+Query Annotations line · createQueryAnnotation</title>
+<circle cx="560" cy="930" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="572" y="935" text-anchor="start" style="fill:#1A1F2C">Update query annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-annotations-api/#op-listQueryAnnotations" target="_blank" class="st" data-op="listQueryAnnotations"><title>GET /1/query_annotations/{datasetSlug}
+Query Annotations line · listQueryAnnotations</title>
+<circle cx="610" cy="880" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="622" y="878" text-anchor="start" style="fill:#1A1F2C">Get query<tspan x="622" dy="13">annotation <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-annotations-api/#op-getQueryAnnotation" target="_blank" class="st" data-op="getQueryAnnotation"><title>GET /1/query_annotations/{datasetSlug}/{queryAnnotationId}
+Query Annotations line · getQueryAnnotation</title>
+<circle cx="510" cy="980" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="522" y="985" text-anchor="start" style="fill:#1A1F2C">Get query annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-annotations-api/#op-updateQueryAnnotation" target="_blank" class="st" data-op="updateQueryAnnotation"><title>PUT /1/query_annotations/{datasetSlug}/{queryAnnotationId}
+Query Annotations line · updateQueryAnnotation</title>
+<circle cx="510" cy="1080" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="522" y="1078" text-anchor="start" style="fill:#1A1F2C">Update query<tspan x="522" dy="13">annotation</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-annotations-api/#op-deleteQueryAnnotation" target="_blank" class="st" data-op="deleteQueryAnnotation"><title>DELETE /1/query_annotations/{datasetSlug}/{queryAnnotationId}
+Query Annotations line · deleteQueryAnnotation</title>
+<circle cx="310" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="306" y1="1284" x2="314" y2="1276" stroke="#2E7D32" stroke-width="2"/>
+<text x="322" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete query annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-data-api/#op-createQueryResult" target="_blank" class="st" data-op="createQueryResult"><title>POST /1/query_results/{datasetSlug}
+Boards line · createQueryResult</title>
+<circle cx="410" cy="930" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="422" y="935" text-anchor="start" style="fill:#1A1F2C">Update query result</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-query-data-api/#op-getQueryResult" target="_blank" class="st" data-op="getQueryResult"><title>GET /1/query_results/{datasetSlug}/{queryResultId}
+Boards line · getQueryResult</title>
+<circle cx="410" cy="830" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="398.0" y="835" text-anchor="end" style="fill:#1A1F2C">Get query result</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-recipients-api/#op-createRecipient" target="_blank" class="st" data-op="createRecipient"><title>POST /1/recipients
+Recipients line · createRecipient</title>
+<circle cx="860" cy="580" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="848.0" y="585" text-anchor="end" style="fill:#1A1F2C">Create recipient</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-recipients-api/#op-listRecipients" target="_blank" class="st" data-op="listRecipients"><title>GET /1/recipients
+Recipients line · listRecipients</title>
+<circle cx="810" cy="630" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="798.0" y="635" text-anchor="end" style="fill:#1A1F2C">List recipients <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-recipients-api/#op-getRecipient" target="_blank" class="st" data-op="getRecipient"><title>GET /1/recipients/{recipientId}
+Recipients line · getRecipient</title>
+<circle cx="960" cy="580" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="951.0" y="599" text-anchor="end" style="fill:#1A1F2C">Get recipient</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-recipients-api/#op-updateRecipient" target="_blank" class="st" data-op="updateRecipient"><title>PUT /1/recipients/{recipientId}
+Recipients line · updateRecipient</title>
+<circle cx="1110" cy="430" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1122" y="435" text-anchor="start" style="fill:#1A1F2C">Update recipient</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-recipients-api/#op-deleteRecipient" target="_blank" class="st" data-op="deleteRecipient"><title>DELETE /1/recipients/{recipientId}
+Recipients line · deleteRecipient</title>
+<circle cx="1210" cy="330" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1206" y1="334" x2="1214" y2="326" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1222" y="335" text-anchor="start" style="fill:#1A1F2C">Delete recipient</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-reporting-api/#op-getSloHistory" target="_blank" class="st" data-op="getSloHistory"><title>POST /1/reporting/slos/historical
+Boards line · getSloHistory</title>
+<circle cx="510" cy="730" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="522" y="735" text-anchor="start" style="fill:#1A1F2C">Update historical</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-service-maps-api/#op-createMapDependencyRequest" target="_blank" class="st" data-op="createMapDependencyRequest"><title>POST /1/maps/dependencies/requests
+Boards line · createMapDependencyRequest</title>
+<circle cx="610" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="622" y="1335" text-anchor="start" style="fill:#1A1F2C">Create request</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-service-maps-api/#op-getMapDependencies" target="_blank" class="st" data-op="getMapDependencies"><title>GET /1/maps/dependencies/requests/{requestId}
+Boards line · getMapDependencies</title>
+<circle cx="510" cy="1230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="522" y="1235" text-anchor="start" style="fill:#1A1F2C">Get request</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-createSlo" target="_blank" class="st" data-op="createSlo"><title>POST /1/slos/{datasetSlug}
+SLOs line · createSlo</title>
+<circle cx="660" cy="630" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="669" y="620" text-anchor="start" style="fill:#1A1F2C">Update slo</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-listSlos" target="_blank" class="st" data-op="listSlos"><title>GET /1/slos/{datasetSlug}
+SLOs line · listSlos</title>
+<circle cx="710" cy="680" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="722" y="685" text-anchor="start" style="fill:#1A1F2C">Get slo <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-getSlo" target="_blank" class="st" data-op="getSlo"><title>GET /1/slos/{datasetSlug}/{sloId}
+SLOs line · getSlo</title>
+<circle cx="560" cy="530" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="572" y="535" text-anchor="start" style="fill:#1A1F2C">Get slo</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-updateSlo" target="_blank" class="st" data-op="updateSlo"><title>PUT /1/slos/{datasetSlug}/{sloId}
+SLOs line · updateSlo</title>
+<circle cx="560" cy="480" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="572" y="485" text-anchor="start" style="fill:#1A1F2C">Update slo</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-deleteSlo" target="_blank" class="st" data-op="deleteSlo"><title>DELETE /1/slos/{datasetSlug}/{sloId}
+SLOs line · deleteSlo</title>
+<circle cx="510" cy="430" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="506" y1="434" x2="514" y2="426" stroke="#0E9F6E" stroke-width="2"/>
+<text x="522" y="435" text-anchor="start" style="fill:#1A1F2C">Delete slo</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-getSloRealtimeCounts" target="_blank" class="st" data-op="getSloRealtimeCounts"><title>GET /1/slos/{datasetSlug}/{sloId}/counts
+SLOs line · getSloRealtimeCounts</title>
+<circle cx="410" cy="330" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="422" y="335" text-anchor="start" style="fill:#1A1F2C">List counts</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-slos-api/#op-getSloHourlyCountsHistory" target="_blank" class="st" data-op="getSloHourlyCountsHistory"><title>GET /1/slos/{datasetSlug}/{sloId}/counts/history
+SLOs line · getSloHourlyCountsHistory</title>
+<circle cx="310" cy="230" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="322" y="235" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-triggers-api/#op-listTriggers" target="_blank" class="st" data-op="listTriggers"><title>GET /1/triggers/{datasetSlug}
+Triggers line · listTriggers</title>
+<circle cx="510" cy="830" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="498.0" y="835" text-anchor="end" style="fill:#1A1F2C">Get trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-triggers-api/#op-createTrigger" target="_blank" class="st" data-op="createTrigger"><title>POST /1/triggers/{datasetSlug}
+Triggers line · createTrigger</title>
+<circle cx="460" cy="880" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="472" y="885" text-anchor="start" style="fill:#1A1F2C">Update trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-triggers-api/#op-getTrigger" target="_blank" class="st" data-op="getTrigger"><title>GET /1/triggers/{datasetSlug}/{triggerId}
+Triggers line · getTrigger</title>
+<circle cx="310" cy="880" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="298.0" y="885" text-anchor="end" style="fill:#1A1F2C">Get trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-triggers-api/#op-updateTrigger" target="_blank" class="st" data-op="updateTrigger"><title>PUT /1/triggers/{datasetSlug}/{triggerId}
+Triggers line · updateTrigger</title>
+<circle cx="260" cy="930" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="272" y="935" text-anchor="start" style="fill:#1A1F2C">Update trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-triggers-api/#op-deleteTrigger" target="_blank" class="st" data-op="deleteTrigger"><title>DELETE /1/triggers/{datasetSlug}/{triggerId}
+Triggers line · deleteTrigger</title>
+<circle cx="160" cy="1030" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="156" y1="1034" x2="164" y2="1026" stroke="#E07B12" stroke-width="2"/>
+<text x="172" y="1035" text-anchor="start" style="fill:#1A1F2C">Delete trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/honeycomb-io/honeycomb-io-triggers-api/#op-listTriggersWithRecipient" target="_blank" class="st" data-op="listTriggersWithRecipient"><title>GET /1/recipients/{recipientId}/triggers
+Triggers line · listTriggersWithRecipient</title>
+<circle cx="660" cy="780" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="648.0" y="785" text-anchor="end" style="fill:#1A1F2C">List triggers <tspan font-weight="700" style="fill:#00838F">⇄AD</tspan></text>
+</a>
+<text x="1650" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1650" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">HONEYCOMB IO</text>
+<rect x="1650" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1667" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BOA</text><text x="1692" y="269" font-size="11" fill="#1A1F2C">Boards <tspan fill="#8A93A6">23</tspan></text>
+<rect x="1650" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1667" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SLO</text><text x="1692" y="286" font-size="11" fill="#1A1F2C">SLOs <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1650" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1667" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENV</text><text x="1692" y="303" font-size="11" fill="#1A1F2C">Environments <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1650" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1667" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRI</text><text x="1692" y="320" font-size="11" fill="#1A1F2C">Triggers <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1650" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1667" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BA</text><text x="1692" y="337" font-size="11" fill="#1A1F2C">Burn Alerts <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="1667" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CF</text><text x="1692" y="354" font-size="11" fill="#1A1F2C">Calculated Fields <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1667" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COL</text><text x="1692" y="371" font-size="11" fill="#1A1F2C">Columns <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="1667" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="1692" y="388" font-size="11" fill="#1A1F2C">Datasets <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="1667" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">KM</text><text x="1692" y="405" font-size="11" fill="#1A1F2C">Key Management <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1667" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QA</text><text x="1692" y="422" font-size="11" fill="#1A1F2C">Query Annotations <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1667" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REC</text><text x="1692" y="439" font-size="11" fill="#1A1F2C">Recipients <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1650" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="1667" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AD</text><text x="1692" y="456" font-size="11" fill="#1A1F2C">Anomaly Detection <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1650" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="1667" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MS</text><text x="1692" y="473" font-size="11" fill="#1A1F2C">Marker Settings <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1650" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="1667" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MAR</text><text x="1692" y="490" font-size="11" fill="#1A1F2C">Markers <tspan fill="#8A93A6">4</tspan></text>
+<text x="1900" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1918,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1944" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1918,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1944" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1918,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1944" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1918,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1944" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1918,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1944" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1918,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1944" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1918,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1944" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1918,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1944" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1900" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1900" y="463" font-size="10.5" fill="#5A6275">“Auth” → Boards line · 1 op</text>
+<text x="1900" y="478" font-size="10.5" fill="#5A6275">“Auth” → Environments line · 1 op</text>
+<text x="1900" y="493" font-size="10.5" fill="#5A6275">“Dataset Definitions” → Boards line · 2 ops</text>
+<text x="1900" y="508" font-size="10.5" fill="#5A6275">“Events” → Boards line · 2 ops</text>
+<text x="1900" y="523" font-size="10.5" fill="#5A6275">“Kinesis Events” → Boards line · 1 op</text>
+<text x="1900" y="538" font-size="10.5" fill="#5A6275">“Queries” → Boards line · 2 ops</text>
+<text x="1900" y="553" font-size="10.5" fill="#5A6275">“Query Data” → Boards line · 2 ops</text>
+<text x="1900" y="568" font-size="10.5" fill="#5A6275">“Reporting” → Boards line · 1 op</text>
+<text x="1900" y="583" font-size="10.5" fill="#5A6275">“Service Maps” → Boards line · 2 ops</text>
+<text x="1900" y="633" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1900" y="650" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1860" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/honeycomb-io/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

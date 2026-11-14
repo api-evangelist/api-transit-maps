@@ -153,3 +153,16 @@ Generator changes this round:
 
 Still weak: Optimizely atlas sheets 7–8 and Harness sheets 1–2 (dense leftovers), and long flat lines
 (Infobip Calls ~100 stops) that have no sub-resources to branch on.
+
+## Batch 1 of the exemplar run (50 providers, 2026-11-14)
+
+Built end to end with `run_next.sh 50` (≈ 19 min): no load failures; Azure AD (12 sheets) and Adobe
+Suite (7) became atlases automatically; six thin catalogs (< 25 operations) mapped as small cities.
+
+- **Dominant family → distinct colours.** MongoDB's 48 lines all fell in one family (every path is
+  `/api/atlas/v2/groups/{groupId}/…`), so the map was 48 shades of pink. When one family holds > 60% of
+  the lines, its lines now take distinct palette colours.
+- **Tried and reverted:** nested scopes + size-capped affinity merging + community-detected families.
+  Each fixed MongoDB's grouping and broke someone else's (HubSpot's CRM vanished, families
+  snowballed into one, or "More" swallowed half the API). Family inference changes ripple across every
+  map — change it only with a before/after table of families for the existing maps.

@@ -1,0 +1,572 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2666 2028" width="2666" height="2028" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2666" height="2028" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Stedi API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">84 operations as stops · 11 tags as lines · 5 interchanges · 5 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1588.0,1238.0 L1042.0,1238.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1253.0" y="1226.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1315.0" y="1242.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Enrollments ⇄ Payers</title>1 interchange</text></g>
+<path d="M160.0,1070.0 L425.7,1335.7 Q454.0,1364.0 454.0,1404.0 L454.0,1616.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="245.0" y="1331.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="307.0" y="1347.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Executions ⇄ Fragments</title>1 interchange</text></g>
+<path d="M580.0,1784.0 L468.8,1672.8 Q454.0,1658.0 454.0,1637.0 L454.0,1616.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="455.0" y="1688.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="517.0" y="1704.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Fragments ⇄ Partnerships</title>1 interchange</text></g>
+<path d="M1462.0,1616.0 L930.8,1084.8 Q916.0,1070.0 916.0,1049.0 L916.0,1028.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1127.0" y="1310.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1189.0" y="1326.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Executions ⇄ Payers</title>1 interchange</text></g>
+<path d="M664.0,1742.0 L971.7,1434.3 Q1000.0,1406.0 1040.0,1406.0 L1210.0,1406.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="875.0" y="1562.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="937.0" y="1578.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Fragments ⇄ Payers</title>1 interchange</text></g>
+<text x="572.3636363636364" y="916" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">EXECUTIONS</text>
+<text x="790.0" y="1462" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">FRAGMENTS</text>
+<text x="1382.2" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">CHANGE</text>
+<text x="1444.0" y="1042" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">ENROLLMENTS</text>
+<text x="1738.0" y="1336" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">DESTINATIONS</text>
+<text x="1184.8" y="1630" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">ELIGIBILITY MANAGER</text>
+<text x="840.4" y="496" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">PROVIDERS</text>
+<text x="580.0" y="1714" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">PARTNERSHIPS</text>
+<text x="1350.0" y="1546" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">EVENTS</text>
+<text x="1129.8181818181818" y="370" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">PAYERS</text>
+<path class="line" data-line="Eligibility Manager" d="M1042.0,1700.0 L1126.0,1784.0 L1158.1,1816.1 Q1168.0,1826.0 1182.0,1826.0 L1252.0,1826.0 L1336.0,1826.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Eligibility Manager</title></path>
+<path class="line" data-line="Change" d="M1504.0,230.0 L1504.0,314.0 L1504.0,342.0 Q1504.0,356.0 1494.1,365.9 L1378.0,482.0 L1294.0,566.0 L1261.9,598.1 Q1252.0,608.0 1252.0,622.0 L1252.0,678.0 Q1252.0,692.0 1261.9,701.9 L1368.1,808.1 Q1378.0,818.0 1378.0,832.0 L1378.0,902.0 L1378.0,986.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Change</title></path>
+<path class="line" data-line="Destinations" d="M1966.0,1406.0 L1882.0,1406.0 L1798.0,1406.0 L1756.0,1406.0 L1672.0,1406.0 L1588.0,1406.0 L1504.0,1406.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Destinations</title></path>
+<path class="line" data-line="Enrollments" d="M1210.0,1112.0 L1294.0,1112.0 L1378.0,1112.0 L1448.0,1112.0 Q1462.0,1112.0 1471.9,1121.9 L1546.0,1196.0 L1588.0,1238.0 L1630.0,1280.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Enrollments</title></path>
+<path class="line" data-line="Events" d="M1294.0,1616.0 L1336.0,1658.0 L1420.0,1742.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Events</title></path>
+<path class="line" data-line="Executions" d="M958.0,986.0 L925.9,1018.1 Q916.0,1028.0 902.0,1028.0 L804.0,1028.0 Q790.0,1028.0 780.1,1037.9 L748.0,1070.0 L673.9,1144.1 Q664.0,1154.0 650.0,1154.0 L580.0,1154.0 L510.0,1154.0 Q496.0,1154.0 486.1,1144.1 L421.9,1079.9 Q412.0,1070.0 398.0,1070.0 L328.0,1070.0 L244.0,1070.0 L160.0,1070.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Executions</title></path>
+<path class="line" data-line="Partnerships" d="M496.0,1784.0 L566.0,1784.0 Q580.0,1784.0 589.9,1793.9 L664.0,1868.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Partnerships</title></path>
+<path class="line" data-line="Payers" d="M496.0,1490.0 L496.0,1406.0 L496.0,1322.0" fill="none" stroke="#255f33" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payers</title></path>
+<path class="line" data-line="Providers" d="M790.0,566.0 L790.0,650.0 L790.0,762.0 Q790.0,776.0 799.9,785.9 L864.1,850.1 Q874.0,860.0 888.0,860.0 L958.0,860.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Providers</title></path>
+<path class="line" data-line="Transactions" d="M370.0,1616.0 L454.0,1616.0 L524.0,1616.0 Q538.0,1616.0 547.9,1625.9 L622.0,1700.0 L654.1,1732.1 Q664.0,1742.0 678.0,1742.0 L818.0,1742.0 Q832.0,1742.0 841.9,1732.1 L874.0,1700.0 L958.0,1616.0 L1032.1,1541.9 Q1042.0,1532.0 1056.0,1532.0 L1126.0,1532.0 L1210.0,1532.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transactions</title></path>
+<path class="line" data-line="More Local" d="M1000.0,440.0 L1084.0,524.0 L1158.1,598.1 Q1168.0,608.0 1168.0,622.0 L1168.0,678.0 Q1168.0,692.0 1158.1,701.9 L1093.9,766.1 Q1084.0,776.0 1084.0,790.0 L1084.0,860.0 L1084.0,986.0 L1084.0,1056.0 Q1084.0,1070.0 1074.1,1079.9 L1051.9,1102.1 Q1042.0,1112.0 1042.0,1126.0 L1042.0,1224.0 Q1042.0,1238.0 1051.9,1247.9 L1126.0,1322.0 L1200.1,1396.1 Q1210.0,1406.0 1224.0,1406.0 L1238.0,1406.0 Q1252.0,1406.0 1261.9,1415.9 L1336.0,1490.0 L1378.0,1532.0 L1452.1,1606.1 Q1462.0,1616.0 1476.0,1616.0 L1490.0,1616.0 Q1504.0,1616.0 1513.9,1625.9 L1588.0,1700.0 L1672.0,1784.0" fill="none" stroke="#2E7D32" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1042" y1="1700" x2="1017.9583694396574" y2="1675.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="993.9583694396574" y="1664.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Eligibility Manager</title></rect><text x="1017.9583694396574" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EM</text>
+<line x1="1336" y1="1826" x2="1370.0" y2="1826.0" stroke="#B0287F" stroke-width="7"/><rect x="1346.0" y="1815.0" width="48" height="22" rx="5" fill="#B0287F"><title>Eligibility Manager</title></rect><text x="1370.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EM</text>
+<line x1="1504" y1="230" x2="1504.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1480.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Change</title></rect><text x="1504.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="1378" y1="986" x2="1378.0" y2="1020.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1354.0" y="1009.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Change</title></rect><text x="1378.0" y="1025.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="1966" y1="1406" x2="2000.0" y2="1406.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1976.0" y="1395.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Destinations</title></rect><text x="2000.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DES</text>
+<line x1="1504" y1="1406" x2="1470.0" y2="1406.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1446.0" y="1395.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Destinations</title></rect><text x="1470.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DES</text>
+<line x1="1210" y1="1112" x2="1176.0" y2="1112.0" stroke="#E07B12" stroke-width="7"/><rect x="1152.0" y="1101.0" width="48" height="22" rx="5" fill="#E07B12"><title>Enrollments</title></rect><text x="1176.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENR</text>
+<line x1="1630" y1="1280" x2="1654.0416305603426" y2="1304.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1630.0416305603426" y="1293.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Enrollments</title></rect><text x="1654.0416305603426" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENR</text>
+<line x1="1294" y1="1616" x2="1269.9583694396574" y2="1591.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1245.9583694396574" y="1580.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Events</title></rect><text x="1269.9583694396574" y="1596.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EVE</text>
+<line x1="1420" y1="1742" x2="1444.0416305603426" y2="1766.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1420.0416305603426" y="1755.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Events</title></rect><text x="1444.0416305603426" y="1771.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EVE</text>
+<line x1="958" y1="986" x2="982.0416305603426" y2="961.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="958.0416305603426" y="950.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Executions</title></rect><text x="982.0416305603426" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXE</text>
+<line x1="160" y1="1070" x2="126.0" y2="1070.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="1059.0" width="48" height="22" rx="5" fill="#D6264F"><title>Executions</title></rect><text x="126.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXE</text>
+<line x1="496" y1="1784" x2="462.0" y2="1784.0" stroke="#B8860B" stroke-width="7"/><rect x="438.0" y="1773.0" width="48" height="22" rx="5" fill="#B8860B"><title>Partnerships</title></rect><text x="462.0" y="1789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAR</text>
+<line x1="664" y1="1868" x2="688.0416305603426" y2="1892.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="664.0416305603426" y="1881.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Partnerships</title></rect><text x="688.0416305603426" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAR</text>
+<line x1="496" y1="1490" x2="496.0" y2="1524.0" stroke="#255f33" stroke-width="7"/><rect x="472.0" y="1513.0" width="48" height="22" rx="5" fill="#255f33"><title>Payers</title></rect><text x="496.0" y="1529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="496" y1="1322" x2="496.0" y2="1288.0" stroke="#255f33" stroke-width="7"/><rect x="472.0" y="1277.0" width="48" height="22" rx="5" fill="#255f33"><title>Payers</title></rect><text x="496.0" y="1293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="790" y1="566" x2="790.0" y2="532.0" stroke="#0B7A75" stroke-width="7"/><rect x="766.0" y="521.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Providers</title></rect><text x="790.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="958" y1="860" x2="992.0" y2="860.0" stroke="#0B7A75" stroke-width="7"/><rect x="968.0" y="849.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Providers</title></rect><text x="992.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="370" y1="1616" x2="336.0" y2="1616.0" stroke="#0E9F6E" stroke-width="7"/><rect x="312.0" y="1605.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Transactions</title></rect><text x="336.0" y="1621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1210" y1="1532" x2="1244.0" y2="1532.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1220.0" y="1521.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Transactions</title></rect><text x="1244.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1000" y1="440" x2="975.9583694396574" y2="415.95836943965736" stroke="#2E7D32" stroke-width="7"/><rect x="951.9583694396574" y="404.95836943965736" width="48" height="22" rx="5" fill="#2E7D32"><title>More Local</title></rect><text x="975.9583694396574" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1672" y1="1784" x2="1696.0416305603426" y2="1808.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1672.0416305603426" y="1797.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>More Local</title></rect><text x="1696.0416305603426" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/stedi/stedi-batch-eligibility-check-api/#op-BatchEligibilityChecks" target="_blank" class="st" data-op="BatchEligibilityChecks"><title>POST /eligibility-manager/batch-eligibility
+Eligibility Manager line · BatchEligibilityChecks</title>
+<circle cx="1168" cy="1826" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1156.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Update batch eligibility</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-batch-eligibility-check-api/#op-GetBatch" target="_blank" class="st" data-op="GetBatch"><title>GET /eligibility-manager/batch/{batchId}
+Eligibility Manager line · GetBatch</title>
+<circle cx="1042" cy="1700" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="1705" text-anchor="start" style="fill:#1A1F2C">Get batch</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-batch-eligibility-check-api/#op-GetBatchItems" target="_blank" class="st" data-op="GetBatchItems"><title>GET /eligibility-manager/batch/{batchId}/items
+Eligibility Manager line · GetBatchItems</title>
+<circle cx="1126" cy="1784" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="1789" text-anchor="start" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-batch-eligibility-check-api/#op-BatchEligibilityPolling" target="_blank" class="st" data-op="BatchEligibilityPolling"><title>GET /eligibility-manager/polling/batch-eligibility
+Eligibility Manager line · BatchEligibilityPolling</title>
+<circle cx="1336" cy="1826" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1330" y="1838" text-anchor="end" transform="rotate(-45 1330 1838)" style="fill:#1A1F2C">Get batch eligibility</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-acknowledgments-api/#op-ConvertReport277" target="_blank" class="st" data-op="ConvertReport277"><title>GET /change/medicalnetwork/reports/v2/{transactionId}/277
+Change line · ConvertReport277
+Express: X1</title>
+<circle cx="1378" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1375" y="899" width="6" height="6" transform="rotate(45 1378 902)" fill="#1A1F2C"/>
+<text x="1390" y="907" text-anchor="start" style="fill:#1A1F2C">Get 277</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-attachments-api/#op-CreateClaimAttachmentFile" target="_blank" class="st" data-op="CreateClaimAttachmentFile"><title>POST /claim-attachments/file
+More Local line · CreateClaimAttachmentFile</title>
+<circle cx="1000" cy="440" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1012" y="445" text-anchor="start" style="fill:#1A1F2C">Update file</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-attachments-api/#op-SubmitClaimAttachmentRawX12" target="_blank" class="st" data-op="SubmitClaimAttachmentRawX12"><title>POST /claim-attachments/raw-x12-submission
+More Local line · SubmitClaimAttachmentRawX12</title>
+<circle cx="1084" cy="524" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="529" text-anchor="start" style="fill:#1A1F2C">Update raw x12 submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-InstitutionalClaimsRawX12Submission" target="_blank" class="st" data-op="InstitutionalClaimsRawX12Submission"><title>POST /change/medicalnetwork/institutionalclaims/v1/raw-x12-submission
+Change line · InstitutionalClaimsRawX12Submission</title>
+<circle cx="1294" cy="566" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="571" text-anchor="start" style="fill:#1A1F2C">Update raw x12 submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-InstitutionalClaimsSubmission" target="_blank" class="st" data-op="InstitutionalClaimsSubmission"><title>POST /change/medicalnetwork/institutionalclaims/v1/submission
+Change line · InstitutionalClaimsSubmission</title>
+<circle cx="1252" cy="608" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1264" y="613" text-anchor="start" style="fill:#1A1F2C">Update submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-ClaimsRawX12Submission" target="_blank" class="st" data-op="ClaimsRawX12Submission"><title>POST /change/medicalnetwork/professionalclaims/v3/raw-x12-submission
+Change line · ClaimsRawX12Submission</title>
+<circle cx="1252" cy="692" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1264" y="697" text-anchor="start" style="fill:#1A1F2C">Update raw x12 submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-ClaimsSubmission" target="_blank" class="st" data-op="ClaimsSubmission"><title>POST /change/medicalnetwork/professionalclaims/v3/submission
+Change line · ClaimsSubmission
+Express: X4</title>
+<circle cx="1378" cy="818" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1375" y="815" width="6" height="6" transform="rotate(45 1378 818)" fill="#1A1F2C"/>
+<text x="1390" y="823" text-anchor="start" style="fill:#1A1F2C">Update submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-DentalClaimsRawX12Submission" target="_blank" class="st" data-op="DentalClaimsRawX12Submission"><title>POST /dental-claims/raw-x12-submission
+More Local line · DentalClaimsRawX12Submission</title>
+<circle cx="1168" cy="692" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1156.0" y="697" text-anchor="end" style="fill:#1A1F2C">Update raw x12 submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-DentalClaimsSubmission" target="_blank" class="st" data-op="DentalClaimsSubmission"><title>POST /dental-claims/submission
+More Local line · DentalClaimsSubmission</title>
+<circle cx="1084" cy="776" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="781" text-anchor="start" style="fill:#1A1F2C">Update submission</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-ExportPDF" target="_blank" class="st" data-op="ExportPDF"><title>GET /export/pdf
+More Local line · ExportPDF</title>
+<circle cx="1042" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1054" y="1243" text-anchor="start" style="fill:#1A1F2C">Get pdf</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-claim-submission-api/#op-GetPDF1500" target="_blank" class="st" data-op="GetPDF1500"><title>GET /export/{transactionId}/1500/pdf
+More Local line · GetPDF1500</title>
+<circle cx="1126" cy="1322" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1138" y="1327" text-anchor="start" style="fill:#1A1F2C">Get pdf</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-coordination-of-benefits-api/#op-CoordinationOfBenefits" target="_blank" class="st" data-op="CoordinationOfBenefits"><title>POST /coordination-of-benefits
+More Local line · CoordinationOfBenefits</title>
+<circle cx="1168" cy="608" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1156.0" y="613" text-anchor="end" style="fill:#1A1F2C">Create coordination of benefit</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsListDestinations" target="_blank" class="st" data-op="EventDestinationsListDestinations"><title>GET /destinations
+Destinations line · EventDestinationsListDestinations</title>
+<circle cx="1966" cy="1406" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1960" y="1418" text-anchor="end" transform="rotate(-45 1960 1418)" style="fill:#1A1F2C">List destinations</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsCreateDestination" target="_blank" class="st" data-op="EventDestinationsCreateDestination"><title>POST /destinations
+Destinations line · EventDestinationsCreateDestination</title>
+<circle cx="1882" cy="1406" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1888" y="1394" transform="rotate(-45 1888 1394)" style="fill:#1A1F2C">Create destination</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsDeleteDestination" target="_blank" class="st" data-op="EventDestinationsDeleteDestination"><title>DELETE /destinations/{destinationId}
+Destinations line · EventDestinationsDeleteDestination</title>
+<circle cx="1672" cy="1406" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1668" y1="1410" x2="1676" y2="1402" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1678" y="1394" transform="rotate(-45 1678 1394)" style="fill:#1A1F2C">Delete destination</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsGetDestination" target="_blank" class="st" data-op="EventDestinationsGetDestination"><title>GET /destinations/{destinationId}
+Destinations line · EventDestinationsGetDestination</title>
+<circle cx="1798" cy="1406" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1804" y="1394" transform="rotate(-45 1804 1394)" style="fill:#1A1F2C">Get destination</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsUpdateDestination" target="_blank" class="st" data-op="EventDestinationsUpdateDestination"><title>POST /destinations/{destinationId}
+Destinations line · EventDestinationsUpdateDestination</title>
+<circle cx="1756" cy="1406" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1762" y="1394" transform="rotate(-45 1762 1394)" style="fill:#1A1F2C">Update destination</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsGetDestinationSecret" target="_blank" class="st" data-op="EventDestinationsGetDestinationSecret"><title>GET /destinations/{destinationId}/secret
+Destinations line · EventDestinationsGetDestinationSecret</title>
+<circle cx="1588" cy="1406" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1594" y="1394" transform="rotate(-45 1594 1394)" style="fill:#1A1F2C">Get secret</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-destinations-api/#op-EventDestinationsRotateDestinationSecret" target="_blank" class="st" data-op="EventDestinationsRotateDestinationSecret"><title>POST /destinations/{destinationId}/secret/rotate
+Destinations line · EventDestinationsRotateDestinationSecret</title>
+<circle cx="1504" cy="1406" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1510" y="1394" transform="rotate(-45 1510 1394)" style="fill:#1A1F2C">Update rotate</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-documents-api/#op-DeleteEnrollmentDocument" target="_blank" class="st" data-op="DeleteEnrollmentDocument"><title>DELETE /documents/{documentId}
+More Local line · DeleteEnrollmentDocument</title>
+<circle cx="1084" cy="860" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1080" y1="864" x2="1088" y2="856" stroke="#2E7D32" stroke-width="2"/>
+<text x="1096" y="865" text-anchor="start" style="fill:#1A1F2C">Delete document</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-documents-api/#op-CreateEnrollmentDocumentDownload" target="_blank" class="st" data-op="CreateEnrollmentDocumentDownload"><title>GET /documents/{documentId}/download
+More Local line · CreateEnrollmentDocumentDownload</title>
+<circle cx="1084" cy="986" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="991" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-eligibility-check-api/#op-postEligibilityCheck" target="_blank" class="st" data-op="postEligibilityCheck"><title>POST /eligibility-check
+More Local line · postEligibilityCheck</title>
+<circle cx="1042" cy="1112" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1030.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Update eligibility check</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-eligibility-pdf-api/#op-GetEligibilityCheckPdf" target="_blank" class="st" data-op="GetEligibilityCheckPdf"><title>GET /eligibility-manager/eligibility-checks/{eligibilityCheckId}/pdf
+Eligibility Manager line · GetEligibilityCheckPdf</title>
+<circle cx="1252" cy="1826" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1258" y="1814" transform="rotate(-45 1258 1814)" style="fill:#1A1F2C">Get pdf</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-ListEnrollments" target="_blank" class="st" data-op="ListEnrollments"><title>GET /enrollments
+Enrollments line · ListEnrollments</title>
+<circle cx="1210" cy="1112" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1216" y="1100" transform="rotate(-45 1216 1100)" style="fill:#1A1F2C">List enrollments</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-CreateEnrollment" target="_blank" class="st" data-op="CreateEnrollment"><title>POST /enrollments
+Enrollments line · CreateEnrollment
+Express: X5</title>
+<circle cx="1294" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="1291" y="1109" width="6" height="6" transform="rotate(45 1294 1112)" fill="#1A1F2C"/>
+<text x="1288" y="1124" text-anchor="end" transform="rotate(-45 1288 1124)" style="fill:#1A1F2C">Create enrollment</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-ExportEnrollmentsCsv" target="_blank" class="st" data-op="ExportEnrollmentsCsv"><title>POST /enrollments/export
+Enrollments line · ExportEnrollmentsCsv</title>
+<circle cx="1588" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600" y="1243" text-anchor="start" style="fill:#1A1F2C">Export enrollments <tspan font-weight="700" style="fill:#2E7D32">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-DeleteEnrollment" target="_blank" class="st" data-op="DeleteEnrollment"><title>DELETE /enrollments/{enrollmentId}
+Enrollments line · DeleteEnrollment</title>
+<circle cx="1546" cy="1196" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1542" y1="1200" x2="1550" y2="1192" stroke="#E07B12" stroke-width="2"/>
+<text x="1558" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete enrollment</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-GetEnrollment" target="_blank" class="st" data-op="GetEnrollment"><title>GET /enrollments/{enrollmentId}
+Enrollments line · GetEnrollment
+Express: X5</title>
+<circle cx="1378" cy="1112" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="1375" y="1109" width="6" height="6" transform="rotate(45 1378 1112)" fill="#1A1F2C"/>
+<text x="1384" y="1100" transform="rotate(-45 1384 1100)" style="fill:#1A1F2C">Get enrollment</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-UpdateEnrollment" target="_blank" class="st" data-op="UpdateEnrollment"><title>POST /enrollments/{enrollmentId}
+Enrollments line · UpdateEnrollment</title>
+<circle cx="1462" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1474" y="1117" text-anchor="start" style="fill:#1A1F2C">Update enrollment</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-enrollments-api/#op-CreateEnrollmentDocumentUpload" target="_blank" class="st" data-op="CreateEnrollmentDocumentUpload"><title>POST /enrollments/{enrollmentId}/documents
+Enrollments line · CreateEnrollmentDocumentUpload
+Express: X5</title>
+<circle cx="1630" cy="1280" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="1627" y="1277" width="6" height="6" transform="rotate(45 1630 1280)" fill="#1A1F2C"/>
+<text x="1642" y="1285" text-anchor="start" style="fill:#1A1F2C">Create document</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-events-api/#op-RetryEvent" target="_blank" class="st" data-op="RetryEvent"><title>POST /events/{eventId}/retry
+Events line · RetryEvent</title>
+<circle cx="1420" cy="1742" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1432" y="1747" text-anchor="start" style="fill:#1A1F2C">Retry events</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-events-api/#op-EventDestinationsListEvents" target="_blank" class="st" data-op="EventDestinationsListEvents"><title>GET /events
+Events line · EventDestinationsListEvents</title>
+<circle cx="1294" cy="1616" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1282.0" y="1621" text-anchor="end" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-events-api/#op-EventDestinationsGetEvent" target="_blank" class="st" data-op="EventDestinationsGetEvent"><title>GET /events/{eventId}
+Events line · EventDestinationsGetEvent</title>
+<circle cx="1336" cy="1658" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1348" y="1663" text-anchor="start" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-ListExecutions" target="_blank" class="st" data-op="ListExecutions"><title>GET /executions
+Executions line · ListExecutions</title>
+<circle cx="958" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="991" text-anchor="start" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-RetryExecutions" target="_blank" class="st" data-op="RetryExecutions"><title>POST /executions/retry
+Executions line · RetryExecutions</title>
+<circle cx="790" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="778.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Retry executions</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecution" target="_blank" class="st" data-op="GetExecution"><title>GET /executions/{executionId}
+Executions line · GetExecution</title>
+<circle cx="916" cy="1028" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="1033" text-anchor="start" style="fill:#1A1F2C">Get execution</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-ListExecutionFaults" target="_blank" class="st" data-op="ListExecutionFaults"><title>GET /executions/{executionId}/faults
+Executions line · ListExecutionFaults</title>
+<circle cx="748" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1075" text-anchor="start" style="fill:#1A1F2C">List faults</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecutionInputDocument" target="_blank" class="st" data-op="GetExecutionInputDocument"><title>GET /executions/{executionId}/input
+Executions line · GetExecutionInputDocument</title>
+<circle cx="664" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1159" text-anchor="start" style="fill:#1A1F2C">Get input</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecutionInputDocumentUrl" target="_blank" class="st" data-op="GetExecutionInputDocumentUrl"><title>GET /executions/{executionId}/input-url
+Executions line · GetExecutionInputDocumentUrl</title>
+<circle cx="580" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="586" y="1142" transform="rotate(-45 586 1142)" style="fill:#1A1F2C">Get input url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecutionMetadataDocument" target="_blank" class="st" data-op="GetExecutionMetadataDocument"><title>GET /executions/{executionId}/metadata
+Executions line · GetExecutionMetadataDocument</title>
+<circle cx="496" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="484.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecutionMetadataDocumentUrl" target="_blank" class="st" data-op="GetExecutionMetadataDocumentUrl"><title>GET /executions/{executionId}/metadata-url
+Executions line · GetExecutionMetadataDocumentUrl</title>
+<circle cx="412" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="1075" text-anchor="start" style="fill:#1A1F2C">Get metadata url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecutionOutputDocument" target="_blank" class="st" data-op="GetExecutionOutputDocument"><title>GET /executions/{executionId}/output
+Executions line · GetExecutionOutputDocument</title>
+<circle cx="328" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="334" y="1058" transform="rotate(-45 334 1058)" style="fill:#1A1F2C">Get output</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-GetExecutionOutputDocumentUrl" target="_blank" class="st" data-op="GetExecutionOutputDocumentUrl"><title>GET /executions/{executionId}/output-url
+Executions line · GetExecutionOutputDocumentUrl</title>
+<circle cx="244" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="1058" transform="rotate(-45 250 1058)" style="fill:#1A1F2C">Get output url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-executions-api/#op-ListExecutionTransactions" target="_blank" class="st" data-op="ListExecutionTransactions"><title>GET /executions/{executionId}/transactions
+Executions line · ListExecutionTransactions</title>
+<circle cx="160" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="166" y="1058" transform="rotate(-45 166 1058)" style="fill:#1A1F2C">List transactions <tspan font-weight="700" style="fill:#0E9F6E">⇄TRA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-fragments-api/#op-CreateOutboundFragment" target="_blank" class="st" data-op="CreateOutboundFragment"><title>POST /fragments/{fragmentGroupId}
+More Local line · CreateOutboundFragment</title>
+<circle cx="1210" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1198.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Update fragment</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-insurance-discovery-api/#op-InsuranceDiscoveryCheck" target="_blank" class="st" data-op="InsuranceDiscoveryCheck"><title>POST /insurance-discovery/check/v1
+More Local line · InsuranceDiscoveryCheck
+Express: X3</title>
+<circle cx="1252" cy="1406" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="1249" y="1403" width="6" height="6" transform="rotate(45 1252 1406)" fill="#1A1F2C"/>
+<text x="1264" y="1411" text-anchor="start" style="fill:#1A1F2C">Update check</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-insurance-discovery-api/#op-GetInsuranceDiscoveryCheck" target="_blank" class="st" data-op="GetInsuranceDiscoveryCheck"><title>GET /insurance-discovery/check/v1/{discoveryId}
+More Local line · GetInsuranceDiscoveryCheck
+Express: X3</title>
+<circle cx="1336" cy="1490" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="1333" y="1487" width="6" height="6" transform="rotate(45 1336 1490)" fill="#1A1F2C"/>
+<text x="1348" y="1495" text-anchor="start" style="fill:#1A1F2C">Get check</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-partnerships-api/#op-GenerateTransactionGroupEdi" target="_blank" class="st" data-op="GenerateTransactionGroupEdi"><title>POST /partnerships/{partnershipId}/transaction-groups/{transactionGroupId}/generate-edi
+Partnerships line · GenerateTransactionGroupEdi</title>
+<circle cx="496" cy="1784" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="502" y="1772" transform="rotate(-45 502 1772)" style="fill:#1A1F2C">Update generate edi</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-partnerships-api/#op-CreateTransactionGroup" target="_blank" class="st" data-op="CreateTransactionGroup"><title>POST /partnerships/{partnershipId}/transaction-groups/{transactionGroupId}/transactions/{transactionSettingId}
+Partnerships line · CreateTransactionGroup</title>
+<circle cx="580" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="592" y="1789" text-anchor="start" style="fill:#1A1F2C">Update transaction <tspan font-weight="700" style="fill:#0E9F6E">⇄TRA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-partnerships-api/#op-CreatePartnershipOutboundTransaction" target="_blank" class="st" data-op="CreatePartnershipOutboundTransaction"><title>POST /partnerships/{partnershipId}/transactions/{transactionSettingId}
+Partnerships line · CreatePartnershipOutboundTransaction</title>
+<circle cx="664" cy="1868" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="676" y="1873" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-payers-api/#op-GetPayerRecord" target="_blank" class="st" data-op="GetPayerRecord"><title>GET /payer/{stediId}
+More Local line · GetPayerRecord</title>
+<circle cx="1378" cy="1532" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1390" y="1537" text-anchor="start" style="fill:#1A1F2C">Get payer</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-payers-api/#op-ListPayerRecords" target="_blank" class="st" data-op="ListPayerRecords"><title>GET /payers
+Payers line · ListPayerRecords</title>
+<circle cx="496" cy="1490" r="5.5" fill="#fff" stroke="#255f33" stroke-width="2.5"/>
+<text x="508" y="1495" text-anchor="start" style="fill:#1A1F2C">List payers</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-payers-api/#op-ListPayerRecordsCsv" target="_blank" class="st" data-op="ListPayerRecordsCsv"><title>GET /payers/csv
+Payers line · ListPayerRecordsCsv</title>
+<circle cx="496" cy="1406" r="5.5" fill="#fff" stroke="#255f33" stroke-width="2.5"/>
+<text x="508" y="1411" text-anchor="start" style="fill:#1A1F2C">Get csv</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-payers-api/#op-SearchPayers" target="_blank" class="st" data-op="SearchPayers"><title>GET /payers/search
+Payers line · SearchPayers
+Express: X1, X2</title>
+<circle cx="496" cy="1322" r="5.5" fill="#fff" stroke="#255f33" stroke-width="2.5"/>
+<rect x="493" y="1319" width="6" height="6" transform="rotate(45 496 1322)" fill="#1A1F2C"/>
+<text x="508" y="1327" text-anchor="start" style="fill:#1A1F2C">Search payers</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-polling-api/#op-ListPollingExecutions" target="_blank" class="st" data-op="ListPollingExecutions"><title>GET /polling/executions
+More Local line · ListPollingExecutions</title>
+<circle cx="1462" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1450.0" y="1621" text-anchor="end" style="fill:#1A1F2C">List executions <tspan font-weight="700" style="fill:#D6264F">⇄EXE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-polling-api/#op-ListPollingTransactions" target="_blank" class="st" data-op="ListPollingTransactions"><title>GET /polling/transactions
+More Local line · ListPollingTransactions</title>
+<circle cx="1504" cy="1616" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1516" y="1621" text-anchor="start" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-providers-api/#op-ListProviders" target="_blank" class="st" data-op="ListProviders"><title>GET /providers
+Providers line · ListProviders</title>
+<circle cx="790" cy="566" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="802" y="571" text-anchor="start" style="fill:#1A1F2C">List providers</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-providers-api/#op-CreateProvider" target="_blank" class="st" data-op="CreateProvider"><title>POST /providers
+Providers line · CreateProvider
+Express: X5</title>
+<circle cx="790" cy="650" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="787" y="647" width="6" height="6" transform="rotate(45 790 650)" fill="#1A1F2C"/>
+<text x="802" y="655" text-anchor="start" style="fill:#1A1F2C">Create provider</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-providers-api/#op-DeleteProvider" target="_blank" class="st" data-op="DeleteProvider"><title>DELETE /providers/{providerId}
+Providers line · DeleteProvider</title>
+<circle cx="958" cy="860" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="954" y1="864" x2="962" y2="856" stroke="#0B7A75" stroke-width="2"/>
+<text x="952" y="872" text-anchor="end" transform="rotate(-45 952 872)" style="fill:#1A1F2C">Delete provider</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-providers-api/#op-GetProvider" target="_blank" class="st" data-op="GetProvider"><title>GET /providers/{providerId}
+Providers line · GetProvider</title>
+<circle cx="790" cy="776" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="802" y="781" text-anchor="start" style="fill:#1A1F2C">Get provider</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-providers-api/#op-UpdateProvider" target="_blank" class="st" data-op="UpdateProvider"><title>POST /providers/{providerId}
+Providers line · UpdateProvider</title>
+<circle cx="874" cy="860" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="862.0" y="865" text-anchor="end" style="fill:#1A1F2C">Update provider</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-real-time-claim-status-api/#op-ClaimStatus" target="_blank" class="st" data-op="ClaimStatus"><title>POST /change/medicalnetwork/claimstatus/v2
+Change line · ClaimStatus
+Express: X1, X4</title>
+<circle cx="1504" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1501" y="227" width="6" height="6" transform="rotate(45 1504 230)" fill="#1A1F2C"/>
+<text x="1516" y="235" text-anchor="start" style="fill:#1A1F2C">Create claimstatu</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-real-time-claim-status-api/#op-ClaimStatusRawX12" target="_blank" class="st" data-op="ClaimStatusRawX12"><title>POST /change/medicalnetwork/claimstatus/v2/raw-x12
+Change line · ClaimStatusRawX12</title>
+<circle cx="1504" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1516" y="319" text-anchor="start" style="fill:#1A1F2C">Update raw x12</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-real-time-eligibility-check-api/#op-EligibilityCheck" target="_blank" class="st" data-op="EligibilityCheck"><title>POST /change/medicalnetwork/eligibility/v3
+Change line · EligibilityCheck
+Express: X2</title>
+<circle cx="1504" cy="356" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1501" y="353" width="6" height="6" transform="rotate(45 1504 356)" fill="#1A1F2C"/>
+<text x="1516" y="361" text-anchor="start" style="fill:#1A1F2C">Update eligibility</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-real-time-eligibility-check-api/#op-EligibilityRawX12Check" target="_blank" class="st" data-op="EligibilityRawX12Check"><title>POST /change/medicalnetwork/eligibility/v3/raw-x12
+Change line · EligibilityRawX12Check</title>
+<circle cx="1378" cy="482" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1390" y="487" text-anchor="start" style="fill:#1A1F2C">Update raw x12</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-remittances-api/#op-ConvertReport835" target="_blank" class="st" data-op="ConvertReport835"><title>GET /change/medicalnetwork/reports/v2/{transactionId}/835
+Change line · ConvertReport835
+Express: X4</title>
+<circle cx="1378" cy="986" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1375" y="983" width="6" height="6" transform="rotate(45 1378 986)" fill="#1A1F2C"/>
+<text x="1390" y="991" text-anchor="start" style="fill:#1A1F2C">Get 835</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-remittances-api/#op-GetElectronicRemittanceAdvicePdf" target="_blank" class="st" data-op="GetElectronicRemittanceAdvicePdf"><title>GET /electronic-remittance-advice/{transactionId}/pdf
+More Local line · GetElectronicRemittanceAdvicePdf</title>
+<circle cx="1084" cy="1070" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="1075" text-anchor="start" style="fill:#1A1F2C">Get pdf</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-tasks-api/#op-UpdateTaskPost" target="_blank" class="st" data-op="UpdateTaskPost"><title>POST /tasks/{taskId}
+More Local line · UpdateTaskPost</title>
+<circle cx="1588" cy="1700" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1600" y="1705" text-anchor="start" style="fill:#1A1F2C">Update task</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-ListTransactions" target="_blank" class="st" data-op="ListTransactions"><title>GET /transactions
+Transactions line · ListTransactions</title>
+<circle cx="370" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="376" y="1604" transform="rotate(-45 376 1604)" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransaction" target="_blank" class="st" data-op="GetTransaction"><title>GET /transactions/{transactionId}
+Transactions line · GetTransaction</title>
+<circle cx="454" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="460" y="1604" transform="rotate(-45 460 1604)" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionAttachmentDocument" target="_blank" class="st" data-op="GetTransactionAttachmentDocument"><title>GET /transactions/{transactionId}/attachment/{artifactId}
+Transactions line · GetTransactionAttachmentDocument</title>
+<circle cx="538" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="1621" text-anchor="start" style="fill:#1A1F2C">Get attachment</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionAttachmentDocumentUrl" target="_blank" class="st" data-op="GetTransactionAttachmentDocumentUrl"><title>GET /transactions/{transactionId}/attachment/{artifactId}/url
+Transactions line · GetTransactionAttachmentDocumentUrl</title>
+<circle cx="622" cy="1700" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="1705" text-anchor="start" style="fill:#1A1F2C">Get url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionFragment" target="_blank" class="st" data-op="GetTransactionFragment"><title>GET /transactions/{transactionId}/fragments/{fragmentIndex}
+Transactions line · GetTransactionFragment</title>
+<circle cx="664" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="652.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get fragment <tspan font-weight="700" style="fill:#2E7D32">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionFragmentOutputDocument" target="_blank" class="st" data-op="GetTransactionFragmentOutputDocument"><title>GET /transactions/{transactionId}/fragments/{fragmentIndex}/output
+Transactions line · GetTransactionFragmentOutputDocument</title>
+<circle cx="832" cy="1742" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="1747" text-anchor="start" style="fill:#1A1F2C">Get output</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionFragmentOutputDocumentUrl" target="_blank" class="st" data-op="GetTransactionFragmentOutputDocumentUrl"><title>GET /transactions/{transactionId}/fragments/{fragmentIndex}/output-url
+Transactions line · GetTransactionFragmentOutputDocumentUrl</title>
+<circle cx="874" cy="1700" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="1705" text-anchor="start" style="fill:#1A1F2C">Get output url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionInputDocument" target="_blank" class="st" data-op="GetTransactionInputDocument"><title>GET /transactions/{transactionId}/input
+Transactions line · GetTransactionInputDocument</title>
+<circle cx="958" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="970" y="1621" text-anchor="start" style="fill:#1A1F2C">Get input</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionInputDocumentUrl" target="_blank" class="st" data-op="GetTransactionInputDocumentUrl"><title>GET /transactions/{transactionId}/input-url
+Transactions line · GetTransactionInputDocumentUrl</title>
+<circle cx="1042" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1030.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Get input url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionOutputDocument" target="_blank" class="st" data-op="GetTransactionOutputDocument"><title>GET /transactions/{transactionId}/output
+Transactions line · GetTransactionOutputDocument</title>
+<circle cx="1126" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1132" y="1520" transform="rotate(-45 1132 1520)" style="fill:#1A1F2C">Get output</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-transactions-api/#op-GetTransactionOutputDocumentUrl" target="_blank" class="st" data-op="GetTransactionOutputDocumentUrl"><title>GET /transactions/{transactionId}/output-url
+Transactions line · GetTransactionOutputDocumentUrl</title>
+<circle cx="1210" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1204" y="1544" text-anchor="end" transform="rotate(-45 1204 1544)" style="fill:#1A1F2C">Get output url</text>
+</a>
+<a href="https://apis.apis.io/apis/stedi/stedi-x12-api/#op-GenerateEdi" target="_blank" class="st" data-op="GenerateEdi"><title>POST /x12/partnerships/{partnershipId}/generate-edi
+More Local line · GenerateEdi</title>
+<circle cx="1672" cy="1784" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1684" y="1789" text-anchor="start" style="fill:#1A1F2C">Update generate edi</text>
+</a>
+<text x="2156" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2156" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">EXECUTIONS</text>
+<rect x="2156" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2173" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EXE</text><text x="2198" y="269" font-size="11" fill="#1A1F2C">Executions <tspan fill="#8A93A6">11</tspan></text>
+<text x="2156" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">FRAGMENTS</text>
+<rect x="2156" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2173" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="2198" y="312" font-size="11" fill="#1A1F2C">Transactions <tspan fill="#8A93A6">11</tspan></text>
+<text x="2156" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">CHANGE</text>
+<rect x="2156" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2173" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="2198" y="355" font-size="11" fill="#1A1F2C">Change <tspan fill="#8A93A6">10</tspan></text>
+<text x="2156" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">ENROLLMENTS</text>
+<rect x="2156" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="2173" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENR</text><text x="2198" y="398" font-size="11" fill="#1A1F2C">Enrollments <tspan fill="#8A93A6">7</tspan></text>
+<text x="2156" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">DESTINATIONS</text>
+<rect x="2156" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2173" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DES</text><text x="2198" y="441" font-size="11" fill="#1A1F2C">Destinations <tspan fill="#8A93A6">7</tspan></text>
+<text x="2156" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">ELIGIBILITY MANAGER</text>
+<rect x="2156" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="2173" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EM</text><text x="2198" y="484" font-size="11" fill="#1A1F2C">Eligibility Manager <tspan fill="#8A93A6">5</tspan></text>
+<text x="2156" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">PROVIDERS</text>
+<rect x="2156" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2173" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2198" y="527" font-size="11" fill="#1A1F2C">Providers <tspan fill="#8A93A6">5</tspan></text>
+<text x="2156" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">PARTNERSHIPS</text>
+<rect x="2156" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="2173" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAR</text><text x="2198" y="570" font-size="11" fill="#1A1F2C">Partnerships <tspan fill="#8A93A6">3</tspan></text>
+<text x="2156" y="596" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">EVENTS</text>
+<rect x="2156" y="603" width="34" height="13" rx="3" fill="#C2410C"/><text x="2173" y="613" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EVE</text><text x="2198" y="613" font-size="11" fill="#1A1F2C">Events <tspan fill="#8A93A6">3</tspan></text>
+<text x="2156" y="639" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">PAYERS</text>
+<rect x="2156" y="646" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2173" y="656" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2198" y="656" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">19</tspan></text>
+<rect x="2156" y="663" width="34" height="13" rx="3" fill="#255f33"/><text x="2173" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="2198" y="673" font-size="11" fill="#1A1F2C">Payers <tspan fill="#8A93A6">3</tspan></text>
+<text x="2406" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2424,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2450" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2424,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2450" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2424,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2450" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2424,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2450" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2424,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2450" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2424,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2450" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2424,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2450" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2424,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2450" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2406" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2406" y="463" font-size="10.5" fill="#5A6275">“Claim Attachments” → More Local line · 2 ops</text>
+<text x="2406" y="478" font-size="10.5" fill="#5A6275">“Coordination Of Benefits” → More Local line · 1 op</text>
+<text x="2406" y="493" font-size="10.5" fill="#5A6275">“Dental Claims” → More Local line · 2 ops</text>
+<text x="2406" y="508" font-size="10.5" fill="#5A6275">“Documents” → More Local line · 2 ops</text>
+<text x="2406" y="523" font-size="10.5" fill="#5A6275">“Electronic Remittance Advice” → More Local line · 1 op</text>
+<text x="2406" y="538" font-size="10.5" fill="#5A6275">“Eligibility Check” → More Local line · 1 op</text>
+<text x="2406" y="553" font-size="10.5" fill="#5A6275">“Export” → More Local line · 2 ops</text>
+<text x="2406" y="568" font-size="10.5" fill="#5A6275">“Fragments” → More Local line · 1 op</text>
+<text x="2406" y="583" font-size="10.5" fill="#5A6275">“Insurance Discovery” → More Local line · 2 ops</text>
+<text x="2406" y="598" font-size="10.5" fill="#5A6275">“Payer” → More Local line · 1 op</text>
+<text x="2406" y="613" font-size="10.5" fill="#5A6275">“Polling” → More Local line · 2 ops</text>
+<text x="2406" y="628" font-size="10.5" fill="#5A6275">“Tasks” → More Local line · 1 op</text>
+<text x="2406" y="643" font-size="10.5" fill="#5A6275">“X12” → More Local line · 1 op</text>
+<text x="2406" y="693" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2406" y="710" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="SearchPayers ClaimStatus ConvertReport277"><rect x="2406" y="722" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2421" y="733" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="2443" y="733" font-size="11" fill="#1A1F2C">X12 276/277 Claim Status Inqui</text></g>
+<g class="rt" data-stops="SearchPayers EligibilityCheck"><rect x="2406" y="741" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2421" y="752" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="2443" y="752" font-size="11" fill="#1A1F2C">X12 270/271 Eligibility and Be</text></g>
+<g class="rt" data-stops="InsuranceDiscoveryCheck GetInsuranceDiscoveryCheck"><rect x="2406" y="760" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2421" y="771" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="2443" y="771" font-size="11" fill="#1A1F2C">Insurance Discovery</text></g>
+<g class="rt" data-stops="ClaimsSubmission ClaimStatus ConvertReport835"><rect x="2406" y="779" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2421" y="790" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="2443" y="790" font-size="11" fill="#1A1F2C">X12 837 Professional Claim Lif</text></g>
+<g class="rt" data-stops="CreateProvider CreateEnrollment CreateEnrollmentDocumentUpload GetEnrollment"><rect x="2406" y="798" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2421" y="809" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="2443" y="809" font-size="11" fill="#1A1F2C">Provider Enrollment for X12 83</text></g>
+<text x="160" y="1998" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/stedi/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

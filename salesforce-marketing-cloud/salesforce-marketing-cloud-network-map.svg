@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1910 1650" width="1910" height="1650" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1910" height="1650" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Salesforce-Marketing-Cloud API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">21 operations as stops · 3 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="550.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">SALESFORCE MARKETING CLOUD</text>
+<path class="line" data-line="Assets" d="M874.0,860.0 L874.0,944.0 L874.0,1014.0 Q874.0,1028.0 883.9,1037.9 L958.0,1112.0 L990.1,1144.1 Q1000.0,1154.0 1014.0,1154.0 L1126.0,1154.0 L1210.0,1154.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Assets</title></path>
+<path class="line" data-line="Contacts" d="M538.0,1490.0 L454.0,1406.0 L370.0,1322.0 L337.9,1289.9 Q328.0,1280.0 314.0,1280.0 L244.0,1280.0 L160.0,1280.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Contacts</title></path>
+<path class="line" data-line="Journeys" d="M244.0,230.0 L244.0,314.0 L244.0,398.0 L244.0,468.0 Q244.0,482.0 253.9,491.9 L328.0,566.0 L402.1,640.1 Q412.0,650.0 412.0,664.0 L412.0,692.0 L412.0,776.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Journeys</title></path>
+<line x1="874" y1="860" x2="874.0" y2="826.0" stroke="#0E9F6E" stroke-width="7"/><rect x="850.0" y="815.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Assets</title></rect><text x="874.0" y="831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASS</text>
+<line x1="1210" y1="1154" x2="1244.0" y2="1154.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1220.0" y="1143.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Assets</title></rect><text x="1244.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASS</text>
+<line x1="538" y1="1490" x2="562.0416305603426" y2="1514.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="538.0416305603426" y="1503.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Contacts</title></rect><text x="562.0416305603426" y="1519.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="160" y1="1280" x2="126.0" y2="1280.0" stroke="#1F5FD1" stroke-width="7"/><rect x="102.0" y="1269.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Contacts</title></rect><text x="126.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="244" y1="230" x2="244.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="220.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Journeys</title></rect><text x="244.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOU</text>
+<line x1="412" y1="776" x2="412.0" y2="810.0" stroke="#D6264F" stroke-width="7"/><rect x="388.0" y="799.0" width="48" height="22" rx="5" fill="#D6264F"><title>Journeys</title></rect><text x="412.0" y="815.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOU</text>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-listAssets" target="_blank" class="st" data-op="listAssets"><title>GET /asset/v1/content/assets
+Assets line · listAssets</title>
+<circle cx="874" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="865" text-anchor="start" style="fill:#1A1F2C">List assets</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-createAsset" target="_blank" class="st" data-op="createAsset"><title>POST /asset/v1/content/assets
+Assets line · createAsset</title>
+<circle cx="874" cy="944" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="949" text-anchor="start" style="fill:#1A1F2C">Create asset</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-getAsset" target="_blank" class="st" data-op="getAsset"><title>GET /asset/v1/content/assets/{id}
+Assets line · getAsset</title>
+<circle cx="874" cy="1028" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="1033" text-anchor="start" style="fill:#1A1F2C">Get asset</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-updateAsset" target="_blank" class="st" data-op="updateAsset"><title>PUT /asset/v1/content/assets/{id}
+Assets line · updateAsset</title>
+<circle cx="958" cy="1112" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="970" y="1117" text-anchor="start" style="fill:#1A1F2C">Update asset</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-deleteAsset" target="_blank" class="st" data-op="deleteAsset"><title>DELETE /asset/v1/content/assets/{id}
+Assets line · deleteAsset</title>
+<circle cx="1000" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="996" y1="1158" x2="1004" y2="1150" stroke="#0E9F6E" stroke-width="2"/>
+<text x="988.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Delete asset</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-queryAssets" target="_blank" class="st" data-op="queryAssets"><title>POST /asset/v1/content/assets/query
+Assets line · queryAssets</title>
+<circle cx="1126" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1132" y="1142" transform="rotate(-45 1132 1142)" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-assets-api/#op-listCategories" target="_blank" class="st" data-op="listCategories"><title>GET /asset/v1/content/categories
+Assets line · listCategories</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1204" y="1166" text-anchor="end" transform="rotate(-45 1204 1166)" style="fill:#1A1F2C">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-contacts-api/#op-createContacts" target="_blank" class="st" data-op="createContacts"><title>POST /contacts/v1/contacts
+Contacts line · createContacts</title>
+<circle cx="454" cy="1406" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="466" y="1411" text-anchor="start" style="fill:#1A1F2C">Create contact</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-contacts-api/#op-searchContacts" target="_blank" class="st" data-op="searchContacts"><title>POST /contacts/v1/contacts/actions/search
+Contacts line · searchContacts</title>
+<circle cx="160" cy="1280" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="166" y="1268" transform="rotate(-45 166 1268)" style="fill:#1A1F2C">Search actions</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-contacts-api/#op-getContact" target="_blank" class="st" data-op="getContact"><title>GET /contacts/v1/contacts/{contactKey}
+Contacts line · getContact</title>
+<circle cx="370" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="382" y="1327" text-anchor="start" style="fill:#1A1F2C">Get contact</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-contacts-api/#op-updateContact" target="_blank" class="st" data-op="updateContact"><title>PATCH /contacts/v1/contacts/{contactKey}
+Contacts line · updateContact</title>
+<circle cx="328" cy="1280" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="340" y="1285" text-anchor="start" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-contacts-api/#op-deleteContact" target="_blank" class="st" data-op="deleteContact"><title>DELETE /contacts/v1/contacts/{contactKey}
+Contacts line · deleteContact</title>
+<circle cx="244" cy="1280" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="240" y1="1284" x2="248" y2="1276" stroke="#1F5FD1" stroke-width="2"/>
+<text x="250" y="1268" transform="rotate(-45 250 1268)" style="fill:#1A1F2C">Delete contact</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-contacts-api/#op-listAttributeSets" target="_blank" class="st" data-op="listAttributeSets"><title>GET /contacts/v1/attributeSets
+Contacts line · listAttributeSets</title>
+<circle cx="538" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="550" y="1495" text-anchor="start" style="fill:#1A1F2C">List attributesets</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-listJourneys" target="_blank" class="st" data-op="listJourneys"><title>GET /interaction/v1/interactions
+Journeys line · listJourneys</title>
+<circle cx="244" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="319" text-anchor="start" style="fill:#1A1F2C">List interactions</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-createJourney" target="_blank" class="st" data-op="createJourney"><title>POST /interaction/v1/interactions
+Journeys line · createJourney</title>
+<circle cx="244" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="403" text-anchor="start" style="fill:#1A1F2C">Create interaction</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-getJourney" target="_blank" class="st" data-op="getJourney"><title>GET /interaction/v1/interactions/{id}
+Journeys line · getJourney</title>
+<circle cx="244" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="487" text-anchor="start" style="fill:#1A1F2C">Get interaction</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-updateJourney" target="_blank" class="st" data-op="updateJourney"><title>PUT /interaction/v1/interactions/{id}
+Journeys line · updateJourney</title>
+<circle cx="328" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="571" text-anchor="start" style="fill:#1A1F2C">Update interaction</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-deleteJourney" target="_blank" class="st" data-op="deleteJourney"><title>DELETE /interaction/v1/interactions/{id}
+Journeys line · deleteJourney</title>
+<circle cx="412" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="408" y1="654" x2="416" y2="646" stroke="#D6264F" stroke-width="2"/>
+<text x="424" y="655" text-anchor="start" style="fill:#1A1F2C">Delete interaction</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-publishJourney" target="_blank" class="st" data-op="publishJourney"><title>POST /interaction/v1/interactions/publishAsync/{id}
+Journeys line · publishJourney</title>
+<circle cx="412" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="697" text-anchor="start" style="fill:#1A1F2C">Update publishasync</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-stopJourney" target="_blank" class="st" data-op="stopJourney"><title>POST /interaction/v1/interactions/stop/{id}
+Journeys line · stopJourney</title>
+<circle cx="412" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="781" text-anchor="start" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/salesforce-marketing-cloud/salesforce-marketing-cloud-journeys-api/#op-fireEntryEvent" target="_blank" class="st" data-op="fireEntryEvent"><title>POST /interaction/v1/events
+Journeys line · fireEntryEvent</title>
+<circle cx="244" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="235" text-anchor="start" style="fill:#1A1F2C">Create event</text>
+</a>
+<text x="1400" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1400" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SALESFORCE MARKETING CLOUD</text>
+<rect x="1400" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1417" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JOU</text><text x="1442" y="269" font-size="11" fill="#1A1F2C">Journeys <tspan fill="#8A93A6">8</tspan></text>
+<rect x="1400" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1417" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASS</text><text x="1442" y="286" font-size="11" fill="#1A1F2C">Assets <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1400" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1417" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="1442" y="303" font-size="11" fill="#1A1F2C">Contacts <tspan fill="#8A93A6">6</tspan></text>
+<text x="1650" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1668,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1694" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1668,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1694" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1668,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1694" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1668,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1694" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1668,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1694" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1668,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1694" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1668,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1694" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1668,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1694" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1650" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1650" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1620" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/salesforce-marketing-cloud/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

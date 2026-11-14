@@ -610,10 +610,18 @@ def load(PROV, FAM_FILE=None):
         tag2fam = {t: f['name'] for f in famlist for t in f['tags']}
         fam_lines = collections.OrderedDict((f['name'], sorted(f['tags'], key=lambda t: -len(lines[t]))) for f in famlist)
         color = {}
+        n_all = sum(len(ts) for ts in fam_lines.values())
         for fname, ts in fam_lines.items():
+            # one family holding most of the API (MongoDB: 48 lines all 'Atlas') would be 48 shades of one
+            # hue -- give its lines distinct palette colours, like a small single-city API
+            dominant = len(ts) >= 8 and len(ts) > 0.6 * n_all
             for k, t in enumerate(ts):
-                color[t] = (PALETTE[(k * 5) % len(PALETTE)] if fname == 'More'
-                            else shade(fam_by_name[fname]['color'], k, len(ts)))
+                if fname == 'More':
+                    color[t] = PALETTE[(k * 5) % len(PALETTE)]
+                elif dominant:
+                    color[t] = shade(PALETTE[k % len(PALETTE)], k // len(PALETTE), -(-len(ts) // len(PALETTE)))
+                else:
+                    color[t] = shade(fam_by_name[fname]['color'], k, len(ts))
 
     # ---------- automatic backbone (consolidated design) ----------
     # every map gets a circle line like Stripe's Customers: the line with most real interchanges
