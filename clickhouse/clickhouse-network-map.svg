@@ -1,0 +1,1024 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3252 3406" width="3252" height="3406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3252" height="3406" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Clickhouse API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">178 operations as stops · 16 tags as lines · 14 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1044" y1="906" x2="1044" y2="854" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1044" y1="906" x2="1044" y2="854" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1044" y1="802" x2="1044" y2="854" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1044" y1="802" x2="1044" y2="854" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="API Keys" d="M992.0,1062.0 L992.0,1114.0 L992.0,1204.0 Q992.0,1218.0 1001.9,1227.9 L1034.1,1260.1 Q1044.0,1270.0 1044.0,1284.0 L1044.0,1374.0 L1044.0,1478.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Backup" d="M888.0,1010.0 L888.0,1166.0 L888.0,1218.0 L888.0,1308.0 Q888.0,1322.0 897.9,1331.9 L930.1,1364.1 Q940.0,1374.0 940.0,1388.0 L940.0,1568.0 Q940.0,1582.0 930.1,1591.9 L888.0,1634.0 L732.0,1790.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Backup</title></path>
+<path class="line" data-line="Billing" d="M1044.0,906.0 L1086.1,948.1 Q1096.0,958.0 1096.0,972.0 L1096.0,1100.0 Q1096.0,1114.0 1110.0,1114.0 L1148.0,1114.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Billing</title></path>
+<path class="line" data-line="ClickPipes" d="M1044.0,698.0 L1044.0,504.0 Q1044.0,490.0 1053.9,480.1 L1096.0,438.0 L1138.1,395.9 Q1148.0,386.0 1162.0,386.0 L1304.0,386.0 L1460.0,386.0 L1550.0,386.0 Q1564.0,386.0 1573.9,395.9 L1710.1,532.1 Q1720.0,542.0 1720.0,556.0 L1720.0,632.0 Q1720.0,646.0 1729.9,655.9 L1772.0,698.0 L1814.1,740.1 Q1824.0,750.0 1838.0,750.0 L1862.0,750.0 Q1876.0,750.0 1885.9,740.1 L1970.1,655.9 Q1980.0,646.0 1994.0,646.0 L2136.0,646.0 L2240.0,646.0 L2344.0,646.0 L2448.0,646.0 L2552.0,646.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ClickPipes</title></path>
+<path class="line" data-line="ClickStack" d="M992.0,594.0 L1096.0,594.0 L1200.0,594.0 L1304.0,594.0 L1394.0,594.0 Q1408.0,594.0 1417.9,603.9 L1512.0,698.0 L1616.0,802.0 L1720.0,906.0 L1814.1,1000.1 Q1824.0,1010.0 1824.0,1024.0 L1824.0,1114.0 L1824.0,1218.0 L1824.0,1322.0 L1824.0,1412.0 Q1824.0,1426.0 1814.1,1435.9 L1720.0,1530.0 L1616.0,1634.0 L1512.0,1738.0 L1417.9,1832.1 Q1408.0,1842.0 1394.0,1842.0 L1304.0,1842.0 L1200.0,1842.0 L1096.0,1842.0 L1006.0,1842.0 Q992.0,1842.0 982.1,1832.1 L888.0,1738.0 L784.0,1634.0 L680.0,1530.0 L585.9,1435.9 Q576.0,1426.0 576.0,1412.0 L576.0,1322.0 L576.0,1218.0 L576.0,1114.0 L576.0,1024.0 Q576.0,1010.0 585.9,1000.1 L680.0,906.0 L784.0,802.0 L888.0,698.0 L992.0,594.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>ClickStack</title></path>
+<path class="line" data-line="Organization" d="M940.0,802.0 L982.1,844.1 Q992.0,854.0 1006.0,854.0 L1030.0,854.0 Q1044.0,854.0 1034.1,844.1 L897.9,707.9 Q888.0,698.0 888.0,684.0 L888.0,608.0 Q888.0,594.0 878.1,584.1 L836.0,542.0 L784.0,490.0 L689.9,395.9 Q680.0,386.0 680.0,372.0 L680.0,334.0 L680.0,230.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organization</title></path>
+<path class="line" data-line="Organization" d="M1044.0,854.0 L1001.9,896.1 Q992.0,906.0 978.0,906.0 L798.0,906.0 Q784.0,906.0 774.1,915.9 L732.0,958.0 L689.9,1000.1 Q680.0,1010.0 670.1,1000.1 L576.0,906.0 L429.9,759.9 Q420.0,750.0 410.1,759.9 L368.0,802.0 L316.0,854.0 L212.0,958.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organization</title></path>
+<path class="line" data-line="Postgres" d="M1044.0,802.0 L1086.1,844.1 Q1096.0,854.0 1110.0,854.0 L1342.0,854.0 Q1356.0,854.0 1365.9,863.9 L1450.1,948.1 Q1460.0,958.0 1474.0,958.0 L1498.0,958.0 Q1512.0,958.0 1521.9,967.9 L1564.0,1010.0 L1658.1,1104.1 Q1668.0,1114.0 1668.0,1128.0 L1668.0,1374.0 L1668.0,1412.0 Q1668.0,1426.0 1658.1,1435.9 L1616.0,1478.0 L1512.0,1582.0 L1469.9,1624.1 Q1460.0,1634.0 1469.9,1643.9 L1606.1,1780.1 Q1616.0,1790.0 1616.0,1804.0 L1616.0,1880.0 Q1616.0,1894.0 1630.0,1894.0 L1758.0,1894.0 Q1772.0,1894.0 1781.9,1903.9 L1876.0,1998.0 L1970.1,2092.1 Q1980.0,2102.0 1994.0,2102.0 L2018.0,2102.0 Q2032.0,2102.0 2041.9,2111.9 L2136.0,2206.0 L2240.0,2310.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Postgres</title></path>
+<path class="line" data-line="Prometheus" d="M1148.0,958.0 L1148.0,996.0 Q1148.0,1010.0 1157.9,1019.9 L1242.1,1104.1 Q1252.0,1114.0 1252.0,1128.0 L1252.0,1256.0 Q1252.0,1270.0 1261.9,1279.9 L1304.0,1322.0 L1408.0,1426.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Prometheus</title></path>
+<path class="line" data-line="Query API endpoints" d="M992.0,958.0 L1086.1,1052.1 Q1096.0,1062.0 1096.0,1076.0 L1096.0,1204.0 Q1096.0,1218.0 1105.9,1227.9 L1138.1,1260.1 Q1148.0,1270.0 1148.0,1284.0 L1148.0,1360.0 Q1148.0,1374.0 1157.9,1383.9 L1252.0,1478.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query API endpoints</title></path>
+<path class="line" data-line="Role Management" d="M1148.0,698.0 L1394.0,698.0 Q1408.0,698.0 1408.0,712.0 L1408.0,736.0 Q1408.0,750.0 1422.0,750.0 L1446.0,750.0 Q1460.0,750.0 1469.9,740.1 L1554.1,655.9 Q1564.0,646.0 1564.0,632.0 L1564.0,542.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Role Management</title></path>
+<path class="line" data-line="Saved queries" d="M888.0,906.0 L793.9,1000.1 Q784.0,1010.0 784.0,1024.0 L784.0,1048.0 Q784.0,1062.0 770.0,1062.0 L732.0,1062.0 L382.0,1062.0 Q368.0,1062.0 358.1,1071.9 L264.0,1166.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Saved queries</title></path>
+<path class="line" data-line="Service" d="M1252.0,750.0 L1290.0,750.0 Q1304.0,750.0 1313.9,759.9 L1398.1,844.1 Q1408.0,854.0 1422.0,854.0 L1460.0,854.0 L1512.0,854.0 L1772.0,854.0 L1810.0,854.0 Q1824.0,854.0 1833.9,863.9 L1918.1,948.1 Q1928.0,958.0 1928.0,972.0 L1928.0,1166.0 L1928.0,1426.0 L1928.0,1464.0 Q1928.0,1478.0 1918.1,1487.9 L1824.0,1582.0 L1720.0,1686.0 L1677.9,1728.1 Q1668.0,1738.0 1658.1,1728.1 L1625.9,1695.9 Q1616.0,1686.0 1602.0,1686.0 L1318.0,1686.0 Q1304.0,1686.0 1304.0,1700.0 L1304.0,1724.0 Q1304.0,1738.0 1313.9,1747.9 L1398.1,1832.1 Q1408.0,1842.0 1422.0,1842.0 L1498.0,1842.0 Q1512.0,1842.0 1502.1,1851.9 L1356.0,1998.0 L1261.9,2092.1 Q1252.0,2102.0 1252.0,2116.0 L1252.0,2258.0 L1252.0,2362.0 L1252.0,2504.0 Q1252.0,2518.0 1242.1,2527.9 L1200.0,2570.0 L1105.9,2664.1 Q1096.0,2674.0 1096.0,2688.0 L1096.0,2778.0 L1096.0,2934.0 L1096.0,3024.0 Q1096.0,3038.0 1086.1,3047.9 L992.0,3142.0 L888.0,3246.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service</title></path>
+<path class="line" data-line="Snapshot" d="M1148.0,854.0 L1242.1,948.1 Q1252.0,958.0 1252.0,972.0 L1252.0,1048.0 Q1252.0,1062.0 1261.9,1071.9 L1304.0,1114.0 L1356.0,1166.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Snapshot</title></path>
+<path class="line" data-line="UDF" d="M784.0,698.0 L694.0,698.0 Q680.0,698.0 670.1,707.9 L628.0,750.0 L481.9,896.1 Q472.0,906.0 472.0,920.0 L472.0,1010.0 L472.0,1256.0 Q472.0,1270.0 462.1,1279.9 L429.9,1312.1 Q420.0,1322.0 420.0,1336.0 L420.0,1426.0 L420.0,1516.0 Q420.0,1530.0 410.1,1539.9 L368.0,1582.0 L264.0,1686.0 L160.0,1790.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>UDF</title></path>
+<path class="line" data-line="User Management" d="M1252.0,906.0 L1304.0,958.0 L1356.0,1010.0 L1502.1,1156.1 Q1512.0,1166.0 1512.0,1180.0 L1512.0,1204.0 Q1512.0,1218.0 1521.9,1227.9 L1554.1,1260.1 Q1564.0,1270.0 1578.0,1270.0 L1616.0,1270.0 L1980.0,1270.0 L2084.0,1270.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User Management</title></path>
+<path class="line" data-line="Clickhouse Local" d="M732.0,1218.0 L689.9,1260.1 Q680.0,1270.0 680.0,1284.0 L680.0,1360.0 Q680.0,1374.0 694.0,1374.0 L718.0,1374.0 Q732.0,1374.0 741.9,1383.9 L836.0,1478.0" fill="none" stroke="#4A5568" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Clickhouse Local</title></path>
+<line x1="992" y1="1062" x2="992.0" y2="1028.0" stroke="#C2410C" stroke-width="7"/><rect x="968.0" y="1017.0" width="48" height="22" rx="5" fill="#C2410C"><title>API Keys</title></rect><text x="992.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="1044" y1="1478" x2="1044.0" y2="1512.0" stroke="#C2410C" stroke-width="7"/><rect x="1020.0" y="1501.0" width="48" height="22" rx="5" fill="#C2410C"><title>API Keys</title></rect><text x="1044.0" y="1517.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="888" y1="1010" x2="888.0" y2="976.0" stroke="#B8860B" stroke-width="7"/><rect x="864.0" y="965.0" width="48" height="22" rx="5" fill="#B8860B"><title>Backup</title></rect><text x="888.0" y="981.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAC</text>
+<line x1="732" y1="1790" x2="707.9583694396574" y2="1814.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="683.9583694396574" y="1803.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Backup</title></rect><text x="707.9583694396574" y="1819.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAC</text>
+<line x1="1044" y1="906" x2="1019.9583694396574" y2="881.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="995.9583694396574" y="870.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Billing</title></rect><text x="1019.9583694396574" y="886.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="1148" y1="1114" x2="1182.0" y2="1114.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1158.0" y="1103.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Billing</title></rect><text x="1182.0" y="1119.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="1044" y1="698" x2="1044.0" y2="732.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1020.0" y="721.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>ClickPipes</title></rect><text x="1044.0" y="737.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CP</text>
+<line x1="2552" y1="646" x2="2586.0" y2="646.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2562.0" y="635.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>ClickPipes</title></rect><text x="2586.0" y="651.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CP</text>
+<rect x="962" y="541" width="60" height="26" rx="13" fill="#D6264F"/><text x="992" y="559" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CS</text>
+<line x1="218.36396103063566" y1="964.3639610306357" x2="205.63603896936434" y2="951.6360389693643" stroke="#7B3FE4" stroke-width="6" stroke-linecap="round"/>
+<line x1="940" y1="802" x2="915.9583694396574" y2="777.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="891.9583694396574" y="766.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Organization</title></rect><text x="915.9583694396574" y="782.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="680" y1="230" x2="680.0" y2="196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="656.0" y="185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Organization</title></rect><text x="680.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="1044" y1="802" x2="1019.9583694396574" y2="777.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="995.9583694396574" y="766.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Postgres</title></rect><text x="1019.9583694396574" y="782.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POS</text>
+<line x1="2240" y1="2310" x2="2264.0416305603426" y2="2334.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="2240.0416305603426" y="2323.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Postgres</title></rect><text x="2264.0416305603426" y="2339.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POS</text>
+<line x1="1148" y1="958" x2="1148.0" y2="924.0" stroke="#2E7D32" stroke-width="7"/><rect x="1124.0" y="913.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Prometheus</title></rect><text x="1148.0" y="929.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1408" y1="1426" x2="1432.0416305603426" y2="1450.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1408.0416305603426" y="1439.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Prometheus</title></rect><text x="1432.0416305603426" y="1455.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="992" y1="958" x2="967.9583694396574" y2="933.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="943.9583694396574" y="922.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Query API endpoints</title></rect><text x="967.9583694396574" y="938.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QAE</text>
+<line x1="1252" y1="1478" x2="1276.0416305603426" y2="1502.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1252.0416305603426" y="1491.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Query API endpoints</title></rect><text x="1276.0416305603426" y="1507.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QAE</text>
+<line x1="1148" y1="698" x2="1114.0" y2="698.0" stroke="#00838F" stroke-width="7"/><rect x="1090.0" y="687.0" width="48" height="22" rx="5" fill="#00838F"><title>Role Management</title></rect><text x="1114.0" y="703.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RM</text>
+<line x1="1564" y1="542" x2="1564.0" y2="508.0" stroke="#00838F" stroke-width="7"/><rect x="1540.0" y="497.0" width="48" height="22" rx="5" fill="#00838F"><title>Role Management</title></rect><text x="1564.0" y="513.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RM</text>
+<line x1="888" y1="906" x2="912.0416305603426" y2="881.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="888.0416305603426" y="870.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Saved queries</title></rect><text x="912.0416305603426" y="886.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="264" y1="1166" x2="239.9583694396574" y2="1190.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="215.9583694396574" y="1179.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Saved queries</title></rect><text x="239.9583694396574" y="1195.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="1252" y1="750" x2="1218.0" y2="750.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1194.0" y="739.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Service</title></rect><text x="1218.0" y="755.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SER</text>
+<line x1="888" y1="3246" x2="863.9583694396574" y2="3270.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="839.9583694396574" y="3259.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Service</title></rect><text x="863.9583694396574" y="3275.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SER</text>
+<line x1="1148" y1="854" x2="1123.9583694396574" y2="829.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1099.9583694396574" y="818.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Snapshot</title></rect><text x="1123.9583694396574" y="834.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SNA</text>
+<line x1="1356" y1="1166" x2="1380.0416305603426" y2="1190.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1356.0416305603426" y="1179.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Snapshot</title></rect><text x="1380.0416305603426" y="1195.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SNA</text>
+<line x1="784" y1="698" x2="818.0" y2="698.0" stroke="#B0287F" stroke-width="7"/><rect x="794.0" y="687.0" width="48" height="22" rx="5" fill="#B0287F"><title>UDF</title></rect><text x="818.0" y="703.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UDF</text>
+<line x1="160" y1="1790" x2="135.9583694396574" y2="1814.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="111.95836943965739" y="1803.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>UDF</title></rect><text x="135.9583694396574" y="1819.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UDF</text>
+<line x1="1252" y1="906" x2="1227.9583694396574" y2="881.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1203.9583694396574" y="870.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>User Management</title></rect><text x="1227.9583694396574" y="886.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UM</text>
+<line x1="2084" y1="1270" x2="2118.0" y2="1270.0" stroke="#0B7A75" stroke-width="7"/><rect x="2094.0" y="1259.0" width="48" height="22" rx="5" fill="#0B7A75"><title>User Management</title></rect><text x="2118.0" y="1275.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UM</text>
+<line x1="732" y1="1218" x2="756.0416305603426" y2="1193.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="732.0416305603426" y="1182.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>Clickhouse Local</title></rect><text x="756.0416305603426" y="1198.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CL</text>
+<line x1="836" y1="1478" x2="860.0416305603426" y2="1502.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="836.0416305603426" y="1491.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Clickhouse Local</title></rect><text x="860.0416305603426" y="1507.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CL</text>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-api-keys-api/#op-openapiKeyGetList" target="_blank" class="st" data-op="openapiKeyGetList"><title>GET /v1/organizations/{organizationId}/keys
+API Keys line · openapiKeyGetList</title>
+<circle cx="992" cy="1062" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="980.0" y="1067" text-anchor="end" style="fill:#1A1F2C">List keys <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-api-keys-api/#op-openapiKeyCreate" target="_blank" class="st" data-op="openapiKeyCreate"><title>POST /v1/organizations/{organizationId}/keys
+API Keys line · openapiKeyCreate</title>
+<circle cx="992" cy="1114" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1004" y="1119" text-anchor="start" style="fill:#1A1F2C">Create key</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-api-keys-api/#op-openapiKeyGet" target="_blank" class="st" data-op="openapiKeyGet"><title>GET /v1/organizations/{organizationId}/keys/{keyId}
+API Keys line · openapiKeyGet</title>
+<circle cx="992" cy="1218" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="980.0" y="1223" text-anchor="end" style="fill:#1A1F2C">Get key</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-api-keys-api/#op-openapiKeyUpdate" target="_blank" class="st" data-op="openapiKeyUpdate"><title>PATCH /v1/organizations/{organizationId}/keys/{keyId}
+API Keys line · openapiKeyUpdate</title>
+<circle cx="1044" cy="1374" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1056" y="1379" text-anchor="start" style="fill:#1A1F2C">Update key</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-api-keys-api/#op-openapiKeyDelete" target="_blank" class="st" data-op="openapiKeyDelete"><title>DELETE /v1/organizations/{organizationId}/keys/{keyId}
+API Keys line · openapiKeyDelete</title>
+<circle cx="1044" cy="1478" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1040" y1="1482" x2="1048" y2="1474" stroke="#C2410C" stroke-width="2"/>
+<text x="1056" y="1483" text-anchor="start" style="fill:#1A1F2C">Delete key</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupGetList" target="_blank" class="st" data-op="backupGetList"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/backups
+Backup line · backupGetList</title>
+<circle cx="888" cy="1634" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="900" y="1639" text-anchor="start" style="fill:#1A1F2C">List backups</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupGet" target="_blank" class="st" data-op="backupGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/backups/{backupId}
+Backup line · backupGet</title>
+<circle cx="732" cy="1790" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="744" y="1795" text-anchor="start" style="fill:#1A1F2C">Get backup</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupConfigurationGet" target="_blank" class="st" data-op="backupConfigurationGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/backupConfiguration
+Backup line · backupConfigurationGet</title>
+<circle cx="940" cy="1374" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="928.0" y="1379" text-anchor="end" style="fill:#1A1F2C">Get backupconfiguration</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupConfigurationUpdate" target="_blank" class="st" data-op="backupConfigurationUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/backupConfiguration
+Backup line · backupConfigurationUpdate</title>
+<circle cx="940" cy="1582" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="952" y="1587" text-anchor="start" style="fill:#1A1F2C">Update backupconfiguration</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupBucketGet" target="_blank" class="st" data-op="backupBucketGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/backupBucket
+Backup line · backupBucketGet</title>
+<circle cx="888" cy="1010" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="888" y="1032" text-anchor="middle" style="fill:#1A1F2C">Get<tspan x="888" dy="13">backupbucket <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupBucketCreate" target="_blank" class="st" data-op="backupBucketCreate"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/backupBucket
+Backup line · backupBucketCreate</title>
+<circle cx="888" cy="1166" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="876.0" y="1171" text-anchor="end" style="fill:#1A1F2C">Update backupbucket</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupBucketUpdate" target="_blank" class="st" data-op="backupBucketUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/backupBucket
+Backup line · backupBucketUpdate</title>
+<circle cx="888" cy="1218" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="876.0" y="1223" text-anchor="end" style="fill:#1A1F2C">Update backupbucket</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-backup-api/#op-backupBucketDelete" target="_blank" class="st" data-op="backupBucketDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/backupBucket
+Backup line · backupBucketDelete</title>
+<circle cx="888" cy="1322" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="884" y1="1326" x2="892" y2="1318" stroke="#B8860B" stroke-width="2"/>
+<text x="900" y="1327" text-anchor="start" style="fill:#1A1F2C">Delete backupbucket</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-billing-api/#op-usageCostGet" target="_blank" class="st" data-op="usageCostGet"><title>GET /v1/organizations/{organizationId}/usageCost
+Billing line · usageCostGet</title>
+<circle cx="1148" cy="1114" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1148" y="1150" text-anchor="middle" style="fill:#1A1F2C">Get usagecost</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-billing-api/#op-activeBalancesGet" target="_blank" class="st" data-op="activeBalancesGet"><title>GET /v1/organizations/{organizationId}/activeBalances
+Billing line · activeBalancesGet
+DEPRECATED</title>
+<circle cx="1044" cy="906" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1053" y="896" text-anchor="start" style="fill:#A0A7B4">List activebalances</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-billing-api/#op-creditBalancesGet" target="_blank" class="st" data-op="creditBalancesGet"><title>GET /v1/organizations/{organizationId}/creditBalances
+Billing line · creditBalancesGet</title>
+<circle cx="1096" cy="1114" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1096" y="1086" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1096" dy="13">creditbalances</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickhouse-http-interface-api/#op-getRoot" target="_blank" class="st" data-op="getRoot"><title>GET /
+Clickhouse Local line · getRoot</title>
+<circle cx="732" cy="1218" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="720.0" y="1223" text-anchor="end" style="fill:#1A1F2C">getRoot</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickhouse-http-interface-api/#op-postRoot" target="_blank" class="st" data-op="postRoot"><title>POST /
+Clickhouse Local line · postRoot</title>
+<circle cx="680" cy="1270" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="692" y="1275" text-anchor="start" style="fill:#1A1F2C">postRoot</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeGetList" target="_blank" class="st" data-op="clickPipeGetList"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipes
+ClickPipes line · clickPipeGetList</title>
+<circle cx="1044" cy="698" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1032.0" y="703" text-anchor="end" style="fill:#1A1F2C">List clickpipes <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeCreate" target="_blank" class="st" data-op="clickPipeCreate"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickpipes
+ClickPipes line · clickPipeCreate</title>
+<circle cx="1044" cy="490" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1056" y="495" text-anchor="start" style="fill:#1A1F2C">Create clickpipe</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipesServiceContextGet" target="_blank" class="st" data-op="clickPipesServiceContextGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/context
+ClickPipes line · clickPipesServiceContextGet</title>
+<circle cx="1460" cy="386" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1466" y="374" transform="rotate(-45 1466 374)" style="fill:#1A1F2C">Get context</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeGet" target="_blank" class="st" data-op="clickPipeGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}
+ClickPipes line · clickPipeGet</title>
+<circle cx="1096" cy="438" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1108" y="443" text-anchor="start" style="fill:#1A1F2C">Get clickpipe</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeUpdate" target="_blank" class="st" data-op="clickPipeUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}
+ClickPipes line · clickPipeUpdate</title>
+<circle cx="1148" cy="386" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1136.0" y="391" text-anchor="end" style="fill:#1A1F2C">Update clickpipe</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeDelete" target="_blank" class="st" data-op="clickPipeDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}
+ClickPipes line · clickPipeDelete</title>
+<circle cx="1304" cy="386" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1300" y1="390" x2="1308" y2="382" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1310" y="374" transform="rotate(-45 1310 374)" style="fill:#1A1F2C">Delete clickpipe</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeSettingsGet" target="_blank" class="st" data-op="clickPipeSettingsGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}/settings
+ClickPipes line · clickPipeSettingsGet</title>
+<circle cx="1720" cy="646" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1732" y="651" text-anchor="start" style="fill:#1A1F2C">List settings</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeSettingsUpdate" target="_blank" class="st" data-op="clickPipeSettingsUpdate"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}/settings
+ClickPipes line · clickPipeSettingsUpdate</title>
+<circle cx="1772" cy="698" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1784" y="703" text-anchor="start" style="fill:#1A1F2C">Create setting</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeSchemaDiscovery" target="_blank" class="st" data-op="clickPipeSchemaDiscovery"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/schemaDiscovery
+ClickPipes line · clickPipeSchemaDiscovery</title>
+<circle cx="1564" cy="386" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1576" y="391" text-anchor="start" style="fill:#1A1F2C">Update schemadiscovery</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeScalingUpdate" target="_blank" class="st" data-op="clickPipeScalingUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}/scaling
+ClickPipes line · clickPipeScalingUpdate</title>
+<circle cx="1720" cy="542" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1732" y="547" text-anchor="start" style="fill:#1A1F2C">Update scaling</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeStateUpdate" target="_blank" class="st" data-op="clickPipeStateUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/clickpipes/{clickPipeId}/state
+ClickPipes line · clickPipeStateUpdate</title>
+<circle cx="1824" cy="750" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1812.0" y="755" text-anchor="end" style="fill:#1A1F2C">Update state</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeCdcScalingGet" target="_blank" class="st" data-op="clickPipeCdcScalingGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipesCdcScaling
+ClickPipes line · clickPipeCdcScalingGet</title>
+<circle cx="1876" cy="750" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1888" y="755" text-anchor="start" style="fill:#1A1F2C">Get clickpipescdcscaling</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeCdcScalingUpdate" target="_blank" class="st" data-op="clickPipeCdcScalingUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/clickpipesCdcScaling
+ClickPipes line · clickPipeCdcScalingUpdate</title>
+<circle cx="1980" cy="646" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1980" y="618" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1980" dy="13">clickpipescdcscaling</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeReversePrivateEndpointGetList" target="_blank" class="st" data-op="clickPipeReversePrivateEndpointGetList"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipesReversePrivateEndpoints
+ClickPipes line · clickPipeReversePrivateEndpointGetList</title>
+<circle cx="2136" cy="646" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2142" y="634" transform="rotate(-45 2142 634)" style="fill:#1A1F2C">List clickpipesreverseprivateendpoints</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeReversePrivateEndpointCreate" target="_blank" class="st" data-op="clickPipeReversePrivateEndpointCreate"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickpipesReversePrivateEndpoints
+ClickPipes line · clickPipeReversePrivateEndpointCreate</title>
+<circle cx="2240" cy="646" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2246" y="634" transform="rotate(-45 2246 634)" style="fill:#1A1F2C">Create clickpipesreverseprivateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeReversePrivateEndpointGet" target="_blank" class="st" data-op="clickPipeReversePrivateEndpointGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickpipesReversePrivateEndpoints/{reversePrivateEndpointId}
+ClickPipes line · clickPipeReversePrivateEndpointGet</title>
+<circle cx="2344" cy="646" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2350" y="634" transform="rotate(-45 2350 634)" style="fill:#1A1F2C">Get clickpipesreverseprivateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeReversePrivateEndpointDelete" target="_blank" class="st" data-op="clickPipeReversePrivateEndpointDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickpipesReversePrivateEndpoints/{reversePrivateEndpointId}
+ClickPipes line · clickPipeReversePrivateEndpointDelete</title>
+<circle cx="2552" cy="646" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2548" y1="650" x2="2556" y2="642" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2546" y="658" text-anchor="end" transform="rotate(-45 2546 658)" style="fill:#1A1F2C">Delete clickpipesreverseprivateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickpipes-api/#op-clickPipeReversePrivateEndpointUpdate" target="_blank" class="st" data-op="clickPipeReversePrivateEndpointUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/clickpipesReversePrivateEndpoints/{reversePrivateEndpointId}
+ClickPipes line · clickPipeReversePrivateEndpointUpdate</title>
+<circle cx="2448" cy="646" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2454" y="634" transform="rotate(-45 2454 634)" style="fill:#1A1F2C">Update clickpipesreverseprivateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackListDashboards" target="_blank" class="st" data-op="clickStackListDashboards"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/dashboards
+ClickStack line · clickStackListDashboards</title>
+<circle cx="1720" cy="906" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1732" y="911" text-anchor="start" style="fill:#1A1F2C">List dashboards</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackCreateDashboard" target="_blank" class="st" data-op="clickStackCreateDashboard"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/dashboards
+ClickStack line · clickStackCreateDashboard</title>
+<circle cx="1824" cy="1010" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1812.0" y="1015" text-anchor="end" style="fill:#1A1F2C">Create dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackGetDashboard" target="_blank" class="st" data-op="clickStackGetDashboard"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/dashboards/{clickStackDashboardId}
+ClickStack line · clickStackGetDashboard</title>
+<circle cx="1824" cy="1218" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1836" y="1223" text-anchor="start" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackUpdateDashboard" target="_blank" class="st" data-op="clickStackUpdateDashboard"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickstack/dashboards/{clickStackDashboardId}
+ClickStack line · clickStackUpdateDashboard</title>
+<circle cx="1824" cy="1322" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1812.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackDeleteDashboard" target="_blank" class="st" data-op="clickStackDeleteDashboard"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickstack/dashboards/{clickStackDashboardId}
+ClickStack line · clickStackDeleteDashboard</title>
+<circle cx="1824" cy="1426" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1820" y1="1430" x2="1828" y2="1422" stroke="#D6264F" stroke-width="2"/>
+<text x="1836" y="1424" text-anchor="start" style="fill:#1A1F2C">Delete<tspan x="1836" dy="13">dashboard</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackValidateDashboard" target="_blank" class="st" data-op="clickStackValidateDashboard"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/dashboards/validate
+ClickStack line · clickStackValidateDashboard</title>
+<circle cx="1824" cy="1114" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1812.0" y="1119" text-anchor="end" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackListAlerts" target="_blank" class="st" data-op="clickStackListAlerts"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/alerts
+ClickStack line · clickStackListAlerts</title>
+<circle cx="1200" cy="594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1206" y="582" transform="rotate(-45 1206 582)" style="fill:#1A1F2C">List alerts</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackCreateAlert" target="_blank" class="st" data-op="clickStackCreateAlert"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/alerts
+ClickStack line · clickStackCreateAlert</title>
+<circle cx="1304" cy="594" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1310" y="582" transform="rotate(-45 1310 582)" style="fill:#1A1F2C">Create alert</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackListSources" target="_blank" class="st" data-op="clickStackListSources"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/sources
+ClickStack line · clickStackListSources</title>
+<circle cx="680" cy="1530" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="692" y="1535" text-anchor="start" style="fill:#1A1F2C">List sources</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackCreateSource" target="_blank" class="st" data-op="clickStackCreateSource"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/sources
+ClickStack line · clickStackCreateSource</title>
+<circle cx="576" cy="1426" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="588" y="1431" text-anchor="start" style="fill:#1A1F2C">Create source</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackGetSource" target="_blank" class="st" data-op="clickStackGetSource"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/sources/{clickStackSourceId}
+ClickStack line · clickStackGetSource</title>
+<circle cx="576" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="588" y="1327" text-anchor="start" style="fill:#1A1F2C">Get source</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackUpdateSource" target="_blank" class="st" data-op="clickStackUpdateSource"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickstack/sources/{clickStackSourceId}
+ClickStack line · clickStackUpdateSource</title>
+<circle cx="576" cy="1218" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="588" y="1223" text-anchor="start" style="fill:#1A1F2C">Update source</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackDeleteSource" target="_blank" class="st" data-op="clickStackDeleteSource"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickstack/sources/{clickStackSourceId}
+ClickStack line · clickStackDeleteSource</title>
+<circle cx="576" cy="1114" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="572" y1="1118" x2="580" y2="1110" stroke="#D6264F" stroke-width="2"/>
+<text x="588" y="1119" text-anchor="start" style="fill:#1A1F2C">Delete source</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackGetAlert" target="_blank" class="st" data-op="clickStackGetAlert"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/alerts/{clickStackAlertId}
+ClickStack line · clickStackGetAlert</title>
+<circle cx="1408" cy="594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1420" y="599" text-anchor="start" style="fill:#1A1F2C">Get alert</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackUpdateAlert" target="_blank" class="st" data-op="clickStackUpdateAlert"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickstack/alerts/{clickStackAlertId}
+ClickStack line · clickStackUpdateAlert</title>
+<circle cx="1512" cy="698" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1524" y="703" text-anchor="start" style="fill:#1A1F2C">Update alert</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackDeleteAlert" target="_blank" class="st" data-op="clickStackDeleteAlert"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickstack/alerts/{clickStackAlertId}
+ClickStack line · clickStackDeleteAlert</title>
+<circle cx="1616" cy="802" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1612" y1="806" x2="1620" y2="798" stroke="#D6264F" stroke-width="2"/>
+<text x="1628" y="807" text-anchor="start" style="fill:#1A1F2C">Delete alert</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackListWebhooks" target="_blank" class="st" data-op="clickStackListWebhooks"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/webhooks
+ClickStack line · clickStackListWebhooks</title>
+<circle cx="576" cy="1010" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="588" y="1015" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackCreateWebhook" target="_blank" class="st" data-op="clickStackCreateWebhook"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/webhooks
+ClickStack line · clickStackCreateWebhook</title>
+<circle cx="680" cy="906" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="671.0" y="896" text-anchor="end" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackUpdateWebhook" target="_blank" class="st" data-op="clickStackUpdateWebhook"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickstack/webhooks/{clickStackWebhookId}
+ClickStack line · clickStackUpdateWebhook</title>
+<circle cx="784" cy="802" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="772.0" y="807" text-anchor="end" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackDeleteWebhook" target="_blank" class="st" data-op="clickStackDeleteWebhook"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickstack/webhooks/{clickStackWebhookId}
+ClickStack line · clickStackDeleteWebhook</title>
+<circle cx="888" cy="698" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="884" y1="702" x2="892" y2="694" stroke="#D6264F" stroke-width="2"/>
+<text x="897" y="688" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackListRoles" target="_blank" class="st" data-op="clickStackListRoles"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/roles
+ClickStack line · clickStackListRoles</title>
+<circle cx="1720" cy="1530" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1732" y="1535" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackCreateRole" target="_blank" class="st" data-op="clickStackCreateRole"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/roles
+ClickStack line · clickStackCreateRole</title>
+<circle cx="1616" cy="1634" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1628" y="1639" text-anchor="start" style="fill:#1A1F2C">Create role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackGetRole" target="_blank" class="st" data-op="clickStackGetRole"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/roles/{clickStackRoleId}
+ClickStack line · clickStackGetRole</title>
+<circle cx="1512" cy="1738" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1503.0" y="1728" text-anchor="end" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackUpdateRole" target="_blank" class="st" data-op="clickStackUpdateRole"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickstack/roles/{clickStackRoleId}
+ClickStack line · clickStackUpdateRole</title>
+<circle cx="1408" cy="1842" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1399.0" y="1861" text-anchor="end" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackDeleteRole" target="_blank" class="st" data-op="clickStackDeleteRole"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickstack/roles/{clickStackRoleId}
+ClickStack line · clickStackDeleteRole</title>
+<circle cx="1304" cy="1842" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1300" y1="1846" x2="1308" y2="1838" stroke="#D6264F" stroke-width="2"/>
+<text x="1298" y="1854" text-anchor="end" transform="rotate(-45 1298 1854)" style="fill:#1A1F2C">Delete role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackListSavedSearches" target="_blank" class="st" data-op="clickStackListSavedSearches"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/saved-searches
+ClickStack line · clickStackListSavedSearches</title>
+<circle cx="1200" cy="1842" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1206" y="1830" transform="rotate(-45 1206 1830)" style="fill:#1A1F2C">List saved searches</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackCreateSavedSearch" target="_blank" class="st" data-op="clickStackCreateSavedSearch"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/clickstack/saved-searches
+ClickStack line · clickStackCreateSavedSearch</title>
+<circle cx="1096" cy="1842" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1102" y="1830" transform="rotate(-45 1102 1830)" style="fill:#1A1F2C">Create saved searche</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackGetSavedSearch" target="_blank" class="st" data-op="clickStackGetSavedSearch"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickstack/saved-searches/{clickStackSavedSearchId}
+ClickStack line · clickStackGetSavedSearch</title>
+<circle cx="992" cy="1842" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="980.0" y="1847" text-anchor="end" style="fill:#1A1F2C">Get saved searche</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackUpdateSavedSearch" target="_blank" class="st" data-op="clickStackUpdateSavedSearch"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/clickstack/saved-searches/{clickStackSavedSearchId}
+ClickStack line · clickStackUpdateSavedSearch</title>
+<circle cx="888" cy="1738" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="900" y="1743" text-anchor="start" style="fill:#1A1F2C">Update saved searche</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-clickstack-api/#op-clickStackDeleteSavedSearch" target="_blank" class="st" data-op="clickStackDeleteSavedSearch"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickstack/saved-searches/{clickStackSavedSearchId}
+ClickStack line · clickStackDeleteSavedSearch</title>
+<circle cx="784" cy="1634" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="780" y1="1638" x2="788" y2="1630" stroke="#D6264F" stroke-width="2"/>
+<text x="772.0" y="1639" text-anchor="end" style="fill:#1A1F2C">Delete saved searche</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-notifications-api/#op-notificationGetList" target="_blank" class="st" data-op="notificationGetList"><title>GET /v1/organizations/{organizationId}/notifications
+ClickStack line · notificationGetList</title>
+<circle cx="992" cy="594" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1001" y="613" text-anchor="start" style="fill:#1A1F2C">List notifications <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-notifications-api/#op-notificationTypesGetList" target="_blank" class="st" data-op="notificationTypesGetList"><title>GET /v1/organizations/{organizationId}/notificationTypes
+ClickStack line · notificationTypesGetList</title>
+<circle cx="1096" cy="594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1102" y="582" transform="rotate(-45 1102 582)" style="fill:#1A1F2C">List notificationtypes</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationGetList" target="_blank" class="st" data-op="organizationGetList"><title>GET /v1/organizations
+Organization line · organizationGetList</title>
+<circle cx="940" cy="802" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="928.0" y="807" text-anchor="end" style="fill:#1A1F2C">List organizations</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationGet" target="_blank" class="st" data-op="organizationGet"><title>GET /v1/organizations/{organizationId}
+Organization line · organizationGet</title>
+<circle cx="1044" cy="854" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1053" y="873" text-anchor="start" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationUpdate" target="_blank" class="st" data-op="organizationUpdate"><title>PATCH /v1/organizations/{organizationId}
+Organization line · organizationUpdate</title>
+<circle cx="888" cy="594" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="876.0" y="599" text-anchor="end" style="fill:#1A1F2C">Update organization</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationQuotasGetList" target="_blank" class="st" data-op="organizationQuotasGetList"><title>GET /v1/organizations/{organizationId}/quotas
+Organization line · organizationQuotasGetList</title>
+<circle cx="680" cy="334" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="692" y="339" text-anchor="start" style="fill:#1A1F2C">List quotas</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationQuotaGet" target="_blank" class="st" data-op="organizationQuotaGet"><title>GET /v1/organizations/{organizationId}/quotas/{quotaCode}
+Organization line · organizationQuotaGet</title>
+<circle cx="680" cy="230" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="692" y="235" text-anchor="start" style="fill:#1A1F2C">Get quota</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-activityGetList" target="_blank" class="st" data-op="activityGetList"><title>GET /v1/organizations/{organizationId}/activities
+Organization line · activityGetList</title>
+<circle cx="836" cy="542" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="848" y="547" text-anchor="start" style="fill:#1A1F2C">List activities</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-activityGet" target="_blank" class="st" data-op="activityGet"><title>GET /v1/organizations/{organizationId}/activities/{activityId}
+Organization line · activityGet</title>
+<circle cx="784" cy="490" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="796" y="495" text-anchor="start" style="fill:#1A1F2C">Get activity</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationPrivateEndpointConfigGetList" target="_blank" class="st" data-op="organizationPrivateEndpointConfigGetList"><title>GET /v1/organizations/{organizationId}/privateEndpointConfig
+Organization line · organizationPrivateEndpointConfigGetList
+DEPRECATED</title>
+<circle cx="680" cy="386" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="692" y="391" text-anchor="start" style="fill:#A0A7B4">Get privateendpointconfig</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureCreate" target="_blank" class="st" data-op="organizationByocInfrastructureCreate"><title>POST /v1/organizations/{organizationId}/byocInfrastructure
+Organization line · organizationByocInfrastructureCreate</title>
+<circle cx="784" cy="906" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="784" y="878" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="784" dy="13">byocinfrastructure</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureValidate" target="_blank" class="st" data-op="organizationByocInfrastructureValidate"><title>POST /v1/organizations/{organizationId}/byocInfrastructure/validate
+Organization line · organizationByocInfrastructureValidate</title>
+<circle cx="420" cy="750" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="426" y="738" transform="rotate(-45 426 738)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureGet" target="_blank" class="st" data-op="organizationByocInfrastructureGet"><title>GET /v1/organizations/{organizationId}/byocInfrastructure/{byocInfrastructureId}
+Organization line · organizationByocInfrastructureGet</title>
+<circle cx="732" cy="958" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="732" y="944" text-anchor="middle" style="fill:#1A1F2C">Get byocinfrastructure</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureDelete" target="_blank" class="st" data-op="organizationByocInfrastructureDelete"><title>DELETE /v1/organizations/{organizationId}/byocInfrastructure/{byocInfrastructureId}
+Organization line · organizationByocInfrastructureDelete</title>
+<circle cx="576" cy="906" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="572" y1="910" x2="580" y2="902" stroke="#7B3FE4" stroke-width="2"/>
+<text x="567.0" y="925" text-anchor="end" style="fill:#1A1F2C">Delete byocinfrastructure</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureUpdate" target="_blank" class="st" data-op="organizationByocInfrastructureUpdate"><title>PATCH /v1/organizations/{organizationId}/byocInfrastructure/{byocInfrastructureId}
+Organization line · organizationByocInfrastructureUpdate</title>
+<circle cx="680" cy="1010" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="680" y="1033" text-anchor="middle" style="fill:#1A1F2C">Update byocinfrastructure</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureProgressGet" target="_blank" class="st" data-op="organizationByocInfrastructureProgressGet"><title>GET /v1/organizations/{organizationId}/byocInfrastructure/{byocInfrastructureId}/progress
+Organization line · organizationByocInfrastructureProgressGet</title>
+<circle cx="316" cy="854" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="328" y="859" text-anchor="start" style="fill:#1A1F2C">Get progress</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructureTagsGet" target="_blank" class="st" data-op="organizationByocInfrastructureTagsGet"><title>GET /v1/organizations/{organizationId}/byocInfrastructure/{byocInfrastructureId}/tags
+Organization line · organizationByocInfrastructureTagsGet</title>
+<circle cx="212" cy="958" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="224" y="963" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-organization-api/#op-organizationByocInfrastructurePrivateEndpointConfigGet" target="_blank" class="st" data-op="organizationByocInfrastructurePrivateEndpointConfigGet"><title>GET /v1/organizations/{organizationId}/byocInfrastructure/{byocInfrastructureId}/privateEndpointConfig
+Organization line · organizationByocInfrastructurePrivateEndpointConfigGet</title>
+<circle cx="368" cy="802" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="356.0" y="807" text-anchor="end" style="fill:#1A1F2C">Get privateendpointconfig</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-ping-api/#op-getPing" target="_blank" class="st" data-op="getPing"><title>GET /ping
+Clickhouse Local line · getPing</title>
+<circle cx="680" cy="1374" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="668.0" y="1379" text-anchor="end" style="fill:#1A1F2C">Get ping</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-play-api/#op-getPlay" target="_blank" class="st" data-op="getPlay"><title>GET /play
+Clickhouse Local line · getPlay</title>
+<circle cx="732" cy="1374" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="741" y="1364" text-anchor="start" style="fill:#1A1F2C">Get play</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceCreate" target="_blank" class="st" data-op="postgresServiceCreate"><title>POST /v1/organizations/{organizationId}/postgres
+Postgres line · postgresServiceCreate</title>
+<circle cx="1356" cy="854" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1347.0" y="873" text-anchor="end" style="fill:#1A1F2C">Create postgre</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceGetList" target="_blank" class="st" data-op="postgresServiceGetList"><title>GET /v1/organizations/{organizationId}/postgres
+Postgres line · postgresServiceGetList</title>
+<circle cx="1044" cy="802" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1050" y="790" transform="rotate(-45 1050 790)" style="fill:#1A1F2C">List postgres</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceGet" target="_blank" class="st" data-op="postgresServiceGet"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}
+Postgres line · postgresServiceGet</title>
+<circle cx="1460" cy="958" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1469" y="948" text-anchor="start" style="fill:#1A1F2C">Get postgre</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceDelete" target="_blank" class="st" data-op="postgresServiceDelete"><title>DELETE /v1/organizations/{organizationId}/postgres/{postgresId}
+Postgres line · postgresServiceDelete</title>
+<circle cx="1564" cy="1010" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1560" y1="1014" x2="1568" y2="1006" stroke="#E07B12" stroke-width="2"/>
+<text x="1576" y="1015" text-anchor="start" style="fill:#1A1F2C">Delete postgre</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServicePatch" target="_blank" class="st" data-op="postgresServicePatch"><title>PATCH /v1/organizations/{organizationId}/postgres/{postgresId}
+Postgres line · postgresServicePatch</title>
+<circle cx="1512" cy="958" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1524" y="963" text-anchor="start" style="fill:#1A1F2C">Update postgre</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceCertsGet" target="_blank" class="st" data-op="postgresServiceCertsGet"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/caCertificates
+Postgres line · postgresServiceCertsGet</title>
+<circle cx="1668" cy="1374" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1680" y="1379" text-anchor="start" style="fill:#1A1F2C">List cacertificates</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresInstanceRestore" target="_blank" class="st" data-op="postgresInstanceRestore"><title>POST /v1/organizations/{organizationId}/postgres/{postgresId}/restoredService
+Postgres line · postgresInstanceRestore</title>
+<circle cx="1980" cy="2102" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1968.0" y="2107" text-anchor="end" style="fill:#1A1F2C">Update restoredservice</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceSetPassword" target="_blank" class="st" data-op="postgresServiceSetPassword"><title>PATCH /v1/organizations/{organizationId}/postgres/{postgresId}/password
+Postgres line · postgresServiceSetPassword</title>
+<circle cx="1772" cy="1894" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1784" y="1899" text-anchor="start" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServicePatchState" target="_blank" class="st" data-op="postgresServicePatchState"><title>PATCH /v1/organizations/{organizationId}/postgres/{postgresId}/state
+Postgres line · postgresServicePatchState</title>
+<circle cx="2240" cy="2310" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2252" y="2315" text-anchor="start" style="fill:#1A1F2C">Update state</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresInstanceCreateReadReplica" target="_blank" class="st" data-op="postgresInstanceCreateReadReplica"><title>POST /v1/organizations/{organizationId}/postgres/{postgresId}/readReplica
+Postgres line · postgresInstanceCreateReadReplica</title>
+<circle cx="1876" cy="1998" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1888" y="2003" text-anchor="start" style="fill:#1A1F2C">Update readreplica</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresInstanceConfigGet" target="_blank" class="st" data-op="postgresInstanceConfigGet"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/config
+Postgres line · postgresInstanceConfigGet</title>
+<circle cx="1668" cy="1426" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1680" y="1431" text-anchor="start" style="fill:#1A1F2C">Get config</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresInstanceConfigPost" target="_blank" class="st" data-op="postgresInstanceConfigPost"><title>POST /v1/organizations/{organizationId}/postgres/{postgresId}/config
+Postgres line · postgresInstanceConfigPost</title>
+<circle cx="1616" cy="1478" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1628" y="1483" text-anchor="start" style="fill:#1A1F2C">Update config</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresInstanceConfigPatch" target="_blank" class="st" data-op="postgresInstanceConfigPatch"><title>PATCH /v1/organizations/{organizationId}/postgres/{postgresId}/config
+Postgres line · postgresInstanceConfigPatch</title>
+<circle cx="1512" cy="1582" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1524" y="1587" text-anchor="start" style="fill:#1A1F2C">Update config</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresInstanceMetricsGet" target="_blank" class="st" data-op="postgresInstanceMetricsGet"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/metrics
+Postgres line · postgresInstanceMetricsGet</title>
+<circle cx="1616" cy="1894" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1604.0" y="1899" text-anchor="end" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresServiceBackupGetList" target="_blank" class="st" data-op="postgresServiceBackupGetList"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/backups
+Postgres line · postgresServiceBackupGetList</title>
+<circle cx="1668" cy="1114" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1656.0" y="1119" text-anchor="end" style="fill:#1A1F2C">List backups</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-slowQueryPatternsGetList" target="_blank" class="st" data-op="slowQueryPatternsGetList"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/slowQueryPatterns
+Postgres line · slowQueryPatternsGetList</title>
+<circle cx="2032" cy="2102" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2044" y="2107" text-anchor="start" style="fill:#1A1F2C">List slowquerypatterns</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-slowQueryPatternGet" target="_blank" class="st" data-op="slowQueryPatternGet"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/slowQueryPatterns/{queryId}
+Postgres line · slowQueryPatternGet</title>
+<circle cx="2136" cy="2206" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2148" y="2211" text-anchor="start" style="fill:#1A1F2C">Get slowquerypattern</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-postgres-api/#op-postgresLogsGetList" target="_blank" class="st" data-op="postgresLogsGetList"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/logs
+Postgres line · postgresLogsGetList</title>
+<circle cx="1460" cy="1634" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1472" y="1639" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-prometheus-api/#op-organizationPrometheusGet" target="_blank" class="st" data-op="organizationPrometheusGet"><title>GET /v1/organizations/{organizationId}/prometheus
+Prometheus line · organizationPrometheusGet
+DEPRECATED</title>
+<circle cx="1252" cy="1270" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1264" y="1275" text-anchor="start" style="fill:#A0A7B4">List prometheus</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-prometheus-api/#op-organizationPrometheusDiscoveryGet" target="_blank" class="st" data-op="organizationPrometheusDiscoveryGet"><title>GET /v1/organizations/{organizationId}/prometheus/discovery
+Prometheus line · organizationPrometheusDiscoveryGet</title>
+<circle cx="1304" cy="1322" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1316" y="1327" text-anchor="start" style="fill:#1A1F2C">Get discovery</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-prometheus-api/#op-instancePrometheusGet" target="_blank" class="st" data-op="instancePrometheusGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/prometheus
+Prometheus line · instancePrometheusGet</title>
+<circle cx="1408" cy="1426" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1420" y="1431" text-anchor="start" style="fill:#1A1F2C">List prometheus</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-prometheus-api/#op-postgresOrgPrometheusGet" target="_blank" class="st" data-op="postgresOrgPrometheusGet"><title>GET /v1/organizations/{organizationId}/postgres/prometheus
+Prometheus line · postgresOrgPrometheusGet</title>
+<circle cx="1148" cy="958" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1160" y="963" text-anchor="start" style="fill:#1A1F2C">List prometheus <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-prometheus-api/#op-postgresInstancePrometheusGet" target="_blank" class="st" data-op="postgresInstancePrometheusGet"><title>GET /v1/organizations/{organizationId}/postgres/{postgresId}/prometheus
+Prometheus line · postgresInstancePrometheusGet</title>
+<circle cx="1148" cy="1010" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1148" y="982" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1148" dy="13">prometheus</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-query-api-endpoints-api/#op-queryApiEndpointList" target="_blank" class="st" data-op="queryApiEndpointList"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/query-api-endpoints
+Query API endpoints line · queryApiEndpointList</title>
+<circle cx="992" cy="958" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1004" y="956" text-anchor="start" style="fill:#1A1F2C">List query api<tspan x="1004" dy="13">endpoints <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-query-api-endpoints-api/#op-queryApiEndpointCreate" target="_blank" class="st" data-op="queryApiEndpointCreate"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/query-api-endpoints
+Query API endpoints line · queryApiEndpointCreate</title>
+<circle cx="1096" cy="1218" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1084.0" y="1216" text-anchor="end" style="fill:#1A1F2C">Create query<tspan x="1084.0" dy="13">api endpoint</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-query-api-endpoints-api/#op-queryApiEndpointDelete" target="_blank" class="st" data-op="queryApiEndpointDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/query-api-endpoints/{endpointId}
+Query API endpoints line · queryApiEndpointDelete</title>
+<circle cx="1252" cy="1478" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1248" y1="1482" x2="1256" y2="1474" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1264" y="1483" text-anchor="start" style="fill:#1A1F2C">Delete query api endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-query-api-endpoints-api/#op-queryApiEndpointGet" target="_blank" class="st" data-op="queryApiEndpointGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/query-api-endpoints/{endpointId}
+Query API endpoints line · queryApiEndpointGet</title>
+<circle cx="1148" cy="1270" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1157" y="1260" text-anchor="start" style="fill:#1A1F2C">Get query api endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-query-api-endpoints-api/#op-queryApiEndpointUpdate" target="_blank" class="st" data-op="queryApiEndpointUpdate"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/query-api-endpoints/{endpointId}
+Query API endpoints line · queryApiEndpointUpdate</title>
+<circle cx="1148" cy="1374" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1160" y="1379" text-anchor="start" style="fill:#1A1F2C">Update query api endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-replicas-status-api/#op-getReplicasStatus" target="_blank" class="st" data-op="getReplicasStatus"><title>GET /replicas_status
+Clickhouse Local line · getReplicasStatus</title>
+<circle cx="836" cy="1478" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="824.0" y="1483" text-anchor="end" style="fill:#1A1F2C">List replicas status</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-role-management-api/#op-organizationRolesGetList" target="_blank" class="st" data-op="organizationRolesGetList"><title>GET /v1/organizations/{organizationId}/roles
+Role Management line · organizationRolesGetList</title>
+<circle cx="1148" cy="698" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1154" y="686" transform="rotate(-45 1154 686)" style="fill:#1A1F2C">List roles <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-role-management-api/#op-organizationRolePost" target="_blank" class="st" data-op="organizationRolePost"><title>POST /v1/organizations/{organizationId}/roles
+Role Management line · organizationRolePost</title>
+<circle cx="1408" cy="698" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1420" y="703" text-anchor="start" style="fill:#1A1F2C">Create role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-role-management-api/#op-organizationRoleGet" target="_blank" class="st" data-op="organizationRoleGet"><title>GET /v1/organizations/{organizationId}/roles/{roleId}
+Role Management line · organizationRoleGet</title>
+<circle cx="1408" cy="750" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1396.0" y="755" text-anchor="end" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-role-management-api/#op-organizationRolePatch" target="_blank" class="st" data-op="organizationRolePatch"><title>PATCH /v1/organizations/{organizationId}/roles/{roleId}
+Role Management line · organizationRolePatch</title>
+<circle cx="1460" cy="750" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1472" y="755" text-anchor="start" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-role-management-api/#op-organizationRoleDelete" target="_blank" class="st" data-op="organizationRoleDelete"><title>DELETE /v1/organizations/{organizationId}/roles/{roleId}
+Role Management line · organizationRoleDelete</title>
+<circle cx="1564" cy="542" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1560" y1="546" x2="1568" y2="538" stroke="#00838F" stroke-width="2"/>
+<text x="1576" y="547" text-anchor="start" style="fill:#1A1F2C">Delete role</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-saved-queries-api/#op-savedQueryList" target="_blank" class="st" data-op="savedQueryList"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/saved-queries
+Saved queries line · savedQueryList</title>
+<circle cx="888" cy="906" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="888" y="928" text-anchor="middle" style="fill:#1A1F2C">List saved<tspan x="888" dy="13">queries <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-saved-queries-api/#op-savedQueryCreate" target="_blank" class="st" data-op="savedQueryCreate"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/saved-queries
+Saved queries line · savedQueryCreate</title>
+<circle cx="784" cy="1062" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="796" y="1060" text-anchor="start" style="fill:#1A1F2C">Create<tspan x="796" dy="13">saved query</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-saved-queries-api/#op-savedQueryDelete" target="_blank" class="st" data-op="savedQueryDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/saved-queries/{queryId}
+Saved queries line · savedQueryDelete</title>
+<circle cx="264" cy="1166" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="260" y1="1170" x2="268" y2="1162" stroke="#8D6E63" stroke-width="2"/>
+<text x="276" y="1171" text-anchor="start" style="fill:#1A1F2C">Delete saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-saved-queries-api/#op-savedQueryGet" target="_blank" class="st" data-op="savedQueryGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/saved-queries/{queryId}
+Saved queries line · savedQueryGet</title>
+<circle cx="732" cy="1062" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="726" y="1074" text-anchor="end" transform="rotate(-45 726 1074)" style="fill:#1A1F2C">Get saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-saved-queries-api/#op-savedQueryUpdate" target="_blank" class="st" data-op="savedQueryUpdate"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/saved-queries/{queryId}
+Saved queries line · savedQueryUpdate</title>
+<circle cx="368" cy="1062" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="356.0" y="1067" text-anchor="end" style="fill:#1A1F2C">Update saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-serviceProfilesList" target="_blank" class="st" data-op="serviceProfilesList"><title>GET /v1/organizations/{organizationId}/serviceProfiles
+Service line · serviceProfilesList</title>
+<circle cx="1252" cy="750" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1252" y="723" text-anchor="middle" style="fill:#1A1F2C">List serviceprofiles <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceGetList" target="_blank" class="st" data-op="instanceGetList"><title>GET /v1/organizations/{organizationId}/services
+Service line · instanceGetList</title>
+<circle cx="1304" cy="750" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1298" y="762" text-anchor="end" transform="rotate(-45 1298 762)" style="fill:#1A1F2C">List services</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceCreate" target="_blank" class="st" data-op="instanceCreate"><title>POST /v1/organizations/{organizationId}/services
+Service line · instanceCreate</title>
+<circle cx="1460" cy="854" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1466" y="842" transform="rotate(-45 1466 842)" style="fill:#1A1F2C">Create service</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceGet" target="_blank" class="st" data-op="instanceGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}
+Service line · instanceGet</title>
+<circle cx="1512" cy="854" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1518" y="842" transform="rotate(-45 1518 842)" style="fill:#1A1F2C">Get service</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceUpdate" target="_blank" class="st" data-op="instanceUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}
+Service line · instanceUpdate</title>
+<circle cx="1772" cy="854" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1778" y="842" transform="rotate(-45 1778 842)" style="fill:#1A1F2C">Update service</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceDelete" target="_blank" class="st" data-op="instanceDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}
+Service line · instanceDelete</title>
+<circle cx="1824" cy="854" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1820" y1="858" x2="1828" y2="850" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1836" y="859" text-anchor="start" style="fill:#1A1F2C">Delete service</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instancePrivateEndpointConfigGet" target="_blank" class="st" data-op="instancePrivateEndpointConfigGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/privateEndpointConfig
+Service line · instancePrivateEndpointConfigGet</title>
+<circle cx="1304" cy="1686" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1292.0" y="1691" text-anchor="end" style="fill:#1A1F2C">Get privateendpointconfig</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceQueryEndpointGet" target="_blank" class="st" data-op="instanceQueryEndpointGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/serviceQueryEndpoint
+Service line · instanceQueryEndpointGet</title>
+<circle cx="1200" cy="2570" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1212" y="2575" text-anchor="start" style="fill:#1A1F2C">Get servicequeryendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceQueryEndpointDelete" target="_blank" class="st" data-op="instanceQueryEndpointDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/serviceQueryEndpoint
+Service line · instanceQueryEndpointDelete</title>
+<circle cx="1096" cy="2778" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1092" y1="2782" x2="1100" y2="2774" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1108" y="2783" text-anchor="start" style="fill:#1A1F2C">Delete servicequeryendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceQueryEndpointUpsert" target="_blank" class="st" data-op="instanceQueryEndpointUpsert"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/serviceQueryEndpoint
+Service line · instanceQueryEndpointUpsert</title>
+<circle cx="1096" cy="2674" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1108" y="2679" text-anchor="start" style="fill:#1A1F2C">Update servicequeryendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceStateUpdate" target="_blank" class="st" data-op="instanceStateUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/state
+Service line · instanceStateUpdate</title>
+<circle cx="1096" cy="2934" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1108" y="2939" text-anchor="start" style="fill:#1A1F2C">Update state</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceScalingUpdate" target="_blank" class="st" data-op="instanceScalingUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/scaling
+Service line · instanceScalingUpdate
+DEPRECATED</title>
+<circle cx="1252" cy="2102" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1264" y="2107" text-anchor="start" style="fill:#A0A7B4">Update scaling</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instanceReplicaScalingUpdate" target="_blank" class="st" data-op="instanceReplicaScalingUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/replicaScaling
+Service line · instanceReplicaScalingUpdate</title>
+<circle cx="1356" cy="1998" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1368" y="2003" text-anchor="start" style="fill:#1A1F2C">Update replicascaling</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instancePasswordUpdate" target="_blank" class="st" data-op="instancePasswordUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/password
+Service line · instancePasswordUpdate</title>
+<circle cx="1720" cy="1686" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1732" y="1691" text-anchor="start" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-instancePrivateEndpointCreate" target="_blank" class="st" data-op="instancePrivateEndpointCreate"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/privateEndpoint
+Service line · instancePrivateEndpointCreate</title>
+<circle cx="1668" cy="1738" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1680" y="1743" text-anchor="start" style="fill:#1A1F2C">Update privateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-scalingScheduleGet" target="_blank" class="st" data-op="scalingScheduleGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/scalingSchedule
+Service line · scalingScheduleGet</title>
+<circle cx="1252" cy="2258" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1264" y="2263" text-anchor="start" style="fill:#1A1F2C">Get scalingschedule</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-scalingScheduleUpsert" target="_blank" class="st" data-op="scalingScheduleUpsert"><title>POST /v1/organizations/{organizationId}/services/{serviceId}/scalingSchedule
+Service line · scalingScheduleUpsert</title>
+<circle cx="1252" cy="2362" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1264" y="2367" text-anchor="start" style="fill:#1A1F2C">Update scalingschedule</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-scalingScheduleDelete" target="_blank" class="st" data-op="scalingScheduleDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/scalingSchedule
+Service line · scalingScheduleDelete</title>
+<circle cx="1252" cy="2518" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1248" y1="2522" x2="1256" y2="2514" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1264" y="2523" text-anchor="start" style="fill:#1A1F2C">Delete scalingschedule</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-upgradeWindowGet" target="_blank" class="st" data-op="upgradeWindowGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/upgradeWindow
+Service line · upgradeWindowGet</title>
+<circle cx="1096" cy="3038" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1108" y="3043" text-anchor="start" style="fill:#1A1F2C">Get upgradewindow</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-upgradeWindowUpdate" target="_blank" class="st" data-op="upgradeWindowUpdate"><title>PUT /v1/organizations/{organizationId}/services/{serviceId}/upgradeWindow
+Service line · upgradeWindowUpdate</title>
+<circle cx="992" cy="3142" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1004" y="3147" text-anchor="start" style="fill:#1A1F2C">Update upgradewindow</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-upgradeWindowDelete" target="_blank" class="st" data-op="upgradeWindowDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/upgradeWindow
+Service line · upgradeWindowDelete</title>
+<circle cx="888" cy="3246" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="884" y1="3250" x2="892" y2="3242" stroke="#0E9F6E" stroke-width="2"/>
+<text x="900" y="3251" text-anchor="start" style="fill:#1A1F2C">Delete upgradewindow</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-serviceClickhouseSettingsListGet" target="_blank" class="st" data-op="serviceClickhouseSettingsListGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickhouseSettings
+Service line · serviceClickhouseSettingsListGet</title>
+<circle cx="1928" cy="958" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1940" y="963" text-anchor="start" style="fill:#1A1F2C">List clickhousesettings</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-serviceClickhouseSettingsUpdate" target="_blank" class="st" data-op="serviceClickhouseSettingsUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/clickhouseSettings
+Service line · serviceClickhouseSettingsUpdate</title>
+<circle cx="1928" cy="1166" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1940" y="1171" text-anchor="start" style="fill:#1A1F2C">Create clickhousesetting</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-serviceClickhouseSettingsSchemaGet" target="_blank" class="st" data-op="serviceClickhouseSettingsSchemaGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickhouseSettings/schema
+Service line · serviceClickhouseSettingsSchemaGet</title>
+<circle cx="1824" cy="1582" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1836" y="1587" text-anchor="start" style="fill:#1A1F2C">Get schema</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-serviceClickhouseSettingGet" target="_blank" class="st" data-op="serviceClickhouseSettingGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/clickhouseSettings/{settingName}
+Service line · serviceClickhouseSettingGet</title>
+<circle cx="1928" cy="1426" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1940" y="1431" text-anchor="start" style="fill:#1A1F2C">Get clickhousesetting</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-serviceClickhouseSettingDelete" target="_blank" class="st" data-op="serviceClickhouseSettingDelete"><title>DELETE /v1/organizations/{organizationId}/services/{serviceId}/clickhouseSettings/{settingName}
+Service line · serviceClickhouseSettingDelete</title>
+<circle cx="1928" cy="1478" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1924" y1="1482" x2="1932" y2="1474" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1940" y="1483" text-anchor="start" style="fill:#1A1F2C">Delete clickhousesetting</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-replicaAwareRoutingGet" target="_blank" class="st" data-op="replicaAwareRoutingGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/replicaAwareRouting
+Service line · replicaAwareRoutingGet</title>
+<circle cx="1304" cy="1738" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1316" y="1743" text-anchor="start" style="fill:#1A1F2C">Get replicaawarerouting</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-service-api/#op-replicaAwareRoutingUpdate" target="_blank" class="st" data-op="replicaAwareRoutingUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/replicaAwareRouting
+Service line · replicaAwareRoutingUpdate</title>
+<circle cx="1512" cy="1842" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1512" y="1814" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1512" dy="13">replicaawarerouting</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-snapshot-api/#op-snapshotGetList" target="_blank" class="st" data-op="snapshotGetList"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/snapshots
+Snapshot line · snapshotGetList</title>
+<circle cx="1304" cy="1114" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="1119" text-anchor="start" style="fill:#1A1F2C">List snapshots</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-snapshot-api/#op-snapshotGet" target="_blank" class="st" data-op="snapshotGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/snapshots/{snapshotId}
+Snapshot line · snapshotGet</title>
+<circle cx="1356" cy="1166" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1368" y="1171" text-anchor="start" style="fill:#1A1F2C">Get snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-snapshot-api/#op-snapshotConfigurationGet" target="_blank" class="st" data-op="snapshotConfigurationGet"><title>GET /v1/organizations/{organizationId}/services/{serviceId}/snapshotConfiguration
+Snapshot line · snapshotConfigurationGet</title>
+<circle cx="1148" cy="854" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1157" y="844" text-anchor="start" style="fill:#1A1F2C">Get snapshotconfiguration <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-snapshot-api/#op-snapshotConfigurationUpdate" target="_blank" class="st" data-op="snapshotConfigurationUpdate"><title>PATCH /v1/organizations/{organizationId}/services/{serviceId}/snapshotConfiguration
+Snapshot line · snapshotConfigurationUpdate</title>
+<circle cx="1252" cy="1062" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1252" y="1034" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1252" dy="13">snapshotconfiguration</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfUploadSessionCreate" target="_blank" class="st" data-op="udfUploadSessionCreate"><title>POST /v1/organizations/{organizationId}/udfUploads/url
+UDF line · udfUploadSessionCreate</title>
+<circle cx="160" cy="1790" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="172" y="1795" text-anchor="start" style="fill:#1A1F2C">Update url</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfList" target="_blank" class="st" data-op="udfList"><title>GET /v1/organizations/{organizationId}/udfs
+UDF line · udfList</title>
+<circle cx="784" cy="698" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="778" y="710" text-anchor="end" transform="rotate(-45 778 710)" style="fill:#1A1F2C">List udfs <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfCreate" target="_blank" class="st" data-op="udfCreate"><title>POST /v1/organizations/{organizationId}/udfs
+UDF line · udfCreate</title>
+<circle cx="680" cy="698" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="668.0" y="703" text-anchor="end" style="fill:#1A1F2C">Create udf</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfDelete" target="_blank" class="st" data-op="udfDelete"><title>DELETE /v1/organizations/{organizationId}/udfs/{functionName}
+UDF line · udfDelete</title>
+<circle cx="472" cy="906" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="468" y1="910" x2="476" y2="902" stroke="#B0287F" stroke-width="2"/>
+<text x="484" y="911" text-anchor="start" style="fill:#1A1F2C">Delete udf</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfGet" target="_blank" class="st" data-op="udfGet"><title>GET /v1/organizations/{organizationId}/udfs/{functionName}
+UDF line · udfGet</title>
+<circle cx="628" cy="750" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="640" y="755" text-anchor="start" style="fill:#1A1F2C">Get udf</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfAttachmentList" target="_blank" class="st" data-op="udfAttachmentList"><title>GET /v1/organizations/{organizationId}/udfs/{functionName}/attachments
+UDF line · udfAttachmentList</title>
+<circle cx="472" cy="1010" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="460.0" y="1015" text-anchor="end" style="fill:#1A1F2C">List attachments</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfDetach" target="_blank" class="st" data-op="udfDetach"><title>DELETE /v1/organizations/{organizationId}/udfs/{functionName}/attachments/{serviceId}
+UDF line · udfDetach</title>
+<circle cx="420" cy="1426" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="416" y1="1430" x2="424" y2="1422" stroke="#B0287F" stroke-width="2"/>
+<text x="432" y="1431" text-anchor="start" style="fill:#1A1F2C">Delete attachment</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfAttachmentGet" target="_blank" class="st" data-op="udfAttachmentGet"><title>GET /v1/organizations/{organizationId}/udfs/{functionName}/attachments/{serviceId}
+UDF line · udfAttachmentGet</title>
+<circle cx="472" cy="1270" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="484" y="1275" text-anchor="start" style="fill:#1A1F2C">Get attachment</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfAttach" target="_blank" class="st" data-op="udfAttach"><title>PUT /v1/organizations/{organizationId}/udfs/{functionName}/attachments/{serviceId}
+UDF line · udfAttach</title>
+<circle cx="420" cy="1322" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="432" y="1327" text-anchor="start" style="fill:#1A1F2C">Update attachment</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfVersionList" target="_blank" class="st" data-op="udfVersionList"><title>GET /v1/organizations/{organizationId}/udfs/{functionName}/versions
+UDF line · udfVersionList</title>
+<circle cx="420" cy="1530" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="432" y="1535" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfVersionCreate" target="_blank" class="st" data-op="udfVersionCreate"><title>POST /v1/organizations/{organizationId}/udfs/{functionName}/versions
+UDF line · udfVersionCreate</title>
+<circle cx="368" cy="1582" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="380" y="1587" text-anchor="start" style="fill:#1A1F2C">Create version</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-udf-api/#op-udfVersionDelete" target="_blank" class="st" data-op="udfVersionDelete"><title>DELETE /v1/organizations/{organizationId}/udfs/{functionName}/versions/{version}
+UDF line · udfVersionDelete</title>
+<circle cx="264" cy="1686" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="260" y1="1690" x2="268" y2="1682" stroke="#B0287F" stroke-width="2"/>
+<text x="276" y="1691" text-anchor="start" style="fill:#1A1F2C">Delete version</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-whoamiGet" target="_blank" class="st" data-op="whoamiGet"><title>GET /v1/whoami
+User Management line · whoamiGet</title>
+<circle cx="2084" cy="1270" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2078" y="1282" text-anchor="end" transform="rotate(-45 2078 1282)" style="fill:#1A1F2C">Get whoami</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-memberGetList" target="_blank" class="st" data-op="memberGetList"><title>GET /v1/organizations/{organizationId}/members
+User Management line · memberGetList</title>
+<circle cx="1512" cy="1218" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1524" y="1223" text-anchor="start" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-memberGet" target="_blank" class="st" data-op="memberGet"><title>GET /v1/organizations/{organizationId}/members/{userId}
+User Management line · memberGet</title>
+<circle cx="1564" cy="1270" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1552.0" y="1275" text-anchor="end" style="fill:#1A1F2C">Get member</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-memberUpdate" target="_blank" class="st" data-op="memberUpdate"><title>PATCH /v1/organizations/{organizationId}/members/{userId}
+User Management line · memberUpdate</title>
+<circle cx="1616" cy="1270" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1610" y="1282" text-anchor="end" transform="rotate(-45 1610 1282)" style="fill:#1A1F2C">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-memberDelete" target="_blank" class="st" data-op="memberDelete"><title>DELETE /v1/organizations/{organizationId}/members/{userId}
+User Management line · memberDelete</title>
+<circle cx="1980" cy="1270" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1976" y1="1274" x2="1984" y2="1266" stroke="#0B7A75" stroke-width="2"/>
+<text x="1986" y="1258" transform="rotate(-45 1986 1258)" style="fill:#1A1F2C">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-invitationGetList" target="_blank" class="st" data-op="invitationGetList"><title>GET /v1/organizations/{organizationId}/invitations
+User Management line · invitationGetList</title>
+<circle cx="1252" cy="906" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1264" y="911" text-anchor="start" style="fill:#1A1F2C">List invitations <tspan font-weight="700" style="fill:#7B3FE4">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-invitationCreate" target="_blank" class="st" data-op="invitationCreate"><title>POST /v1/organizations/{organizationId}/invitations
+User Management line · invitationCreate</title>
+<circle cx="1304" cy="958" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1316" y="963" text-anchor="start" style="fill:#1A1F2C">Create invitation</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-invitationGet" target="_blank" class="st" data-op="invitationGet"><title>GET /v1/organizations/{organizationId}/invitations/{invitationId}
+User Management line · invitationGet</title>
+<circle cx="1356" cy="1010" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1368" y="1015" text-anchor="start" style="fill:#1A1F2C">Get invitation</text>
+</a>
+<a href="https://apis.apis.io/apis/clickhouse/clickhouse-user-management-api/#op-invitationDelete" target="_blank" class="st" data-op="invitationDelete"><title>DELETE /v1/organizations/{organizationId}/invitations/{invitationId}
+User Management line · invitationDelete</title>
+<circle cx="1512" cy="1166" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1508" y1="1170" x2="1516" y2="1162" stroke="#0B7A75" stroke-width="2"/>
+<text x="1524" y="1171" text-anchor="start" style="fill:#1A1F2C">Delete invitation</text>
+</a>
+<text x="2742" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2742" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">CLICKHOUSE</text>
+<rect x="2742" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2759" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CS</text><text x="2784" y="269" font-size="11" fill="#1A1F2C">ClickStack <tspan fill="#8A93A6">32</tspan></text>
+<rect x="2742" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2759" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SER</text><text x="2784" y="286" font-size="11" fill="#1A1F2C">Service <tspan fill="#8A93A6">28</tspan></text>
+<rect x="2742" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2759" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CP</text><text x="2784" y="303" font-size="11" fill="#1A1F2C">ClickPipes <tspan fill="#8A93A6">18</tspan></text>
+<rect x="2742" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2759" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POS</text><text x="2784" y="320" font-size="11" fill="#1A1F2C">Postgres <tspan fill="#8A93A6">18</tspan></text>
+<rect x="2742" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2759" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="2784" y="337" font-size="11" fill="#1A1F2C">Organization <tspan fill="#8A93A6">16</tspan></text>
+<rect x="2742" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2759" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UDF</text><text x="2784" y="354" font-size="11" fill="#1A1F2C">UDF <tspan fill="#8A93A6">12</tspan></text>
+<rect x="2742" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2759" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UM</text><text x="2784" y="371" font-size="11" fill="#1A1F2C">User Management <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2742" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2759" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BAC</text><text x="2784" y="388" font-size="11" fill="#1A1F2C">Backup <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2742" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2759" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="2784" y="405" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2742" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2759" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2784" y="422" font-size="11" fill="#1A1F2C">Prometheus <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2742" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2759" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QAE</text><text x="2784" y="439" font-size="11" fill="#1A1F2C">Query API endpoints <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2742" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="2759" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RM</text><text x="2784" y="456" font-size="11" fill="#1A1F2C">Role Management <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2742" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2759" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SQ</text><text x="2784" y="473" font-size="11" fill="#1A1F2C">Saved queries <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2742" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="2759" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CL</text><text x="2784" y="490" font-size="11" fill="#1A1F2C">Clickhouse Local <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2742" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="2759" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SNA</text><text x="2784" y="507" font-size="11" fill="#1A1F2C">Snapshot <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2742" y="514" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2759" y="524" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BIL</text><text x="2784" y="524" font-size="11" fill="#1A1F2C">Billing <tspan fill="#8A93A6">3</tspan></text>
+<text x="2992" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3010,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3036" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3010,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3036" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3010,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3036" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3010,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3036" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3010,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3036" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3010,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3036" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3010,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3036" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3010,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3036" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2992" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2992" y="463" font-size="10.5" fill="#5A6275">“ClickHouse HTTP Interface” → Clickhouse Local line · 2 ops</text>
+<text x="2992" y="478" font-size="10.5" fill="#5A6275">“Notifications” → ClickStack line · 2 ops</text>
+<text x="2992" y="493" font-size="10.5" fill="#5A6275">“Ping” → Clickhouse Local line · 1 op</text>
+<text x="2992" y="508" font-size="10.5" fill="#5A6275">“Play” → Clickhouse Local line · 1 op</text>
+<text x="2992" y="523" font-size="10.5" fill="#5A6275">“Replicas Status” → Clickhouse Local line · 1 op</text>
+<text x="2992" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2992" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3376" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/clickhouse/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

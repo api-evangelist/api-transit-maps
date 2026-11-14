@@ -1,0 +1,879 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2972 2502" width="2972" height="2502" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2972" height="2502" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Lemlist API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">149 operations as stops · 18 tags as lines · 7 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="424" y1="1726" x2="468" y2="1726" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="424" y1="1726" x2="468" y2="1726" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="952" y1="890" x2="908" y2="934" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="952" y1="890" x2="908" y2="934" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1524" y1="1594" x2="1524" y2="1638" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1524" y1="1594" x2="1524" y2="1638" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Campaigns" d="M1172.0,934.0 L1128.0,934.0 L922.0,934.0 Q908.0,934.0 908.0,948.0 L908.0,1228.0 Q908.0,1242.0 894.0,1242.0 L864.0,1242.0 L834.0,1242.0 Q820.0,1242.0 810.1,1232.1 L653.9,1075.9 Q644.0,1066.0 644.0,1052.0 L644.0,1022.0 L644.0,992.0 Q644.0,978.0 653.9,968.1 L678.1,943.9 Q688.0,934.0 688.0,920.0 L688.0,846.0 L688.0,758.0 L688.0,626.0 L688.0,538.0 L688.0,450.0 L688.0,318.0 L688.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Campaigns</title></path>
+<path class="line" data-line="Companies" d="M468.0,1726.0 L542.0,1726.0 Q556.0,1726.0 565.9,1716.1 L590.1,1691.9 Q600.0,1682.0 600.0,1668.0 L600.0,1520.0 Q600.0,1506.0 586.0,1506.0 L570.0,1506.0 Q556.0,1506.0 546.1,1515.9 L468.0,1594.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Companies</title></path>
+<path class="line" data-line="Contacts" d="M1700.0,1726.0 L1621.9,1647.9 Q1612.0,1638.0 1598.0,1638.0 L1538.0,1638.0 Q1524.0,1638.0 1514.1,1647.9 L1480.0,1682.0 L1445.9,1716.1 Q1436.0,1726.0 1426.1,1716.1 L1313.9,1603.9 Q1304.0,1594.0 1294.1,1603.9 L1225.9,1672.1 Q1216.0,1682.0 1216.0,1696.0 L1216.0,1814.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Contacts</title></path>
+<path class="line" data-line="Deliverability alerts" d="M1656.0,1066.0 L1568.0,1066.0 L1494.0,1066.0 Q1480.0,1066.0 1480.0,1052.0 L1480.0,948.0 Q1480.0,934.0 1489.9,924.1 L1568.0,846.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Deliverability alerts</title></path>
+<path class="line" data-line="Email Accounts" d="M1436.0,1286.0 L1230.0,1286.0 Q1216.0,1286.0 1206.1,1295.9 L1172.0,1330.0 L1128.0,1374.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Email Accounts</title></path>
+<path class="line" data-line="Enrich" d="M644.0,1638.0 L766.1,1515.9 Q776.0,1506.0 776.0,1492.0 L776.0,1432.0 Q776.0,1418.0 785.9,1408.1 L820.0,1374.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Enrich</title></path>
+<path class="line" data-line="Inbox" d="M424.0,2298.0 L424.0,2210.0 L424.0,2092.0 Q424.0,2078.0 433.9,2068.1 L468.0,2034.0 L556.0,1946.0 L600.0,1902.0 L678.1,1823.9 Q688.0,1814.0 688.0,1800.0 L688.0,1784.0 Q688.0,1770.0 697.9,1760.1 L722.1,1735.9 Q732.0,1726.0 741.9,1735.9 L776.0,1770.0 L854.1,1848.1 Q864.0,1858.0 864.0,1872.0 L864.0,1946.0 L864.0,2078.0 L864.0,2166.0 L864.0,2254.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Inbox</title></path>
+<path class="line" data-line="Leads" d="M776.0,978.0 L864.0,978.0 L952.0,978.0 L1026.0,978.0 Q1040.0,978.0 1049.9,987.9 L1128.0,1066.0 L1216.0,1154.0 L1294.1,1232.1 Q1304.0,1242.0 1304.0,1256.0 L1304.0,1330.0 L1304.0,1418.0 L1304.0,1492.0 Q1304.0,1506.0 1294.1,1515.9 L1216.0,1594.0 L1137.9,1672.1 Q1128.0,1682.0 1114.0,1682.0 L1040.0,1682.0 L952.0,1682.0 L878.0,1682.0 Q864.0,1682.0 854.1,1672.1 L776.0,1594.0 L697.9,1515.9 Q688.0,1506.0 688.0,1492.0 L688.0,1418.0 L688.0,1330.0 L688.0,1256.0 Q688.0,1242.0 697.9,1232.1 L766.1,1163.9 Q776.0,1154.0 776.0,1140.0 L776.0,978.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Leads</title></path>
+<path class="line" data-line="lemwarm" d="M1392.0,846.0 L1313.9,924.1 Q1304.0,934.0 1304.0,948.0 L1304.0,1022.0 L1304.0,1066.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>lemwarm</title></path>
+<path class="line" data-line="People database" d="M424.0,1726.0 L345.9,1647.9 Q336.0,1638.0 336.0,1624.0 L336.0,1608.0 Q336.0,1594.0 345.9,1584.1 L458.1,1471.9 Q468.0,1462.0 468.0,1448.0 L468.0,1388.0 Q468.0,1374.0 458.1,1364.1 L433.9,1339.9 Q424.0,1330.0 414.1,1339.9 L389.9,1364.1 Q380.0,1374.0 366.0,1374.0 L248.0,1374.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>People database</title></path>
+<path class="line" data-line="Schedules" d="M996.0,1110.0 L1040.0,1154.0 L1074.1,1188.1 Q1084.0,1198.0 1098.0,1198.0 L1334.0,1198.0 Q1348.0,1198.0 1357.9,1188.1 L1382.1,1163.9 Q1392.0,1154.0 1406.0,1154.0 L1466.0,1154.0 Q1480.0,1154.0 1489.9,1163.9 L1568.0,1242.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Schedules</title></path>
+<path class="line" data-line="Sequences" d="M952.0,890.0 L996.0,846.0 L1030.1,811.9 Q1040.0,802.0 1054.0,802.0 L1128.0,802.0 L1216.0,802.0 L1246.0,802.0 Q1260.0,802.0 1269.9,792.1 L1304.0,758.0 L1338.1,723.9 Q1348.0,714.0 1348.0,700.0 L1348.0,582.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sequences</title></path>
+<path class="line" data-line="Signal Agents" d="M160.0,890.0 L248.0,890.0 L322.0,890.0 Q336.0,890.0 345.9,899.9 L458.1,1012.1 Q468.0,1022.0 482.0,1022.0 L498.0,1022.0 Q512.0,1022.0 521.9,1012.1 L546.1,987.9 Q556.0,978.0 556.0,964.0 L556.0,948.0 Q556.0,934.0 546.1,924.1 L521.9,899.9 Q512.0,890.0 512.0,876.0 L512.0,758.0 L512.0,670.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Signal Agents</title></path>
+<path class="line" data-line="Tasks" d="M1084.0,1506.0 L1049.9,1471.9 Q1040.0,1462.0 1026.0,1462.0 L966.0,1462.0 Q952.0,1462.0 942.1,1471.9 L908.0,1506.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tasks</title></path>
+<path class="line" data-line="Team" d="M380.0,1154.0 L458.1,1232.1 Q468.0,1242.0 482.0,1242.0 L498.0,1242.0 Q512.0,1242.0 521.9,1232.1 L600.0,1154.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Team</title></path>
+<path class="line" data-line="Unsubscribes" d="M2272.0,1506.0 L2184.0,1506.0 L2096.0,1506.0 L1964.0,1506.0 L1846.0,1506.0 Q1832.0,1506.0 1822.1,1515.9 L1797.9,1540.1 Q1788.0,1550.0 1774.0,1550.0 L1656.0,1550.0 L1582.0,1550.0 Q1568.0,1550.0 1558.1,1559.9 L1533.9,1584.1 Q1524.0,1594.0 1510.0,1594.0 L1450.0,1594.0 Q1436.0,1594.0 1426.1,1603.9 L1313.9,1716.1 Q1304.0,1726.0 1313.9,1735.9 L1392.0,1814.0 L1426.1,1848.1 Q1436.0,1858.0 1436.0,1872.0 L1436.0,1946.0 L1436.0,2034.0 L1436.0,2108.0 Q1436.0,2122.0 1445.9,2131.9 L1568.0,2254.0 L1656.0,2342.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Unsubscribes</title></path>
+<path class="line" data-line="Webhooks" d="M864.0,1110.0 L864.0,1080.0 Q864.0,1066.0 850.0,1066.0 L732.0,1066.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="Lemlist Local" d="M1040.0,626.0 L952.0,714.0 L864.0,802.0 L820.0,846.0" fill="none" stroke="#1F5FD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Lemlist Local</title></path>
+<line x1="1172" y1="934" x2="1206.0" y2="934.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1182.0" y="923.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Campaigns</title></rect><text x="1206.0" y="939.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAM</text>
+<line x1="688" y1="230" x2="688.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="664.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Campaigns</title></rect><text x="688.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAM</text>
+<line x1="468" y1="1726" x2="396.0" y2="1726.0" stroke="#2E7D32" stroke-width="7"/><rect x="372.0" y="1715.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Companies</title></rect><text x="396.0" y="1731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="468" y1="1594" x2="443.95836943965736" y2="1618.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="419.95836943965736" y="1607.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Companies</title></rect><text x="443.95836943965736" y="1623.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1700" y1="1726" x2="1724.0416305603426" y2="1750.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1700.0416305603426" y="1739.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Contacts</title></rect><text x="1724.0416305603426" y="1755.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1216" y1="1814" x2="1216.0" y2="1848.0" stroke="#0B7A75" stroke-width="7"/><rect x="1192.0" y="1837.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Contacts</title></rect><text x="1216.0" y="1853.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1656" y1="1066" x2="1690.0" y2="1066.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1666.0" y="1055.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Deliverability alerts</title></rect><text x="1690.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DA</text>
+<line x1="1568" y1="846" x2="1592.0416305603426" y2="821.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1568.0416305603426" y="810.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Deliverability alerts</title></rect><text x="1592.0416305603426" y="826.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DA</text>
+<line x1="1436" y1="1286" x2="1470.0" y2="1286.0" stroke="#00838F" stroke-width="7"/><rect x="1446.0" y="1275.0" width="48" height="22" rx="5" fill="#00838F"><title>Email Accounts</title></rect><text x="1470.0" y="1291.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EA</text>
+<line x1="1128" y1="1374" x2="1103.9583694396574" y2="1398.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="1079.9583694396574" y="1387.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Email Accounts</title></rect><text x="1103.9583694396574" y="1403.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EA</text>
+<line x1="644" y1="1638" x2="619.9583694396574" y2="1662.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="595.9583694396574" y="1651.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Enrich</title></rect><text x="619.9583694396574" y="1667.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENR</text>
+<line x1="820" y1="1374" x2="844.0416305603426" y2="1349.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="820.0416305603426" y="1338.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Enrich</title></rect><text x="844.0416305603426" y="1354.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENR</text>
+<line x1="424" y1="2298" x2="424.0" y2="2332.0" stroke="#E07B12" stroke-width="7"/><rect x="400.0" y="2321.0" width="48" height="22" rx="5" fill="#E07B12"><title>Inbox</title></rect><text x="424.0" y="2337.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INB</text>
+<line x1="864" y1="2254" x2="864.0" y2="2288.0" stroke="#E07B12" stroke-width="7"/><rect x="840.0" y="2277.0" width="48" height="22" rx="5" fill="#E07B12"><title>Inbox</title></rect><text x="864.0" y="2293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INB</text>
+<rect x="746" y="925" width="60" height="26" rx="13" fill="#D6264F"/><text x="776" y="943" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">LEA</text>
+<line x1="1392" y1="846" x2="1416.0416305603426" y2="821.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="1392.0416305603426" y="810.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>lemwarm</title></rect><text x="1416.0416305603426" y="826.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LEM</text>
+<line x1="1304" y1="1066" x2="1304.0" y2="1100.0" stroke="#4A5568" stroke-width="7"/><rect x="1280.0" y="1089.0" width="48" height="22" rx="5" fill="#4A5568"><title>lemwarm</title></rect><text x="1304.0" y="1105.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LEM</text>
+<line x1="424" y1="1726" x2="460.7695526217005" y2="1762.7695526217005" stroke="#B8860B" stroke-width="7"/><rect x="436.7695526217005" y="1751.7695526217005" width="48" height="22" rx="5" fill="#B8860B"><title>People database</title></rect><text x="460.7695526217005" y="1767.7695526217005" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PD</text>
+<line x1="248" y1="1374" x2="214.0" y2="1374.0" stroke="#B8860B" stroke-width="7"/><rect x="190.0" y="1363.0" width="48" height="22" rx="5" fill="#B8860B"><title>People database</title></rect><text x="214.0" y="1379.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PD</text>
+<line x1="996" y1="1110" x2="971.9583694396574" y2="1085.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="947.9583694396574" y="1074.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Schedules</title></rect><text x="971.9583694396574" y="1090.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="1568" y1="1242" x2="1592.0416305603426" y2="1266.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1568.0416305603426" y="1255.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Schedules</title></rect><text x="1592.0416305603426" y="1271.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="952" y1="890" x2="927.9583694396574" y2="914.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="903.9583694396574" y="903.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Sequences</title></rect><text x="927.9583694396574" y="919.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEQ</text>
+<line x1="1348" y1="582" x2="1348.0" y2="548.0" stroke="#B0287F" stroke-width="7"/><rect x="1324.0" y="537.0" width="48" height="22" rx="5" fill="#B0287F"><title>Sequences</title></rect><text x="1348.0" y="553.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEQ</text>
+<line x1="160" y1="890" x2="126.0" y2="890.0" stroke="#7B3FE4" stroke-width="7"/><rect x="102.0" y="879.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Signal Agents</title></rect><text x="126.0" y="895.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="512" y1="670" x2="512.0" y2="636.0" stroke="#7B3FE4" stroke-width="7"/><rect x="488.0" y="625.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Signal Agents</title></rect><text x="512.0" y="641.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="1084" y1="1506" x2="1108.0416305603426" y2="1530.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1084.0416305603426" y="1519.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Tasks</title></rect><text x="1108.0416305603426" y="1535.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="908" y1="1506" x2="883.9583694396574" y2="1530.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="859.9583694396574" y="1519.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Tasks</title></rect><text x="883.9583694396574" y="1535.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="380" y1="1154" x2="355.95836943965736" y2="1129.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="331.95836943965736" y="1118.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Team</title></rect><text x="355.95836943965736" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="600" y1="1154" x2="624.0416305603426" y2="1129.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="600.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Team</title></rect><text x="624.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="2272" y1="1506" x2="2306.0" y2="1506.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2282.0" y="1495.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Unsubscribes</title></rect><text x="2306.0" y="1511.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UNS</text>
+<line x1="1656" y1="2342" x2="1680.0416305603426" y2="2366.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1656.0416305603426" y="2355.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Unsubscribes</title></rect><text x="1680.0416305603426" y="2371.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UNS</text>
+<line x1="864" y1="1110" x2="864.0" y2="1144.0" stroke="#E07B12" stroke-width="7"/><rect x="840.0" y="1133.0" width="48" height="22" rx="5" fill="#E07B12"><title>Webhooks</title></rect><text x="864.0" y="1149.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="732" y1="1066" x2="698.0" y2="1066.0" stroke="#E07B12" stroke-width="7"/><rect x="674.0" y="1055.0" width="48" height="22" rx="5" fill="#E07B12"><title>Webhooks</title></rect><text x="698.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1040" y1="626" x2="1064.0416305603426" y2="601.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1040.0416305603426" y="590.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Lemlist Local</title></rect><text x="1064.0416305603426" y="606.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LL</text>
+<line x1="820" y1="846" x2="795.9583694396574" y2="870.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="771.9583694396574" y="859.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Lemlist Local</title></rect><text x="795.9583694396574" y="875.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LL</text>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-activities-api/#op-getActivities" target="_blank" class="st" data-op="lemlist-activities-api:getActivities"><title>GET /activities/
+Lemlist Local line · getActivities</title>
+<circle cx="1040" cy="626" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1052" y="631" text-anchor="start" style="fill:#1A1F2C">List activities</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-activities-api/#op-deleteActivitiesByActivityIdRecordingTranscript" target="_blank" class="st" data-op="deleteActivitiesByActivityIdRecordingTranscript"><title>DELETE /activities/{activityId}/recording-transcript
+Lemlist Local line · deleteActivitiesByActivityIdRecordingTranscript</title>
+<circle cx="952" cy="714" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="948" y1="718" x2="956" y2="710" stroke="#1F5FD1" stroke-width="2"/>
+<text x="964" y="719" text-anchor="start" style="fill:#1A1F2C">Delete recording transcript</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaigns" target="_blank" class="st" data-op="getCampaigns"><title>GET /campaigns
+Campaigns line · getCampaigns</title>
+<circle cx="1172" cy="934" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1163.0" y="953" text-anchor="end" style="fill:#1A1F2C">List campaigns</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-postCampaigns" target="_blank" class="st" data-op="postCampaigns"><title>POST /campaigns
+Campaigns line · postCampaigns</title>
+<circle cx="1128" cy="934" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1134" y="922" transform="rotate(-45 1134 922)" style="fill:#1A1F2C">Create campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaignsByCampaignId" target="_blank" class="st" data-op="getCampaignsByCampaignId"><title>GET /campaigns/{campaignId}
+Campaigns line · getCampaignsByCampaignId</title>
+<circle cx="908" cy="934" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="896.0" y="939" text-anchor="end" style="fill:#1A1F2C">Get campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-patchCampaignsByCampaignId" target="_blank" class="st" data-op="patchCampaignsByCampaignId"><title>PATCH /campaigns/{campaignId}
+Campaigns line · patchCampaignsByCampaignId</title>
+<circle cx="908" cy="1242" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="920" y="1247" text-anchor="start" style="fill:#1A1F2C">Update campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-postCampaignsByCampaignIdPause" target="_blank" class="st" data-op="postCampaignsByCampaignIdPause"><title>POST /campaigns/{campaignId}/pause
+Campaigns line · postCampaignsByCampaignIdPause</title>
+<circle cx="688" cy="758" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="763" text-anchor="start" style="fill:#1A1F2C">Update pause</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaignsByCampaignIdExportStart" target="_blank" class="st" data-op="getCampaignsByCampaignIdExportStart"><title>GET /campaigns/{campaignId}/export/start
+Campaigns line · getCampaignsByCampaignIdExportStart</title>
+<circle cx="644" cy="978" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="656" y="983" text-anchor="start" style="fill:#1A1F2C">Start campaigns</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaignsByCampaignIdExportByExportIdStatus" target="_blank" class="st" data-op="getCampaignsByCampaignIdExportByExportIdStatus"><title>GET /campaigns/{campaignId}/export/{exportId}/status
+Campaigns line · getCampaignsByCampaignIdExportByExportIdStatus</title>
+<circle cx="688" cy="846" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="851" text-anchor="start" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaignsReports" target="_blank" class="st" data-op="getCampaignsReports"><title>GET /campaigns/reports
+Campaigns line · getCampaignsReports</title>
+<circle cx="864" cy="1242" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="858" y="1254" text-anchor="end" transform="rotate(-45 858 1254)" style="fill:#1A1F2C">List reports</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-putCampaignsByCampaignIdExportByExportIdEmailByEmail" target="_blank" class="st" data-op="putCampaignsByCampaignIdExportByExportIdEmailByEmail"><title>PUT /campaigns/{campaignId}/export/{exportId}/email/{email}
+Campaigns line · putCampaignsByCampaignIdExportByExportIdEmailByEmail</title>
+<circle cx="688" cy="934" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676.0" y="939" text-anchor="end" style="fill:#1A1F2C">Update email</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaignsByCampaignIdExportLeads" target="_blank" class="st" data-op="getCampaignsByCampaignIdExportLeads"><title>GET /campaigns/{campaignId}/export/leads
+Campaigns line · getCampaignsByCampaignIdExportLeads</title>
+<circle cx="644" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="656" y="1027" text-anchor="start" style="fill:#1A1F2C">List leads</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-postCampaignsByCampaignIdStart" target="_blank" class="st" data-op="postCampaignsByCampaignIdStart"><title>POST /campaigns/{campaignId}/start
+Campaigns line · postCampaignsByCampaignIdStart</title>
+<circle cx="688" cy="626" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="631" text-anchor="start" style="fill:#1A1F2C">Start campaigns</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getV2CampaignsByCampaignIdStats" target="_blank" class="st" data-op="lemlist-campaigns-api:getV2CampaignsByCampaignIdStats"><title>GET /v2/campaigns/{campaignId}/stats
+Campaigns line · getV2CampaignsByCampaignIdStats</title>
+<circle cx="688" cy="450" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="455" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-postV2CampaignsStatsBatch" target="_blank" class="st" data-op="postV2CampaignsStatsBatch"><title>POST /v2/campaigns/stats/batch
+Campaigns line · postV2CampaignsStatsBatch</title>
+<circle cx="688" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="235" text-anchor="start" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-postCampaignsByCampaignIdDuplicate" target="_blank" class="st" data-op="postCampaignsByCampaignIdDuplicate"><title>POST /campaigns/{campaignId}/duplicate
+Campaigns line · postCampaignsByCampaignIdDuplicate</title>
+<circle cx="820" cy="1242" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="808.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-campaigns-api/#op-getCampaignsByCampaignIdStatutes" target="_blank" class="st" data-op="getCampaignsByCampaignIdStatutes"><title>GET /campaigns/{campaignId}/statutes
+Campaigns line · getCampaignsByCampaignIdStatutes</title>
+<circle cx="688" cy="538" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="543" text-anchor="start" style="fill:#1A1F2C">List statutes</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-companies-api/#op-getCompanies" target="_blank" class="st" data-op="getCompanies"><title>GET /companies
+Companies line · getCompanies</title>
+<circle cx="468" cy="1726" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="474" y="1714" transform="rotate(-45 474 1714)" style="fill:#1A1F2C">List companies</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-companies-api/#op-postCompanies" target="_blank" class="st" data-op="postCompanies"><title>POST /companies
+Companies line · postCompanies</title>
+<circle cx="556" cy="1726" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="568" y="1731" text-anchor="start" style="fill:#1A1F2C">Create company</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-companies-api/#op-postCompaniesByCompanyIdNotes" target="_blank" class="st" data-op="postCompaniesByCompanyIdNotes"><title>POST /companies/{companyId}/notes
+Companies line · postCompaniesByCompanyIdNotes</title>
+<circle cx="468" cy="1594" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="480" y="1599" text-anchor="start" style="fill:#1A1F2C">Create note</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-companies-api/#op-getCompaniesByCompanyIdNotes" target="_blank" class="st" data-op="getCompaniesByCompanyIdNotes"><title>GET /companies/{companyId}/notes
+Companies line · getCompaniesByCompanyIdNotes</title>
+<circle cx="556" cy="1506" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="544.0" y="1511" text-anchor="end" style="fill:#1A1F2C">List notes</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-companies-api/#op-deleteCompaniesByCompanyId" target="_blank" class="st" data-op="deleteCompaniesByCompanyId"><title>DELETE /companies/{companyId}
+Companies line · deleteCompaniesByCompanyId</title>
+<circle cx="600" cy="1506" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="596" y1="1510" x2="604" y2="1502" stroke="#2E7D32" stroke-width="2"/>
+<text x="609" y="1496" text-anchor="start" style="fill:#1A1F2C">Delete company</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-getContactsByIdOrEmail" target="_blank" class="st" data-op="getContactsByIdOrEmail"><title>GET /contacts/{idOrEmail}
+Contacts line · getContactsByIdOrEmail</title>
+<circle cx="1524" cy="1638" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1512.0" y="1643" text-anchor="end" style="fill:#1A1F2C">Get contact</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-deleteContactsByIdOrEmail" target="_blank" class="st" data-op="deleteContactsByIdOrEmail"><title>DELETE /contacts/{idOrEmail}
+Contacts line · deleteContactsByIdOrEmail</title>
+<circle cx="1480" cy="1682" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1476" y1="1686" x2="1484" y2="1678" stroke="#0B7A75" stroke-width="2"/>
+<text x="1492" y="1687" text-anchor="start" style="fill:#1A1F2C">Delete contact</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-getContacts" target="_blank" class="st" data-op="getContacts"><title>GET /contacts
+Contacts line · getContacts</title>
+<circle cx="1700" cy="1726" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1712" y="1731" text-anchor="start" style="fill:#1A1F2C">List contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-postContacts" target="_blank" class="st" data-op="postContacts"><title>POST /contacts
+Contacts line · postContacts</title>
+<circle cx="1612" cy="1638" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1624" y="1643" text-anchor="start" style="fill:#1A1F2C">Create contact</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-getContactsLists" target="_blank" class="st" data-op="getContactsLists"><title>GET /contacts/lists
+Contacts line · getContactsLists</title>
+<circle cx="1304" cy="1594" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1310" y="1582" transform="rotate(-45 1310 1582)" style="fill:#1A1F2C">List lists</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-postContactsLists" target="_blank" class="st" data-op="postContactsLists"><title>POST /contacts/lists
+Contacts line · postContactsLists</title>
+<circle cx="1216" cy="1682" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1228" y="1687" text-anchor="start" style="fill:#1A1F2C">Create list</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-postContactsListsByListIdEntities" target="_blank" class="st" data-op="postContactsListsByListIdEntities"><title>POST /contacts/lists/{listId}/entities
+Contacts line · postContactsListsByListIdEntities</title>
+<circle cx="1216" cy="1814" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1228" y="1819" text-anchor="start" style="fill:#1A1F2C">Create entity</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-contacts-api/#op-getContactsExport" target="_blank" class="st" data-op="getContactsExport"><title>GET /contacts/export
+Contacts line · getContactsExport</title>
+<circle cx="1436" cy="1726" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1436" y="1749" text-anchor="middle" style="fill:#1A1F2C">Export contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-deliverability-alerts-api/#op-getDeliverabilityAlerts" target="_blank" class="st" data-op="getDeliverabilityAlerts"><title>GET /deliverability/alerts
+Deliverability alerts line · getDeliverabilityAlerts</title>
+<circle cx="1656" cy="1066" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1650" y="1078" text-anchor="end" transform="rotate(-45 1650 1078)" style="fill:#1A1F2C">List alerts</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-deliverability-alerts-api/#op-postDeliverabilityAlerts" target="_blank" class="st" data-op="postDeliverabilityAlerts"><title>POST /deliverability/alerts
+Deliverability alerts line · postDeliverabilityAlerts</title>
+<circle cx="1568" cy="1066" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1574" y="1054" transform="rotate(-45 1574 1054)" style="fill:#1A1F2C">Create alert</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-deliverability-alerts-api/#op-getDeliverabilityAlertsByAlertId" target="_blank" class="st" data-op="getDeliverabilityAlertsByAlertId"><title>GET /deliverability/alerts/{alertId}
+Deliverability alerts line · getDeliverabilityAlertsByAlertId</title>
+<circle cx="1480" cy="1066" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1468.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Get alert</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-deliverability-alerts-api/#op-patchDeliverabilityAlertsByAlertId" target="_blank" class="st" data-op="patchDeliverabilityAlertsByAlertId"><title>PATCH /deliverability/alerts/{alertId}
+Deliverability alerts line · patchDeliverabilityAlertsByAlertId</title>
+<circle cx="1480" cy="934" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1492" y="939" text-anchor="start" style="fill:#1A1F2C">Update alert</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-deliverability-alerts-api/#op-deleteDeliverabilityAlertsByAlertId" target="_blank" class="st" data-op="deleteDeliverabilityAlertsByAlertId"><title>DELETE /deliverability/alerts/{alertId}
+Deliverability alerts line · deleteDeliverabilityAlertsByAlertId</title>
+<circle cx="1568" cy="846" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1564" y1="850" x2="1572" y2="842" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1580" y="851" text-anchor="start" style="fill:#1A1F2C">Delete alert</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-email-accounts-api/#op-postUserEmailAccounts" target="_blank" class="st" data-op="postUserEmailAccounts"><title>POST /user/email-accounts
+Email Accounts line · postUserEmailAccounts</title>
+<circle cx="1216" cy="1286" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1204.0" y="1291" text-anchor="end" style="fill:#1A1F2C">Create email account</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-email-accounts-api/#op-deleteUserEmailAccountsByEmailAccountId" target="_blank" class="st" data-op="deleteUserEmailAccountsByEmailAccountId"><title>DELETE /user/email-accounts/{emailAccountId}
+Email Accounts line · deleteUserEmailAccountsByEmailAccountId</title>
+<circle cx="1172" cy="1330" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1168" y1="1334" x2="1176" y2="1326" stroke="#00838F" stroke-width="2"/>
+<text x="1160.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Delete email account</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-email-accounts-api/#op-postUserEmailAccountsByEmailAccountIdTest" target="_blank" class="st" data-op="postUserEmailAccountsByEmailAccountIdTest"><title>POST /user/email-accounts/{emailAccountId}/test
+Email Accounts line · postUserEmailAccountsByEmailAccountIdTest</title>
+<circle cx="1128" cy="1374" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1140" y="1379" text-anchor="start" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-enrich-api/#op-getEnrichByEnrichId" target="_blank" class="st" data-op="getEnrichByEnrichId"><title>GET /enrich/{enrichId}
+Enrich line · getEnrichByEnrichId</title>
+<circle cx="776" cy="1506" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="788" y="1511" text-anchor="start" style="fill:#1A1F2C">Get enrich</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-enrich-api/#op-postEnrich" target="_blank" class="st" data-op="postEnrich"><title>POST /enrich
+Enrich line · postEnrich</title>
+<circle cx="644" cy="1638" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="656" y="1643" text-anchor="start" style="fill:#1A1F2C">Update enrich</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-enrich-api/#op-postLeadsByLeadIdEnrich" target="_blank" class="st" data-op="postLeadsByLeadIdEnrich"><title>POST /leads/{leadId}/enrich
+Enrich line · postLeadsByLeadIdEnrich</title>
+<circle cx="776" cy="1418" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="788" y="1423" text-anchor="start" style="fill:#1A1F2C">Enrich leads <tspan font-weight="700" style="fill:#D6264F">⇄LEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-enrich-api/#op-postV2EnrichmentsBulk" target="_blank" class="st" data-op="postV2EnrichmentsBulk"><title>POST /v2/enrichments/bulk
+Enrich line · postV2EnrichmentsBulk</title>
+<circle cx="820" cy="1374" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="832" y="1379" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-fields-api/#op-getFields" target="_blank" class="st" data-op="getFields"><title>GET /fields
+Lemlist Local line · getFields</title>
+<circle cx="864" cy="802" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="876" y="807" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-getInbox" target="_blank" class="st" data-op="getInbox"><title>GET /inbox
+Inbox line · getInbox</title>
+<circle cx="424" cy="2298" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="436" y="2303" text-anchor="start" style="fill:#1A1F2C">Get inbox</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-getInboxByContactId" target="_blank" class="st" data-op="getInboxByContactId"><title>GET /inbox/{contactId}
+Inbox line · getInboxByContactId</title>
+<circle cx="424" cy="2210" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="436" y="2215" text-anchor="start" style="fill:#1A1F2C">Get inbox</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-postInboxEmail" target="_blank" class="st" data-op="postInboxEmail"><title>POST /inbox/email
+Inbox line · postInboxEmail</title>
+<circle cx="556" cy="1946" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="568" y="1951" text-anchor="start" style="fill:#1A1F2C">Update email</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-postInboxLinkedin" target="_blank" class="st" data-op="postInboxLinkedin"><title>POST /inbox/linkedin
+Inbox line · postInboxLinkedin</title>
+<circle cx="732" cy="1726" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="738" y="1714" transform="rotate(-45 738 1714)" style="fill:#1A1F2C">Update linkedin</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-postInboxWhatsapp" target="_blank" class="st" data-op="postInboxWhatsapp"><title>POST /inbox/whatsapp
+Inbox line · postInboxWhatsapp</title>
+<circle cx="776" cy="1770" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="788" y="1775" text-anchor="start" style="fill:#1A1F2C">Update whatsapp</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-getInboxLabels" target="_blank" class="st" data-op="getInboxLabels"><title>GET /inbox/labels
+Inbox line · getInboxLabels</title>
+<circle cx="600" cy="1902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="612" y="1907" text-anchor="start" style="fill:#1A1F2C">List labels</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-postInboxLabels" target="_blank" class="st" data-op="postInboxLabels"><title>POST /inbox/labels
+Inbox line · postInboxLabels</title>
+<circle cx="688" cy="1814" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="700" y="1819" text-anchor="start" style="fill:#1A1F2C">Create label</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-getInboxLabelsByLabelId" target="_blank" class="st" data-op="getInboxLabelsByLabelId"><title>GET /inbox/labels/{labelId}
+Inbox line · getInboxLabelsByLabelId</title>
+<circle cx="688" cy="1770" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="700" y="1775" text-anchor="start" style="fill:#1A1F2C">Get label</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-postInboxConversationsLabelsByContactId" target="_blank" class="st" data-op="postInboxConversationsLabelsByContactId"><title>POST /inbox/conversations/labels/{contactId}
+Inbox line · postInboxConversationsLabelsByContactId</title>
+<circle cx="424" cy="2078" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="436" y="2083" text-anchor="start" style="fill:#1A1F2C">Update label</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-deleteInboxConversationsLabelsByContactId" target="_blank" class="st" data-op="deleteInboxConversationsLabelsByContactId"><title>DELETE /inbox/conversations/labels/{contactId}
+Inbox line · deleteInboxConversationsLabelsByContactId</title>
+<circle cx="468" cy="2034" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="464" y1="2038" x2="472" y2="2030" stroke="#E07B12" stroke-width="2"/>
+<text x="480" y="2039" text-anchor="start" style="fill:#1A1F2C">Delete label</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-getInboxByContactIdDrafts" target="_blank" class="st" data-op="getInboxByContactIdDrafts"><title>GET /inbox/{contactId}/drafts
+Inbox line · getInboxByContactIdDrafts</title>
+<circle cx="864" cy="1858" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="876" y="1863" text-anchor="start" style="fill:#1A1F2C">List drafts</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-postInboxByContactIdDrafts" target="_blank" class="st" data-op="postInboxByContactIdDrafts"><title>POST /inbox/{contactId}/drafts
+Inbox line · postInboxByContactIdDrafts</title>
+<circle cx="864" cy="1946" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="876" y="1951" text-anchor="start" style="fill:#1A1F2C">Create draft</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-getInboxByContactIdDraftsByDraftId" target="_blank" class="st" data-op="getInboxByContactIdDraftsByDraftId"><title>GET /inbox/{contactId}/drafts/{draftId}
+Inbox line · getInboxByContactIdDraftsByDraftId</title>
+<circle cx="864" cy="2078" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="876" y="2083" text-anchor="start" style="fill:#1A1F2C">Get draft</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-patchInboxByContactIdDraftsByDraftId" target="_blank" class="st" data-op="patchInboxByContactIdDraftsByDraftId"><title>PATCH /inbox/{contactId}/drafts/{draftId}
+Inbox line · patchInboxByContactIdDraftsByDraftId</title>
+<circle cx="864" cy="2166" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="876" y="2171" text-anchor="start" style="fill:#1A1F2C">Update draft</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-inbox-api/#op-deleteInboxByContactIdDraftsByDraftId" target="_blank" class="st" data-op="deleteInboxByContactIdDraftsByDraftId"><title>DELETE /inbox/{contactId}/drafts/{draftId}
+Inbox line · deleteInboxByContactIdDraftsByDraftId</title>
+<circle cx="864" cy="2254" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="860" y1="2258" x2="868" y2="2250" stroke="#E07B12" stroke-width="2"/>
+<text x="876" y="2259" text-anchor="start" style="fill:#1A1F2C">Delete draft</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsStartByLeadId" target="_blank" class="st" data-op="postLeadsStartByLeadId"><title>POST /leads/start/{leadId}
+Leads line · postLeadsStartByLeadId</title>
+<circle cx="688" cy="1506" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="697" y="1496" text-anchor="start" style="fill:#1A1F2C">Update start</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsPauseByLeadId" target="_blank" class="st" data-op="postLeadsPauseByLeadId"><title>POST /leads/pause/{leadId}
+Leads line · postLeadsPauseByLeadId</title>
+<circle cx="864" cy="1682" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="873" y="1672" text-anchor="start" style="fill:#1A1F2C">Update pause</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsInterestedByLeadIdOrEmail" target="_blank" class="st" data-op="postLeadsInterestedByLeadIdOrEmail"><title>POST /leads/interested/{leadIdOrEmail}
+Leads line · postLeadsInterestedByLeadIdOrEmail</title>
+<circle cx="1040" cy="1682" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1046" y="1670" transform="rotate(-45 1046 1670)" style="fill:#1A1F2C">Update interested</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsNotinterestedByLeadIdOrEmail" target="_blank" class="st" data-op="postLeadsNotinterestedByLeadIdOrEmail"><title>POST /leads/notinterested/{leadIdOrEmail}
+Leads line · postLeadsNotinterestedByLeadIdOrEmail</title>
+<circle cx="952" cy="1682" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="958" y="1670" transform="rotate(-45 958 1670)" style="fill:#1A1F2C">Update notinterested</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postCampaignsByCampaignIdLeadsByLeadIdOrEmailInterested" target="_blank" class="st" data-op="postCampaignsByCampaignIdLeadsByLeadIdOrEmailInterested"><title>POST /campaigns/{campaignId}/leads/{leadIdOrEmail}/interested
+Leads line · postCampaignsByCampaignIdLeadsByLeadIdOrEmailInterested</title>
+<circle cx="1304" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="1335" text-anchor="start" style="fill:#1A1F2C">Update interested</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postCampaignsByCampaignIdLeadsByLeadIdOrEmailNotinterested" target="_blank" class="st" data-op="postCampaignsByCampaignIdLeadsByLeadIdOrEmailNotinterested"><title>POST /campaigns/{campaignId}/leads/{leadIdOrEmail}/notinterested
+Leads line · postCampaignsByCampaignIdLeadsByLeadIdOrEmailNotinterested</title>
+<circle cx="1304" cy="1418" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="1423" text-anchor="start" style="fill:#1A1F2C">Update notinterested</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-getLeadsByEmail" target="_blank" class="st" data-op="getLeadsByEmail"><title>GET /leads/{email}
+Leads line · getLeadsByEmail</title>
+<circle cx="688" cy="1418" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="700" y="1423" text-anchor="start" style="fill:#1A1F2C">Get lead</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-getLeads" target="_blank" class="st" data-op="getLeads"><title>GET /leads
+Leads line · getLeads</title>
+<circle cx="1216" cy="1594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1228" y="1599" text-anchor="start" style="fill:#1A1F2C">List leads</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postCampaignsByCampaignIdLeadsByEmail" target="_blank" class="st" data-op="postCampaignsByCampaignIdLeadsByEmail"><title>POST /campaigns/{campaignId}/leads/{email}
+Leads line · postCampaignsByCampaignIdLeadsByEmail</title>
+<circle cx="1128" cy="1066" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1071" text-anchor="start" style="fill:#1A1F2C">Update lead</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-deleteCampaignsByCampaignIdLeadsByEmail" target="_blank" class="st" data-op="deleteCampaignsByCampaignIdLeadsByEmail"><title>DELETE /campaigns/{campaignId}/leads/{email}
+Leads line · deleteCampaignsByCampaignIdLeadsByEmail</title>
+<circle cx="1304" cy="1242" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1300" y1="1246" x2="1308" y2="1238" stroke="#D6264F" stroke-width="2"/>
+<text x="1316" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete lead</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-patchCampaignsByCampaignIdLeadsByLeadId" target="_blank" class="st" data-op="patchCampaignsByCampaignIdLeadsByLeadId"><title>PATCH /campaigns/{campaignId}/leads/{leadId}
+Leads line · patchCampaignsByCampaignIdLeadsByLeadId</title>
+<circle cx="1216" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1228" y="1159" text-anchor="start" style="fill:#1A1F2C">Update lead</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsByLeadIdVariables" target="_blank" class="st" data-op="postLeadsByLeadIdVariables"><title>POST /leads/{leadId}/variables
+Leads line · postLeadsByLeadIdVariables</title>
+<circle cx="688" cy="1330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="676.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Create variable <tspan font-weight="700" style="fill:#2E7D32">⇄COM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-patchLeadsByLeadIdVariables" target="_blank" class="st" data-op="patchLeadsByLeadIdVariables"><title>PATCH /leads/{leadId}/variables
+Leads line · patchLeadsByLeadIdVariables</title>
+<circle cx="688" cy="1242" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Create variable</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-deleteLeadsByLeadIdVariables" target="_blank" class="st" data-op="deleteLeadsByLeadIdVariables"><title>DELETE /leads/{leadId}/variables
+Leads line · deleteLeadsByLeadIdVariables</title>
+<circle cx="776" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="772" y1="1158" x2="780" y2="1150" stroke="#D6264F" stroke-width="2"/>
+<text x="788" y="1152" text-anchor="start" style="fill:#1A1F2C">Delete<tspan x="788" dy="13">variable</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsAudio" target="_blank" class="st" data-op="postLeadsAudio"><title>POST /leads/audio
+Leads line · postLeadsAudio</title>
+<circle cx="1128" cy="1682" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1119.0" y="1701" text-anchor="end" style="fill:#1A1F2C">Update audio</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-getCrmFilters" target="_blank" class="st" data-op="getCrmFilters"><title>GET /crm/filters
+Leads line · getCrmFilters</title>
+<circle cx="1304" cy="1506" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="1511" text-anchor="start" style="fill:#1A1F2C">List filters</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postCampaignsByCampaignIdLeadsImport" target="_blank" class="st" data-op="postCampaignsByCampaignIdLeadsImport"><title>POST /campaigns/{campaignId}/leads/import
+Leads line · postCampaignsByCampaignIdLeadsImport</title>
+<circle cx="1040" cy="978" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1052" y="983" text-anchor="start" style="fill:#1A1F2C">Import campaigns leads</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-getCampaignsByCampaignIdLeads" target="_blank" class="st" data-op="getCampaignsByCampaignIdLeads"><title>GET /campaigns/{campaignId}/leads/
+Leads line · getCampaignsByCampaignIdLeads</title>
+<circle cx="776" cy="978" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="785" y="968" text-anchor="start" style="fill:#1A1F2C">List leads <tspan font-weight="700" style="fill:#1F5FD1">⇄CAM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postCampaignsByCampaignIdLeads" target="_blank" class="st" data-op="postCampaignsByCampaignIdLeads"><title>POST /campaigns/{campaignId}/leads/
+Leads line · postCampaignsByCampaignIdLeads</title>
+<circle cx="864" cy="978" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="858" y="990" text-anchor="end" transform="rotate(-45 858 990)" style="fill:#1A1F2C">Create lead</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-deleteCampaignsByCampaignIdLeads" target="_blank" class="st" data-op="deleteCampaignsByCampaignIdLeads"><title>DELETE /campaigns/{campaignId}/leads/
+Leads line · deleteCampaignsByCampaignIdLeads</title>
+<circle cx="952" cy="978" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="948" y1="982" x2="956" y2="974" stroke="#D6264F" stroke-width="2"/>
+<text x="952" y="964" text-anchor="middle" style="fill:#1A1F2C">Delete lead</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-leads-api/#op-postLeadsReviewByLeadId" target="_blank" class="st" data-op="postLeadsReviewByLeadId"><title>POST /leads/review/{leadId}
+Leads line · postLeadsReviewByLeadId</title>
+<circle cx="776" cy="1594" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="788" y="1599" text-anchor="start" style="fill:#1A1F2C">Update review</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-lemwarm-api/#op-postLemwarmByUserMailboxIdStart" target="_blank" class="st" data-op="postLemwarmByUserMailboxIdStart"><title>POST /lemwarm/{userMailboxId}/start
+lemwarm line · postLemwarmByUserMailboxIdStart</title>
+<circle cx="1304" cy="1066" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1316" y="1071" text-anchor="start" style="fill:#1A1F2C">Start lemwarm</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-lemwarm-api/#op-postLemwarmByUserMailboxIdPause" target="_blank" class="st" data-op="postLemwarmByUserMailboxIdPause"><title>POST /lemwarm/{userMailboxId}/pause
+lemwarm line · postLemwarmByUserMailboxIdPause</title>
+<circle cx="1392" cy="846" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1404" y="851" text-anchor="start" style="fill:#1A1F2C">Update pause</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-lemwarm-api/#op-getLemwarmByUserMailboxIdSettings" target="_blank" class="st" data-op="getLemwarmByUserMailboxIdSettings"><title>GET /lemwarm/{userMailboxId}/settings
+lemwarm line · getLemwarmByUserMailboxIdSettings</title>
+<circle cx="1304" cy="934" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1316" y="939" text-anchor="start" style="fill:#1A1F2C">List settings</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-lemwarm-api/#op-patchLemwarmByUserMailboxIdSettings" target="_blank" class="st" data-op="patchLemwarmByUserMailboxIdSettings"><title>PATCH /lemwarm/{userMailboxId}/settings
+lemwarm line · patchLemwarmByUserMailboxIdSettings</title>
+<circle cx="1304" cy="1022" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1316" y="1027" text-anchor="start" style="fill:#1A1F2C">Create setting</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-getDatabaseFilters" target="_blank" class="st" data-op="getDatabaseFilters"><title>GET /database/filters
+People database line · getDatabaseFilters</title>
+<circle cx="336" cy="1638" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="348" y="1643" text-anchor="start" style="fill:#1A1F2C">List filters</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-postDatabasePeople" target="_blank" class="st" data-op="postDatabasePeople"><title>POST /database/people
+People database line · postDatabasePeople</title>
+<circle cx="336" cy="1594" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="348" y="1599" text-anchor="start" style="fill:#1A1F2C">Update people</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-getSchemaPeople" target="_blank" class="st" data-op="getSchemaPeople"><title>GET /schema/people
+People database line · getSchemaPeople</title>
+<circle cx="248" cy="1374" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="254" y="1362" transform="rotate(-45 254 1362)" style="fill:#1A1F2C">Get people</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-postDatabaseCompanies" target="_blank" class="st" data-op="postDatabaseCompanies"><title>POST /database/companies
+People database line · postDatabaseCompanies</title>
+<circle cx="424" cy="1726" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="433" y="1745" text-anchor="start" style="fill:#1A1F2C">Create company</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-getSchemaCompanies" target="_blank" class="st" data-op="getSchemaCompanies"><title>GET /schema/companies
+People database line · getSchemaCompanies</title>
+<circle cx="380" cy="1374" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="371.0" y="1393" text-anchor="end" style="fill:#1A1F2C">List companies</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-listPersonas" target="_blank" class="st" data-op="listPersonas"><title>GET /database/personas
+People database line · listPersonas</title>
+<circle cx="468" cy="1462" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="480" y="1467" text-anchor="start" style="fill:#1A1F2C">List personas</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-createPersona" target="_blank" class="st" data-op="createPersona"><title>POST /database/personas
+People database line · createPersona</title>
+<circle cx="468" cy="1374" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="480" y="1379" text-anchor="start" style="fill:#1A1F2C">Create persona</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-people-database-api/#op-deletePersona" target="_blank" class="st" data-op="deletePersona"><title>DELETE /database/personas/{personaId}
+People database line · deletePersona</title>
+<circle cx="424" cy="1330" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="420" y1="1334" x2="428" y2="1326" stroke="#B8860B" stroke-width="2"/>
+<text x="430" y="1318" transform="rotate(-45 430 1318)" style="fill:#1A1F2C">Delete persona</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-getSchedules" target="_blank" class="st" data-op="getSchedules"><title>GET /schedules
+Schedules line · getSchedules</title>
+<circle cx="1084" cy="1198" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1072.0" y="1203" text-anchor="end" style="fill:#1A1F2C">List schedules</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-postSchedules" target="_blank" class="st" data-op="postSchedules"><title>POST /schedules
+Schedules line · postSchedules</title>
+<circle cx="1348" cy="1198" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1360" y="1203" text-anchor="start" style="fill:#1A1F2C">Create schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-getSchedulesByScheduleId" target="_blank" class="st" data-op="getSchedulesByScheduleId"><title>GET /schedules/{scheduleId}
+Schedules line · getSchedulesByScheduleId</title>
+<circle cx="1392" cy="1154" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1380.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-patchSchedulesByScheduleId" target="_blank" class="st" data-op="patchSchedulesByScheduleId"><title>PATCH /schedules/{scheduleId}
+Schedules line · patchSchedulesByScheduleId</title>
+<circle cx="1480" cy="1154" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1492" y="1159" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-deleteSchedulesByScheduleId" target="_blank" class="st" data-op="deleteSchedulesByScheduleId"><title>DELETE /schedules/{scheduleId}
+Schedules line · deleteSchedulesByScheduleId</title>
+<circle cx="1568" cy="1242" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1564" y1="1246" x2="1572" y2="1238" stroke="#C2410C" stroke-width="2"/>
+<text x="1580" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-getCampaignsByCampaignIdSchedules" target="_blank" class="st" data-op="getCampaignsByCampaignIdSchedules"><title>GET /campaigns/{campaignId}/schedules/
+Schedules line · getCampaignsByCampaignIdSchedules</title>
+<circle cx="996" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1008" y="1115" text-anchor="start" style="fill:#1A1F2C">List schedules <tspan font-weight="700" style="fill:#1F5FD1">⇄CAM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-schedules-api/#op-postCampaignsByCampaignIdSchedulesByScheduleId" target="_blank" class="st" data-op="postCampaignsByCampaignIdSchedulesByScheduleId"><title>POST /campaigns/{campaignId}/schedules/{scheduleId}
+Schedules line · postCampaignsByCampaignIdSchedulesByScheduleId</title>
+<circle cx="1040" cy="1154" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1052" y="1159" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-getCampaignsByCampaignIdSequences" target="_blank" class="st" data-op="getCampaignsByCampaignIdSequences"><title>GET /campaigns/{campaignId}/sequences
+Sequences line · getCampaignsByCampaignIdSequences</title>
+<circle cx="952" cy="890" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="964" y="895" text-anchor="start" style="fill:#1A1F2C">List sequences</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-postSequencesBySequenceIdSteps" target="_blank" class="st" data-op="postSequencesBySequenceIdSteps"><title>POST /sequences/{sequenceId}/steps
+Sequences line · postSequencesBySequenceIdSteps</title>
+<circle cx="996" cy="846" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1008" y="851" text-anchor="start" style="fill:#1A1F2C">Create step</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-patchSequencesBySequenceIdStepsByStepId" target="_blank" class="st" data-op="patchSequencesBySequenceIdStepsByStepId"><title>PATCH /sequences/{sequenceId}/steps/{stepId}
+Sequences line · patchSequencesBySequenceIdStepsByStepId</title>
+<circle cx="1040" cy="802" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1028.0" y="807" text-anchor="end" style="fill:#1A1F2C">Update step</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-deleteSequencesBySequenceIdStepsByStepId" target="_blank" class="st" data-op="deleteSequencesBySequenceIdStepsByStepId"><title>DELETE /sequences/{sequenceId}/steps/{stepId}
+Sequences line · deleteSequencesBySequenceIdStepsByStepId</title>
+<circle cx="1128" cy="802" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1124" y1="806" x2="1132" y2="798" stroke="#B0287F" stroke-width="2"/>
+<text x="1134" y="790" transform="rotate(-45 1134 790)" style="fill:#1A1F2C">Delete step</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-postSequencesBySequenceIdStepsByStepIdAbTest" target="_blank" class="st" data-op="postSequencesBySequenceIdStepsByStepIdAbTest"><title>POST /sequences/{sequenceId}/steps/{stepId}/ab-test
+Sequences line · postSequencesBySequenceIdStepsByStepIdAbTest</title>
+<circle cx="1260" cy="802" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1272" y="807" text-anchor="start" style="fill:#1A1F2C">Update ab test</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-getSequencesBySequenceIdStepsByStepIdAbTest" target="_blank" class="st" data-op="getSequencesBySequenceIdStepsByStepIdAbTest"><title>GET /sequences/{sequenceId}/steps/{stepId}/ab-test
+Sequences line · getSequencesBySequenceIdStepsByStepIdAbTest</title>
+<circle cx="1216" cy="802" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="790" transform="rotate(-45 1222 790)" style="fill:#1A1F2C">Get ab test</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-patchSequencesBySequenceIdStepsByStepIdAbTest" target="_blank" class="st" data-op="patchSequencesBySequenceIdStepsByStepIdAbTest"><title>PATCH /sequences/{sequenceId}/steps/{stepId}/ab-test
+Sequences line · patchSequencesBySequenceIdStepsByStepIdAbTest</title>
+<circle cx="1304" cy="758" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1316" y="763" text-anchor="start" style="fill:#1A1F2C">Update ab test</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-deleteSequencesBySequenceIdStepsByStepIdAbTest" target="_blank" class="st" data-op="deleteSequencesBySequenceIdStepsByStepIdAbTest"><title>DELETE /sequences/{sequenceId}/steps/{stepId}/ab-test
+Sequences line · deleteSequencesBySequenceIdStepsByStepIdAbTest</title>
+<circle cx="1348" cy="714" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1344" y1="718" x2="1352" y2="710" stroke="#B0287F" stroke-width="2"/>
+<text x="1360" y="719" text-anchor="start" style="fill:#1A1F2C">Delete ab test</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-sequences-api/#op-postSequencesBySequenceIdStepsByStepIdAbTestWinner" target="_blank" class="st" data-op="postSequencesBySequenceIdStepsByStepIdAbTestWinner"><title>POST /sequences/{sequenceId}/steps/{stepId}/ab-test/winner
+Sequences line · postSequencesBySequenceIdStepsByStepIdAbTestWinner</title>
+<circle cx="1348" cy="582" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1360" y="587" text-anchor="start" style="fill:#1A1F2C">Update winner</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-getWatchlistSignals" target="_blank" class="st" data-op="getWatchlistSignals"><title>GET /watchlist/signals
+Signal Agents line · getWatchlistSignals</title>
+<circle cx="512" cy="758" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="524" y="763" text-anchor="start" style="fill:#1A1F2C">List signals</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-postWatchlistByWatchListIdExternalSignals" target="_blank" class="st" data-op="postWatchlistByWatchListIdExternalSignals"><title>POST /watchlist/{watchListId}/external-signals
+Signal Agents line · postWatchlistByWatchListIdExternalSignals</title>
+<circle cx="512" cy="670" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="524" y="675" text-anchor="start" style="fill:#1A1F2C">Create external signal</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-getWatchlist" target="_blank" class="st" data-op="getWatchlist"><title>GET /watchlist
+Signal Agents line · getWatchlist</title>
+<circle cx="160" cy="890" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="166" y="878" transform="rotate(-45 166 878)" style="fill:#1A1F2C">Get watchlist</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-postWatchlist" target="_blank" class="st" data-op="postWatchlist"><title>POST /watchlist
+Signal Agents line · postWatchlist</title>
+<circle cx="248" cy="890" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="254" y="878" transform="rotate(-45 254 878)" style="fill:#1A1F2C">Update watchlist</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-patchWatchlist" target="_blank" class="st" data-op="patchWatchlist"><title>PATCH /watchlist
+Signal Agents line · patchWatchlist</title>
+<circle cx="336" cy="890" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="348" y="895" text-anchor="start" style="fill:#1A1F2C">Update watchlist</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-deleteWatchlist" target="_blank" class="st" data-op="deleteWatchlist"><title>DELETE /watchlist
+Signal Agents line · deleteWatchlist</title>
+<circle cx="468" cy="1022" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="464" y1="1026" x2="472" y2="1018" stroke="#7B3FE4" stroke-width="2"/>
+<text x="456.0" y="1027" text-anchor="end" style="fill:#1A1F2C">Delete watchlist</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-getWatchlistHistory" target="_blank" class="st" data-op="getWatchlistHistory"><title>GET /watchlist/history
+Signal Agents line · getWatchlistHistory</title>
+<circle cx="556" cy="934" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="544.0" y="939" text-anchor="end" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-getWatchlistLibrary" target="_blank" class="st" data-op="getWatchlistLibrary"><title>GET /watchlist/library
+Signal Agents line · getWatchlistLibrary</title>
+<circle cx="512" cy="890" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="524" y="895" text-anchor="start" style="fill:#1A1F2C">Get library</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-getWatchlistFilters" target="_blank" class="st" data-op="getWatchlistFilters"><title>GET /watchlist/filters
+Signal Agents line · getWatchlistFilters</title>
+<circle cx="556" cy="978" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="544.0" y="983" text-anchor="end" style="fill:#1A1F2C">List filters</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-signal-agents-api/#op-getWatchlistFilterValues" target="_blank" class="st" data-op="getWatchlistFilterValues"><title>GET /watchlist/filter-values
+Signal Agents line · getWatchlistFilterValues</title>
+<circle cx="512" cy="1022" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="524" y="1027" text-anchor="start" style="fill:#1A1F2C">List filter values</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-stats-api/#op-getV2CampaignsByCampaignIdStats" target="_blank" class="st" data-op="lemlist-stats-api:getV2CampaignsByCampaignIdStats"><title>GET /v2/campaigns/{campaignId}/stats
+Campaigns line · getV2CampaignsByCampaignIdStats</title>
+<circle cx="688" cy="318" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="700" y="323" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-tasks-api/#op-getTasks" target="_blank" class="st" data-op="getTasks"><title>GET /tasks
+Tasks line · getTasks</title>
+<circle cx="1084" cy="1506" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1511" text-anchor="start" style="fill:#1A1F2C">List tasks</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-tasks-api/#op-postTasks" target="_blank" class="st" data-op="postTasks"><title>POST /tasks
+Tasks line · postTasks</title>
+<circle cx="1040" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1052" y="1467" text-anchor="start" style="fill:#1A1F2C">Create task</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-tasks-api/#op-patchTasks" target="_blank" class="st" data-op="patchTasks"><title>PATCH /tasks
+Tasks line · patchTasks</title>
+<circle cx="952" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="940.0" y="1467" text-anchor="end" style="fill:#1A1F2C">Create task</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-tasks-api/#op-postTasksIgnore" target="_blank" class="st" data-op="postTasksIgnore"><title>POST /tasks/ignore
+Tasks line · postTasksIgnore</title>
+<circle cx="908" cy="1506" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="920" y="1511" text-anchor="start" style="fill:#1A1F2C">Update ignore</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-team-api/#op-getTeam" target="_blank" class="st" data-op="getTeam"><title>GET /team
+Team line · getTeam</title>
+<circle cx="380" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="392" y="1159" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-team-api/#op-getTeamSenders" target="_blank" class="st" data-op="getTeamSenders"><title>GET /team/senders
+Team line · getTeamSenders</title>
+<circle cx="600" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="612" y="1159" text-anchor="start" style="fill:#1A1F2C">List senders</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-team-api/#op-getTeamCredits" target="_blank" class="st" data-op="getTeamCredits"><title>GET /team/credits
+Team line · getTeamCredits</title>
+<circle cx="468" cy="1242" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="456.0" y="1247" text-anchor="end" style="fill:#1A1F2C">List credits</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-team-api/#op-getTeamCrmUsers" target="_blank" class="st" data-op="getTeamCrmUsers"><title>GET /team/crmUsers
+Team line · getTeamCrmUsers</title>
+<circle cx="512" cy="1242" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="521" y="1261" text-anchor="start" style="fill:#1A1F2C">List crmusers</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getUnsubscribes" target="_blank" class="st" data-op="lemlist-unsubscribes-api:getUnsubscribes"><title>GET /unsubscribes/
+Unsubscribes line · getUnsubscribes</title>
+<circle cx="2184" cy="1506" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2190" y="1494" transform="rotate(-45 2190 1494)" style="fill:#1A1F2C">List unsubscribes</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getUnsubsExport" target="_blank" class="st" data-op="getUnsubsExport"><title>GET /unsubs/export
+Unsubscribes line · getUnsubsExport</title>
+<circle cx="2272" cy="1506" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2266" y="1518" text-anchor="end" transform="rotate(-45 2266 1518)" style="fill:#1A1F2C">Export unsubs</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getUnsubscribesJohnDoe@domainCom" target="_blank" class="st" data-op="getUnsubscribesJohnDoe@domainCom"><title>GET /unsubscribes/john.doe@domain.com
+Unsubscribes line · getUnsubscribesJohnDoe@domainCom</title>
+<circle cx="1788" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1800" y="1555" text-anchor="start" style="fill:#1A1F2C">Get john.doe@domain.com</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-postUnsubscribesJohnDoe@domainCom" target="_blank" class="st" data-op="postUnsubscribesJohnDoe@domainCom"><title>POST /unsubscribes/john.doe@domain.com
+Unsubscribes line · postUnsubscribesJohnDoe@domainCom</title>
+<circle cx="1656" cy="1550" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1662" y="1538" transform="rotate(-45 1662 1538)" style="fill:#1A1F2C">Update john.doe@domain.com</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-deleteUnsubscribesJohnDoe@domainCom" target="_blank" class="st" data-op="deleteUnsubscribesJohnDoe@domainCom"><title>DELETE /unsubscribes/john.doe@domain.com
+Unsubscribes line · deleteUnsubscribesJohnDoe@domainCom</title>
+<circle cx="1568" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1564" y1="1554" x2="1572" y2="1546" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1556.0" y="1555" text-anchor="end" style="fill:#1A1F2C">Delete john.doe@domain.com</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getV2UnsubscribesVariables" target="_blank" class="st" data-op="getV2UnsubscribesVariables"><title>GET /v2/unsubscribes/variables
+Unsubscribes line · getV2UnsubscribesVariables</title>
+<circle cx="1436" cy="1946" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1448" y="1951" text-anchor="start" style="fill:#1A1F2C">List variables</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-postV2UnsubscribesVariables" target="_blank" class="st" data-op="postV2UnsubscribesVariables"><title>POST /v2/unsubscribes/variables
+Unsubscribes line · postV2UnsubscribesVariables</title>
+<circle cx="1436" cy="2034" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1448" y="2039" text-anchor="start" style="fill:#1A1F2C">Create variable</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getV2UnsubscribesVariablesByValue" target="_blank" class="st" data-op="getV2UnsubscribesVariablesByValue"><title>GET /v2/unsubscribes/variables/{value}
+Unsubscribes line · getV2UnsubscribesVariablesByValue</title>
+<circle cx="1436" cy="2122" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1448" y="2127" text-anchor="start" style="fill:#1A1F2C">Get variable</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-postV2UnsubscribesVariablesByValue" target="_blank" class="st" data-op="postV2UnsubscribesVariablesByValue"><title>POST /v2/unsubscribes/variables/{value}
+Unsubscribes line · postV2UnsubscribesVariablesByValue</title>
+<circle cx="1568" cy="2254" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1580" y="2259" text-anchor="start" style="fill:#1A1F2C">Update variable</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-deleteV2UnsubscribesVariablesByValue" target="_blank" class="st" data-op="deleteV2UnsubscribesVariablesByValue"><title>DELETE /v2/unsubscribes/variables/{value}
+Unsubscribes line · deleteV2UnsubscribesVariablesByValue</title>
+<circle cx="1656" cy="2342" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1652" y1="2346" x2="1660" y2="2338" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1668" y="2347" text-anchor="start" style="fill:#1A1F2C">Delete variable</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getV2UnsubscribesContactsByContactId" target="_blank" class="st" data-op="getV2UnsubscribesContactsByContactId"><title>GET /v2/unsubscribes/contacts/{contactId}
+Unsubscribes line · getV2UnsubscribesContactsByContactId</title>
+<circle cx="1524" cy="1594" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1536" y="1599" text-anchor="start" style="fill:#1A1F2C">Get contact</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-postV2UnsubscribesContactsByContactId" target="_blank" class="st" data-op="postV2UnsubscribesContactsByContactId"><title>POST /v2/unsubscribes/contacts/{contactId}
+Unsubscribes line · postV2UnsubscribesContactsByContactId</title>
+<circle cx="1436" cy="1594" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1424.0" y="1599" text-anchor="end" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-deleteV2UnsubscribesContactsByContactId" target="_blank" class="st" data-op="deleteV2UnsubscribesContactsByContactId"><title>DELETE /v2/unsubscribes/contacts/{contactId}
+Unsubscribes line · deleteV2UnsubscribesContactsByContactId</title>
+<circle cx="1304" cy="1726" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1300" y1="1730" x2="1308" y2="1722" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1316" y="1731" text-anchor="start" style="fill:#1A1F2C">Delete contact</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getV2UnsubscribesExportsVariables" target="_blank" class="st" data-op="getV2UnsubscribesExportsVariables"><title>GET /v2/unsubscribes/exports/variables
+Unsubscribes line · getV2UnsubscribesExportsVariables</title>
+<circle cx="1436" cy="1858" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1448" y="1863" text-anchor="start" style="fill:#1A1F2C">List variables</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getV2UnsubscribesExportsContacts" target="_blank" class="st" data-op="getV2UnsubscribesExportsContacts"><title>GET /v2/unsubscribes/exports/contacts
+Unsubscribes line · getV2UnsubscribesExportsContacts</title>
+<circle cx="1392" cy="1814" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1404" y="1819" text-anchor="start" style="fill:#1A1F2C">List contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-getUnsubscribesByEmail" target="_blank" class="st" data-op="getUnsubscribesByEmail"><title>GET /unsubscribes/{email}
+Unsubscribes line · getUnsubscribesByEmail
+DEPRECATED</title>
+<circle cx="2096" cy="1506" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2102" y="1494" transform="rotate(-45 2102 1494)" style="fill:#A0A7B4">Get unsubscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-postUnsubscribesByEmail" target="_blank" class="st" data-op="postUnsubscribesByEmail"><title>POST /unsubscribes/{email}
+Unsubscribes line · postUnsubscribesByEmail
+DEPRECATED</title>
+<circle cx="1964" cy="1506" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1970" y="1494" transform="rotate(-45 1970 1494)" style="fill:#A0A7B4">Update unsubscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-unsubscribes-api/#op-deleteUnsubscribesByEmail" target="_blank" class="st" data-op="deleteUnsubscribesByEmail"><title>DELETE /unsubscribes/{email}
+Unsubscribes line · deleteUnsubscribesByEmail
+DEPRECATED</title>
+<circle cx="1832" cy="1506" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1841" y="1496" text-anchor="start" style="fill:#A0A7B4">Delete unsubscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-users-api/#op-getUsersByUserId" target="_blank" class="st" data-op="getUsersByUserId"><title>GET /users/{userId}
+Lemlist Local line · getUsersByUserId</title>
+<circle cx="820" cy="846" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="832" y="851" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-users-api/#op-getUserChannels" target="_blank" class="st" data-op="getUserChannels"><title>GET /user/channels
+Email Accounts line · getUserChannels</title>
+<circle cx="1436" cy="1286" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1427.0" y="1276" text-anchor="end" style="fill:#1A1F2C">List channels</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-webhooks-api/#op-getHooks" target="_blank" class="st" data-op="getHooks"><title>GET /hooks
+Webhooks line · getHooks</title>
+<circle cx="864" cy="1110" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="852.0" y="1115" text-anchor="end" style="fill:#1A1F2C">List hooks</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-webhooks-api/#op-postHooks" target="_blank" class="st" data-op="postHooks"><title>POST /hooks
+Webhooks line · postHooks</title>
+<circle cx="864" cy="1066" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="873" y="1056" text-anchor="start" style="fill:#1A1F2C">Create hook</text>
+</a>
+<a href="https://apis.apis.io/apis/lemlist/lemlist-webhooks-api/#op-deleteHooksByHookId" target="_blank" class="st" data-op="deleteHooksByHookId"><title>DELETE /hooks/{hookId}
+Webhooks line · deleteHooksByHookId</title>
+<circle cx="732" cy="1066" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="728" y1="1070" x2="736" y2="1062" stroke="#E07B12" stroke-width="2"/>
+<text x="741" y="1056" text-anchor="start" style="fill:#1A1F2C">Delete hook</text>
+</a>
+<text x="2462" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2462" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">LEMLIST</text>
+<rect x="2462" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2479" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LEA</text><text x="2504" y="269" font-size="11" fill="#1A1F2C">Leads <tspan fill="#8A93A6">21</tspan></text>
+<rect x="2462" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2479" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UNS</text><text x="2504" y="286" font-size="11" fill="#1A1F2C">Unsubscribes <tspan fill="#8A93A6">18</tspan></text>
+<rect x="2462" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2479" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAM</text><text x="2504" y="303" font-size="11" fill="#1A1F2C">Campaigns <tspan fill="#8A93A6">16</tspan></text>
+<rect x="2462" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2479" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INB</text><text x="2504" y="320" font-size="11" fill="#1A1F2C">Inbox <tspan fill="#8A93A6">15</tspan></text>
+<rect x="2462" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2479" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="2504" y="337" font-size="11" fill="#1A1F2C">Signal Agents <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2462" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2479" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEQ</text><text x="2504" y="354" font-size="11" fill="#1A1F2C">Sequences <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2462" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2479" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2504" y="371" font-size="11" fill="#1A1F2C">Contacts <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2462" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2479" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PD</text><text x="2504" y="388" font-size="11" fill="#1A1F2C">People database <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2462" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2479" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCH</text><text x="2504" y="405" font-size="11" fill="#1A1F2C">Schedules <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2462" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2479" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="2504" y="422" font-size="11" fill="#1A1F2C">Companies <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2462" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2479" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DA</text><text x="2504" y="439" font-size="11" fill="#1A1F2C">Deliverability alerts <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2462" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="2479" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EA</text><text x="2504" y="456" font-size="11" fill="#1A1F2C">Email Accounts <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2462" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2479" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENR</text><text x="2504" y="473" font-size="11" fill="#1A1F2C">Enrich <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2462" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="2479" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LEM</text><text x="2504" y="490" font-size="11" fill="#1A1F2C">lemwarm <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2462" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="2479" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAS</text><text x="2504" y="507" font-size="11" fill="#1A1F2C">Tasks <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2462" y="514" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2479" y="524" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="2504" y="524" font-size="11" fill="#1A1F2C">Team <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2462" y="531" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2479" y="541" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LL</text><text x="2504" y="541" font-size="11" fill="#1A1F2C">Lemlist Local <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2462" y="548" width="34" height="13" rx="3" fill="#E07B12"/><text x="2479" y="558" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2504" y="558" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">3</tspan></text>
+<text x="2712" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2730,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2756" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2730,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2756" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2730,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2756" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2730,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2756" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2730,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2756" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2730,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2756" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2730,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2756" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2730,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2756" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2712" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2712" y="463" font-size="10.5" fill="#5A6275">“Activities” → Lemlist Local line · 2 ops</text>
+<text x="2712" y="478" font-size="10.5" fill="#5A6275">“Fields” → Lemlist Local line · 1 op</text>
+<text x="2712" y="493" font-size="10.5" fill="#5A6275">“Stats” → Campaigns line · 1 op</text>
+<text x="2712" y="508" font-size="10.5" fill="#5A6275">“Users” → Email Accounts line · 1 op</text>
+<text x="2712" y="523" font-size="10.5" fill="#5A6275">“Users” → Lemlist Local line · 1 op</text>
+<text x="2712" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2712" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2472" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/lemlist/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

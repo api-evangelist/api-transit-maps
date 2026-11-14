@@ -1,0 +1,785 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3464 3540" width="3464" height="3540" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3464" height="3540" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Stax API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">131 operations as stops · 16 tags as lines · 5 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1672" y1="818" x2="1672" y2="860" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1672" y1="818" x2="1672" y2="860" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2176" y1="1532" x2="2134" y2="1532" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2176" y1="1532" x2="2134" y2="1532" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1420" y1="1700" x2="1462" y2="1742" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1420" y1="1700" x2="1462" y2="1742" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Customer" d="M412.0,818.0 L412.0,902.0 L412.0,986.0 L412.0,1056.0 Q412.0,1070.0 402.1,1079.9 L370.0,1112.0 L328.0,1154.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Customer</title></path>
+<path class="line" data-line="File" d="M1882.0,860.0 L1798.0,860.0 L1686.0,860.0 Q1672.0,860.0 1672.0,874.0 L1672.0,944.0 L1672.0,1028.0 L1672.0,1112.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>File</title></path>
+<path class="line" data-line="File{id}" d="M1546.0,1826.0" fill="none" stroke="#8e820c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>File{id}</title></path>
+<path class="line" data-line="Invoice" d="M1840.0,2414.0 L1756.0,2414.0 L1686.0,2414.0 Q1672.0,2414.0 1662.1,2423.9 L1555.9,2530.1 Q1546.0,2540.0 1546.0,2554.0 L1546.0,2652.0 Q1546.0,2666.0 1555.9,2675.9 L1578.1,2698.1 Q1588.0,2708.0 1588.0,2722.0 L1588.0,2834.0 L1588.0,2918.0 L1588.0,3002.0 L1588.0,3128.0 L1588.0,3212.0 L1588.0,3296.0 L1588.0,3380.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invoice</title></path>
+<path class="line" data-line="Item" d="M2134.0,2330.0 L2059.9,2255.9 Q2050.0,2246.0 2036.0,2246.0 L2008.0,2246.0 L1938.0,2246.0 Q1924.0,2246.0 1924.0,2260.0 L1924.0,2316.0 Q1924.0,2330.0 1933.9,2339.9 L2008.0,2414.0 L2040.1,2446.1 Q2050.0,2456.0 2050.0,2470.0 L2050.0,2582.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Item</title></path>
+<path class="line" data-line="Merchant" d="M1462.0,230.0 L1462.0,314.0 L1462.0,398.0 L1462.0,524.0 L1462.0,594.0 Q1462.0,608.0 1471.9,617.9 L1546.0,692.0 L1588.0,734.0 L1662.1,808.1 Q1672.0,818.0 1681.9,808.1 L1756.0,734.0 L1840.0,650.0 L1924.0,566.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Merchant</title></path>
+<path class="line" data-line="Payment Method" d="M160.0,1238.0 L244.0,1238.0 L314.0,1238.0 Q328.0,1238.0 328.0,1252.0 L328.0,1280.0 L328.0,1350.0 Q328.0,1364.0 314.0,1364.0 L202.0,1364.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Method</title></path>
+<path class="line" data-line="Query" d="M2680.0,2498.0 L2596.0,2498.0 L2526.0,2498.0 Q2512.0,2498.0 2502.1,2488.1 L2428.0,2414.0 L2353.9,2339.9 Q2344.0,2330.0 2330.0,2330.0 L2316.0,2330.0 Q2302.0,2330.0 2292.1,2320.1 L2218.0,2246.0 L2143.9,2171.9 Q2134.0,2162.0 2134.0,2148.0 L2134.0,2092.0 Q2134.0,2078.0 2143.9,2068.1 L2166.1,2045.9 Q2176.0,2036.0 2190.0,2036.0 L2218.0,2036.0 L2302.0,2036.0 L2428.0,2036.0 L2512.0,2036.0 L2596.0,2036.0 L2680.0,2036.0 L2764.0,2036.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query</title></path>
+<path class="line" data-line="Self" d="M2470.0,1280.0 L2386.0,1280.0 L2316.0,1280.0 Q2302.0,1280.0 2292.1,1289.9 L2185.9,1396.1 Q2176.0,1406.0 2176.0,1420.0 L2176.0,1518.0 Q2176.0,1532.0 2185.9,1541.9 L2260.0,1616.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Self</title></path>
+<path class="line" data-line="Team" d="M748.0,2456.0 L832.0,2372.0 L916.0,2288.0 L990.1,2213.9 Q1000.0,2204.0 1014.0,2204.0 L1084.0,2204.0 L1154.0,2204.0 Q1168.0,2204.0 1177.9,2213.9 L1242.1,2278.1 Q1252.0,2288.0 1252.0,2302.0 L1252.0,2316.0 Q1252.0,2330.0 1242.1,2339.9 L1168.0,2414.0 L1093.9,2488.1 Q1084.0,2498.0 1084.0,2512.0 L1084.0,2582.0 L1084.0,2666.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Team</title></path>
+<path class="line" data-line="Terminal" d="M1420.0,1700.0 L1504.0,1700.0 L1574.0,1700.0 Q1588.0,1700.0 1597.9,1709.9 L1672.0,1784.0 L1746.1,1858.1 Q1756.0,1868.0 1756.0,1882.0 L1756.0,1952.0 L1756.0,2022.0 Q1756.0,2036.0 1746.1,2045.9 L1681.9,2110.1 Q1672.0,2120.0 1658.0,2120.0 L1588.0,2120.0 L1518.0,2120.0 Q1504.0,2120.0 1494.1,2110.1 L1429.9,2045.9 Q1420.0,2036.0 1420.0,2022.0 L1420.0,1952.0 L1420.0,1868.0 L1420.0,1700.0" fill="none" stroke="#1F5FD1" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Terminal</title></path>
+<path class="line" data-line="Transaction" d="M1378.0,2792.0 L1378.0,2708.0 L1378.0,2624.0 L1378.0,2554.0 Q1378.0,2540.0 1387.9,2530.1 L1462.0,2456.0 L1536.1,2381.9 Q1546.0,2372.0 1555.9,2381.9 L1672.0,2498.0 L1714.0,2540.0 L1788.1,2614.1 Q1798.0,2624.0 1798.0,2638.0 L1798.0,2708.0 L1798.0,2792.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transaction</title></path>
+<path class="line" data-line="Underwriting" d="M1294.0,2120.0 L1364.0,2120.0 Q1378.0,2120.0 1387.9,2129.9 L1410.1,2152.1 Q1420.0,2162.0 1420.0,2176.0 L1420.0,2316.0 Q1420.0,2330.0 1410.1,2339.9 L1336.0,2414.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Underwriting</title></path>
+<path class="line" data-line="Webhook" d="M1840.0,2120.0 L1756.0,2204.0 L1672.0,2288.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhook</title></path>
+<path class="line" data-line="Webhookadmin" d="M1126.0,2078.0 L1168.0,2036.0 L1210.0,1994.0 L1294.0,1910.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhookadmin</title></path>
+<path class="line" data-line="More Local" d="M1588.0,1952.0 L1471.9,1835.9 Q1462.0,1826.0 1462.0,1812.0 L1462.0,1756.0 Q1462.0,1742.0 1471.9,1751.9 L1578.1,1858.1 Q1588.0,1868.0 1602.0,1868.0 L1658.0,1868.0 Q1672.0,1868.0 1681.9,1858.1 L1746.1,1793.9 Q1756.0,1784.0 1770.0,1784.0 L1840.0,1784.0 L1952.0,1784.0 Q1966.0,1784.0 1975.9,1774.1 L2050.0,1700.0 L2124.1,1625.9 Q2134.0,1616.0 2134.0,1602.0 L2134.0,1532.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="412" y1="818" x2="412.0" y2="784.0" stroke="#2E7D32" stroke-width="7"/><rect x="388.0" y="773.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Customer</title></rect><text x="412.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="328" y1="1154" x2="303.95836943965736" y2="1178.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="279.95836943965736" y="1167.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Customer</title></rect><text x="303.95836943965736" y="1183.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="1882" y1="860" x2="1916.0" y2="860.0" stroke="#B8860B" stroke-width="7"/><rect x="1892.0" y="849.0" width="48" height="22" rx="5" fill="#B8860B"><title>File</title></rect><text x="1916.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIL</text>
+<line x1="1672" y1="1112" x2="1672.0" y2="1146.0" stroke="#B8860B" stroke-width="7"/><rect x="1648.0" y="1135.0" width="48" height="22" rx="5" fill="#B8860B"><title>File</title></rect><text x="1672.0" y="1151.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIL</text>
+<line x1="1546" y1="1826" x2="1580.0" y2="1826.0" stroke="#8e820c" stroke-width="7"/><rect x="1556.0" y="1815.0" width="48" height="22" rx="5" fill="#8e820c"><title>File{id}</title></rect><text x="1580.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FI</text>
+<line x1="1546" y1="1826" x2="1546.0" y2="1856.0" stroke="#8e820c" stroke-width="7"/><rect x="1522.0" y="1845.0" width="48" height="22" rx="5" fill="#8e820c"><title>File{id}</title></rect><text x="1546.0" y="1861.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FI</text>
+<line x1="1840" y1="2414" x2="1874.0" y2="2414.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1850.0" y="2403.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Invoice</title></rect><text x="1874.0" y="2419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="1588" y1="3380" x2="1588.0" y2="3414.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1564.0" y="3403.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Invoice</title></rect><text x="1588.0" y="3419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="2134" y1="2330" x2="2158.0416305603426" y2="2354.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="2134.0416305603426" y="2343.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Item</title></rect><text x="2158.0416305603426" y="2359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ITE</text>
+<line x1="2050" y1="2582" x2="2050.0" y2="2616.0" stroke="#0B7A75" stroke-width="7"/><rect x="2026.0" y="2605.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Item</title></rect><text x="2050.0" y="2621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ITE</text>
+<line x1="1462" y1="230" x2="1462.0" y2="196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1438.0" y="185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Merchant</title></rect><text x="1462.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MER</text>
+<line x1="1924" y1="566" x2="1948.0416305603426" y2="541.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1924.0416305603426" y="530.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Merchant</title></rect><text x="1948.0416305603426" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MER</text>
+<line x1="160" y1="1238" x2="126.0" y2="1238.0" stroke="#5C6BC0" stroke-width="7"/><rect x="102.0" y="1227.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Payment Method</title></rect><text x="126.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PM</text>
+<line x1="202" y1="1364" x2="168.0" y2="1364.0" stroke="#5C6BC0" stroke-width="7"/><rect x="144.0" y="1353.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Payment Method</title></rect><text x="168.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PM</text>
+<line x1="2680" y1="2498" x2="2714.0" y2="2498.0" stroke="#D6264F" stroke-width="7"/><rect x="2690.0" y="2487.0" width="48" height="22" rx="5" fill="#D6264F"><title>Query</title></rect><text x="2714.0" y="2503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="2764" y1="2036" x2="2798.0" y2="2036.0" stroke="#D6264F" stroke-width="7"/><rect x="2774.0" y="2025.0" width="48" height="22" rx="5" fill="#D6264F"><title>Query</title></rect><text x="2798.0" y="2041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="2470" y1="1280" x2="2504.0" y2="1280.0" stroke="#C2410C" stroke-width="7"/><rect x="2480.0" y="1269.0" width="48" height="22" rx="5" fill="#C2410C"><title>Self</title></rect><text x="2504.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEL</text>
+<line x1="2260" y1="1616" x2="2284.0416305603426" y2="1640.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="2260.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Self</title></rect><text x="2284.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEL</text>
+<line x1="748" y1="2456" x2="723.9583694396574" y2="2480.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="699.9583694396574" y="2469.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Team</title></rect><text x="723.9583694396574" y="2485.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1084" y1="2666" x2="1084.0" y2="2700.0" stroke="#E07B12" stroke-width="7"/><rect x="1060.0" y="2689.0" width="48" height="22" rx="5" fill="#E07B12"><title>Team</title></rect><text x="1084.0" y="2705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<rect x="1390" y="1647" width="60" height="26" rx="13" fill="#1F5FD1"/><text x="1420" y="1665" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">TER</text>
+<line x1="1378" y1="2792" x2="1378.0" y2="2826.0" stroke="#B0287F" stroke-width="7"/><rect x="1354.0" y="2815.0" width="48" height="22" rx="5" fill="#B0287F"><title>Transaction</title></rect><text x="1378.0" y="2831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1798" y1="2792" x2="1798.0" y2="2826.0" stroke="#B0287F" stroke-width="7"/><rect x="1774.0" y="2815.0" width="48" height="22" rx="5" fill="#B0287F"><title>Transaction</title></rect><text x="1798.0" y="2831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1294" y1="2120" x2="1260.0" y2="2120.0" stroke="#B0287F" stroke-width="7"/><rect x="1236.0" y="2109.0" width="48" height="22" rx="5" fill="#B0287F"><title>Underwriting</title></rect><text x="1260.0" y="2125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UND</text>
+<line x1="1336" y1="2414" x2="1311.9583694396574" y2="2438.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1287.9583694396574" y="2427.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Underwriting</title></rect><text x="1311.9583694396574" y="2443.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UND</text>
+<line x1="1840" y1="2120" x2="1864.0416305603426" y2="2095.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1840.0416305603426" y="2084.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Webhook</title></rect><text x="1864.0416305603426" y="2100.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WBH</text>
+<line x1="1672" y1="2288" x2="1647.9583694396574" y2="2312.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1623.9583694396574" y="2301.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Webhook</title></rect><text x="1647.9583694396574" y="2317.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WBH</text>
+<line x1="1126" y1="2078" x2="1101.9583694396574" y2="2102.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1077.9583694396574" y="2091.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Webhookadmin</title></rect><text x="1101.9583694396574" y="2107.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1294" y1="1910" x2="1318.0416305603426" y2="1885.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1294.0416305603426" y="1874.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Webhookadmin</title></rect><text x="1318.0416305603426" y="1890.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1588" y1="1952" x2="1612.0416305603426" y2="1976.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1588.0416305603426" y="1965.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1612.0416305603426" y="1981.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="2134" y1="1532" x2="2134.0" y2="1498.0" stroke="#D6264F" stroke-width="7"/><rect x="2110.0" y="1487.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2134.0" y="1503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/stax/stax-admin-api/#op-enroll-a-merchant" target="_blank" class="st" data-op="enroll-a-merchant"><title>POST /admin/enroll
+More Local line · enroll-a-merchant</title>
+<circle cx="1588" cy="1952" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1957" text-anchor="start" style="fill:#1A1F2C">Update enroll</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-charge-api/#op-charge-a-payment-method" target="_blank" class="st" data-op="charge-a-payment-method"><title>POST /charge
+More Local line · charge-a-payment-method</title>
+<circle cx="1462" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1474" y="1747" text-anchor="start" style="fill:#1A1F2C">Update charge</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-credit-api/#op-credit-a-payment-method" target="_blank" class="st" data-op="credit-a-payment-method"><title>POST /credit
+More Local line · credit-a-payment-method</title>
+<circle cx="1672" cy="1868" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1666" y="1880" text-anchor="end" transform="rotate(-45 1666 1880)" style="fill:#1A1F2C">Update credit</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-customer-api/#op-create-customer" target="_blank" class="st" data-op="create-customer"><title>POST /customer
+Customer line · create-customer</title>
+<circle cx="412" cy="902" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="424" y="907" text-anchor="start" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-customer-api/#op-find-all-customers" target="_blank" class="st" data-op="find-all-customers"><title>GET /customer
+Customer line · find-all-customers</title>
+<circle cx="412" cy="818" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="424" y="823" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-customer-api/#op-delete-a-customer" target="_blank" class="st" data-op="delete-a-customer"><title>DELETE /customer/{id}
+Customer line · delete-a-customer</title>
+<circle cx="370" cy="1112" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="366" y1="1116" x2="374" y2="1108" stroke="#2E7D32" stroke-width="2"/>
+<text x="382" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete customer</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-customer-api/#op-get-a-customers-information" target="_blank" class="st" data-op="get-a-customers-information"><title>GET /customer/{id}
+Customer line · get-a-customers-information</title>
+<circle cx="412" cy="986" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="424" y="991" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-customer-api/#op-update-customer-info" target="_blank" class="st" data-op="update-customer-info"><title>PUT /customer/{id}
+Customer line · update-customer-info</title>
+<circle cx="412" cy="1070" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="424" y="1075" text-anchor="start" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-customer-api/#op-get-all-payment-methods-for-a-customer" target="_blank" class="st" data-op="get-all-payment-methods-for-a-customer"><title>GET /customer/{customerId}/payment-method
+Customer line · get-all-payment-methods-for-a-customer</title>
+<circle cx="328" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="340" y="1159" text-anchor="start" style="fill:#1A1F2C">Get payment method <tspan font-weight="700" style="fill:#5C6BC0">⇄PM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-ephemeral-api/#op-ephemeral-authentication-tokens-1" target="_blank" class="st" data-op="ephemeral-authentication-tokens-1"><title>GET /ephemeral
+More Local line · ephemeral-authentication-tokens-1</title>
+<circle cx="1756" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1765" y="1774" text-anchor="start" style="fill:#1A1F2C">Get ephemeral</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-api/#op-post_file" target="_blank" class="st" data-op="post_file"><title>POST /file
+File line · post_file</title>
+<circle cx="1798" cy="860" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1804" y="848" transform="rotate(-45 1804 848)" style="fill:#1A1F2C">Update file</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-api/#op-get_file" target="_blank" class="st" data-op="get_file"><title>GET /file
+File line · get_file</title>
+<circle cx="1882" cy="860" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1876" y="872" text-anchor="end" transform="rotate(-45 1876 872)" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-api/#op-delete-evidence-for-dispute" target="_blank" class="st" data-op="delete-evidence-for-dispute"><title>DELETE /file/dispute/{evidenceFileId}
+File line · delete-evidence-for-dispute</title>
+<circle cx="1672" cy="1112" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1668" y1="1116" x2="1676" y2="1108" stroke="#B8860B" stroke-width="2"/>
+<text x="1684" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-api/#op-put_file{id}" target="_blank" class="st" data-op="put_file{id}"><title>PUT /file/{id}
+File line · put_file{id}</title>
+<circle cx="1672" cy="944" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1684" y="949" text-anchor="start" style="fill:#1A1F2C">Update file</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-api/#op-get_file{id}" target="_blank" class="st" data-op="get_file{id}"><title>GET /file/{id}
+File line · get_file{id}</title>
+<circle cx="1672" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1660.0" y="865" text-anchor="end" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-api/#op-upload-evidence-for-dispute" target="_blank" class="st" data-op="upload-evidence-for-dispute"><title>POST /file/dispute
+File line · upload-evidence-for-dispute</title>
+<circle cx="1672" cy="1028" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1684" y="1033" text-anchor="start" style="fill:#1A1F2C">Update dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-file-id-api/#op-delete_file{id}" target="_blank" class="st" data-op="delete_file{id}"><title>DELETE /file{id}
+File{id} line · delete_file{id}</title>
+<circle cx="1546" cy="1826" r="5.5" fill="#fff" stroke="#8e820c" stroke-width="2.5"/>
+<line x1="1542" y1="1830" x2="1550" y2="1822" stroke="#8e820c" stroke-width="2"/>
+<text x="1534.0" y="1824" text-anchor="end" style="fill:#1A1F2C">Delete<tspan x="1534.0" dy="13">file{id}</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-forgot-api/#op-initiate-password-reset" target="_blank" class="st" data-op="initiate-password-reset"><title>POST /forgot
+More Local line · initiate-password-reset</title>
+<circle cx="1840" cy="1784" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1834" y="1796" text-anchor="end" transform="rotate(-45 1834 1796)" style="fill:#1A1F2C">Update forgot</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-createScheduledInvoice" target="_blank" class="st" data-op="createScheduledInvoice"><title>POST /invoice/schedule/
+Invoice line · createScheduledInvoice</title>
+<circle cx="1588" cy="2834" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="2839" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-create-an-invoice" target="_blank" class="st" data-op="create-an-invoice"><title>POST /invoice
+Invoice line · create-an-invoice</title>
+<circle cx="1756" cy="2414" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1762" y="2402" transform="rotate(-45 1762 2402)" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-get-all-invoices" target="_blank" class="st" data-op="get-all-invoices"><title>GET /invoice
+Invoice line · get-all-invoices</title>
+<circle cx="1840" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1834" y="2426" text-anchor="end" transform="rotate(-45 1834 2426)" style="fill:#1A1F2C">Get invoice <tspan font-weight="700" style="fill:#5C6BC0">⇄PM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-delete-an-invoice" target="_blank" class="st" data-op="delete-an-invoice"><title>DELETE /invoice/{id}
+Invoice line · delete-an-invoice</title>
+<circle cx="1546" cy="2666" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1542" y1="2670" x2="1550" y2="2662" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1558" y="2671" text-anchor="start" style="fill:#1A1F2C">Delete invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-get-an-invoice" target="_blank" class="st" data-op="get-an-invoice"><title>GET /invoice/{id}
+Invoice line · get-an-invoice</title>
+<circle cx="1672" cy="2414" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1681" y="2404" text-anchor="start" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-update-an-invoice" target="_blank" class="st" data-op="update-an-invoice"><title>PUT /invoice/{id}
+Invoice line · update-an-invoice</title>
+<circle cx="1546" cy="2540" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1558" y="2545" text-anchor="start" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-delete-invoice-schedule" target="_blank" class="st" data-op="delete-invoice-schedule"><title>DELETE /invoice/schedule/{id}
+Invoice line · delete-invoice-schedule</title>
+<circle cx="1588" cy="3002" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1584" y1="3006" x2="1592" y2="2998" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1600" y="3007" text-anchor="start" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-editInvoiceSchedule" target="_blank" class="st" data-op="editInvoiceSchedule"><title>PUT /invoice/schedule/{id}
+Invoice line · editInvoiceSchedule</title>
+<circle cx="1588" cy="2918" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="2923" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-mark-an-invoice-paid-in-cash-or-check" target="_blank" class="st" data-op="mark-an-invoice-paid-in-cash-or-check"><title>POST /invoice/{id}/pay/{method}
+Invoice line · mark-an-invoice-paid-in-cash-or-check</title>
+<circle cx="1588" cy="3212" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="3217" text-anchor="start" style="fill:#1A1F2C">Update pay</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-pay-an-invoice" target="_blank" class="st" data-op="pay-an-invoice"><title>POST /invoice/{id}/pay
+Invoice line · pay-an-invoice</title>
+<circle cx="1588" cy="3128" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="3133" text-anchor="start" style="fill:#1A1F2C">Pay invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-retrieve-all-scheduled-invoices" target="_blank" class="st" data-op="retrieve-all-scheduled-invoices"><title>GET /invoice/schedule
+Invoice line · retrieve-all-scheduled-invoices</title>
+<circle cx="1588" cy="2708" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="2713" text-anchor="start" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-send-an-invoice-via-email" target="_blank" class="st" data-op="send-an-invoice-via-email"><title>PUT /invoice/{id}/send/email
+Invoice line · send-an-invoice-via-email</title>
+<circle cx="1588" cy="3296" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="3301" text-anchor="start" style="fill:#1A1F2C">Update email</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-invoice-api/#op-send-an-invoice-via-sms" target="_blank" class="st" data-op="send-an-invoice-via-sms"><title>PUT /invoice/{id}/send/sms
+Invoice line · send-an-invoice-via-sms</title>
+<circle cx="1588" cy="3380" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="3385" text-anchor="start" style="fill:#1A1F2C">Create sm</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-create-catalog-item" target="_blank" class="st" data-op="create-catalog-item"><title>POST /item
+Item line · create-catalog-item</title>
+<circle cx="2050" cy="2246" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2062" y="2251" text-anchor="start" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-retrieve-all-catalog-items" target="_blank" class="st" data-op="retrieve-all-catalog-items"><title>GET /item
+Item line · retrieve-all-catalog-items</title>
+<circle cx="2134" cy="2330" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2122.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Get item</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-decrement-items-stock" target="_blank" class="st" data-op="decrement-items-stock"><title>PUT /item/{id}/decrement
+Item line · decrement-items-stock</title>
+<circle cx="2050" cy="2456" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2062" y="2461" text-anchor="start" style="fill:#1A1F2C">Update decrement</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-delete-a-catalog-item" target="_blank" class="st" data-op="delete-a-catalog-item"><title>DELETE /item/{id}
+Item line · delete-a-catalog-item</title>
+<circle cx="1924" cy="2330" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1920" y1="2334" x2="1928" y2="2326" stroke="#0B7A75" stroke-width="2"/>
+<text x="1936" y="2335" text-anchor="start" style="fill:#1A1F2C">Delete item</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-retrieve-an-item-by-id" target="_blank" class="st" data-op="retrieve-an-item-by-id"><title>GET /item/{id}
+Item line · retrieve-an-item-by-id</title>
+<circle cx="2008" cy="2246" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2014" y="2234" transform="rotate(-45 2014 2234)" style="fill:#1A1F2C">Get item</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-update-an-item" target="_blank" class="st" data-op="update-an-item"><title>PUT /item/{id}
+Item line · update-an-item</title>
+<circle cx="1924" cy="2246" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1912.0" y="2251" text-anchor="end" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-increment-items-stock" target="_blank" class="st" data-op="increment-items-stock"><title>PUT /item/{id}/increment
+Item line · increment-items-stock</title>
+<circle cx="2050" cy="2582" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2062" y="2587" text-anchor="start" style="fill:#1A1F2C">Update increment</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-item-api/#op-retrieve-all-item-codes" target="_blank" class="st" data-op="retrieve-all-item-codes"><title>GET /item/code
+Item line · retrieve-all-item-codes</title>
+<circle cx="2008" cy="2414" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2020" y="2419" text-anchor="start" style="fill:#1A1F2C">Get code</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-add-file-to-merchant-registration" target="_blank" class="st" data-op="add-file-to-merchant-registration"><title>POST /merchant/{id}/registration/file
+Merchant line · add-file-to-merchant-registration</title>
+<circle cx="1672" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1672" y="841" text-anchor="middle" style="fill:#1A1F2C">Update file</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-create-a-merchant" target="_blank" class="st" data-op="create-a-merchant"><title>POST /merchant
+Merchant line · create-a-merchant</title>
+<circle cx="1462" cy="314" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="319" text-anchor="start" style="fill:#1A1F2C">Update merchant</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-get-all-merchants" target="_blank" class="st" data-op="get-all-merchants"><title>GET /merchant
+Merchant line · get-all-merchants</title>
+<circle cx="1462" cy="230" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="235" text-anchor="start" style="fill:#1A1F2C">Get merchant</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-create-a-new-api-key-for-merchant" target="_blank" class="st" data-op="create-a-new-api-key-for-merchant"><title>POST /merchant/{id}/apikey
+Merchant line · create-a-new-api-key-for-merchant</title>
+<circle cx="1462" cy="608" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="613" text-anchor="start" style="fill:#1A1F2C">Update apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-list-api-keys-for-merchant" target="_blank" class="st" data-op="list-api-keys-for-merchant"><title>GET /merchant/{id}/apikey
+Merchant line · list-api-keys-for-merchant</title>
+<circle cx="1462" cy="524" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="529" text-anchor="start" style="fill:#1A1F2C">Get apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-delete-file-from-merchant-registration" target="_blank" class="st" data-op="delete-file-from-merchant-registration"><title>DELETE /merchant/{id}/registration/file/{file_id}
+Merchant line · delete-file-from-merchant-registration</title>
+<circle cx="1756" cy="734" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1752" y1="738" x2="1760" y2="730" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1768" y="739" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-get-merchant-by-id" target="_blank" class="st" data-op="get-merchant-by-id"><title>GET /merchant/{merchant_id}
+Merchant line · get-merchant-by-id</title>
+<circle cx="1462" cy="398" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="403" text-anchor="start" style="fill:#1A1F2C">Get merchant</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-get-merchant-registration-data" target="_blank" class="st" data-op="get-merchant-registration-data"><title>GET /merchant/{id}/registration
+Merchant line · get-merchant-registration-data</title>
+<circle cx="1546" cy="692" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1558" y="697" text-anchor="start" style="fill:#1A1F2C">Get registration</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-update-merchant-registration-data" target="_blank" class="st" data-op="update-merchant-registration-data"><title>PUT /merchant/{id}/registration
+Merchant line · update-merchant-registration-data</title>
+<circle cx="1588" cy="734" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1600" y="739" text-anchor="start" style="fill:#1A1F2C">Update registration</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-link-existing-user-to-merchant" target="_blank" class="st" data-op="link-existing-user-to-merchant"><title>POST /merchant/{merchant_id}/user/{user_id}
+Merchant line · link-existing-user-to-merchant</title>
+<circle cx="1840" cy="650" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1852" y="655" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-merchant-api/#op-unlink-user-from-merchant" target="_blank" class="st" data-op="unlink-user-from-merchant"><title>DELETE /merchant/{merchant_id}/user/{user_id}
+Merchant line · unlink-user-from-merchant</title>
+<circle cx="1924" cy="566" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1920" y1="570" x2="1928" y2="562" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1936" y="571" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-payment-method-api/#op-create-a-payment-method-copy" target="_blank" class="st" data-op="create-a-payment-method-copy"><title>POST /payment-method
+Payment Method line · create-a-payment-method-copy</title>
+<circle cx="244" cy="1238" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="238" y="1250" text-anchor="end" transform="rotate(-45 238 1250)" style="fill:#1A1F2C">Update payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-payment-method-api/#op-get-all-payment-methods-for-a-merchant" target="_blank" class="st" data-op="get-all-payment-methods-for-a-merchant"><title>GET /payment-method
+Payment Method line · get-all-payment-methods-for-a-merchant</title>
+<circle cx="160" cy="1238" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="166" y="1226" transform="rotate(-45 166 1226)" style="fill:#1A1F2C">Get payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-payment-method-api/#op-delete-a-payment-method" target="_blank" class="st" data-op="delete-a-payment-method"><title>DELETE /payment-method/{id}
+Payment Method line · delete-a-payment-method</title>
+<circle cx="328" cy="1364" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="324" y1="1368" x2="332" y2="1360" stroke="#5C6BC0" stroke-width="2"/>
+<text x="340" y="1369" text-anchor="start" style="fill:#1A1F2C">Delete payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-payment-method-api/#op-get-a-payment-method-by-id" target="_blank" class="st" data-op="get-a-payment-method-by-id"><title>GET /payment-method/{id}
+Payment Method line · get-a-payment-method-by-id</title>
+<circle cx="328" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="340" y="1243" text-anchor="start" style="fill:#1A1F2C">Get payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-payment-method-api/#op-update-a-payment-method" target="_blank" class="st" data-op="update-a-payment-method"><title>PUT /payment-method/{id}
+Payment Method line · update-a-payment-method</title>
+<circle cx="328" cy="1280" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="340" y="1285" text-anchor="start" style="fill:#1A1F2C">Update payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-payment-method-api/#op-share-a-payment-method-with-a-third-party" target="_blank" class="st" data-op="share-a-payment-method-with-a-third-party"><title>POST /payment_method/{payment_method_id}/external_vault
+Payment Method line · share-a-payment-method-with-a-third-party</title>
+<circle cx="202" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="208" y="1352" transform="rotate(-45 208 1352)" style="fill:#1A1F2C">Update external vault</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-ach-rejections" target="_blank" class="st" data-op="ach-rejections"><title>GET /query/statement/v3/ach-rejects
+Query line · ach-rejections</title>
+<circle cx="2176" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2164.0" y="2041" text-anchor="end" style="fill:#1A1F2C">List ach rejects</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-card-processing" target="_blank" class="st" data-op="card-processing"><title>GET /query/statement/v3/volumes/card-processing
+Query line · card-processing</title>
+<circle cx="2596" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2602" y="2024" transform="rotate(-45 2602 2024)" style="fill:#1A1F2C">Get card processing</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-create-a-payment-link" target="_blank" class="st" data-op="create-a-payment-link"><title>POST /query/payment-links
+Query line · create-a-payment-link</title>
+<circle cx="2428" cy="2414" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2440" y="2419" text-anchor="start" style="fill:#1A1F2C">Create payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-list-and-filter-all-payment-links" target="_blank" class="st" data-op="list-and-filter-all-payment-links"><title>GET /query/payment-links
+Query line · list-and-filter-all-payment-links</title>
+<circle cx="2512" cy="2498" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2500.0" y="2503" text-anchor="end" style="fill:#1A1F2C">List payment links</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-daily-sales" target="_blank" class="st" data-op="daily-sales"><title>GET /query/statement/v3/daily-sales
+Query line · daily-sales</title>
+<circle cx="2302" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2308" y="2024" transform="rotate(-45 2308 2024)" style="fill:#1A1F2C">List daily sales</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-delete-a-payment-link" target="_blank" class="st" data-op="delete-a-payment-link"><title>DELETE /query/payment-links/{id}
+Query line · delete-a-payment-link</title>
+<circle cx="2218" cy="2246" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2214" y1="2250" x2="2222" y2="2242" stroke="#D6264F" stroke-width="2"/>
+<text x="2230" y="2251" text-anchor="start" style="fill:#1A1F2C">Delete payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-get-a-payment-links-information" target="_blank" class="st" data-op="get-a-payment-links-information"><title>GET /query/payment-links/{id}
+Query line · get-a-payment-links-information</title>
+<circle cx="2344" cy="2330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2356" y="2335" text-anchor="start" style="fill:#1A1F2C">Get payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-update-a-payment-link" target="_blank" class="st" data-op="update-a-payment-link"><title>PUT /query/payment-links/{id}
+Query line · update-a-payment-link</title>
+<circle cx="2302" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2290.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Update payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-disputes" target="_blank" class="st" data-op="disputes"><title>GET /query/statement/v3/disputes
+Query line · disputes</title>
+<circle cx="2428" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2434" y="2024" transform="rotate(-45 2434 2024)" style="fill:#1A1F2C">List disputes</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-get-a-payment-links-active-status" target="_blank" class="st" data-op="get-a-payment-links-active-status"><title>GET /query/payment-links/{id}/is-active
+Query line · get-a-payment-links-active-status</title>
+<circle cx="2134" cy="2162" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="2167" text-anchor="start" style="fill:#1A1F2C">Get is active</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-get-detail-of-specific-deposit" target="_blank" class="st" data-op="get-detail-of-specific-deposit"><title>GET /query/depositDetail
+Query line · get-detail-of-specific-deposit</title>
+<circle cx="2596" cy="2498" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2602" y="2486" transform="rotate(-45 2602 2486)" style="fill:#1A1F2C">Get depositdetail</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-get-list-of-deposits" target="_blank" class="st" data-op="get-list-of-deposits"><title>GET /query/deposit
+Query line · get-list-of-deposits</title>
+<circle cx="2680" cy="2498" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2674" y="2510" text-anchor="end" transform="rotate(-45 2674 2510)" style="fill:#1A1F2C">Get deposit</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-refund-and-adjustments" target="_blank" class="st" data-op="refund-and-adjustments"><title>GET /query/statement/v3/adjustments
+Query line · refund-and-adjustments</title>
+<circle cx="2218" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2224" y="2024" transform="rotate(-45 2224 2024)" style="fill:#1A1F2C">List adjustments</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-surcharging-1" target="_blank" class="st" data-op="surcharging-1"><title>GET /query/statement/v3/surcharges
+Query line · surcharging-1</title>
+<circle cx="2512" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2518" y="2024" transform="rotate(-45 2518 2024)" style="fill:#1A1F2C">List surcharges</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-team-summary" target="_blank" class="st" data-op="team-summary"><title>GET /query/statistics/teamSummary
+Query line · team-summary</title>
+<circle cx="2764" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2758" y="2048" text-anchor="end" transform="rotate(-45 2758 2048)" style="fill:#1A1F2C">Get teamsummary</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-update-a-payment-links-stats" target="_blank" class="st" data-op="update-a-payment-links-stats"><title>PUT /query/payment-links/{id}/update-stats
+Query line · update-a-payment-links-stats</title>
+<circle cx="2134" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="2083" text-anchor="start" style="fill:#1A1F2C">Create update stat</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-query-api/#op-volumes-by-card-type" target="_blank" class="st" data-op="volumes-by-card-type"><title>GET /query/statement/v3/volumes/card-type
+Query line · volumes-by-card-type</title>
+<circle cx="2680" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2686" y="2024" transform="rotate(-45 2686 2024)" style="fill:#1A1F2C">Get card type</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-reset-api/#op-reset-password" target="_blank" class="st" data-op="reset-password"><title>POST /reset/{token}
+More Local line · reset-password</title>
+<circle cx="2050" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2062" y="1705" text-anchor="start" style="fill:#1A1F2C">Update reset</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-reset-api/#op-verify-password-reset-token" target="_blank" class="st" data-op="verify-password-reset-token"><title>GET /reset/{token}
+More Local line · verify-password-reset-token</title>
+<circle cx="1966" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1978" y="1789" text-anchor="start" style="fill:#1A1F2C">Get reset</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-self-api/#op-check-if-e-mail-exists" target="_blank" class="st" data-op="check-if-e-mail-exists"><title>GET /self/exists
+Self line · check-if-e-mail-exists</title>
+<circle cx="2176" cy="1406" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2188" y="1411" text-anchor="start" style="fill:#1A1F2C">List exists</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-self-api/#op-create-a-user-account-self-registration" target="_blank" class="st" data-op="create-a-user-account-self-registration"><title>POST /self
+Self line · create-a-user-account-self-registration</title>
+<circle cx="2386" cy="1280" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2392" y="1268" transform="rotate(-45 2392 1268)" style="fill:#1A1F2C">Update self</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-self-api/#op-get-self-and-teams-info" target="_blank" class="st" data-op="get-self-and-teams-info"><title>GET /self
+Self line · get-self-and-teams-info</title>
+<circle cx="2470" cy="1280" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2464" y="1292" text-anchor="end" transform="rotate(-45 2464 1292)" style="fill:#1A1F2C">Get self</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-self-api/#op-update-your-user-info" target="_blank" class="st" data-op="update-your-user-info"><title>PUT /self
+Self line · update-your-user-info</title>
+<circle cx="2302" cy="1280" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2290.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Update self</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-self-api/#op-resend-verification-e-mail" target="_blank" class="st" data-op="resend-verification-e-mail"><title>PUT /self/verify/resend
+Self line · resend-verification-e-mail</title>
+<circle cx="2260" cy="1616" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2272" y="1621" text-anchor="start" style="fill:#1A1F2C">Update resend</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-self-api/#op-verify-e-mail-token" target="_blank" class="st" data-op="verify-e-mail-token"><title>GET /self/verify/{token}
+Self line · verify-e-mail-token</title>
+<circle cx="2176" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2188" y="1537" text-anchor="start" style="fill:#1A1F2C">Get verify</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-surcharge-api/#op-review-a-transactions-surcharge-information" target="_blank" class="st" data-op="review-a-transactions-surcharge-information"><title>GET /surcharge/review
+More Local line · review-a-transactions-surcharge-information</title>
+<circle cx="2134" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="1621" text-anchor="start" style="fill:#1A1F2C">Get review</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-addupdate-team-settings" target="_blank" class="st" data-op="addupdate-team-settings"><title>PUT /team/options
+Team line · addupdate-team-settings</title>
+<circle cx="1168" cy="2204" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1180" y="2209" text-anchor="start" style="fill:#1A1F2C">Create option</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-post_teamoptionadvanced_customizations" target="_blank" class="st" data-op="post_teamoptionadvanced_customizations"><title>PUT /team/option/advanced_customizations
+Team line · post_teamoptionadvanced_customizations</title>
+<circle cx="1000" cy="2204" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="988.0" y="2209" text-anchor="end" style="fill:#1A1F2C">Create advanced customization</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-create-a-new-team-member" target="_blank" class="st" data-op="create-a-new-team-member"><title>POST /team/user
+Team line · create-a-new-team-member</title>
+<circle cx="1084" cy="2498" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1096" y="2503" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-find-the-merchant-teams-users" target="_blank" class="st" data-op="find-the-merchant-teams-users"><title>GET /team/user
+Team line · find-the-merchant-teams-users</title>
+<circle cx="1168" cy="2414" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1180" y="2419" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-create-a-team" target="_blank" class="st" data-op="create-a-team"><title>POST /team
+Team line · create-a-team</title>
+<circle cx="748" cy="2456" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="760" y="2461" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-edit-your-merchant-teams-info" target="_blank" class="st" data-op="edit-your-merchant-teams-info"><title>PUT /team
+Team line · edit-your-merchant-teams-info</title>
+<circle cx="832" cy="2372" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="844" y="2377" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-get-team-members-information-copy" target="_blank" class="st" data-op="get-team-members-information-copy"><title>PUT /team/user/{id}
+Team line · get-team-members-information-copy</title>
+<circle cx="1084" cy="2666" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1096" y="2671" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-get-team-members-information" target="_blank" class="st" data-op="get-team-members-information"><title>GET /team/user/{id}
+Team line · get-team-members-information</title>
+<circle cx="1084" cy="2582" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1096" y="2587" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-get-team-registration-data" target="_blank" class="st" data-op="get-team-registration-data"><title>GET /team/registration
+Team line · get-team-registration-data</title>
+<circle cx="1252" cy="2288" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1264" y="2293" text-anchor="start" style="fill:#1A1F2C">Get registration</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-update-team-registration-data" target="_blank" class="st" data-op="update-team-registration-data"><title>PUT /team/registration
+Team line · update-team-registration-data</title>
+<circle cx="1252" cy="2330" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1264" y="2335" text-anchor="start" style="fill:#1A1F2C">Update registration</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-list-api-keys" target="_blank" class="st" data-op="list-api-keys"><title>GET /team/apikey
+Team line · list-api-keys</title>
+<circle cx="916" cy="2288" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="928" y="2293" text-anchor="start" style="fill:#1A1F2C">Get apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-team-api/#op-team-branding" target="_blank" class="st" data-op="team-branding"><title>POST /team/option/branding
+Team line · team-branding</title>
+<circle cx="1084" cy="2204" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1090" y="2192" transform="rotate(-45 1090 2192)" style="fill:#1A1F2C">Update branding</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-charge-queue" target="_blank" class="st" data-op="charge-queue"><title>POST /terminal/charge/queue
+Terminal line · charge-queue</title>
+<circle cx="1504" cy="1700" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1510" y="1688" transform="rotate(-45 1510 1688)" style="fill:#1A1F2C">Update queue</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-charge" target="_blank" class="st" data-op="charge"><title>POST /terminal/charge
+Terminal line · charge</title>
+<circle cx="1420" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1408.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Update charge</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-credit" target="_blank" class="st" data-op="credit"><title>POST /terminal/credit
+Terminal line · credit</title>
+<circle cx="1588" cy="1700" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1600" y="1705" text-anchor="start" style="fill:#1A1F2C">Update credit</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-get-all-devices" target="_blank" class="st" data-op="get-all-devices"><title>GET /terminal/register
+Terminal line · get-all-devices</title>
+<circle cx="1588" cy="2120" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1594" y="2108" transform="rotate(-45 1594 2108)" style="fill:#1A1F2C">Register terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-get-transaction-status" target="_blank" class="st" data-op="get-transaction-status"><title>GET /terminal/{registerId}/status/{transactionId}
+Terminal line · get-transaction-status</title>
+<circle cx="1420" cy="1868" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="1873" text-anchor="start" style="fill:#1A1F2C">Get statu</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-print" target="_blank" class="st" data-op="print"><title>POST /terminal/print
+Terminal line · print</title>
+<circle cx="1672" cy="1784" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1660.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Update print</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-get_terminalpromptChoice" target="_blank" class="st" data-op="get_terminalpromptChoice"><title>POST /terminal/promptChoice
+Terminal line · get_terminalpromptChoice</title>
+<circle cx="1756" cy="1952" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="1957" text-anchor="start" style="fill:#1A1F2C">Update promptchoice</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-prompt-input" target="_blank" class="st" data-op="prompt-input"><title>POST /terminal/promptInput
+Terminal line · prompt-input</title>
+<circle cx="1756" cy="2036" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="2041" text-anchor="start" style="fill:#1A1F2C">Update promptinput</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-prompt-signature" target="_blank" class="st" data-op="prompt-signature"><title>POST /terminal/prompt/signature
+Terminal line · prompt-signature</title>
+<circle cx="1756" cy="1868" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="1873" text-anchor="start" style="fill:#1A1F2C">Update signature</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-refund" target="_blank" class="st" data-op="refund"><title>POST /terminal/refund
+Terminal line · refund</title>
+<circle cx="1672" cy="2120" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1684" y="2125" text-anchor="start" style="fill:#1A1F2C">Update refund</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-tokenize" target="_blank" class="st" data-op="tokenize"><title>POST /terminal/tokenize
+Terminal line · tokenize</title>
+<circle cx="1504" cy="2120" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1495.0" y="2139" text-anchor="end" style="fill:#1A1F2C">Update tokenize</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-void-refund" target="_blank" class="st" data-op="void-refund"><title>POST /terminal/void-or-refund
+Terminal line · void-refund</title>
+<circle cx="1420" cy="1952" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="1957" text-anchor="start" style="fill:#1A1F2C">Update void or refund</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-terminal-api/#op-void" target="_blank" class="st" data-op="void"><title>POST /terminal/void
+Terminal line · void</title>
+<circle cx="1420" cy="2036" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="2041" text-anchor="start" style="fill:#1A1F2C">Void terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-capture-a-pre-auth-transaction" target="_blank" class="st" data-op="capture-a-pre-auth-transaction"><title>POST /transaction/{transactionid}/capture
+Transaction line · capture-a-pre-auth-transaction</title>
+<circle cx="1378" cy="2540" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2545" text-anchor="start" style="fill:#1A1F2C">Capture transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-e-mail-transaction-receipt" target="_blank" class="st" data-op="e-mail-transaction-receipt"><title>PUT /transaction/{id}/receipt/email
+Transaction line · e-mail-transaction-receipt</title>
+<circle cx="1546" cy="2372" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1552" y="2360" transform="rotate(-45 1552 2360)" style="fill:#1A1F2C">Update email</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-get-a-related-transaction" target="_blank" class="st" data-op="get-a-related-transaction"><title>GET /transaction/{id}/related
+Transaction line · get-a-related-transaction</title>
+<circle cx="1798" cy="2624" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1810" y="2629" text-anchor="start" style="fill:#1A1F2C">Get related</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-get-a-transactions-funding-instructions" target="_blank" class="st" data-op="get-a-transactions-funding-instructions"><title>GET /transaction/{id}/funding
+Transaction line · get-a-transactions-funding-instructions</title>
+<circle cx="1462" cy="2456" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1474" y="2461" text-anchor="start" style="fill:#1A1F2C">Get funding</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-get-a-transactions-information" target="_blank" class="st" data-op="get-a-transactions-information"><title>GET /transaction/{id}
+Transaction line · get-a-transactions-information</title>
+<circle cx="1378" cy="2708" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2713" text-anchor="start" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-list-and-filter-all-transactions" target="_blank" class="st" data-op="list-and-filter-all-transactions"><title>GET /transaction
+Transaction line · list-and-filter-all-transactions</title>
+<circle cx="1378" cy="2792" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2797" text-anchor="start" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-refund-transaction" target="_blank" class="st" data-op="refund-transaction"><title>POST /transaction/{id}/refund
+Transaction line · refund-transaction</title>
+<circle cx="1714" cy="2540" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1726" y="2545" text-anchor="start" style="fill:#1A1F2C">Update refund</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-sms-transaction-receipt" target="_blank" class="st" data-op="sms-transaction-receipt"><title>PUT /transaction/{id}/receipt-sms
+Transaction line · sms-transaction-receipt</title>
+<circle cx="1672" cy="2498" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1684" y="2503" text-anchor="start" style="fill:#1A1F2C">Create receipt sm</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-update-a-transactions-information" target="_blank" class="st" data-op="update-a-transactions-information"><title>PUT /transaction/{id}/
+Transaction line · update-a-transactions-information</title>
+<circle cx="1378" cy="2624" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2629" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-void-or-refund-transaction" target="_blank" class="st" data-op="void-or-refund-transaction"><title>POST /transaction/{id}/void-or-refund
+Transaction line · void-or-refund-transaction</title>
+<circle cx="1798" cy="2792" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1810" y="2797" text-anchor="start" style="fill:#1A1F2C">Update void or refund</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-transaction-api/#op-void-transaction" target="_blank" class="st" data-op="void-transaction"><title>POST /transaction/{id}/void
+Transaction line · void-transaction</title>
+<circle cx="1798" cy="2708" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1810" y="2713" text-anchor="start" style="fill:#1A1F2C">Void transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-underwriting-api/#op-get-registration-documents" target="_blank" class="st" data-op="get-registration-documents"><title>GET /underwriting/merchant/{id}/registration/documents
+Underwriting line · get-registration-documents</title>
+<circle cx="1420" cy="2330" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2335" text-anchor="start" style="fill:#1A1F2C">List documents</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-underwriting-api/#op-list-disputes-copy" target="_blank" class="st" data-op="list-disputes-copy"><title>GET /underwriting/disputes/{merchantId}
+Underwriting line · list-disputes-copy</title>
+<circle cx="1420" cy="2162" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2167" text-anchor="start" style="fill:#1A1F2C">Get dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-underwriting-api/#op-list-disputes" target="_blank" class="st" data-op="list-disputes"><title>GET /underwriting/disputes
+Underwriting line · list-disputes</title>
+<circle cx="1378" cy="2120" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2125" text-anchor="start" style="fill:#1A1F2C">List disputes</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-underwriting-api/#op-retrieve-terms-and-conditions" target="_blank" class="st" data-op="retrieve-terms-and-conditions"><title>GET /underwriting/terms-and-conditions/{id}
+Underwriting line · retrieve-terms-and-conditions</title>
+<circle cx="1336" cy="2414" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1348" y="2419" text-anchor="start" style="fill:#1A1F2C">Get terms and condition</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-underwriting-api/#op-submit-dispute-evidence-files-for-review" target="_blank" class="st" data-op="submit-dispute-evidence-files-for-review"><title>POST /underwriting/dispute/{disputeId}/submit
+Underwriting line · submit-dispute-evidence-files-for-review</title>
+<circle cx="1294" cy="2120" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1300" y="2108" transform="rotate(-45 1300 2108)" style="fill:#1A1F2C">Submit dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-verify-api/#op-verify-a-payment-method" target="_blank" class="st" data-op="verify-a-payment-method"><title>POST /verify
+More Local line · verify-a-payment-method</title>
+<circle cx="2134" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2122.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Update verify</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhook-api/#op-create-new-webhook-for-all-of-my-users-merchants" target="_blank" class="st" data-op="create-new-webhook-for-all-of-my-users-merchants"><title>POST /webhook
+Webhook line · create-new-webhook-for-all-of-my-users-merchants</title>
+<circle cx="1756" cy="2204" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="2209" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhook-api/#op-get-all-webhooks" target="_blank" class="st" data-op="get-all-webhooks"><title>GET /webhook
+Webhook line · get-all-webhooks</title>
+<circle cx="1840" cy="2120" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1852" y="2125" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhook-api/#op-delete-a-webhook" target="_blank" class="st" data-op="delete-a-webhook"><title>DELETE /webhook/{id}
+Webhook line · delete-a-webhook</title>
+<circle cx="1672" cy="2288" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1668" y1="2292" x2="1676" y2="2284" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1684" y="2293" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhookadmin-api/#op-create-partner-level-webhook-for-your-brand" target="_blank" class="st" data-op="create-partner-level-webhook-for-your-brand"><title>POST /webhookadmin/webhook/brand
+Webhookadmin line · create-partner-level-webhook-for-your-brand</title>
+<circle cx="1168" cy="2036" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="2041" text-anchor="start" style="fill:#1A1F2C">Update brand</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhookadmin-api/#op-get-all-partner-level-webhooks-for-your-brand" target="_blank" class="st" data-op="get-all-partner-level-webhooks-for-your-brand"><title>GET /webhookadmin/webhook/brand
+Webhookadmin line · get-all-partner-level-webhooks-for-your-brand</title>
+<circle cx="1126" cy="2078" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="2083" text-anchor="start" style="fill:#1A1F2C">Get brand</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhookadmin-api/#op-delete-a-partner-level-webhook-for-your-brand" target="_blank" class="st" data-op="delete-a-partner-level-webhook-for-your-brand"><title>DELETE /webhookadmin/webhook/brand/{webhook_id}
+Webhookadmin line · delete-a-partner-level-webhook-for-your-brand</title>
+<circle cx="1294" cy="1910" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1290" y1="1914" x2="1298" y2="1906" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1306" y="1915" text-anchor="start" style="fill:#1A1F2C">Delete brand</text>
+</a>
+<a href="https://apis.apis.io/apis/stax/stax-webhookadmin-api/#op-get-a-specific-partner-level-webhook-for-your-brand" target="_blank" class="st" data-op="get-a-specific-partner-level-webhook-for-your-brand"><title>GET /webhookadmin/webhook/brand/{webhook_id}
+Webhookadmin line · get-a-specific-partner-level-webhook-for-your-brand</title>
+<circle cx="1210" cy="1994" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1222" y="1999" text-anchor="start" style="fill:#1A1F2C">Get brand</text>
+</a>
+<text x="2954" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2954" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">QUERY</text>
+<rect x="2954" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2971" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QUE</text><text x="2996" y="269" font-size="11" fill="#1A1F2C">Query <tspan fill="#8A93A6">17</tspan></text>
+<text x="2954" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">INVOICE</text>
+<rect x="2954" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2971" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="2996" y="312" font-size="11" fill="#1A1F2C">Invoice <tspan fill="#8A93A6">13</tspan></text>
+<text x="2954" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">TERMINAL</text>
+<rect x="2954" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2971" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TER</text><text x="2996" y="355" font-size="11" fill="#1A1F2C">Terminal <tspan fill="#8A93A6">13</tspan></text>
+<text x="2954" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">TEAM</text>
+<rect x="2954" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="2971" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="2996" y="398" font-size="11" fill="#1A1F2C">Team <tspan fill="#8A93A6">12</tspan></text>
+<text x="2954" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">MERCHANT</text>
+<rect x="2954" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2971" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MER</text><text x="2996" y="441" font-size="11" fill="#1A1F2C">Merchant <tspan fill="#8A93A6">11</tspan></text>
+<text x="2954" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">TRANSACTION</text>
+<rect x="2954" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="2971" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="2996" y="484" font-size="11" fill="#1A1F2C">Transaction <tspan fill="#8A93A6">11</tspan></text>
+<text x="2954" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ITEM</text>
+<rect x="2954" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2971" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ITE</text><text x="2996" y="527" font-size="11" fill="#1A1F2C">Item <tspan fill="#8A93A6">8</tspan></text>
+<text x="2954" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">FILE</text>
+<rect x="2954" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="2971" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FIL</text><text x="2996" y="570" font-size="11" fill="#1A1F2C">File <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2954" y="577" width="34" height="13" rx="3" fill="#8e820c"/><text x="2971" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FI</text><text x="2996" y="587" font-size="11" fill="#1A1F2C">File{id} <tspan fill="#8A93A6">1</tspan></text>
+<text x="2954" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">SELF</text>
+<rect x="2954" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="2971" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEL</text><text x="2996" y="630" font-size="11" fill="#1A1F2C">Self <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">CUSTOMER</text>
+<rect x="2954" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2971" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CUS</text><text x="2996" y="673" font-size="11" fill="#1A1F2C">Customer <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">PAYMENT METHOD</text>
+<rect x="2954" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2971" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PM</text><text x="2996" y="716" font-size="11" fill="#1A1F2C">Payment Method <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2954" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="2971" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2996" y="759" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2954" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="2971" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UND</text><text x="2996" y="776" font-size="11" fill="#1A1F2C">Underwriting <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2954" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2971" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2996" y="793" font-size="11" fill="#1A1F2C">Webhookadmin <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2954" y="800" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2971" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WBH</text><text x="2996" y="810" font-size="11" fill="#1A1F2C">Webhook <tspan fill="#8A93A6">3</tspan></text>
+<text x="3204" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3222,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3248" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3222,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3248" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3222,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3248" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3222,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3248" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3222,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3248" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3222,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3248" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3222,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3248" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3222,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3248" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3204" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3204" y="463" font-size="10.5" fill="#5A6275">“Admin” → More Local line · 1 op</text>
+<text x="3204" y="478" font-size="10.5" fill="#5A6275">“Charge” → More Local line · 1 op</text>
+<text x="3204" y="493" font-size="10.5" fill="#5A6275">“Credit” → More Local line · 1 op</text>
+<text x="3204" y="508" font-size="10.5" fill="#5A6275">“Ephemeral” → More Local line · 1 op</text>
+<text x="3204" y="523" font-size="10.5" fill="#5A6275">“Forgot” → More Local line · 1 op</text>
+<text x="3204" y="538" font-size="10.5" fill="#5A6275">“Reset” → More Local line · 2 ops</text>
+<text x="3204" y="553" font-size="10.5" fill="#5A6275">“Surcharge” → More Local line · 1 op</text>
+<text x="3204" y="568" font-size="10.5" fill="#5A6275">“Verify” → More Local line · 1 op</text>
+<text x="3204" y="618" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3204" y="635" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3510" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/stax/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

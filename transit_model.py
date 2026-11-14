@@ -149,9 +149,48 @@ def load(PROV, FAM_FILE=None):
             for o in gops:
                 g.setdefault(keyf(o), []).append(o)
             for key, lst in g.items():
-                if len(lst) > MAX_LINE and k < depth0 + 3 and len({keyf2 for keyf2 in
-                        (tuple(x.lower() for x in [y for y in segs(o['p']) if not y.startswith('{')][:k + 1]) for o in lst)}) > 1:
+                nxt = len({tuple(x.lower() for x in [y for y in segs(o['p']) if not y.startswith('{')][:k + 1]) for o in lst})
+                flat = len(lst) > MAX_LINE * 2 and nxt > 0.6 * len(lst)
+                if len(lst) > MAX_LINE and k < depth0 + 3 and nxt > 1 and not flat:
                     rec(lst, k + 1)
+                elif flat:
+                    # flat RPC catalog (/x402/caesar-cipher, /x402/evm-batch-gas-sum, ...): one segment
+                    # of hundreds of distinct leaves. Lines come from the leaf's first word (evm, json, csv)
+                    def lw(o):
+                        nm = [y for y in segs(o['p']) if not y.startswith('{')]
+                        leaf = nm[len(key)] if len(nm) > len(key) else (nm[-1] if nm else 'root')
+                        return re.split(r'[-_.]|(?<=[a-z])(?=[A-Z])', leaf)[0].lower() or 'root'
+                    byw = collections.OrderedDict()
+                    for o in lst:
+                        byw.setdefault(lw(o), []).append(o)
+                    if len(byw) < 2:
+                        out[key] = lst; continue
+                    small = []
+                    for w, wl in byw.items():
+                        if len(wl) >= 3:
+                            out[key + (w,)] = wl
+                        else:
+                            small.extend(wl)
+                    # long tail: try the leaf's last word (…-check, …-sum, …-report) before 'more'
+                    byl = collections.OrderedDict()
+                    for o in small:
+                        nm = [y for y in segs(o['p']) if not y.startswith('{')]
+                        leaf = nm[len(key)] if len(nm) > len(key) else (nm[-1] if nm else 'root')
+                        byl.setdefault(re.split(r'[-_.]|(?<=[a-z])(?=[A-Z])', leaf)[-1].lower() or 'root', []).append(o)
+                    rest_ = []
+                    for w, wl in byl.items():
+                        if len(wl) >= 3 and key + (w,) not in out:
+                            out[key + (w,)] = wl
+                        else:
+                            rest_.extend(wl)
+                    if rest_:                       # still too long: alphabetical runs, like an index
+                        rest_.sort(key=lambda o: o['p'].lower())
+                        nch = -(-len(rest_) // MAX_LINE)
+                        for c_ in range(nch):
+                            part = rest_[c_ * len(rest_) // nch:(c_ + 1) * len(rest_) // nch]
+                            lf = lambda o: ([y for y in segs(o['p']) if not y.startswith('{')] or ['?'])[-1][:1].upper()
+                            nm_ = 'more' if nch == 1 else f'{lf(part[0])}–{lf(part[-1])}'
+                            out[key + (nm_,)] = part
                 else:
                     out[key] = lst
         rec(group_ops, depth0)

@@ -23,7 +23,7 @@ for s in $SLUGS; do
   if [ "$n" -gt "$ATLAS_OPS" ]; then
     ATLAS="$ATLAS $s"
     [ -f "$s-families.yml" ] || printf '# %s is published as an atlas.\nmax_families: 60\natlas:\n  sheet_max_ops: 450\n' "$s" > "$s-families.yml"
-  elif [ "$n" -gt 0 ]; then SINGLE="$SINGLE $s"
+  elif [ "$n" -gt 1 ]; then SINGLE="$SINGLE $s"
   else echo "NO OPERATIONS $s"; fi
 done
 
