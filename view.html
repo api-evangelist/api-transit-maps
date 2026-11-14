@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Transit Map Viewer</title>
+<style>
+html,body{margin:0;height:100%;background:#fff;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;overflow:hidden}
+#stage{position:fixed;inset:0;cursor:grab;touch-action:none}
+#stage.drag{cursor:grabbing}
+#stage svg{width:100%;height:100%;display:block}
+#bar{position:fixed;top:12px;right:12px;display:flex;gap:6px;z-index:2}
+#bar a,#bar button{font:600 14px/1 inherit;font-family:inherit;padding:9px 12px;border:1px solid #c9ced8;border-radius:8px;background:#fff;color:#1A1F2C;text-decoration:none;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+#bar button:hover,#bar a:hover{background:#f1f3f7}
+#msg{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#5A6275}
+</style></head><body>
+<div id="bar"><a href="./" title="Gallery">← Gallery</a><button id="zin" title="Zoom in (+)">+</button><button id="zout" title="Zoom out (−)">−</button><button id="fit" title="Fit (0)">Fit</button><a id="raw" title="Open the plain SVG">SVG</a></div>
+<div id="stage"></div><div id="msg">Loading map…</div>
+<script>
+(function(){
+  var m = new URLSearchParams(location.search).get('m') || '';
+  var msg = document.getElementById('msg'), stage = document.getElementById('stage');
+  if (!/^[a-z0-9-]+\/[a-z0-9-]+\.svg$/.test(m)) { msg.textContent = 'No map named.'; return; }
+  document.getElementById('raw').href = m;
+  fetch(m).then(function(r){ if(!r.ok) throw 0; return r.text(); }).then(function(txt){
+    stage.innerHTML = txt; msg.remove();
+    var svg = stage.querySelector('svg');
+    var t = svg.querySelector('text'); if (t) document.title = t.textContent;
+    // stop links in the map are relative to the map's folder
+    var base = m.replace(/[^\/]+$/, '');
+    svg.querySelectorAll('a').forEach(function(a){
+      var h = a.getAttribute('href') || a.getAttribute('xlink:href');
+      if (h && !/^(https?:|#|\/)/.test(h)) a.setAttribute('href', base + h);
+    });
+    var vb0 = svg.viewBox.baseVal, W = vb0.width, H = vb0.height;
+    svg.removeAttribute('width'); svg.removeAttribute('height');
+    svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+    var v = {x:0, y:0, w:W, h:H};
+    function apply(){ svg.setAttribute('viewBox', v.x+' '+v.y+' '+v.w+' '+v.h); }
+    function fit(){ v = {x:0, y:0, w:W, h:H}; apply(); }
+    function pt(cx, cy){ // screen -> map coords
+      var r = stage.getBoundingClientRect(), s = Math.max(v.w / r.width, v.h / r.height);
+      var ox = (r.width * s - v.w) / 2, oy = (r.height * s - v.h) / 2;
+      return {x: v.x - ox + (cx - r.left) * s, y: v.y - oy + (cy - r.top) * s, s: s};
+    }
+    function zoom(f, cx, cy){
+      var r = stage.getBoundingClientRect();
+      if (cx == null) { cx = r.left + r.width / 2; cy = r.top + r.height / 2; }
+      var nw = Math.min(Math.max(v.w * f, W / 200), W * 4);
+      f = nw / v.w;
+      var p = pt(cx, cy);
+      v.x = p.x - (p.x - v.x) * f; v.y = p.y - (p.y - v.y) * f; v.w *= f; v.h *= f; apply();
+    }
+    stage.addEventListener('wheel', function(e){ e.preventDefault(); zoom(Math.exp(e.deltaY * (e.ctrlKey ? 0.01 : 0.0015)), e.clientX, e.clientY); }, {passive:false});
+    var ptrs = {}, moved = 0, last = null, pinch = 0;
+    stage.addEventListener('pointerdown', function(e){ ptrs[e.pointerId] = {x:e.clientX, y:e.clientY}; moved = 0; last = {x:e.clientX, y:e.clientY}; pinch = 0; });
+    window.addEventListener('pointermove', function(e){
+      if (!ptrs[e.pointerId]) return;
+      var ids = Object.keys(ptrs);
+      if (ids.length === 2) {
+        ptrs[e.pointerId] = {x:e.clientX, y:e.clientY};
+        var a = ptrs[ids[0]], b = ptrs[ids[1]], d = Math.hypot(a.x-b.x, a.y-b.y);
+        if (pinch) zoom(pinch / d, (a.x+b.x)/2, (a.y+b.y)/2);
+        pinch = d; moved = 99; return;
+      }
+      var dx = e.clientX - last.x, dy = e.clientY - last.y;
+      moved += Math.abs(dx) + Math.abs(dy);
+      if (moved > 4) { stage.classList.add('drag'); var s = pt(0,0).s; v.x -= dx * s; v.y -= dy * s; apply(); }
+      last = {x:e.clientX, y:e.clientY};
+    });
+    function up(e){ delete ptrs[e.pointerId]; pinch = 0; stage.classList.remove('drag'); var k = Object.keys(ptrs); if (k.length) last = ptrs[k[0]]; }
+    window.addEventListener('pointerup', up); window.addEventListener('pointercancel', up);
+    stage.addEventListener('click', function(e){ if (moved > 4) { e.preventDefault(); e.stopPropagation(); } }, true);
+    document.getElementById('zin').onclick = function(){ zoom(1/1.5); };
+    document.getElementById('zout').onclick = function(){ zoom(1.5); };
+    document.getElementById('fit').onclick = fit;
+    window.addEventListener('keydown', function(e){
+      if (e.key === '+' || e.key === '=') zoom(1/1.5); else if (e.key === '-' || e.key === '_') zoom(1.5); else if (e.key === '0') fit();
+    });
+    fit();
+  }).catch(function(){ msg.textContent = 'Could not load ' + m; });
+})();
+</script></body></html>

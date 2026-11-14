@@ -30,7 +30,7 @@ for svg in sorted(glob.glob('*/*-network-map.svg')):
     if os.path.exists(png) and (not os.path.exists(thumb) or os.path.getmtime(png) > os.path.getmtime(thumb)):
         subprocess.run(['sips', '-Z', '720', png, '--out', thumb], capture_output=True)
     cards.append(dict(slug=slug, name=display_name(slug), ops=ops, lines=lines, xch=xch,
-                      href=svg, thumb=thumb, kind='map', sheets=1))
+                      href=f'view.html?m={svg}', thumb=thumb, kind='map', sheets=1))
 for idx in sorted(glob.glob('*/*-atlas.html')):
     slug = idx.split('/')[0]
     sheets = sorted(glob.glob(f'{slug}/{slug}-atlas-[0-9][0-9].svg'))

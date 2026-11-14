@@ -7,7 +7,7 @@ MSG=${1:-"Add transit maps"}
 python3 build_gallery.py
 # explicit list: what git sees, restricted to the shapes this repo publishes (never `git add -A`)
 git status --porcelain -uall | sed -E 's/^.. //' | grep -E \
-  '^(index\.html|thumbs/[^/]+\.png|[a-z0-9-]+/[a-z0-9-]+-(network-map\.(svg|json)|atlas(-[0-9]{2}(-thumb\.png|\.svg|\.json)|-plan\.json|\.html))|[a-z0-9-]+-families\.yml|[a-z_]+\.(py|sh)|DESIGN\.md|README\.md|skip\.yml)$' \
+  '^(index\.html|view\.html|thumbs/[^/]+\.png|[a-z0-9-]+/[a-z0-9-]+-(network-map\.(svg|json)|atlas(-[0-9]{2}(-thumb\.png|\.svg|\.json)|-plan\.json|\.html))|[a-z0-9-]+-families\.yml|[a-z_]+\.(py|sh)|DESIGN\.md|README\.md|skip\.yml)$' \
   > /tmp/transit-publish-files.txt
 echo "$(wc -l < /tmp/transit-publish-files.txt | tr -d ' ') files to commit"
 [ -s /tmp/transit-publish-files.txt ] || { echo "nothing to publish"; exit 0; }

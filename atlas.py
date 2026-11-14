@@ -94,7 +94,7 @@ for k, sh in enumerate(sheets, 1):
     nb = sorted(((b if a == k else a), n) for (a, b), n in cross.items() if k in (a, b))
     fam_html = ''.join(f'<li>{E(f)}</li>' for f in sh['families'])
     nb_html = ', '.join(f'<a href="#s{j}">p.{j}</a> ({n})' for j, n in nb) or 'none'
-    cards.append(f'''<article id="s{k}"><a href="{M.slug}-atlas-{k:02d}.svg"><img src="{M.slug}-atlas-{k:02d}-thumb.png" alt="Sheet {k}"></a>
+    cards.append(f'''<article id="s{k}"><a href="../view.html?m={M.slug}/{M.slug}-atlas-{k:02d}.svg"><img src="{M.slug}-atlas-{k:02d}-thumb.png" alt="Sheet {k}"></a>
 <h2><span>p.{k}</span> {E(sh['title'])}</h2><p>{sh['ops']} operations · {len(sh['lines'])} lines</p>
 <ul>{fam_html}</ul><p class="nb">Interchanges to {nb_html}</p></article>''')
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
