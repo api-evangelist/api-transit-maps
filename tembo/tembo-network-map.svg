@@ -1,0 +1,873 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3044 2532" width="3044" height="2532" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3044" height="2532" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Tembo API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">152 operations as stops · 14 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Agents" d="M1252.0,692.0 L1336.0,692.0 L1420.0,692.0 L1490.0,692.0 Q1504.0,692.0 1513.9,701.9 L1588.0,776.0 L1672.0,860.0 L1746.1,934.1 Q1756.0,944.0 1756.0,958.0 L1756.0,1028.0 L1756.0,1112.0 L1756.0,1182.0 Q1756.0,1196.0 1746.1,1205.9 L1672.0,1280.0 L1588.0,1364.0 L1513.9,1438.1 Q1504.0,1448.0 1490.0,1448.0 L1420.0,1448.0 L1336.0,1448.0 L1266.0,1448.0 Q1252.0,1448.0 1242.1,1438.1 L1168.0,1364.0 L1084.0,1280.0 L1009.9,1205.9 Q1000.0,1196.0 1000.0,1182.0 L1000.0,1112.0 L1000.0,1028.0 L1000.0,958.0 Q1000.0,944.0 1009.9,934.1 L1084.0,860.0 L1252.0,692.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Agents</title></path>
+<path class="line" data-line="API Keys" d="M874.0,1154.0 L948.1,1079.9 Q958.0,1070.0 972.0,1070.0 L1196.0,1070.0 Q1210.0,1070.0 1200.1,1060.1 L1177.9,1037.9 Q1168.0,1028.0 1154.0,1028.0 L1084.0,1028.0 L874.0,1028.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Artifacts" d="M1126.0,650.0 L1252.0,776.0 L1284.1,808.1 Q1294.0,818.0 1308.0,818.0 L1378.0,818.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Artifacts</title></path>
+<path class="line" data-line="Insights" d="M1882.0,1364.0 L1798.0,1280.0 L1723.9,1205.9 Q1714.0,1196.0 1700.0,1196.0 L1672.0,1196.0 L1588.0,1196.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Insights</title></path>
+<path class="line" data-line="Integrations" d="M748.0,902.0 L832.0,902.0 L902.0,902.0 Q916.0,902.0 925.9,892.1 L948.1,869.9 Q958.0,860.0 948.1,850.1 L916.0,818.0 L841.9,743.9 Q832.0,734.0 841.9,724.1 L906.1,659.9 Q916.0,650.0 906.1,640.1 L841.9,575.9 Q832.0,566.0 818.0,566.0 L678.0,566.0 Q664.0,566.0 654.1,556.1 L622.0,524.0 L580.0,482.0 L496.0,398.0 L412.0,314.0 L337.9,239.9 Q328.0,230.0 314.0,230.0 L244.0,230.0 L160.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Integrations</title></path>
+<path class="line" data-line="MCP Connections" d="M1000.0,398.0 L1084.0,482.0 L1116.1,514.1 Q1126.0,524.0 1140.0,524.0 L1210.0,524.0 L1280.0,524.0 Q1294.0,524.0 1303.9,514.1 L1336.0,482.0 L1378.0,440.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>MCP Connections</title></path>
+<path class="line" data-line="Messages" d="M496.0,1280.0 L622.0,1280.0 L706.0,1280.0 L790.0,1280.0 L874.0,1280.0 L986.0,1280.0 Q1000.0,1280.0 1009.9,1270.1 L1126.0,1154.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Messages</title></path>
+<path class="line" data-line="Organizations" d="M958.0,734.0 L990.1,701.9 Q1000.0,692.0 1009.9,701.9 L1084.0,776.0 L1158.1,850.1 Q1168.0,860.0 1168.0,874.0 L1168.0,888.0 Q1168.0,902.0 1177.9,911.9 L1242.1,976.1 Q1252.0,986.0 1266.0,986.0 L1322.0,986.0 Q1336.0,986.0 1345.9,976.1 L1368.1,953.9 Q1378.0,944.0 1392.0,944.0 L1490.0,944.0 Q1504.0,944.0 1513.9,934.1 L1546.0,902.0 L1588.0,860.0 L1704.1,743.9 Q1714.0,734.0 1714.0,720.0 L1714.0,706.0 Q1714.0,692.0 1723.9,682.1 L1798.0,608.0 L1872.1,533.9 Q1882.0,524.0 1882.0,510.0 L1882.0,398.0 L1882.0,286.0 Q1882.0,272.0 1896.0,272.0 L2008.0,272.0 L2092.0,272.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organizations</title></path>
+<path class="line" data-line="Projects" d="M2176.0,2162.0 L2176.0,2078.0 L2176.0,2050.0 Q2176.0,2036.0 2166.1,2026.1 L2092.0,1952.0 L2008.0,1868.0 L1966.0,1826.0 L1882.0,1742.0 L1798.0,1658.0 L1756.0,1616.0 L1681.9,1541.9 Q1672.0,1532.0 1658.0,1532.0 L1588.0,1532.0 L1560.0,1532.0 Q1546.0,1532.0 1536.1,1541.9 L1504.0,1574.0 L1429.9,1648.1 Q1420.0,1658.0 1420.0,1672.0 L1420.0,1742.0 L1420.0,1826.0 L1420.0,1910.0 L1420.0,1994.0 L1420.0,2120.0 L1420.0,2232.0 Q1420.0,2246.0 1410.1,2255.9 L1378.0,2288.0 L1294.0,2372.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Projects</title></path>
+<path class="line" data-line="Repositories" d="M1504.0,1280.0 L1504.0,1196.0 L1504.0,1112.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Repositories</title></path>
+<path class="line" data-line="Sessions" d="M958.0,1490.0 L1042.0,1406.0 L1158.1,1289.9 Q1168.0,1280.0 1177.9,1289.9 L1242.1,1354.1 Q1252.0,1364.0 1242.1,1373.9 L1177.9,1438.1 Q1168.0,1448.0 1168.0,1462.0 L1168.0,1476.0 Q1168.0,1490.0 1158.1,1499.9 L1084.0,1574.0 L1000.0,1658.0 L916.0,1742.0 L874.0,1784.0 L790.0,1868.0 L673.9,1984.1 Q664.0,1994.0 650.0,1994.0 L580.0,1994.0 L496.0,1994.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sessions</title></path>
+<path class="line" data-line="Skills" d="M2260.0,650.0 L2176.0,650.0 L2092.0,650.0 L1980.0,650.0 Q1966.0,650.0 1956.1,659.9 L1882.0,734.0 L1840.0,776.0 L1798.0,818.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Skills</title></path>
+<path class="line" data-line="Users" d="M2344.0,944.0 L2260.0,944.0 L2190.0,944.0 Q2176.0,944.0 2166.1,934.1 L2143.9,911.9 Q2134.0,902.0 2120.0,902.0 L1980.0,902.0 Q1966.0,902.0 1956.1,911.9 L1924.0,944.0 L1891.9,976.1 Q1882.0,986.0 1882.0,1000.0 L1882.0,1098.0 Q1882.0,1112.0 1891.9,1121.9 L1966.0,1196.0 L1998.1,1228.1 Q2008.0,1238.0 2022.0,1238.0 L2134.0,1238.0 L2218.0,1238.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="Tembo Local" d="M1504.0,272.0 L1504.0,356.0 L1504.0,440.0 L1504.0,510.0 Q1504.0,524.0 1513.9,533.9 L1578.1,598.1 Q1588.0,608.0 1597.9,598.1 L1620.1,575.9 Q1630.0,566.0 1630.0,552.0 L1630.0,482.0 L1630.0,398.0 L1630.0,272.0" fill="none" stroke="#0B7A75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Tembo Local</title></path>
+<rect x="1222" y="639" width="60" height="26" rx="13" fill="#D6264F"/><text x="1252" y="657" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">AGE</text>
+<line x1="874" y1="1154" x2="849.9583694396574" y2="1178.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="825.9583694396574" y="1167.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>API Keys</title></rect><text x="849.9583694396574" y="1183.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="874" y1="1028" x2="840.0" y2="1028.0" stroke="#5C6BC0" stroke-width="7"/><rect x="816.0" y="1017.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>API Keys</title></rect><text x="840.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="1126" y1="650" x2="1101.9583694396574" y2="625.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="1077.9583694396574" y="614.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Artifacts</title></rect><text x="1101.9583694396574" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ART</text>
+<line x1="1378" y1="818" x2="1412.0" y2="818.0" stroke="#00838F" stroke-width="7"/><rect x="1388.0" y="807.0" width="48" height="22" rx="5" fill="#00838F"><title>Artifacts</title></rect><text x="1412.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ART</text>
+<line x1="1882" y1="1364" x2="1906.0416305603426" y2="1388.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1882.0416305603426" y="1377.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Insights</title></rect><text x="1906.0416305603426" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INS</text>
+<line x1="1588" y1="1196" x2="1554.0" y2="1196.0" stroke="#8D6E63" stroke-width="7"/><rect x="1530.0" y="1185.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Insights</title></rect><text x="1554.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INS</text>
+<line x1="748" y1="902" x2="714.0" y2="902.0" stroke="#E07B12" stroke-width="7"/><rect x="690.0" y="891.0" width="48" height="22" rx="5" fill="#E07B12"><title>Integrations</title></rect><text x="714.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="160" y1="230" x2="126.0" y2="230.0" stroke="#E07B12" stroke-width="7"/><rect x="102.0" y="219.0" width="48" height="22" rx="5" fill="#E07B12"><title>Integrations</title></rect><text x="126.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1000" y1="398" x2="975.9583694396574" y2="373.95836943965736" stroke="#B8860B" stroke-width="7"/><rect x="951.9583694396574" y="362.95836943965736" width="48" height="22" rx="5" fill="#B8860B"><title>MCP Connections</title></rect><text x="975.9583694396574" y="378.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MC</text>
+<line x1="1378" y1="440" x2="1402.0416305603426" y2="415.95836943965736" stroke="#B8860B" stroke-width="7"/><rect x="1378.0416305603426" y="404.95836943965736" width="48" height="22" rx="5" fill="#B8860B"><title>MCP Connections</title></rect><text x="1402.0416305603426" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MC</text>
+<line x1="496" y1="1280" x2="462.0" y2="1280.0" stroke="#C2410C" stroke-width="7"/><rect x="438.0" y="1269.0" width="48" height="22" rx="5" fill="#C2410C"><title>Messages</title></rect><text x="462.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MES</text>
+<line x1="1126" y1="1154" x2="1150.0416305603426" y2="1129.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1126.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Messages</title></rect><text x="1150.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MES</text>
+<line x1="958" y1="734" x2="933.9583694396574" y2="758.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="909.9583694396574" y="747.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Organizations</title></rect><text x="933.9583694396574" y="763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="2092" y1="272" x2="2126.0" y2="272.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2102.0" y="261.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Organizations</title></rect><text x="2126.0" y="277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="2176" y1="2162" x2="2176.0" y2="2196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2152.0" y="2185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Projects</title></rect><text x="2176.0" y="2201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1294" y1="2372" x2="1269.9583694396574" y2="2396.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1245.9583694396574" y="2385.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Projects</title></rect><text x="1269.9583694396574" y="2401.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1504" y1="1280" x2="1504.0" y2="1314.0" stroke="#4A5568" stroke-width="7"/><rect x="1480.0" y="1303.0" width="48" height="22" rx="5" fill="#4A5568"><title>Repositories</title></rect><text x="1504.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="1504" y1="1112" x2="1504.0" y2="1078.0" stroke="#4A5568" stroke-width="7"/><rect x="1480.0" y="1067.0" width="48" height="22" rx="5" fill="#4A5568"><title>Repositories</title></rect><text x="1504.0" y="1083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="958" y1="1490" x2="933.9583694396574" y2="1514.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="909.9583694396574" y="1503.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Sessions</title></rect><text x="933.9583694396574" y="1519.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="496" y1="1994" x2="462.0" y2="1994.0" stroke="#7B3FE4" stroke-width="7"/><rect x="438.0" y="1983.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Sessions</title></rect><text x="462.0" y="1999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="2260" y1="650" x2="2294.0" y2="650.0" stroke="#2E7D32" stroke-width="7"/><rect x="2270.0" y="639.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Skills</title></rect><text x="2294.0" y="655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="1798" y1="818" x2="1773.9583694396574" y2="842.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1749.9583694396574" y="831.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Skills</title></rect><text x="1773.9583694396574" y="847.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="2344" y1="944" x2="2378.0" y2="944.0" stroke="#B0287F" stroke-width="7"/><rect x="2354.0" y="933.0" width="48" height="22" rx="5" fill="#B0287F"><title>Users</title></rect><text x="2378.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="2218" y1="1238" x2="2252.0" y2="1238.0" stroke="#B0287F" stroke-width="7"/><rect x="2228.0" y="1227.0" width="48" height="22" rx="5" fill="#B0287F"><title>Users</title></rect><text x="2252.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1504" y1="272" x2="1504.0" y2="238.0" stroke="#0B7A75" stroke-width="7"/><rect x="1480.0" y="227.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tembo Local</title></rect><text x="1504.0" y="243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TL</text>
+<line x1="1630" y1="272" x2="1630.0" y2="238.0" stroke="#0B7A75" stroke-width="7"/><rect x="1606.0" y="227.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tembo Local</title></rect><text x="1630.0" y="243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TL</text>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-listAgents" target="_blank" class="st" data-op="listAgents"><title>GET /v1/agents
+Agents line · listAgents</title>
+<circle cx="1252" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1261" y="682" text-anchor="start" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-createAgent" target="_blank" class="st" data-op="createAgent"><title>POST /v1/agents
+Agents line · createAgent</title>
+<circle cx="1336" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1342" y="680" transform="rotate(-45 1342 680)" style="fill:#1A1F2C">Create agent</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-listAgentTemplates" target="_blank" class="st" data-op="listAgentTemplates"><title>GET /v1/agents/templates
+Agents line · listAgentTemplates</title>
+<circle cx="1420" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1426" y="680" transform="rotate(-45 1426 680)" style="fill:#1A1F2C">List templates</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-retrieveAgentTemplate" target="_blank" class="st" data-op="retrieveAgentTemplate"><title>GET /v1/agents/templates/{templateName}
+Agents line · retrieveAgentTemplate</title>
+<circle cx="1504" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="697" text-anchor="start" style="fill:#1A1F2C">Get template</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-retrieveAgent" target="_blank" class="st" data-op="retrieveAgent"><title>GET /v1/agents/{agentId}
+Agents line · retrieveAgent</title>
+<circle cx="1588" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="781" text-anchor="start" style="fill:#1A1F2C">Get agent</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-updateAgent" target="_blank" class="st" data-op="updateAgent"><title>PATCH /v1/agents/{agentId}
+Agents line · updateAgent</title>
+<circle cx="1672" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1663.0" y="879" text-anchor="end" style="fill:#1A1F2C">Update agent</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-deleteAgent" target="_blank" class="st" data-op="deleteAgent"><title>DELETE /v1/agents/{agentId}
+Agents line · deleteAgent</title>
+<circle cx="1756" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1752" y1="948" x2="1760" y2="940" stroke="#D6264F" stroke-width="2"/>
+<text x="1768" y="949" text-anchor="start" style="fill:#1A1F2C">Delete agent</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-listAgentContentRevisions" target="_blank" class="st" data-op="listAgentContentRevisions"><title>GET /v1/agents/{agentId}/content-revisions
+Agents line · listAgentContentRevisions</title>
+<circle cx="1756" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1744.0" y="1033" text-anchor="end" style="fill:#1A1F2C">List content revisions</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-retrieveAgentContentRevision" target="_blank" class="st" data-op="retrieveAgentContentRevision"><title>GET /v1/agents/{agentId}/content-revisions/{version}
+Agents line · retrieveAgentContentRevision</title>
+<circle cx="1756" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1744.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Get content revision</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-restoreAgentContentRevision" target="_blank" class="st" data-op="restoreAgentContentRevision"><title>POST /v1/agents/{agentId}/content-revisions/{version}/restore
+Agents line · restoreAgentContentRevision</title>
+<circle cx="1756" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1768" y="1201" text-anchor="start" style="fill:#1A1F2C">Update restore</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-listAgentSchedules" target="_blank" class="st" data-op="listAgentSchedules"><title>GET /v1/agents/{agentId}/schedules
+Agents line · listAgentSchedules</title>
+<circle cx="1420" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1426" y="1436" transform="rotate(-45 1426 1436)" style="fill:#1A1F2C">List schedules</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-createAgentSchedule" target="_blank" class="st" data-op="createAgentSchedule"><title>POST /v1/agents/{agentId}/schedules
+Agents line · createAgentSchedule</title>
+<circle cx="1336" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1342" y="1436" transform="rotate(-45 1342 1436)" style="fill:#1A1F2C">Create schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-retrieveAgentSchedule" target="_blank" class="st" data-op="retrieveAgentSchedule"><title>GET /v1/agents/{agentId}/schedules/{scheduleId}
+Agents line · retrieveAgentSchedule</title>
+<circle cx="1252" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1261" y="1438" text-anchor="start" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-updateAgentSchedule" target="_blank" class="st" data-op="updateAgentSchedule"><title>PATCH /v1/agents/{agentId}/schedules/{scheduleId}
+Agents line · updateAgentSchedule</title>
+<circle cx="1168" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1162" y="1376" text-anchor="end" transform="rotate(-45 1162 1376)" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-deleteAgentSchedule" target="_blank" class="st" data-op="deleteAgentSchedule"><title>DELETE /v1/agents/{agentId}/schedules/{scheduleId}
+Agents line · deleteAgentSchedule</title>
+<circle cx="1084" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1080" y1="1284" x2="1088" y2="1276" stroke="#D6264F" stroke-width="2"/>
+<text x="1093" y="1270" text-anchor="start" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-listAgentTriggers" target="_blank" class="st" data-op="listAgentTriggers"><title>GET /v1/agents/{agentId}/triggers
+Agents line · listAgentTriggers</title>
+<circle cx="1000" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="988.0" y="1201" text-anchor="end" style="fill:#1A1F2C">List triggers</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-createAgentTrigger" target="_blank" class="st" data-op="createAgentTrigger"><title>POST /v1/agents/{agentId}/triggers
+Agents line · createAgentTrigger</title>
+<circle cx="1000" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1117" text-anchor="start" style="fill:#1A1F2C">Create trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-retrieveAgentTrigger" target="_blank" class="st" data-op="retrieveAgentTrigger"><title>GET /v1/agents/{agentId}/triggers/{triggerId}
+Agents line · retrieveAgentTrigger</title>
+<circle cx="1000" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1009" y="1018" text-anchor="start" style="fill:#1A1F2C">Get trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-updateAgentTrigger" target="_blank" class="st" data-op="updateAgentTrigger"><title>PATCH /v1/agents/{agentId}/triggers/{triggerId}
+Agents line · updateAgentTrigger</title>
+<circle cx="1000" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="949" text-anchor="start" style="fill:#1A1F2C">Update trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-deleteAgentTrigger" target="_blank" class="st" data-op="deleteAgentTrigger"><title>DELETE /v1/agents/{agentId}/triggers/{triggerId}
+Agents line · deleteAgentTrigger</title>
+<circle cx="1084" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1080" y1="864" x2="1088" y2="856" stroke="#D6264F" stroke-width="2"/>
+<text x="1072.0" y="865" text-anchor="end" style="fill:#1A1F2C">Delete trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-listAgentRuns" target="_blank" class="st" data-op="listAgentRuns"><title>GET /v1/agents/{agentId}/runs
+Agents line · listAgentRuns</title>
+<circle cx="1672" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1285" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-createAgentRun" target="_blank" class="st" data-op="createAgentRun"><title>POST /v1/agents/{agentId}/runs
+Agents line · createAgentRun</title>
+<circle cx="1588" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1369" text-anchor="start" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-agents-api/#op-retrieveAgentRun" target="_blank" class="st" data-op="retrieveAgentRun"><title>GET /v1/agents/{agentId}/runs/{runId}
+Agents line · retrieveAgentRun</title>
+<circle cx="1504" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1453" text-anchor="start" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-api-keys-api/#op-listApiKeys" target="_blank" class="st" data-op="listApiKeys"><title>GET /v1/api-keys
+API Keys line · listApiKeys</title>
+<circle cx="874" cy="1154" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="883" y="1173" text-anchor="start" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-api-keys-api/#op-createApiKey" target="_blank" class="st" data-op="createApiKey"><title>POST /v1/api-keys
+API Keys line · createApiKey</title>
+<circle cx="1210" cy="1070" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1222" y="1075" text-anchor="start" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-api-keys-api/#op-retrieveApiKey" target="_blank" class="st" data-op="retrieveApiKey"><title>GET /v1/api-keys/{apiKeyId}
+API Keys line · retrieveApiKey</title>
+<circle cx="1168" cy="1028" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="1033" text-anchor="start" style="fill:#1A1F2C">Get api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-api-keys-api/#op-updateApiKey" target="_blank" class="st" data-op="updateApiKey"><title>PATCH /v1/api-keys/{apiKeyId}
+API Keys line · updateApiKey</title>
+<circle cx="1084" cy="1028" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1090" y="1016" transform="rotate(-45 1090 1016)" style="fill:#1A1F2C">Update api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-api-keys-api/#op-deleteApiKey" target="_blank" class="st" data-op="deleteApiKey"><title>DELETE /v1/api-keys/{apiKeyId}
+API Keys line · deleteApiKey</title>
+<circle cx="874" cy="1028" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="870" y1="1032" x2="878" y2="1024" stroke="#5C6BC0" stroke-width="2"/>
+<text x="880" y="1016" transform="rotate(-45 880 1016)" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-artifacts-api/#op-listArtifacts" target="_blank" class="st" data-op="listArtifacts"><title>GET /v1/artifacts
+Artifacts line · listArtifacts</title>
+<circle cx="1126" cy="650" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1138" y="655" text-anchor="start" style="fill:#1A1F2C">List artifacts</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-artifacts-api/#op-createArtifact" target="_blank" class="st" data-op="createArtifact"><title>POST /v1/artifacts
+Artifacts line · createArtifact</title>
+<circle cx="1252" cy="776" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1264" y="781" text-anchor="start" style="fill:#1A1F2C">Create artifact</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-artifacts-api/#op-retrieveArtifact" target="_blank" class="st" data-op="retrieveArtifact"><title>GET /v1/artifacts/{artifactId}
+Artifacts line · retrieveArtifact</title>
+<circle cx="1294" cy="818" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1282.0" y="823" text-anchor="end" style="fill:#1A1F2C">Get artifact</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-artifacts-api/#op-deleteArtifact" target="_blank" class="st" data-op="deleteArtifact"><title>DELETE /v1/artifacts/{artifactId}
+Artifacts line · deleteArtifact</title>
+<circle cx="1378" cy="818" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1374" y1="822" x2="1382" y2="814" stroke="#00838F" stroke-width="2"/>
+<text x="1372" y="830" text-anchor="end" transform="rotate(-45 1372 830)" style="fill:#1A1F2C">Delete artifact</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-authentication-api/#op-retrieveMcpAuthContext" target="_blank" class="st" data-op="retrieveMcpAuthContext"><title>GET /auth/context
+Tembo Local line · retrieveMcpAuthContext</title>
+<circle cx="1504" cy="272" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="277" text-anchor="start" style="fill:#1A1F2C">Get context</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-billing-api/#op-retrieveBilling" target="_blank" class="st" data-op="retrieveBilling"><title>GET /v1/billing
+Tembo Local line · retrieveBilling</title>
+<circle cx="1504" cy="440" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="445" text-anchor="start" style="fill:#1A1F2C">Get billing</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-billing-api/#op-listBillingUsage" target="_blank" class="st" data-op="listBillingUsage"><title>GET /v1/billing/usage
+Tembo Local line · listBillingUsage</title>
+<circle cx="1504" cy="524" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="529" text-anchor="start" style="fill:#1A1F2C">Get usage</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-insights-api/#op-retrieveInsight" target="_blank" class="st" data-op="retrieveInsight"><title>GET /v1/insights
+Insights line · retrieveInsight</title>
+<circle cx="1882" cy="1364" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1894" y="1369" text-anchor="start" style="fill:#1A1F2C">List insights</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-insights-api/#op-updateInsight" target="_blank" class="st" data-op="updateInsight"><title>PATCH /v1/insights
+Insights line · updateInsight</title>
+<circle cx="1798" cy="1280" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1810" y="1285" text-anchor="start" style="fill:#1A1F2C">Create insight</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-insights-api/#op-listInsightMembers" target="_blank" class="st" data-op="listInsightMembers"><title>GET /v1/insights/members
+Insights line · listInsightMembers</title>
+<circle cx="1672" cy="1196" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1678" y="1184" transform="rotate(-45 1678 1184)" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-insights-api/#op-listInsightRepositories" target="_blank" class="st" data-op="listInsightRepositories"><title>GET /v1/insights/repositories
+Insights line · listInsightRepositories</title>
+<circle cx="1588" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1588" y="1169" text-anchor="middle" style="fill:#1A1F2C">List repositories <tspan font-weight="700" style="fill:#4A5568">⇄REP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-listIntegrations" target="_blank" class="st" data-op="listIntegrations"><title>GET /v1/integrations
+Integrations line · listIntegrations</title>
+<circle cx="748" cy="902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="754" y="890" transform="rotate(-45 754 890)" style="fill:#1A1F2C">List integrations</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-createIntegration" target="_blank" class="st" data-op="createIntegration"><title>POST /v1/integrations
+Integrations line · createIntegration</title>
+<circle cx="832" cy="902" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="826" y="914" text-anchor="end" transform="rotate(-45 826 914)" style="fill:#1A1F2C">Create integration</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-syncIntegrations" target="_blank" class="st" data-op="syncIntegrations"><title>POST /v1/integrations/sync
+Integrations line · syncIntegrations</title>
+<circle cx="832" cy="566" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="844" y="571" text-anchor="start" style="fill:#1A1F2C">Sync integrations</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-retrieveIntegrationSyncStatus" target="_blank" class="st" data-op="retrieveIntegrationSyncStatus"><title>GET /v1/integrations/sync/status
+Integrations line · retrieveIntegrationSyncStatus</title>
+<circle cx="622" cy="524" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="529" text-anchor="start" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-listIntegrationProviders" target="_blank" class="st" data-op="listIntegrationProviders"><title>GET /v1/integrations/providers
+Integrations line · listIntegrationProviders</title>
+<circle cx="832" cy="734" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="844" y="739" text-anchor="start" style="fill:#1A1F2C">List providers</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-listIntegrationTriggers" target="_blank" class="st" data-op="listIntegrationTriggers"><title>GET /v1/integrations/triggers
+Integrations line · listIntegrationTriggers</title>
+<circle cx="580" cy="482" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="592" y="487" text-anchor="start" style="fill:#1A1F2C">List triggers</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-discoverSnykOrganizations" target="_blank" class="st" data-op="discoverSnykOrganizations"><title>POST /v1/integrations/providers/snyk/organizations
+Integrations line · discoverSnykOrganizations</title>
+<circle cx="916" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="655" text-anchor="start" style="fill:#1A1F2C">Create organization <tspan font-weight="700" style="fill:#1F5FD1">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-retrieveIntegration" target="_blank" class="st" data-op="retrieveIntegration"><title>GET /v1/integrations/{integrationId}
+Integrations line · retrieveIntegration</title>
+<circle cx="916" cy="902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="928" y="907" text-anchor="start" style="fill:#1A1F2C">Get integration</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-updateIntegration" target="_blank" class="st" data-op="updateIntegration"><title>PATCH /v1/integrations/{integrationId}
+Integrations line · updateIntegration</title>
+<circle cx="958" cy="860" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="946.0" y="865" text-anchor="end" style="fill:#1A1F2C">Update integration</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-deleteIntegration" target="_blank" class="st" data-op="deleteIntegration"><title>DELETE /v1/integrations/{integrationId}
+Integrations line · deleteIntegration</title>
+<circle cx="916" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="912" y1="822" x2="920" y2="814" stroke="#E07B12" stroke-width="2"/>
+<text x="928" y="823" text-anchor="start" style="fill:#1A1F2C">Delete integration</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-authorizeIntegration" target="_blank" class="st" data-op="authorizeIntegration"><title>POST /v1/integrations/{integrationId}/authorize
+Integrations line · authorizeIntegration</title>
+<circle cx="496" cy="398" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="508" y="403" text-anchor="start" style="fill:#1A1F2C">Authorize integrations</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-testIntegration" target="_blank" class="st" data-op="testIntegration"><title>POST /v1/integrations/{integrationId}/test
+Integrations line · testIntegration</title>
+<circle cx="160" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="166" y="218" transform="rotate(-45 166 218)" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-syncIntegration" target="_blank" class="st" data-op="syncIntegration"><title>POST /v1/integrations/{integrationId}/sync
+Integrations line · syncIntegration</title>
+<circle cx="664" cy="566" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="652.0" y="571" text-anchor="end" style="fill:#1A1F2C">Sync integrations</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-retrieveIntegrationRateLimit" target="_blank" class="st" data-op="retrieveIntegrationRateLimit"><title>GET /v1/integrations/{integrationId}/rate-limit
+Integrations line · retrieveIntegrationRateLimit</title>
+<circle cx="412" cy="314" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="424" y="319" text-anchor="start" style="fill:#1A1F2C">Get rate limit</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-listIntegrationSentryEnvironments" target="_blank" class="st" data-op="listIntegrationSentryEnvironments"><title>GET /v1/integrations/{integrationId}/sentry-environments
+Integrations line · listIntegrationSentryEnvironments</title>
+<circle cx="328" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="340" y="235" text-anchor="start" style="fill:#1A1F2C">List sentry environments</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-integrations-api/#op-listIntegrationSlackChannels" target="_blank" class="st" data-op="listIntegrationSlackChannels"><title>GET /v1/integrations/{integrationId}/slack-channels
+Integrations line · listIntegrationSlackChannels</title>
+<circle cx="244" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="250" y="218" transform="rotate(-45 250 218)" style="fill:#1A1F2C">List slack channels</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-listMcpConnections" target="_blank" class="st" data-op="listMcpConnections"><title>GET /v1/mcp-connections
+MCP Connections line · listMcpConnections</title>
+<circle cx="1000" cy="398" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1012" y="403" text-anchor="start" style="fill:#1A1F2C">List mcp connections</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-createMcpConnection" target="_blank" class="st" data-op="createMcpConnection"><title>POST /v1/mcp-connections
+MCP Connections line · createMcpConnection</title>
+<circle cx="1084" cy="482" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1072.0" y="487" text-anchor="end" style="fill:#1A1F2C">Create mcp connection</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-retrieveMcpConnection" target="_blank" class="st" data-op="retrieveMcpConnection"><title>GET /v1/mcp-connections/{mcpConnectionId}
+MCP Connections line · retrieveMcpConnection</title>
+<circle cx="1126" cy="524" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1114.0" y="529" text-anchor="end" style="fill:#1A1F2C">Get mcp connection</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-updateMcpConnection" target="_blank" class="st" data-op="updateMcpConnection"><title>PATCH /v1/mcp-connections/{mcpConnectionId}
+MCP Connections line · updateMcpConnection</title>
+<circle cx="1210" cy="524" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1210" y="510" text-anchor="middle" style="fill:#1A1F2C">Update mcp connection</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-deleteMcpConnection" target="_blank" class="st" data-op="deleteMcpConnection"><title>DELETE /v1/mcp-connections/{mcpConnectionId}
+MCP Connections line · deleteMcpConnection</title>
+<circle cx="1294" cy="524" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1290" y1="528" x2="1298" y2="520" stroke="#B8860B" stroke-width="2"/>
+<text x="1306" y="529" text-anchor="start" style="fill:#1A1F2C">Delete mcp connection</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-authorizeMcpConnection" target="_blank" class="st" data-op="authorizeMcpConnection"><title>POST /v1/mcp-connections/{mcpConnectionId}/authorize
+MCP Connections line · authorizeMcpConnection</title>
+<circle cx="1336" cy="482" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1324.0" y="487" text-anchor="end" style="fill:#1A1F2C">Authorize mcp connections</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-mcp-connections-api/#op-testMcpConnection" target="_blank" class="st" data-op="testMcpConnection"><title>POST /v1/mcp-connections/{mcpConnectionId}/test
+MCP Connections line · testMcpConnection</title>
+<circle cx="1378" cy="440" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1390" y="445" text-anchor="start" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-messageLiveTicket" target="_blank" class="st" data-op="messageLiveTicket"><title>POST /v1/messages/live
+Messages line · messageLiveTicket</title>
+<circle cx="1126" cy="1154" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1138" y="1159" text-anchor="start" style="fill:#1A1F2C">Update live</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-messageLive" target="_blank" class="st" data-op="messageLive"><title>GET /v1/messages/live
+Messages line · messageLive</title>
+<circle cx="1000" cy="1280" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1012" y="1285" text-anchor="start" style="fill:#1A1F2C">Get live</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-listMessages" target="_blank" class="st" data-op="listMessages"><title>GET /v1/messages
+Messages line · listMessages</title>
+<circle cx="496" cy="1280" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="502" y="1268" transform="rotate(-45 502 1268)" style="fill:#1A1F2C">List messages</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-createMessage" target="_blank" class="st" data-op="createMessage"><title>POST /v1/messages
+Messages line · createMessage</title>
+<circle cx="622" cy="1280" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="628" y="1268" transform="rotate(-45 628 1268)" style="fill:#1A1F2C">Create message</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-retrieveMessage" target="_blank" class="st" data-op="retrieveMessage"><title>GET /v1/messages/{messageId}
+Messages line · retrieveMessage</title>
+<circle cx="706" cy="1280" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="712" y="1268" transform="rotate(-45 712 1268)" style="fill:#1A1F2C">Get message</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-updateMessage" target="_blank" class="st" data-op="updateMessage"><title>PATCH /v1/messages/{messageId}
+Messages line · updateMessage</title>
+<circle cx="790" cy="1280" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="796" y="1268" transform="rotate(-45 796 1268)" style="fill:#1A1F2C">Update message</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-messages-api/#op-deleteMessage" target="_blank" class="st" data-op="deleteMessage"><title>DELETE /v1/messages/{messageId}
+Messages line · deleteMessage</title>
+<circle cx="874" cy="1280" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="870" y1="1284" x2="878" y2="1276" stroke="#C2410C" stroke-width="2"/>
+<text x="880" y="1268" transform="rotate(-45 880 1268)" style="fill:#1A1F2C">Delete message</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-models-api/#op-listModels" target="_blank" class="st" data-op="listModels"><title>GET /v1/models
+Tembo Local line · listModels</title>
+<circle cx="1588" cy="608" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1582" y="620" text-anchor="end" transform="rotate(-45 1582 620)" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-models-api/#op-updateModel" target="_blank" class="st" data-op="updateModel"><title>PATCH /v1/models/{modelName}
+Tembo Local line · updateModel</title>
+<circle cx="1630" cy="566" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1642" y="571" text-anchor="start" style="fill:#1A1F2C">Update model</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-oauth-api/#op-retrieveOAuthContext" target="_blank" class="st" data-op="retrieveOAuthContext"><title>GET /oauth/context
+Tembo Local line · retrieveOAuthContext</title>
+<circle cx="1504" cy="356" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="361" text-anchor="start" style="fill:#1A1F2C">Get context</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-createOrganization" target="_blank" class="st" data-op="createOrganization"><title>POST /v1/organizations
+Organizations line · createOrganization</title>
+<circle cx="958" cy="734" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="739" text-anchor="start" style="fill:#1A1F2C">Create organization</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-retrieveOrganization" target="_blank" class="st" data-op="retrieveOrganization"><title>GET /v1/organizations/{organizationId}
+Organizations line · retrieveOrganization</title>
+<circle cx="1000" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1000" y="678" text-anchor="middle" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-updateOrganization" target="_blank" class="st" data-op="updateOrganization"><title>PATCH /v1/organizations/{organizationId}
+Organizations line · updateOrganization</title>
+<circle cx="1084" cy="776" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1075.0" y="795" text-anchor="end" style="fill:#1A1F2C">Update organization</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-deleteOrganization" target="_blank" class="st" data-op="deleteOrganization"><title>DELETE /v1/organizations/{organizationId}
+Organizations line · deleteOrganization</title>
+<circle cx="1168" cy="860" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1164" y1="864" x2="1172" y2="856" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1180" y="865" text-anchor="start" style="fill:#1A1F2C">Delete organization</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-listOrganizationMembers" target="_blank" class="st" data-op="listOrganizationMembers"><title>GET /v1/organizations/{organizationId}/members
+Organizations line · listOrganizationMembers</title>
+<circle cx="1168" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="907" text-anchor="start" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-createOrganizationMember" target="_blank" class="st" data-op="createOrganizationMember"><title>POST /v1/organizations/{organizationId}/members
+Organizations line · createOrganizationMember</title>
+<circle cx="1252" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1240.0" y="991" text-anchor="end" style="fill:#1A1F2C">Create member</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-retrieveOrganizationMember" target="_blank" class="st" data-op="retrieveOrganizationMember"><title>GET /v1/organizations/{organizationId}/members/{memberId}
+Organizations line · retrieveOrganizationMember</title>
+<circle cx="1336" cy="986" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1348" y="991" text-anchor="start" style="fill:#1A1F2C">Get member</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-updateOrganizationMember" target="_blank" class="st" data-op="updateOrganizationMember"><title>PATCH /v1/organizations/{organizationId}/members/{memberId}
+Organizations line · updateOrganizationMember</title>
+<circle cx="1378" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1366.0" y="949" text-anchor="end" style="fill:#1A1F2C">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-deleteOrganizationMember" target="_blank" class="st" data-op="deleteOrganizationMember"><title>DELETE /v1/organizations/{organizationId}/members/{memberId}
+Organizations line · deleteOrganizationMember</title>
+<circle cx="1504" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1500" y1="948" x2="1508" y2="940" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1516" y="949" text-anchor="start" style="fill:#1A1F2C">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-listOrganizationSecrets" target="_blank" class="st" data-op="listOrganizationSecrets"><title>GET /v1/organizations/{organizationId}/secrets
+Organizations line · listOrganizationSecrets</title>
+<circle cx="1546" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="907" text-anchor="start" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-createOrganizationSecret" target="_blank" class="st" data-op="createOrganizationSecret"><title>POST /v1/organizations/{organizationId}/secrets
+Organizations line · createOrganizationSecret</title>
+<circle cx="1588" cy="860" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1576.0" y="865" text-anchor="end" style="fill:#1A1F2C">Create secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-retrieveOrganizationSecret" target="_blank" class="st" data-op="retrieveOrganizationSecret"><title>GET /v1/organizations/{organizationId}/secrets/{secretId}
+Organizations line · retrieveOrganizationSecret</title>
+<circle cx="1714" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1726" y="739" text-anchor="start" style="fill:#1A1F2C">Get secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-updateOrganizationSecret" target="_blank" class="st" data-op="updateOrganizationSecret"><title>PATCH /v1/organizations/{organizationId}/secrets/{secretId}
+Organizations line · updateOrganizationSecret</title>
+<circle cx="1714" cy="692" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1726" y="697" text-anchor="start" style="fill:#1A1F2C">Update secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-deleteOrganizationSecret" target="_blank" class="st" data-op="deleteOrganizationSecret"><title>DELETE /v1/organizations/{organizationId}/secrets/{secretId}
+Organizations line · deleteOrganizationSecret</title>
+<circle cx="1798" cy="608" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1794" y1="612" x2="1802" y2="604" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1810" y="613" text-anchor="start" style="fill:#1A1F2C">Delete secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-retrieveOrganizationSettings" target="_blank" class="st" data-op="retrieveOrganizationSettings"><title>GET /v1/organizations/{organizationId}/settings
+Organizations line · retrieveOrganizationSettings</title>
+<circle cx="1882" cy="524" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1894" y="529" text-anchor="start" style="fill:#1A1F2C">List settings</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-updateOrganizationSettings" target="_blank" class="st" data-op="updateOrganizationSettings"><title>PATCH /v1/organizations/{organizationId}/settings
+Organizations line · updateOrganizationSettings</title>
+<circle cx="1882" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1870.0" y="403" text-anchor="end" style="fill:#1A1F2C">Create setting</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-validateOrganizationCredentials" target="_blank" class="st" data-op="validateOrganizationCredentials"><title>POST /v1/organizations/{organizationId}/settings/validate-credentials
+Organizations line · validateOrganizationCredentials</title>
+<circle cx="1882" cy="272" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1870.0" y="277" text-anchor="end" style="fill:#1A1F2C">Create validate credential</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-retrieveOrganizationSubscriptions" target="_blank" class="st" data-op="retrieveOrganizationSubscriptions"><title>GET /v1/organizations/{organizationId}/subscriptions
+Organizations line · retrieveOrganizationSubscriptions</title>
+<circle cx="2008" cy="272" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2014" y="260" transform="rotate(-45 2014 260)" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-organizations-api/#op-resetOrganizationSubscription" target="_blank" class="st" data-op="resetOrganizationSubscription"><title>POST /v1/organizations/{organizationId}/subscriptions/reset
+Organizations line · resetOrganizationSubscription</title>
+<circle cx="2092" cy="272" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2086" y="284" text-anchor="end" transform="rotate(-45 2086 284)" style="fill:#1A1F2C">Reset organizations subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-updateProjectDefaults" target="_blank" class="st" data-op="updateProjectDefaults"><title>PUT /v1/projects/defaults
+Projects line · updateProjectDefaults</title>
+<circle cx="1966" cy="1826" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1978" y="1831" text-anchor="start" style="fill:#1A1F2C">Create default</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-listProjects" target="_blank" class="st" data-op="listProjects"><title>GET /v1/projects
+Projects line · listProjects</title>
+<circle cx="2176" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2188" y="2167" text-anchor="start" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-createProject" target="_blank" class="st" data-op="createProject"><title>POST /v1/projects
+Projects line · createProject</title>
+<circle cx="2176" cy="2078" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2188" y="2083" text-anchor="start" style="fill:#1A1F2C">Create project</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-retrieveProject" target="_blank" class="st" data-op="retrieveProject"><title>GET /v1/projects/{projectId}
+Projects line · retrieveProject</title>
+<circle cx="2176" cy="2036" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2188" y="2041" text-anchor="start" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-updateProject" target="_blank" class="st" data-op="updateProject"><title>PATCH /v1/projects/{projectId}
+Projects line · updateProject</title>
+<circle cx="2092" cy="1952" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2104" y="1957" text-anchor="start" style="fill:#1A1F2C">Update project</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-deleteProject" target="_blank" class="st" data-op="deleteProject"><title>DELETE /v1/projects/{projectId}
+Projects line · deleteProject</title>
+<circle cx="2008" cy="1868" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2004" y1="1872" x2="2012" y2="1864" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2020" y="1873" text-anchor="start" style="fill:#1A1F2C">Delete project</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-listProjectEnvironmentVariables" target="_blank" class="st" data-op="listProjectEnvironmentVariables"><title>GET /v1/projects/{projectId}/environment-variables
+Projects line · listProjectEnvironmentVariables</title>
+<circle cx="1588" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1594" y="1520" transform="rotate(-45 1594 1520)" style="fill:#1A1F2C">List environment variables</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-createProjectEnvironmentVariables" target="_blank" class="st" data-op="createProjectEnvironmentVariables"><title>POST /v1/projects/{projectId}/environment-variables
+Projects line · createProjectEnvironmentVariables</title>
+<circle cx="1546" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1534.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Create environment variable</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-deleteProjectEnvironmentVariable" target="_blank" class="st" data-op="deleteProjectEnvironmentVariable"><title>DELETE /v1/projects/{projectId}/environment-variables/{key}
+Projects line · deleteProjectEnvironmentVariable</title>
+<circle cx="1504" cy="1574" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1500" y1="1578" x2="1508" y2="1570" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1516" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete environment variable</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-listProjectSnapshots" target="_blank" class="st" data-op="listProjectSnapshots"><title>GET /v1/projects/{projectId}/snapshots
+Projects line · listProjectSnapshots</title>
+<circle cx="1420" cy="2120" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="2125" text-anchor="start" style="fill:#1A1F2C">List snapshots</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-retrieveProjectSnapshot" target="_blank" class="st" data-op="retrieveProjectSnapshot"><title>GET /v1/projects/{projectId}/snapshots/{snapshotId}
+Projects line · retrieveProjectSnapshot</title>
+<circle cx="1420" cy="2246" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="2251" text-anchor="start" style="fill:#1A1F2C">Get snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-updateProjectSnapshot" target="_blank" class="st" data-op="updateProjectSnapshot"><title>PATCH /v1/projects/{projectId}/snapshots/{snapshotId}
+Projects line · updateProjectSnapshot</title>
+<circle cx="1378" cy="2288" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1390" y="2293" text-anchor="start" style="fill:#1A1F2C">Update snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-deleteProjectSnapshot" target="_blank" class="st" data-op="deleteProjectSnapshot"><title>DELETE /v1/projects/{projectId}/snapshots/{snapshotId}
+Projects line · deleteProjectSnapshot</title>
+<circle cx="1294" cy="2372" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1290" y1="2376" x2="1298" y2="2368" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1306" y="2377" text-anchor="start" style="fill:#1A1F2C">Delete snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-listProjectBuilds" target="_blank" class="st" data-op="listProjectBuilds"><title>GET /v1/projects/{projectId}/builds
+Projects line · listProjectBuilds</title>
+<circle cx="1882" cy="1742" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1894" y="1747" text-anchor="start" style="fill:#1A1F2C">List builds</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-createProjectBuild" target="_blank" class="st" data-op="createProjectBuild"><title>POST /v1/projects/{projectId}/builds
+Projects line · createProjectBuild</title>
+<circle cx="1798" cy="1658" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1810" y="1663" text-anchor="start" style="fill:#1A1F2C">Create build</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-retrieveProjectBuild" target="_blank" class="st" data-op="retrieveProjectBuild"><title>GET /v1/projects/{projectId}/builds/{buildId}
+Projects line · retrieveProjectBuild</title>
+<circle cx="1756" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="1621" text-anchor="start" style="fill:#1A1F2C">Get build</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-cancelProjectBuild" target="_blank" class="st" data-op="cancelProjectBuild"><title>POST /v1/projects/{projectId}/builds/{buildId}/cancel
+Projects line · cancelProjectBuild</title>
+<circle cx="1672" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1684" y="1537" text-anchor="start" style="fill:#1A1F2C">Cancel build</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-listProjectSchedules" target="_blank" class="st" data-op="listProjectSchedules"><title>GET /v1/projects/{projectId}/schedules
+Projects line · listProjectSchedules</title>
+<circle cx="1420" cy="1658" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1663" text-anchor="start" style="fill:#1A1F2C">List schedules</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-createProjectSchedule" target="_blank" class="st" data-op="createProjectSchedule"><title>POST /v1/projects/{projectId}/schedules
+Projects line · createProjectSchedule</title>
+<circle cx="1420" cy="1742" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1747" text-anchor="start" style="fill:#1A1F2C">Create schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-retrieveProjectSchedule" target="_blank" class="st" data-op="retrieveProjectSchedule"><title>GET /v1/projects/{projectId}/schedules/{scheduleId}
+Projects line · retrieveProjectSchedule</title>
+<circle cx="1420" cy="1826" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1831" text-anchor="start" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-updateProjectSchedule" target="_blank" class="st" data-op="updateProjectSchedule"><title>PATCH /v1/projects/{projectId}/schedules/{scheduleId}
+Projects line · updateProjectSchedule</title>
+<circle cx="1420" cy="1910" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1915" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-projects-api/#op-deleteProjectSchedule" target="_blank" class="st" data-op="deleteProjectSchedule"><title>DELETE /v1/projects/{projectId}/schedules/{scheduleId}
+Projects line · deleteProjectSchedule</title>
+<circle cx="1420" cy="1994" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1416" y1="1998" x2="1424" y2="1990" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1432" y="1999" text-anchor="start" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-pull-requests-api/#op-listPullRequests" target="_blank" class="st" data-op="listPullRequests"><title>GET /v1/pull-requests
+Tembo Local line · listPullRequests</title>
+<circle cx="1630" cy="482" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1642" y="487" text-anchor="start" style="fill:#1A1F2C">List pull requests</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-pull-requests-api/#op-retrievePullRequest" target="_blank" class="st" data-op="retrievePullRequest"><title>GET /v1/pull-requests/{pullRequestId}
+Tembo Local line · retrievePullRequest</title>
+<circle cx="1630" cy="398" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1642" y="403" text-anchor="start" style="fill:#1A1F2C">Get pull request</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-repositories-api/#op-listRepositories" target="_blank" class="st" data-op="listRepositories"><title>GET /v1/repositories
+Repositories line · listRepositories</title>
+<circle cx="1504" cy="1280" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1516" y="1285" text-anchor="start" style="fill:#1A1F2C">List repositories</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-repositories-api/#op-retrieveRepository" target="_blank" class="st" data-op="retrieveRepository"><title>GET /v1/repositories/{repositoryId}
+Repositories line · retrieveRepository</title>
+<circle cx="1504" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1492.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Get repository</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-repositories-api/#op-updateRepository" target="_blank" class="st" data-op="updateRepository"><title>PATCH /v1/repositories/{repositoryId}
+Repositories line · updateRepository</title>
+<circle cx="1504" cy="1112" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1516" y="1117" text-anchor="start" style="fill:#1A1F2C">Update repository</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-runtimes-api/#op-listRuntimes" target="_blank" class="st" data-op="listRuntimes"><title>GET /v1/runtimes
+Tembo Local line · listRuntimes</title>
+<circle cx="1630" cy="272" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1639" y="262" text-anchor="start" style="fill:#1A1F2C">List runtimes</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-sessionLiveTicket" target="_blank" class="st" data-op="sessionLiveTicket"><title>POST /v1/sessions/live
+Sessions line · sessionLiveTicket</title>
+<circle cx="1084" cy="1574" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1096" y="1579" text-anchor="start" style="fill:#1A1F2C">Update live</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-sessionLive" target="_blank" class="st" data-op="sessionLive"><title>GET /v1/sessions/live
+Sessions line · sessionLive</title>
+<circle cx="1168" cy="1490" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="1495" text-anchor="start" style="fill:#1A1F2C">Get live</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-listSessionSources" target="_blank" class="st" data-op="listSessionSources"><title>GET /v1/sessions/sources
+Sessions line · listSessionSources</title>
+<circle cx="1000" cy="1658" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1012" y="1663" text-anchor="start" style="fill:#1A1F2C">List sources</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-retrieveSessionSource" target="_blank" class="st" data-op="retrieveSessionSource"><title>GET /v1/sessions/sources/{sourceId}
+Sessions line · retrieveSessionSource</title>
+<circle cx="916" cy="1742" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="928" y="1747" text-anchor="start" style="fill:#1A1F2C">Get source</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-listSessions" target="_blank" class="st" data-op="listSessions"><title>GET /v1/sessions
+Sessions line · listSessions</title>
+<circle cx="958" cy="1490" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="970" y="1495" text-anchor="start" style="fill:#1A1F2C">List sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-createSession" target="_blank" class="st" data-op="createSession"><title>POST /v1/sessions
+Sessions line · createSession</title>
+<circle cx="1042" cy="1406" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1030.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Create session</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-forkSession" target="_blank" class="st" data-op="forkSession"><title>POST /v1/sessions/{sessionId}/fork
+Sessions line · forkSession</title>
+<circle cx="580" cy="1994" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="586" y="1982" transform="rotate(-45 586 1982)" style="fill:#1A1F2C">Update fork</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-retrieveSession" target="_blank" class="st" data-op="retrieveSession"><title>GET /v1/sessions/{sessionId}
+Sessions line · retrieveSession</title>
+<circle cx="1168" cy="1280" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="1285" text-anchor="start" style="fill:#1A1F2C">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-updateSession" target="_blank" class="st" data-op="updateSession"><title>PATCH /v1/sessions/{sessionId}
+Sessions line · updateSession</title>
+<circle cx="1252" cy="1364" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1264" y="1369" text-anchor="start" style="fill:#1A1F2C">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-deleteSession" target="_blank" class="st" data-op="deleteSession"><title>DELETE /v1/sessions/{sessionId}
+Sessions line · deleteSession</title>
+<circle cx="1168" cy="1448" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1164" y1="1452" x2="1172" y2="1444" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1156.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-stopSession" target="_blank" class="st" data-op="stopSession"><title>POST /v1/sessions/{sessionId}/stop
+Sessions line · stopSession</title>
+<circle cx="496" cy="1994" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="502" y="1982" transform="rotate(-45 502 1982)" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-listSessionEvents" target="_blank" class="st" data-op="listSessionEvents"><title>GET /v1/sessions/{sessionId}/events
+Sessions line · listSessionEvents</title>
+<circle cx="664" cy="1994" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="676" y="1999" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-listSessionDiffs" target="_blank" class="st" data-op="listSessionDiffs"><title>GET /v1/sessions/{sessionId}/diffs
+Sessions line · listSessionDiffs</title>
+<circle cx="874" cy="1784" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="886" y="1789" text-anchor="start" style="fill:#1A1F2C">List diffs</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-sessions-api/#op-retrieveSessionDiff" target="_blank" class="st" data-op="retrieveSessionDiff"><title>GET /v1/sessions/{sessionId}/diffs/{diffId}
+Sessions line · retrieveSessionDiff</title>
+<circle cx="790" cy="1868" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="802" y="1873" text-anchor="start" style="fill:#1A1F2C">Get diff</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-listMarketplaceSkills" target="_blank" class="st" data-op="listMarketplaceSkills"><title>GET /v1/skills/marketplace
+Skills line · listMarketplaceSkills</title>
+<circle cx="1840" cy="776" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1852" y="781" text-anchor="start" style="fill:#1A1F2C">Get marketplace</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-retrieveMarketplaceSkill" target="_blank" class="st" data-op="retrieveMarketplaceSkill"><title>GET /v1/skills/marketplace/{skillId}
+Skills line · retrieveMarketplaceSkill</title>
+<circle cx="1798" cy="818" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1810" y="823" text-anchor="start" style="fill:#1A1F2C">Get marketplace</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-listSkills" target="_blank" class="st" data-op="listSkills"><title>GET /v1/skills
+Skills line · listSkills</title>
+<circle cx="2260" cy="650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2254" y="662" text-anchor="end" transform="rotate(-45 2254 662)" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-createSkill" target="_blank" class="st" data-op="createSkill"><title>POST /v1/skills
+Skills line · createSkill</title>
+<circle cx="2176" cy="650" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2182" y="638" transform="rotate(-45 2182 638)" style="fill:#1A1F2C">Create skill</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-retrieveSkill" target="_blank" class="st" data-op="retrieveSkill"><title>GET /v1/skills/{skillId}
+Skills line · retrieveSkill</title>
+<circle cx="2092" cy="650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2098" y="638" transform="rotate(-45 2098 638)" style="fill:#1A1F2C">Get skill</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-updateSkill" target="_blank" class="st" data-op="updateSkill"><title>PATCH /v1/skills/{skillId}
+Skills line · updateSkill</title>
+<circle cx="1966" cy="650" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1954.0" y="655" text-anchor="end" style="fill:#1A1F2C">Update skill</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-skills-api/#op-deleteSkill" target="_blank" class="st" data-op="deleteSkill"><title>DELETE /v1/skills/{skillId}
+Skills line · deleteSkill</title>
+<circle cx="1882" cy="734" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1878" y1="738" x2="1886" y2="730" stroke="#2E7D32" stroke-width="2"/>
+<text x="1894" y="739" text-anchor="start" style="fill:#1A1F2C">Delete skill</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-retrieveCurrentUser" target="_blank" class="st" data-op="retrieveCurrentUser"><title>GET /v1/users/me
+Users line · retrieveCurrentUser</title>
+<circle cx="2176" cy="944" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2164.0" y="949" text-anchor="end" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-retrieveUser" target="_blank" class="st" data-op="retrieveUser"><title>GET /v1/users/{userId}
+Users line · retrieveUser</title>
+<circle cx="2344" cy="944" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2338" y="956" text-anchor="end" transform="rotate(-45 2338 956)" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-deleteUser" target="_blank" class="st" data-op="deleteUser"><title>DELETE /v1/users/{userId}
+Users line · deleteUser</title>
+<circle cx="2260" cy="944" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2256" y1="948" x2="2264" y2="940" stroke="#B0287F" stroke-width="2"/>
+<text x="2266" y="932" transform="rotate(-45 2266 932)" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-listUserConnectedAccounts" target="_blank" class="st" data-op="listUserConnectedAccounts"><title>GET /v1/users/{userId}/connected-accounts
+Users line · listUserConnectedAccounts</title>
+<circle cx="2134" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2143" y="892" text-anchor="start" style="fill:#1A1F2C">List connected accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-retrieveUserConnectedAccount" target="_blank" class="st" data-op="retrieveUserConnectedAccount"><title>GET /v1/users/{userId}/connected-accounts/{connectedAccountId}
+Users line · retrieveUserConnectedAccount</title>
+<circle cx="1966" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1954.0" y="907" text-anchor="end" style="fill:#1A1F2C">Get connected account</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-retrieveUserSettings" target="_blank" class="st" data-op="retrieveUserSettings"><title>GET /v1/users/{userId}/settings
+Users line · retrieveUserSettings</title>
+<circle cx="1966" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="1201" text-anchor="start" style="fill:#1A1F2C">List settings</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-updateUserSettings" target="_blank" class="st" data-op="updateUserSettings"><title>PATCH /v1/users/{userId}/settings
+Users line · updateUserSettings</title>
+<circle cx="2008" cy="1238" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1996.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Create setting</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-retrieveUserSubscriptions" target="_blank" class="st" data-op="retrieveUserSubscriptions"><title>GET /v1/users/{userId}/subscriptions
+Users line · retrieveUserSubscriptions</title>
+<circle cx="2134" cy="1238" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2140" y="1226" transform="rotate(-45 2140 1226)" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-resetUserSubscription" target="_blank" class="st" data-op="resetUserSubscription"><title>POST /v1/users/{userId}/subscriptions/reset
+Users line · resetUserSubscription</title>
+<circle cx="2218" cy="1238" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2212" y="1250" text-anchor="end" transform="rotate(-45 2212 1250)" style="fill:#1A1F2C">Reset users subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-retrieveUserProfilePicture" target="_blank" class="st" data-op="retrieveUserProfilePicture"><title>GET /v1/users/{userId}/profile-picture
+Users line · retrieveUserProfilePicture</title>
+<circle cx="1924" cy="944" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1936" y="949" text-anchor="start" style="fill:#1A1F2C">Get profile picture</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-updateUserProfilePicture" target="_blank" class="st" data-op="updateUserProfilePicture"><title>PUT /v1/users/{userId}/profile-picture
+Users line · updateUserProfilePicture</title>
+<circle cx="1882" cy="986" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="991" text-anchor="start" style="fill:#1A1F2C">Update profile picture</text>
+</a>
+<a href="https://apis.apis.io/apis/tembo/tembo-users-api/#op-deleteUserProfilePicture" target="_blank" class="st" data-op="deleteUserProfilePicture"><title>DELETE /v1/users/{userId}/profile-picture
+Users line · deleteUserProfilePicture</title>
+<circle cx="1882" cy="1112" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1878" y1="1116" x2="1886" y2="1108" stroke="#B0287F" stroke-width="2"/>
+<text x="1894" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete profile picture</text>
+</a>
+<text x="2534" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2534" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">TEMBO</text>
+<rect x="2534" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2551" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="2576" y="269" font-size="11" fill="#1A1F2C">Agents <tspan fill="#8A93A6">23</tspan></text>
+<rect x="2534" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2551" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2576" y="286" font-size="11" fill="#1A1F2C">Projects <tspan fill="#8A93A6">22</tspan></text>
+<rect x="2534" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2551" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="2576" y="303" font-size="11" fill="#1A1F2C">Organizations <tspan fill="#8A93A6">19</tspan></text>
+<rect x="2534" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2551" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="2576" y="320" font-size="11" fill="#1A1F2C">Integrations <tspan fill="#8A93A6">16</tspan></text>
+<rect x="2534" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2551" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SES</text><text x="2576" y="337" font-size="11" fill="#1A1F2C">Sessions <tspan fill="#8A93A6">14</tspan></text>
+<rect x="2534" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2551" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="2576" y="354" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">12</tspan></text>
+<rect x="2534" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2551" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TL</text><text x="2576" y="371" font-size="11" fill="#1A1F2C">Tembo Local <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2534" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2551" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MC</text><text x="2576" y="388" font-size="11" fill="#1A1F2C">MCP Connections <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2534" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2551" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MES</text><text x="2576" y="405" font-size="11" fill="#1A1F2C">Messages <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2534" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2551" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SKI</text><text x="2576" y="422" font-size="11" fill="#1A1F2C">Skills <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2534" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2551" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="2576" y="439" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2534" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="2551" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ART</text><text x="2576" y="456" font-size="11" fill="#1A1F2C">Artifacts <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2534" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2551" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INS</text><text x="2576" y="473" font-size="11" fill="#1A1F2C">Insights <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2534" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="2551" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="2576" y="490" font-size="11" fill="#1A1F2C">Repositories <tspan fill="#8A93A6">3</tspan></text>
+<text x="2784" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2802,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2828" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2802,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2828" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2802,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2828" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2802,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2828" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2802,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2828" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2802,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2828" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2802,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2828" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2802,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2828" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2784" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2784" y="463" font-size="10.5" fill="#5A6275">“Authentication” → Tembo Local line · 1 op</text>
+<text x="2784" y="478" font-size="10.5" fill="#5A6275">“Billing” → Tembo Local line · 2 ops</text>
+<text x="2784" y="493" font-size="10.5" fill="#5A6275">“Models” → Tembo Local line · 2 ops</text>
+<text x="2784" y="508" font-size="10.5" fill="#5A6275">“OAuth” → Tembo Local line · 1 op</text>
+<text x="2784" y="523" font-size="10.5" fill="#5A6275">“Pull requests” → Tembo Local line · 2 ops</text>
+<text x="2784" y="538" font-size="10.5" fill="#5A6275">“Runtimes” → Tembo Local line · 1 op</text>
+<text x="2784" y="588" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2784" y="605" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2502" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/tembo/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

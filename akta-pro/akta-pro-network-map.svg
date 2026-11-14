@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1062" width="1700" height="1062" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1700" height="1062" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Akta-Pro API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">14 operations as stops · 2 tags as lines · 1 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="670.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">AKTA PRO</text>
+<path class="line" data-line="Company" d="M958.0,902.0 L958.0,790.0 Q958.0,776.0 948.1,766.1 L916.0,734.0 L874.0,692.0 L790.0,608.0 L757.9,575.9 Q748.0,566.0 748.0,552.0 L748.0,496.0 Q748.0,482.0 757.9,472.1 L832.0,398.0 L916.0,314.0 L1000.0,230.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Company</title></path>
+<path class="line" data-line="Akta Pro Local" d="M160.0,440.0 L160.0,524.0 L160.0,608.0 L160.0,692.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Akta Pro Local</title></path>
+<line x1="958" y1="902" x2="958.0" y2="936.0" stroke="#D6264F" stroke-width="7"/><rect x="934.0" y="925.0" width="48" height="22" rx="5" fill="#D6264F"><title>Company</title></rect><text x="958.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1000" y1="230" x2="1024.0416305603426" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1000.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Company</title></rect><text x="1024.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="160" y1="440" x2="160.0" y2="406.0" stroke="#0E9F6E" stroke-width="7"/><rect x="136.0" y="395.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Akta Pro Local</title></rect><text x="160.0" y="411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APL</text>
+<line x1="160" y1="692" x2="160.0" y2="726.0" stroke="#0E9F6E" stroke-width="7"/><rect x="136.0" y="715.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Akta Pro Local</title></rect><text x="160.0" y="731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APL</text>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-companySearch" target="_blank" class="st" data-op="companySearch"><title>GET /v1/company/search
+Company line · companySearch</title>
+<circle cx="832" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="403" text-anchor="start" style="fill:#1A1F2C">Search company</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-companyEnrichment" target="_blank" class="st" data-op="companyEnrichment"><title>GET /v1/company/enrichment
+Company line · companyEnrichment</title>
+<circle cx="916" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="739" text-anchor="start" style="fill:#1A1F2C">Get enrichment</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-industrySearch" target="_blank" class="st" data-op="industrySearch"><title>GET /v1/industry/search
+Company line · industrySearch</title>
+<circle cx="1000" cy="230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1012" y="235" text-anchor="start" style="fill:#1A1F2C">Search industry</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-getHeadcountTrends" target="_blank" class="st" data-op="getHeadcountTrends"><title>GET /v1/company/headcount-trends
+Company line · getHeadcountTrends</title>
+<circle cx="874" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="697" text-anchor="start" style="fill:#1A1F2C">List headcount trends</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-getJobPosts" target="_blank" class="st" data-op="getJobPosts"><title>GET /v1/company/jobs
+Company line · getJobPosts</title>
+<circle cx="790" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="802" y="613" text-anchor="start" style="fill:#1A1F2C">List jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-getSocialPosts" target="_blank" class="st" data-op="getSocialPosts"><title>GET /v1/company/posts
+Company line · getSocialPosts</title>
+<circle cx="748" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="571" text-anchor="start" style="fill:#1A1F2C">List posts</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-getWebsiteTraffic" target="_blank" class="st" data-op="getWebsiteTraffic"><title>GET /v1/company/website-traffic
+Company line · getWebsiteTraffic</title>
+<circle cx="916" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="319" text-anchor="start" style="fill:#1A1F2C">Get website traffic</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-company-api/#op-createCompanyAdditionRequest" target="_blank" class="st" data-op="createCompanyAdditionRequest"><title>POST /v1/company/addition-requests
+Company line · createCompanyAdditionRequest</title>
+<circle cx="958" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="907" text-anchor="start" style="fill:#1A1F2C">Create addition request</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-list-generation-api/#op-generateCompanyList" target="_blank" class="st" data-op="generateCompanyList"><title>POST /v1/list/generate/companies/
+Akta Pro Local line · generateCompanyList</title>
+<circle cx="160" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="529" text-anchor="start" style="fill:#1A1F2C">Create company</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-list-generation-api/#op-translateQuery" target="_blank" class="st" data-op="translateQuery"><title>POST /v1/list/filter-builder/
+Akta Pro Local line · translateQuery</title>
+<circle cx="160" cy="440" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="445" text-anchor="start" style="fill:#1A1F2C">Update filter builder</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-news-api/#op-getNews" target="_blank" class="st" data-op="getNews"><title>GET /v1/news
+Akta Pro Local line · getNews</title>
+<circle cx="160" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="172" y="613" text-anchor="start" style="fill:#1A1F2C">List news <tspan font-weight="700" style="fill:#D6264F">⇄COM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-reviews-api/#op-getProductReviews" target="_blank" class="st" data-op="getProductReviews"><title>GET /v1/company/product-reviews
+Company line · getProductReviews</title>
+<circle cx="748" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="487" text-anchor="start" style="fill:#1A1F2C">List product reviews</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-reviews-api/#op-getEmployeeReviews" target="_blank" class="st" data-op="getEmployeeReviews"><title>GET /v1/company/employee-reviews
+Company line · getEmployeeReviews</title>
+<circle cx="958" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="781" text-anchor="start" style="fill:#1A1F2C">List employee reviews</text>
+</a>
+<a href="https://apis.apis.io/apis/akta-pro/akta-pro-supporting-apis-api/#op-getRequestStatus" target="_blank" class="st" data-op="getRequestStatus"><title>GET /v1/status/{request_id}
+Akta Pro Local line · getRequestStatus</title>
+<circle cx="160" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="697" text-anchor="start" style="fill:#1A1F2C">Get statu</text>
+</a>
+<text x="1190" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1190" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AKTA PRO</text>
+<rect x="1190" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1207" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="1232" y="269" font-size="11" fill="#1A1F2C">Company <tspan fill="#8A93A6">10</tspan></text>
+<rect x="1190" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1207" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APL</text><text x="1232" y="286" font-size="11" fill="#1A1F2C">Akta Pro Local <tspan fill="#8A93A6">4</tspan></text>
+<text x="1440" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1458,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1458,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1458,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1484" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1458,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1484" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1458,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1484" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1458,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1484" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1458,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1484" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1458,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1484" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1440" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1440" y="463" font-size="10.5" fill="#5A6275">“List Generation” → Akta Pro Local line · 2 ops</text>
+<text x="1440" y="478" font-size="10.5" fill="#5A6275">“News” → Akta Pro Local line · 1 op</text>
+<text x="1440" y="493" font-size="10.5" fill="#5A6275">“Reviews” → Company line · 2 ops</text>
+<text x="1440" y="508" font-size="10.5" fill="#5A6275">“Supporting APIs” → Akta Pro Local line · 1 op</text>
+<text x="1440" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1440" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1032" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/akta-pro/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

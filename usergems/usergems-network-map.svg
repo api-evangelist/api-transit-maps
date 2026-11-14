@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1154 690" width="1154" height="690" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1154" height="690" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Usergems API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">5 operations as stops · 1 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="311.2" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">USERGEMS</text>
+<path class="line" data-line="Usergems Local" d="M454.0,230.0 L370.0,314.0 L337.9,346.1 Q328.0,356.0 314.0,356.0 L244.0,356.0 L160.0,356.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Usergems Local</title></path>
+<line x1="454" y1="230" x2="478.04163056034264" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="454.04163056034264" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Usergems Local</title></rect><text x="478.04163056034264" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UL</text>
+<line x1="160" y1="356" x2="126.0" y2="356.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="345.0" width="48" height="22" rx="5" fill="#D6264F"><title>Usergems Local</title></rect><text x="126.0" y="361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UL</text>
+<a href="https://apis.apis.io/apis/usergems/usergems-accounts-api/#op-addAccount" target="_blank" class="st" data-op="addAccount"><title>POST /account
+Usergems Local line · addAccount</title>
+<circle cx="454" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="235" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/usergems/usergems-accounts-api/#op-deleteAccount" target="_blank" class="st" data-op="deleteAccount"><title>DELETE /account
+Usergems Local line · deleteAccount</title>
+<circle cx="370" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="366" y1="318" x2="374" y2="310" stroke="#D6264F" stroke-width="2"/>
+<text x="382" y="319" text-anchor="start" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/usergems/usergems-contacts-api/#op-addContact" target="_blank" class="st" data-op="addContact"><title>POST /contact
+Usergems Local line · addContact</title>
+<circle cx="328" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="361" text-anchor="start" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/usergems/usergems-contacts-api/#op-deleteContact" target="_blank" class="st" data-op="deleteContact"><title>DELETE /contact
+Usergems Local line · deleteContact</title>
+<circle cx="244" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="240" y1="360" x2="248" y2="352" stroke="#D6264F" stroke-width="2"/>
+<text x="250" y="344" transform="rotate(-45 250 344)" style="fill:#1A1F2C">Delete contact</text>
+</a>
+<a href="https://apis.apis.io/apis/usergems/usergems-privacy-api/#op-privacyDelete" target="_blank" class="st" data-op="privacyDelete"><title>POST /privacy/delete
+Usergems Local line · privacyDelete</title>
+<circle cx="160" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="344" transform="rotate(-45 166 344)" style="fill:#1A1F2C">Delete privacy</text>
+</a>
+<text x="644" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="644" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">USERGEMS</text>
+<rect x="644" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="661" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UL</text><text x="686" y="269" font-size="11" fill="#1A1F2C">Usergems Local <tspan fill="#8A93A6">5</tspan></text>
+<text x="894" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(912,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="938" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(912,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="938" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(912,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="938" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(912,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="938" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(912,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="938" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(912,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="938" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(912,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="938" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(912,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="938" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="894" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="894" y="463" font-size="10.5" fill="#5A6275">“Accounts” → Usergems Local line · 2 ops</text>
+<text x="894" y="478" font-size="10.5" fill="#5A6275">“Contacts” → Usergems Local line · 2 ops</text>
+<text x="894" y="493" font-size="10.5" fill="#5A6275">“Privacy” → Usergems Local line · 1 op</text>
+<text x="894" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="894" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="660" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/usergems/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
