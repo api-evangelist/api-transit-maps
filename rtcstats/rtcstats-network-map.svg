@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1322 1062" width="1322" height="1062" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1322" height="1062" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Rtcstats API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">10 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="382.6" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">RTCSTATS</text>
+<path class="line" data-line="Sessions" d="M454.0,902.0 L370.0,902.0 L286.0,902.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sessions</title></path>
+<path class="line" data-line="Rtcstats Local" d="M622.0,230.0 L538.0,230.0 L468.0,230.0 Q454.0,230.0 444.1,239.9 L379.9,304.1 Q370.0,314.0 356.0,314.0 L328.0,314.0 L244.0,314.0 L160.0,314.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Rtcstats Local</title></path>
+<line x1="454" y1="902" x2="488.0" y2="902.0" stroke="#0E9F6E" stroke-width="7"/><rect x="464.0" y="891.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Sessions</title></rect><text x="488.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="286" y1="902" x2="252.0" y2="902.0" stroke="#0E9F6E" stroke-width="7"/><rect x="228.0" y="891.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Sessions</title></rect><text x="252.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="622" y1="230" x2="656.0" y2="230.0" stroke="#D6264F" stroke-width="7"/><rect x="632.0" y="219.0" width="48" height="22" rx="5" fill="#D6264F"><title>Rtcstats Local</title></rect><text x="656.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RL</text>
+<line x1="160" y1="314" x2="126.0" y2="314.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="303.0" width="48" height="22" rx="5" fill="#D6264F"><title>Rtcstats Local</title></rect><text x="126.0" y="319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RL</text>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-upload" target="_blank" class="st" data-op="upload"><title>POST /v1.0/upload
+Rtcstats Local line · upload</title>
+<circle cx="160" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="302" transform="rotate(-45 166 302)" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-analyze" target="_blank" class="st" data-op="analyze"><title>POST /v1.0/analyze
+Rtcstats Local line · analyze</title>
+<circle cx="622" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="616" y="242" text-anchor="end" transform="rotate(-45 616 242)" style="fill:#1A1F2C">Update analyze</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-enrich" target="_blank" class="st" data-op="enrich"><title>POST /v1.0/enrich
+Rtcstats Local line · enrich</title>
+<circle cx="538" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="544" y="218" transform="rotate(-45 544 218)" style="fill:#1A1F2C">Update enrich</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-mcpStreamablePost" target="_blank" class="st" data-op="mcpStreamablePost"><title>POST /v1.0/mcp
+Rtcstats Local line · mcpStreamablePost</title>
+<circle cx="454" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="442.0" y="235" text-anchor="end" style="fill:#1A1F2C">Update mcp</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-quota" target="_blank" class="st" data-op="quota"><title>GET /v1.0/quota
+Rtcstats Local line · quota</title>
+<circle cx="244" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="302" transform="rotate(-45 250 302)" style="fill:#1A1F2C">Get quota</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-observations" target="_blank" class="st" data-op="observations"><title>GET /v1.0/observations
+Rtcstats Local line · observations</title>
+<circle cx="370" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="319" text-anchor="start" style="fill:#1A1F2C">List observations</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-listSessions" target="_blank" class="st" data-op="listSessions"><title>GET /v1.0/sessions
+Sessions line · listSessions</title>
+<circle cx="454" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="448" y="914" text-anchor="end" transform="rotate(-45 448 914)" style="fill:#1A1F2C">List sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-session" target="_blank" class="st" data-op="session"><title>GET /v1.0/sessions/{rtcstatsId}
+Sessions line · session</title>
+<circle cx="370" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="376" y="890" transform="rotate(-45 376 890)" style="fill:#1A1F2C">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-deleteSession" target="_blank" class="st" data-op="deleteSession"><title>DELETE /v1.0/sessions/{rtcstatsId}
+Sessions line · deleteSession</title>
+<circle cx="286" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="282" y1="906" x2="290" y2="898" stroke="#0E9F6E" stroke-width="2"/>
+<text x="292" y="890" transform="rotate(-45 292 890)" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/rtcstats/rtcstats-rtcstats-api-api/#op-observationExplanation" target="_blank" class="st" data-op="observationExplanation"><title>GET /v1.0/observations/{type}
+Rtcstats Local line · observationExplanation</title>
+<circle cx="328" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="334" y="302" transform="rotate(-45 334 302)" style="fill:#1A1F2C">Get observation</text>
+</a>
+<text x="812" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="812" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">RTCSTATS</text>
+<rect x="812" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="829" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RL</text><text x="854" y="269" font-size="11" fill="#1A1F2C">Rtcstats Local <tspan fill="#8A93A6">7</tspan></text>
+<rect x="812" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="829" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SES</text><text x="854" y="286" font-size="11" fill="#1A1F2C">Sessions <tspan fill="#8A93A6">3</tspan></text>
+<text x="1062" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1080,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1106" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1080,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1106" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1080,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1106" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1080,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1106" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1080,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1106" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1080,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1106" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1080,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1106" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1080,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1106" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1062" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1062" y="463" font-size="10.5" fill="#5A6275">“Analyze” → Rtcstats Local line · 1 op</text>
+<text x="1062" y="478" font-size="10.5" fill="#5A6275">“Enrich” → Rtcstats Local line · 1 op</text>
+<text x="1062" y="493" font-size="10.5" fill="#5A6275">“MCP” → Rtcstats Local line · 1 op</text>
+<text x="1062" y="508" font-size="10.5" fill="#5A6275">“Observations” → Rtcstats Local line · 2 ops</text>
+<text x="1062" y="523" font-size="10.5" fill="#5A6275">“Quota” → Rtcstats Local line · 1 op</text>
+<text x="1062" y="538" font-size="10.5" fill="#5A6275">“Upload” → Rtcstats Local line · 1 op</text>
+<text x="1062" y="588" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1062" y="605" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1032" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/rtcstats/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 1272" width="1784" height="1272" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1784" height="1272" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Esri API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">15 operations as stops · 3 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="650.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">ESRI</text>
+<path class="line" data-line="Geocoding" d="M874.0,230.0 L874.0,314.0 L874.0,398.0 L874.0,510.0 Q874.0,524.0 883.9,533.9 L906.1,556.1 Q916.0,566.0 930.0,566.0 L1000.0,566.0 L1084.0,566.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Geocoding</title></path>
+<path class="line" data-line="Portal" d="M160.0,692.0 L244.0,608.0 L318.1,533.9 Q328.0,524.0 328.0,510.0 L328.0,440.0 L328.0,356.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Portal</title></path>
+<path class="line" data-line="Esri Local" d="M622.0,944.0 L622.0,1028.0 L622.0,1112.0" fill="none" stroke="#1F5FD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Esri Local</title></path>
+<line x1="874" y1="230" x2="874.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="850.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Geocoding</title></rect><text x="874.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GEO</text>
+<line x1="1084" y1="566" x2="1118.0" y2="566.0" stroke="#D6264F" stroke-width="7"/><rect x="1094.0" y="555.0" width="48" height="22" rx="5" fill="#D6264F"><title>Geocoding</title></rect><text x="1118.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GEO</text>
+<line x1="160" y1="692" x2="135.9583694396574" y2="716.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="705.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Portal</title></rect><text x="135.9583694396574" y="721.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POR</text>
+<line x1="328" y1="356" x2="328.0" y2="322.0" stroke="#0E9F6E" stroke-width="7"/><rect x="304.0" y="311.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Portal</title></rect><text x="328.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POR</text>
+<line x1="622" y1="944" x2="622.0" y2="910.0" stroke="#1F5FD1" stroke-width="7"/><rect x="598.0" y="899.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Esri Local</title></rect><text x="622.0" y="915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EL</text>
+<line x1="622" y1="1112" x2="622.0" y2="1146.0" stroke="#1F5FD1" stroke-width="7"/><rect x="598.0" y="1135.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Esri Local</title></rect><text x="622.0" y="1151.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EL</text>
+<a href="https://apis.apis.io/apis/esri/esri-auth-api/#op-getOAuthToken" target="_blank" class="st" data-op="getOAuthToken"><title>POST /sharing/rest/oauth2/token
+Esri Local line · getOAuthToken</title>
+<circle cx="622" cy="1112" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="634" y="1117" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-geocoding-api/#op-findAddressCandidates" target="_blank" class="st" data-op="findAddressCandidates"><title>GET /World/GeocodeServer/findAddressCandidates
+Geocoding line · findAddressCandidates</title>
+<circle cx="874" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="403" text-anchor="start" style="fill:#1A1F2C">List findaddresscandidates</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-geocoding-api/#op-geocodeAddresses" target="_blank" class="st" data-op="geocodeAddresses"><title>POST /World/GeocodeServer/geocodeAddresses
+Geocoding line · geocodeAddresses</title>
+<circle cx="874" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="529" text-anchor="start" style="fill:#1A1F2C">Create geocodeaddress</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-geocoding-api/#op-reverseGeocode" target="_blank" class="st" data-op="reverseGeocode"><title>GET /World/GeocodeServer/reverseGeocode
+Geocoding line · reverseGeocode</title>
+<circle cx="916" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="904.0" y="571" text-anchor="end" style="fill:#1A1F2C">Get reversegeocode</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-geocoding-api/#op-suggestAddresses" target="_blank" class="st" data-op="suggestAddresses"><title>GET /World/GeocodeServer/suggest
+Geocoding line · suggestAddresses</title>
+<circle cx="1000" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1006" y="554" transform="rotate(-45 1006 554)" style="fill:#1A1F2C">Get suggest</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-geocoding-api/#op-getFindAddressCandidates" target="_blank" class="st" data-op="getFindAddressCandidates"><title>GET /findAddressCandidates
+Geocoding line · getFindAddressCandidates</title>
+<circle cx="874" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="235" text-anchor="start" style="fill:#1A1F2C">List findaddresscandidates</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-geocoding-api/#op-getReverseGeocode" target="_blank" class="st" data-op="getReverseGeocode"><title>GET /reverseGeocode
+Geocoding line · getReverseGeocode</title>
+<circle cx="874" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="319" text-anchor="start" style="fill:#1A1F2C">Get reversegeocode</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-places-api/#op-findPlacesNearPoint" target="_blank" class="st" data-op="findPlacesNearPoint"><title>GET /places/near-point
+Esri Local line · findPlacesNearPoint</title>
+<circle cx="622" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="634" y="1033" text-anchor="start" style="fill:#1A1F2C">Get near point</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-places-api/#op-getPlaceDetails" target="_blank" class="st" data-op="getPlaceDetails"><title>GET /places/{placeId}
+Esri Local line · getPlaceDetails</title>
+<circle cx="622" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="634" y="949" text-anchor="start" style="fill:#1A1F2C">Get place</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-portal-api/#op-getPortalSelf" target="_blank" class="st" data-op="getPortalSelf"><title>GET /portals/self
+Portal line · getPortalSelf</title>
+<circle cx="328" cy="440" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="445" text-anchor="start" style="fill:#1A1F2C">Get self</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-portal-api/#op-getUser" target="_blank" class="st" data-op="getUser"><title>GET /community/users/{username}
+Portal line · getUser</title>
+<circle cx="160" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="697" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-portal-api/#op-getUserItems" target="_blank" class="st" data-op="getUserItems"><title>GET /content/users/{username}/items
+Portal line · getUserItems</title>
+<circle cx="328" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="529" text-anchor="start" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-portal-api/#op-getItem" target="_blank" class="st" data-op="getItem"><title>GET /content/items/{itemId}
+Portal line · getItem</title>
+<circle cx="244" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="256" y="613" text-anchor="start" style="fill:#1A1F2C">Get item</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-portal-api/#op-searchPortal" target="_blank" class="st" data-op="searchPortal"><title>GET /search
+Portal line · searchPortal</title>
+<circle cx="328" cy="356" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="361" text-anchor="start" style="fill:#1A1F2C">Search</text>
+</a>
+<a href="https://apis.apis.io/apis/esri/esri-routing-api/#op-solveRoute" target="_blank" class="st" data-op="solveRoute"><title>GET /World/Route/NAServer/Route_World/solve
+Geocoding line · solveRoute</title>
+<circle cx="1084" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1078" y="578" text-anchor="end" transform="rotate(-45 1078 578)" style="fill:#1A1F2C">Get solve</text>
+</a>
+<text x="1274" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1274" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">ESRI</text>
+<rect x="1274" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1291" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GEO</text><text x="1316" y="269" font-size="11" fill="#1A1F2C">Geocoding <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1274" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1291" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POR</text><text x="1316" y="286" font-size="11" fill="#1A1F2C">Portal <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1274" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1291" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EL</text><text x="1316" y="303" font-size="11" fill="#1A1F2C">Esri Local <tspan fill="#8A93A6">3</tspan></text>
+<text x="1524" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1542,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1542,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1542,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1568" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1542,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1568" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1542,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1568" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1542,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1568" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1542,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1568" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1542,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1568" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1524" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1524" y="463" font-size="10.5" fill="#5A6275">“Auth” → Esri Local line · 1 op</text>
+<text x="1524" y="478" font-size="10.5" fill="#5A6275">“Places” → Esri Local line · 2 ops</text>
+<text x="1524" y="493" font-size="10.5" fill="#5A6275">“Routing” → Geocoding line · 1 op</text>
+<text x="1524" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1524" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1242" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/esri/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

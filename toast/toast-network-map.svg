@@ -1,0 +1,771 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4220 2280" width="4220" height="2280" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="4220" height="2280" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Toast API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">123 operations as stops · 12 tags as lines · 5 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1252.0,524.0 L1154.3,621.7 Q1126.0,650.0 1126.0,690.0 L1126.0,776.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1127.0" y="638.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1189.0" y="654.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Employees ⇄ Jobs</title>1 interchange</text></g>
+<path d="M160.0,1490.0 L1097.7,552.3 Q1126.0,524.0 1166.0,524.0 L1630.0,524.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="833.0" y="995.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="895.0" y="1011.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Orders</title>1 interchange</text></g>
+<path d="M1126.0,1448.0 L1405.2,1168.8 Q1420.0,1154.0 1420.0,1133.0 L1420.0,1112.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1211.0" y="1268.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1273.0" y="1284.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Orders ⇄ Payout</title>1 interchange</text></g>
+<text x="1171.6" y="244" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">ORDERS</text>
+<text x="1037.8" y="370" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">EMPLOYEES</text>
+<text x="1147.0" y="1168" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">PAYOUT</text>
+<text x="1260.4" y="1336" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">SHIFTS</text>
+<text x="853.0" y="1294" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">PUBLISHED</text>
+<text x="1147.0" y="706" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">JOBS</text>
+<text x="2218.0" y="1336" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">METRICS</text>
+<text x="2176.0" y="202" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">INVENTORY</text>
+<text x="1084.0" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">MENU</text>
+<text x="2270.285714285714" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="1420" y1="1154" x2="1420" y2="1112" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1420" y1="1154" x2="1420" y2="1112" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Metrics" d="M2218.0,1406.0 L2218.0,1490.0 L2218.0,1574.0 L2218.0,1658.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Metrics</title></path>
+<path class="line" data-line="Orders" d="M1798.0,1154.0 L1714.0,1154.0 L1630.0,1154.0 L1546.0,1154.0 L1434.0,1154.0 Q1420.0,1154.0 1420.0,1168.0 L1420.0,1224.0 Q1420.0,1238.0 1429.9,1247.9 L1494.1,1312.1 Q1504.0,1322.0 1504.0,1336.0 L1504.0,1406.0 L1504.0,1490.0 L1504.0,1574.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Employees" d="M664.0,482.0 L748.0,566.0 L822.1,640.1 Q832.0,650.0 846.0,650.0 L916.0,650.0 L1000.0,650.0 L1112.0,650.0 Q1126.0,650.0 1135.9,640.1 L1168.0,608.0 L1242.1,533.9 Q1252.0,524.0 1266.0,524.0 L1280.0,524.0 Q1294.0,524.0 1303.9,514.1 L1378.0,440.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Employees</title></path>
+<path class="line" data-line="Jobs" d="M1042.0,776.0 L1126.0,776.0 L1168.0,776.0 L1252.0,776.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Jobs</title></path>
+<path class="line" data-line="Menu" d="M1168.0,902.0 L1084.0,986.0 L1000.0,1070.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Menu</title></path>
+<path class="line" data-line="Published" d="M958.0,1364.0 L874.0,1364.0 L832.0,1364.0 L748.0,1364.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Published</title></path>
+<path class="line" data-line="Payout" d="M958.0,1616.0 L1042.0,1532.0 L1126.0,1448.0 L1168.0,1406.0 L1284.1,1289.9 Q1294.0,1280.0 1294.0,1266.0 L1294.0,1238.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payout</title></path>
+<path class="line" data-line="Shifts" d="M1168.0,1700.0 L1252.0,1616.0 L1284.1,1583.9 Q1294.0,1574.0 1294.0,1560.0 L1294.0,1490.0 L1294.0,1406.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Shifts</title></path>
+<path class="line" data-line="Inventory" d="M2092.0,272.0 L2176.0,272.0 L2260.0,272.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Inventory</title></path>
+<path class="line" data-line="More Local 1" d="M1756.0,2120.0 L1756.0,2036.0 L1756.0,1966.0 Q1756.0,1952.0 1765.9,1942.1 L1840.0,1868.0 L1924.0,1784.0 L1956.1,1751.9 Q1966.0,1742.0 1966.0,1728.0 L1966.0,1630.0 Q1966.0,1616.0 1975.9,1606.1 L2008.0,1574.0 L2040.1,1541.9 Q2050.0,1532.0 2050.0,1518.0 L2050.0,1378.0 Q2050.0,1364.0 2059.9,1354.1 L2082.1,1331.9 Q2092.0,1322.0 2092.0,1308.0 L2092.0,1238.0 L2092.0,1210.0 Q2092.0,1196.0 2082.1,1186.1 L2008.0,1112.0 L1924.0,1028.0 L1849.9,953.9 Q1840.0,944.0 1840.0,930.0 L1840.0,902.0 L1840.0,818.0 L1840.0,706.0 Q1840.0,692.0 1849.9,682.1 L1872.1,659.9 Q1882.0,650.0 1882.0,636.0 L1882.0,496.0 Q1882.0,482.0 1868.0,482.0 L1798.0,482.0 L1686.0,482.0 Q1672.0,482.0 1662.1,491.9 L1630.0,524.0" fill="none" stroke="#B0287F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 1</title></path>
+<path class="line" data-line="More Local 2" d="M160.0,1490.0 L244.0,1490.0 L328.0,1490.0 L398.0,1490.0 Q412.0,1490.0 421.9,1480.1 L528.1,1373.9 Q538.0,1364.0 538.0,1350.0 L538.0,1336.0 Q538.0,1322.0 547.9,1312.1 L612.1,1247.9 Q622.0,1238.0 636.0,1238.0 L706.0,1238.0 L790.0,1238.0 L874.0,1238.0 L958.0,1238.0 L1070.0,1238.0 Q1084.0,1238.0 1093.9,1228.1 L1126.0,1196.0 L1200.1,1121.9 Q1210.0,1112.0 1224.0,1112.0 L1294.0,1112.0 L1406.0,1112.0 Q1420.0,1112.0 1420.0,1098.0 L1420.0,1028.0 L1420.0,902.0 L1420.0,832.0 Q1420.0,818.0 1429.9,808.1 L1452.1,785.9 Q1462.0,776.0 1462.0,762.0 L1462.0,650.0 L1462.0,580.0 Q1462.0,566.0 1471.9,556.1 L1494.1,533.9 Q1504.0,524.0 1504.0,510.0 L1504.0,398.0 L1504.0,314.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 2</title></path>
+<path class="line" data-line="More Local 3" d="M1966.0,230.0 L1966.0,314.0 L1966.0,398.0 L1966.0,468.0 Q1966.0,482.0 1980.0,482.0 L2050.0,482.0 L2134.0,482.0 L2218.0,482.0 L2302.0,482.0 L2330.0,482.0 Q2344.0,482.0 2353.9,491.9 L2460.1,598.1 Q2470.0,608.0 2470.0,622.0 L2470.0,692.0 L2470.0,762.0 Q2470.0,776.0 2479.9,785.9 L2554.0,860.0 L2586.1,892.1 Q2596.0,902.0 2610.0,902.0 L2666.0,902.0 Q2680.0,902.0 2689.9,892.1 L2712.1,869.9 Q2722.0,860.0 2736.0,860.0 L2918.0,860.0 Q2932.0,860.0 2941.9,850.1 L2964.1,827.9 Q2974.0,818.0 2988.0,818.0 L3058.0,818.0 L3128.0,818.0 Q3142.0,818.0 3151.9,827.9 L3174.1,850.1 Q3184.0,860.0 3198.0,860.0 L3268.0,860.0 L3352.0,860.0 L3436.0,860.0 L3520.0,860.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 3</title></path>
+<line x1="2218" y1="1406" x2="2218.0" y2="1372.0" stroke="#0B7A75" stroke-width="7"/><rect x="2194.0" y="1361.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Metrics</title></rect><text x="2218.0" y="1377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MET</text>
+<line x1="2218" y1="1658" x2="2218.0" y2="1692.0" stroke="#0B7A75" stroke-width="7"/><rect x="2194.0" y="1681.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Metrics</title></rect><text x="2218.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MET</text>
+<line x1="1798" y1="1154" x2="1832.0" y2="1154.0" stroke="#af2328" stroke-width="7"/><rect x="1808.0" y="1143.0" width="48" height="22" rx="5" fill="#af2328"><title>Orders</title></rect><text x="1832.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="1504" y1="1574" x2="1504.0" y2="1608.0" stroke="#af2328" stroke-width="7"/><rect x="1480.0" y="1597.0" width="48" height="22" rx="5" fill="#af2328"><title>Orders</title></rect><text x="1504.0" y="1613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="664" y1="482" x2="639.9583694396574" y2="457.95836943965736" stroke="#0E9F6E" stroke-width="7"/><rect x="615.9583694396574" y="446.95836943965736" width="48" height="22" rx="5" fill="#0E9F6E"><title>Employees</title></rect><text x="639.9583694396574" y="462.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EMP</text>
+<line x1="1378" y1="440" x2="1402.0416305603426" y2="415.95836943965736" stroke="#0E9F6E" stroke-width="7"/><rect x="1378.0416305603426" y="404.95836943965736" width="48" height="22" rx="5" fill="#0E9F6E"><title>Employees</title></rect><text x="1402.0416305603426" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EMP</text>
+<line x1="1042" y1="776" x2="1008.0" y2="776.0" stroke="#B0287F" stroke-width="7"/><rect x="984.0" y="765.0" width="48" height="22" rx="5" fill="#B0287F"><title>Jobs</title></rect><text x="1008.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOB</text>
+<line x1="1252" y1="776" x2="1286.0" y2="776.0" stroke="#B0287F" stroke-width="7"/><rect x="1262.0" y="765.0" width="48" height="22" rx="5" fill="#B0287F"><title>Jobs</title></rect><text x="1286.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOB</text>
+<line x1="1168" y1="902" x2="1192.0416305603426" y2="877.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1168.0416305603426" y="866.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Menu</title></rect><text x="1192.0416305603426" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MEN</text>
+<line x1="1000" y1="1070" x2="975.9583694396574" y2="1094.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="951.9583694396574" y="1083.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Menu</title></rect><text x="975.9583694396574" y="1099.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MEN</text>
+<line x1="958" y1="1364" x2="992.0" y2="1364.0" stroke="#7B3FE4" stroke-width="7"/><rect x="968.0" y="1353.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Published</title></rect><text x="992.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PUB</text>
+<line x1="748" y1="1364" x2="714.0" y2="1364.0" stroke="#7B3FE4" stroke-width="7"/><rect x="690.0" y="1353.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Published</title></rect><text x="714.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PUB</text>
+<line x1="958" y1="1616" x2="933.9583694396574" y2="1640.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="909.9583694396574" y="1629.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Payout</title></rect><text x="933.9583694396574" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="1294" y1="1238" x2="1294.0" y2="1204.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1270.0" y="1193.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Payout</title></rect><text x="1294.0" y="1209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="1168" y1="1700" x2="1143.9583694396574" y2="1724.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1119.9583694396574" y="1713.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Shifts</title></rect><text x="1143.9583694396574" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHI</text>
+<line x1="1294" y1="1406" x2="1294.0" y2="1372.0" stroke="#E07B12" stroke-width="7"/><rect x="1270.0" y="1361.0" width="48" height="22" rx="5" fill="#E07B12"><title>Shifts</title></rect><text x="1294.0" y="1377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHI</text>
+<line x1="2092" y1="272" x2="2058.0" y2="272.0" stroke="#B8860B" stroke-width="7"/><rect x="2034.0" y="261.0" width="48" height="22" rx="5" fill="#B8860B"><title>Inventory</title></rect><text x="2058.0" y="277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="2260" y1="272" x2="2294.0" y2="272.0" stroke="#B8860B" stroke-width="7"/><rect x="2270.0" y="261.0" width="48" height="22" rx="5" fill="#B8860B"><title>Inventory</title></rect><text x="2294.0" y="277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="1756" y1="2120" x2="1756.0" y2="2154.0" stroke="#B0287F" stroke-width="7"/><rect x="1732.0" y="2143.0" width="48" height="22" rx="5" fill="#B0287F"><title>More Local 1</title></rect><text x="1756.0" y="2159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML1</text>
+<line x1="1630" y1="524" x2="1605.9583694396574" y2="548.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1581.9583694396574" y="537.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>More Local 1</title></rect><text x="1605.9583694396574" y="553.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML1</text>
+<line x1="160" y1="1490" x2="126.0" y2="1490.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="1479.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 2</title></rect><text x="126.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML2</text>
+<line x1="1504" y1="314" x2="1504.0" y2="280.0" stroke="#D6264F" stroke-width="7"/><rect x="1480.0" y="269.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 2</title></rect><text x="1504.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML2</text>
+<line x1="1966" y1="230" x2="1966.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="1942.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 3</title></rect><text x="1966.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML3</text>
+<line x1="3520" y1="860" x2="3554.0" y2="860.0" stroke="#D6264F" stroke-width="7"/><rect x="3530.0" y="849.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 3</title></rect><text x="3554.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML3</text>
+<a href="https://apis.apis.io/apis/toast/toast-aggregated-sales-api/#op-postMetricsReportingDataCustomTimeRangeRequest" target="_blank" class="st" data-op="postMetricsReportingDataCustomTimeRangeRequest"><title>POST /metrics
+Metrics line · postMetricsReportingDataCustomTimeRangeRequest</title>
+<circle cx="2218" cy="1406" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2230" y="1411" text-anchor="start" style="fill:#1A1F2C">Create metric</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-aggregated-sales-api/#op-postMetricsReportingDataSpecificTimeRangeRequest" target="_blank" class="st" data-op="postMetricsReportingDataSpecificTimeRangeRequest"><title>POST /metrics/{timeRange}
+Metrics line · postMetricsReportingDataSpecificTimeRangeRequest</title>
+<circle cx="2218" cy="1574" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2230" y="1579" text-anchor="start" style="fill:#1A1F2C">Update metric</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-aggregated-sales-api/#op-getMetricsReportingData" target="_blank" class="st" data-op="getMetricsReportingData"><title>GET /metrics/{reportRequestGuid}
+Metrics line · getMetricsReportingData</title>
+<circle cx="2218" cy="1490" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2230" y="1495" text-anchor="start" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-aggregated-sales-api/#op-getMetricsReportingDataSpecificTimeRange" target="_blank" class="st" data-op="getMetricsReportingDataSpecificTimeRange"><title>GET /metrics/{timeRange}/{reportRequestGuid}
+Metrics line · getMetricsReportingDataSpecificTimeRange
+DEPRECATED</title>
+<circle cx="2218" cy="1658" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2230" y="1663" text-anchor="start" style="fill:#A0A7B4">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-alternate-payment-types-api/#op-alternatePaymentTypesGuidGet" target="_blank" class="st" data-op="alternatePaymentTypesGuidGet"><title>GET /alternatePaymentTypes/{guid}
+More Local 1 line · alternatePaymentTypesGuidGet</title>
+<circle cx="1756" cy="2036" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1768" y="2041" text-anchor="start" style="fill:#1A1F2C">Get alternatepaymenttype</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-alternate-payment-types-api/#op-alternatePaymentTypesGet" target="_blank" class="st" data-op="alternatePaymentTypesGet"><title>GET /alternatePaymentTypes
+More Local 1 line · alternatePaymentTypesGet</title>
+<circle cx="1756" cy="2120" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1768" y="2125" text-anchor="start" style="fill:#1A1F2C">List alternatepaymenttypes</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-authentication-api/#op-authenticationLoginPost" target="_blank" class="st" data-op="authenticationLoginPost"><title>POST /authentication/login
+More Local 1 line · authenticationLoginPost</title>
+<circle cx="1840" cy="1868" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1852" y="1873" text-anchor="start" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-availability-api/#op-availabilityGet" target="_blank" class="st" data-op="availabilityGet"><title>GET /availability
+More Local 1 line · availabilityGet</title>
+<circle cx="1924" cy="1784" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1936" y="1789" text-anchor="start" style="fill:#1A1F2C">Get availability</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-break-types-api/#op-breakTypesGuidGet" target="_blank" class="st" data-op="breakTypesGuidGet"><title>GET /breakTypes/{guid}
+More Local 1 line · breakTypesGuidGet</title>
+<circle cx="1966" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="1621" text-anchor="start" style="fill:#1A1F2C">Get breaktype</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-break-types-api/#op-breakTypesGet" target="_blank" class="st" data-op="breakTypesGet"><title>GET /breakTypes
+More Local 1 line · breakTypesGet</title>
+<circle cx="1966" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="1747" text-anchor="start" style="fill:#1A1F2C">List breaktypes</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-cash-drawers-api/#op-cashDrawersGuidGet" target="_blank" class="st" data-op="cashDrawersGuidGet"><title>GET /cashDrawers/{guid}
+More Local 1 line · cashDrawersGuidGet</title>
+<circle cx="2050" cy="1532" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="1537" text-anchor="start" style="fill:#1A1F2C">Get cashdrawer</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-cash-drawers-api/#op-cashDrawersGet" target="_blank" class="st" data-op="cashDrawersGet"><title>GET /cashDrawers
+More Local 1 line · cashDrawersGet</title>
+<circle cx="2008" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2020" y="1579" text-anchor="start" style="fill:#1A1F2C">List cashdrawers</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-check-api/#op-postCheckReportingDataSpecificTimeRangeRequest" target="_blank" class="st" data-op="postCheckReportingDataSpecificTimeRangeRequest"><title>POST /check/{timeRange}
+More Local 1 line · postCheckReportingDataSpecificTimeRangeRequest</title>
+<circle cx="2092" cy="1322" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2104" y="1327" text-anchor="start" style="fill:#1A1F2C">Update check</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-check-api/#op-getCheckReportingData" target="_blank" class="st" data-op="getCheckReportingData"><title>GET /check/{reportRequestGuid}
+More Local 1 line · getCheckReportingData</title>
+<circle cx="2050" cy="1364" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="1369" text-anchor="start" style="fill:#1A1F2C">Get check</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-connectedrestaurants-api/#op-connectedRestaurantsGet" target="_blank" class="st" data-op="connectedRestaurantsGet"><title>GET /connectedRestaurants
+More Local 1 line · connectedRestaurantsGet</title>
+<circle cx="2092" cy="1238" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2104" y="1243" text-anchor="start" style="fill:#1A1F2C">List connectedrestaurants</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-deposits-api/#op-depositsGet" target="_blank" class="st" data-op="depositsGet"><title>GET /deposits
+More Local 1 line · depositsGet</title>
+<circle cx="2092" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2104" y="1201" text-anchor="start" style="fill:#1A1F2C">List deposits</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-device-details-api/#op-getDeviceInfo" target="_blank" class="st" data-op="getDeviceInfo"><title>GET /device-info
+More Local 1 line · getDeviceInfo</title>
+<circle cx="2008" cy="1112" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2020" y="1117" text-anchor="start" style="fill:#1A1F2C">Get device info</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-dining-options-api/#op-diningOptionsGuidGet" target="_blank" class="st" data-op="diningOptionsGuidGet"><title>GET /diningOptions/{guid}
+More Local 1 line · diningOptionsGuidGet</title>
+<circle cx="1840" cy="944" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1852" y="949" text-anchor="start" style="fill:#1A1F2C">Get diningoption</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-dining-options-api/#op-diningOptionsGet" target="_blank" class="st" data-op="diningOptionsGet"><title>GET /diningOptions
+More Local 1 line · diningOptionsGet</title>
+<circle cx="1924" cy="1028" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1936" y="1033" text-anchor="start" style="fill:#1A1F2C">List diningoptions</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-discounts-api/#op-discountsGuidGet" target="_blank" class="st" data-op="discountsGuidGet"><title>GET /discounts/{guid}
+More Local 1 line · discountsGuidGet</title>
+<circle cx="1840" cy="818" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1852" y="823" text-anchor="start" style="fill:#1A1F2C">Get discount</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-discounts-api/#op-discountsGet" target="_blank" class="st" data-op="discountsGet"><title>GET /discounts
+More Local 1 line · discountsGet</title>
+<circle cx="1840" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1852" y="907" text-anchor="start" style="fill:#1A1F2C">List discounts</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-discounts-api/#op-ordersChecksAppliedDiscountsPost" target="_blank" class="st" data-op="ordersChecksAppliedDiscountsPost"><title>POST /orders/{orderGuid}/checks/{checkGuid}/appliedDiscounts
+Orders line · ordersChecksAppliedDiscountsPost</title>
+<circle cx="1546" cy="1154" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1552" y="1142" transform="rotate(-45 1552 1142)" style="fill:#1A1F2C">Create applieddiscount</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-discounts-api/#op-ordersChecksSelectionsAppliedDiscountsPost" target="_blank" class="st" data-op="ordersChecksSelectionsAppliedDiscountsPost"><title>POST /orders/{orderGuid}/checks/{checkGuid}/selections/{selectionGuid}/appliedDiscounts
+Orders line · ordersChecksSelectionsAppliedDiscountsPost</title>
+<circle cx="1504" cy="1406" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1516" y="1411" text-anchor="start" style="fill:#1A1F2C">Create applieddiscount</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-discounts-api/#op-applicableDiscountsPost" target="_blank" class="st" data-op="applicableDiscountsPost"><title>POST /applicableDiscounts
+More Local 1 line · applicableDiscountsPost</title>
+<circle cx="1756" cy="1952" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1768" y="1957" text-anchor="start" style="fill:#1A1F2C">Create applicablediscount</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesGet" target="_blank" class="st" data-op="employeesGet"><title>GET /employees
+Employees line · employeesGet</title>
+<circle cx="664" cy="482" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="676" y="487" text-anchor="start" style="fill:#1A1F2C">List employees</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesPost" target="_blank" class="st" data-op="employeesPost"><title>POST /employees
+Employees line · employeesPost</title>
+<circle cx="748" cy="566" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="571" text-anchor="start" style="fill:#1A1F2C">Create employee</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdGet" target="_blank" class="st" data-op="employeesEmployeeIdGet"><title>GET /employees/{employeeId}
+Employees line · employeesEmployeeIdGet</title>
+<circle cx="832" cy="650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="820.0" y="655" text-anchor="end" style="fill:#1A1F2C">Get employee</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdDelete" target="_blank" class="st" data-op="employeesEmployeeIdDelete"><title>DELETE /employees/{employeeId}
+Employees line · employeesEmployeeIdDelete</title>
+<circle cx="1000" cy="650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="996" y1="654" x2="1004" y2="646" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1006" y="638" transform="rotate(-45 1006 638)" style="fill:#1A1F2C">Delete employee</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdPatch" target="_blank" class="st" data-op="employeesEmployeeIdPatch"><title>PATCH /employees/{employeeId}
+Employees line · employeesEmployeeIdPatch</title>
+<circle cx="916" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="922" y="638" transform="rotate(-45 922 638)" style="fill:#1A1F2C">Update employee</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdExternalIdPost" target="_blank" class="st" data-op="employeesEmployeeIdExternalIdPost"><title>POST /employees/{employeeId}/externalId
+Employees line · employeesEmployeeIdExternalIdPost</title>
+<circle cx="1126" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1138" y="655" text-anchor="start" style="fill:#1A1F2C">Update externalid</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdExternalIdPut" target="_blank" class="st" data-op="employeesEmployeeIdExternalIdPut"><title>PUT /employees/{employeeId}/externalId
+Employees line · employeesEmployeeIdExternalIdPut</title>
+<circle cx="1168" cy="608" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="613" text-anchor="start" style="fill:#1A1F2C">Update externalid</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdUnarchivePut" target="_blank" class="st" data-op="employeesEmployeeIdUnarchivePut"><title>PUT /employees/{employeeId}/unarchive
+Employees line · employeesEmployeeIdUnarchivePut</title>
+<circle cx="1294" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="529" text-anchor="start" style="fill:#1A1F2C">Unarchive employees</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdJobsPut" target="_blank" class="st" data-op="employeesEmployeeIdJobsPut"><title>PUT /employees/{employeeId}/jobs
+Employees line · employeesEmployeeIdJobsPut</title>
+<circle cx="1252" cy="524" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1240.0" y="529" text-anchor="end" style="fill:#1A1F2C">Create job <tspan font-weight="700" style="fill:#B0287F">⇄JOB</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-employees-api/#op-employeesEmployeeIdWageOverridesPut" target="_blank" class="st" data-op="employeesEmployeeIdWageOverridesPut"><title>PUT /employees/{employeeId}/wageOverrides
+Employees line · employeesEmployeeIdWageOverridesPut</title>
+<circle cx="1378" cy="440" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1366.0" y="445" text-anchor="end" style="fill:#1A1F2C">Create wageoverride</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-entries-api/#op-entriesGet" target="_blank" class="st" data-op="entriesGet"><title>GET /entries
+More Local 1 line · entriesGet</title>
+<circle cx="1840" cy="692" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1852" y="697" text-anchor="start" style="fill:#1A1F2C">List entries</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-export-api/#op-itemFulfillmentsGet" target="_blank" class="st" data-op="itemFulfillmentsGet"><title>GET /export/itemFulfillments
+More Local 1 line · itemFulfillmentsGet</title>
+<circle cx="1882" cy="650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="655" text-anchor="start" style="fill:#1A1F2C">List itemfulfillments</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-groups-api/#op-groupsManagementGroupGuidRestaurantsGet" target="_blank" class="st" data-op="groupsManagementGroupGuidRestaurantsGet"><title>GET /groups/{managementGroupGUID}/restaurants
+More Local 1 line · groupsManagementGroupGuidRestaurantsGet</title>
+<circle cx="1882" cy="482" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1873.0" y="501" text-anchor="end" style="fill:#1A1F2C">List restaurants <tspan font-weight="700" style="fill:#D6264F">⇄ML3</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-guest-api/#op-postGuestReportPaymentDateSpecificTimeRange" target="_blank" class="st" data-op="postGuestReportPaymentDateSpecificTimeRange"><title>POST /guest/payments/{timeRange}
+More Local 1 line · postGuestReportPaymentDateSpecificTimeRange</title>
+<circle cx="1672" cy="482" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1660.0" y="487" text-anchor="end" style="fill:#1A1F2C">Update payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-guest-api/#op-getGuestByPaymentDateReportingData" target="_blank" class="st" data-op="getGuestByPaymentDateReportingData"><title>GET /guest/payments/{reportRequestGuid}
+More Local 1 line · getGuestByPaymentDateReportingData</title>
+<circle cx="1798" cy="482" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1804" y="470" transform="rotate(-45 1804 470)" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-jobs-api/#op-jobsGet" target="_blank" class="st" data-op="jobsGet"><title>GET /jobs
+Jobs line · jobsGet</title>
+<circle cx="1042" cy="776" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1048" y="764" transform="rotate(-45 1048 764)" style="fill:#1A1F2C">List jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-jobs-api/#op-jobsJobIdGet" target="_blank" class="st" data-op="jobsJobIdGet"><title>GET /jobs/{jobId}
+Jobs line · jobsJobIdGet</title>
+<circle cx="1126" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1132" y="764" transform="rotate(-45 1132 764)" style="fill:#1A1F2C">Get job</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-jobs-api/#op-jobsJobIdExternalIdPost" target="_blank" class="st" data-op="jobsJobIdExternalIdPost"><title>POST /jobs/{jobId}/externalId
+Jobs line · jobsJobIdExternalIdPost</title>
+<circle cx="1168" cy="776" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1174" y="764" transform="rotate(-45 1174 764)" style="fill:#1A1F2C">Update externalid</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-jobs-api/#op-jobsJobIdExternalIdPut" target="_blank" class="st" data-op="jobsJobIdExternalIdPut"><title>PUT /jobs/{jobId}/externalId
+Jobs line · jobsJobIdExternalIdPut</title>
+<circle cx="1252" cy="776" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1246" y="788" text-anchor="end" transform="rotate(-45 1246 788)" style="fill:#1A1F2C">Update externalid</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-labor-api/#op-postLaborReportingDataSpecificTimeRangeRequest" target="_blank" class="st" data-op="postLaborReportingDataSpecificTimeRangeRequest"><title>POST /labor/{timeRange}
+More Local 2 line · postLaborReportingDataSpecificTimeRangeRequest</title>
+<circle cx="160" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="166" y="1478" transform="rotate(-45 166 1478)" style="fill:#1A1F2C">Update labor <tspan font-weight="700" style="fill:#B0287F">⇄ML1</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-labor-api/#op-getLaborReportingData" target="_blank" class="st" data-op="getLaborReportingData"><title>GET /labor/{reportRequestGuid}
+More Local 1 line · getLaborReportingData</title>
+<circle cx="1630" cy="524" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1642" y="529" text-anchor="start" style="fill:#1A1F2C">Get labor</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-api/#op-postMenuReportCustomTimeRange" target="_blank" class="st" data-op="postMenuReportCustomTimeRange"><title>POST /menu
+Menu line · postMenuReportCustomTimeRange</title>
+<circle cx="1168" cy="902" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1180" y="907" text-anchor="start" style="fill:#1A1F2C">Update menu</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-api/#op-postMenuReportSpecificTimeRange" target="_blank" class="st" data-op="postMenuReportSpecificTimeRange"><title>POST /menu/{timeRange}
+Menu line · postMenuReportSpecificTimeRange</title>
+<circle cx="1000" cy="1070" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1012" y="1075" text-anchor="start" style="fill:#1A1F2C">Update menu</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-api/#op-getMenuReportingData" target="_blank" class="st" data-op="getMenuReportingData"><title>GET /menu/{reportRequestGuid}
+Menu line · getMenuReportingData</title>
+<circle cx="1084" cy="986" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1096" y="991" text-anchor="start" style="fill:#1A1F2C">Get menu</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-groups-api/#op-menuGroupsGuidGet" target="_blank" class="st" data-op="menuGroupsGuidGet"><title>GET /menuGroups/{guid}
+More Local 2 line · menuGroupsGuidGet</title>
+<circle cx="328" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="334" y="1478" transform="rotate(-45 334 1478)" style="fill:#1A1F2C">Get menugroup</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-groups-api/#op-menuGroupsGet" target="_blank" class="st" data-op="menuGroupsGet"><title>GET /menuGroups
+More Local 2 line · menuGroupsGet</title>
+<circle cx="244" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="1478" transform="rotate(-45 250 1478)" style="fill:#1A1F2C">List menugroups</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-items-api/#op-menuItemsGuidGet" target="_blank" class="st" data-op="menuItemsGuidGet"><title>GET /menuItems/{guid}
+More Local 2 line · menuItemsGuidGet</title>
+<circle cx="538" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1369" text-anchor="start" style="fill:#1A1F2C">Get menuitem</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menu-items-api/#op-menuItemsGet" target="_blank" class="st" data-op="menuItemsGet"><title>GET /menuItems
+More Local 2 line · menuItemsGet</title>
+<circle cx="412" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="1495" text-anchor="start" style="fill:#1A1F2C">List menuitems</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menus-api/#op-menusGuidGet" target="_blank" class="st" data-op="menusGuidGet"><title>GET /menus/{guid}
+More Local 2 line · menusGuidGet</title>
+<circle cx="790" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="796" y="1226" transform="rotate(-45 796 1226)" style="fill:#1A1F2C">Get menu</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-menus-api/#op-menusGet" target="_blank" class="st" data-op="menusGet"><title>GET /menus
+More Local 2 line · menusGet</title>
+<circle cx="706" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="712" y="1226" transform="rotate(-45 712 1226)" style="fill:#1A1F2C">List menus</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-merchants-api/#op-merchantsMerchantUuidPaymentsPaymentUuidPut" target="_blank" class="st" data-op="merchantsMerchantUuidPaymentsPaymentUuidPut"><title>PUT /merchants/{merchantUuid}/payments/{paymentUuid}
+More Local 2 line · merchantsMerchantUuidPaymentsPaymentUuidPut</title>
+<circle cx="874" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="880" y="1226" transform="rotate(-45 880 1226)" style="fill:#1A1F2C">Update payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-metadata-api/#op-metadataGet" target="_blank" class="st" data-op="metadataGet"><title>GET /metadata
+More Local 2 line · metadataGet</title>
+<circle cx="958" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="1226" transform="rotate(-45 964 1226)" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-modifier-groups-api/#op-menuOptionGroupsGuidGet" target="_blank" class="st" data-op="menuOptionGroupsGuidGet"><title>GET /menuOptionGroups/{guid}
+More Local 2 line · menuOptionGroupsGuidGet</title>
+<circle cx="622" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="610.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Get menuoptiongroup</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-modifier-groups-api/#op-menuOptionGroupsGet" target="_blank" class="st" data-op="menuOptionGroupsGet"><title>GET /menuOptionGroups
+More Local 2 line · menuOptionGroupsGet</title>
+<circle cx="538" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1327" text-anchor="start" style="fill:#1A1F2C">List menuoptiongroups</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-no-sale-reasons-api/#op-noSaleReasonsGuidGet" target="_blank" class="st" data-op="noSaleReasonsGuidGet"><title>GET /noSaleReasons/{guid}
+More Local 2 line · noSaleReasonsGuidGet</title>
+<circle cx="1126" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1201" text-anchor="start" style="fill:#1A1F2C">Get nosalereason</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-no-sale-reasons-api/#op-noSaleReasonsGet" target="_blank" class="st" data-op="noSaleReasonsGet"><title>GET /noSaleReasons
+More Local 2 line · noSaleReasonsGet</title>
+<circle cx="1084" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1243" text-anchor="start" style="fill:#1A1F2C">List nosalereasons</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-ordering-schedule-api/#op-orderingScheduleGet" target="_blank" class="st" data-op="orderingScheduleGet"><title>GET /published/orderingSchedule
+Published line · orderingScheduleGet</title>
+<circle cx="958" cy="1364" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="952" y="1376" text-anchor="end" transform="rotate(-45 952 1376)" style="fill:#1A1F2C">Get orderingschedule</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-pricesPost" target="_blank" class="st" data-op="pricesPost"><title>POST /prices
+More Local 2 line · pricesPost</title>
+<circle cx="1504" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="319" text-anchor="start" style="fill:#1A1F2C">Create price</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-ordersGuidGet" target="_blank" class="st" data-op="ordersGuidGet"><title>GET /orders/{guid}
+Orders line · ordersGuidGet</title>
+<circle cx="1630" cy="1154" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1636" y="1142" transform="rotate(-45 1636 1142)" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-ordersBulkGet" target="_blank" class="st" data-op="ordersBulkGet"><title>GET /ordersBulk
+More Local 2 line · ordersBulkGet</title>
+<circle cx="1210" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1198.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Get ordersbulk</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-ordersOrderGuidChecksCheckGuidSelectionsPost" target="_blank" class="st" data-op="ordersOrderGuidChecksCheckGuidSelectionsPost"><title>POST /orders/{orderGuid}/checks/{checkGuid}/selections
+Orders line · ordersOrderGuidChecksCheckGuidSelectionsPost</title>
+<circle cx="1504" cy="1322" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1516" y="1327" text-anchor="start" style="fill:#1A1F2C">Create selection</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-ordersOrderGuidDeliveryInfoPatch" target="_blank" class="st" data-op="ordersOrderGuidDeliveryInfoPatch"><title>PATCH /orders/{orderGuid}/deliveryInfo
+Orders line · ordersOrderGuidDeliveryInfoPatch</title>
+<circle cx="1504" cy="1490" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1516" y="1495" text-anchor="start" style="fill:#1A1F2C">Update deliveryinfo</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-voidOrder" target="_blank" class="st" data-op="voidOrder"><title>POST /orders/{orderGuid}/void
+Orders line · voidOrder</title>
+<circle cx="1504" cy="1574" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1516" y="1579" text-anchor="start" style="fill:#1A1F2C">Void order</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-ordersPost" target="_blank" class="st" data-op="ordersPost"><title>POST /orders
+Orders line · ordersPost</title>
+<circle cx="1714" cy="1154" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1720" y="1142" transform="rotate(-45 1720 1142)" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-orders-api/#op-ordersGet" target="_blank" class="st" data-op="ordersGet"><title>GET /orders
+Orders line · ordersGet
+DEPRECATED</title>
+<circle cx="1798" cy="1154" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1792" y="1166" text-anchor="end" transform="rotate(-45 1792 1166)" style="fill:#A0A7B4">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payments-api/#op-paymentsGet" target="_blank" class="st" data-op="paymentsGet"><title>GET /payments
+More Local 2 line · paymentsGet</title>
+<circle cx="1294" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="1100" transform="rotate(-45 1300 1100)" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payments-api/#op-paymentsGuidGet" target="_blank" class="st" data-op="paymentsGuidGet"><title>GET /payments/{guid}
+More Local 2 line · paymentsGuidGet</title>
+<circle cx="1420" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1432" y="1117" text-anchor="start" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payments-api/#op-ordersChecksPaymentsPost" target="_blank" class="st" data-op="ordersChecksPaymentsPost"><title>POST /orders/{orderGuid}/checks/{checkGuid}/payments
+Orders line · ordersChecksPaymentsPost</title>
+<circle cx="1420" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1408.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Create payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payments-api/#op-ordersOrderGuidChecksCheckGuidPaymentsPaymentGuidPatch" target="_blank" class="st" data-op="ordersOrderGuidChecksCheckGuidPaymentsPaymentGuidPatch"><title>PATCH /orders/{orderGuid}/checks/{checkGuid}/payments/{paymentGuid}
+Orders line · ordersOrderGuidChecksCheckGuidPaymentsPaymentGuidPatch</title>
+<circle cx="1420" cy="1238" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1432" y="1243" text-anchor="start" style="fill:#1A1F2C">Update payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-by-payments-api/#op-postPayoutReportPaymentsSpecificTimeRange" target="_blank" class="st" data-op="postPayoutReportPaymentsSpecificTimeRange"><title>POST /payout/payments/{timeRange}
+Payout line · postPayoutReportPaymentsSpecificTimeRange</title>
+<circle cx="1168" cy="1406" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="1411" text-anchor="start" style="fill:#1A1F2C">Update payment</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-by-payments-api/#op-getPayoutPaymentsReportingData" target="_blank" class="st" data-op="getPayoutPaymentsReportingData"><title>GET /payout/payments/{reportRequestGuid}
+Payout line · getPayoutPaymentsReportingData</title>
+<circle cx="1126" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1138" y="1453" text-anchor="start" style="fill:#1A1F2C">Get payment <tspan font-weight="700" style="fill:#D6264F">⇄ML2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-by-sales-date-api/#op-postPayoutReportSalesDateSpecificTimeRange" target="_blank" class="st" data-op="postPayoutReportSalesDateSpecificTimeRange"><title>POST /payout/sales-date/{timeRange}
+Payout line · postPayoutReportSalesDateSpecificTimeRange</title>
+<circle cx="1294" cy="1238" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="1243" text-anchor="start" style="fill:#1A1F2C">Update sales date</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-by-sales-date-api/#op-getPayoutSalesDateReportingData" target="_blank" class="st" data-op="getPayoutSalesDateReportingData"><title>GET /payout/sales-date/{reportRequestGuid}
+Payout line · getPayoutSalesDateReportingData</title>
+<circle cx="1294" cy="1280" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="1285" text-anchor="start" style="fill:#1A1F2C">Get sales date</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-by-settled-date-api/#op-postPayoutReportSettledDateSpecificTimeRange" target="_blank" class="st" data-op="postPayoutReportSettledDateSpecificTimeRange"><title>POST /payout/{timeRange}
+Payout line · postPayoutReportSettledDateSpecificTimeRange</title>
+<circle cx="1042" cy="1532" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1054" y="1537" text-anchor="start" style="fill:#1A1F2C">Update payout</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-by-settled-date-api/#op-getPayoutSettledDateReportingData" target="_blank" class="st" data-op="getPayoutSettledDateReportingData"><title>GET /payout/{reportRequestGuid}
+Payout line · getPayoutSettledDateReportingData</title>
+<circle cx="958" cy="1616" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="1621" text-anchor="start" style="fill:#1A1F2C">Get payout</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-reasons-api/#op-payoutReasonsGuidGet" target="_blank" class="st" data-op="payoutReasonsGuidGet"><title>GET /payoutReasons/{guid}
+More Local 2 line · payoutReasonsGuidGet</title>
+<circle cx="1420" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="907" text-anchor="start" style="fill:#1A1F2C">Get payoutreason</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-payout-reasons-api/#op-payoutReasonsGet" target="_blank" class="st" data-op="payoutReasonsGet"><title>GET /payoutReasons
+More Local 2 line · payoutReasonsGet</title>
+<circle cx="1420" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1033" text-anchor="start" style="fill:#1A1F2C">List payoutreasons</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-pre-modifier-groups-api/#op-preModifierGroupsGuidGet" target="_blank" class="st" data-op="preModifierGroupsGuidGet"><title>GET /preModifierGroups/{guid}
+More Local 2 line · preModifierGroupsGuidGet</title>
+<circle cx="1462" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="781" text-anchor="start" style="fill:#1A1F2C">Get premodifiergroup</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-pre-modifier-groups-api/#op-preModifierGroupsGet" target="_blank" class="st" data-op="preModifierGroupsGet"><title>GET /preModifierGroups
+More Local 2 line · preModifierGroupsGet</title>
+<circle cx="1420" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="823" text-anchor="start" style="fill:#1A1F2C">List premodifiergroups</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-pre-modifiers-api/#op-preModifiersGuidGet" target="_blank" class="st" data-op="preModifiersGuidGet"><title>GET /preModifiers/{guid}
+More Local 2 line · preModifiersGuidGet</title>
+<circle cx="1462" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="571" text-anchor="start" style="fill:#1A1F2C">Get premodifier</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-pre-modifiers-api/#op-preModifiersGet" target="_blank" class="st" data-op="preModifiersGet"><title>GET /preModifiers
+More Local 2 line · preModifiersGet</title>
+<circle cx="1462" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="655" text-anchor="start" style="fill:#1A1F2C">List premodifiers</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-price-groups-api/#op-priceGroupsGuidGet" target="_blank" class="st" data-op="priceGroupsGuidGet"><title>GET /priceGroups/{guid}
+More Local 2 line · priceGroupsGuidGet</title>
+<circle cx="1504" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="403" text-anchor="start" style="fill:#1A1F2C">Get pricegroup</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-price-groups-api/#op-priceGroupsGet" target="_blank" class="st" data-op="priceGroupsGet"><title>GET /priceGroups
+More Local 2 line · priceGroupsGet</title>
+<circle cx="1504" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="529" text-anchor="start" style="fill:#1A1F2C">List pricegroups</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-printers-api/#op-printersGuidGet" target="_blank" class="st" data-op="printersGuidGet"><title>GET /printers/{guid}
+More Local 3 line · printersGuidGet</title>
+<circle cx="1966" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1978" y="319" text-anchor="start" style="fill:#1A1F2C">Get printer</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-printers-api/#op-printersGet" target="_blank" class="st" data-op="printersGet"><title>GET /printers
+More Local 3 line · printersGet</title>
+<circle cx="1966" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1978" y="235" text-anchor="start" style="fill:#1A1F2C">List printers</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-published-api/#op-prepStationsGet" target="_blank" class="st" data-op="prepStationsGet"><title>GET /published/prepStations
+Published line · prepStationsGet</title>
+<circle cx="874" cy="1364" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="880" y="1352" transform="rotate(-45 880 1352)" style="fill:#1A1F2C">List prepstations</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-published-api/#op-prepStationsGuidGet" target="_blank" class="st" data-op="prepStationsGuidGet"><title>GET /published/prepStations/{guid}
+Published line · prepStationsGuidGet</title>
+<circle cx="832" cy="1364" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="838" y="1352" transform="rotate(-45 838 1352)" style="fill:#1A1F2C">Get prepstation</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-published-api/#op-getPackagingConfig" target="_blank" class="st" data-op="getPackagingConfig"><title>GET /v1/published/packagingConfig
+Published line · getPackagingConfig</title>
+<circle cx="748" cy="1364" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="754" y="1352" transform="rotate(-45 754 1352)" style="fill:#1A1F2C">Get packagingconfig</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-restaurant-services-api/#op-restaurantServicesGuidGet" target="_blank" class="st" data-op="restaurantServicesGuidGet"><title>GET /restaurantServices/{guid}
+More Local 3 line · restaurantServicesGuidGet</title>
+<circle cx="2218" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2224" y="470" transform="rotate(-45 2224 470)" style="fill:#1A1F2C">Get restaurantservice</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-restaurant-services-api/#op-restaurantServicesGet" target="_blank" class="st" data-op="restaurantServicesGet"><title>GET /restaurantServices
+More Local 3 line · restaurantServicesGet</title>
+<circle cx="2134" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2140" y="470" transform="rotate(-45 2140 470)" style="fill:#1A1F2C">List restaurantservices</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-restaurants-api/#op-restaurantsGet" target="_blank" class="st" data-op="restaurantsGet"><title>GET /restaurants
+More Local 3 line · restaurantsGet</title>
+<circle cx="1966" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1978" y="403" text-anchor="start" style="fill:#1A1F2C">List restaurants</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-restaurants-api/#op-restaurantsRestaurantGuidGet" target="_blank" class="st" data-op="restaurantsRestaurantGuidGet"><title>GET /restaurants/{restaurantGUID}
+More Local 3 line · restaurantsRestaurantGuidGet</title>
+<circle cx="1966" cy="482" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1975" y="472" text-anchor="start" style="fill:#1A1F2C">Get restaurant</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-restaurants-information-api/#op-getManagementGroupRestaurantsInformation" target="_blank" class="st" data-op="getManagementGroupRestaurantsInformation"><title>GET /restaurants-information
+More Local 3 line · getManagementGroupRestaurantsInformation</title>
+<circle cx="2050" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2044" y="494" text-anchor="end" transform="rotate(-45 2044 494)" style="fill:#1A1F2C">Get restaurants information</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-revenue-centers-api/#op-revenueCentersGuidGet" target="_blank" class="st" data-op="revenueCentersGuidGet"><title>GET /revenueCenters/{guid}
+More Local 3 line · revenueCentersGuidGet</title>
+<circle cx="2344" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2356" y="487" text-anchor="start" style="fill:#1A1F2C">Get revenuecenter</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-revenue-centers-api/#op-revenueCentersGet" target="_blank" class="st" data-op="revenueCentersGet"><title>GET /revenueCenters
+More Local 3 line · revenueCentersGet</title>
+<circle cx="2302" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2308" y="470" transform="rotate(-45 2308 470)" style="fill:#1A1F2C">List revenuecenters</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-sales-categories-api/#op-salesCategoriesGuidGet" target="_blank" class="st" data-op="salesCategoriesGuidGet"><title>GET /salesCategories/{guid}
+More Local 3 line · salesCategoriesGuidGet</title>
+<circle cx="2470" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2482" y="697" text-anchor="start" style="fill:#1A1F2C">Get salescategory</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-sales-categories-api/#op-salesCategoriesGet" target="_blank" class="st" data-op="salesCategoriesGet"><title>GET /salesCategories
+More Local 3 line · salesCategoriesGet</title>
+<circle cx="2470" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2482" y="613" text-anchor="start" style="fill:#1A1F2C">List salescategories</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-service-areas-api/#op-serviceAreasGuidGet" target="_blank" class="st" data-op="serviceAreasGuidGet"><title>GET /serviceAreas/{guid}
+More Local 3 line · serviceAreasGuidGet</title>
+<circle cx="2554" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2566" y="865" text-anchor="start" style="fill:#1A1F2C">Get servicearea</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-service-areas-api/#op-serviceAreasGet" target="_blank" class="st" data-op="serviceAreasGet"><title>GET /serviceAreas
+More Local 3 line · serviceAreasGet</title>
+<circle cx="2470" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2482" y="781" text-anchor="start" style="fill:#1A1F2C">List serviceareas</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-service-charges-api/#op-serviceChargesGuidGet" target="_blank" class="st" data-op="serviceChargesGuidGet"><title>GET /serviceCharges/{guid}
+More Local 3 line · serviceChargesGuidGet</title>
+<circle cx="2680" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2692" y="907" text-anchor="start" style="fill:#1A1F2C">Get servicecharge</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-service-charges-api/#op-serviceChargesGet" target="_blank" class="st" data-op="serviceChargesGet"><title>GET /serviceCharges
+More Local 3 line · serviceChargesGet</title>
+<circle cx="2596" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2584.0" y="907" text-anchor="end" style="fill:#1A1F2C">List servicecharges</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-shifts-api/#op-shiftsGet" target="_blank" class="st" data-op="shiftsGet"><title>GET /shifts
+Shifts line · shiftsGet</title>
+<circle cx="1168" cy="1700" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1180" y="1705" text-anchor="start" style="fill:#1A1F2C">List shifts</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-shifts-api/#op-shiftsPost" target="_blank" class="st" data-op="shiftsPost"><title>POST /shifts
+Shifts line · shiftsPost</title>
+<circle cx="1252" cy="1616" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1264" y="1621" text-anchor="start" style="fill:#1A1F2C">Create shift</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-shifts-api/#op-shiftsShiftIdGet" target="_blank" class="st" data-op="shiftsShiftIdGet"><title>GET /shifts/{shiftId}
+Shifts line · shiftsShiftIdGet</title>
+<circle cx="1294" cy="1574" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1306" y="1579" text-anchor="start" style="fill:#1A1F2C">Get shift</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-shifts-api/#op-shiftsShiftIdPut" target="_blank" class="st" data-op="shiftsShiftIdPut"><title>PUT /shifts/{shiftId}
+Shifts line · shiftsShiftIdPut</title>
+<circle cx="1294" cy="1490" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1306" y="1495" text-anchor="start" style="fill:#1A1F2C">Update shift</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-shifts-api/#op-shiftsShiftIdDelete" target="_blank" class="st" data-op="shiftsShiftIdDelete"><title>DELETE /shifts/{shiftId}
+Shifts line · shiftsShiftIdDelete</title>
+<circle cx="1294" cy="1406" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1290" y1="1410" x2="1298" y2="1402" stroke="#E07B12" stroke-width="2"/>
+<text x="1306" y="1411" text-anchor="start" style="fill:#1A1F2C">Delete shift</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-stock-api/#op-getInventory" target="_blank" class="st" data-op="getInventory"><title>GET /v1/inventory
+Inventory line · getInventory</title>
+<circle cx="2092" cy="272" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2098" y="260" transform="rotate(-45 2098 260)" style="fill:#1A1F2C">Get inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-stock-api/#op-postInventorySearch" target="_blank" class="st" data-op="postInventorySearch"><title>POST /v1/inventory/search
+Inventory line · postInventorySearch</title>
+<circle cx="2176" cy="272" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2182" y="260" transform="rotate(-45 2182 260)" style="fill:#1A1F2C">Search inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-stock-api/#op-updateInventory" target="_blank" class="st" data-op="updateInventory"><title>PUT /v1/inventory/update
+Inventory line · updateInventory</title>
+<circle cx="2260" cy="272" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2254" y="284" text-anchor="end" transform="rotate(-45 2254 284)" style="fill:#1A1F2C">Update inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-tables-api/#op-tablesGuidGet" target="_blank" class="st" data-op="tablesGuidGet"><title>GET /tables/{guid}
+More Local 3 line · tablesGuidGet</title>
+<circle cx="2932" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2944" y="865" text-anchor="start" style="fill:#1A1F2C">Get table</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-tables-api/#op-tablesGet" target="_blank" class="st" data-op="tablesGet"><title>GET /tables
+More Local 3 line · tablesGet</title>
+<circle cx="2722" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2731" y="850" text-anchor="start" style="fill:#1A1F2C">List tables</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-tax-rates-api/#op-taxRatesGuidGet" target="_blank" class="st" data-op="taxRatesGuidGet"><title>GET /taxRates/{guid}
+More Local 3 line · taxRatesGuidGet</title>
+<circle cx="3058" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3064" y="806" transform="rotate(-45 3064 806)" style="fill:#1A1F2C">Get taxrate</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-tax-rates-api/#op-taxRatesGet" target="_blank" class="st" data-op="taxRatesGet"><title>GET /taxRates
+More Local 3 line · taxRatesGet</title>
+<circle cx="2974" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2962.0" y="823" text-anchor="end" style="fill:#1A1F2C">List taxrates</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-time-entries-api/#op-timeEntriesGet" target="_blank" class="st" data-op="timeEntriesGet"><title>GET /timeEntries
+More Local 3 line · timeEntriesGet</title>
+<circle cx="3142" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3154" y="823" text-anchor="start" style="fill:#1A1F2C">List timeentries</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-time-entries-api/#op-timeEntriesTimeEntryIdGet" target="_blank" class="st" data-op="timeEntriesTimeEntryIdGet"><title>GET /timeEntries/{timeEntryId}
+More Local 3 line · timeEntriesTimeEntryIdGet</title>
+<circle cx="3184" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3172.0" y="865" text-anchor="end" style="fill:#1A1F2C">Get timeentry</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-tip-withholding-api/#op-tipWithholdingGet" target="_blank" class="st" data-op="tipWithholdingGet"><title>GET /tipWithholding
+More Local 3 line · tipWithholdingGet</title>
+<circle cx="3268" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3274" y="848" transform="rotate(-45 3274 848)" style="fill:#1A1F2C">Get tipwithholding</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-void-reasons-api/#op-voidReasonsGuidGet" target="_blank" class="st" data-op="voidReasonsGuidGet"><title>GET /voidReasons/{guid}
+More Local 3 line · voidReasonsGuidGet</title>
+<circle cx="3436" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3442" y="848" transform="rotate(-45 3442 848)" style="fill:#1A1F2C">Get voidreason</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-void-reasons-api/#op-voidReasonsGet" target="_blank" class="st" data-op="voidReasonsGet"><title>GET /voidReasons
+More Local 3 line · voidReasonsGet</title>
+<circle cx="3352" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3358" y="848" transform="rotate(-45 3358 848)" style="fill:#1A1F2C">List voidreasons</text>
+</a>
+<a href="https://apis.apis.io/apis/toast/toast-yourendpointname-api/#op-yourendpointnamePost" target="_blank" class="st" data-op="yourendpointnamePost"><title>POST /yourendpointname
+More Local 3 line · yourendpointnamePost</title>
+<circle cx="3520" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3514" y="872" text-anchor="end" transform="rotate(-45 3514 872)" style="fill:#1A1F2C">Update yourendpointname</text>
+</a>
+<text x="3710" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3710" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">ORDERS</text>
+<rect x="3710" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3727" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML2</text><text x="3752" y="269" font-size="11" fill="#1A1F2C">More Local 2 <tspan fill="#8A93A6">25</tspan></text>
+<rect x="3710" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="3727" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="3752" y="286" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">10</tspan></text>
+<text x="3710" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">EMPLOYEES</text>
+<rect x="3710" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3727" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EMP</text><text x="3752" y="329" font-size="11" fill="#1A1F2C">Employees <tspan fill="#8A93A6">10</tspan></text>
+<text x="3710" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">PAYOUT</text>
+<rect x="3710" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3727" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="3752" y="372" font-size="11" fill="#1A1F2C">Payout <tspan fill="#8A93A6">6</tspan></text>
+<text x="3710" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">SHIFTS</text>
+<rect x="3710" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="3727" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SHI</text><text x="3752" y="415" font-size="11" fill="#1A1F2C">Shifts <tspan fill="#8A93A6">5</tspan></text>
+<text x="3710" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">PUBLISHED</text>
+<rect x="3710" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3727" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PUB</text><text x="3752" y="458" font-size="11" fill="#1A1F2C">Published <tspan fill="#8A93A6">4</tspan></text>
+<text x="3710" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">JOBS</text>
+<rect x="3710" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="3727" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JOB</text><text x="3752" y="501" font-size="11" fill="#1A1F2C">Jobs <tspan fill="#8A93A6">4</tspan></text>
+<text x="3710" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">METRICS</text>
+<rect x="3710" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3727" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MET</text><text x="3752" y="544" font-size="11" fill="#1A1F2C">Metrics <tspan fill="#8A93A6">4</tspan></text>
+<text x="3710" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">INVENTORY</text>
+<rect x="3710" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="3727" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="3752" y="587" font-size="11" fill="#1A1F2C">Inventory <tspan fill="#8A93A6">3</tspan></text>
+<text x="3710" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">MENU</text>
+<rect x="3710" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="3727" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MEN</text><text x="3752" y="630" font-size="11" fill="#1A1F2C">Menu <tspan fill="#8A93A6">3</tspan></text>
+<text x="3710" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3710" y="663" width="34" height="13" rx="3" fill="#D6264F"/><text x="3727" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML3</text><text x="3752" y="673" font-size="11" fill="#1A1F2C">More Local 3 <tspan fill="#8A93A6">25</tspan></text>
+<rect x="3710" y="680" width="34" height="13" rx="3" fill="#B0287F"/><text x="3727" y="690" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML1</text><text x="3752" y="690" font-size="11" fill="#1A1F2C">More Local 1 <tspan fill="#8A93A6">24</tspan></text>
+<text x="3960" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3978,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="4004" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3978,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="4004" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3978,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="4004" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3978,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="4004" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3978,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="4004" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3978,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="4004" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3978,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="4004" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3978,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="4004" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3960" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3960" y="463" font-size="10.5" fill="#5A6275">“Alternate Payment Types” → More Local line · 2 ops</text>
+<text x="3960" y="478" font-size="10.5" fill="#5A6275">“Applicable Discounts” → More Local line · 1 op</text>
+<text x="3960" y="493" font-size="10.5" fill="#5A6275">“Authentication” → More Local line · 1 op</text>
+<text x="3960" y="508" font-size="10.5" fill="#5A6275">“Availability” → More Local line · 1 op</text>
+<text x="3960" y="523" font-size="10.5" fill="#5A6275">“Break Types” → More Local line · 2 ops</text>
+<text x="3960" y="538" font-size="10.5" fill="#5A6275">“Cash Drawers” → More Local line · 2 ops</text>
+<text x="3960" y="553" font-size="10.5" fill="#5A6275">“Check” → More Local line · 2 ops</text>
+<text x="3960" y="568" font-size="10.5" fill="#5A6275">“Connected Restaurants” → More Local line · 1 op</text>
+<text x="3960" y="583" font-size="10.5" fill="#5A6275">“Deposits” → More Local line · 1 op</text>
+<text x="3960" y="598" font-size="10.5" fill="#5A6275">“Device Info” → More Local line · 1 op</text>
+<text x="3960" y="613" font-size="10.5" fill="#5A6275">“Dining Options” → More Local line · 2 ops</text>
+<text x="3960" y="628" font-size="10.5" fill="#5A6275">“Discounts” → More Local line · 2 ops</text>
+<text x="3960" y="643" font-size="10.5" fill="#5A6275">“Entries” → More Local line · 1 op</text>
+<text x="3960" y="658" font-size="10.5" fill="#5A6275">“Export” → More Local line · 1 op</text>
+<text x="3960" y="673" font-size="10.5" fill="#5A6275">“Groups” → More Local line · 1 op</text>
+<text x="3960" y="688" font-size="10.5" fill="#5A6275">“Guest” → More Local line · 2 ops</text>
+<text x="3960" y="703" font-size="10.5" fill="#5A6275">“Labor” → More Local line · 2 ops</text>
+<text x="3960" y="718" font-size="10.5" fill="#5A6275">“Menu Groups” → More Local line · 2 ops</text>
+<text x="3960" y="733" font-size="10.5" fill="#5A6275">“Menu Items” → More Local line · 2 ops</text>
+<text x="3960" y="748" font-size="10.5" fill="#5A6275">“Menu Option Groups” → More Local line · 2 ops</text>
+<text x="3960" y="763" font-size="10.5" fill="#5A6275">“Menus” → More Local line · 2 ops</text>
+<text x="3960" y="778" font-size="10.5" fill="#5A6275">“Merchants” → More Local line · 1 op</text>
+<text x="3960" y="793" font-size="10.5" fill="#5A6275">“Metadata” → More Local line · 1 op</text>
+<text x="3960" y="808" font-size="10.5" fill="#5A6275">“No Sale Reasons” → More Local line · 2 ops</text>
+<text x="3960" y="823" font-size="10.5" fill="#5A6275">“Orders Bulk” → More Local line · 1 op</text>
+<text x="3960" y="838" font-size="10.5" fill="#5A6275">“Payments” → More Local line · 2 ops</text>
+<text x="3960" y="853" font-size="10.5" fill="#5A6275">“Payout Reasons” → More Local line · 2 ops</text>
+<text x="3960" y="868" font-size="10.5" fill="#5A6275">“Pre Modifier Groups” → More Local line · 2 ops</text>
+<text x="3960" y="883" font-size="10.5" fill="#5A6275">“Pre Modifiers” → More Local line · 2 ops</text>
+<text x="3960" y="898" font-size="10.5" fill="#5A6275">“Price Groups” → More Local line · 2 ops</text>
+<text x="3960" y="913" font-size="10.5" fill="#5A6275">“Prices” → More Local line · 1 op</text>
+<text x="3960" y="928" font-size="10.5" fill="#5A6275">“Printers” → More Local line · 2 ops</text>
+<text x="3960" y="943" font-size="10.5" fill="#5A6275">“Restaurant Services” → More Local line · 2 ops</text>
+<text x="3960" y="958" font-size="10.5" fill="#5A6275">“Restaurants” → More Local line · 2 ops</text>
+<text x="3960" y="973" font-size="10.5" fill="#5A6275">“Restaurants Information” → More Local line · 1 op</text>
+<text x="3960" y="988" font-size="10.5" fill="#5A6275">“Revenue Centers” → More Local line · 2 ops</text>
+<text x="3960" y="1003" font-size="10.5" fill="#5A6275">“Sales Categories” → More Local line · 2 ops</text>
+<text x="3960" y="1018" font-size="10.5" fill="#5A6275">“Service Areas” → More Local line · 2 ops</text>
+<text x="3960" y="1033" font-size="10.5" fill="#5A6275">“Service Charges” → More Local line · 2 ops</text>
+<text x="3960" y="1048" font-size="10.5" fill="#5A6275">“Tables” → More Local line · 2 ops</text>
+<text x="3960" y="1063" font-size="10.5" fill="#5A6275">“Tax Rates” → More Local line · 2 ops</text>
+<text x="3960" y="1078" font-size="10.5" fill="#5A6275">“Time Entries” → More Local line · 2 ops</text>
+<text x="3960" y="1093" font-size="10.5" fill="#5A6275">“Tip Withholding” → More Local line · 1 op</text>
+<text x="3960" y="1108" font-size="10.5" fill="#5A6275">“Void Reasons” → More Local line · 2 ops</text>
+<text x="3960" y="1123" font-size="10.5" fill="#5A6275">“Yourendpointname” → More Local line · 1 op</text>
+<text x="3960" y="1173" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3960" y="1190" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2250" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/toast/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

@@ -32,7 +32,14 @@ def load(PROV, FAM_FILE=None):
     # ---------- load operations ----------
     ops = []
     for f in sorted(glob.glob(os.path.join(PROV, 'openapi', '*.yml')) + sorted(glob.glob(os.path.join(PROV, 'openapi', '*.yaml')))):
-        d = _yload(open(f)) or {}
+        try:
+            d = _yload(open(f)) or {}
+        except yaml.YAMLError as e:          # one malformed spec (duplicate key, broken flow map) must
+            import sys                         # not sink the provider: map the rest, say which was skipped
+            print(f'skipped unparseable {os.path.basename(f)}: {str(e).splitlines()[0]}', file=sys.stderr)
+            continue
+        if not isinstance(d, dict):
+            continue
         api = re.sub(r'-openapi\.ya?ml$', '', os.path.basename(f))
         for p, item in (d.get('paths') or {}).items():
             for m, o in (item or {}).items():

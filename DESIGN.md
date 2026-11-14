@@ -177,3 +177,6 @@ Suite (7) became atlases automatically; six thin catalogs (< 25 operations) mapp
 
 ### Batch 4 (2026-11-14)
 - **Local lines are capped at 30 stops.** A family's 1-2 stop resources ride one Local line; Kong had 122 of them on one tram that snaked across the sheet. Locals now cut into path-ordered runs of <= 30 ("More Local 1..5"). Rebuilt the 20 published maps it changed: worst lines adyen 131 -> 44, adobe 147 -> 64, oracle-hospitality 142 -> 120, scvd-store 94 -> 35, linkedin 64 -> 22, kong 122 -> 29 (12,281 x 8,051 -> 6,876 x 9,884 px).
+
+### Batch 6 (2026-11-14)
+- **One malformed spec no longer sinks a provider.** Tricentis (duplicate YAML anchor in one of its specs) and transcriptdock.com (broken flow mapping) failed to load; the reader now skips an unparseable file with a warning and maps the rest (tricentis 456 ops).
