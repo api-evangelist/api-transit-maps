@@ -31,16 +31,16 @@ def load(PROV, FAM_FILE=None):
 
     # ---------- load operations ----------
     ops = []
-    for f in sorted(glob.glob(os.path.join(PROV, 'openapi', '*.yml')) + sorted(glob.glob(os.path.join(PROV, 'openapi', '*.yaml')))):
+    for f in sorted(glob.glob(os.path.join(PROV, 'openapi', '*.yml')) + sorted(glob.glob(os.path.join(PROV, 'openapi', '*.yaml'))) + sorted(glob.glob(os.path.join(PROV, 'openapi', '*.json')))):
         try:
-            d = _yload(open(f)) or {}
-        except yaml.YAMLError as e:          # one malformed spec (duplicate key, broken flow map) must
+            d = (__import__('json').load(open(f)) if f.endswith('.json') else _yload(open(f))) or {}
+        except (yaml.YAMLError, ValueError) as e:  # one malformed spec (duplicate key, broken flow map) must
             import sys                         # not sink the provider: map the rest, say which was skipped
             print(f'skipped unparseable {os.path.basename(f)}: {str(e).splitlines()[0]}', file=sys.stderr)
             continue
         if not isinstance(d, dict):
             continue
-        api = re.sub(r'-openapi\.ya?ml$', '', os.path.basename(f))
+        api = re.sub(r'-openapi\.(ya?ml|json)$', '', os.path.basename(f))
         for p, item in (d.get('paths') or {}).items():
             for m, o in (item or {}).items():
                 if m not in METHODS or not isinstance(o, dict):

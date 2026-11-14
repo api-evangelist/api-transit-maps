@@ -180,3 +180,4 @@ Suite (7) became atlases automatically; six thin catalogs (< 25 operations) mapp
 
 ### Batch 6 (2026-11-14)
 - **One malformed spec no longer sinks a provider.** Tricentis (duplicate YAML anchor in one of its specs) and transcriptdock.com (broken flow mapping) failed to load; the reader now skips an unparseable file with a warning and maps the rest (tricentis 456 ops).
+- **JSON specs are read.** The reader globbed only .yml/.yaml, so atlassian-confluence (two .json specs, 348 ops) mapped as empty. Three other .json files in the catalog (delinea, logicmonitor, anysphere-cursor-ai) are HTML pages saved under a spec name; they are skipped as unparseable.
