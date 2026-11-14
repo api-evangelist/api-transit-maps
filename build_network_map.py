@@ -604,6 +604,30 @@ if INSET_LINES:
             INSET_IDX.append(idx[o['id']])
         cy += ((len(st) - 1) // ROWN + 2) * ROWY
 
+# ---------- strays: a stop left far from every other stop (a one-stop line with nothing to pull it
+# in, e.g. Azure's lone "List operations") would stretch the canvas; dock it beside the network
+from scipy.spatial import cKDTree as _KD
+for _ in range(3):
+    _d, _ = _KD(P.astype(float)).query(P.astype(float), k=2) if N > 2 else (np.zeros((N, 2)), None)
+    strays = [i for i in range(N) if _d[i][1] > 10 and i not in INSET_IDX]
+    if not strays:
+        break
+    for i in strays:
+        rest = np.array([P[k] for k in range(N) if k != i], dtype=float)
+        tgt = rest[np.argmin(((rest - P[i]) ** 2).sum(1))]
+        best = None
+        for r in range(3, 12):
+            for dx in range(-r, r + 1):
+                for dy in (-r, r) if abs(dx) != r else range(-r, r + 1):
+                    c = tgt + (dx, dy)
+                    if ((rest - c) ** 2).sum(1).min() >= 9:
+                        best = c; break
+                if best is not None: break
+            if best is not None: break
+        if best is not None:
+            P[i] = best
+print('stray-stop docking done', file=sys.stderr)
+
 # ---------- render ----------
 # px per cell: 42 normally; a crowded core is drawn larger so labels (fixed font size) get room
 from scipy.spatial import cKDTree as _KD

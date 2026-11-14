@@ -166,3 +166,7 @@ Suite (7) became atlases automatically; six thin catalogs (< 25 operations) mapp
   Each fixed MongoDB's grouping and broke someone else's (HubSpot's CRM vanished, families
   snowballed into one, or "More" swallowed half the API). Family inference changes ripple across every
   map — change it only with a before/after table of families for the existing maps.
+
+### Batch 2 (2026-11-14)
+- **Stray stops are docked.** Microsoft Azure had a one-stop line ("List operations") with no ties, left ~30 cells from the network; it doubled the canvas height (5910 -> 2970 px after the fix). Any stop more than 10 cells from its nearest neighbour now moves to the nearest free cell beside the network.
+- Map links on the gallery open in a new tab, through `view.html` (zoom in/out, pan, fit).

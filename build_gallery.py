@@ -46,9 +46,9 @@ for c in cards:
     meta = (f"{c['ops']:,} operations · {c['lines']} lines" +
             (f" · {c['sheets']}-sheet atlas" if c['kind'] == 'atlas' else f" · {c['xch']} interchanges"))
     items.append(f'''<article data-name="{E(c['name'].lower())}" data-ops="{c['ops']}">
-<a class="pic" href="{E(c['href'])}"><img src="{E(c['thumb'])}" alt="{E(c['name'])} API transit map" loading="lazy"></a>
-<div class="body"><h2><a href="{E(c['href'])}">{E(c['name'])}</a>{'<span class="tag">Atlas</span>' if c['kind'] == 'atlas' else ''}</h2>
-<p>{meta}</p><p class="links"><a href="{E(c['href'])}">Open map</a> · <a href="https://apis.io/providers/{E(c['slug'])}/">On APIs.io</a></p></div></article>''')
+<a class="pic" href="{E(c['href'])}" target="_blank" rel="noopener"><img src="{E(c['thumb'])}" alt="{E(c['name'])} API transit map" loading="lazy"></a>
+<div class="body"><h2><a href="{E(c['href'])}" target="_blank" rel="noopener">{E(c['name'])}</a>{'<span class="tag">Atlas</span>' if c['kind'] == 'atlas' else ''}</h2>
+<p>{meta}</p><p class="links"><a href="{E(c['href'])}" target="_blank" rel="noopener">Open map</a> · <a href="https://apis.io/providers/{E(c['slug'])}/">On APIs.io</a></p></div></article>''')
 
 page = f'''<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
