@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1574 1314" width="1574" height="1314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1574" height="1314" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Whisper-Online API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">13 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="541.2307692307693" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">WHISPER ONLINE</text>
+<path class="line" data-line="Checkpoint" d="M748.0,230.0 L748.0,342.0 Q748.0,356.0 757.9,365.9 L790.0,398.0 L874.0,482.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Checkpoint</title></path>
+<path class="line" data-line="Whisper Online Local" d="M580.0,1154.0 L580.0,1070.0 L580.0,986.0 L580.0,874.0 Q580.0,860.0 566.0,860.0 L454.0,860.0 L384.0,860.0 Q370.0,860.0 360.1,850.1 L337.9,827.9 Q328.0,818.0 314.0,818.0 L244.0,818.0 L160.0,818.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Whisper Online Local</title></path>
+<line x1="748" y1="230" x2="748.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="724.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Checkpoint</title></rect><text x="748.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="874" y1="482" x2="898.0416305603426" y2="506.04163056034264" stroke="#0E9F6E" stroke-width="7"/><rect x="874.0416305603426" y="495.04163056034264" width="48" height="22" rx="5" fill="#0E9F6E"><title>Checkpoint</title></rect><text x="898.0416305603426" y="511.04163056034264" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="580" y1="1154" x2="580.0" y2="1188.0" stroke="#D6264F" stroke-width="7"/><rect x="556.0" y="1177.0" width="48" height="22" rx="5" fill="#D6264F"><title>Whisper Online Local</title></rect><text x="580.0" y="1193.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOL</text>
+<line x1="160" y1="818" x2="126.0" y2="818.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="807.0" width="48" height="22" rx="5" fill="#D6264F"><title>Whisper Online Local</title></rect><text x="126.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOL</text>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-a2a-api/#op-a2aSendMessage" target="_blank" class="st" data-op="a2aSendMessage"><title>POST /a2a
+Whisper Online Local line · a2aSendMessage</title>
+<circle cx="580" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="991" text-anchor="start" style="fill:#1A1F2C">Update a2a</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-checkpoint-api/#op-ledgerCheckpoint" target="_blank" class="st" data-op="ledgerCheckpoint"><title>GET /checkpoint
+Checkpoint line · ledgerCheckpoint</title>
+<circle cx="748" cy="230" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="235" text-anchor="start" style="fill:#1A1F2C">Get checkpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-checkpoint-api/#op-ledgerCheckpointKey" target="_blank" class="st" data-op="ledgerCheckpointKey"><title>GET /checkpoint/key
+Checkpoint line · ledgerCheckpointKey</title>
+<circle cx="748" cy="356" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="361" text-anchor="start" style="fill:#1A1F2C">Get key</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-checkpoint-api/#op-ledgerStatusList" target="_blank" class="st" data-op="ledgerStatusList"><title>GET /checkpoint/status-list
+Checkpoint line · ledgerStatusList</title>
+<circle cx="874" cy="482" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="487" text-anchor="start" style="fill:#1A1F2C">Get status list</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-checkpoint-api/#op-ledgerOtsLatestConfirmed" target="_blank" class="st" data-op="ledgerOtsLatestConfirmed"><title>GET /checkpoint/ots/latest-confirmed
+Checkpoint line · ledgerOtsLatestConfirmed</title>
+<circle cx="790" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="403" text-anchor="start" style="fill:#1A1F2C">Get latest confirmed</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-consistency-api/#op-ledgerConsistency" target="_blank" class="st" data-op="ledgerConsistency"><title>GET /consistency
+Whisper Online Local line · ledgerConsistency</title>
+<circle cx="454" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="460" y="848" transform="rotate(-45 460 848)" style="fill:#1A1F2C">Get consistency</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-inclusion-api/#op-ledgerInclusion" target="_blank" class="st" data-op="ledgerInclusion"><title>GET /inclusion
+Whisper Online Local line · ledgerInclusion</title>
+<circle cx="370" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="358.0" y="865" text-anchor="end" style="fill:#1A1F2C">Get inclusion</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-menu-api/#op-menu" target="_blank" class="st" data-op="menu"><title>GET /menu
+Whisper Online Local line · menu</title>
+<circle cx="328" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="823" text-anchor="start" style="fill:#1A1F2C">Get menu</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-query-api/#op-query" target="_blank" class="st" data-op="query"><title>POST /api/query
+Whisper Online Local line · query</title>
+<circle cx="580" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="865" text-anchor="start" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-tile-api/#op-ledgerTile" target="_blank" class="st" data-op="ledgerTile"><title>GET /tile/{level}/{index}
+Whisper Online Local line · ledgerTile</title>
+<circle cx="244" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="806" transform="rotate(-45 250 806)" style="fill:#1A1F2C">Get tile</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-verify-identity-api/#op-verifyIdentity" target="_blank" class="st" data-op="verifyIdentity"><title>GET /verify-identity
+Whisper Online Local line · verifyIdentity</title>
+<circle cx="160" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="806" transform="rotate(-45 166 806)" style="fill:#1A1F2C">Get verify identity</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-well-known-api/#op-agentCard" target="_blank" class="st" data-op="agentCard"><title>GET /.well-known/agent-card.json
+Whisper Online Local line · agentCard</title>
+<circle cx="580" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1159" text-anchor="start" style="fill:#1A1F2C">Get agent card</text>
+</a>
+<a href="https://apis.apis.io/apis/whisper-online/whisper-online-well-known-api/#op-agentOnboarding" target="_blank" class="st" data-op="agentOnboarding"><title>GET /.well-known/agent-onboarding.json
+Whisper Online Local line · agentOnboarding</title>
+<circle cx="580" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1075" text-anchor="start" style="fill:#1A1F2C">Get agent onboarding</text>
+</a>
+<text x="1064" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1064" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">WHISPER ONLINE</text>
+<rect x="1064" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1081" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOL</text><text x="1106" y="269" font-size="11" fill="#1A1F2C">Whisper Online Local <tspan fill="#8A93A6">9</tspan></text>
+<rect x="1064" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1081" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHE</text><text x="1106" y="286" font-size="11" fill="#1A1F2C">Checkpoint <tspan fill="#8A93A6">4</tspan></text>
+<text x="1314" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1332,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1358" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1332,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1358" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1332,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1358" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1332,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1358" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1332,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1358" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1332,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1358" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1332,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1358" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1332,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1358" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1314" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1314" y="463" font-size="10.5" fill="#5A6275">“.well Known” → Whisper Online Local line · 2 ops</text>
+<text x="1314" y="478" font-size="10.5" fill="#5A6275">“A2a” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="493" font-size="10.5" fill="#5A6275">“Consistency” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="508" font-size="10.5" fill="#5A6275">“Inclusion” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="523" font-size="10.5" fill="#5A6275">“Menu” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="538" font-size="10.5" fill="#5A6275">“Query” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="553" font-size="10.5" fill="#5A6275">“Tile” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="568" font-size="10.5" fill="#5A6275">“Verify Identity” → Whisper Online Local line · 1 op</text>
+<text x="1314" y="618" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1314" y="635" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1284" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/whisper-online/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

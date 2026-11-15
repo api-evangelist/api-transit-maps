@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1490 978" width="1490" height="978" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1490" height="978" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Savee API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">10 operations as stops · 3 tags as lines · 1 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="563.2" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">SAVEE</text>
+<line x1="790" y1="650" x2="748" y2="692" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="790" y1="650" x2="748" y2="692" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Boards" d="M790.0,440.0 L790.0,524.0 L790.0,650.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Boards</title></path>
+<path class="line" data-line="Saves" d="M622.0,818.0 L706.0,734.0 L748.0,692.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Saves</title></path>
+<path class="line" data-line="Savee Local" d="M160.0,356.0 L272.0,356.0 Q286.0,356.0 295.9,346.1 L328.0,314.0 L412.0,230.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Savee Local</title></path>
+<line x1="790" y1="440" x2="790.0" y2="406.0" stroke="#0E9F6E" stroke-width="7"/><rect x="766.0" y="395.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Boards</title></rect><text x="790.0" y="411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BOA</text>
+<line x1="790" y1="650" x2="790.0" y2="684.0" stroke="#0E9F6E" stroke-width="7"/><rect x="766.0" y="673.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Boards</title></rect><text x="790.0" y="689.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BOA</text>
+<line x1="622" y1="818" x2="597.9583694396574" y2="842.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="573.9583694396574" y="831.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Saves</title></rect><text x="597.9583694396574" y="847.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SAV</text>
+<line x1="748" y1="692" x2="753.6568542494924" y2="649.5735931288071" stroke="#1F5FD1" stroke-width="7"/><rect x="729.6568542494924" y="638.5735931288071" width="48" height="22" rx="5" fill="#1F5FD1"><title>Saves</title></rect><text x="753.6568542494924" y="654.5735931288071" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SAV</text>
+<line x1="160" y1="356" x2="126.0" y2="356.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="345.0" width="48" height="22" rx="5" fill="#D6264F"><title>Savee Local</title></rect><text x="126.0" y="361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SL</text>
+<line x1="412" y1="230" x2="436.04163056034264" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="412.04163056034264" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Savee Local</title></rect><text x="436.04163056034264" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SL</text>
+<a href="https://apis.apis.io/apis/savee/savee-boards-api/#op-getV1Boards" target="_blank" class="st" data-op="getV1Boards"><title>GET /v1/boards
+Boards line · getV1Boards</title>
+<circle cx="790" cy="440" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="445" text-anchor="start" style="fill:#1A1F2C">List boards</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-boards-api/#op-getV1BoardsByBoardID" target="_blank" class="st" data-op="getV1BoardsByBoardID"><title>GET /v1/boards/{boardID}
+Boards line · getV1BoardsByBoardID</title>
+<circle cx="790" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="529" text-anchor="start" style="fill:#1A1F2C">Get board</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-boards-api/#op-getV1BoardsByBoardIDSaves" target="_blank" class="st" data-op="savee-boards-api:getV1BoardsByBoardIDSaves"><title>GET /v1/boards/{boardID}/saves
+Boards line · getV1BoardsByBoardIDSaves</title>
+<circle cx="790" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="802" y="655" text-anchor="start" style="fill:#1A1F2C">List saves</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-saves-api/#op-getV1Saves" target="_blank" class="st" data-op="getV1Saves"><title>GET /v1/saves
+Saves line · getV1Saves</title>
+<circle cx="706" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="739" text-anchor="start" style="fill:#1A1F2C">List saves</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-saves-api/#op-getV1SavesBySaveID" target="_blank" class="st" data-op="getV1SavesBySaveID"><title>GET /v1/saves/{saveID}
+Saves line · getV1SavesBySaveID</title>
+<circle cx="748" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="736.0" y="697" text-anchor="end" style="fill:#1A1F2C">Get save</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-saves-api/#op-getV1Feed" target="_blank" class="st" data-op="getV1Feed"><title>GET /v1/feed
+Saves line · getV1Feed</title>
+<circle cx="622" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="634" y="823" text-anchor="start" style="fill:#1A1F2C">Get feed</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-search-api/#op-getV1Search" target="_blank" class="st" data-op="getV1Search"><title>GET /v1/search
+Savee Local line · getV1Search</title>
+<circle cx="412" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="235" text-anchor="start" style="fill:#1A1F2C">Search</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-system-api/#op-getV1Ping" target="_blank" class="st" data-op="getV1Ping"><title>GET /v1/ping
+Savee Local line · getV1Ping</title>
+<circle cx="328" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="319" text-anchor="start" style="fill:#1A1F2C">Get ping</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-system-api/#op-getV1OpenapiJson" target="_blank" class="st" data-op="getV1OpenapiJson"><title>GET /v1/openapi.json
+Savee Local line · getV1OpenapiJson</title>
+<circle cx="286" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="361" text-anchor="start" style="fill:#1A1F2C">Get openapi</text>
+</a>
+<a href="https://apis.apis.io/apis/savee/savee-user-api/#op-getV1Me" target="_blank" class="st" data-op="getV1Me"><title>GET /v1/me
+Savee Local line · getV1Me</title>
+<circle cx="160" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="344" transform="rotate(-45 166 344)" style="fill:#1A1F2C">Get me</text>
+</a>
+<text x="980" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="980" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SAVEE</text>
+<rect x="980" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="997" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SL</text><text x="1022" y="269" font-size="11" fill="#1A1F2C">Savee Local <tspan fill="#8A93A6">4</tspan></text>
+<rect x="980" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="997" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BOA</text><text x="1022" y="286" font-size="11" fill="#1A1F2C">Boards <tspan fill="#8A93A6">3</tspan></text>
+<rect x="980" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="997" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SAV</text><text x="1022" y="303" font-size="11" fill="#1A1F2C">Saves <tspan fill="#8A93A6">3</tspan></text>
+<text x="1230" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1248,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1274" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1248,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1274" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1248,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1274" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1248,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1274" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1248,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1274" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1248,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1274" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1248,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1274" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1248,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1274" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1230" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1230" y="463" font-size="10.5" fill="#5A6275">“Search” → Savee Local line · 1 op</text>
+<text x="1230" y="478" font-size="10.5" fill="#5A6275">“Search” → Search line · 1 op</text>
+<text x="1230" y="493" font-size="10.5" fill="#5A6275">“System” → Savee Local line · 2 ops</text>
+<text x="1230" y="508" font-size="10.5" fill="#5A6275">“User” → Savee Local line · 1 op</text>
+<text x="1230" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1230" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="948" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/savee/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
