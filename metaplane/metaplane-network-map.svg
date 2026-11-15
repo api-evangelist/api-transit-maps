@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 1692" width="1784" height="1692" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1784" height="1692" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Metaplane API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">22 operations as stops · 3 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="559.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">METAPLANE</text>
+<path class="line" data-line="Connections" d="M1084.0,692.0 L1000.0,776.0 L967.9,808.1 Q958.0,818.0 958.0,832.0 L958.0,944.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Connections</title></path>
+<path class="line" data-line="Monitors" d="M244.0,230.0 L244.0,314.0 L244.0,384.0 Q244.0,398.0 253.9,407.9 L328.0,482.0 L412.0,566.0 L444.1,598.1 Q454.0,608.0 454.0,622.0 L454.0,720.0 Q454.0,734.0 444.1,743.9 L370.0,818.0 L328.0,860.0 L244.0,944.0 L160.0,1028.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Monitors</title></path>
+<path class="line" data-line="Tags" d="M454.0,1532.0 L538.0,1448.0 L622.0,1364.0 L654.1,1331.9 Q664.0,1322.0 678.0,1322.0 L776.0,1322.0 Q790.0,1322.0 799.9,1331.9 L832.0,1364.0 L916.0,1448.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<line x1="1084" y1="692" x2="1108.0416305603426" y2="667.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1084.0416305603426" y="656.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Connections</title></rect><text x="1108.0416305603426" y="672.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="958" y1="944" x2="958.0" y2="978.0" stroke="#1F5FD1" stroke-width="7"/><rect x="934.0" y="967.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Connections</title></rect><text x="958.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="244" y1="230" x2="244.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="220.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Monitors</title></rect><text x="244.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MON</text>
+<line x1="160" y1="1028" x2="135.9583694396574" y2="1052.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="111.95836943965739" y="1041.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Monitors</title></rect><text x="135.9583694396574" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MON</text>
+<line x1="454" y1="1532" x2="429.95836943965736" y2="1556.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="405.95836943965736" y="1545.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tags</title></rect><text x="429.95836943965736" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="916" y1="1448" x2="940.0416305603426" y2="1472.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="916.0416305603426" y="1461.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tags</title></rect><text x="940.0416305603426" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-connections-api/#op-getAllConnections" target="_blank" class="st" data-op="getAllConnections"><title>GET /v1/connections
+Connections line · getAllConnections</title>
+<circle cx="1084" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="697" text-anchor="start" style="fill:#1A1F2C">List connections</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-connections-api/#op-getConnectionStatus" target="_blank" class="st" data-op="getConnectionStatus"><title>GET /v1/connections/{connectionId}/sync/status
+Connections line · getConnectionStatus</title>
+<circle cx="958" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="823" text-anchor="start" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-connections-api/#op-syncConnection" target="_blank" class="st" data-op="syncConnection"><title>POST /v1/connections/{connectionId}/sync
+Connections line · syncConnection</title>
+<circle cx="1000" cy="776" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1012" y="781" text-anchor="start" style="fill:#1A1F2C">Sync connections</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-connections-api/#op-updatePrivateKey" target="_blank" class="st" data-op="updatePrivateKey"><title>POST /v1/connections/{connectionId}/update-private-key
+Connections line · updatePrivateKey</title>
+<circle cx="958" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="949" text-anchor="start" style="fill:#1A1F2C">Update update private key</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-bulkGetTableMonitors" target="_blank" class="st" data-op="bulkGetTableMonitors"><title>POST /v2/monitors/bulk-fetch/tables/{connectionId}
+Monitors line · bulkGetTableMonitors</title>
+<circle cx="244" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="949" text-anchor="start" style="fill:#1A1F2C">Update table</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-createMonitor" target="_blank" class="st" data-op="createMonitor"><title>POST /v1/monitors
+Monitors line · createMonitor</title>
+<circle cx="244" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="235" text-anchor="start" style="fill:#1A1F2C">Create monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-getAllMonitorsForSource" target="_blank" class="st" data-op="getAllMonitorsForSource"><title>GET /v1/monitors/connection/{connectionId}
+Monitors line · getAllMonitorsForSource</title>
+<circle cx="328" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="487" text-anchor="start" style="fill:#1A1F2C">Get connection</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-getEvaluationHistory" target="_blank" class="st" data-op="getEvaluationHistory"><title>POST /v1/monitors/evaluation-history/{monitorId}
+Monitors line · getEvaluationHistory</title>
+<circle cx="412" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="571" text-anchor="start" style="fill:#1A1F2C">Update evaluation history</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-getMonitor" target="_blank" class="st" data-op="getMonitor"><title>GET /v1/monitors/{monitorId}
+Monitors line · getMonitor</title>
+<circle cx="244" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="319" text-anchor="start" style="fill:#1A1F2C">Get monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-updateMonitor" target="_blank" class="st" data-op="updateMonitor"><title>POST /v1/monitors/{monitorId}
+Monitors line · updateMonitor</title>
+<circle cx="244" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="403" text-anchor="start" style="fill:#1A1F2C">Update monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-getMonitors" target="_blank" class="st" data-op="getMonitors"><title>GET /v1/monitors/path/{connectionId}/{absolutePath}
+Monitors line · getMonitors</title>
+<circle cx="370" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="823" text-anchor="start" style="fill:#1A1F2C">Get path</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-getMonitorStatus2" target="_blank" class="st" data-op="getMonitorStatus2"><title>GET /v2/monitors/status/{monitorId}
+Monitors line · getMonitorStatus2</title>
+<circle cx="160" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1033" text-anchor="start" style="fill:#1A1F2C">Get statu</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-importHistoricDataForMonitor" target="_blank" class="st" data-op="importHistoricDataForMonitor"><title>POST /v1/monitors/import-historic/{monitorId}
+Monitors line · importHistoricDataForMonitor</title>
+<circle cx="454" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="613" text-anchor="start" style="fill:#1A1F2C">Update import historic</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-ingestDataPoint" target="_blank" class="st" data-op="ingestDataPoint"><title>POST /v1/monitors/ingest-datapoint/{monitorId}
+Monitors line · ingestDataPoint</title>
+<circle cx="454" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="739" text-anchor="start" style="fill:#1A1F2C">Update ingest datapoint</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-monitors-api/#op-runMonitors" target="_blank" class="st" data-op="runMonitors"><title>POST /v1/monitors/run
+Monitors line · runMonitors</title>
+<circle cx="328" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="865" text-anchor="start" style="fill:#1A1F2C">Run monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-fetchTagDefinitions" target="_blank" class="st" data-op="fetchTagDefinitions"><title>POST /v1/tags/batch/fetch-tags
+Tags line · fetchTagDefinitions</title>
+<circle cx="454" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="1537" text-anchor="start" style="fill:#1A1F2C">Create fetch tag</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-fetchTaggedMonitors" target="_blank" class="st" data-op="fetchTaggedMonitors"><title>GET /v1/tags/tagged-monitors/{tag}
+Tags line · fetchTaggedMonitors</title>
+<circle cx="832" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="1369" text-anchor="start" style="fill:#1A1F2C">Get tagged monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-fetchTaggedObjects" target="_blank" class="st" data-op="fetchTaggedObjects"><title>GET /v1/tags/tagged-objects/{tag}
+Tags line · fetchTaggedObjects</title>
+<circle cx="916" cy="1448" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="1453" text-anchor="start" style="fill:#1A1F2C">Get tagged object</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-removeMonitorTags" target="_blank" class="st" data-op="removeMonitorTags"><title>POST /v1/tags/remove-monitor-tags
+Tags line · removeMonitorTags</title>
+<circle cx="664" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="652.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Create remove monitor tag</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-removeTableTags" target="_blank" class="st" data-op="removeTableTags"><title>POST /v1/tags/remove-table-tags
+Tags line · removeTableTags</title>
+<circle cx="790" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="1327" text-anchor="start" style="fill:#1A1F2C">Create remove table tag</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-tagMonitors" target="_blank" class="st" data-op="tagMonitors"><title>POST /v1/tags/batch/tag-monitors
+Tags line · tagMonitors</title>
+<circle cx="538" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="1453" text-anchor="start" style="fill:#1A1F2C">Create tag monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/metaplane/metaplane-tags-api/#op-tagTables" target="_blank" class="st" data-op="tagTables"><title>POST /v1/tags/batch/tag-tables
+Tags line · tagTables</title>
+<circle cx="622" cy="1364" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="1369" text-anchor="start" style="fill:#1A1F2C">Create tag table</text>
+</a>
+<text x="1274" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1274" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">METAPLANE</text>
+<rect x="1274" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1291" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MON</text><text x="1316" y="269" font-size="11" fill="#1A1F2C">Monitors <tspan fill="#8A93A6">11</tspan></text>
+<rect x="1274" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1291" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="1316" y="286" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1274" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1291" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="1316" y="303" font-size="11" fill="#1A1F2C">Connections <tspan fill="#8A93A6">4</tspan></text>
+<text x="1524" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1542,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1542,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1542,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1568" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1542,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1568" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1542,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1568" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1542,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1568" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1542,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1568" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1542,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1568" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1524" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1524" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1662" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/metaplane/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
