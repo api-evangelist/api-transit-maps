@@ -480,6 +480,8 @@ def load(PROV, FAM_FILE=None):
 
     def label(o):
         """Station name from the method + path, like a street name: the line already says which resource."""
+        if o['raw'].get('x-station'):                     # a hand-named station (the How to do APIs map)
+            return o['raw']['x-station']
         s = [x for x in segs(o['p'])]
         if not s:
             return o['id']

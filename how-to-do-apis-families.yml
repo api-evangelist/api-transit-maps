@@ -1,0 +1,71 @@
+title: How to do APIs · The API Evangelist Transit Map
+subtitle: '{N} stops: the 30 lifecycle stages (★) and the policies that apply at each
+  · {L} lines, one per stage, in six districts from Define to Deprecate · {R} strategies
+  as express routes · click any stop for its strategies, experiences and rules'
+express_title: STRATEGIES
+express_sub: each strategy runs through its policies · hover to trace
+express_chars: 44
+lines: tags
+source: 'Source: lifecycle, policies, strategies, experiences and rules at *.apievangelist.com
+  · api-transit-maps/howto.py · every stop links to its API Evangelist page'
+circle:
+- Lifecycle
+weave: true
+families:
+- name: Lifecycle
+  color: '#1A1F2C'
+  tags:
+  - Lifecycle
+- name: Define
+  color: '#7B3FE4'
+  tags:
+  - Domains
+  - Definitions
+  - Versioning
+- name: Design
+  color: '#1F5FD1'
+  tags:
+  - Design · API Contract 1
+  - Design · API Contract 2
+  - Design · Technical Contract 1
+  - Design · Technical Contract 2
+  - Review
+  - Virtualization
+- name: Develop
+  color: '#0E9F6E'
+  tags:
+  - Deployment
+  - DNS
+  - Authentication
+  - SDKs
+  - Caching
+- name: Beta
+  color: '#E07B12'
+  tags:
+  - Portal
+  - Documentation
+  - Testing
+  - Onboarding
+  - Communication
+  - Support
+- name: Production
+  color: '#D6264F'
+  tags:
+  - Management
+  - Logging
+  - Monitoring
+  - Performance
+  - Security
+  - Discovery
+  - Analytics
+  - Terms of Service
+  - Licensing
+  - Monetization
+  - Governance · Business Contract 1
+  - Governance · Business Contract 2
+- name: Deprecate
+  color: '#4A5568'
+  tags:
+  - Deprecation
+  - Deletion
+max_line: 200

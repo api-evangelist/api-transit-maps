@@ -181,3 +181,25 @@ Suite (7) became atlases automatically; six thin catalogs (< 25 operations) mapp
 ### Batch 6 (2026-11-14)
 - **One malformed spec no longer sinks a provider.** Tricentis (duplicate YAML anchor in one of its specs) and transcriptdock.com (broken flow mapping) failed to load; the reader now skips an unparseable file with a warning and maps the rest (tricentis 456 ops).
 - **JSON specs are read.** The reader globbed only .yml/.yaml, so atlassian-confluence (two .json specs, 348 ops) mapped as empty. Three other .json files in the catalog (delinea, logicmonitor, anysphere-cursor-ai) are HTML pages saved under a spec name; they are skipped as unparseable.
+
+## How to do APIs (the method map) — 2026-11-14
+
+`howto.py` draws the API Evangelist method itself, from the five catalogs in `~/Github/api-evangelist/{lifecycle,policies,strategies,experiences,rules}/_data/`:
+
+| Transit convention | What it encodes |
+|---|---|
+| **Lifecycle circle line** (black) | the 30 lifecycle stages in order, Domains → Deletion — the core every other line meets |
+| Stage stations (★) | a lifecycle stage; links to lifecycle.apievangelist.com/store/<slug>/ |
+| **Lines**, coloured by phase | one per stage, carrying the policies whose first lifecycle stage it is; stages with > 30 policies (Design 87, Governance 51) ride one line per policy scope (API / Technical / Business Contract), cut into runs of ≤ 30 |
+| Stops | policies (283) — link to policies.apievangelist.com/store/<slug>/ |
+| Changes | a policy that applies at a second stage changes to that stage's line |
+| **Express routes** | strategies (62 of 75 route through ≥ 2 policies), in lifecycle order; hover in the sidebar to trace |
+| Click panel (view.html) | every stop opens its policy, lifecycle stages, strategies, experiences and rules, each linked |
+
+It writes a stand-in provider (`work/how-to-do-apis/`: an OpenAPI whose operations are the stops, an Arazzo file per strategy) so the same engine lays it out; per-stop `x-station`, `x-url`, `x-tip`, `x-info` and per-map `title`, `subtitle`, `express_title`, `source` are the hooks it uses. Rebuild after the catalogs change: `.venv/bin/python howto.py`, then publish. The gallery features it above the provider cards.
+
+First draft lessons: the engine's automatic line source re-derived lines from paths (every policy its own line) — the families file pins `lines: tags`; without the circle line the six phases drew as islands, so the Lifecycle line is the backbone (`circle: [Lifecycle]`, `weave: true`).
+
+### Dense-sheet pass (2026-11-14)
+- **Crowded sheets are redrawn larger.** Labels are a fixed font size, so a sheet with > 40 labels on track re-runs at 80 px/cell, then 100 (same layout; `--umin`). Worst atlas sheets: palo-alto 170 -> 48, oracle-hospitality 125 -> 41, optimizely 117 -> 39; maps: malwarebytes 124 -> 38, cloudera 64 -> 12. Splaying stops further apart (`--radius`) made it worse (117 -> 134).
+- `BAND=strong ./run_next.sh 50` maps the next band.

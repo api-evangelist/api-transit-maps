@@ -24,6 +24,7 @@ ap.add_argument('--atlas-plan', default=None)
 ap.add_argument('--sheet', type=int, default=None)
 ap.add_argument('--relax', type=int, default=600)
 ap.add_argument('--radius', type=float, default=2.6)
+ap.add_argument('--umin', type=int, default=0)   # atlas retry: draw a crowded sheet at a larger scale
 args = ap.parse_args()
 M = T.load(args.prov, args.fams if args.fams not in ('', '/dev/null', 'auto') else None)
 SHEET = None
@@ -633,6 +634,7 @@ print('stray-stop docking done', file=sys.stderr)
 from scipy.spatial import cKDTree as _KD
 _crowd = max(len(n_) for n_ in _KD(P.astype(float)).query_ball_point(P.astype(float), 3.0)) if N else 1
 U = int(min(60, max(42, 42 * math.sqrt(_crowd / 7.0)))) if getattr(M, 'weave', False) else 42
+U = max(U, args.umin)
 MARGIN, TOPH, SIDEBAR = 160, 170, 540
 mn = P.min(0)
 S = (P - mn) * U + np.array([MARGIN, TOPH + 60])
@@ -676,10 +678,11 @@ A('''<style>
 .rt{cursor:pointer}.rt:hover text{font-weight:700}
 </style>''')
 A(f'<rect width="{Wpx}" height="{Hpx}" fill="#FFFFFF"/>')
-_title = f'The {M.slug.title()} API · Transit Map' + (f' · Sheet {args.sheet}: {SHEET["title"]}' if SHEET else '')
+_title = (M.fams_raw.get('title') or f'The {M.slug.title()} API · Transit Map') + (f' · Sheet {args.sheet}: {SHEET["title"]}' if SHEET else '')
 A(f'<text x="{MARGIN}" y="80" font-size="44" font-weight="700" fill="#1A1F2C">{E_(_title)}</text>')
-A(f'<text x="{MARGIN}" y="116" font-size="16" fill="#5A6275">{N} operations as stops · {len(M.lines)} tags as lines · '
-  f'__NXFER__ interchanges · {len(M.routes)} express routes (Arazzo) · click any stop for its apis.io page</text>')
+_sub = (M.fams_raw.get('subtitle') or '{N} operations as stops · {L} tags as lines · __NXFER__ interchanges · '
+        '{R} express routes (Arazzo) · click any stop for its apis.io page')
+A(f'<text x="{MARGIN}" y="116" font-size="16" fill="#5A6275">' + E_(_sub).replace('{N}', str(N)).replace('{L}', str(len(M.lines))).replace('{R}', str(len(M.routes))) + '</text>')
 
 if INSET_IDX:
     q = S[INSET_IDX]
@@ -906,8 +909,13 @@ for r in M.routes:
 for i, o in enumerate(ops):
     x, y = S[i]; t = o['tag']; c = M.color[t]
     url = f'https://apis.apis.io/apis/{M.slug}/{o["api"]}/#op-{o["opid"]}'
+    if o['raw'].get('x-url'):                             # a stop that links somewhere other than apis.io
+        url = o['raw']['x-url']
     tip = f'{o["m"].upper()} {o["p"]}\n{t} line · {o["opid"]}' + (f'\nExpress: {", ".join(ridx[i])}' if i in ridx else '') + ('\nDEPRECATED' if o['dep'] else '')
-    A(f'<a href="{E_(url)}" target="_blank" class="st" data-op="{E_(o["id"])}"><title>{E_(tip)}</title>')
+    if o['raw'].get('x-tip'):
+        tip = o['raw']['x-tip']
+    info = (' data-info="' + E_(json.dumps(o['raw']['x-info'])) + '"') if o['raw'].get('x-info') else ''
+    A(f'<a href="{E_(url)}" target="_blank" class="st" data-op="{E_(o["id"])}"{info}><title>{E_(tip)}</title>')
     if i in inter:
         A(f'<circle cx="{x}" cy="{y}" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>')
     elif o['dep']:
@@ -971,15 +979,15 @@ if M.retagged:
         yy += 15
         A(f'<text x="{sx2}" y="{yy}" font-size="10.5" fill="#5A6275">“{E_(a)}” → {E_(b)} line · {n} op{"s" if n > 1 else ""}</text>')
 yy += 50
-A(f'<text x="{sx2}" y="{yy}" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>')
-A(f'<text x="{sx2}" y="{yy + 17}" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>')
+A(f'<text x="{sx2}" y="{yy}" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">{E_(M.fams_raw.get('express_title', 'EXPRESS'))}</text>')
+A(f'<text x="{sx2}" y="{yy + 17}" font-size="10.5" fill="#5A6275">{E_(M.fams_raw.get('express_sub', 'Arazzo workflows · hover to trace'))}</text>')
 for k, r in enumerate(M.routes):
     ry = yy + 40 + k * 19
-    nm = re.sub(r'^' + re.escape(M.slug.title()) + r' ', '', r['name'])[:30]
+    nm = re.sub(r'^' + re.escape(M.slug.title()) + r' ', '', r['name'])[:int(M.fams_raw.get('express_chars', 30))]
     A(f'<g class="rt" data-stops="{E_(" ".join(r["stops"]))}"><rect x="{sx2}" y="{ry - 11}" width="30" height="15" rx="3" fill="#1A1F2C"/>'
       f'<text x="{sx2 + 15}" y="{ry}" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">{r["code"]}</text>'
       f'<text x="{sx2 + 37}" y="{ry}" font-size="11" fill="#1A1F2C">{E_(nm)}</text></g>')
-A(f'<text x="{MARGIN}" y="{Hpx - 30}" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/{M.slug}/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>')
+A(f'<text x="{MARGIN}" y="{Hpx - 30}" font-size="12" fill="#5A6275">{E_(M.fams_raw.get('source') or f'Source: s3://api-evangelist-profiles/providers/{M.slug}/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io')}</text>')
 A('''<script><![CDATA[
 (function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
 function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
@@ -1012,3 +1020,12 @@ metrics = dict(size=[Wpx, Hpx], crossings=ncross, octilinear_edges=round(octi, 3
                interchanges_adjacent=round(adj, 3), labels_on_track=lab_fail)
 json.dump(metrics, open(fn.replace('.svg', '.json'), 'w'), indent=1)
 print(fn, metrics)
+
+# crowded sheet: labels are a fixed font size, so a sheet whose labels keep landing on track is
+# redrawn at a larger scale (same layout, seed is fixed) — 42-60 px/cell -> 80 -> 100. Optimizely
+# atlas p.4: 117 labels on track at the adaptive scale, 56 at 80, 21 at 100.
+if lab_fail > 40 and args.umin < 100:
+    nxt = 80 if args.umin < 80 else 100
+    print(f'{lab_fail} labels on track: redrawing at {nxt} px/cell', file=sys.stderr)
+    argv = [a for a in sys.argv if not a.startswith('--umin')]
+    os.execv(sys.executable, [sys.executable] + argv + [f'--umin={nxt}'])

@@ -7,7 +7,7 @@ N=${1:-50}; shift || true
 ATLAS_OPS=${ATLAS_OPS:-2500}
 TAG=${TAG:-final}
 SLUGS="$*"
-[ -z "$SLUGS" ] && SLUGS=$(.venv/bin/python next_batch.py "$N")
+[ -z "$SLUGS" ] && SLUGS=$(.venv/bin/python next_batch.py "$N" --band "${BAND:-exemplar}")
 [ -z "$SLUGS" ] && { echo "nothing left to map"; exit 0; }
 mkdir -p logs previews work
 echo "batch: $SLUGS"
@@ -33,4 +33,4 @@ for s in $ATLAS; do rm -f $s/$s-atlas-*; .venv/bin/python atlas.py work/$s $s $s
 
 # 4. canonical files, verification, review table
 .venv/bin/python finalize.py "$TAG" $SINGLE $ATLAS
-.venv/bin/python next_batch.py --status
+.venv/bin/python next_batch.py --status --band "${BAND:-exemplar}"

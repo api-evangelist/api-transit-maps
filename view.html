@@ -10,9 +10,14 @@ html,body{margin:0;height:100%;background:#fff;font-family:Helvetica Neue,Helvet
 #bar a,#bar button{font:600 14px/1 inherit;font-family:inherit;padding:9px 12px;border:1px solid #c9ced8;border-radius:8px;background:#fff;color:#1A1F2C;text-decoration:none;cursor:pointer;box-shadow:0 1px 3px rgba(0,0,0,.08)}
 #bar button:hover,#bar a:hover{background:#f1f3f7}
 #msg{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;color:#5A6275}
+#info{position:fixed;top:64px;right:12px;bottom:12px;width:min(380px,calc(100vw - 24px));overflow:auto;background:#fff;border:1px solid #c9ced8;border-radius:12px;box-shadow:0 4px 18px rgba(0,0,0,.14);padding:16px 18px;z-index:3;display:none;color:#1A1F2C;font-size:14px;line-height:1.45}
+#info.on{display:block}#info .k{font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#5A6275}
+#info h2{font-size:20px;margin:4px 0 8px}#info h2 a{color:inherit}#info p{margin:0 0 12px;color:#3a4152}
+#info h3{font-size:12px;letter-spacing:1px;text-transform:uppercase;margin:14px 0 4px;color:#5A6275}
+#info ul{margin:0;padding-left:18px}#info li{margin:2px 0}#info a{color:#1F5FD1}#info .x{position:absolute;top:8px;right:10px;border:0;background:none;font-size:22px;cursor:pointer;color:#5A6275}
 </style></head><body>
 <div id="bar"><a href="./" title="Gallery">← Gallery</a><button id="zin" title="Zoom in (+)">+</button><button id="zout" title="Zoom out (−)">−</button><button id="fit" title="Fit (0)">Fit</button><a id="raw" title="Open the plain SVG">SVG</a></div>
-<div id="stage"></div><div id="msg">Loading map…</div>
+<div id="stage"></div><div id="info"><button class="x" title="Close">×</button><div id="infob"></div></div><div id="msg">Loading map…</div>
 <script>
 (function(){
   var m = new URLSearchParams(location.search).get('m') || '';
@@ -68,6 +73,21 @@ html,body{margin:0;height:100%;background:#fff;font-family:Helvetica Neue,Helvet
     function up(e){ delete ptrs[e.pointerId]; pinch = 0; stage.classList.remove('drag'); var k = Object.keys(ptrs); if (k.length) last = ptrs[k[0]]; }
     window.addEventListener('pointerup', up); window.addEventListener('pointercancel', up);
     stage.addEventListener('click', function(e){ if (moved > 4) { e.preventDefault(); e.stopPropagation(); } }, true);
+    // stops that carry data-info (the How to do APIs map) open a panel of everything they link to
+    var info = document.getElementById('info'), infob = document.getElementById('infob');
+    function esc(t){ var d = document.createElement('div'); d.textContent = t == null ? '' : String(t); return d.innerHTML; }
+    function safe(u){ return /^https:\/\//.test(u || '') ? u : null; }
+    function item(x){ var u = safe(x.url); return '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(x.name) + '</a>' : esc(x.name)) + '</li>'; }
+    info.querySelector('.x').onclick = function(){ info.classList.remove('on'); };
+    svg.addEventListener('click', function(e){
+      var a = e.target.closest && e.target.closest('a[data-info]'); if (!a || moved > 4) return;
+      e.preventDefault();
+      var d; try { d = JSON.parse(a.getAttribute('data-info')); } catch (_) { return; }
+      var u = safe(d.url), h = '<div class="k">' + esc(d.kind) + '</div><h2>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(d.name) + ' ↗</a>' : esc(d.name)) + '</h2>';
+      if (d.text) h += '<p>' + esc(d.text.length > 420 ? d.text.slice(0, 420) + '…' : d.text) + '</p>';
+      (d.groups || []).forEach(function(g){ h += '<h3>' + esc(g[0]) + ' (' + g[1].length + ')</h3><ul>' + g[1].map(item).join('') + '</ul>'; });
+      infob.innerHTML = h; info.classList.add('on'); info.scrollTop = 0;
+    });
     document.getElementById('zin').onclick = function(){ zoom(1/1.5); };
     document.getElementById('zout').onclick = function(){ zoom(1.5); };
     document.getElementById('fit').onclick = fit;
