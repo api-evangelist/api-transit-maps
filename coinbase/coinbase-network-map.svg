@@ -1,0 +1,1294 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3968 3834" width="3968" height="3834" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3968" height="3834" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Coinbase API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">224 operations as stops · 25 tags as lines · 15 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="2386" y1="1070" x2="2428" y2="1112" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2386" y1="1070" x2="2428" y2="1112" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2302" y1="3380" x2="2260" y2="3380" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2302" y1="3380" x2="2260" y2="3380" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Accounts" d="M1462.0,2036.0 L1662.1,1835.9 Q1672.0,1826.0 1658.0,1826.0 L1644.0,1826.0 Q1630.0,1826.0 1620.1,1835.9 L1555.9,1900.1 Q1546.0,1910.0 1532.0,1910.0 L1504.0,1910.0" fill="none" stroke="#dd5ba0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts</title></path>
+<path class="line" data-line="Portfolios" d="M2554.0,1028.0 L2554.0,1098.0 Q2554.0,1112.0 2540.0,1112.0 L2428.0,1112.0 L2316.0,1112.0 Q2302.0,1112.0 2302.0,1098.0 L2302.0,1000.0 Q2302.0,986.0 2288.0,986.0 L2274.0,986.0 Q2260.0,986.0 2250.1,976.1 L2176.0,902.0 L2101.9,827.9 Q2092.0,818.0 2092.0,804.0 L2092.0,748.0 Q2092.0,734.0 2101.9,724.1 L2124.1,701.9 Q2134.0,692.0 2134.0,678.0 L2134.0,566.0 L2134.0,482.0 L2134.0,398.0 L2134.0,314.0 L2134.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Portfolios</title></path>
+<path class="line" data-line="Buy" d="M2638.0,1658.0 L2596.0,1616.0 L2512.0,1532.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Buy</title></path>
+<path class="line" data-line="Charges" d="M2638.0,1364.0 L2722.0,1448.0 L2754.1,1480.1 Q2764.0,1490.0 2773.9,1480.1 L2806.0,1448.0 L2848.0,1406.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Charges</title></path>
+<path class="line" data-line="Checkouts" d="M3100.0,1826.0 L3030.0,1826.0 Q3016.0,1826.0 3006.1,1835.9 L2983.9,1858.1 Q2974.0,1868.0 2983.9,1877.9 L3016.0,1910.0 L3142.0,2036.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Checkouts</title></path>
+<path class="line" data-line="Customers" d="M3184.0,1742.0 L3030.0,1742.0 Q3016.0,1742.0 3016.0,1728.0 L3016.0,1672.0 Q3016.0,1658.0 3025.9,1648.1 L3090.1,1583.9 Q3100.0,1574.0 3114.0,1574.0 L3184.0,1574.0 L3268.0,1574.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Customers</title></path>
+<path class="line" data-line="Deposit Destinations" d="M2428.0,1616.0 L2512.0,1700.0 L2596.0,1784.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Deposit Destinations</title></path>
+<path class="line" data-line="Disbursements" d="M2512.0,1910.0 L2470.0,1868.0 L2386.0,1784.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Disbursements</title></path>
+<path class="line" data-line="End User Account Management" d="M958.0,2120.0 L1042.0,2036.0 L1116.1,1961.9 Q1126.0,1952.0 1140.0,1952.0 L1154.0,1952.0 Q1168.0,1952.0 1177.9,1942.1 L1252.0,1868.0 L1336.0,1784.0 L1368.1,1751.9 Q1378.0,1742.0 1392.0,1742.0 L1616.0,1742.0 Q1630.0,1742.0 1620.1,1751.9 L1429.9,1942.1 Q1420.0,1952.0 1406.0,1952.0 L1392.0,1952.0 Q1378.0,1952.0 1378.0,1966.0 L1378.0,1994.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>End User Account Management</title></path>
+<path class="line" data-line="End User Accounts" d="M160.0,3002.0 L244.0,2918.0 L276.1,2885.9 Q286.0,2876.0 300.0,2876.0 L412.0,2876.0 L538.0,2876.0 L650.0,2876.0 Q664.0,2876.0 673.9,2866.1 L706.0,2834.0 L780.1,2759.9 Q790.0,2750.0 804.0,2750.0 L874.0,2750.0 L944.0,2750.0 Q958.0,2750.0 967.9,2740.1 L1042.0,2666.0 L1074.1,2633.9 Q1084.0,2624.0 1098.0,2624.0 L1196.0,2624.0 Q1210.0,2624.0 1210.0,2638.0 L1210.0,2694.0 Q1210.0,2708.0 1200.1,2717.9 L1135.9,2782.1 Q1126.0,2792.0 1126.0,2806.0 L1126.0,2876.0 L1126.0,2946.0 Q1126.0,2960.0 1116.1,2969.9 L1084.0,3002.0 L1051.9,3034.1 Q1042.0,3044.0 1042.0,3058.0 L1042.0,3198.0 Q1042.0,3212.0 1032.1,3221.9 L1000.0,3254.0 L916.0,3338.0 L841.9,3412.1 Q832.0,3422.0 832.0,3436.0 L832.0,3506.0 L832.0,3590.0 L832.0,3674.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>End User Accounts</title></path>
+<path class="line" data-line="EVM Accounts" d="M1756.0,1742.0 L1840.0,1742.0 L1924.0,1742.0 L1994.0,1742.0 Q2008.0,1742.0 2017.9,1751.9 L2092.0,1826.0 L2166.1,1900.1 Q2176.0,1910.0 2176.0,1924.0 L2176.0,1994.0 L2176.0,2078.0 L2176.0,2148.0 Q2176.0,2162.0 2166.1,2171.9 L2092.0,2246.0 L2017.9,2320.1 Q2008.0,2330.0 1994.0,2330.0 L1924.0,2330.0 L1840.0,2330.0 L1770.0,2330.0 Q1756.0,2330.0 1746.1,2320.1 L1672.0,2246.0 L1597.9,2171.9 Q1588.0,2162.0 1588.0,2148.0 L1588.0,2078.0 L1588.0,2008.0 Q1588.0,1994.0 1597.9,1984.1 L1672.0,1910.0 L1746.1,1835.9 Q1756.0,1826.0 1756.0,1812.0 L1756.0,1742.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>EVM Accounts</title></path>
+<path class="line" data-line="EVM Smart Accounts" d="M1756.0,1658.0 L1723.9,1690.1 Q1714.0,1700.0 1700.0,1700.0 L1546.0,1700.0 L1420.0,1700.0 L1294.0,1700.0 L1210.0,1700.0 L1126.0,1700.0 L1042.0,1700.0 L930.0,1700.0 Q916.0,1700.0 906.1,1690.1 L841.9,1625.9 Q832.0,1616.0 818.0,1616.0 L790.0,1616.0 L706.0,1616.0 L622.0,1616.0" fill="none" stroke="#af2c23" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>EVM Smart Accounts</title></path>
+<path class="line" data-line="Solana Accounts" d="M1462.0,1826.0 L1345.9,1942.1 Q1336.0,1952.0 1322.0,1952.0 L1266.0,1952.0 Q1252.0,1952.0 1252.0,1966.0 L1252.0,2022.0 Q1252.0,2036.0 1242.1,2045.9 L1219.9,2068.1 Q1210.0,2078.0 1196.0,2078.0 L1182.0,2078.0 Q1168.0,2078.0 1158.1,2087.9 L1084.0,2162.0 L1009.9,2236.1 Q1000.0,2246.0 1000.0,2260.0 L1000.0,2316.0 Q1000.0,2330.0 1014.0,2330.0 L1070.0,2330.0 Q1084.0,2330.0 1093.9,2320.1 L1168.0,2246.0 L1252.0,2162.0 L1326.1,2087.9 Q1336.0,2078.0 1345.9,2087.9 L1420.0,2162.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Solana Accounts</title></path>
+<path class="line" data-line="Invoices" d="M3016.0,2036.0 L2932.0,2036.0 L2862.0,2036.0 Q2848.0,2036.0 2848.0,2050.0 L2848.0,2106.0 Q2848.0,2120.0 2857.9,2129.9 L2932.0,2204.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invoices</title></path>
+<path class="line" data-line="Mandates" d="M748.0,1784.0 L832.0,1784.0 L902.0,1784.0 Q916.0,1784.0 925.9,1793.9 L948.1,1816.1 Q958.0,1826.0 958.0,1840.0 L958.0,1938.0 Q958.0,1952.0 948.1,1961.9 L925.9,1984.1 Q916.0,1994.0 902.0,1994.0 L832.0,1994.0 L706.0,1994.0 L622.0,1994.0 L538.0,1994.0 L454.0,1994.0 L370.0,1994.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Mandates</title></path>
+<path class="line" data-line="Webhooks" d="M2890.0,986.0 L2890.0,1070.0 L2890.0,1154.0 L2890.0,1196.0 L2890.0,1266.0 Q2890.0,1280.0 2899.9,1289.9 L2964.1,1354.1 Q2974.0,1364.0 2974.0,1378.0 L2974.0,1406.0 L2974.0,1490.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="Onramp" d="M1672.0,734.0 L1756.0,818.0 L1788.1,850.1 Q1798.0,860.0 1788.1,869.9 L1723.9,934.1 Q1714.0,944.0 1700.0,944.0 L1602.0,944.0 Q1588.0,944.0 1578.1,934.1 L1555.9,911.9 Q1546.0,902.0 1546.0,888.0 L1546.0,776.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Onramp</title></path>
+<path class="line" data-line="Orders" d="M1882.0,566.0 L1882.0,650.0 L1882.0,734.0 L1882.0,818.0 L1882.0,888.0 Q1882.0,902.0 1891.9,911.9 L1966.0,986.0 L1998.1,1018.1 Q2008.0,1028.0 2022.0,1028.0 L2162.0,1028.0 Q2176.0,1028.0 2185.9,1037.9 L2208.1,1060.1 Q2218.0,1070.0 2232.0,1070.0 L2372.0,1070.0 Q2386.0,1070.0 2386.0,1056.0 L2386.0,1000.0 Q2386.0,986.0 2395.9,976.1 L2470.0,902.0 L2554.0,818.0 L2638.0,734.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Payment Sessions" d="M2680.0,3170.0 L2596.0,3086.0 L2563.9,3053.9 Q2554.0,3044.0 2563.9,3034.1 L2586.1,3011.9 Q2596.0,3002.0 2610.0,3002.0 L2722.0,3002.0 L2792.0,3002.0 Q2806.0,3002.0 2815.9,3011.9 L2890.0,3086.0 L2932.0,3128.0 L3016.0,3212.0 L3090.1,3286.1 Q3100.0,3296.0 3100.0,3310.0 L3100.0,3380.0 L3100.0,3464.0 L3100.0,3548.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Sessions</title></path>
+<path class="line" data-line="Payment Sessions" d="M2554.0,3044.0 L2479.9,3118.1 Q2470.0,3128.0 2470.0,3142.0 L2470.0,3198.0 Q2470.0,3212.0 2479.9,3221.9 L2544.1,3286.1 Q2554.0,3296.0 2554.0,3310.0 L2554.0,3366.0 Q2554.0,3380.0 2544.1,3389.9 L2479.9,3454.1 Q2470.0,3464.0 2456.0,3464.0 L2400.0,3464.0 Q2386.0,3464.0 2376.1,3454.1 L2302.0,3380.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Sessions</title></path>
+<path class="line" data-line="Policy Engine" d="M2596.0,2204.0 L2638.0,2162.0 L2670.1,2129.9 Q2680.0,2120.0 2694.0,2120.0 L2750.0,2120.0 Q2764.0,2120.0 2764.0,2134.0 L2764.0,2204.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Policy Engine</title></path>
+<path class="line" data-line="SQL API" d="M2806.0,1070.0 L2736.0,1070.0 Q2722.0,1070.0 2712.1,1060.1 L2680.0,1028.0" fill="none" stroke="#8e820c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SQL API</title></path>
+<path class="line" data-line="Transactions" d="M2428.0,1196.0 L2428.0,1322.0 L2428.0,1406.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transactions</title></path>
+<path class="line" data-line="Transfers" d="M2470.0,2204.0 L2586.1,2087.9 Q2596.0,2078.0 2586.1,2068.1 L2563.9,2045.9 Q2554.0,2036.0 2540.0,2036.0 L2470.0,2036.0 L2386.0,2036.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transfers</title></path>
+<path class="line" data-line="x402 Facilitator" d="M1966.0,3464.0 L1966.0,3380.0 L1966.0,3268.0 Q1966.0,3254.0 1956.1,3244.1 L1933.9,3221.9 Q1924.0,3212.0 1924.0,3198.0 L1924.0,3184.0 Q1924.0,3170.0 1933.9,3160.1 L2040.1,3053.9 Q2050.0,3044.0 2059.9,3053.9 L2124.1,3118.1 Q2134.0,3128.0 2134.0,3142.0 L2134.0,3212.0 L2134.0,3240.0 Q2134.0,3254.0 2143.9,3263.9 L2260.0,3380.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>x402 Facilitator</title></path>
+<path class="line" data-line="More Local" d="M2890.0,1532.0 L2922.1,1564.1 Q2932.0,1574.0 2922.1,1583.9 L2848.0,1658.0 L2806.0,1700.0 L2773.9,1732.1 Q2764.0,1742.0 2764.0,1756.0 L2764.0,1812.0 Q2764.0,1826.0 2773.9,1835.9 L2806.0,1868.0 L2848.0,1910.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1462" y1="2036" x2="1437.9583694396574" y2="2060.0416305603426" stroke="#dd5ba0" stroke-width="7"/><rect x="1413.9583694396574" y="2049.0416305603426" width="48" height="22" rx="5" fill="#dd5ba0"><title>Accounts</title></rect><text x="1437.9583694396574" y="2065.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1504" y1="1910" x2="1470.0" y2="1910.0" stroke="#dd5ba0" stroke-width="7"/><rect x="1446.0" y="1899.0" width="48" height="22" rx="5" fill="#dd5ba0"><title>Accounts</title></rect><text x="1470.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="2554" y1="1028" x2="2554.0" y2="994.0" stroke="#E07B12" stroke-width="7"/><rect x="2530.0" y="983.0" width="48" height="22" rx="5" fill="#E07B12"><title>Portfolios</title></rect><text x="2554.0" y="999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POR</text>
+<line x1="2134" y1="230" x2="2134.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="2110.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Portfolios</title></rect><text x="2134.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POR</text>
+<line x1="2638" y1="1658" x2="2662.0416305603426" y2="1682.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="2638.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Buy</title></rect><text x="2662.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUY</text>
+<line x1="2512" y1="1532" x2="2487.9583694396574" y2="1507.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="2463.9583694396574" y="1496.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Buy</title></rect><text x="2487.9583694396574" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUY</text>
+<line x1="2638" y1="1364" x2="2613.9583694396574" y2="1339.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="2589.9583694396574" y="1328.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Charges</title></rect><text x="2613.9583694396574" y="1344.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="2848" y1="1406" x2="2872.0416305603426" y2="1381.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="2848.0416305603426" y="1370.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Charges</title></rect><text x="2872.0416305603426" y="1386.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="3100" y1="1826" x2="3134.0" y2="1826.0" stroke="#0E9F6E" stroke-width="7"/><rect x="3110.0" y="1815.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Checkouts</title></rect><text x="3134.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="3142" y1="2036" x2="3166.0416305603426" y2="2060.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="3142.0416305603426" y="2049.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Checkouts</title></rect><text x="3166.0416305603426" y="2065.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="3184" y1="1742" x2="3218.0" y2="1742.0" stroke="#B0287F" stroke-width="7"/><rect x="3194.0" y="1731.0" width="48" height="22" rx="5" fill="#B0287F"><title>Customers</title></rect><text x="3218.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="3268" y1="1574" x2="3302.0" y2="1574.0" stroke="#B0287F" stroke-width="7"/><rect x="3278.0" y="1563.0" width="48" height="22" rx="5" fill="#B0287F"><title>Customers</title></rect><text x="3302.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="2428" y1="1616" x2="2403.9583694396574" y2="1591.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="2379.9583694396574" y="1580.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Deposit Destinations</title></rect><text x="2403.9583694396574" y="1596.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DD</text>
+<line x1="2596" y1="1784" x2="2620.0416305603426" y2="1808.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="2596.0416305603426" y="1797.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Deposit Destinations</title></rect><text x="2620.0416305603426" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DD</text>
+<line x1="2512" y1="1910" x2="2536.0416305603426" y2="1934.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="2512.0416305603426" y="1923.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Disbursements</title></rect><text x="2536.0416305603426" y="1939.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="2386" y1="1784" x2="2361.9583694396574" y2="1759.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="2337.9583694396574" y="1748.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Disbursements</title></rect><text x="2361.9583694396574" y="1764.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="958" y1="2120" x2="933.9583694396574" y2="2144.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="909.9583694396574" y="2133.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>End User Account Management</title></rect><text x="933.9583694396574" y="2149.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EUAM</text>
+<line x1="1378" y1="1994" x2="1378.0" y2="2028.0" stroke="#2E7D32" stroke-width="7"/><rect x="1354.0" y="2017.0" width="48" height="22" rx="5" fill="#2E7D32"><title>End User Account Management</title></rect><text x="1378.0" y="2033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EUAM</text>
+<line x1="160" y1="3002" x2="135.9583694396574" y2="3026.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="3015.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>End User Accounts</title></rect><text x="135.9583694396574" y="3031.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EUA</text>
+<line x1="832" y1="3674" x2="832.0" y2="3708.0" stroke="#0E9F6E" stroke-width="7"/><rect x="808.0" y="3697.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>End User Accounts</title></rect><text x="832.0" y="3713.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EUA</text>
+<rect x="1726" y="1689" width="60" height="26" rx="13" fill="#D6264F"/><text x="1756" y="1707" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">EA</text>
+<line x1="1756" y1="1658" x2="1780.0416305603426" y2="1633.9583694396574" stroke="#af2c23" stroke-width="7"/><rect x="1756.0416305603426" y="1622.9583694396574" width="48" height="22" rx="5" fill="#af2c23"><title>EVM Smart Accounts</title></rect><text x="1780.0416305603426" y="1638.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ESA</text>
+<line x1="622" y1="1616" x2="588.0" y2="1616.0" stroke="#af2c23" stroke-width="7"/><rect x="564.0" y="1605.0" width="48" height="22" rx="5" fill="#af2c23"><title>EVM Smart Accounts</title></rect><text x="588.0" y="1621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ESA</text>
+<line x1="1462" y1="1826" x2="1486.0416305603426" y2="1801.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1462.0416305603426" y="1790.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Solana Accounts</title></rect><text x="1486.0416305603426" y="1806.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="1420" y1="2162" x2="1444.0416305603426" y2="2186.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1420.0416305603426" y="2175.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Solana Accounts</title></rect><text x="1444.0416305603426" y="2191.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="3016" y1="2036" x2="3050.0" y2="2036.0" stroke="#0B7A75" stroke-width="7"/><rect x="3026.0" y="2025.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Invoices</title></rect><text x="3050.0" y="2041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="2932" y1="2204" x2="2956.0416305603426" y2="2228.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="2932.0416305603426" y="2217.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Invoices</title></rect><text x="2956.0416305603426" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="748" y1="1784" x2="714.0" y2="1784.0" stroke="#0B7A75" stroke-width="7"/><rect x="690.0" y="1773.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Mandates</title></rect><text x="714.0" y="1789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAN</text>
+<line x1="370" y1="1994" x2="336.0" y2="1994.0" stroke="#0B7A75" stroke-width="7"/><rect x="312.0" y="1983.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Mandates</title></rect><text x="336.0" y="1999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAN</text>
+<line x1="2890" y1="986" x2="2890.0" y2="952.0" stroke="#B8860B" stroke-width="7"/><rect x="2866.0" y="941.0" width="48" height="22" rx="5" fill="#B8860B"><title>Webhooks</title></rect><text x="2890.0" y="957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="2974" y1="1490" x2="2974.0" y2="1524.0" stroke="#B8860B" stroke-width="7"/><rect x="2950.0" y="1513.0" width="48" height="22" rx="5" fill="#B8860B"><title>Webhooks</title></rect><text x="2974.0" y="1529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1672" y1="734" x2="1647.9583694396574" y2="709.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1623.9583694396574" y="698.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Onramp</title></rect><text x="1647.9583694396574" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ONR</text>
+<line x1="1546" y1="776" x2="1546.0" y2="742.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1522.0" y="731.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Onramp</title></rect><text x="1546.0" y="747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ONR</text>
+<line x1="1882" y1="566" x2="1882.0" y2="532.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1858.0" y="521.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Orders</title></rect><text x="1882.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="2638" y1="734" x2="2662.0416305603426" y2="709.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="2638.0416305603426" y="698.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Orders</title></rect><text x="2662.0416305603426" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="2295.6360389693746" y1="3386.3639610306254" x2="2308.3639610306254" y2="3373.6360389693746" stroke="#1F5FD1" stroke-width="6" stroke-linecap="round"/>
+<line x1="2680" y1="3170" x2="2704.0416305603426" y2="3194.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="2680.0416305603426" y="3183.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Payment Sessions</title></rect><text x="2704.0416305603426" y="3199.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PS</text>
+<line x1="3100" y1="3548" x2="3100.0" y2="3582.0" stroke="#1F5FD1" stroke-width="7"/><rect x="3076.0" y="3571.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Payment Sessions</title></rect><text x="3100.0" y="3587.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PS</text>
+<line x1="2596" y1="2204" x2="2571.9583694396574" y2="2228.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="2547.9583694396574" y="2217.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Policy Engine</title></rect><text x="2571.9583694396574" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PE</text>
+<line x1="2764" y1="2204" x2="2764.0" y2="2238.0" stroke="#00838F" stroke-width="7"/><rect x="2740.0" y="2227.0" width="48" height="22" rx="5" fill="#00838F"><title>Policy Engine</title></rect><text x="2764.0" y="2243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PE</text>
+<line x1="2806" y1="1070" x2="2840.0" y2="1070.0" stroke="#8e820c" stroke-width="7"/><rect x="2816.0" y="1059.0" width="48" height="22" rx="5" fill="#8e820c"><title>SQL API</title></rect><text x="2840.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQA</text>
+<line x1="2680" y1="1028" x2="2655.9583694396574" y2="1003.9583694396574" stroke="#8e820c" stroke-width="7"/><rect x="2631.9583694396574" y="992.9583694396574" width="48" height="22" rx="5" fill="#8e820c"><title>SQL API</title></rect><text x="2655.9583694396574" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQA</text>
+<line x1="2428" y1="1196" x2="2428.0" y2="1162.0" stroke="#C2410C" stroke-width="7"/><rect x="2404.0" y="1151.0" width="48" height="22" rx="5" fill="#C2410C"><title>Transactions</title></rect><text x="2428.0" y="1167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRN</text>
+<line x1="2428" y1="1406" x2="2428.0" y2="1440.0" stroke="#C2410C" stroke-width="7"/><rect x="2404.0" y="1429.0" width="48" height="22" rx="5" fill="#C2410C"><title>Transactions</title></rect><text x="2428.0" y="1445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRN</text>
+<line x1="2470" y1="2204" x2="2445.9583694396574" y2="2228.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="2421.9583694396574" y="2217.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Transfers</title></rect><text x="2445.9583694396574" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="2386" y1="2036" x2="2352.0" y2="2036.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2328.0" y="2025.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Transfers</title></rect><text x="2352.0" y="2041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1966" y1="3464" x2="1966.0" y2="3498.0" stroke="#C2410C" stroke-width="7"/><rect x="1942.0" y="3487.0" width="48" height="22" rx="5" fill="#C2410C"><title>x402 Facilitator</title></rect><text x="1966.0" y="3503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">X4F</text>
+<line x1="2260" y1="3380" x2="2284.0416305603426" y2="3404.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="2260.0416305603426" y="3393.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>x402 Facilitator</title></rect><text x="2284.0416305603426" y="3409.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">X4F</text>
+<line x1="2890" y1="1532" x2="2865.9583694396574" y2="1507.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="2841.9583694396574" y="1496.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2865.9583694396574" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="2848" y1="1910" x2="2872.0416305603426" y2="1934.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="2848.0416305603426" y="1923.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2872.0416305603426" y="1939.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-accounts-api/#op-listFoundationAccounts" target="_blank" class="st" data-op="listFoundationAccounts"><title>GET /v2/accounts
+Accounts line · listFoundationAccounts</title>
+<circle cx="1462" cy="2036" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1474" y="2041" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-accounts-api/#op-createFoundationAccount" target="_blank" class="st" data-op="createFoundationAccount"><title>POST /v2/accounts
+Accounts line · createFoundationAccount</title>
+<circle cx="1672" cy="1826" r="5.5" fill="#dd5ba0" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1663.0" y="1816" text-anchor="end" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-accounts-api/#op-getFoundationAccountById" target="_blank" class="st" data-op="getFoundationAccountById"><title>GET /v2/accounts/{accountId}
+Accounts line · getFoundationAccountById</title>
+<circle cx="1630" cy="1826" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1630" y="1799" text-anchor="middle" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-accounts-api/#op-listBalances" target="_blank" class="st" data-op="listBalances"><title>GET /v2/accounts/{accountId}/balances
+Accounts line · listBalances</title>
+<circle cx="1546" cy="1910" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1540" y="1922" text-anchor="end" transform="rotate(-45 1540 1922)" style="fill:#1A1F2C">List balances</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-accounts-api/#op-getBalanceByAsset" target="_blank" class="st" data-op="getBalanceByAsset"><title>GET /v2/accounts/{accountId}/balances/{asset}
+Accounts line · getBalanceByAsset</title>
+<circle cx="1504" cy="1910" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1510" y="1898" transform="rotate(-45 1510 1898)" style="fill:#1A1F2C">Get balance</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-activities-api/#op-listActivities" target="_blank" class="st" data-op="listActivities"><title>GET /portfolios/{portfolio_id}/activities
+Portfolios line · listActivities</title>
+<circle cx="2176" cy="902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2188" y="907" text-anchor="start" style="fill:#1A1F2C">List activities</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-address-book-api/#op-listAddressBook" target="_blank" class="st" data-op="listAddressBook"><title>GET /portfolios/{portfolio_id}/address_book
+Portfolios line · listAddressBook</title>
+<circle cx="2092" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2104" y="823" text-anchor="start" style="fill:#1A1F2C">Get address book</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-allocations-api/#op-listPortfolioAllocations" target="_blank" class="st" data-op="listPortfolioAllocations"><title>GET /portfolios/{portfolio_id}/allocations
+Portfolios line · listPortfolioAllocations</title>
+<circle cx="2092" cy="734" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2104" y="739" text-anchor="start" style="fill:#1A1F2C">List allocations</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-assets-api/#op-listProducts" target="_blank" class="st" data-op="listProducts"><title>GET /portfolios/{portfolio_id}/products
+Portfolios line · listProducts</title>
+<circle cx="2134" cy="482" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2146" y="487" text-anchor="start" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-balances-api/#op-listPortfolioBalances" target="_blank" class="st" data-op="listPortfolioBalances"><title>GET /portfolios/{portfolio_id}/balances
+Portfolios line · listPortfolioBalances</title>
+<circle cx="2134" cy="692" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2146" y="697" text-anchor="start" style="fill:#1A1F2C">List balances</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-buy-api/#op-getBuyOptions" target="_blank" class="st" data-op="getBuyOptions"><title>GET /buy/options
+Buy line · getBuyOptions</title>
+<circle cx="2596" cy="1616" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2608" y="1621" text-anchor="start" style="fill:#1A1F2C">List options</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-buy-api/#op-createBuyQuote" target="_blank" class="st" data-op="createBuyQuote"><title>POST /buy/quote
+Buy line · createBuyQuote</title>
+<circle cx="2512" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2524" y="1537" text-anchor="start" style="fill:#1A1F2C">Update quote <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-buy-api/#op-getBuyConfig" target="_blank" class="st" data-op="getBuyConfig"><title>GET /buy/config
+Buy line · getBuyConfig</title>
+<circle cx="2638" cy="1658" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2650" y="1663" text-anchor="start" style="fill:#1A1F2C">Get config</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-charges-api/#op-listCharges" target="_blank" class="st" data-op="listCharges"><title>GET /charges
+Charges line · listCharges</title>
+<circle cx="2638" cy="1364" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2650" y="1369" text-anchor="start" style="fill:#1A1F2C">List charges</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-charges-api/#op-createCharge" target="_blank" class="st" data-op="createCharge"><title>POST /charges
+Charges line · createCharge</title>
+<circle cx="2722" cy="1448" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2710.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Create charge</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-charges-api/#op-getCharge" target="_blank" class="st" data-op="getCharge"><title>GET /charges/{charge_id}
+Charges line · getCharge</title>
+<circle cx="2764" cy="1490" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2758" y="1502" text-anchor="end" transform="rotate(-45 2758 1502)" style="fill:#1A1F2C">Get charge</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-charges-api/#op-cancelCharge" target="_blank" class="st" data-op="cancelCharge"><title>POST /charges/{charge_id}/cancel
+Charges line · cancelCharge</title>
+<circle cx="2806" cy="1448" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2818" y="1453" text-anchor="start" style="fill:#1A1F2C">Cancel charge</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-charges-api/#op-resolveCharge" target="_blank" class="st" data-op="resolveCharge"><title>POST /charges/{charge_id}/resolve
+Charges line · resolveCharge</title>
+<circle cx="2848" cy="1406" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2860" y="1411" text-anchor="start" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-checkouts-api/#op-listCheckouts" target="_blank" class="st" data-op="listCheckouts"><title>GET /checkouts
+Checkouts line · listCheckouts</title>
+<circle cx="3100" cy="1826" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3091.0" y="1816" text-anchor="end" style="fill:#1A1F2C">List checkouts</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-checkouts-api/#op-createCheckout" target="_blank" class="st" data-op="createCheckout"><title>POST /checkouts
+Checkouts line · createCheckout</title>
+<circle cx="3016" cy="1826" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3004.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Create checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-checkouts-api/#op-getCheckout" target="_blank" class="st" data-op="getCheckout"><title>GET /checkouts/{checkout_id}
+Checkouts line · getCheckout</title>
+<circle cx="2974" cy="1868" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2986" y="1873" text-anchor="start" style="fill:#1A1F2C">Get checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-checkouts-api/#op-updateCheckout" target="_blank" class="st" data-op="updateCheckout"><title>PUT /checkouts/{checkout_id}
+Checkouts line · updateCheckout</title>
+<circle cx="3016" cy="1910" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3028" y="1915" text-anchor="start" style="fill:#1A1F2C">Update checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-checkouts-api/#op-deleteCheckout" target="_blank" class="st" data-op="deleteCheckout"><title>DELETE /checkouts/{checkout_id}
+Checkouts line · deleteCheckout</title>
+<circle cx="3142" cy="2036" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="3138" y1="2040" x2="3146" y2="2032" stroke="#0E9F6E" stroke-width="2"/>
+<text x="3154" y="2041" text-anchor="start" style="fill:#1A1F2C">Delete checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-customers-api/#op-createCustomer" target="_blank" class="st" data-op="createCustomer"><title>POST /v2/customers
+Customers line · createCustomer</title>
+<circle cx="3016" cy="1742" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3004.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Create customer</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-customers-api/#op-listCustomers" target="_blank" class="st" data-op="listCustomers"><title>GET /v2/customers
+Customers line · listCustomers</title>
+<circle cx="3184" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3175.0" y="1732" text-anchor="end" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-customers-api/#op-getCustomerRequirements" target="_blank" class="st" data-op="getCustomerRequirements"><title>GET /v2/customers/requirements
+Customers line · getCustomerRequirements</title>
+<circle cx="3268" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3262" y="1586" text-anchor="end" transform="rotate(-45 3262 1586)" style="fill:#1A1F2C">List requirements</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-customers-api/#op-getCustomerById" target="_blank" class="st" data-op="getCustomerById"><title>GET /v2/customers/{customerId}
+Customers line · getCustomerById</title>
+<circle cx="3016" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3028" y="1663" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-customers-api/#op-deleteCustomerById" target="_blank" class="st" data-op="deleteCustomerById"><title>DELETE /v2/customers/{customerId}
+Customers line · deleteCustomerById</title>
+<circle cx="3184" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="3180" y1="1578" x2="3188" y2="1570" stroke="#B0287F" stroke-width="2"/>
+<text x="3190" y="1562" transform="rotate(-45 3190 1562)" style="fill:#1A1F2C">Delete customer</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-customers-api/#op-updateCustomerById" target="_blank" class="st" data-op="updateCustomerById"><title>PUT /v2/customers/{customerId}
+Customers line · updateCustomerById</title>
+<circle cx="3100" cy="1574" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3088.0" y="1579" text-anchor="end" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-deposit-destinations-api/#op-listDepositDestinations" target="_blank" class="st" data-op="listDepositDestinations"><title>GET /v2/deposit-destinations
+Deposit Destinations line · listDepositDestinations</title>
+<circle cx="2428" cy="1616" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2416.0" y="1621" text-anchor="end" style="fill:#1A1F2C">List deposit destinations</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-deposit-destinations-api/#op-createDepositDestination" target="_blank" class="st" data-op="createDepositDestination"><title>POST /v2/deposit-destinations
+Deposit Destinations line · createDepositDestination</title>
+<circle cx="2512" cy="1700" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2500.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Create deposit destination</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-deposit-destinations-api/#op-getDepositDestinationById" target="_blank" class="st" data-op="getDepositDestinationById"><title>GET /v2/deposit-destinations/{depositDestinationId}
+Deposit Destinations line · getDepositDestinationById</title>
+<circle cx="2596" cy="1784" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2608" y="1789" text-anchor="start" style="fill:#1A1F2C">Get deposit destination</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-disbursements-api/#op-createDisbursement" target="_blank" class="st" data-op="createDisbursement"><title>POST /v2/disbursements
+Disbursements line · createDisbursement</title>
+<circle cx="2470" cy="1868" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2482" y="1873" text-anchor="start" style="fill:#1A1F2C">Create disbursement</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-disbursements-api/#op-listDisbursements" target="_blank" class="st" data-op="listDisbursements"><title>GET /v2/disbursements
+Disbursements line · listDisbursements</title>
+<circle cx="2512" cy="1910" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2524" y="1915" text-anchor="start" style="fill:#1A1F2C">List disbursements</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-disbursements-api/#op-getDisbursement" target="_blank" class="st" data-op="getDisbursement"><title>GET /v2/disbursements/{disbursementId}
+Disbursements line · getDisbursement</title>
+<circle cx="2386" cy="1784" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2398" y="1789" text-anchor="start" style="fill:#1A1F2C">Get disbursement</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-createEndUser" target="_blank" class="st" data-op="createEndUser"><title>POST /v2/end-users
+End User Account Management line · createEndUser</title>
+<circle cx="1042" cy="2036" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1054" y="2041" text-anchor="start" style="fill:#1A1F2C">Create end user</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-listEndUsers" target="_blank" class="st" data-op="listEndUsers"><title>GET /v2/end-users
+End User Account Management line · listEndUsers</title>
+<circle cx="958" cy="2120" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="970" y="2125" text-anchor="start" style="fill:#1A1F2C">List end users</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-validateEndUserAccessToken" target="_blank" class="st" data-op="validateEndUserAccessToken"><title>POST /v2/end-users/auth/validate-token
+End User Account Management line · validateEndUserAccessToken</title>
+<circle cx="1168" cy="1952" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1159.0" y="1942" text-anchor="end" style="fill:#1A1F2C">Update validate token</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-getEndUser" target="_blank" class="st" data-op="getEndUser"><title>GET /v2/end-users/{userId}
+End User Account Management line · getEndUser</title>
+<circle cx="1126" cy="1952" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1114.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Get end user</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-lookupEndUser" target="_blank" class="st" data-op="lookupEndUser"><title>GET /v2/end-users/lookup
+End User Account Management line · lookupEndUser</title>
+<circle cx="1336" cy="1784" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1348" y="1789" text-anchor="start" style="fill:#1A1F2C">Get lookup</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-addEndUserEvmAccount" target="_blank" class="st" data-op="addEndUserEvmAccount"><title>POST /v2/end-users/{userId}/evm
+End User Account Management line · addEndUserEvmAccount</title>
+<circle cx="1630" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1642" y="1747" text-anchor="start" style="fill:#1A1F2C">Update evm <tspan font-weight="700" style="fill:#D6264F">⇄EA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-addEndUserEvmSmartAccount" target="_blank" class="st" data-op="addEndUserEvmSmartAccount"><title>POST /v2/end-users/{userId}/evm-smart-account
+End User Account Management line · addEndUserEvmSmartAccount</title>
+<circle cx="1378" cy="1952" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1378" y="1975" text-anchor="middle" style="fill:#1A1F2C">Update evm smart account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-addEndUserSolanaAccount" target="_blank" class="st" data-op="addEndUserSolanaAccount"><title>POST /v2/end-users/{userId}/solana
+End User Account Management line · addEndUserSolanaAccount</title>
+<circle cx="1378" cy="1994" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1366.0" y="1999" text-anchor="end" style="fill:#1A1F2C">Update solana <tspan font-weight="700" style="fill:#B0287F">⇄SA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-account-management-api/#op-importEndUser" target="_blank" class="st" data-op="importEndUser"><title>POST /v2/end-users/import
+End User Account Management line · importEndUser</title>
+<circle cx="1252" cy="1868" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1264" y="1873" text-anchor="start" style="fill:#1A1F2C">Import end users</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-listEvmBorrowProducts" target="_blank" class="st" data-op="listEvmBorrowProducts"><title>GET /v2/embedded-wallet-api/evm/borrow-products
+End User Accounts line · listEvmBorrowProducts</title>
+<circle cx="832" cy="3590" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="3595" text-anchor="start" style="fill:#1A1F2C">List borrow products</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-getEvmBorrowProduct" target="_blank" class="st" data-op="getEvmBorrowProduct"><title>GET /v2/embedded-wallet-api/evm/borrow-products/{borrowProductId}
+End User Accounts line · getEvmBorrowProduct</title>
+<circle cx="832" cy="3674" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="3679" text-anchor="start" style="fill:#1A1F2C">Get borrow product</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-signEvmTransactionWithEndUserAccount" target="_blank" class="st" data-op="signEvmTransactionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/sign/transaction
+End User Accounts line · signEvmTransactionWithEndUserAccount</title>
+<circle cx="958" cy="2750" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="970" y="2755" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-sendEvmTransactionWithEndUserAccount" target="_blank" class="st" data-op="sendEvmTransactionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/send/transaction
+End User Accounts line · sendEvmTransactionWithEndUserAccount</title>
+<circle cx="1042" cy="3044" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="3049" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-sendEvmAssetWithEndUserAccount" target="_blank" class="st" data-op="sendEvmAssetWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/{address}/send/{asset}
+End User Accounts line · sendEvmAssetWithEndUserAccount</title>
+<circle cx="1084" cy="3002" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1096" y="3007" text-anchor="start" style="fill:#1A1F2C">Update send</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-signEvmMessageWithEndUserAccount" target="_blank" class="st" data-op="signEvmMessageWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/sign/message
+End User Accounts line · signEvmMessageWithEndUserAccount</title>
+<circle cx="874" cy="2750" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="880" y="2738" transform="rotate(-45 880 2738)" style="fill:#1A1F2C">Update message</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-signEvmTypedDataWithEndUserAccount" target="_blank" class="st" data-op="signEvmTypedDataWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/sign/typed-data
+End User Accounts line · signEvmTypedDataWithEndUserAccount</title>
+<circle cx="1042" cy="2666" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="2671" text-anchor="start" style="fill:#1A1F2C">Update typed data</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-getDelegationForEndUser" target="_blank" class="st" data-op="getDelegationForEndUser"><title>GET /v2/embedded-wallet-api/end-users/{userId}/delegation
+End User Accounts line · getDelegationForEndUser</title>
+<circle cx="538" cy="2876" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="544" y="2864" transform="rotate(-45 544 2864)" style="fill:#1A1F2C">Get delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-revokeDelegationForEndUserDeprecated" target="_blank" class="st" data-op="revokeDelegationForEndUserDeprecated"><title>DELETE /v2/embedded-wallet-api/end-users/{userId}/delegation
+End User Accounts line · revokeDelegationForEndUserDeprecated
+DEPRECATED</title>
+<circle cx="664" cy="2876" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="676" y="2881" text-anchor="start" style="fill:#A0A7B4">Delete delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-revokeDelegationForEndUser" target="_blank" class="st" data-op="revokeDelegationForEndUser"><title>POST /v2/embedded-wallet-api/end-users/{userId}/delegation/revoke
+End User Accounts line · revokeDelegationForEndUser</title>
+<circle cx="706" cy="2834" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="2839" text-anchor="start" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-createDelegationForEndUserAccount" target="_blank" class="st" data-op="createDelegationForEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/address/{address}/delegation
+End User Accounts line · createDelegationForEndUserAccount</title>
+<circle cx="244" cy="2918" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="256" y="2923" text-anchor="start" style="fill:#1A1F2C">Update delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-getDelegationForEndUserAccount" target="_blank" class="st" data-op="getDelegationForEndUserAccount"><title>GET /v2/embedded-wallet-api/end-users/{userId}/address/{address}/delegation
+End User Accounts line · getDelegationForEndUserAccount</title>
+<circle cx="160" cy="3002" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="3007" text-anchor="start" style="fill:#1A1F2C">Get delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-revokeDelegationForEndUserAccountDeprecated" target="_blank" class="st" data-op="revokeDelegationForEndUserAccountDeprecated"><title>DELETE /v2/embedded-wallet-api/end-users/{userId}/address/{address}/delegation
+End User Accounts line · revokeDelegationForEndUserAccountDeprecated
+DEPRECATED</title>
+<circle cx="286" cy="2876" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="274.0" y="2881" text-anchor="end" style="fill:#A0A7B4">Delete delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-revokeDelegationForEndUserAccount" target="_blank" class="st" data-op="revokeDelegationForEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/address/{address}/delegation/revoke
+End User Accounts line · revokeDelegationForEndUserAccount</title>
+<circle cx="412" cy="2876" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="418" y="2864" transform="rotate(-45 418 2864)" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-createEvmEip7702DelegationWithEndUserAccount" target="_blank" class="st" data-op="createEvmEip7702DelegationWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/eip7702/delegation
+End User Accounts line · createEvmEip7702DelegationWithEndUserAccount</title>
+<circle cx="790" cy="2750" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="778.0" y="2755" text-anchor="end" style="fill:#1A1F2C">Update delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-getUserOperationWithEndUserAccount" target="_blank" class="st" data-op="getUserOperationWithEndUserAccount"><title>GET /v2/embedded-wallet-api/end-users/{userId}/evm/smart-accounts/{address}/user-operations/{userOpHash}
+End User Accounts line · getUserOperationWithEndUserAccount</title>
+<circle cx="1126" cy="2960" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1138" y="2965" text-anchor="start" style="fill:#1A1F2C">Get user operation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-sendUserOperationWithEndUserAccount" target="_blank" class="st" data-op="sendUserOperationWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/smart-accounts/{address}/send
+End User Accounts line · sendUserOperationWithEndUserAccount</title>
+<circle cx="1126" cy="2876" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1138" y="2881" text-anchor="start" style="fill:#1A1F2C">Send smart account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-listBorrowPositionsWithEndUserAccount" target="_blank" class="st" data-op="listBorrowPositionsWithEndUserAccount"><title>GET /v2/embedded-wallet-api/end-users/{userId}/evm/smart-accounts/{address}/borrow-positions
+End User Accounts line · listBorrowPositionsWithEndUserAccount</title>
+<circle cx="1084" cy="2624" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1072.0" y="2629" text-anchor="end" style="fill:#1A1F2C">List borrow positions</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-createBorrowPositionWithEndUserAccount" target="_blank" class="st" data-op="createBorrowPositionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/smart-accounts/{address}/borrow-positions
+End User Accounts line · createBorrowPositionWithEndUserAccount</title>
+<circle cx="1210" cy="2624" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1222" y="2629" text-anchor="start" style="fill:#1A1F2C">Create borrow position</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-adjustBorrowPositionWithEndUserAccount" target="_blank" class="st" data-op="adjustBorrowPositionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/smart-accounts/{address}/borrow-positions/adjust
+End User Accounts line · adjustBorrowPositionWithEndUserAccount</title>
+<circle cx="1210" cy="2708" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1222" y="2713" text-anchor="start" style="fill:#1A1F2C">Update adjust</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-closeBorrowPositionWithEndUserAccount" target="_blank" class="st" data-op="closeBorrowPositionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/evm/smart-accounts/{address}/borrow-positions/close
+End User Accounts line · closeBorrowPositionWithEndUserAccount</title>
+<circle cx="1126" cy="2792" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1138" y="2797" text-anchor="start" style="fill:#1A1F2C">Close borrow position</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-signSolanaMessageWithEndUserAccount" target="_blank" class="st" data-op="signSolanaMessageWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/solana/sign/message
+End User Accounts line · signSolanaMessageWithEndUserAccount</title>
+<circle cx="1042" cy="3212" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="3217" text-anchor="start" style="fill:#1A1F2C">Update message</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-signSolanaTransactionWithEndUserAccount" target="_blank" class="st" data-op="signSolanaTransactionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/solana/sign/transaction
+End User Accounts line · signSolanaTransactionWithEndUserAccount</title>
+<circle cx="1000" cy="3254" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1012" y="3259" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-signSolanaX402PaymentWithEndUserAccount" target="_blank" class="st" data-op="signSolanaX402PaymentWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/solana/sign/x402-payment
+End User Accounts line · signSolanaX402PaymentWithEndUserAccount</title>
+<circle cx="916" cy="3338" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="3343" text-anchor="start" style="fill:#1A1F2C">Update x402 payment</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-sendSolanaTransactionWithEndUserAccount" target="_blank" class="st" data-op="sendSolanaTransactionWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/solana/send/transaction
+End User Accounts line · sendSolanaTransactionWithEndUserAccount</title>
+<circle cx="832" cy="3506" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="3511" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-end-user-accounts-api/#op-sendSolanaAssetWithEndUserAccount" target="_blank" class="st" data-op="sendSolanaAssetWithEndUserAccount"><title>POST /v2/embedded-wallet-api/end-users/{userId}/solana/{address}/send/{asset}
+End User Accounts line · sendSolanaAssetWithEndUserAccount</title>
+<circle cx="832" cy="3422" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="3427" text-anchor="start" style="fill:#1A1F2C">Update send</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-events-api/#op-listEvents" target="_blank" class="st" data-op="listEvents"><title>GET /events
+More Local line · listEvents</title>
+<circle cx="2890" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2878.0" y="1537" text-anchor="end" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-events-api/#op-getEvent" target="_blank" class="st" data-op="getEvent"><title>GET /events/{event_id}
+More Local line · getEvent</title>
+<circle cx="2932" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2920.0" y="1579" text-anchor="end" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-listEvmAccounts" target="_blank" class="st" data-op="listEvmAccounts"><title>GET /v2/evm/accounts
+EVM Accounts line · listEvmAccounts</title>
+<circle cx="1756" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1747.0" y="1761" text-anchor="end" style="fill:#1A1F2C">List accounts <tspan font-weight="700" style="fill:#dd5ba0">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-createEvmAccount" target="_blank" class="st" data-op="createEvmAccount"><title>POST /v2/evm/accounts
+EVM Accounts line · createEvmAccount</title>
+<circle cx="1840" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1846" y="1730" transform="rotate(-45 1846 1730)" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-getEvmAccount" target="_blank" class="st" data-op="getEvmAccount"><title>GET /v2/evm/accounts/{address}
+EVM Accounts line · getEvmAccount</title>
+<circle cx="2176" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="1915" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-updateEvmAccount" target="_blank" class="st" data-op="updateEvmAccount"><title>PUT /v2/evm/accounts/{address}
+EVM Accounts line · updateEvmAccount</title>
+<circle cx="2176" cy="1994" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="1999" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-getEvmAccountByName" target="_blank" class="st" data-op="getEvmAccountByName"><title>GET /v2/evm/accounts/by-name/{name}
+EVM Accounts line · getEvmAccountByName</title>
+<circle cx="1924" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1930" y="1730" transform="rotate(-45 1930 1730)" style="fill:#1A1F2C">Get by name</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-sendEvmTransaction" target="_blank" class="st" data-op="sendEvmTransaction"><title>POST /v2/evm/accounts/{address}/send/transaction
+EVM Accounts line · sendEvmTransaction</title>
+<circle cx="2092" cy="2246" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2104" y="2251" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-signEvmTransaction" target="_blank" class="st" data-op="signEvmTransaction"><title>POST /v2/evm/accounts/{address}/sign/transaction
+EVM Accounts line · signEvmTransaction</title>
+<circle cx="1840" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1846" y="2318" transform="rotate(-45 1846 2318)" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-signEvmHash" target="_blank" class="st" data-op="signEvmHash"><title>POST /v2/evm/accounts/{address}/sign
+EVM Accounts line · signEvmHash</title>
+<circle cx="2008" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="2335" text-anchor="start" style="fill:#1A1F2C">Update sign</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-signEvmMessage" target="_blank" class="st" data-op="signEvmMessage"><title>POST /v2/evm/accounts/{address}/sign/message
+EVM Accounts line · signEvmMessage</title>
+<circle cx="1924" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1930" y="2318" transform="rotate(-45 1930 2318)" style="fill:#1A1F2C">Update message</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-signEvmTypedData" target="_blank" class="st" data-op="signEvmTypedData"><title>POST /v2/evm/accounts/{address}/sign/typed-data
+EVM Accounts line · signEvmTypedData</title>
+<circle cx="1756" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1744.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Update typed data</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-createEvmEip7702Delegation" target="_blank" class="st" data-op="createEvmEip7702Delegation"><title>POST /v2/evm/accounts/{address}/eip7702/delegation
+EVM Accounts line · createEvmEip7702Delegation</title>
+<circle cx="2176" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="2083" text-anchor="start" style="fill:#1A1F2C">Update delegation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-getEvmEip7702DelegationOperationById" target="_blank" class="st" data-op="getEvmEip7702DelegationOperationById"><title>GET /v2/evm/eip7702/delegation-operations/{delegationOperationId}
+EVM Accounts line · getEvmEip7702DelegationOperationById</title>
+<circle cx="1672" cy="2246" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="2251" text-anchor="start" style="fill:#1A1F2C">Get delegation operation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-importEvmAccount" target="_blank" class="st" data-op="importEvmAccount"><title>POST /v2/evm/accounts/import
+EVM Accounts line · importEvmAccount</title>
+<circle cx="2092" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2104" y="1831" text-anchor="start" style="fill:#1A1F2C">Import evm accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-exportEvmAccount" target="_blank" class="st" data-op="exportEvmAccount"><title>POST /v2/evm/accounts/{address}/export
+EVM Accounts line · exportEvmAccount</title>
+<circle cx="2176" cy="2162" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="2167" text-anchor="start" style="fill:#1A1F2C">Export evm accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-accounts-api/#op-exportEvmAccountByName" target="_blank" class="st" data-op="exportEvmAccountByName"><title>POST /v2/evm/accounts/export/by-name/{name}
+EVM Accounts line · exportEvmAccountByName</title>
+<circle cx="2008" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="1747" text-anchor="start" style="fill:#1A1F2C">Update by name</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-listEvmSmartAccounts" target="_blank" class="st" data-op="listEvmSmartAccounts"><title>GET /v2/evm/smart-accounts
+EVM Smart Accounts line · listEvmSmartAccounts</title>
+<circle cx="1756" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1747.0" y="1648" text-anchor="end" style="fill:#1A1F2C">List smart accounts <tspan font-weight="700" style="fill:#D6264F">⇄EA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-createEvmSmartAccount" target="_blank" class="st" data-op="createEvmSmartAccount"><title>POST /v2/evm/smart-accounts
+EVM Smart Accounts line · createEvmSmartAccount</title>
+<circle cx="1546" cy="1700" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1546" y="1686" text-anchor="middle" style="fill:#1A1F2C">Create smart account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-getEvmSmartAccountByName" target="_blank" class="st" data-op="getEvmSmartAccountByName"><title>GET /v2/evm/smart-accounts/by-name/{name}
+EVM Smart Accounts line · getEvmSmartAccountByName</title>
+<circle cx="1210" cy="1700" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1216" y="1688" transform="rotate(-45 1216 1688)" style="fill:#1A1F2C">Get by name</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-getEvmSmartAccount" target="_blank" class="st" data-op="getEvmSmartAccount"><title>GET /v2/evm/smart-accounts/{address}
+EVM Smart Accounts line · getEvmSmartAccount</title>
+<circle cx="1420" cy="1700" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1426" y="1688" transform="rotate(-45 1426 1688)" style="fill:#1A1F2C">Get smart account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-updateEvmSmartAccount" target="_blank" class="st" data-op="updateEvmSmartAccount"><title>PUT /v2/evm/smart-accounts/{address}
+EVM Smart Accounts line · updateEvmSmartAccount</title>
+<circle cx="1294" cy="1700" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1300" y="1688" transform="rotate(-45 1300 1688)" style="fill:#1A1F2C">Update smart account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-prepareUserOperation" target="_blank" class="st" data-op="prepareUserOperation"><title>POST /v2/evm/smart-accounts/{address}/user-operations
+EVM Smart Accounts line · prepareUserOperation</title>
+<circle cx="832" cy="1616" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="844" y="1621" text-anchor="start" style="fill:#1A1F2C">Create user operation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-prepareAndSendUserOperation" target="_blank" class="st" data-op="prepareAndSendUserOperation"><title>POST /v2/evm/smart-accounts/{address}/user-operations/prepare-and-send
+EVM Smart Accounts line · prepareAndSendUserOperation</title>
+<circle cx="706" cy="1616" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="712" y="1604" transform="rotate(-45 712 1604)" style="fill:#1A1F2C">Update prepare and send</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-getUserOperation" target="_blank" class="st" data-op="getUserOperation"><title>GET /v2/evm/smart-accounts/{address}/user-operations/{userOpHash}
+EVM Smart Accounts line · getUserOperation</title>
+<circle cx="790" cy="1616" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="796" y="1604" transform="rotate(-45 796 1604)" style="fill:#1A1F2C">Get user operation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-sendUserOperation" target="_blank" class="st" data-op="sendUserOperation"><title>POST /v2/evm/smart-accounts/{address}/user-operations/{userOpHash}/send
+EVM Smart Accounts line · sendUserOperation</title>
+<circle cx="622" cy="1616" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="628" y="1604" transform="rotate(-45 628 1604)" style="fill:#1A1F2C">Send user operation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-createSpendPermission" target="_blank" class="st" data-op="createSpendPermission"><title>POST /v2/evm/smart-accounts/{address}/spend-permissions
+EVM Smart Accounts line · createSpendPermission</title>
+<circle cx="1126" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1132" y="1688" transform="rotate(-45 1132 1688)" style="fill:#1A1F2C">Create spend permission <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-listSpendPermissions" target="_blank" class="st" data-op="listSpendPermissions"><title>GET /v2/evm/smart-accounts/{address}/spend-permissions/list
+EVM Smart Accounts line · listSpendPermissions</title>
+<circle cx="1042" cy="1700" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1048" y="1688" transform="rotate(-45 1048 1688)" style="fill:#1A1F2C">List smart accounts spend permissions</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-smart-accounts-api/#op-revokeSpendPermission" target="_blank" class="st" data-op="revokeSpendPermission"><title>POST /v2/evm/smart-accounts/{address}/spend-permissions/revoke
+EVM Smart Accounts line · revokeSpendPermission</title>
+<circle cx="916" cy="1700" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="904.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-swaps-api/#op-getEvmSwapPrice" target="_blank" class="st" data-op="getEvmSwapPrice"><title>GET /v2/evm/swaps/quote
+EVM Accounts line · getEvmSwapPrice</title>
+<circle cx="1588" cy="1994" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1999" text-anchor="start" style="fill:#1A1F2C">Get quote</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-swaps-api/#op-createEvmSwapQuote" target="_blank" class="st" data-op="createEvmSwapQuote"><title>POST /v2/evm/swaps
+EVM Accounts line · createEvmSwapQuote</title>
+<circle cx="1588" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="2083" text-anchor="start" style="fill:#1A1F2C">Create swap</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-evm-token-balances-api/#op-listEvmTokenBalances" target="_blank" class="st" data-op="listEvmTokenBalances"><title>GET /v2/evm/token-balances/{network}/{address}
+EVM Accounts line · listEvmTokenBalances</title>
+<circle cx="1672" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1915" text-anchor="start" style="fill:#1A1F2C">Get token balance</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-faucets-api/#op-requestEvmFaucet" target="_blank" class="st" data-op="requestEvmFaucet"><title>POST /v2/evm/faucet
+EVM Accounts line · requestEvmFaucet</title>
+<circle cx="1588" cy="2162" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600" y="2167" text-anchor="start" style="fill:#1A1F2C">Update faucet <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-faucets-api/#op-requestSolanaFaucet" target="_blank" class="st" data-op="requestSolanaFaucet"><title>POST /v2/solana/faucet
+Solana Accounts line · requestSolanaFaucet</title>
+<circle cx="1336" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1336" y="2064" text-anchor="middle" style="fill:#1A1F2C">Update faucet <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-invoices-api/#op-listInvoices" target="_blank" class="st" data-op="listInvoices"><title>GET /invoices
+Invoices line · listInvoices</title>
+<circle cx="3016" cy="2036" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="3010" y="2048" text-anchor="end" transform="rotate(-45 3010 2048)" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-invoices-api/#op-createInvoice" target="_blank" class="st" data-op="createInvoice"><title>POST /invoices
+Invoices line · createInvoice</title>
+<circle cx="2932" cy="2036" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2938" y="2024" transform="rotate(-45 2938 2024)" style="fill:#1A1F2C">Create invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-invoices-api/#op-getInvoice" target="_blank" class="st" data-op="getInvoice"><title>GET /invoices/{invoice_id}
+Invoices line · getInvoice</title>
+<circle cx="2848" cy="2036" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2836.0" y="2041" text-anchor="end" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-invoices-api/#op-voidInvoice" target="_blank" class="st" data-op="voidInvoice"><title>PUT /invoices/{invoice_id}/void
+Invoices line · voidInvoice</title>
+<circle cx="2932" cy="2204" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2944" y="2209" text-anchor="start" style="fill:#1A1F2C">Update void</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-invoices-api/#op-resolveInvoice" target="_blank" class="st" data-op="resolveInvoice"><title>PUT /invoices/{invoice_id}/resolve
+Invoices line · resolveInvoice</title>
+<circle cx="2848" cy="2120" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2860" y="2125" text-anchor="start" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-createMandate" target="_blank" class="st" data-op="createMandate"><title>POST /v2/mandates
+Mandates line · createMandate</title>
+<circle cx="832" cy="1784" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="838" y="1772" transform="rotate(-45 838 1772)" style="fill:#1A1F2C">Create mandate</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-listMandates" target="_blank" class="st" data-op="listMandates"><title>GET /v2/mandates
+Mandates line · listMandates</title>
+<circle cx="748" cy="1784" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="754" y="1772" transform="rotate(-45 754 1772)" style="fill:#1A1F2C">List mandates</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-getMandate" target="_blank" class="st" data-op="getMandate"><title>GET /v2/mandates/{mandateId}
+Mandates line · getMandate</title>
+<circle cx="916" cy="1784" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="928" y="1789" text-anchor="start" style="fill:#1A1F2C">Get mandate</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-cancelMandate" target="_blank" class="st" data-op="cancelMandate"><title>POST /v2/mandates/{mandateId}/cancel
+Mandates line · cancelMandate</title>
+<circle cx="706" cy="1994" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="712" y="1982" transform="rotate(-45 712 1982)" style="fill:#1A1F2C">Cancel mandate</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-listMandateRevocations" target="_blank" class="st" data-op="listMandateRevocations"><title>GET /v2/mandates/{mandateId}/revocations
+Mandates line · listMandateRevocations</title>
+<circle cx="622" cy="1994" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="628" y="1982" transform="rotate(-45 628 1982)" style="fill:#1A1F2C">List revocations</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-getMandateRevocation" target="_blank" class="st" data-op="getMandateRevocation"><title>GET /v2/mandates/{mandateId}/revocations/{revocationId}
+Mandates line · getMandateRevocation</title>
+<circle cx="538" cy="1994" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="544" y="1982" transform="rotate(-45 544 1982)" style="fill:#1A1F2C">Get revocation</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-revokeWalletMandate" target="_blank" class="st" data-op="revokeWalletMandate"><title>POST /v2/mandates/{mandateId}/revocations/wallet
+Mandates line · revokeWalletMandate</title>
+<circle cx="454" cy="1994" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="460" y="1982" transform="rotate(-45 460 1982)" style="fill:#1A1F2C">Update wallet</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-getWalletRevocationOptions" target="_blank" class="st" data-op="getWalletRevocationOptions"><title>GET /v2/mandates/{mandateId}/revocations/wallet/options
+Mandates line · getWalletRevocationOptions</title>
+<circle cx="370" cy="1994" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="376" y="1982" transform="rotate(-45 376 1982)" style="fill:#1A1F2C">List options</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-listMandateApprovals" target="_blank" class="st" data-op="listMandateApprovals"><title>GET /v2/mandates/{mandateId}/approvals
+Mandates line · listMandateApprovals</title>
+<circle cx="958" cy="1826" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="970" y="1831" text-anchor="start" style="fill:#1A1F2C">List approvals</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-getMandateApproval" target="_blank" class="st" data-op="getMandateApproval"><title>GET /v2/mandates/{mandateId}/approvals/{approvalId}
+Mandates line · getMandateApproval</title>
+<circle cx="958" cy="1952" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="946.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Get approval</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-approveWalletMandate" target="_blank" class="st" data-op="approveWalletMandate"><title>POST /v2/mandates/{mandateId}/approvals/wallet
+Mandates line · approveWalletMandate</title>
+<circle cx="916" cy="1994" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="928" y="1999" text-anchor="start" style="fill:#1A1F2C">Update wallet</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-mandates-api/#op-getWalletApprovalOptions" target="_blank" class="st" data-op="getWalletApprovalOptions"><title>GET /v2/mandates/{mandateId}/approvals/wallet/options
+Mandates line · getWalletApprovalOptions</title>
+<circle cx="832" cy="1994" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="826" y="2006" text-anchor="end" transform="rotate(-45 826 2006)" style="fill:#1A1F2C">List options</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onchain-data-api/#op-listTokensForAccount" target="_blank" class="st" data-op="listTokensForAccount"><title>GET /v2/data/evm/token-ownership/{network}/{address}
+Webhooks line · listTokensForAccount</title>
+<circle cx="2890" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2902" y="1075" text-anchor="start" style="fill:#1A1F2C">Get token ownership</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onchain-data-api/#op-listDataTokenBalances" target="_blank" class="st" data-op="listDataTokenBalances"><title>GET /v2/data/evm/token-balances/{network}/{address}
+Webhooks line · listDataTokenBalances</title>
+<circle cx="2890" cy="986" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2902" y="991" text-anchor="start" style="fill:#1A1F2C">Get token balance</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-initiateOnrampVerification" target="_blank" class="st" data-op="initiateOnrampVerification"><title>POST /v2/onramp/verifications
+Onramp line · initiateOnrampVerification</title>
+<circle cx="1546" cy="902" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="907" text-anchor="start" style="fill:#1A1F2C">Create verification</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-submitOnrampVerification" target="_blank" class="st" data-op="submitOnrampVerification"><title>POST /v2/onramp/verifications/{verificationId}/submit
+Onramp line · submitOnrampVerification</title>
+<circle cx="1546" cy="776" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="781" text-anchor="start" style="fill:#1A1F2C">Submit verification</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-createOnrampOrder" target="_blank" class="st" data-op="createOnrampOrder"><title>POST /v2/onramp/orders
+Onramp line · createOnrampOrder</title>
+<circle cx="1798" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1786.0" y="865" text-anchor="end" style="fill:#1A1F2C">Create order <tspan font-weight="700" style="fill:#7B3FE4">⇄ORD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-getOnrampOrderById" target="_blank" class="st" data-op="getOnrampOrderById"><title>GET /v2/onramp/orders/{orderId}
+Onramp line · getOnrampOrderById</title>
+<circle cx="1714" cy="944" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1726" y="949" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-createOnrampSession" target="_blank" class="st" data-op="createOnrampSession"><title>POST /v2/onramp/sessions
+Onramp line · createOnrampSession</title>
+<circle cx="1588" cy="944" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1576.0" y="949" text-anchor="end" style="fill:#1A1F2C">Create session</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-getOnrampUserLimits" target="_blank" class="st" data-op="getOnrampUserLimits"><title>POST /v2/onramp/limits
+Onramp line · getOnrampUserLimits</title>
+<circle cx="1672" cy="734" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1684" y="739" text-anchor="start" style="fill:#1A1F2C">Create limit</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-onramp-api/#op-requestLimitsUpgrade" target="_blank" class="st" data-op="requestLimitsUpgrade"><title>POST /v2/onramp/limits/upgrade
+Onramp line · requestLimitsUpgrade</title>
+<circle cx="1756" cy="818" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1768" y="823" text-anchor="start" style="fill:#1A1F2C">Update upgrade</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-listPortfolioOrders" target="_blank" class="st" data-op="listPortfolioOrders"><title>GET /portfolios/{portfolio_id}/orders
+Orders line · listPortfolioOrders</title>
+<circle cx="2386" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2395" y="1060" text-anchor="start" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-createOrder" target="_blank" class="st" data-op="createOrder"><title>POST /portfolios/{portfolio_id}/orders
+Orders line · createOrder</title>
+<circle cx="2386" cy="986" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2398" y="991" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-getOrder" target="_blank" class="st" data-op="getOrder"><title>GET /portfolios/{portfolio_id}/orders/{order_id}
+Orders line · getOrder</title>
+<circle cx="2470" cy="902" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2482" y="907" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-cancelOrder" target="_blank" class="st" data-op="cancelOrder"><title>POST /portfolios/{portfolio_id}/orders/{order_id}/cancel
+Orders line · cancelOrder</title>
+<circle cx="2554" cy="818" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2566" y="823" text-anchor="start" style="fill:#1A1F2C">Cancel order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-listOrderFills" target="_blank" class="st" data-op="listOrderFills"><title>GET /portfolios/{portfolio_id}/orders/{order_id}/fills
+Orders line · listOrderFills</title>
+<circle cx="2638" cy="734" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2650" y="739" text-anchor="start" style="fill:#1A1F2C">List fills</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-listOrders" target="_blank" class="st" data-op="listOrders"><title>GET /orders
+Orders line · listOrders</title>
+<circle cx="1882" cy="650" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1894" y="655" text-anchor="start" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-postOrders" target="_blank" class="st" data-op="postOrders"><title>POST /orders
+Orders line · postOrders</title>
+<circle cx="1882" cy="734" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1894" y="739" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-cancelAllOrders" target="_blank" class="st" data-op="cancelAllOrders"><title>DELETE /orders
+Orders line · cancelAllOrders</title>
+<circle cx="1882" cy="818" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1878" y1="822" x2="1886" y2="814" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1894" y="823" text-anchor="start" style="fill:#1A1F2C">Delete order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-getOrdersByOrderId" target="_blank" class="st" data-op="getOrdersByOrderId"><title>GET /orders/{order_id}
+Orders line · getOrdersByOrderId</title>
+<circle cx="1882" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1894" y="907" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-deleteOrdersByOrderId" target="_blank" class="st" data-op="deleteOrdersByOrderId"><title>DELETE /orders/{order_id}
+Orders line · deleteOrdersByOrderId</title>
+<circle cx="1966" cy="986" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1962" y1="990" x2="1970" y2="982" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1978" y="991" text-anchor="start" style="fill:#1A1F2C">Delete order</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-cancelOrders" target="_blank" class="st" data-op="cancelOrders"><title>POST /orders/batch_cancel
+Orders line · cancelOrders</title>
+<circle cx="2008" cy="1028" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1996.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Update batch cancel</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-editOrder" target="_blank" class="st" data-op="editOrder"><title>POST /orders/{order_id}/edit
+Orders line · editOrder</title>
+<circle cx="2218" cy="1070" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2206.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Update edit</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-listFills" target="_blank" class="st" data-op="listFills"><title>GET /orders/historical/fills
+Orders line · listFills</title>
+<circle cx="2176" cy="1028" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2188" y="1033" text-anchor="start" style="fill:#1A1F2C">List fills</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-orders-api/#op-getFills" target="_blank" class="st" data-op="getFills"><title>GET /fills
+Orders line · getFills</title>
+<circle cx="1882" cy="566" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1894" y="571" text-anchor="start" style="fill:#1A1F2C">List fills</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-methods-api/#op-listPaymentMethods" target="_blank" class="st" data-op="listPaymentMethods"><title>GET /v2/payment-methods
+More Local line · listPaymentMethods</title>
+<circle cx="2764" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2776" y="1831" text-anchor="start" style="fill:#1A1F2C">List payment methods</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-methods-api/#op-getPaymentMethod" target="_blank" class="st" data-op="getPaymentMethod"><title>GET /v2/payment-methods/{paymentMethodId}
+More Local line · getPaymentMethod</title>
+<circle cx="2806" cy="1868" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2818" y="1873" text-anchor="start" style="fill:#1A1F2C">Get payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-createPaymentSession" target="_blank" class="st" data-op="createPaymentSession"><title>POST /v2/payment-sessions
+Payment Sessions line · createPaymentSession</title>
+<circle cx="2596" cy="3086" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2608" y="3091" text-anchor="start" style="fill:#1A1F2C">Create payment session</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-listPaymentSessions" target="_blank" class="st" data-op="listPaymentSessions"><title>GET /v2/payment-sessions
+Payment Sessions line · listPaymentSessions</title>
+<circle cx="2680" cy="3170" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2692" y="3175" text-anchor="start" style="fill:#1A1F2C">List payment sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-getPaymentSession" target="_blank" class="st" data-op="getPaymentSession"><title>GET /v2/payment-sessions/{paymentSessionId}
+Payment Sessions line · getPaymentSession</title>
+<circle cx="2554" cy="3044" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2566" y="3049" text-anchor="start" style="fill:#1A1F2C">Get payment session</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-cancelPaymentSession" target="_blank" class="st" data-op="cancelPaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/cancel
+Payment Sessions line · cancelPaymentSession</title>
+<circle cx="2596" cy="3002" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2584.0" y="3007" text-anchor="end" style="fill:#1A1F2C">Cancel payment session</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-getWalletAuthorizationOptions" target="_blank" class="st" data-op="getWalletAuthorizationOptions"><title>GET /v2/payment-sessions/{paymentSessionId}/authorizations/wallet/options
+Payment Sessions line · getWalletAuthorizationOptions</title>
+<circle cx="2386" cy="3464" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2374.0" y="3469" text-anchor="end" style="fill:#1A1F2C">List options</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-authorizeWalletPaymentSession" target="_blank" class="st" data-op="authorizeWalletPaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/authorizations/wallet
+Payment Sessions line · authorizeWalletPaymentSession</title>
+<circle cx="2470" cy="3464" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2482" y="3469" text-anchor="start" style="fill:#1A1F2C">Update wallet</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-authorizeX402PaymentSession" target="_blank" class="st" data-op="authorizeX402PaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/authorizations/x402
+Payment Sessions line · authorizeX402PaymentSession</title>
+<circle cx="2302" cy="3380" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2314" y="3385" text-anchor="start" style="fill:#1A1F2C">Update x402</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-authorizeCoinbasePaymentSession" target="_blank" class="st" data-op="authorizeCoinbasePaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/authorizations/coinbase
+Payment Sessions line · authorizeCoinbasePaymentSession</title>
+<circle cx="2554" cy="3296" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2566" y="3301" text-anchor="start" style="fill:#1A1F2C">Update coinbase</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-authorizeMandatePaymentSession" target="_blank" class="st" data-op="authorizeMandatePaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/authorizations/mandate
+Payment Sessions line · authorizeMandatePaymentSession</title>
+<circle cx="2554" cy="3380" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2566" y="3385" text-anchor="start" style="fill:#1A1F2C">Update mandate</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-listPaymentSessionAuthorizations" target="_blank" class="st" data-op="listPaymentSessionAuthorizations"><title>GET /v2/payment-sessions/{paymentSessionId}/authorizations
+Payment Sessions line · listPaymentSessionAuthorizations</title>
+<circle cx="2470" cy="3128" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2482" y="3133" text-anchor="start" style="fill:#1A1F2C">List authorizations</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-getPaymentSessionAuthorization" target="_blank" class="st" data-op="getPaymentSessionAuthorization"><title>GET /v2/payment-sessions/{paymentSessionId}/authorizations/{authorizationId}
+Payment Sessions line · getPaymentSessionAuthorization</title>
+<circle cx="2470" cy="3212" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2482" y="3217" text-anchor="start" style="fill:#1A1F2C">Get authorization</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-capturePaymentSession" target="_blank" class="st" data-op="capturePaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/captures
+Payment Sessions line · capturePaymentSession</title>
+<circle cx="2806" cy="3002" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2818" y="3007" text-anchor="start" style="fill:#1A1F2C">Create capture</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-listPaymentSessionCaptures" target="_blank" class="st" data-op="listPaymentSessionCaptures"><title>GET /v2/payment-sessions/{paymentSessionId}/captures
+Payment Sessions line · listPaymentSessionCaptures</title>
+<circle cx="2722" cy="3002" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2728" y="2990" transform="rotate(-45 2728 2990)" style="fill:#1A1F2C">List captures</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-getPaymentSessionCapture" target="_blank" class="st" data-op="getPaymentSessionCapture"><title>GET /v2/payment-sessions/{paymentSessionId}/captures/{captureId}
+Payment Sessions line · getPaymentSessionCapture</title>
+<circle cx="2890" cy="3086" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2902" y="3091" text-anchor="start" style="fill:#1A1F2C">Get capture</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-voidPaymentSession" target="_blank" class="st" data-op="voidPaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/voids
+Payment Sessions line · voidPaymentSession</title>
+<circle cx="3100" cy="3464" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3112" y="3469" text-anchor="start" style="fill:#1A1F2C">Create void</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-listPaymentSessionVoids" target="_blank" class="st" data-op="listPaymentSessionVoids"><title>GET /v2/payment-sessions/{paymentSessionId}/voids
+Payment Sessions line · listPaymentSessionVoids</title>
+<circle cx="3100" cy="3380" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3112" y="3385" text-anchor="start" style="fill:#1A1F2C">List voids</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-getPaymentSessionVoid" target="_blank" class="st" data-op="getPaymentSessionVoid"><title>GET /v2/payment-sessions/{paymentSessionId}/voids/{voidId}
+Payment Sessions line · getPaymentSessionVoid</title>
+<circle cx="3100" cy="3548" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3112" y="3553" text-anchor="start" style="fill:#1A1F2C">Get void</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-refundPaymentSession" target="_blank" class="st" data-op="refundPaymentSession"><title>POST /v2/payment-sessions/{paymentSessionId}/refunds
+Payment Sessions line · refundPaymentSession</title>
+<circle cx="3016" cy="3212" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3028" y="3217" text-anchor="start" style="fill:#1A1F2C">Create refund</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-listPaymentSessionRefunds" target="_blank" class="st" data-op="listPaymentSessionRefunds"><title>GET /v2/payment-sessions/{paymentSessionId}/refunds
+Payment Sessions line · listPaymentSessionRefunds</title>
+<circle cx="2932" cy="3128" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2944" y="3133" text-anchor="start" style="fill:#1A1F2C">List refunds</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-payment-sessions-api/#op-getPaymentSessionRefund" target="_blank" class="st" data-op="getPaymentSessionRefund"><title>GET /v2/payment-sessions/{paymentSessionId}/refunds/{refundId}
+Payment Sessions line · getPaymentSessionRefund</title>
+<circle cx="3100" cy="3296" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3112" y="3301" text-anchor="start" style="fill:#1A1F2C">Get refund</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-policy-engine-api/#op-listPolicies" target="_blank" class="st" data-op="listPolicies"><title>GET /v2/policy-engine/policies
+Policy Engine line · listPolicies</title>
+<circle cx="2596" cy="2204" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2608" y="2209" text-anchor="start" style="fill:#1A1F2C">List policies</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-policy-engine-api/#op-createPolicy" target="_blank" class="st" data-op="createPolicy"><title>POST /v2/policy-engine/policies
+Policy Engine line · createPolicy</title>
+<circle cx="2638" cy="2162" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2650" y="2167" text-anchor="start" style="fill:#1A1F2C">Create policy</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-policy-engine-api/#op-getPolicyById" target="_blank" class="st" data-op="getPolicyById"><title>GET /v2/policy-engine/policies/{policyId}
+Policy Engine line · getPolicyById</title>
+<circle cx="2680" cy="2120" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2668.0" y="2125" text-anchor="end" style="fill:#1A1F2C">Get policy</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-policy-engine-api/#op-deletePolicy" target="_blank" class="st" data-op="deletePolicy"><title>DELETE /v2/policy-engine/policies/{policyId}
+Policy Engine line · deletePolicy</title>
+<circle cx="2764" cy="2204" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="2760" y1="2208" x2="2768" y2="2200" stroke="#00838F" stroke-width="2"/>
+<text x="2776" y="2209" text-anchor="start" style="fill:#1A1F2C">Delete policy</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-policy-engine-api/#op-updatePolicy" target="_blank" class="st" data-op="updatePolicy"><title>PUT /v2/policy-engine/policies/{policyId}
+Policy Engine line · updatePolicy</title>
+<circle cx="2764" cy="2120" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2755.0" y="2110" text-anchor="end" style="fill:#1A1F2C">Update policy</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-listPortfolios" target="_blank" class="st" data-op="listPortfolios"><title>GET /portfolios
+Portfolios line · listPortfolios</title>
+<circle cx="2554" cy="1028" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2566" y="1033" text-anchor="start" style="fill:#1A1F2C">List portfolios</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-createPortfolio" target="_blank" class="st" data-op="createPortfolio"><title>POST /portfolios
+Portfolios line · createPortfolio</title>
+<circle cx="2554" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2566" y="1117" text-anchor="start" style="fill:#1A1F2C">Create portfolio</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-getPortfolio" target="_blank" class="st" data-op="getPortfolio"><title>GET /portfolios/{portfolio_id}
+Portfolios line · getPortfolio</title>
+<circle cx="2428" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2434" y="1100" transform="rotate(-45 2434 1100)" style="fill:#1A1F2C">Get portfolio</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-editPortfolio" target="_blank" class="st" data-op="editPortfolio"><title>PUT /portfolios/{portfolio_id}
+Portfolios line · editPortfolio</title>
+<circle cx="2302" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2290.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Update portfolio</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-deletePortfolio" target="_blank" class="st" data-op="deletePortfolio"><title>DELETE /portfolios/{portfolio_id}
+Portfolios line · deletePortfolio</title>
+<circle cx="2302" cy="986" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2298" y1="990" x2="2306" y2="982" stroke="#E07B12" stroke-width="2"/>
+<text x="2293.0" y="1005" text-anchor="end" style="fill:#1A1F2C">Delete portfolio</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-getPortfolioCommission" target="_blank" class="st" data-op="getPortfolioCommission"><title>GET /portfolios/{portfolio_id}/commission
+Portfolios line · getPortfolioCommission</title>
+<circle cx="2134" cy="566" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2146" y="571" text-anchor="start" style="fill:#1A1F2C">Get commission</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-portfolios-api/#op-moveFunds" target="_blank" class="st" data-op="moveFunds"><title>POST /portfolios/move_funds
+Portfolios line · moveFunds</title>
+<circle cx="2260" cy="986" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2248.0" y="991" text-anchor="end" style="fill:#1A1F2C">Create move fund</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-sell-api/#op-getSellOptions" target="_blank" class="st" data-op="getSellOptions"><title>GET /sell/options
+More Local line · getSellOptions</title>
+<circle cx="2848" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2860" y="1663" text-anchor="start" style="fill:#1A1F2C">List options</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-sell-api/#op-createSellQuote" target="_blank" class="st" data-op="createSellQuote"><title>POST /sell/quote
+More Local line · createSellQuote</title>
+<circle cx="2806" cy="1700" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2818" y="1705" text-anchor="start" style="fill:#1A1F2C">Update quote</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-session-api/#op-createSessionToken" target="_blank" class="st" data-op="createSessionToken"><title>POST /token
+More Local line · createSessionToken</title>
+<circle cx="2764" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2776" y="1747" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-listSolanaAccounts" target="_blank" class="st" data-op="listSolanaAccounts"><title>GET /v2/solana/accounts
+Solana Accounts line · listSolanaAccounts</title>
+<circle cx="1462" cy="1826" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1450.0" y="1831" text-anchor="end" style="fill:#1A1F2C">List accounts <tspan font-weight="700" style="fill:#dd5ba0">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-createSolanaAccount" target="_blank" class="st" data-op="createSolanaAccount"><title>POST /v2/solana/accounts
+Solana Accounts line · createSolanaAccount</title>
+<circle cx="1252" cy="1952" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1243.0" y="1971" text-anchor="end" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-getSolanaAccount" target="_blank" class="st" data-op="getSolanaAccount"><title>GET /v2/solana/accounts/{address}
+Solana Accounts line · getSolanaAccount</title>
+<circle cx="1252" cy="2036" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="2041" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-updateSolanaAccount" target="_blank" class="st" data-op="updateSolanaAccount"><title>PUT /v2/solana/accounts/{address}
+Solana Accounts line · updateSolanaAccount</title>
+<circle cx="1210" cy="2078" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="2083" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-getSolanaAccountByName" target="_blank" class="st" data-op="getSolanaAccountByName"><title>GET /v2/solana/accounts/by-name/{name}
+Solana Accounts line · getSolanaAccountByName</title>
+<circle cx="1168" cy="2078" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1156.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Get by name</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-importSolanaAccount" target="_blank" class="st" data-op="importSolanaAccount"><title>POST /v2/solana/accounts/import
+Solana Accounts line · importSolanaAccount</title>
+<circle cx="1084" cy="2162" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1096" y="2167" text-anchor="start" style="fill:#1A1F2C">Import solana accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-exportSolanaAccount" target="_blank" class="st" data-op="exportSolanaAccount"><title>POST /v2/solana/accounts/{address}/export
+Solana Accounts line · exportSolanaAccount</title>
+<circle cx="1000" cy="2330" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="988.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Export solana accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-exportSolanaAccountByName" target="_blank" class="st" data-op="exportSolanaAccountByName"><title>POST /v2/solana/accounts/export/by-name/{name}
+Solana Accounts line · exportSolanaAccountByName</title>
+<circle cx="1084" cy="2330" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1096" y="2335" text-anchor="start" style="fill:#1A1F2C">Update by name</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-signSolanaTransaction" target="_blank" class="st" data-op="signSolanaTransaction"><title>POST /v2/solana/accounts/{address}/sign/transaction
+Solana Accounts line · signSolanaTransaction</title>
+<circle cx="1252" cy="2162" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="2167" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-signSolanaMessage" target="_blank" class="st" data-op="signSolanaMessage"><title>POST /v2/solana/accounts/{address}/sign/message
+Solana Accounts line · signSolanaMessage</title>
+<circle cx="1168" cy="2246" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="2251" text-anchor="start" style="fill:#1A1F2C">Update message</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-accounts-api/#op-sendSolanaTransaction" target="_blank" class="st" data-op="sendSolanaTransaction"><title>POST /v2/solana/accounts/send/transaction
+Solana Accounts line · sendSolanaTransaction</title>
+<circle cx="1000" cy="2246" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="2251" text-anchor="start" style="fill:#1A1F2C">Update transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-solana-token-balances-api/#op-listSolanaTokenBalances" target="_blank" class="st" data-op="listSolanaTokenBalances"><title>GET /v2/solana/token-balances/{network}/{address}
+Solana Accounts line · listSolanaTokenBalances</title>
+<circle cx="1420" cy="2162" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2167" text-anchor="start" style="fill:#1A1F2C">Get token balance</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-sql-api-api/#op-runSQLQuery" target="_blank" class="st" data-op="runSQLQuery"><title>POST /v2/data/query/run
+SQL API line · runSQLQuery</title>
+<circle cx="2722" cy="1070" r="5.5" fill="#8e820c" stroke="#8e820c" stroke-width="2.5"/>
+<text x="2710.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Run query</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-sql-api-api/#op-getSQLGrammar" target="_blank" class="st" data-op="getSQLGrammar"><title>GET /v2/data/query/grammar
+SQL API line · getSQLGrammar</title>
+<circle cx="2806" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2800" y="1082" text-anchor="end" transform="rotate(-45 2800 1082)" style="fill:#1A1F2C">Get grammar <tspan font-weight="700" style="fill:#B8860B">⇄WEB</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-sql-api-api/#op-getSQLSchema" target="_blank" class="st" data-op="getSQLSchema"><title>GET /v2/data/query/schema
+SQL API line · getSQLSchema</title>
+<circle cx="2680" cy="1028" r="5.5" fill="#fff" stroke="#8e820c" stroke-width="2.5"/>
+<text x="2692" y="1033" text-anchor="start" style="fill:#1A1F2C">Get schema</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-top-up-links-api/#op-createTopUpLink" target="_blank" class="st" data-op="createTopUpLink"><title>POST /v2/top-up-links
+More Local line · createTopUpLink</title>
+<circle cx="2848" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2860" y="1915" text-anchor="start" style="fill:#1A1F2C">Create top up link</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transactions-api/#op-listTransactions" target="_blank" class="st" data-op="listTransactions"><title>GET /portfolios/{portfolio_id}/transactions
+Transactions line · listTransactions</title>
+<circle cx="2428" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2440" y="1201" text-anchor="start" style="fill:#1A1F2C">List transactions <tspan font-weight="700" style="fill:#E07B12">⇄POR</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transactions-api/#op-getTransaction" target="_blank" class="st" data-op="getTransaction"><title>GET /portfolios/{portfolio_id}/transactions/{transaction_id}
+Transactions line · getTransaction</title>
+<circle cx="2428" cy="1322" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2440" y="1327" text-anchor="start" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transactions-api/#op-createWithdrawal" target="_blank" class="st" data-op="createWithdrawal"><title>POST /portfolios/{portfolio_id}/wallets/{wallet_id}/transactions
+Transactions line · createWithdrawal</title>
+<circle cx="2428" cy="1406" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2440" y="1411" text-anchor="start" style="fill:#1A1F2C">Create transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transfers-api/#op-createTransfer" target="_blank" class="st" data-op="createTransfer"><title>POST /v2/transfers
+Transfers line · createTransfer</title>
+<circle cx="2596" cy="2078" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2608" y="2083" text-anchor="start" style="fill:#1A1F2C">Create transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transfers-api/#op-listTransfers" target="_blank" class="st" data-op="listTransfers"><title>GET /v2/transfers
+Transfers line · listTransfers</title>
+<circle cx="2470" cy="2204" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2482" y="2209" text-anchor="start" style="fill:#1A1F2C">List transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transfers-api/#op-getTransferById" target="_blank" class="st" data-op="getTransferById"><title>GET /v2/transfers/{transferId}
+Transfers line · getTransferById</title>
+<circle cx="2554" cy="2036" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2566" y="2041" text-anchor="start" style="fill:#1A1F2C">Get transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transfers-api/#op-executeFundTransfer" target="_blank" class="st" data-op="executeFundTransfer"><title>POST /v2/transfers/{transferId}/execute
+Transfers line · executeFundTransfer</title>
+<circle cx="2470" cy="2036" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2476" y="2024" transform="rotate(-45 2476 2024)" style="fill:#1A1F2C">Update execute</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-transfers-api/#op-submitDepositTravelRule" target="_blank" class="st" data-op="submitDepositTravelRule"><title>POST /v2/transfers/{transferId}/travel-rule
+Transfers line · submitDepositTravelRule</title>
+<circle cx="2386" cy="2036" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2392" y="2024" transform="rotate(-45 2392 2024)" style="fill:#1A1F2C">Update travel rule</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-users-api/#op-listPortfolioUsers" target="_blank" class="st" data-op="listPortfolioUsers"><title>GET /portfolios/{portfolio_id}/users
+Portfolios line · listPortfolioUsers</title>
+<circle cx="2134" cy="398" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2146" y="403" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-wallets-api/#op-listPortfolioWallets" target="_blank" class="st" data-op="listPortfolioWallets"><title>GET /portfolios/{portfolio_id}/wallets
+Portfolios line · listPortfolioWallets</title>
+<circle cx="2134" cy="314" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2146" y="319" text-anchor="start" style="fill:#1A1F2C">List wallets</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-wallets-api/#op-getWallet" target="_blank" class="st" data-op="getWallet"><title>GET /portfolios/{portfolio_id}/wallets/{wallet_id}
+Portfolios line · getWallet</title>
+<circle cx="2134" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2146" y="235" text-anchor="start" style="fill:#1A1F2C">Get wallet</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-webhooks-api/#op-listWebhookSubscriptions" target="_blank" class="st" data-op="listWebhookSubscriptions"><title>GET /v2/data/webhooks/subscriptions
+Webhooks line · listWebhookSubscriptions</title>
+<circle cx="2890" cy="1154" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2902" y="1159" text-anchor="start" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-webhooks-api/#op-createWebhookSubscription" target="_blank" class="st" data-op="createWebhookSubscription"><title>POST /v2/data/webhooks/subscriptions
+Webhooks line · createWebhookSubscription</title>
+<circle cx="2890" cy="1196" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2902" y="1201" text-anchor="start" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-webhooks-api/#op-getWebhookSubscription" target="_blank" class="st" data-op="getWebhookSubscription"><title>GET /v2/data/webhooks/subscriptions/{subscriptionId}
+Webhooks line · getWebhookSubscription</title>
+<circle cx="2890" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2902" y="1285" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-webhooks-api/#op-updateWebhookSubscription" target="_blank" class="st" data-op="updateWebhookSubscription"><title>PUT /v2/data/webhooks/subscriptions/{subscriptionId}
+Webhooks line · updateWebhookSubscription</title>
+<circle cx="2974" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2986" y="1369" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-webhooks-api/#op-deleteWebhookSubscription" target="_blank" class="st" data-op="deleteWebhookSubscription"><title>DELETE /v2/data/webhooks/subscriptions/{subscriptionId}
+Webhooks line · deleteWebhookSubscription</title>
+<circle cx="2974" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2970" y1="1410" x2="2978" y2="1402" stroke="#B8860B" stroke-width="2"/>
+<text x="2986" y="1411" text-anchor="start" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-webhooks-api/#op-listWebhookSubscriptionEvents" target="_blank" class="st" data-op="listWebhookSubscriptionEvents"><title>GET /v2/data/webhooks/subscriptions/{subscriptionId}/events
+Webhooks line · listWebhookSubscriptionEvents</title>
+<circle cx="2974" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2986" y="1495" text-anchor="start" style="fill:#1A1F2C">List events <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-verifyX402Payment" target="_blank" class="st" data-op="verifyX402Payment"><title>POST /v2/x402/verify
+x402 Facilitator line · verifyX402Payment</title>
+<circle cx="2260" cy="3380" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2248.0" y="3385" text-anchor="end" style="fill:#1A1F2C">Verify x402</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-settleX402Payment" target="_blank" class="st" data-op="settleX402Payment"><title>POST /v2/x402/settle
+x402 Facilitator line · settleX402Payment</title>
+<circle cx="2134" cy="3128" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2146" y="3133" text-anchor="start" style="fill:#1A1F2C">Update settle</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-supportedX402PaymentKinds" target="_blank" class="st" data-op="supportedX402PaymentKinds"><title>GET /v2/x402/supported
+x402 Facilitator line · supportedX402PaymentKinds</title>
+<circle cx="2134" cy="3212" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2146" y="3217" text-anchor="start" style="fill:#1A1F2C">Get supported</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-listX402DiscoveryResources" target="_blank" class="st" data-op="listX402DiscoveryResources"><title>GET /v2/x402/discovery/resources
+x402 Facilitator line · listX402DiscoveryResources</title>
+<circle cx="1924" cy="3170" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1936" y="3175" text-anchor="start" style="fill:#1A1F2C">List resources</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-listX402DiscoveryMerchant" target="_blank" class="st" data-op="listX402DiscoveryMerchant"><title>GET /v2/x402/discovery/merchant
+x402 Facilitator line · listX402DiscoveryMerchant</title>
+<circle cx="1924" cy="3212" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1936" y="3217" text-anchor="start" style="fill:#1A1F2C">Get merchant</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-searchX402Resources" target="_blank" class="st" data-op="searchX402Resources"><title>GET /v2/x402/discovery/search
+x402 Facilitator line · searchX402Resources</title>
+<circle cx="2050" cy="3044" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2056" y="3032" transform="rotate(-45 2056 3032)" style="fill:#1A1F2C">Search discovery</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-postX402DiscoveryMcp" target="_blank" class="st" data-op="postX402DiscoveryMcp"><title>POST /v2/x402/discovery/mcp
+x402 Facilitator line · postX402DiscoveryMcp</title>
+<circle cx="1966" cy="3254" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1978" y="3259" text-anchor="start" style="fill:#1A1F2C">Update mcp</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-listX402Bundles" target="_blank" class="st" data-op="listX402Bundles"><title>GET /v2/x402/discovery/bundles
+x402 Facilitator line · listX402Bundles</title>
+<circle cx="1966" cy="3464" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1978" y="3469" text-anchor="start" style="fill:#1A1F2C">List bundles</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-getX402Bundle" target="_blank" class="st" data-op="getX402Bundle"><title>GET /v2/x402/discovery/bundles/{bundleSlug}
+x402 Facilitator line · getX402Bundle</title>
+<circle cx="1966" cy="3380" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1978" y="3385" text-anchor="start" style="fill:#1A1F2C">Get bundle</text>
+</a>
+<a href="https://apis.apis.io/apis/coinbase/coinbase-x402-facilitator-api/#op-validateX402Resource" target="_blank" class="st" data-op="validateX402Resource"><title>POST /v2/x402/validate
+x402 Facilitator line · validateX402Resource</title>
+<circle cx="2134" cy="3254" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2146" y="3259" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<text x="3458" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3458" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">EVM</text>
+<rect x="3458" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3475" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EA</text><text x="3500" y="269" font-size="11" fill="#1A1F2C">EVM Accounts <tspan fill="#8A93A6">19</tspan></text>
+<rect x="3458" y="276" width="34" height="13" rx="3" fill="#af2c23"/><text x="3475" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ESA</text><text x="3500" y="286" font-size="11" fill="#1A1F2C">EVM Smart Accounts <tspan fill="#8A93A6">12</tspan></text>
+<rect x="3458" y="293" width="34" height="13" rx="3" fill="#dd5ba0"/><text x="3475" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="3500" y="303" font-size="11" fill="#1A1F2C">Accounts <tspan fill="#8A93A6">5</tspan></text>
+<text x="3458" y="329" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">EMBEDDED WALLET API</text>
+<rect x="3458" y="336" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3475" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EUA</text><text x="3500" y="346" font-size="11" fill="#1A1F2C">End User Accounts <tspan fill="#8A93A6">26</tspan></text>
+<text x="3458" y="372" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">PAYMENT SESSIONS</text>
+<rect x="3458" y="379" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3475" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PS</text><text x="3500" y="389" font-size="11" fill="#1A1F2C">Payment Sessions <tspan fill="#8A93A6">20</tspan></text>
+<text x="3458" y="415" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">PORTFOLIOS</text>
+<rect x="3458" y="422" width="34" height="13" rx="3" fill="#E07B12"/><text x="3475" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POR</text><text x="3500" y="432" font-size="11" fill="#1A1F2C">Portfolios <tspan fill="#8A93A6">15</tspan></text>
+<text x="3458" y="458" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">ORDERS</text>
+<rect x="3458" y="465" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3475" y="475" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="3500" y="475" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">14</tspan></text>
+<text x="3458" y="501" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">SOLANA</text>
+<rect x="3458" y="508" width="34" height="13" rx="3" fill="#B0287F"/><text x="3475" y="518" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="3500" y="518" font-size="11" fill="#1A1F2C">Solana Accounts <tspan fill="#8A93A6">13</tspan></text>
+<text x="3458" y="544" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">MANDATES</text>
+<rect x="3458" y="551" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3475" y="561" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MAN</text><text x="3500" y="561" font-size="11" fill="#1A1F2C">Mandates <tspan fill="#8A93A6">12</tspan></text>
+<text x="3458" y="587" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">DATA</text>
+<rect x="3458" y="594" width="34" height="13" rx="3" fill="#B8860B"/><text x="3475" y="604" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="3500" y="604" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3458" y="611" width="34" height="13" rx="3" fill="#8e820c"/><text x="3475" y="621" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SQA</text><text x="3500" y="621" font-size="11" fill="#1A1F2C">SQL API <tspan fill="#8A93A6">3</tspan></text>
+<text x="3458" y="647" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">X402</text>
+<rect x="3458" y="654" width="34" height="13" rx="3" fill="#C2410C"/><text x="3475" y="664" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">X4F</text><text x="3500" y="664" font-size="11" fill="#1A1F2C">x402 Facilitator <tspan fill="#8A93A6">10</tspan></text>
+<text x="3458" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">END USERS</text>
+<rect x="3458" y="697" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3475" y="707" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EUAM</text><text x="3500" y="707" font-size="11" fill="#1A1F2C">End User Account Management <tspan fill="#8A93A6">9</tspan></text>
+<text x="3458" y="733" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">ONRAMP</text>
+<rect x="3458" y="740" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3475" y="750" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ONR</text><text x="3500" y="750" font-size="11" fill="#1A1F2C">Onramp <tspan fill="#8A93A6">7</tspan></text>
+<text x="3458" y="776" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3458" y="783" width="34" height="13" rx="3" fill="#D6264F"/><text x="3475" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3500" y="793" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3458" y="800" width="34" height="13" rx="3" fill="#B0287F"/><text x="3475" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CUS</text><text x="3500" y="810" font-size="11" fill="#1A1F2C">Customers <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3458" y="817" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3475" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="3500" y="827" font-size="11" fill="#1A1F2C">Charges <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3458" y="834" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3475" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHE</text><text x="3500" y="844" font-size="11" fill="#1A1F2C">Checkouts <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3458" y="851" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3475" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="3500" y="861" font-size="11" fill="#1A1F2C">Invoices <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3458" y="868" width="34" height="13" rx="3" fill="#00838F"/><text x="3475" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PE</text><text x="3500" y="878" font-size="11" fill="#1A1F2C">Policy Engine <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3458" y="885" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3475" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="3500" y="895" font-size="11" fill="#1A1F2C">Transfers <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3458" y="902" width="34" height="13" rx="3" fill="#B8860B"/><text x="3475" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BUY</text><text x="3500" y="912" font-size="11" fill="#1A1F2C">Buy <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3458" y="919" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3475" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DD</text><text x="3500" y="929" font-size="11" fill="#1A1F2C">Deposit Destinations <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3458" y="936" width="34" height="13" rx="3" fill="#E07B12"/><text x="3475" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIS</text><text x="3500" y="946" font-size="11" fill="#1A1F2C">Disbursements <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3458" y="953" width="34" height="13" rx="3" fill="#C2410C"/><text x="3475" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRN</text><text x="3500" y="963" font-size="11" fill="#1A1F2C">Transactions <tspan fill="#8A93A6">3</tspan></text>
+<text x="3708" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3726,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3752" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3726,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3752" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3726,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3752" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3726,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3752" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3726,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3752" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3726,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3752" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3726,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3752" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3726,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3752" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3708" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3708" y="463" font-size="10.5" fill="#5A6275">“Activities” → Portfolios line · 1 op</text>
+<text x="3708" y="478" font-size="10.5" fill="#5A6275">“Address Book” → Portfolios line · 1 op</text>
+<text x="3708" y="493" font-size="10.5" fill="#5A6275">“Allocations” → Portfolios line · 1 op</text>
+<text x="3708" y="508" font-size="10.5" fill="#5A6275">“Assets” → Portfolios line · 1 op</text>
+<text x="3708" y="523" font-size="10.5" fill="#5A6275">“Balances” → Portfolios line · 1 op</text>
+<text x="3708" y="538" font-size="10.5" fill="#5A6275">“EVM Swaps” → EVM Accounts line · 2 ops</text>
+<text x="3708" y="553" font-size="10.5" fill="#5A6275">“EVM Token Balances” → EVM Accounts line · 1 op</text>
+<text x="3708" y="568" font-size="10.5" fill="#5A6275">“Events” → More Local line · 2 ops</text>
+<text x="3708" y="583" font-size="10.5" fill="#5A6275">“Faucets” → EVM Accounts line · 1 op</text>
+<text x="3708" y="598" font-size="10.5" fill="#5A6275">“Faucets” → Solana Accounts line · 1 op</text>
+<text x="3708" y="613" font-size="10.5" fill="#5A6275">“Onchain Data” → Webhooks line · 2 ops</text>
+<text x="3708" y="628" font-size="10.5" fill="#5A6275">“Payment Methods” → More Local line · 2 ops</text>
+<text x="3708" y="643" font-size="10.5" fill="#5A6275">“Sell” → More Local line · 2 ops</text>
+<text x="3708" y="658" font-size="10.5" fill="#5A6275">“Session” → More Local line · 1 op</text>
+<text x="3708" y="673" font-size="10.5" fill="#5A6275">“Solana Token Balances” → Solana Accounts line · 1 op</text>
+<text x="3708" y="688" font-size="10.5" fill="#5A6275">“Top-Up Links” → More Local line · 1 op</text>
+<text x="3708" y="703" font-size="10.5" fill="#5A6275">“Users” → Portfolios line · 1 op</text>
+<text x="3708" y="718" font-size="10.5" fill="#5A6275">“Wallets” → Portfolios line · 2 ops</text>
+<text x="3708" y="768" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3708" y="785" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3804" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/coinbase/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

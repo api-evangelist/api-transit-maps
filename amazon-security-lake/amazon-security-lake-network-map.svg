@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1574 1440" width="1574" height="1440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1574" height="1440" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Amazon-Security-Lake API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">31 operations as stops · 4 tags as lines · 1 interchanges · 7 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="664" y1="1070" x2="706" y2="1070" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="664" y1="1070" x2="706" y2="1070" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Data Lakes" d="M328.0,356.0 L412.0,356.0 L496.0,356.0 L566.0,356.0 Q580.0,356.0 589.9,365.9 L664.0,440.0 L738.1,514.1 Q748.0,524.0 748.0,538.0 L748.0,608.0 L748.0,692.0 L748.0,762.0 Q748.0,776.0 738.1,785.9 L664.0,860.0 L589.9,934.1 Q580.0,944.0 566.0,944.0 L496.0,944.0 L412.0,944.0 L342.0,944.0 Q328.0,944.0 318.1,934.1 L244.0,860.0 L169.9,785.9 Q160.0,776.0 160.0,762.0 L160.0,692.0 L160.0,608.0 L160.0,538.0 Q160.0,524.0 169.9,514.1 L244.0,440.0 L328.0,356.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Data Lakes</title></path>
+<path class="line" data-line="Notification" d="M664.0,1070.0 L580.0,1070.0 L496.0,1070.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Notification</title></path>
+<path class="line" data-line="Subscribers" d="M874.0,1070.0 L790.0,1070.0 L720.0,1070.0 Q706.0,1070.0 706.0,1084.0 L706.0,1196.0 L706.0,1280.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscribers</title></path>
+<path class="line" data-line="Tags" d="M454.0,230.0 L538.0,230.0 L622.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<rect x="298" y="303" width="60" height="26" rx="13" fill="#D6264F"/><text x="328" y="321" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">DL</text>
+<line x1="664" y1="1070" x2="736.0" y2="1070.0" stroke="#1F5FD1" stroke-width="7"/><rect x="712.0" y="1059.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Notification</title></rect><text x="736.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="496" y1="1070" x2="462.0" y2="1070.0" stroke="#1F5FD1" stroke-width="7"/><rect x="438.0" y="1059.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Notification</title></rect><text x="462.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="874" y1="1070" x2="908.0" y2="1070.0" stroke="#0E9F6E" stroke-width="7"/><rect x="884.0" y="1059.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Subscribers</title></rect><text x="908.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="706" y1="1280" x2="706.0" y2="1314.0" stroke="#0E9F6E" stroke-width="7"/><rect x="682.0" y="1303.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Subscribers</title></rect><text x="706.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="454" y1="230" x2="420.0" y2="230.0" stroke="#E07B12" stroke-width="7"/><rect x="396.0" y="219.0" width="48" height="22" rx="5" fill="#E07B12"><title>Tags</title></rect><text x="420.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="622" y1="230" x2="656.0" y2="230.0" stroke="#E07B12" stroke-width="7"/><rect x="632.0" y="219.0" width="48" height="22" rx="5" fill="#E07B12"><title>Tags</title></rect><text x="656.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-CreateDataLakeExceptionSubscription" target="_blank" class="st" data-op="CreateDataLakeExceptionSubscription"><title>POST /v1/datalake/exceptions/subscription
+Data Lakes line · CreateDataLakeExceptionSubscription</title>
+<circle cx="748" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="697" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-DeleteDataLakeExceptionSubscription" target="_blank" class="st" data-op="DeleteDataLakeExceptionSubscription"><title>DELETE /v1/datalake/exceptions/subscription
+Data Lakes line · DeleteDataLakeExceptionSubscription</title>
+<circle cx="664" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="660" y1="864" x2="668" y2="856" stroke="#D6264F" stroke-width="2"/>
+<text x="676" y="865" text-anchor="start" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-GetDataLakeExceptionSubscription" target="_blank" class="st" data-op="GetDataLakeExceptionSubscription"><title>GET /v1/datalake/exceptions/subscription
+Data Lakes line · GetDataLakeExceptionSubscription</title>
+<circle cx="748" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="613" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-UpdateDataLakeExceptionSubscription" target="_blank" class="st" data-op="UpdateDataLakeExceptionSubscription"><title>PUT /v1/datalake/exceptions/subscription
+Data Lakes line · UpdateDataLakeExceptionSubscription</title>
+<circle cx="748" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="781" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-DeregisterDataLakeDelegatedAdministrator" target="_blank" class="st" data-op="DeregisterDataLakeDelegatedAdministrator"><title>DELETE /v1/datalake/delegate
+Data Lakes line · DeregisterDataLakeDelegatedAdministrator</title>
+<circle cx="580" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="576" y1="360" x2="584" y2="352" stroke="#D6264F" stroke-width="2"/>
+<text x="592" y="361" text-anchor="start" style="fill:#1A1F2C">Delete delegate</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-RegisterDataLakeDelegatedAdministrator" target="_blank" class="st" data-op="RegisterDataLakeDelegatedAdministrator"><title>POST /v1/datalake/delegate
+Data Lakes line · RegisterDataLakeDelegatedAdministrator</title>
+<circle cx="496" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="502" y="344" transform="rotate(-45 502 344)" style="fill:#1A1F2C">Update delegate</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-ListDataLakeExceptions" target="_blank" class="st" data-op="ListDataLakeExceptions"><title>POST /v1/datalake/exceptions
+Data Lakes line · ListDataLakeExceptions</title>
+<circle cx="748" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="529" text-anchor="start" style="fill:#1A1F2C">Create exception</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-CreateAwsLogSource" target="_blank" class="st" data-op="amazon-security-lake-data-lakes-api:CreateAwsLogSource"><title>POST /v1/datalake/logsources/aws
+Data Lakes line · CreateAwsLogSource
+Express: X3</title>
+<circle cx="580" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="941" width="6" height="6" transform="rotate(45 580 944)" fill="#1A1F2C"/>
+<text x="592" y="949" text-anchor="start" style="fill:#1A1F2C">Create aw</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-CreateCustomLogSource" target="_blank" class="st" data-op="amazon-security-lake-data-lakes-api:CreateCustomLogSource"><title>POST /v1/datalake/logsources/custom
+Data Lakes line · CreateCustomLogSource
+Express: X6</title>
+<circle cx="412" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="409" y="941" width="6" height="6" transform="rotate(45 412 944)" fill="#1A1F2C"/>
+<text x="418" y="932" transform="rotate(-45 418 932)" style="fill:#1A1F2C">Update custom</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-CreateDataLake" target="_blank" class="st" data-op="CreateDataLake"><title>POST /v1/datalake
+Data Lakes line · CreateDataLake
+Express: X4</title>
+<circle cx="328" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="353" width="6" height="6" transform="rotate(45 328 356)" fill="#1A1F2C"/>
+<text x="316.0" y="361" text-anchor="end" style="fill:#1A1F2C">Update datalake</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-UpdateDataLake" target="_blank" class="st" data-op="UpdateDataLake"><title>PUT /v1/datalake
+Data Lakes line · UpdateDataLake</title>
+<circle cx="412" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="418" y="344" transform="rotate(-45 418 344)" style="fill:#1A1F2C">Update datalake</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-CreateDataLakeOrganizationConfiguration" target="_blank" class="st" data-op="CreateDataLakeOrganizationConfiguration"><title>POST /v1/datalake/organization/configuration
+Data Lakes line · CreateDataLakeOrganizationConfiguration</title>
+<circle cx="160" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="697" text-anchor="start" style="fill:#1A1F2C">Update configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-GetDataLakeOrganizationConfiguration" target="_blank" class="st" data-op="GetDataLakeOrganizationConfiguration"><title>GET /v1/datalake/organization/configuration
+Data Lakes line · GetDataLakeOrganizationConfiguration</title>
+<circle cx="160" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="781" text-anchor="start" style="fill:#1A1F2C">Get configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-DeleteAwsLogSource" target="_blank" class="st" data-op="DeleteAwsLogSource"><title>POST /v1/datalake/logsources/aws/delete
+Data Lakes line · DeleteAwsLogSource</title>
+<circle cx="496" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="502" y="932" transform="rotate(-45 502 932)" style="fill:#1A1F2C">Delete aw</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-DeleteCustomLogSource" target="_blank" class="st" data-op="DeleteCustomLogSource"><title>DELETE /v1/datalake/logsources/custom/{sourceName}
+Data Lakes line · DeleteCustomLogSource</title>
+<circle cx="328" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="324" y1="948" x2="332" y2="940" stroke="#D6264F" stroke-width="2"/>
+<text x="316.0" y="949" text-anchor="end" style="fill:#1A1F2C">Delete custom</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-DeleteDataLake" target="_blank" class="st" data-op="DeleteDataLake"><title>POST /v1/datalake/delete
+Data Lakes line · DeleteDataLake
+Express: X1</title>
+<circle cx="664" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="437" width="6" height="6" transform="rotate(45 664 440)" fill="#1A1F2C"/>
+<text x="676" y="445" text-anchor="start" style="fill:#1A1F2C">Delete datalake</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-DeleteDataLakeOrganizationConfiguration" target="_blank" class="st" data-op="DeleteDataLakeOrganizationConfiguration"><title>POST /v1/datalake/organization/configuration/delete
+Data Lakes line · DeleteDataLakeOrganizationConfiguration</title>
+<circle cx="160" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="613" text-anchor="start" style="fill:#1A1F2C">Delete configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-GetDataLakeSources" target="_blank" class="st" data-op="amazon-security-lake-data-lakes-api:GetDataLakeSources"><title>POST /v1/datalake/sources
+Data Lakes line · GetDataLakeSources
+Express: X3, X4</title>
+<circle cx="160" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="157" y="521" width="6" height="6" transform="rotate(45 160 524)" fill="#1A1F2C"/>
+<text x="172" y="529" text-anchor="start" style="fill:#1A1F2C">Create source</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-ListDataLakes" target="_blank" class="st" data-op="ListDataLakes"><title>GET /v1/datalakes
+Data Lakes line · ListDataLakes
+Express: X1, X4</title>
+<circle cx="244" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="241" y="437" width="6" height="6" transform="rotate(45 244 440)" fill="#1A1F2C"/>
+<text x="256" y="445" text-anchor="start" style="fill:#1A1F2C">List datalakes</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-data-lakes-api/#op-ListLogSources" target="_blank" class="st" data-op="amazon-security-lake-data-lakes-api:ListLogSources"><title>POST /v1/datalake/logsources/list
+Data Lakes line · ListLogSources
+Express: X3, X6</title>
+<circle cx="244" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="241" y="857" width="6" height="6" transform="rotate(45 244 860)" fill="#1A1F2C"/>
+<text x="256" y="865" text-anchor="start" style="fill:#1A1F2C">List datalake logsources</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-notification-api/#op-CreateSubscriberNotification" target="_blank" class="st" data-op="CreateSubscriberNotification"><title>POST /v1/subscribers/{subscriberId}/notification
+Notification line · CreateSubscriberNotification</title>
+<circle cx="664" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="670" y="1058" transform="rotate(-45 670 1058)" style="fill:#1A1F2C">Update notification</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-notification-api/#op-DeleteSubscriberNotification" target="_blank" class="st" data-op="DeleteSubscriberNotification"><title>DELETE /v1/subscribers/{subscriberId}/notification
+Notification line · DeleteSubscriberNotification</title>
+<circle cx="496" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="492" y1="1074" x2="500" y2="1066" stroke="#1F5FD1" stroke-width="2"/>
+<text x="502" y="1058" transform="rotate(-45 502 1058)" style="fill:#1A1F2C">Delete notification</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-notification-api/#op-UpdateSubscriberNotification" target="_blank" class="st" data-op="UpdateSubscriberNotification"><title>PUT /v1/subscribers/{subscriberId}/notification
+Notification line · UpdateSubscriberNotification</title>
+<circle cx="580" cy="1070" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="586" y="1058" transform="rotate(-45 586 1058)" style="fill:#1A1F2C">Update notification</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-subscribers-api/#op-CreateSubscriber" target="_blank" class="st" data-op="CreateSubscriber"><title>POST /v1/subscribers
+Subscribers line · CreateSubscriber
+Express: X5</title>
+<circle cx="790" cy="1070" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="787" y="1067" width="6" height="6" transform="rotate(45 790 1070)" fill="#1A1F2C"/>
+<text x="796" y="1058" transform="rotate(-45 796 1058)" style="fill:#1A1F2C">Create subscriber</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-subscribers-api/#op-ListSubscribers" target="_blank" class="st" data-op="ListSubscribers"><title>GET /v1/subscribers
+Subscribers line · ListSubscribers
+Express: X2, X5, X7</title>
+<circle cx="874" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="871" y="1067" width="6" height="6" transform="rotate(45 874 1070)" fill="#1A1F2C"/>
+<text x="868" y="1082" text-anchor="end" transform="rotate(-45 868 1082)" style="fill:#1A1F2C">List subscribers</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-subscribers-api/#op-GetSubscriber" target="_blank" class="st" data-op="GetSubscriber"><title>GET /v1/subscribers/{subscriberId}
+Subscribers line · GetSubscriber
+Express: X2, X5, X7</title>
+<circle cx="706" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="703" y="1067" width="6" height="6" transform="rotate(45 706 1070)" fill="#1A1F2C"/>
+<text x="697.0" y="1089" text-anchor="end" style="fill:#1A1F2C">Get subscriber</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-subscribers-api/#op-UpdateSubscriber" target="_blank" class="st" data-op="UpdateSubscriber"><title>PUT /v1/subscribers/{subscriberId}
+Subscribers line · UpdateSubscriber
+Express: X7</title>
+<circle cx="706" cy="1196" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="703" y="1193" width="6" height="6" transform="rotate(45 706 1196)" fill="#1A1F2C"/>
+<text x="718" y="1201" text-anchor="start" style="fill:#1A1F2C">Update subscriber</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-subscribers-api/#op-DeleteSubscriber" target="_blank" class="st" data-op="DeleteSubscriber"><title>DELETE /v1/subscribers/{subscriberId}
+Subscribers line · DeleteSubscriber
+Express: X2</title>
+<circle cx="706" cy="1280" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="702" y1="1284" x2="710" y2="1276" stroke="#0E9F6E" stroke-width="2"/>
+<rect x="703" y="1277" width="6" height="6" transform="rotate(45 706 1280)" fill="#1A1F2C"/>
+<text x="718" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete subscriber</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-tags-api/#op-ListTagsForResource" target="_blank" class="st" data-op="ListTagsForResource"><title>GET /v1/tags/{resourceArn}
+Tags line · ListTagsForResource</title>
+<circle cx="454" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="460" y="218" transform="rotate(-45 460 218)" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-tags-api/#op-TagResource" target="_blank" class="st" data-op="TagResource"><title>POST /v1/tags/{resourceArn}
+Tags line · TagResource</title>
+<circle cx="538" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="544" y="218" transform="rotate(-45 544 218)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-security-lake/amazon-security-lake-tags-api/#op-UntagResource" target="_blank" class="st" data-op="UntagResource"><title>DELETE /v1/tags/{resourceArn}
+Tags line · UntagResource</title>
+<circle cx="622" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="618" y1="234" x2="626" y2="226" stroke="#E07B12" stroke-width="2"/>
+<text x="616" y="242" text-anchor="end" transform="rotate(-45 616 242)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<text x="1064" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1064" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AMAZON SECURITY LAKE</text>
+<rect x="1064" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1081" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DL</text><text x="1106" y="269" font-size="11" fill="#1A1F2C">Data Lakes <tspan fill="#8A93A6">20</tspan></text>
+<rect x="1064" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1081" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUB</text><text x="1106" y="286" font-size="11" fill="#1A1F2C">Subscribers <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1064" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1081" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NOT</text><text x="1106" y="303" font-size="11" fill="#1A1F2C">Notification <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1064" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1081" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="1106" y="320" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">3</tspan></text>
+<text x="1314" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1332,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1358" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1332,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1358" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1332,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1358" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1332,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1358" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1332,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1358" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1332,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1358" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1332,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1358" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1332,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1358" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1314" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1314" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="ListDataLakes DeleteDataLake"><rect x="1314" y="487" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="498" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1351" y="498" font-size="11" fill="#1A1F2C">Amazon Security Lake Decommiss</text></g>
+<g class="rt" data-stops="GetSubscriber DeleteSubscriber ListSubscribers"><rect x="1314" y="506" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="517" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1351" y="517" font-size="11" fill="#1A1F2C">Amazon Security Lake Offboard </text></g>
+<g class="rt" data-stops="amazon-security-lake-data-lakes-api:CreateAwsLogSource amazon-security-lake-data-lakes-api:ListLogSources amazon-security-lake-data-lakes-api:GetDataLakeSources"><rect x="1314" y="525" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="536" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1351" y="536" font-size="11" fill="#1A1F2C">Amazon Security Lake Onboard A</text></g>
+<g class="rt" data-stops="CreateDataLake ListDataLakes amazon-security-lake-data-lakes-api:GetDataLakeSources"><rect x="1314" y="544" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="555" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1351" y="555" font-size="11" fill="#1A1F2C">Amazon Security Lake Provision</text></g>
+<g class="rt" data-stops="CreateSubscriber GetSubscriber ListSubscribers"><rect x="1314" y="563" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="574" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1351" y="574" font-size="11" fill="#1A1F2C">Amazon Security Lake Provision</text></g>
+<g class="rt" data-stops="amazon-security-lake-data-lakes-api:CreateCustomLogSource amazon-security-lake-data-lakes-api:ListLogSources"><rect x="1314" y="582" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="593" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1351" y="593" font-size="11" fill="#1A1F2C">Amazon Security Lake Register </text></g>
+<g class="rt" data-stops="ListSubscribers GetSubscriber UpdateSubscriber"><rect x="1314" y="601" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1329" y="612" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1351" y="612" font-size="11" fill="#1A1F2C">Amazon Security Lake Rename Su</text></g>
+<text x="160" y="1410" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/amazon-security-lake/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

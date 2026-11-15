@@ -1,0 +1,1376 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3002 2070" width="3002" height="2070" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3002" height="2070" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Kisi API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">227 operations as stops · 34 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Cameras" d="M1630.0,440.0 L1630.0,524.0 L1630.0,594.0 Q1630.0,608.0 1639.9,617.9 L1672.0,650.0 L1714.0,692.0 L1756.0,734.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cameras</title></path>
+<path class="line" data-line="Card assignments" d="M2302.0,1154.0 L2218.0,1154.0 L2134.0,1154.0 L2022.0,1154.0 Q2008.0,1154.0 1998.1,1163.9 L1975.9,1186.1 Q1966.0,1196.0 1966.0,1210.0 L1966.0,1224.0 Q1966.0,1238.0 1975.9,1247.9 L2008.0,1280.0 L2092.0,1364.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Card assignments</title></path>
+<path class="line" data-line="Cards" d="M2260.0,608.0 L2176.0,608.0 L2064.0,608.0 Q2050.0,608.0 2040.1,617.9 L2008.0,650.0 L1924.0,734.0 L1891.9,766.1 Q1882.0,776.0 1891.9,785.9 L1914.1,808.1 Q1924.0,818.0 1933.9,808.1 L1956.1,785.9 Q1966.0,776.0 1980.0,776.0 L2092.0,776.0 L2176.0,776.0 L2260.0,776.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cards</title></path>
+<path class="line" data-line="Controller Input Connections" d="M1084.0,1658.0 L967.9,1541.9 Q958.0,1532.0 944.0,1532.0 L930.0,1532.0 Q916.0,1532.0 906.1,1541.9 L841.9,1606.1 Q832.0,1616.0 832.0,1630.0 L832.0,1700.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Controller Input Connections</title></path>
+<path class="line" data-line="Controller Relay Connections" d="M244.0,1364.0 L318.1,1289.9 Q328.0,1280.0 328.0,1266.0 L328.0,1210.0 Q328.0,1196.0 314.0,1196.0 L244.0,1196.0 L160.0,1196.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Controller Relay Connections</title></path>
+<path class="line" data-line="Controller Wiegand Connections" d="M958.0,1700.0 L958.0,1630.0 Q958.0,1616.0 948.1,1606.1 L841.9,1499.9 Q832.0,1490.0 818.0,1490.0 L804.0,1490.0 Q790.0,1490.0 780.1,1499.9 L715.9,1564.1 Q706.0,1574.0 706.0,1588.0 L706.0,1658.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Controller Wiegand Connections</title></path>
+<path class="line" data-line="Controllers" d="M328.0,1448.0 L402.1,1373.9 Q412.0,1364.0 426.0,1364.0 L482.0,1364.0 Q496.0,1364.0 505.9,1373.9 L612.1,1480.1 Q622.0,1490.0 612.1,1499.9 L496.0,1616.0 L412.0,1700.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Controllers</title></path>
+<path class="line" data-line="Elevator stops" d="M2176.0,1028.0 L2050.0,1028.0 L1938.0,1028.0 Q1924.0,1028.0 1914.1,1018.1 L1891.9,995.9 Q1882.0,986.0 1891.9,976.1 L1914.1,953.9 Q1924.0,944.0 1938.0,944.0 L2036.0,944.0 Q2050.0,944.0 2059.9,934.1 L2092.0,902.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Elevator stops</title></path>
+<path class="line" data-line="Elevators" d="M454.0,1196.0 L538.0,1280.0 L570.1,1312.1 Q580.0,1322.0 580.0,1336.0 L580.0,1350.0 Q580.0,1364.0 570.1,1373.9 L454.0,1490.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Elevators</title></path>
+<path class="line" data-line="Floors" d="M538.0,1112.0 L566.0,1112.0 Q580.0,1112.0 589.9,1102.1 L696.1,995.9 Q706.0,986.0 706.0,972.0 L706.0,944.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Floors</title></path>
+<path class="line" data-line="Group elevator stops" d="M622.0,1196.0 L654.1,1163.9 Q664.0,1154.0 664.0,1140.0 L664.0,1126.0 Q664.0,1112.0 673.9,1121.9 L706.0,1154.0 L748.0,1196.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Group elevator stops</title></path>
+<path class="line" data-line="Group links" d="M790.0,1070.0 L832.0,1028.0 L874.0,986.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Group links</title></path>
+<path class="line" data-line="Group locks" d="M706.0,1322.0 L776.0,1322.0 Q790.0,1322.0 799.9,1312.1 L832.0,1280.0 L864.1,1247.9 Q874.0,1238.0 874.0,1224.0 L874.0,1154.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Group locks</title></path>
+<path class="line" data-line="Group terminals" d="M1168.0,1574.0 L1084.0,1490.0 L1009.9,1415.9 Q1000.0,1406.0 1000.0,1392.0 L1000.0,1364.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Group terminals</title></path>
+<path class="line" data-line="Group zones" d="M1084.0,692.0 L1009.9,766.1 Q1000.0,776.0 1000.0,790.0 L1000.0,804.0 Q1000.0,818.0 1009.9,827.9 L1074.1,892.1 Q1084.0,902.0 1084.0,916.0 L1084.0,930.0 Q1084.0,944.0 1098.0,944.0 L1126.0,944.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Group zones</title></path>
+<path class="line" data-line="Groups" d="M1336.0,1406.0 L1294.0,1364.0 L1261.9,1331.9 Q1252.0,1322.0 1238.0,1322.0 L1140.0,1322.0 Q1126.0,1322.0 1126.0,1336.0 L1126.0,1350.0 Q1126.0,1364.0 1135.9,1373.9 L1210.0,1448.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Groups</title></path>
+<path class="line" data-line="Guests" d="M958.0,1238.0 L1084.0,1112.0 L1126.0,1070.0 L1168.0,1028.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Guests</title></path>
+<path class="line" data-line="Integrations" d="M1294.0,566.0 L1261.9,598.1 Q1252.0,608.0 1238.0,608.0 L1182.0,608.0 Q1168.0,608.0 1158.1,598.1 L1093.9,533.9 Q1084.0,524.0 1084.0,510.0 L1084.0,482.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Integrations</title></path>
+<path class="line" data-line="Locks" d="M1924.0,230.0 L1812.0,230.0 Q1798.0,230.0 1788.1,239.9 L1765.9,262.1 Q1756.0,272.0 1756.0,286.0 L1756.0,356.0 L1756.0,440.0 L1756.0,510.0 Q1756.0,524.0 1765.9,533.9 L1872.1,640.1 Q1882.0,650.0 1896.0,650.0 L1910.0,650.0 Q1924.0,650.0 1924.0,636.0 L1924.0,580.0 Q1924.0,566.0 1933.9,556.1 L2008.0,482.0 L2050.0,440.0 L2134.0,356.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Locks</title></path>
+<path class="line" data-line="Logins" d="M1630.0,272.0 L1546.0,356.0 L1513.9,388.1 Q1504.0,398.0 1504.0,412.0 L1504.0,524.0 L1504.0,636.0 Q1504.0,650.0 1494.1,659.9 L1471.9,682.1 Q1462.0,692.0 1452.1,682.1 L1429.9,659.9 Q1420.0,650.0 1420.0,636.0 L1420.0,524.0 L1420.0,440.0 L1420.0,356.0 L1420.0,272.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Logins</title></path>
+<path class="line" data-line="Members" d="M790.0,860.0 L860.0,860.0 Q874.0,860.0 883.9,850.1 L906.1,827.9 Q916.0,818.0 916.0,804.0 L916.0,790.0 Q916.0,776.0 925.9,766.1 L990.1,701.9 Q1000.0,692.0 1000.0,678.0 L1000.0,608.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Members</title></path>
+<path class="line" data-line="Organizations" d="M2134.0,1784.0 L2134.0,1672.0 Q2134.0,1658.0 2124.1,1648.1 L2092.0,1616.0 L2050.0,1574.0 L1975.9,1499.9 Q1966.0,1490.0 1966.0,1476.0 L1966.0,1462.0 Q1966.0,1448.0 1956.1,1438.1 L1891.9,1373.9 Q1882.0,1364.0 1868.0,1364.0 L1770.0,1364.0 Q1756.0,1364.0 1746.1,1373.9 L1639.9,1480.1 Q1630.0,1490.0 1639.9,1499.9 L1714.0,1574.0 L1746.1,1606.1 Q1756.0,1616.0 1756.0,1630.0 L1756.0,1742.0 L1756.0,1826.0 L1756.0,1910.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organizations</title></path>
+<path class="line" data-line="Places" d="M1630.0,1742.0 L1630.0,1658.0 L1630.0,1588.0 Q1630.0,1574.0 1620.1,1564.1 L1513.9,1457.9 Q1504.0,1448.0 1490.0,1448.0 L1476.0,1448.0 Q1462.0,1448.0 1452.1,1457.9 L1429.9,1480.1 Q1420.0,1490.0 1420.0,1504.0 L1420.0,1532.0 L1420.0,1700.0 L1420.0,1784.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Places</title></path>
+<path class="line" data-line="Readers" d="M1504.0,1616.0 L1536.1,1583.9 Q1546.0,1574.0 1546.0,1560.0 L1546.0,1378.0 Q1546.0,1364.0 1560.0,1364.0 L1588.0,1364.0 L1658.0,1364.0 Q1672.0,1364.0 1681.9,1373.9 L1798.0,1490.0 L1882.0,1574.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Readers</title></path>
+<path class="line" data-line="Reports" d="M1042.0,356.0 L958.0,440.0 L841.9,556.1 Q832.0,566.0 832.0,580.0 L832.0,594.0 Q832.0,608.0 818.0,608.0 L762.0,608.0 Q748.0,608.0 748.0,594.0 L748.0,398.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reports</title></path>
+<path class="line" data-line="Role Assignments" d="M538.0,608.0 L612.1,682.1 Q622.0,692.0 636.0,692.0 L650.0,692.0 Q664.0,692.0 664.0,706.0 L664.0,720.0 Q664.0,734.0 678.0,734.0 L748.0,734.0 L790.0,734.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Role Assignments</title></path>
+<path class="line" data-line="Scheduled Reports" d="M538.0,860.0 L608.0,860.0 Q622.0,860.0 631.9,850.1 L654.1,827.9 Q664.0,818.0 654.1,808.1 L589.9,743.9 Q580.0,734.0 566.0,734.0 L538.0,734.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Scheduled Reports</title></path>
+<path class="line" data-line="Schedules" d="M622.0,356.0 L622.0,552.0 Q622.0,566.0 636.0,566.0 L650.0,566.0 Q664.0,566.0 673.9,556.1 L696.1,533.9 Q706.0,524.0 706.0,510.0 L706.0,272.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Schedules</title></path>
+<path class="line" data-line="Shares" d="M244.0,776.0 L328.0,776.0 L356.0,776.0 Q370.0,776.0 379.9,766.1 L402.1,743.9 Q412.0,734.0 412.0,720.0 L412.0,650.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Shares</title></path>
+<path class="line" data-line="Team Memberships" d="M412.0,902.0 L454.0,944.0 L486.1,976.1 Q496.0,986.0 510.0,986.0 L580.0,986.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Team Memberships</title></path>
+<path class="line" data-line="Teams" d="M202.0,1070.0 L234.1,1102.1 Q244.0,1112.0 258.0,1112.0 L356.0,1112.0 Q370.0,1112.0 379.9,1102.1 L402.1,1079.9 Q412.0,1070.0 402.1,1060.1 L370.0,1028.0 L286.0,944.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Teams</title></path>
+<path class="line" data-line="Terminals" d="M1840.0,1196.0 L1812.0,1196.0 Q1798.0,1196.0 1788.1,1205.9 L1723.9,1270.1 Q1714.0,1280.0 1704.1,1270.1 L1639.9,1205.9 Q1630.0,1196.0 1639.9,1186.1 L1746.1,1079.9 Q1756.0,1070.0 1770.0,1070.0 L1798.0,1070.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Terminals</title></path>
+<path class="line" data-line="Users" d="M1168.0,776.0 L1252.0,776.0 L1322.0,776.0 Q1336.0,776.0 1345.9,785.9 L1420.0,860.0 L1494.1,934.1 Q1504.0,944.0 1504.0,958.0 L1504.0,1028.0 L1504.0,1098.0 Q1504.0,1112.0 1494.1,1121.9 L1420.0,1196.0 L1345.9,1270.1 Q1336.0,1280.0 1322.0,1280.0 L1252.0,1280.0 L1182.0,1280.0 Q1168.0,1280.0 1158.1,1270.1 L1084.0,1196.0 L1009.9,1121.9 Q1000.0,1112.0 1000.0,1098.0 L1000.0,1028.0 L1000.0,958.0 Q1000.0,944.0 1009.9,934.1 L1168.0,776.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="More Local" d="M580.0,1700.0 L580.0,1630.0 Q580.0,1616.0 589.9,1606.1 L622.0,1574.0 L706.0,1490.0 L780.1,1415.9 Q790.0,1406.0 804.0,1406.0 L818.0,1406.0 Q832.0,1406.0 841.9,1396.1 L864.1,1373.9 Q874.0,1364.0 874.0,1350.0 L874.0,1336.0 Q874.0,1322.0 883.9,1312.1 L906.1,1289.9 Q916.0,1280.0 930.0,1280.0 L1070.0,1280.0 Q1084.0,1280.0 1093.9,1270.1 L1210.0,1154.0 L1242.1,1121.9 Q1252.0,1112.0 1252.0,1098.0 L1252.0,944.0 L1252.0,916.0 Q1252.0,902.0 1242.1,892.1 L1210.0,860.0 L1177.9,827.9 Q1168.0,818.0 1154.0,818.0 L1098.0,818.0 Q1084.0,818.0 1074.1,808.1 L967.9,701.9 Q958.0,692.0 944.0,692.0 L930.0,692.0 Q916.0,692.0 916.0,678.0 L916.0,580.0 Q916.0,566.0 906.1,556.1 L841.9,491.9 Q832.0,482.0 818.0,482.0 L580.0,482.0 L538.0,482.0 L454.0,482.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1630" y1="440" x2="1630.0" y2="406.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1606.0" y="395.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Cameras</title></rect><text x="1630.0" y="411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAM</text>
+<line x1="1756" y1="734" x2="1780.0416305603426" y2="758.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1756.0416305603426" y="747.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Cameras</title></rect><text x="1780.0416305603426" y="763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAM</text>
+<line x1="2302" y1="1154" x2="2336.0" y2="1154.0" stroke="#0B7A75" stroke-width="7"/><rect x="2312.0" y="1143.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Card assignments</title></rect><text x="2336.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CA</text>
+<line x1="2092" y1="1364" x2="2116.0416305603426" y2="1388.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="2092.0416305603426" y="1377.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Card assignments</title></rect><text x="2116.0416305603426" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CA</text>
+<line x1="2260" y1="608" x2="2294.0" y2="608.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2270.0" y="597.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Cards</title></rect><text x="2294.0" y="613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAR</text>
+<line x1="2260" y1="776" x2="2294.0" y2="776.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2270.0" y="765.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Cards</title></rect><text x="2294.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAR</text>
+<line x1="1084" y1="1658" x2="1108.0416305603426" y2="1682.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1084.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Controller Input Connections</title></rect><text x="1108.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CIC</text>
+<line x1="832" y1="1700" x2="832.0" y2="1734.0" stroke="#5C6BC0" stroke-width="7"/><rect x="808.0" y="1723.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Controller Input Connections</title></rect><text x="832.0" y="1739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CIC</text>
+<line x1="244" y1="1364" x2="219.9583694396574" y2="1388.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="195.9583694396574" y="1377.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Controller Relay Connections</title></rect><text x="219.9583694396574" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRC</text>
+<line x1="160" y1="1196" x2="126.0" y2="1196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="1185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Controller Relay Connections</title></rect><text x="126.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRC</text>
+<line x1="958" y1="1700" x2="958.0" y2="1734.0" stroke="#0B7A75" stroke-width="7"/><rect x="934.0" y="1723.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Controller Wiegand Connections</title></rect><text x="958.0" y="1739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CWC</text>
+<line x1="706" y1="1658" x2="706.0" y2="1692.0" stroke="#0B7A75" stroke-width="7"/><rect x="682.0" y="1681.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Controller Wiegand Connections</title></rect><text x="706.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CWC</text>
+<line x1="328" y1="1448" x2="303.95836943965736" y2="1472.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="279.95836943965736" y="1461.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Controllers</title></rect><text x="303.95836943965736" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="412" y1="1700" x2="387.95836943965736" y2="1724.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="363.95836943965736" y="1713.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Controllers</title></rect><text x="387.95836943965736" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="2176" y1="1028" x2="2210.0" y2="1028.0" stroke="#C2410C" stroke-width="7"/><rect x="2186.0" y="1017.0" width="48" height="22" rx="5" fill="#C2410C"><title>Elevator stops</title></rect><text x="2210.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ES</text>
+<line x1="2092" y1="902" x2="2116.0416305603426" y2="877.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="2092.0416305603426" y="866.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Elevator stops</title></rect><text x="2116.0416305603426" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ES</text>
+<line x1="454" y1="1196" x2="429.95836943965736" y2="1171.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="405.95836943965736" y="1160.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Elevators</title></rect><text x="429.95836943965736" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ELE</text>
+<line x1="454" y1="1490" x2="429.95836943965736" y2="1514.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="405.95836943965736" y="1503.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Elevators</title></rect><text x="429.95836943965736" y="1519.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ELE</text>
+<line x1="538" y1="1112" x2="504.0" y2="1112.0" stroke="#B0287F" stroke-width="7"/><rect x="480.0" y="1101.0" width="48" height="22" rx="5" fill="#B0287F"><title>Floors</title></rect><text x="504.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FLO</text>
+<line x1="706" y1="944" x2="706.0" y2="910.0" stroke="#B0287F" stroke-width="7"/><rect x="682.0" y="899.0" width="48" height="22" rx="5" fill="#B0287F"><title>Floors</title></rect><text x="706.0" y="915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FLO</text>
+<line x1="622" y1="1196" x2="597.9583694396574" y2="1220.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="573.9583694396574" y="1209.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Group elevator stops</title></rect><text x="597.9583694396574" y="1225.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GES</text>
+<line x1="748" y1="1196" x2="772.0416305603426" y2="1220.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="748.0416305603426" y="1209.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Group elevator stops</title></rect><text x="772.0416305603426" y="1225.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GES</text>
+<line x1="790" y1="1070" x2="765.9583694396574" y2="1094.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="741.9583694396574" y="1083.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Group links</title></rect><text x="765.9583694396574" y="1099.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRL</text>
+<line x1="874" y1="986" x2="898.0416305603426" y2="961.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="874.0416305603426" y="950.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Group links</title></rect><text x="898.0416305603426" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRL</text>
+<line x1="706" y1="1322" x2="672.0" y2="1322.0" stroke="#0E9F6E" stroke-width="7"/><rect x="648.0" y="1311.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Group locks</title></rect><text x="672.0" y="1327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GL</text>
+<line x1="874" y1="1154" x2="874.0" y2="1120.0" stroke="#0E9F6E" stroke-width="7"/><rect x="850.0" y="1109.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Group locks</title></rect><text x="874.0" y="1125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GL</text>
+<line x1="1168" y1="1574" x2="1192.0416305603426" y2="1598.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1168.0416305603426" y="1587.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Group terminals</title></rect><text x="1192.0416305603426" y="1603.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GT</text>
+<line x1="1000" y1="1364" x2="1000.0" y2="1330.0" stroke="#0B7A75" stroke-width="7"/><rect x="976.0" y="1319.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Group terminals</title></rect><text x="1000.0" y="1335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GT</text>
+<line x1="1084" y1="692" x2="1108.0416305603426" y2="667.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="1084.0416305603426" y="656.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Group zones</title></rect><text x="1108.0416305603426" y="672.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GZ</text>
+<line x1="1126" y1="944" x2="1160.0" y2="944.0" stroke="#00838F" stroke-width="7"/><rect x="1136.0" y="933.0" width="48" height="22" rx="5" fill="#00838F"><title>Group zones</title></rect><text x="1160.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GZ</text>
+<line x1="1336" y1="1406" x2="1360.0416305603426" y2="1430.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1336.0416305603426" y="1419.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Groups</title></rect><text x="1360.0416305603426" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRO</text>
+<line x1="1210" y1="1448" x2="1234.0416305603426" y2="1472.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1210.0416305603426" y="1461.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Groups</title></rect><text x="1234.0416305603426" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRO</text>
+<line x1="958" y1="1238" x2="933.9583694396574" y2="1262.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="909.9583694396574" y="1251.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Guests</title></rect><text x="933.9583694396574" y="1267.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GUE</text>
+<line x1="1168" y1="1028" x2="1192.0416305603426" y2="1003.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1168.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Guests</title></rect><text x="1192.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GUE</text>
+<line x1="1294" y1="566" x2="1318.0416305603426" y2="541.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1294.0416305603426" y="530.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Integrations</title></rect><text x="1318.0416305603426" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1084" y1="482" x2="1084.0" y2="448.0" stroke="#B8860B" stroke-width="7"/><rect x="1060.0" y="437.0" width="48" height="22" rx="5" fill="#B8860B"><title>Integrations</title></rect><text x="1084.0" y="453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1924" y1="230" x2="1958.0" y2="230.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1934.0" y="219.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Locks</title></rect><text x="1958.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="2134" y1="356" x2="2158.0416305603426" y2="331.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="2134.0416305603426" y="320.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Locks</title></rect><text x="2158.0416305603426" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="1630" y1="272" x2="1654.0416305603426" y2="247.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1630.0416305603426" y="236.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Logins</title></rect><text x="1654.0416305603426" y="252.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOG</text>
+<line x1="1420" y1="272" x2="1420.0" y2="238.0" stroke="#E07B12" stroke-width="7"/><rect x="1396.0" y="227.0" width="48" height="22" rx="5" fill="#E07B12"><title>Logins</title></rect><text x="1420.0" y="243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOG</text>
+<line x1="790" y1="860" x2="756.0" y2="860.0" stroke="#8D6E63" stroke-width="7"/><rect x="732.0" y="849.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Members</title></rect><text x="756.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MEM</text>
+<line x1="1000" y1="608" x2="1000.0" y2="574.0" stroke="#8D6E63" stroke-width="7"/><rect x="976.0" y="563.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Members</title></rect><text x="1000.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MEM</text>
+<line x1="2134" y1="1784" x2="2134.0" y2="1818.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2110.0" y="1807.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Organizations</title></rect><text x="2134.0" y="1823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="1756" y1="1910" x2="1756.0" y2="1944.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1732.0" y="1933.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Organizations</title></rect><text x="1756.0" y="1949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="1630" y1="1742" x2="1630.0" y2="1776.0" stroke="#B0287F" stroke-width="7"/><rect x="1606.0" y="1765.0" width="48" height="22" rx="5" fill="#B0287F"><title>Places</title></rect><text x="1630.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLA</text>
+<line x1="1420" y1="1784" x2="1420.0" y2="1818.0" stroke="#B0287F" stroke-width="7"/><rect x="1396.0" y="1807.0" width="48" height="22" rx="5" fill="#B0287F"><title>Places</title></rect><text x="1420.0" y="1823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLA</text>
+<line x1="1504" y1="1616" x2="1479.9583694396574" y2="1640.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1455.9583694396574" y="1629.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Readers</title></rect><text x="1479.9583694396574" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REA</text>
+<line x1="1882" y1="1574" x2="1906.0416305603426" y2="1598.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1882.0416305603426" y="1587.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Readers</title></rect><text x="1906.0416305603426" y="1603.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REA</text>
+<line x1="1042" y1="356" x2="1066.0416305603426" y2="331.95836943965736" stroke="#E07B12" stroke-width="7"/><rect x="1042.0416305603426" y="320.95836943965736" width="48" height="22" rx="5" fill="#E07B12"><title>Reports</title></rect><text x="1066.0416305603426" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="748" y1="398" x2="748.0" y2="364.0" stroke="#E07B12" stroke-width="7"/><rect x="724.0" y="353.0" width="48" height="22" rx="5" fill="#E07B12"><title>Reports</title></rect><text x="748.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="538" y1="608" x2="513.9583694396574" y2="583.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="489.9583694396574" y="572.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Role Assignments</title></rect><text x="513.9583694396574" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RA</text>
+<line x1="790" y1="734" x2="824.0" y2="734.0" stroke="#C2410C" stroke-width="7"/><rect x="800.0" y="723.0" width="48" height="22" rx="5" fill="#C2410C"><title>Role Assignments</title></rect><text x="824.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RA</text>
+<line x1="538" y1="860" x2="504.0" y2="860.0" stroke="#4A5568" stroke-width="7"/><rect x="480.0" y="849.0" width="48" height="22" rx="5" fill="#4A5568"><title>Scheduled Reports</title></rect><text x="504.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="538" y1="734" x2="504.0" y2="734.0" stroke="#4A5568" stroke-width="7"/><rect x="480.0" y="723.0" width="48" height="22" rx="5" fill="#4A5568"><title>Scheduled Reports</title></rect><text x="504.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="622" y1="356" x2="622.0" y2="322.0" stroke="#7B3FE4" stroke-width="7"/><rect x="598.0" y="311.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Schedules</title></rect><text x="622.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="706" y1="272" x2="706.0" y2="238.0" stroke="#7B3FE4" stroke-width="7"/><rect x="682.0" y="227.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Schedules</title></rect><text x="706.0" y="243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="244" y1="776" x2="210.0" y2="776.0" stroke="#2E7D32" stroke-width="7"/><rect x="186.0" y="765.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Shares</title></rect><text x="210.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHA</text>
+<line x1="412" y1="650" x2="412.0" y2="616.0" stroke="#2E7D32" stroke-width="7"/><rect x="388.0" y="605.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Shares</title></rect><text x="412.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHA</text>
+<line x1="412" y1="902" x2="387.95836943965736" y2="877.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="363.95836943965736" y="866.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Team Memberships</title></rect><text x="387.95836943965736" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TM</text>
+<line x1="580" y1="986" x2="614.0" y2="986.0" stroke="#B8860B" stroke-width="7"/><rect x="590.0" y="975.0" width="48" height="22" rx="5" fill="#B8860B"><title>Team Memberships</title></rect><text x="614.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TM</text>
+<line x1="202" y1="1070" x2="177.9583694396574" y2="1045.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="153.9583694396574" y="1034.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Teams</title></rect><text x="177.9583694396574" y="1050.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="286" y1="944" x2="261.95836943965736" y2="919.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="237.95836943965736" y="908.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Teams</title></rect><text x="261.95836943965736" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1840" y1="1196" x2="1874.0" y2="1196.0" stroke="#2E7D32" stroke-width="7"/><rect x="1850.0" y="1185.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Terminals</title></rect><text x="1874.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TER</text>
+<line x1="1798" y1="1070" x2="1832.0" y2="1070.0" stroke="#2E7D32" stroke-width="7"/><rect x="1808.0" y="1059.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Terminals</title></rect><text x="1832.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TER</text>
+<rect x="1138" y="723" width="60" height="26" rx="13" fill="#D6264F"/><text x="1168" y="741" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">USE</text>
+<line x1="580" y1="1700" x2="580.0" y2="1734.0" stroke="#D6264F" stroke-width="7"/><rect x="556.0" y="1723.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="580.0" y="1739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="454" y1="482" x2="420.0" y2="482.0" stroke="#D6264F" stroke-width="7"/><rect x="396.0" y="471.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="420.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/kisi/kisi-calendars-api/#op-fetchSummary" target="_blank" class="st" data-op="fetchSummary"><title>GET /calendar/summary
+More Local line · fetchSummary</title>
+<circle cx="580" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1705" text-anchor="start" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cameras-api/#op-fetchCameras" target="_blank" class="st" data-op="fetchCameras"><title>GET /cameras
+Cameras line · fetchCameras</title>
+<circle cx="1630" cy="440" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1642" y="445" text-anchor="start" style="fill:#1A1F2C">List cameras</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cameras-api/#op-createCamera" target="_blank" class="st" data-op="createCamera"><title>POST /cameras
+Cameras line · createCamera</title>
+<circle cx="1630" cy="524" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1642" y="529" text-anchor="start" style="fill:#1A1F2C">Create camera</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cameras-api/#op-fetchCamera" target="_blank" class="st" data-op="fetchCamera"><title>GET /cameras/{id}
+Cameras line · fetchCamera</title>
+<circle cx="1630" cy="608" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1642" y="613" text-anchor="start" style="fill:#1A1F2C">Get camera</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cameras-api/#op-updateCamera" target="_blank" class="st" data-op="updateCamera"><title>PATCH /cameras/{id}
+Cameras line · updateCamera</title>
+<circle cx="1672" cy="650" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1684" y="655" text-anchor="start" style="fill:#1A1F2C">Update camera</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cameras-api/#op-deleteCamera" target="_blank" class="st" data-op="deleteCamera"><title>DELETE /cameras/{id}
+Cameras line · deleteCamera</title>
+<circle cx="1714" cy="692" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1710" y1="696" x2="1718" y2="688" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1726" y="697" text-anchor="start" style="fill:#1A1F2C">Delete camera</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cameras-api/#op-fetchVideoLink" target="_blank" class="st" data-op="fetchVideoLink"><title>GET /cameras/{id}/video_link
+Cameras line · fetchVideoLink</title>
+<circle cx="1756" cy="734" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1768" y="739" text-anchor="start" style="fill:#1A1F2C">Get video link</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-fetchCardAssignments" target="_blank" class="st" data-op="fetchCardAssignments"><title>GET /card_assignments
+Card assignments line · fetchCardAssignments</title>
+<circle cx="2302" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2296" y="1166" text-anchor="end" transform="rotate(-45 2296 1166)" style="fill:#1A1F2C">List card assignments</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-createCardAssignment" target="_blank" class="st" data-op="createCardAssignment"><title>POST /card_assignments
+Card assignments line · createCardAssignment</title>
+<circle cx="2218" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2224" y="1142" transform="rotate(-45 2224 1142)" style="fill:#1A1F2C">Create card assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-fetchCardAssignment" target="_blank" class="st" data-op="fetchCardAssignment"><title>GET /card_assignments/{id}
+Card assignments line · fetchCardAssignment</title>
+<circle cx="2134" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2140" y="1142" transform="rotate(-45 2140 1142)" style="fill:#1A1F2C">Get card assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-updateCardAssignment" target="_blank" class="st" data-op="updateCardAssignment"><title>PATCH /card_assignments/{id}
+Card assignments line · updateCardAssignment</title>
+<circle cx="2008" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1996.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Update card assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-deleteCardAssignment" target="_blank" class="st" data-op="deleteCardAssignment"><title>DELETE /card_assignments/{id}
+Card assignments line · deleteCardAssignment</title>
+<circle cx="1966" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1962" y1="1200" x2="1970" y2="1192" stroke="#0B7A75" stroke-width="2"/>
+<text x="1978" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete card assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-activateCardAssignment" target="_blank" class="st" data-op="activateCardAssignment"><title>POST /card_assignments/{id}/activate
+Card assignments line · activateCardAssignment</title>
+<circle cx="1966" cy="1238" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1978" y="1243" text-anchor="start" style="fill:#1A1F2C">Activate card assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-deactivateCardAssignment" target="_blank" class="st" data-op="deactivateCardAssignment"><title>POST /card_assignments/{id}/deactivate
+Card assignments line · deactivateCardAssignment</title>
+<circle cx="2092" cy="1364" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2104" y="1369" text-anchor="start" style="fill:#1A1F2C">Deactivate card assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-card-assignments-api/#op-activateCardAssignmentWithActivationToken" target="_blank" class="st" data-op="activateCardAssignmentWithActivationToken"><title>POST /card_assignments/{activation_token}/activate_with_token
+Card assignments line · activateCardAssignmentWithActivationToken</title>
+<circle cx="2008" cy="1280" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2020" y="1285" text-anchor="start" style="fill:#1A1F2C">Update activate with token</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-fetchCards" target="_blank" class="st" data-op="fetchCards"><title>GET /cards
+Cards line · fetchCards</title>
+<circle cx="2260" cy="608" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2254" y="620" text-anchor="end" transform="rotate(-45 2254 620)" style="fill:#1A1F2C">List cards</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-createCard" target="_blank" class="st" data-op="createCard"><title>POST /cards
+Cards line · createCard</title>
+<circle cx="2176" cy="608" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2182" y="596" transform="rotate(-45 2182 596)" style="fill:#1A1F2C">Create card</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-fetchCard" target="_blank" class="st" data-op="fetchCard"><title>GET /cards/{id}
+Cards line · fetchCard</title>
+<circle cx="2050" cy="608" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2038.0" y="613" text-anchor="end" style="fill:#1A1F2C">Get card</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-deleteCard" target="_blank" class="st" data-op="deleteCard"><title>DELETE /cards/{id}
+Cards line · deleteCard</title>
+<circle cx="1924" cy="734" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1920" y1="738" x2="1928" y2="730" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1936" y="739" text-anchor="start" style="fill:#1A1F2C">Delete card</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-updateCard" target="_blank" class="st" data-op="updateCard"><title>PATCH /cards/{id}
+Cards line · updateCard
+DEPRECATED</title>
+<circle cx="2008" cy="650" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2020" y="655" text-anchor="start" style="fill:#A0A7B4">Update card</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-assignCard" target="_blank" class="st" data-op="assignCard"><title>POST /cards/{id}/assign
+Cards line · assignCard
+DEPRECATED</title>
+<circle cx="2092" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2098" y="764" transform="rotate(-45 2098 764)" style="fill:#A0A7B4">Update assign</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-deassignCard" target="_blank" class="st" data-op="deassignCard"><title>POST /cards/{id}/deassign
+Cards line · deassignCard
+DEPRECATED</title>
+<circle cx="2260" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2254" y="788" text-anchor="end" transform="rotate(-45 2254 788)" style="fill:#A0A7B4">Update deassign</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-activateCard" target="_blank" class="st" data-op="activateCard"><title>POST /cards/{id}/activate
+Cards line · activateCard
+DEPRECATED</title>
+<circle cx="1882" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1873.0" y="795" text-anchor="end" style="fill:#A0A7B4">Activate card</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-activateCardByToken" target="_blank" class="st" data-op="activateCardByToken"><title>POST /cards/{activationToken}/activate_with_token
+Cards line · activateCardByToken
+DEPRECATED</title>
+<circle cx="1924" cy="818" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1918" y="830" text-anchor="end" transform="rotate(-45 1918 830)" style="fill:#A0A7B4">Update activate with token</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-cards-api/#op-deactivateCard" target="_blank" class="st" data-op="deactivateCard"><title>POST /cards/{id}/deactivate
+Cards line · deactivateCard
+DEPRECATED</title>
+<circle cx="2176" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2182" y="764" transform="rotate(-45 2182 764)" style="fill:#A0A7B4">Deactivate card</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-input-connections-api/#op-fetchControllerInputConnections" target="_blank" class="st" data-op="fetchControllerInputConnections"><title>GET /controller_input_connections
+Controller Input Connections line · fetchControllerInputConnections</title>
+<circle cx="1084" cy="1658" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1096" y="1663" text-anchor="start" style="fill:#1A1F2C">List controller input connections</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-input-connections-api/#op-createControllerInputConnection" target="_blank" class="st" data-op="createControllerInputConnection"><title>POST /controller_input_connections
+Controller Input Connections line · createControllerInputConnection</title>
+<circle cx="958" cy="1532" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="958" y="1504" text-anchor="middle" style="fill:#1A1F2C">Create controller<tspan x="958" dy="13">input connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-input-connections-api/#op-fetchControllerInputConnection" target="_blank" class="st" data-op="fetchControllerInputConnection"><title>GET /controller_input_connections/{id}
+Controller Input Connections line · fetchControllerInputConnection</title>
+<circle cx="916" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="925" y="1551" text-anchor="start" style="fill:#1A1F2C">Get controller input connection</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-input-connections-api/#op-updateControllerInputConnection" target="_blank" class="st" data-op="updateControllerInputConnection"><title>PATCH /controller_input_connections/{id}
+Controller Input Connections line · updateControllerInputConnection</title>
+<circle cx="832" cy="1616" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="832" y="1588" text-anchor="middle" style="fill:#1A1F2C">Update controller<tspan x="832" dy="13">input connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-input-connections-api/#op-deleteControllerInputConnection" target="_blank" class="st" data-op="deleteControllerInputConnection"><title>DELETE /controller_input_connections/{id}
+Controller Input Connections line · deleteControllerInputConnection</title>
+<circle cx="832" cy="1700" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="828" y1="1704" x2="836" y2="1696" stroke="#5C6BC0" stroke-width="2"/>
+<text x="844" y="1698" text-anchor="start" style="fill:#1A1F2C">Delete controller<tspan x="844" dy="13">input connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-inputs-api/#op-fetchControllerInputs" target="_blank" class="st" data-op="fetchControllerInputs"><title>GET /controller_inputs
+More Local line · fetchControllerInputs</title>
+<circle cx="580" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="589" y="1635" text-anchor="start" style="fill:#1A1F2C">List controller inputs</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-relay-connections-api/#op-fetchControllerRelayConnections" target="_blank" class="st" data-op="fetchControllerRelayConnections"><title>GET /controller_relay_connections
+Controller Relay Connections line · fetchControllerRelayConnections</title>
+<circle cx="244" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="232.0" y="1369" text-anchor="end" style="fill:#1A1F2C">List controller relay connections</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-relay-connections-api/#op-createControllerRelayConnection" target="_blank" class="st" data-op="createControllerRelayConnection"><title>POST /controller_relay_connections
+Controller Relay Connections line · createControllerRelayConnection</title>
+<circle cx="328" cy="1280" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="1278" text-anchor="start" style="fill:#1A1F2C">Create controller<tspan x="340" dy="13">relay connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-relay-connections-api/#op-fetchControllerRelayConnection" target="_blank" class="st" data-op="fetchControllerRelayConnection"><title>GET /controller_relay_connections/{id}
+Controller Relay Connections line · fetchControllerRelayConnection</title>
+<circle cx="328" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="328" y="1168" text-anchor="middle" style="fill:#1A1F2C">Get controller<tspan x="328" dy="13">relay connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-relay-connections-api/#op-updateControllerRelayConnection" target="_blank" class="st" data-op="updateControllerRelayConnection"><title>PATCH /controller_relay_connections/{id}
+Controller Relay Connections line · updateControllerRelayConnection</title>
+<circle cx="244" cy="1196" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="238" y="1208" text-anchor="end" transform="rotate(-45 238 1208)" style="fill:#1A1F2C">Update controller relay connection</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-relay-connections-api/#op-deleteControllerRelayConnection" target="_blank" class="st" data-op="deleteControllerRelayConnection"><title>DELETE /controller_relay_connections/{id}
+Controller Relay Connections line · deleteControllerRelayConnection</title>
+<circle cx="160" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="156" y1="1200" x2="164" y2="1192" stroke="#0E9F6E" stroke-width="2"/>
+<text x="160" y="1169" text-anchor="middle" style="fill:#1A1F2C">Delete controller relay connection</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-relays-api/#op-fetchControllerRelays" target="_blank" class="st" data-op="fetchControllerRelays"><title>GET /controller_relays
+More Local line · fetchControllerRelays</title>
+<circle cx="622" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="610.0" y="1579" text-anchor="end" style="fill:#1A1F2C">List controller relays</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-wiegand-connections-api/#op-fetchControllerWiegandConnections" target="_blank" class="st" data-op="fetchControllerWiegandConnections"><title>GET /controller_wiegand_connections
+Controller Wiegand Connections line · fetchControllerWiegandConnections</title>
+<circle cx="958" cy="1700" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="967" y="1719" text-anchor="start" style="fill:#1A1F2C">List controller wiegand connections</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-wiegand-connections-api/#op-createControllerWiegandConnection" target="_blank" class="st" data-op="createControllerWiegandConnection"><title>POST /controller_wiegand_connections
+Controller Wiegand Connections line · createControllerWiegandConnection</title>
+<circle cx="958" cy="1616" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="958" y="1638" text-anchor="middle" style="fill:#1A1F2C">Create controller<tspan x="958" dy="13">wiegand connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-wiegand-connections-api/#op-fetchControllerWiegandConnection" target="_blank" class="st" data-op="fetchControllerWiegandConnection"><title>GET /controller_wiegand_connections/{id}
+Controller Wiegand Connections line · fetchControllerWiegandConnection</title>
+<circle cx="790" cy="1490" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="799" y="1480" text-anchor="start" style="fill:#1A1F2C">Get controller wiegand connection</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-wiegand-connections-api/#op-deleteControllerWiegandConnection" target="_blank" class="st" data-op="deleteControllerWiegandConnection"><title>DELETE /controller_wiegand_connections/{id}
+Controller Wiegand Connections line · deleteControllerWiegandConnection</title>
+<circle cx="706" cy="1658" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="702" y1="1662" x2="710" y2="1654" stroke="#0B7A75" stroke-width="2"/>
+<text x="718" y="1656" text-anchor="start" style="fill:#1A1F2C">Delete controller<tspan x="718" dy="13">wiegand connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-wiegand-connections-api/#op-updateControllerWiegandConnection" target="_blank" class="st" data-op="updateControllerWiegandConnection"><title>PATCH /controller_wiegand_connections/{id}
+Controller Wiegand Connections line · updateControllerWiegandConnection</title>
+<circle cx="706" cy="1574" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="706" y="1596" text-anchor="middle" style="fill:#1A1F2C">Update controller<tspan x="706" dy="13">wiegand connection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controller-wiegands-api/#op-fetchControllerWiegands" target="_blank" class="st" data-op="fetchControllerWiegands"><title>GET /controller_wiegands
+More Local line · fetchControllerWiegands</title>
+<circle cx="706" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="706" y="1462" text-anchor="middle" style="fill:#1A1F2C">List controller<tspan x="706" dy="13">wiegands</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controllers-api/#op-fetchControllers" target="_blank" class="st" data-op="fetchControllers"><title>GET /controllers
+Controllers line · fetchControllers</title>
+<circle cx="328" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="340" y="1453" text-anchor="start" style="fill:#1A1F2C">List controllers</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controllers-api/#op-assignController" target="_blank" class="st" data-op="assignController"><title>POST /controllers/{token}/assign
+Controllers line · assignController</title>
+<circle cx="622" cy="1490" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="610.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Update assign</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controllers-api/#op-deassignController" target="_blank" class="st" data-op="deassignController"><title>POST /controllers/{id}/deassign
+Controllers line · deassignController</title>
+<circle cx="496" cy="1616" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="484.0" y="1621" text-anchor="end" style="fill:#1A1F2C">Update deassign</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controllers-api/#op-rebootController" target="_blank" class="st" data-op="rebootController"><title>POST /controllers/{id}/reboot
+Controllers line · rebootController</title>
+<circle cx="412" cy="1700" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="424" y="1705" text-anchor="start" style="fill:#1A1F2C">Update reboot</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controllers-api/#op-fetchController" target="_blank" class="st" data-op="fetchController"><title>GET /controllers/{id}
+Controllers line · fetchController</title>
+<circle cx="412" cy="1364" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="400.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Get controller</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-controllers-api/#op-updateController" target="_blank" class="st" data-op="updateController"><title>PATCH /controllers/{id}
+Controllers line · updateController</title>
+<circle cx="496" cy="1364" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="505" y="1354" text-anchor="start" style="fill:#1A1F2C">Update controller</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-csv-card-imports-api/#op-createCsvCardImport" target="_blank" class="st" data-op="createCsvCardImport"><title>POST /csv_card_imports
+More Local line · createCsvCardImport</title>
+<circle cx="832" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1411" text-anchor="start" style="fill:#1A1F2C">Create csv card import</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-csv-card-imports-api/#op-fetchCsvCardImport" target="_blank" class="st" data-op="fetchCsvCardImport"><title>GET /csv_card_imports/{id}
+More Local line · fetchCsvCardImport</title>
+<circle cx="874" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="883" y="1354" text-anchor="start" style="fill:#1A1F2C">Get csv card import</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-csv-user-imports-api/#op-createCsvUserImport" target="_blank" class="st" data-op="createCsvUserImport"><title>POST /csv_user_imports
+More Local line · createCsvUserImport</title>
+<circle cx="874" cy="1322" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="865.0" y="1341" text-anchor="end" style="fill:#1A1F2C">Create csv user import</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-csv-user-imports-api/#op-fetchCsvUserImport" target="_blank" class="st" data-op="fetchCsvUserImport"><title>GET /csv_user_imports/{id}
+More Local line · fetchCsvUserImport</title>
+<circle cx="1084" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1075.0" y="1299" text-anchor="end" style="fill:#1A1F2C">Get csv user import</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-fetchElevatorStops" target="_blank" class="st" data-op="fetchElevatorStops"><title>GET /elevator_stops
+Elevator stops line · fetchElevatorStops</title>
+<circle cx="2176" cy="1028" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2170" y="1040" text-anchor="end" transform="rotate(-45 2170 1040)" style="fill:#1A1F2C">List elevator stops</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-createElevatorStop" target="_blank" class="st" data-op="createElevatorStop"><title>POST /elevator_stops
+Elevator stops line · createElevatorStop</title>
+<circle cx="2050" cy="1028" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2044" y="1040" text-anchor="end" transform="rotate(-45 2044 1040)" style="fill:#1A1F2C">Create elevator stop</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-fetchElevatorStop" target="_blank" class="st" data-op="fetchElevatorStop"><title>GET /elevator_stops/{id}
+Elevator stops line · fetchElevatorStop</title>
+<circle cx="1924" cy="1028" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1912.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Get elevator stop</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-updateElevatorStop" target="_blank" class="st" data-op="updateElevatorStop"><title>PATCH /elevator_stops/{id}
+Elevator stops line · updateElevatorStop</title>
+<circle cx="1882" cy="986" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1894" y="991" text-anchor="start" style="fill:#1A1F2C">Update elevator stop</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-deleteElevatorStop" target="_blank" class="st" data-op="deleteElevatorStop"><title>DELETE /elevator_stops/{id}
+Elevator stops line · deleteElevatorStop</title>
+<circle cx="1924" cy="944" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1920" y1="948" x2="1928" y2="940" stroke="#C2410C" stroke-width="2"/>
+<text x="1924" y="916" text-anchor="middle" style="fill:#1A1F2C">Delete<tspan x="1924" dy="13">elevator stop</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-lockDownElevatorStop" target="_blank" class="st" data-op="lockDownElevatorStop"><title>POST /elevator_stops/{id}/lock_down
+Elevator stops line · lockDownElevatorStop</title>
+<circle cx="2092" cy="902" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2104" y="907" text-anchor="start" style="fill:#1A1F2C">Update lock down</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevator-stops-api/#op-cancelElevatorStopLockdown" target="_blank" class="st" data-op="cancelElevatorStopLockdown"><title>POST /elevator_stops/{id}/cancel_lockdown
+Elevator stops line · cancelElevatorStopLockdown</title>
+<circle cx="2050" cy="944" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2062" y="949" text-anchor="start" style="fill:#1A1F2C">Update cancel lockdown</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevators-api/#op-fetchElevators" target="_blank" class="st" data-op="fetchElevators"><title>GET /elevators
+Elevators line · fetchElevators</title>
+<circle cx="454" cy="1196" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="466" y="1201" text-anchor="start" style="fill:#1A1F2C">List elevators</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevators-api/#op-createElevator" target="_blank" class="st" data-op="createElevator"><title>POST /elevators
+Elevators line · createElevator</title>
+<circle cx="538" cy="1280" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="550" y="1285" text-anchor="start" style="fill:#1A1F2C">Create elevator</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevators-api/#op-fetchElevator" target="_blank" class="st" data-op="fetchElevator"><title>GET /elevators/{id}
+Elevators line · fetchElevator</title>
+<circle cx="580" cy="1322" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="568.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Get elevator</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevators-api/#op-updateElevator" target="_blank" class="st" data-op="updateElevator"><title>PATCH /elevators/{id}
+Elevators line · updateElevator</title>
+<circle cx="580" cy="1364" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="592" y="1369" text-anchor="start" style="fill:#1A1F2C">Update elevator</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-elevators-api/#op-deleteElevator" target="_blank" class="st" data-op="deleteElevator"><title>DELETE /elevators/{id}
+Elevators line · deleteElevator</title>
+<circle cx="454" cy="1490" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="450" y1="1494" x2="458" y2="1486" stroke="#00838F" stroke-width="2"/>
+<text x="442.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Delete elevator</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-event-sets-api/#op-createEventSet" target="_blank" class="st" data-op="createEventSet"><title>POST /event_sets
+More Local line · createEventSet</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="1159" text-anchor="start" style="fill:#1A1F2C">Create event set</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-event-sets-api/#op-fetchEventSet" target="_blank" class="st" data-op="fetchEventSet"><title>GET /event_sets/{id}
+More Local line · fetchEventSet</title>
+<circle cx="1252" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="1117" text-anchor="start" style="fill:#1A1F2C">Get event set</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-events-api/#op-fetchEventMetadata" target="_blank" class="st" data-op="fetchEventMetadata"><title>GET /events/meta
+More Local line · fetchEventMetadata
+DEPRECATED</title>
+<circle cx="1252" cy="944" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1264" y="949" text-anchor="start" style="fill:#A0A7B4">Get meta</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-events-api/#op-fetchEventTypes" target="_blank" class="st" data-op="fetchEventTypes"><title>GET /events/types
+More Local line · fetchEventTypes</title>
+<circle cx="1252" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="907" text-anchor="start" style="fill:#1A1F2C">List types</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-floors-api/#op-fetchFloors" target="_blank" class="st" data-op="fetchFloors"><title>GET /floors
+Floors line · fetchFloors</title>
+<circle cx="538" cy="1112" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="544" y="1100" transform="rotate(-45 544 1100)" style="fill:#1A1F2C">List floors</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-floors-api/#op-createFloor" target="_blank" class="st" data-op="createFloor"><title>POST /floors
+Floors line · createFloor</title>
+<circle cx="580" cy="1112" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="580" y="1135" text-anchor="middle" style="fill:#1A1F2C">Create floor</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-floors-api/#op-fetchFloor" target="_blank" class="st" data-op="fetchFloor"><title>GET /floors/{id}
+Floors line · fetchFloor</title>
+<circle cx="706" cy="986" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="715" y="976" text-anchor="start" style="fill:#1A1F2C">Get floor</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-floors-api/#op-updateFloor" target="_blank" class="st" data-op="updateFloor"><title>PATCH /floors/{id}
+Floors line · updateFloor</title>
+<circle cx="706" cy="944" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="718" y="949" text-anchor="start" style="fill:#1A1F2C">Update floor</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-elevator-stops-api/#op-fetchGroupElevatorStops" target="_blank" class="st" data-op="fetchGroupElevatorStops"><title>GET /group_elevator_stops
+Group elevator stops line · fetchGroupElevatorStops</title>
+<circle cx="622" cy="1196" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="613.0" y="1186" text-anchor="end" style="fill:#1A1F2C">List group elevator stops</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-elevator-stops-api/#op-createGroupElevatorStop" target="_blank" class="st" data-op="createGroupElevatorStop"><title>POST /group_elevator_stops
+Group elevator stops line · createGroupElevatorStop</title>
+<circle cx="664" cy="1112" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="670" y="1100" transform="rotate(-45 670 1100)" style="fill:#1A1F2C">Create group elevator stop</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-elevator-stops-api/#op-fetchGroupElevatorStop" target="_blank" class="st" data-op="fetchGroupElevatorStop"><title>GET /group_elevator_stops/{id}
+Group elevator stops line · fetchGroupElevatorStop</title>
+<circle cx="706" cy="1154" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="718" y="1159" text-anchor="start" style="fill:#1A1F2C">Get group elevator stop</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-elevator-stops-api/#op-deleteGroupElevatorStop" target="_blank" class="st" data-op="deleteGroupElevatorStop"><title>DELETE /group_elevator_stops/{id}
+Group elevator stops line · deleteGroupElevatorStop</title>
+<circle cx="748" cy="1196" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="744" y1="1200" x2="752" y2="1192" stroke="#5C6BC0" stroke-width="2"/>
+<text x="736.0" y="1194" text-anchor="end" style="fill:#1A1F2C">Delete group<tspan x="736.0" dy="13">elevator stop</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-links-api/#op-fetchGroup_links" target="_blank" class="st" data-op="fetchGroup_links"><title>GET /group_links
+Group links line · fetchGroup_links</title>
+<circle cx="790" cy="1070" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="802" y="1075" text-anchor="start" style="fill:#1A1F2C">List group links</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-links-api/#op-createGroupLink" target="_blank" class="st" data-op="createGroupLink"><title>POST /group_links
+Group links line · createGroupLink</title>
+<circle cx="832" cy="1028" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="844" y="1033" text-anchor="start" style="fill:#1A1F2C">Create group link</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-links-api/#op-deleteGroupLink" target="_blank" class="st" data-op="deleteGroupLink"><title>DELETE /group_links/{id}
+Group links line · deleteGroupLink</title>
+<circle cx="874" cy="986" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="870" y1="990" x2="878" y2="982" stroke="#8D6E63" stroke-width="2"/>
+<text x="886" y="991" text-anchor="start" style="fill:#1A1F2C">Delete group link</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-locks-api/#op-fetchGroupLocks" target="_blank" class="st" data-op="fetchGroupLocks"><title>GET /group_locks
+Group locks line · fetchGroupLocks</title>
+<circle cx="706" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="706" y="1308" text-anchor="middle" style="fill:#1A1F2C">List group locks</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-locks-api/#op-createGroupLock" target="_blank" class="st" data-op="createGroupLock"><title>POST /group_locks
+Group locks line · createGroupLock</title>
+<circle cx="790" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="790" y="1358" text-anchor="middle" style="fill:#1A1F2C">Create group lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-locks-api/#op-fetchGroupLock" target="_blank" class="st" data-op="fetchGroupLock"><title>GET /group_locks/{id}
+Group locks line · fetchGroupLock</title>
+<circle cx="832" cy="1280" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="820.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Get group lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-locks-api/#op-deleteGroupLock" target="_blank" class="st" data-op="deleteGroupLock"><title>DELETE /group_locks/{id}
+Group locks line · deleteGroupLock</title>
+<circle cx="874" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="870" y1="1158" x2="878" y2="1150" stroke="#0E9F6E" stroke-width="2"/>
+<text x="886" y="1159" text-anchor="start" style="fill:#1A1F2C">Delete group lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-terminals-api/#op-fetchGroupTerminals" target="_blank" class="st" data-op="fetchGroupTerminals"><title>GET /group_terminals
+Group terminals line · fetchGroupTerminals</title>
+<circle cx="1168" cy="1574" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1180" y="1579" text-anchor="start" style="fill:#1A1F2C">List group terminals</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-terminals-api/#op-createGroupTerminal" target="_blank" class="st" data-op="createGroupTerminal"><title>POST /group_terminals
+Group terminals line · createGroupTerminal</title>
+<circle cx="1084" cy="1490" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="1488" text-anchor="start" style="fill:#1A1F2C">Create group<tspan x="1096" dy="13">terminal</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-terminals-api/#op-fetchGroupTerminal" target="_blank" class="st" data-op="fetchGroupTerminal"><title>GET /group_terminals/{id}
+Group terminals line · fetchGroupTerminal</title>
+<circle cx="1000" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1012" y="1411" text-anchor="start" style="fill:#1A1F2C">Get group terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-terminals-api/#op-deleteGroupTerminal" target="_blank" class="st" data-op="deleteGroupTerminal"><title>DELETE /group_terminals/{id}
+Group terminals line · deleteGroupTerminal</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="996" y1="1368" x2="1004" y2="1360" stroke="#0B7A75" stroke-width="2"/>
+<text x="1012" y="1362" text-anchor="start" style="fill:#1A1F2C">Delete group<tspan x="1012" dy="13">terminal</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-zones-api/#op-fetchGroupZones" target="_blank" class="st" data-op="fetchGroupZones"><title>GET /group_zones
+Group zones line · fetchGroupZones</title>
+<circle cx="1084" cy="692" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1096" y="697" text-anchor="start" style="fill:#1A1F2C">List group zones</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-zones-api/#op-createGroupZone" target="_blank" class="st" data-op="createGroupZone"><title>POST /group_zones
+Group zones line · createGroupZone</title>
+<circle cx="1000" cy="818" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1000" y="790" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="1000" dy="13">group zone</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-zones-api/#op-fetchGroupZone" target="_blank" class="st" data-op="fetchGroupZone"><title>GET /group_zones/{id}
+Group zones line · fetchGroupZone</title>
+<circle cx="1084" cy="944" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1084" y="930" text-anchor="middle" style="fill:#1A1F2C">Get group zone</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-group-zones-api/#op-deleteGroupZone" target="_blank" class="st" data-op="deleteGroupZone"><title>DELETE /group_zones/{id}
+Group zones line · deleteGroupZone</title>
+<circle cx="1126" cy="944" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1122" y1="948" x2="1130" y2="940" stroke="#00838F" stroke-width="2"/>
+<text x="1117.0" y="963" text-anchor="end" style="fill:#1A1F2C">Delete group zone</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-groups-api/#op-fetchGroups" target="_blank" class="st" data-op="fetchGroups"><title>GET /groups
+Groups line · fetchGroups</title>
+<circle cx="1336" cy="1406" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1348" y="1411" text-anchor="start" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-groups-api/#op-createGroup" target="_blank" class="st" data-op="createGroup"><title>POST /groups
+Groups line · createGroup</title>
+<circle cx="1294" cy="1364" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="1369" text-anchor="start" style="fill:#1A1F2C">Create group</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-groups-api/#op-fetchGroup" target="_blank" class="st" data-op="fetchGroup"><title>GET /groups/{id}
+Groups line · fetchGroup</title>
+<circle cx="1126" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1114.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Get group</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-groups-api/#op-updateGroup" target="_blank" class="st" data-op="updateGroup"><title>PATCH /groups/{id}
+Groups line · updateGroup</title>
+<circle cx="1126" cy="1364" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="1369" text-anchor="start" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-groups-api/#op-deleteGroup" target="_blank" class="st" data-op="deleteGroup"><title>DELETE /groups/{id}
+Groups line · deleteGroup</title>
+<circle cx="1210" cy="1448" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1206" y1="1452" x2="1214" y2="1444" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1222" y="1453" text-anchor="start" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-guests-api/#op-fetchGuests" target="_blank" class="st" data-op="fetchGuests"><title>GET /guests
+Guests line · fetchGuests</title>
+<circle cx="958" cy="1238" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="1243" text-anchor="start" style="fill:#1A1F2C">List guests</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-guests-api/#op-createGuest" target="_blank" class="st" data-op="createGuest"><title>POST /guests
+Guests line · createGuest</title>
+<circle cx="1084" cy="1112" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="1117" text-anchor="start" style="fill:#1A1F2C">Create guest</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-guests-api/#op-fetchGuest" target="_blank" class="st" data-op="fetchGuest"><title>GET /guests/{id}
+Guests line · fetchGuest</title>
+<circle cx="1126" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="1075" text-anchor="start" style="fill:#1A1F2C">Get guest</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-guests-api/#op-deleteGuest" target="_blank" class="st" data-op="deleteGuest"><title>DELETE /guests/{id}
+Guests line · deleteGuest</title>
+<circle cx="1168" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1164" y1="1032" x2="1172" y2="1024" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1156.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Delete guest</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-holiday-calendars-api/#op-fetchHolidays" target="_blank" class="st" data-op="fetchHolidays"><title>GET /holiday_calendars/{region}/holidays
+More Local line · fetchHolidays</title>
+<circle cx="1084" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1090" y="806" transform="rotate(-45 1090 806)" style="fill:#1A1F2C">List holidays</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-holiday-calendars-api/#op-fetchRegions" target="_blank" class="st" data-op="fetchRegions"><title>GET /holiday_calendars/regions
+More Local line · fetchRegions</title>
+<circle cx="1210" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="865" text-anchor="start" style="fill:#1A1F2C">List regions</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-integrations-api/#op-fetchIntegrations" target="_blank" class="st" data-op="fetchIntegrations"><title>GET /integrations
+Integrations line · fetchIntegrations</title>
+<circle cx="1294" cy="566" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1306" y="571" text-anchor="start" style="fill:#1A1F2C">List integrations</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-integrations-api/#op-createIntegration" target="_blank" class="st" data-op="createIntegration"><title>POST /integrations
+Integrations line · createIntegration</title>
+<circle cx="1252" cy="608" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1264" y="613" text-anchor="start" style="fill:#1A1F2C">Create integration</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-integrations-api/#op-fetchIntegration" target="_blank" class="st" data-op="fetchIntegration"><title>GET /integrations/{id}
+Integrations line · fetchIntegration</title>
+<circle cx="1168" cy="608" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1156.0" y="613" text-anchor="end" style="fill:#1A1F2C">Get integration</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-integrations-api/#op-updateIntegration" target="_blank" class="st" data-op="updateIntegration"><title>PATCH /integrations/{id}
+Integrations line · updateIntegration</title>
+<circle cx="1084" cy="524" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1096" y="529" text-anchor="start" style="fill:#1A1F2C">Update integration</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-integrations-api/#op-deleteIntegration" target="_blank" class="st" data-op="deleteIntegration"><title>DELETE /integrations/{id}
+Integrations line · deleteIntegration</title>
+<circle cx="1084" cy="482" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1080" y1="486" x2="1088" y2="478" stroke="#B8860B" stroke-width="2"/>
+<text x="1096" y="487" text-anchor="start" style="fill:#1A1F2C">Delete integration</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-invites-api/#op-createInvite" target="_blank" class="st" data-op="createInvite"><title>POST /invites
+More Local line · createInvite</title>
+<circle cx="916" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="907.0" y="711" text-anchor="end" style="fill:#1A1F2C">Create invite</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-fetchLocks" target="_blank" class="st" data-op="fetchLocks"><title>GET /locks
+Locks line · fetchLocks</title>
+<circle cx="1924" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1918" y="242" text-anchor="end" transform="rotate(-45 1918 242)" style="fill:#1A1F2C">List locks</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-createLock" target="_blank" class="st" data-op="createLock"><title>POST /locks
+Locks line · createLock</title>
+<circle cx="1798" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1786.0" y="235" text-anchor="end" style="fill:#1A1F2C">Create lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-fetchLock" target="_blank" class="st" data-op="fetchLock"><title>GET /locks/{id}
+Locks line · fetchLock</title>
+<circle cx="1756" cy="272" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="277" text-anchor="start" style="fill:#1A1F2C">Get lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-updateLock" target="_blank" class="st" data-op="updateLock"><title>PATCH /locks/{id}
+Locks line · updateLock</title>
+<circle cx="1756" cy="356" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="361" text-anchor="start" style="fill:#1A1F2C">Update lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-deleteLock" target="_blank" class="st" data-op="deleteLock"><title>DELETE /locks/{id}
+Locks line · deleteLock</title>
+<circle cx="1756" cy="440" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1752" y1="444" x2="1760" y2="436" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1768" y="445" text-anchor="start" style="fill:#1A1F2C">Delete lock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-firstToArriveLock" target="_blank" class="st" data-op="firstToArriveLock"><title>POST /locks/{id}/first_to_arrive
+Locks line · firstToArriveLock</title>
+<circle cx="1924" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1915.0" y="669" text-anchor="end" style="fill:#1A1F2C">Update first to arrive</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-lastToLeaveLock" target="_blank" class="st" data-op="lastToLeaveLock"><title>POST /locks/{id}/last_to_leave
+Locks line · lastToLeaveLock</title>
+<circle cx="1924" cy="566" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1936" y="571" text-anchor="start" style="fill:#1A1F2C">Update last to leave</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-unlockLock" target="_blank" class="st" data-op="unlockLock"><title>POST /locks/{id}/unlock
+Locks line · unlockLock</title>
+<circle cx="2134" cy="356" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2146" y="361" text-anchor="start" style="fill:#1A1F2C">Update unlock</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-lockDownLock" target="_blank" class="st" data-op="lockDownLock"><title>POST /locks/{id}/lock_down
+Locks line · lockDownLock</title>
+<circle cx="2008" cy="482" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2020" y="487" text-anchor="start" style="fill:#1A1F2C">Update lock down</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-cancelLockLockdown" target="_blank" class="st" data-op="cancelLockLockdown"><title>POST /locks/{id}/cancel_lockdown
+Locks line · cancelLockLockdown</title>
+<circle cx="1756" cy="524" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="529" text-anchor="start" style="fill:#1A1F2C">Update cancel lockdown</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-favoriteLock" target="_blank" class="st" data-op="favoriteLock"><title>POST /locks/{id}/favorite
+Locks line · favoriteLock</title>
+<circle cx="1882" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1870.0" y="655" text-anchor="end" style="fill:#1A1F2C">Update favorite</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-locks-api/#op-unfavoriteLock" target="_blank" class="st" data-op="unfavoriteLock"><title>POST /locks/{id}/unfavorite
+Locks line · unfavoriteLock</title>
+<circle cx="2050" cy="440" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2062" y="445" text-anchor="start" style="fill:#1A1F2C">Update unfavorite</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-fetchLogins" target="_blank" class="st" data-op="fetchLogins"><title>GET /logins
+Logins line · fetchLogins</title>
+<circle cx="1420" cy="650" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1408.0" y="655" text-anchor="end" style="fill:#1A1F2C">List logins</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-createLogin" target="_blank" class="st" data-op="createLogin"><title>POST /logins
+Logins line · createLogin</title>
+<circle cx="1420" cy="524" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1411.0" y="514" text-anchor="end" style="fill:#1A1F2C">Create login</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-deleteLogin" target="_blank" class="st" data-op="deleteLogin"><title>DELETE /logins/{id}
+Logins line · deleteLogin</title>
+<circle cx="1420" cy="440" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1416" y1="444" x2="1424" y2="436" stroke="#E07B12" stroke-width="2"/>
+<text x="1408.0" y="445" text-anchor="end" style="fill:#1A1F2C">Delete login</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-promoteLogin" target="_blank" class="st" data-op="promoteLogin"><title>POST /logins/{id}/promote
+Logins line · promoteLogin</title>
+<circle cx="1420" cy="272" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1432" y="277" text-anchor="start" style="fill:#1A1F2C">Update promote</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-resolveLogin" target="_blank" class="st" data-op="resolveLogin"><title>POST /logins/resolve
+Logins line · resolveLogin</title>
+<circle cx="1420" cy="356" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1432" y="361" text-anchor="start" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-fetchCurrentLogin" target="_blank" class="st" data-op="fetchCurrentLogin"><title>GET /login
+Logins line · fetchCurrentLogin</title>
+<circle cx="1630" cy="272" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1642" y="277" text-anchor="start" style="fill:#1A1F2C">Get login</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-updateCurrentLogin" target="_blank" class="st" data-op="updateCurrentLogin"><title>PUT /login
+Logins line · updateCurrentLogin</title>
+<circle cx="1546" cy="356" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1558" y="361" text-anchor="start" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-deleteCurrentLogin" target="_blank" class="st" data-op="deleteCurrentLogin"><title>DELETE /login
+Logins line · deleteCurrentLogin</title>
+<circle cx="1504" cy="398" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1500" y1="402" x2="1508" y2="394" stroke="#E07B12" stroke-width="2"/>
+<text x="1516" y="403" text-anchor="start" style="fill:#1A1F2C">Delete login</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-deleteAllExceptCurrentLogin" target="_blank" class="st" data-op="deleteAllExceptCurrentLogin"><title>DELETE /login/elsewhere
+Logins line · deleteAllExceptCurrentLogin</title>
+<circle cx="1504" cy="524" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1500" y1="528" x2="1508" y2="520" stroke="#E07B12" stroke-width="2"/>
+<text x="1516" y="529" text-anchor="start" style="fill:#1A1F2C">Delete elsewhere</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-logins-api/#op-promoteCurrentLogin" target="_blank" class="st" data-op="promoteCurrentLogin"><title>POST /login/promote
+Logins line · promoteCurrentLogin</title>
+<circle cx="1462" cy="692" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1456" y="704" text-anchor="end" transform="rotate(-45 1456 704)" style="fill:#1A1F2C">Update promote</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-members-api/#op-fetchMembers" target="_blank" class="st" data-op="fetchMembers"><title>GET /members
+Members line · fetchMembers
+DEPRECATED</title>
+<circle cx="790" cy="860" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="796" y="848" transform="rotate(-45 796 848)" style="fill:#A0A7B4">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-members-api/#op-createMember" target="_blank" class="st" data-op="createMember"><title>POST /members
+Members line · createMember
+DEPRECATED</title>
+<circle cx="874" cy="860" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="886" y="865" text-anchor="start" style="fill:#A0A7B4">Create member</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-members-api/#op-fetchMember" target="_blank" class="st" data-op="fetchMember"><title>GET /members/{id}
+Members line · fetchMember
+DEPRECATED</title>
+<circle cx="916" cy="818" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="928" y="823" text-anchor="start" style="fill:#A0A7B4">Get member</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-members-api/#op-updateMember" target="_blank" class="st" data-op="updateMember"><title>PATCH /members/{id}
+Members line · updateMember
+DEPRECATED</title>
+<circle cx="916" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="904.0" y="781" text-anchor="end" style="fill:#A0A7B4">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-members-api/#op-deleteMember" target="_blank" class="st" data-op="deleteMember"><title>DELETE /members/{id}
+Members line · deleteMember
+DEPRECATED</title>
+<circle cx="1000" cy="608" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="988.0" y="613" text-anchor="end" style="fill:#A0A7B4">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-fetchOrganizations" target="_blank" class="st" data-op="fetchOrganizations"><title>GET /organizations
+Organizations line · fetchOrganizations</title>
+<circle cx="1756" cy="1742" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="1747" text-anchor="start" style="fill:#1A1F2C">List organizations</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-fetchPublicOrganization" target="_blank" class="st" data-op="fetchPublicOrganization"><title>GET /organizations/{domain}/public
+Organizations line · fetchPublicOrganization</title>
+<circle cx="1756" cy="1910" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="1915" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-findOrganizations" target="_blank" class="st" data-op="findOrganizations"><title>POST /organizations/find
+Organizations line · findOrganizations</title>
+<circle cx="1756" cy="1826" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="1831" text-anchor="start" style="fill:#1A1F2C">Find organization</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-fetchCurrentOrganization" target="_blank" class="st" data-op="fetchCurrentOrganization"><title>GET /organization
+Organizations line · fetchCurrentOrganization</title>
+<circle cx="2134" cy="1784" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2146" y="1789" text-anchor="start" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-updateCurrentOrganization" target="_blank" class="st" data-op="updateCurrentOrganization"><title>PATCH /organization
+Organizations line · updateCurrentOrganization</title>
+<circle cx="2134" cy="1658" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2146" y="1663" text-anchor="start" style="fill:#1A1F2C">Update organization</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-fetchCurrentOrganizationSettings" target="_blank" class="st" data-op="fetchCurrentOrganizationSettings"><title>GET /organization/settings
+Organizations line · fetchCurrentOrganizationSettings</title>
+<circle cx="1714" cy="1574" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1726" y="1579" text-anchor="start" style="fill:#1A1F2C">List settings</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-fetchCurrentOrganizationDashboard" target="_blank" class="st" data-op="fetchCurrentOrganizationDashboard"><title>GET /organization/dashboard
+Organizations line · fetchCurrentOrganizationDashboard</title>
+<circle cx="1966" cy="1490" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1978" y="1495" text-anchor="start" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-generateNextCertificate" target="_blank" class="st" data-op="generateNextCertificate"><title>POST /organization/generate_next_certificate
+Organizations line · generateNextCertificate</title>
+<circle cx="1966" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1978" y="1453" text-anchor="start" style="fill:#1A1F2C">Update generate next certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-rotateCertificate" target="_blank" class="st" data-op="rotateCertificate"><title>POST /organization/rotate_certificate
+Organizations line · rotateCertificate</title>
+<circle cx="1630" cy="1490" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1642" y="1488" text-anchor="start" style="fill:#1A1F2C">Update rotate<tspan x="1642" dy="13">certificate</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-fetchOrganizationTransfers" target="_blank" class="st" data-op="fetchOrganizationTransfers"><title>GET /organization/transfers
+Organizations line · fetchOrganizationTransfers</title>
+<circle cx="1756" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="1621" text-anchor="start" style="fill:#1A1F2C">List transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-requestTransfer" target="_blank" class="st" data-op="requestTransfer"><title>POST /organization/request_transfer
+Organizations line · requestTransfer</title>
+<circle cx="1756" cy="1364" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1756" y="1337" text-anchor="middle" style="fill:#1A1F2C">Update request transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-acceptTransfer" target="_blank" class="st" data-op="acceptTransfer"><title>POST /organization/accept_transfer
+Organizations line · acceptTransfer</title>
+<circle cx="2092" cy="1616" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2104" y="1621" text-anchor="start" style="fill:#1A1F2C">Update accept transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-rejectTransfer" target="_blank" class="st" data-op="rejectTransfer"><title>POST /organization/reject_transfer
+Organizations line · rejectTransfer</title>
+<circle cx="1882" cy="1364" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1894" y="1369" text-anchor="start" style="fill:#1A1F2C">Update reject transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-organizations-api/#op-cancelTransfer" target="_blank" class="st" data-op="cancelTransfer"><title>POST /organization/cancel_transfer
+Organizations line · cancelTransfer</title>
+<circle cx="2050" cy="1574" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2062" y="1579" text-anchor="start" style="fill:#1A1F2C">Update cancel transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-fetchPlaces" target="_blank" class="st" data-op="fetchPlaces"><title>GET /places
+Places line · fetchPlaces</title>
+<circle cx="1630" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1642" y="1747" text-anchor="start" style="fill:#1A1F2C">List places</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-createPlace" target="_blank" class="st" data-op="createPlace"><title>POST /places
+Places line · createPlace</title>
+<circle cx="1630" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1642" y="1663" text-anchor="start" style="fill:#1A1F2C">Create place</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-fetchPlace" target="_blank" class="st" data-op="fetchPlace"><title>GET /places/{id}
+Places line · fetchPlace</title>
+<circle cx="1630" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1642" y="1579" text-anchor="start" style="fill:#1A1F2C">Get place</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-updatePlace" target="_blank" class="st" data-op="updatePlace"><title>PATCH /places/{id}
+Places line · updatePlace</title>
+<circle cx="1504" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1516" y="1453" text-anchor="start" style="fill:#1A1F2C">Update place</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-deletePlace" target="_blank" class="st" data-op="deletePlace"><title>DELETE /places/{id}
+Places line · deletePlace</title>
+<circle cx="1462" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1458" y1="1452" x2="1466" y2="1444" stroke="#B0287F" stroke-width="2"/>
+<text x="1462" y="1434" text-anchor="middle" style="fill:#1A1F2C">Delete place</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-lockDownPlace" target="_blank" class="st" data-op="lockDownPlace"><title>POST /places/{id}/lock_down
+Places line · lockDownPlace</title>
+<circle cx="1420" cy="1700" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="1705" text-anchor="start" style="fill:#1A1F2C">Update lock down</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-cancelPlaceLockdown" target="_blank" class="st" data-op="cancelPlaceLockdown"><title>POST /places/{id}/cancel_lockdown
+Places line · cancelPlaceLockdown</title>
+<circle cx="1420" cy="1490" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1408.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Update cancel lockdown</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-favoritePlace" target="_blank" class="st" data-op="favoritePlace"><title>POST /places/{id}/favorite
+Places line · favoritePlace</title>
+<circle cx="1420" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="1537" text-anchor="start" style="fill:#1A1F2C">Update favorite</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-places-api/#op-unfavoritePlace" target="_blank" class="st" data-op="unfavoritePlace"><title>POST /places/{id}/unfavorite
+Places line · unfavoritePlace</title>
+<circle cx="1420" cy="1784" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="1789" text-anchor="start" style="fill:#1A1F2C">Update unfavorite</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-presences-api/#op-fetchPresences" target="_blank" class="st" data-op="fetchPresences"><title>GET /presences
+More Local line · fetchPresences</title>
+<circle cx="916" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="925" y="556" text-anchor="start" style="fill:#1A1F2C">List presences</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-fetchReaders" target="_blank" class="st" data-op="fetchReaders"><title>GET /readers
+Readers line · fetchReaders</title>
+<circle cx="1504" cy="1616" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1516" y="1621" text-anchor="start" style="fill:#1A1F2C">List readers</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-assignReader" target="_blank" class="st" data-op="assignReader"><title>POST /readers/{token}/assign
+Readers line · assignReader</title>
+<circle cx="1588" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1594" y="1352" transform="rotate(-45 1594 1352)" style="fill:#1A1F2C">Update assign</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-deassignReader" target="_blank" class="st" data-op="deassignReader"><title>POST /readers/{id}/deassign
+Readers line · deassignReader</title>
+<circle cx="1672" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1681" y="1354" text-anchor="start" style="fill:#1A1F2C">Update deassign</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-resetTamperedState" target="_blank" class="st" data-op="resetTamperedState"><title>POST /readers/{id}/reset_tamper
+Readers line · resetTamperedState</title>
+<circle cx="1882" cy="1574" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1894" y="1579" text-anchor="start" style="fill:#1A1F2C">Update reset tamper</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-rebootReader" target="_blank" class="st" data-op="rebootReader"><title>POST /readers/{id}/reboot
+Readers line · rebootReader</title>
+<circle cx="1798" cy="1490" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1810" y="1495" text-anchor="start" style="fill:#1A1F2C">Update reboot</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-fetchReader" target="_blank" class="st" data-op="fetchReader"><title>GET /readers/{id}
+Readers line · fetchReader</title>
+<circle cx="1546" cy="1574" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1558" y="1579" text-anchor="start" style="fill:#1A1F2C">Get reader</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-readers-api/#op-updateReader" target="_blank" class="st" data-op="updateReader"><title>PATCH /readers/{id}
+Readers line · updateReader</title>
+<circle cx="1546" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1534.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Update reader</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-reports-api/#op-fetchReports" target="_blank" class="st" data-op="fetchReports"><title>GET /reports
+Reports line · fetchReports</title>
+<circle cx="1042" cy="356" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1054" y="361" text-anchor="start" style="fill:#1A1F2C">List reports</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-reports-api/#op-createReport" target="_blank" class="st" data-op="createReport"><title>POST /reports
+Reports line · createReport</title>
+<circle cx="958" cy="440" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="445" text-anchor="start" style="fill:#1A1F2C">Create report</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-reports-api/#op-fetchReport" target="_blank" class="st" data-op="fetchReport"><title>GET /reports/{id}
+Reports line · fetchReport</title>
+<circle cx="832" cy="608" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="844" y="613" text-anchor="start" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-reports-api/#op-deleteReport" target="_blank" class="st" data-op="deleteReport"><title>DELETE /reports/{id}
+Reports line · deleteReport</title>
+<circle cx="748" cy="608" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="744" y1="612" x2="752" y2="604" stroke="#E07B12" stroke-width="2"/>
+<text x="736.0" y="613" text-anchor="end" style="fill:#1A1F2C">Delete report</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-reports-api/#op-downloadReport" target="_blank" class="st" data-op="downloadReport"><title>POST /reports/{id}/download
+Reports line · downloadReport</title>
+<circle cx="748" cy="398" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="760" y="403" text-anchor="start" style="fill:#1A1F2C">Update download</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-role-assignments-api/#op-fetchRoleAssignments" target="_blank" class="st" data-op="fetchRoleAssignments"><title>GET /role_assignments
+Role Assignments line · fetchRoleAssignments</title>
+<circle cx="538" cy="608" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="547" y="598" text-anchor="start" style="fill:#1A1F2C">List role assignments</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-role-assignments-api/#op-createRoleAssignment" target="_blank" class="st" data-op="createRoleAssignment"><title>POST /role_assignments
+Role Assignments line · createRoleAssignment</title>
+<circle cx="664" cy="692" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="676" y="697" text-anchor="start" style="fill:#1A1F2C">Create role assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-role-assignments-api/#op-fetchRoleAssignment" target="_blank" class="st" data-op="fetchRoleAssignment"><title>GET /role_assignments/{id}
+Role Assignments line · fetchRoleAssignment</title>
+<circle cx="664" cy="734" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="673" y="724" text-anchor="start" style="fill:#1A1F2C">Get role assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-role-assignments-api/#op-updateRoleAssignment" target="_blank" class="st" data-op="updateRoleAssignment"><title>PATCH /role_assignments/{id}
+Role Assignments line · updateRoleAssignment</title>
+<circle cx="748" cy="734" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="748" y="756" text-anchor="middle" style="fill:#1A1F2C">Update role<tspan x="748" dy="13">assignment</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-role-assignments-api/#op-deleteRoleAssignment" target="_blank" class="st" data-op="deleteRoleAssignment"><title>DELETE /role_assignments/{id}
+Role Assignments line · deleteRoleAssignment</title>
+<circle cx="790" cy="734" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="786" y1="738" x2="794" y2="730" stroke="#C2410C" stroke-width="2"/>
+<text x="796" y="722" transform="rotate(-45 796 722)" style="fill:#1A1F2C">Delete role assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-roles-api/#op-fetchRoles" target="_blank" class="st" data-op="fetchRoles"><title>GET /roles
+More Local line · fetchRoles</title>
+<circle cx="832" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="841" y="472" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-roles-api/#op-fetchRole" target="_blank" class="st" data-op="fetchRole"><title>GET /roles/{id}
+More Local line · fetchRole</title>
+<circle cx="580" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="574" y="494" text-anchor="end" transform="rotate(-45 574 494)" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-scheduled-reports-api/#op-fetchScheduledReports" target="_blank" class="st" data-op="fetchScheduledReports"><title>GET /scheduled_reports
+Scheduled Reports line · fetchScheduledReports</title>
+<circle cx="538" cy="860" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="538" y="833" text-anchor="middle" style="fill:#1A1F2C">List scheduled reports</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-scheduled-reports-api/#op-createScheduledReport" target="_blank" class="st" data-op="createScheduledReport"><title>POST /scheduled_reports
+Scheduled Reports line · createScheduledReport</title>
+<circle cx="622" cy="860" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="622" y="882" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="622" dy="13">scheduled report</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-scheduled-reports-api/#op-fetchScheduledReport" target="_blank" class="st" data-op="fetchScheduledReport"><title>GET /scheduled_reports/{id}
+Scheduled Reports line · fetchScheduledReport</title>
+<circle cx="664" cy="818" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="676" y="823" text-anchor="start" style="fill:#1A1F2C">Get scheduled report</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-scheduled-reports-api/#op-updateScheduledReport" target="_blank" class="st" data-op="updateScheduledReport"><title>PATCH /scheduled_reports/{id}
+Scheduled Reports line · updateScheduledReport</title>
+<circle cx="580" cy="734" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="580" y="706" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="580" dy="13">scheduled report</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-scheduled-reports-api/#op-deleteScheduledReport" target="_blank" class="st" data-op="deleteScheduledReport"><title>DELETE /scheduled_reports/{id}
+Scheduled Reports line · deleteScheduledReport</title>
+<circle cx="538" cy="734" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="534" y1="738" x2="542" y2="730" stroke="#4A5568" stroke-width="2"/>
+<text x="538" y="770" text-anchor="middle" style="fill:#1A1F2C">Delete scheduled report</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-schedules-api/#op-fetchSchedules" target="_blank" class="st" data-op="fetchSchedules"><title>GET /schedules
+Schedules line · fetchSchedules</title>
+<circle cx="622" cy="356" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="610.0" y="361" text-anchor="end" style="fill:#1A1F2C">List schedules</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-schedules-api/#op-createSchedule" target="_blank" class="st" data-op="createSchedule"><title>POST /schedules
+Schedules line · createSchedule</title>
+<circle cx="622" cy="566" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="622" y="538" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="622" dy="13">schedule</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-schedules-api/#op-fetchSchedule" target="_blank" class="st" data-op="fetchSchedule"><title>GET /schedules/{id}
+Schedules line · fetchSchedule</title>
+<circle cx="664" cy="566" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="655.0" y="585" text-anchor="end" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-schedules-api/#op-updateSchedule" target="_blank" class="st" data-op="updateSchedule"><title>PATCH /schedules/{id}
+Schedules line · updateSchedule</title>
+<circle cx="706" cy="524" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="706" y="496" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="706" dy="13">schedule</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-schedules-api/#op-deleteSchedule" target="_blank" class="st" data-op="deleteSchedule"><title>DELETE /schedules/{id}
+Schedules line · deleteSchedule</title>
+<circle cx="706" cy="272" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="702" y1="276" x2="710" y2="268" stroke="#7B3FE4" stroke-width="2"/>
+<text x="718" y="277" text-anchor="start" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-scram-api/#op-fetchOfflineCertificate" target="_blank" class="st" data-op="fetchOfflineCertificate"><title>POST /login/offline_certificate
+Logins line · fetchOfflineCertificate</title>
+<circle cx="1504" cy="650" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1516" y="648" text-anchor="start" style="fill:#1A1F2C">Update offline<tspan x="1516" dy="13">certificate</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-shares-api/#op-fetchShares" target="_blank" class="st" data-op="fetchShares"><title>GET /shares
+Shares line · fetchShares
+DEPRECATED</title>
+<circle cx="244" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="250" y="764" transform="rotate(-45 250 764)" style="fill:#A0A7B4">List shares</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-shares-api/#op-createShare" target="_blank" class="st" data-op="createShare"><title>POST /shares
+Shares line · createShare
+DEPRECATED</title>
+<circle cx="328" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="334" y="764" transform="rotate(-45 334 764)" style="fill:#A0A7B4">Create share</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-shares-api/#op-fetchShare" target="_blank" class="st" data-op="fetchShare"><title>GET /shares/{id}
+Shares line · fetchShare
+DEPRECATED</title>
+<circle cx="370" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="382" y="781" text-anchor="start" style="fill:#A0A7B4">Get share</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-shares-api/#op-updateShare" target="_blank" class="st" data-op="updateShare"><title>PATCH /shares/{id}
+Shares line · updateShare
+DEPRECATED</title>
+<circle cx="412" cy="734" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="418" y="722" transform="rotate(-45 418 722)" style="fill:#A0A7B4">Update share</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-shares-api/#op-deleteShare" target="_blank" class="st" data-op="deleteShare"><title>DELETE /shares/{id}
+Shares line · deleteShare
+DEPRECATED</title>
+<circle cx="412" cy="650" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="424" y="655" text-anchor="start" style="fill:#A0A7B4">Delete share</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-signed-upload-urls-api/#op-createSignedUploadURL" target="_blank" class="st" data-op="createSignedUploadURL"><title>POST /signed_upload_urls
+More Local line · createSignedUploadURL</title>
+<circle cx="538" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="532" y="494" text-anchor="end" transform="rotate(-45 532 494)" style="fill:#1A1F2C">Create signed upload url</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-team-memberships-api/#op-fetchTeamMemberships" target="_blank" class="st" data-op="fetchTeamMemberships"><title>GET /team_memberships
+Team Memberships line · fetchTeamMemberships</title>
+<circle cx="412" cy="902" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="424" y="907" text-anchor="start" style="fill:#1A1F2C">List team memberships</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-team-memberships-api/#op-createTeamMembership" target="_blank" class="st" data-op="createTeamMembership"><title>POST /team_memberships
+Team Memberships line · createTeamMembership</title>
+<circle cx="454" cy="944" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="466" y="949" text-anchor="start" style="fill:#1A1F2C">Create team membership</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-team-memberships-api/#op-fetchTeamMembership" target="_blank" class="st" data-op="fetchTeamMembership"><title>GET /team_memberships/{id}
+Team Memberships line · fetchTeamMembership</title>
+<circle cx="496" cy="986" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="484.0" y="991" text-anchor="end" style="fill:#1A1F2C">Get team membership</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-team-memberships-api/#op-deleteTeamMembership" target="_blank" class="st" data-op="deleteTeamMembership"><title>DELETE /team_memberships/{id}
+Team Memberships line · deleteTeamMembership</title>
+<circle cx="580" cy="986" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="576" y1="990" x2="584" y2="982" stroke="#B8860B" stroke-width="2"/>
+<text x="574" y="998" text-anchor="end" transform="rotate(-45 574 998)" style="fill:#1A1F2C">Delete team membership</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-teams-api/#op-fetchTeams" target="_blank" class="st" data-op="fetchTeams"><title>GET /teams
+Teams line · fetchTeams</title>
+<circle cx="202" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="208" y="1058" transform="rotate(-45 208 1058)" style="fill:#1A1F2C">List teams</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-teams-api/#op-createTeam" target="_blank" class="st" data-op="createTeam"><title>POST /teams
+Teams line · createTeam</title>
+<circle cx="370" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="370" y="1135" text-anchor="middle" style="fill:#1A1F2C">Create team</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-teams-api/#op-fetchTeam" target="_blank" class="st" data-op="fetchTeam"><title>GET /teams/{id}
+Teams line · fetchTeam</title>
+<circle cx="412" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="1075" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-teams-api/#op-updateTeam" target="_blank" class="st" data-op="updateTeam"><title>PATCH /teams/{id}
+Teams line · updateTeam</title>
+<circle cx="370" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="1033" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-teams-api/#op-deleteTeam" target="_blank" class="st" data-op="deleteTeam"><title>DELETE /teams/{id}
+Teams line · deleteTeam</title>
+<circle cx="286" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="282" y1="948" x2="290" y2="940" stroke="#D6264F" stroke-width="2"/>
+<text x="298" y="949" text-anchor="start" style="fill:#1A1F2C">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-terminals-api/#op-fetchTerminals" target="_blank" class="st" data-op="fetchTerminals"><title>GET /terminals
+Terminals line · fetchTerminals</title>
+<circle cx="1840" cy="1196" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1834" y="1208" text-anchor="end" transform="rotate(-45 1834 1208)" style="fill:#1A1F2C">List terminals</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-terminals-api/#op-createTerminal" target="_blank" class="st" data-op="createTerminal"><title>POST /terminals
+Terminals line · createTerminal</title>
+<circle cx="1798" cy="1196" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1786.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Create terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-terminals-api/#op-fetchTerminal" target="_blank" class="st" data-op="fetchTerminal"><title>GET /terminals/{id}
+Terminals line · fetchTerminal</title>
+<circle cx="1714" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1708" y="1292" text-anchor="end" transform="rotate(-45 1708 1292)" style="fill:#1A1F2C">Get terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-terminals-api/#op-updateTerminal" target="_blank" class="st" data-op="updateTerminal"><title>PUT /terminals/{id}
+Terminals line · updateTerminal</title>
+<circle cx="1630" cy="1196" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1618.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Update terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-terminals-api/#op-deleteTerminal" target="_blank" class="st" data-op="deleteTerminal"><title>DELETE /terminals/{id}
+Terminals line · deleteTerminal</title>
+<circle cx="1756" cy="1070" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1752" y1="1074" x2="1760" y2="1066" stroke="#2E7D32" stroke-width="2"/>
+<text x="1744.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Delete terminal</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-terminals-api/#op-triggerTerminal" target="_blank" class="st" data-op="triggerTerminal"><title>POST /terminals/{id}/trigger
+Terminals line · triggerTerminal</title>
+<circle cx="1798" cy="1070" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1792" y="1082" text-anchor="end" transform="rotate(-45 1792 1082)" style="fill:#1A1F2C">Update trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-fetchUsers" target="_blank" class="st" data-op="fetchUsers"><title>GET /users
+Users line · fetchUsers</title>
+<circle cx="1420" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1201" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-createUser" target="_blank" class="st" data-op="createUser"><title>POST /users
+Users line · createUser</title>
+<circle cx="1336" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1285" text-anchor="start" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-fetchUser" target="_blank" class="st" data-op="fetchUser"><title>GET /users/{id}
+Users line · fetchUser</title>
+<circle cx="1000" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1117" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-updateUser" target="_blank" class="st" data-op="updateUser"><title>PATCH /users/{id}
+Users line · updateUser</title>
+<circle cx="1000" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1033" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-deleteUser" target="_blank" class="st" data-op="deleteUser"><title>DELETE /users/{id}
+Users line · deleteUser</title>
+<circle cx="1000" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="996" y1="948" x2="1004" y2="940" stroke="#D6264F" stroke-width="2"/>
+<text x="991.0" y="934" text-anchor="end" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-fetchCurrentUser" target="_blank" class="st" data-op="fetchCurrentUser"><title>GET /user
+Users line · fetchCurrentUser</title>
+<circle cx="1168" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1177" y="766" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-updateCurrentUser" target="_blank" class="st" data-op="updateCurrentUser"><title>PATCH /user
+Users line · updateCurrentUser</title>
+<circle cx="1252" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="764" transform="rotate(-45 1258 764)" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-deleteCurrentUser" target="_blank" class="st" data-op="deleteCurrentUser"><title>DELETE /user
+Users line · deleteCurrentUser</title>
+<circle cx="1336" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1332" y1="780" x2="1340" y2="772" stroke="#D6264F" stroke-width="2"/>
+<text x="1348" y="781" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-fetchOTP" target="_blank" class="st" data-op="fetchOTP"><title>POST /user/2fa/otp_secret
+Users line · fetchOTP</title>
+<circle cx="1504" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1117" text-anchor="start" style="fill:#1A1F2C">Update otp secret</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-activate2fa" target="_blank" class="st" data-op="activate2fa"><title>POST /user/2fa/activate
+Users line · activate2fa</title>
+<circle cx="1420" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="865" text-anchor="start" style="fill:#1A1F2C">Activate 2fa</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-deactivate2fa" target="_blank" class="st" data-op="deactivate2fa"><title>POST /user/2fa/deactivate
+Users line · deactivate2fa</title>
+<circle cx="1504" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1033" text-anchor="start" style="fill:#1A1F2C">Deactivate 2fa</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-fetchBackupCodes" target="_blank" class="st" data-op="fetchBackupCodes"><title>POST /user/2fa/backup_codes
+Users line · fetchBackupCodes</title>
+<circle cx="1504" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="949" text-anchor="start" style="fill:#1A1F2C">Create backup code</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-requestPasswordReset" target="_blank" class="st" data-op="requestPasswordReset"><title>POST /users/password
+Users line · requestPasswordReset</title>
+<circle cx="1252" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1252" y="1303" text-anchor="middle" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-passwordReset" target="_blank" class="st" data-op="passwordReset"><title>PATCH /users/password
+Users line · passwordReset</title>
+<circle cx="1168" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1177" y="1270" text-anchor="start" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-users-api/#op-signUpUser" target="_blank" class="st" data-op="signUpUser"><title>POST /users/sign_up
+Users line · signUpUser</title>
+<circle cx="1084" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1090" y="1184" transform="rotate(-45 1090 1184)" style="fill:#1A1F2C">Update sign up</text>
+</a>
+<a href="https://apis.apis.io/apis/kisi/kisi-wireless-locks-api/#op-fetchWirelessLocks" target="_blank" class="st" data-op="fetchWirelessLocks"><title>GET /wireless_locks
+More Local line · fetchWirelessLocks</title>
+<circle cx="454" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="460" y="470" transform="rotate(-45 460 470)" style="fill:#1A1F2C">List wireless locks</text>
+</a>
+<text x="2492" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2492" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">USERS</text>
+<rect x="2492" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2509" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="2534" y="269" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">15</tspan></text>
+<text x="2492" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">ORGANIZATION</text>
+<rect x="2492" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2509" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="2534" y="312" font-size="11" fill="#1A1F2C">Organizations <tspan fill="#8A93A6">14</tspan></text>
+<text x="2492" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">LOCKS</text>
+<rect x="2492" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2509" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOC</text><text x="2534" y="355" font-size="11" fill="#1A1F2C">Locks <tspan fill="#8A93A6">12</tspan></text>
+<text x="2492" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">LOGIN</text>
+<rect x="2492" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="2509" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOG</text><text x="2534" y="398" font-size="11" fill="#1A1F2C">Logins <tspan fill="#8A93A6">11</tspan></text>
+<text x="2492" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">CARDS</text>
+<rect x="2492" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2509" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAR</text><text x="2534" y="441" font-size="11" fill="#1A1F2C">Cards <tspan fill="#8A93A6">10</tspan></text>
+<text x="2492" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">PLACES</text>
+<rect x="2492" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="2509" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLA</text><text x="2534" y="484" font-size="11" fill="#1A1F2C">Places <tspan fill="#8A93A6">9</tspan></text>
+<text x="2492" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">CARD ASSIGNMENTS</text>
+<rect x="2492" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2509" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CA</text><text x="2534" y="527" font-size="11" fill="#1A1F2C">Card assignments <tspan fill="#8A93A6">8</tspan></text>
+<text x="2492" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">READERS</text>
+<rect x="2492" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="2509" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REA</text><text x="2534" y="570" font-size="11" fill="#1A1F2C">Readers <tspan fill="#8A93A6">7</tspan></text>
+<text x="2492" y="596" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">ELEVATOR STOPS</text>
+<rect x="2492" y="603" width="34" height="13" rx="3" fill="#C2410C"/><text x="2509" y="613" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ES</text><text x="2534" y="613" font-size="11" fill="#1A1F2C">Elevator stops <tspan fill="#8A93A6">7</tspan></text>
+<text x="2492" y="639" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">TERMINALS</text>
+<rect x="2492" y="646" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2509" y="656" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TER</text><text x="2534" y="656" font-size="11" fill="#1A1F2C">Terminals <tspan fill="#8A93A6">6</tspan></text>
+<text x="2492" y="682" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">CAMERAS</text>
+<rect x="2492" y="689" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2509" y="699" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAM</text><text x="2534" y="699" font-size="11" fill="#1A1F2C">Cameras <tspan fill="#8A93A6">6</tspan></text>
+<text x="2492" y="725" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2492" y="732" width="34" height="13" rx="3" fill="#D6264F"/><text x="2509" y="742" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2534" y="742" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">20</tspan></text>
+<rect x="2492" y="749" width="34" height="13" rx="3" fill="#B0287F"/><text x="2509" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2534" y="759" font-size="11" fill="#1A1F2C">Controllers <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2492" y="766" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2509" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CIC</text><text x="2534" y="776" font-size="11" fill="#1A1F2C">Controller Input Connections <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="783" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2509" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CRC</text><text x="2534" y="793" font-size="11" fill="#1A1F2C">Controller Relay Connections <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="800" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2509" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CWC</text><text x="2534" y="810" font-size="11" fill="#1A1F2C">Controller Wiegand Connections <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="817" width="34" height="13" rx="3" fill="#00838F"/><text x="2509" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ELE</text><text x="2534" y="827" font-size="11" fill="#1A1F2C">Elevators <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="834" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2509" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRO</text><text x="2534" y="844" font-size="11" fill="#1A1F2C">Groups <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="851" width="34" height="13" rx="3" fill="#B8860B"/><text x="2509" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="2534" y="861" font-size="11" fill="#1A1F2C">Integrations <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="868" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2509" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MEM</text><text x="2534" y="878" font-size="11" fill="#1A1F2C">Members <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="885" width="34" height="13" rx="3" fill="#E07B12"/><text x="2509" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="2534" y="895" font-size="11" fill="#1A1F2C">Reports <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="902" width="34" height="13" rx="3" fill="#C2410C"/><text x="2509" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RA</text><text x="2534" y="912" font-size="11" fill="#1A1F2C">Role Assignments <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="919" width="34" height="13" rx="3" fill="#4A5568"/><text x="2509" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SR</text><text x="2534" y="929" font-size="11" fill="#1A1F2C">Scheduled Reports <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="936" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2509" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCH</text><text x="2534" y="946" font-size="11" fill="#1A1F2C">Schedules <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="953" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2509" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SHA</text><text x="2534" y="963" font-size="11" fill="#1A1F2C">Shares <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="970" width="34" height="13" rx="3" fill="#D6264F"/><text x="2509" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="2534" y="980" font-size="11" fill="#1A1F2C">Teams <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="987" width="34" height="13" rx="3" fill="#B0287F"/><text x="2509" y="997" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FLO</text><text x="2534" y="997" font-size="11" fill="#1A1F2C">Floors <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1004" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2509" y="1014" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GES</text><text x="2534" y="1014" font-size="11" fill="#1A1F2C">Group elevator stops <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1021" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2509" y="1031" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GL</text><text x="2534" y="1031" font-size="11" fill="#1A1F2C">Group locks <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1038" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2509" y="1048" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GT</text><text x="2534" y="1048" font-size="11" fill="#1A1F2C">Group terminals <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1055" width="34" height="13" rx="3" fill="#00838F"/><text x="2509" y="1065" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GZ</text><text x="2534" y="1065" font-size="11" fill="#1A1F2C">Group zones <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1072" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2509" y="1082" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GUE</text><text x="2534" y="1082" font-size="11" fill="#1A1F2C">Guests <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1089" width="34" height="13" rx="3" fill="#B8860B"/><text x="2509" y="1099" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TM</text><text x="2534" y="1099" font-size="11" fill="#1A1F2C">Team Memberships <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2492" y="1106" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2509" y="1116" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRL</text><text x="2534" y="1116" font-size="11" fill="#1A1F2C">Group links <tspan fill="#8A93A6">3</tspan></text>
+<text x="2742" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2760,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2786" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2760,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2786" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2760,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2786" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2760,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2786" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2760,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2786" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2760,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2786" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2760,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2786" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2760,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2786" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2742" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2742" y="463" font-size="10.5" fill="#5A6275">“CSV card imports” → More Local line · 2 ops</text>
+<text x="2742" y="478" font-size="10.5" fill="#5A6275">“CSV user imports” → More Local line · 2 ops</text>
+<text x="2742" y="493" font-size="10.5" fill="#5A6275">“Calendars” → More Local line · 1 op</text>
+<text x="2742" y="508" font-size="10.5" fill="#5A6275">“Controller Inputs” → More Local line · 1 op</text>
+<text x="2742" y="523" font-size="10.5" fill="#5A6275">“Controller Relays” → More Local line · 1 op</text>
+<text x="2742" y="538" font-size="10.5" fill="#5A6275">“Controller Wiegands” → More Local line · 1 op</text>
+<text x="2742" y="553" font-size="10.5" fill="#5A6275">“Event sets” → More Local line · 2 ops</text>
+<text x="2742" y="568" font-size="10.5" fill="#5A6275">“Events” → More Local line · 2 ops</text>
+<text x="2742" y="583" font-size="10.5" fill="#5A6275">“Holiday Calendars” → More Local line · 2 ops</text>
+<text x="2742" y="598" font-size="10.5" fill="#5A6275">“Invites” → More Local line · 1 op</text>
+<text x="2742" y="613" font-size="10.5" fill="#5A6275">“Presences” → More Local line · 1 op</text>
+<text x="2742" y="628" font-size="10.5" fill="#5A6275">“Roles” → More Local line · 2 ops</text>
+<text x="2742" y="643" font-size="10.5" fill="#5A6275">“SCRAM” → Logins line · 1 op</text>
+<text x="2742" y="658" font-size="10.5" fill="#5A6275">“Signed upload URLs” → More Local line · 1 op</text>
+<text x="2742" y="673" font-size="10.5" fill="#5A6275">“Wireless locks” → More Local line · 1 op</text>
+<text x="2742" y="723" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2742" y="740" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2040" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/kisi/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

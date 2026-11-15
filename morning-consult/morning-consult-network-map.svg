@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1364 1356" width="1364" height="1356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1364" height="1356" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Morning-Consult API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">26 operations as stops · 3 tags as lines · 1 interchanges · 3 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Data" d="M538.0,650.0 L505.9,682.1 Q496.0,692.0 496.0,706.0 L496.0,776.0 L496.0,818.0 L496.0,1028.0 L496.0,1112.0 L496.0,1196.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Data</title></path>
+<path class="line" data-line="Lookup" d="M244.0,440.0 L328.0,440.0 L412.0,440.0 L482.0,440.0 Q496.0,440.0 505.9,449.9 L580.0,524.0 L654.1,598.1 Q664.0,608.0 664.0,622.0 L664.0,692.0 L664.0,762.0 Q664.0,776.0 654.1,785.9 L580.0,860.0 L505.9,934.1 Q496.0,944.0 482.0,944.0 L412.0,944.0 L342.0,944.0 Q328.0,944.0 318.1,934.1 L244.0,860.0 L169.9,785.9 Q160.0,776.0 160.0,762.0 L160.0,692.0 L160.0,622.0 Q160.0,608.0 169.9,598.1 L234.1,533.9 Q244.0,524.0 244.0,510.0 L244.0,440.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Lookup</title></path>
+<path class="line" data-line="Morning Consult Local" d="M580.0,230.0 L580.0,314.0" fill="none" stroke="#1F5FD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Morning Consult Local</title></path>
+<line x1="538" y1="650" x2="562.0416305603426" y2="625.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="538.0416305603426" y="614.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Data</title></rect><text x="562.0416305603426" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="496" y1="1196" x2="496.0" y2="1230.0" stroke="#0E9F6E" stroke-width="7"/><rect x="472.0" y="1219.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Data</title></rect><text x="496.0" y="1235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<rect x="214" y="387" width="60" height="26" rx="13" fill="#D6264F"/><text x="244" y="405" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">LOO</text>
+<line x1="580" y1="230" x2="580.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="556.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Morning Consult Local</title></rect><text x="580.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MCL</text>
+<line x1="580" y1="314" x2="580.0" y2="348.0" stroke="#1F5FD1" stroke-width="7"/><rect x="556.0" y="337.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Morning Consult Local</title></rect><text x="580.0" y="353.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MCL</text>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-ai-api/#op-postAIResolve" target="_blank" class="st" data-op="postAIResolve"><title>POST /ai/resolve
+Morning Consult Local line · postAIResolve</title>
+<circle cx="580" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="235" text-anchor="start" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-authentication-api/#op-postAuthToken" target="_blank" class="st" data-op="postAuthToken"><title>POST /auth/token
+Morning Consult Local line · postAuthToken
+Express: X1, X2, X3</title>
+<circle cx="580" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="577" y="311" width="6" height="6" transform="rotate(45 580 314)" fill="#1A1F2C"/>
+<text x="592" y="319" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postSurveysSyndicatedScores" target="_blank" class="st" data-op="postSurveysSyndicatedScores"><title>POST /surveys/syndicated/scores
+Data line · postSurveysSyndicatedScores
+DEPRECATED</title>
+<circle cx="496" cy="1028" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="508" y="1033" text-anchor="start" style="fill:#A0A7B4">Create score</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postSurveysSyndicatedTimeseries" target="_blank" class="st" data-op="postSurveysSyndicatedTimeseries"><title>POST /surveys/syndicated/timeseries
+Data line · postSurveysSyndicatedTimeseries
+DEPRECATED</title>
+<circle cx="496" cy="1112" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="508" y="1117" text-anchor="start" style="fill:#A0A7B4">Create timesery</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postSurveysSyndicatedTimeseriesBatch" target="_blank" class="st" data-op="postSurveysSyndicatedTimeseriesBatch"><title>POST /surveys/syndicated/timeseries/batch
+Data line · postSurveysSyndicatedTimeseriesBatch
+DEPRECATED</title>
+<circle cx="496" cy="1196" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="508" y="1201" text-anchor="start" style="fill:#A0A7B4">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postScores" target="_blank" class="st" data-op="postScores"><title>POST /scores
+Data line · postScores
+Express: X3</title>
+<circle cx="496" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="493" y="773" width="6" height="6" transform="rotate(45 496 776)" fill="#1A1F2C"/>
+<text x="508" y="781" text-anchor="start" style="fill:#1A1F2C">Create score</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postResponses" target="_blank" class="st" data-op="postResponses"><title>POST /responses
+Data line · postResponses
+Express: X1</title>
+<circle cx="538" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="535" y="647" width="6" height="6" transform="rotate(45 538 650)" fill="#1A1F2C"/>
+<text x="550" y="655" text-anchor="start" style="fill:#1A1F2C">Create respons</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postResponsesBulk" target="_blank" class="st" data-op="postResponsesBulk"><title>POST /responses/bulk
+Data line · postResponsesBulk
+Express: X2</title>
+<circle cx="496" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="493" y="689" width="6" height="6" transform="rotate(45 496 692)" fill="#1A1F2C"/>
+<text x="508" y="697" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-data-api/#op-postScoresBulk" target="_blank" class="st" data-op="postScoresBulk"><title>POST /scores/bulk
+Data line · postScoresBulk</title>
+<circle cx="496" cy="818" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="823" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedCountries" target="_blank" class="st" data-op="getSurveysSyndicatedCountries"><title>GET /surveys/syndicated/countries
+Lookup line · getSurveysSyndicatedCountries
+DEPRECATED</title>
+<circle cx="412" cy="944" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="418" y="932" transform="rotate(-45 418 932)" style="fill:#A0A7B4">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedCategories" target="_blank" class="st" data-op="getSurveysSyndicatedCategories"><title>GET /surveys/syndicated/categories
+Lookup line · getSurveysSyndicatedCategories
+DEPRECATED</title>
+<circle cx="496" cy="944" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="508" y="949" text-anchor="start" style="fill:#A0A7B4">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getCategories" target="_blank" class="st" data-op="getCategories"><title>GET /categories
+Lookup line · getCategories</title>
+<circle cx="244" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="232.0" y="445" text-anchor="end" style="fill:#1A1F2C">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedEntities" target="_blank" class="st" data-op="getSurveysSyndicatedEntities"><title>GET /surveys/syndicated/entities
+Lookup line · getSurveysSyndicatedEntities
+DEPRECATED</title>
+<circle cx="328" cy="944" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="316.0" y="949" text-anchor="end" style="fill:#A0A7B4">List entities</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedQuestions" target="_blank" class="st" data-op="getSurveysSyndicatedQuestions"><title>GET /surveys/syndicated/questions
+Lookup line · getSurveysSyndicatedQuestions
+DEPRECATED</title>
+<circle cx="244" cy="860" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="256" y="865" text-anchor="start" style="fill:#A0A7B4">List questions</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getDataSources" target="_blank" class="st" data-op="getDataSources"><title>GET /data_sources
+Lookup line · getDataSources
+Express: X1, X2</title>
+<circle cx="328" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="437" width="6" height="6" transform="rotate(45 328 440)" fill="#1A1F2C"/>
+<text x="334" y="428" transform="rotate(-45 334 428)" style="fill:#1A1F2C">List data sources</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getEntities" target="_blank" class="st" data-op="getEntities"><title>GET /entities
+Lookup line · getEntities
+Express: X1, X3</title>
+<circle cx="580" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="521" width="6" height="6" transform="rotate(45 580 524)" fill="#1A1F2C"/>
+<text x="592" y="529" text-anchor="start" style="fill:#1A1F2C">List entities</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getDataSourceQuestions" target="_blank" class="st" data-op="getDataSourceQuestions"><title>GET /data_sources/{data_source_id}/countries/{country_code}/questions
+Lookup line · getDataSourceQuestions
+Express: X1, X2</title>
+<circle cx="412" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="409" y="437" width="6" height="6" transform="rotate(45 412 440)" fill="#1A1F2C"/>
+<text x="418" y="428" transform="rotate(-45 418 428)" style="fill:#1A1F2C">List questions</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedQuestionsByID" target="_blank" class="st" data-op="getSurveysSyndicatedQuestionsByID"><title>GET /surveys/syndicated/questions/{question_id}
+Lookup line · getSurveysSyndicatedQuestionsByID
+DEPRECATED</title>
+<circle cx="160" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="172" y="781" text-anchor="start" style="fill:#A0A7B4">Get question</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getDataSourceQuestion" target="_blank" class="st" data-op="getDataSourceQuestion"><title>GET /data_sources/{data_source_id}/countries/{country_code}/questions/{question_id}
+Lookup line · getDataSourceQuestion</title>
+<circle cx="496" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="445" text-anchor="start" style="fill:#1A1F2C">Get question</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedScores" target="_blank" class="st" data-op="getSurveysSyndicatedScores"><title>GET /surveys/syndicated/scores
+Lookup line · getSurveysSyndicatedScores
+DEPRECATED</title>
+<circle cx="160" cy="692" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="172" y="697" text-anchor="start" style="fill:#A0A7B4">List scores</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedScoreCountries" target="_blank" class="st" data-op="getSurveysSyndicatedScoreCountries"><title>GET /surveys/syndicated/scores/{score_id}/countries
+Lookup line · getSurveysSyndicatedScoreCountries
+DEPRECATED</title>
+<circle cx="160" cy="608" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="172" y="613" text-anchor="start" style="fill:#A0A7B4">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getSurveysSyndicatedTimeseriesBatchStatus" target="_blank" class="st" data-op="getSurveysSyndicatedTimeseriesBatchStatus"><title>GET /surveys/syndicated/timeseries/batch/{request_id}
+Lookup line · getSurveysSyndicatedTimeseriesBatchStatus
+DEPRECATED</title>
+<circle cx="244" cy="524" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="256" y="529" text-anchor="start" style="fill:#A0A7B4">Get batch</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getScores" target="_blank" class="st" data-op="getScores"><title>GET /scores
+Lookup line · getScores
+Express: X3</title>
+<circle cx="664" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="689" width="6" height="6" transform="rotate(45 664 692)" fill="#1A1F2C"/>
+<text x="676" y="697" text-anchor="start" style="fill:#1A1F2C">List scores</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getScoreDataSources" target="_blank" class="st" data-op="getScoreDataSources"><title>GET /scores/{score_id}/data_sources
+Lookup line · getScoreDataSources
+Express: X3</title>
+<circle cx="580" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="857" width="6" height="6" transform="rotate(45 580 860)" fill="#1A1F2C"/>
+<text x="592" y="865" text-anchor="start" style="fill:#1A1F2C">List data sources</text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getResponsesBulkStatus" target="_blank" class="st" data-op="getResponsesBulkStatus"><title>GET /responses/bulk/{request_id}
+Lookup line · getResponsesBulkStatus
+Express: X2</title>
+<circle cx="664" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="661" y="605" width="6" height="6" transform="rotate(45 664 608)" fill="#1A1F2C"/>
+<text x="676" y="613" text-anchor="start" style="fill:#1A1F2C">Get bulk <tspan font-weight="700" style="fill:#0E9F6E">⇄DAT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/morning-consult/morning-consult-lookup-api/#op-getScoresBulkStatus" target="_blank" class="st" data-op="getScoresBulkStatus"><title>GET /scores/bulk/{request_id}
+Lookup line · getScoresBulkStatus</title>
+<circle cx="664" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="781" text-anchor="start" style="fill:#1A1F2C">Get bulk</text>
+</a>
+<text x="854" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="854" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">MORNING CONSULT</text>
+<rect x="854" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="871" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOO</text><text x="896" y="269" font-size="11" fill="#1A1F2C">Lookup <tspan fill="#8A93A6">17</tspan></text>
+<rect x="854" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="871" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="896" y="286" font-size="11" fill="#1A1F2C">Data <tspan fill="#8A93A6">7</tspan></text>
+<rect x="854" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="871" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MCL</text><text x="896" y="303" font-size="11" fill="#1A1F2C">Morning Consult Local <tspan fill="#8A93A6">2</tspan></text>
+<text x="1104" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1122,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1148" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1122,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1148" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1122,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1148" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1122,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1148" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1122,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1148" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1122,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1148" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1122,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1148" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1122,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1148" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1104" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1104" y="463" font-size="10.5" fill="#5A6275">“AI” → Morning Consult Local line · 1 op</text>
+<text x="1104" y="478" font-size="10.5" fill="#5A6275">“Authentication” → Morning Consult Local line · 1 op</text>
+<text x="1104" y="528" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1104" y="545" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="postAuthToken getDataSources getEntities getDataSourceQuestions postResponses"><rect x="1104" y="557" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1119" y="568" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1141" y="568" font-size="11" fill="#1A1F2C">Morning Consult — brand trendl</text></g>
+<g class="rt" data-stops="postAuthToken getDataSources getDataSourceQuestions postResponsesBulk getResponsesBulkStatus"><rect x="1104" y="576" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1119" y="587" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1141" y="587" font-size="11" fill="#1A1F2C">Morning Consult — bulk Data Br</text></g>
+<g class="rt" data-stops="postAuthToken getScores getScoreDataSources getEntities postScores"><rect x="1104" y="595" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1119" y="606" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1141" y="606" font-size="11" fill="#1A1F2C">Morning Consult — compute a sc</text></g>
+<text x="160" y="1326" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/morning-consult/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
