@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 1062" width="1784" height="1062" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1784" height="1062" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Tako API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">13 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="573.5384615384615" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">TAKO</text>
+<path class="line" data-line="Agent" d="M1084.0,692.0 L1000.0,692.0 L888.0,692.0 Q874.0,692.0 864.1,701.9 L841.9,724.1 Q832.0,734.0 832.0,748.0 L832.0,818.0 L832.0,902.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent</title></path>
+<path class="line" data-line="Tako" d="M160.0,524.0 L244.0,524.0 L272.0,524.0 Q286.0,524.0 295.9,514.1 L318.1,491.9 Q328.0,482.0 328.0,468.0 L328.0,398.0 L328.0,314.0 L328.0,230.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tako</title></path>
+<line x1="1084" y1="692" x2="1118.0" y2="692.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1094.0" y="681.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Agent</title></rect><text x="1118.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="832" y1="902" x2="832.0" y2="936.0" stroke="#0E9F6E" stroke-width="7"/><rect x="808.0" y="925.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Agent</title></rect><text x="832.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="160" y1="524" x2="126.0" y2="524.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="513.0" width="48" height="22" rx="5" fill="#D6264F"><title>Tako</title></rect><text x="126.0" y="529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAK</text>
+<line x1="328" y1="230" x2="328.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="304.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Tako</title></rect><text x="328.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAK</text>
+<a href="https://apis.apis.io/apis/tako/tako-agent-api/#op-listAnswerAgentRuns" target="_blank" class="st" data-op="listAnswerAgentRuns"><title>GET /v1/agent/answer/runs
+Agent line · listAnswerAgentRuns</title>
+<circle cx="1084" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1078" y="704" text-anchor="end" transform="rotate(-45 1078 704)" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-agent-api/#op-createAnswerAgentRun" target="_blank" class="st" data-op="createAnswerAgentRun"><title>POST /v1/agent/answer/runs
+Agent line · createAnswerAgentRun</title>
+<circle cx="1000" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1006" y="680" transform="rotate(-45 1006 680)" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-agent-api/#op-getAnswerAgentRun" target="_blank" class="st" data-op="getAnswerAgentRun"><title>GET /v1/agent/answer/runs/{run_id}
+Agent line · getAnswerAgentRun</title>
+<circle cx="874" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="862.0" y="697" text-anchor="end" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-agent-api/#op-listRetrievalAgentRuns" target="_blank" class="st" data-op="listRetrievalAgentRuns"><title>GET /v1/agent/retrieval/runs
+Agent line · listRetrievalAgentRuns</title>
+<circle cx="832" cy="734" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="739" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-agent-api/#op-createRetrievalAgentRun" target="_blank" class="st" data-op="createRetrievalAgentRun"><title>POST /v1/agent/retrieval/runs
+Agent line · createRetrievalAgentRun</title>
+<circle cx="832" cy="818" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="823" text-anchor="start" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-agent-api/#op-getRetrievalAgentRun" target="_blank" class="st" data-op="getRetrievalAgentRun"><title>GET /v1/agent/retrieval/runs/{run_id}
+Agent line · getRetrievalAgentRun</title>
+<circle cx="832" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="907" text-anchor="start" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-search" target="_blank" class="st" data-op="search"><title>POST /v3/search
+Tako line · search</title>
+<circle cx="328" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="235" text-anchor="start" style="fill:#1A1F2C">Search</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-answer" target="_blank" class="st" data-op="answer"><title>POST /v1/answer
+Tako line · answer</title>
+<circle cx="328" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="487" text-anchor="start" style="fill:#1A1F2C">Update answer</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-graphSearch" target="_blank" class="st" data-op="graphSearch"><title>GET /beta/graph/search
+Tako line · graphSearch</title>
+<circle cx="286" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="529" text-anchor="start" style="fill:#1A1F2C">Search graph</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-graphRelated" target="_blank" class="st" data-op="graphRelated"><title>GET /beta/graph/related
+Tako line · graphRelated</title>
+<circle cx="244" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="512" transform="rotate(-45 250 512)" style="fill:#1A1F2C">Get related</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-graphNode" target="_blank" class="st" data-op="graphNode"><title>GET /beta/graph/node/{id}
+Tako line · graphNode</title>
+<circle cx="160" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="512" transform="rotate(-45 166 512)" style="fill:#1A1F2C">Get node</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-contents" target="_blank" class="st" data-op="contents"><title>POST /v1/contents
+Tako line · contents</title>
+<circle cx="328" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="403" text-anchor="start" style="fill:#1A1F2C">Create content</text>
+</a>
+<a href="https://apis.apis.io/apis/tako/tako-tako-api/#op-createCard" target="_blank" class="st" data-op="createCard"><title>POST /v1/thin_viz/create/
+Tako line · createCard</title>
+<circle cx="328" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="319" text-anchor="start" style="fill:#1A1F2C">Create thin viz</text>
+</a>
+<text x="1274" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1274" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">TAKO</text>
+<rect x="1274" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1291" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAK</text><text x="1316" y="269" font-size="11" fill="#1A1F2C">Tako <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1274" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1291" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="1316" y="286" font-size="11" fill="#1A1F2C">Agent <tspan fill="#8A93A6">6</tspan></text>
+<text x="1524" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1542,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1542,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1542,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1568" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1542,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1568" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1542,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1568" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1542,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1568" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1542,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1568" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1542,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1568" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1524" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1524" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1032" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/tako/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

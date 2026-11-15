@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1406 1104" width="1406" height="1104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1406" height="1104" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Observeai API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">13 operations as stops · 3 tags as lines · 1 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="444.3076923076923" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">OBSERVEAI</text>
+<path class="line" data-line="Ack Dispute Flow" d="M664.0,230.0 L580.0,314.0 L538.0,356.0 L463.9,430.1 Q454.0,440.0 440.0,440.0 L342.0,440.0 Q328.0,440.0 318.1,430.1 L286.0,398.0 L202.0,314.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ack Dispute Flow</title></path>
+<path class="line" data-line="Summary" d="M580.0,440.0 L622.0,482.0 L706.0,566.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Summary</title></path>
+<path class="line" data-line="Observeai Local" d="M370.0,944.0 L286.0,944.0 L160.0,944.0" fill="none" stroke="#1F5FD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Observeai Local</title></path>
+<line x1="664" y1="230" x2="688.0416305603426" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="664.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Ack Dispute Flow</title></rect><text x="688.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ADF</text>
+<line x1="202" y1="314" x2="177.9583694396574" y2="289.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="153.9583694396574" y="278.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>Ack Dispute Flow</title></rect><text x="177.9583694396574" y="294.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ADF</text>
+<line x1="580" y1="440" x2="555.9583694396574" y2="415.95836943965736" stroke="#0E9F6E" stroke-width="7"/><rect x="531.9583694396574" y="404.95836943965736" width="48" height="22" rx="5" fill="#0E9F6E"><title>Summary</title></rect><text x="555.9583694396574" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUM</text>
+<line x1="706" y1="566" x2="730.0416305603426" y2="590.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="706.0416305603426" y="579.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Summary</title></rect><text x="730.0416305603426" y="595.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUM</text>
+<line x1="370" y1="944" x2="404.0" y2="944.0" stroke="#1F5FD1" stroke-width="7"/><rect x="380.0" y="933.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Observeai Local</title></rect><text x="404.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OL</text>
+<line x1="160" y1="944" x2="126.0" y2="944.0" stroke="#1F5FD1" stroke-width="7"/><rect x="102.0" y="933.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Observeai Local</title></rect><text x="126.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OL</text>
+<a href="https://apis.apis.io/apis/observeai/observeai-ack-dispute-flow-api/#op-CreateAckDisputeRequest" target="_blank" class="st" data-op="CreateAckDisputeRequest"><title>POST /v1/data/reports/evaluation/ackdisputedetails
+Ack Dispute Flow line · CreateAckDisputeRequest</title>
+<circle cx="538" cy="356" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="550" y="361" text-anchor="start" style="fill:#1A1F2C">Create ackdisputedetail</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-ack-dispute-flow-api/#op-GetAckDisputeDetails" target="_blank" class="st" data-op="GetAckDisputeDetails"><title>GET /v1/data/reports/evaluation/ackdisputedetails/{request_id}
+Ack Dispute Flow line · GetAckDisputeDetails</title>
+<circle cx="454" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="445.0" y="459" text-anchor="end" style="fill:#1A1F2C">Get ackdisputedetail</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-ack-dispute-flow-api/#op-GetAckDisputeDetailsByIds" target="_blank" class="st" data-op="GetAckDisputeDetailsByIds"><title>POST /v1/data/reports/evaluation/ackdisputedetails/ids
+Ack Dispute Flow line · GetAckDisputeDetailsByIds</title>
+<circle cx="328" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="316.0" y="445" text-anchor="end" style="fill:#1A1F2C">Create id</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-authentication-api/#op-CreateAuthToken" target="_blank" class="st" data-op="CreateAuthToken"><title>POST /v1/oauth/token
+Observeai Local line · CreateAuthToken</title>
+<circle cx="160" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="166" y="932" transform="rotate(-45 166 932)" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-coachings-api/#op-CreateCoachingRequest" target="_blank" class="st" data-op="CreateCoachingRequest"><title>POST /v1/data/reports/coachings
+Ack Dispute Flow line · CreateCoachingRequest</title>
+<circle cx="664" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="235" text-anchor="start" style="fill:#1A1F2C">Create coaching</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-coachings-api/#op-GetCoachings" target="_blank" class="st" data-op="GetCoachings"><title>GET /v1/data/reports/coachings/{request_id}
+Ack Dispute Flow line · GetCoachings</title>
+<circle cx="580" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="319" text-anchor="start" style="fill:#1A1F2C">Get coaching</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-dsr-api/#op-CreateDsrDeleteRequest" target="_blank" class="st" data-op="CreateDsrDeleteRequest"><title>POST /v1/dsr/delete/on-demand
+Observeai Local line · CreateDsrDeleteRequest</title>
+<circle cx="370" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="364" y="956" text-anchor="end" transform="rotate(-45 364 956)" style="fill:#1A1F2C">Update on demand</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-dsr-api/#op-GetDsrDeleteStatus" target="_blank" class="st" data-op="GetDsrDeleteStatus"><title>GET /v1/dsr/delete/{job_id}/status
+Observeai Local line · GetDsrDeleteStatus</title>
+<circle cx="286" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="292" y="932" transform="rotate(-45 292 932)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-evaluations-api/#op-CreateEvaluationRequest" target="_blank" class="st" data-op="CreateEvaluationRequest"><title>POST /v1/data/reports/evaluations
+Ack Dispute Flow line · CreateEvaluationRequest</title>
+<circle cx="286" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="403" text-anchor="start" style="fill:#1A1F2C">Create evaluation</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-evaluations-api/#op-GetEvaluations" target="_blank" class="st" data-op="GetEvaluations"><title>GET /v1/data/reports/evaluations/{request_id}
+Ack Dispute Flow line · GetEvaluations</title>
+<circle cx="202" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="214" y="319" text-anchor="start" style="fill:#1A1F2C">Get evaluation</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-summary-api/#op-CreateSummariesRequest" target="_blank" class="st" data-op="CreateSummariesRequest"><title>POST /v2/data/reports/interactions
+Summary line · CreateSummariesRequest</title>
+<circle cx="580" cy="440" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="592" y="445" text-anchor="start" style="fill:#1A1F2C">Create interaction <tspan font-weight="700" style="fill:#D6264F">⇄ADF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-summary-api/#op-GetSummaries" target="_blank" class="st" data-op="GetSummaries"><title>GET /v2/data/reports/interactions/{request_id}
+Summary line · GetSummaries</title>
+<circle cx="622" cy="482" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="487" text-anchor="start" style="fill:#1A1F2C">Get interaction</text>
+</a>
+<a href="https://apis.apis.io/apis/observeai/observeai-summary-api/#op-GetSummariesByIds" target="_blank" class="st" data-op="GetSummariesByIds"><title>POST /v2/data/reports/interactions/ids
+Summary line · GetSummariesByIds</title>
+<circle cx="706" cy="566" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="571" text-anchor="start" style="fill:#1A1F2C">Create id</text>
+</a>
+<text x="896" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="896" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">OBSERVEAI</text>
+<rect x="896" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="913" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ADF</text><text x="938" y="269" font-size="11" fill="#1A1F2C">Ack Dispute Flow <tspan fill="#8A93A6">7</tspan></text>
+<rect x="896" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="913" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUM</text><text x="938" y="286" font-size="11" fill="#1A1F2C">Summary <tspan fill="#8A93A6">3</tspan></text>
+<rect x="896" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="913" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OL</text><text x="938" y="303" font-size="11" fill="#1A1F2C">Observeai Local <tspan fill="#8A93A6">3</tspan></text>
+<text x="1146" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1164,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1190" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1164,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1190" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1164,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1190" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1164,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1190" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1164,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1190" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1164,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1190" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1164,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1190" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1164,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1190" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1146" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1146" y="463" font-size="10.5" fill="#5A6275">“Authentication” → Observeai Local line · 1 op</text>
+<text x="1146" y="478" font-size="10.5" fill="#5A6275">“Coachings” → Ack Dispute Flow line · 2 ops</text>
+<text x="1146" y="493" font-size="10.5" fill="#5A6275">“DSR” → Observeai Local line · 2 ops</text>
+<text x="1146" y="508" font-size="10.5" fill="#5A6275">“Evaluations” → Ack Dispute Flow line · 2 ops</text>
+<text x="1146" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1146" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1074" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/observeai/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
