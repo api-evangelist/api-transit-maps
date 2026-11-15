@@ -1,0 +1,947 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3192 3162" width="3192" height="3162" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3192" height="3162" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The 360Learning API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">164 operations as stops · 16 tags as lines · 8 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1348" y1="1946" x2="1304" y2="1902" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1348" y1="1946" x2="1304" y2="1902" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Authentication" d="M1128.0,1110.0 L1162.1,1075.9 Q1172.0,1066.0 1186.0,1066.0 L1260.0,1066.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Authentication</title></path>
+<path class="line" data-line="Certificate Outlines" d="M1480.0,1638.0 L1524.0,1594.0 L1568.0,1550.0 L1656.0,1462.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Certificate Outlines</title></path>
+<path class="line" data-line="Classrooms" d="M160.0,802.0 L248.0,890.0 L336.0,978.0 L370.1,1012.1 Q380.0,1022.0 394.0,1022.0 L512.0,1022.0 L586.0,1022.0 Q600.0,1022.0 609.9,1031.9 L634.1,1056.1 Q644.0,1066.0 658.0,1066.0 L776.0,1066.0 L864.0,1066.0 L938.0,1066.0 Q952.0,1066.0 961.9,1056.1 L996.0,1022.0 L1040.0,978.0 L1074.1,943.9 Q1084.0,934.0 1084.0,920.0 L1084.0,816.0 Q1084.0,802.0 1074.1,792.1 L1005.9,723.9 Q996.0,714.0 996.0,700.0 L996.0,626.0 L996.0,494.0 L996.0,406.0 L996.0,318.0 L996.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Classrooms</title></path>
+<path class="line" data-line="Courses" d="M1656.0,1022.0 L1538.0,1022.0 Q1524.0,1022.0 1524.0,1008.0 L1524.0,992.0 Q1524.0,978.0 1533.9,968.1 L1646.1,855.9 Q1656.0,846.0 1656.0,832.0 L1656.0,728.0 Q1656.0,714.0 1670.0,714.0 L1730.0,714.0 Q1744.0,714.0 1753.9,723.9 L1788.0,758.0 L1832.0,802.0 L1866.1,836.1 Q1876.0,846.0 1876.0,860.0 L1876.0,964.0 Q1876.0,978.0 1890.0,978.0 L2096.0,978.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Courses</title></path>
+<path class="line" data-line="Custom Fields" d="M820.0,1594.0 L908.0,1506.0 L952.0,1462.0 L1030.1,1383.9 Q1040.0,1374.0 1054.0,1374.0 L1070.0,1374.0 Q1084.0,1374.0 1074.1,1364.1 L952.0,1242.0 L908.0,1198.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Custom Fields</title></path>
+<path class="line" data-line="Custom Links" d="M1172.0,1990.0 L1250.1,1911.9 Q1260.0,1902.0 1274.0,1902.0 L1290.0,1902.0 Q1304.0,1902.0 1294.1,1892.1 L1225.9,1823.9 Q1216.0,1814.0 1202.0,1814.0 L1172.0,1814.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Custom Links</title></path>
+<path class="line" data-line="External IDs" d="M1084.0,1726.0 L1250.1,1559.9 Q1260.0,1550.0 1274.0,1550.0 L1290.0,1550.0 Q1304.0,1550.0 1313.9,1559.9 L1348.0,1594.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>External IDs</title></path>
+<path class="line" data-line="Groups" d="M1348.0,1154.0 L1436.0,1154.0 L1524.0,1154.0 L1598.0,1154.0 Q1612.0,1154.0 1621.9,1163.9 L1700.0,1242.0 L1778.1,1320.1 Q1788.0,1330.0 1788.0,1344.0 L1788.0,1418.0 L1788.0,1506.0 L1788.0,1580.0 Q1788.0,1594.0 1778.1,1603.9 L1700.0,1682.0 L1621.9,1760.1 Q1612.0,1770.0 1598.0,1770.0 L1524.0,1770.0 L1436.0,1770.0 L1362.0,1770.0 Q1348.0,1770.0 1338.1,1760.1 L1260.0,1682.0 L1181.9,1603.9 Q1172.0,1594.0 1172.0,1580.0 L1172.0,1506.0 L1172.0,1432.0 Q1172.0,1418.0 1181.9,1408.1 L1260.0,1330.0 L1338.1,1251.9 Q1348.0,1242.0 1348.0,1228.0 L1348.0,1154.0" fill="none" stroke="#E07B12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Groups</title></path>
+<path class="line" data-line="Integrations" d="M1436.0,1066.0 L1406.0,1066.0 Q1392.0,1066.0 1382.1,1056.1 L1269.9,943.9 Q1260.0,934.0 1269.9,924.1 L1338.1,855.9 Q1348.0,846.0 1357.9,855.9 L1426.1,924.1 Q1436.0,934.0 1445.9,924.1 L1470.1,899.9 Q1480.0,890.0 1480.0,876.0 L1480.0,802.0 L1480.0,714.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Integrations</title></path>
+<path class="line" data-line="Operations" d="M1436.0,1242.0 L1436.0,1316.0 Q1436.0,1330.0 1445.9,1339.9 L1524.0,1418.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Operations</title></path>
+<path class="line" data-line="Paths" d="M2404.0,1682.0 L2286.0,1682.0 Q2272.0,1682.0 2262.1,1672.1 L2237.9,1647.9 Q2228.0,1638.0 2237.9,1628.1 L2350.1,1515.9 Q2360.0,1506.0 2360.0,1492.0 L2360.0,1388.0 Q2360.0,1374.0 2369.9,1364.1 L2394.1,1339.9 Q2404.0,1330.0 2404.0,1316.0 L2404.0,1168.0 Q2404.0,1154.0 2394.1,1144.1 L2369.9,1119.9 Q2360.0,1110.0 2346.0,1110.0 L2272.0,1110.0 L2198.0,1110.0 Q2184.0,1110.0 2174.1,1119.9 L2149.9,1144.1 Q2140.0,1154.0 2126.0,1154.0 L1934.0,1154.0 Q1920.0,1154.0 1929.9,1163.9 L2042.1,1276.1 Q2052.0,1286.0 2066.0,1286.0 L2140.0,1286.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Paths</title></path>
+<path class="line" data-line="Paths" d="M2228.0,1638.0 L2184.0,1594.0 L2149.9,1559.9 Q2140.0,1550.0 2126.0,1550.0 L2066.0,1550.0 Q2052.0,1550.0 2042.1,1559.9 L1964.0,1638.0 L1929.9,1672.1 Q1920.0,1682.0 1920.0,1696.0 L1920.0,1756.0 Q1920.0,1770.0 1929.9,1779.9 L2008.0,1858.0 L2096.0,1946.0 L2184.0,2034.0 L2228.0,2078.0 L2306.1,2156.1 Q2316.0,2166.0 2330.0,2166.0 L2404.0,2166.0 L2492.0,2166.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Paths</title></path>
+<path class="line" data-line="Skills" d="M1260.0,1198.0 L1225.9,1232.1 Q1216.0,1242.0 1202.0,1242.0 L1142.0,1242.0 Q1128.0,1242.0 1118.1,1251.9 L1084.0,1286.0 L1005.9,1364.1 Q996.0,1374.0 996.0,1388.0 L996.0,1550.0 L996.0,1594.0 L996.0,1624.0 Q996.0,1638.0 986.1,1647.9 L952.0,1682.0 L873.9,1760.1 Q864.0,1770.0 850.0,1770.0 L732.0,1770.0 L644.0,1770.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Skills</title></path>
+<path class="line" data-line="Subscriptions" d="M1568.0,1286.0 L1612.0,1242.0 L1734.1,1119.9 Q1744.0,1110.0 1753.9,1119.9 L1822.1,1188.1 Q1832.0,1198.0 1832.0,1212.0 L1832.0,1228.0 Q1832.0,1242.0 1841.9,1251.9 L1910.1,1320.1 Q1920.0,1330.0 1920.0,1344.0 L1920.0,1360.0 Q1920.0,1374.0 1929.9,1383.9 L1954.1,1408.1 Q1964.0,1418.0 1978.0,1418.0 L2008.0,1418.0 L2096.0,1418.0 L2170.0,1418.0 Q2184.0,1418.0 2193.9,1408.1 L2228.0,1374.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscriptions</title></path>
+<path class="line" data-line="Tags" d="M1744.0,934.0 L1788.0,978.0 L1866.1,1056.1 Q1876.0,1066.0 1890.0,1066.0 L1920.0,1066.0 L2008.0,1066.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="Users" d="M1656.0,3002.0 L1656.0,2914.0 L1656.0,2782.0 L1656.0,2708.0 Q1656.0,2694.0 1646.1,2684.1 L1621.9,2659.9 Q1612.0,2650.0 1612.0,2636.0 L1612.0,2518.0 L1612.0,2430.0 L1612.0,2356.0 Q1612.0,2342.0 1602.1,2332.1 L1577.9,2307.9 Q1568.0,2298.0 1568.0,2284.0 L1568.0,2166.0 L1568.0,2034.0 L1568.0,1916.0 Q1568.0,1902.0 1554.0,1902.0 L1406.0,1902.0 Q1392.0,1902.0 1382.1,1911.9 L1348.0,1946.0 L1304.0,1990.0 L1181.9,2112.1 Q1172.0,2122.0 1158.0,2122.0 L1142.0,2122.0 Q1128.0,2122.0 1118.1,2131.9 L1040.0,2210.0 L996.0,2254.0 L917.9,2332.1 Q908.0,2342.0 908.0,2356.0 L908.0,2372.0 Q908.0,2386.0 898.1,2395.9 L820.0,2474.0 L732.0,2562.0 L644.0,2650.0 L556.0,2738.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="360Learning Local" d="M1436.0,1506.0 L1348.0,1418.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>360Learning Local</title></path>
+<line x1="1128" y1="1110" x2="1103.9583694396574" y2="1134.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="1079.9583694396574" y="1123.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Authentication</title></rect><text x="1103.9583694396574" y="1139.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="1260" y1="1066" x2="1294.0" y2="1066.0" stroke="#4A5568" stroke-width="7"/><rect x="1270.0" y="1055.0" width="48" height="22" rx="5" fill="#4A5568"><title>Authentication</title></rect><text x="1294.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="1480" y1="1638" x2="1455.9583694396574" y2="1662.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1431.9583694396574" y="1651.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Certificate Outlines</title></rect><text x="1455.9583694396574" y="1667.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CO</text>
+<line x1="1656" y1="1462" x2="1680.0416305603426" y2="1437.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1656.0416305603426" y="1426.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Certificate Outlines</title></rect><text x="1680.0416305603426" y="1442.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CO</text>
+<line x1="160" y1="802" x2="135.9583694396574" y2="777.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="111.95836943965739" y="766.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Classrooms</title></rect><text x="135.9583694396574" y="782.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="996" y1="230" x2="996.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="972.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Classrooms</title></rect><text x="996.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="1656" y1="1022" x2="1690.0" y2="1022.0" stroke="#B0287F" stroke-width="7"/><rect x="1666.0" y="1011.0" width="48" height="22" rx="5" fill="#B0287F"><title>Courses</title></rect><text x="1690.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COU</text>
+<line x1="2096" y1="978" x2="2130.0" y2="978.0" stroke="#B0287F" stroke-width="7"/><rect x="2106.0" y="967.0" width="48" height="22" rx="5" fill="#B0287F"><title>Courses</title></rect><text x="2130.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COU</text>
+<line x1="820" y1="1594" x2="795.9583694396574" y2="1618.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="771.9583694396574" y="1607.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Custom Fields</title></rect><text x="795.9583694396574" y="1623.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CF</text>
+<line x1="908" y1="1198" x2="883.9583694396574" y2="1173.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="859.9583694396574" y="1162.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Custom Fields</title></rect><text x="883.9583694396574" y="1178.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CF</text>
+<line x1="1172" y1="1990" x2="1147.9583694396574" y2="2014.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="1123.9583694396574" y="2003.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Custom Links</title></rect><text x="1147.9583694396574" y="2019.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CL</text>
+<line x1="1172" y1="1814" x2="1138.0" y2="1814.0" stroke="#00838F" stroke-width="7"/><rect x="1114.0" y="1803.0" width="48" height="22" rx="5" fill="#00838F"><title>Custom Links</title></rect><text x="1138.0" y="1819.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CL</text>
+<line x1="1084" y1="1726" x2="1059.9583694396574" y2="1750.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1035.9583694396574" y="1739.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>External IDs</title></rect><text x="1059.9583694396574" y="1755.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EID</text>
+<line x1="1348" y1="1594" x2="1372.0416305603426" y2="1618.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1348.0416305603426" y="1607.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>External IDs</title></rect><text x="1372.0416305603426" y="1623.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EID</text>
+<rect x="1318" y="1101" width="60" height="26" rx="13" fill="#E07B12"/><text x="1348" y="1119" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">GRO</text>
+<line x1="1436" y1="1066" x2="1470.0" y2="1066.0" stroke="#B8860B" stroke-width="7"/><rect x="1446.0" y="1055.0" width="48" height="22" rx="5" fill="#B8860B"><title>Integrations</title></rect><text x="1470.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1480" y1="714" x2="1480.0" y2="680.0" stroke="#B8860B" stroke-width="7"/><rect x="1456.0" y="669.0" width="48" height="22" rx="5" fill="#B8860B"><title>Integrations</title></rect><text x="1480.0" y="685.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1436" y1="1242" x2="1436.0" y2="1208.0" stroke="#D6264F" stroke-width="7"/><rect x="1412.0" y="1197.0" width="48" height="22" rx="5" fill="#D6264F"><title>Operations</title></rect><text x="1436.0" y="1213.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPE</text>
+<line x1="1524" y1="1418" x2="1548.0416305603426" y2="1442.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1524.0416305603426" y="1431.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Operations</title></rect><text x="1548.0416305603426" y="1447.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPE</text>
+<line x1="2492.0" y1="2157.0000000001023" x2="2492.0" y2="2174.9999999998977" stroke="#D6264F" stroke-width="6" stroke-linecap="round"/>
+<line x1="2404" y1="1682" x2="2438.0" y2="1682.0" stroke="#D6264F" stroke-width="7"/><rect x="2414.0" y="1671.0" width="48" height="22" rx="5" fill="#D6264F"><title>Paths</title></rect><text x="2438.0" y="1687.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="2140" y1="1286" x2="2174.0" y2="1286.0" stroke="#D6264F" stroke-width="7"/><rect x="2150.0" y="1275.0" width="48" height="22" rx="5" fill="#D6264F"><title>Paths</title></rect><text x="2174.0" y="1291.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="1260" y1="1198" x2="1284.0416305603426" y2="1173.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1260.0416305603426" y="1162.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Skills</title></rect><text x="1284.0416305603426" y="1178.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="644" y1="1770" x2="610.0" y2="1770.0" stroke="#7B3FE4" stroke-width="7"/><rect x="586.0" y="1759.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Skills</title></rect><text x="610.0" y="1775.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="1568" y1="1286" x2="1543.9583694396574" y2="1310.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1519.9583694396574" y="1299.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Subscriptions</title></rect><text x="1543.9583694396574" y="1315.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="2228" y1="1374" x2="2252.0416305603426" y2="1349.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="2228.0416305603426" y="1338.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Subscriptions</title></rect><text x="2252.0416305603426" y="1354.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1744" y1="934" x2="1719.9583694396574" y2="909.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1695.9583694396574" y="898.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Tags</title></rect><text x="1719.9583694396574" y="914.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="2008" y1="1066" x2="2042.0" y2="1066.0" stroke="#2E7D32" stroke-width="7"/><rect x="2018.0" y="1055.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Tags</title></rect><text x="2042.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1656" y1="3002" x2="1656.0" y2="3036.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1632.0" y="3025.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Users</title></rect><text x="1656.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="556" y1="2738" x2="531.9583694396574" y2="2762.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="507.9583694396574" y="2751.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Users</title></rect><text x="531.9583694396574" y="2767.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1436" y1="1506" x2="1460.0416305603426" y2="1530.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1436.0416305603426" y="1519.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>360Learning Local</title></rect><text x="1460.0416305603426" y="1535.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">3LL</text>
+<line x1="1348" y1="1418" x2="1323.9583694396574" y2="1393.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1299.9583694396574" y="1382.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>360Learning Local</title></rect><text x="1323.9583694396574" y="1398.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">3LL</text>
+<a href="https://apis.apis.io/apis/360learning/360learning-authentication-api/#op-v2.authentication.GenerateTokenController_generateToken" target="_blank" class="st" data-op="v2.authentication.GenerateTokenController_generateToken"><title>POST /api/v2/oauth2/token
+Authentication line · v2.authentication.GenerateTokenController_generateToken</title>
+<circle cx="1128" cy="1110" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1116.0" y="1115" text-anchor="end" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-authentication-api/#op-v2.authentication.GeneratePluginBackendTokenController_generatePluginBackendToken" target="_blank" class="st" data-op="v2.authentication.GeneratePluginBackendTokenController_generatePluginBackendToken"><title>POST /api/v2/plugin/oauth2/backend-token
+Authentication line · v2.authentication.GeneratePluginBackendTokenController_generatePluginBackendToken</title>
+<circle cx="1172" cy="1066" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1160.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Update backend token</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-authentication-api/#op-v2.authentication.GeneratePluginClientTokenController_generatePluginClientToken" target="_blank" class="st" data-op="v2.authentication.GeneratePluginClientTokenController_generatePluginClientToken"><title>POST /api/v2/plugin/oauth2/client-token
+Authentication line · v2.authentication.GeneratePluginClientTokenController_generatePluginClientToken</title>
+<circle cx="1260" cy="1066" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1254" y="1078" text-anchor="end" transform="rotate(-45 1254 1078)" style="fill:#1A1F2C">Update client token</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-certificate-outlines-api/#op-v2.certificateOutlines.CreateCertificateOutlineController_createCertificateOutline" target="_blank" class="st" data-op="v2.certificateOutlines.CreateCertificateOutlineController_createCertificateOutline"><title>POST /api/v2/certificate-outlines
+Certificate Outlines line · v2.certificateOutlines.CreateCertificateOutlineController_createCertificateOutline</title>
+<circle cx="1524" cy="1594" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1536" y="1599" text-anchor="start" style="fill:#1A1F2C">Create certificate outline</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-certificate-outlines-api/#op-v2.certificateOutlines.GetCertificateOutlinesController_getCertificateOutlines" target="_blank" class="st" data-op="v2.certificateOutlines.GetCertificateOutlinesController_getCertificateOutlines"><title>GET /api/v2/certificate-outlines
+Certificate Outlines line · v2.certificateOutlines.GetCertificateOutlinesController_getCertificateOutlines</title>
+<circle cx="1480" cy="1638" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1492" y="1643" text-anchor="start" style="fill:#1A1F2C">List certificate outlines</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-certificate-outlines-api/#op-v2.certificateOutlines.DeleteCertificateOutlineController_deleteCertificateOutline" target="_blank" class="st" data-op="v2.certificateOutlines.DeleteCertificateOutlineController_deleteCertificateOutline"><title>DELETE /api/v2/certificate-outlines/{certificateOutlineId}
+Certificate Outlines line · v2.certificateOutlines.DeleteCertificateOutlineController_deleteCertificateOutline</title>
+<circle cx="1656" cy="1462" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1652" y1="1466" x2="1660" y2="1458" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1644.0" y="1467" text-anchor="end" style="fill:#1A1F2C">Delete certificate outline</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-certificate-outlines-api/#op-v2.certificateOutlines.UpdateCertificateOutlineController_updateCertificateOutline" target="_blank" class="st" data-op="v2.certificateOutlines.UpdateCertificateOutlineController_updateCertificateOutline"><title>PATCH /api/v2/certificate-outlines/{certificateOutlineId}
+Certificate Outlines line · v2.certificateOutlines.UpdateCertificateOutlineController_updateCertificateOutline</title>
+<circle cx="1568" cy="1550" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1580" y="1555" text-anchor="start" style="fill:#1A1F2C">Update certificate outline</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.CreateClassroomController_createClassroom" target="_blank" class="st" data-op="v2.classrooms.CreateClassroomController_createClassroom"><title>POST /api/v2/classrooms
+Classrooms line · v2.classrooms.CreateClassroomController_createClassroom</title>
+<circle cx="1084" cy="934" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="939" text-anchor="start" style="fill:#1A1F2C">Create classroom</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetClassroomsController_getClassrooms" target="_blank" class="st" data-op="v2.classrooms.GetClassroomsController_getClassrooms"><title>GET /api/v2/classrooms
+Classrooms line · v2.classrooms.GetClassroomsController_getClassrooms</title>
+<circle cx="1040" cy="978" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1052" y="983" text-anchor="start" style="fill:#1A1F2C">List classrooms</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetClassroomController_getClassroom" target="_blank" class="st" data-op="v2.classrooms.GetClassroomController_getClassroom"><title>GET /api/v2/classrooms/{classroomId}
+Classrooms line · v2.classrooms.GetClassroomController_getClassroom</title>
+<circle cx="1084" cy="802" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="807" text-anchor="start" style="fill:#1A1F2C">Get classroom</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.UpdateClassroomController_updateClassroom" target="_blank" class="st" data-op="v2.classrooms.UpdateClassroomController_updateClassroom"><title>PATCH /api/v2/classrooms/{classroomId}
+Classrooms line · v2.classrooms.UpdateClassroomController_updateClassroom</title>
+<circle cx="996" cy="714" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1008" y="719" text-anchor="start" style="fill:#1A1F2C">Update classroom</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetClassroomRegistrationsController_getClassroomRegistrations" target="_blank" class="st" data-op="v2.classrooms.GetClassroomRegistrationsController_getClassroomRegistrations"><title>GET /api/v2/classrooms/{classroomId}/registrations
+Classrooms line · v2.classrooms.GetClassroomRegistrationsController_getClassroomRegistrations</title>
+<circle cx="996" cy="626" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1008" y="631" text-anchor="start" style="fill:#1A1F2C">List registrations</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.CreateClassroomSlotController_createClassroomSlot" target="_blank" class="st" data-op="v2.classrooms.CreateClassroomSlotController_createClassroomSlot"><title>POST /api/v2/classrooms/{classroomId}/slots
+Classrooms line · v2.classrooms.CreateClassroomSlotController_createClassroomSlot</title>
+<circle cx="996" cy="406" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1008" y="411" text-anchor="start" style="fill:#1A1F2C">Create slot</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetClassroomSlotsController_getClassroomSlots" target="_blank" class="st" data-op="v2.classrooms.GetClassroomSlotsController_getClassroomSlots"><title>GET /api/v2/classrooms/{classroomId}/slots
+Classrooms line · v2.classrooms.GetClassroomSlotsController_getClassroomSlots</title>
+<circle cx="996" cy="494" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1008" y="499" text-anchor="start" style="fill:#1A1F2C">List slots</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.DeleteClassroomSlotController_deleteClassroomSlot" target="_blank" class="st" data-op="v2.classrooms.DeleteClassroomSlotController_deleteClassroomSlot"><title>DELETE /api/v2/classrooms/{classroomId}/slots/{classroomSlotId}
+Classrooms line · v2.classrooms.DeleteClassroomSlotController_deleteClassroomSlot</title>
+<circle cx="996" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="992" y1="234" x2="1000" y2="226" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1008" y="235" text-anchor="start" style="fill:#1A1F2C">Delete slot</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.UpdateClassroomSlotController_updateClassroomSlot" target="_blank" class="st" data-op="v2.classrooms.UpdateClassroomSlotController_updateClassroomSlot"><title>PATCH /api/v2/classrooms/{classroomId}/slots/{classroomSlotId}
+Classrooms line · v2.classrooms.UpdateClassroomSlotController_updateClassroomSlot</title>
+<circle cx="996" cy="318" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1008" y="323" text-anchor="start" style="fill:#1A1F2C">Update slot</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.CreateAttendanceSheetController_createAttendanceSheet" target="_blank" class="st" data-op="v2.classrooms.CreateAttendanceSheetController_createAttendanceSheet"><title>POST /api/v2/classroom-slots/{classroomSlotId}/attendance-sheets
+Classrooms line · v2.classrooms.CreateAttendanceSheetController_createAttendanceSheet</title>
+<circle cx="248" cy="890" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="260" y="895" text-anchor="start" style="fill:#1A1F2C">Create attendance sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetAttendanceSheetsController_getAttendanceSheets" target="_blank" class="st" data-op="v2.classrooms.GetAttendanceSheetsController_getAttendanceSheets"><title>GET /api/v2/classroom-slots/{classroomSlotId}/attendance-sheets
+Classrooms line · v2.classrooms.GetAttendanceSheetsController_getAttendanceSheets</title>
+<circle cx="160" cy="802" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="172" y="807" text-anchor="start" style="fill:#1A1F2C">List attendance sheets</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.DeleteAttendanceSheetController_deleteAttendanceSheet" target="_blank" class="st" data-op="v2.classrooms.DeleteAttendanceSheetController_deleteAttendanceSheet"><title>DELETE /api/v2/classroom-slots/{classroomSlotId}/attendance-sheets/{attendanceSheetId}
+Classrooms line · v2.classrooms.DeleteAttendanceSheetController_deleteAttendanceSheet</title>
+<circle cx="380" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="376" y1="1026" x2="384" y2="1018" stroke="#1F5FD1" stroke-width="2"/>
+<text x="368.0" y="1027" text-anchor="end" style="fill:#1A1F2C">Delete attendance sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.UpdateAttendanceSheetController_updateAttendanceSheet" target="_blank" class="st" data-op="v2.classrooms.UpdateAttendanceSheetController_updateAttendanceSheet"><title>PUT /api/v2/classroom-slots/{classroomSlotId}/attendance-sheets/{attendanceSheetId}
+Classrooms line · v2.classrooms.UpdateAttendanceSheetController_updateAttendanceSheet</title>
+<circle cx="336" cy="978" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="348" y="983" text-anchor="start" style="fill:#1A1F2C">Update attendance sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetAttendancesController_getAttendances" target="_blank" class="st" data-op="v2.classrooms.GetAttendancesController_getAttendances"><title>GET /api/v2/classroom-slots/{classroomSlotId}/attendance-sheets/{attendanceSheetId}/attendances
+Classrooms line · v2.classrooms.GetAttendancesController_getAttendances</title>
+<circle cx="512" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="518" y="1010" transform="rotate(-45 518 1010)" style="fill:#1A1F2C">List attendances</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetClassroomSlotWaitlistController_getClassroomSlotWaitlist" target="_blank" class="st" data-op="v2.classrooms.GetClassroomSlotWaitlistController_getClassroomSlotWaitlist"><title>GET /api/v2/classroom-slots/{classroomSlotId}/waitlist
+Classrooms line · v2.classrooms.GetClassroomSlotWaitlistController_getClassroomSlotWaitlist</title>
+<circle cx="864" cy="1066" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="870" y="1054" transform="rotate(-45 870 1054)" style="fill:#1A1F2C">Get waitlist</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.JoinClassroomSlotWaitlistController_joinClassroomSlotWaitlist" target="_blank" class="st" data-op="v2.classrooms.JoinClassroomSlotWaitlistController_joinClassroomSlotWaitlist"><title>POST /api/v2/classroom-slots/{classroomSlotId}/waitlist/{userId}
+Classrooms line · v2.classrooms.JoinClassroomSlotWaitlistController_joinClassroomSlotWaitlist</title>
+<circle cx="952" cy="1066" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="943.0" y="1085" text-anchor="end" style="fill:#1A1F2C">Update waitlist</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.LeaveClassroomSlotWaitlistController_leaveClassroomSlotWaitlist" target="_blank" class="st" data-op="v2.classrooms.LeaveClassroomSlotWaitlistController_leaveClassroomSlotWaitlist"><title>DELETE /api/v2/classroom-slots/{classroomSlotId}/waitlist/{userId}
+Classrooms line · v2.classrooms.LeaveClassroomSlotWaitlistController_leaveClassroomSlotWaitlist</title>
+<circle cx="996" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="992" y1="1026" x2="1000" y2="1018" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1008" y="1027" text-anchor="start" style="fill:#1A1F2C">Delete waitlist</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.AddSlotRegistrationController_addSlotRegistration" target="_blank" class="st" data-op="v2.classrooms.AddSlotRegistrationController_addSlotRegistration"><title>POST /api/v2/classroom-slots/{classroomSlotId}/registrations/{userId}
+Classrooms line · v2.classrooms.AddSlotRegistrationController_addSlotRegistration</title>
+<circle cx="644" cy="1066" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="632.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Update registration</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.GetSlotRegistrationsController_getSlotRegistrations" target="_blank" class="st" data-op="v2.classrooms.GetSlotRegistrationsController_getSlotRegistrations"><title>GET /api/v2/classroom-slots/{classroomSlotId}/registrations
+Classrooms line · v2.classrooms.GetSlotRegistrationsController_getSlotRegistrations</title>
+<circle cx="600" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="612" y="1027" text-anchor="start" style="fill:#1A1F2C">List registrations</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-classrooms-api/#op-v2.classrooms.UpdateSlotRegistrationController_updateSlotRegistration" target="_blank" class="st" data-op="v2.classrooms.UpdateSlotRegistrationController_updateSlotRegistration"><title>PATCH /api/v2/classroom-slots/{classroomSlotId}/registrations/{slotRegistrationId}
+Classrooms line · v2.classrooms.UpdateSlotRegistrationController_updateSlotRegistration</title>
+<circle cx="776" cy="1066" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="782" y="1054" transform="rotate(-45 782 1054)" style="fill:#1A1F2C">Update registration</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.ArchiveOrUnarchiveCourseController_archiveOrUnarchiveCourse" target="_blank" class="st" data-op="v2.courses.ArchiveOrUnarchiveCourseController_archiveOrUnarchiveCourse"><title>PUT /api/v2/courses/{courseId}/archive
+Courses line · v2.courses.ArchiveOrUnarchiveCourseController_archiveOrUnarchiveCourse</title>
+<circle cx="1788" cy="758" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1800" y="763" text-anchor="start" style="fill:#1A1F2C">Archive courses</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.CreateELearningStandardCourseController_createELearningStandardCourse" target="_blank" class="st" data-op="v2.courses.CreateELearningStandardCourseController_createELearningStandardCourse"><title>POST /api/v2/courses/elearning-standard
+Courses line · v2.courses.CreateELearningStandardCourseController_createELearningStandardCourse</title>
+<circle cx="1524" cy="978" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1536" y="983" text-anchor="start" style="fill:#1A1F2C">Update elearning standard</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.GenerateFromPromptController_generateFromPrompt" target="_blank" class="st" data-op="v2.courses.GenerateFromPromptController_generateFromPrompt"><title>POST /api/v2/courses/generate-from-prompt
+Courses line · v2.courses.GenerateFromPromptController_generateFromPrompt</title>
+<circle cx="1656" cy="714" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1665" y="704" text-anchor="start" style="fill:#1A1F2C">Update generate from prompt</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.GetAllCourseStatsController_getAllCourseStats" target="_blank" class="st" data-op="v2.courses.GetAllCourseStatsController_getAllCourseStats"><title>GET /api/v2/courses/stats
+Courses line · v2.courses.GetAllCourseStatsController_getAllCourseStats</title>
+<circle cx="1744" cy="714" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1756" y="719" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.GetCourseController_getCourse" target="_blank" class="st" data-op="v2.courses.GetCourseController_getCourse"><title>GET /api/v2/courses/{courseId}
+Courses line · v2.courses.GetCourseController_getCourse</title>
+<circle cx="1524" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1533" y="1012" text-anchor="start" style="fill:#1A1F2C">Get cours</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.GetCourseCustomFieldValuesController_getCourseCustomFieldValues" target="_blank" class="st" data-op="v2.courses.GetCourseCustomFieldValuesController_getCourseCustomFieldValues"><title>GET /api/v2/courses/{courseId}/custom-fields/values
+Courses line · v2.courses.GetCourseCustomFieldValuesController_getCourseCustomFieldValues</title>
+<circle cx="1832" cy="802" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1844" y="807" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.UpdateCourseCustomFieldValuesController_updateCourseCustomFieldValues" target="_blank" class="st" data-op="v2.courses.UpdateCourseCustomFieldValuesController_updateCourseCustomFieldValues"><title>PUT /api/v2/courses/{courseId}/custom-fields/values
+Courses line · v2.courses.UpdateCourseCustomFieldValuesController_updateCourseCustomFieldValues</title>
+<circle cx="1876" cy="846" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1888" y="851" text-anchor="start" style="fill:#1A1F2C">Create value</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.GetCoursesController_getCourses" target="_blank" class="st" data-op="v2.courses.GetCoursesController_getCourses"><title>GET /api/v2/courses
+Courses line · v2.courses.GetCoursesController_getCourses</title>
+<circle cx="1656" cy="1022" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1650" y="1034" text-anchor="end" transform="rotate(-45 1650 1034)" style="fill:#1A1F2C">List courses</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.GetCourseTagsController_getTags" target="_blank" class="st" data-op="v2.courses.GetCourseTagsController_getTags"><title>GET /api/v2/courses/{courseId}/tags
+Courses line · v2.courses.GetCourseTagsController_getTags</title>
+<circle cx="1876" cy="978" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1885" y="968" text-anchor="start" style="fill:#1A1F2C">List tags <tspan font-weight="700" style="fill:#2E7D32">⇄TAG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.UpdateTagsController_updateTags" target="_blank" class="st" data-op="v2.courses.UpdateTagsController_updateTags"><title>PUT /api/v2/courses/{courseId}/tags
+Courses line · v2.courses.UpdateTagsController_updateTags</title>
+<circle cx="2096" cy="978" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2090" y="990" text-anchor="end" transform="rotate(-45 2090 990)" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-courses-api/#op-v2.courses.UpdateELearningStandardCourseController_updateELearningStandardCourse" target="_blank" class="st" data-op="v2.courses.UpdateELearningStandardCourseController_updateELearningStandardCourse"><title>PATCH /api/v2/courses/elearning-standard/{courseId}
+Courses line · v2.courses.UpdateELearningStandardCourseController_updateELearningStandardCourse</title>
+<circle cx="1656" cy="846" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1668" y="851" text-anchor="start" style="fill:#1A1F2C">Update elearning standard</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-fields-api/#op-v2.customFields.CreateCustomFieldController_createCustomField" target="_blank" class="st" data-op="v2.customFields.CreateCustomFieldController_createCustomField"><title>POST /api/v2/custom-fields
+Custom Fields line · v2.customFields.CreateCustomFieldController_createCustomField</title>
+<circle cx="908" cy="1506" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="896.0" y="1511" text-anchor="end" style="fill:#1A1F2C">Create custom field</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-fields-api/#op-v2.customFields.GetCustomFieldsController_getCustomFields" target="_blank" class="st" data-op="v2.customFields.GetCustomFieldsController_getCustomFields"><title>GET /api/v2/custom-fields
+Custom Fields line · v2.customFields.GetCustomFieldsController_getCustomFields</title>
+<circle cx="820" cy="1594" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="832" y="1599" text-anchor="start" style="fill:#1A1F2C">List custom fields</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-fields-api/#op-v2.customFields.DeleteCustomFieldController_deleteCustomField" target="_blank" class="st" data-op="v2.customFields.DeleteCustomFieldController_deleteCustomField"><title>DELETE /api/v2/custom-fields/{customFieldId}
+Custom Fields line · v2.customFields.DeleteCustomFieldController_deleteCustomField</title>
+<circle cx="1084" cy="1374" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1080" y1="1378" x2="1088" y2="1370" stroke="#C2410C" stroke-width="2"/>
+<text x="1093" y="1364" text-anchor="start" style="fill:#1A1F2C">Delete custom field</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-fields-api/#op-v2.customFields.UpdateCustomFieldController_updateCustomField" target="_blank" class="st" data-op="v2.customFields.UpdateCustomFieldController_updateCustomField"><title>PATCH /api/v2/custom-fields/{customFieldId}
+Custom Fields line · v2.customFields.UpdateCustomFieldController_updateCustomField</title>
+<circle cx="952" cy="1462" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="940.0" y="1467" text-anchor="end" style="fill:#1A1F2C">Update custom field</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-fields-api/#op-v2.customFields.GetAuthorizedValuesController_getAuthorizedValues" target="_blank" class="st" data-op="v2.customFields.GetAuthorizedValuesController_getAuthorizedValues"><title>GET /api/v2/custom-fields/{customFieldId}/authorized-values
+Custom Fields line · v2.customFields.GetAuthorizedValuesController_getAuthorizedValues</title>
+<circle cx="952" cy="1242" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="940.0" y="1247" text-anchor="end" style="fill:#1A1F2C">List authorized values</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-fields-api/#op-v2.customFields.ReplaceAuthorizedValuesController_replaceAuthorizedValues" target="_blank" class="st" data-op="v2.customFields.ReplaceAuthorizedValuesController_replaceAuthorizedValues"><title>PUT /api/v2/custom-fields/{customFieldId}/authorized-values
+Custom Fields line · v2.customFields.ReplaceAuthorizedValuesController_replaceAuthorizedValues</title>
+<circle cx="908" cy="1198" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="920" y="1203" text-anchor="start" style="fill:#1A1F2C">Create authorized value</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-links-api/#op-v2.customLinks.CreateCustomLinkController_createCustomLink" target="_blank" class="st" data-op="v2.customLinks.CreateCustomLinkController_createCustomLink"><title>POST /api/v2/custom-links
+Custom Links line · v2.customLinks.CreateCustomLinkController_createCustomLink</title>
+<circle cx="1304" cy="1902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1313" y="1892" text-anchor="start" style="fill:#1A1F2C">Create custom link</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-links-api/#op-v2.customLinks.GetCustomLinksByCompanyController_getCustomLinksByCompany" target="_blank" class="st" data-op="v2.customLinks.GetCustomLinksByCompanyController_getCustomLinksByCompany"><title>GET /api/v2/custom-links
+Custom Links line · v2.customLinks.GetCustomLinksByCompanyController_getCustomLinksByCompany</title>
+<circle cx="1172" cy="1990" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1184" y="1995" text-anchor="start" style="fill:#1A1F2C">List custom links</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-links-api/#op-v2.customLinks.DeleteCustomLinkController_deleteCustomLink" target="_blank" class="st" data-op="v2.customLinks.DeleteCustomLinkController_deleteCustomLink"><title>DELETE /api/v2/custom-links/{customLinkId}
+Custom Links line · v2.customLinks.DeleteCustomLinkController_deleteCustomLink</title>
+<circle cx="1172" cy="1814" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1168" y1="1818" x2="1176" y2="1810" stroke="#00838F" stroke-width="2"/>
+<text x="1178" y="1802" transform="rotate(-45 1178 1802)" style="fill:#1A1F2C">Delete custom link</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-custom-links-api/#op-v2.customLinks.ReplaceCustomLinkController_replaceCustomLink" target="_blank" class="st" data-op="v2.customLinks.ReplaceCustomLinkController_replaceCustomLink"><title>PUT /api/v2/custom-links/{customLinkId}
+Custom Links line · v2.customLinks.ReplaceCustomLinkController_replaceCustomLink</title>
+<circle cx="1216" cy="1814" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1228" y="1819" text-anchor="start" style="fill:#1A1F2C">Update custom link</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-external-ids-api/#op-v2.externalIds.CreateExternalIdController_createExternalId" target="_blank" class="st" data-op="v2.externalIds.CreateExternalIdController_createExternalId"><title>POST /api/v2/external-ids
+External IDs line · v2.externalIds.CreateExternalIdController_createExternalId</title>
+<circle cx="1260" cy="1550" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1269" y="1540" text-anchor="start" style="fill:#1A1F2C">Create external id</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-external-ids-api/#op-v2.externalIds.GetExternalIdsController_getExternalIds" target="_blank" class="st" data-op="v2.externalIds.GetExternalIdsController_getExternalIds"><title>GET /api/v2/external-ids
+External IDs line · v2.externalIds.GetExternalIdsController_getExternalIds</title>
+<circle cx="1084" cy="1726" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1096" y="1731" text-anchor="start" style="fill:#1A1F2C">List external ids</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-external-ids-api/#op-v2.externalIds.DeleteExternalIdController_deleteExternalId" target="_blank" class="st" data-op="v2.externalIds.DeleteExternalIdController_deleteExternalId"><title>DELETE /api/v2/external-ids/{mappingId}
+External IDs line · v2.externalIds.DeleteExternalIdController_deleteExternalId</title>
+<circle cx="1348" cy="1594" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="1344" y1="1598" x2="1352" y2="1590" stroke="#8D6E63" stroke-width="2"/>
+<text x="1360" y="1599" text-anchor="start" style="fill:#1A1F2C">Delete external id</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-external-ids-api/#op-v2.externalIds.UpdateExternalIdController_updateExternalId" target="_blank" class="st" data-op="v2.externalIds.UpdateExternalIdController_updateExternalId"><title>PUT /api/v2/external-ids/{mappingId}
+External IDs line · v2.externalIds.UpdateExternalIdController_updateExternalId</title>
+<circle cx="1304" cy="1550" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1316" y="1555" text-anchor="start" style="fill:#1A1F2C">Update external id</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.AddContentsToGroupsCatalogController_addContentsToGroupsCatalog" target="_blank" class="st" data-op="v2.bulk.groups.AddContentsToGroupsCatalogController_addContentsToGroupsCatalog"><title>POST /api/v2/bulk/groups/catalog
+Groups line · v2.bulk.groups.AddContentsToGroupsCatalogController_addContentsToGroupsCatalog</title>
+<circle cx="1436" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1442" y="1142" transform="rotate(-45 1442 1142)" style="fill:#1A1F2C">Update catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.RemoveContentsFromGroupsCatalogController_removeContentsFromGroupsCatalog" target="_blank" class="st" data-op="v2.bulk.groups.RemoveContentsFromGroupsCatalogController_removeContentsFromGroupsCatalog"><title>DELETE /api/v2/bulk/groups/catalog
+Groups line · v2.bulk.groups.RemoveContentsFromGroupsCatalogController_removeContentsFromGroupsCatalog</title>
+<circle cx="1524" cy="1154" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1520" y1="1158" x2="1528" y2="1150" stroke="#E07B12" stroke-width="2"/>
+<text x="1530" y="1142" transform="rotate(-45 1530 1142)" style="fill:#1A1F2C">Delete catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.AddContentsToGroupsLibraryController_addContentsToGroupsLibrary" target="_blank" class="st" data-op="v2.bulk.groups.AddContentsToGroupsLibraryController_addContentsToGroupsLibrary"><title>POST /api/v2/bulk/groups/library
+Groups line · v2.bulk.groups.AddContentsToGroupsLibraryController_addContentsToGroupsLibrary</title>
+<circle cx="1612" cy="1154" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1603.0" y="1173" text-anchor="end" style="fill:#1A1F2C">Update library</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.RemoveContentsFromGroupsLibraryController_removeContentsFromGroupsLibrary" target="_blank" class="st" data-op="v2.bulk.groups.RemoveContentsFromGroupsLibraryController_removeContentsFromGroupsLibrary"><title>DELETE /api/v2/bulk/groups/library
+Groups line · v2.bulk.groups.RemoveContentsFromGroupsLibraryController_removeContentsFromGroupsLibrary</title>
+<circle cx="1700" cy="1242" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1696" y1="1246" x2="1704" y2="1238" stroke="#E07B12" stroke-width="2"/>
+<text x="1712" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete library</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.AddUsersToGroupsController_addUsersToGroups" target="_blank" class="st" data-op="v2.bulk.groups.AddUsersToGroupsController_addUsersToGroups"><title>POST /api/v2/bulk/groups/memberships
+Groups line · v2.bulk.groups.AddUsersToGroupsController_addUsersToGroups</title>
+<circle cx="1788" cy="1330" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1800" y="1335" text-anchor="start" style="fill:#1A1F2C">Create membership</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.RemoveUsersFromGroupsController_removeUsersFromGroups" target="_blank" class="st" data-op="v2.bulk.groups.RemoveUsersFromGroupsController_removeUsersFromGroups"><title>DELETE /api/v2/bulk/groups/memberships
+Groups line · v2.bulk.groups.RemoveUsersFromGroupsController_removeUsersFromGroups</title>
+<circle cx="1788" cy="1418" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1784" y1="1422" x2="1792" y2="1414" stroke="#E07B12" stroke-width="2"/>
+<text x="1800" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete membership</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.bulk.groups.DeleteGroupsController_deleteGroups" target="_blank" class="st" data-op="v2.bulk.groups.DeleteGroupsController_deleteGroups"><title>DELETE /api/v2/bulk/groups
+Groups line · v2.bulk.groups.DeleteGroupsController_deleteGroups</title>
+<circle cx="1348" cy="1154" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1344" y1="1158" x2="1352" y2="1150" stroke="#E07B12" stroke-width="2"/>
+<text x="1357" y="1144" text-anchor="start" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.AddUserRoleToGroupController_addUserRoleToGroup" target="_blank" class="st" data-op="v2.groups.AddUserRoleToGroupController_addUserRoleToGroup"><title>POST /api/v2/groups/{groupId}/{role}/{userId}
+Groups line · v2.groups.AddUserRoleToGroupController_addUserRoleToGroup</title>
+<circle cx="1172" cy="1418" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1184" y="1423" text-anchor="start" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.RemoveUserRoleFromGroupController_removeUserRoleFromGroup" target="_blank" class="st" data-op="v2.groups.RemoveUserRoleFromGroupController_removeUserRoleFromGroup"><title>DELETE /api/v2/groups/{groupId}/{role}/{userId}
+Groups line · v2.groups.RemoveUserRoleFromGroupController_removeUserRoleFromGroup</title>
+<circle cx="1260" cy="1330" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1256" y1="1334" x2="1264" y2="1326" stroke="#E07B12" stroke-width="2"/>
+<text x="1272" y="1335" text-anchor="start" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.CreateGroupController_createGroup" target="_blank" class="st" data-op="v2.groups.CreateGroupController_createGroup"><title>POST /api/v2/groups
+Groups line · v2.groups.CreateGroupController_createGroup</title>
+<circle cx="1788" cy="1594" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1800" y="1599" text-anchor="start" style="fill:#1A1F2C">Create group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.GetGroupsController_getGroups" target="_blank" class="st" data-op="v2.groups.GetGroupsController_getGroups"><title>GET /api/v2/groups
+Groups line · v2.groups.GetGroupsController_getGroups</title>
+<circle cx="1788" cy="1506" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1800" y="1511" text-anchor="start" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.DeleteGroupController_deleteGroup" target="_blank" class="st" data-op="v2.groups.DeleteGroupController_deleteGroup"><title>DELETE /api/v2/groups/{groupId}
+Groups line · v2.groups.DeleteGroupController_deleteGroup</title>
+<circle cx="1524" cy="1770" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1520" y1="1774" x2="1528" y2="1766" stroke="#E07B12" stroke-width="2"/>
+<text x="1530" y="1758" transform="rotate(-45 1530 1758)" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.GetGroupController_getGroup" target="_blank" class="st" data-op="v2.groups.GetGroupController_getGroup"><title>GET /api/v2/groups/{groupId}
+Groups line · v2.groups.GetGroupController_getGroup</title>
+<circle cx="1700" cy="1682" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1712" y="1687" text-anchor="start" style="fill:#1A1F2C">Get group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.UpdateGroupController_updateGroup" target="_blank" class="st" data-op="v2.groups.UpdateGroupController_updateGroup"><title>PATCH /api/v2/groups/{groupId}
+Groups line · v2.groups.UpdateGroupController_updateGroup</title>
+<circle cx="1612" cy="1770" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1624" y="1775" text-anchor="start" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.GetGroupMembersController_getGroupMembers" target="_blank" class="st" data-op="v2.groups.GetGroupMembersController_getGroupMembers"><title>GET /api/v2/groups/{groupId}/roles
+Groups line · v2.groups.GetGroupMembersController_getGroupMembers</title>
+<circle cx="1172" cy="1506" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1184" y="1511" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.GetCatalogContentIdsController_getCatalogContentIds" target="_blank" class="st" data-op="v2.groups.GetCatalogContentIdsController_getCatalogContentIds"><title>GET /api/v2/groups/{groupId}/catalog/{contentType}-ids
+Groups line · v2.groups.GetCatalogContentIdsController_getCatalogContentIds</title>
+<circle cx="1348" cy="1770" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1336.0" y="1775" text-anchor="end" style="fill:#1A1F2C">Get catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.GetLibraryContentIdsController_getLibraryContentIds" target="_blank" class="st" data-op="v2.groups.GetLibraryContentIdsController_getLibraryContentIds"><title>GET /api/v2/groups/{groupId}/library/{contentType}-ids
+Groups line · v2.groups.GetLibraryContentIdsController_getLibraryContentIds</title>
+<circle cx="1260" cy="1682" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1272" y="1687" text-anchor="start" style="fill:#1A1F2C">Get library</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.UploadGroupMediaController_uploadGroupMedia" target="_blank" class="st" data-op="v2.groups.UploadGroupMediaController_uploadGroupMedia"><title>POST /api/v2/groups/{groupId}/media
+Groups line · v2.groups.UploadGroupMediaController_uploadGroupMedia</title>
+<circle cx="1172" cy="1594" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1163.0" y="1613" text-anchor="end" style="fill:#1A1F2C">Update media</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-groups-api/#op-v2.groups.UpsertGroupCustomizationColorsController_upsertGroupCustomizationColors" target="_blank" class="st" data-op="v2.groups.UpsertGroupCustomizationColorsController_upsertGroupCustomizationColors"><title>PATCH /api/v2/groups/{groupId}/branding
+Groups line · v2.groups.UpsertGroupCustomizationColorsController_upsertGroupCustomizationColors</title>
+<circle cx="1436" cy="1770" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1442" y="1758" transform="rotate(-45 1442 1758)" style="fill:#1A1F2C">Update branding</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.bulk.integrations.ArchiveExternalCoursesController_archiveExternalCourses" target="_blank" class="st" data-op="v2.bulk.integrations.ArchiveExternalCoursesController_archiveExternalCourses"><title>DELETE /api/v2/bulk/integrations/{integrationId}/courses
+Integrations line · v2.bulk.integrations.ArchiveExternalCoursesController_archiveExternalCourses</title>
+<circle cx="1392" cy="1066" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1388" y1="1070" x2="1396" y2="1062" stroke="#B8860B" stroke-width="2"/>
+<text x="1392" y="1089" text-anchor="middle" style="fill:#1A1F2C">Delete cours</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.bulk.integrations.ImportExternalCoursesController_importExternalCourses" target="_blank" class="st" data-op="v2.bulk.integrations.ImportExternalCoursesController_importExternalCourses"><title>PUT /api/v2/bulk/integrations/{integrationId}/courses
+Integrations line · v2.bulk.integrations.ImportExternalCoursesController_importExternalCourses</title>
+<circle cx="1436" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1436" y="1039" text-anchor="middle" style="fill:#1A1F2C">Create cours <tspan font-weight="700" style="fill:#B0287F">⇄COU</tspan> <tspan font-weight="700" style="fill:#E07B12">⇄GRO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.bulk.integrations.ImportExternalStatisticsController_importExternalStatistics" target="_blank" class="st" data-op="v2.bulk.integrations.ImportExternalStatisticsController_importExternalStatistics"><title>POST /api/v2/bulk/integrations/{integrationId}/stats
+Integrations line · v2.bulk.integrations.ImportExternalStatisticsController_importExternalStatistics</title>
+<circle cx="1260" cy="934" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1272" y="939" text-anchor="start" style="fill:#1A1F2C">Create stat</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.integrations.CreateIntegrationController_createIntegration" target="_blank" class="st" data-op="v2.integrations.CreateIntegrationController_createIntegration"><title>POST /api/v2/integrations
+Integrations line · v2.integrations.CreateIntegrationController_createIntegration</title>
+<circle cx="1436" cy="934" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1436" y="957" text-anchor="middle" style="fill:#1A1F2C">Create integration</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.integrations.GetIntegrationsController_getIntegrations" target="_blank" class="st" data-op="v2.integrations.GetIntegrationsController_getIntegrations"><title>GET /api/v2/integrations
+Integrations line · v2.integrations.GetIntegrationsController_getIntegrations</title>
+<circle cx="1348" cy="846" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1354" y="834" transform="rotate(-45 1354 834)" style="fill:#1A1F2C">List integrations</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.integrations.DeleteIntegrationController_deleteIntegration" target="_blank" class="st" data-op="v2.integrations.DeleteIntegrationController_deleteIntegration"><title>DELETE /api/v2/integrations/{integrationId}
+Integrations line · v2.integrations.DeleteIntegrationController_deleteIntegration</title>
+<circle cx="1480" cy="802" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1476" y1="806" x2="1484" y2="798" stroke="#B8860B" stroke-width="2"/>
+<text x="1492" y="807" text-anchor="start" style="fill:#1A1F2C">Delete integration</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.integrations.EditIntegrationController_editIntegration" target="_blank" class="st" data-op="v2.integrations.EditIntegrationController_editIntegration"><title>PATCH /api/v2/integrations/{integrationId}
+Integrations line · v2.integrations.EditIntegrationController_editIntegration</title>
+<circle cx="1480" cy="890" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1489" y="880" text-anchor="start" style="fill:#1A1F2C">Update integration</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-integrations-api/#op-v2.integrations.GetExternalCourseController_getExternalCourse" target="_blank" class="st" data-op="v2.integrations.GetExternalCourseController_getExternalCourse"><title>GET /api/v2/integrations/{integrationId}/courses/{externalId}
+Integrations line · v2.integrations.GetExternalCourseController_getExternalCourse</title>
+<circle cx="1480" cy="714" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1492" y="719" text-anchor="start" style="fill:#1A1F2C">Get cours</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-learning-needs-api/#op-v2.learningNeeds.GetLearningNeedsController_getLearningNeeds" target="_blank" class="st" data-op="v2.learningNeeds.GetLearningNeedsController_getLearningNeeds"><title>GET /api/v2/learning-needs
+360Learning Local line · v2.learningNeeds.GetLearningNeedsController_getLearningNeeds</title>
+<circle cx="1436" cy="1506" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1448" y="1511" text-anchor="start" style="fill:#1A1F2C">List learning needs</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-operations-api/#op-v2.bulk.operations.GetBulkOperationController_getBulkOperation" target="_blank" class="st" data-op="v2.bulk.operations.GetBulkOperationController_getBulkOperation"><title>GET /api/v2/bulk/operations/{bulkOperationId}
+Operations line · v2.bulk.operations.GetBulkOperationController_getBulkOperation</title>
+<circle cx="1436" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1448" y="1335" text-anchor="start" style="fill:#1A1F2C">Get operation</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-operations-api/#op-v2.bulk.operations.GetBulkOperationResultsController_getBulkOperationResults" target="_blank" class="st" data-op="v2.bulk.operations.GetBulkOperationResultsController_getBulkOperationResults"><title>GET /api/v2/bulk/operations/{bulkOperationId}/results
+Operations line · v2.bulk.operations.GetBulkOperationResultsController_getBulkOperationResults</title>
+<circle cx="1524" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1536" y="1423" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-operations-api/#op-v2.bulk.operations.GetBulkOperationsController_getBulkOperations" target="_blank" class="st" data-op="v2.bulk.operations.GetBulkOperationsController_getBulkOperations"><title>GET /api/v2/bulk/operations
+Operations line · v2.bulk.operations.GetBulkOperationsController_getBulkOperations</title>
+<circle cx="1436" cy="1242" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1445" y="1232" text-anchor="start" style="fill:#1A1F2C">List operations <tspan font-weight="700" style="fill:#E07B12">⇄GRO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetAllPathSessionsController_getAllPathSessions" target="_blank" class="st" data-op="v2.paths.GetAllPathSessionsController_getAllPathSessions"><title>GET /api/v2/paths/sessions
+Paths line · v2.paths.GetAllPathSessionsController_getAllPathSessions</title>
+<circle cx="2184" cy="1594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2172.0" y="1599" text-anchor="end" style="fill:#1A1F2C">List sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathStatsController_getPathStats" target="_blank" class="st" data-op="v2.paths.GetPathStatsController_getPathStats"><title>GET /api/v2/paths/stats
+Paths line · v2.paths.GetPathStatsController_getPathStats</title>
+<circle cx="2404" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2416" y="1159" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.AddTokensController_addTokens" target="_blank" class="st" data-op="v2.paths.AddTokensController_addTokens"><title>POST /api/v2/paths/add-tokens
+Paths line · v2.paths.AddTokensController_addTokens</title>
+<circle cx="2404" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2416" y="1335" text-anchor="start" style="fill:#1A1F2C">Create add token</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.ArchiveOrUnarchivePathController_archiveOrUnarchivePath" target="_blank" class="st" data-op="v2.paths.ArchiveOrUnarchivePathController_archiveOrUnarchivePath"><title>PUT /api/v2/paths/{pathId}/archive
+Paths line · v2.paths.ArchiveOrUnarchivePathController_archiveOrUnarchivePath</title>
+<circle cx="2360" cy="1110" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="1115" text-anchor="start" style="fill:#1A1F2C">Archive paths</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.CreatePathController_createPath" target="_blank" class="st" data-op="v2.paths.CreatePathController_createPath"><title>POST /api/v2/paths
+Paths line · v2.paths.CreatePathController_createPath</title>
+<circle cx="2272" cy="1682" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2260.0" y="1687" text-anchor="end" style="fill:#1A1F2C">Create path</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathsController_getPaths" target="_blank" class="st" data-op="v2.paths.GetPathsController_getPaths"><title>GET /api/v2/paths
+Paths line · v2.paths.GetPathsController_getPaths</title>
+<circle cx="2404" cy="1682" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2398" y="1694" text-anchor="end" transform="rotate(-45 2398 1694)" style="fill:#1A1F2C">List paths</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.CreatePathSessionController_createPathSession" target="_blank" class="st" data-op="v2.paths.CreatePathSessionController_createPathSession"><title>POST /api/v2/paths/{pathId}/sessions
+Paths line · v2.paths.CreatePathSessionController_createPathSession</title>
+<circle cx="2052" cy="1550" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2040.0" y="1555" text-anchor="end" style="fill:#1A1F2C">Create session</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathSessionsController_getPathSessions" target="_blank" class="st" data-op="v2.paths.GetPathSessionsController_getPathSessions"><title>GET /api/v2/paths/{pathId}/sessions
+Paths line · v2.paths.GetPathSessionsController_getPathSessions</title>
+<circle cx="2140" cy="1550" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2152" y="1555" text-anchor="start" style="fill:#1A1F2C">List sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.DeletePathController_deletePath" target="_blank" class="st" data-op="v2.paths.DeletePathController_deletePath"><title>DELETE /api/v2/paths/{pathId}
+Paths line · v2.paths.DeletePathController_deletePath</title>
+<circle cx="2360" cy="1374" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2356" y1="1378" x2="2364" y2="1370" stroke="#D6264F" stroke-width="2"/>
+<text x="2372" y="1379" text-anchor="start" style="fill:#1A1F2C">Delete path</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathController_getPath" target="_blank" class="st" data-op="v2.paths.GetPathController_getPath"><title>GET /api/v2/paths/{pathId}
+Paths line · v2.paths.GetPathController_getPath</title>
+<circle cx="2228" cy="1638" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2240" y="1643" text-anchor="start" style="fill:#1A1F2C">Get path</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.UpdatePathController_updatePath" target="_blank" class="st" data-op="v2.paths.UpdatePathController_updatePath"><title>PATCH /api/v2/paths/{pathId}
+Paths line · v2.paths.UpdatePathController_updatePath</title>
+<circle cx="2360" cy="1506" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="1511" text-anchor="start" style="fill:#1A1F2C">Update path</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.DeletePathSessionController_deletePathSession" target="_blank" class="st" data-op="v2.paths.DeletePathSessionController_deletePathSession"><title>DELETE /api/v2/paths/{pathId}/sessions/{sessionId}
+Paths line · v2.paths.DeletePathSessionController_deletePathSession</title>
+<circle cx="1920" cy="1770" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1916" y1="1774" x2="1924" y2="1766" stroke="#D6264F" stroke-width="2"/>
+<text x="1932" y="1775" text-anchor="start" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathSessionController_getPathSession" target="_blank" class="st" data-op="v2.paths.GetPathSessionController_getPathSession"><title>GET /api/v2/paths/{pathId}/sessions/{sessionId}
+Paths line · v2.paths.GetPathSessionController_getPathSession</title>
+<circle cx="1964" cy="1638" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1976" y="1643" text-anchor="start" style="fill:#1A1F2C">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.ModifyPathSessionController_modifyPathSession" target="_blank" class="st" data-op="v2.paths.ModifyPathSessionController_modifyPathSession"><title>PATCH /api/v2/paths/{pathId}/sessions/{sessionId}
+Paths line · v2.paths.ModifyPathSessionController_modifyPathSession</title>
+<circle cx="1920" cy="1682" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1932" y="1687" text-anchor="start" style="fill:#1A1F2C">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.ArchiveSelfEnrollmentController_archiveSelfEnrollment" target="_blank" class="st" data-op="v2.paths.ArchiveSelfEnrollmentController_archiveSelfEnrollment"><title>DELETE /api/v2/paths/{pathId}/sessions/{sessionId}/self-enrollments/{userId}
+Paths line · v2.paths.ArchiveSelfEnrollmentController_archiveSelfEnrollment</title>
+<circle cx="2316" cy="2166" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2312" y1="2170" x2="2320" y2="2162" stroke="#D6264F" stroke-width="2"/>
+<text x="2304.0" y="2171" text-anchor="end" style="fill:#1A1F2C">Delete self enrollment</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetEnrollmentsController_getEnrollments" target="_blank" class="st" data-op="v2.paths.GetEnrollmentsController_getEnrollments"><title>GET /api/v2/paths/{pathId}/enrollments
+Paths line · v2.paths.GetEnrollmentsController_getEnrollments</title>
+<circle cx="2184" cy="1110" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2172.0" y="1115" text-anchor="end" style="fill:#1A1F2C">List enrollments</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathSessionCustomFieldValuesController_getPathSessionCustomFieldValues" target="_blank" class="st" data-op="v2.paths.GetPathSessionCustomFieldValuesController_getPathSessionCustomFieldValues"><title>GET /api/v2/paths/{pathId}/sessions/{sessionId}/custom-fields/values
+Paths line · v2.paths.GetPathSessionCustomFieldValuesController_getPathSessionCustomFieldValues</title>
+<circle cx="2184" cy="2034" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2196" y="2039" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.v2.paths.UpdatePathSessionCustomFieldValuesController_updatePathSessionCustomFieldValues" target="_blank" class="st" data-op="v2.paths.v2.paths.UpdatePathSessionCustomFieldValuesController_updatePathSessionCustomFieldValues"><title>PUT /api/v2/paths/{pathId}/sessions/{sessionId}/custom-fields/values
+Paths line · v2.paths.v2.paths.UpdatePathSessionCustomFieldValuesController_updatePathSessionCustomFieldValues</title>
+<circle cx="2228" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2240" y="2083" text-anchor="start" style="fill:#1A1F2C">Create value</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetPathTagsController_getTags" target="_blank" class="st" data-op="v2.paths.GetPathTagsController_getTags"><title>GET /api/v2/paths/{pathId}/tags
+Paths line · v2.paths.GetPathTagsController_getTags</title>
+<circle cx="1920" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1908.0" y="1159" text-anchor="end" style="fill:#1A1F2C">List tags <tspan font-weight="700" style="fill:#2E7D32">⇄TAG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.UpdateTagsController_updateTags" target="_blank" class="st" data-op="v2.paths.UpdateTagsController_updateTags"><title>PUT /api/v2/paths/{pathId}/tags
+Paths line · v2.paths.UpdateTagsController_updateTags</title>
+<circle cx="2052" cy="1286" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2040.0" y="1291" text-anchor="end" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetSessionAudienceController_getSessionAudience" target="_blank" class="st" data-op="v2.paths.GetSessionAudienceController_getSessionAudience"><title>GET /api/v2/paths/{pathId}/sessions/{sessionId}/audiences
+Paths line · v2.paths.GetSessionAudienceController_getSessionAudience</title>
+<circle cx="2008" cy="1858" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="1863" text-anchor="start" style="fill:#1A1F2C">List audiences</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.UpdateSessionAudienceController_updateSessionAudience" target="_blank" class="st" data-op="v2.paths.UpdateSessionAudienceController_updateSessionAudience"><title>PUT /api/v2/paths/{pathId}/sessions/{sessionId}/audiences
+Paths line · v2.paths.UpdateSessionAudienceController_updateSessionAudience</title>
+<circle cx="2096" cy="1946" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2108" y="1951" text-anchor="start" style="fill:#1A1F2C">Create audience</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.v2.paths.GetSessionStatsController_getSessionStats" target="_blank" class="st" data-op="v2.paths.v2.paths.GetSessionStatsController_getSessionStats"><title>GET /api/v2/paths/{pathId}/sessions/{sessionId}/user-statuses
+Paths line · v2.paths.v2.paths.GetSessionStatsController_getSessionStats</title>
+<circle cx="2492" cy="2166" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2498" y="2154" transform="rotate(-45 2498 2154)" style="fill:#1A1F2C">List user statuses</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.GetUserStatsController_getUserStats" target="_blank" class="st" data-op="v2.paths.GetUserStatsController_getUserStats"><title>GET /api/v2/paths/{pathId}/sessions/{sessionId}/user-stats
+Paths line · v2.paths.GetUserStatsController_getUserStats</title>
+<circle cx="2404" cy="2166" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2410" y="2154" transform="rotate(-45 2410 2154)" style="fill:#1A1F2C">List user stats</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.ModifyChildPathSessionController_modifyChildPathSession" target="_blank" class="st" data-op="v2.paths.ModifyChildPathSessionController_modifyChildPathSession"><title>PATCH /api/v2/paths/{pathId}/child-sessions/{childSessionId}
+Paths line · v2.paths.ModifyChildPathSessionController_modifyChildPathSession</title>
+<circle cx="2272" cy="1110" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2278" y="1098" transform="rotate(-45 2278 1098)" style="fill:#1A1F2C">Update child session</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.ReplacePathTranslationsController_replacePathTranslations" target="_blank" class="st" data-op="v2.paths.ReplacePathTranslationsController_replacePathTranslations"><title>PUT /api/v2/paths/{pathId}/translations
+Paths line · v2.paths.ReplacePathTranslationsController_replacePathTranslations</title>
+<circle cx="2140" cy="1286" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2131.0" y="1305" text-anchor="end" style="fill:#1A1F2C">Create translation</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-paths-api/#op-v2.paths.UpdateStepsController_updateSteps" target="_blank" class="st" data-op="v2.paths.UpdateStepsController_updateSteps"><title>PUT /api/v2/paths/{pathId}/steps
+Paths line · v2.paths.UpdateStepsController_updateSteps</title>
+<circle cx="2140" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2152" y="1159" text-anchor="start" style="fill:#1A1F2C">Create step</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-projects-api/#op-v2.projects.GetProjectsController_getProjects" target="_blank" class="st" data-op="v2.projects.GetProjectsController_getProjects"><title>GET /api/v2/projects
+360Learning Local line · v2.projects.GetProjectsController_getProjects</title>
+<circle cx="1348" cy="1418" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1360" y="1423" text-anchor="start" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.AddSkillReviewsController_addSkillReviews" target="_blank" class="st" data-op="v2.bulk.skills.AddSkillReviewsController_addSkillReviews"><title>POST /api/v2/bulk/skills/reviews
+Skills line · v2.bulk.skills.AddSkillReviewsController_addSkillReviews</title>
+<circle cx="996" cy="1638" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1008" y="1643" text-anchor="start" style="fill:#1A1F2C">Create review</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.DeleteJobsController_deleteJobs" target="_blank" class="st" data-op="v2.bulk.skills.DeleteJobsController_deleteJobs"><title>DELETE /api/v2/bulk/skills/jobs
+Skills line · v2.bulk.skills.DeleteJobsController_deleteJobs</title>
+<circle cx="1084" cy="1286" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1080" y1="1290" x2="1088" y2="1282" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1096" y="1291" text-anchor="start" style="fill:#1A1F2C">Delete job</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.UpsertJobsController_upsertJobs" target="_blank" class="st" data-op="v2.bulk.skills.UpsertJobsController_upsertJobs"><title>PUT /api/v2/bulk/skills/jobs
+Skills line · v2.bulk.skills.UpsertJobsController_upsertJobs</title>
+<circle cx="1128" cy="1242" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1116.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Create job</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.DeleteLibrariesController_deleteLibraries" target="_blank" class="st" data-op="v2.bulk.skills.DeleteLibrariesController_deleteLibraries"><title>DELETE /api/v2/bulk/skills/libraries
+Skills line · v2.bulk.skills.DeleteLibrariesController_deleteLibraries</title>
+<circle cx="996" cy="1594" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="992" y1="1598" x2="1000" y2="1590" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1008" y="1599" text-anchor="start" style="fill:#1A1F2C">Delete library</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.UpsertLibrariesController_upsertLibraries" target="_blank" class="st" data-op="v2.bulk.skills.UpsertLibrariesController_upsertLibraries"><title>PUT /api/v2/bulk/skills/libraries
+Skills line · v2.bulk.skills.UpsertLibrariesController_upsertLibraries</title>
+<circle cx="996" cy="1550" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1008" y="1555" text-anchor="start" style="fill:#1A1F2C">Create library</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.DeleteSkillsController_deleteSkills" target="_blank" class="st" data-op="v2.bulk.skills.DeleteSkillsController_deleteSkills"><title>DELETE /api/v2/bulk/skills
+Skills line · v2.bulk.skills.DeleteSkillsController_deleteSkills</title>
+<circle cx="1216" cy="1242" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1212" y1="1246" x2="1220" y2="1238" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1228" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete skill</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.UpsertSkillsController_upsertSkills" target="_blank" class="st" data-op="v2.bulk.skills.UpsertSkillsController_upsertSkills"><title>PUT /api/v2/bulk/skills
+Skills line · v2.bulk.skills.UpsertSkillsController_upsertSkills</title>
+<circle cx="1260" cy="1198" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1248.0" y="1203" text-anchor="end" style="fill:#1A1F2C">Create skill <tspan font-weight="700" style="fill:#E07B12">⇄GRO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.ReplaceJobsSkillsController_replaceJobsSkills" target="_blank" class="st" data-op="v2.bulk.skills.ReplaceJobsSkillsController_replaceJobsSkills"><title>PUT /api/v2/bulk/skills/jobs-skills
+Skills line · v2.bulk.skills.ReplaceJobsSkillsController_replaceJobsSkills</title>
+<circle cx="996" cy="1374" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="984.0" y="1379" text-anchor="end" style="fill:#1A1F2C">Create jobs skill</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.bulk.skills.ReplaceUsersJobsController_replaceUsersJobs" target="_blank" class="st" data-op="v2.bulk.skills.ReplaceUsersJobsController_replaceUsersJobs"><title>PUT /api/v2/bulk/skills/users/jobs
+Skills line · v2.bulk.skills.ReplaceUsersJobsController_replaceUsersJobs</title>
+<circle cx="952" cy="1682" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="964" y="1687" text-anchor="start" style="fill:#1A1F2C">Create job</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.skills.GetPowersController_getPowers" target="_blank" class="st" data-op="v2.skills.GetPowersController_getPowers"><title>GET /api/v2/skills/powers
+Skills line · v2.skills.GetPowersController_getPowers</title>
+<circle cx="732" cy="1770" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="738" y="1758" transform="rotate(-45 738 1758)" style="fill:#1A1F2C">List powers</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.skills.GetSkillsController_getSkills" target="_blank" class="st" data-op="v2.skills.GetSkillsController_getSkills"><title>GET /api/v2/skills
+Skills line · v2.skills.GetSkillsController_getSkills</title>
+<circle cx="864" cy="1770" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="876" y="1775" text-anchor="start" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-skills-api/#op-v2.skills.ReplaceUserJobsController_replaceUserJobs" target="_blank" class="st" data-op="v2.skills.ReplaceUserJobsController_replaceUserJobs"><title>PUT /api/v2/skills/users/{userId}/jobs
+Skills line · v2.skills.ReplaceUserJobsController_replaceUserJobs</title>
+<circle cx="644" cy="1770" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="650" y="1758" transform="rotate(-45 650 1758)" style="fill:#1A1F2C">Create job</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.bulk.subscriptions.CreateSubscriptionEventsController_createSubscriptionEvents" target="_blank" class="st" data-op="v2.bulk.subscriptions.CreateSubscriptionEventsController_createSubscriptionEvents"><title>POST /api/v2/bulk/notifications/subscriptions
+Subscriptions line · v2.bulk.subscriptions.CreateSubscriptionEventsController_createSubscriptionEvents</title>
+<circle cx="1568" cy="1286" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1580" y="1291" text-anchor="start" style="fill:#1A1F2C">Create subscription <tspan font-weight="700" style="fill:#E07B12">⇄GRO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.CreateSubscriptionController_createSubscription" target="_blank" class="st" data-op="v2.webhook.subscriptions.CreateSubscriptionController_createSubscription"><title>POST /api/v2/webhooks/subscriptions
+Subscriptions line · v2.webhook.subscriptions.CreateSubscriptionController_createSubscription</title>
+<circle cx="1744" cy="1110" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1744" y="1096" text-anchor="middle" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.GetSubscriptionsController_getSubscriptions" target="_blank" class="st" data-op="v2.webhook.subscriptions.GetSubscriptionsController_getSubscriptions"><title>GET /api/v2/webhooks/subscriptions
+Subscriptions line · v2.webhook.subscriptions.GetSubscriptionsController_getSubscriptions</title>
+<circle cx="1612" cy="1242" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1600.0" y="1247" text-anchor="end" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.DeleteSubscriptionController_deleteSubscription" target="_blank" class="st" data-op="v2.webhook.subscriptions.DeleteSubscriptionController_deleteSubscription"><title>DELETE /api/v2/webhooks/subscriptions/{subscriptionId}
+Subscriptions line · v2.webhook.subscriptions.DeleteSubscriptionController_deleteSubscription</title>
+<circle cx="1920" cy="1374" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1916" y1="1378" x2="1924" y2="1370" stroke="#0B7A75" stroke-width="2"/>
+<text x="1908.0" y="1379" text-anchor="end" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.GetSubscriptionController_getSubscription" target="_blank" class="st" data-op="v2.webhook.subscriptions.GetSubscriptionController_getSubscription"><title>GET /api/v2/webhooks/subscriptions/{subscriptionId}
+Subscriptions line · v2.webhook.subscriptions.GetSubscriptionController_getSubscription</title>
+<circle cx="1832" cy="1242" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1844" y="1247" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.UpdateSubscriptionController_updateSubscription" target="_blank" class="st" data-op="v2.webhook.subscriptions.UpdateSubscriptionController_updateSubscription"><title>PATCH /api/v2/webhooks/subscriptions/{subscriptionId}
+Subscriptions line · v2.webhook.subscriptions.UpdateSubscriptionController_updateSubscription</title>
+<circle cx="1920" cy="1330" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1932" y="1335" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.GetEventsController_getEvents" target="_blank" class="st" data-op="v2.webhook.subscriptions.GetEventsController_getEvents"><title>GET /api/v2/webhooks/subscriptions/{subscriptionId}/events
+Subscriptions line · v2.webhook.subscriptions.GetEventsController_getEvents</title>
+<circle cx="1964" cy="1418" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1955.0" y="1437" text-anchor="end" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.GetSigningSecretController_getSigningSecret" target="_blank" class="st" data-op="v2.webhook.subscriptions.GetSigningSecretController_getSigningSecret"><title>GET /api/v2/webhooks/subscriptions/{subscriptionId}/secrets
+Subscriptions line · v2.webhook.subscriptions.GetSigningSecretController_getSigningSecret</title>
+<circle cx="2184" cy="1418" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2196" y="1423" text-anchor="start" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.RetryEventFailuresController_retryEventFailures" target="_blank" class="st" data-op="v2.webhook.subscriptions.RetryEventFailuresController_retryEventFailures"><title>POST /api/v2/webhooks/subscriptions/{subscriptionId}/events/retry-failure
+Subscriptions line · v2.webhook.subscriptions.RetryEventFailuresController_retryEventFailures</title>
+<circle cx="2008" cy="1418" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2014" y="1406" transform="rotate(-45 2014 1406)" style="fill:#1A1F2C">Update retry failure</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.RetryEventSuccessesController_retryEventSuccesses" target="_blank" class="st" data-op="v2.webhook.subscriptions.RetryEventSuccessesController_retryEventSuccesses"><title>POST /api/v2/webhooks/subscriptions/{subscriptionId}/events/retry-success
+Subscriptions line · v2.webhook.subscriptions.RetryEventSuccessesController_retryEventSuccesses</title>
+<circle cx="2096" cy="1418" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2102" y="1406" transform="rotate(-45 2102 1406)" style="fill:#1A1F2C">Update retry success</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-subscriptions-api/#op-v2.webhook.subscriptions.RotateSigningSecretController_rotateSigningSecret" target="_blank" class="st" data-op="v2.webhook.subscriptions.RotateSigningSecretController_rotateSigningSecret"><title>POST /api/v2/webhooks/subscriptions/{subscriptionId}/secrets/rotate
+Subscriptions line · v2.webhook.subscriptions.RotateSigningSecretController_rotateSigningSecret</title>
+<circle cx="2228" cy="1374" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2240" y="1379" text-anchor="start" style="fill:#1A1F2C">Update rotate</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-tags-api/#op-v2.tags.CreateTagController_createTag" target="_blank" class="st" data-op="v2.tags.CreateTagController_createTag"><title>POST /api/v2/tags
+Tags line · v2.tags.CreateTagController_createTag</title>
+<circle cx="1788" cy="978" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1800" y="983" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-tags-api/#op-v2.tags.GetTagsController_getTags" target="_blank" class="st" data-op="v2.tags.GetTagsController_getTags"><title>GET /api/v2/tags
+Tags line · v2.tags.GetTagsController_getTags</title>
+<circle cx="1744" cy="934" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1756" y="939" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-tags-api/#op-v2.tags.DeleteTagController_deleteTag" target="_blank" class="st" data-op="v2.tags.DeleteTagController_deleteTag"><title>DELETE /api/v2/tags/{tagId}
+Tags line · v2.tags.DeleteTagController_deleteTag</title>
+<circle cx="2008" cy="1066" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="2004" y1="1070" x2="2012" y2="1062" stroke="#2E7D32" stroke-width="2"/>
+<text x="2002" y="1078" text-anchor="end" transform="rotate(-45 2002 1078)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-tags-api/#op-v2.tags.GetTagController_getTag" target="_blank" class="st" data-op="v2.tags.GetTagController_getTag"><title>GET /api/v2/tags/{tagId}
+Tags line · v2.tags.GetTagController_getTag</title>
+<circle cx="1876" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1864.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-tags-api/#op-v2.tags.UpdateTagController_updateTag" target="_blank" class="st" data-op="v2.tags.UpdateTagController_updateTag"><title>PUT /api/v2/tags/{tagId}
+Tags line · v2.tags.UpdateTagController_updateTag</title>
+<circle cx="1920" cy="1066" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1926" y="1054" transform="rotate(-45 1926 1054)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.ActivateUserController_activateUser" target="_blank" class="st" data-op="v2.users.ActivateUserController_activateUser"><title>PUT /api/v2/users/{userId}/activate
+Users line · v2.users.ActivateUserController_activateUser</title>
+<circle cx="1612" cy="2430" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1624" y="2435" text-anchor="start" style="fill:#1A1F2C">Update activate</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.AddManagerController_addManager" target="_blank" class="st" data-op="v2.users.AddManagerController_addManager"><title>POST /api/v2/users/{userId}/managers/{managerId}
+Users line · v2.users.AddManagerController_addManager</title>
+<circle cx="996" cy="2254" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1008" y="2259" text-anchor="start" style="fill:#1A1F2C">Update manager</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.DeleteManagerController_deleteManager" target="_blank" class="st" data-op="v2.users.DeleteManagerController_deleteManager"><title>DELETE /api/v2/users/{userId}/managers/{managerId}
+Users line · v2.users.DeleteManagerController_deleteManager</title>
+<circle cx="908" cy="2342" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="904" y1="2346" x2="912" y2="2338" stroke="#0E9F6E" stroke-width="2"/>
+<text x="920" y="2347" text-anchor="start" style="fill:#1A1F2C">Delete manager</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.CreateCustomUserLinkController_createCustomUserLink" target="_blank" class="st" data-op="v2.users.CreateCustomUserLinkController_createCustomUserLink"><title>POST /api/v2/users/{userId}/custom-links
+Users line · v2.users.CreateCustomUserLinkController_createCustomUserLink</title>
+<circle cx="1304" cy="1990" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1316" y="1995" text-anchor="start" style="fill:#1A1F2C">Create custom link</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetCustomUserLinksController_getCustomUserLinks" target="_blank" class="st" data-op="v2.users.GetCustomUserLinksController_getCustomUserLinks"><title>GET /api/v2/users/{userId}/custom-links
+Users line · v2.users.GetCustomUserLinksController_getCustomUserLinks</title>
+<circle cx="1348" cy="1946" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1360" y="1951" text-anchor="start" style="fill:#1A1F2C">List custom links</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.CreateUserController_createUser" target="_blank" class="st" data-op="v2.users.CreateUserController_createUser"><title>POST /api/v2/users
+Users line · v2.users.CreateUserController_createUser</title>
+<circle cx="1656" cy="2782" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="2787" text-anchor="start" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetUsersController_getUsers" target="_blank" class="st" data-op="v2.users.GetUsersController_getUsers"><title>GET /api/v2/users
+Users line · v2.users.GetUsersController_getUsers</title>
+<circle cx="1656" cy="2914" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="2919" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.CreateUserCertificateController_createUserCertificate" target="_blank" class="st" data-op="v2.users.CreateUserCertificateController_createUserCertificate"><title>POST /api/v2/users/{userId}/certificates
+Users line · v2.users.CreateUserCertificateController_createUserCertificate</title>
+<circle cx="1568" cy="2298" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1580" y="2303" text-anchor="start" style="fill:#1A1F2C">Create certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetUserCertificatesController_getUserCertificates" target="_blank" class="st" data-op="v2.users.GetUserCertificatesController_getUserCertificates"><title>GET /api/v2/users/{userId}/certificates
+Users line · v2.users.GetUserCertificatesController_getUserCertificates</title>
+<circle cx="1612" cy="2342" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1624" y="2347" text-anchor="start" style="fill:#1A1F2C">List certificates</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.DeleteCustomUserLinkController_deleteCustomUserLink" target="_blank" class="st" data-op="v2.users.DeleteCustomUserLinkController_deleteCustomUserLink"><title>DELETE /api/v2/users/{userId}/custom-links/{customUserLinkId}
+Users line · v2.users.DeleteCustomUserLinkController_deleteCustomUserLink</title>
+<circle cx="1128" cy="2122" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1124" y1="2126" x2="1132" y2="2118" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1116.0" y="2127" text-anchor="end" style="fill:#1A1F2C">Delete custom link</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.UpdateCustomUserLinkController_updateCustomUserLink" target="_blank" class="st" data-op="v2.users.UpdateCustomUserLinkController_updateCustomUserLink"><title>PUT /api/v2/users/{userId}/custom-links/{customUserLinkId}
+Users line · v2.users.UpdateCustomUserLinkController_updateCustomUserLink</title>
+<circle cx="1172" cy="2122" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1184" y="2127" text-anchor="start" style="fill:#1A1F2C">Update custom link</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.DeleteUserController_deleteUser" target="_blank" class="st" data-op="v2.users.DeleteUserController_deleteUser"><title>DELETE /api/v2/users/{userId}
+Users line · v2.users.DeleteUserController_deleteUser</title>
+<circle cx="1612" cy="2518" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1608" y1="2522" x2="1616" y2="2514" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1624" y="2523" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetUserController_getUser" target="_blank" class="st" data-op="v2.users.GetUserController_getUser"><title>GET /api/v2/users/{userId}
+Users line · v2.users.GetUserController_getUser</title>
+<circle cx="1656" cy="2694" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="2699" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.UpdateUserController_updateUser" target="_blank" class="st" data-op="v2.users.UpdateUserController_updateUser"><title>PATCH /api/v2/users/{userId}
+Users line · v2.users.UpdateUserController_updateUser</title>
+<circle cx="1612" cy="2650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1624" y="2655" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetManagersController_getManagers" target="_blank" class="st" data-op="v2.users.GetManagersController_getManagers"><title>GET /api/v2/users/{userId}/managers
+Users line · v2.users.GetManagersController_getManagers</title>
+<circle cx="1040" cy="2210" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1052" y="2215" text-anchor="start" style="fill:#1A1F2C">List managers</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetSubordinatesController_getSubordinates" target="_blank" class="st" data-op="v2.users.GetSubordinatesController_getSubordinates"><title>GET /api/v2/users/{userId}/subordinates
+Users line · v2.users.GetSubordinatesController_getSubordinates</title>
+<circle cx="556" cy="2738" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="568" y="2743" text-anchor="start" style="fill:#1A1F2C">List subordinates</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetUserCustomFieldValuesController_getUserCustomFieldValues" target="_blank" class="st" data-op="v2.users.GetUserCustomFieldValuesController_getUserCustomFieldValues"><title>GET /api/v2/users/{userId}/custom-fields/values
+Users line · v2.users.GetUserCustomFieldValuesController_getUserCustomFieldValues</title>
+<circle cx="1568" cy="1902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1580" y="1907" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.UpdateUserCustomFieldValuesController_updateUserCustomFieldValues" target="_blank" class="st" data-op="v2.users.UpdateUserCustomFieldValuesController_updateUserCustomFieldValues"><title>PUT /api/v2/users/{userId}/custom-fields/values
+Users line · v2.users.UpdateUserCustomFieldValuesController_updateUserCustomFieldValues</title>
+<circle cx="1392" cy="1902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1401" y="1921" text-anchor="start" style="fill:#1A1F2C">Create value</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetUserCertificateAsPdfController_getUserCertificateAsPdf" target="_blank" class="st" data-op="v2.users.GetUserCertificateAsPdfController_getUserCertificateAsPdf"><title>GET /api/v2/users/{userId}/certificates/{certificateId}/pdf
+Users line · v2.users.GetUserCertificateAsPdfController_getUserCertificateAsPdf</title>
+<circle cx="1568" cy="2034" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1580" y="2039" text-anchor="start" style="fill:#1A1F2C">Get pdf</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetUserRolesInGroupsController_getUserRolesInGroups" target="_blank" class="st" data-op="v2.users.GetUserRolesInGroupsController_getUserRolesInGroups"><title>GET /api/v2/users/{userId}/roles
+Users line · v2.users.GetUserRolesInGroupsController_getUserRolesInGroups</title>
+<circle cx="644" cy="2650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="656" y="2655" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.PseudonymizeUserController_pseudonymizeUser" target="_blank" class="st" data-op="v2.users.PseudonymizeUserController_pseudonymizeUser"><title>PUT /api/v2/users/{userId}/pseudonymize
+Users line · v2.users.PseudonymizeUserController_pseudonymizeUser</title>
+<circle cx="732" cy="2562" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="744" y="2567" text-anchor="start" style="fill:#1A1F2C">Update pseudonymize</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.ReplacePasswordController_replacePassword" target="_blank" class="st" data-op="v2.users.ReplacePasswordController_replacePassword"><title>PUT /api/v2/users/{userId}/password
+Users line · v2.users.ReplacePasswordController_replacePassword</title>
+<circle cx="820" cy="2474" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="832" y="2479" text-anchor="start" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.UpdateUserCertificatesPrivacyLevelController_updateUserCertificatesPrivacyLevel" target="_blank" class="st" data-op="v2.users.UpdateUserCertificatesPrivacyLevelController_updateUserCertificatesPrivacyLevel"><title>PATCH /api/v2/users/{userId}/certificates/privacy-level
+Users line · v2.users.UpdateUserCertificatesPrivacyLevelController_updateUserCertificatesPrivacyLevel</title>
+<circle cx="1568" cy="2166" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1580" y="2171" text-anchor="start" style="fill:#1A1F2C">Update privacy level</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.UploadUserMediaController_uploadUserMedia" target="_blank" class="st" data-op="v2.users.UploadUserMediaController_uploadUserMedia"><title>POST /api/v2/users/{userId}/media
+Users line · v2.users.UploadUserMediaController_uploadUserMedia</title>
+<circle cx="908" cy="2386" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="920" y="2391" text-anchor="start" style="fill:#1A1F2C">Update media</text>
+</a>
+<a href="https://apis.apis.io/apis/360learning/360learning-users-api/#op-v2.users.GetProfileController_getProfile" target="_blank" class="st" data-op="v2.users.GetProfileController_getProfile"><title>GET /api/v2/uaa/users/me
+Users line · v2.users.GetProfileController_getProfile</title>
+<circle cx="1656" cy="3002" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="3007" text-anchor="start" style="fill:#1A1F2C">Get me</text>
+</a>
+<text x="2682" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2682" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">360LEARNING</text>
+<rect x="2682" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2699" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAT</text><text x="2724" y="269" font-size="11" fill="#1A1F2C">Paths <tspan fill="#8A93A6">27</tspan></text>
+<rect x="2682" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2699" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="2724" y="286" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">25</tspan></text>
+<rect x="2682" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2699" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLA</text><text x="2724" y="303" font-size="11" fill="#1A1F2C">Classrooms <tspan fill="#8A93A6">20</tspan></text>
+<rect x="2682" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2699" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRO</text><text x="2724" y="320" font-size="11" fill="#1A1F2C">Groups <tspan fill="#8A93A6">19</tspan></text>
+<rect x="2682" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2699" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SKI</text><text x="2724" y="337" font-size="11" fill="#1A1F2C">Skills <tspan fill="#8A93A6">12</tspan></text>
+<rect x="2682" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2699" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COU</text><text x="2724" y="354" font-size="11" fill="#1A1F2C">Courses <tspan fill="#8A93A6">11</tspan></text>
+<rect x="2682" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2699" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUB</text><text x="2724" y="371" font-size="11" fill="#1A1F2C">Subscriptions <tspan fill="#8A93A6">11</tspan></text>
+<rect x="2682" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2699" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="2724" y="388" font-size="11" fill="#1A1F2C">Integrations <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2682" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2699" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CF</text><text x="2724" y="405" font-size="11" fill="#1A1F2C">Custom Fields <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2682" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2699" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="2724" y="422" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2682" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2699" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CO</text><text x="2724" y="439" font-size="11" fill="#1A1F2C">Certificate Outlines <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2682" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="2699" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CL</text><text x="2724" y="456" font-size="11" fill="#1A1F2C">Custom Links <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2682" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2699" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EID</text><text x="2724" y="473" font-size="11" fill="#1A1F2C">External IDs <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2682" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="2699" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AUT</text><text x="2724" y="490" font-size="11" fill="#1A1F2C">Authentication <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2682" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="2699" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPE</text><text x="2724" y="507" font-size="11" fill="#1A1F2C">Operations <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2682" y="514" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2699" y="524" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">3LL</text><text x="2724" y="524" font-size="11" fill="#1A1F2C">360Learning Local <tspan fill="#8A93A6">2</tspan></text>
+<text x="2932" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2950,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2976" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2950,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2976" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2950,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2976" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2950,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2976" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2950,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2976" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2950,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2976" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2950,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2976" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2950,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2976" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2932" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2932" y="463" font-size="10.5" fill="#5A6275">“Learning Needs” → 360Learning Local line · 1 op</text>
+<text x="2932" y="478" font-size="10.5" fill="#5A6275">“Projects” → 360Learning Local line · 1 op</text>
+<text x="2932" y="528" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2932" y="545" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3132" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/360learning/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

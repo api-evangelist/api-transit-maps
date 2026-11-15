@@ -1,0 +1,1388 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3960 3240" width="3960" height="3240" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3960" height="3240" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Seekr API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">239 operations as stops · 23 tags as lines · 28 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1410" y1="1530" x2="1410" y2="1480" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1410" y1="1530" x2="1410" y2="1480" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1460" y1="1430" x2="1410" y2="1480" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1460" y1="1430" x2="1410" y2="1480" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1060" y1="1130" x2="1110" y2="1180" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1060" y1="1130" x2="1110" y2="1180" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Agents" d="M1360.0,1180.0 L1400.1,1220.1 Q1410.0,1230.0 1410.0,1244.0 L1410.0,1466.0 Q1410.0,1480.0 1400.1,1489.9 L1269.9,1620.1 Q1260.0,1630.0 1246.0,1630.0 L1174.0,1630.0 Q1160.0,1630.0 1150.1,1620.1 L1119.9,1589.9 Q1110.0,1580.0 1096.0,1580.0 L1060.0,1580.0 L1010.0,1580.0 L974.0,1580.0 Q960.0,1580.0 950.1,1589.9 L860.0,1680.0 L769.9,1770.1 Q760.0,1780.0 746.0,1780.0 L724.0,1780.0 Q710.0,1780.0 700.1,1789.9 L560.0,1930.0 L510.0,1980.0 L410.0,2080.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agents</title></path>
+<path class="line" data-line="Agents v1 - legacy" d="M1210.0,1430.0 L1160.0,1430.0 L1060.0,1430.0 L1024.0,1430.0 Q1010.0,1430.0 1000.1,1420.1 L969.9,1389.9 Q960.0,1380.0 946.0,1380.0 L860.0,1380.0 L724.0,1380.0 Q710.0,1380.0 700.1,1389.9 L669.9,1420.1 Q660.0,1430.0 646.0,1430.0 L474.0,1430.0 Q460.0,1430.0 450.1,1439.9 L410.0,1480.0 L310.0,1580.0" fill="none" stroke="#0d775f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agents v1 - legacy</title></path>
+<path class="line" data-line="Alignment" d="M1510.0,1680.0 L1646.0,1680.0 Q1660.0,1680.0 1660.0,1694.0 L1660.0,1716.0 Q1660.0,1730.0 1669.9,1739.9 L1810.0,1880.0 L1860.0,1930.0 L1910.0,1980.0 L2010.0,2080.0 L2150.1,2220.1 Q2160.0,2230.0 2160.0,2244.0 L2160.0,2280.0 L2160.0,2380.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Alignment</title></path>
+<path class="line" data-line="Batches" d="M1660.0,3080.0 L1660.0,2944.0 Q1660.0,2930.0 1646.0,2930.0 L1560.0,2930.0 L1460.0,2930.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Batches</title></path>
+<path class="line" data-line="Data jobs" d="M1510.0,1230.0 L1646.0,1230.0 Q1660.0,1230.0 1669.9,1220.1 L1700.1,1189.9 Q1710.0,1180.0 1710.0,1166.0 L1710.0,980.0 L1710.0,930.0 L1710.0,894.0 Q1710.0,880.0 1719.9,870.1 L1800.1,789.9 Q1810.0,780.0 1810.0,766.0 L1810.0,680.0 L1810.0,580.0 L1810.0,480.0 L1810.0,330.0 L1810.0,230.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Data jobs</title></path>
+<path class="line" data-line="Deployments" d="M1410.0,1630.0 L1410.0,1816.0 Q1410.0,1830.0 1419.9,1839.9 L1460.0,1880.0 L1500.1,1920.1 Q1510.0,1930.0 1510.0,1944.0 L1510.0,2080.0 L1510.0,2216.0 Q1510.0,2230.0 1519.9,2239.9 L1550.1,2270.1 Q1560.0,2280.0 1574.0,2280.0 L1646.0,2280.0 Q1660.0,2280.0 1660.0,2294.0 L1660.0,2530.0 L1660.0,2630.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Deployments</title></path>
+<path class="line" data-line="Evals" d="M1360.0,1330.0 L1319.9,1289.9 Q1310.0,1280.0 1310.0,1266.0 L1310.0,1094.0 Q1310.0,1080.0 1300.1,1070.1 L1219.9,989.9 Q1210.0,980.0 1219.9,970.1 L1360.0,830.0" fill="none" stroke="#0d773a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Evals</title></path>
+<path class="line" data-line="Internal" d="M1110.0,680.0 L1210.0,680.0 L1310.0,680.0 L1410.0,680.0 L1510.0,680.0 L1610.0,680.0 L1696.0,680.0 Q1710.0,680.0 1719.9,689.9 L1810.0,780.0 L1910.0,880.0 L2010.0,980.0 L2110.0,1080.0 L2210.0,1180.0 L2300.1,1270.1 Q2310.0,1280.0 2310.0,1294.0 L2310.0,1380.0 L2310.0,1480.0 L2310.0,1580.0 L2310.0,1680.0 L2310.0,1780.0 L2310.0,1866.0 Q2310.0,1880.0 2300.1,1889.9 L2210.0,1980.0 L2110.0,2080.0 L2010.0,2180.0 L1910.0,2280.0 L1819.9,2370.1 Q1810.0,2380.0 1796.0,2380.0 L1710.0,2380.0 L1610.0,2380.0 L1510.0,2380.0 L1410.0,2380.0 L1310.0,2380.0 L1224.0,2380.0 Q1210.0,2380.0 1200.1,2370.1 L1110.0,2280.0 L1010.0,2180.0 L910.0,2080.0 L810.0,1980.0 L710.0,1880.0 L619.9,1789.9 Q610.0,1780.0 610.0,1766.0 L610.0,1680.0 L610.0,1580.0 L610.0,1480.0 L610.0,1380.0 L610.0,1280.0 L610.0,1194.0 Q610.0,1180.0 619.9,1170.1 L710.0,1080.0 L810.0,980.0 L910.0,880.0 L1010.0,780.0 L1110.0,680.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Internal</title></path>
+<path class="line" data-line="Feedback" d="M1310.0,1430.0 L1219.9,1339.9 Q1210.0,1330.0 1196.0,1330.0 L1160.0,1330.0 L1110.0,1330.0 L1010.0,1330.0 L960.0,1330.0 L774.0,1330.0 Q760.0,1330.0 760.0,1316.0 L760.0,1230.0" fill="none" stroke="#17d27d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Feedback</title></path>
+<path class="line" data-line="Files" d="M910.0,1230.0 L950.1,1189.9 Q960.0,1180.0 974.0,1180.0 L1096.0,1180.0 Q1110.0,1180.0 1119.9,1189.9 L1200.1,1270.1 Q1210.0,1280.0 1219.9,1270.1 L1250.1,1239.9 Q1260.0,1230.0 1250.1,1220.1 L1219.9,1189.9 Q1210.0,1180.0 1210.0,1166.0 L1210.0,1130.0 L1210.0,1094.0 Q1210.0,1080.0 1200.1,1070.1 L1110.0,980.0 L1010.0,880.0 L919.9,789.9 Q910.0,780.0 896.0,780.0 L874.0,780.0 Q860.0,780.0 850.1,770.1 L769.9,689.9 Q760.0,680.0 760.0,666.0 L760.0,530.0 L760.0,394.0 Q760.0,380.0 750.1,370.1 L710.0,330.0 L610.0,230.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Files</title></path>
+<path class="line" data-line="Fine Tuning" d="M1610.0,1430.0 L1650.1,1470.1 Q1660.0,1480.0 1669.9,1470.1 L1760.0,1380.0 L1850.1,1289.9 Q1860.0,1280.0 1874.0,1280.0 L1960.0,1280.0 L2196.0,1280.0 Q2210.0,1280.0 2219.9,1270.1 L2310.0,1180.0 L2350.1,1139.9 Q2360.0,1130.0 2374.0,1130.0 L2460.0,1130.0 L2610.0,1130.0 L2710.0,1130.0 L2810.0,1130.0 L2910.0,1130.0 L3010.0,1130.0 L3160.0,1130.0 L3260.0,1130.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Fine Tuning</title></path>
+<path class="line" data-line="Functions" d="M1610.0,780.0 L1560.0,830.0 L1510.0,880.0 L1469.9,920.1 Q1460.0,930.0 1460.0,944.0 L1460.0,966.0 Q1460.0,980.0 1469.9,989.9 L1550.1,1070.1 Q1560.0,1080.0 1574.0,1080.0 L1610.0,1080.0" fill="none" stroke="#09e1ca" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Functions</title></path>
+<path class="line" data-line="Health" d="M1260.0,1530.0 L1124.0,1530.0 Q1110.0,1530.0 1100.1,1520.1 L1069.9,1489.9 Q1060.0,1480.0 1046.0,1480.0 L924.0,1480.0 Q910.0,1480.0 900.1,1470.1 L869.9,1439.9 Q860.0,1430.0 846.0,1430.0 L774.0,1430.0 Q760.0,1430.0 760.0,1444.0 L760.0,1516.0 Q760.0,1530.0 750.1,1539.9 L710.0,1580.0" fill="none" stroke="#af2c23" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Health</title></path>
+<path class="line" data-line="Images" d="M1510.0,1530.0 L1550.1,1570.1 Q1560.0,1580.0 1560.0,1594.0 L1560.0,1780.0 L1560.0,1816.0 Q1560.0,1830.0 1569.9,1839.9 L1660.0,1930.0" fill="none" stroke="#dd5ba0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Images</title></path>
+<path class="line" data-line="Inference" d="M560.0,2330.0 L660.0,2230.0 L710.0,2180.0 L750.1,2139.9 Q760.0,2130.0 760.0,2116.0 L760.0,2080.0 L760.0,1694.0 Q760.0,1680.0 769.9,1670.1 L850.1,1589.9 Q860.0,1580.0 869.9,1589.9 L1050.1,1770.1 Q1060.0,1780.0 1050.1,1789.9 L969.9,1870.1 Q960.0,1880.0 960.0,1894.0 L960.0,1916.0 Q960.0,1930.0 950.1,1939.9 L919.9,1970.1 Q910.0,1980.0 919.9,1989.9 L1000.1,2070.1 Q1010.0,2080.0 1024.0,2080.0 L1110.0,2080.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Inference</title></path>
+<path class="line" data-line="Ingestion" d="M1410.0,1530.0 L1319.9,1620.1 Q1310.0,1630.0 1310.0,1644.0 L1310.0,1830.0 L1310.0,1930.0" fill="none" stroke="#09e14c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ingestion</title></path>
+<path class="line" data-line="Models" d="M1310.0,1680.0 L1060.0,1680.0 L1024.0,1680.0 Q1010.0,1680.0 1000.1,1689.9 L860.0,1830.0" fill="none" stroke="#0d7577" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Models</title></path>
+<path class="line" data-line="Pricing" d="M1610.0,1580.0 L1646.0,1580.0 Q1660.0,1580.0 1669.9,1589.9 L1810.0,1730.0" fill="none" stroke="#17bad2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Pricing</title></path>
+<path class="line" data-line="Runs" d="M1610.0,1330.0 L1760.0,1480.0 L1810.0,1530.0 L1910.0,1630.0 L2050.1,1770.1 Q2060.0,1780.0 2074.0,1780.0 L2096.0,1780.0 Q2110.0,1780.0 2119.9,1789.9 L2160.0,1830.0 L2410.0,2080.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Runs</title></path>
+<path class="line" data-line="Threads" d="M2060.0,1380.0 L1924.0,1380.0 Q1910.0,1380.0 1900.1,1389.9 L1869.9,1420.1 Q1860.0,1430.0 1869.9,1439.9 L1950.1,1520.1 Q1960.0,1530.0 1974.0,1530.0 L2060.0,1530.0 L2160.0,1530.0 L2396.0,1530.0 Q2410.0,1530.0 2419.9,1539.9 L2460.0,1580.0 L2560.0,1680.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Threads</title></path>
+<path class="line" data-line="Tools" d="M1510.0,1330.0 L1550.1,1289.9 Q1560.0,1280.0 1574.0,1280.0 L1710.0,1280.0 L1746.0,1280.0 Q1760.0,1280.0 1769.9,1270.1 L1850.1,1189.9 Q1860.0,1180.0 1874.0,1180.0 L1896.0,1180.0 Q1910.0,1180.0 1919.9,1170.1 L2010.0,1080.0 L2160.0,930.0 L2210.0,880.0 L2260.0,830.0 L2300.1,789.9 Q2310.0,780.0 2310.0,766.0 L2310.0,630.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tools</title></path>
+<path class="line" data-line="Vector database" d="M1460.0,1430.0 L1460.0,1130.0 L1460.0,1094.0 Q1460.0,1080.0 1450.1,1070.1 L1360.0,980.0 L1269.9,889.9 Q1260.0,880.0 1246.0,880.0 L1210.0,880.0 L1124.0,880.0 Q1110.0,880.0 1100.1,889.9 L1019.9,970.1 Q1010.0,980.0 996.0,980.0 L974.0,980.0 Q960.0,980.0 969.9,989.9 L1050.1,1070.1 Q1060.0,1080.0 1060.0,1094.0 L1060.0,1116.0 Q1060.0,1130.0 1050.1,1120.1 L1019.9,1089.9 Q1010.0,1080.0 996.0,1080.0 L910.0,1080.0 L824.0,1080.0 Q810.0,1080.0 800.1,1070.1 L719.9,989.9 Q710.0,980.0 696.0,980.0 L560.0,980.0 L474.0,980.0 Q460.0,980.0 450.1,970.1 L319.9,839.9 Q310.0,830.0 296.0,830.0 L260.0,830.0 L160.0,830.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Vector database</title></path>
+<path class="line" data-line="More Local" d="M810.0,2530.0 L810.0,2430.0 L810.0,2344.0 Q810.0,2330.0 819.9,2320.1 L900.1,2239.9 Q910.0,2230.0 919.9,2239.9 L1000.1,2320.1 Q1010.0,2330.0 1010.0,2344.0 L1010.0,2480.0 L1010.0,2580.0 L1010.0,2730.0 L1010.0,2830.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1360" y1="1180" x2="1335.9583694396574" y2="1155.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1311.9583694396574" y="1144.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Agents</title></rect><text x="1335.9583694396574" y="1160.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="410" y1="2080" x2="385.95836943965736" y2="2104.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="361.95836943965736" y="2093.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Agents</title></rect><text x="385.95836943965736" y="2109.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="1210" y1="1430" x2="1244.0" y2="1430.0" stroke="#0d775f" stroke-width="7"/><rect x="1220.0" y="1419.0" width="48" height="22" rx="5" fill="#0d775f"><title>Agents v1 - legacy</title></rect><text x="1244.0" y="1435.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AV1L</text>
+<line x1="310" y1="1580" x2="285.95836943965736" y2="1604.0416305603426" stroke="#0d775f" stroke-width="7"/><rect x="261.95836943965736" y="1593.0416305603426" width="48" height="22" rx="5" fill="#0d775f"><title>Agents v1 - legacy</title></rect><text x="285.95836943965736" y="1609.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AV1L</text>
+<line x1="1510" y1="1680" x2="1476.0" y2="1680.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1452.0" y="1669.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Alignment</title></rect><text x="1476.0" y="1685.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALI</text>
+<line x1="2160" y1="2380" x2="2160.0" y2="2414.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2136.0" y="2403.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Alignment</title></rect><text x="2160.0" y="2419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALI</text>
+<line x1="1660" y1="3080" x2="1660.0" y2="3114.0" stroke="#B0287F" stroke-width="7"/><rect x="1636.0" y="3103.0" width="48" height="22" rx="5" fill="#B0287F"><title>Batches</title></rect><text x="1660.0" y="3119.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAT</text>
+<line x1="1460" y1="2930" x2="1426.0" y2="2930.0" stroke="#B0287F" stroke-width="7"/><rect x="1402.0" y="2919.0" width="48" height="22" rx="5" fill="#B0287F"><title>Batches</title></rect><text x="1426.0" y="2935.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAT</text>
+<line x1="1510" y1="1230" x2="1476.0" y2="1230.0" stroke="#C2410C" stroke-width="7"/><rect x="1452.0" y="1219.0" width="48" height="22" rx="5" fill="#C2410C"><title>Data jobs</title></rect><text x="1476.0" y="1235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DJ</text>
+<line x1="1810" y1="230" x2="1810.0" y2="196.0" stroke="#C2410C" stroke-width="7"/><rect x="1786.0" y="185.0" width="48" height="22" rx="5" fill="#C2410C"><title>Data jobs</title></rect><text x="1810.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DJ</text>
+<line x1="1410" y1="1630" x2="1410.0" y2="1596.0" stroke="#2E7D32" stroke-width="7"/><rect x="1386.0" y="1585.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Deployments</title></rect><text x="1410.0" y="1601.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEP</text>
+<line x1="1660" y1="2630" x2="1660.0" y2="2664.0" stroke="#2E7D32" stroke-width="7"/><rect x="1636.0" y="2653.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Deployments</title></rect><text x="1660.0" y="2669.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEP</text>
+<line x1="1360" y1="1330" x2="1384.0416305603426" y2="1354.0416305603426" stroke="#0d773a" stroke-width="7"/><rect x="1360.0416305603426" y="1343.0416305603426" width="48" height="22" rx="5" fill="#0d773a"><title>Evals</title></rect><text x="1384.0416305603426" y="1359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EVA</text>
+<line x1="1360" y1="830" x2="1384.0416305603426" y2="805.9583694396574" stroke="#0d773a" stroke-width="7"/><rect x="1360.0416305603426" y="794.9583694396574" width="48" height="22" rx="5" fill="#0d773a"><title>Evals</title></rect><text x="1384.0416305603426" y="810.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EVA</text>
+<rect x="1080" y="627" width="60" height="26" rx="13" fill="#D6264F"/><text x="1110" y="645" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">INT</text>
+<line x1="1310" y1="1430" x2="1334.0416305603426" y2="1454.0416305603426" stroke="#17d27d" stroke-width="7"/><rect x="1310.0416305603426" y="1443.0416305603426" width="48" height="22" rx="5" fill="#17d27d"><title>Feedback</title></rect><text x="1334.0416305603426" y="1459.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FEE</text>
+<line x1="760" y1="1230" x2="760.0" y2="1196.0" stroke="#17d27d" stroke-width="7"/><rect x="736.0" y="1185.0" width="48" height="22" rx="5" fill="#17d27d"><title>Feedback</title></rect><text x="760.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FEE</text>
+<line x1="910" y1="1230" x2="885.9583694396574" y2="1254.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="861.9583694396574" y="1243.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Files</title></rect><text x="885.9583694396574" y="1259.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIL</text>
+<line x1="610" y1="230" x2="585.9583694396574" y2="205.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="561.9583694396574" y="194.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Files</title></rect><text x="585.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIL</text>
+<line x1="1610" y1="1430" x2="1585.9583694396574" y2="1405.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1561.9583694396574" y="1394.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Fine Tuning</title></rect><text x="1585.9583694396574" y="1410.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FT</text>
+<line x1="3260" y1="1130" x2="3294.0" y2="1130.0" stroke="#7B3FE4" stroke-width="7"/><rect x="3270.0" y="1119.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Fine Tuning</title></rect><text x="3294.0" y="1135.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FT</text>
+<line x1="1610" y1="780" x2="1634.0416305603426" y2="755.9583694396574" stroke="#09e1ca" stroke-width="7"/><rect x="1610.0416305603426" y="744.9583694396574" width="48" height="22" rx="5" fill="#09e1ca"><title>Functions</title></rect><text x="1634.0416305603426" y="760.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUN</text>
+<line x1="1610" y1="1080" x2="1644.0" y2="1080.0" stroke="#09e1ca" stroke-width="7"/><rect x="1620.0" y="1069.0" width="48" height="22" rx="5" fill="#09e1ca"><title>Functions</title></rect><text x="1644.0" y="1085.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUN</text>
+<line x1="1260" y1="1530" x2="1294.0" y2="1530.0" stroke="#af2c23" stroke-width="7"/><rect x="1270.0" y="1519.0" width="48" height="22" rx="5" fill="#af2c23"><title>Health</title></rect><text x="1294.0" y="1535.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HEA</text>
+<line x1="710" y1="1580" x2="685.9583694396574" y2="1604.0416305603426" stroke="#af2c23" stroke-width="7"/><rect x="661.9583694396574" y="1593.0416305603426" width="48" height="22" rx="5" fill="#af2c23"><title>Health</title></rect><text x="685.9583694396574" y="1609.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HEA</text>
+<line x1="1510" y1="1530" x2="1485.9583694396574" y2="1505.9583694396574" stroke="#dd5ba0" stroke-width="7"/><rect x="1461.9583694396574" y="1494.9583694396574" width="48" height="22" rx="5" fill="#dd5ba0"><title>Images</title></rect><text x="1485.9583694396574" y="1510.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IMA</text>
+<line x1="1660" y1="1930" x2="1684.0416305603426" y2="1954.0416305603426" stroke="#dd5ba0" stroke-width="7"/><rect x="1660.0416305603426" y="1943.0416305603426" width="48" height="22" rx="5" fill="#dd5ba0"><title>Images</title></rect><text x="1684.0416305603426" y="1959.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IMA</text>
+<line x1="560" y1="2330" x2="535.9583694396574" y2="2354.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="511.9583694396574" y="2343.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Inference</title></rect><text x="535.9583694396574" y="2359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INF</text>
+<line x1="1110" y1="2080" x2="1144.0" y2="2080.0" stroke="#0B7A75" stroke-width="7"/><rect x="1120.0" y="2069.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Inference</title></rect><text x="1144.0" y="2085.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INF</text>
+<line x1="1410" y1="1530" x2="1431.2132034355964" y2="1551.2132034355964" stroke="#09e14c" stroke-width="7"/><rect x="1407.2132034355964" y="1540.2132034355964" width="48" height="22" rx="5" fill="#09e14c"><title>Ingestion</title></rect><text x="1431.2132034355964" y="1556.2132034355964" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ING</text>
+<line x1="1310" y1="1930" x2="1310.0" y2="1964.0" stroke="#09e14c" stroke-width="7"/><rect x="1286.0" y="1953.0" width="48" height="22" rx="5" fill="#09e14c"><title>Ingestion</title></rect><text x="1310.0" y="1969.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ING</text>
+<line x1="1310" y1="1680" x2="1344.0" y2="1680.0" stroke="#0d7577" stroke-width="7"/><rect x="1320.0" y="1669.0" width="48" height="22" rx="5" fill="#0d7577"><title>Models</title></rect><text x="1344.0" y="1685.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOD</text>
+<line x1="860" y1="1830" x2="835.9583694396574" y2="1854.0416305603426" stroke="#0d7577" stroke-width="7"/><rect x="811.9583694396574" y="1843.0416305603426" width="48" height="22" rx="5" fill="#0d7577"><title>Models</title></rect><text x="835.9583694396574" y="1859.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOD</text>
+<line x1="1610" y1="1580" x2="1576.0" y2="1580.0" stroke="#17bad2" stroke-width="7"/><rect x="1552.0" y="1569.0" width="48" height="22" rx="5" fill="#17bad2"><title>Pricing</title></rect><text x="1576.0" y="1585.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRI</text>
+<line x1="1810" y1="1730" x2="1834.0416305603426" y2="1754.0416305603426" stroke="#17bad2" stroke-width="7"/><rect x="1810.0416305603426" y="1743.0416305603426" width="48" height="22" rx="5" fill="#17bad2"><title>Pricing</title></rect><text x="1834.0416305603426" y="1759.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRI</text>
+<line x1="1610" y1="1330" x2="1585.9583694396574" y2="1305.9583694396574" stroke="#1d33a9" stroke-width="7"/><rect x="1561.9583694396574" y="1294.9583694396574" width="48" height="22" rx="5" fill="#1d33a9"><title>Runs</title></rect><text x="1585.9583694396574" y="1310.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="2410" y1="2080" x2="2434.0416305603426" y2="2104.0416305603426" stroke="#1d33a9" stroke-width="7"/><rect x="2410.0416305603426" y="2093.0416305603426" width="48" height="22" rx="5" fill="#1d33a9"><title>Runs</title></rect><text x="2434.0416305603426" y="2109.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="2060" y1="1380" x2="2094.0" y2="1380.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2070.0" y="1369.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Threads</title></rect><text x="2094.0" y="1385.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">THR</text>
+<line x1="2560" y1="1680" x2="2584.0416305603426" y2="1704.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="2560.0416305603426" y="1693.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Threads</title></rect><text x="2584.0416305603426" y="1709.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">THR</text>
+<line x1="1510" y1="1330" x2="1485.9583694396574" y2="1354.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1461.9583694396574" y="1343.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Tools</title></rect><text x="1485.9583694396574" y="1359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TOO</text>
+<line x1="2310" y1="630" x2="2310.0" y2="596.0" stroke="#B8860B" stroke-width="7"/><rect x="2286.0" y="585.0" width="48" height="22" rx="5" fill="#B8860B"><title>Tools</title></rect><text x="2310.0" y="601.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TOO</text>
+<line x1="1460" y1="1430" x2="1460.0" y2="1464.0" stroke="#E07B12" stroke-width="7"/><rect x="1436.0" y="1453.0" width="48" height="22" rx="5" fill="#E07B12"><title>Vector database</title></rect><text x="1460.0" y="1469.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VD</text>
+<line x1="160" y1="830" x2="126.0" y2="830.0" stroke="#E07B12" stroke-width="7"/><rect x="102.0" y="819.0" width="48" height="22" rx="5" fill="#E07B12"><title>Vector database</title></rect><text x="126.0" y="835.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VD</text>
+<line x1="810" y1="2530" x2="810.0" y2="2564.0" stroke="#D6264F" stroke-width="7"/><rect x="786.0" y="2553.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="810.0" y="2569.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1010" y1="2830" x2="1010.0" y2="2864.0" stroke="#D6264F" stroke-width="7"/><rect x="986.0" y="2853.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1010.0" y="2869.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-list_registered_agents_endpoint_v1_internal_agents_get" target="_blank" class="st" data-op="seekr-agents-api:list_registered_agents_endpoint_v1_internal_agents_get"><title>GET /v1/internal/agents
+Agents line · list_registered_agents_endpoint_v1_internal_agents_get</title>
+<circle cx="1360" cy="1180" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1372" y="1185" text-anchor="start" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-list_agents_v2_flow_agents__get" target="_blank" class="st" data-op="list_agents_v2_flow_agents__get"><title>GET /v2/flow/agents/
+Agents line · list_agents_v2_flow_agents__get</title>
+<circle cx="1410" cy="1480" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1398.0" y="1485" text-anchor="end" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-get_agent_by_id_v2_flow_agents__agent_id__get" target="_blank" class="st" data-op="get_agent_by_id_v2_flow_agents__agent_id__get"><title>GET /v2/flow/agents/{agent_id}
+Agents line · get_agent_by_id_v2_flow_agents__agent_id__get</title>
+<circle cx="1160" cy="1630" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1160" y="1653" text-anchor="middle" style="fill:#1A1F2C">Get agent</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-patch_v2_flow_agents__agent_id__patch" target="_blank" class="st" data-op="patch_v2_flow_agents__agent_id__patch"><title>PATCH /v2/flow/agents/{agent_id}
+Agents line · patch_v2_flow_agents__agent_id__patch</title>
+<circle cx="1060" cy="1580" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="1592" text-anchor="end" transform="rotate(-45 1054 1592)" style="fill:#1A1F2C">Update agent</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-delete_v2_flow_agents__agent_id__delete" target="_blank" class="st" data-op="delete_v2_flow_agents__agent_id__delete"><title>DELETE /v2/flow/agents/{agent_id}
+Agents line · delete_v2_flow_agents__agent_id__delete</title>
+<circle cx="1010" cy="1580" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1006" y1="1584" x2="1014" y2="1576" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1016" y="1568" transform="rotate(-45 1016 1568)" style="fill:#1A1F2C">Delete agent</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-create_v2_flow_agents_create_post" target="_blank" class="st" data-op="create_v2_flow_agents_create_post"><title>POST /v2/flow/agents/create
+Agents line · create_v2_flow_agents_create_post</title>
+<circle cx="960" cy="1580" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="960" y="1552" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="960" dy="13">flow agents</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-update_v2_flow_agents__agent_id__update_put" target="_blank" class="st" data-op="update_v2_flow_agents__agent_id__update_put"><title>PUT /v2/flow/agents/{agent_id}/update
+Agents line · update_v2_flow_agents__agent_id__update_put
+DEPRECATED</title>
+<circle cx="510" cy="1980" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="522" y="1985" text-anchor="start" style="fill:#A0A7B4">Update flow agents</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-promote_v2_flow_agents__agent_id__promote_put" target="_blank" class="st" data-op="promote_v2_flow_agents__agent_id__promote_put"><title>PUT /v2/flow/agents/{agent_id}/promote
+Agents line · promote_v2_flow_agents__agent_id__promote_put</title>
+<circle cx="560" cy="1930" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="572" y="1935" text-anchor="start" style="fill:#1A1F2C">Update promote</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-demote_v2_flow_agents__agent_id__demote_put" target="_blank" class="st" data-op="demote_v2_flow_agents__agent_id__demote_put"><title>PUT /v2/flow/agents/{agent_id}/demote
+Agents line · demote_v2_flow_agents__agent_id__demote_put</title>
+<circle cx="860" cy="1680" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="869" y="1699" text-anchor="start" style="fill:#1A1F2C">Update demote</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-diff_v2_flow_agents__agent_id__diff_patch" target="_blank" class="st" data-op="diff_v2_flow_agents__agent_id__diff_patch"><title>PATCH /v2/flow/agents/{agent_id}/diff
+Agents line · diff_v2_flow_agents__agent_id__diff_patch</title>
+<circle cx="710" cy="1780" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="698.0" y="1785" text-anchor="end" style="fill:#1A1F2C">Update diff</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-api/#op-update_status_v2_flow_internal_agents__agent_id__update_status_patch" target="_blank" class="st" data-op="seekr-agents-api:update_status_v2_flow_internal_agents__agent_id__update_status_patch"><title>PATCH /v2/flow/internal/agents/{agent_id}/update-status
+Agents line · update_status_v2_flow_internal_agents__agent_id__update_status_patch</title>
+<circle cx="410" cy="2080" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="422" y="2085" text-anchor="start" style="fill:#1A1F2C">Create update statu</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-list_agents_v1_flow_agents__get" target="_blank" class="st" data-op="list_agents_v1_flow_agents__get"><title>GET /v1/flow/agents/
+Agents v1 - legacy line · list_agents_v1_flow_agents__get
+DEPRECATED</title>
+<circle cx="1210" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1204" y="1442" text-anchor="end" transform="rotate(-45 1204 1442)" style="fill:#A0A7B4">List agents <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-get_agent_by_id_v1_flow_agents__agent_id__get" target="_blank" class="st" data-op="get_agent_by_id_v1_flow_agents__agent_id__get"><title>GET /v1/flow/agents/{agent_id}
+Agents v1 - legacy line · get_agent_by_id_v1_flow_agents__agent_id__get
+DEPRECATED</title>
+<circle cx="1160" cy="1430" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1166" y="1418" transform="rotate(-45 1166 1418)" style="fill:#A0A7B4">Get agent</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-patch_v1_flow_agents__agent_id__patch" target="_blank" class="st" data-op="patch_v1_flow_agents__agent_id__patch"><title>PATCH /v1/flow/agents/{agent_id}
+Agents v1 - legacy line · patch_v1_flow_agents__agent_id__patch
+DEPRECATED</title>
+<circle cx="1060" cy="1430" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1066" y="1418" transform="rotate(-45 1066 1418)" style="fill:#A0A7B4">Update agent</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-delete_v1_flow_agents__agent_id__delete" target="_blank" class="st" data-op="delete_v1_flow_agents__agent_id__delete"><title>DELETE /v1/flow/agents/{agent_id}
+Agents v1 - legacy line · delete_v1_flow_agents__agent_id__delete
+DEPRECATED</title>
+<circle cx="1010" cy="1430" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1016" y="1418" transform="rotate(-45 1016 1418)" style="fill:#A0A7B4">Delete agent</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-create_v1_flow_agents_create_post" target="_blank" class="st" data-op="create_v1_flow_agents_create_post"><title>POST /v1/flow/agents/create
+Agents v1 - legacy line · create_v1_flow_agents_create_post
+DEPRECATED</title>
+<circle cx="860" cy="1380" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="860" y="1366" text-anchor="middle" style="fill:#A0A7B4">Create flow agents</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-update_v1_flow_agents__agent_id__update_put" target="_blank" class="st" data-op="update_v1_flow_agents__agent_id__update_put"><title>PUT /v1/flow/agents/{agent_id}/update
+Agents v1 - legacy line · update_v1_flow_agents__agent_id__update_put
+DEPRECATED</title>
+<circle cx="410" cy="1480" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="422" y="1485" text-anchor="start" style="fill:#A0A7B4">Update flow agents</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-promote_v1_flow_agents__agent_id__promote_put" target="_blank" class="st" data-op="promote_v1_flow_agents__agent_id__promote_put"><title>PUT /v1/flow/agents/{agent_id}/promote
+Agents v1 - legacy line · promote_v1_flow_agents__agent_id__promote_put
+DEPRECATED</title>
+<circle cx="460" cy="1430" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="448.0" y="1435" text-anchor="end" style="fill:#A0A7B4">Update promote</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-demote_v1_flow_agents__agent_id__demote_put" target="_blank" class="st" data-op="demote_v1_flow_agents__agent_id__demote_put"><title>PUT /v1/flow/agents/{agent_id}/demote
+Agents v1 - legacy line · demote_v1_flow_agents__agent_id__demote_put
+DEPRECATED</title>
+<circle cx="710" cy="1380" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="698.0" y="1385" text-anchor="end" style="fill:#A0A7B4">Update demote</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-diff_v1_flow_agents__agent_id__diff_patch" target="_blank" class="st" data-op="diff_v1_flow_agents__agent_id__diff_patch"><title>PATCH /v1/flow/agents/{agent_id}/diff
+Agents v1 - legacy line · diff_v1_flow_agents__agent_id__diff_patch
+DEPRECATED</title>
+<circle cx="660" cy="1430" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="672" y="1435" text-anchor="start" style="fill:#A0A7B4">Update diff</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-agents-v1-legacy-api/#op-update_status_v1_flow_internal_agents__agent_id__update_status_patch" target="_blank" class="st" data-op="update_status_v1_flow_internal_agents__agent_id__update_status_patch"><title>PATCH /v1/flow/internal/agents/{agent_id}/update-status
+Agents v1 - legacy line · update_status_v1_flow_internal_agents__agent_id__update_status_patch
+DEPRECATED</title>
+<circle cx="310" cy="1580" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="322" y="1585" text-anchor="start" style="fill:#A0A7B4">Create update statu</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-alignment_list_v1_flow_alignment_get" target="_blank" class="st" data-op="alignment_list_v1_flow_alignment_get"><title>GET /v1/flow/alignment
+Alignment line · alignment_list_v1_flow_alignment_get
+DEPRECATED</title>
+<circle cx="1510" cy="1680" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1504" y="1692" text-anchor="end" transform="rotate(-45 1504 1692)" style="fill:#A0A7B4">Get alignment <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-ingestion_list_v1_flow_alignment_ingestion_get" target="_blank" class="st" data-op="ingestion_list_v1_flow_alignment_ingestion_get"><title>GET /v1/flow/alignment/ingestion
+Alignment line · ingestion_list_v1_flow_alignment_ingestion_get
+DEPRECATED</title>
+<circle cx="1860" cy="1930" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1872" y="1935" text-anchor="start" style="fill:#A0A7B4">Get ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-ingest_files_v1_flow_alignment_ingestion_post" target="_blank" class="st" data-op="ingest_files_v1_flow_alignment_ingestion_post"><title>POST /v1/flow/alignment/ingestion
+Alignment line · ingest_files_v1_flow_alignment_ingestion_post
+DEPRECATED</title>
+<circle cx="1910" cy="1980" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1922" y="1985" text-anchor="start" style="fill:#A0A7B4">Update ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-ingestion_get_v1_flow_alignment_ingestion__ingestion_job_id__get" target="_blank" class="st" data-op="ingestion_get_v1_flow_alignment_ingestion__ingestion_job_id__get"><title>GET /v1/flow/alignment/ingestion/{ingestion_job_id}
+Alignment line · ingestion_get_v1_flow_alignment_ingestion__ingestion_job_id__get
+DEPRECATED</title>
+<circle cx="2010" cy="2080" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1998.0" y="2085" text-anchor="end" style="fill:#A0A7B4">Get ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-alignment_get_v1_flow_alignment__alignment_job_id__get" target="_blank" class="st" data-op="alignment_get_v1_flow_alignment__alignment_job_id__get"><title>GET /v1/flow/alignment/{alignment_job_id}
+Alignment line · alignment_get_v1_flow_alignment__alignment_job_id__get
+DEPRECATED</title>
+<circle cx="1660" cy="1680" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1651.0" y="1699" text-anchor="end" style="fill:#A0A7B4">Get alignment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-alignment_delete_v1_flow_alignment__alignment_job_id__delete" target="_blank" class="st" data-op="alignment_delete_v1_flow_alignment__alignment_job_id__delete"><title>DELETE /v1/flow/alignment/{alignment_job_id}
+Alignment line · alignment_delete_v1_flow_alignment__alignment_job_id__delete
+DEPRECATED</title>
+<circle cx="1660" cy="1730" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1672" y="1735" text-anchor="start" style="fill:#A0A7B4">Delete alignment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-alignment_generate_v1_flow_alignment_generate_post" target="_blank" class="st" data-op="alignment_generate_v1_flow_alignment_generate_post"><title>POST /v1/flow/alignment/generate
+Alignment line · alignment_generate_v1_flow_alignment_generate_post
+DEPRECATED</title>
+<circle cx="1810" cy="1880" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1822" y="1885" text-anchor="start" style="fill:#A0A7B4">Update generate</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-cancel_alignment_job_v1_flow_alignment__alignment_job_id__cancel_post" target="_blank" class="st" data-op="cancel_alignment_job_v1_flow_alignment__alignment_job_id__cancel_post"><title>POST /v1/flow/alignment/{alignment_job_id}/cancel
+Alignment line · cancel_alignment_job_v1_flow_alignment__alignment_job_id__cancel_post
+DEPRECATED</title>
+<circle cx="2160" cy="2230" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2172" y="2235" text-anchor="start" style="fill:#A0A7B4">Cancel alignment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-alignment_workflow_phase_v1_flow_alignment__alignment_job_id__workflow_phase_get" target="_blank" class="st" data-op="seekr-alignment-api:alignment_workflow_phase_v1_flow_alignment__alignment_job_id__workflow_phase_get"><title>GET /v1/flow/alignment/{alignment_job_id}/workflow-phase
+Alignment line · alignment_workflow_phase_v1_flow_alignment__alignment_job_id__workflow_phase_get</title>
+<circle cx="2160" cy="2380" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2172" y="2385" text-anchor="start" style="fill:#1A1F2C">Get workflow phase</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-alignment-api/#op-alignment_outputs_v1_flow_alignment__alignment_job_id__outputs_get" target="_blank" class="st" data-op="alignment_outputs_v1_flow_alignment__alignment_job_id__outputs_get"><title>GET /v1/flow/alignment/{alignment_job_id}/outputs
+Alignment line · alignment_outputs_v1_flow_alignment__alignment_job_id__outputs_get
+DEPRECATED</title>
+<circle cx="2160" cy="2280" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2172" y="2285" text-anchor="start" style="fill:#A0A7B4">List outputs</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-batches-api/#op-route_batches_v1_batches_post" target="_blank" class="st" data-op="route_batches_v1_batches_post"><title>POST /v1/batches
+Batches line · route_batches_v1_batches_post</title>
+<circle cx="1660" cy="2930" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1672" y="2935" text-anchor="start" style="fill:#1A1F2C">Create batche</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-batches-api/#op-route_list_batches_v1_batches_get" target="_blank" class="st" data-op="route_list_batches_v1_batches_get"><title>GET /v1/batches
+Batches line · route_list_batches_v1_batches_get</title>
+<circle cx="1660" cy="3080" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1672" y="3085" text-anchor="start" style="fill:#1A1F2C">List batches</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-batches-api/#op-route_get_batch_v1_batches__batch_id__get" target="_blank" class="st" data-op="route_get_batch_v1_batches__batch_id__get"><title>GET /v1/batches/{batch_id}
+Batches line · route_get_batch_v1_batches__batch_id__get</title>
+<circle cx="1560" cy="2930" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1566" y="2918" transform="rotate(-45 1566 2918)" style="fill:#1A1F2C">Get batche</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-batches-api/#op-route_cancel_batch_v1_batches__batch_id__delete" target="_blank" class="st" data-op="route_cancel_batch_v1_batches__batch_id__delete"><title>DELETE /v1/batches/{batch_id}
+Batches line · route_cancel_batch_v1_batches__batch_id__delete</title>
+<circle cx="1460" cy="2930" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1456" y1="2934" x2="1464" y2="2926" stroke="#B0287F" stroke-width="2"/>
+<text x="1466" y="2918" transform="rotate(-45 1466 2918)" style="fill:#1A1F2C">Delete batche</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-generate_system_prompt_v1_flow_data_jobs_gen_system_prompt_post" target="_blank" class="st" data-op="generate_system_prompt_v1_flow_data_jobs_gen_system_prompt_post"><title>POST /v1/flow/data-jobs/gen_system_prompt
+Data jobs line · generate_system_prompt_v1_flow_data_jobs_gen_system_prompt_post</title>
+<circle cx="1710" cy="880" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1722" y="885" text-anchor="start" style="fill:#1A1F2C">Update gen system prompt</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-submit_data_job_v1_flow_data_jobs_post" target="_blank" class="st" data-op="submit_data_job_v1_flow_data_jobs_post"><title>POST /v1/flow/data-jobs
+Data jobs line · submit_data_job_v1_flow_data_jobs_post</title>
+<circle cx="1660" cy="1230" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1651.0" y="1249" text-anchor="end" style="fill:#1A1F2C">Create data job</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-get_data_jobs_v1_flow_data_jobs_get" target="_blank" class="st" data-op="get_data_jobs_v1_flow_data_jobs_get"><title>GET /v1/flow/data-jobs
+Data jobs line · get_data_jobs_v1_flow_data_jobs_get</title>
+<circle cx="1510" cy="1230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1516" y="1218" transform="rotate(-45 1516 1218)" style="fill:#1A1F2C">List data jobs <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-get_data_job_v1_flow_data_jobs__data_job_id__get" target="_blank" class="st" data-op="get_data_job_v1_flow_data_jobs__data_job_id__get"><title>GET /v1/flow/data-jobs/{data_job_id}
+Data jobs line · get_data_job_v1_flow_data_jobs__data_job_id__get</title>
+<circle cx="1710" cy="1180" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1722" y="1185" text-anchor="start" style="fill:#1A1F2C">Get data job</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-patch_data_job_v1_flow_data_jobs__data_job_id__patch" target="_blank" class="st" data-op="patch_data_job_v1_flow_data_jobs__data_job_id__patch"><title>PATCH /v1/flow/data-jobs/{data_job_id}
+Data jobs line · patch_data_job_v1_flow_data_jobs__data_job_id__patch</title>
+<circle cx="1710" cy="980" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1722" y="985" text-anchor="start" style="fill:#1A1F2C">Update data job</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-delete_data_job_v1_flow_data_jobs__data_job_id__delete" target="_blank" class="st" data-op="delete_data_job_v1_flow_data_jobs__data_job_id__delete"><title>DELETE /v1/flow/data-jobs/{data_job_id}
+Data jobs line · delete_data_job_v1_flow_data_jobs__data_job_id__delete</title>
+<circle cx="1710" cy="930" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1706" y1="934" x2="1714" y2="926" stroke="#C2410C" stroke-width="2"/>
+<text x="1722" y="935" text-anchor="start" style="fill:#1A1F2C">Delete data job</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-add_files_to_data_job_v1_flow_data_jobs__data_job_id__add_files_post" target="_blank" class="st" data-op="add_files_to_data_job_v1_flow_data_jobs__data_job_id__add_files_post"><title>POST /v1/flow/data-jobs/{data_job_id}/add-files
+Data jobs line · add_files_to_data_job_v1_flow_data_jobs__data_job_id__add_files_post</title>
+<circle cx="1810" cy="680" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1822" y="685" text-anchor="start" style="fill:#1A1F2C">Create add file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-remove_files_from_data_job_v1_flow_data_jobs__data_job_id__remove_files_post" target="_blank" class="st" data-op="remove_files_from_data_job_v1_flow_data_jobs__data_job_id__remove_files_post"><title>POST /v1/flow/data-jobs/{data_job_id}/remove-files
+Data jobs line · remove_files_from_data_job_v1_flow_data_jobs__data_job_id__remove_files_post</title>
+<circle cx="1810" cy="330" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1822" y="335" text-anchor="start" style="fill:#1A1F2C">Create remove file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-start_data_job_alignment_v1_flow_data_jobs__data_job_id__start_post" target="_blank" class="st" data-op="start_data_job_alignment_v1_flow_data_jobs__data_job_id__start_post"><title>POST /v1/flow/data-jobs/{data_job_id}/start
+Data jobs line · start_data_job_alignment_v1_flow_data_jobs__data_job_id__start_post</title>
+<circle cx="1810" cy="230" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1822" y="235" text-anchor="start" style="fill:#1A1F2C">Start flow data jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-cancel_data_job_v1_flow_data_jobs__data_job_id__cancel_post" target="_blank" class="st" data-op="cancel_data_job_v1_flow_data_jobs__data_job_id__cancel_post"><title>POST /v1/flow/data-jobs/{data_job_id}/cancel
+Data jobs line · cancel_data_job_v1_flow_data_jobs__data_job_id__cancel_post</title>
+<circle cx="1810" cy="580" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1822" y="585" text-anchor="start" style="fill:#1A1F2C">Cancel data job</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-data-jobs-api/#op-clone_data_job_v1_flow_data_jobs__data_job_id__clone_post" target="_blank" class="st" data-op="clone_data_job_v1_flow_data_jobs__data_job_id__clone_post"><title>POST /v1/flow/data-jobs/{data_job_id}/clone
+Data jobs line · clone_data_job_v1_flow_data_jobs__data_job_id__clone_post</title>
+<circle cx="1810" cy="480" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1822" y="485" text-anchor="start" style="fill:#1A1F2C">Update clone</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-get_deployment_metrics_v1_flow_metrics_deployments_get" target="_blank" class="st" data-op="get_deployment_metrics_v1_flow_metrics_deployments_get"><title>GET /v1/flow/metrics/deployments
+Deployments line · get_deployment_metrics_v1_flow_metrics_deployments_get</title>
+<circle cx="1660" cy="2630" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1672" y="2635" text-anchor="start" style="fill:#1A1F2C">List deployments</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-get_deployment_events_by_id_v1_flow_events_deployments__deployment_id__get" target="_blank" class="st" data-op="get_deployment_events_by_id_v1_flow_events_deployments__deployment_id__get"><title>GET /v1/flow/events/deployments/{deployment_id}
+Deployments line · get_deployment_events_by_id_v1_flow_events_deployments__deployment_id__get</title>
+<circle cx="1560" cy="2280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1548.0" y="2285" text-anchor="end" style="fill:#1A1F2C">Get deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-get_deployments_v1_flow_deployments_get" target="_blank" class="st" data-op="get_deployments_v1_flow_deployments_get"><title>GET /v1/flow/deployments
+Deployments line · get_deployments_v1_flow_deployments_get</title>
+<circle cx="1410" cy="1630" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1422" y="1635" text-anchor="start" style="fill:#1A1F2C">List deployments <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-deploy_v1_flow_deployments_post" target="_blank" class="st" data-op="deploy_v1_flow_deployments_post"><title>POST /v1/flow/deployments
+Deployments line · deploy_v1_flow_deployments_post</title>
+<circle cx="1410" cy="1830" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1422" y="1835" text-anchor="start" style="fill:#1A1F2C">Create deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-deployment_by_id_v1_flow_deployments__deployment_id__get" target="_blank" class="st" data-op="deployment_by_id_v1_flow_deployments__deployment_id__get"><title>GET /v1/flow/deployments/{deployment_id}
+Deployments line · deployment_by_id_v1_flow_deployments__deployment_id__get</title>
+<circle cx="1460" cy="1880" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1472" y="1885" text-anchor="start" style="fill:#1A1F2C">Get deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-update_deployment_v1_flow_deployments__deployment_id__patch" target="_blank" class="st" data-op="update_deployment_v1_flow_deployments__deployment_id__patch"><title>PATCH /v1/flow/deployments/{deployment_id}
+Deployments line · update_deployment_v1_flow_deployments__deployment_id__patch</title>
+<circle cx="1510" cy="1930" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1522" y="1935" text-anchor="start" style="fill:#1A1F2C">Update deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-promote_v1_flow_deployments__deployment_id__promote_put" target="_blank" class="st" data-op="promote_v1_flow_deployments__deployment_id__promote_put"><title>PUT /v1/flow/deployments/{deployment_id}/promote
+Deployments line · promote_v1_flow_deployments__deployment_id__promote_put</title>
+<circle cx="1510" cy="2230" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1522" y="2235" text-anchor="start" style="fill:#1A1F2C">Update promote</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-demote_v1_flow_deployments__deployment_id__demote_put" target="_blank" class="st" data-op="demote_v1_flow_deployments__deployment_id__demote_put"><title>PUT /v1/flow/deployments/{deployment_id}/demote
+Deployments line · demote_v1_flow_deployments__deployment_id__demote_put</title>
+<circle cx="1510" cy="2080" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1522" y="2085" text-anchor="start" style="fill:#1A1F2C">Update demote</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-internal_deployment_by_id_v1_flow_internal_deployments__deployment_id__get" target="_blank" class="st" data-op="seekr-deployments-api:internal_deployment_by_id_v1_flow_internal_deployments__deployment_id__get"><title>GET /v1/flow/internal/deployments/{deployment_id}
+Deployments line · internal_deployment_by_id_v1_flow_internal_deployments__deployment_id__get</title>
+<circle cx="1660" cy="2280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1672" y="2285" text-anchor="start" style="fill:#1A1F2C">Get deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-deployments-api/#op-update_deployment_status_internal_v1_flow_internal_deployments__deployment_id__status_post" target="_blank" class="st" data-op="seekr-deployments-api:update_deployment_status_internal_v1_flow_internal_deployments__deployment_id__status_post"><title>POST /v1/flow/internal/deployments/{deployment_id}/status
+Deployments line · update_deployment_status_internal_v1_flow_internal_deployments__deployment_id__status_post</title>
+<circle cx="1660" cy="2530" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1672" y="2535" text-anchor="start" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-engines-api/#op-get_engine_instances_engines_get" target="_blank" class="st" data-op="get_engine_instances_engines_get"><title>GET /engines
+More Local line · get_engine_instances_engines_get</title>
+<circle cx="810" cy="2530" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="822" y="2535" text-anchor="start" style="fill:#1A1F2C">List engines</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-evals-api/#op-create_case_route_v1_flow_evals_cases_post" target="_blank" class="st" data-op="seekr-evals-api:create_case_route_v1_flow_evals_cases_post"><title>POST /v1/flow/evals/cases
+Evals line · create_case_route_v1_flow_evals_cases_post</title>
+<circle cx="1310" cy="1280" r="5.5" fill="#0d773a" stroke="#0d773a" stroke-width="2.5"/>
+<text x="1322" y="1285" text-anchor="start" style="fill:#1A1F2C">Create cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-evals-api/#op-list_cases_route_v1_flow_evals_cases_get" target="_blank" class="st" data-op="seekr-evals-api:list_cases_route_v1_flow_evals_cases_get"><title>GET /v1/flow/evals/cases
+Evals line · list_cases_route_v1_flow_evals_cases_get</title>
+<circle cx="1360" cy="1330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348.0" y="1335" text-anchor="end" style="fill:#1A1F2C">List cases <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-evals-api/#op-get_case_route_v1_flow_evals_cases__case_id__get" target="_blank" class="st" data-op="seekr-evals-api:get_case_route_v1_flow_evals_cases__case_id__get"><title>GET /v1/flow/evals/cases/{case_id}
+Evals line · get_case_route_v1_flow_evals_cases__case_id__get</title>
+<circle cx="1310" cy="1080" r="5.5" fill="#fff" stroke="#0d773a" stroke-width="2.5"/>
+<text x="1322" y="1085" text-anchor="start" style="fill:#1A1F2C">Get cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-evals-api/#op-update_case_route_v1_flow_evals_cases__case_id__put" target="_blank" class="st" data-op="seekr-evals-api:update_case_route_v1_flow_evals_cases__case_id__put"><title>PUT /v1/flow/evals/cases/{case_id}
+Evals line · update_case_route_v1_flow_evals_cases__case_id__put</title>
+<circle cx="1210" cy="980" r="5.5" fill="#0d773a" stroke="#0d773a" stroke-width="2.5"/>
+<text x="1198.0" y="985" text-anchor="end" style="fill:#1A1F2C">Update cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-evals-api/#op-delete_case_route_v1_flow_evals_cases__case_id__delete" target="_blank" class="st" data-op="seekr-evals-api:delete_case_route_v1_flow_evals_cases__case_id__delete"><title>DELETE /v1/flow/evals/cases/{case_id}
+Evals line · delete_case_route_v1_flow_evals_cases__case_id__delete</title>
+<circle cx="1360" cy="830" r="5.5" fill="#fff" stroke="#0d773a" stroke-width="2.5"/>
+<line x1="1356" y1="834" x2="1364" y2="826" stroke="#0d773a" stroke-width="2"/>
+<text x="1372" y="835" text-anchor="start" style="fill:#1A1F2C">Delete cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-explainability-api/#op-get_context_attribution_v1_explainability_context_attributor_post" target="_blank" class="st" data-op="get_context_attribution_v1_explainability_context_attributor_post"><title>POST /v1/explainability/context-attributor
+Internal line · get_context_attribution_v1_explainability_context_attributor_post</title>
+<circle cx="1310" cy="680" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="668" transform="rotate(-45 1316 668)" style="fill:#1A1F2C">Update context attributor</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-explainability-api/#op-get_context_attribution_from_run_v1_explainability_context_attributor_from_run_post" target="_blank" class="st" data-op="get_context_attribution_from_run_v1_explainability_context_attributor_from_run_post"><title>POST /v1/explainability/context-attributor-from-run
+Internal line · get_context_attribution_from_run_v1_explainability_context_attributor_from_run_post</title>
+<circle cx="1410" cy="680" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1416" y="668" transform="rotate(-45 1416 668)" style="fill:#1A1F2C">Update context attributor from run</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-upload_feedback_route_v1_flow_feedback_upload_post" target="_blank" class="st" data-op="seekr-feedback-api:upload_feedback_route_v1_flow_feedback_upload_post"><title>POST /v1/flow/feedback/upload
+Feedback line · upload_feedback_route_v1_flow_feedback_upload_post</title>
+<circle cx="760" cy="1230" r="5.5" fill="#17d27d" stroke="#17d27d" stroke-width="2.5"/>
+<text x="772" y="1235" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-get_feedback_image_route_v1_flow_feedback_images__image_id__get" target="_blank" class="st" data-op="seekr-feedback-api:get_feedback_image_route_v1_flow_feedback_images__image_id__get"><title>GET /v1/flow/feedback/images/{image_id}
+Feedback line · get_feedback_image_route_v1_flow_feedback_images__image_id__get</title>
+<circle cx="760" cy="1330" r="5.5" fill="#fff" stroke="#17d27d" stroke-width="2.5"/>
+<text x="748.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-create_feedback_route_v1_flow_feedback__post" target="_blank" class="st" data-op="seekr-feedback-api:create_feedback_route_v1_flow_feedback__post"><title>POST /v1/flow/feedback/
+Feedback line · create_feedback_route_v1_flow_feedback__post</title>
+<circle cx="1160" cy="1330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1160" y="1316" text-anchor="middle" style="fill:#1A1F2C">Update feedback <tspan font-weight="700" style="fill:#af2c23">⇄HEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-list_feedback_route_v1_flow_feedback__get" target="_blank" class="st" data-op="seekr-feedback-api:list_feedback_route_v1_flow_feedback__get"><title>GET /v1/flow/feedback/
+Feedback line · list_feedback_route_v1_flow_feedback__get</title>
+<circle cx="1310" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1304" y="1442" text-anchor="end" transform="rotate(-45 1304 1442)" style="fill:#1A1F2C">Get feedback <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-get_feedback_route_v1_flow_feedback__feedback_id__get" target="_blank" class="st" data-op="seekr-feedback-api:get_feedback_route_v1_flow_feedback__feedback_id__get"><title>GET /v1/flow/feedback/{feedback_id}
+Feedback line · get_feedback_route_v1_flow_feedback__feedback_id__get</title>
+<circle cx="1110" cy="1330" r="5.5" fill="#fff" stroke="#17d27d" stroke-width="2.5"/>
+<text x="1110" y="1353" text-anchor="middle" style="fill:#1A1F2C">Get feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-delete_feedback_route_v1_flow_feedback__feedback_id__delete" target="_blank" class="st" data-op="seekr-feedback-api:delete_feedback_route_v1_flow_feedback__feedback_id__delete"><title>DELETE /v1/flow/feedback/{feedback_id}
+Feedback line · delete_feedback_route_v1_flow_feedback__feedback_id__delete</title>
+<circle cx="960" cy="1330" r="5.5" fill="#fff" stroke="#17d27d" stroke-width="2.5"/>
+<line x1="956" y1="1334" x2="964" y2="1326" stroke="#17d27d" stroke-width="2"/>
+<text x="966" y="1318" transform="rotate(-45 966 1318)" style="fill:#1A1F2C">Delete feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-feedback-api/#op-update_feedback_route_v1_flow_feedback__feedback_id__put" target="_blank" class="st" data-op="seekr-feedback-api:update_feedback_route_v1_flow_feedback__feedback_id__put"><title>PUT /v1/flow/feedback/{feedback_id}
+Feedback line · update_feedback_route_v1_flow_feedback__feedback_id__put</title>
+<circle cx="1010" cy="1330" r="5.5" fill="#17d27d" stroke="#17d27d" stroke-width="2.5"/>
+<text x="1016" y="1318" transform="rotate(-45 1016 1318)" style="fill:#1A1F2C">Update feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-list_files_v1_flow_files_get" target="_blank" class="st" data-op="list_files_v1_flow_files_get"><title>GET /v1/flow/files
+Files line · list_files_v1_flow_files_get</title>
+<circle cx="1210" cy="1130" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="1135" text-anchor="start" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-file_upload_v1_flow_files_put" target="_blank" class="st" data-op="file_upload_v1_flow_files_put"><title>PUT /v1/flow/files
+Files line · file_upload_v1_flow_files_put</title>
+<circle cx="1210" cy="1080" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="1085" text-anchor="start" style="fill:#1A1F2C">Create file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-file_token_counts_v1_flow_files_token_counts_get" target="_blank" class="st" data-op="file_token_counts_v1_flow_files_token_counts_get"><title>GET /v1/flow/files/token-counts
+Files line · file_token_counts_v1_flow_files_token_counts_get</title>
+<circle cx="910" cy="780" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="901.0" y="799" text-anchor="end" style="fill:#1A1F2C">List token counts</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-delete_file_v1_flow_files__file_id__delete" target="_blank" class="st" data-op="delete_file_v1_flow_files__file_id__delete"><title>DELETE /v1/flow/files/{file_id}
+Files line · delete_file_v1_flow_files__file_id__delete</title>
+<circle cx="1010" cy="880" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1006" y1="884" x2="1014" y2="876" stroke="#B0287F" stroke-width="2"/>
+<text x="1022" y="885" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-file_download_v1_flow_files__file_id__get" target="_blank" class="st" data-op="file_download_v1_flow_files__file_id__get"><title>GET /v1/flow/files/{file_id}
+Files line · file_download_v1_flow_files__file_id__get</title>
+<circle cx="1110" cy="980" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1098.0" y="985" text-anchor="end" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-bulk_file_upload_v1_flow_bulk_files_put" target="_blank" class="st" data-op="bulk_file_upload_v1_flow_bulk_files_put"><title>PUT /v1/flow/bulk_files
+Files line · bulk_file_upload_v1_flow_bulk_files_put</title>
+<circle cx="1260" cy="1230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1269" y="1249" text-anchor="start" style="fill:#1A1F2C">Create bulk file <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-file_download_content_v1_flow_files__file_id__content_get" target="_blank" class="st" data-op="file_download_content_v1_flow_files__file_id__content_get"><title>GET /v1/flow/files/{file_id}/content
+Files line · file_download_content_v1_flow_files__file_id__content_get</title>
+<circle cx="760" cy="680" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="772" y="685" text-anchor="start" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-file_validate_metadata_v1_flow_files_validate_metadata_post" target="_blank" class="st" data-op="file_validate_metadata_v1_flow_files_validate_metadata_post"><title>POST /v1/flow/files/validate_metadata
+Files line · file_validate_metadata_v1_flow_files_validate_metadata_post</title>
+<circle cx="860" cy="780" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="848.0" y="785" text-anchor="end" style="fill:#1A1F2C">Update validate metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-get_file_vector_dbs_v1_flow_files__file_id__vector_dbs_get" target="_blank" class="st" data-op="get_file_vector_dbs_v1_flow_files__file_id__vector_dbs_get"><title>GET /v1/flow/files/{file_id}/vector-dbs
+Files line · get_file_vector_dbs_v1_flow_files__file_id__vector_dbs_get</title>
+<circle cx="610" cy="230" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="622" y="235" text-anchor="start" style="fill:#1A1F2C">List vector dbs</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-get_file_data_jobs_v1_flow_files__file_id__data_jobs_get" target="_blank" class="st" data-op="get_file_data_jobs_v1_flow_files__file_id__data_jobs_get"><title>GET /v1/flow/files/{file_id}/data-jobs
+Files line · get_file_data_jobs_v1_flow_files__file_id__data_jobs_get</title>
+<circle cx="760" cy="530" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="772" y="535" text-anchor="start" style="fill:#1A1F2C">List data jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-get_file_derived_files_v1_flow_files__file_id__derived_files_get" target="_blank" class="st" data-op="get_file_derived_files_v1_flow_files__file_id__derived_files_get"><title>GET /v1/flow/files/{file_id}/derived-files
+Files line · get_file_derived_files_v1_flow_files__file_id__derived_files_get</title>
+<circle cx="760" cy="380" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="772" y="385" text-anchor="start" style="fill:#1A1F2C">List derived files</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-rename_file_v1_flow_files__file_id__rename_put" target="_blank" class="st" data-op="rename_file_v1_flow_files__file_id__rename_put"><title>PUT /v1/flow/files/{file_id}/rename
+Files line · rename_file_v1_flow_files__file_id__rename_put</title>
+<circle cx="710" cy="330" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="722" y="335" text-anchor="start" style="fill:#1A1F2C">Update rename</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-get_file_events_by_id_v1_flow_events_files__file_id__get" target="_blank" class="st" data-op="get_file_events_by_id_v1_flow_events_files__file_id__get"><title>GET /v1/flow/events/files/{file_id}
+Files line · get_file_events_by_id_v1_flow_events_files__file_id__get</title>
+<circle cx="1210" cy="1180" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="1185" text-anchor="start" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-route_files_v1_files_post" target="_blank" class="st" data-op="route_files_v1_files_post"><title>POST /v1/files
+Files line · route_files_v1_files_post</title>
+<circle cx="910" cy="1230" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="919" y="1249" text-anchor="start" style="fill:#1A1F2C">Create file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-route_get_file_v1_files__file_id__get" target="_blank" class="st" data-op="route_get_file_v1_files__file_id__get"><title>GET /v1/files/{file_id}
+Files line · route_get_file_v1_files__file_id__get</title>
+<circle cx="1110" cy="1180" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1116" y="1168" transform="rotate(-45 1116 1168)" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-files-api/#op-route_get_file_content_v1_files__file_id__content_get" target="_blank" class="st" data-op="route_get_file_content_v1_files__file_id__content_get"><title>GET /v1/files/{file_id}/content
+Files line · route_get_file_content_v1_files__file_id__content_get</title>
+<circle cx="1210" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1210" y="1303" text-anchor="middle" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-fine_tune_v1_flow_fine_tune_post" target="_blank" class="st" data-op="fine_tune_v1_flow_fine_tune_post"><title>POST /v1/flow/fine-tune
+Fine Tuning line · fine_tune_v1_flow_fine_tune_post</title>
+<circle cx="1760" cy="1380" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1769" y="1399" text-anchor="start" style="fill:#1A1F2C">Update fine tune</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-get_fine_tune_v1_flow_fine_tunes__fine_tune_id__get" target="_blank" class="st" data-op="get_fine_tune_v1_flow_fine_tunes__fine_tune_id__get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}
+Fine Tuning line · get_fine_tune_v1_flow_fine_tunes__fine_tune_id__get</title>
+<circle cx="1960" cy="1280" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1966" y="1268" transform="rotate(-45 1966 1268)" style="fill:#1A1F2C">Get fine tune</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-patch_fine_tune_v1_flow_fine_tunes__fine_tune_id__patch" target="_blank" class="st" data-op="patch_fine_tune_v1_flow_fine_tunes__fine_tune_id__patch"><title>PATCH /v1/flow/fine-tunes/{fine_tune_id}
+Fine Tuning line · patch_fine_tune_v1_flow_fine_tunes__fine_tune_id__patch</title>
+<circle cx="2210" cy="1280" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2201.0" y="1299" text-anchor="end" style="fill:#1A1F2C">Update fine tune</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-delete_fine_tune_v1_flow_fine_tunes__fine_tune_id__delete" target="_blank" class="st" data-op="delete_fine_tune_v1_flow_fine_tunes__fine_tune_id__delete"><title>DELETE /v1/flow/fine-tunes/{fine_tune_id}
+Fine Tuning line · delete_fine_tune_v1_flow_fine_tunes__fine_tune_id__delete</title>
+<circle cx="2310" cy="1180" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2306" y1="1184" x2="2314" y2="1176" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2322" y="1185" text-anchor="start" style="fill:#1A1F2C">Delete fine tune</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-download_fine_tune_v1_flow_fine_tunes__fine_tune_id__download_get" target="_blank" class="st" data-op="download_fine_tune_v1_flow_fine_tunes__fine_tune_id__download_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/download
+Fine Tuning line · download_fine_tune_v1_flow_fine_tunes__fine_tune_id__download_get</title>
+<circle cx="2610" cy="1130" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2616" y="1118" transform="rotate(-45 2616 1118)" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-cancel_fine_tune_v1_flow_fine_tunes__fine_tune_id__cancel_put" target="_blank" class="st" data-op="cancel_fine_tune_v1_flow_fine_tunes__fine_tune_id__cancel_put"><title>PUT /v1/flow/fine-tunes/{fine_tune_id}/cancel
+Fine Tuning line · cancel_fine_tune_v1_flow_fine_tunes__fine_tune_id__cancel_put</title>
+<circle cx="2360" cy="1130" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2348.0" y="1135" text-anchor="end" style="fill:#1A1F2C">Cancel flow fine tunes</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-fine_tune_workflow_phase_v1_flow_fine_tunes__fine_tune_id__workflow_phase_get" target="_blank" class="st" data-op="seekr-fine-tuning-api:fine_tune_workflow_phase_v1_flow_fine_tunes__fine_tune_id__workflow_phase_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/workflow-phase
+Fine Tuning line · fine_tune_workflow_phase_v1_flow_fine_tunes__fine_tune_id__workflow_phase_get</title>
+<circle cx="2810" cy="1130" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2816" y="1118" transform="rotate(-45 2816 1118)" style="fill:#1A1F2C">Get workflow phase</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-demote_model_v1_flow_fine_tunes__fine_tune_id__demote_model_get" target="_blank" class="st" data-op="seekr-fine-tuning-api:demote_model_v1_flow_fine_tunes__fine_tune_id__demote_model_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/demote-model
+Fine Tuning line · demote_model_v1_flow_fine_tunes__fine_tune_id__demote_model_get
+DEPRECATED</title>
+<circle cx="2460" cy="1130" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2466" y="1118" transform="rotate(-45 2466 1118)" style="fill:#A0A7B4">Get demote model</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-promote_model_v1_flow_fine_tunes__fine_tune_id__promote_model_get" target="_blank" class="st" data-op="seekr-fine-tuning-api:promote_model_v1_flow_fine_tunes__fine_tune_id__promote_model_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/promote-model
+Fine Tuning line · promote_model_v1_flow_fine_tunes__fine_tune_id__promote_model_get
+DEPRECATED</title>
+<circle cx="2710" cy="1130" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2716" y="1118" transform="rotate(-45 2716 1118)" style="fill:#A0A7B4">Get promote model</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-list_fine_tune_v1_flow_fine_tunes_get" target="_blank" class="st" data-op="list_fine_tune_v1_flow_fine_tunes_get"><title>GET /v1/flow/fine-tunes
+Fine Tuning line · list_fine_tune_v1_flow_fine_tunes_get</title>
+<circle cx="1860" cy="1280" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1869" y="1270" text-anchor="start" style="fill:#1A1F2C">List fine tunes</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-get_projects_v1_flow_projects_get" target="_blank" class="st" data-op="get_projects_v1_flow_projects_get"><title>GET /v1/flow/projects
+Fine Tuning line · get_projects_v1_flow_projects_get</title>
+<circle cx="2910" cy="1130" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2916" y="1118" transform="rotate(-45 2916 1118)" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-upsert_project_v1_flow_projects_post" target="_blank" class="st" data-op="upsert_project_v1_flow_projects_post"><title>POST /v1/flow/projects
+Fine Tuning line · upsert_project_v1_flow_projects_post</title>
+<circle cx="3010" cy="1130" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3016" y="1118" transform="rotate(-45 3016 1118)" style="fill:#1A1F2C">Create project</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-get_project_by_id_v1_flow_projects__project_id__get" target="_blank" class="st" data-op="get_project_by_id_v1_flow_projects__project_id__get"><title>GET /v1/flow/projects/{project_id}
+Fine Tuning line · get_project_by_id_v1_flow_projects__project_id__get</title>
+<circle cx="3160" cy="1130" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3166" y="1118" transform="rotate(-45 3166 1118)" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-delete_project_v1_flow_projects__project_id__delete" target="_blank" class="st" data-op="delete_project_v1_flow_projects__project_id__delete"><title>DELETE /v1/flow/projects/{project_id}
+Fine Tuning line · delete_project_v1_flow_projects__project_id__delete</title>
+<circle cx="3260" cy="1130" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="3256" y1="1134" x2="3264" y2="1126" stroke="#7B3FE4" stroke-width="2"/>
+<text x="3254" y="1142" text-anchor="end" transform="rotate(-45 3254 1142)" style="fill:#1A1F2C">Delete project</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-get_finetune_events_by_id_v1_flow_events_finetunes__finetune_id__get" target="_blank" class="st" data-op="get_finetune_events_by_id_v1_flow_events_finetunes__finetune_id__get"><title>GET /v1/flow/events/finetunes/{finetune_id}
+Fine Tuning line · get_finetune_events_by_id_v1_flow_events_finetunes__finetune_id__get</title>
+<circle cx="1610" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1598.0" y="1435" text-anchor="end" style="fill:#1A1F2C">Get finetune <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-fine-tuning-api/#op-get_influential_training_data_route_v1_flow_explain_models__model_id__influential_finetuning_data_get" target="_blank" class="st" data-op="get_influential_training_data_route_v1_flow_explain_models__model_id__influential_finetuning_data_get"><title>GET /v1/flow/explain/models/{model_id}/influential-finetuning-data
+Fine Tuning line · get_influential_training_data_route_v1_flow_explain_models__model_id__influential_finetuning_data_get</title>
+<circle cx="1660" cy="1480" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1660" y="1503" text-anchor="middle" style="fill:#1A1F2C">Get influential finetuning data</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-upload_python_function_v1_functions_post" target="_blank" class="st" data-op="upload_python_function_v1_functions_post"><title>POST /v1/functions
+Functions line · upload_python_function_v1_functions_post</title>
+<circle cx="1560" cy="830" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1572" y="835" text-anchor="start" style="fill:#1A1F2C">Create function <tspan font-weight="700" style="fill:#B0287F">⇄FIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-list_python_function_endpoint_v1_functions_get" target="_blank" class="st" data-op="list_python_function_endpoint_v1_functions_get"><title>GET /v1/functions
+Functions line · list_python_function_endpoint_v1_functions_get</title>
+<circle cx="1610" cy="780" r="5.5" fill="#fff" stroke="#09e1ca" stroke-width="2.5"/>
+<text x="1622" y="785" text-anchor="start" style="fill:#1A1F2C">List functions</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-get_python_function_endpoint_v1_functions__function_id__get" target="_blank" class="st" data-op="get_python_function_endpoint_v1_functions__function_id__get"><title>GET /v1/functions/{function_id}
+Functions line · get_python_function_endpoint_v1_functions__function_id__get</title>
+<circle cx="1510" cy="880" r="5.5" fill="#fff" stroke="#09e1ca" stroke-width="2.5"/>
+<text x="1522" y="885" text-anchor="start" style="fill:#1A1F2C">Get function</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-delete_python_function_endpoint_v1_functions__function_id__delete" target="_blank" class="st" data-op="delete_python_function_endpoint_v1_functions__function_id__delete"><title>DELETE /v1/functions/{function_id}
+Functions line · delete_python_function_endpoint_v1_functions__function_id__delete</title>
+<circle cx="1460" cy="980" r="5.5" fill="#fff" stroke="#09e1ca" stroke-width="2.5"/>
+<line x1="1456" y1="984" x2="1464" y2="976" stroke="#09e1ca" stroke-width="2"/>
+<text x="1472" y="985" text-anchor="start" style="fill:#1A1F2C">Delete function</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-update_python_function_endpoint_v1_functions__function_id__patch" target="_blank" class="st" data-op="update_python_function_endpoint_v1_functions__function_id__patch"><title>PATCH /v1/functions/{function_id}
+Functions line · update_python_function_endpoint_v1_functions__function_id__patch</title>
+<circle cx="1460" cy="930" r="5.5" fill="#09e1ca" stroke="#09e1ca" stroke-width="2.5"/>
+<text x="1472" y="935" text-anchor="start" style="fill:#1A1F2C">Update function</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-validate_function_ids_v1_internal_functions_validate_function_ids_post" target="_blank" class="st" data-op="seekr-functions-api:validate_function_ids_v1_internal_functions_validate_function_ids_post"><title>POST /v1/internal/functions/validate-function-ids
+Functions line · validate_function_ids_v1_internal_functions_validate_function_ids_post</title>
+<circle cx="1610" cy="1080" r="5.5" fill="#09e1ca" stroke="#09e1ca" stroke-width="2.5"/>
+<text x="1604" y="1092" text-anchor="end" transform="rotate(-45 1604 1092)" style="fill:#1A1F2C">Create validate function id</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-functions-api/#op-get_functions_by_ids_v1_internal_functions_by_ids_post" target="_blank" class="st" data-op="seekr-functions-api:get_functions_by_ids_v1_internal_functions_by_ids_post"><title>POST /v1/internal/functions/by-ids
+Functions line · get_functions_by_ids_v1_internal_functions_by_ids_post</title>
+<circle cx="1560" cy="1080" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1566" y="1068" transform="rotate(-45 1566 1068)" style="fill:#1A1F2C">Create by id <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-health-api/#op-version_version_get" target="_blank" class="st" data-op="seekr-health-api:version_version_get"><title>GET /version
+Health line · version_version_get</title>
+<circle cx="760" cy="1530" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="772" y="1535" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-health-api/#op-health_check_v1_health_get" target="_blank" class="st" data-op="health_check_v1_health_get"><title>GET /v1/health
+Health line · health_check_v1_health_get</title>
+<circle cx="910" cy="1480" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="916" y="1468" transform="rotate(-45 916 1468)" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-health-api/#op-agent_health_check_v1_health__agent_id__get" target="_blank" class="st" data-op="agent_health_check_v1_health__agent_id__get"><title>GET /v1/health/{agent_id}
+Health line · agent_health_check_v1_health__agent_id__get</title>
+<circle cx="760" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="769" y="1420" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-health-api/#op-get_health_external_v1_flow_health_get" target="_blank" class="st" data-op="get_health_external_v1_flow_health_get"><title>GET /v1/flow/health
+Health line · get_health_external_v1_flow_health_get</title>
+<circle cx="1260" cy="1530" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1254" y="1542" text-anchor="end" transform="rotate(-45 1254 1542)" style="fill:#1A1F2C">Get health <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-health-api/#op-get_health_internal_v1_flow_internal_health_get" target="_blank" class="st" data-op="seekr-health-api:get_health_internal_v1_flow_internal_health_get"><title>GET /v1/flow/internal/health
+Health line · get_health_internal_v1_flow_internal_health_get</title>
+<circle cx="1110" cy="1530" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1110" y="1553" text-anchor="middle" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-images-api/#op-get_image_route_v1_flow_internal_images__image_id__get" target="_blank" class="st" data-op="seekr-images-api:get_image_route_v1_flow_internal_images__image_id__get"><title>GET /v1/flow/internal/images/{image_id}
+Images line · get_image_route_v1_flow_internal_images__image_id__get</title>
+<circle cx="1560" cy="1780" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1572" y="1785" text-anchor="start" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-images-api/#op-delete_image_route_v1_flow_internal_images__image_id__delete" target="_blank" class="st" data-op="seekr-images-api:delete_image_route_v1_flow_internal_images__image_id__delete"><title>DELETE /v1/flow/internal/images/{image_id}
+Images line · delete_image_route_v1_flow_internal_images__image_id__delete</title>
+<circle cx="1560" cy="1830" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<line x1="1556" y1="1834" x2="1564" y2="1826" stroke="#dd5ba0" stroke-width="2"/>
+<text x="1572" y="1835" text-anchor="start" style="fill:#1A1F2C">Delete image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-images-api/#op-get_image_content_route_v1_flow_internal_images__image_id__content_get" target="_blank" class="st" data-op="seekr-images-api:get_image_content_route_v1_flow_internal_images__image_id__content_get"><title>GET /v1/flow/internal/images/{image_id}/content
+Images line · get_image_content_route_v1_flow_internal_images__image_id__content_get</title>
+<circle cx="1660" cy="1930" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1672" y="1935" text-anchor="start" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-images-api/#op-create_images_route_v1_flow_internal_images_post" target="_blank" class="st" data-op="seekr-images-api:create_images_route_v1_flow_internal_images_post"><title>POST /v1/flow/internal/images
+Images line · create_images_route_v1_flow_internal_images_post</title>
+<circle cx="1510" cy="1530" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1522" y="1535" text-anchor="start" style="fill:#1A1F2C">Create image <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_chat_completion_v1_inference_chat_completions_post" target="_blank" class="st" data-op="route_chat_completion_v1_inference_chat_completions_post"><title>POST /v1/inference/chat/completions
+Inference line · route_chat_completion_v1_inference_chat_completions_post</title>
+<circle cx="760" cy="2130" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="772" y="2135" text-anchor="start" style="fill:#1A1F2C">Create completion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_chat_completion_v1_inference_internal_chat_completions_post" target="_blank" class="st" data-op="route_chat_completion_v1_inference_internal_chat_completions_post"><title>POST /v1/inference/internal/chat/completions
+Inference line · route_chat_completion_v1_inference_internal_chat_completions_post</title>
+<circle cx="1060" cy="1780" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1072" y="1785" text-anchor="start" style="fill:#1A1F2C">Create completion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_completion_v1_inference_completions_post" target="_blank" class="st" data-op="route_completion_v1_inference_completions_post"><title>POST /v1/inference/completions
+Inference line · route_completion_v1_inference_completions_post</title>
+<circle cx="760" cy="2080" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="772" y="2085" text-anchor="start" style="fill:#1A1F2C">Create completion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_embeddings_v1_inference_embeddings_post" target="_blank" class="st" data-op="route_embeddings_v1_inference_embeddings_post"><title>POST /v1/inference/embeddings
+Inference line · route_embeddings_v1_inference_embeddings_post</title>
+<circle cx="760" cy="1680" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="748.0" y="1685" text-anchor="end" style="fill:#1A1F2C">Create embedding</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_embeddings_v1_inference_internal_embeddings_post" target="_blank" class="st" data-op="route_embeddings_v1_inference_internal_embeddings_post"><title>POST /v1/inference/internal/embeddings
+Inference line · route_embeddings_v1_inference_internal_embeddings_post</title>
+<circle cx="960" cy="1930" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="972" y="1935" text-anchor="start" style="fill:#1A1F2C">Create embedding</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_tokenize_inference_tokenize_post" target="_blank" class="st" data-op="route_tokenize_inference_tokenize_post"><title>POST /inference/tokenize
+Inference line · route_tokenize_inference_tokenize_post</title>
+<circle cx="660" cy="2230" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="672" y="2235" text-anchor="start" style="fill:#1A1F2C">Update tokenize</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_detokenize_inference_detokenize_post" target="_blank" class="st" data-op="route_detokenize_inference_detokenize_post"><title>POST /inference/detokenize
+Inference line · route_detokenize_inference_detokenize_post</title>
+<circle cx="560" cy="2330" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="572" y="2335" text-anchor="start" style="fill:#1A1F2C">Update detokenize</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_v1_rerank_v1_inference_rerank_post" target="_blank" class="st" data-op="route_v1_rerank_v1_inference_rerank_post"><title>POST /v1/inference/rerank
+Inference line · route_v1_rerank_v1_inference_rerank_post</title>
+<circle cx="1010" cy="2080" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1010" y="2102" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1010" dy="13">rerank <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_v1_score_v1_inference_score_post" target="_blank" class="st" data-op="route_v1_score_v1_inference_score_post"><title>POST /v1/inference/score
+Inference line · route_v1_score_v1_inference_score_post</title>
+<circle cx="1110" cy="2080" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1104" y="2092" text-anchor="end" transform="rotate(-45 1104 2092)" style="fill:#1A1F2C">Update score</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-show_models_v1_inference_internal_models_get" target="_blank" class="st" data-op="show_models_v1_inference_internal_models_get"><title>GET /v1/inference/internal/models
+Inference line · show_models_v1_inference_internal_models_get</title>
+<circle cx="910" cy="1980" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="922" y="1985" text-anchor="start" style="fill:#1A1F2C">List models <tspan font-weight="700" style="fill:#0d7577">⇄MOD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-health_v1_inference_health_get" target="_blank" class="st" data-op="health_v1_inference_health_get"><title>GET /v1/inference/health
+Inference line · health_v1_inference_health_get</title>
+<circle cx="860" cy="1580" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="866" y="1568" transform="rotate(-45 866 1568)" style="fill:#1A1F2C">Get health <tspan font-weight="700" style="fill:#af2c23">⇄HEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-inference-api/#op-route_v1_audio_transcriptions_v1_inference_audio_transcriptions_post" target="_blank" class="st" data-op="route_v1_audio_transcriptions_v1_inference_audio_transcriptions_post"><title>POST /v1/inference/audio/transcriptions
+Inference line · route_v1_audio_transcriptions_v1_inference_audio_transcriptions_post</title>
+<circle cx="710" cy="2180" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="722" y="2185" text-anchor="start" style="fill:#1A1F2C">Create transcription</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-ingestion-api/#op-ingestion_list_v1_flow_ingestion_get" target="_blank" class="st" data-op="ingestion_list_v1_flow_ingestion_get"><title>GET /v1/flow/ingestion
+Ingestion line · ingestion_list_v1_flow_ingestion_get</title>
+<circle cx="1410" cy="1530" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1422" y="1535" text-anchor="start" style="fill:#1A1F2C">Get ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-ingestion-api/#op-ingest_files_v1_flow_ingestion_post" target="_blank" class="st" data-op="ingest_files_v1_flow_ingestion_post"><title>POST /v1/flow/ingestion
+Ingestion line · ingest_files_v1_flow_ingestion_post</title>
+<circle cx="1310" cy="1830" r="5.5" fill="#09e14c" stroke="#09e14c" stroke-width="2.5"/>
+<text x="1298.0" y="1835" text-anchor="end" style="fill:#1A1F2C">Update ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-ingestion-api/#op-ingestion_get_v1_flow_ingestion__ingestion_job_id__get" target="_blank" class="st" data-op="ingestion_get_v1_flow_ingestion__ingestion_job_id__get"><title>GET /v1/flow/ingestion/{ingestion_job_id}
+Ingestion line · ingestion_get_v1_flow_ingestion__ingestion_job_id__get</title>
+<circle cx="1310" cy="1930" r="5.5" fill="#fff" stroke="#09e14c" stroke-width="2.5"/>
+<text x="1322" y="1935" text-anchor="start" style="fill:#1A1F2C">Get ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-insights-api/#op-populate_explainability_index_route_v1_flow_internal_explain_populate_index_post" target="_blank" class="st" data-op="seekr-insights-api:populate_explainability_index_route_v1_flow_internal_explain_populate_index_post"><title>POST /v1/flow/internal/explain/populate-index
+Internal line · populate_explainability_index_route_v1_flow_internal_explain_populate_index_post</title>
+<circle cx="1210" cy="2380" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1198.0" y="2385" text-anchor="end" style="fill:#1A1F2C">Update populate index</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-list_agent_latest_runs_endpoint_v1_internal_runs_latest_post" target="_blank" class="st" data-op="seekr-internal-api:list_agent_latest_runs_endpoint_v1_internal_runs_latest_post"><title>POST /v1/internal/runs/latest
+Internal line · list_agent_latest_runs_endpoint_v1_internal_runs_latest_post</title>
+<circle cx="1010" cy="780" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="785" text-anchor="start" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-validate_function_ids_v1_internal_functions_validate_function_ids_post" target="_blank" class="st" data-op="seekr-internal-api:validate_function_ids_v1_internal_functions_validate_function_ids_post"><title>POST /v1/internal/functions/validate-function-ids
+Internal line · validate_function_ids_v1_internal_functions_validate_function_ids_post</title>
+<circle cx="910" cy="880" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="898.0" y="885" text-anchor="end" style="fill:#1A1F2C">Create validate function id</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_functions_by_ids_v1_internal_functions_by_ids_post" target="_blank" class="st" data-op="seekr-internal-api:get_functions_by_ids_v1_internal_functions_by_ids_post"><title>POST /v1/internal/functions/by-ids
+Internal line · get_functions_by_ids_v1_internal_functions_by_ids_post</title>
+<circle cx="810" cy="980" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="822" y="985" text-anchor="start" style="fill:#1A1F2C">Create by id</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-read_root_v1_explainability__get" target="_blank" class="st" data-op="read_root_v1_explainability__get"><title>GET /v1/explainability/
+Internal line · read_root_v1_explainability__get</title>
+<circle cx="1210" cy="680" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1216" y="668" transform="rotate(-45 1216 668)" style="fill:#1A1F2C">Get explainability</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-check_status_v1_explainability_status_get" target="_blank" class="st" data-op="check_status_v1_explainability_status_get"><title>GET /v1/explainability/status
+Internal line · check_status_v1_explainability_status_get</title>
+<circle cx="2010" cy="980" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2022" y="985" text-anchor="start" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-create_index_v1_explainability_create_index_post" target="_blank" class="st" data-op="create_index_v1_explainability_create_index_post"><title>POST /v1/explainability/create-index
+Internal line · create_index_v1_explainability_create_index_post</title>
+<circle cx="1510" cy="680" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="668" transform="rotate(-45 1516 668)" style="fill:#1A1F2C">Update create index</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-populate_index_v1_explainability_populate_index_post" target="_blank" class="st" data-op="populate_index_v1_explainability_populate_index_post"><title>POST /v1/explainability/populate-index
+Internal line · populate_index_v1_explainability_populate_index_post</title>
+<circle cx="1810" cy="780" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1822" y="785" text-anchor="start" style="fill:#1A1F2C">Update populate index</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-delete_index_v1_explainability_delete_index_post" target="_blank" class="st" data-op="delete_index_v1_explainability_delete_index_post"><title>POST /v1/explainability/delete-index
+Internal line · delete_index_v1_explainability_delete_index_post</title>
+<circle cx="1610" cy="680" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1616" y="668" transform="rotate(-45 1616 668)" style="fill:#1A1F2C">Update delete index</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_influential_finetuning_data_v1_explainability_influential_finetuning_data_get" target="_blank" class="st" data-op="get_influential_finetuning_data_v1_explainability_influential_finetuning_data_get"><title>GET /v1/explainability/influential-finetuning-data
+Internal line · get_influential_finetuning_data_v1_explainability_influential_finetuning_data_get</title>
+<circle cx="1710" cy="680" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1701.0" y="699" text-anchor="end" style="fill:#1A1F2C">Get influential finetuning data</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-populate_index_job_status_v1_explainability_populate_index_job_status_get" target="_blank" class="st" data-op="populate_index_job_status_v1_explainability_populate_index_job_status_get"><title>GET /v1/explainability/populate-index-job-status
+Internal line · populate_index_job_status_v1_explainability_populate_index_job_status_get</title>
+<circle cx="1910" cy="880" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1922" y="885" text-anchor="start" style="fill:#1A1F2C">List populate index job status</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-alignment_workflow_phase_v1_flow_alignment__alignment_job_id__workflow_phase_get" target="_blank" class="st" data-op="seekr-internal-api:alignment_workflow_phase_v1_flow_alignment__alignment_job_id__workflow_phase_get"><title>GET /v1/flow/alignment/{alignment_job_id}/workflow-phase
+Internal line · alignment_workflow_phase_v1_flow_alignment__alignment_job_id__workflow_phase_get</title>
+<circle cx="2110" cy="1080" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2122" y="1085" text-anchor="start" style="fill:#1A1F2C">Get workflow phase</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-health_v1_flow_internal_health_get" target="_blank" class="st" data-op="health_v1_flow_internal_health_get"><title>GET /v1/flow_internal/health
+Internal line · health_v1_flow_internal_health_get</title>
+<circle cx="710" cy="1080" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="698.0" y="1085" text-anchor="end" style="fill:#1A1F2C">Get health <tspan font-weight="700" style="fill:#af2c23">⇄HEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-create_case_route_v1_flow_evals_cases_post" target="_blank" class="st" data-op="seekr-internal-api:create_case_route_v1_flow_evals_cases_post"><title>POST /v1/flow/evals/cases
+Internal line · create_case_route_v1_flow_evals_cases_post</title>
+<circle cx="2310" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2322" y="1285" text-anchor="start" style="fill:#1A1F2C">Create cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-list_cases_route_v1_flow_evals_cases_get" target="_blank" class="st" data-op="seekr-internal-api:list_cases_route_v1_flow_evals_cases_get"><title>GET /v1/flow/evals/cases
+Internal line · list_cases_route_v1_flow_evals_cases_get</title>
+<circle cx="2210" cy="1180" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2222" y="1185" text-anchor="start" style="fill:#1A1F2C">List cases</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_case_route_v1_flow_evals_cases__case_id__get" target="_blank" class="st" data-op="seekr-internal-api:get_case_route_v1_flow_evals_cases__case_id__get"><title>GET /v1/flow/evals/cases/{case_id}
+Internal line · get_case_route_v1_flow_evals_cases__case_id__get</title>
+<circle cx="2310" cy="1380" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2322" y="1385" text-anchor="start" style="fill:#1A1F2C">Get cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-update_case_route_v1_flow_evals_cases__case_id__put" target="_blank" class="st" data-op="seekr-internal-api:update_case_route_v1_flow_evals_cases__case_id__put"><title>PUT /v1/flow/evals/cases/{case_id}
+Internal line · update_case_route_v1_flow_evals_cases__case_id__put</title>
+<circle cx="2310" cy="1480" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2322" y="1485" text-anchor="start" style="fill:#1A1F2C">Update cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-delete_case_route_v1_flow_evals_cases__case_id__delete" target="_blank" class="st" data-op="seekr-internal-api:delete_case_route_v1_flow_evals_cases__case_id__delete"><title>DELETE /v1/flow/evals/cases/{case_id}
+Internal line · delete_case_route_v1_flow_evals_cases__case_id__delete</title>
+<circle cx="2310" cy="1580" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2306" y1="1584" x2="2314" y2="1576" stroke="#D6264F" stroke-width="2"/>
+<text x="2322" y="1585" text-anchor="start" style="fill:#1A1F2C">Delete cas</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-upload_feedback_route_v1_flow_feedback_upload_post" target="_blank" class="st" data-op="seekr-internal-api:upload_feedback_route_v1_flow_feedback_upload_post"><title>POST /v1/flow/feedback/upload
+Internal line · upload_feedback_route_v1_flow_feedback_upload_post</title>
+<circle cx="2210" cy="1980" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2198.0" y="1985" text-anchor="end" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_feedback_image_route_v1_flow_feedback_images__image_id__get" target="_blank" class="st" data-op="seekr-internal-api:get_feedback_image_route_v1_flow_feedback_images__image_id__get"><title>GET /v1/flow/feedback/images/{image_id}
+Internal line · get_feedback_image_route_v1_flow_feedback_images__image_id__get</title>
+<circle cx="2310" cy="1880" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2322" y="1885" text-anchor="start" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-create_feedback_route_v1_flow_feedback__post" target="_blank" class="st" data-op="seekr-internal-api:create_feedback_route_v1_flow_feedback__post"><title>POST /v1/flow/feedback/
+Internal line · create_feedback_route_v1_flow_feedback__post</title>
+<circle cx="2310" cy="1780" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2322" y="1785" text-anchor="start" style="fill:#1A1F2C">Update feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-list_feedback_route_v1_flow_feedback__get" target="_blank" class="st" data-op="seekr-internal-api:list_feedback_route_v1_flow_feedback__get"><title>GET /v1/flow/feedback/
+Internal line · list_feedback_route_v1_flow_feedback__get</title>
+<circle cx="2310" cy="1680" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2322" y="1685" text-anchor="start" style="fill:#1A1F2C">Get feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_feedback_route_v1_flow_feedback__feedback_id__get" target="_blank" class="st" data-op="seekr-internal-api:get_feedback_route_v1_flow_feedback__feedback_id__get"><title>GET /v1/flow/feedback/{feedback_id}
+Internal line · get_feedback_route_v1_flow_feedback__feedback_id__get</title>
+<circle cx="2110" cy="2080" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2122" y="2085" text-anchor="start" style="fill:#1A1F2C">Get feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-delete_feedback_route_v1_flow_feedback__feedback_id__delete" target="_blank" class="st" data-op="seekr-internal-api:delete_feedback_route_v1_flow_feedback__feedback_id__delete"><title>DELETE /v1/flow/feedback/{feedback_id}
+Internal line · delete_feedback_route_v1_flow_feedback__feedback_id__delete</title>
+<circle cx="1910" cy="2280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1906" y1="2284" x2="1914" y2="2276" stroke="#D6264F" stroke-width="2"/>
+<text x="1922" y="2285" text-anchor="start" style="fill:#1A1F2C">Delete feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-update_feedback_route_v1_flow_feedback__feedback_id__put" target="_blank" class="st" data-op="seekr-internal-api:update_feedback_route_v1_flow_feedback__feedback_id__put"><title>PUT /v1/flow/feedback/{feedback_id}
+Internal line · update_feedback_route_v1_flow_feedback__feedback_id__put</title>
+<circle cx="2010" cy="2180" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1998.0" y="2185" text-anchor="end" style="fill:#1A1F2C">Update feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_image_route_v1_flow_internal_images__image_id__get" target="_blank" class="st" data-op="seekr-internal-api:get_image_route_v1_flow_internal_images__image_id__get"><title>GET /v1/flow/internal/images/{image_id}
+Internal line · get_image_route_v1_flow_internal_images__image_id__get</title>
+<circle cx="910" cy="2080" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="922" y="2085" text-anchor="start" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-delete_image_route_v1_flow_internal_images__image_id__delete" target="_blank" class="st" data-op="seekr-internal-api:delete_image_route_v1_flow_internal_images__image_id__delete"><title>DELETE /v1/flow/internal/images/{image_id}
+Internal line · delete_image_route_v1_flow_internal_images__image_id__delete</title>
+<circle cx="810" cy="1980" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="806" y1="1984" x2="814" y2="1976" stroke="#D6264F" stroke-width="2"/>
+<text x="822" y="1985" text-anchor="start" style="fill:#1A1F2C">Delete image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-get_image_content_route_v1_flow_internal_images__image_id__content_get" target="_blank" class="st" data-op="seekr-internal-api:get_image_content_route_v1_flow_internal_images__image_id__content_get"><title>GET /v1/flow/internal/images/{image_id}/content
+Internal line · get_image_content_route_v1_flow_internal_images__image_id__content_get</title>
+<circle cx="710" cy="1880" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="698.0" y="1885" text-anchor="end" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-create_images_route_v1_flow_internal_images_post" target="_blank" class="st" data-op="seekr-internal-api:create_images_route_v1_flow_internal_images_post"><title>POST /v1/flow/internal/images
+Internal line · create_images_route_v1_flow_internal_images_post</title>
+<circle cx="1010" cy="2180" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="2185" text-anchor="start" style="fill:#1A1F2C">Create image</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-fine_tune_workflow_phase_v1_flow_fine_tunes__fine_tune_id__workflow_phase_get" target="_blank" class="st" data-op="seekr-internal-api:fine_tune_workflow_phase_v1_flow_fine_tunes__fine_tune_id__workflow_phase_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/workflow-phase
+Internal line · fine_tune_workflow_phase_v1_flow_fine_tunes__fine_tune_id__workflow_phase_get</title>
+<circle cx="1610" cy="2380" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1604" y="2392" text-anchor="end" transform="rotate(-45 1604 2392)" style="fill:#1A1F2C">Get workflow phase</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-demote_model_v1_flow_fine_tunes__fine_tune_id__demote_model_get" target="_blank" class="st" data-op="seekr-internal-api:demote_model_v1_flow_fine_tunes__fine_tune_id__demote_model_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/demote-model
+Internal line · demote_model_v1_flow_fine_tunes__fine_tune_id__demote_model_get
+DEPRECATED</title>
+<circle cx="1810" cy="2380" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1822" y="2385" text-anchor="start" style="fill:#A0A7B4">Get demote model</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-promote_model_v1_flow_fine_tunes__fine_tune_id__promote_model_get" target="_blank" class="st" data-op="seekr-internal-api:promote_model_v1_flow_fine_tunes__fine_tune_id__promote_model_get"><title>GET /v1/flow/fine-tunes/{fine_tune_id}/promote-model
+Internal line · promote_model_v1_flow_fine_tunes__fine_tune_id__promote_model_get
+DEPRECATED</title>
+<circle cx="1710" cy="2380" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1716" y="2368" transform="rotate(-45 1716 2368)" style="fill:#A0A7B4">Get promote model</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-training_status_update_internal_finetune__fine_tune_id__status_post" target="_blank" class="st" data-op="training_status_update_internal_finetune__fine_tune_id__status_post"><title>POST /internal/finetune/{fine_tune_id}/status
+Internal line · training_status_update_internal_finetune__fine_tune_id__status_post</title>
+<circle cx="1110" cy="680" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1098.0" y="685" text-anchor="end" style="fill:#1A1F2C">Create statu <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-generate_price_estimate_for_serverless_inference_v1_flow_pricing_inference_serverless_post" target="_blank" class="st" data-op="seekr-internal-api:generate_price_estimate_for_serverless_inference_v1_flow_pricing_inference_serverless_post"><title>POST /v1/flow/pricing/inference/serverless
+Internal line · generate_price_estimate_for_serverless_inference_v1_flow_pricing_inference_serverless_post</title>
+<circle cx="610" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="622" y="1285" text-anchor="start" style="fill:#1A1F2C">Update serverless</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-generate_price_estimate_for_finetuning_v1_flow_pricing_fine_tuning_post" target="_blank" class="st" data-op="seekr-internal-api:generate_price_estimate_for_finetuning_v1_flow_pricing_fine_tuning_post"><title>POST /v1/flow/pricing/fine-tuning
+Internal line · generate_price_estimate_for_finetuning_v1_flow_pricing_fine_tuning_post</title>
+<circle cx="610" cy="1480" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="622" y="1485" text-anchor="start" style="fill:#1A1F2C">Update fine tuning</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-generate_price_estimate_for_dedicated_inference_v1_flow_pricing_inference_dedicated_post" target="_blank" class="st" data-op="seekr-internal-api:generate_price_estimate_for_dedicated_inference_v1_flow_pricing_inference_dedicated_post"><title>POST /v1/flow/pricing/inference/dedicated
+Internal line · generate_price_estimate_for_dedicated_inference_v1_flow_pricing_inference_dedicated_post</title>
+<circle cx="610" cy="1380" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="598.0" y="1385" text-anchor="end" style="fill:#1A1F2C">Update dedicated</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-internal_deployment_by_id_v1_flow_internal_deployments__deployment_id__get" target="_blank" class="st" data-op="seekr-internal-api:internal_deployment_by_id_v1_flow_internal_deployments__deployment_id__get"><title>GET /v1/flow/internal/deployments/{deployment_id}
+Internal line · internal_deployment_by_id_v1_flow_internal_deployments__deployment_id__get</title>
+<circle cx="1410" cy="2380" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1416" y="2368" transform="rotate(-45 1416 2368)" style="fill:#1A1F2C">Get deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-update_deployment_status_internal_v1_flow_internal_deployments__deployment_id__status_post" target="_blank" class="st" data-op="seekr-internal-api:update_deployment_status_internal_v1_flow_internal_deployments__deployment_id__status_post"><title>POST /v1/flow/internal/deployments/{deployment_id}/status
+Internal line · update_deployment_status_internal_v1_flow_internal_deployments__deployment_id__status_post</title>
+<circle cx="1310" cy="2380" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="2368" transform="rotate(-45 1316 2368)" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-ml_models_v1_flow_internal_models_get" target="_blank" class="st" data-op="seekr-internal-api:ml_models_v1_flow_internal_models_get"><title>GET /v1/flow/internal/models
+Internal line · ml_models_v1_flow_internal_models_get</title>
+<circle cx="610" cy="1780" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="598.0" y="1785" text-anchor="end" style="fill:#1A1F2C">List models <tspan font-weight="700" style="fill:#0d7577">⇄MOD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-deployments_v1_flow_internal_deployments_get" target="_blank" class="st" data-op="seekr-internal-api:deployments_v1_flow_internal_deployments_get"><title>GET /v1/flow/internal/deployments
+Internal line · deployments_v1_flow_internal_deployments_get</title>
+<circle cx="1510" cy="2380" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="2368" transform="rotate(-45 1516 2368)" style="fill:#1A1F2C">List deployments</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-ml_model_by_model_id_v1_flow_internal_models_info_get" target="_blank" class="st" data-op="seekr-internal-api:ml_model_by_model_id_v1_flow_internal_models_info_get"><title>GET /v1/flow/internal/models/info
+Internal line · ml_model_by_model_id_v1_flow_internal_models_info_get</title>
+<circle cx="610" cy="1580" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="622" y="1585" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-ml_model_hf_revision_by_model_name_v1_flow_internal_models_hf_revision_get" target="_blank" class="st" data-op="seekr-internal-api:ml_model_hf_revision_by_model_name_v1_flow_internal_models_hf_revision_get"><title>GET /v1/flow/internal/models/hf_revision
+Internal line · ml_model_hf_revision_by_model_name_v1_flow_internal_models_hf_revision_get</title>
+<circle cx="610" cy="1680" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="598.0" y="1685" text-anchor="end" style="fill:#1A1F2C">Get hf revision</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-internal-api/#op-populate_explainability_index_route_v1_flow_internal_explain_populate_index_post" target="_blank" class="st" data-op="seekr-internal-api:populate_explainability_index_route_v1_flow_internal_explain_populate_index_post"><title>POST /v1/flow/internal/explain/populate-index
+Internal line · populate_explainability_index_route_v1_flow_internal_explain_populate_index_post</title>
+<circle cx="1110" cy="2280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1122" y="2285" text-anchor="start" style="fill:#1A1F2C">Update populate index</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-is-sleeping-api/#op-route_is_sleeping_is_sleeping_get" target="_blank" class="st" data-op="route_is_sleeping_is_sleeping_get"><title>GET /is_sleeping
+More Local line · route_is_sleeping_is_sleeping_get</title>
+<circle cx="810" cy="2430" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="822" y="2435" text-anchor="start" style="fill:#1A1F2C">Get is sleeping</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-metrics-api/#op-metrics_metrics_get" target="_blank" class="st" data-op="metrics_metrics_get"><title>GET /metrics
+More Local line · metrics_metrics_get</title>
+<circle cx="810" cy="2330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="822" y="2335" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-models-api/#op-ml_models_v1_flow_models_get" target="_blank" class="st" data-op="ml_models_v1_flow_models_get"><title>GET /v1/flow/models
+Models line · ml_models_v1_flow_models_get</title>
+<circle cx="1310" cy="1680" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1304" y="1692" text-anchor="end" transform="rotate(-45 1304 1692)" style="fill:#1A1F2C">List models <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-models-api/#op-ml_model_by_model_id_v1_flow_models_info_get" target="_blank" class="st" data-op="ml_model_by_model_id_v1_flow_models_info_get"><title>GET /v1/flow/models/info
+Models line · ml_model_by_model_id_v1_flow_models_info_get</title>
+<circle cx="1010" cy="1680" r="5.5" fill="#fff" stroke="#0d7577" stroke-width="2.5"/>
+<text x="1019" y="1699" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-models-api/#op-ml_model_hf_revision_by_model_name_v1_flow_models_hf_revision_get" target="_blank" class="st" data-op="ml_model_hf_revision_by_model_name_v1_flow_models_hf_revision_get"><title>GET /v1/flow/models/hf_revision
+Models line · ml_model_hf_revision_by_model_name_v1_flow_models_hf_revision_get</title>
+<circle cx="1060" cy="1680" r="5.5" fill="#fff" stroke="#0d7577" stroke-width="2.5"/>
+<text x="1060" y="1666" text-anchor="middle" style="fill:#1A1F2C">Get hf revision</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-models-api/#op-show_models_v1_models_get" target="_blank" class="st" data-op="show_models_v1_models_get"><title>GET /v1/models
+Models line · show_models_v1_models_get</title>
+<circle cx="860" cy="1830" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="872" y="1835" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-observability-api/#op-query_spans_v1_observability_spans_post" target="_blank" class="st" data-op="query_spans_v1_observability_spans_post"><title>POST /v1/observability/spans
+More Local line · query_spans_v1_observability_spans_post</title>
+<circle cx="1010" cy="2580" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="2585" text-anchor="start" style="fill:#1A1F2C">Create span</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-observability-api/#op-retrieve_span_v1_observability_spans__span_id__get" target="_blank" class="st" data-op="retrieve_span_v1_observability_spans__span_id__get"><title>GET /v1/observability/spans/{span_id}
+More Local line · retrieve_span_v1_observability_spans__span_id__get</title>
+<circle cx="1010" cy="2730" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="2735" text-anchor="start" style="fill:#1A1F2C">Get span</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-pricing-api/#op-generate_price_estimate_for_serverless_inference_v1_flow_pricing_inference_serverless_post" target="_blank" class="st" data-op="seekr-pricing-api:generate_price_estimate_for_serverless_inference_v1_flow_pricing_inference_serverless_post"><title>POST /v1/flow/pricing/inference/serverless
+Pricing line · generate_price_estimate_for_serverless_inference_v1_flow_pricing_inference_serverless_post</title>
+<circle cx="1810" cy="1730" r="5.5" fill="#17bad2" stroke="#17bad2" stroke-width="2.5"/>
+<text x="1822" y="1735" text-anchor="start" style="fill:#1A1F2C">Update serverless</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-pricing-api/#op-generate_price_estimate_for_finetuning_v1_flow_pricing_fine_tuning_post" target="_blank" class="st" data-op="seekr-pricing-api:generate_price_estimate_for_finetuning_v1_flow_pricing_fine_tuning_post"><title>POST /v1/flow/pricing/fine-tuning
+Pricing line · generate_price_estimate_for_finetuning_v1_flow_pricing_fine_tuning_post</title>
+<circle cx="1610" cy="1580" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1619" y="1570" text-anchor="start" style="fill:#1A1F2C">Update fine tuning <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-pricing-api/#op-generate_price_estimate_for_dedicated_inference_v1_flow_pricing_inference_dedicated_post" target="_blank" class="st" data-op="seekr-pricing-api:generate_price_estimate_for_dedicated_inference_v1_flow_pricing_inference_dedicated_post"><title>POST /v1/flow/pricing/inference/dedicated
+Pricing line · generate_price_estimate_for_dedicated_inference_v1_flow_pricing_inference_dedicated_post</title>
+<circle cx="1660" cy="1580" r="5.5" fill="#17bad2" stroke="#17bad2" stroke-width="2.5"/>
+<text x="1672" y="1585" text-anchor="start" style="fill:#1A1F2C">Update dedicated</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-rerank-api/#op-route_rerank_rerank_post" target="_blank" class="st" data-op="route_rerank_rerank_post"><title>POST /rerank
+More Local line · route_rerank_rerank_post</title>
+<circle cx="910" cy="2230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="916" y="2218" transform="rotate(-45 916 2218)" style="fill:#1A1F2C">Update rerank</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-run_agent_v1_threads__thread_id__runs_post" target="_blank" class="st" data-op="run_agent_v1_threads__thread_id__runs_post"><title>POST /v1/threads/{thread_id}/runs
+Runs line · run_agent_v1_threads__thread_id__runs_post</title>
+<circle cx="1810" cy="1530" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1822" y="1535" text-anchor="start" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-list_runs_endpoint_v1_threads__thread_id__runs_get" target="_blank" class="st" data-op="list_runs_endpoint_v1_threads__thread_id__runs_get"><title>GET /v1/threads/{thread_id}/runs
+Runs line · list_runs_endpoint_v1_threads__thread_id__runs_get</title>
+<circle cx="1760" cy="1480" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1772" y="1485" text-anchor="start" style="fill:#1A1F2C">List runs <tspan font-weight="700" style="fill:#1F5FD1">⇄THR</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-run_agent_stream_v1_threads__thread_id__runs_stream_post" target="_blank" class="st" data-op="run_agent_stream_v1_threads__thread_id__runs_stream_post"><title>POST /v1/threads/{thread_id}/runs/stream
+Runs line · run_agent_stream_v1_threads__thread_id__runs_stream_post</title>
+<circle cx="2060" cy="1780" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="2048.0" y="1785" text-anchor="end" style="fill:#1A1F2C">Update stream</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-run_agent_stream_vercel_v1_threads__thread_id__runs_stream_vercel_post" target="_blank" class="st" data-op="run_agent_stream_vercel_v1_threads__thread_id__runs_stream_vercel_post"><title>POST /v1/threads/{thread_id}/runs/stream/vercel
+Runs line · run_agent_stream_vercel_v1_threads__thread_id__runs_stream_vercel_post</title>
+<circle cx="2110" cy="1780" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="2122" y="1785" text-anchor="start" style="fill:#1A1F2C">Update vercel</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-cancel_run_v1_threads__thread_id__runs__run_id__cancel_post" target="_blank" class="st" data-op="cancel_run_v1_threads__thread_id__runs__run_id__cancel_post"><title>POST /v1/threads/{thread_id}/runs/{run_id}/cancel
+Runs line · cancel_run_v1_threads__thread_id__runs__run_id__cancel_post</title>
+<circle cx="2410" cy="2080" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="2422" y="2085" text-anchor="start" style="fill:#1A1F2C">Cancel run</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-attach_to_run_v1_threads__thread_id__runs__run_id__attach_get" target="_blank" class="st" data-op="attach_to_run_v1_threads__thread_id__runs__run_id__attach_get"><title>GET /v1/threads/{thread_id}/runs/{run_id}/attach
+Runs line · attach_to_run_v1_threads__thread_id__runs__run_id__attach_get</title>
+<circle cx="2160" cy="1830" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="2172" y="1835" text-anchor="start" style="fill:#1A1F2C">Attach run</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-get_run_endpoint_v1_threads__thread_id__runs__run_id__get" target="_blank" class="st" data-op="get_run_endpoint_v1_threads__thread_id__runs__run_id__get"><title>GET /v1/threads/{thread_id}/runs/{run_id}
+Runs line · get_run_endpoint_v1_threads__thread_id__runs__run_id__get</title>
+<circle cx="1910" cy="1630" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1922" y="1635" text-anchor="start" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-runs-api/#op-list_agent_latest_runs_endpoint_v1_internal_runs_latest_post" target="_blank" class="st" data-op="seekr-runs-api:list_agent_latest_runs_endpoint_v1_internal_runs_latest_post"><title>POST /v1/internal/runs/latest
+Runs line · list_agent_latest_runs_endpoint_v1_internal_runs_latest_post</title>
+<circle cx="1610" cy="1330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1622" y="1335" text-anchor="start" style="fill:#1A1F2C">Create run <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-score-api/#op-route_score_score_post" target="_blank" class="st" data-op="route_score_score_post"><title>POST /score
+More Local line · route_score_score_post</title>
+<circle cx="1010" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="2335" text-anchor="start" style="fill:#1A1F2C">Update score</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-sleep-api/#op-route_sleep_sleep_post" target="_blank" class="st" data-op="route_sleep_sleep_post"><title>POST /sleep
+More Local line · route_sleep_sleep_post</title>
+<circle cx="1010" cy="2480" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="2485" text-anchor="start" style="fill:#1A1F2C">Update sleep</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-list_messages_endpoint_v1_threads__thread_id__messages_get" target="_blank" class="st" data-op="list_messages_endpoint_v1_threads__thread_id__messages_get"><title>GET /v1/threads/{thread_id}/messages
+Threads line · list_messages_endpoint_v1_threads__thread_id__messages_get</title>
+<circle cx="2060" cy="1530" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2066" y="1518" transform="rotate(-45 2066 1518)" style="fill:#1A1F2C">List messages</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-create_message_endpoint_v1_threads__thread_id__messages_post" target="_blank" class="st" data-op="create_message_endpoint_v1_threads__thread_id__messages_post"><title>POST /v1/threads/{thread_id}/messages
+Threads line · create_message_endpoint_v1_threads__thread_id__messages_post</title>
+<circle cx="2160" cy="1530" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2166" y="1518" transform="rotate(-45 2166 1518)" style="fill:#1A1F2C">Create message</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-create_thread_endpoint_v1_threads_post" target="_blank" class="st" data-op="create_thread_endpoint_v1_threads_post"><title>POST /v1/threads
+Threads line · create_thread_endpoint_v1_threads_post</title>
+<circle cx="1910" cy="1380" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1898.0" y="1385" text-anchor="end" style="fill:#1A1F2C">Create thread</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-list_threads_endpoint_v1_threads_get" target="_blank" class="st" data-op="list_threads_endpoint_v1_threads_get"><title>GET /v1/threads
+Threads line · list_threads_endpoint_v1_threads_get</title>
+<circle cx="2060" cy="1380" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2054" y="1392" text-anchor="end" transform="rotate(-45 2054 1392)" style="fill:#1A1F2C">List threads</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-delete_thread_endpoint_v1_threads__thread_id__delete" target="_blank" class="st" data-op="delete_thread_endpoint_v1_threads__thread_id__delete"><title>DELETE /v1/threads/{thread_id}
+Threads line · delete_thread_endpoint_v1_threads__thread_id__delete</title>
+<circle cx="1960" cy="1530" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1956" y1="1534" x2="1964" y2="1526" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1969" y="1520" text-anchor="start" style="fill:#1A1F2C">Delete thread</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-get_thread_endpoint_v1_threads__thread_id__get" target="_blank" class="st" data-op="get_thread_endpoint_v1_threads__thread_id__get"><title>GET /v1/threads/{thread_id}
+Threads line · get_thread_endpoint_v1_threads__thread_id__get</title>
+<circle cx="1860" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1872" y="1435" text-anchor="start" style="fill:#1A1F2C">Get thread</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-update_message_endpoint_v1_threads__thread_id__messages__message_id__patch" target="_blank" class="st" data-op="update_message_endpoint_v1_threads__thread_id__messages__message_id__patch"><title>PATCH /v1/threads/{thread_id}/messages/{message_id}
+Threads line · update_message_endpoint_v1_threads__thread_id__messages__message_id__patch</title>
+<circle cx="2460" cy="1580" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2472" y="1585" text-anchor="start" style="fill:#1A1F2C">Update message</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-get_message_endpoint_v1_threads__thread_id__messages__message_id__get" target="_blank" class="st" data-op="get_message_endpoint_v1_threads__thread_id__messages__message_id__get"><title>GET /v1/threads/{thread_id}/messages/{message_id}
+Threads line · get_message_endpoint_v1_threads__thread_id__messages__message_id__get</title>
+<circle cx="2410" cy="1530" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2422" y="1535" text-anchor="start" style="fill:#1A1F2C">Get message</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-threads-api/#op-delete_message_endpoint_v1_threads__thread_id__messages__message_id__delete" target="_blank" class="st" data-op="delete_message_endpoint_v1_threads__thread_id__messages__message_id__delete"><title>DELETE /v1/threads/{thread_id}/messages/{message_id}
+Threads line · delete_message_endpoint_v1_threads__thread_id__messages__message_id__delete</title>
+<circle cx="2560" cy="1680" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2556" y1="1684" x2="2564" y2="1676" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2572" y="1685" text-anchor="start" style="fill:#1A1F2C">Delete message</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-create_tool_v1_flow_tools_post" target="_blank" class="st" data-op="create_tool_v1_flow_tools_post"><title>POST /v1/flow/tools
+Tools line · create_tool_v1_flow_tools_post</title>
+<circle cx="1860" cy="1180" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1851.0" y="1170" text-anchor="end" style="fill:#1A1F2C">Create tool</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-list_tools_v1_flow_tools_get" target="_blank" class="st" data-op="list_tools_v1_flow_tools_get"><title>GET /v1/flow/tools
+Tools line · list_tools_v1_flow_tools_get</title>
+<circle cx="1760" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1772" y="1285" text-anchor="start" style="fill:#1A1F2C">List tools</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-get_tool_v1_flow_tools__tool_id__get" target="_blank" class="st" data-op="get_tool_v1_flow_tools__tool_id__get"><title>GET /v1/flow/tools/{tool_id}
+Tools line · get_tool_v1_flow_tools__tool_id__get</title>
+<circle cx="1910" cy="1180" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1922" y="1185" text-anchor="start" style="fill:#1A1F2C">Get tool</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-patch_tool_v1_flow_tools__tool_id__patch" target="_blank" class="st" data-op="patch_tool_v1_flow_tools__tool_id__patch"><title>PATCH /v1/flow/tools/{tool_id}
+Tools line · patch_tool_v1_flow_tools__tool_id__patch</title>
+<circle cx="2160" cy="930" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2172" y="935" text-anchor="start" style="fill:#1A1F2C">Update tool</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-update_tool_v1_flow_tools__tool_id__put" target="_blank" class="st" data-op="update_tool_v1_flow_tools__tool_id__put"><title>PUT /v1/flow/tools/{tool_id}
+Tools line · update_tool_v1_flow_tools__tool_id__put
+DEPRECATED</title>
+<circle cx="2010" cy="1080" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2022" y="1085" text-anchor="start" style="fill:#A0A7B4">Update tool</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-delete_tool_v1_flow_tools__tool_id__delete" target="_blank" class="st" data-op="delete_tool_v1_flow_tools__tool_id__delete"><title>DELETE /v1/flow/tools/{tool_id}
+Tools line · delete_tool_v1_flow_tools__tool_id__delete</title>
+<circle cx="2210" cy="880" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2206" y1="884" x2="2214" y2="876" stroke="#B8860B" stroke-width="2"/>
+<text x="2222" y="885" text-anchor="start" style="fill:#1A1F2C">Delete tool</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-get_agents_for_tool_v1_flow_tools__tool_id__agents_get" target="_blank" class="st" data-op="get_agents_for_tool_v1_flow_tools__tool_id__agents_get"><title>GET /v1/flow/tools/{tool_id}/agents
+Tools line · get_agents_for_tool_v1_flow_tools__tool_id__agents_get</title>
+<circle cx="2260" cy="830" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2272" y="835" text-anchor="start" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-diff_tool_changes_v1_flow_tools__tool_id__diff_patch" target="_blank" class="st" data-op="diff_tool_changes_v1_flow_tools__tool_id__diff_patch"><title>PATCH /v1/flow/tools/{tool_id}/diff
+Tools line · diff_tool_changes_v1_flow_tools__tool_id__diff_patch</title>
+<circle cx="2310" cy="780" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2322" y="785" text-anchor="start" style="fill:#1A1F2C">Update diff</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-duplicate_tool_v1_flow_tools__tool_id__duplicate_post" target="_blank" class="st" data-op="duplicate_tool_v1_flow_tools__tool_id__duplicate_post"><title>POST /v1/flow/tools/{tool_id}/duplicate
+Tools line · duplicate_tool_v1_flow_tools__tool_id__duplicate_post</title>
+<circle cx="2310" cy="630" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2322" y="635" text-anchor="start" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-sync_mcp_connector_tool_state_v1_flow_internal_tools_mcp_connector_sync_post" target="_blank" class="st" data-op="sync_mcp_connector_tool_state_v1_flow_internal_tools_mcp_connector_sync_post"><title>POST /v1/flow/internal/tools/mcp-connector/sync
+Tools line · sync_mcp_connector_tool_state_v1_flow_internal_tools_mcp_connector_sync_post</title>
+<circle cx="1510" cy="1330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1510" y="1352" text-anchor="middle" style="fill:#1A1F2C">Sync tools mcp<tspan x="1510" dy="13">connector <tspan font-weight="700" style="fill:#0E9F6E">⇄AGE</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-tools-api/#op-get_tool_metadata_v1_flow_internal_tools_tool_metadata__tool_id__get" target="_blank" class="st" data-op="get_tool_metadata_v1_flow_internal_tools_tool_metadata__tool_id__get"><title>GET /v1/flow/internal/tools/tool-metadata/{tool_id}
+Tools line · get_tool_metadata_v1_flow_internal_tools_tool_metadata__tool_id__get</title>
+<circle cx="1710" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1716" y="1268" transform="rotate(-45 1716 1268)" style="fill:#1A1F2C">Get tool metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-create_vector_database_route_v1_flow_vectordb_post" target="_blank" class="st" data-op="create_vector_database_route_v1_flow_vectordb_post"><title>POST /v1/flow/vectordb
+Vector database line · create_vector_database_route_v1_flow_vectordb_post</title>
+<circle cx="1460" cy="1130" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1448.0" y="1135" text-anchor="end" style="fill:#1A1F2C">Update vectordb <tspan font-weight="700" style="fill:#0d7577">⇄MOD</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-list_vector_databases_v1_flow_vectordb_get" target="_blank" class="st" data-op="list_vector_databases_v1_flow_vectordb_get"><title>GET /v1/flow/vectordb
+Vector database line · list_vector_databases_v1_flow_vectordb_get</title>
+<circle cx="1460" cy="1430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1469" y="1420" text-anchor="start" style="fill:#1A1F2C">Get vectordb</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-delete_vector_database_route_v1_flow_vectordb__database_id__delete" target="_blank" class="st" data-op="delete_vector_database_route_v1_flow_vectordb__database_id__delete"><title>DELETE /v1/flow/vectordb/{database_id}
+Vector database line · delete_vector_database_route_v1_flow_vectordb__database_id__delete</title>
+<circle cx="1210" cy="880" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1206" y1="884" x2="1214" y2="876" stroke="#E07B12" stroke-width="2"/>
+<text x="1216" y="868" transform="rotate(-45 1216 868)" style="fill:#1A1F2C">Delete vectordb</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-get_vector_database_route_v1_flow_vectordb__database_id__get" target="_blank" class="st" data-op="get_vector_database_route_v1_flow_vectordb__database_id__get"><title>GET /v1/flow/vectordb/{database_id}
+Vector database line · get_vector_database_route_v1_flow_vectordb__database_id__get</title>
+<circle cx="1460" cy="1080" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1472" y="1085" text-anchor="start" style="fill:#1A1F2C">Get vectordb</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-update_vector_database_route_v1_flow_vectordb__database_id__patch" target="_blank" class="st" data-op="update_vector_database_route_v1_flow_vectordb__database_id__patch"><title>PATCH /v1/flow/vectordb/{database_id}
+Vector database line · update_vector_database_route_v1_flow_vectordb__database_id__patch</title>
+<circle cx="1360" cy="980" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1348.0" y="985" text-anchor="end" style="fill:#1A1F2C">Update vectordb</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-get_tools_for_vector_database_v1_flow_vectordb__database_id__tools_get" target="_blank" class="st" data-op="get_tools_for_vector_database_v1_flow_vectordb__database_id__tools_get"><title>GET /v1/flow/vectordb/{database_id}/tools
+Vector database line · get_tools_for_vector_database_v1_flow_vectordb__database_id__tools_get</title>
+<circle cx="160" cy="830" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="166" y="818" transform="rotate(-45 166 818)" style="fill:#1A1F2C">List tools</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-get_data_jobs_for_vector_database_v1_flow_vectordb__database_id__data_jobs_get" target="_blank" class="st" data-op="get_data_jobs_for_vector_database_v1_flow_vectordb__database_id__data_jobs_get"><title>GET /v1/flow/vectordb/{database_id}/data-jobs
+Vector database line · get_data_jobs_for_vector_database_v1_flow_vectordb__database_id__data_jobs_get</title>
+<circle cx="1060" cy="1080" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1072" y="1085" text-anchor="start" style="fill:#1A1F2C">List data jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-create_vector_database_ingestion_job_v1_flow_vectordb__database_id__ingestion_post" target="_blank" class="st" data-op="create_vector_database_ingestion_job_v1_flow_vectordb__database_id__ingestion_post"><title>POST /v1/flow/vectordb/{database_id}/ingestion
+Vector database line · create_vector_database_ingestion_job_v1_flow_vectordb__database_id__ingestion_post</title>
+<circle cx="710" cy="980" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="701.0" y="999" text-anchor="end" style="fill:#1A1F2C">Update ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-list_vector_database_ingestion_jobs_v1_flow_vectordb__database_id__ingestion_get" target="_blank" class="st" data-op="list_vector_database_ingestion_jobs_v1_flow_vectordb__database_id__ingestion_get"><title>GET /v1/flow/vectordb/{database_id}/ingestion
+Vector database line · list_vector_database_ingestion_jobs_v1_flow_vectordb__database_id__ingestion_get</title>
+<circle cx="810" cy="1080" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="819" y="1070" text-anchor="start" style="fill:#1A1F2C">Get ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-get_vector_database_ingestion_job_v1_flow_vectordb__database_id__ingestion__job_id__get" target="_blank" class="st" data-op="get_vector_database_ingestion_job_v1_flow_vectordb__database_id__ingestion__job_id__get"><title>GET /v1/flow/vectordb/{database_id}/ingestion/{job_id}
+Vector database line · get_vector_database_ingestion_job_v1_flow_vectordb__database_id__ingestion__job_id__get</title>
+<circle cx="560" cy="980" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="566" y="968" transform="rotate(-45 566 968)" style="fill:#1A1F2C">Get ingestion</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-list_vector_database_files_v1_flow_vectordb__database_id__files_get" target="_blank" class="st" data-op="list_vector_database_files_v1_flow_vectordb__database_id__files_get"><title>GET /v1/flow/vectordb/{database_id}/files
+Vector database line · list_vector_database_files_v1_flow_vectordb__database_id__files_get</title>
+<circle cx="1060" cy="1130" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1072" y="1135" text-anchor="start" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-get_vector_database_chunk_v1_flow_vectordb__database_id__chunk__chunk_id__get" target="_blank" class="st" data-op="get_vector_database_chunk_v1_flow_vectordb__database_id__chunk__chunk_id__get"><title>GET /v1/flow/vectordb/{database_id}/chunk/{chunk_id}
+Vector database line · get_vector_database_chunk_v1_flow_vectordb__database_id__chunk__chunk_id__get</title>
+<circle cx="1110" cy="880" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1116" y="868" transform="rotate(-45 1116 868)" style="fill:#1A1F2C">Get chunk</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-list_vector_database_chunks_v1_flow_vectordb__database_id__chunks_post" target="_blank" class="st" data-op="list_vector_database_chunks_v1_flow_vectordb__database_id__chunks_post"><title>POST /v1/flow/vectordb/{database_id}/chunks
+Vector database line · list_vector_database_chunks_v1_flow_vectordb__database_id__chunks_post</title>
+<circle cx="960" cy="980" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="951.0" y="970" text-anchor="end" style="fill:#1A1F2C">Create chunk</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-delete_vector_database_file_v1_flow_vectordb__database_id__files__file_id__delete" target="_blank" class="st" data-op="delete_vector_database_file_v1_flow_vectordb__database_id__files__file_id__delete"><title>DELETE /v1/flow/vectordb/{database_id}/files/{file_id}
+Vector database line · delete_vector_database_file_v1_flow_vectordb__database_id__files__file_id__delete</title>
+<circle cx="910" cy="1080" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="906" y1="1084" x2="914" y2="1076" stroke="#E07B12" stroke-width="2"/>
+<text x="916" y="1068" transform="rotate(-45 916 1068)" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-update_vector_database_metadata_v1_flow_vectordb__database_id__metadata_patch" target="_blank" class="st" data-op="update_vector_database_metadata_v1_flow_vectordb__database_id__metadata_patch"><title>PATCH /v1/flow/vectordb/{database_id}/metadata
+Vector database line · update_vector_database_metadata_v1_flow_vectordb__database_id__metadata_patch</title>
+<circle cx="260" cy="830" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="266" y="818" transform="rotate(-45 266 818)" style="fill:#1A1F2C">Update metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-generate_vector_database_metadata_snapshot_v1_flow_vectordb__database_id__metadata_post" target="_blank" class="st" data-op="generate_vector_database_metadata_snapshot_v1_flow_vectordb__database_id__metadata_post"><title>POST /v1/flow/vectordb/{database_id}/metadata
+Vector database line · generate_vector_database_metadata_snapshot_v1_flow_vectordb__database_id__metadata_post</title>
+<circle cx="310" cy="830" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="322" y="835" text-anchor="start" style="fill:#1A1F2C">Update metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-vector-database-api/#op-get_vector_database_metadata_snapshot_v1_flow_vectordb__database_id__metadata_get" target="_blank" class="st" data-op="get_vector_database_metadata_snapshot_v1_flow_vectordb__database_id__metadata_get"><title>GET /v1/flow/vectordb/{database_id}/metadata
+Vector database line · get_vector_database_metadata_snapshot_v1_flow_vectordb__database_id__metadata_get</title>
+<circle cx="460" cy="980" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="448.0" y="985" text-anchor="end" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-version-api/#op-show_version_version_get" target="_blank" class="st" data-op="show_version_version_get"><title>GET /version
+Health line · show_version_version_get</title>
+<circle cx="710" cy="1580" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="722" y="1585" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-versions-api/#op-get_versions_v1_flow_versions_get" target="_blank" class="st" data-op="get_versions_v1_flow_versions_get"><title>GET /v1/flow/versions
+Internal line · get_versions_v1_flow_versions_get</title>
+<circle cx="610" cy="1180" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="622" y="1185" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/seekr/seekr-wake-up-api/#op-route_wake_up_wake_up_post" target="_blank" class="st" data-op="route_wake_up_wake_up_post"><title>POST /wake_up
+More Local line · route_wake_up_wake_up_post</title>
+<circle cx="1010" cy="2830" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1022" y="2835" text-anchor="start" style="fill:#1A1F2C">Update wake up</text>
+</a>
+<text x="3450" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3450" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">INTERNAL</text>
+<rect x="3450" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3467" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="3492" y="269" font-size="11" fill="#1A1F2C">Internal <tspan fill="#8A93A6">46</tspan></text>
+<rect x="3450" y="276" width="34" height="13" rx="3" fill="#af2c23"/><text x="3467" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HEA</text><text x="3492" y="286" font-size="11" fill="#1A1F2C">Health <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3450" y="293" width="34" height="13" rx="3" fill="#dd5ba0"/><text x="3467" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IMA</text><text x="3492" y="303" font-size="11" fill="#1A1F2C">Images <tspan fill="#8A93A6">4</tspan></text>
+<text x="3450" y="329" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">AGENTS</text>
+<rect x="3450" y="336" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3467" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="3492" y="346" font-size="11" fill="#1A1F2C">Agents <tspan fill="#8A93A6">11</tspan></text>
+<rect x="3450" y="353" width="34" height="13" rx="3" fill="#0d775f"/><text x="3467" y="363" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AV1L</text><text x="3492" y="363" font-size="11" fill="#1A1F2C">Agents v1 - legacy <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3450" y="370" width="34" height="13" rx="3" fill="#17d27d"/><text x="3467" y="380" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FEE</text><text x="3492" y="380" font-size="11" fill="#1A1F2C">Feedback <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3450" y="387" width="34" height="13" rx="3" fill="#09e1ca"/><text x="3467" y="397" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FUN</text><text x="3492" y="397" font-size="11" fill="#1A1F2C">Functions <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3450" y="404" width="34" height="13" rx="3" fill="#0d773a"/><text x="3467" y="414" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EVA</text><text x="3492" y="414" font-size="11" fill="#1A1F2C">Evals <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3450" y="421" width="34" height="13" rx="3" fill="#0d7577"/><text x="3467" y="431" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MOD</text><text x="3492" y="431" font-size="11" fill="#1A1F2C">Models <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3450" y="438" width="34" height="13" rx="3" fill="#09e14c"/><text x="3467" y="448" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ING</text><text x="3492" y="448" font-size="11" fill="#1A1F2C">Ingestion <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3450" y="455" width="34" height="13" rx="3" fill="#17bad2"/><text x="3467" y="465" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRI</text><text x="3492" y="465" font-size="11" fill="#1A1F2C">Pricing <tspan fill="#8A93A6">3</tspan></text>
+<text x="3450" y="491" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">THREADS</text>
+<rect x="3450" y="498" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3467" y="508" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">THR</text><text x="3492" y="508" font-size="11" fill="#1A1F2C">Threads <tspan fill="#8A93A6">9</tspan></text>
+<rect x="3450" y="515" width="34" height="13" rx="3" fill="#1d33a9"/><text x="3467" y="525" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RUN</text><text x="3492" y="525" font-size="11" fill="#1A1F2C">Runs <tspan fill="#8A93A6">8</tspan></text>
+<text x="3450" y="551" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">VECTORDB</text>
+<rect x="3450" y="558" width="34" height="13" rx="3" fill="#E07B12"/><text x="3467" y="568" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VD</text><text x="3492" y="568" font-size="11" fill="#1A1F2C">Vector database <tspan fill="#8A93A6">17</tspan></text>
+<text x="3450" y="594" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">FINE TUNES</text>
+<rect x="3450" y="601" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3467" y="611" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FT</text><text x="3492" y="611" font-size="11" fill="#1A1F2C">Fine Tuning <tspan fill="#8A93A6">16</tspan></text>
+<text x="3450" y="637" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">FILES</text>
+<rect x="3450" y="644" width="34" height="13" rx="3" fill="#B0287F"/><text x="3467" y="654" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FIL</text><text x="3492" y="654" font-size="11" fill="#1A1F2C">Files <tspan fill="#8A93A6">16</tspan></text>
+<text x="3450" y="680" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">INFERENCE</text>
+<rect x="3450" y="687" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3467" y="697" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INF</text><text x="3492" y="697" font-size="11" fill="#1A1F2C">Inference <tspan fill="#8A93A6">12</tspan></text>
+<text x="3450" y="723" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">TOOLS</text>
+<rect x="3450" y="730" width="34" height="13" rx="3" fill="#B8860B"/><text x="3467" y="740" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TOO</text><text x="3492" y="740" font-size="11" fill="#1A1F2C">Tools <tspan fill="#8A93A6">11</tspan></text>
+<text x="3450" y="766" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">DATA JOBS</text>
+<rect x="3450" y="773" width="34" height="13" rx="3" fill="#C2410C"/><text x="3467" y="783" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DJ</text><text x="3492" y="783" font-size="11" fill="#1A1F2C">Data jobs <tspan fill="#8A93A6">11</tspan></text>
+<text x="3450" y="809" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">DEPLOYMENTS</text>
+<rect x="3450" y="816" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3467" y="826" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DEP</text><text x="3492" y="826" font-size="11" fill="#1A1F2C">Deployments <tspan fill="#8A93A6">10</tspan></text>
+<text x="3450" y="852" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">ALIGNMENT</text>
+<rect x="3450" y="859" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3467" y="869" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ALI</text><text x="3492" y="869" font-size="11" fill="#1A1F2C">Alignment <tspan fill="#8A93A6">10</tspan></text>
+<text x="3450" y="895" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3450" y="902" width="34" height="13" rx="3" fill="#D6264F"/><text x="3467" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3492" y="912" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">9</tspan></text>
+<rect x="3450" y="919" width="34" height="13" rx="3" fill="#B0287F"/><text x="3467" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BAT</text><text x="3492" y="929" font-size="11" fill="#1A1F2C">Batches <tspan fill="#8A93A6">4</tspan></text>
+<text x="3700" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3718,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3744" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3718,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3744" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3718,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3744" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3718,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3744" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3718,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3744" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3718,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3744" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3718,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3744" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3718,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3744" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3700" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3700" y="463" font-size="10.5" fill="#5A6275">“Engines” → More Local line · 1 op</text>
+<text x="3700" y="478" font-size="10.5" fill="#5A6275">“Explainability” → Internal line · 2 ops</text>
+<text x="3700" y="493" font-size="10.5" fill="#5A6275">“Insights” → Internal line · 1 op</text>
+<text x="3700" y="508" font-size="10.5" fill="#5A6275">“Is Sleeping” → More Local line · 1 op</text>
+<text x="3700" y="523" font-size="10.5" fill="#5A6275">“Metrics” → More Local line · 1 op</text>
+<text x="3700" y="538" font-size="10.5" fill="#5A6275">“Observability” → More Local line · 2 ops</text>
+<text x="3700" y="553" font-size="10.5" fill="#5A6275">“Rerank” → More Local line · 1 op</text>
+<text x="3700" y="568" font-size="10.5" fill="#5A6275">“Score” → More Local line · 1 op</text>
+<text x="3700" y="583" font-size="10.5" fill="#5A6275">“Sleep” → More Local line · 1 op</text>
+<text x="3700" y="598" font-size="10.5" fill="#5A6275">“Version” → Health line · 1 op</text>
+<text x="3700" y="613" font-size="10.5" fill="#5A6275">“Versions” → Internal line · 1 op</text>
+<text x="3700" y="628" font-size="10.5" fill="#5A6275">“Wake Up” → More Local line · 1 op</text>
+<text x="3700" y="678" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3700" y="695" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3210" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/seekr/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

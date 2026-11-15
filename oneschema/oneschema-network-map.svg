@@ -1,0 +1,953 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3464 3204" width="3464" height="3204" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3464" height="3204" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Oneschema API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">156 operations as stops · 25 tags as lines · 9 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1966" y1="524" x2="2008" y2="566" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1966" y1="524" x2="2008" y2="566" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2260" y1="2414" x2="2218" y2="2414" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2260" y1="2414" x2="2218" y2="2414" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1504" y1="2876" x2="1462" y2="2876" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1504" y1="2876" x2="1462" y2="2876" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2470" y1="1280" x2="2512" y2="1238" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2470" y1="1280" x2="2512" y2="1238" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="AWS Secrets Manager Accounts" d="M1042.0,230.0 L1042.0,314.0 L1042.0,398.0 L1042.0,510.0 Q1042.0,524.0 1056.0,524.0 L1126.0,524.0 L1210.0,524.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>AWS Secrets Manager Accounts</title></path>
+<path class="line" data-line="AWS Secrets Manager Secrets" d="M1126.0,314.0 L1196.0,314.0 Q1210.0,314.0 1219.9,323.9 L1294.0,398.0 L1326.1,430.1 Q1336.0,440.0 1350.0,440.0 L1406.0,440.0 Q1420.0,440.0 1420.0,426.0 L1420.0,314.0" fill="none" stroke="#8823d6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>AWS Secrets Manager Secrets</title></path>
+<path class="line" data-line="Azure Key Vault Accounts" d="M2092.0,482.0 L2017.9,556.1 Q2008.0,566.0 2008.0,580.0 L2008.0,636.0 Q2008.0,650.0 2017.9,659.9 L2050.0,692.0 L2092.0,734.0 L2176.0,818.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Azure Key Vault Accounts</title></path>
+<path class="line" data-line="Azure Key Vault Secrets" d="M1966.0,524.0 L1854.0,524.0 Q1840.0,524.0 1840.0,538.0 L1840.0,608.0 L1840.0,636.0 Q1840.0,650.0 1849.9,659.9 L1882.0,692.0 L1966.0,776.0" fill="none" stroke="#8b2351" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Azure Key Vault Secrets</title></path>
+<path class="line" data-line="Code Hooks (Legacy)" d="M2260.0,2414.0 L2288.0,2414.0 Q2302.0,2414.0 2311.9,2404.1 L2376.1,2339.9 Q2386.0,2330.0 2386.0,2316.0 L2386.0,2260.0 Q2386.0,2246.0 2395.9,2236.1 L2418.1,2213.9 Q2428.0,2204.0 2437.9,2213.9 L2460.1,2236.1 Q2470.0,2246.0 2484.0,2246.0 L2540.0,2246.0 Q2554.0,2246.0 2563.9,2236.1 L2586.1,2213.9 Q2596.0,2204.0 2610.0,2204.0 L2722.0,2204.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Code Hooks (Legacy)</title></path>
+<path class="line" data-line="Event Webhooks" d="M664.0,1364.0 L734.0,1364.0 Q748.0,1364.0 757.9,1373.9 L822.1,1438.1 Q832.0,1448.0 832.0,1462.0 L832.0,1532.0 L832.0,1616.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Event Webhooks</title></path>
+<path class="line" data-line="FileFeed Folders" d="M1000.0,1028.0 L1084.0,1112.0 L1116.1,1144.1 Q1126.0,1154.0 1135.9,1144.1 L1168.0,1112.0 L1252.0,1028.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>FileFeed Folders</title></path>
+<path class="line" data-line="FileFeeds Imports" d="M1504.0,2876.0 L1578.1,2950.1 Q1588.0,2960.0 1602.0,2960.0 L1616.0,2960.0 Q1630.0,2960.0 1639.9,2950.1 L1662.1,2927.9 Q1672.0,2918.0 1672.0,2904.0 L1672.0,2806.0 Q1672.0,2792.0 1681.9,2782.1 L1746.1,2717.9 Q1756.0,2708.0 1765.9,2717.9 L1840.0,2792.0 L1882.0,2834.0 L1914.1,2866.1 Q1924.0,2876.0 1924.0,2890.0 L1924.0,3002.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>FileFeeds Imports</title></path>
+<path class="line" data-line="FileFeeds" d="M1294.0,3044.0 L1378.0,2960.0 L1452.1,2885.9 Q1462.0,2876.0 1452.1,2866.1 L1387.9,2801.9 Q1378.0,2792.0 1364.0,2792.0 L1294.0,2792.0 L1210.0,2792.0" fill="none" stroke="#0d7768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>FileFeeds</title></path>
+<path class="line" data-line="Headless Importer" d="M2512.0,1154.0 L2428.0,1154.0 L2358.0,1154.0 Q2344.0,1154.0 2344.0,1140.0 L2344.0,1028.0 L2344.0,944.0" fill="none" stroke="#1d25a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Headless Importer</title></path>
+<path class="line" data-line="Importer Embed Events" d="M2470.0,1280.0 L2358.0,1280.0 Q2344.0,1280.0 2344.0,1294.0 L2344.0,1406.0" fill="none" stroke="#4daee0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Importer Embed Events</title></path>
+<path class="line" data-line="Importer Embeds" d="M2638.0,1238.0 L2526.0,1238.0 Q2512.0,1238.0 2512.0,1252.0 L2512.0,1392.0 Q2512.0,1406.0 2521.9,1415.9 L2554.0,1448.0 L2586.1,1480.1 Q2596.0,1490.0 2610.0,1490.0 L2680.0,1490.0 L2764.0,1490.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Importer Embeds</title></path>
+<path class="line" data-line="Importer Webhooks" d="M244.0,1280.0 L318.1,1354.1 Q328.0,1364.0 328.0,1378.0 L328.0,1392.0 Q328.0,1406.0 314.0,1406.0 L244.0,1406.0 L160.0,1406.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Importer Webhooks</title></path>
+<path class="line" data-line="Multi FileFeed Commits" d="M370.0,1952.0 L370.0,1868.0 L370.0,1784.0 L370.0,1700.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Multi FileFeed Commits</title></path>
+<path class="line" data-line="Multi FileFeed Folders" d="M916.0,1238.0 L916.0,1350.0 Q916.0,1364.0 930.0,1364.0 L986.0,1364.0 Q1000.0,1364.0 1009.9,1354.1 L1042.0,1322.0 L1084.0,1280.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Multi FileFeed Folders</title></path>
+<path class="line" data-line="Multi FileFeed Imports" d="M412.0,2162.0 L412.0,2274.0 Q412.0,2288.0 421.9,2297.9 L454.0,2330.0 L486.1,2362.1 Q496.0,2372.0 510.0,2372.0 L608.0,2372.0 Q622.0,2372.0 622.0,2386.0 L622.0,2456.0 L622.0,2540.0 L622.0,2610.0 Q622.0,2624.0 612.1,2633.9 L547.9,2698.1 Q538.0,2708.0 538.0,2722.0 L538.0,2792.0 L538.0,2876.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Multi FileFeed Imports</title></path>
+<path class="line" data-line="Multi FileFeed Transforms" d="M454.0,2036.0 L570.1,1919.9 Q580.0,1910.0 580.0,1896.0 L580.0,1882.0 Q580.0,1868.0 570.1,1858.1 L496.0,1784.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Multi FileFeed Transforms</title></path>
+<path class="line" data-line="Multi FileFeeds" d="M202.0,2246.0 L286.0,2162.0 L360.1,2087.9 Q370.0,2078.0 360.1,2068.1 L337.9,2045.9 Q328.0,2036.0 314.0,2036.0 L300.0,2036.0 Q286.0,2036.0 276.1,2026.1 L244.0,1994.0 L160.0,1910.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Multi FileFeeds</title></path>
+<path class="line" data-line="S3 Accounts" d="M412.0,1154.0 L412.0,1266.0 Q412.0,1280.0 426.0,1280.0 L482.0,1280.0 Q496.0,1280.0 505.9,1270.1 L538.0,1238.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>S3 Accounts</title></path>
+<path class="line" data-line="SFTP Accounts" d="M706.0,1028.0 L706.0,1112.0 L706.0,1182.0 Q706.0,1196.0 696.1,1205.9 L664.0,1238.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SFTP Accounts</title></path>
+<path class="line" data-line="Sheets" d="M1126.0,1406.0 L1210.0,1406.0 L1294.0,1406.0 L1364.0,1406.0 Q1378.0,1406.0 1387.9,1415.9 L1462.0,1490.0 L1536.1,1564.1 Q1546.0,1574.0 1546.0,1588.0 L1546.0,1658.0 L1546.0,1728.0 Q1546.0,1742.0 1536.1,1751.9 L1462.0,1826.0 L1387.9,1900.1 Q1378.0,1910.0 1364.0,1910.0 L1294.0,1910.0 L1224.0,1910.0 Q1210.0,1910.0 1200.1,1900.1 L1126.0,1826.0 L1051.9,1751.9 Q1042.0,1742.0 1042.0,1728.0 L1042.0,1658.0 L1042.0,1588.0 Q1042.0,1574.0 1051.9,1564.1 L1116.1,1499.9 Q1126.0,1490.0 1126.0,1476.0 L1126.0,1406.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Sheets</title></path>
+<path class="line" data-line="Template Hooks" d="M2218.0,2624.0 L2218.0,2540.0 L2218.0,2428.0 Q2218.0,2414.0 2204.0,2414.0 L2106.0,2414.0 Q2092.0,2414.0 2092.0,2428.0 L2092.0,2540.0" fill="none" stroke="#b58613" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Template Hooks</title></path>
+<path class="line" data-line="Templates" d="M958.0,2120.0 L958.0,2036.0 L958.0,1952.0 L958.0,1910.0 L958.0,1840.0 Q958.0,1826.0 944.0,1826.0 L888.0,1826.0 Q874.0,1826.0 874.0,1840.0 L874.0,1910.0 L874.0,1938.0 Q874.0,1952.0 864.1,1961.9 L790.0,2036.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Templates</title></path>
+<path class="line" data-line="Workspaces" d="M580.0,1448.0 L538.0,1490.0 L505.9,1522.1 Q496.0,1532.0 482.0,1532.0 L454.0,1532.0 L370.0,1532.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workspaces</title></path>
+<path class="line" data-line="More Local" d="M664.0,1742.0 L664.0,1658.0 L664.0,1574.0" fill="none" stroke="#B8860B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1042" y1="230" x2="1042.0" y2="196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1018.0" y="185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>AWS Secrets Manager Accounts</title></rect><text x="1042.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASMA</text>
+<line x1="1210" y1="524" x2="1244.0" y2="524.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1220.0" y="513.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>AWS Secrets Manager Accounts</title></rect><text x="1244.0" y="529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASMA</text>
+<line x1="1126" y1="314" x2="1092.0" y2="314.0" stroke="#8823d6" stroke-width="7"/><rect x="1068.0" y="303.0" width="48" height="22" rx="5" fill="#8823d6"><title>AWS Secrets Manager Secrets</title></rect><text x="1092.0" y="319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASMS</text>
+<line x1="1420" y1="314" x2="1420.0" y2="280.0" stroke="#8823d6" stroke-width="7"/><rect x="1396.0" y="269.0" width="48" height="22" rx="5" fill="#8823d6"><title>AWS Secrets Manager Secrets</title></rect><text x="1420.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASMS</text>
+<line x1="2092" y1="482" x2="2116.0416305603426" y2="457.95836943965736" stroke="#B0287F" stroke-width="7"/><rect x="2092.0416305603426" y="446.95836943965736" width="48" height="22" rx="5" fill="#B0287F"><title>Azure Key Vault Accounts</title></rect><text x="2116.0416305603426" y="462.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AKVA</text>
+<line x1="2176" y1="818" x2="2200.0416305603426" y2="842.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2176.0416305603426" y="831.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Azure Key Vault Accounts</title></rect><text x="2200.0416305603426" y="847.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AKVA</text>
+<line x1="1966" y1="524" x2="2000.0" y2="524.0" stroke="#8b2351" stroke-width="7"/><rect x="1976.0" y="513.0" width="48" height="22" rx="5" fill="#8b2351"><title>Azure Key Vault Secrets</title></rect><text x="2000.0" y="529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AKVS</text>
+<line x1="1966" y1="776" x2="1990.0416305603426" y2="800.0416305603426" stroke="#8b2351" stroke-width="7"/><rect x="1966.0416305603426" y="789.0416305603426" width="48" height="22" rx="5" fill="#8b2351"><title>Azure Key Vault Secrets</title></rect><text x="1990.0416305603426" y="805.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AKVS</text>
+<line x1="2260" y1="2414" x2="2188.0" y2="2414.0" stroke="#E07B12" stroke-width="7"/><rect x="2164.0" y="2403.0" width="48" height="22" rx="5" fill="#E07B12"><title>Code Hooks (Legacy)</title></rect><text x="2188.0" y="2419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHL</text>
+<line x1="2722" y1="2204" x2="2756.0" y2="2204.0" stroke="#E07B12" stroke-width="7"/><rect x="2732.0" y="2193.0" width="48" height="22" rx="5" fill="#E07B12"><title>Code Hooks (Legacy)</title></rect><text x="2756.0" y="2209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHL</text>
+<line x1="664" y1="1364" x2="630.0" y2="1364.0" stroke="#D6264F" stroke-width="7"/><rect x="606.0" y="1353.0" width="48" height="22" rx="5" fill="#D6264F"><title>Event Webhooks</title></rect><text x="630.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EW</text>
+<line x1="832" y1="1616" x2="832.0" y2="1650.0" stroke="#D6264F" stroke-width="7"/><rect x="808.0" y="1639.0" width="48" height="22" rx="5" fill="#D6264F"><title>Event Webhooks</title></rect><text x="832.0" y="1655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EW</text>
+<line x1="1000" y1="1028" x2="975.9583694396574" y2="1003.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="951.9583694396574" y="992.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>FileFeed Folders</title></rect><text x="975.9583694396574" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FFF</text>
+<line x1="1252" y1="1028" x2="1276.0416305603426" y2="1003.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1252.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>FileFeed Folders</title></rect><text x="1276.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FFF</text>
+<line x1="1504" y1="2876" x2="1479.9583694396574" y2="2851.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1455.9583694396574" y="2840.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>FileFeeds Imports</title></rect><text x="1479.9583694396574" y="2856.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FFI</text>
+<line x1="1924" y1="3002" x2="1924.0" y2="3036.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1900.0" y="3025.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>FileFeeds Imports</title></rect><text x="1924.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FFI</text>
+<line x1="1294" y1="3044" x2="1269.9583694396574" y2="3068.0416305603426" stroke="#0d7768" stroke-width="7"/><rect x="1245.9583694396574" y="3057.0416305603426" width="48" height="22" rx="5" fill="#0d7768"><title>FileFeeds</title></rect><text x="1269.9583694396574" y="3073.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FF</text>
+<line x1="1210" y1="2792" x2="1176.0" y2="2792.0" stroke="#0d7768" stroke-width="7"/><rect x="1152.0" y="2781.0" width="48" height="22" rx="5" fill="#0d7768"><title>FileFeeds</title></rect><text x="1176.0" y="2797.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FF</text>
+<line x1="2512" y1="1154" x2="2546.0" y2="1154.0" stroke="#1d25a9" stroke-width="7"/><rect x="2522.0" y="1143.0" width="48" height="22" rx="5" fill="#1d25a9"><title>Headless Importer</title></rect><text x="2546.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HI</text>
+<line x1="2344" y1="944" x2="2344.0" y2="910.0" stroke="#1d25a9" stroke-width="7"/><rect x="2320.0" y="899.0" width="48" height="22" rx="5" fill="#1d25a9"><title>Headless Importer</title></rect><text x="2344.0" y="915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HI</text>
+<line x1="2470" y1="1280" x2="2504.0" y2="1280.0" stroke="#4daee0" stroke-width="7"/><rect x="2480.0" y="1269.0" width="48" height="22" rx="5" fill="#4daee0"><title>Importer Embed Events</title></rect><text x="2504.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IEE</text>
+<line x1="2344" y1="1406" x2="2344.0" y2="1440.0" stroke="#4daee0" stroke-width="7"/><rect x="2320.0" y="1429.0" width="48" height="22" rx="5" fill="#4daee0"><title>Importer Embed Events</title></rect><text x="2344.0" y="1445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IEE</text>
+<line x1="2638" y1="1238" x2="2672.0" y2="1238.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2648.0" y="1227.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Importer Embeds</title></rect><text x="2672.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IE</text>
+<line x1="2764" y1="1490" x2="2798.0" y2="1490.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2774.0" y="1479.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Importer Embeds</title></rect><text x="2798.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IE</text>
+<line x1="244" y1="1280" x2="219.9583694396574" y2="1255.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="195.9583694396574" y="1244.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Importer Webhooks</title></rect><text x="219.9583694396574" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IW</text>
+<line x1="160" y1="1406" x2="126.0" y2="1406.0" stroke="#B0287F" stroke-width="7"/><rect x="102.0" y="1395.0" width="48" height="22" rx="5" fill="#B0287F"><title>Importer Webhooks</title></rect><text x="126.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IW</text>
+<line x1="370" y1="1952" x2="370.0" y2="1986.0" stroke="#0E9F6E" stroke-width="7"/><rect x="346.0" y="1975.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Multi FileFeed Commits</title></rect><text x="370.0" y="1991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFC</text>
+<line x1="370" y1="1700" x2="370.0" y2="1666.0" stroke="#0E9F6E" stroke-width="7"/><rect x="346.0" y="1655.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Multi FileFeed Commits</title></rect><text x="370.0" y="1671.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFC</text>
+<line x1="916" y1="1238" x2="916.0" y2="1204.0" stroke="#2E7D32" stroke-width="7"/><rect x="892.0" y="1193.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Multi FileFeed Folders</title></rect><text x="916.0" y="1209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFF</text>
+<line x1="1084" y1="1280" x2="1108.0416305603426" y2="1255.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1084.0416305603426" y="1244.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Multi FileFeed Folders</title></rect><text x="1108.0416305603426" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFF</text>
+<line x1="412" y1="2162" x2="412.0" y2="2128.0" stroke="#0B7A75" stroke-width="7"/><rect x="388.0" y="2117.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Multi FileFeed Imports</title></rect><text x="412.0" y="2133.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFI</text>
+<line x1="538" y1="2876" x2="538.0" y2="2910.0" stroke="#0B7A75" stroke-width="7"/><rect x="514.0" y="2899.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Multi FileFeed Imports</title></rect><text x="538.0" y="2915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFI</text>
+<line x1="454" y1="2036" x2="429.95836943965736" y2="2060.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="405.95836943965736" y="2049.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Multi FileFeed Transforms</title></rect><text x="429.95836943965736" y="2065.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFT</text>
+<line x1="496" y1="1784" x2="471.95836943965736" y2="1759.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="447.95836943965736" y="1748.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Multi FileFeed Transforms</title></rect><text x="471.95836943965736" y="1764.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFFT</text>
+<line x1="202" y1="2246" x2="177.9583694396574" y2="2270.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="153.9583694396574" y="2259.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Multi FileFeeds</title></rect><text x="177.9583694396574" y="2275.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFF</text>
+<line x1="160" y1="1910" x2="135.9583694396574" y2="1885.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="111.95836943965739" y="1874.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Multi FileFeeds</title></rect><text x="135.9583694396574" y="1890.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MFF</text>
+<line x1="412" y1="1154" x2="412.0" y2="1120.0" stroke="#00838F" stroke-width="7"/><rect x="388.0" y="1109.0" width="48" height="22" rx="5" fill="#00838F"><title>S3 Accounts</title></rect><text x="412.0" y="1125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">S3A</text>
+<line x1="538" y1="1238" x2="562.0416305603426" y2="1213.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="538.0416305603426" y="1202.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>S3 Accounts</title></rect><text x="562.0416305603426" y="1218.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">S3A</text>
+<line x1="706" y1="1028" x2="706.0" y2="994.0" stroke="#1F5FD1" stroke-width="7"/><rect x="682.0" y="983.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>SFTP Accounts</title></rect><text x="706.0" y="999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="664" y1="1238" x2="639.9583694396574" y2="1262.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="615.9583694396574" y="1251.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>SFTP Accounts</title></rect><text x="639.9583694396574" y="1267.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<rect x="1096" y="1353" width="60" height="26" rx="13" fill="#D6264F"/><text x="1126" y="1371" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">SHE</text>
+<line x1="2218" y1="2624" x2="2218.0" y2="2658.0" stroke="#b58613" stroke-width="7"/><rect x="2194.0" y="2647.0" width="48" height="22" rx="5" fill="#b58613"><title>Template Hooks</title></rect><text x="2218.0" y="2663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TH</text>
+<line x1="2092" y1="2540" x2="2092.0" y2="2574.0" stroke="#b58613" stroke-width="7"/><rect x="2068.0" y="2563.0" width="48" height="22" rx="5" fill="#b58613"><title>Template Hooks</title></rect><text x="2092.0" y="2579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TH</text>
+<line x1="958" y1="2120" x2="958.0" y2="2154.0" stroke="#B8860B" stroke-width="7"/><rect x="934.0" y="2143.0" width="48" height="22" rx="5" fill="#B8860B"><title>Templates</title></rect><text x="958.0" y="2159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEM</text>
+<line x1="790" y1="2036" x2="765.9583694396574" y2="2060.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="741.9583694396574" y="2049.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Templates</title></rect><text x="765.9583694396574" y="2065.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEM</text>
+<line x1="580" y1="1448" x2="604.0416305603426" y2="1423.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="580.0416305603426" y="1412.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Workspaces</title></rect><text x="604.0416305603426" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="370" y1="1532" x2="336.0" y2="1532.0" stroke="#5C6BC0" stroke-width="7"/><rect x="312.0" y="1521.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Workspaces</title></rect><text x="336.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="664" y1="1742" x2="664.0" y2="1776.0" stroke="#B8860B" stroke-width="7"/><rect x="640.0" y="1765.0" width="48" height="22" rx="5" fill="#B8860B"><title>More Local</title></rect><text x="664.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="664" y1="1574" x2="664.0" y2="1540.0" stroke="#B8860B" stroke-width="7"/><rect x="640.0" y="1529.0" width="48" height="22" rx="5" fill="#B8860B"><title>More Local</title></rect><text x="664.0" y="1545.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-accounts-api/#op-create-aws-secrets-manager-account" target="_blank" class="st" data-op="create-aws-secrets-manager-account"><title>POST /v0/aws-secrets-manager/accounts
+AWS Secrets Manager Accounts line · create-aws-secrets-manager-account</title>
+<circle cx="1042" cy="314" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1030.0" y="319" text-anchor="end" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-accounts-api/#op-list-aws-secrets-manager-accounts" target="_blank" class="st" data-op="list-aws-secrets-manager-accounts"><title>GET /v0/aws-secrets-manager/accounts
+AWS Secrets Manager Accounts line · list-aws-secrets-manager-accounts</title>
+<circle cx="1042" cy="230" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1054" y="235" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-accounts-api/#op-delete-aws-secrets-manager-account" target="_blank" class="st" data-op="delete-aws-secrets-manager-account"><title>DELETE /v0/aws-secrets-manager/accounts/{account-id}
+AWS Secrets Manager Accounts line · delete-aws-secrets-manager-account</title>
+<circle cx="1126" cy="524" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1122" y1="528" x2="1130" y2="520" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1132" y="512" transform="rotate(-45 1132 512)" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-accounts-api/#op-get-aws-secrets-manager-account" target="_blank" class="st" data-op="get-aws-secrets-manager-account"><title>GET /v0/aws-secrets-manager/accounts/{account-id}
+AWS Secrets Manager Accounts line · get-aws-secrets-manager-account</title>
+<circle cx="1042" cy="398" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1054" y="403" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-accounts-api/#op-update-aws-secrets-manager-account" target="_blank" class="st" data-op="update-aws-secrets-manager-account"><title>PATCH /v0/aws-secrets-manager/accounts/{account-id}
+AWS Secrets Manager Accounts line · update-aws-secrets-manager-account</title>
+<circle cx="1042" cy="524" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1030.0" y="529" text-anchor="end" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-accounts-api/#op-test-aws-secrets-manager-account" target="_blank" class="st" data-op="test-aws-secrets-manager-account"><title>POST /v0/aws-secrets-manager/accounts/{account-id}/test
+AWS Secrets Manager Accounts line · test-aws-secrets-manager-account</title>
+<circle cx="1210" cy="524" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1204" y="536" text-anchor="end" transform="rotate(-45 1204 536)" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-secrets-api/#op-create-aws-secrets-manager-secret" target="_blank" class="st" data-op="create-aws-secrets-manager-secret"><title>POST /v0/aws-secrets-manager/accounts/{account-id}/secrets
+AWS Secrets Manager Secrets line · create-aws-secrets-manager-secret</title>
+<circle cx="1210" cy="314" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1222" y="319" text-anchor="start" style="fill:#1A1F2C">Create secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-secrets-api/#op-list-aws-secrets-manager-account-secrets" target="_blank" class="st" data-op="list-aws-secrets-manager-account-secrets"><title>GET /v0/aws-secrets-manager/accounts/{account-id}/secrets
+AWS Secrets Manager Secrets line · list-aws-secrets-manager-account-secrets</title>
+<circle cx="1126" cy="314" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1132" y="302" transform="rotate(-45 1132 302)" style="fill:#1A1F2C">List secrets <tspan font-weight="700" style="fill:#7B3FE4">⇄ASMA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-secrets-api/#op-delete-aws-secrets-manager-secret" target="_blank" class="st" data-op="delete-aws-secrets-manager-secret"><title>DELETE /v0/aws-secrets-manager/secrets/{secret-id}
+AWS Secrets Manager Secrets line · delete-aws-secrets-manager-secret</title>
+<circle cx="1420" cy="314" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<line x1="1416" y1="318" x2="1424" y2="310" stroke="#8823d6" stroke-width="2"/>
+<text x="1432" y="319" text-anchor="start" style="fill:#1A1F2C">Delete secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-secrets-api/#op-get-aws-secrets-manager-secret" target="_blank" class="st" data-op="get-aws-secrets-manager-secret"><title>GET /v0/aws-secrets-manager/secrets/{secret-id}
+AWS Secrets Manager Secrets line · get-aws-secrets-manager-secret</title>
+<circle cx="1336" cy="440" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1324.0" y="445" text-anchor="end" style="fill:#1A1F2C">Get secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-secrets-api/#op-update-aws-secrets-manager-secret" target="_blank" class="st" data-op="update-aws-secrets-manager-secret"><title>PATCH /v0/aws-secrets-manager/secrets/{secret-id}
+AWS Secrets Manager Secrets line · update-aws-secrets-manager-secret</title>
+<circle cx="1420" cy="440" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1432" y="445" text-anchor="start" style="fill:#1A1F2C">Update secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-aws-secrets-manager-secrets-api/#op-list-aws-secrets-manager-secrets" target="_blank" class="st" data-op="list-aws-secrets-manager-secrets"><title>GET /v0/aws-secrets-manager/secrets
+AWS Secrets Manager Secrets line · list-aws-secrets-manager-secrets</title>
+<circle cx="1294" cy="398" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1306" y="403" text-anchor="start" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-accounts-api/#op-create-azure-key-vault-account" target="_blank" class="st" data-op="create-azure-key-vault-account"><title>POST /v0/azure-key-vault/accounts
+Azure Key Vault Accounts line · create-azure-key-vault-account</title>
+<circle cx="2008" cy="566" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2020" y="571" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-accounts-api/#op-list-azure-key-vault-accounts" target="_blank" class="st" data-op="list-azure-key-vault-accounts"><title>GET /v0/azure-key-vault/accounts
+Azure Key Vault Accounts line · list-azure-key-vault-accounts</title>
+<circle cx="2092" cy="482" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2104" y="487" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-accounts-api/#op-delete-azure-key-vault-account" target="_blank" class="st" data-op="delete-azure-key-vault-account"><title>DELETE /v0/azure-key-vault/accounts/{account-id}
+Azure Key Vault Accounts line · delete-azure-key-vault-account</title>
+<circle cx="2092" cy="734" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2088" y1="738" x2="2096" y2="730" stroke="#B0287F" stroke-width="2"/>
+<text x="2104" y="739" text-anchor="start" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-accounts-api/#op-get-azure-key-vault-account" target="_blank" class="st" data-op="get-azure-key-vault-account"><title>GET /v0/azure-key-vault/accounts/{account-id}
+Azure Key Vault Accounts line · get-azure-key-vault-account</title>
+<circle cx="2008" cy="650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2020" y="655" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-accounts-api/#op-update-azure-key-vault-account" target="_blank" class="st" data-op="update-azure-key-vault-account"><title>PATCH /v0/azure-key-vault/accounts/{account-id}
+Azure Key Vault Accounts line · update-azure-key-vault-account</title>
+<circle cx="2050" cy="692" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="697" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-accounts-api/#op-test-azure-key-vault-account" target="_blank" class="st" data-op="test-azure-key-vault-account"><title>POST /v0/azure-key-vault/accounts/{account-id}/test
+Azure Key Vault Accounts line · test-azure-key-vault-account</title>
+<circle cx="2176" cy="818" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2188" y="823" text-anchor="start" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-secrets-api/#op-create-azure-key-vault-secret" target="_blank" class="st" data-op="create-azure-key-vault-secret"><title>POST /v0/azure-key-vault/accounts/{account-id}/secrets
+Azure Key Vault Secrets line · create-azure-key-vault-secret</title>
+<circle cx="1840" cy="524" r="5.5" fill="#8b2351" stroke="#8b2351" stroke-width="2.5"/>
+<text x="1828.0" y="529" text-anchor="end" style="fill:#1A1F2C">Create secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-secrets-api/#op-list-azure-key-vault-account-secrets" target="_blank" class="st" data-op="list-azure-key-vault-account-secrets"><title>GET /v0/azure-key-vault/accounts/{account-id}/secrets
+Azure Key Vault Secrets line · list-azure-key-vault-account-secrets</title>
+<circle cx="1966" cy="524" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1960" y="536" text-anchor="end" transform="rotate(-45 1960 536)" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-secrets-api/#op-delete-azure-key-vault-secret" target="_blank" class="st" data-op="delete-azure-key-vault-secret"><title>DELETE /v0/azure-key-vault/secrets/{secret-id}
+Azure Key Vault Secrets line · delete-azure-key-vault-secret</title>
+<circle cx="1966" cy="776" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<line x1="1962" y1="780" x2="1970" y2="772" stroke="#8b2351" stroke-width="2"/>
+<text x="1978" y="781" text-anchor="start" style="fill:#1A1F2C">Delete secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-secrets-api/#op-get-azure-key-vault-secret" target="_blank" class="st" data-op="get-azure-key-vault-secret"><title>GET /v0/azure-key-vault/secrets/{secret-id}
+Azure Key Vault Secrets line · get-azure-key-vault-secret</title>
+<circle cx="1840" cy="650" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<text x="1852" y="655" text-anchor="start" style="fill:#1A1F2C">Get secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-secrets-api/#op-update-azure-key-vault-secret" target="_blank" class="st" data-op="update-azure-key-vault-secret"><title>PATCH /v0/azure-key-vault/secrets/{secret-id}
+Azure Key Vault Secrets line · update-azure-key-vault-secret</title>
+<circle cx="1882" cy="692" r="5.5" fill="#8b2351" stroke="#8b2351" stroke-width="2.5"/>
+<text x="1894" y="697" text-anchor="start" style="fill:#1A1F2C">Update secret</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-azure-key-vault-secrets-api/#op-list-azure-key-vault-secrets" target="_blank" class="st" data-op="list-azure-key-vault-secrets"><title>GET /v0/azure-key-vault/secrets
+Azure Key Vault Secrets line · list-azure-key-vault-secrets</title>
+<circle cx="1840" cy="608" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<text x="1852" y="613" text-anchor="start" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-create-post-mapping-code-hook" target="_blank" class="st" data-op="create-post-mapping-code-hook"><title>POST /v1/template-hooks/post-mapping/code
+Code Hooks (Legacy) line · create-post-mapping-code-hook</title>
+<circle cx="2260" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2266" y="2402" transform="rotate(-45 2266 2402)" style="fill:#1A1F2C">Update code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-create-post-upload-code-hook" target="_blank" class="st" data-op="create-post-upload-code-hook"><title>POST /v1/template-hooks/post-upload/code
+Code Hooks (Legacy) line · create-post-upload-code-hook</title>
+<circle cx="2386" cy="2246" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2374.0" y="2251" text-anchor="end" style="fill:#1A1F2C">Update code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-create-validation-code-hook" target="_blank" class="st" data-op="create-validation-code-hook"><title>POST /v1/template-hooks/validation/code
+Code Hooks (Legacy) line · create-validation-code-hook</title>
+<circle cx="2554" cy="2246" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2566" y="2251" text-anchor="start" style="fill:#1A1F2C">Update code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-delete-post-mapping-code-hook" target="_blank" class="st" data-op="delete-post-mapping-code-hook"><title>DELETE /v1/template-hooks/post-mapping/code/{key}
+Code Hooks (Legacy) line · delete-post-mapping-code-hook</title>
+<circle cx="2386" cy="2330" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2382" y1="2334" x2="2390" y2="2326" stroke="#E07B12" stroke-width="2"/>
+<text x="2398" y="2335" text-anchor="start" style="fill:#1A1F2C">Delete code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-get-post-mapping-code-hook" target="_blank" class="st" data-op="get-post-mapping-code-hook"><title>GET /v1/template-hooks/post-mapping/code/{key}
+Code Hooks (Legacy) line · get-post-mapping-code-hook</title>
+<circle cx="2302" cy="2414" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2314" y="2419" text-anchor="start" style="fill:#1A1F2C">Get code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-delete-post-upload-code-hook" target="_blank" class="st" data-op="delete-post-upload-code-hook"><title>DELETE /v1/template-hooks/post-upload/code/{key}
+Code Hooks (Legacy) line · delete-post-upload-code-hook</title>
+<circle cx="2470" cy="2246" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2466" y1="2250" x2="2474" y2="2242" stroke="#E07B12" stroke-width="2"/>
+<text x="2479" y="2236" text-anchor="start" style="fill:#1A1F2C">Delete code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-get-post-upload-hook" target="_blank" class="st" data-op="get-post-upload-hook"><title>GET /v1/template-hooks/post-upload/code/{key}
+Code Hooks (Legacy) line · get-post-upload-hook</title>
+<circle cx="2428" cy="2204" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2434" y="2192" transform="rotate(-45 2434 2192)" style="fill:#1A1F2C">Get code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-delete-validation-code-hook" target="_blank" class="st" data-op="delete-validation-code-hook"><title>DELETE /v1/template-hooks/validation/code/{key}
+Code Hooks (Legacy) line · delete-validation-code-hook</title>
+<circle cx="2722" cy="2204" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2718" y1="2208" x2="2726" y2="2200" stroke="#E07B12" stroke-width="2"/>
+<text x="2716" y="2216" text-anchor="end" transform="rotate(-45 2716 2216)" style="fill:#1A1F2C">Delete code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-code-hooks-legacy-api/#op-get-validation-code-hook" target="_blank" class="st" data-op="get-validation-code-hook"><title>GET /v1/template-hooks/validation/code/{key}
+Code Hooks (Legacy) line · get-validation-code-hook</title>
+<circle cx="2596" cy="2204" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2584.0" y="2209" text-anchor="end" style="fill:#1A1F2C">Get code</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-event-webhooks-api/#op-create-event-webhook" target="_blank" class="st" data-op="create-event-webhook"><title>POST /v1/event-webhooks
+Event Webhooks line · create-event-webhook</title>
+<circle cx="748" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1369" text-anchor="start" style="fill:#1A1F2C">Create event webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-event-webhooks-api/#op-list-event-webhooks" target="_blank" class="st" data-op="list-event-webhooks"><title>GET /v1/event-webhooks
+Event Webhooks line · list-event-webhooks</title>
+<circle cx="664" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="670" y="1352" transform="rotate(-45 670 1352)" style="fill:#1A1F2C">List event webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-event-webhooks-api/#op-delete-event-webhook" target="_blank" class="st" data-op="delete-event-webhook"><title>DELETE /v1/event-webhooks/{webhook_key}
+Event Webhooks line · delete-event-webhook</title>
+<circle cx="832" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="828" y1="1620" x2="836" y2="1612" stroke="#D6264F" stroke-width="2"/>
+<text x="844" y="1621" text-anchor="start" style="fill:#1A1F2C">Delete event webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-event-webhooks-api/#op-get-event-webhook" target="_blank" class="st" data-op="get-event-webhook"><title>GET /v1/event-webhooks/{webhook_key}
+Event Webhooks line · get-event-webhook</title>
+<circle cx="832" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1453" text-anchor="start" style="fill:#1A1F2C">Get event webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-event-webhooks-api/#op-update-event-webhook" target="_blank" class="st" data-op="update-event-webhook"><title>PUT /v1/event-webhooks/{webhook_key}
+Event Webhooks line · update-event-webhook</title>
+<circle cx="832" cy="1532" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1537" text-anchor="start" style="fill:#1A1F2C">Update event webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-folders-api/#op-create-file-feed-folder" target="_blank" class="st" data-op="create-file-feed-folder"><title>POST /v0/file-feed-folders
+FileFeed Folders line · create-file-feed-folder</title>
+<circle cx="1084" cy="1112" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1072.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Create file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-folders-api/#op-get-file-feed-folders" target="_blank" class="st" data-op="get-file-feed-folders"><title>GET /v0/file-feed-folders
+FileFeed Folders line · get-file-feed-folders</title>
+<circle cx="1000" cy="1028" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1012" y="1033" text-anchor="start" style="fill:#1A1F2C">List file feed folders</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-folders-api/#op-delete-file-feed-folder" target="_blank" class="st" data-op="delete-file-feed-folder"><title>DELETE /v0/file-feed-folders/{folder_id}
+FileFeed Folders line · delete-file-feed-folder</title>
+<circle cx="1252" cy="1028" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1248" y1="1032" x2="1256" y2="1024" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1264" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-folders-api/#op-get-file-feed-folder" target="_blank" class="st" data-op="get-file-feed-folder"><title>GET /v0/file-feed-folders/{folder_id}
+FileFeed Folders line · get-file-feed-folder</title>
+<circle cx="1126" cy="1154" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1120" y="1166" text-anchor="end" transform="rotate(-45 1120 1166)" style="fill:#1A1F2C">Get file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-folders-api/#op-update-file-feed-folder" target="_blank" class="st" data-op="update-file-feed-folder"><title>PATCH /v0/file-feed-folders/{folder_id}
+FileFeed Folders line · update-file-feed-folder</title>
+<circle cx="1168" cy="1112" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="1117" text-anchor="start" style="fill:#1A1F2C">Update file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-mappings-api/#op-get-file-feed-saved-mappings" target="_blank" class="st" data-op="get-file-feed-saved-mappings"><title>GET /v0/file-feeds/{file_feed_id}/saved-mappings
+FileFeeds Imports line · get-file-feed-saved-mappings</title>
+<circle cx="1924" cy="2876" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1936" y="2881" text-anchor="start" style="fill:#1A1F2C">List saved mappings</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeed-mappings-api/#op-update-file-feed-saved-mappings" target="_blank" class="st" data-op="update-file-feed-saved-mappings"><title>PUT /v0/file-feeds/{file_feed_id}/saved-mappings
+FileFeeds Imports line · update-file-feed-saved-mappings</title>
+<circle cx="1924" cy="3002" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1936" y="3007" text-anchor="start" style="fill:#1A1F2C">Create saved mapping</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-api/#op-create-file-feed" target="_blank" class="st" data-op="create-file-feed"><title>POST /v0/file-feeds
+FileFeeds line · create-file-feed</title>
+<circle cx="1378" cy="2960" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1390" y="2965" text-anchor="start" style="fill:#1A1F2C">Create file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-api/#op-get-file-feeds" target="_blank" class="st" data-op="get-file-feeds"><title>GET /v0/file-feeds
+FileFeeds line · get-file-feeds</title>
+<circle cx="1294" cy="3044" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1306" y="3049" text-anchor="start" style="fill:#1A1F2C">List file feeds</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-api/#op-delete-file-feed" target="_blank" class="st" data-op="delete-file-feed"><title>DELETE /v0/file-feeds/{file_feed_id}
+FileFeeds line · delete-file-feed</title>
+<circle cx="1294" cy="2792" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<line x1="1290" y1="2796" x2="1298" y2="2788" stroke="#0d7768" stroke-width="2"/>
+<text x="1300" y="2780" transform="rotate(-45 1300 2780)" style="fill:#1A1F2C">Delete file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-api/#op-get-file-feed" target="_blank" class="st" data-op="get-file-feed"><title>GET /v0/file-feeds/{file_feed_id}
+FileFeeds line · get-file-feed</title>
+<circle cx="1462" cy="2876" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1450.0" y="2881" text-anchor="end" style="fill:#1A1F2C">Get file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-api/#op-update-file-feed" target="_blank" class="st" data-op="update-file-feed"><title>PATCH /v0/file-feeds/{file_feed_id}
+FileFeeds line · update-file-feed</title>
+<circle cx="1378" cy="2792" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1390" y="2797" text-anchor="start" style="fill:#1A1F2C">Update file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-api/#op-duplicate-file-feed" target="_blank" class="st" data-op="duplicate-file-feed"><title>POST /v0/file-feeds/{file_feed_id}/duplicate
+FileFeeds line · duplicate-file-feed</title>
+<circle cx="1210" cy="2792" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1216" y="2780" transform="rotate(-45 1216 2780)" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-embed-sessions-api/#op-create-file-feed-embed-session" target="_blank" class="st" data-op="create-file-feed-embed-session"><title>POST /v0/file-feed-embed-sessions
+More Local line · create-file-feed-embed-session</title>
+<circle cx="664" cy="1658" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="652.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Create file feed embed session</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-embed-sessions-api/#op-upload-file-to-embed-session" target="_blank" class="st" data-op="upload-file-to-embed-session"><title>POST /v0/file-feed-embed-sessions/files
+More Local line · upload-file-to-embed-session</title>
+<circle cx="664" cy="1574" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="676" y="1579" text-anchor="start" style="fill:#1A1F2C">Create file</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-create-file-feed-import" target="_blank" class="st" data-op="create-file-feed-import"><title>POST /v0/file-feeds/{file_feed_id}/imports
+FileFeeds Imports line · create-file-feed-import</title>
+<circle cx="1588" cy="2960" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1576.0" y="2965" text-anchor="end" style="fill:#1A1F2C">Create import</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-get-file-feed-imports" target="_blank" class="st" data-op="get-file-feed-imports"><title>GET /v0/file-feeds/{file_feed_id}/imports
+FileFeeds Imports line · get-file-feed-imports</title>
+<circle cx="1504" cy="2876" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1516" y="2881" text-anchor="start" style="fill:#1A1F2C">List imports</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-delete-file-feed-import" target="_blank" class="st" data-op="delete-file-feed-import"><title>DELETE /v0/file-feeds/{file_feed_id}/imports/{file_feed_import_id}
+FileFeeds Imports line · delete-file-feed-import</title>
+<circle cx="1672" cy="2918" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1668" y1="2922" x2="1676" y2="2914" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1684" y="2923" text-anchor="start" style="fill:#1A1F2C">Delete import</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-get-file-feed-import" target="_blank" class="st" data-op="get-file-feed-import"><title>GET /v0/file-feeds/{file_feed_id}/imports/{file_feed_import_id}
+FileFeeds Imports line · get-file-feed-import</title>
+<circle cx="1630" cy="2960" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1642" y="2965" text-anchor="start" style="fill:#1A1F2C">Get import</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-generate-file-feed-import-error-details" target="_blank" class="st" data-op="generate-file-feed-import-error-details"><title>POST /v0/file-feeds/{file_feed_id}/imports/{file_feed_import_id}/attempts/{file_feed_import_attempt_id}/error-details
+FileFeeds Imports line · generate-file-feed-import-error-details</title>
+<circle cx="1672" cy="2792" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1684" y="2797" text-anchor="start" style="fill:#1A1F2C">Create error detail</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-get-import-download-url" target="_blank" class="st" data-op="get-import-download-url"><title>GET /v0/file-feeds/{file_feed_id}/imports/{file_feed_import_id}/import-download-url
+FileFeeds Imports line · get-import-download-url</title>
+<circle cx="1840" cy="2792" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1852" y="2797" text-anchor="start" style="fill:#1A1F2C">Get import download url</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-imported-rows" target="_blank" class="st" data-op="imported-rows"><title>GET /v0/file-feeds/{file_feed_id}/imports/{file_feed_import_id}/attempts/{file_feed_import_attempt_id}/imported-rows
+FileFeeds Imports line · imported-rows</title>
+<circle cx="1756" cy="2708" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1762" y="2696" transform="rotate(-45 1762 2696)" style="fill:#1A1F2C">List imported rows</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-filefeeds-imports-api/#op-retry-file-feed-import" target="_blank" class="st" data-op="retry-file-feed-import"><title>POST /v0/file-feeds/{file_feed_id}/imports/{file_feed_import_id}/retry
+FileFeeds Imports line · retry-file-feed-import</title>
+<circle cx="1882" cy="2834" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1894" y="2839" text-anchor="start" style="fill:#1A1F2C">Retry file feeds imports</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-headless-importer-api/#op-create-embed" target="_blank" class="st" data-op="create-embed"><title>POST /v1/embeds
+Headless Importer line · create-embed</title>
+<circle cx="2512" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2506" y="1166" text-anchor="end" transform="rotate(-45 2506 1166)" style="fill:#1A1F2C">Create embed <tspan font-weight="700" style="fill:#1F5FD1">⇄IE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-headless-importer-api/#op-import-embed-file" target="_blank" class="st" data-op="import-embed-file"><title>POST /v1/embeds/{embed_id}/import
+Headless Importer line · import-embed-file</title>
+<circle cx="2428" cy="1154" r="5.5" fill="#1d25a9" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2434" y="1142" transform="rotate(-45 2434 1142)" style="fill:#1A1F2C">Import embeds</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-headless-importer-api/#op-set-column-mapping-on-an-embed-file" target="_blank" class="st" data-op="set-column-mapping-on-an-embed-file"><title>POST /v1/embeds/{embed_id}/map
+Headless Importer line · set-column-mapping-on-an-embed-file</title>
+<circle cx="2344" cy="1154" r="5.5" fill="#1d25a9" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2332.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Update map</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-headless-importer-api/#op-set-header-row-on-an-embed-file" target="_blank" class="st" data-op="set-header-row-on-an-embed-file"><title>POST /v1/embeds/{embed_id}/set-header
+Headless Importer line · set-header-row-on-an-embed-file</title>
+<circle cx="2344" cy="1028" r="5.5" fill="#1d25a9" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2356" y="1033" text-anchor="start" style="fill:#1A1F2C">Update set header</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-headless-importer-api/#op-upload-a-csv-or-excel-file" target="_blank" class="st" data-op="upload-a-csv-or-excel-file"><title>POST /v1/embeds/{embed_id}/upload
+Headless Importer line · upload-a-csv-or-excel-file</title>
+<circle cx="2344" cy="944" r="5.5" fill="#1d25a9" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2356" y="949" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embed-events-api/#op-get-embed-event-file-url" target="_blank" class="st" data-op="get-embed-event-file-url"><title>GET /v1/embeds/{embed_id}/events/{embed_event_id}/file-url
+Importer Embed Events line · get-embed-event-file-url</title>
+<circle cx="2344" cy="1406" r="5.5" fill="#fff" stroke="#4daee0" stroke-width="2.5"/>
+<text x="2356" y="1411" text-anchor="start" style="fill:#1A1F2C">Get file url</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embed-events-api/#op-get-embed-event" target="_blank" class="st" data-op="get-embed-event"><title>GET /v1/embeds/{embed_id}/events/{embed_event_id}
+Importer Embed Events line · get-embed-event</title>
+<circle cx="2344" cy="1280" r="5.5" fill="#fff" stroke="#4daee0" stroke-width="2.5"/>
+<text x="2332.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embed-events-api/#op-get-embed-events" target="_blank" class="st" data-op="get-embed-events"><title>GET /v1/embeds/{embed_id}/events
+Importer Embed Events line · get-embed-events</title>
+<circle cx="2470" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2464" y="1292" text-anchor="end" transform="rotate(-45 2464 1292)" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-get-embeds" target="_blank" class="st" data-op="get-embeds"><title>GET /v1/embeds
+Importer Embeds line · get-embeds</title>
+<circle cx="2638" cy="1238" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2632" y="1250" text-anchor="end" transform="rotate(-45 2632 1250)" style="fill:#1A1F2C">List embeds</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-delete-embed" target="_blank" class="st" data-op="delete-embed"><title>DELETE /v1/embeds/{embed_id}
+Importer Embeds line · delete-embed</title>
+<circle cx="2512" cy="1406" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2508" y1="1410" x2="2516" y2="1402" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2524" y="1411" text-anchor="start" style="fill:#1A1F2C">Delete embed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-get-embed" target="_blank" class="st" data-op="get-embed"><title>GET /v1/embeds/{embed_id}
+Importer Embeds line · get-embed</title>
+<circle cx="2512" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2521" y="1228" text-anchor="start" style="fill:#1A1F2C">Get embed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-get-error-summary-for-an-embed-file" target="_blank" class="st" data-op="get-error-summary-for-an-embed-file"><title>GET /v1/embeds/{embed_id}/error-summary
+Importer Embeds line · get-error-summary-for-an-embed-file</title>
+<circle cx="2554" cy="1448" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2566" y="1453" text-anchor="start" style="fill:#1A1F2C">Get error summary</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-get-imported-file-url-for-an-embed" target="_blank" class="st" data-op="get-imported-file-url-for-an-embed"><title>GET /v1/embeds/{embed_id}/imported-file-url
+Importer Embeds line · get-imported-file-url-for-an-embed</title>
+<circle cx="2596" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2584.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Get imported file url</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-get-imported-rows-for-embed" target="_blank" class="st" data-op="get-imported-rows-for-embed"><title>GET /v1/embeds/{embed_id}/imported-rows
+Importer Embeds line · get-imported-rows-for-embed</title>
+<circle cx="2680" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2686" y="1478" transform="rotate(-45 2686 1478)" style="fill:#1A1F2C">List imported rows</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-embeds-api/#op-get-uploaded-file-url-for-an-embed" target="_blank" class="st" data-op="get-uploaded-file-url-for-an-embed"><title>GET /v1/embeds/{embed_id}/uploaded-file-url
+Importer Embeds line · get-uploaded-file-url-for-an-embed</title>
+<circle cx="2764" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2758" y="1502" text-anchor="end" transform="rotate(-45 2758 1502)" style="fill:#1A1F2C">Get uploaded file url</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-webhooks-api/#op-create-importer-webhook" target="_blank" class="st" data-op="create-importer-webhook"><title>POST /v1/importer-webhooks
+Importer Webhooks line · create-importer-webhook</title>
+<circle cx="328" cy="1364" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="340" y="1369" text-anchor="start" style="fill:#1A1F2C">Create importer webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-webhooks-api/#op-list-importer-webhooks" target="_blank" class="st" data-op="list-importer-webhooks"><title>GET /v1/importer-webhooks
+Importer Webhooks line · list-importer-webhooks</title>
+<circle cx="244" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="232.0" y="1285" text-anchor="end" style="fill:#1A1F2C">List importer webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-webhooks-api/#op-delete-importer-webhook" target="_blank" class="st" data-op="delete-importer-webhook"><title>DELETE /v1/importer-webhooks/{webhook_key}
+Importer Webhooks line · delete-importer-webhook</title>
+<circle cx="160" cy="1406" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="156" y1="1410" x2="164" y2="1402" stroke="#B0287F" stroke-width="2"/>
+<text x="169" y="1396" text-anchor="start" style="fill:#1A1F2C">Delete importer webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-webhooks-api/#op-get-importer-webhook" target="_blank" class="st" data-op="get-importer-webhook"><title>GET /v1/importer-webhooks/{webhook_key}
+Importer Webhooks line · get-importer-webhook</title>
+<circle cx="328" cy="1406" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="340" y="1411" text-anchor="start" style="fill:#1A1F2C">Get importer webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-importer-webhooks-api/#op-update-importer-webhook" target="_blank" class="st" data-op="update-importer-webhook"><title>PUT /v1/importer-webhooks/{webhook_key}
+Importer Webhooks line · update-importer-webhook</title>
+<circle cx="244" cy="1406" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="238" y="1418" text-anchor="end" transform="rotate(-45 238 1418)" style="fill:#1A1F2C">Update importer webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-mcp-server-api/#op-send-mcp-json-rpc" target="_blank" class="st" data-op="send-mcp-json-rpc"><title>POST /mcp
+More Local line · send-mcp-json-rpc</title>
+<circle cx="664" cy="1742" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="676" y="1747" text-anchor="start" style="fill:#1A1F2C">Update mcp</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-commits-api/#op-create-multi-file-feed-commit" target="_blank" class="st" data-op="create-multi-file-feed-commit"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/commits
+Multi FileFeed Commits line · create-multi-file-feed-commit</title>
+<circle cx="370" cy="1868" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="1873" text-anchor="start" style="fill:#1A1F2C">Create commit</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-commits-api/#op-list-multi-file-feed-commits" target="_blank" class="st" data-op="list-multi-file-feed-commits"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/commits
+Multi FileFeed Commits line · list-multi-file-feed-commits</title>
+<circle cx="370" cy="1952" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="382" y="1957" text-anchor="start" style="fill:#1A1F2C">List commits <tspan font-weight="700" style="fill:#C2410C">⇄MFF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-commits-api/#op-get-multi-file-feed-commit" target="_blank" class="st" data-op="get-multi-file-feed-commit"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/commits/{commit_id}
+Multi FileFeed Commits line · get-multi-file-feed-commit</title>
+<circle cx="370" cy="1784" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="1789" text-anchor="start" style="fill:#1A1F2C">Get commit</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-commits-api/#op-revert-multi-file-feed-commit" target="_blank" class="st" data-op="revert-multi-file-feed-commit"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/commits/{commit_id}/revert
+Multi FileFeed Commits line · revert-multi-file-feed-commit</title>
+<circle cx="370" cy="1700" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="1705" text-anchor="start" style="fill:#1A1F2C">Update revert</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-folders-api/#op-create-multi-file-feed-folder" target="_blank" class="st" data-op="create-multi-file-feed-folder"><title>POST /v0/multi-file-feed-folders
+Multi FileFeed Folders line · create-multi-file-feed-folder</title>
+<circle cx="916" cy="1364" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="907.0" y="1354" text-anchor="end" style="fill:#1A1F2C">Create multi file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-folders-api/#op-list-multi-file-feed-folders" target="_blank" class="st" data-op="list-multi-file-feed-folders"><title>GET /v0/multi-file-feed-folders
+Multi FileFeed Folders line · list-multi-file-feed-folders</title>
+<circle cx="916" cy="1238" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="928" y="1236" text-anchor="start" style="fill:#1A1F2C">List multi file<tspan x="928" dy="13">feed folders</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-folders-api/#op-delete-multi-file-feed-folder" target="_blank" class="st" data-op="delete-multi-file-feed-folder"><title>DELETE /v0/multi-file-feed-folders/{folder_id}
+Multi FileFeed Folders line · delete-multi-file-feed-folder</title>
+<circle cx="1084" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1080" y1="1284" x2="1088" y2="1276" stroke="#2E7D32" stroke-width="2"/>
+<text x="1096" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete multi file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-folders-api/#op-get-multi-file-feed-folder" target="_blank" class="st" data-op="get-multi-file-feed-folder"><title>GET /v0/multi-file-feed-folders/{folder_id}
+Multi FileFeed Folders line · get-multi-file-feed-folder</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="991.0" y="1383" text-anchor="end" style="fill:#1A1F2C">Get multi file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-folders-api/#op-update-multi-file-feed-folder" target="_blank" class="st" data-op="update-multi-file-feed-folder"><title>PATCH /v0/multi-file-feed-folders/{folder_id}
+Multi FileFeed Folders line · update-multi-file-feed-folder</title>
+<circle cx="1042" cy="1322" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1054" y="1327" text-anchor="start" style="fill:#1A1F2C">Update multi file feed folder</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-create-direct-upload-multi-file-feed-import-file" target="_blank" class="st" data-op="create-direct-upload-multi-file-feed-import-file"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/direct-uploads
+Multi FileFeed Imports line · create-direct-upload-multi-file-feed-import-file</title>
+<circle cx="496" cy="2372" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="484.0" y="2377" text-anchor="end" style="fill:#1A1F2C">Create direct upload</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-create-multi-file-feed-import" target="_blank" class="st" data-op="create-multi-file-feed-import"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/imports
+Multi FileFeed Imports line · create-multi-file-feed-import</title>
+<circle cx="412" cy="2288" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="424" y="2293" text-anchor="start" style="fill:#1A1F2C">Create import</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-list-multi-file-feed-imports" target="_blank" class="st" data-op="list-multi-file-feed-imports"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/imports
+Multi FileFeed Imports line · list-multi-file-feed-imports</title>
+<circle cx="412" cy="2162" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="424" y="2167" text-anchor="start" style="fill:#1A1F2C">List imports <tspan font-weight="700" style="fill:#C2410C">⇄MFF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-get-multi-file-feed-import-errors" target="_blank" class="st" data-op="get-multi-file-feed-import-errors"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/errors
+Multi FileFeed Imports line · get-multi-file-feed-import-errors</title>
+<circle cx="622" cy="2456" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="634" y="2461" text-anchor="start" style="fill:#1A1F2C">List errors</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-get-multi-file-feed-import-file-download-url" target="_blank" class="st" data-op="get-multi-file-feed-import-file-download-url"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/imported-files/{imported_file_id}/download-url
+Multi FileFeed Imports line · get-multi-file-feed-import-file-download-url</title>
+<circle cx="622" cy="2624" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="634" y="2629" text-anchor="start" style="fill:#1A1F2C">Get download url</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-get-multi-file-feed-import-files" target="_blank" class="st" data-op="get-multi-file-feed-import-files"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/imported-files
+Multi FileFeed Imports line · get-multi-file-feed-import-files</title>
+<circle cx="622" cy="2540" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="634" y="2545" text-anchor="start" style="fill:#1A1F2C">List imported files</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-get-multi-file-feed-import" target="_blank" class="st" data-op="get-multi-file-feed-import"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}
+Multi FileFeed Imports line · get-multi-file-feed-import</title>
+<circle cx="454" cy="2330" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="466" y="2335" text-anchor="start" style="fill:#1A1F2C">Get import</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-submit-direct-upload-multi-file-feed-import-file" target="_blank" class="st" data-op="submit-direct-upload-multi-file-feed-import-file"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/direct-uploads/{upload_id}/submit
+Multi FileFeed Imports line · submit-direct-upload-multi-file-feed-import-file</title>
+<circle cx="622" cy="2372" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="634" y="2377" text-anchor="start" style="fill:#1A1F2C">Submit direct upload</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-submit-multi-file-feed-import" target="_blank" class="st" data-op="submit-multi-file-feed-import"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/submit
+Multi FileFeed Imports line · submit-multi-file-feed-import</title>
+<circle cx="538" cy="2708" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="550" y="2713" text-anchor="start" style="fill:#1A1F2C">Submit import</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-upload-from-s3-multi-file-feed-import" target="_blank" class="st" data-op="upload-from-s3-multi-file-feed-import"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/upload-from-s3
+Multi FileFeed Imports line · upload-from-s3-multi-file-feed-import</title>
+<circle cx="538" cy="2792" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="550" y="2797" text-anchor="start" style="fill:#1A1F2C">Update upload from s3</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-imports-api/#op-upload-multi-file-feed-import-file" target="_blank" class="st" data-op="upload-multi-file-feed-import-file"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/imports/{multi_file_feed_import_id}/uploaded-files
+Multi FileFeed Imports line · upload-multi-file-feed-import-file</title>
+<circle cx="538" cy="2876" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="550" y="2881" text-anchor="start" style="fill:#1A1F2C">Create uploaded file</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-transforms-api/#op-get-multi-file-feed-head" target="_blank" class="st" data-op="get-multi-file-feed-head"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/head
+Multi FileFeed Transforms line · get-multi-file-feed-head</title>
+<circle cx="454" cy="2036" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="466" y="2041" text-anchor="start" style="fill:#1A1F2C">Get head <tspan font-weight="700" style="fill:#C2410C">⇄MFF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-transforms-api/#op-get-multi-file-feed-transforms-history" target="_blank" class="st" data-op="get-multi-file-feed-transforms-history"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/transforms/history
+Multi FileFeed Transforms line · get-multi-file-feed-transforms-history</title>
+<circle cx="496" cy="1784" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="508" y="1789" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-transforms-api/#op-get-multi-file-feed-transforms" target="_blank" class="st" data-op="get-multi-file-feed-transforms"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}/transforms
+Multi FileFeed Transforms line · get-multi-file-feed-transforms</title>
+<circle cx="580" cy="1910" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="592" y="1915" text-anchor="start" style="fill:#1A1F2C">List transforms</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeed-transforms-api/#op-patch-multi-file-feed-transforms" target="_blank" class="st" data-op="patch-multi-file-feed-transforms"><title>PATCH /v0/multi-file-feeds/{multi_file_feed_id}/transforms
+Multi FileFeed Transforms line · patch-multi-file-feed-transforms</title>
+<circle cx="580" cy="1868" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="592" y="1873" text-anchor="start" style="fill:#1A1F2C">Create transform</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeeds-api/#op-create-multi-file-feed" target="_blank" class="st" data-op="create-multi-file-feed"><title>POST /v0/multi-file-feeds
+Multi FileFeeds line · create-multi-file-feed</title>
+<circle cx="286" cy="2162" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="274.0" y="2167" text-anchor="end" style="fill:#1A1F2C">Create multi file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeeds-api/#op-list-multi-file-feeds" target="_blank" class="st" data-op="list-multi-file-feeds"><title>GET /v0/multi-file-feeds
+Multi FileFeeds line · list-multi-file-feeds</title>
+<circle cx="202" cy="2246" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="214" y="2251" text-anchor="start" style="fill:#1A1F2C">List multi file feeds</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeeds-api/#op-delete-multi-file-feed" target="_blank" class="st" data-op="delete-multi-file-feed"><title>DELETE /v0/multi-file-feeds/{multi_file_feed_id}
+Multi FileFeeds line · delete-multi-file-feed</title>
+<circle cx="244" cy="1994" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="240" y1="1998" x2="248" y2="1990" stroke="#C2410C" stroke-width="2"/>
+<text x="232.0" y="1999" text-anchor="end" style="fill:#1A1F2C">Delete multi file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeeds-api/#op-get-multi-file-feed" target="_blank" class="st" data-op="get-multi-file-feed"><title>GET /v0/multi-file-feeds/{multi_file_feed_id}
+Multi FileFeeds line · get-multi-file-feed</title>
+<circle cx="370" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="358.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Get multi file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeeds-api/#op-update-multi-file-feed" target="_blank" class="st" data-op="update-multi-file-feed"><title>PATCH /v0/multi-file-feeds/{multi_file_feed_id}
+Multi FileFeeds line · update-multi-file-feed</title>
+<circle cx="286" cy="2036" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="274.0" y="2041" text-anchor="end" style="fill:#1A1F2C">Update multi file feed</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-multi-filefeeds-api/#op-duplicate-multi-file-feed" target="_blank" class="st" data-op="duplicate-multi-file-feed"><title>POST /v0/multi-file-feeds/{multi_file_feed_id}/duplicate
+Multi FileFeeds line · duplicate-multi-file-feed</title>
+<circle cx="160" cy="1910" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="172" y="1915" text-anchor="start" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-s3-accounts-api/#op-create-s3-account" target="_blank" class="st" data-op="create-s3-account"><title>POST /v0/s3-accounts
+S3 Accounts line · create-s3-account</title>
+<circle cx="412" cy="1280" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="400.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Create s3 account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-s3-accounts-api/#op-list-s3-accounts" target="_blank" class="st" data-op="list-s3-accounts"><title>GET /v0/s3-accounts
+S3 Accounts line · list-s3-accounts</title>
+<circle cx="412" cy="1154" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="424" y="1159" text-anchor="start" style="fill:#1A1F2C">List s3 accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-s3-accounts-api/#op-delete-s3-account" target="_blank" class="st" data-op="delete-s3-account"><title>DELETE /v0/s3-accounts/{s3-account-id}
+S3 Accounts line · delete-s3-account</title>
+<circle cx="538" cy="1238" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="534" y1="1242" x2="542" y2="1234" stroke="#00838F" stroke-width="2"/>
+<text x="550" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete s3 account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-s3-accounts-api/#op-get-s3-account" target="_blank" class="st" data-op="get-s3-account"><title>GET /v0/s3-accounts/{s3-account-id}
+S3 Accounts line · get-s3-account</title>
+<circle cx="496" cy="1280" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="508" y="1285" text-anchor="start" style="fill:#1A1F2C">Get s3 account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sftp-accounts-api/#op-create-sftp-account" target="_blank" class="st" data-op="create-sftp-account"><title>POST /v0/sftp-accounts
+SFTP Accounts line · create-sftp-account</title>
+<circle cx="706" cy="1112" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="1117" text-anchor="start" style="fill:#1A1F2C">Create sftp account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sftp-accounts-api/#op-list-sftp-accounts" target="_blank" class="st" data-op="list-sftp-accounts"><title>GET /v0/sftp-accounts
+SFTP Accounts line · list-sftp-accounts</title>
+<circle cx="706" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="1033" text-anchor="start" style="fill:#1A1F2C">List sftp accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sftp-accounts-api/#op-delete-sftp-account" target="_blank" class="st" data-op="delete-sftp-account"><title>DELETE /v0/sftp-accounts/{sftp-account-id}
+SFTP Accounts line · delete-sftp-account</title>
+<circle cx="664" cy="1238" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="660" y1="1242" x2="668" y2="1234" stroke="#1F5FD1" stroke-width="2"/>
+<text x="676" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete sftp account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sftp-accounts-api/#op-get-sftp-account" target="_blank" class="st" data-op="get-sftp-account"><title>GET /v0/sftp-accounts/{sftp-account-id}
+SFTP Accounts line · get-sftp-account</title>
+<circle cx="706" cy="1196" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="1201" text-anchor="start" style="fill:#1A1F2C">Get sftp account</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-delete-sheet" target="_blank" class="st" data-op="delete-sheet"><title>DELETE /v1/sheets/{sheet_id}
+Sheets line · delete-sheet</title>
+<circle cx="1378" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1374" y1="1410" x2="1382" y2="1402" stroke="#D6264F" stroke-width="2"/>
+<text x="1390" y="1411" text-anchor="start" style="fill:#1A1F2C">Delete sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-get-sheet" target="_blank" class="st" data-op="get-sheet"><title>GET /v1/sheets/{sheet_id}
+Sheets line · get-sheet</title>
+<circle cx="1210" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1216" y="1394" transform="rotate(-45 1216 1394)" style="fill:#1A1F2C">Get sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-update-sheet" target="_blank" class="st" data-op="update-sheet"><title>PATCH /v1/sheets/{sheet_id}
+Sheets line · update-sheet</title>
+<circle cx="1294" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="1394" transform="rotate(-45 1300 1394)" style="fill:#1A1F2C">Update sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-export-file-async" target="_blank" class="st" data-op="export-file-async"><title>POST /v1/sheets/{sheet_id}/export-file-async/{format}
+Sheets line · export-file-async</title>
+<circle cx="1378" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1390" y="1915" text-anchor="start" style="fill:#1A1F2C">Update export file async</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-export-file-csv" target="_blank" class="st" data-op="export-file-csv"><title>POST /v1/sheets/{sheet_id}/export-file/csv
+Sheets line · export-file-csv</title>
+<circle cx="1462" cy="1490" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="1495" text-anchor="start" style="fill:#1A1F2C">Update csv</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-export-file-excel" target="_blank" class="st" data-op="export-file-excel"><title>POST /v1/sheets/{sheet_id}/export-file/excel
+Sheets line · export-file-excel</title>
+<circle cx="1546" cy="1574" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1579" text-anchor="start" style="fill:#1A1F2C">Update excel</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-export-file-json" target="_blank" class="st" data-op="export-file-json"><title>POST /v1/sheets/{sheet_id}/export-file/json
+Sheets line · export-file-json</title>
+<circle cx="1546" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1663" text-anchor="start" style="fill:#1A1F2C">Update json</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-export-file-jsonlines" target="_blank" class="st" data-op="export-file-jsonlines"><title>POST /v1/sheets/{sheet_id}/export-file/jsonlines
+Sheets line · export-file-jsonlines</title>
+<circle cx="1546" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1747" text-anchor="start" style="fill:#1A1F2C">Create jsonline</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-get-export-download-url" target="_blank" class="st" data-op="get-export-download-url"><title>GET /v1/sheets/{sheet_id}/exports/{export_file_id}/download-url
+Sheets line · get-export-download-url</title>
+<circle cx="1294" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="1898" transform="rotate(-45 1300 1898)" style="fill:#1A1F2C">Get download url</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-get-export-job-status" target="_blank" class="st" data-op="get-export-job-status"><title>GET /v1/sheets/{sheet_id}/export-file-async/jobs/{export_job_id}
+Sheets line · get-export-job-status</title>
+<circle cx="1462" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="1831" text-anchor="start" style="fill:#1A1F2C">Get job</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-get-mapping" target="_blank" class="st" data-op="get-mapping"><title>GET /v1/sheets/{sheet_id}/mapping
+Sheets line · get-mapping</title>
+<circle cx="1126" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1831" text-anchor="start" style="fill:#1A1F2C">Get mapping</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-map-columns" target="_blank" class="st" data-op="map-columns"><title>POST /v1/sheets/{sheet_id}/mapping
+Sheets line · map-columns</title>
+<circle cx="1042" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1747" text-anchor="start" style="fill:#1A1F2C">Update mapping</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-get-rows" target="_blank" class="st" data-op="get-rows"><title>GET /v1/sheets/{sheet_id}/rows
+Sheets line · get-rows</title>
+<circle cx="1042" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1663" text-anchor="start" style="fill:#1A1F2C">List rows</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-set-header-row" target="_blank" class="st" data-op="set-header-row"><title>POST /v1/sheets/{sheet_id}/header-row
+Sheets line · set-header-row</title>
+<circle cx="1210" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1198.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Update header row</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-unmap-sheet" target="_blank" class="st" data-op="unmap-sheet"><title>POST /v1/sheets/{sheet_id}/unmap
+Sheets line · unmap-sheet</title>
+<circle cx="1126" cy="1490" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1495" text-anchor="start" style="fill:#1A1F2C">Update unmap</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-sheets-api/#op-upload-file" target="_blank" class="st" data-op="upload-file"><title>POST /v1/sheets
+Sheets line · upload-file</title>
+<circle cx="1126" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1114.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Create sheet</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-template-hooks-api/#op-create-template-hook" target="_blank" class="st" data-op="create-template-hook"><title>POST /v1/template-hooks
+Template Hooks line · create-template-hook</title>
+<circle cx="2218" cy="2540" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="2230" y="2545" text-anchor="start" style="fill:#1A1F2C">Create template hook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-template-hooks-api/#op-get-template-hooks" target="_blank" class="st" data-op="get-template-hooks"><title>GET /v1/template-hooks
+Template Hooks line · get-template-hooks</title>
+<circle cx="2218" cy="2624" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<text x="2230" y="2629" text-anchor="start" style="fill:#1A1F2C">List template hooks</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-template-hooks-api/#op-delete-template-hook" target="_blank" class="st" data-op="delete-template-hook"><title>DELETE /v1/template-hooks/{key}
+Template Hooks line · delete-template-hook</title>
+<circle cx="2092" cy="2540" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<line x1="2088" y1="2544" x2="2096" y2="2536" stroke="#b58613" stroke-width="2"/>
+<text x="2080.0" y="2545" text-anchor="end" style="fill:#1A1F2C">Delete template hook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-template-hooks-api/#op-get-template-hook" target="_blank" class="st" data-op="get-template-hook"><title>GET /v1/template-hooks/{key}
+Template Hooks line · get-template-hook</title>
+<circle cx="2218" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2227" y="2433" text-anchor="start" style="fill:#1A1F2C">Get template hook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-template-hooks-api/#op-update-template-hook" target="_blank" class="st" data-op="update-template-hook"><title>PUT /v1/template-hooks/{key}
+Template Hooks line · update-template-hook</title>
+<circle cx="2092" cy="2414" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="2080.0" y="2419" text-anchor="end" style="fill:#1A1F2C">Update template hook</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-delete-template-sample-file" target="_blank" class="st" data-op="delete-template-sample-file"><title>DELETE /v1/templates/{key}/sample-file
+Templates line · delete-template-sample-file</title>
+<circle cx="790" cy="2036" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="786" y1="2040" x2="794" y2="2032" stroke="#B8860B" stroke-width="2"/>
+<text x="802" y="2041" text-anchor="start" style="fill:#1A1F2C">Delete sample file</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-get-template-sample-file" target="_blank" class="st" data-op="get-template-sample-file"><title>GET /v1/templates/{key}/sample-file
+Templates line · get-template-sample-file</title>
+<circle cx="874" cy="1910" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="862.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Get sample file</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-upload-template-sample-file" target="_blank" class="st" data-op="upload-template-sample-file"><title>POST /v1/templates/{key}/sample-file
+Templates line · upload-template-sample-file</title>
+<circle cx="874" cy="1952" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="862.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Update sample file</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-delete-template" target="_blank" class="st" data-op="delete-template"><title>DELETE /v1/templates/{key}
+Templates line · delete-template</title>
+<circle cx="958" cy="1826" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="954" y1="1830" x2="962" y2="1822" stroke="#B8860B" stroke-width="2"/>
+<text x="970" y="1831" text-anchor="start" style="fill:#1A1F2C">Delete template</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-export-template" target="_blank" class="st" data-op="export-template"><title>GET /v1/templates/{key}
+Templates line · export-template</title>
+<circle cx="958" cy="1952" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="970" y="1957" text-anchor="start" style="fill:#1A1F2C">Get template</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-update-template" target="_blank" class="st" data-op="update-template"><title>PUT /v1/templates/{key}
+Templates line · update-template</title>
+<circle cx="958" cy="1910" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="970" y="1915" text-anchor="start" style="fill:#1A1F2C">Update template</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-get-templates" target="_blank" class="st" data-op="get-templates"><title>GET /v1/templates
+Templates line · get-templates</title>
+<circle cx="958" cy="2120" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="970" y="2125" text-anchor="start" style="fill:#1A1F2C">List templates</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-import-template" target="_blank" class="st" data-op="import-template"><title>POST /v1/templates
+Templates line · import-template</title>
+<circle cx="958" cy="2036" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="970" y="2041" text-anchor="start" style="fill:#1A1F2C">Create template</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-templates-api/#op-push-template-environment" target="_blank" class="st" data-op="push-template-environment"><title>POST /v1/templates/{key}/environment-push
+Templates line · push-template-environment</title>
+<circle cx="874" cy="1826" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="862.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Update environment push</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-workspace-sheets-api/#op-assign-sheet-template" target="_blank" class="st" data-op="assign-sheet-template"><title>PUT /v1/sheets/{sheet_id}/template
+Sheets line · assign-sheet-template</title>
+<circle cx="1042" cy="1574" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1579" text-anchor="start" style="fill:#1A1F2C">Update template</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-workspaces-api/#op-create-workspace" target="_blank" class="st" data-op="create-workspace"><title>POST /v1/workspaces
+Workspaces line · create-workspace</title>
+<circle cx="538" cy="1490" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="550" y="1495" text-anchor="start" style="fill:#1A1F2C">Create workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-workspaces-api/#op-list-workspaces" target="_blank" class="st" data-op="list-workspaces"><title>GET /v1/workspaces
+Workspaces line · list-workspaces</title>
+<circle cx="580" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="592" y="1453" text-anchor="start" style="fill:#1A1F2C">List workspaces</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-workspaces-api/#op-delete-workspace" target="_blank" class="st" data-op="delete-workspace"><title>DELETE /v1/workspaces/{workspace_id}
+Workspaces line · delete-workspace</title>
+<circle cx="370" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="366" y1="1536" x2="374" y2="1528" stroke="#5C6BC0" stroke-width="2"/>
+<text x="376" y="1520" transform="rotate(-45 376 1520)" style="fill:#1A1F2C">Delete workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-workspaces-api/#op-get-workspace" target="_blank" class="st" data-op="get-workspace"><title>GET /v1/workspaces/{workspace_id}
+Workspaces line · get-workspace</title>
+<circle cx="496" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="508" y="1537" text-anchor="start" style="fill:#1A1F2C">Get workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/oneschema/oneschema-workspaces-api/#op-update-workspace" target="_blank" class="st" data-op="update-workspace"><title>PATCH /v1/workspaces/{workspace_id}
+Workspaces line · update-workspace</title>
+<circle cx="454" cy="1532" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="460" y="1520" transform="rotate(-45 460 1520)" style="fill:#1A1F2C">Update workspace</text>
+</a>
+<text x="2954" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2954" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SHEETS</text>
+<rect x="2954" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2971" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SHE</text><text x="2996" y="269" font-size="11" fill="#1A1F2C">Sheets <tspan fill="#8A93A6">17</tspan></text>
+<text x="2954" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">FILE FEEDS</text>
+<rect x="2954" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2971" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FFI</text><text x="2996" y="312" font-size="11" fill="#1A1F2C">FileFeeds Imports <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2954" y="319" width="34" height="13" rx="3" fill="#0d7768"/><text x="2971" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FF</text><text x="2996" y="329" font-size="11" fill="#1A1F2C">FileFeeds <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">EMBEDS</text>
+<rect x="2954" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2971" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IE</text><text x="2996" y="372" font-size="11" fill="#1A1F2C">Importer Embeds <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2954" y="379" width="34" height="13" rx="3" fill="#1d25a9"/><text x="2971" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HI</text><text x="2996" y="389" font-size="11" fill="#1A1F2C">Headless Importer <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2954" y="396" width="34" height="13" rx="3" fill="#4daee0"/><text x="2971" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IEE</text><text x="2996" y="406" font-size="11" fill="#1A1F2C">Importer Embed Events <tspan fill="#8A93A6">3</tspan></text>
+<text x="2954" y="432" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">TEMPLATE HOOKS</text>
+<rect x="2954" y="439" width="34" height="13" rx="3" fill="#E07B12"/><text x="2971" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHL</text><text x="2996" y="449" font-size="11" fill="#1A1F2C">Code Hooks (Legacy) <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2954" y="456" width="34" height="13" rx="3" fill="#b58613"/><text x="2971" y="466" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TH</text><text x="2996" y="466" font-size="11" fill="#1A1F2C">Template Hooks <tspan fill="#8A93A6">5</tspan></text>
+<text x="2954" y="492" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">AWS SECRETS MANAGER</text>
+<rect x="2954" y="499" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2971" y="509" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASMA</text><text x="2996" y="509" font-size="11" fill="#1A1F2C">AWS Secrets Manager Accounts <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2954" y="516" width="34" height="13" rx="3" fill="#8823d6"/><text x="2971" y="526" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASMS</text><text x="2996" y="526" font-size="11" fill="#1A1F2C">AWS Secrets Manager Secrets <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="552" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">AZURE KEY VAULT</text>
+<rect x="2954" y="559" width="34" height="13" rx="3" fill="#B0287F"/><text x="2971" y="569" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AKVA</text><text x="2996" y="569" font-size="11" fill="#1A1F2C">Azure Key Vault Accounts <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2954" y="576" width="34" height="13" rx="3" fill="#8b2351"/><text x="2971" y="586" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AKVS</text><text x="2996" y="586" font-size="11" fill="#1A1F2C">Azure Key Vault Secrets <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="612" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">IMPORTS</text>
+<rect x="2954" y="619" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2971" y="629" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MFFI</text><text x="2996" y="629" font-size="11" fill="#1A1F2C">Multi FileFeed Imports <tspan fill="#8A93A6">11</tspan></text>
+<text x="2954" y="655" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">TEMPLATES</text>
+<rect x="2954" y="662" width="34" height="13" rx="3" fill="#B8860B"/><text x="2971" y="672" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEM</text><text x="2996" y="672" font-size="11" fill="#1A1F2C">Templates <tspan fill="#8A93A6">9</tspan></text>
+<text x="2954" y="698" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">MULTI FILE FEEDS</text>
+<rect x="2954" y="705" width="34" height="13" rx="3" fill="#C2410C"/><text x="2971" y="715" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MFF</text><text x="2996" y="715" font-size="11" fill="#1A1F2C">Multi FileFeeds <tspan fill="#8A93A6">6</tspan></text>
+<text x="2954" y="741" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">MULTI FILE FEED FOLDERS</text>
+<rect x="2954" y="748" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2971" y="758" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MFFF</text><text x="2996" y="758" font-size="11" fill="#1A1F2C">Multi FileFeed Folders <tspan fill="#8A93A6">5</tspan></text>
+<text x="2954" y="784" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">FILE FEED FOLDERS</text>
+<rect x="2954" y="791" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2971" y="801" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FFF</text><text x="2996" y="801" font-size="11" fill="#1A1F2C">FileFeed Folders <tspan fill="#8A93A6">5</tspan></text>
+<text x="2954" y="827" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2954" y="834" width="34" height="13" rx="3" fill="#D6264F"/><text x="2971" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EW</text><text x="2996" y="844" font-size="11" fill="#1A1F2C">Event Webhooks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2954" y="851" width="34" height="13" rx="3" fill="#B0287F"/><text x="2971" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IW</text><text x="2996" y="861" font-size="11" fill="#1A1F2C">Importer Webhooks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2954" y="868" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2971" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="2996" y="878" font-size="11" fill="#1A1F2C">Workspaces <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2954" y="885" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2971" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MFFC</text><text x="2996" y="895" font-size="11" fill="#1A1F2C">Multi FileFeed Commits <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2954" y="902" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2971" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MFFT</text><text x="2996" y="912" font-size="11" fill="#1A1F2C">Multi FileFeed Transforms <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2954" y="919" width="34" height="13" rx="3" fill="#00838F"/><text x="2971" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">S3A</text><text x="2996" y="929" font-size="11" fill="#1A1F2C">S3 Accounts <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2954" y="936" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2971" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="2996" y="946" font-size="11" fill="#1A1F2C">SFTP Accounts <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2954" y="953" width="34" height="13" rx="3" fill="#B8860B"/><text x="2971" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2996" y="963" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">3</tspan></text>
+<text x="3204" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3222,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3248" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3222,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3248" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3222,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3248" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3222,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3248" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3222,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3248" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3222,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3248" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3222,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3248" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3222,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3248" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3204" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3204" y="463" font-size="10.5" fill="#5A6275">“FileFeed Mappings” → FileFeeds Imports line · 2 ops</text>
+<text x="3204" y="478" font-size="10.5" fill="#5A6275">“FileFeeds Embed Sessions” → More Local line · 2 ops</text>
+<text x="3204" y="493" font-size="10.5" fill="#5A6275">“MCP Server” → More Local line · 1 op</text>
+<text x="3204" y="508" font-size="10.5" fill="#5A6275">“Workspace Sheets” → Sheets line · 1 op</text>
+<text x="3204" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3204" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3174" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/oneschema/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

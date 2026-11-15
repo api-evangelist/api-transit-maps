@@ -1,0 +1,900 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3676 3206" width="3676" height="3206" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3676" height="3206" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Acceldata API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">149 operations as stops · 14 tags as lines · 11 interchanges · 7 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1964" y1="1066" x2="2008" y2="1022" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1964" y1="1066" x2="2008" y2="1022" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2052" y1="978" x2="2008" y2="1022" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2052" y1="978" x2="2008" y2="1022" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2096" y1="2826" x2="2140" y2="2782" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2096" y1="2826" x2="2140" y2="2782" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Users" d="M1612.0,3002.0 L1612.0,2914.0 L1612.0,2796.0 Q1612.0,2782.0 1621.9,2772.1 L1646.1,2747.9 Q1656.0,2738.0 1670.0,2738.0 L1744.0,2738.0 L1818.0,2738.0 Q1832.0,2738.0 1841.9,2747.9 L1876.0,2782.0 L1910.1,2816.1 Q1920.0,2826.0 1934.0,2826.0 L2008.0,2826.0 L2082.0,2826.0 Q2096.0,2826.0 2096.0,2840.0 L2096.0,2914.0 L2096.0,3002.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="Assets" d="M1656.0,934.0 L1744.0,934.0 L1832.0,934.0 L1906.0,934.0 Q1920.0,934.0 1929.9,943.9 L2008.0,1022.0 L2096.0,1110.0 L2174.1,1188.1 Q2184.0,1198.0 2184.0,1212.0 L2184.0,1286.0 L2184.0,1374.0 L2184.0,1448.0 Q2184.0,1462.0 2174.1,1471.9 L2096.0,1550.0 L2017.9,1628.1 Q2008.0,1638.0 1994.0,1638.0 L1920.0,1638.0 L1832.0,1638.0 L1758.0,1638.0 Q1744.0,1638.0 1734.1,1628.1 L1656.0,1550.0 L1568.0,1462.0 L1489.9,1383.9 Q1480.0,1374.0 1480.0,1360.0 L1480.0,1286.0 L1480.0,1198.0 L1480.0,1124.0 Q1480.0,1110.0 1489.9,1100.1 L1568.0,1022.0 L1656.0,934.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Assets</title></path>
+<path class="line" data-line="Custom Assets" d="M2008.0,1154.0 L1832.0,1330.0 L1744.0,1418.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Custom Assets</title></path>
+<path class="line" data-line="Rules Data Cadence" d="M1788.0,1154.0 L1862.0,1154.0 Q1876.0,1154.0 1885.9,1163.9 L2052.0,1330.0" fill="none" stroke="#af4423" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Data Cadence</title></path>
+<path class="line" data-line="Rules Data Drift" d="M2140.0,934.0 L2170.0,934.0 Q2184.0,934.0 2193.9,924.1 L2262.1,855.9 Q2272.0,846.0 2286.0,846.0 L2302.0,846.0 Q2316.0,846.0 2325.9,836.1 L2404.0,758.0 L2438.1,723.9 Q2448.0,714.0 2462.0,714.0 L2522.0,714.0 Q2536.0,714.0 2536.0,728.0 L2536.0,846.0 L2536.0,964.0 Q2536.0,978.0 2550.0,978.0 L2610.0,978.0 Q2624.0,978.0 2633.9,968.1 L2712.0,890.0" fill="none" stroke="#dd5b8e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Data Drift</title></path>
+<path class="line" data-line="Rules Data Quality" d="M1876.0,1022.0 L1670.0,1022.0 Q1656.0,1022.0 1656.0,1036.0 L1656.0,1110.0 L1656.0,1154.0 L1656.0,1272.0 Q1656.0,1286.0 1642.0,1286.0 L1406.0,1286.0 Q1392.0,1286.0 1382.1,1295.9 L1357.9,1320.1 Q1348.0,1330.0 1334.0,1330.0 L1260.0,1330.0 L1142.0,1330.0 Q1128.0,1330.0 1118.1,1339.9 L1049.9,1408.1 Q1040.0,1418.0 1026.0,1418.0 L952.0,1418.0 L820.0,1418.0 L702.0,1418.0 Q688.0,1418.0 678.1,1427.9 L653.9,1452.1 Q644.0,1462.0 630.0,1462.0 L556.0,1462.0 L424.0,1462.0 L336.0,1462.0 L248.0,1462.0 L160.0,1462.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Data Quality</title></path>
+<path class="line" data-line="Rules Data Quality" d="M1656.0,1154.0 L1568.0,1154.0 L1362.0,1154.0 Q1348.0,1154.0 1338.1,1144.1 L1313.9,1119.9 Q1304.0,1110.0 1290.0,1110.0 L1172.0,1110.0 L1054.0,1110.0 Q1040.0,1110.0 1030.1,1100.1 L996.0,1066.0 L952.0,1022.0 L864.0,934.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Data Quality</title></path>
+<path class="line" data-line="Groups" d="M2140.0,2606.0 L2140.0,2694.0 L2140.0,2768.0 Q2140.0,2782.0 2149.9,2791.9 L2218.1,2860.1 Q2228.0,2870.0 2242.0,2870.0 L2316.0,2870.0 L2346.0,2870.0 Q2360.0,2870.0 2369.9,2879.9 L2448.0,2958.0 L2536.0,3046.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Groups</title></path>
+<path class="line" data-line="Rules Profile Anomaly" d="M1964.0,1066.0 L1841.9,943.9 Q1832.0,934.0 1832.0,920.0 L1832.0,846.0 L1832.0,758.0 L1832.0,670.0 L1832.0,582.0" fill="none" stroke="#af236f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Profile Anomaly</title></path>
+<path class="line" data-line="Rules Reconciliation" d="M2184.0,1066.0 L2272.0,1066.0 L2346.0,1066.0 Q2360.0,1066.0 2360.0,1080.0 L2360.0,1198.0 L2360.0,1286.0 L2360.0,1360.0 Q2360.0,1374.0 2369.9,1383.9 L2438.1,1452.1 Q2448.0,1462.0 2462.0,1462.0 L2522.0,1462.0 Q2536.0,1462.0 2545.9,1471.9 L2624.0,1550.0 L2668.0,1594.0 L2756.0,1682.0" fill="none" stroke="#af232e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Reconciliation</title></path>
+<path class="line" data-line="Rules Reconciliation" d="M2360.0,1066.0 L2404.0,1066.0 L2492.0,1066.0 L2624.0,1066.0 L2712.0,1066.0 L2800.0,1066.0 L2888.0,1066.0 L2976.0,1066.0" fill="none" stroke="#af232e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Reconciliation</title></path>
+<path class="line" data-line="Rules Schema Drift" d="M2008.0,846.0 L2042.1,811.9 Q2052.0,802.0 2052.0,788.0 L2052.0,670.0 L2052.0,582.0 L2052.0,508.0 Q2052.0,494.0 2061.9,484.1 L2130.1,415.9 Q2140.0,406.0 2140.0,392.0 L2140.0,288.0 Q2140.0,274.0 2126.0,274.0 L2066.0,274.0 Q2052.0,274.0 2042.1,283.9 L2008.0,318.0 L1920.0,406.0" fill="none" stroke="#e85c51" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rules Schema Drift</title></path>
+<path class="line" data-line="Service Users" d="M1436.0,230.0 L1436.0,318.0 L1436.0,392.0 Q1436.0,406.0 1445.9,415.9 L1514.1,484.1 Q1524.0,494.0 1538.0,494.0 L1554.0,494.0 Q1568.0,494.0 1577.9,484.1 L1646.1,415.9 Q1656.0,406.0 1656.0,392.0 L1656.0,318.0 L1656.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Users</title></path>
+<path class="line" data-line="Tags" d="M1656.0,1682.0 L1656.0,1814.0 L1656.0,1902.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="UDF" d="M2052.0,978.0 L2130.1,899.9 Q2140.0,890.0 2140.0,876.0 L2140.0,816.0 Q2140.0,802.0 2149.9,792.1 L2184.0,758.0 L2272.0,670.0 L2306.1,635.9 Q2316.0,626.0 2316.0,612.0 L2316.0,494.0 L2316.0,406.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>UDF</title></path>
+<path class="line" data-line="More Local" d="M1128.0,758.0 L1216.0,758.0 L1290.0,758.0 Q1304.0,758.0 1313.9,767.9 L1392.0,846.0 L1436.0,890.0 L1470.1,924.1 Q1480.0,934.0 1494.0,934.0 L1554.0,934.0 Q1568.0,934.0 1577.9,924.1 L1646.1,855.9 Q1656.0,846.0 1646.1,836.1 L1568.0,758.0 L1445.9,635.9 Q1436.0,626.0 1436.0,612.0 L1436.0,596.0 Q1436.0,582.0 1426.1,572.1 L1348.0,494.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1612" y1="3002" x2="1612.0" y2="3036.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1588.0" y="3025.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Users</title></rect><text x="1612.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="2096" y1="3002" x2="2096.0" y2="3036.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2072.0" y="3025.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Users</title></rect><text x="2096.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<rect x="1626" y="881" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="1656" y="899" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">ASS</text>
+<line x1="2008" y1="1154" x2="2032.0416305603426" y2="1129.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="2008.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Custom Assets</title></rect><text x="2032.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CA</text>
+<line x1="1744" y1="1418" x2="1719.9583694396574" y2="1442.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1695.9583694396574" y="1431.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Custom Assets</title></rect><text x="1719.9583694396574" y="1447.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CA</text>
+<line x1="1788" y1="1154" x2="1754.0" y2="1154.0" stroke="#af4423" stroke-width="7"/><rect x="1730.0" y="1143.0" width="48" height="22" rx="5" fill="#af4423"><title>Rules Data Cadence</title></rect><text x="1754.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RDC</text>
+<line x1="2052" y1="1330" x2="2076.0416305603426" y2="1354.0416305603426" stroke="#af4423" stroke-width="7"/><rect x="2052.0416305603426" y="1343.0416305603426" width="48" height="22" rx="5" fill="#af4423"><title>Rules Data Cadence</title></rect><text x="2076.0416305603426" y="1359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RDC</text>
+<line x1="2140" y1="934" x2="2106.0" y2="934.0" stroke="#dd5b8e" stroke-width="7"/><rect x="2082.0" y="923.0" width="48" height="22" rx="5" fill="#dd5b8e"><title>Rules Data Drift</title></rect><text x="2106.0" y="939.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RDD</text>
+<line x1="2712" y1="890" x2="2736.0416305603426" y2="865.9583694396574" stroke="#dd5b8e" stroke-width="7"/><rect x="2712.0416305603426" y="854.9583694396574" width="48" height="22" rx="5" fill="#dd5b8e"><title>Rules Data Drift</title></rect><text x="2736.0416305603426" y="870.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RDD</text>
+<line x1="857.6360389693722" y1="940.3639610306278" x2="870.3639610306278" y2="927.6360389693722" stroke="#D6264F" stroke-width="6" stroke-linecap="round"/>
+<line x1="1876" y1="1022" x2="1910.0" y2="1022.0" stroke="#D6264F" stroke-width="7"/><rect x="1886.0" y="1011.0" width="48" height="22" rx="5" fill="#D6264F"><title>Rules Data Quality</title></rect><text x="1910.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RDQ</text>
+<line x1="160" y1="1462" x2="126.0" y2="1462.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="1451.0" width="48" height="22" rx="5" fill="#D6264F"><title>Rules Data Quality</title></rect><text x="126.0" y="1467.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RDQ</text>
+<line x1="2140" y1="2606" x2="2140.0" y2="2572.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2116.0" y="2561.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Groups</title></rect><text x="2140.0" y="2577.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRO</text>
+<line x1="2536" y1="3046" x2="2560.0416305603426" y2="3070.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="2536.0416305603426" y="3059.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Groups</title></rect><text x="2560.0416305603426" y="3075.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRO</text>
+<line x1="1964" y1="1066" x2="1988.0416305603426" y2="1090.0416305603426" stroke="#af236f" stroke-width="7"/><rect x="1964.0416305603426" y="1079.0416305603426" width="48" height="22" rx="5" fill="#af236f"><title>Rules Profile Anomaly</title></rect><text x="1988.0416305603426" y="1095.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RPA</text>
+<line x1="1832" y1="582" x2="1832.0" y2="548.0" stroke="#af236f" stroke-width="7"/><rect x="1808.0" y="537.0" width="48" height="22" rx="5" fill="#af236f"><title>Rules Profile Anomaly</title></rect><text x="1832.0" y="553.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RPA</text>
+<line x1="2976.0" y1="1057.0000000001023" x2="2976.0" y2="1074.9999999998977" stroke="#af232e" stroke-width="6" stroke-linecap="round"/>
+<line x1="2184" y1="1066" x2="2150.0" y2="1066.0" stroke="#af232e" stroke-width="7"/><rect x="2126.0" y="1055.0" width="48" height="22" rx="5" fill="#af232e"><title>Rules Reconciliation</title></rect><text x="2150.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RR</text>
+<line x1="2756" y1="1682" x2="2780.0416305603426" y2="1706.0416305603426" stroke="#af232e" stroke-width="7"/><rect x="2756.0416305603426" y="1695.0416305603426" width="48" height="22" rx="5" fill="#af232e"><title>Rules Reconciliation</title></rect><text x="2780.0416305603426" y="1711.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RR</text>
+<line x1="2008" y1="846" x2="1983.9583694396574" y2="870.0416305603426" stroke="#e85c51" stroke-width="7"/><rect x="1959.9583694396574" y="859.0416305603426" width="48" height="22" rx="5" fill="#e85c51"><title>Rules Schema Drift</title></rect><text x="1983.9583694396574" y="875.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RSD</text>
+<line x1="1920" y1="406" x2="1895.9583694396574" y2="430.04163056034264" stroke="#e85c51" stroke-width="7"/><rect x="1871.9583694396574" y="419.04163056034264" width="48" height="22" rx="5" fill="#e85c51"><title>Rules Schema Drift</title></rect><text x="1895.9583694396574" y="435.04163056034264" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RSD</text>
+<line x1="1436" y1="230" x2="1436.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="1412.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Service Users</title></rect><text x="1436.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SU</text>
+<line x1="1656" y1="230" x2="1656.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="1632.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Service Users</title></rect><text x="1656.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SU</text>
+<line x1="1656" y1="1682" x2="1656.0" y2="1648.0" stroke="#0B7A75" stroke-width="7"/><rect x="1632.0" y="1637.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tags</title></rect><text x="1656.0" y="1653.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1656" y1="1902" x2="1656.0" y2="1936.0" stroke="#0B7A75" stroke-width="7"/><rect x="1632.0" y="1925.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tags</title></rect><text x="1656.0" y="1941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="2052" y1="978" x2="2027.9583694396574" y2="1002.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2003.9583694396574" y="991.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>UDF</title></rect><text x="2027.9583694396574" y="1007.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UDF</text>
+<line x1="2316" y1="406" x2="2316.0" y2="372.0" stroke="#B0287F" stroke-width="7"/><rect x="2292.0" y="361.0" width="48" height="22" rx="5" fill="#B0287F"><title>UDF</title></rect><text x="2316.0" y="377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UDF</text>
+<line x1="1128" y1="758" x2="1094.0" y2="758.0" stroke="#D6264F" stroke-width="7"/><rect x="1070.0" y="747.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1094.0" y="763.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1348" y1="494" x2="1323.9583694396574" y2="469.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="1299.9583694396574" y="458.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1323.9583694396574" y="474.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-alerts-api/#op-listAlerts" target="_blank" class="st" data-op="listAlerts"><title>GET /alerts
+More Local line · listAlerts
+Express: X3, X6, X7</title>
+<circle cx="1436" cy="890" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1433" y="887" width="6" height="6" transform="rotate(45 1436 890)" fill="#1A1F2C"/>
+<text x="1448" y="895" text-anchor="start" style="fill:#1A1F2C">List alerts</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-alerts-api/#op-acknowledgeAlert" target="_blank" class="st" data-op="acknowledgeAlert"><title>POST /alerts/{id}/acknowledge
+More Local line · acknowledgeAlert
+Express: X3, X6, X7</title>
+<circle cx="1480" cy="934" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1477" y="931" width="6" height="6" transform="rotate(45 1480 934)" fill="#1A1F2C"/>
+<text x="1468.0" y="939" text-anchor="end" style="fill:#1A1F2C">Update acknowledge</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-api-keys-api/#op-getUserApiKeys" target="_blank" class="st" data-op="getUserApiKeys"><title>GET /admin/api/users/{userId}/api-keys
+Users line · getUserApiKeys</title>
+<circle cx="1744" cy="2738" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1750" y="2726" transform="rotate(-45 1750 2726)" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-api-keys-api/#op-getAllApiKeys" target="_blank" class="st" data-op="getAllApiKeys"><title>GET /admin/api/users/api-keys/all
+Users line · getAllApiKeys</title>
+<circle cx="1832" cy="2738" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1844" y="2743" text-anchor="start" style="fill:#1A1F2C">Get all</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-api-keys-api/#op-deleteApiKey" target="_blank" class="st" data-op="deleteApiKey"><title>DELETE /admin/api/users/api-keys/{accessKey}
+Users line · deleteApiKey</title>
+<circle cx="1656" cy="2738" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1652" y1="2742" x2="1660" y2="2734" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1644.0" y="2743" text-anchor="end" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-activity-api/#op-getAssetActivity" target="_blank" class="st" data-op="getAssetActivity"><title>GET /catalog-server/api/assets/{id}/activity
+Assets line · getAssetActivity</title>
+<circle cx="2008" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2020" y="1027" text-anchor="start" style="fill:#1A1F2C">Get activity</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-activity-api/#op-getAssetComments" target="_blank" class="st" data-op="getAssetComments"><title>GET /catalog-server/api/assets/{id}/comments
+Assets line · getAssetComments</title>
+<circle cx="2096" cy="1110" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2108" y="1115" text-anchor="start" style="fill:#1A1F2C">List comments</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-configuration-api/#op-getIncrementalStrategies" target="_blank" class="st" data-op="getIncrementalStrategies"><title>GET /catalog-server/api/assets/{id}/incremental-strategies
+Assets line · getIncrementalStrategies</title>
+<circle cx="2184" cy="1198" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2172.0" y="1203" text-anchor="end" style="fill:#1A1F2C">List incremental strategies</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-metadata-api/#op-getAssetMetadata" target="_blank" class="st" data-op="getAssetMetadata"><title>GET /catalog-server/api/assets/{id}/metadata
+Assets line · getAssetMetadata</title>
+<circle cx="2184" cy="1462" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2196" y="1467" text-anchor="start" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-sampling-api/#op-requestAssetSampleAsync" target="_blank" class="st" data-op="requestAssetSampleAsync"><title>POST /catalog-server/api/assets/{id}/sample/async
+Assets line · requestAssetSampleAsync</title>
+<circle cx="2008" cy="1638" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2020" y="1643" text-anchor="start" style="fill:#1A1F2C">Update async</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-sampling-api/#op-getAssetSampleResult" target="_blank" class="st" data-op="getAssetSampleResult"><title>GET /catalog-server/api/assets/sample/result/{requestId}
+Assets line · getAssetSampleResult</title>
+<circle cx="1920" cy="934" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1932" y="939" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-tags-labels-api/#op-getAssetTagsById" target="_blank" class="st" data-op="getAssetTagsById"><title>GET /catalog-server/api/assets/{id}/tags
+Assets line · getAssetTagsById</title>
+<circle cx="1744" cy="1638" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1753" y="1657" text-anchor="start" style="fill:#1A1F2C">List tags <tspan font-weight="700" style="fill:#0B7A75">⇄TAG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-tags-labels-api/#op-addAssetTag" target="_blank" class="st" data-op="addAssetTag"><title>POST /catalog-server/api/assets/{id}/tag
+Assets line · addAssetTag</title>
+<circle cx="1920" cy="1638" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1926" y="1626" transform="rotate(-45 1926 1626)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-tags-labels-api/#op-deleteAssetTag" target="_blank" class="st" data-op="deleteAssetTag"><title>DELETE /catalog-server/api/assets/{id}/tag/{tagId}
+Assets line · deleteAssetTag</title>
+<circle cx="1832" cy="1638" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1828" y1="1642" x2="1836" y2="1634" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1838" y="1626" transform="rotate(-45 1838 1626)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-tags-labels-api/#op-updateAssetLabels" target="_blank" class="st" data-op="updateAssetLabels"><title>PUT /catalog-server/api/assets/{id}/labels
+Assets line · updateAssetLabels</title>
+<circle cx="2184" cy="1374" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2196" y="1379" text-anchor="start" style="fill:#1A1F2C">Create label</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-tags-labels-api/#op-getAssetLabels" target="_blank" class="st" data-op="getAssetLabels"><title>GET /catalog-server/api/assets/{id}/labels
+Assets line · getAssetLabels</title>
+<circle cx="2184" cy="1286" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2196" y="1291" text-anchor="start" style="fill:#1A1F2C">List labels</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-types-api/#op-listAssetTypes" target="_blank" class="st" data-op="listAssetTypes"><title>GET /catalog-server/api/asset-types
+Assets line · listAssetTypes</title>
+<circle cx="1656" cy="934" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1665" y="924" text-anchor="start" style="fill:#1A1F2C">List asset types</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-udf-variables-api/#op-createAssetUdfVariable" target="_blank" class="st" data-op="createAssetUdfVariable"><title>POST /catalog-server/api/assets/{id}/udf-variables
+Assets line · createAssetUdfVariable</title>
+<circle cx="1568" cy="1462" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1580" y="1467" text-anchor="start" style="fill:#1A1F2C">Create udf variable</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-udf-variables-api/#op-getAssetUdfVariables" target="_blank" class="st" data-op="getAssetUdfVariables"><title>GET /catalog-server/api/assets/{id}/udf-variables
+Assets line · getAssetUdfVariables</title>
+<circle cx="1656" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="1555" text-anchor="start" style="fill:#1A1F2C">List udf variables</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-udf-variables-api/#op-updateAssetUdfVariable" target="_blank" class="st" data-op="updateAssetUdfVariable"><title>PUT /catalog-server/api/assets/{id}/udf-variables/{variableId}
+Assets line · updateAssetUdfVariable</title>
+<circle cx="1480" cy="1286" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1489" y="1276" text-anchor="start" style="fill:#1A1F2C">Update udf variable</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-udf-variables-api/#op-deleteAssetUdfVariable" target="_blank" class="st" data-op="deleteAssetUdfVariable"><title>DELETE /catalog-server/api/assets/{id}/udf-variables/{variableId}
+Assets line · deleteAssetUdfVariable</title>
+<circle cx="1480" cy="1198" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1476" y1="1202" x2="1484" y2="1194" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1492" y="1203" text-anchor="start" style="fill:#1A1F2C">Delete udf variable</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-udf-variables-api/#op-getAssetUdfVariable" target="_blank" class="st" data-op="getAssetUdfVariable"><title>GET /catalog-server/api/assets/{id}/udf-variables/{variableId}
+Assets line · getAssetUdfVariable</title>
+<circle cx="1480" cy="1374" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1492" y="1379" text-anchor="start" style="fill:#1A1F2C">Get udf variable</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-watch-api/#op-watchAsset" target="_blank" class="st" data-op="watchAsset"><title>POST /catalog-server/api/assets/{id}/watch
+Assets line · watchAsset</title>
+<circle cx="1480" cy="1110" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1492" y="1115" text-anchor="start" style="fill:#1A1F2C">Update watch</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-watch-api/#op-unwatchAsset" target="_blank" class="st" data-op="unwatchAsset"><title>DELETE /catalog-server/api/assets/{id}/watch
+Assets line · unwatchAsset</title>
+<circle cx="1568" cy="1022" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1564" y1="1026" x2="1572" y2="1018" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1556.0" y="1027" text-anchor="end" style="fill:#1A1F2C">Delete watch</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-watch-api/#op-watchAssetByUid" target="_blank" class="st" data-op="watchAssetByUid"><title>POST /catalog-server/api/assets/byUid/{uid}/watch
+Assets line · watchAssetByUid</title>
+<circle cx="1744" cy="934" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1738" y="946" text-anchor="end" transform="rotate(-45 1738 946)" style="fill:#1A1F2C">Update watch</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-asset-watch-api/#op-unwatchAssetByUid" target="_blank" class="st" data-op="unwatchAssetByUid"><title>DELETE /catalog-server/api/assets/byUid/{uid}/watch
+Assets line · unwatchAssetByUid</title>
+<circle cx="1832" cy="934" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1828" y1="938" x2="1836" y2="930" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1838" y="922" transform="rotate(-45 1838 922)" style="fill:#1A1F2C">Delete watch</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-client-roles-api/#op-assignClientRoles" target="_blank" class="st" data-op="assignClientRoles"><title>PUT /admin/api/assign-client-roles
+More Local line · assignClientRoles</title>
+<circle cx="1128" cy="758" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1134" y="746" transform="rotate(-45 1134 746)" style="fill:#1A1F2C">Create assign client role</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-client-roles-api/#op-removeAssignedClientRoles" target="_blank" class="st" data-op="removeAssignedClientRoles"><title>PUT /admin/api/remove-assigned-client-roles
+More Local line · removeAssignedClientRoles</title>
+<circle cx="1392" cy="846" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1404" y="851" text-anchor="start" style="fill:#1A1F2C">Create remove assigned client role</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-custom-assets-api/#op-updateSqlView" target="_blank" class="st" data-op="updateSqlView"><title>PUT /catalog-server/api/custom-assets/sql-view/{id}
+Custom Assets line · updateSqlView</title>
+<circle cx="1832" cy="1330" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1844" y="1335" text-anchor="start" style="fill:#1A1F2C">Update sql view</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-custom-assets-api/#op-deleteSqlView" target="_blank" class="st" data-op="deleteSqlView"><title>DELETE /catalog-server/api/custom-assets/sql-view/{id}
+Custom Assets line · deleteSqlView</title>
+<circle cx="1744" cy="1418" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1740" y1="1422" x2="1748" y2="1414" stroke="#B8860B" stroke-width="2"/>
+<text x="1756" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete sql view</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-custom-assets-api/#op-getSqlView" target="_blank" class="st" data-op="getSqlView"><title>GET /catalog-server/api/custom-assets/sql-view/{id}
+Custom Assets line · getSqlView</title>
+<circle cx="2008" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2020" y="1159" text-anchor="start" style="fill:#1A1F2C">Get sql view <tspan font-weight="700" style="fill:#0E9F6E">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-cadence-rules-api/#op-getDataCadenceRule" target="_blank" class="st" data-op="getDataCadenceRule"><title>GET /catalog-server/api/rules/data-cadence/{identifier}
+Rules Data Cadence line · getDataCadenceRule</title>
+<circle cx="1788" cy="1154" r="5.5" fill="#fff" stroke="#af4423" stroke-width="2.5"/>
+<text x="1794" y="1142" transform="rotate(-45 1794 1142)" style="fill:#1A1F2C">Get data cadence</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-cadence-rules-api/#op-getDataCadenceExecutionResult" target="_blank" class="st" data-op="getDataCadenceExecutionResult"><title>GET /catalog-server/api/rules/data-cadence/executions/{executionId}/result
+Rules Data Cadence line · getDataCadenceExecutionResult</title>
+<circle cx="2052" cy="1330" r="5.5" fill="#fff" stroke="#af4423" stroke-width="2.5"/>
+<text x="2064" y="1335" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-cadence-rules-api/#op-getDataCadenceByAsset" target="_blank" class="st" data-op="getDataCadenceByAsset"><title>GET /catalog-server/api/rules/data-cadence/byAsset/{identifier}
+Rules Data Cadence line · getDataCadenceByAsset</title>
+<circle cx="1876" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1888" y="1159" text-anchor="start" style="fill:#1A1F2C">Get byasset <tspan font-weight="700" style="fill:#0E9F6E">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-createDataDriftRule" target="_blank" class="st" data-op="createDataDriftRule"><title>POST /catalog-server/api/rules/data-drift
+Rules Data Drift line · createDataDriftRule</title>
+<circle cx="2140" cy="934" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2146" y="922" transform="rotate(-45 2146 922)" style="fill:#1A1F2C">Update data drift <tspan font-weight="700" style="fill:#0E9F6E">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-getDataDriftRule" target="_blank" class="st" data-op="getDataDriftRule"><title>GET /catalog-server/api/rules/data-drift/{identifier}
+Rules Data Drift line · getDataDriftRule</title>
+<circle cx="2184" cy="934" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2196" y="939" text-anchor="start" style="fill:#1A1F2C">Get data drift</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-updateDataDriftRule" target="_blank" class="st" data-op="updateDataDriftRule"><title>PUT /catalog-server/api/rules/data-drift/{id}
+Rules Data Drift line · updateDataDriftRule</title>
+<circle cx="2272" cy="846" r="5.5" fill="#dd5b8e" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2281" y="865" text-anchor="start" style="fill:#1A1F2C">Update data drift</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-deleteDataDriftRule" target="_blank" class="st" data-op="deleteDataDriftRule"><title>DELETE /catalog-server/api/rules/data-drift/{id}
+Rules Data Drift line · deleteDataDriftRule</title>
+<circle cx="2316" cy="846" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<line x1="2312" y1="850" x2="2320" y2="842" stroke="#dd5b8e" stroke-width="2"/>
+<text x="2328" y="851" text-anchor="start" style="fill:#1A1F2C">Delete data drift</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-getDataDriftExecutions" target="_blank" class="st" data-op="getDataDriftExecutions"><title>GET /catalog-server/api/rules/data-drift/{id}/executions
+Rules Data Drift line · getDataDriftExecutions</title>
+<circle cx="2624" cy="978" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2636" y="983" text-anchor="start" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-getDataDriftExecutionDetail" target="_blank" class="st" data-op="getDataDriftExecutionDetail"><title>GET /catalog-server/api/rules/data-drift/executions/{id}
+Rules Data Drift line · getDataDriftExecutionDetail</title>
+<circle cx="2536" cy="978" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2524.0" y="983" text-anchor="end" style="fill:#1A1F2C">Get execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-getDataDriftExecutionResult" target="_blank" class="st" data-op="getDataDriftExecutionResult"><title>GET /catalog-server/api/rules/data-drift/executions/{id}/result
+Rules Data Drift line · getDataDriftExecutionResult</title>
+<circle cx="2712" cy="890" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2724" y="895" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-updateDataDriftByName" target="_blank" class="st" data-op="updateDataDriftByName"><title>PUT /catalog-server/api/rules/data-drift/byName/{name}
+Rules Data Drift line · updateDataDriftByName</title>
+<circle cx="2448" cy="714" r="5.5" fill="#dd5b8e" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2436.0" y="719" text-anchor="end" style="fill:#1A1F2C">Update byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-deleteDataDriftByName" target="_blank" class="st" data-op="deleteDataDriftByName"><title>DELETE /catalog-server/api/rules/data-drift/byName/{name}
+Rules Data Drift line · deleteDataDriftByName</title>
+<circle cx="2536" cy="714" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<line x1="2532" y1="718" x2="2540" y2="710" stroke="#dd5b8e" stroke-width="2"/>
+<text x="2548" y="719" text-anchor="start" style="fill:#1A1F2C">Delete byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-getDataDriftByName" target="_blank" class="st" data-op="getDataDriftByName"><title>GET /catalog-server/api/rules/data-drift/byName/{name}
+Rules Data Drift line · getDataDriftByName</title>
+<circle cx="2404" cy="758" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2416" y="763" text-anchor="start" style="fill:#1A1F2C">Get byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-drift-rules-api/#op-getDataDriftExecutionsByName" target="_blank" class="st" data-op="getDataDriftExecutionsByName"><title>GET /catalog-server/api/rules/data-drift/byName/{name}/executions
+Rules Data Drift line · getDataDriftExecutionsByName</title>
+<circle cx="2536" cy="846" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2548" y="851" text-anchor="start" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityRule" target="_blank" class="st" data-op="getDataQualityRule"><title>GET /catalog-server/api/rules/data-quality/{identifier}
+Rules Data Quality line · getDataQualityRule</title>
+<circle cx="1656" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1668" y="1152" text-anchor="start" style="fill:#1A1F2C">Get data<tspan x="1668" dy="13">quality</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-triggerDataQualityExecution" target="_blank" class="st" data-op="triggerDataQualityExecution"><title>POST /catalog-server/api/rules/data-quality/{id}/executions
+Rules Data Quality line · triggerDataQualityExecution</title>
+<circle cx="1128" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1116.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Create execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityExecutions" target="_blank" class="st" data-op="getDataQualityExecutions"><title>GET /catalog-server/api/rules/data-quality/{id}/executions
+Rules Data Quality line · getDataQualityExecutions</title>
+<circle cx="1260" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1254" y="1342" text-anchor="end" transform="rotate(-45 1254 1342)" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-updateDataQualityRule" target="_blank" class="st" data-op="updateDataQualityRule"><title>PUT /catalog-server/api/rules/data-quality/{id}
+Rules Data Quality line · updateDataQualityRule</title>
+<circle cx="1656" cy="1286" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1668" y="1291" text-anchor="start" style="fill:#1A1F2C">Update data quality</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-deleteDataQualityRule" target="_blank" class="st" data-op="deleteDataQualityRule"><title>DELETE /catalog-server/api/rules/data-quality/{id}
+Rules Data Quality line · deleteDataQualityRule</title>
+<circle cx="1392" cy="1286" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1388" y1="1290" x2="1396" y2="1282" stroke="#D6264F" stroke-width="2"/>
+<text x="1380.0" y="1291" text-anchor="end" style="fill:#1A1F2C">Delete data quality</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-unarchiveDataQualityRule" target="_blank" class="st" data-op="unarchiveDataQualityRule"><title>POST /catalog-server/api/rules/data-quality/{id}/unarchive
+Rules Data Quality line · unarchiveDataQualityRule</title>
+<circle cx="688" cy="1418" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Unarchive rules data quality</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-setDataQualitySchedule" target="_blank" class="st" data-op="setDataQualitySchedule"><title>PUT /catalog-server/api/rules/data-quality/{id}/schedule
+Rules Data Quality line · setDataQualitySchedule</title>
+<circle cx="820" cy="1418" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="826" y="1406" transform="rotate(-45 826 1406)" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityItems" target="_blank" class="st" data-op="getDataQualityItems"><title>GET /catalog-server/api/rules/data-quality/{id}/items
+Rules Data Quality line · getDataQualityItems</title>
+<circle cx="952" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="958" y="1406" transform="rotate(-45 958 1406)" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityExecutionDetail" target="_blank" class="st" data-op="getDataQualityExecutionDetail"><title>GET /catalog-server/api/rules/data-quality/executions/{id}
+Rules Data Quality line · getDataQualityExecutionDetail</title>
+<circle cx="1348" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1360" y="1335" text-anchor="start" style="fill:#1A1F2C">Get execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityExecutionResult" target="_blank" class="st" data-op="getDataQualityExecutionResult"><title>GET /catalog-server/api/rules/data-quality/executions/{id}/result
+Rules Data Quality line · getDataQualityExecutionResult</title>
+<circle cx="1040" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1052" y="1423" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-createDataQualityRule" target="_blank" class="st" data-op="createDataQualityRule"><title>POST /catalog-server/api/rules/data-quality
+Rules Data Quality line · createDataQualityRule</title>
+<circle cx="1656" cy="1110" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1668" y="1115" text-anchor="start" style="fill:#1A1F2C">Update data quality</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-listDataQualityRules" target="_blank" class="st" data-op="listDataQualityRules"><title>GET /catalog-server/api/rules/data-quality
+Rules Data Quality line · listDataQualityRules</title>
+<circle cx="1656" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1665" y="1012" text-anchor="start" style="fill:#1A1F2C">Get data quality <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-updateDataQualityByName" target="_blank" class="st" data-op="updateDataQualityByName"><title>PUT /catalog-server/api/rules/data-quality/byName/{name}
+Rules Data Quality line · updateDataQualityByName</title>
+<circle cx="1348" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1336.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Update byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-deleteDataQualityByName" target="_blank" class="st" data-op="deleteDataQualityByName"><title>DELETE /catalog-server/api/rules/data-quality/byName/{name}
+Rules Data Quality line · deleteDataQualityByName</title>
+<circle cx="1304" cy="1110" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1300" y1="1114" x2="1308" y2="1106" stroke="#D6264F" stroke-width="2"/>
+<text x="1316" y="1115" text-anchor="start" style="fill:#1A1F2C">Delete byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityByName" target="_blank" class="st" data-op="getDataQualityByName"><title>GET /catalog-server/api/rules/data-quality/byName/{name}
+Rules Data Quality line · getDataQualityByName</title>
+<circle cx="1568" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1574" y="1142" transform="rotate(-45 1574 1142)" style="fill:#1A1F2C">Get byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-setDataQualityScheduleByName" target="_blank" class="st" data-op="setDataQualityScheduleByName"><title>PUT /catalog-server/api/rules/data-quality/byName/{name}/schedule
+Rules Data Quality line · setDataQualityScheduleByName</title>
+<circle cx="952" cy="1022" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="1027" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityItemsByName" target="_blank" class="st" data-op="getDataQualityItemsByName"><title>GET /catalog-server/api/rules/data-quality/byName/{name}/items
+Rules Data Quality line · getDataQualityItemsByName</title>
+<circle cx="996" cy="1066" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1008" y="1071" text-anchor="start" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-unarchiveDataQualityByName" target="_blank" class="st" data-op="unarchiveDataQualityByName"><title>POST /catalog-server/api/rules/data-quality/byName/{name}/unarchive
+Rules Data Quality line · unarchiveDataQualityByName</title>
+<circle cx="864" cy="934" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="876" y="939" text-anchor="start" style="fill:#1A1F2C">Unarchive data quality byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-triggerDataQualityExecutionByName" target="_blank" class="st" data-op="triggerDataQualityExecutionByName"><title>POST /catalog-server/api/rules/data-quality/byName/{name}/executions
+Rules Data Quality line · triggerDataQualityExecutionByName</title>
+<circle cx="1040" cy="1110" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1028.0" y="1115" text-anchor="end" style="fill:#1A1F2C">Create execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityExecutionsByName" target="_blank" class="st" data-op="getDataQualityExecutionsByName"><title>GET /catalog-server/api/rules/data-quality/byName/{name}/executions
+Rules Data Quality line · getDataQualityExecutionsByName</title>
+<circle cx="1172" cy="1110" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1178" y="1098" transform="rotate(-45 1178 1098)" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-getDataQualityRules" target="_blank" class="st" data-op="getDataQualityRules"><title>GET /data-quality/rules
+More Local line · getDataQualityRules
+Express: X2, X4, X5</title>
+<circle cx="1568" cy="934" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="1565" y="931" width="6" height="6" transform="rotate(45 1568 934)" fill="#1A1F2C"/>
+<text x="1580" y="939" text-anchor="start" style="fill:#1A1F2C">List rules</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-data-quality-rules-api/#op-postDataQualityRules" target="_blank" class="st" data-op="postDataQualityRules"><title>POST /data-quality/rules
+More Local line · postDataQualityRules
+Express: X2, X5</title>
+<circle cx="1656" cy="846" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1653" y="843" width="6" height="6" transform="rotate(45 1656 846)" fill="#1A1F2C"/>
+<text x="1668" y="851" text-anchor="start" style="fill:#1A1F2C">Create rule</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-datasets-api/#op-listDatasets" target="_blank" class="st" data-op="listDatasets"><title>GET /datasets
+More Local line · listDatasets
+Express: X2, X4, X5, X7</title>
+<circle cx="1568" cy="758" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1565" y="755" width="6" height="6" transform="rotate(45 1568 758)" fill="#1A1F2C"/>
+<text x="1580" y="763" text-anchor="start" style="fill:#1A1F2C">List datasets</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-listGroupsSummary" target="_blank" class="st" data-op="listGroupsSummary"><title>GET /admin/api/groups/list
+Groups line · listGroupsSummary</title>
+<circle cx="2360" cy="2870" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2372" y="2875" text-anchor="start" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-getGroupsMetadata" target="_blank" class="st" data-op="getGroupsMetadata"><title>POST /admin/api/groups/metadata
+Groups line · getGroupsMetadata</title>
+<circle cx="2448" cy="2958" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2460" y="2963" text-anchor="start" style="fill:#1A1F2C">Update metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-createGroup" target="_blank" class="st" data-op="createGroup"><title>POST /admin/api/groups
+Groups line · createGroup</title>
+<circle cx="2140" cy="2694" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2152" y="2699" text-anchor="start" style="fill:#1A1F2C">Create group</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-listGroups" target="_blank" class="st" data-op="listGroups"><title>GET /admin/api/groups
+Groups line · listGroups</title>
+<circle cx="2140" cy="2606" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2152" y="2611" text-anchor="start" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-updateGroup" target="_blank" class="st" data-op="updateGroup"><title>PUT /admin/api/groups/{groupId}
+Groups line · updateGroup</title>
+<circle cx="2228" cy="2870" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2216.0" y="2875" text-anchor="end" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-deleteGroup" target="_blank" class="st" data-op="deleteGroup"><title>DELETE /admin/api/groups/{groupId}
+Groups line · deleteGroup</title>
+<circle cx="2316" cy="2870" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2312" y1="2874" x2="2320" y2="2866" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2322" y="2858" transform="rotate(-45 2322 2858)" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-getGroup" target="_blank" class="st" data-op="getGroup"><title>GET /admin/api/groups/{groupId}
+Groups line · getGroup</title>
+<circle cx="2140" cy="2782" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2152" y="2787" text-anchor="start" style="fill:#1A1F2C">Get group</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-group-management-api/#op-getGroupAvailableRoles" target="_blank" class="st" data-op="getGroupAvailableRoles"><title>GET /admin/api/groups/{groupId}/available-roles
+Groups line · getGroupAvailableRoles</title>
+<circle cx="2536" cy="3046" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2548" y="3051" text-anchor="start" style="fill:#1A1F2C">List available roles</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-lineage-api/#op-getDatasetLineage" target="_blank" class="st" data-op="getDatasetLineage"><title>GET /datasets/{id}/lineage
+More Local line · getDatasetLineage
+Express: X4, X5</title>
+<circle cx="1436" cy="626" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1433" y="623" width="6" height="6" transform="rotate(45 1436 626)" fill="#1A1F2C"/>
+<text x="1448" y="631" text-anchor="start" style="fill:#1A1F2C">Get lineage</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-pipeline-jobs-api/#op-listPipelineJobs" target="_blank" class="st" data-op="listPipelineJobs"><title>GET /pipeline-jobs
+More Local line · listPipelineJobs
+Express: X6</title>
+<circle cx="1436" cy="582" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1433" y="579" width="6" height="6" transform="rotate(45 1436 582)" fill="#1A1F2C"/>
+<text x="1448" y="587" text-anchor="start" style="fill:#1A1F2C">List pipeline jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-profile-anomaly-rules-api/#op-getProfileAnomalyRule" target="_blank" class="st" data-op="getProfileAnomalyRule"><title>GET /catalog-server/api/rules/profile-anomaly/{identifier}
+Rules Profile Anomaly line · getProfileAnomalyRule</title>
+<circle cx="1832" cy="846" r="5.5" fill="#fff" stroke="#af236f" stroke-width="2.5"/>
+<text x="1844" y="851" text-anchor="start" style="fill:#1A1F2C">Get profile anomaly</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-profile-anomaly-rules-api/#op-updateProfileAnomalyRule" target="_blank" class="st" data-op="updateProfileAnomalyRule"><title>PUT /catalog-server/api/rules/profile-anomaly/{id}
+Rules Profile Anomaly line · updateProfileAnomalyRule</title>
+<circle cx="1832" cy="758" r="5.5" fill="#af236f" stroke="#af236f" stroke-width="2.5"/>
+<text x="1844" y="763" text-anchor="start" style="fill:#1A1F2C">Update profile anomaly</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-profile-anomaly-rules-api/#op-createProfileAnomaly" target="_blank" class="st" data-op="createProfileAnomaly"><title>POST /catalog-server/api/rules/profile-anomaly
+Rules Profile Anomaly line · createProfileAnomaly</title>
+<circle cx="1964" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1952.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Update profile anomaly</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-profile-anomaly-rules-api/#op-getProfileAnomalyByAsset" target="_blank" class="st" data-op="getProfileAnomalyByAsset"><title>GET /catalog-server/api/rules/profile-anomaly/byAsset/{identifier}
+Rules Profile Anomaly line · getProfileAnomalyByAsset</title>
+<circle cx="1832" cy="670" r="5.5" fill="#fff" stroke="#af236f" stroke-width="2.5"/>
+<text x="1844" y="675" text-anchor="start" style="fill:#1A1F2C">Get byasset</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-profile-anomaly-rules-api/#op-getProfileAnomalyExecutionResult" target="_blank" class="st" data-op="getProfileAnomalyExecutionResult"><title>GET /catalog-server/api/rules/profile-anomaly/executions/{executionId}/result
+Rules Profile Anomaly line · getProfileAnomalyExecutionResult</title>
+<circle cx="1832" cy="582" r="5.5" fill="#fff" stroke="#af236f" stroke-width="2.5"/>
+<text x="1844" y="587" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-profile-update-api/#op-forgotPassword" target="_blank" class="st" data-op="forgotPassword"><title>POST /admin/api/profile-update/forgot-password
+More Local line · forgotPassword</title>
+<circle cx="1304" cy="758" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="763" text-anchor="start" style="fill:#1A1F2C">Update forgot password</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-getReconciliationRule" target="_blank" class="st" data-op="getReconciliationRule"><title>GET /catalog-server/api/rules/reconciliation/{identifier}
+Rules Reconciliation line · getReconciliationRule</title>
+<circle cx="2360" cy="1066" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2369" y="1056" text-anchor="start" style="fill:#1A1F2C">Get reconciliation</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-triggerReconciliationExecution" target="_blank" class="st" data-op="triggerReconciliationExecution"><title>POST /catalog-server/api/rules/reconciliation/{id}/executions
+Rules Reconciliation line · triggerReconciliationExecution</title>
+<circle cx="2536" cy="1462" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2548" y="1467" text-anchor="start" style="fill:#1A1F2C">Create execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-getReconciliationExecutions" target="_blank" class="st" data-op="getReconciliationExecutions"><title>GET /catalog-server/api/rules/reconciliation/{id}/executions
+Rules Reconciliation line · getReconciliationExecutions</title>
+<circle cx="2448" cy="1462" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2436.0" y="1467" text-anchor="end" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-updateReconciliationRule" target="_blank" class="st" data-op="updateReconciliationRule"><title>PUT /catalog-server/api/rules/reconciliation/{id}
+Rules Reconciliation line · updateReconciliationRule</title>
+<circle cx="2360" cy="1198" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2372" y="1203" text-anchor="start" style="fill:#1A1F2C">Update reconciliation</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-deleteReconciliationRule" target="_blank" class="st" data-op="deleteReconciliationRule"><title>DELETE /catalog-server/api/rules/reconciliation/{id}
+Rules Reconciliation line · deleteReconciliationRule</title>
+<circle cx="2360" cy="1286" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<line x1="2356" y1="1290" x2="2364" y2="1282" stroke="#af232e" stroke-width="2"/>
+<text x="2372" y="1291" text-anchor="start" style="fill:#1A1F2C">Delete reconciliation</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-unarchiveReconciliationRule" target="_blank" class="st" data-op="unarchiveReconciliationRule"><title>POST /catalog-server/api/rules/reconciliation/{id}/unarchive
+Rules Reconciliation line · unarchiveReconciliationRule</title>
+<circle cx="2756" cy="1682" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2768" y="1687" text-anchor="start" style="fill:#1A1F2C">Unarchive rules reconciliation</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-setReconciliationSchedule" target="_blank" class="st" data-op="setReconciliationSchedule"><title>PUT /catalog-server/api/rules/reconciliation/{id}/schedule
+Rules Reconciliation line · setReconciliationSchedule</title>
+<circle cx="2668" cy="1594" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2680" y="1599" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-getReconciliationExecutionDetail" target="_blank" class="st" data-op="getReconciliationExecutionDetail"><title>GET /catalog-server/api/rules/reconciliation/executions/{id}
+Rules Reconciliation line · getReconciliationExecutionDetail</title>
+<circle cx="2360" cy="1374" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2372" y="1379" text-anchor="start" style="fill:#1A1F2C">Get execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-getReconciliationExecutionResult" target="_blank" class="st" data-op="getReconciliationExecutionResult"><title>GET /catalog-server/api/rules/reconciliation/executions/{id}/result
+Rules Reconciliation line · getReconciliationExecutionResult</title>
+<circle cx="2624" cy="1550" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2636" y="1555" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-createReconciliationRule" target="_blank" class="st" data-op="createReconciliationRule"><title>POST /catalog-server/api/rules/reconciliation
+Rules Reconciliation line · createReconciliationRule</title>
+<circle cx="2272" cy="1066" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2278" y="1054" transform="rotate(-45 2278 1054)" style="fill:#1A1F2C">Update reconciliation</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-listReconciliationRules" target="_blank" class="st" data-op="listReconciliationRules"><title>GET /catalog-server/api/rules/reconciliation
+Rules Reconciliation line · listReconciliationRules</title>
+<circle cx="2184" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2190" y="1054" transform="rotate(-45 2190 1054)" style="fill:#1A1F2C">Get reconciliation <tspan font-weight="700" style="fill:#0E9F6E">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-updateReconciliationByName" target="_blank" class="st" data-op="updateReconciliationByName"><title>PUT /catalog-server/api/rules/reconciliation/byName/{name}
+Rules Reconciliation line · updateReconciliationByName</title>
+<circle cx="2492" cy="1066" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2498" y="1054" transform="rotate(-45 2498 1054)" style="fill:#1A1F2C">Update byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-deleteReconciliationByName" target="_blank" class="st" data-op="deleteReconciliationByName"><title>DELETE /catalog-server/api/rules/reconciliation/byName/{name}
+Rules Reconciliation line · deleteReconciliationByName</title>
+<circle cx="2624" cy="1066" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<line x1="2620" y1="1070" x2="2628" y2="1062" stroke="#af232e" stroke-width="2"/>
+<text x="2630" y="1054" transform="rotate(-45 2630 1054)" style="fill:#1A1F2C">Delete byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-getReconciliationByName" target="_blank" class="st" data-op="getReconciliationByName"><title>GET /catalog-server/api/rules/reconciliation/byName/{name}
+Rules Reconciliation line · getReconciliationByName</title>
+<circle cx="2404" cy="1066" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2404" y="1089" text-anchor="middle" style="fill:#1A1F2C">Get byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-setReconciliationScheduleByName" target="_blank" class="st" data-op="setReconciliationScheduleByName"><title>PUT /catalog-server/api/rules/reconciliation/byName/{name}/schedule
+Rules Reconciliation line · setReconciliationScheduleByName</title>
+<circle cx="2888" cy="1066" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2894" y="1054" transform="rotate(-45 2894 1054)" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-unarchiveReconciliationByName" target="_blank" class="st" data-op="unarchiveReconciliationByName"><title>POST /catalog-server/api/rules/reconciliation/byName/{name}/unarchive
+Rules Reconciliation line · unarchiveReconciliationByName</title>
+<circle cx="2976" cy="1066" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2982" y="1054" transform="rotate(-45 2982 1054)" style="fill:#1A1F2C">Unarchive reconciliation byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-triggerReconciliationExecutionByName" target="_blank" class="st" data-op="triggerReconciliationExecutionByName"><title>POST /catalog-server/api/rules/reconciliation/byName/{name}/executions
+Rules Reconciliation line · triggerReconciliationExecutionByName</title>
+<circle cx="2800" cy="1066" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2806" y="1054" transform="rotate(-45 2806 1054)" style="fill:#1A1F2C">Create execution</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reconciliation-rules-api/#op-getReconciliationExecutionsByName" target="_blank" class="st" data-op="getReconciliationExecutionsByName"><title>GET /catalog-server/api/rules/reconciliation/byName/{name}/executions
+Rules Reconciliation line · getReconciliationExecutionsByName</title>
+<circle cx="2712" cy="1066" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2718" y="1054" transform="rotate(-45 2718 1054)" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-reference-assets-api/#op-getInferredMetadataByAssetId" target="_blank" class="st" data-op="getInferredMetadataByAssetId"><title>GET /catalog-server/api/assets/{id}/reference-assets/inferredMetadata
+Assets line · getInferredMetadataByAssetId</title>
+<circle cx="2096" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2108" y="1555" text-anchor="start" style="fill:#1A1F2C">Get inferredmetadata</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-role-mapping-api/#op-getAssignedClientRoles" target="_blank" class="st" data-op="getAssignedClientRoles"><title>GET /admin/api/assigned-client-roles/{userId}
+More Local line · getAssignedClientRoles</title>
+<circle cx="1216" cy="758" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="746" transform="rotate(-45 1222 746)" style="fill:#1A1F2C">Get assigned client role</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-roles-api/#op-listRoles" target="_blank" class="st" data-op="listRoles"><title>GET /roles
+More Local line · listRoles
+Express: X1</title>
+<circle cx="1348" cy="494" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1345" y="491" width="6" height="6" transform="rotate(45 1348 494)" fill="#1A1F2C"/>
+<text x="1336.0" y="499" text-anchor="end" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-rule-configuration-api/#op-getRuleConfiguration" target="_blank" class="st" data-op="getRuleConfiguration"><title>GET /catalog-server/api/rules/{id}/configuration
+Rules Data Quality line · getRuleConfiguration</title>
+<circle cx="556" cy="1462" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1474" text-anchor="end" transform="rotate(-45 550 1474)" style="fill:#1A1F2C">Get configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-rule-configuration-api/#op-getRuleConfigurationByName" target="_blank" class="st" data-op="getRuleConfigurationByName"><title>GET /catalog-server/api/rules/byName/{name}/configuration
+Rules Data Quality line · getRuleConfigurationByName</title>
+<circle cx="1876" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1867.0" y="1041" text-anchor="end" style="fill:#1A1F2C">Get configuration <tspan font-weight="700" style="fill:#0E9F6E">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-rule-tags-api/#op-addRuleTag" target="_blank" class="st" data-op="addRuleTag"><title>POST /catalog-server/api/rules/{id}/tag
+Rules Data Quality line · addRuleTag</title>
+<circle cx="336" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="342" y="1450" transform="rotate(-45 342 1450)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-rules-api/#op-setRuleSchedule" target="_blank" class="st" data-op="setRuleSchedule"><title>PUT /catalog-server/api/rules/{id}/schedule
+Rules Data Quality line · setRuleSchedule</title>
+<circle cx="424" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="430" y="1450" transform="rotate(-45 430 1450)" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-rules-api/#op-listRuleExecutions" target="_blank" class="st" data-op="listRuleExecutions"><title>GET /catalog-server/api/rules/executions
+Rules Data Quality line · listRuleExecutions</title>
+<circle cx="644" cy="1462" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="656" y="1467" text-anchor="start" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-createSchemaDriftRule" target="_blank" class="st" data-op="createSchemaDriftRule"><title>POST /catalog-server/api/rules/schema-drift
+Rules Schema Drift line · createSchemaDriftRule</title>
+<circle cx="2008" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1999.0" y="836" text-anchor="end" style="fill:#1A1F2C">Update schema drift <tspan font-weight="700" style="fill:#0E9F6E">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-updateSchemaDriftRule" target="_blank" class="st" data-op="updateSchemaDriftRule"><title>PUT /catalog-server/api/rules/schema-drift/{id}
+Rules Schema Drift line · updateSchemaDriftRule</title>
+<circle cx="2052" cy="670" r="5.5" fill="#e85c51" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2064" y="675" text-anchor="start" style="fill:#1A1F2C">Update schema drift</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-deleteSchemaDriftRule" target="_blank" class="st" data-op="deleteSchemaDriftRule"><title>DELETE /catalog-server/api/rules/schema-drift/{id}
+Rules Schema Drift line · deleteSchemaDriftRule</title>
+<circle cx="2052" cy="582" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<line x1="2048" y1="586" x2="2056" y2="578" stroke="#e85c51" stroke-width="2"/>
+<text x="2064" y="587" text-anchor="start" style="fill:#1A1F2C">Delete schema drift</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-getSchemaDriftRule" target="_blank" class="st" data-op="getSchemaDriftRule"><title>GET /catalog-server/api/rules/schema-drift/{id}
+Rules Schema Drift line · getSchemaDriftRule</title>
+<circle cx="2052" cy="802" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2040.0" y="807" text-anchor="end" style="fill:#1A1F2C">Get schema drift</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-getSchemaDriftExecutions" target="_blank" class="st" data-op="getSchemaDriftExecutions"><title>GET /catalog-server/api/rules/schema-drift/{id}/executions
+Rules Schema Drift line · getSchemaDriftExecutions</title>
+<circle cx="2008" cy="318" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2020" y="323" text-anchor="start" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-getSchemaDriftExecutionResult" target="_blank" class="st" data-op="getSchemaDriftExecutionResult"><title>GET /catalog-server/api/rules/schema-drift/executions/{id}/result
+Rules Schema Drift line · getSchemaDriftExecutionResult</title>
+<circle cx="1920" cy="406" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<text x="1932" y="411" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-updateSchemaDriftByName" target="_blank" class="st" data-op="updateSchemaDriftByName"><title>PUT /catalog-server/api/rules/schema-drift/byName/{name}
+Rules Schema Drift line · updateSchemaDriftByName</title>
+<circle cx="2140" cy="406" r="5.5" fill="#e85c51" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2152" y="411" text-anchor="start" style="fill:#1A1F2C">Update byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-deleteSchemaDriftByName" target="_blank" class="st" data-op="deleteSchemaDriftByName"><title>DELETE /catalog-server/api/rules/schema-drift/byName/{name}
+Rules Schema Drift line · deleteSchemaDriftByName</title>
+<circle cx="2140" cy="274" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<line x1="2136" y1="278" x2="2144" y2="270" stroke="#e85c51" stroke-width="2"/>
+<text x="2152" y="279" text-anchor="start" style="fill:#1A1F2C">Delete byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-getSchemaDriftByName" target="_blank" class="st" data-op="getSchemaDriftByName"><title>GET /catalog-server/api/rules/schema-drift/byName/{name}
+Rules Schema Drift line · getSchemaDriftByName</title>
+<circle cx="2052" cy="494" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2064" y="499" text-anchor="start" style="fill:#1A1F2C">Get byname</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-schema-drift-rules-api/#op-getSchemaDriftExecutionsByName" target="_blank" class="st" data-op="getSchemaDriftExecutionsByName"><title>GET /catalog-server/api/rules/schema-drift/byName/{name}/executions
+Rules Schema Drift line · getSchemaDriftExecutionsByName</title>
+<circle cx="2052" cy="274" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2040.0" y="279" text-anchor="end" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-createServiceUser" target="_blank" class="st" data-op="createServiceUser"><title>POST /admin/api/v1/service-users
+Service Users line · createServiceUser</title>
+<circle cx="1436" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1448" y="235" text-anchor="start" style="fill:#1A1F2C">Create service user</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-listServiceUsers" target="_blank" class="st" data-op="listServiceUsers"><title>GET /admin/api/v1/service-users/list
+Service Users line · listServiceUsers</title>
+<circle cx="1524" cy="494" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1512.0" y="499" text-anchor="end" style="fill:#1A1F2C">List service users</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-updateServiceUser" target="_blank" class="st" data-op="updateServiceUser"><title>PUT /admin/api/v1/service-users/{serviceUserId}
+Service Users line · updateServiceUser</title>
+<circle cx="1436" cy="406" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1448" y="411" text-anchor="start" style="fill:#1A1F2C">Update service user</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-getServiceUser" target="_blank" class="st" data-op="getServiceUser"><title>GET /admin/api/v1/service-users/{serviceUserId}
+Service Users line · getServiceUser</title>
+<circle cx="1436" cy="318" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1448" y="323" text-anchor="start" style="fill:#1A1F2C">Get service user</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-addServiceUserRoles" target="_blank" class="st" data-op="addServiceUserRoles"><title>PUT /admin/api/v1/service-users/{serviceUserId}/add-roles
+Service Users line · addServiceUserRoles</title>
+<circle cx="1568" cy="494" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1580" y="499" text-anchor="start" style="fill:#1A1F2C">Create add role</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-removeServiceUserRoles" target="_blank" class="st" data-op="removeServiceUserRoles"><title>PUT /admin/api/v1/service-users/{serviceUserId}/remove-roles
+Service Users line · removeServiceUserRoles</title>
+<circle cx="1656" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1668" y="235" text-anchor="start" style="fill:#1A1F2C">Create remove role</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-createServiceUserApiKey" target="_blank" class="st" data-op="createServiceUserApiKey"><title>POST /admin/api/v1/service-users/{serviceUserId}/api-key
+Service Users line · createServiceUserApiKey</title>
+<circle cx="1656" cy="406" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1668" y="411" text-anchor="start" style="fill:#1A1F2C">Update api key</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-service-users-api/#op-deleteServiceUserApiKey" target="_blank" class="st" data-op="deleteServiceUserApiKey"><title>DELETE /admin/api/v1/service-users/{serviceUserId}/api-key/{accessKey}
+Service Users line · deleteServiceUserApiKey</title>
+<circle cx="1656" cy="318" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1652" y1="322" x2="1660" y2="314" stroke="#E07B12" stroke-width="2"/>
+<text x="1668" y="323" text-anchor="start" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-tag-associations-api/#op-associateTags" target="_blank" class="st" data-op="associateTags"><title>POST /catalog-server/api/tag-associations
+Rules Data Quality line · associateTags</title>
+<circle cx="248" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="254" y="1450" transform="rotate(-45 254 1450)" style="fill:#1A1F2C">Create tag association</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-tag-associations-api/#op-getTagsForEntity" target="_blank" class="st" data-op="getTagsForEntity"><title>GET /catalog-server/api/tag-associations/entity/{entityId}
+Rules Data Quality line · getTagsForEntity</title>
+<circle cx="160" cy="1462" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="1450" transform="rotate(-45 166 1450)" style="fill:#1A1F2C">Get entity</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-tags-api/#op-PublicTagService_CreateTag" target="_blank" class="st" data-op="PublicTagService_CreateTag"><title>POST /api/tags/v1
+Tags line · PublicTagService_CreateTag</title>
+<circle cx="1656" cy="1682" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1668" y="1687" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-tags-api/#op-PublicTagService_AddValuesToKey" target="_blank" class="st" data-op="PublicTagService_AddValuesToKey"><title>POST /api/tags/v1/keys/{keyId}/values
+Tags line · PublicTagService_AddValuesToKey</title>
+<circle cx="1656" cy="1814" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1668" y="1819" text-anchor="start" style="fill:#1A1F2C">Create value</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-tags-api/#op-PublicTagService_SearchKeyValues" target="_blank" class="st" data-op="PublicTagService_SearchKeyValues"><title>GET /api/tags/v1/search
+Tags line · PublicTagService_SearchKeyValues</title>
+<circle cx="1656" cy="1902" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1668" y="1907" text-anchor="start" style="fill:#1A1F2C">Search tags</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-templates-api/#op-createUdfTemplate" target="_blank" class="st" data-op="createUdfTemplate"><title>POST /catalog-server/api/udf/template
+UDF line · createUdfTemplate</title>
+<circle cx="2140" cy="802" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2152" y="807" text-anchor="start" style="fill:#1A1F2C">Update template</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-templates-api/#op-listUdfTemplates" target="_blank" class="st" data-op="listUdfTemplates"><title>GET /catalog-server/api/udf/template
+UDF line · listUdfTemplates</title>
+<circle cx="2052" cy="978" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2064" y="983" text-anchor="start" style="fill:#1A1F2C">Get template</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-templates-api/#op-updateUdfTemplate" target="_blank" class="st" data-op="updateUdfTemplate"><title>PUT /catalog-server/api/udf/template/{id}
+UDF line · updateUdfTemplate</title>
+<circle cx="2272" cy="670" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2284" y="675" text-anchor="start" style="fill:#1A1F2C">Update template</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-templates-api/#op-deleteUdfTemplate" target="_blank" class="st" data-op="deleteUdfTemplate"><title>DELETE /catalog-server/api/udf/template/{id}
+UDF line · deleteUdfTemplate</title>
+<circle cx="2316" cy="626" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2312" y1="630" x2="2320" y2="622" stroke="#B0287F" stroke-width="2"/>
+<text x="2328" y="631" text-anchor="start" style="fill:#1A1F2C">Delete template</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-templates-api/#op-getUdfTemplate" target="_blank" class="st" data-op="getUdfTemplate"><title>GET /catalog-server/api/udf/template/{id}
+UDF line · getUdfTemplate</title>
+<circle cx="2184" cy="758" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2196" y="763" text-anchor="start" style="fill:#1A1F2C">Get template</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-validation-api/#op-validateUdfTemplateAsync" target="_blank" class="st" data-op="validateUdfTemplateAsync"><title>POST /catalog-server/api/udf/template/{id}/validate/async
+UDF line · validateUdfTemplateAsync</title>
+<circle cx="2316" cy="406" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2328" y="411" text-anchor="start" style="fill:#1A1F2C">Update async</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-udf-validation-api/#op-getUdfValidationResult" target="_blank" class="st" data-op="getUdfValidationResult"><title>GET /catalog-server/api/udf/template/validate/result/{requestId}
+UDF line · getUdfValidationResult</title>
+<circle cx="2316" cy="494" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2328" y="499" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-listUsers" target="_blank" class="st" data-op="acceldata-user-management-api:listUsers"><title>GET /admin/api/users/list
+Users line · listUsers
+Express: X1</title>
+<circle cx="1920" cy="2826" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1917" y="2823" width="6" height="6" transform="rotate(45 1920 2826)" fill="#1A1F2C"/>
+<text x="1908.0" y="2831" text-anchor="end" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-getUserCount" target="_blank" class="st" data-op="getUserCount"><title>GET /admin/api/users/count
+Users line · getUserCount</title>
+<circle cx="1876" cy="2782" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1888" y="2787" text-anchor="start" style="fill:#1A1F2C">Get count</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-updateUser" target="_blank" class="st" data-op="updateUser"><title>PUT /admin/api/users/{userId}
+Users line · updateUser</title>
+<circle cx="1612" cy="2914" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1624" y="2919" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-getUser" target="_blank" class="st" data-op="getUser"><title>GET /admin/api/users/{userId}
+Users line · getUser</title>
+<circle cx="1612" cy="3002" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1624" y="3007" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-removeUser" target="_blank" class="st" data-op="removeUser"><title>DELETE /admin/api/users/{userId}/remove-user
+Users line · removeUser</title>
+<circle cx="2096" cy="3002" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2092" y1="3006" x2="2100" y2="2998" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2108" y="3007" text-anchor="start" style="fill:#1A1F2C">Delete remove user</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-assignUserGroups" target="_blank" class="st" data-op="assignUserGroups"><title>PUT /admin/api/users/{userId}/assign-groups
+Users line · assignUserGroups</title>
+<circle cx="2008" cy="2826" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2014" y="2814" transform="rotate(-45 2014 2814)" style="fill:#1A1F2C">Create assign group</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-removeUserGroups" target="_blank" class="st" data-op="removeUserGroups"><title>PUT /admin/api/users/{userId}/remove-groups
+Users line · removeUserGroups</title>
+<circle cx="2096" cy="2914" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2108" y="2919" text-anchor="start" style="fill:#1A1F2C">Create remove group</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-user-management-api/#op-getUserGroupsByUserId" target="_blank" class="st" data-op="getUserGroupsByUserId"><title>GET /admin/api/users/{userId}/groups
+Users line · getUserGroupsByUserId</title>
+<circle cx="2096" cy="2826" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2087.0" y="2845" text-anchor="end" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/acceldata/acceldata-users-api/#op-listUsers" target="_blank" class="st" data-op="acceldata-users-api:listUsers"><title>GET /users
+Users line · listUsers</title>
+<circle cx="1612" cy="2782" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1624" y="2787" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<text x="3166" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3166" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">RULES</text>
+<rect x="3166" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3183" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RDQ</text><text x="3208" y="269" font-size="11" fill="#1A1F2C">Rules Data Quality <tspan fill="#8A93A6">27</tspan></text>
+<rect x="3166" y="276" width="34" height="13" rx="3" fill="#af232e"/><text x="3183" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RR</text><text x="3208" y="286" font-size="11" fill="#1A1F2C">Rules Reconciliation <tspan fill="#8A93A6">18</tspan></text>
+<rect x="3166" y="293" width="34" height="13" rx="3" fill="#dd5b8e"/><text x="3183" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RDD</text><text x="3208" y="303" font-size="11" fill="#1A1F2C">Rules Data Drift <tspan fill="#8A93A6">11</tspan></text>
+<rect x="3166" y="310" width="34" height="13" rx="3" fill="#e85c51"/><text x="3183" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RSD</text><text x="3208" y="320" font-size="11" fill="#1A1F2C">Rules Schema Drift <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3166" y="327" width="34" height="13" rx="3" fill="#af236f"/><text x="3183" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RPA</text><text x="3208" y="337" font-size="11" fill="#1A1F2C">Rules Profile Anomaly <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3166" y="344" width="34" height="13" rx="3" fill="#af4423"/><text x="3183" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RDC</text><text x="3208" y="354" font-size="11" fill="#1A1F2C">Rules Data Cadence <tspan fill="#8A93A6">3</tspan></text>
+<text x="3166" y="380" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">ASSETS</text>
+<rect x="3166" y="387" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3183" y="397" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASS</text><text x="3208" y="397" font-size="11" fill="#1A1F2C">Assets <tspan fill="#8A93A6">22</tspan></text>
+<text x="3166" y="423" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">USERS</text>
+<rect x="3166" y="430" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3183" y="440" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="3208" y="440" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">12</tspan></text>
+<text x="3166" y="466" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">SERVICE USERS</text>
+<rect x="3166" y="473" width="34" height="13" rx="3" fill="#E07B12"/><text x="3183" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SU</text><text x="3208" y="483" font-size="11" fill="#1A1F2C">Service Users <tspan fill="#8A93A6">8</tspan></text>
+<text x="3166" y="509" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">GROUPS</text>
+<rect x="3166" y="516" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3183" y="526" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRO</text><text x="3208" y="526" font-size="11" fill="#1A1F2C">Groups <tspan fill="#8A93A6">8</tspan></text>
+<text x="3166" y="552" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">UDF</text>
+<rect x="3166" y="559" width="34" height="13" rx="3" fill="#B0287F"/><text x="3183" y="569" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UDF</text><text x="3208" y="569" font-size="11" fill="#1A1F2C">UDF <tspan fill="#8A93A6">7</tspan></text>
+<text x="3166" y="595" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">TAGS</text>
+<rect x="3166" y="602" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3183" y="612" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="3208" y="612" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">3</tspan></text>
+<text x="3166" y="638" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">CUSTOM ASSETS</text>
+<rect x="3166" y="645" width="34" height="13" rx="3" fill="#B8860B"/><text x="3183" y="655" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CA</text><text x="3208" y="655" font-size="11" fill="#1A1F2C">Custom Assets <tspan fill="#8A93A6">3</tspan></text>
+<text x="3166" y="681" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3166" y="688" width="34" height="13" rx="3" fill="#D6264F"/><text x="3183" y="698" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3208" y="698" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">12</tspan></text>
+<text x="3416" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3434,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3460" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3434,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3460" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3434,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3460" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3434,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3460" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3434,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3460" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3434,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3460" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3434,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3460" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3434,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3460" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3416" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3416" y="463" font-size="10.5" fill="#5A6275">“Alerts” → More Local line · 2 ops</text>
+<text x="3416" y="478" font-size="10.5" fill="#5A6275">“Assign Client Roles” → More Local line · 1 op</text>
+<text x="3416" y="493" font-size="10.5" fill="#5A6275">“Assigned Client Roles” → More Local line · 1 op</text>
+<text x="3416" y="508" font-size="10.5" fill="#5A6275">“Data Quality” → More Local line · 2 ops</text>
+<text x="3416" y="523" font-size="10.5" fill="#5A6275">“Datasets” → More Local line · 2 ops</text>
+<text x="3416" y="538" font-size="10.5" fill="#5A6275">“Pipeline Jobs” → More Local line · 1 op</text>
+<text x="3416" y="553" font-size="10.5" fill="#5A6275">“Profile Update” → More Local line · 1 op</text>
+<text x="3416" y="568" font-size="10.5" fill="#5A6275">“Remove Assigned Client Roles” → More Local line · 1 op</text>
+<text x="3416" y="583" font-size="10.5" fill="#5A6275">“Roles” → More Local line · 1 op</text>
+<text x="3416" y="633" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3416" y="650" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="acceldata-user-management-api:listUsers listRoles"><rect x="3416" y="662" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="673" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="3453" y="673" font-size="11" fill="#1A1F2C">Access Review</text></g>
+<g class="rt" data-stops="listDatasets postDataQualityRules getDataQualityRules"><rect x="3416" y="681" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="692" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="3453" y="692" font-size="11" fill="#1A1F2C">Create and Verify Data Quality</text></g>
+<g class="rt" data-stops="listAlerts acknowledgeAlert"><rect x="3416" y="700" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="711" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="3453" y="711" font-size="11" fill="#1A1F2C">Critical Alert Sweep</text></g>
+<g class="rt" data-stops="listDatasets getDataQualityRules getDatasetLineage"><rect x="3416" y="719" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="730" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="3453" y="730" font-size="11" fill="#1A1F2C">Dataset Quality Audit</text></g>
+<g class="rt" data-stops="listDatasets getDataQualityRules postDataQualityRules getDatasetLineage"><rect x="3416" y="738" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="749" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="3453" y="749" font-size="11" fill="#1A1F2C">Onboard Rule With Impact</text></g>
+<g class="rt" data-stops="listPipelineJobs listAlerts acknowledgeAlert"><rect x="3416" y="757" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="768" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="3453" y="768" font-size="11" fill="#1A1F2C">Pipeline Failure Investigation</text></g>
+<g class="rt" data-stops="listDatasets listAlerts acknowledgeAlert"><rect x="3416" y="776" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3431" y="787" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="3453" y="787" font-size="11" fill="#1A1F2C">Triage Dataset Alerts</text></g>
+<text x="160" y="3176" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/acceldata/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

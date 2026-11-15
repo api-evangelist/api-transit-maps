@@ -1,0 +1,538 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3884 3414" width="3884" height="3414" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3884" height="3414" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Google-Tag-Manager API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">97 operations as stops · 1 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Tagmanager" d="M1084.0,230.0 L1168.0,230.0 L1252.0,230.0 L1336.0,230.0 L1420.0,230.0 L1504.0,230.0 L1588.0,230.0 L1672.0,230.0 L1756.0,230.0 L1840.0,230.0 L1924.0,230.0 L2008.0,230.0 L2092.0,230.0 L2162.0,230.0 Q2176.0,230.0 2185.9,239.9 L2260.0,314.0 L2344.0,398.0 L2428.0,482.0 L2512.0,566.0 L2596.0,650.0 L2680.0,734.0 L2764.0,818.0 L2848.0,902.0 L2932.0,986.0 L3016.0,1070.0 L3100.0,1154.0 L3174.1,1228.1 Q3184.0,1238.0 3184.0,1252.0 L3184.0,1322.0 L3184.0,1406.0 L3184.0,1490.0 L3184.0,1574.0 L3184.0,1658.0 L3184.0,1742.0 L3184.0,1826.0 L3184.0,1910.0 L3184.0,1994.0 L3184.0,2078.0 L3184.0,2162.0 L3184.0,2232.0 Q3184.0,2246.0 3174.1,2255.9 L3100.0,2330.0 L3016.0,2414.0 L2932.0,2498.0 L2848.0,2582.0 L2764.0,2666.0 L2680.0,2750.0 L2596.0,2834.0 L2512.0,2918.0 L2428.0,3002.0 L2344.0,3086.0 L2260.0,3170.0 L2185.9,3244.1 Q2176.0,3254.0 2162.0,3254.0 L2092.0,3254.0 L2008.0,3254.0 L1924.0,3254.0 L1840.0,3254.0 L1756.0,3254.0 L1672.0,3254.0 L1588.0,3254.0 L1504.0,3254.0 L1420.0,3254.0 L1336.0,3254.0 L1252.0,3254.0 L1182.0,3254.0 Q1168.0,3254.0 1158.1,3244.1 L1084.0,3170.0 L1000.0,3086.0 L916.0,3002.0 L832.0,2918.0 L748.0,2834.0 L664.0,2750.0 L580.0,2666.0 L496.0,2582.0 L412.0,2498.0 L328.0,2414.0 L244.0,2330.0 L169.9,2255.9 Q160.0,2246.0 160.0,2232.0 L160.0,2162.0 L160.0,2078.0 L160.0,1994.0 L160.0,1910.0 L160.0,1826.0 L160.0,1742.0 L160.0,1658.0 L160.0,1574.0 L160.0,1490.0 L160.0,1406.0 L160.0,1322.0 L160.0,1252.0 Q160.0,1238.0 169.9,1228.1 L244.0,1154.0 L328.0,1070.0 L412.0,986.0 L496.0,902.0 L580.0,818.0 L664.0,734.0 L748.0,650.0 L832.0,566.0 L916.0,482.0 L1000.0,398.0 L1074.1,323.9 Q1084.0,314.0 1084.0,300.0 L1084.0,230.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Tagmanager</title></path>
+<rect x="1054" y="177" width="60" height="26" rx="13" fill="#D6264F"/><text x="1084" y="195" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">TAG</text>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.get" target="_blank" class="st" data-op="tagmanager.accounts.get"><title>GET /tagmanager/v2/accounts/{accountsId}
+Tagmanager line · tagmanager.accounts.get</title>
+<circle cx="1252" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="218" transform="rotate(-45 1258 218)" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.update" target="_blank" class="st" data-op="tagmanager.accounts.update"><title>PUT /tagmanager/v2/accounts/{accountsId}
+Tagmanager line · tagmanager.accounts.update</title>
+<circle cx="1336" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1342" y="218" transform="rotate(-45 1342 218)" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.list" target="_blank" class="st" data-op="tagmanager.accounts.list"><title>GET /tagmanager/v2/accounts
+Tagmanager line · tagmanager.accounts.list</title>
+<circle cx="1084" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="235" text-anchor="end" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.user_permissions.get" target="_blank" class="st" data-op="tagmanager.accounts.user_permissions.get"><title>GET /tagmanager/v2/accounts/{accountsId}/user_permissions/{user_permissionsId}
+Tagmanager line · tagmanager.accounts.user_permissions.get</title>
+<circle cx="916" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="487" text-anchor="start" style="fill:#1A1F2C">Get user permission</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.user_permissions.delete" target="_blank" class="st" data-op="tagmanager.accounts.user_permissions.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/user_permissions/{user_permissionsId}
+Tagmanager line · tagmanager.accounts.user_permissions.delete</title>
+<circle cx="1084" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1080" y1="318" x2="1088" y2="310" stroke="#D6264F" stroke-width="2"/>
+<text x="1096" y="319" text-anchor="start" style="fill:#1A1F2C">Delete user permission</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.user_permissions.update" target="_blank" class="st" data-op="tagmanager.accounts.user_permissions.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/user_permissions/{user_permissionsId}
+Tagmanager line · tagmanager.accounts.user_permissions.update</title>
+<circle cx="1000" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="403" text-anchor="start" style="fill:#1A1F2C">Update user permission</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.user_permissions.create" target="_blank" class="st" data-op="tagmanager.accounts.user_permissions.create"><title>POST /tagmanager/v2/accounts/{accountsId}/user_permissions
+Tagmanager line · tagmanager.accounts.user_permissions.create</title>
+<circle cx="832" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="571" text-anchor="start" style="fill:#1A1F2C">Create user permission</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.user_permissions.list" target="_blank" class="st" data-op="tagmanager.accounts.user_permissions.list"><title>GET /tagmanager/v2/accounts/{accountsId}/user_permissions
+Tagmanager line · tagmanager.accounts.user_permissions.list</title>
+<circle cx="748" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="655" text-anchor="start" style="fill:#1A1F2C">List user permissions</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers
+Tagmanager line · tagmanager.accounts.containers.create</title>
+<circle cx="1504" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1510" y="218" transform="rotate(-45 1510 218)" style="fill:#1A1F2C">Create container</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers
+Tagmanager line · tagmanager.accounts.containers.list</title>
+<circle cx="1420" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1426" y="218" transform="rotate(-45 1426 218)" style="fill:#1A1F2C">List containers</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.combine" target="_blank" class="st" data-op="tagmanager.accounts.containers.combine"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}:combine
+Tagmanager line · tagmanager.accounts.containers.combine
+DEPRECATED</title>
+<circle cx="1672" cy="230" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1678" y="218" transform="rotate(-45 1678 218)" style="fill:#A0A7B4">Update container</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}
+Tagmanager line · tagmanager.accounts.containers.get</title>
+<circle cx="1588" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1594" y="218" transform="rotate(-45 1594 218)" style="fill:#1A1F2C">Get container</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}
+Tagmanager line · tagmanager.accounts.containers.delete</title>
+<circle cx="1840" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1836" y1="234" x2="1844" y2="226" stroke="#D6264F" stroke-width="2"/>
+<text x="1846" y="218" transform="rotate(-45 1846 218)" style="fill:#1A1F2C">Delete container</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}
+Tagmanager line · tagmanager.accounts.containers.update</title>
+<circle cx="1756" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1762" y="218" transform="rotate(-45 1762 218)" style="fill:#1A1F2C">Update container</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.lookup" target="_blank" class="st" data-op="tagmanager.accounts.containers.lookup"><title>GET /tagmanager/v2/accounts/containers:lookup
+Tagmanager line · tagmanager.accounts.containers.lookup</title>
+<circle cx="1168" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="218" transform="rotate(-45 1174 218)" style="fill:#1A1F2C">Get containers:lookup</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.versions.live" target="_blank" class="st" data-op="tagmanager.accounts.containers.versions.live"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/versions:live
+Tagmanager line · tagmanager.accounts.containers.versions.live</title>
+<circle cx="3184" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1243" text-anchor="start" style="fill:#1A1F2C">Get versions:live</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.versions.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.versions.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/versions/{versionsId}
+Tagmanager line · tagmanager.accounts.containers.versions.update</title>
+<circle cx="3016" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3028" y="1075" text-anchor="start" style="fill:#1A1F2C">Update version</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.versions.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.versions.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/versions/{versionsId}
+Tagmanager line · tagmanager.accounts.containers.versions.get</title>
+<circle cx="2848" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2860" y="907" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.versions.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.versions.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/versions/{versionsId}
+Tagmanager line · tagmanager.accounts.containers.versions.delete</title>
+<circle cx="3100" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="3096" y1="1158" x2="3104" y2="1150" stroke="#D6264F" stroke-width="2"/>
+<text x="3112" y="1159" text-anchor="start" style="fill:#1A1F2C">Delete version</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.versions.undelete" target="_blank" class="st" data-op="tagmanager.accounts.containers.versions.undelete"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/versions/{versionsId}:undelete
+Tagmanager line · tagmanager.accounts.containers.versions.undelete</title>
+<circle cx="2932" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2944" y="991" text-anchor="start" style="fill:#1A1F2C">Update version</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.create_version" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.create_version"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}:create_version
+Tagmanager line · tagmanager.accounts.containers.workspaces.create_version</title>
+<circle cx="3184" cy="1574" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1579" text-anchor="start" style="fill:#1A1F2C">Update workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces
+Tagmanager line · tagmanager.accounts.containers.workspaces.create</title>
+<circle cx="3184" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1411" text-anchor="start" style="fill:#1A1F2C">Create workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces
+Tagmanager line · tagmanager.accounts.containers.workspaces.list</title>
+<circle cx="3184" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1327" text-anchor="start" style="fill:#1A1F2C">List workspaces</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.get</title>
+<circle cx="3184" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1495" text-anchor="start" style="fill:#1A1F2C">Get workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.update</title>
+<circle cx="3184" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1663" text-anchor="start" style="fill:#1A1F2C">Update workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.delete</title>
+<circle cx="3184" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="3180" y1="1746" x2="3188" y2="1738" stroke="#D6264F" stroke-width="2"/>
+<text x="3196" y="1747" text-anchor="start" style="fill:#1A1F2C">Delete workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.bulk_update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.bulk_update"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/bulk_update
+Tagmanager line · tagmanager.accounts.containers.workspaces.bulk_update</title>
+<circle cx="3184" cy="2162" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="2167" text-anchor="start" style="fill:#1A1F2C">Update bulk update</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.getStatus" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.getStatus"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/status
+Tagmanager line · tagmanager.accounts.containers.workspaces.getStatus</title>
+<circle cx="1756" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1762" y="3242" transform="rotate(-45 1762 3242)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.built_in_variables.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.built_in_variables.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/built_in_variables
+Tagmanager line · tagmanager.accounts.containers.workspaces.built_in_variables.create</title>
+<circle cx="3184" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1915" text-anchor="start" style="fill:#1A1F2C">Create built in variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.built_in_variables.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.built_in_variables.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/built_in_variables
+Tagmanager line · tagmanager.accounts.containers.workspaces.built_in_variables.list</title>
+<circle cx="3184" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="1831" text-anchor="start" style="fill:#1A1F2C">List built in variables</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.built_in_variables.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.built_in_variables.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/built_in_variables
+Tagmanager line · tagmanager.accounts.containers.workspaces.built_in_variables.delete</title>
+<circle cx="3184" cy="1994" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="3180" y1="1998" x2="3188" y2="1990" stroke="#D6264F" stroke-width="2"/>
+<text x="3196" y="1999" text-anchor="start" style="fill:#1A1F2C">Delete built in variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.built_in_variables.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.built_in_variables.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/built_in_variables:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.built_in_variables.revert</title>
+<circle cx="3184" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="2083" text-anchor="start" style="fill:#1A1F2C">Update built in variables:revert</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.gtag_config.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.gtag_config.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/gtag_config
+Tagmanager line · tagmanager.accounts.containers.workspaces.gtag_config.list</title>
+<circle cx="2176" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="3259" text-anchor="start" style="fill:#1A1F2C">Get gtag config</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.gtag_config.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.gtag_config.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/gtag_config
+Tagmanager line · tagmanager.accounts.containers.workspaces.gtag_config.create</title>
+<circle cx="2092" cy="3254" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2098" y="3242" transform="rotate(-45 2098 3242)" style="fill:#1A1F2C">Update gtag config</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.gtag_config.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.gtag_config.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/gtag_config/{gtag_configId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.gtag_config.delete</title>
+<circle cx="1840" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1836" y1="3258" x2="1844" y2="3250" stroke="#D6264F" stroke-width="2"/>
+<text x="1846" y="3242" transform="rotate(-45 1846 3242)" style="fill:#1A1F2C">Delete gtag config</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.gtag_config.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.gtag_config.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/gtag_config/{gtag_configId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.gtag_config.get</title>
+<circle cx="2008" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2014" y="3242" transform="rotate(-45 2014 3242)" style="fill:#1A1F2C">Get gtag config</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.gtag_config.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.gtag_config.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/gtag_config/{gtag_configId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.gtag_config.update</title>
+<circle cx="1924" cy="3254" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1930" y="3242" transform="rotate(-45 1930 3242)" style="fill:#1A1F2C">Update gtag config</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.zones.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.zones.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/zones/{zonesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.zones.get</title>
+<circle cx="412" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="991" text-anchor="start" style="fill:#1A1F2C">Get zone</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.zones.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.zones.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/zones/{zonesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.zones.update</title>
+<circle cx="580" cy="818" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="823" text-anchor="start" style="fill:#1A1F2C">Update zone</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.zones.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.zones.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/zones/{zonesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.zones.delete</title>
+<circle cx="664" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="660" y1="738" x2="668" y2="730" stroke="#D6264F" stroke-width="2"/>
+<text x="676" y="739" text-anchor="start" style="fill:#1A1F2C">Delete zone</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.zones.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.zones.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/zones
+Tagmanager line · tagmanager.accounts.containers.workspaces.zones.list</title>
+<circle cx="244" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="1159" text-anchor="start" style="fill:#1A1F2C">List zones</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.zones.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.zones.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/zones
+Tagmanager line · tagmanager.accounts.containers.workspaces.zones.create</title>
+<circle cx="328" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="1075" text-anchor="start" style="fill:#1A1F2C">Create zone</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.zones.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.zones.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/zones/{zonesId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.zones.revert</title>
+<circle cx="496" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="907" text-anchor="start" style="fill:#1A1F2C">Update zone</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.create</title>
+<circle cx="1084" cy="3170" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="3175" text-anchor="start" style="fill:#1A1F2C">Create template</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.list</title>
+<circle cx="1168" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1156.0" y="3259" text-anchor="end" style="fill:#1A1F2C">List templates</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates/{templatesId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.revert</title>
+<circle cx="916" cy="3002" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="3007" text-anchor="start" style="fill:#1A1F2C">Update template</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates/{templatesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.delete</title>
+<circle cx="748" cy="2834" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="744" y1="2838" x2="752" y2="2830" stroke="#D6264F" stroke-width="2"/>
+<text x="760" y="2839" text-anchor="start" style="fill:#1A1F2C">Delete template</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates/{templatesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.update</title>
+<circle cx="832" cy="2918" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="2923" text-anchor="start" style="fill:#1A1F2C">Update template</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates/{templatesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.get</title>
+<circle cx="1000" cy="3086" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="3091" text-anchor="start" style="fill:#1A1F2C">Get template</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.templates.import_from_gallery" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.templates.import_from_gallery"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/templates:import_from_gallery
+Tagmanager line · tagmanager.accounts.containers.workspaces.templates.import_from_gallery</title>
+<circle cx="664" cy="2750" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="2755" text-anchor="start" style="fill:#1A1F2C">Update templates:import from gallery</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.clients.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.clients.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/clients
+Tagmanager line · tagmanager.accounts.containers.workspaces.clients.create</title>
+<circle cx="3100" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3112" y="2335" text-anchor="start" style="fill:#1A1F2C">Create client</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.clients.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.clients.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/clients
+Tagmanager line · tagmanager.accounts.containers.workspaces.clients.list</title>
+<circle cx="3184" cy="2246" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3196" y="2251" text-anchor="start" style="fill:#1A1F2C">List clients</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.clients.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.clients.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/clients/{clientsId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.clients.revert</title>
+<circle cx="2932" cy="2498" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2944" y="2503" text-anchor="start" style="fill:#1A1F2C">Update client</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.clients.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.clients.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/clients/{clientsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.clients.get</title>
+<circle cx="3016" cy="2414" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3028" y="2419" text-anchor="start" style="fill:#1A1F2C">Get client</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.clients.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.clients.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/clients/{clientsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.clients.delete</title>
+<circle cx="2764" cy="2666" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2760" y1="2670" x2="2768" y2="2662" stroke="#D6264F" stroke-width="2"/>
+<text x="2776" y="2671" text-anchor="start" style="fill:#1A1F2C">Delete client</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.clients.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.clients.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/clients/{clientsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.clients.update</title>
+<circle cx="2848" cy="2582" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2860" y="2587" text-anchor="start" style="fill:#1A1F2C">Update client</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.transformations.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.transformations.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/transformations/{transformationsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.transformations.delete</title>
+<circle cx="160" cy="2246" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="156" y1="2250" x2="164" y2="2242" stroke="#D6264F" stroke-width="2"/>
+<text x="172" y="2251" text-anchor="start" style="fill:#1A1F2C">Delete transformation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.transformations.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.transformations.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/transformations/{transformationsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.transformations.update</title>
+<circle cx="244" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="2335" text-anchor="start" style="fill:#1A1F2C">Update transformation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.transformations.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.transformations.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/transformations/{transformationsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.transformations.get</title>
+<circle cx="412" cy="2498" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="2503" text-anchor="start" style="fill:#1A1F2C">Get transformation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.transformations.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.transformations.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/transformations
+Tagmanager line · tagmanager.accounts.containers.workspaces.transformations.create</title>
+<circle cx="496" cy="2582" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="2587" text-anchor="start" style="fill:#1A1F2C">Create transformation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.transformations.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.transformations.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/transformations
+Tagmanager line · tagmanager.accounts.containers.workspaces.transformations.list</title>
+<circle cx="580" cy="2666" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="2671" text-anchor="start" style="fill:#1A1F2C">List transformations</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.transformations.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.transformations.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/transformations/{transformationsId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.transformations.revert</title>
+<circle cx="328" cy="2414" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="2419" text-anchor="start" style="fill:#1A1F2C">Update transformation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.triggers.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.triggers.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/triggers
+Tagmanager line · tagmanager.accounts.containers.workspaces.triggers.create</title>
+<circle cx="160" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="2083" text-anchor="start" style="fill:#1A1F2C">Create trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.triggers.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.triggers.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/triggers
+Tagmanager line · tagmanager.accounts.containers.workspaces.triggers.list</title>
+<circle cx="160" cy="2162" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="2167" text-anchor="start" style="fill:#1A1F2C">List triggers</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.triggers.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.triggers.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/triggers/{triggersId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.triggers.revert</title>
+<circle cx="160" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1915" text-anchor="start" style="fill:#1A1F2C">Update trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.triggers.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.triggers.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/triggers/{triggersId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.triggers.get</title>
+<circle cx="160" cy="1994" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1999" text-anchor="start" style="fill:#1A1F2C">Get trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.triggers.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.triggers.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/triggers/{triggersId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.triggers.delete</title>
+<circle cx="160" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="156" y1="1746" x2="164" y2="1738" stroke="#D6264F" stroke-width="2"/>
+<text x="172" y="1747" text-anchor="start" style="fill:#1A1F2C">Delete trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.triggers.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.triggers.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/triggers/{triggersId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.triggers.update</title>
+<circle cx="160" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1831" text-anchor="start" style="fill:#1A1F2C">Update trigger</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.folders.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.folders.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/folders
+Tagmanager line · tagmanager.accounts.containers.workspaces.folders.create</title>
+<circle cx="2596" cy="2834" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2608" y="2839" text-anchor="start" style="fill:#1A1F2C">Create folder</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.folders.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.folders.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/folders
+Tagmanager line · tagmanager.accounts.containers.workspaces.folders.list</title>
+<circle cx="2680" cy="2750" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2692" y="2755" text-anchor="start" style="fill:#1A1F2C">List folders</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.folders.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.folders.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/folders/{foldersId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.folders.revert</title>
+<circle cx="2428" cy="3002" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2440" y="3007" text-anchor="start" style="fill:#1A1F2C">Update folder</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.folders.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.folders.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/folders/{foldersId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.folders.get</title>
+<circle cx="2512" cy="2918" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2524" y="2923" text-anchor="start" style="fill:#1A1F2C">Get folder</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.folders.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.folders.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/folders/{foldersId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.folders.delete</title>
+<circle cx="2260" cy="3170" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2256" y1="3174" x2="2264" y2="3166" stroke="#D6264F" stroke-width="2"/>
+<text x="2272" y="3175" text-anchor="start" style="fill:#1A1F2C">Delete folder</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.folders.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.folders.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/folders/{foldersId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.folders.update</title>
+<circle cx="2344" cy="3086" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2356" y="3091" text-anchor="start" style="fill:#1A1F2C">Update folder</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.tags.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.tags.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/tags/{tagsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.tags.delete</title>
+<circle cx="1252" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1248" y1="3258" x2="1256" y2="3250" stroke="#D6264F" stroke-width="2"/>
+<text x="1258" y="3242" transform="rotate(-45 1258 3242)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.tags.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.tags.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/tags/{tagsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.tags.get</title>
+<circle cx="1504" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1510" y="3242" transform="rotate(-45 1510 3242)" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.tags.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.tags.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/tags/{tagsId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.tags.update</title>
+<circle cx="1336" cy="3254" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1342" y="3242" transform="rotate(-45 1342 3242)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.tags.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.tags.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/tags
+Tagmanager line · tagmanager.accounts.containers.workspaces.tags.create</title>
+<circle cx="1588" cy="3254" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1594" y="3242" transform="rotate(-45 1594 3242)" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.tags.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.tags.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/tags
+Tagmanager line · tagmanager.accounts.containers.workspaces.tags.list</title>
+<circle cx="1672" cy="3254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1678" y="3242" transform="rotate(-45 1678 3242)" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.tags.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.tags.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/tags/{tagsId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.tags.revert</title>
+<circle cx="1420" cy="3254" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1426" y="3242" transform="rotate(-45 1426 3242)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.variables.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.variables.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/variables/{variablesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.variables.update</title>
+<circle cx="160" cy="1322" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1327" text-anchor="start" style="fill:#1A1F2C">Update variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.variables.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.variables.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/variables/{variablesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.variables.get</title>
+<circle cx="160" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1495" text-anchor="start" style="fill:#1A1F2C">Get variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.variables.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.variables.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/variables/{variablesId}
+Tagmanager line · tagmanager.accounts.containers.workspaces.variables.delete</title>
+<circle cx="160" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="156" y1="1242" x2="164" y2="1234" stroke="#D6264F" stroke-width="2"/>
+<text x="172" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.variables.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.variables.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/variables
+Tagmanager line · tagmanager.accounts.containers.workspaces.variables.create</title>
+<circle cx="160" cy="1574" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1579" text-anchor="start" style="fill:#1A1F2C">Create variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.variables.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.variables.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/variables
+Tagmanager line · tagmanager.accounts.containers.workspaces.variables.list</title>
+<circle cx="160" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1663" text-anchor="start" style="fill:#1A1F2C">List variables</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.workspaces.variables.revert" target="_blank" class="st" data-op="tagmanager.accounts.containers.workspaces.variables.revert"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/workspaces/{workspacesId}/variables/{variablesId}:revert
+Tagmanager line · tagmanager.accounts.containers.workspaces.variables.revert</title>
+<circle cx="160" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1411" text-anchor="start" style="fill:#1A1F2C">Update variable</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.version_headers.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.version_headers.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/version_headers
+Tagmanager line · tagmanager.accounts.containers.version_headers.list</title>
+<circle cx="2680" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2692" y="739" text-anchor="start" style="fill:#1A1F2C">List version headers</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.version_headers.latest" target="_blank" class="st" data-op="tagmanager.accounts.containers.version_headers.latest"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/version_headers:latest
+Tagmanager line · tagmanager.accounts.containers.version_headers.latest</title>
+<circle cx="2764" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2776" y="823" text-anchor="start" style="fill:#1A1F2C">Get version headers:latest</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.destinations.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.destinations.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/destinations/{destinationsId}
+Tagmanager line · tagmanager.accounts.containers.destinations.get
+DEPRECATED</title>
+<circle cx="2008" cy="230" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2014" y="218" transform="rotate(-45 2014 218)" style="fill:#A0A7B4">Get destination</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.destinations.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.destinations.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/destinations
+Tagmanager line · tagmanager.accounts.containers.destinations.list</title>
+<circle cx="1924" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1930" y="218" transform="rotate(-45 1930 218)" style="fill:#1A1F2C">List destinations</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.destinations.link" target="_blank" class="st" data-op="tagmanager.accounts.containers.destinations.link"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/destinations:link
+Tagmanager line · tagmanager.accounts.containers.destinations.link
+DEPRECATED</title>
+<circle cx="2092" cy="230" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2098" y="218" transform="rotate(-45 2098 218)" style="fill:#A0A7B4">Update destinations:link</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.environments.reauthorize" target="_blank" class="st" data-op="tagmanager.accounts.containers.environments.reauthorize"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/environments/{environmentsId}:reauthorize
+Tagmanager line · tagmanager.accounts.containers.environments.reauthorize</title>
+<circle cx="2428" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2440" y="487" text-anchor="start" style="fill:#1A1F2C">Update environment</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.environments.get" target="_blank" class="st" data-op="tagmanager.accounts.containers.environments.get"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/environments/{environmentsId}
+Tagmanager line · tagmanager.accounts.containers.environments.get</title>
+<circle cx="2344" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2356" y="403" text-anchor="start" style="fill:#1A1F2C">Get environment</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.environments.update" target="_blank" class="st" data-op="tagmanager.accounts.containers.environments.update"><title>PUT /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/environments/{environmentsId}
+Tagmanager line · tagmanager.accounts.containers.environments.update</title>
+<circle cx="2512" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2524" y="571" text-anchor="start" style="fill:#1A1F2C">Update environment</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.environments.delete" target="_blank" class="st" data-op="tagmanager.accounts.containers.environments.delete"><title>DELETE /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/environments/{environmentsId}
+Tagmanager line · tagmanager.accounts.containers.environments.delete</title>
+<circle cx="2596" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2592" y1="654" x2="2600" y2="646" stroke="#D6264F" stroke-width="2"/>
+<text x="2608" y="655" text-anchor="start" style="fill:#1A1F2C">Delete environment</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.environments.list" target="_blank" class="st" data-op="tagmanager.accounts.containers.environments.list"><title>GET /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/environments
+Tagmanager line · tagmanager.accounts.containers.environments.list</title>
+<circle cx="2176" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="235" text-anchor="start" style="fill:#1A1F2C">List environments</text>
+</a>
+<a href="https://apis.apis.io/apis/google-tag-manager/google-tag-manager-accounts-api/#op-tagmanager.accounts.containers.environments.create" target="_blank" class="st" data-op="tagmanager.accounts.containers.environments.create"><title>POST /tagmanager/v2/accounts/{accountsId}/containers/{containersId}/environments
+Tagmanager line · tagmanager.accounts.containers.environments.create</title>
+<circle cx="2260" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2272" y="319" text-anchor="start" style="fill:#1A1F2C">Create environment</text>
+</a>
+<text x="3374" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3374" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">GOOGLE TAG MANAGER</text>
+<rect x="3374" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3391" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="3416" y="269" font-size="11" fill="#1A1F2C">Tagmanager <tspan fill="#8A93A6">97</tspan></text>
+<text x="3624" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3642,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3668" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3642,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3668" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3642,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3668" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3642,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3668" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3642,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3668" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3642,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3668" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3642,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3668" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3642,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3668" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3624" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3624" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3384" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/google-tag-manager/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

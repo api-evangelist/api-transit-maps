@@ -1,0 +1,846 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2288 2154" width="2288" height="2154" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2288" height="2154" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Cisco-Catalyst-Sdwan API · Transit Map · Sheet 10: Data, Topology Group, Accesstoken +13</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">100 operations as stops · 18 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M832.0,1070.0 L887.7,1125.7 Q916.0,1154.0 956.0,1154.0 L1042.0,1154.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="875.0" y="1100.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="937.0" y="1116.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Accesstoken ⇄ Cisco Software</title>1 interchange</text></g>
+<text x="805.75" y="1378" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#8D6E63" opacity=".85">DATA</text>
+<text x="947.5" y="496" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#4A5568" opacity=".85">ACCESSTOKEN</text>
+<text x="1393.75" y="244" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">TOPOLOGY GROUP</text>
+<text x="958.0" y="328" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">FEDRAMP</text>
+<text x="484.0" y="790" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">WEBEX</text>
+<text x="244.0" y="790" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">IDPCERTIFICATE</text>
+<text x="433.0" y="1420" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">LICENSING</text>
+<text x="979.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">CONTROLLERS UPGRADE</text>
+<text x="517.0" y="328" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">COLOCATION</text>
+<text x="881.0" y="706" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">CISCO SOFTWARE</text>
+<text x="1175.0" y="790" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">HSEC</text>
+<text x="328.0" y="286" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">TENANTMIGRATION</text>
+<text x="1201.6" y="1000" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#4A5568" opacity=".85">WANI</text>
+<text x="664.0" y="664" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">SEGMENT</text>
+<text x="638.8" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">TOPOLOGY</text>
+<text x="1042.0" y="1378" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">GROUP</text>
+<path class="line" data-line="Cisco Software" d="M1000.0,776.0 L916.0,860.0 L874.0,902.0 L841.9,934.1 Q832.0,944.0 832.0,958.0 L832.0,1070.0 L832.0,1154.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cisco Software</title></path>
+<path class="line" data-line="Colocation" d="M370.0,776.0 L454.0,692.0 L538.0,608.0 L570.1,575.9 Q580.0,566.0 580.0,552.0 L580.0,482.0 L580.0,398.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Colocation</title></path>
+<path class="line" data-line="Configuration - Segments" d="M874.0,734.0 L748.0,734.0 L636.0,734.0 Q622.0,734.0 612.1,743.9 L580.0,776.0 L496.0,860.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Configuration - Segments</title></path>
+<path class="line" data-line="Configuration - Topology" d="M790.0,1322.0 L757.9,1289.9 Q748.0,1280.0 734.0,1280.0 L636.0,1280.0 Q622.0,1280.0 612.1,1289.9 L538.0,1364.0 L496.0,1406.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Configuration - Topology</title></path>
+<path class="line" data-line="Deployment Mode" d="M1210.0,482.0 L1098.0,482.0 Q1084.0,482.0 1074.1,472.1 L1042.0,440.0 L1009.9,407.9 Q1000.0,398.0 986.0,398.0 L874.0,398.0 L790.0,398.0 L706.0,398.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Deployment Mode</title></path>
+<path class="line" data-line="HSEC" d="M1294.0,860.0 L1252.0,902.0 L1210.0,944.0 L1168.0,986.0 L1135.9,1018.1 Q1126.0,1028.0 1112.0,1028.0 L1000.0,1028.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>HSEC</title></path>
+<path class="line" data-line="IDP Certificate Management" d="M244.0,1280.0 L244.0,1196.0 L244.0,1112.0 L244.0,1028.0 L244.0,944.0 L244.0,860.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>IDP Certificate Management</title></path>
+<path class="line" data-line="Licensing - Next Generation" d="M370.0,1490.0 L370.0,1574.0 L370.0,1644.0 Q370.0,1658.0 379.9,1667.9 L402.1,1690.1 Q412.0,1700.0 426.0,1700.0 L496.0,1700.0 L580.0,1700.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Licensing - Next Generation</title></path>
+<path class="line" data-line="Monitoring - Device Statistics Details" d="M790.0,1448.0 L706.0,1532.0 L673.9,1564.1 Q664.0,1574.0 650.0,1574.0 L552.0,1574.0 Q538.0,1574.0 528.1,1564.1 L496.0,1532.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Monitoring - Device Statistics Details</title></path>
+<path class="line" data-line="Monitoring - Device Statistics Details V2" d="M1168.0,1826.0 L1084.0,1910.0 L1000.0,1994.0" fill="none" stroke="#746253" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Monitoring - Device Statistics Details V2</title></path>
+<path class="line" data-line="Monitoring - SecureX Integration" d="M916.0,1280.0 L958.0,1238.0 L1000.0,1196.0 L1042.0,1154.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Monitoring - SecureX Integration</title></path>
+<path class="line" data-line="Topology - Topology Group" d="M1336.0,314.0 L1336.0,398.0 L1336.0,524.0 L1336.0,608.0 L1336.0,678.0 Q1336.0,692.0 1345.9,701.9 L1368.1,724.1 Q1378.0,734.0 1392.0,734.0 L1504.0,734.0 L1588.0,734.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Topology - Topology Group</title></path>
+<path class="line" data-line="System - Cloud Service CDNA" d="M790.0,566.0 L874.0,566.0 L944.0,566.0 Q958.0,566.0 967.9,575.9 L1042.0,650.0" fill="none" stroke="#393d4f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>System - Cloud Service CDNA</title></path>
+<path class="line" data-line="System - Cloud Service Webex" d="M706.0,860.0 L622.0,944.0 L538.0,1028.0 L463.9,1102.1 Q454.0,1112.0 440.0,1112.0 L426.0,1112.0 Q412.0,1112.0 402.1,1121.9 L379.9,1144.1 Q370.0,1154.0 370.0,1168.0 L370.0,1238.0 L370.0,1322.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>System - Cloud Service Webex</title></path>
+<path class="line" data-line="Tenant Migration" d="M160.0,566.0 L244.0,566.0 L328.0,566.0 L398.0,566.0 Q412.0,566.0 412.0,552.0 L412.0,440.0 L412.0,356.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tenant Migration</title></path>
+<path class="line" data-line="Troubleshooting Tools - Device Group" d="M1168.0,1700.0 L1084.0,1616.0 L1042.0,1574.0 L1000.0,1532.0 L916.0,1448.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Troubleshooting Tools - Device Group</title></path>
+<path class="line" data-line="Wani Recommendations" d="M1084.0,1448.0 L1168.0,1364.0 L1242.1,1289.9 Q1252.0,1280.0 1252.0,1266.0 L1252.0,1154.0 L1252.0,1070.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Wani Recommendations</title></path>
+<path class="line" data-line="Workflows - Controllers Upgrade" d="M1168.0,230.0 L1084.0,230.0 L1000.0,230.0 L958.0,230.0 L874.0,230.0 L790.0,230.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workflows - Controllers Upgrade</title></path>
+<line x1="1000" y1="776" x2="1024.0416305603426" y2="751.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1000.0416305603426" y="740.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Cisco Software</title></rect><text x="1024.0416305603426" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CSC</text>
+<line x1="832" y1="1154" x2="832.0" y2="1188.0" stroke="#C2410C" stroke-width="7"/><rect x="808.0" y="1177.0" width="48" height="22" rx="5" fill="#C2410C"><title>Cisco Software</title></rect><text x="832.0" y="1193.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CSC</text>
+<line x1="370" y1="776" x2="345.95836943965736" y2="800.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="321.95836943965736" y="789.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Colocation</title></rect><text x="345.95836943965736" y="805.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="580" y1="398" x2="580.0" y2="364.0" stroke="#B8860B" stroke-width="7"/><rect x="556.0" y="353.0" width="48" height="22" rx="5" fill="#B8860B"><title>Colocation</title></rect><text x="580.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="874" y1="734" x2="908.0" y2="734.0" stroke="#D6264F" stroke-width="7"/><rect x="884.0" y="723.0" width="48" height="22" rx="5" fill="#D6264F"><title>Configuration - Segments</title></rect><text x="908.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COS</text>
+<line x1="496" y1="860" x2="471.95836943965736" y2="884.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="447.95836943965736" y="873.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Configuration - Segments</title></rect><text x="471.95836943965736" y="889.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COS</text>
+<line x1="790" y1="1322" x2="814.0416305603426" y2="1346.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="790.0416305603426" y="1335.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Configuration - Topology</title></rect><text x="814.0416305603426" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CT</text>
+<line x1="496" y1="1406" x2="471.95836943965736" y2="1430.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="447.95836943965736" y="1419.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Configuration - Topology</title></rect><text x="471.95836943965736" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CT</text>
+<line x1="1210" y1="482" x2="1244.0" y2="482.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1220.0" y="471.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Deployment Mode</title></rect><text x="1244.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DM</text>
+<line x1="706" y1="398" x2="672.0" y2="398.0" stroke="#0E9F6E" stroke-width="7"/><rect x="648.0" y="387.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Deployment Mode</title></rect><text x="672.0" y="403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DM</text>
+<line x1="1294" y1="860" x2="1318.0416305603426" y2="835.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1294.0416305603426" y="824.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>HSEC</title></rect><text x="1318.0416305603426" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HSE</text>
+<line x1="1000" y1="1028" x2="966.0" y2="1028.0" stroke="#2E7D32" stroke-width="7"/><rect x="942.0" y="1017.0" width="48" height="22" rx="5" fill="#2E7D32"><title>HSEC</title></rect><text x="966.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HSE</text>
+<line x1="244" y1="1280" x2="244.0" y2="1314.0" stroke="#7B3FE4" stroke-width="7"/><rect x="220.0" y="1303.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>IDP Certificate Management</title></rect><text x="244.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ICM</text>
+<line x1="244" y1="860" x2="244.0" y2="826.0" stroke="#7B3FE4" stroke-width="7"/><rect x="220.0" y="815.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>IDP Certificate Management</title></rect><text x="244.0" y="831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ICM</text>
+<line x1="370" y1="1490" x2="370.0" y2="1456.0" stroke="#B0287F" stroke-width="7"/><rect x="346.0" y="1445.0" width="48" height="22" rx="5" fill="#B0287F"><title>Licensing - Next Generation</title></rect><text x="370.0" y="1461.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LNG</text>
+<line x1="580" y1="1700" x2="614.0" y2="1700.0" stroke="#B0287F" stroke-width="7"/><rect x="590.0" y="1689.0" width="48" height="22" rx="5" fill="#B0287F"><title>Licensing - Next Generation</title></rect><text x="614.0" y="1705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LNG</text>
+<line x1="790" y1="1448" x2="814.0416305603426" y2="1423.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="790.0416305603426" y="1412.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Monitoring - Device Statistics Details</title></rect><text x="814.0416305603426" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MDSD</text>
+<line x1="496" y1="1532" x2="471.95836943965736" y2="1507.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="447.95836943965736" y="1496.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Monitoring - Device Statistics Details</title></rect><text x="471.95836943965736" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MDSD</text>
+<line x1="1168" y1="1826" x2="1192.0416305603426" y2="1801.9583694396574" stroke="#746253" stroke-width="7"/><rect x="1168.0416305603426" y="1790.9583694396574" width="48" height="22" rx="5" fill="#746253"><title>Monitoring - Device Statistics Details V2</title></rect><text x="1192.0416305603426" y="1806.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MODS</text>
+<line x1="1000" y1="1994" x2="975.9583694396574" y2="2018.0416305603426" stroke="#746253" stroke-width="7"/><rect x="951.9583694396574" y="2007.0416305603426" width="48" height="22" rx="5" fill="#746253"><title>Monitoring - Device Statistics Details V2</title></rect><text x="975.9583694396574" y="2023.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MODS</text>
+<line x1="916" y1="1280" x2="891.9583694396574" y2="1304.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="867.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Monitoring - SecureX Integration</title></rect><text x="891.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MSXI</text>
+<line x1="1042" y1="1154" x2="1066.0416305603426" y2="1129.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="1042.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>Monitoring - SecureX Integration</title></rect><text x="1066.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MSXI</text>
+<line x1="1336" y1="314" x2="1336.0" y2="280.0" stroke="#D6264F" stroke-width="7"/><rect x="1312.0" y="269.0" width="48" height="22" rx="5" fill="#D6264F"><title>Topology - Topology Group</title></rect><text x="1336.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TTG</text>
+<line x1="1588" y1="734" x2="1622.0" y2="734.0" stroke="#D6264F" stroke-width="7"/><rect x="1598.0" y="723.0" width="48" height="22" rx="5" fill="#D6264F"><title>Topology - Topology Group</title></rect><text x="1622.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TTG</text>
+<line x1="790" y1="566" x2="756.0" y2="566.0" stroke="#393d4f" stroke-width="7"/><rect x="732.0" y="555.0" width="48" height="22" rx="5" fill="#393d4f"><title>System - Cloud Service CDNA</title></rect><text x="756.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCSC</text>
+<line x1="1042" y1="650" x2="1066.0416305603426" y2="674.0416305603426" stroke="#393d4f" stroke-width="7"/><rect x="1042.0416305603426" y="663.0416305603426" width="48" height="22" rx="5" fill="#393d4f"><title>System - Cloud Service CDNA</title></rect><text x="1066.0416305603426" y="679.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCSC</text>
+<line x1="706" y1="860" x2="730.0416305603426" y2="835.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="706.0416305603426" y="824.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>System - Cloud Service Webex</title></rect><text x="730.0416305603426" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCSW</text>
+<line x1="370" y1="1322" x2="370.0" y2="1356.0" stroke="#1F5FD1" stroke-width="7"/><rect x="346.0" y="1345.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>System - Cloud Service Webex</title></rect><text x="370.0" y="1361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCSW</text>
+<line x1="160" y1="566" x2="126.0" y2="566.0" stroke="#5C6BC0" stroke-width="7"/><rect x="102.0" y="555.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Tenant Migration</title></rect><text x="126.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TM</text>
+<line x1="412" y1="356" x2="412.0" y2="322.0" stroke="#5C6BC0" stroke-width="7"/><rect x="388.0" y="311.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Tenant Migration</title></rect><text x="412.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TM</text>
+<line x1="1168" y1="1700" x2="1192.0416305603426" y2="1724.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1168.0416305603426" y="1713.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Troubleshooting Tools - Device Group</title></rect><text x="1192.0416305603426" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TTDG</text>
+<line x1="916" y1="1448" x2="891.9583694396574" y2="1423.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="867.9583694396574" y="1412.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Troubleshooting Tools - Device Group</title></rect><text x="891.9583694396574" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TTDG</text>
+<line x1="1084" y1="1448" x2="1059.9583694396574" y2="1472.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="1035.9583694396574" y="1461.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Wani Recommendations</title></rect><text x="1059.9583694396574" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WR</text>
+<line x1="1252" y1="1070" x2="1252.0" y2="1036.0" stroke="#4A5568" stroke-width="7"/><rect x="1228.0" y="1025.0" width="48" height="22" rx="5" fill="#4A5568"><title>Wani Recommendations</title></rect><text x="1252.0" y="1041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WR</text>
+<line x1="1168" y1="230" x2="1202.0" y2="230.0" stroke="#0B7A75" stroke-width="7"/><rect x="1178.0" y="219.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Workflows - Controllers Upgrade</title></rect><text x="1202.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WCU</text>
+<line x1="790" y1="230" x2="756.0" y2="230.0" stroke="#0B7A75" stroke-width="7"/><rect x="732.0" y="219.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Workflows - Controllers Upgrade</title></rect><text x="756.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WCU</text>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-cisco-software-api/#op-fetchEulaStatus" target="_blank" class="st" data-op="fetchEulaStatus"><title>GET /v1/cisco-software/eula
+Cisco Software line · fetchEulaStatus</title>
+<circle cx="1000" cy="776" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1012" y="781" text-anchor="start" style="fill:#1A1F2C">Get eula</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-cisco-software-api/#op-getImageMetadataFromCCO" target="_blank" class="st" data-op="getImageMetadataFromCCO"><title>POST /v1/cisco-software/imagemetadata
+Cisco Software line · getImageMetadataFromCCO</title>
+<circle cx="916" cy="860" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="928" y="865" text-anchor="start" style="fill:#1A1F2C">Update imagemetadata</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-cisco-software-api/#op-getCiscoSoftwareUser" target="_blank" class="st" data-op="getCiscoSoftwareUser"><title>GET /v1/cisco-software/user
+Cisco Software line · getCiscoSoftwareUser</title>
+<circle cx="874" cy="902" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="886" y="907" text-anchor="start" style="fill:#1A1F2C">Get user <tspan font-weight="700" style="fill:#00838F">⇄AUAG p.2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-cisco-software-api/#op-getAuthUrl" target="_blank" class="st" data-op="getAuthUrl"><title>GET /v1/device-authorize/authentication
+Cisco Software line · getAuthUrl</title>
+<circle cx="832" cy="944" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="844" y="949" text-anchor="start" style="fill:#1A1F2C">Get authentication</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-cisco-software-api/#op-getAuthToken" target="_blank" class="st" data-op="getAuthToken"><title>POST /v1/device-authorize/token/{deviceCode}
+Cisco Software line · getAuthToken</title>
+<circle cx="832" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="844" y="1075" text-anchor="start" style="fill:#1A1F2C">Update token <tspan font-weight="700" style="fill:#4A5568">⇄MSXI</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-cisco-software-api/#op-getTokenValidity" target="_blank" class="st" data-op="getTokenValidity"><title>GET /v1/device-authorize/validtoken
+Cisco Software line · getTokenValidity</title>
+<circle cx="832" cy="1154" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="844" y="1159" text-anchor="start" style="fill:#1A1F2C">Get validtoken</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-colocation-api/#op-getvnfByDeviceId" target="_blank" class="st" data-op="getvnfByDeviceId"><title>GET /colocation/monitor/device/vnf
+Colocation line · getvnfByDeviceId
+DEPRECATED</title>
+<circle cx="370" cy="776" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="382" y="781" text-anchor="start" style="fill:#A0A7B4">Get vnf</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-colocation-api/#op-vnfActions" target="_blank" class="st" data-op="vnfActions"><title>POST /colocation/monitor/vnf/action
+Colocation line · vnfActions
+DEPRECATED</title>
+<circle cx="454" cy="692" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="466" y="697" text-anchor="start" style="fill:#A0A7B4">Update action</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-colocation-api/#op-getVNFEventsCountDetail" target="_blank" class="st" data-op="getVNFEventsCountDetail"><title>GET /colocation/monitor/vnf/alarms
+Colocation line · getVNFEventsCountDetail
+DEPRECATED</title>
+<circle cx="538" cy="608" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="550" y="613" text-anchor="start" style="fill:#A0A7B4">List alarms <tspan font-weight="700" style="fill:#8D6E63">⇄MAD p.7</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-colocation-api/#op-getVNFAlarmCount" target="_blank" class="st" data-op="getVNFAlarmCount"><title>GET /colocation/monitor/vnf/alarms/count
+Colocation line · getVNFAlarmCount
+DEPRECATED</title>
+<circle cx="580" cy="566" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="592" y="571" text-anchor="start" style="fill:#A0A7B4">Get count</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-colocation-api/#op-getVNFEventsDetail" target="_blank" class="st" data-op="getVNFEventsDetail"><title>GET /colocation/monitor/vnf/events
+Colocation line · getVNFEventsDetail
+DEPRECATED</title>
+<circle cx="580" cy="482" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="592" y="487" text-anchor="start" style="fill:#A0A7B4">List events <tspan font-weight="700" style="fill:#00838F">⇄AUAG p.2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-colocation-api/#op-getVNFInterfaceDetail" target="_blank" class="st" data-op="getVNFInterfaceDetail"><title>GET /colocation/monitor/vnf/interface
+Colocation line · getVNFInterfaceDetail
+DEPRECATED</title>
+<circle cx="580" cy="398" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="568.0" y="403" text-anchor="end" style="fill:#A0A7B4">Get interface</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-segments-api/#op-getSegments" target="_blank" class="st" data-op="getSegments"><title>GET /segment
+Configuration - Segments line · getSegments</title>
+<circle cx="874" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="868" y="746" text-anchor="end" transform="rotate(-45 868 746)" style="fill:#1A1F2C">Get segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-segments-api/#op-createSegment" target="_blank" class="st" data-op="createSegment"><title>POST /segment
+Configuration - Segments line · createSegment</title>
+<circle cx="748" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="754" y="722" transform="rotate(-45 754 722)" style="fill:#1A1F2C">Update segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-segments-api/#op-deleteSegment" target="_blank" class="st" data-op="deleteSegment"><title>DELETE /segment/{id}
+Configuration - Segments line · deleteSegment</title>
+<circle cx="496" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="492" y1="864" x2="500" y2="856" stroke="#D6264F" stroke-width="2"/>
+<text x="508" y="865" text-anchor="start" style="fill:#1A1F2C">Delete segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-segments-api/#op-getSegment" target="_blank" class="st" data-op="getSegment"><title>GET /segment/{id}
+Configuration - Segments line · getSegment</title>
+<circle cx="622" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="610.0" y="739" text-anchor="end" style="fill:#1A1F2C">Get segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-segments-api/#op-editSegment" target="_blank" class="st" data-op="editSegment"><title>PUT /segment/{id}
+Configuration - Segments line · editSegment</title>
+<circle cx="580" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="781" text-anchor="start" style="fill:#1A1F2C">Update segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-topology-api/#op-createFullTopology" target="_blank" class="st" data-op="createFullTopology"><title>GET /topology
+Configuration - Topology line · createFullTopology</title>
+<circle cx="790" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="796" y="1310" transform="rotate(-45 796 1310)" style="fill:#1A1F2C">Get topology <tspan font-weight="700" style="fill:#7858e3">⇄MSHM p.1</tspan> <tspan font-weight="700" style="fill:#db398b">⇄MCG p.2</tspan> <tspan font-weight="700" style="fill:#d04466">⇄MUIG p.2</tspan> <tspan font-weight="700" style="fill:#17d246">⇄RTME p.2</tspan> <tspan font-weight="700" style="fill:#17d256">⇄RTMM p.2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-topology-api/#op-createDeviceTopology" target="_blank" class="st" data-op="createDeviceTopology"><title>GET /topology/device
+Configuration - Topology line · createDeviceTopology</title>
+<circle cx="748" cy="1280" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="739.0" y="1299" text-anchor="end" style="fill:#1A1F2C">Get device <tspan font-weight="700" style="fill:#0d772c">⇄CDD p.2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-topology-api/#op-getSiteTopology" target="_blank" class="st" data-op="getSiteTopology"><title>GET /topology/device/site/{siteId}
+Configuration - Topology line · getSiteTopology</title>
+<circle cx="622" cy="1280" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="610.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Get site</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-topology-api/#op-getSiteTopologyMonitorData" target="_blank" class="st" data-op="getSiteTopologyMonitorData"><title>GET /topology/monitor/site/{siteId}
+Configuration - Topology line · getSiteTopologyMonitorData</title>
+<circle cx="538" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="1369" text-anchor="start" style="fill:#1A1F2C">Get site</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-configuration-topology-api/#op-createPhysicalTopology" target="_blank" class="st" data-op="createPhysicalTopology"><title>GET /topology/physical
+Configuration - Topology line · createPhysicalTopology</title>
+<circle cx="496" cy="1406" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="1411" text-anchor="start" style="fill:#1A1F2C">Get physical</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-requesDNSSecActions" target="_blank" class="st" data-op="requesDNSSecActions"><title>GET /fedramp/dnssec/actions
+Deployment Mode line · requesDNSSecActions</title>
+<circle cx="1210" cy="482" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1204" y="494" text-anchor="end" transform="rotate(-45 1204 494)" style="fill:#1A1F2C">List actions</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-configureDNSSec" target="_blank" class="st" data-op="configureDNSSec"><title>POST /fedramp/dnssec/config
+Deployment Mode line · configureDNSSec</title>
+<circle cx="1084" cy="482" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1072.0" y="487" text-anchor="end" style="fill:#1A1F2C">Update config</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-getDNSSecStatus" target="_blank" class="st" data-op="getDNSSecStatus"><title>GET /fedramp/dnssec/status
+Deployment Mode line · getDNSSecStatus</title>
+<circle cx="1042" cy="440" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="445" text-anchor="start" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-configFedrampMode" target="_blank" class="st" data-op="configFedrampMode"><title>POST /fedramp/status
+Deployment Mode line · configFedrampMode</title>
+<circle cx="1000" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1012" y="403" text-anchor="start" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-requestWazuhActions" target="_blank" class="st" data-op="requestWazuhActions"><title>GET /fedramp/wazuh/actions
+Deployment Mode line · requestWazuhActions</title>
+<circle cx="874" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="880" y="386" transform="rotate(-45 880 386)" style="fill:#1A1F2C">List actions</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-configureWazuhClient" target="_blank" class="st" data-op="configureWazuhClient"><title>POST /fedramp/wazuh/config
+Deployment Mode line · configureWazuhClient</title>
+<circle cx="790" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="796" y="386" transform="rotate(-45 796 386)" style="fill:#1A1F2C">Update config</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-deployment-mode-api/#op-getWazuhAgentStatus" target="_blank" class="st" data-op="getWazuhAgentStatus"><title>GET /fedramp/wazuh/status
+Deployment Mode line · getWazuhAgentStatus</title>
+<circle cx="706" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="712" y="386" transform="rotate(-45 712 386)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-hsec-api/#op-fetchDeviceDetails" target="_blank" class="st" data-op="fetchDeviceDetails"><title>GET /hsec/devices
+HSEC line · fetchDeviceDetails</title>
+<circle cx="1294" cy="860" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1306" y="865" text-anchor="start" style="fill:#1A1F2C">List devices</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-hsec-api/#op-InstallDeviceDetails" target="_blank" class="st" data-op="InstallDeviceDetails"><title>GET /hsec/devices/install
+HSEC line · InstallDeviceDetails</title>
+<circle cx="1252" cy="902" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1264" y="907" text-anchor="start" style="fill:#1A1F2C">Get install</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-hsec-api/#op-downloadSlacRequestFile" target="_blank" class="st" data-op="downloadSlacRequestFile"><title>POST /hsec/download
+HSEC line · downloadSlacRequestFile</title>
+<circle cx="1210" cy="944" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1222" y="949" text-anchor="start" style="fill:#1A1F2C">Update download</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-hsec-api/#op-fetchSAVAAccounts" target="_blank" class="st" data-op="fetchSAVAAccounts"><title>GET /hsec/fetchaccounts
+HSEC line · fetchSAVAAccounts
+DEPRECATED</title>
+<circle cx="1168" cy="986" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1180" y="991" text-anchor="start" style="fill:#A0A7B4">List fetchaccounts</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-hsec-api/#op-fetchAccounts_Hsec_1904" target="_blank" class="st" data-op="fetchAccounts_Hsec_1904"><title>POST /hsec/fetchaccounts
+HSEC line · fetchAccounts_Hsec_1904</title>
+<circle cx="1126" cy="1028" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1117.0" y="1047" text-anchor="end" style="fill:#1A1F2C">Create fetchaccount</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-hsec-api/#op-testbedMode" target="_blank" class="st" data-op="testbedMode"><title>GET /hsec/testbedMode
+HSEC line · testbedMode</title>
+<circle cx="1000" cy="1028" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1006" y="1016" transform="rotate(-45 1006 1016)" style="fill:#1A1F2C">Get testbedmode</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-idp-certificate-management-api/#op-getCertificateDetails" target="_blank" class="st" data-op="getCertificateDetails"><title>GET /idpcertificate
+IDP Certificate Management line · getCertificateDetails</title>
+<circle cx="244" cy="1280" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="256" y="1285" text-anchor="start" style="fill:#1A1F2C">Get idpcertificate</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-idp-certificate-management-api/#op-renewCSR" target="_blank" class="st" data-op="renewCSR"><title>PUT /idpcertificate/CSR
+IDP Certificate Management line · renewCSR</title>
+<circle cx="244" cy="1028" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="256" y="1033" text-anchor="start" style="fill:#1A1F2C">Update csr</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-idp-certificate-management-api/#op-genCSR" target="_blank" class="st" data-op="genCSR"><title>POST /idpcertificate/CSR
+IDP Certificate Management line · genCSR</title>
+<circle cx="244" cy="1112" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="256" y="1117" text-anchor="start" style="fill:#1A1F2C">Update csr</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-idp-certificate-management-api/#op-getCSR_IdpCertificateManagement_1903" target="_blank" class="st" data-op="getCSR_IdpCertificateManagement_1903"><title>GET /idpcertificate/CSR
+IDP Certificate Management line · getCSR_IdpCertificateManagement_1903</title>
+<circle cx="244" cy="1196" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="256" y="1201" text-anchor="start" style="fill:#1A1F2C">Get csr</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-idp-certificate-management-api/#op-renewIDPCertificate" target="_blank" class="st" data-op="renewIDPCertificate"><title>POST /idpcertificate/renew
+IDP Certificate Management line · renewIDPCertificate</title>
+<circle cx="244" cy="944" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="256" y="949" text-anchor="start" style="fill:#1A1F2C">Update renew</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-idp-certificate-management-api/#op-importIDPCertificate" target="_blank" class="st" data-op="importIDPCertificate"><title>POST /idpcertificate/signed
+IDP Certificate Management line · importIDPCertificate</title>
+<circle cx="244" cy="860" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="256" y="865" text-anchor="start" style="fill:#1A1F2C">Update signed</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-licensing-next-generation-api/#op-assignMSLALicenses" target="_blank" class="st" data-op="assignMSLALicenses"><title>POST /v1/licensing/assign-licenses
+Licensing - Next Generation line · assignMSLALicenses</title>
+<circle cx="370" cy="1490" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="358.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Create assign licens</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-licensing-next-generation-api/#op-getMSLADevices_LicensingNextGeneration_2103" target="_blank" class="st" data-op="getMSLADevices_LicensingNextGeneration_2103"><title>GET /v1/licensing/devices
+Licensing - Next Generation line · getMSLADevices_LicensingNextGeneration_2103</title>
+<circle cx="370" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="382" y="1579" text-anchor="start" style="fill:#1A1F2C">List devices</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-licensing-next-generation-api/#op-getLicenseByUuid_LicensingNextGeneration_3403" target="_blank" class="st" data-op="getLicenseByUuid_LicensingNextGeneration_3403"><title>GET /v1/licensing/edit-licenses/{uuid}
+Licensing - Next Generation line · getLicenseByUuid_LicensingNextGeneration_3403</title>
+<circle cx="370" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="382" y="1663" text-anchor="start" style="fill:#1A1F2C">Get edit licens</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-licensing-next-generation-api/#op-getMSLALicenses" target="_blank" class="st" data-op="getMSLALicenses"><title>POST /v1/licensing/licenses
+Licensing - Next Generation line · getMSLALicenses</title>
+<circle cx="412" cy="1700" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="400.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Create licens</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-licensing-next-generation-api/#op-releaseLicenses_LicensingNextGeneration_3003" target="_blank" class="st" data-op="releaseLicenses_LicensingNextGeneration_3003"><title>PUT /v1/licensing/release-licenses
+Licensing - Next Generation line · releaseLicenses_LicensingNextGeneration_3003</title>
+<circle cx="496" cy="1700" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="502" y="1688" transform="rotate(-45 502 1688)" style="fill:#1A1F2C">Create release licens</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-licensing-next-generation-api/#op-getSAVADistribution" target="_blank" class="st" data-op="getSAVADistribution"><title>POST /v1/licensing/sa-va-distribution
+Licensing - Next Generation line · getSAVADistribution</title>
+<circle cx="580" cy="1700" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="574" y="1712" text-anchor="end" transform="rotate(-45 574 1712)" style="fill:#1A1F2C">Update sa va distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-api/#op-getStatisticsType" target="_blank" class="st" data-op="getStatisticsType"><title>GET /data/device/statistics
+Monitoring - Device Statistics Details line · getStatisticsType</title>
+<circle cx="790" cy="1448" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="778.0" y="1453" text-anchor="end" style="fill:#1A1F2C">List statistics <tspan font-weight="700" style="fill:#7B3FE4">⇄MAH p.1</tspan> <tspan font-weight="700" style="fill:#0d7754">⇄MDD p.9</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-api/#op-getActiveAlarms" target="_blank" class="st" data-op="getActiveAlarms"><title>GET /data/device/statistics/alarm/active
+Monitoring - Device Statistics Details line · getActiveAlarms</title>
+<circle cx="664" cy="1574" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="676" y="1579" text-anchor="start" style="fill:#1A1F2C">Get active</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-api/#op-generateDeviceStatisticsData" target="_blank" class="st" data-op="generateDeviceStatisticsData"><title>GET /data/device/statistics/{state_data_type}
+Monitoring - Device Statistics Details line · generateDeviceStatisticsData</title>
+<circle cx="706" cy="1532" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="718" y="1537" text-anchor="start" style="fill:#1A1F2C">Get statistic</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-api/#op-getCountWithStateDataType" target="_blank" class="st" data-op="getCountWithStateDataType"><title>GET /data/device/statistics/{state_data_type}/doccount
+Monitoring - Device Statistics Details line · getCountWithStateDataType</title>
+<circle cx="538" cy="1574" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="547" y="1564" text-anchor="start" style="fill:#1A1F2C">Get doccount</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-api/#op-getStatDataFieldsByStateDataType" target="_blank" class="st" data-op="getStatDataFieldsByStateDataType"><title>GET /data/device/statistics/{state_data_type}/fields
+Monitoring - Device Statistics Details line · getStatDataFieldsByStateDataType</title>
+<circle cx="496" cy="1532" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="508" y="1537" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-v2-api/#op-generateDeviceInterfaceStatisticsData" target="_blank" class="st" data-op="generateDeviceInterfaceStatisticsData"><title>GET /v2/data/device/statistics/interfacestatistics
+Monitoring - Device Statistics Details V2 line · generateDeviceInterfaceStatisticsData</title>
+<circle cx="1168" cy="1826" r="5.5" fill="#fff" stroke="#746253" stroke-width="2.5"/>
+<text x="1180" y="1831" text-anchor="start" style="fill:#1A1F2C">List interfacestatistics <tspan font-weight="700" style="fill:#0d7754">⇄MDD p.9</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-v2-api/#op-getCountWithInterfaceStatistics" target="_blank" class="st" data-op="getCountWithInterfaceStatistics"><title>GET /v2/data/device/statistics/interfacestatistics/doccount
+Monitoring - Device Statistics Details V2 line · getCountWithInterfaceStatistics</title>
+<circle cx="1084" cy="1910" r="5.5" fill="#fff" stroke="#746253" stroke-width="2.5"/>
+<text x="1096" y="1915" text-anchor="start" style="fill:#1A1F2C">Get doccount</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-device-statistics-details-v2-api/#op-getStatDataFieldsByInterfaceStatistics" target="_blank" class="st" data-op="getStatDataFieldsByInterfaceStatistics"><title>GET /v2/data/device/statistics/interfacestatistics/fields
+Monitoring - Device Statistics Details V2 line · getStatDataFieldsByInterfaceStatistics</title>
+<circle cx="1000" cy="1994" r="5.5" fill="#fff" stroke="#746253" stroke-width="2.5"/>
+<text x="1012" y="1999" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-securex-integration-api/#op-getSecureXAccessToken" target="_blank" class="st" data-op="getSecureXAccessToken"><title>GET /accesstoken/{regionBaseUri}/{clientId}
+Monitoring - SecureX Integration line · getSecureXAccessToken
+DEPRECATED</title>
+<circle cx="916" cy="1280" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="928" y="1285" text-anchor="start" style="fill:#A0A7B4">Get accesstoken <tspan font-weight="700" style="fill:#B0287F">⇄DCA p.1</tspan> <tspan font-weight="700" style="fill:#2E7D32">⇄SCS p.8</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-securex-integration-api/#op-deviceAuthorization" target="_blank" class="st" data-op="deviceAuthorization"><title>POST /device_authorization/{regionBaseUri}/{clientId}
+Monitoring - SecureX Integration line · deviceAuthorization
+DEPRECATED</title>
+<circle cx="958" cy="1238" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="970" y="1243" text-anchor="start" style="fill:#A0A7B4">Update device authorization</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-securex-integration-api/#op-getSecureXRefreshToken" target="_blank" class="st" data-op="getSecureXRefreshToken"><title>GET /refreshtoken/{regionBaseUri}/{clientId}
+Monitoring - SecureX Integration line · getSecureXRefreshToken
+DEPRECATED</title>
+<circle cx="1000" cy="1196" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1012" y="1201" text-anchor="start" style="fill:#A0A7B4">Get refreshtoken</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-monitoring-securex-integration-api/#op-token" target="_blank" class="st" data-op="token"><title>POST /token/{regionBaseUri}/{clientId}
+Monitoring - SecureX Integration line · token
+DEPRECATED</title>
+<circle cx="1042" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1051" y="1173" text-anchor="start" style="fill:#A0A7B4">Update token <tspan font-weight="700" style="fill:#5867e3">⇄MSD p.1</tspan> <tspan font-weight="700" style="fill:#D6264F">⇄ML p.8</tspan> <tspan font-weight="700" style="fill:#0d7757">⇄TTDC p.9</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-rules-api/#op-getPreviewOfBulkRuleAssociation" target="_blank" class="st" data-op="getPreviewOfBulkRuleAssociation"><title>GET /v1/topology-group/{topologyGroupId}/rules/preview
+Topology - Topology Group line · getPreviewOfBulkRuleAssociation</title>
+<circle cx="1588" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1582" y="746" text-anchor="end" transform="rotate(-45 1582 746)" style="fill:#1A1F2C">Preview rule</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-cdna-api/#op-getCdnaSenseService" target="_blank" class="st" data-op="getCdnaSenseService"><title>GET /cdna/sense/{tag}
+System - Cloud Service CDNA line · getCdnaSenseService</title>
+<circle cx="790" cy="566" r="5.5" fill="#fff" stroke="#393d4f" stroke-width="2.5"/>
+<text x="796" y="554" transform="rotate(-45 796 554)" style="fill:#1A1F2C">Get sense</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-cdna-api/#op-getCdnaServer" target="_blank" class="st" data-op="getCdnaServer"><title>GET /cdna/server
+System - Cloud Service CDNA line · getCdnaServer</title>
+<circle cx="874" cy="566" r="5.5" fill="#fff" stroke="#393d4f" stroke-width="2.5"/>
+<text x="880" y="554" transform="rotate(-45 880 554)" style="fill:#1A1F2C">Get server <tspan font-weight="700" style="fill:#D6264F">⇄ML p.8</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-cdna-api/#op-deleteCdnaServer" target="_blank" class="st" data-op="deleteCdnaServer"><title>DELETE /cdna/server
+System - Cloud Service CDNA line · deleteCdnaServer</title>
+<circle cx="1042" cy="650" r="5.5" fill="#fff" stroke="#393d4f" stroke-width="2.5"/>
+<line x1="1038" y1="654" x2="1046" y2="646" stroke="#393d4f" stroke-width="2"/>
+<text x="1054" y="655" text-anchor="start" style="fill:#1A1F2C">Delete server</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-cdna-api/#op-enrollCdnaServer" target="_blank" class="st" data-op="enrollCdnaServer"><title>PUT /cdna/server
+System - Cloud Service CDNA line · enrollCdnaServer</title>
+<circle cx="958" cy="566" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="970" y="571" text-anchor="start" style="fill:#1A1F2C">Update server <tspan font-weight="700" style="fill:#4A5568">⇄MSXI</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-webexAccessCode" target="_blank" class="st" data-op="webexAccessCode"><title>GET /webex/accesscode
+System - Cloud Service Webex line · webexAccessCode</title>
+<circle cx="706" cy="860" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="706" y="882" text-anchor="middle" style="fill:#1A1F2C">Get<tspan x="706" dy="13">accesscode <tspan font-weight="700" style="fill:#af233f">⇄CCE p.5</tspan> <tspan font-weight="700" style="fill:#af4423">⇄CPLB p.7</tspan> <tspan font-weight="700" style="fill:#D6264F">⇄ML p.8</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-getWebexDataCenters" target="_blank" class="st" data-op="getWebexDataCenters"><title>POST /webex/datacenter
+System - Cloud Service Webex line · getWebexDataCenters</title>
+<circle cx="622" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="634" y="949" text-anchor="start" style="fill:#1A1F2C">Update datacenter</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-deleteWebexDataCenters" target="_blank" class="st" data-op="deleteWebexDataCenters"><title>DELETE /webex/datacenter
+System - Cloud Service Webex line · deleteWebexDataCenters</title>
+<circle cx="538" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="534" y1="1032" x2="542" y2="1024" stroke="#1F5FD1" stroke-width="2"/>
+<text x="550" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete datacenter</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-updateWebexDataCenters" target="_blank" class="st" data-op="updateWebexDataCenters"><title>POST /webex/datacenter/sync
+System - Cloud Service Webex line · updateWebexDataCenters</title>
+<circle cx="412" cy="1112" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="412" y="1084" text-anchor="middle" style="fill:#1A1F2C">Sync webex<tspan x="412" dy="13">datacenter</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-getWebexDataCentersSyncStatus" target="_blank" class="st" data-op="getWebexDataCentersSyncStatus"><title>GET /webex/datacenter/syncstatus
+System - Cloud Service Webex line · getWebexDataCentersSyncStatus</title>
+<circle cx="370" cy="1154" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="382" y="1159" text-anchor="start" style="fill:#1A1F2C">List syncstatus</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-setWebexDataCentersSyncStatus" target="_blank" class="st" data-op="setWebexDataCentersSyncStatus"><title>PUT /webex/datacenter/syncstatus
+System - Cloud Service Webex line · setWebexDataCentersSyncStatus</title>
+<circle cx="370" cy="1238" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="382" y="1243" text-anchor="start" style="fill:#1A1F2C">Create syncstatu</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-system-cloud-service-webex-api/#op-redirectWebexDataCenters" target="_blank" class="st" data-op="redirectWebexDataCenters"><title>GET /webex/redirect
+System - Cloud Service Webex line · redirectWebexDataCenters</title>
+<circle cx="370" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="382" y="1327" text-anchor="start" style="fill:#1A1F2C">Get redirect</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-tenant-migration-api/#op-downloadTenantData" target="_blank" class="st" data-op="downloadTenantData"><title>GET /tenantmigration/download/{path}
+Tenant Migration line · downloadTenantData</title>
+<circle cx="160" cy="566" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="166" y="554" transform="rotate(-45 166 554)" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-tenant-migration-api/#op-exportTenantData" target="_blank" class="st" data-op="exportTenantData"><title>POST /tenantmigration/export
+Tenant Migration line · exportTenantData</title>
+<circle cx="244" cy="566" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="250" y="554" transform="rotate(-45 250 554)" style="fill:#1A1F2C">Export tenantmigration</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-tenant-migration-api/#op-importTenantData" target="_blank" class="st" data-op="importTenantData"><title>POST /tenantmigration/import/{migrationKey}
+Tenant Migration line · importTenantData</title>
+<circle cx="328" cy="566" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="334" y="554" transform="rotate(-45 334 554)" style="fill:#1A1F2C">Update import</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-tenant-migration-api/#op-getMigrationToken" target="_blank" class="st" data-op="getMigrationToken"><title>GET /tenantmigration/migrationToken
+Tenant Migration line · getMigrationToken</title>
+<circle cx="412" cy="566" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="424" y="571" text-anchor="start" style="fill:#1A1F2C">Get migrationtoken</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-tenant-migration-api/#op-reTriggerNetworkMigration" target="_blank" class="st" data-op="reTriggerNetworkMigration"><title>GET /tenantmigration/networkMigration
+Tenant Migration line · reTriggerNetworkMigration</title>
+<circle cx="412" cy="440" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="424" y="445" text-anchor="start" style="fill:#1A1F2C">Get networkmigration</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-tenant-migration-api/#op-migrateNetwork" target="_blank" class="st" data-op="migrateNetwork"><title>POST /tenantmigration/networkMigration
+Tenant Migration line · migrateNetwork</title>
+<circle cx="412" cy="356" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="400.0" y="361" text-anchor="end" style="fill:#1A1F2C">Update networkmigration</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-CreateTopologyGroup" target="_blank" class="st" data-op="CreateTopologyGroup"><title>POST /v1/topology-group
+Topology - Topology Group line · CreateTopologyGroup</title>
+<circle cx="1336" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="403" text-anchor="start" style="fill:#1A1F2C">Update topology group</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-GetTopologyGroupBySolution" target="_blank" class="st" data-op="GetTopologyGroupBySolution"><title>GET /v1/topology-group
+Topology - Topology Group line · GetTopologyGroupBySolution</title>
+<circle cx="1336" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="319" text-anchor="start" style="fill:#1A1F2C">Get topology group</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-GetTopologyGroup" target="_blank" class="st" data-op="GetTopologyGroup"><title>GET /v1/topology-group/{topologyGroupId}
+Topology - Topology Group line · GetTopologyGroup</title>
+<circle cx="1336" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="529" text-anchor="start" style="fill:#1A1F2C">Get topology group</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-EditTopologyGroup" target="_blank" class="st" data-op="EditTopologyGroup"><title>PUT /v1/topology-group/{topologyGroupId}
+Topology - Topology Group line · EditTopologyGroup</title>
+<circle cx="1336" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="613" text-anchor="start" style="fill:#1A1F2C">Update topology group</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-DeleteTopologyGroup" target="_blank" class="st" data-op="DeleteTopologyGroup"><title>DELETE /v1/topology-group/{topologyGroupId}
+Topology - Topology Group line · DeleteTopologyGroup</title>
+<circle cx="1336" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1332" y1="696" x2="1340" y2="688" stroke="#D6264F" stroke-width="2"/>
+<text x="1348" y="697" text-anchor="start" style="fill:#1A1F2C">Delete topology group</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-deployTopologyGroup" target="_blank" class="st" data-op="deployTopologyGroup"><title>POST /v1/topology-group/{topologyGroupId}/device/deploy
+Topology - Topology Group line · deployTopologyGroup</title>
+<circle cx="1378" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1366.0" y="739" text-anchor="end" style="fill:#1A1F2C">Update deploy</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-topology-topology-group-api/#op-getTopologyGroupDeviceConfigurationPreview" target="_blank" class="st" data-op="getTopologyGroupDeviceConfigurationPreview"><title>POST /v1/topology-group/{topologyGroupId}/device/{deviceId}/preview
+Topology - Topology Group line · getTopologyGroupDeviceConfigurationPreview</title>
+<circle cx="1504" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1510" y="722" transform="rotate(-45 1510 722)" style="fill:#1A1F2C">Preview device</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-troubleshooting-tools-device-group-api/#op-listDeviceGroupList" target="_blank" class="st" data-op="listDeviceGroupList"><title>GET /group
+Troubleshooting Tools - Device Group line · listDeviceGroupList</title>
+<circle cx="1168" cy="1700" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="1705" text-anchor="start" style="fill:#1A1F2C">Get group</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-troubleshooting-tools-device-group-api/#op-listDeviceGroups" target="_blank" class="st" data-op="listDeviceGroups"><title>GET /group/device
+Troubleshooting Tools - Device Group line · listDeviceGroups</title>
+<circle cx="1084" cy="1616" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="1621" text-anchor="start" style="fill:#1A1F2C">Get device <tspan font-weight="700" style="fill:#0d772c">⇄CDD p.2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-troubleshooting-tools-device-group-api/#op-listGroupDevices" target="_blank" class="st" data-op="listGroupDevices"><title>GET /group/devices
+Troubleshooting Tools - Device Group line · listGroupDevices</title>
+<circle cx="1042" cy="1574" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1054" y="1579" text-anchor="start" style="fill:#1A1F2C">List devices</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-troubleshooting-tools-device-group-api/#op-listGroupDevicesForMap" target="_blank" class="st" data-op="listGroupDevicesForMap"><title>GET /group/map/devices
+Troubleshooting Tools - Device Group line · listGroupDevicesForMap</title>
+<circle cx="1000" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1012" y="1537" text-anchor="start" style="fill:#1A1F2C">List devices</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-troubleshooting-tools-device-group-api/#op-listGroupLinksForMap" target="_blank" class="st" data-op="listGroupLinksForMap"><title>GET /group/map/devices/links
+Troubleshooting Tools - Device Group line · listGroupLinksForMap</title>
+<circle cx="916" cy="1448" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="1453" text-anchor="start" style="fill:#1A1F2C">List links</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-wani-recommendations-api/#op-applyWaniRecommendation" target="_blank" class="st" data-op="applyWaniRecommendation"><title>POST /policy/wani/recommendation/process
+Wani Recommendations line · applyWaniRecommendation</title>
+<circle cx="1084" cy="1448" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1096" y="1453" text-anchor="start" style="fill:#1A1F2C">Process recommendation <tspan font-weight="700" style="fill:#b56f13">⇄CFP7 p.6</tspan> <tspan font-weight="700" style="fill:#4d70e0">⇄CFP20 p.4</tspan> <tspan font-weight="700" style="fill:#0d7773">⇄PAPB p.8</tspan> <tspan font-weight="700" style="fill:#5C6BC0">⇄PPC p.3</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-wani-recommendations-api/#op-getWaniRecommendations" target="_blank" class="st" data-op="getWaniRecommendations"><title>GET /wani/recommendations
+Wani Recommendations line · getWaniRecommendations</title>
+<circle cx="1168" cy="1364" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1180" y="1369" text-anchor="start" style="fill:#1A1F2C">List recommendations <tspan font-weight="700" style="fill:#B8860B">⇄CS p.8</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-wani-recommendations-api/#op-getAppliedWaniRecommendations" target="_blank" class="st" data-op="getAppliedWaniRecommendations"><title>GET /wani/recommendations/applied
+Wani Recommendations line · getAppliedWaniRecommendations</title>
+<circle cx="1252" cy="1280" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1264" y="1285" text-anchor="start" style="fill:#1A1F2C">Get applied</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-wani-recommendations-api/#op-getListActivationStatus" target="_blank" class="st" data-op="getListActivationStatus"><title>GET /wani/{listType}/{listId}/listActivationStatus
+Wani Recommendations line · getListActivationStatus</title>
+<circle cx="1252" cy="1154" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1264" y="1159" text-anchor="start" style="fill:#1A1F2C">List listactivationstatus</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-wani-recommendations-api/#op-getPolicyActivationStatus" target="_blank" class="st" data-op="getPolicyActivationStatus"><title>GET /wani/{policyType}/{policyId}/policyActivationStatus
+Wani Recommendations line · getPolicyActivationStatus</title>
+<circle cx="1252" cy="1070" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1264" y="1075" text-anchor="start" style="fill:#1A1F2C">List policyactivationstatus</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-workflows-controllers-upgrade-api/#op-triggerControllersUpgrade" target="_blank" class="st" data-op="triggerControllersUpgrade"><title>POST /v1/controllers-upgrade
+Workflows - Controllers Upgrade line · triggerControllersUpgrade</title>
+<circle cx="1168" cy="230" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1162" y="242" text-anchor="end" transform="rotate(-45 1162 242)" style="fill:#1A1F2C">Update controllers upgrade</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-workflows-controllers-upgrade-api/#op-getAvailableVersions" target="_blank" class="st" data-op="getAvailableVersions"><title>GET /v1/controllers-upgrade/available-versions
+Workflows - Controllers Upgrade line · getAvailableVersions</title>
+<circle cx="1084" cy="230" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1090" y="218" transform="rotate(-45 1090 218)" style="fill:#1A1F2C">List available versions</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-workflows-controllers-upgrade-api/#op-cancelUpgrade" target="_blank" class="st" data-op="cancelUpgrade"><title>PUT /v1/controllers-upgrade/cancel
+Workflows - Controllers Upgrade line · cancelUpgrade</title>
+<circle cx="1000" cy="230" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1006" y="218" transform="rotate(-45 1006 218)" style="fill:#1A1F2C">Cancel controllers upgrade</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-workflows-controllers-upgrade-api/#op-rescheduleUpgrade" target="_blank" class="st" data-op="rescheduleUpgrade"><title>PUT /v1/controllers-upgrade/reschedule
+Workflows - Controllers Upgrade line · rescheduleUpgrade</title>
+<circle cx="958" cy="230" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="964" y="218" transform="rotate(-45 964 218)" style="fill:#1A1F2C">Update reschedule</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-workflows-controllers-upgrade-api/#op-getUpgradeStatus" target="_blank" class="st" data-op="getUpgradeStatus"><title>GET /v1/controllers-upgrade/status
+Workflows - Controllers Upgrade line · getUpgradeStatus</title>
+<circle cx="874" cy="230" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="880" y="218" transform="rotate(-45 880 218)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-catalyst-sdwan/cisco-catalyst-sdwan-workflows-controllers-upgrade-api/#op-getVersionComplianceInfo" target="_blank" class="st" data-op="getVersionComplianceInfo"><title>GET /v1/controllers-upgrade/version-compliance-info
+Workflows - Controllers Upgrade line · getVersionComplianceInfo</title>
+<circle cx="790" cy="230" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="796" y="218" transform="rotate(-45 796 218)" style="fill:#1A1F2C">Get version compliance info</text>
+</a>
+<text x="1778" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1778" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#8D6E63">DATA</text>
+<rect x="1778" y="259" width="34" height="13" rx="3" fill="#8D6E63"/><text x="1795" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MDSD</text><text x="1820" y="269" font-size="11" fill="#1A1F2C">Monitoring - Device Statistics Details <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1778" y="276" width="34" height="13" rx="3" fill="#746253"/><text x="1795" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MODS</text><text x="1820" y="286" font-size="11" fill="#1A1F2C">Monitoring - Device Statistics Details V2 <tspan fill="#8A93A6">3</tspan></text>
+<text x="1778" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#4A5568">ACCESSTOKEN</text>
+<rect x="1778" y="319" width="34" height="13" rx="3" fill="#4A5568"/><text x="1795" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MSXI</text><text x="1820" y="329" font-size="11" fill="#1A1F2C">Monitoring - SecureX Integration <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="336" width="34" height="13" rx="3" fill="#393d4f"/><text x="1795" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCSC</text><text x="1820" y="346" font-size="11" fill="#1A1F2C">System - Cloud Service CDNA <tspan fill="#8A93A6">4</tspan></text>
+<text x="1778" y="372" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">TOPOLOGY GROUP</text>
+<rect x="1778" y="379" width="34" height="13" rx="3" fill="#D6264F"/><text x="1795" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TTG</text><text x="1820" y="389" font-size="11" fill="#1A1F2C">Topology - Topology Group <tspan fill="#8A93A6">8</tspan></text>
+<text x="1778" y="415" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">FEDRAMP</text>
+<rect x="1778" y="422" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1795" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DM</text><text x="1820" y="432" font-size="11" fill="#1A1F2C">Deployment Mode <tspan fill="#8A93A6">7</tspan></text>
+<text x="1778" y="458" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">WEBEX</text>
+<rect x="1778" y="465" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1795" y="475" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCSW</text><text x="1820" y="475" font-size="11" fill="#1A1F2C">System - Cloud Service Webex <tspan fill="#8A93A6">7</tspan></text>
+<text x="1778" y="501" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">IDPCERTIFICATE</text>
+<rect x="1778" y="508" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1795" y="518" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ICM</text><text x="1820" y="518" font-size="11" fill="#1A1F2C">IDP Certificate Management <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="544" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">LICENSING</text>
+<rect x="1778" y="551" width="34" height="13" rx="3" fill="#B0287F"/><text x="1795" y="561" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LNG</text><text x="1820" y="561" font-size="11" fill="#1A1F2C">Licensing - Next Generation <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="587" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">CONTROLLERS UPGRADE</text>
+<rect x="1778" y="594" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1795" y="604" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WCU</text><text x="1820" y="604" font-size="11" fill="#1A1F2C">Workflows - Controllers Upgrade <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="630" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">COLOCATION</text>
+<rect x="1778" y="637" width="34" height="13" rx="3" fill="#B8860B"/><text x="1795" y="647" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COL</text><text x="1820" y="647" font-size="11" fill="#1A1F2C">Colocation <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="673" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">CISCO SOFTWARE</text>
+<rect x="1778" y="680" width="34" height="13" rx="3" fill="#C2410C"/><text x="1795" y="690" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CSC</text><text x="1820" y="690" font-size="11" fill="#1A1F2C">Cisco Software <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="716" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">HSEC</text>
+<rect x="1778" y="723" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1795" y="733" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HSE</text><text x="1820" y="733" font-size="11" fill="#1A1F2C">HSEC <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="759" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">TENANTMIGRATION</text>
+<rect x="1778" y="766" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1795" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TM</text><text x="1820" y="776" font-size="11" fill="#1A1F2C">Tenant Migration <tspan fill="#8A93A6">6</tspan></text>
+<text x="1778" y="802" font-size="12" font-weight="700" letter-spacing="1.5" fill="#4A5568">WANI</text>
+<rect x="1778" y="809" width="34" height="13" rx="3" fill="#4A5568"/><text x="1795" y="819" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WR</text><text x="1820" y="819" font-size="11" fill="#1A1F2C">Wani Recommendations <tspan fill="#8A93A6">5</tspan></text>
+<text x="1778" y="845" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SEGMENT</text>
+<rect x="1778" y="852" width="34" height="13" rx="3" fill="#D6264F"/><text x="1795" y="862" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COS</text><text x="1820" y="862" font-size="11" fill="#1A1F2C">Configuration - Segments <tspan fill="#8A93A6">5</tspan></text>
+<text x="1778" y="888" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">TOPOLOGY</text>
+<rect x="1778" y="895" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1795" y="905" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CT</text><text x="1820" y="905" font-size="11" fill="#1A1F2C">Configuration - Topology <tspan fill="#8A93A6">5</tspan></text>
+<text x="1778" y="931" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">GROUP</text>
+<rect x="1778" y="938" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1795" y="948" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TTDG</text><text x="1820" y="948" font-size="11" fill="#1A1F2C">Troubleshooting Tools - Device Group <tspan fill="#8A93A6">5</tspan></text>
+<text x="2028" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2046,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2072" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2046,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2072" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2046,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2072" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2046,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2072" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2046,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2072" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2046,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2072" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2046,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2072" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2046,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2072" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2028" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2028" y="463" font-size="10.5" fill="#5A6275">“CCI Authorization Service  - CCI Registration” → More Local line · 1 op</text>
+<text x="2028" y="478" font-size="10.5" fill="#5A6275">“CCI Authorization Service - CCI Token” → More Local line · 1 op</text>
+<text x="2028" y="493" font-size="10.5" fill="#5A6275">“Client - Security” → More Local line · 1 op</text>
+<text x="2028" y="508" font-size="10.5" fill="#5A6275">“Client - UI” → More Local line · 1 op</text>
+<text x="2028" y="523" font-size="10.5" fill="#5A6275">“Cloud Sourced Application Compliance” → Protocol Pack Compliance line · 2 ops</text>
+<text x="2028" y="538" font-size="10.5" fill="#5A6275">“Configuration - Downloaded Images” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="553" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (NFVirtual)” → Configuration - Feature Profile (NFVirtual) · CLI line · 9 ops</text>
+<text x="2028" y="568" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (NFVirtual)” → Configuration - Feature Profile (NFVirtual) · Networks line · 34 ops</text>
+<text x="2028" y="583" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (NFVirtual)” → Configuration - Feature Profile (NFVirtual) · System line · 29 ops</text>
+<text x="2028" y="598" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · CLI line · 21 ops</text>
+<text x="2028" y="613" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Embedded Security line · 15 ops</text>
+<text x="2028" y="628" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Other line · 5 ops</text>
+<text x="2028" y="643" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · SSE line · 10 ops</text>
+<text x="2028" y="658" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service line · 5 ops</text>
+<text x="2028" y="673" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Dhcp Server line · 5 ops</text>
+<text x="2028" y="688" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Ipsec line · 5 ops</text>
+<text x="2028" y="703" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Ipv4 Acl line · 5 ops</text>
+<text x="2028" y="718" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Multicloud Connection line · 5 ops</text>
+<text x="2028" y="733" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Objecttracker line · 5 ops</text>
+<text x="2028" y="748" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Objecttrackergroup line · 5 ops</text>
+<text x="2028" y="763" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Route Policy line · 5 ops</text>
+<text x="2028" y="778" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service Routing line · 15 ops</text>
+<text x="2028" y="793" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service VRF line · 5 ops</text>
+<text x="2028" y="808" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service VRF Dmvpn Tunnel line · 5 ops</text>
+<text x="2028" y="823" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service VRF Interface line · 15 ops</text>
+<text x="2028" y="838" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service VRF LAN line · 5 ops</text>
+<text x="2028" y="853" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Service VRF Routing line · 35 ops</text>
+<text x="2028" y="868" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Sse Spa line · 11 ops</text>
+<text x="2028" y="883" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System line · 5 ops</text>
+<text x="2028" y="898" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System AAA line · 5 ops</text>
+<text x="2028" y="913" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Banner line · 5 ops</text>
+<text x="2028" y="928" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Certificate line · 5 ops</text>
+<text x="2028" y="943" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Flexible Port Speed line · 5 ops</text>
+<text x="2028" y="958" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Global line · 5 ops</text>
+<text x="2028" y="973" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Ignition line · 5 ops</text>
+<text x="2028" y="988" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Logging line · 5 ops</text>
+<text x="2028" y="1003" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System NTP line · 5 ops</text>
+<text x="2028" y="1018" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · System Snmp line · 5 ops</text>
+<text x="2028" y="1033" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport line · 5 ops</text>
+<text x="2028" y="1048" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Cellular line · 5 ops</text>
+<text x="2028" y="1063" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Cellular Bandselect line · 5 ops</text>
+<text x="2028" y="1078" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Cellular Controller line · 14 ops</text>
+<text x="2028" y="1093" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport GPS line · 6 ops</text>
+<text x="2028" y="1108" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Global Vrf line · 5 ops</text>
+<text x="2028" y="1123" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Global Vrf Interface line · 25 ops</text>
+<text x="2028" y="1138" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Global Vrf Routing line · 26 ops</text>
+<text x="2028" y="1153" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Global Vrf WAN line · 5 ops</text>
+<text x="2028" y="1168" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Ipv4 Acl line · 5 ops</text>
+<text x="2028" y="1183" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Management Vrf line · 10 ops</text>
+<text x="2028" y="1198" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Multicloud Connection line · 5 ops</text>
+<text x="2028" y="1213" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Objecttracker line · 5 ops</text>
+<text x="2028" y="1228" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Objecttrackergroup line · 5 ops</text>
+<text x="2028" y="1243" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Route Policy line · 5 ops</text>
+<text x="2028" y="1258" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Routing line · 15 ops</text>
+<text x="2028" y="1273" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Tracker line · 5 ops</text>
+<text x="2028" y="1288" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport Trackergroup line · 5 ops</text>
+<text x="2028" y="1303" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SD-Routing)” → Configuration - Feature Profile (SD-Routing) · Transport VRF line · 41 ops</text>
+<text x="2028" y="1318" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sd Routing line · 5 ops</text>
+<text x="2028" y="1333" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Application Priority line · 9 ops</text>
+<text x="2028" y="1348" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan CLI line · 12 ops</text>
+<text x="2028" y="1363" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Dns Security line · 10 ops</text>
+<text x="2028" y="1378" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Embedded Security line · 10 ops</text>
+<text x="2028" y="1393" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Other line · 26 ops</text>
+<text x="2028" y="1408" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Policy Object line · 13 ops</text>
+<text x="2028" y="1423" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service line · 5 ops</text>
+<text x="2028" y="1438" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Appqoe line · 5 ops</text>
+<text x="2028" y="1453" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Dhcp Server line · 6 ops</text>
+<text x="2028" y="1468" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service LAN line · 90 ops</text>
+<text x="2028" y="1483" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Routing line · 32 ops</text>
+<text x="2028" y="1498" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Switchport line · 6 ops</text>
+<text x="2028" y="1513" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Tracker line · 6 ops</text>
+<text x="2028" y="1528" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Trackergroup line · 6 ops</text>
+<text x="2028" y="1543" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Service Wirelesslan line · 6 ops</text>
+<text x="2028" y="1558" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Sig Security line · 10 ops</text>
+<text x="2028" y="1573" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Sse Spa line · 11 ops</text>
+<text x="2028" y="1588" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System line · 5 ops</text>
+<text x="2028" y="1603" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System AAA line · 6 ops</text>
+<text x="2028" y="1618" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System BFD line · 6 ops</text>
+<text x="2028" y="1633" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Banner line · 6 ops</text>
+<text x="2028" y="1648" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Basic line · 6 ops</text>
+<text x="2028" y="1663" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Global line · 6 ops</text>
+<text x="2028" y="1678" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Ignition line · 5 ops</text>
+<text x="2028" y="1693" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Logging line · 6 ops</text>
+<text x="2028" y="1708" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System MRF line · 6 ops</text>
+<text x="2028" y="1723" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System NTP line · 6 ops</text>
+<text x="2028" y="1738" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System OMP line · 6 ops</text>
+<text x="2028" y="1753" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Security line · 5 ops</text>
+<text x="2028" y="1768" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan System Snmp line · 6 ops</text>
+<text x="2028" y="1783" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport line · 5 ops</text>
+<text x="2028" y="1798" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Cellular line · 6 ops</text>
+<text x="2028" y="1813" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Cellular Bandselect line · 5 ops</text>
+<text x="2028" y="1828" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Cellular Controller line · 21 ops</text>
+<text x="2028" y="1843" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Esimcellular line · 5 ops</text>
+<text x="2028" y="1858" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Esimcellular Controller line · 5 ops</text>
+<text x="2028" y="1873" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport GPS line · 5 ops</text>
+<text x="2028" y="1888" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Ipv6 Tracker line · 6 ops</text>
+<text x="2028" y="1903" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Ipv6 Trackergroup line · 6 ops</text>
+<text x="2028" y="1918" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Management line · 12 ops</text>
+<text x="2028" y="1933" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Routing line · 21 ops</text>
+<text x="2028" y="1948" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport T1 E1 Controller line · 6 ops</text>
+<text x="2028" y="1963" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Tracker line · 6 ops</text>
+<text x="2028" y="1978" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport Trackergroup line · 6 ops</text>
+<text x="2028" y="1993" font-size="10.5" fill="#5A6275">“Configuration - Feature Profile (SDWAN)” → Configuration - Feature Profile (SDWAN) · Sdwan Transport WAN line · 112 ops</text>
+<text x="2028" y="2008" font-size="10.5" fill="#5A6275">“Configuration - Maintenance window flag” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2023" font-size="10.5" fill="#5A6275">“Configuration - Policy Cloud Application Builder” → Configuration - Cloud On Ramp line · 1 op</text>
+<text x="2028" y="2038" font-size="10.5" fill="#5A6275">“Configuration - Policy Security Assembler” → Configuration - Cloud On Ramp line · 2 ops</text>
+<text x="2028" y="2053" font-size="10.5" fill="#5A6275">“Configuration - Policy Voice Assembler” → Configuration - Cloud On Ramp line · 2 ops</text>
+<text x="2028" y="2068" font-size="10.5" fill="#5A6275">“Configuration - Policy vEdge Assembler” → Configuration - Cloud On Ramp line · 2 ops</text>
+<text x="2028" y="2083" font-size="10.5" fill="#5A6275">“Configuration - Policy vSmart Assembler” → Configuration - Cloud On Ramp line · 2 ops</text>
+<text x="2028" y="2098" font-size="10.5" fill="#5A6275">“Configuration - Quick Connect” → Configuration - Cloud On Ramp line · 1 op</text>
+<text x="2028" y="2113" font-size="10.5" fill="#5A6275">“Configuration - Secure Internet Gateway Tunnels” → Configuration - Cloud On Ramp line · 1 op</text>
+<text x="2028" y="2128" font-size="10.5" fill="#5A6275">“Configuration - Template Lock” → Configuration - Cloud On Ramp line · 2 ops</text>
+<text x="2028" y="2143" font-size="10.5" fill="#5A6275">“Developers” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2158" font-size="10.5" fill="#5A6275">“Device - Messaging” → More Local line · 1 op</text>
+<text x="2028" y="2173" font-size="10.5" fill="#5A6275">“File based RealTime Data Collection - Device notification - File generation status” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2188" font-size="10.5" fill="#5A6275">“File based RealTime Data Collection - Download Generated File” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2203" font-size="10.5" fill="#5A6275">“File based RealTime Data Collection - Get Data Collection status for Device UUID” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2218" font-size="10.5" fill="#5A6275">“File based RealTime Data Collection - Get Data Collection status for a Request UUID” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2233" font-size="10.5" fill="#5A6275">“File based RealTime Data Collection - Get Supported Commands List for a Device UUID” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2248" font-size="10.5" fill="#5A6275">“File based RealTime Data Collection - Initiate File Generation” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2263" font-size="10.5" fill="#5A6275">“IPS Signature - Custom Rule” → IPS Signature - Comment line · 2 ops</text>
+<text x="2028" y="2278" font-size="10.5" fill="#5A6275">“Jobs - Batch” → More Local line · 1 op</text>
+<text x="2028" y="2293" font-size="10.5" fill="#5A6275">“Locale” → More Local line · 1 op</text>
+<text x="2028" y="2308" font-size="10.5" fill="#5A6275">“Management” → More Local line · 2 ops</text>
+<text x="2028" y="2323" font-size="10.5" fill="#5A6275">“Monitoring - BootUp Time” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2338" font-size="10.5" fill="#5A6275">“Monitoring - Crypto VPN” → Monitoring - App Hosting line · 2 ops</text>
+<text x="2028" y="2353" font-size="10.5" fill="#5A6275">“Monitoring - Device Configuration Security Advisories” → More Local line · 2 ops</text>
+<text x="2028" y="2368" font-size="10.5" fill="#5A6275">“Monitoring - Device Health” → Monitoring - App Hosting line · 2 ops</text>
+<text x="2028" y="2383" font-size="10.5" fill="#5A6275">“Monitoring - Health” → More Local line · 2 ops</text>
+<text x="2028" y="2398" font-size="10.5" fill="#5A6275">“Monitoring - SDRA” → Monitoring - App Hosting line · 2 ops</text>
+<text x="2028" y="2413" font-size="10.5" fill="#5A6275">“Monitoring - Search” → More Local line · 2 ops</text>
+<text x="2028" y="2428" font-size="10.5" fill="#5A6275">“Monitoring - Server Info” → More Local line · 1 op</text>
+<text x="2028" y="2443" font-size="10.5" fill="#5A6275">“Monitoring - Underlay Alarms” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2458" font-size="10.5" fill="#5A6275">“Multicloud Interconnect - Entitlement” → Configuration - Multi Cloud line · 1 op</text>
+<text x="2028" y="2473" font-size="10.5" fill="#5A6275">“Multicloud Interconnect - Resource Audit” → Configuration - Multi Cloud line · 1 op</text>
+<text x="2028" y="2488" font-size="10.5" fill="#5A6275">“Multicloud Interconnect - Service Sw package types” → Configuration - Multi Cloud line · 1 op</text>
+<text x="2028" y="2503" font-size="10.5" fill="#5A6275">“Multicloud Interconnect - Services” → Configuration - Multi Cloud line · 1 op</text>
+<text x="2028" y="2518" font-size="10.5" fill="#5A6275">“Partner - WCM Configs” → Partner - Registration line · 1 op</text>
+<text x="2028" y="2533" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - ARP” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2548" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - App Logs” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2563" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Application-Aware Route” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2578" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Cellular AON Ipsec Interface” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2593" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Cellular EIOLTE Connection Service” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2608" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Cellular EIOLTE Hardware Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2623" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Cellular EIOLTE Network Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2638" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Cellular EIOLTE Sim Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2653" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Commit List” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2668" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Container Lifecycle” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2683" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Device” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2698" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Device Feature List” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2713" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Dns Defense” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2728" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Dual Static Route Tracker Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2743" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Endpoint Tracker Group Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2758" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Endpoint Tracker Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2773" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Geo-fencing” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2788" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - IPv4 FIB” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2803" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - IPv6 FIB” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2818" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - IPv6 Neighbours” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2833" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Ignition Status” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2848" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Insecure Device Configuration” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2863" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Lacp” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2878" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - NMS” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2893" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - PPPoE” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2908" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Pki Trustpoint” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2923" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Policer” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2938" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Power Consumption” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2953" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - SDWAN Statistics” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="2968" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - SSE” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2983" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Security” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="2998" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Show On Demand Local” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3013" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Show On Demand Remote” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3028" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Sslproxy” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="3043" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Static Route Tracker Service” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3058" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Tcpproxy” → Configuration - Device Actions line · 2 ops</text>
+<text x="2028" y="3073" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Transport” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3088" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - Ucse” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3103" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - VPN” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3118" font-size="10.5" fill="#5A6275">“Real-Time Monitoring - VRRP” → Configuration - Device Actions line · 1 op</text>
+<text x="2028" y="3133" font-size="10.5" fill="#5A6275">“Rules” → Topology - Topology Group line · 1 op</text>
+<text x="2028" y="3148" font-size="10.5" fill="#5A6275">“SD AVC Domain-based App Rules” → More Local line · 1 op</text>
+<text x="2028" y="3163" font-size="10.5" fill="#5A6275">“SD AVC IP Address based App Rules” → More Local line · 1 op</text>
+<text x="2028" y="3178" font-size="10.5" fill="#5A6275">“SD AVC Webex App Rules” → More Local line · 1 op</text>
+<text x="2028" y="3193" font-size="10.5" fill="#5A6275">“SDAVC SaaS - Publish Tenants” → Protocol Pack Compliance line · 1 op</text>
+<text x="2028" y="3208" font-size="10.5" fill="#5A6275">“Secure Device OnBoarding - SDO Token” → Secure Device OnBoarding - Provider Credentials line · 2 ops</text>
+<text x="2028" y="3223" font-size="10.5" fill="#5A6275">“Secure Device Onboarding - Communication Plans” → Secure Device OnBoarding - Provider Credentials line · 1 op</text>
+<text x="2028" y="3238" font-size="10.5" fill="#5A6275">“Secure Device Onboarding - Rate Plans” → Secure Device OnBoarding - Provider Credentials line · 1 op</text>
+<text x="2028" y="3253" font-size="10.5" fill="#5A6275">“Service Chain Mapping” → More Local line · 1 op</text>
+<text x="2028" y="3268" font-size="10.5" fill="#5A6275">“Setting - Dynamic Scheduler” → Monitoring - App Hosting line · 2 ops</text>
+<text x="2028" y="3283" font-size="10.5" fill="#5A6275">“System - Container” → Protocol Pack Compliance line · 2 ops</text>
+<text x="2028" y="3298" font-size="10.5" fill="#5A6275">“System - Reverse Proxy” → Configuration - Device Inventory line · 2 ops</text>
+<text x="2028" y="3313" font-size="10.5" fill="#5A6275">“Tools - TAC Cases” → More Local line · 2 ops</text>
+<text x="2028" y="3328" font-size="10.5" fill="#5A6275">“Troubleshooting MRE - Workflow” → More Local line · 2 ops</text>
+<text x="2028" y="3343" font-size="10.5" fill="#5A6275">“Utility - Security” → More Local line · 1 op</text>
+<text x="2028" y="3393" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2028" y="3410" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2124" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/cisco-catalyst-sdwan/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
