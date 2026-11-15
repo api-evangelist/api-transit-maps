@@ -1,0 +1,824 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3633 2740" width="3633" height="2740" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3633" height="2740" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Axway API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">141 operations as stops · 15 tags as lines · 10 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1335" y1="653" x2="1382" y2="606" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1335" y1="653" x2="1382" y2="606" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Analytics" d="M160.0,1311.0 L254.0,1311.0 L348.0,1311.0 L428.0,1311.0 Q442.0,1311.0 451.9,1301.1 L526.1,1226.9 Q536.0,1217.0 526.1,1207.1 L498.9,1179.9 Q489.0,1170.0 475.0,1170.0 L395.0,1170.0 L301.0,1170.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Analytics</title></path>
+<path class="line" data-line="App" d="M630.0,794.0 L714.1,878.1 Q724.0,888.0 738.0,888.0 L804.0,888.0 Q818.0,888.0 818.0,874.0 L818.0,808.0 Q818.0,794.0 808.1,784.1 L724.0,700.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>App</title></path>
+<path class="line" data-line="Auth" d="M2933.0,1123.0 L2839.0,1123.0 L2712.0,1123.0 Q2698.0,1123.0 2688.1,1132.9 L2660.9,1160.1 Q2651.0,1170.0 2637.0,1170.0 L2477.0,1170.0 Q2463.0,1170.0 2453.1,1179.9 L2416.0,1217.0 L2378.9,1254.1 Q2369.0,1264.0 2355.0,1264.0 L2228.0,1264.0 L2134.0,1264.0 L1993.0,1264.0 L1899.0,1264.0 L1772.0,1264.0 Q1758.0,1264.0 1748.1,1273.9 L1720.9,1301.1 Q1711.0,1311.0 1697.0,1311.0 L1584.0,1311.0 Q1570.0,1311.0 1560.1,1320.9 L1485.9,1395.1 Q1476.0,1405.0 1485.9,1414.9 L1570.0,1499.0 L1617.0,1546.0 L1711.0,1640.0 L1795.1,1724.1 Q1805.0,1734.0 1805.0,1748.0 L1805.0,1828.0 L1805.0,1955.0 Q1805.0,1969.0 1814.9,1978.9 L1852.0,2016.0 L1936.1,2100.1 Q1946.0,2110.0 1946.0,2124.0 L1946.0,2190.0 Q1946.0,2204.0 1955.9,2213.9 L2040.0,2298.0 L2124.1,2382.1 Q2134.0,2392.0 2134.0,2406.0 L2134.0,2486.0 L2134.0,2580.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Auth</title></path>
+<path class="line" data-line="Client" d="M771.0,1875.0 L771.0,1781.0 L771.0,1701.0 Q771.0,1687.0 761.1,1677.1 L724.0,1640.0 L686.9,1602.9 Q677.0,1593.0 663.0,1593.0 L442.0,1593.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Client</title></path>
+<path class="line" data-line="Domain" d="M865.0,1076.0 L865.0,1109.0 Q865.0,1123.0 855.1,1132.9 L771.0,1217.0 L630.0,1358.0 L592.9,1395.1 Q583.0,1405.0 583.0,1419.0 L583.0,1452.0 L583.0,1687.0 L583.0,1720.0 Q583.0,1734.0 573.1,1743.9 L545.9,1771.1 Q536.0,1781.0 522.0,1781.0 L395.0,1781.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Domain</title></path>
+<path class="line" data-line="Env" d="M771.0,1311.0 L855.1,1226.9 Q865.0,1217.0 879.0,1217.0 L898.0,1217.0 Q912.0,1217.0 912.0,1231.0 L912.0,1297.0 Q912.0,1311.0 902.1,1320.9 L771.0,1452.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Env</title></path>
+<path class="line" data-line="Export" d="M395.0,888.0 L489.0,888.0 L522.0,888.0 Q536.0,888.0 545.9,897.9 L630.0,982.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Export</title></path>
+<path class="line" data-line="IDP" d="M1053.0,982.0 L973.0,982.0 Q959.0,982.0 959.0,968.0 L959.0,902.0 Q959.0,888.0 973.0,888.0 L1086.0,888.0 Q1100.0,888.0 1109.9,897.9 L1194.0,982.0 L1241.0,1029.0 L1278.1,1066.1 Q1288.0,1076.0 1302.0,1076.0 L1368.0,1076.0 Q1382.0,1076.0 1382.0,1062.0 L1382.0,855.0 Q1382.0,841.0 1372.1,831.1 L1344.9,803.9 Q1335.0,794.0 1335.0,780.0 L1335.0,653.0 L1335.0,512.0 L1335.0,418.0 L1335.0,324.0 L1335.0,230.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>IDP</title></path>
+<path class="line" data-line="Org" d="M1006.0,1076.0 L1100.0,1076.0 L1180.0,1076.0 Q1194.0,1076.0 1203.9,1085.9 L1288.0,1170.0 L1372.1,1254.1 Q1382.0,1264.0 1382.0,1278.0 L1382.0,1358.0 L1382.0,1438.0 Q1382.0,1452.0 1372.1,1461.9 L1297.9,1536.1 Q1288.0,1546.0 1274.0,1546.0 L1194.0,1546.0 L1114.0,1546.0 Q1100.0,1546.0 1090.1,1536.1 L1015.9,1461.9 Q1006.0,1452.0 1006.0,1438.0 L1006.0,1358.0 L1006.0,1264.0 L1006.0,1076.0" fill="none" stroke="#E07B12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Org</title></path>
+<path class="line" data-line="Provider" d="M1523.0,465.0 L1429.0,559.0 L1391.9,596.1 Q1382.0,606.0 1368.0,606.0 L1255.0,606.0 Q1241.0,606.0 1231.1,615.9 L1203.9,643.1 Q1194.0,653.0 1194.0,667.0 L1194.0,747.0 L1194.0,827.0 Q1194.0,841.0 1203.9,850.9 L1325.1,972.1 Q1335.0,982.0 1349.0,982.0 L1462.0,982.0 Q1476.0,982.0 1485.9,972.1 L1570.0,888.0 L1617.0,841.0 L1711.0,747.0 L1748.1,709.9 Q1758.0,700.0 1758.0,686.0 L1758.0,559.0 L1758.0,465.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Provider</title></path>
+<path class="line" data-line="Session" d="M489.0,1029.0 L573.1,1113.1 Q583.0,1123.0 597.0,1123.0 L677.0,1123.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Session</title></path>
+<path class="line" data-line="Team" d="M1429.0,2063.0 L1429.0,1969.0 L1429.0,1875.0 L1429.0,1795.0 Q1429.0,1781.0 1419.1,1771.1 L1391.9,1743.9 Q1382.0,1734.0 1368.0,1734.0 L1302.0,1734.0 Q1288.0,1734.0 1288.0,1748.0 L1288.0,1875.0 L1288.0,1969.0 L1288.0,2063.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Team</title></path>
+<path class="line" data-line="Usage" d="M1100.0,1170.0 L1100.0,1297.0 Q1100.0,1311.0 1090.1,1320.9 L968.9,1442.1 Q959.0,1452.0 945.0,1452.0 L926.0,1452.0 Q912.0,1452.0 912.0,1466.0 L912.0,1532.0 Q912.0,1546.0 902.1,1555.9 L865.0,1593.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Usage</title></path>
+<path class="line" data-line="User" d="M1288.0,1640.0 L1203.9,1724.1 Q1194.0,1734.0 1194.0,1748.0 L1194.0,1767.0 Q1194.0,1781.0 1184.1,1790.9 L1147.0,1828.0 L1062.9,1912.1 Q1053.0,1922.0 1039.0,1922.0 L973.0,1922.0 Q959.0,1922.0 959.0,1908.0 L959.0,1828.0 L959.0,1748.0 Q959.0,1734.0 968.9,1724.1 L1006.0,1687.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User</title></path>
+<path class="line" data-line="Axway Local" d="M1100.0,512.0 L1100.0,606.0 L1100.0,700.0 L1100.0,780.0 Q1100.0,794.0 1086.0,794.0 L973.0,794.0 Q959.0,794.0 949.1,784.1 L874.9,709.9 Q865.0,700.0 865.0,686.0 L865.0,606.0" fill="none" stroke="#C2410C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Axway Local</title></path>
+<line x1="160" y1="1311" x2="126.0" y2="1311.0" stroke="#0B7A75" stroke-width="7"/><rect x="102.0" y="1300.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Analytics</title></rect><text x="126.0" y="1316.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ANA</text>
+<line x1="301" y1="1170" x2="267.0" y2="1170.0" stroke="#0B7A75" stroke-width="7"/><rect x="243.0" y="1159.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Analytics</title></rect><text x="267.0" y="1175.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ANA</text>
+<line x1="630" y1="794" x2="605.9583694396574" y2="769.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="581.9583694396574" y="758.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>App</title></rect><text x="605.9583694396574" y="774.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="724" y1="700" x2="699.9583694396574" y2="675.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="675.9583694396574" y="664.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>App</title></rect><text x="699.9583694396574" y="680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="2933" y1="1123" x2="2967.0" y2="1123.0" stroke="#D6264F" stroke-width="7"/><rect x="2943.0" y="1112.0" width="48" height="22" rx="5" fill="#D6264F"><title>Auth</title></rect><text x="2967.0" y="1128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="2134" y1="2580" x2="2134.0" y2="2614.0" stroke="#D6264F" stroke-width="7"/><rect x="2110.0" y="2603.0" width="48" height="22" rx="5" fill="#D6264F"><title>Auth</title></rect><text x="2134.0" y="2619.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="771" y1="1875" x2="771.0" y2="1909.0" stroke="#2E7D32" stroke-width="7"/><rect x="747.0" y="1898.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Client</title></rect><text x="771.0" y="1914.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLI</text>
+<line x1="442" y1="1593" x2="408.0" y2="1593.0" stroke="#2E7D32" stroke-width="7"/><rect x="384.0" y="1582.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Client</title></rect><text x="408.0" y="1598.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLI</text>
+<line x1="865" y1="1076" x2="865.0" y2="1042.0" stroke="#7B3FE4" stroke-width="7"/><rect x="841.0" y="1031.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Domain</title></rect><text x="865.0" y="1047.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="395" y1="1781" x2="361.0" y2="1781.0" stroke="#7B3FE4" stroke-width="7"/><rect x="337.0" y="1770.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Domain</title></rect><text x="361.0" y="1786.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="771" y1="1311" x2="746.9583694396574" y2="1335.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="722.9583694396574" y="1324.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Env</title></rect><text x="746.9583694396574" y="1340.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENV</text>
+<line x1="771" y1="1452" x2="746.9583694396574" y2="1476.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="722.9583694396574" y="1465.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Env</title></rect><text x="746.9583694396574" y="1481.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENV</text>
+<line x1="395" y1="888" x2="361.0" y2="888.0" stroke="#4A5568" stroke-width="7"/><rect x="337.0" y="877.0" width="48" height="22" rx="5" fill="#4A5568"><title>Export</title></rect><text x="361.0" y="893.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXP</text>
+<line x1="630" y1="982" x2="654.0416305603426" y2="1006.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="630.0416305603426" y="995.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Export</title></rect><text x="654.0416305603426" y="1011.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXP</text>
+<line x1="1053" y1="982" x2="1087.0" y2="982.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1063.0" y="971.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>IDP</title></rect><text x="1087.0" y="987.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IDP</text>
+<line x1="1335" y1="230" x2="1335.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1311.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>IDP</title></rect><text x="1335.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IDP</text>
+<rect x="976" y="1023" width="60" height="26" rx="13" fill="#E07B12"/><text x="1006" y="1041" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">ORG</text>
+<line x1="1523" y1="465" x2="1547.0416305603426" y2="440.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="1523.0416305603426" y="429.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Provider</title></rect><text x="1547.0416305603426" y="445.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1758" y1="465" x2="1758.0" y2="431.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1734.0" y="420.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Provider</title></rect><text x="1758.0" y="436.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="489" y1="1029" x2="464.95836943965736" y2="1004.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="440.95836943965736" y="993.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Session</title></rect><text x="464.95836943965736" y="1009.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="677" y1="1123" x2="711.0" y2="1123.0" stroke="#D6264F" stroke-width="7"/><rect x="687.0" y="1112.0" width="48" height="22" rx="5" fill="#D6264F"><title>Session</title></rect><text x="711.0" y="1128.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="1429" y1="2063" x2="1429.0" y2="2097.0" stroke="#B0287F" stroke-width="7"/><rect x="1405.0" y="2086.0" width="48" height="22" rx="5" fill="#B0287F"><title>Team</title></rect><text x="1429.0" y="2102.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1288" y1="2063" x2="1288.0" y2="2097.0" stroke="#B0287F" stroke-width="7"/><rect x="1264.0" y="2086.0" width="48" height="22" rx="5" fill="#B0287F"><title>Team</title></rect><text x="1288.0" y="2102.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1100" y1="1170" x2="1100.0" y2="1136.0" stroke="#8D6E63" stroke-width="7"/><rect x="1076.0" y="1125.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Usage</title></rect><text x="1100.0" y="1141.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USA</text>
+<line x1="865" y1="1593" x2="840.9583694396574" y2="1617.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="816.9583694396574" y="1606.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Usage</title></rect><text x="840.9583694396574" y="1622.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USA</text>
+<line x1="1288" y1="1640" x2="1312.0416305603426" y2="1615.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1288.0416305603426" y="1604.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>User</title></rect><text x="1312.0416305603426" y="1620.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1006" y1="1687" x2="1030.0416305603426" y2="1662.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1006.0416305603426" y="1651.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>User</title></rect><text x="1030.0416305603426" y="1667.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1100" y1="512" x2="1100.0" y2="478.0" stroke="#C2410C" stroke-width="7"/><rect x="1076.0" y="467.0" width="48" height="22" rx="5" fill="#C2410C"><title>Axway Local</title></rect><text x="1100.0" y="483.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AL</text>
+<line x1="865" y1="606" x2="865.0" y2="572.0" stroke="#C2410C" stroke-width="7"/><rect x="841.0" y="561.0" width="48" height="22" rx="5" fill="#C2410C"><title>Axway Local</title></rect><text x="865.0" y="577.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AL</text>
+<a href="https://apis.apis.io/apis/axway/axway-aca-api/#op-aca_setMetadata" target="_blank" class="st" data-op="aca_setMetadata"><title>PUT /aca/{app_id}/crash/{aca_id}/metadata/{name}
+Axway Local line · aca_setMetadata</title>
+<circle cx="1100" cy="606" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1088.0" y="611" text-anchor="end" style="fill:#1A1F2C">Update metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-aca-api/#op-aca_findOne" target="_blank" class="st" data-op="aca_findOne"><title>GET /aca/{app_id}/crash/{aca_id}
+Axway Local line · aca_findOne</title>
+<circle cx="1100" cy="512" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1112" y="517" text-anchor="start" style="fill:#1A1F2C">Get crash</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-activity-api/#op-activity_findEvents" target="_blank" class="st" data-op="activity_findEvents"><title>GET /activity/event
+Axway Local line · activity_findEvents</title>
+<circle cx="1100" cy="794" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1112" y="799" text-anchor="start" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-activity-api/#op-activity_find" target="_blank" class="st" data-op="activity_find"><title>GET /activity
+Axway Local line · activity_find</title>
+<circle cx="1100" cy="700" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1112" y="705" text-anchor="start" style="fill:#1A1F2C">Get activity</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_query" target="_blank" class="st" data-op="analytics_query"><title>GET /analytics/query
+Analytics line · analytics_query</title>
+<circle cx="301" cy="1170" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="307" y="1158" transform="rotate(-45 307 1158)" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_error" target="_blank" class="st" data-op="analytics_error"><title>POST /analytics/error
+Analytics line · analytics_error</title>
+<circle cx="395" cy="1170" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="401" y="1158" transform="rotate(-45 401 1158)" style="fill:#1A1F2C">Update error</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_customCreate" target="_blank" class="st" data-op="analytics_customCreate"><title>POST /analytics/custom_query
+Analytics line · analytics_customCreate</title>
+<circle cx="442" cy="1311" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="454" y="1316" text-anchor="start" style="fill:#1A1F2C">Update custom query</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_customFind" target="_blank" class="st" data-op="analytics_customFind"><title>GET /analytics/custom_queries
+Analytics line · analytics_customFind</title>
+<circle cx="254" cy="1311" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="260" y="1299" transform="rotate(-45 260 1299)" style="fill:#1A1F2C">List custom queries</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_customRemove" target="_blank" class="st" data-op="analytics_customRemove"><title>DELETE /analytics/custom_query/{query_id}
+Analytics line · analytics_customRemove</title>
+<circle cx="489" cy="1170" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="485" y1="1174" x2="493" y2="1166" stroke="#0B7A75" stroke-width="2"/>
+<text x="501" y="1175" text-anchor="start" style="fill:#1A1F2C">Delete custom query</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_customUpdate" target="_blank" class="st" data-op="analytics_customUpdate"><title>PUT /analytics/custom_query/{query_id}
+Analytics line · analytics_customUpdate</title>
+<circle cx="536" cy="1217" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="548" y="1222" text-anchor="start" style="fill:#1A1F2C">Update custom query</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-analytics-api/#op-analytics_customFindOne" target="_blank" class="st" data-op="analytics_customFindOne"><title>GET /analytics/custom_queries/{query_id}
+Analytics line · analytics_customFindOne</title>
+<circle cx="348" cy="1311" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="354" y="1299" transform="rotate(-45 354 1299)" style="fill:#1A1F2C">Get custom query</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-app-api/#op-app_create" target="_blank" class="st" data-op="app_create"><title>POST /app
+App line · app_create</title>
+<circle cx="724" cy="888" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="712.0" y="893" text-anchor="end" style="fill:#1A1F2C">Update app</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-app-api/#op-app_find" target="_blank" class="st" data-op="app_find"><title>GET /app
+App line · app_find</title>
+<circle cx="630" cy="794" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="642" y="799" text-anchor="start" style="fill:#1A1F2C">Get app</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-app-api/#op-app_findOne" target="_blank" class="st" data-op="app_findOne"><title>GET /app/{app_id}
+App line · app_findOne</title>
+<circle cx="818" cy="888" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="830" y="893" text-anchor="start" style="fill:#1A1F2C">Get app</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-app-api/#op-app_remove" target="_blank" class="st" data-op="app_remove"><title>DELETE /app/{app_id}
+App line · app_remove</title>
+<circle cx="724" cy="700" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="720" y1="704" x2="728" y2="696" stroke="#5C6BC0" stroke-width="2"/>
+<text x="736" y="705" text-anchor="start" style="fill:#1A1F2C">Delete app</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-app-api/#op-app_update" target="_blank" class="st" data-op="app_update"><title>PUT /app/{app_id}
+App line · app_update</title>
+<circle cx="818" cy="794" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="806.0" y="799" text-anchor="end" style="fill:#1A1F2C">Update app</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_validatePassword" target="_blank" class="st" data-op="auth_validatePassword"><title>POST /auth/validatePassword
+Auth line · auth_validatePassword</title>
+<circle cx="2134" cy="2580" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="2585" text-anchor="start" style="fill:#1A1F2C">Update validatepassword</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_acceptTerms" target="_blank" class="st" data-op="auth_acceptTerms"><title>PUT /auth/terms
+Auth line · auth_acceptTerms</title>
+<circle cx="2134" cy="2392" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="2397" text-anchor="start" style="fill:#1A1F2C">Create term</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_sessionSwitchOrg" target="_blank" class="st" data-op="auth_sessionSwitchOrg"><title>POST /auth/switchLoggedInOrg
+Auth line · auth_sessionSwitchOrg</title>
+<circle cx="2040" cy="2298" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2052" y="2303" text-anchor="start" style="fill:#1A1F2C">Update switchloggedinorg</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_signup" target="_blank" class="st" data-op="auth_signup"><title>POST /auth/signup
+Auth line · auth_signup</title>
+<circle cx="1946" cy="2204" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1958" y="2209" text-anchor="start" style="fill:#1A1F2C">Update signup</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_findPasswordPolicy" target="_blank" class="st" data-op="auth_findPasswordPolicy"><title>GET /auth/password_policy
+Auth line · auth_findPasswordPolicy</title>
+<circle cx="1852" cy="2016" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1864" y="2021" text-anchor="start" style="fill:#1A1F2C">Get password policy</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_onboarding" target="_blank" class="st" data-op="auth_onboarding"><title>PUT /auth/onboarding
+Auth line · auth_onboarding</title>
+<circle cx="1805" cy="1969" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1817" y="1974" text-anchor="start" style="fill:#1A1F2C">Update onboarding</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_mfaVerify" target="_blank" class="st" data-op="auth_mfaVerify"><title>POST /auth/mfa/verify
+Auth line · auth_mfaVerify</title>
+<circle cx="1805" cy="1828" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1817" y="1833" text-anchor="start" style="fill:#1A1F2C">Verify mfa</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_mfaSend" target="_blank" class="st" data-op="auth_mfaSend"><title>POST /auth/mfa/send
+Auth line · auth_mfaSend</title>
+<circle cx="1805" cy="1734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1817" y="1739" text-anchor="start" style="fill:#1A1F2C">Send mfa</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_logout" target="_blank" class="st" data-op="auth_logout"><title>GET /auth/logout
+Auth line · auth_logout</title>
+<circle cx="1711" cy="1640" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1723" y="1645" text-anchor="start" style="fill:#1A1F2C">Get logout</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_login" target="_blank" class="st" data-op="auth_login"><title>POST /auth/login
+Auth line · auth_login</title>
+<circle cx="1617" cy="1546" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1629" y="1551" text-anchor="start" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_unimpersonate" target="_blank" class="st" data-op="auth_unimpersonate"><title>DELETE /auth/impersonate
+Auth line · auth_unimpersonate</title>
+<circle cx="1570" cy="1499" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1566" y1="1503" x2="1574" y2="1495" stroke="#D6264F" stroke-width="2"/>
+<text x="1582" y="1504" text-anchor="start" style="fill:#1A1F2C">Delete impersonate</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_forgot" target="_blank" class="st" data-op="auth_forgot"><title>POST /auth/forgot
+Auth line · auth_forgot</title>
+<circle cx="1476" cy="1405" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1488" y="1410" text-anchor="start" style="fill:#1A1F2C">Update forgot</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_sessionFind" target="_blank" class="st" data-op="auth_sessionFind"><title>GET /auth/findSession
+Auth line · auth_sessionFind</title>
+<circle cx="1570" cy="1311" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558.0" y="1316" text-anchor="end" style="fill:#1A1F2C">Get findsession</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthResend" target="_blank" class="st" data-op="auth_deviceauthResend"><title>POST /auth/deviceauth/resend
+Auth line · auth_deviceauthResend</title>
+<circle cx="1711" cy="1311" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1723" y="1316" text-anchor="start" style="fill:#1A1F2C">Update resend</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthValidate" target="_blank" class="st" data-op="auth_deviceauthValidate"><title>POST /auth/deviceauth
+Auth line · auth_deviceauthValidate</title>
+<circle cx="1993" cy="1264" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1999" y="1252" transform="rotate(-45 1999 1252)" style="fill:#1A1F2C">Update deviceauth</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_sessionCheck" target="_blank" class="st" data-op="auth_sessionCheck"><title>GET /auth/checkSession
+Auth line · auth_sessionCheck</title>
+<circle cx="2134" cy="1264" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2140" y="1252" transform="rotate(-45 2140 1252)" style="fill:#1A1F2C">Get checksession</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthConfirm" target="_blank" class="st" data-op="auth_deviceauthConfirm"><title>POST /auth/authenticator
+Auth line · auth_deviceauthConfirm</title>
+<circle cx="2369" cy="1264" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2381" y="1269" text-anchor="start" style="fill:#1A1F2C">Update authenticator</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthCreate" target="_blank" class="st" data-op="auth_deviceauthCreate"><title>GET /auth/authenticator
+Auth line · auth_deviceauthCreate</title>
+<circle cx="2416" cy="1217" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2428" y="1222" text-anchor="start" style="fill:#1A1F2C">Get authenticator</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthRemoveApp" target="_blank" class="st" data-op="auth_deviceauthRemoveApp"><title>DELETE /auth/authenticator
+Auth line · auth_deviceauthRemoveApp</title>
+<circle cx="2228" cy="1264" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2224" y1="1268" x2="2232" y2="1260" stroke="#D6264F" stroke-width="2"/>
+<text x="2234" y="1252" transform="rotate(-45 2234 1252)" style="fill:#1A1F2C">Delete authenticator</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_activationSignup" target="_blank" class="st" data-op="auth_activationSignup"><title>POST /auth/activate/signup
+Auth line · auth_activationSignup</title>
+<circle cx="2651" cy="1170" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2663" y="1175" text-anchor="start" style="fill:#1A1F2C">Update signup</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_activationResend" target="_blank" class="st" data-op="auth_activationResend"><title>POST /auth/activate/resend
+Auth line · auth_activationResend</title>
+<circle cx="2698" cy="1123" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2686.0" y="1128" text-anchor="end" style="fill:#1A1F2C">Update resend</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_activationForgot" target="_blank" class="st" data-op="auth_activationForgot"><title>POST /auth/activate/forgot
+Auth line · auth_activationForgot</title>
+<circle cx="2839" cy="1123" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2845" y="1111" transform="rotate(-45 2845 1111)" style="fill:#1A1F2C">Update forgot</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_activationConfirm" target="_blank" class="st" data-op="auth_activationConfirm"><title>POST /auth/activate
+Auth line · auth_activationConfirm</title>
+<circle cx="2933" cy="1123" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2927" y="1135" text-anchor="end" transform="rotate(-45 2927 1135)" style="fill:#1A1F2C">Activate auth</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_activationUnlock" target="_blank" class="st" data-op="auth_activationUnlock"><title>PUT /auth/unlock/{activation_id}
+Auth line · auth_activationUnlock</title>
+<circle cx="2134" cy="2486" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="2491" text-anchor="start" style="fill:#1A1F2C">Update unlock</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_revokeOauth" target="_blank" class="st" data-op="auth_revokeOauth"><title>DELETE /auth/service/{service}
+Auth line · auth_revokeOauth</title>
+<circle cx="1946" cy="2110" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1942" y1="2114" x2="1950" y2="2106" stroke="#D6264F" stroke-width="2"/>
+<text x="1958" y="2115" text-anchor="start" style="fill:#1A1F2C">Delete service</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthFind" target="_blank" class="st" data-op="auth_deviceauthFind"><title>GET /auth/deviceauth/{user_id}
+Auth line · auth_deviceauthFind</title>
+<circle cx="1899" cy="1264" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1905" y="1252" transform="rotate(-45 1905 1252)" style="fill:#1A1F2C">Get deviceauth</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_deviceauthRemove" target="_blank" class="st" data-op="auth_deviceauthRemove"><title>DELETE /auth/deviceauth/{device_id}
+Auth line · auth_deviceauthRemove</title>
+<circle cx="1758" cy="1264" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1754" y1="1268" x2="1762" y2="1260" stroke="#D6264F" stroke-width="2"/>
+<text x="1746.0" y="1269" text-anchor="end" style="fill:#1A1F2C">Delete deviceauth</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-auth-api/#op-auth_activationFind" target="_blank" class="st" data-op="auth_activationFind"><title>GET /auth/activation/{activation_id}
+Auth line · auth_activationFind</title>
+<circle cx="2463" cy="1170" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2451.0" y="1175" text-anchor="end" style="fill:#1A1F2C">Get activation</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-client-api/#op-client_create" target="_blank" class="st" data-op="client_create"><title>POST /client
+Client line · client_create</title>
+<circle cx="771" cy="1781" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="783" y="1786" text-anchor="start" style="fill:#1A1F2C">Update client</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-client-api/#op-client_find" target="_blank" class="st" data-op="client_find"><title>GET /client
+Client line · client_find</title>
+<circle cx="771" cy="1875" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="783" y="1880" text-anchor="start" style="fill:#1A1F2C">Get client</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-client-api/#op-client_download" target="_blank" class="st" data-op="client_download"><title>GET /client/{client_id}/json
+Client line · client_download</title>
+<circle cx="442" cy="1593" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="448" y="1581" transform="rotate(-45 448 1581)" style="fill:#1A1F2C">Get json</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-client-api/#op-client_findOne" target="_blank" class="st" data-op="client_findOne"><title>GET /client/{client_id}
+Client line · client_findOne</title>
+<circle cx="771" cy="1687" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="783" y="1692" text-anchor="start" style="fill:#1A1F2C">Get client</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-client-api/#op-client_remove" target="_blank" class="st" data-op="client_remove"><title>DELETE /client/{client_id}
+Client line · client_remove</title>
+<circle cx="677" cy="1593" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="673" y1="1597" x2="681" y2="1589" stroke="#2E7D32" stroke-width="2"/>
+<text x="689" y="1598" text-anchor="start" style="fill:#1A1F2C">Delete client</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-client-api/#op-client_update" target="_blank" class="st" data-op="client_update"><title>PUT /client/{client_id}
+Client line · client_update</title>
+<circle cx="724" cy="1640" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="736" y="1645" text-anchor="start" style="fill:#1A1F2C">Update client</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainAssociate" target="_blank" class="st" data-op="org_domainAssociate"><title>POST /org/{org_id}/domain/verify
+Domain line · org_domainAssociate</title>
+<circle cx="395" cy="1781" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="401" y="1769" transform="rotate(-45 401 1769)" style="fill:#1A1F2C">Verify domain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainAssociateSubdomain" target="_blank" class="st" data-op="org_domainAssociateSubdomain"><title>POST /org/{org_id}/domain/subdomain
+Domain line · org_domainAssociateSubdomain</title>
+<circle cx="536" cy="1781" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="548" y="1786" text-anchor="start" style="fill:#1A1F2C">Update subdomain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainEnable" target="_blank" class="st" data-op="org_domainEnable"><title>POST /org/{org_id}/domain/enable
+Domain line · org_domainEnable</title>
+<circle cx="583" cy="1734" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="595" y="1739" text-anchor="start" style="fill:#1A1F2C">Update enable</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainDissociate" target="_blank" class="st" data-op="org_domainDissociate"><title>POST /org/{org_id}/domain/dissociate
+Domain line · org_domainDissociate</title>
+<circle cx="583" cy="1687" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="595" y="1692" text-anchor="start" style="fill:#1A1F2C">Update dissociate</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainConsolidate" target="_blank" class="st" data-op="org_domainConsolidate"><title>POST /org/{org_id}/domain/consolidate
+Domain line · org_domainConsolidate</title>
+<circle cx="583" cy="1452" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="595" y="1457" text-anchor="start" style="fill:#1A1F2C">Update consolidate</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainConfirm" target="_blank" class="st" data-op="org_domainConfirm"><title>POST /org/{org_id}/domain/confirm
+Domain line · org_domainConfirm</title>
+<circle cx="583" cy="1405" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="595" y="1410" text-anchor="start" style="fill:#1A1F2C">Confirm domain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainRemove" target="_blank" class="st" data-op="org_domainRemove"><title>DELETE /org/{org_id}/domain/{domain}
+Domain line · org_domainRemove</title>
+<circle cx="630" cy="1358" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="626" y1="1362" x2="634" y2="1354" stroke="#7B3FE4" stroke-width="2"/>
+<text x="642" y="1363" text-anchor="start" style="fill:#1A1F2C">Delete domain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainAssociateConfirm" target="_blank" class="st" data-op="org_domainAssociateConfirm"><title>PUT /org/{org_id}/domain
+Domain line · org_domainAssociateConfirm</title>
+<circle cx="771" cy="1217" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="759.0" y="1222" text-anchor="end" style="fill:#1A1F2C">Update domain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainCreate" target="_blank" class="st" data-op="org_domainCreate"><title>POST /org/{org_id}/domain
+Domain line · org_domainCreate</title>
+<circle cx="865" cy="1123" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="877" y="1128" text-anchor="start" style="fill:#1A1F2C">Update domain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-domain-api/#op-org_domainFind" target="_blank" class="st" data-op="org_domainFind"><title>GET /org/{org_id}/domain
+Domain line · org_domainFind</title>
+<circle cx="865" cy="1076" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="877" y="1081" text-anchor="start" style="fill:#1A1F2C">Get domain <tspan font-weight="700" style="fill:#E07B12">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-entitlement-api/#op-entitlement_find" target="_blank" class="st" data-op="entitlement_find"><title>GET /entitlement
+Axway Local line · entitlement_find</title>
+<circle cx="959" cy="794" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="947.0" y="799" text-anchor="end" style="fill:#1A1F2C">Get entitlement</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-env-api/#op-env_create" target="_blank" class="st" data-op="env_create"><title>POST /env
+Env line · env_create</title>
+<circle cx="865" cy="1217" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="853.0" y="1222" text-anchor="end" style="fill:#1A1F2C">Update env</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-env-api/#op-env_find" target="_blank" class="st" data-op="env_find"><title>GET /env
+Env line · env_find</title>
+<circle cx="771" cy="1311" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="783" y="1316" text-anchor="start" style="fill:#1A1F2C">Get env</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-env-api/#op-env_findOne" target="_blank" class="st" data-op="env_findOne"><title>GET /env/{env_id}
+Env line · env_findOne</title>
+<circle cx="912" cy="1217" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="924" y="1222" text-anchor="start" style="fill:#1A1F2C">Get env</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-env-api/#op-env_remove" target="_blank" class="st" data-op="env_remove"><title>DELETE /env/{env_id}
+Env line · env_remove</title>
+<circle cx="771" cy="1452" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="767" y1="1456" x2="775" y2="1448" stroke="#00838F" stroke-width="2"/>
+<text x="762.0" y="1442" text-anchor="end" style="fill:#1A1F2C">Delete env</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-env-api/#op-env_update" target="_blank" class="st" data-op="env_update"><title>PUT /env/{env_id}
+Env line · env_update</title>
+<circle cx="912" cy="1311" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="924" y="1316" text-anchor="start" style="fill:#1A1F2C">Update env</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-export-api/#op-export_create" target="_blank" class="st" data-op="export_create"><title>POST /export
+Export line · export_create</title>
+<circle cx="489" cy="888" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="495" y="876" transform="rotate(-45 495 876)" style="fill:#1A1F2C">Update export</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-export-api/#op-export_findAll" target="_blank" class="st" data-op="export_findAll"><title>GET /export
+Export line · export_findAll</title>
+<circle cx="395" cy="888" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="401" y="876" transform="rotate(-45 401 876)" style="fill:#1A1F2C">Get export</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-export-api/#op-export_download" target="_blank" class="st" data-op="export_download"><title>GET /export/download/{export_id}
+Export line · export_download</title>
+<circle cx="630" cy="982" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="642" y="987" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-export-api/#op-export_remove" target="_blank" class="st" data-op="export_remove"><title>DELETE /export/{export_id}
+Export line · export_remove</title>
+<circle cx="536" cy="888" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="532" y1="892" x2="540" y2="884" stroke="#4A5568" stroke-width="2"/>
+<text x="548" y="893" text-anchor="start" style="fill:#1A1F2C">Delete export</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-provider_idpCreateSAML" target="_blank" class="st" data-op="axway-idp-api:provider_idpCreateSAML"><title>POST /provider/{provider_id}/idp/saml
+IDP line · provider_idpCreateSAML</title>
+<circle cx="1335" cy="230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1347" y="235" text-anchor="start" style="fill:#1A1F2C">Update saml</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-provider_idpCreateOIDC" target="_blank" class="st" data-op="axway-idp-api:provider_idpCreateOIDC"><title>POST /provider/{provider_id}/idp/oidc
+IDP line · provider_idpCreateOIDC</title>
+<circle cx="1335" cy="324" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1347" y="329" text-anchor="start" style="fill:#1A1F2C">Update oidc</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-provider_idpFind" target="_blank" class="st" data-op="provider_idpFind"><title>GET /provider/{provider_id}/idp
+IDP line · provider_idpFind</title>
+<circle cx="1335" cy="653" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1347" y="658" text-anchor="start" style="fill:#1A1F2C">Get idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-provider_idpRemove" target="_blank" class="st" data-op="axway-idp-api:provider_idpRemove"><title>DELETE /provider/{provider_id}/idp
+IDP line · provider_idpRemove</title>
+<circle cx="1335" cy="418" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1331" y1="422" x2="1339" y2="414" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1347" y="423" text-anchor="start" style="fill:#1A1F2C">Delete idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-provider_idpUpdate" target="_blank" class="st" data-op="axway-idp-api:provider_idpUpdate"><title>PUT /provider/{provider_id}/idp
+IDP line · provider_idpUpdate</title>
+<circle cx="1335" cy="512" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1347" y="517" text-anchor="start" style="fill:#1A1F2C">Update idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpCreateSAML" target="_blank" class="st" data-op="org_idpCreateSAML"><title>POST /org/{org_id}/idp/saml
+IDP line · org_idpCreateSAML</title>
+<circle cx="1288" cy="1076" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1276.0" y="1081" text-anchor="end" style="fill:#1A1F2C">Update saml</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpCreateOIDC" target="_blank" class="st" data-op="org_idpCreateOIDC"><title>POST /org/{org_id}/idp/oidc
+IDP line · org_idpCreateOIDC</title>
+<circle cx="1241" cy="1029" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1253" y="1034" text-anchor="start" style="fill:#1A1F2C">Update oidc</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpReloadKeys" target="_blank" class="st" data-op="org_idpReloadKeys"><title>GET /org/{org_id}/idp/{idp_id}/reload-keys
+IDP line · org_idpReloadKeys</title>
+<circle cx="1335" cy="794" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1347" y="799" text-anchor="start" style="fill:#1A1F2C">List reload keys</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpDownloadDescriptor" target="_blank" class="st" data-op="org_idpDownloadDescriptor"><title>GET /org/{org_id}/idp/{idp_id}/descriptor
+IDP line · org_idpDownloadDescriptor</title>
+<circle cx="1382" cy="841" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1394" y="846" text-anchor="start" style="fill:#1A1F2C">Get descriptor</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpDownloadCert" target="_blank" class="st" data-op="org_idpDownloadCert"><title>GET /org/{org_id}/idp/{idp_id}/certificate
+IDP line · org_idpDownloadCert</title>
+<circle cx="1382" cy="1076" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1394" y="1081" text-anchor="start" style="fill:#1A1F2C">Get certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpAssociate" target="_blank" class="st" data-op="org_idpAssociate"><title>POST /org/{org_id}/idp/{idp_id}
+IDP line · org_idpAssociate</title>
+<circle cx="959" cy="888" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="947.0" y="893" text-anchor="end" style="fill:#1A1F2C">Update idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpFindOne" target="_blank" class="st" data-op="org_idpFindOne"><title>GET /org/{org_id}/idp/{idp_id}
+IDP line · org_idpFindOne</title>
+<circle cx="959" cy="982" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="947.0" y="987" text-anchor="end" style="fill:#1A1F2C">Get idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpRemove" target="_blank" class="st" data-op="org_idpRemove"><title>DELETE /org/{org_id}/idp/{idp_id}
+IDP line · org_idpRemove</title>
+<circle cx="1194" cy="982" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1190" y1="986" x2="1198" y2="978" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1206" y="987" text-anchor="start" style="fill:#1A1F2C">Delete idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpUpdate" target="_blank" class="st" data-op="org_idpUpdate"><title>PUT /org/{org_id}/idp/{idp_id}
+IDP line · org_idpUpdate</title>
+<circle cx="1100" cy="888" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1112" y="893" text-anchor="start" style="fill:#1A1F2C">Update idp</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-idp-api/#op-org_idpFind" target="_blank" class="st" data-op="org_idpFind"><title>GET /org/{org_id}/idp
+IDP line · org_idpFind</title>
+<circle cx="1053" cy="982" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1044.0" y="972" text-anchor="end" style="fill:#1A1F2C">Get idp <tspan font-weight="700" style="fill:#E07B12">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_findEnvs" target="_blank" class="st" data-op="org_findEnvs"><title>GET /org/env
+Org line · org_findEnvs</title>
+<circle cx="1006" cy="1076" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1015" y="1066" text-anchor="start" style="fill:#1A1F2C">Get env <tspan font-weight="700" style="fill:#00838F">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_userPrimary" target="_blank" class="st" data-op="org_userPrimary"><title>PUT /org/{org_id}/user/{user_guid}/primary
+Org line · org_userPrimary</title>
+<circle cx="1006" cy="1264" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1006" y="1250" text-anchor="middle" style="fill:#1A1F2C">Update primary</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_userFindOne" target="_blank" class="st" data-op="org_userFindOne"><title>GET /org/{org_id}/user/{user_guid}
+Org line · org_userFindOne</title>
+<circle cx="1100" cy="1546" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1088.0" y="1551" text-anchor="end" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_userRemove" target="_blank" class="st" data-op="org_userRemove"><title>DELETE /org/{org_id}/user/{user_guid}
+Org line · org_userRemove</title>
+<circle cx="1006" cy="1358" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1002" y1="1362" x2="1010" y2="1354" stroke="#E07B12" stroke-width="2"/>
+<text x="994.0" y="1363" text-anchor="end" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_userUpdate" target="_blank" class="st" data-op="org_userUpdate"><title>PUT /org/{org_id}/user/{user_guid}
+Org line · org_userUpdate</title>
+<circle cx="1006" cy="1452" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1018" y="1457" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_userCreate" target="_blank" class="st" data-op="org_userCreate"><title>POST /org/{org_id}/user
+Org line · org_userCreate</title>
+<circle cx="1194" cy="1546" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1200" y="1534" transform="rotate(-45 1200 1534)" style="fill:#1A1F2C">Update user <tspan font-weight="700" style="fill:#C2410C">⇄AL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_userFind" target="_blank" class="st" data-op="org_userFind"><title>GET /org/{org_id}/user
+Org line · org_userFind</title>
+<circle cx="1288" cy="1546" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1300" y="1551" text-anchor="start" style="fill:#1A1F2C">Get user <tspan font-weight="700" style="fill:#B8860B">⇄USE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_stats" target="_blank" class="st" data-op="org_stats"><title>GET /org/{org_id}/stats
+Org line · org_stats</title>
+<circle cx="1382" cy="1264" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1394" y="1269" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_findOne" target="_blank" class="st" data-op="org_findOne"><title>GET /org/{org_id}
+Org line · org_findOne</title>
+<circle cx="1100" cy="1076" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1106" y="1064" transform="rotate(-45 1106 1064)" style="fill:#1A1F2C">Get org</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_remove" target="_blank" class="st" data-op="org_remove"><title>DELETE /org/{org_id}
+Org line · org_remove</title>
+<circle cx="1288" cy="1170" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1284" y1="1174" x2="1292" y2="1166" stroke="#E07B12" stroke-width="2"/>
+<text x="1300" y="1175" text-anchor="start" style="fill:#1A1F2C">Delete org</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-org-api/#op-org_update" target="_blank" class="st" data-op="org_update"><title>PUT /org/{org_id}
+Org line · org_update</title>
+<circle cx="1194" cy="1076" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1185.0" y="1095" text-anchor="end" style="fill:#1A1F2C">Update org</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_create" target="_blank" class="st" data-op="provider_create"><title>POST /provider
+Provider line · provider_create</title>
+<circle cx="1429" cy="559" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1441" y="564" text-anchor="start" style="fill:#1A1F2C">Update provider</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_find" target="_blank" class="st" data-op="provider_find"><title>GET /provider
+Provider line · provider_find</title>
+<circle cx="1523" cy="465" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1535" y="470" text-anchor="start" style="fill:#1A1F2C">Get provider</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_findOnboarding" target="_blank" class="st" data-op="provider_findOnboarding"><title>GET /provider/{provider_id}/onboarding
+Provider line · provider_findOnboarding</title>
+<circle cx="1758" cy="465" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1770" y="470" text-anchor="start" style="fill:#1A1F2C">Get onboarding</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_oauthConfirm" target="_blank" class="st" data-op="provider_oauthConfirm"><title>POST /provider/{provider_id}/oauth/{service}/confirm
+Provider line · provider_oauthConfirm</title>
+<circle cx="1758" cy="559" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1770" y="564" text-anchor="start" style="fill:#1A1F2C">Confirm oauth</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_oauthCallback" target="_blank" class="st" data-op="provider_oauthCallback"><title>GET /provider/{provider_id}/oauth/{service}/callback
+Provider line · provider_oauthCallback</title>
+<circle cx="1758" cy="700" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1770" y="705" text-anchor="start" style="fill:#1A1F2C">Get callback</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_oauthAuthorize" target="_blank" class="st" data-op="provider_oauthAuthorize"><title>GET /provider/{provider_id}/oauth/{service}/authorize
+Provider line · provider_oauthAuthorize</title>
+<circle cx="1711" cy="747" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1723" y="752" text-anchor="start" style="fill:#1A1F2C">Authorize provider oauth</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_consumerUpdate" target="_blank" class="st" data-op="provider_consumerUpdate"><title>PUT /provider/{provider_id}/consumer/{org_id}
+Provider line · provider_consumerUpdate</title>
+<circle cx="1570" cy="888" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1582" y="893" text-anchor="start" style="fill:#1A1F2C">Update consumer</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_consumerFindOne" target="_blank" class="st" data-op="provider_consumerFindOne"><title>GET /provider/{provider_id}/consumer/{consumer_id}
+Provider line · provider_consumerFindOne</title>
+<circle cx="1476" cy="982" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1488" y="987" text-anchor="start" style="fill:#1A1F2C">Get consumer</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_consumerRemove" target="_blank" class="st" data-op="provider_consumerRemove"><title>DELETE /provider/{provider_id}/consumer/{consumer_id}
+Provider line · provider_consumerRemove</title>
+<circle cx="1617" cy="841" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1613" y1="845" x2="1621" y2="837" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1629" y="846" text-anchor="start" style="fill:#1A1F2C">Delete consumer</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_consumerCreate" target="_blank" class="st" data-op="provider_consumerCreate"><title>POST /provider/{provider_id}/consumer
+Provider line · provider_consumerCreate</title>
+<circle cx="1335" cy="982" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1326.0" y="1001" text-anchor="end" style="fill:#1A1F2C">Update consumer</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_consumerFind" target="_blank" class="st" data-op="provider_consumerFind"><title>GET /provider/{provider_id}/consumer
+Provider line · provider_consumerFind</title>
+<circle cx="1194" cy="841" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1206" y="846" text-anchor="start" style="fill:#1A1F2C">Get consumer</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_activity" target="_blank" class="st" data-op="provider_activity"><title>GET /provider/{provider_id}/activity
+Provider line · provider_activity</title>
+<circle cx="1194" cy="747" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1206" y="752" text-anchor="start" style="fill:#1A1F2C">Get activity <tspan font-weight="700" style="fill:#C2410C">⇄AL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_findOne" target="_blank" class="st" data-op="provider_findOne"><title>GET /provider/{provider_id}
+Provider line · provider_findOne</title>
+<circle cx="1382" cy="606" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1394" y="611" text-anchor="start" style="fill:#1A1F2C">Get provider</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_remove" target="_blank" class="st" data-op="provider_remove"><title>DELETE /provider/{provider_id}
+Provider line · provider_remove</title>
+<circle cx="1194" cy="653" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1190" y1="657" x2="1198" y2="649" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1206" y="658" text-anchor="start" style="fill:#1A1F2C">Delete provider</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-provider-api/#op-provider_update" target="_blank" class="st" data-op="provider_update"><title>PUT /provider/{provider_id}
+Provider line · provider_update</title>
+<circle cx="1241" cy="606" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1229.0" y="611" text-anchor="end" style="fill:#1A1F2C">Update provider</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-role-api/#op-role_find" target="_blank" class="st" data-op="role_find"><title>GET /role
+Axway Local line · role_find</title>
+<circle cx="865" cy="700" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="877" y="705" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-role-api/#op-role_findOne" target="_blank" class="st" data-op="role_findOne"><title>GET /role/{role_id}
+Axway Local line · role_findOne</title>
+<circle cx="865" cy="606" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="877" y="611" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-session-api/#op-session_query" target="_blank" class="st" data-op="session_query"><title>POST /session/query
+Session line · session_query</title>
+<circle cx="677" cy="1123" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="671" y="1135" text-anchor="end" transform="rotate(-45 671 1135)" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-session-api/#op-session_find" target="_blank" class="st" data-op="session_find"><title>GET /session
+Session line · session_find</title>
+<circle cx="489" cy="1029" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="501" y="1034" text-anchor="start" style="fill:#1A1F2C">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-session-api/#op-session_remove" target="_blank" class="st" data-op="session_remove"><title>DELETE /session/{session_id}
+Session line · session_remove</title>
+<circle cx="583" cy="1123" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="579" y1="1127" x2="587" y2="1119" stroke="#D6264F" stroke-width="2"/>
+<text x="571.0" y="1128" text-anchor="end" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-subscription-api/#op-org_findOneSubscription" target="_blank" class="st" data-op="org_findOneSubscription"><title>GET /org/{org_id}/subscription/{subscription_id}
+Org line · org_findOneSubscription</title>
+<circle cx="1382" cy="1452" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1394" y="1457" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-subscription-api/#op-org_findSubscriptions" target="_blank" class="st" data-op="org_findSubscriptions"><title>GET /org/{org_id}/subscription
+Org line · org_findSubscriptions</title>
+<circle cx="1382" cy="1358" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1394" y="1363" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_create" target="_blank" class="st" data-op="team_create"><title>POST /team
+Team line · team_create</title>
+<circle cx="1429" cy="1969" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1441" y="1974" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_find" target="_blank" class="st" data-op="team_find"><title>GET /team
+Team line · team_find</title>
+<circle cx="1429" cy="2063" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1441" y="2068" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_userAdd" target="_blank" class="st" data-op="team_userAdd"><title>POST /team/{team_id}/user/{user_id}
+Team line · team_userAdd</title>
+<circle cx="1288" cy="1875" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1300" y="1880" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_userRemove" target="_blank" class="st" data-op="team_userRemove"><title>DELETE /team/{team_id}/user/{user_id}
+Team line · team_userRemove</title>
+<circle cx="1288" cy="2063" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1284" y1="2067" x2="1292" y2="2059" stroke="#B0287F" stroke-width="2"/>
+<text x="1300" y="2068" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_userUpdateRole" target="_blank" class="st" data-op="team_userUpdateRole"><title>PUT /team/{team_id}/user/{user_id}
+Team line · team_userUpdateRole</title>
+<circle cx="1288" cy="1969" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1300" y="1974" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_userFind" target="_blank" class="st" data-op="team_userFind"><title>GET /team/{team_id}/user
+Team line · team_userFind</title>
+<circle cx="1288" cy="1734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1297" y="1724" text-anchor="start" style="fill:#1A1F2C">Get user <tspan font-weight="700" style="fill:#B8860B">⇄USE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_findOne" target="_blank" class="st" data-op="team_findOne"><title>GET /team/{team_id}
+Team line · team_findOne</title>
+<circle cx="1429" cy="1875" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1441" y="1880" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_remove" target="_blank" class="st" data-op="team_remove"><title>DELETE /team/{team_id}
+Team line · team_remove</title>
+<circle cx="1382" cy="1734" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1378" y1="1738" x2="1386" y2="1730" stroke="#B0287F" stroke-width="2"/>
+<text x="1394" y="1739" text-anchor="start" style="fill:#1A1F2C">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-team-api/#op-team_update" target="_blank" class="st" data-op="team_update"><title>PUT /team/{team_id}
+Team line · team_update</title>
+<circle cx="1429" cy="1781" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1441" y="1786" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-telemetry-api/#op-analytics_create" target="_blank" class="st" data-op="analytics_create"><title>POST /analytics
+Analytics line · analytics_create</title>
+<circle cx="160" cy="1311" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="166" y="1299" transform="rotate(-45 166 1299)" style="fill:#1A1F2C">Create analytic</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-usage-api/#op-usage_uploadAutomatic" target="_blank" class="st" data-op="usage_uploadAutomatic"><title>POST /usage/automatic
+Usage line · usage_uploadAutomatic</title>
+<circle cx="865" cy="1593" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="877" y="1598" text-anchor="start" style="fill:#1A1F2C">Update automatic</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-usage-api/#op-usage_find" target="_blank" class="st" data-op="usage_find"><title>GET /usage
+Usage line · usage_find</title>
+<circle cx="1100" cy="1311" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1112" y="1316" text-anchor="start" style="fill:#1A1F2C">Get usage</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-usage-api/#op-usage_upload" target="_blank" class="st" data-op="usage_upload"><title>POST /usage
+Usage line · usage_upload</title>
+<circle cx="912" cy="1452" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="900.0" y="1457" text-anchor="end" style="fill:#1A1F2C">Update usage</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-usage-api/#op-usage_download" target="_blank" class="st" data-op="usage_download"><title>GET /usage/{file_id}
+Usage line · usage_download</title>
+<circle cx="912" cy="1546" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="924" y="1551" text-anchor="start" style="fill:#1A1F2C">Get usage</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-usage-api/#op-org_findUsage" target="_blank" class="st" data-op="org_findUsage"><title>GET /org/{org_id}/usage
+Usage line · org_findUsage</title>
+<circle cx="1100" cy="1170" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1112" y="1175" text-anchor="start" style="fill:#1A1F2C">Get usage <tspan font-weight="700" style="fill:#C2410C">⇄AL</tspan> <tspan font-weight="700" style="fill:#E07B12">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_updatePref" target="_blank" class="st" data-op="user_updatePref"><title>PUT /user/pref
+User line · user_updatePref</title>
+<circle cx="959" cy="1828" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="971" y="1833" text-anchor="start" style="fill:#1A1F2C">Update pref</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_findOrgs" target="_blank" class="st" data-op="user_findOrgs"><title>GET /user/organizations
+User line · user_findOrgs</title>
+<circle cx="959" cy="1922" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="947.0" y="1927" text-anchor="end" style="fill:#1A1F2C">List organizations</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_updateCredentials" target="_blank" class="st" data-op="user_updateCredentials"><title>PUT /user/credentials
+User line · user_updateCredentials</title>
+<circle cx="1147" cy="1828" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1159" y="1833" text-anchor="start" style="fill:#1A1F2C">Create credential</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_update" target="_blank" class="st" data-op="user_update"><title>PUT /user/profile/{user_id}
+User line · user_update</title>
+<circle cx="959" cy="1734" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="971" y="1739" text-anchor="start" style="fill:#1A1F2C">Update profile</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_findDomain" target="_blank" class="st" data-op="user_findDomain"><title>GET /user/domain/{domain}
+User line · user_findDomain</title>
+<circle cx="1053" cy="1922" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1065" y="1927" text-anchor="start" style="fill:#1A1F2C">Get domain</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_findAttribute" target="_blank" class="st" data-op="user_findAttribute"><title>GET /user/{user_id}/attribute
+User line · user_findAttribute</title>
+<circle cx="1006" cy="1687" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1018" y="1692" text-anchor="start" style="fill:#1A1F2C">Get attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_findOne" target="_blank" class="st" data-op="user_findOne"><title>GET /user/{user_id}
+User line · user_findOne</title>
+<circle cx="1288" cy="1640" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1300" y="1645" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/axway/axway-user-api/#op-user_remove" target="_blank" class="st" data-op="user_remove"><title>DELETE /user/{user_id}
+User line · user_remove</title>
+<circle cx="1194" cy="1781" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1190" y1="1785" x2="1198" y2="1777" stroke="#B8860B" stroke-width="2"/>
+<text x="1206" y="1786" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<text x="3123" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3123" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AXWAY</text>
+<rect x="3123" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3140" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AUT</text><text x="3165" y="269" font-size="11" fill="#1A1F2C">Auth <tspan fill="#8A93A6">28</tspan></text>
+<rect x="3123" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3140" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IDP</text><text x="3165" y="286" font-size="11" fill="#1A1F2C">IDP <tspan fill="#8A93A6">15</tspan></text>
+<rect x="3123" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3140" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="3165" y="303" font-size="11" fill="#1A1F2C">Provider <tspan fill="#8A93A6">15</tspan></text>
+<rect x="3123" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="3140" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="3165" y="320" font-size="11" fill="#1A1F2C">Org <tspan fill="#8A93A6">13</tspan></text>
+<rect x="3123" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3140" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOM</text><text x="3165" y="337" font-size="11" fill="#1A1F2C">Domain <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3123" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="3140" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="3165" y="354" font-size="11" fill="#1A1F2C">Team <tspan fill="#8A93A6">9</tspan></text>
+<rect x="3123" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3140" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ANA</text><text x="3165" y="371" font-size="11" fill="#1A1F2C">Analytics <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3123" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="3140" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="3165" y="388" font-size="11" fill="#1A1F2C">User <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3123" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="3140" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AL</text><text x="3165" y="405" font-size="11" fill="#1A1F2C">Axway Local <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3123" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3140" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLI</text><text x="3165" y="422" font-size="11" fill="#1A1F2C">Client <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3123" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3140" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="3165" y="439" font-size="11" fill="#1A1F2C">App <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3123" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="3140" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENV</text><text x="3165" y="456" font-size="11" fill="#1A1F2C">Env <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3123" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3140" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USA</text><text x="3165" y="473" font-size="11" fill="#1A1F2C">Usage <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3123" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="3140" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EXP</text><text x="3165" y="490" font-size="11" fill="#1A1F2C">Export <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3123" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="3140" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SES</text><text x="3165" y="507" font-size="11" fill="#1A1F2C">Session <tspan fill="#8A93A6">3</tspan></text>
+<text x="3373" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3391,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3417" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3391,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3417" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3391,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3417" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3391,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3417" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3391,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3417" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3391,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3417" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3391,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3417" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3391,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3417" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3373" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3373" y="463" font-size="10.5" fill="#5A6275">“ACA” → Axway Local line · 2 ops</text>
+<text x="3373" y="478" font-size="10.5" fill="#5A6275">“Activity” → Axway Local line · 2 ops</text>
+<text x="3373" y="493" font-size="10.5" fill="#5A6275">“Entitlement” → Axway Local line · 1 op</text>
+<text x="3373" y="508" font-size="10.5" fill="#5A6275">“Role” → Axway Local line · 2 ops</text>
+<text x="3373" y="523" font-size="10.5" fill="#5A6275">“Subscription” → Org line · 2 ops</text>
+<text x="3373" y="538" font-size="10.5" fill="#5A6275">“Telemetry” → Analytics line · 1 op</text>
+<text x="3373" y="588" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3373" y="605" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2710" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/axway/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

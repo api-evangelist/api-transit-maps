@@ -1,0 +1,817 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2498 2826" width="2498" height="2826" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2498" height="2826" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Xiaoman API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">137 operations as stops · 19 tags as lines · 1 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1420" y1="2414" x2="1462" y2="2456" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1420" y1="2414" x2="1462" y2="2456" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Companies" d="M706.0,2372.0 L790.0,2372.0 L874.0,2372.0 L958.0,2372.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Companies</title></path>
+<path class="line" data-line="Contacts" d="M958.0,2246.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Contacts</title></path>
+<path class="line" data-line="Credit" d="M1084.0,2204.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Credit</title></path>
+<path class="line" data-line="Product" d="M1000.0,230.0 L1084.0,314.0 L1116.1,346.1 Q1126.0,356.0 1126.0,370.0 L1126.0,482.0 L1126.0,608.0 L1126.0,692.0 L1126.0,776.0 L1126.0,972.0 Q1126.0,986.0 1112.0,986.0 L1084.0,986.0 L1000.0,986.0 L930.0,986.0 Q916.0,986.0 906.1,976.1 L799.9,869.9 Q790.0,860.0 790.0,846.0 L790.0,790.0 Q790.0,776.0 776.0,776.0 L720.0,776.0 Q706.0,776.0 696.1,766.1 L664.0,734.0 L580.0,650.0 L496.0,566.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Product</title></path>
+<path class="line" data-line="Payment Invoice" d="M1378.0,1868.0 L1308.0,1868.0 Q1294.0,1868.0 1284.1,1877.9 L1210.0,1952.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Invoice</title></path>
+<path class="line" data-line="Supplier" d="M1000.0,1406.0 L1084.0,1490.0 L1158.1,1564.1 Q1168.0,1574.0 1158.1,1583.9 L1093.9,1648.1 Q1084.0,1658.0 1070.0,1658.0 L1000.0,1658.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Supplier</title></path>
+<path class="line" data-line="Opportunity" d="M1252.0,776.0 L1336.0,860.0 L1378.0,902.0 L1410.1,934.1 Q1420.0,944.0 1429.9,934.1 L1462.0,902.0 L1546.0,818.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Opportunity</title></path>
+<path class="line" data-line="Invoices" d="M832.0,902.0 L916.0,902.0 L1000.0,902.0 L1084.0,902.0 L1168.0,902.0 L1238.0,902.0 Q1252.0,902.0 1261.9,911.9 L1336.0,986.0 L1420.0,1070.0 L1504.0,1154.0 L1588.0,1238.0 L1662.1,1312.1 Q1672.0,1322.0 1672.0,1336.0 L1672.0,1406.0 L1672.0,1490.0 L1672.0,1574.0 L1672.0,1658.0 L1672.0,1728.0 Q1672.0,1742.0 1662.1,1751.9 L1588.0,1826.0 L1504.0,1910.0 L1420.0,1994.0 L1345.9,2068.1 Q1336.0,2078.0 1322.0,2078.0 L1252.0,2078.0 L1168.0,2078.0 L1084.0,2078.0 L1000.0,2078.0 L930.0,2078.0 Q916.0,2078.0 906.1,2068.1 L832.0,1994.0 L748.0,1910.0 L664.0,1826.0 L589.9,1751.9 Q580.0,1742.0 580.0,1728.0 L580.0,1658.0 L580.0,1574.0 L580.0,1490.0 L580.0,1406.0 L580.0,1336.0 Q580.0,1322.0 589.9,1312.1 L664.0,1238.0 L748.0,1154.0 L822.1,1079.9 Q832.0,1070.0 832.0,1056.0 L832.0,902.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Invoices</title></path>
+<path class="line" data-line="Company" d="M160.0,1532.0 L244.0,1532.0 L328.0,1532.0 L412.0,1532.0 L454.0,1532.0 L664.0,1532.0 L706.0,1532.0 L776.0,1532.0 Q790.0,1532.0 799.9,1522.1 L822.1,1499.9 Q832.0,1490.0 832.0,1476.0 L832.0,1420.0 Q832.0,1406.0 822.1,1396.1 L757.9,1331.9 Q748.0,1322.0 734.0,1322.0 L678.0,1322.0 Q664.0,1322.0 654.1,1312.1 L589.9,1247.9 Q580.0,1238.0 566.0,1238.0 L468.0,1238.0 Q454.0,1238.0 444.1,1247.9 L412.0,1280.0 L328.0,1364.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Company</title></path>
+<path class="line" data-line="Webhook" d="M1462.0,2540.0 L1462.0,2470.0 Q1462.0,2456.0 1476.0,2456.0 L1574.0,2456.0 Q1588.0,2456.0 1597.9,2465.9 L1630.0,2498.0 L1714.0,2582.0 L1798.0,2666.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhook</title></path>
+<path class="line" data-line="Subscribe" d="M1672.0,944.0 L1597.9,1018.1 Q1588.0,1028.0 1574.0,1028.0 L1560.0,1028.0 Q1546.0,1028.0 1546.0,1014.0 L1546.0,958.0 Q1546.0,944.0 1555.9,934.1 L1672.0,818.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscribe</title></path>
+<path class="line" data-line="User" d="M1084.0,1154.0 L1196.0,1154.0 Q1210.0,1154.0 1219.9,1163.9 L1252.0,1196.0 L1336.0,1280.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User</title></path>
+<path class="line" data-line="Lead" d="M1126.0,1322.0 L1210.0,1406.0 L1242.1,1438.1 Q1252.0,1448.0 1266.0,1448.0 L1336.0,1448.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Lead</title></path>
+<path class="line" data-line="Cost Invoice" d="M622.0,1994.0 L706.0,2078.0 L790.0,2162.0 L832.0,2204.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cost Invoice</title></path>
+<path class="line" data-line="Purchase Order" d="M1798.0,1280.0 L1714.0,1196.0 L1639.9,1121.9 Q1630.0,1112.0 1639.9,1102.1 L1662.1,1079.9 Q1672.0,1070.0 1686.0,1070.0 L1798.0,1070.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Purchase Order</title></path>
+<path class="line" data-line="Internal" d="M1252.0,2204.0 L1210.0,2246.0 L1126.0,2330.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Internal</title></path>
+<path class="line" data-line="Emails" d="M1546.0,1616.0 L1434.0,1616.0 Q1420.0,1616.0 1410.1,1606.1 L1387.9,1583.9 Q1378.0,1574.0 1364.0,1574.0 L1308.0,1574.0 Q1294.0,1574.0 1294.0,1588.0 L1294.0,1658.0 L1294.0,1742.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Emails</title></path>
+<path class="line" data-line="产品 Local" d="M916.0,1910.0 L958.0,1868.0 L1000.0,1826.0 L1074.1,1751.9 Q1084.0,1742.0 1098.0,1742.0 L1112.0,1742.0 Q1126.0,1742.0 1126.0,1756.0 L1126.0,1826.0 L1126.0,1854.0 Q1126.0,1868.0 1116.1,1877.9 L1042.0,1952.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>产品 Local</title></path>
+<path class="line" data-line="Dev Ops Local" d="M1336.0,2498.0 L1420.0,2414.0 L1504.0,2330.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Dev Ops Local</title></path>
+<line x1="706" y1="2372" x2="672.0" y2="2372.0" stroke="#B0287F" stroke-width="7"/><rect x="648.0" y="2361.0" width="48" height="22" rx="5" fill="#B0287F"><title>Companies</title></rect><text x="672.0" y="2377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CMP</text>
+<line x1="958" y1="2372" x2="992.0" y2="2372.0" stroke="#B0287F" stroke-width="7"/><rect x="968.0" y="2361.0" width="48" height="22" rx="5" fill="#B0287F"><title>Companies</title></rect><text x="992.0" y="2377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CMP</text>
+<line x1="958" y1="2246" x2="992.0" y2="2246.0" stroke="#1F5FD1" stroke-width="7"/><rect x="968.0" y="2235.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Contacts</title></rect><text x="992.0" y="2251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="958" y1="2246" x2="958.0" y2="2276.0" stroke="#1F5FD1" stroke-width="7"/><rect x="934.0" y="2265.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Contacts</title></rect><text x="958.0" y="2281.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1084" y1="2204" x2="1118.0" y2="2204.0" stroke="#B8860B" stroke-width="7"/><rect x="1094.0" y="2193.0" width="48" height="22" rx="5" fill="#B8860B"><title>Credit</title></rect><text x="1118.0" y="2209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRE</text>
+<line x1="1084" y1="2204" x2="1084.0" y2="2234.0" stroke="#B8860B" stroke-width="7"/><rect x="1060.0" y="2223.0" width="48" height="22" rx="5" fill="#B8860B"><title>Credit</title></rect><text x="1084.0" y="2239.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRE</text>
+<line x1="1000" y1="230" x2="975.9583694396574" y2="205.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="951.9583694396574" y="194.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Product</title></rect><text x="975.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="496" y1="566" x2="471.95836943965736" y2="541.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="447.95836943965736" y="530.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Product</title></rect><text x="471.95836943965736" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1378" y1="1868" x2="1412.0" y2="1868.0" stroke="#00838F" stroke-width="7"/><rect x="1388.0" y="1857.0" width="48" height="22" rx="5" fill="#00838F"><title>Payment Invoice</title></rect><text x="1412.0" y="1873.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PI</text>
+<line x1="1210" y1="1952" x2="1185.9583694396574" y2="1976.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="1161.9583694396574" y="1965.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Payment Invoice</title></rect><text x="1185.9583694396574" y="1981.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PI</text>
+<line x1="1000" y1="1406" x2="975.9583694396574" y2="1381.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="951.9583694396574" y="1370.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Supplier</title></rect><text x="975.9583694396574" y="1386.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUP</text>
+<line x1="1000" y1="1658" x2="966.0" y2="1658.0" stroke="#B8860B" stroke-width="7"/><rect x="942.0" y="1647.0" width="48" height="22" rx="5" fill="#B8860B"><title>Supplier</title></rect><text x="966.0" y="1663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUP</text>
+<line x1="1252" y1="776" x2="1227.9583694396574" y2="751.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1203.9583694396574" y="740.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Opportunity</title></rect><text x="1227.9583694396574" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPP</text>
+<line x1="1546" y1="818" x2="1570.0416305603426" y2="793.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1546.0416305603426" y="782.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Opportunity</title></rect><text x="1570.0416305603426" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPP</text>
+<rect x="802" y="849" width="60" height="26" rx="13" fill="#D6264F"/><text x="832" y="867" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">INV</text>
+<line x1="160" y1="1532" x2="126.0" y2="1532.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="1521.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Company</title></rect><text x="126.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="328" y1="1364" x2="303.95836943965736" y2="1388.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="279.95836943965736" y="1377.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Company</title></rect><text x="303.95836943965736" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1462" y1="2540" x2="1462.0" y2="2574.0" stroke="#E07B12" stroke-width="7"/><rect x="1438.0" y="2563.0" width="48" height="22" rx="5" fill="#E07B12"><title>Webhook</title></rect><text x="1462.0" y="2579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1798" y1="2666" x2="1822.0416305603426" y2="2690.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1798.0416305603426" y="2679.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Webhook</title></rect><text x="1822.0416305603426" y="2695.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1672" y1="944" x2="1696.0416305603426" y2="919.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1672.0416305603426" y="908.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Subscribe</title></rect><text x="1696.0416305603426" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1672" y1="818" x2="1696.0416305603426" y2="793.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1672.0416305603426" y="782.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Subscribe</title></rect><text x="1696.0416305603426" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1084" y1="1154" x2="1050.0" y2="1154.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1026.0" y="1143.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>User</title></rect><text x="1050.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1336" y1="1280" x2="1360.0416305603426" y2="1304.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1336.0416305603426" y="1293.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>User</title></rect><text x="1360.0416305603426" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1126" y1="1322" x2="1101.9583694396574" y2="1297.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1077.9583694396574" y="1286.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Lead</title></rect><text x="1101.9583694396574" y="1302.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LEA</text>
+<line x1="1336" y1="1448" x2="1370.0" y2="1448.0" stroke="#2E7D32" stroke-width="7"/><rect x="1346.0" y="1437.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Lead</title></rect><text x="1370.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LEA</text>
+<line x1="622" y1="1994" x2="597.9583694396574" y2="1969.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="573.9583694396574" y="1958.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Cost Invoice</title></rect><text x="597.9583694396574" y="1974.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CI</text>
+<line x1="832" y1="2204" x2="856.0416305603426" y2="2228.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="832.0416305603426" y="2217.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Cost Invoice</title></rect><text x="856.0416305603426" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CI</text>
+<line x1="1798" y1="1280" x2="1822.0416305603426" y2="1304.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1798.0416305603426" y="1293.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Purchase Order</title></rect><text x="1822.0416305603426" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PO</text>
+<line x1="1798" y1="1070" x2="1832.0" y2="1070.0" stroke="#0B7A75" stroke-width="7"/><rect x="1808.0" y="1059.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Purchase Order</title></rect><text x="1832.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PO</text>
+<line x1="1252" y1="2204" x2="1276.0416305603426" y2="2179.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1252.0416305603426" y="2168.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Internal</title></rect><text x="1276.0416305603426" y="2184.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1126" y1="2330" x2="1101.9583694396574" y2="2354.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1077.9583694396574" y="2343.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Internal</title></rect><text x="1101.9583694396574" y="2359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1546" y1="1616" x2="1580.0" y2="1616.0" stroke="#B0287F" stroke-width="7"/><rect x="1556.0" y="1605.0" width="48" height="22" rx="5" fill="#B0287F"><title>Emails</title></rect><text x="1580.0" y="1621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EMA</text>
+<line x1="1294" y1="1742" x2="1294.0" y2="1776.0" stroke="#B0287F" stroke-width="7"/><rect x="1270.0" y="1765.0" width="48" height="22" rx="5" fill="#B0287F"><title>Emails</title></rect><text x="1294.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EMA</text>
+<line x1="916" y1="1910" x2="891.9583694396574" y2="1934.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="867.9583694396574" y="1923.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>产品 Local</title></rect><text x="891.9583694396574" y="1939.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="1042" y1="1952" x2="1017.9583694396574" y2="1976.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="993.9583694396574" y="1965.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>产品 Local</title></rect><text x="1017.9583694396574" y="1981.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="1336" y1="2498" x2="1311.9583694396574" y2="2522.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1287.9583694396574" y="2511.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dev Ops Local</title></rect><text x="1311.9583694396574" y="2527.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOL</text>
+<line x1="1504" y1="2330" x2="1528.0416305603426" y2="2305.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1504.0416305603426" y="2294.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dev Ops Local</title></rect><text x="1528.0416305603426" y="2310.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOL</text>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-companies-api/#op-searchCompaniesAdvanced" target="_blank" class="st" data-op="searchCompaniesAdvanced"><title>POST /api/v1/companies/search-advanced
+Companies line · searchCompaniesAdvanced</title>
+<circle cx="706" cy="2372" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="712" y="2360" transform="rotate(-45 712 2360)" style="fill:#1A1F2C">Update search advanced</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-companies-api/#op-unlockCompany" target="_blank" class="st" data-op="unlockCompany"><title>POST /api/v1/companies/unlock
+Companies line · unlockCompany</title>
+<circle cx="790" cy="2372" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="796" y="2360" transform="rotate(-45 796 2360)" style="fill:#1A1F2C">Update unlock</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-companies-api/#op-getCompanyProfile" target="_blank" class="st" data-op="getCompanyProfile"><title>GET /api/v1/companies/{companyHashId}/profile
+Companies line · getCompanyProfile</title>
+<circle cx="874" cy="2372" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="880" y="2360" transform="rotate(-45 880 2360)" style="fill:#1A1F2C">Get profile</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-companies-api/#op-getCompanyProfileEmails" target="_blank" class="st" data-op="getCompanyProfileEmails"><title>GET /api/v1/companies/{companyHashId}/profileEmails
+Companies line · getCompanyProfileEmails</title>
+<circle cx="958" cy="2372" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="952" y="2384" text-anchor="end" transform="rotate(-45 952 2384)" style="fill:#1A1F2C">List profileemails</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-contacts-api/#op-searchContacts" target="_blank" class="st" data-op="searchContacts"><title>POST /api/v1/contacts/search
+Contacts line · searchContacts
+DEPRECATED</title>
+<circle cx="958" cy="2246" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="946.0" y="2244" text-anchor="end" style="fill:#A0A7B4">Search<tspan x="946.0" dy="13">contacts</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-credits-api/#op-getCreditBalance" target="_blank" class="st" data-op="getCreditBalance"><title>GET /api/v1/credit/balance
+Credit line · getCreditBalance</title>
+<circle cx="1084" cy="2204" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1075.0" y="2194" text-anchor="end" style="fill:#1A1F2C">Get balance</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductList" target="_blank" class="st" data-op="getV1ProductList"><title>GET /v1/product/list
+Product line · getV1ProductList</title>
+<circle cx="1126" cy="776" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="781" text-anchor="start" style="fill:#1A1F2C">List product</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductPush" target="_blank" class="st" data-op="postV1ProductPush"><title>POST /v1/product/push
+Product line · postV1ProductPush</title>
+<circle cx="1084" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1078" y="998" text-anchor="end" transform="rotate(-45 1078 998)" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductFields" target="_blank" class="st" data-op="getV1ProductFields"><title>GET /v1/product/fields
+Product line · getV1ProductFields</title>
+<circle cx="1126" cy="356" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="361" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductInfo" target="_blank" class="st" data-op="getV1ProductInfo"><title>GET /v1/product/info
+Product line · getV1ProductInfo</title>
+<circle cx="1126" cy="608" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="613" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductPushGroups" target="_blank" class="st" data-op="postV1ProductPushGroups"><title>POST /v1/product/push-groups
+Product line · postV1ProductPushGroups</title>
+<circle cx="1000" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="994" y="998" text-anchor="end" transform="rotate(-45 994 998)" style="fill:#1A1F2C">Create push group</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductRemoveSkuAttribute" target="_blank" class="st" data-op="postV1ProductRemoveSkuAttribute"><title>POST /v1/product/remove-sku-attribute
+Product line · postV1ProductRemoveSkuAttribute</title>
+<circle cx="580" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="655" text-anchor="start" style="fill:#1A1F2C">Update remove sku attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductGroups" target="_blank" class="st" data-op="getV1ProductGroups"><title>GET /v1/product/groups
+Product line · getV1ProductGroups</title>
+<circle cx="1126" cy="482" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="487" text-anchor="start" style="fill:#1A1F2C">List groups</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductPushSkuAttribute" target="_blank" class="st" data-op="postV1ProductPushSkuAttribute"><title>POST /v1/product/push-sku-attribute
+Product line · postV1ProductPushSkuAttribute</title>
+<circle cx="790" cy="776" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="802" y="781" text-anchor="start" style="fill:#1A1F2C">Update push sku attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductSkuAttributeList" target="_blank" class="st" data-op="getV1ProductSkuAttributeList"><title>GET /v1/product/sku-attribute-list
+Product line · getV1ProductSkuAttributeList</title>
+<circle cx="496" cy="566" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="571" text-anchor="start" style="fill:#1A1F2C">Get sku attribute list</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductProductEnums" target="_blank" class="st" data-op="getV1ProductProductEnums"><title>GET /v1/product/productEnums
+Product line · getV1ProductProductEnums</title>
+<circle cx="1126" cy="986" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="991" text-anchor="start" style="fill:#1A1F2C">List productenums</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductRemoveGroups" target="_blank" class="st" data-op="postV1ProductRemoveGroups"><title>POST /v1/product/remove-groups
+Product line · postV1ProductRemoveGroups</title>
+<circle cx="664" cy="734" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="739" text-anchor="start" style="fill:#1A1F2C">Create remove group</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductInventoryList" target="_blank" class="st" data-op="getV1ProductInventoryList"><title>GET /v1/product/inventory-list
+Product line · getV1ProductInventoryList</title>
+<circle cx="1126" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="697" text-anchor="start" style="fill:#1A1F2C">Get inventory list</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductAppendSkuAttributesValue" target="_blank" class="st" data-op="xiaoman-default-api:postV1ProductAppendSkuAttributesValue"><title>POST /v1/product/append-sku-attributes-value
+Product line · postV1ProductAppendSkuAttributesValue</title>
+<circle cx="1000" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1012" y="235" text-anchor="start" style="fill:#1A1F2C">Update append sku attributes value</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1ProductRemove" target="_blank" class="st" data-op="getV1ProductRemove"><title>GET /v1/product/remove
+Product line · getV1ProductRemove</title>
+<circle cx="706" cy="776" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="694.0" y="781" text-anchor="end" style="fill:#1A1F2C">Remove product</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductEditPartsList" target="_blank" class="st" data-op="postV1ProductEditPartsList"><title>POST /v1/product/edit-parts-list
+Product line · postV1ProductEditPartsList</title>
+<circle cx="1084" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="319" text-anchor="start" style="fill:#1A1F2C">Update edit parts list</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PaymentInvoiceInfo" target="_blank" class="st" data-op="getV1PaymentInvoiceInfo"><title>GET /v1/paymentInvoice/info
+Payment Invoice line · getV1PaymentInvoiceInfo</title>
+<circle cx="1294" cy="1868" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1282.0" y="1873" text-anchor="end" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PaymentInvoiceFields" target="_blank" class="st" data-op="getV1PaymentInvoiceFields"><title>GET /v1/paymentInvoice/fields
+Payment Invoice line · getV1PaymentInvoiceFields</title>
+<circle cx="1378" cy="1868" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1372" y="1880" text-anchor="end" transform="rotate(-45 1372 1880)" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PaymentInvoiceList" target="_blank" class="st" data-op="getV1PaymentInvoiceList"><title>GET /v1/paymentInvoice/list
+Payment Invoice line · getV1PaymentInvoiceList</title>
+<circle cx="1210" cy="1952" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1222" y="1957" text-anchor="start" style="fill:#1A1F2C">List paymentinvoice</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1SupplierInfo" target="_blank" class="st" data-op="getV1SupplierInfo"><title>GET /v1/supplier/info
+Supplier line · getV1SupplierInfo</title>
+<circle cx="1084" cy="1490" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1096" y="1495" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1SupplierPush" target="_blank" class="st" data-op="postV1SupplierPush"><title>POST /v1/supplier/push
+Supplier line · postV1SupplierPush</title>
+<circle cx="1084" cy="1658" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1096" y="1663" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1SupplierList" target="_blank" class="st" data-op="getV1SupplierList"><title>GET /v1/supplier/list
+Supplier line · getV1SupplierList</title>
+<circle cx="1168" cy="1574" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="1579" text-anchor="start" style="fill:#1A1F2C">List supplier</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1SupplierFields" target="_blank" class="st" data-op="getV1SupplierFields"><title>GET /v1/supplier/fields
+Supplier line · getV1SupplierFields</title>
+<circle cx="1000" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1012" y="1411" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1SupplierRemove" target="_blank" class="st" data-op="postV1SupplierRemove"><title>POST /v1/supplier/remove
+Supplier line · postV1SupplierRemove</title>
+<circle cx="1000" cy="1658" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1006" y="1646" transform="rotate(-45 1006 1646)" style="fill:#1A1F2C">Remove supplier</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1SupplierProductSupplierProductRelationList" target="_blank" class="st" data-op="getV1SupplierProductSupplierProductRelationList"><title>GET /v1/supplierProduct/supplierProductRelationList
+产品 Local line · getV1SupplierProductSupplierProductRelationList</title>
+<circle cx="1126" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1135" y="1858" text-anchor="start" style="fill:#1A1F2C">Get supplierproductrelationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1OpportunityList" target="_blank" class="st" data-op="xiaoman-default-api:getV1OpportunityList"><title>GET /v1/opportunity/list
+Opportunity line · getV1OpportunityList</title>
+<circle cx="1420" cy="944" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1420" y="967" text-anchor="middle" style="fill:#1A1F2C">List opportunity</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1OpportunityInfo" target="_blank" class="st" data-op="getV1OpportunityInfo"><title>GET /v1/opportunity/info
+Opportunity line · getV1OpportunityInfo</title>
+<circle cx="1378" cy="902" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1390" y="907" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1OpportunityFields" target="_blank" class="st" data-op="xiaoman-default-api:getV1OpportunityFields"><title>GET /v1/opportunity/fields
+Opportunity line · getV1OpportunityFields</title>
+<circle cx="1252" cy="776" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1264" y="781" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1OpportunityPush" target="_blank" class="st" data-op="xiaoman-default-api:postV1OpportunityPush"><title>POST /v1/opportunity/push
+Opportunity line · postV1OpportunityPush</title>
+<circle cx="1462" cy="902" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="907" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1OpportunityFieldsSelector" target="_blank" class="st" data-op="xiaoman-default-api:getV1OpportunityFieldsSelector"><title>GET /v1/opportunity/fields/selector
+Opportunity line · getV1OpportunityFieldsSelector</title>
+<circle cx="1336" cy="860" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="865" text-anchor="start" style="fill:#1A1F2C">Get selector</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1OpportunityRemove" target="_blank" class="st" data-op="xiaoman-default-api:postV1OpportunityRemove"><title>POST /v1/opportunity/remove
+Opportunity line · postV1OpportunityRemove</title>
+<circle cx="1546" cy="818" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1534.0" y="823" text-anchor="end" style="fill:#1A1F2C">Remove opportunity</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptFields" target="_blank" class="st" data-op="getV1InvoicesReceiptFields"><title>GET /v1/invoices/receipt/fields
+Invoices line · getV1InvoicesReceiptFields</title>
+<circle cx="664" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1831" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptInfo" target="_blank" class="st" data-op="getV1InvoicesReceiptInfo"><title>GET /v1/invoices/receipt/info
+Invoices line · getV1InvoicesReceiptInfo</title>
+<circle cx="580" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1747" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesReceiptPush" target="_blank" class="st" data-op="postV1InvoicesReceiptPush"><title>POST /v1/invoices/receipt/push
+Invoices line · postV1InvoicesReceiptPush</title>
+<circle cx="580" cy="1574" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1579" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptList" target="_blank" class="st" data-op="getV1InvoicesReceiptList"><title>GET /v1/invoices/receipt/list
+Invoices line · getV1InvoicesReceiptList</title>
+<circle cx="580" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1663" text-anchor="start" style="fill:#1A1F2C">List invoices receipt</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptTypes" target="_blank" class="st" data-op="getV1InvoicesReceiptTypes"><title>GET /v1/invoices/receipt/types
+Invoices line · getV1InvoicesReceiptTypes</title>
+<circle cx="580" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1495" text-anchor="start" style="fill:#1A1F2C">List types</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptRegistrationFields" target="_blank" class="st" data-op="getV1InvoicesReceiptRegistrationFields"><title>GET /v1/invoices/receiptRegistration/fields
+Invoices line · getV1InvoicesReceiptRegistrationFields</title>
+<circle cx="580" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="568.0" y="1327" text-anchor="end" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesReceiptRegistrationPush" target="_blank" class="st" data-op="postV1InvoicesReceiptRegistrationPush"><title>POST /v1/invoices/receiptRegistration/push
+Invoices line · postV1InvoicesReceiptRegistrationPush</title>
+<circle cx="832" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1075" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptRegistrationList" target="_blank" class="st" data-op="getV1InvoicesReceiptRegistrationList"><title>GET /v1/invoices/receiptRegistration/list
+Invoices line · getV1InvoicesReceiptRegistrationList</title>
+<circle cx="748" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1159" text-anchor="start" style="fill:#1A1F2C">List invoices receiptregistration</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesReceiptRegistrationAllocate" target="_blank" class="st" data-op="postV1InvoicesReceiptRegistrationAllocate"><title>POST /v1/invoices/receiptRegistration/allocate
+Invoices line · postV1InvoicesReceiptRegistrationAllocate</title>
+<circle cx="580" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1411" text-anchor="start" style="fill:#1A1F2C">Update allocate</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesReceiptRegistrationInfo" target="_blank" class="st" data-op="getV1InvoicesReceiptRegistrationInfo"><title>GET /v1/invoices/receiptRegistration/info
+Invoices line · getV1InvoicesReceiptRegistrationInfo</title>
+<circle cx="664" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1243" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CompanyInfo" target="_blank" class="st" data-op="xiaoman-default-api:getV1CompanyInfo"><title>GET /v1/company/info
+Company line · getV1CompanyInfo</title>
+<circle cx="412" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="418" y="1520" transform="rotate(-45 418 1520)" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1DynamicTrailList" target="_blank" class="st" data-op="xiaoman-default-api:getV1DynamicTrailList"><title>GET /v1/dynamic/trail/list
+产品 Local line · getV1DynamicTrailList</title>
+<circle cx="958" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="1873" text-anchor="start" style="fill:#1A1F2C">List dynamic trail</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CompanyFields" target="_blank" class="st" data-op="xiaoman-default-api:getV1CompanyFields"><title>GET /v1/company/fields
+Company line · getV1CompanyFields</title>
+<circle cx="244" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="250" y="1520" transform="rotate(-45 250 1520)" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyPushCompanyAndCustomers" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyPushCompanyAndCustomers"><title>POST /v1/company/pushCompanyAndCustomers
+Company line · postV1CompanyPushCompanyAndCustomers</title>
+<circle cx="790" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="1537" text-anchor="start" style="fill:#1A1F2C">Create pushcompanyandcustomer</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyRemoveCompanyAndCustomers" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyRemoveCompanyAndCustomers"><title>POST /v1/company/removeCompanyAndCustomers
+Company line · postV1CompanyRemoveCompanyAndCustomers</title>
+<circle cx="580" cy="1238" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="580" y="1210" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="580" dy="13">removecompanyandcustomer</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CompanyFieldsSelector" target="_blank" class="st" data-op="xiaoman-default-api:getV1CompanyFieldsSelector"><title>GET /v1/company/fields/selector
+Company line · getV1CompanyFieldsSelector</title>
+<circle cx="328" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="334" y="1520" transform="rotate(-45 334 1520)" style="fill:#1A1F2C">Get selector</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CompanyList" target="_blank" class="st" data-op="xiaoman-default-api:getV1CompanyList"><title>GET /v1/company/list
+Company line · getV1CompanyList</title>
+<circle cx="454" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="460" y="1520" transform="rotate(-45 460 1520)" style="fill:#1A1F2C">List company</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyPushCustomer" target="_blank" class="st" data-op="postV1CompanyPushCustomer"><title>POST /v1/company/push/customer
+Company line · postV1CompanyPushCustomer</title>
+<circle cx="706" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="712" y="1520" transform="rotate(-45 712 1520)" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1DynamicTrailPush" target="_blank" class="st" data-op="xiaoman-default-api:postV1DynamicTrailPush"><title>POST /v1/dynamic/trail/push
+产品 Local line · postV1DynamicTrailPush</title>
+<circle cx="1000" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1831" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyPushGroup" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyPushGroup"><title>POST /v1/company/pushGroup
+Company line · postV1CompanyPushGroup</title>
+<circle cx="832" cy="1490" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="1495" text-anchor="start" style="fill:#1A1F2C">Update pushgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyRemoveGroup" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyRemoveGroup"><title>POST /v1/company/removeGroup
+Company line · postV1CompanyRemoveGroup</title>
+<circle cx="454" cy="1238" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="442.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Update removegroup</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyPushTrail" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyPushTrail"><title>POST /v1/company/pushTrail
+Company line · postV1CompanyPushTrail</title>
+<circle cx="748" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="1327" text-anchor="start" style="fill:#1A1F2C">Update pushtrail</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyRemoveTrail" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyRemoveTrail"><title>POST /v1/company/removeTrail
+Company line · postV1CompanyRemoveTrail</title>
+<circle cx="328" cy="1364" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="1369" text-anchor="start" style="fill:#1A1F2C">Update removetrail</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyPushTag" target="_blank" class="st" data-op="xiaoman-default-api:postV1CompanyPushTag"><title>POST /v1/company/pushTag
+Company line · postV1CompanyPushTag</title>
+<circle cx="832" cy="1406" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="1411" text-anchor="start" style="fill:#1A1F2C">Update pushtag</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyRemoveTag" target="_blank" class="st" data-op="postV1CompanyRemoveTag"><title>POST /v1/company/removeTag
+Company line · postV1CompanyRemoveTag</title>
+<circle cx="412" cy="1280" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="424" y="1285" text-anchor="start" style="fill:#1A1F2C">Update removetag</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CompanyCompanyEnums" target="_blank" class="st" data-op="getV1CompanyCompanyEnums"><title>GET /v1/company/companyEnums
+Company line · getV1CompanyCompanyEnums</title>
+<circle cx="160" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="166" y="1520" transform="rotate(-45 166 1520)" style="fill:#1A1F2C">List companyenums</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1CompanyMoveToPublic" target="_blank" class="st" data-op="postV1CompanyMoveToPublic"><title>POST /v1/company/moveToPublic
+Company line · postV1CompanyMoveToPublic</title>
+<circle cx="664" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="670" y="1520" transform="rotate(-45 670 1520)" style="fill:#1A1F2C">Update movetopublic</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CompanyQuery" target="_blank" class="st" data-op="getV1CompanyQuery"><title>GET /v1/company/query
+Company line · getV1CompanyQuery</title>
+<circle cx="664" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="652.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ProductPushInventory" target="_blank" class="st" data-op="postV1ProductPushInventory"><title>POST /v1/product/push-inventory
+Product line · postV1ProductPushInventory</title>
+<circle cx="916" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="907.0" y="1005" text-anchor="end" style="fill:#1A1F2C">Update push inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1WarehouseList" target="_blank" class="st" data-op="getV1WarehouseList"><title>GET /v1/warehouse/list
+产品 Local line · getV1WarehouseList</title>
+<circle cx="1042" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1957" text-anchor="start" style="fill:#1A1F2C">List warehouse</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesQuotationPush" target="_blank" class="st" data-op="postV1InvoicesQuotationPush"><title>POST /v1/invoices/quotation/push
+Invoices line · postV1InvoicesQuotationPush</title>
+<circle cx="832" cy="1994" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1999" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesQuotationFields" target="_blank" class="st" data-op="getV1InvoicesQuotationFields"><title>GET /v1/invoices/quotation/fields
+Invoices line · getV1InvoicesQuotationFields</title>
+<circle cx="1168" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="2066" transform="rotate(-45 1174 2066)" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesQuotationInfo" target="_blank" class="st" data-op="getV1InvoicesQuotationInfo"><title>GET /v1/invoices/quotation/info
+Invoices line · getV1InvoicesQuotationInfo</title>
+<circle cx="1000" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1006" y="2066" transform="rotate(-45 1006 2066)" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesQuotationList" target="_blank" class="st" data-op="getV1InvoicesQuotationList"><title>GET /v1/invoices/quotation/list
+Invoices line · getV1InvoicesQuotationList</title>
+<circle cx="916" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="904.0" y="2083" text-anchor="end" style="fill:#1A1F2C">List invoices quotation</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesQuotationFieldsSelector" target="_blank" class="st" data-op="getV1InvoicesQuotationFieldsSelector"><title>GET /v1/invoices/quotation/fields/selector
+Invoices line · getV1InvoicesQuotationFieldsSelector</title>
+<circle cx="1084" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1090" y="2066" transform="rotate(-45 1090 2066)" style="fill:#1A1F2C">Get selector</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesQuotationRemove" target="_blank" class="st" data-op="postV1InvoicesQuotationRemove"><title>POST /v1/invoices/quotation/remove
+Invoices line · postV1InvoicesQuotationRemove</title>
+<circle cx="748" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="736.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Remove invoices quotation</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1Oauth2AccessToken" target="_blank" class="st" data-op="postV1Oauth2AccessToken"><title>POST /v1/oauth2/access_token
+产品 Local line · postV1Oauth2AccessToken</title>
+<circle cx="1084" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Update access token</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1Oauth2RefreshToken" target="_blank" class="st" data-op="postV1Oauth2RefreshToken"><title>POST /v1/oauth2/refresh_token
+产品 Local line · postV1Oauth2RefreshToken</title>
+<circle cx="1126" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1747" text-anchor="start" style="fill:#1A1F2C">Update refresh token</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1Webhook" target="_blank" class="st" data-op="postV1Webhook"><title>POST /v1/webhook
+Webhook line · postV1Webhook</title>
+<circle cx="1462" cy="2456" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1471" y="2446" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-putV1Webhook" target="_blank" class="st" data-op="putV1Webhook"><title>PUT /v1/webhook
+Webhook line · putV1Webhook</title>
+<circle cx="1588" cy="2456" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1600" y="2461" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1Webhook" target="_blank" class="st" data-op="getV1Webhook"><title>GET /v1/webhook
+Webhook line · getV1Webhook</title>
+<circle cx="1462" cy="2540" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1474" y="2545" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-deleteV1Webhook" target="_blank" class="st" data-op="deleteV1Webhook"><title>DELETE /v1/webhook
+Webhook line · deleteV1Webhook</title>
+<circle cx="1630" cy="2498" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1626" y1="2502" x2="1634" y2="2494" stroke="#E07B12" stroke-width="2"/>
+<text x="1642" y="2503" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1Subscribe" target="_blank" class="st" data-op="postV1Subscribe"><title>POST /v1/subscribe
+Subscribe line · postV1Subscribe</title>
+<circle cx="1588" cy="1028" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1600" y="1033" text-anchor="start" style="fill:#1A1F2C">Update subscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1Subscribe" target="_blank" class="st" data-op="getV1Subscribe"><title>GET /v1/subscribe
+Subscribe line · getV1Subscribe</title>
+<circle cx="1672" cy="944" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1684" y="949" text-anchor="start" style="fill:#1A1F2C">Get subscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1WebhookTest" target="_blank" class="st" data-op="postV1WebhookTest"><title>POST /v1/webhook/test
+Webhook line · postV1WebhookTest</title>
+<circle cx="1798" cy="2666" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1810" y="2671" text-anchor="start" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-putV1SubscribeBySubscribeType" target="_blank" class="st" data-op="putV1SubscribeBySubscribeType"><title>PUT /v1/subscribe/{subscribe_type}
+Subscribe line · putV1SubscribeBySubscribeType</title>
+<circle cx="1546" cy="944" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="949" text-anchor="start" style="fill:#1A1F2C">Update subscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-deleteV1SubscribeBySubscribeType" target="_blank" class="st" data-op="deleteV1SubscribeBySubscribeType"><title>DELETE /v1/subscribe/{subscribe_type}
+Subscribe line · deleteV1SubscribeBySubscribeType</title>
+<circle cx="1672" cy="818" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1668" y1="822" x2="1676" y2="814" stroke="#C2410C" stroke-width="2"/>
+<text x="1684" y="823" text-anchor="start" style="fill:#1A1F2C">Delete subscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1SubscribeBySubscribeType" target="_blank" class="st" data-op="getV1SubscribeBySubscribeType"><title>GET /v1/subscribe/{subscribe_type}
+Subscribe line · getV1SubscribeBySubscribeType</title>
+<circle cx="1546" cy="1028" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1534.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Get subscribe</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1WebhookRegenerateSecret" target="_blank" class="st" data-op="postV1WebhookRegenerateSecret"><title>POST /v1/webhook/regenerate-secret
+Webhook line · postV1WebhookRegenerateSecret</title>
+<circle cx="1714" cy="2582" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1726" y="2587" text-anchor="start" style="fill:#1A1F2C">Update regenerate secret</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1UserList" target="_blank" class="st" data-op="getV1UserList"><title>GET /v1/user/list
+User line · getV1UserList</title>
+<circle cx="1336" cy="1280" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1348" y="1285" text-anchor="start" style="fill:#1A1F2C">List user</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1UserInfo" target="_blank" class="st" data-op="getV1UserInfo"><title>GET /v1/user/info
+User line · getV1UserInfo</title>
+<circle cx="1252" cy="1196" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="1201" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1UserDepartmentList" target="_blank" class="st" data-op="getV1UserDepartmentList"><title>GET /v1/user/departmentList
+User line · getV1UserDepartmentList</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1222" y="1159" text-anchor="start" style="fill:#1A1F2C">Get departmentlist</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1UserDepartmentInfo" target="_blank" class="st" data-op="getV1UserDepartmentInfo"><title>GET /v1/user/departmentInfo
+User line · getV1UserDepartmentInfo</title>
+<circle cx="1084" cy="1154" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1090" y="1142" transform="rotate(-45 1090 1142)" style="fill:#1A1F2C">Get departmentinfo</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1LeadPush" target="_blank" class="st" data-op="xiaoman-default-api:postV1LeadPush"><title>POST /v1/lead/push
+Lead line · postV1LeadPush</title>
+<circle cx="1336" cy="1448" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1330" y="1460" text-anchor="end" transform="rotate(-45 1330 1460)" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1LeadFields" target="_blank" class="st" data-op="xiaoman-default-api:getV1LeadFields"><title>GET /v1/lead/fields
+Lead line · getV1LeadFields</title>
+<circle cx="1126" cy="1322" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1138" y="1327" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1LeadList" target="_blank" class="st" data-op="xiaoman-default-api:getV1LeadList"><title>GET /v1/lead/list
+Lead line · getV1LeadList</title>
+<circle cx="1252" cy="1448" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1240.0" y="1453" text-anchor="end" style="fill:#1A1F2C">List lead</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1LeadInfo" target="_blank" class="st" data-op="xiaoman-default-api:getV1LeadInfo"><title>GET /v1/lead/info
+Lead line · getV1LeadInfo</title>
+<circle cx="1210" cy="1406" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1222" y="1411" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1ReportInfo" target="_blank" class="st" data-op="postV1ReportInfo"><title>POST /v1/report/info
+产品 Local line · postV1ReportInfo</title>
+<circle cx="1126" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1831" text-anchor="start" style="fill:#1A1F2C">Update info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CostInvoiceInfo" target="_blank" class="st" data-op="getV1CostInvoiceInfo"><title>GET /v1/costInvoice/info
+Cost Invoice line · getV1CostInvoiceInfo</title>
+<circle cx="706" cy="2078" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="694.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CostInvoiceFields" target="_blank" class="st" data-op="getV1CostInvoiceFields"><title>GET /v1/costInvoice/fields
+Cost Invoice line · getV1CostInvoiceFields</title>
+<circle cx="622" cy="1994" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="634" y="1999" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CostInvoiceItems" target="_blank" class="st" data-op="getV1CostInvoiceItems"><title>GET /v1/costInvoice/items
+Cost Invoice line · getV1CostInvoiceItems</title>
+<circle cx="790" cy="2162" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="802" y="2167" text-anchor="start" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CostInvoiceList" target="_blank" class="st" data-op="getV1CostInvoiceList"><title>GET /v1/costInvoice/list
+Cost Invoice line · getV1CostInvoiceList</title>
+<circle cx="832" cy="2204" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="844" y="2209" text-anchor="start" style="fill:#1A1F2C">List costinvoice</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1CapitalAccountList" target="_blank" class="st" data-op="getV1CapitalAccountList"><title>GET /v1/capitalAccount/list
+产品 Local line · getV1CapitalAccountList</title>
+<circle cx="916" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1915" text-anchor="start" style="fill:#1A1F2C">List capitalaccount</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesPurchaseInboundList" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesPurchaseInboundList"><title>GET /v1/invoices/purchaseInbound/list
+Invoices line · getV1InvoicesPurchaseInboundList</title>
+<circle cx="1672" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1579" text-anchor="start" style="fill:#1A1F2C">List invoices purchaseinbound</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesPurchaseInboundInfo" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesPurchaseInboundInfo"><title>GET /v1/invoices/purchaseInbound/info
+Invoices line · getV1InvoicesPurchaseInboundInfo</title>
+<circle cx="1672" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1495" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesPurchaseInboundFields" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesPurchaseInboundFields"><title>GET /v1/invoices/purchaseInbound/fields
+Invoices line · getV1InvoicesPurchaseInboundFields</title>
+<circle cx="1672" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1411" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesPurchaseInboundRemove" target="_blank" class="st" data-op="postV1InvoicesPurchaseInboundRemove"><title>POST /v1/invoices/purchaseInbound/remove
+Invoices line · postV1InvoicesPurchaseInboundRemove</title>
+<circle cx="1672" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1747" text-anchor="start" style="fill:#1A1F2C">Remove invoices purchaseinbound</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesPurchaseInboundPush" target="_blank" class="st" data-op="postV1InvoicesPurchaseInboundPush"><title>POST /v1/invoices/purchaseInbound/push
+Invoices line · postV1InvoicesPurchaseInboundPush</title>
+<circle cx="1672" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1663" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1PurchaseOrderPush" target="_blank" class="st" data-op="postV1PurchaseOrderPush"><title>POST /v1/purchaseOrder/push
+Purchase Order line · postV1PurchaseOrderPush</title>
+<circle cx="1798" cy="1070" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1792" y="1082" text-anchor="end" transform="rotate(-45 1792 1082)" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PurchaseOrderInfo" target="_blank" class="st" data-op="getV1PurchaseOrderInfo"><title>GET /v1/purchaseOrder/info
+Purchase Order line · getV1PurchaseOrderInfo</title>
+<circle cx="1630" cy="1112" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1642" y="1117" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PurchaseOrderList" target="_blank" class="st" data-op="getV1PurchaseOrderList"><title>GET /v1/purchaseOrder/list
+Purchase Order line · getV1PurchaseOrderList</title>
+<circle cx="1672" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1660.0" y="1075" text-anchor="end" style="fill:#1A1F2C">List purchaseorder</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PurchaseOrderFields" target="_blank" class="st" data-op="getV1PurchaseOrderFields"><title>GET /v1/purchaseOrder/fields
+Purchase Order line · getV1PurchaseOrderFields</title>
+<circle cx="1798" cy="1280" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1810" y="1285" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1PurchaseOrderFieldsSelector" target="_blank" class="st" data-op="getV1PurchaseOrderFieldsSelector"><title>GET /v1/purchaseOrder/fields/selector
+Purchase Order line · getV1PurchaseOrderFieldsSelector</title>
+<circle cx="1714" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1726" y="1201" text-anchor="start" style="fill:#1A1F2C">Get selector</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesPurchaseReturnList" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesPurchaseReturnList"><title>GET /v1/invoices/purchaseReturn/list
+Invoices line · getV1InvoicesPurchaseReturnList</title>
+<circle cx="1420" cy="1994" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1999" text-anchor="start" style="fill:#1A1F2C">List invoices purchasereturn</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesPurchaseReturnInfo" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesPurchaseReturnInfo"><title>GET /v1/invoices/purchaseReturn/info
+Invoices line · getV1InvoicesPurchaseReturnInfo</title>
+<circle cx="1504" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1915" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesPurchaseReturnFields" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesPurchaseReturnFields"><title>GET /v1/invoices/purchaseReturn/fields
+Invoices line · getV1InvoicesPurchaseReturnFields</title>
+<circle cx="1588" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1831" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesPurchaseReturnPush" target="_blank" class="st" data-op="xiaoman-default-api:postV1InvoicesPurchaseReturnPush"><title>POST /v1/invoices/purchaseReturn/push
+Invoices line · postV1InvoicesPurchaseReturnPush</title>
+<circle cx="1336" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="2083" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesPurchaseReturnRemove" target="_blank" class="st" data-op="xiaoman-default-api:postV1InvoicesPurchaseReturnRemove"><title>POST /v1/invoices/purchaseReturn/remove
+Invoices line · postV1InvoicesPurchaseReturnRemove</title>
+<circle cx="1252" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="2066" transform="rotate(-45 1258 2066)" style="fill:#1A1F2C">Remove invoices purchasereturn</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesOutboundPush" target="_blank" class="st" data-op="xiaoman-default-api:postV1InvoicesOutboundPush"><title>POST /v1/invoices/outbound/push
+Invoices line · postV1InvoicesOutboundPush</title>
+<circle cx="1588" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1243" text-anchor="start" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOutboundInfo" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesOutboundInfo"><title>GET /v1/invoices/outbound/info
+Invoices line · getV1InvoicesOutboundInfo</title>
+<circle cx="1420" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1075" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOutboundFields" target="_blank" class="st" data-op="getV1InvoicesOutboundFields"><title>GET /v1/invoices/outbound/fields
+Invoices line · getV1InvoicesOutboundFields</title>
+<circle cx="1336" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="991" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOutboundList" target="_blank" class="st" data-op="xiaoman-default-api:getV1InvoicesOutboundList"><title>GET /v1/invoices/outbound/list
+Invoices line · getV1InvoicesOutboundList</title>
+<circle cx="1504" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1159" text-anchor="start" style="fill:#1A1F2C">List invoices outbound</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesOutboundRemove" target="_blank" class="st" data-op="xiaoman-default-api:postV1InvoicesOutboundRemove"><title>POST /v1/invoices/outbound/remove
+Invoices line · postV1InvoicesOutboundRemove</title>
+<circle cx="1672" cy="1322" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1660.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Remove invoices outbound</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOrderInfo" target="_blank" class="st" data-op="getV1InvoicesOrderInfo"><title>GET /v1/invoices/order/info
+Invoices line · getV1InvoicesOrderInfo</title>
+<circle cx="916" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="922" y="890" transform="rotate(-45 922 890)" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesOrderPush" target="_blank" class="st" data-op="postV1InvoicesOrderPush"><title>POST /v1/invoices/order/push
+Invoices line · postV1InvoicesOrderPush</title>
+<circle cx="1168" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="890" transform="rotate(-45 1174 890)" style="fill:#1A1F2C">Update push</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOrderFields" target="_blank" class="st" data-op="getV1InvoicesOrderFields"><title>GET /v1/invoices/order/fields
+Invoices line · getV1InvoicesOrderFields</title>
+<circle cx="832" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="820.0" y="907" text-anchor="end" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOrderList" target="_blank" class="st" data-op="getV1InvoicesOrderList"><title>GET /v1/invoices/order/list
+Invoices line · getV1InvoicesOrderList</title>
+<circle cx="1000" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1006" y="890" transform="rotate(-45 1006 890)" style="fill:#1A1F2C">List invoices order</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-postV1InvoicesOrderRemove" target="_blank" class="st" data-op="postV1InvoicesOrderRemove"><title>POST /v1/invoices/order/remove
+Invoices line · postV1InvoicesOrderRemove</title>
+<circle cx="1252" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1252" y="874" text-anchor="middle" style="fill:#1A1F2C">Remove<tspan x="1252" dy="13">invoices order</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-default-api/#op-getV1InvoicesOrderOrderEnums" target="_blank" class="st" data-op="getV1InvoicesOrderOrderEnums"><title>GET /v1/invoices/order/orderEnums
+Invoices line · getV1InvoicesOrderOrderEnums</title>
+<circle cx="1084" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1078" y="914" text-anchor="end" transform="rotate(-45 1078 914)" style="fill:#1A1F2C">List orderenums</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-dev-ops-api/#op-postV1DingtalkWebhook" target="_blank" class="st" data-op="postV1DingtalkWebhook"><title>POST /v1/dingtalk/webhook
+Dev Ops Local line · postV1DingtalkWebhook</title>
+<circle cx="1420" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1432" y="2419" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-dev-ops-api/#op-getV1TapdWebhook" target="_blank" class="st" data-op="getV1TapdWebhook"><title>GET /v1/tapd/webhook
+Dev Ops Local line · getV1TapdWebhook</title>
+<circle cx="1504" cy="2330" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1516" y="2335" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-dev-ops-api/#op-getApiInternalSobotGetsobottoken" target="_blank" class="st" data-op="getApiInternalSobotGetsobottoken"><title>GET /api/internal/sobot/getsobottoken
+Internal line · getApiInternalSobotGetsobottoken</title>
+<circle cx="1210" cy="2246" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1222" y="2251" text-anchor="start" style="fill:#1A1F2C">Get getsobottoken</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-dev-ops-api/#op-getApiInternalSobotRefreshsobottoken" target="_blank" class="st" data-op="getApiInternalSobotRefreshsobottoken"><title>GET /api/internal/sobot/refreshsobottoken
+Internal line · getApiInternalSobotRefreshsobottoken</title>
+<circle cx="1126" cy="2330" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1138" y="2335" text-anchor="start" style="fill:#1A1F2C">Get refreshsobottoken</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-dev-ops-api/#op-postApiInternalPrometheusCisaveappversion" target="_blank" class="st" data-op="postApiInternalPrometheusCisaveappversion"><title>POST /api/internal/prometheus/cisaveappversion
+Internal line · postApiInternalPrometheusCisaveappversion</title>
+<circle cx="1252" cy="2204" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1264" y="2209" text-anchor="start" style="fill:#1A1F2C">Update cisaveappversion</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-dev-ops-api/#op-postApiDingtalkwriteDeletedingtalkmember" target="_blank" class="st" data-op="postApiDingtalkwriteDeletedingtalkmember"><title>POST /api/dingtalkwrite/deletedingtalkmember
+Dev Ops Local line · postApiDingtalkwriteDeletedingtalkmember</title>
+<circle cx="1336" cy="2498" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1324.0" y="2503" text-anchor="end" style="fill:#1A1F2C">Update deletedingtalkmember</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-emails-api/#op-sendBatchEmails" target="_blank" class="st" data-op="sendBatchEmails"><title>POST /api/v1/emails/send/batch
+Emails line · sendBatchEmails</title>
+<circle cx="1378" cy="1574" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="1579" text-anchor="start" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-emails-api/#op-sendPersonalizedEmails" target="_blank" class="st" data-op="sendPersonalizedEmails"><title>POST /api/v1/emails/send/personalized
+Emails line · sendPersonalizedEmails</title>
+<circle cx="1294" cy="1574" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1303" y="1564" text-anchor="start" style="fill:#1A1F2C">Update personalized</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-emails-api/#op-listEmailTasks" target="_blank" class="st" data-op="listEmailTasks"><title>GET /api/v1/emails/tasks
+Emails line · listEmailTasks</title>
+<circle cx="1294" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="1663" text-anchor="start" style="fill:#1A1F2C">List tasks</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-emails-api/#op-getEmailTask" target="_blank" class="st" data-op="getEmailTask"><title>GET /api/v1/emails/tasks/{taskId}
+Emails line · getEmailTask</title>
+<circle cx="1294" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="1747" text-anchor="start" style="fill:#1A1F2C">Get task</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-emails-api/#op-listEmailMails" target="_blank" class="st" data-op="listEmailMails"><title>GET /api/v1/emails/mails
+Emails line · listEmailMails</title>
+<circle cx="1546" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1540" y="1628" text-anchor="end" transform="rotate(-45 1540 1628)" style="fill:#1A1F2C">List mails</text>
+</a>
+<a href="https://apis.apis.io/apis/xiaoman/xiaoman-emails-api/#op-getEmailMail" target="_blank" class="st" data-op="getEmailMail"><title>GET /api/v1/emails/mails/{mailId}
+Emails line · getEmailMail</title>
+<circle cx="1420" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1408.0" y="1621" text-anchor="end" style="fill:#1A1F2C">Get mail</text>
+</a>
+<text x="1988" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1988" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">INVOICES</text>
+<rect x="1988" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2005" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="2030" y="269" font-size="11" fill="#1A1F2C">Invoices <tspan fill="#8A93A6">37</tspan></text>
+<text x="1988" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">COMPANY</text>
+<rect x="1988" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2005" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="2030" y="312" font-size="11" fill="#1A1F2C">Company <tspan fill="#8A93A6">16</tspan></text>
+<text x="1988" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">PRODUCT</text>
+<rect x="1988" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2005" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2030" y="355" font-size="11" fill="#1A1F2C">Product <tspan fill="#8A93A6">16</tspan></text>
+<text x="1988" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">WEBHOOK</text>
+<rect x="1988" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="2005" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2030" y="398" font-size="11" fill="#1A1F2C">Webhook <tspan fill="#8A93A6">6</tspan></text>
+<text x="1988" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">OPPORTUNITY</text>
+<rect x="1988" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2005" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPP</text><text x="2030" y="441" font-size="11" fill="#1A1F2C">Opportunity <tspan fill="#8A93A6">6</tspan></text>
+<text x="1988" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">EMAILS</text>
+<rect x="1988" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="2005" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EMA</text><text x="2030" y="484" font-size="11" fill="#1A1F2C">Emails <tspan fill="#8A93A6">6</tspan></text>
+<text x="1988" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">PURCHASE ORDER</text>
+<rect x="1988" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2005" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PO</text><text x="2030" y="527" font-size="11" fill="#1A1F2C">Purchase Order <tspan fill="#8A93A6">5</tspan></text>
+<text x="1988" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">SUPPLIER</text>
+<rect x="1988" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="2005" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUP</text><text x="2030" y="570" font-size="11" fill="#1A1F2C">Supplier <tspan fill="#8A93A6">5</tspan></text>
+<text x="1988" y="596" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">SUBSCRIBE</text>
+<rect x="1988" y="603" width="34" height="13" rx="3" fill="#C2410C"/><text x="2005" y="613" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUB</text><text x="2030" y="613" font-size="11" fill="#1A1F2C">Subscribe <tspan fill="#8A93A6">5</tspan></text>
+<text x="1988" y="639" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">LEAD</text>
+<rect x="1988" y="646" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2005" y="656" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LEA</text><text x="2030" y="656" font-size="11" fill="#1A1F2C">Lead <tspan fill="#8A93A6">4</tspan></text>
+<text x="1988" y="682" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">USER</text>
+<rect x="1988" y="689" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2005" y="699" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="2030" y="699" font-size="11" fill="#1A1F2C">User <tspan fill="#8A93A6">4</tspan></text>
+<text x="1988" y="725" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="1988" y="732" width="34" height="13" rx="3" fill="#D6264F"/><text x="2005" y="742" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOC</text><text x="2030" y="742" font-size="11" fill="#1A1F2C">产品 Local <tspan fill="#8A93A6">8</tspan></text>
+<rect x="1988" y="749" width="34" height="13" rx="3" fill="#B0287F"/><text x="2005" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CMP</text><text x="2030" y="759" font-size="11" fill="#1A1F2C">Companies <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1988" y="766" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2005" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CI</text><text x="2030" y="776" font-size="11" fill="#1A1F2C">Cost Invoice <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1988" y="783" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2005" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOL</text><text x="2030" y="793" font-size="11" fill="#1A1F2C">Dev Ops Local <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1988" y="800" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2005" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="2030" y="810" font-size="11" fill="#1A1F2C">Internal <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1988" y="817" width="34" height="13" rx="3" fill="#00838F"/><text x="2005" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PI</text><text x="2030" y="827" font-size="11" fill="#1A1F2C">Payment Invoice <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1988" y="834" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2005" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2030" y="844" font-size="11" fill="#1A1F2C">Contacts <tspan fill="#8A93A6">1</tspan></text>
+<rect x="1988" y="851" width="34" height="13" rx="3" fill="#B8860B"/><text x="2005" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CRE</text><text x="2030" y="861" font-size="11" fill="#1A1F2C">Credit <tspan fill="#8A93A6">1</tspan></text>
+<text x="2238" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2256,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2282" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2256,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2282" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2256,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2282" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2256,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2282" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2256,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2282" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2256,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2282" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2256,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2282" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2256,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2282" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2238" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2238" y="463" font-size="10.5" fill="#5A6275">“Capital Account” → 产品 Local line · 1 op</text>
+<text x="2238" y="478" font-size="10.5" fill="#5A6275">“Dingtalk” → Dev Ops Local line · 1 op</text>
+<text x="2238" y="493" font-size="10.5" fill="#5A6275">“Dingtalkwrite” → Dev Ops Local line · 1 op</text>
+<text x="2238" y="508" font-size="10.5" fill="#5A6275">“Dynamic” → 产品 Local line · 2 ops</text>
+<text x="2238" y="523" font-size="10.5" fill="#5A6275">“Oauth2” → 产品 Local line · 2 ops</text>
+<text x="2238" y="538" font-size="10.5" fill="#5A6275">“Report” → 产品 Local line · 1 op</text>
+<text x="2238" y="553" font-size="10.5" fill="#5A6275">“Supplier Product” → 产品 Local line · 1 op</text>
+<text x="2238" y="568" font-size="10.5" fill="#5A6275">“Tapd” → Dev Ops Local line · 1 op</text>
+<text x="2238" y="583" font-size="10.5" fill="#5A6275">“Warehouse” → 产品 Local line · 1 op</text>
+<text x="2238" y="633" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2238" y="650" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2796" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/xiaoman/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

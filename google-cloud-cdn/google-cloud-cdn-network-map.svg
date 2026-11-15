@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1070 894" width="1070" height="894" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1070" height="894" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Google-Cloud-Cdn API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">8 operations as stops · 1 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="307.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">GOOGLE CLOUD CDN</text>
+<path class="line" data-line="Projects" d="M370.0,230.0 L370.0,314.0 L370.0,426.0 Q370.0,440.0 360.1,449.9 L328.0,482.0 L295.9,514.1 Q286.0,524.0 286.0,538.0 L286.0,650.0 L286.0,734.0 L286.0,650.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Projects</title></path>
+<line x1="370" y1="230" x2="370.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="346.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Projects</title></rect><text x="370.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="286" y1="650" x2="286.0" y2="616.0" stroke="#D6264F" stroke-width="7"/><rect x="262.0" y="605.0" width="48" height="22" rx="5" fill="#D6264F"><title>Projects</title></rect><text x="286.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-backendservices-api/#op-listBackendServices" target="_blank" class="st" data-op="listBackendServices"><title>GET /projects/{project}/global/backendServices
+Projects line · listBackendServices</title>
+<circle cx="370" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="235" text-anchor="start" style="fill:#1A1F2C">List backendservices</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-backendservices-api/#op-insertBackendService" target="_blank" class="st" data-op="insertBackendService"><title>POST /projects/{project}/global/backendServices
+Projects line · insertBackendService</title>
+<circle cx="370" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="319" text-anchor="start" style="fill:#1A1F2C">Create backendservice</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-backendservices-api/#op-getBackendService" target="_blank" class="st" data-op="getBackendService"><title>GET /projects/{project}/global/backendServices/{backendService}
+Projects line · getBackendService</title>
+<circle cx="370" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="445" text-anchor="start" style="fill:#1A1F2C">Get backendservice</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-backendservices-api/#op-patchBackendService" target="_blank" class="st" data-op="patchBackendService"><title>PATCH /projects/{project}/global/backendServices/{backendService}
+Projects line · patchBackendService</title>
+<circle cx="328" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="487" text-anchor="start" style="fill:#1A1F2C">Update backendservice</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-backendservices-api/#op-deleteBackendService" target="_blank" class="st" data-op="deleteBackendService"><title>DELETE /projects/{project}/global/backendServices/{backendService}
+Projects line · deleteBackendService</title>
+<circle cx="286" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="282" y1="528" x2="290" y2="520" stroke="#D6264F" stroke-width="2"/>
+<text x="298" y="529" text-anchor="start" style="fill:#1A1F2C">Delete backendservice</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-cache-invalidation-api/#op-invalidateCache" target="_blank" class="st" data-op="google-cloud-cdn-cache-invalidation-api:invalidateCache"><title>POST /projects/{project}/global/urlMaps/{urlMap}/invalidateCache
+Projects line · invalidateCache</title>
+<circle cx="160" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="596" transform="rotate(-45 166 596)" style="fill:#1A1F2C">Update invalidatecache</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-cache-invalidation-api/#op-invalidateCache" target="_blank" class="st" data-op="google-cloud-cdn-cache-invalidation-api:invalidateCache"><title>POST /projects/{project}/global/backendServices/{backendService}/invalidateCache
+Projects line · invalidateCache</title>
+<circle cx="286" cy="650" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="655" text-anchor="start" style="fill:#1A1F2C">Update invalidatecache</text>
+</a>
+<a href="https://apis.apis.io/apis/google-cloud-cdn/google-cloud-cdn-url-maps-api/#op-listUrlMaps" target="_blank" class="st" data-op="listUrlMaps"><title>GET /projects/{project}/global/urlMaps
+Projects line · listUrlMaps</title>
+<circle cx="286" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="292" y="722" transform="rotate(-45 292 722)" style="fill:#1A1F2C">List urlmaps</text>
+</a>
+<text x="560" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="560" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">GOOGLE CLOUD CDN</text>
+<rect x="560" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="577" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="602" y="269" font-size="11" fill="#1A1F2C">Projects <tspan fill="#8A93A6">8</tspan></text>
+<text x="810" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(828,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="854" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(828,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="854" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(828,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="854" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(828,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="854" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(828,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="854" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(828,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="854" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(828,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="854" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(828,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="854" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="810" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="810" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="864" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/google-cloud-cdn/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

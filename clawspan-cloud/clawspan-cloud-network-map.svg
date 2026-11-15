@@ -1,0 +1,810 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2928 2270" width="2928" height="2270" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2928" height="2270" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Clawspan-Cloud API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">134 operations as stops · 20 tags as lines · 22 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1100" y1="653" x2="1147" y2="700" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1100" y1="653" x2="1147" y2="700" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1476" y1="1358" x2="1429" y2="1311" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1476" y1="1358" x2="1429" y2="1311" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="630" y1="1358" x2="677" y2="1311" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="630" y1="1358" x2="677" y2="1311" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1570" y1="1076" x2="1523" y2="1029" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1570" y1="1076" x2="1523" y2="1029" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="865" y1="982" x2="912" y2="935" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="865" y1="982" x2="912" y2="935" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="a2a" d="M1617.0,512.0 L1664.0,465.0 L1758.0,371.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>a2a</title></path>
+<path class="line" data-line="affiliate" d="M1382.0,371.0 L1382.0,465.0 L1382.0,559.0 L1382.0,653.0 L1382.0,780.0 Q1382.0,794.0 1368.0,794.0 L1302.0,794.0 Q1288.0,794.0 1278.1,784.1 L1203.9,709.9 Q1194.0,700.0 1180.0,700.0 L1147.0,700.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>affiliate</title></path>
+<path class="line" data-line="Agent" d="M536.0,1217.0 L616.0,1217.0 Q630.0,1217.0 630.0,1203.0 L630.0,1123.0 L630.0,1029.0 L630.0,808.0 Q630.0,794.0 644.0,794.0 L818.0,794.0 L945.0,794.0 Q959.0,794.0 968.9,784.1 L996.1,756.9 Q1006.0,747.0 996.1,737.1 L912.0,653.0 L818.0,559.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent</title></path>
+<path class="line" data-line="Agents" d="M1570.0,653.0 L1485.9,737.1 Q1476.0,747.0 1476.0,761.0 L1476.0,841.0" fill="none" stroke="#17d25b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agents</title></path>
+<path class="line" data-line="Auth" d="M959.0,888.0 L921.9,925.1 Q912.0,935.0 898.0,935.0 L724.0,935.0 L489.0,935.0" fill="none" stroke="#8823d6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Auth</title></path>
+<path class="line" data-line="Billing" d="M1570.0,2110.0 L1476.0,2016.0 L1438.9,1978.9 Q1429.0,1969.0 1429.0,1955.0 L1429.0,1795.0 Q1429.0,1781.0 1419.1,1771.1 L1391.9,1743.9 Q1382.0,1734.0 1382.0,1720.0 L1382.0,1640.0 L1382.0,1546.0 L1382.0,1513.0 Q1382.0,1499.0 1391.9,1489.1 L1419.1,1461.9 Q1429.0,1452.0 1429.0,1438.0 L1429.0,1325.0 Q1429.0,1311.0 1438.9,1301.1 L1466.1,1273.9 Q1476.0,1264.0 1490.0,1264.0 L1556.0,1264.0 Q1570.0,1264.0 1579.9,1273.9 L1711.0,1405.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Billing</title></path>
+<path class="line" data-line="Bridge" d="M2228.0,1452.0 L2134.0,1358.0 L2096.9,1320.9 Q2087.0,1311.0 2073.0,1311.0 L1946.0,1311.0 L1819.0,1311.0 Q1805.0,1311.0 1795.1,1301.1 L1767.9,1273.9 Q1758.0,1264.0 1744.0,1264.0 L1678.0,1264.0 Q1664.0,1264.0 1654.1,1254.1 L1579.9,1179.9 Q1570.0,1170.0 1556.0,1170.0 L1523.0,1170.0 L1664.0,1170.0 L1758.0,1170.0 L1899.0,1170.0 L1993.0,1170.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Bridge</title></path>
+<path class="line" data-line="delegation" d="M1147.0,277.0 L1147.0,371.0 L1147.0,498.0 Q1147.0,512.0 1156.9,521.9 L1231.1,596.1 Q1241.0,606.0 1241.0,620.0 L1241.0,653.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>delegation</title></path>
+<path class="line" data-line="Discovery" d="M1147.0,935.0 L1241.0,935.0 L1321.0,935.0 Q1335.0,935.0 1344.9,944.9 L1419.1,1019.1 Q1429.0,1029.0 1429.0,1043.0 L1429.0,1123.0 L1429.0,1203.0 Q1429.0,1217.0 1419.1,1226.9 L1344.9,1301.1 Q1335.0,1311.0 1321.0,1311.0 L1241.0,1311.0 L1161.0,1311.0 Q1147.0,1311.0 1137.1,1301.1 L1062.9,1226.9 Q1053.0,1217.0 1053.0,1203.0 L1053.0,1123.0 L1053.0,1043.0 Q1053.0,1029.0 1062.9,1019.1 L1147.0,935.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Discovery</title></path>
+<path class="line" data-line="Disputes" d="M865.0,230.0 L992.0,230.0 Q1006.0,230.0 1006.0,244.0 L1006.0,357.0 Q1006.0,371.0 1015.9,380.9 L1043.1,408.1 Q1053.0,418.0 1053.0,432.0 L1053.0,592.0 Q1053.0,606.0 1062.9,615.9 L1100.0,653.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Disputes</title></path>
+<path class="line" data-line="Pricing" d="M583.0,1499.0 L667.1,1414.9 Q677.0,1405.0 677.0,1391.0 L677.0,1325.0 Q677.0,1311.0 686.9,1320.9 L761.1,1395.1 Q771.0,1405.0 771.0,1419.0 L771.0,1546.0 L771.0,1687.0 L771.0,1767.0 Q771.0,1781.0 761.1,1790.9 L677.0,1875.0 L583.0,1969.0 L489.0,2063.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Pricing</title></path>
+<path class="line" data-line="Providers" d="M1476.0,1358.0 L1476.0,1499.0 L1476.0,1626.0 Q1476.0,1640.0 1485.9,1649.9 L1570.0,1734.0" fill="none" stroke="#af2c23" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Providers</title></path>
+<path class="line" data-line="Reactions" d="M1147.0,794.0 L1194.0,841.0 L1325.1,972.1 Q1335.0,982.0 1335.0,996.0 L1335.0,1123.0 L1335.0,1170.0 L1335.0,1391.0 Q1335.0,1405.0 1325.1,1414.9 L1241.0,1499.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reactions</title></path>
+<path class="line" data-line="Realtime" d="M959.0,1076.0 L827.9,1207.1 Q818.0,1217.0 808.1,1207.1 L780.9,1179.9 Q771.0,1170.0 771.0,1156.0 L771.0,1076.0" fill="none" stroke="#0d7773" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Realtime</title></path>
+<path class="line" data-line="Seller" d="M630.0,1358.0 L597.0,1358.0 Q583.0,1358.0 573.1,1367.9 L442.0,1499.0 L357.9,1583.1 Q348.0,1593.0 334.0,1593.0 L315.0,1593.0 Q301.0,1593.0 291.1,1583.1 L254.0,1546.0 L160.0,1452.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Seller</title></path>
+<path class="line" data-line="System" d="M865.0,982.0 L949.1,1066.1 Q959.0,1076.0 959.0,1090.0 L959.0,1203.0 Q959.0,1217.0 949.1,1226.9 L874.9,1301.1 Q865.0,1311.0 851.0,1311.0 L785.0,1311.0 Q771.0,1311.0 780.9,1320.9 L855.1,1395.1 Q865.0,1405.0 874.9,1395.1 L959.0,1311.0 L1100.0,1170.0 L1147.0,1123.0 L1184.1,1085.9 Q1194.0,1076.0 1208.0,1076.0 L1476.0,1076.0 L1570.0,1076.0 L1711.0,1076.0 L1885.0,1076.0 Q1899.0,1076.0 1908.9,1066.1 L1946.0,1029.0 L1993.0,982.0 L2087.0,888.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>System</title></path>
+<path class="line" data-line="Tasks" d="M1570.0,1405.0 L1570.0,1485.0 Q1570.0,1499.0 1579.9,1508.9 L1617.0,1546.0 L1711.0,1640.0 L1805.0,1734.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tasks</title></path>
+<path class="line" data-line="viral" d="M1852.0,559.0 L1852.0,653.0 L1852.0,747.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>viral</title></path>
+<path class="line" data-line="Workspaces" d="M1241.0,1217.0 L1161.0,1217.0 Q1147.0,1217.0 1137.1,1226.9 L1062.9,1301.1 Q1053.0,1311.0 1053.0,1325.0 L1053.0,1391.0 Q1053.0,1405.0 1043.1,1414.9 L959.0,1499.0" fill="none" stroke="#dd5ba0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workspaces</title></path>
+<path class="line" data-line="More Local" d="M1617.0,794.0 L1485.9,925.1 Q1476.0,935.0 1462.0,935.0 L1443.0,935.0 Q1429.0,935.0 1438.9,944.9 L1476.0,982.0 L1513.1,1019.1 Q1523.0,1029.0 1532.9,1019.1 L1617.0,935.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1617" y1="512" x2="1592.9583694396574" y2="536.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1568.9583694396574" y="525.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>a2a</title></rect><text x="1592.9583694396574" y="541.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">A2A</text>
+<line x1="1758" y1="371" x2="1782.0416305603426" y2="346.95836943965736" stroke="#B0287F" stroke-width="7"/><rect x="1758.0416305603426" y="335.95836943965736" width="48" height="22" rx="5" fill="#B0287F"><title>a2a</title></rect><text x="1782.0416305603426" y="351.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">A2A</text>
+<line x1="1382" y1="371" x2="1382.0" y2="337.0" stroke="#0B7A75" stroke-width="7"/><rect x="1358.0" y="326.0" width="48" height="22" rx="5" fill="#0B7A75"><title>affiliate</title></rect><text x="1382.0" y="342.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AFF</text>
+<line x1="1147" y1="700" x2="1113.0" y2="700.0" stroke="#0B7A75" stroke-width="7"/><rect x="1089.0" y="689.0" width="48" height="22" rx="5" fill="#0B7A75"><title>affiliate</title></rect><text x="1113.0" y="705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AFF</text>
+<line x1="536" y1="1217" x2="502.0" y2="1217.0" stroke="#7B3FE4" stroke-width="7"/><rect x="478.0" y="1206.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Agent</title></rect><text x="502.0" y="1222.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="818" y1="559" x2="793.9583694396574" y2="534.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="769.9583694396574" y="523.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Agent</title></rect><text x="793.9583694396574" y="539.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="1570" y1="653" x2="1594.0416305603426" y2="628.9583694396574" stroke="#17d25b" stroke-width="7"/><rect x="1570.0416305603426" y="617.9583694396574" width="48" height="22" rx="5" fill="#17d25b"><title>Agents</title></rect><text x="1594.0416305603426" y="633.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGN</text>
+<line x1="1476" y1="841" x2="1476.0" y2="875.0" stroke="#17d25b" stroke-width="7"/><rect x="1452.0" y="864.0" width="48" height="22" rx="5" fill="#17d25b"><title>Agents</title></rect><text x="1476.0" y="880.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGN</text>
+<line x1="959" y1="888" x2="983.0416305603426" y2="863.9583694396574" stroke="#8823d6" stroke-width="7"/><rect x="959.0416305603426" y="852.9583694396574" width="48" height="22" rx="5" fill="#8823d6"><title>Auth</title></rect><text x="983.0416305603426" y="868.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="489" y1="935" x2="455.0" y2="935.0" stroke="#8823d6" stroke-width="7"/><rect x="431.0" y="924.0" width="48" height="22" rx="5" fill="#8823d6"><title>Auth</title></rect><text x="455.0" y="940.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="1570" y1="2110" x2="1594.0416305603426" y2="2134.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1570.0416305603426" y="2123.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Billing</title></rect><text x="1594.0416305603426" y="2139.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="1711" y1="1405" x2="1735.0416305603426" y2="1429.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1711.0416305603426" y="1418.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Billing</title></rect><text x="1735.0416305603426" y="1434.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="2228" y1="1452" x2="2252.0416305603426" y2="1476.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2228.0416305603426" y="1465.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Bridge</title></rect><text x="2252.0416305603426" y="1481.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BRI</text>
+<line x1="1993" y1="1170" x2="2027.0" y2="1170.0" stroke="#B0287F" stroke-width="7"/><rect x="2003.0" y="1159.0" width="48" height="22" rx="5" fill="#B0287F"><title>Bridge</title></rect><text x="2027.0" y="1175.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BRI</text>
+<line x1="1147" y1="277" x2="1147.0" y2="243.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1123.0" y="232.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>delegation</title></rect><text x="1147.0" y="248.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEL</text>
+<line x1="1241" y1="653" x2="1241.0" y2="687.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1217.0" y="676.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>delegation</title></rect><text x="1241.0" y="692.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEL</text>
+<rect x="1117" y="882" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="1147" y="900" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">DIS</text>
+<line x1="865" y1="230" x2="831.0" y2="230.0" stroke="#B8860B" stroke-width="7"/><rect x="807.0" y="219.0" width="48" height="22" rx="5" fill="#B8860B"><title>Disputes</title></rect><text x="831.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DSP</text>
+<line x1="1100" y1="653" x2="1142.4264068711927" y2="658.6568542494924" stroke="#B8860B" stroke-width="7"/><rect x="1118.4264068711927" y="647.6568542494924" width="48" height="22" rx="5" fill="#B8860B"><title>Disputes</title></rect><text x="1142.4264068711927" y="663.6568542494924" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DSP</text>
+<line x1="583" y1="1499" x2="558.9583694396574" y2="1523.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="534.9583694396574" y="1512.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Pricing</title></rect><text x="558.9583694396574" y="1528.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRI</text>
+<line x1="489" y1="2063" x2="464.95836943965736" y2="2087.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="440.95836943965736" y="2076.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Pricing</title></rect><text x="464.95836943965736" y="2092.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRI</text>
+<line x1="1476" y1="1358" x2="1476.0" y2="1324.0" stroke="#af2c23" stroke-width="7"/><rect x="1452.0" y="1313.0" width="48" height="22" rx="5" fill="#af2c23"><title>Providers</title></rect><text x="1476.0" y="1329.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1570" y1="1734" x2="1594.0416305603426" y2="1758.0416305603426" stroke="#af2c23" stroke-width="7"/><rect x="1570.0416305603426" y="1747.0416305603426" width="48" height="22" rx="5" fill="#af2c23"><title>Providers</title></rect><text x="1594.0416305603426" y="1763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1147" y1="794" x2="1122.9583694396574" y2="769.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1098.9583694396574" y="758.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Reactions</title></rect><text x="1122.9583694396574" y="774.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REA</text>
+<line x1="1241" y1="1499" x2="1216.9583694396574" y2="1523.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1192.9583694396574" y="1512.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Reactions</title></rect><text x="1216.9583694396574" y="1528.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REA</text>
+<line x1="959" y1="1076" x2="983.0416305603426" y2="1051.9583694396574" stroke="#0d7773" stroke-width="7"/><rect x="959.0416305603426" y="1040.9583694396574" width="48" height="22" rx="5" fill="#0d7773"><title>Realtime</title></rect><text x="983.0416305603426" y="1056.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RLT</text>
+<line x1="771" y1="1076" x2="771.0" y2="1042.0" stroke="#0d7773" stroke-width="7"/><rect x="747.0" y="1031.0" width="48" height="22" rx="5" fill="#0d7773"><title>Realtime</title></rect><text x="771.0" y="1047.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RLT</text>
+<line x1="630" y1="1358" x2="664.0" y2="1358.0" stroke="#1d33a9" stroke-width="7"/><rect x="640.0" y="1347.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Seller</title></rect><text x="664.0" y="1363.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEL</text>
+<line x1="160" y1="1452" x2="135.9583694396574" y2="1427.9583694396574" stroke="#1d33a9" stroke-width="7"/><rect x="111.95836943965739" y="1416.9583694396574" width="48" height="22" rx="5" fill="#1d33a9"><title>Seller</title></rect><text x="135.9583694396574" y="1432.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEL</text>
+<line x1="865" y1="982" x2="840.9583694396574" y2="957.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="816.9583694396574" y="946.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>System</title></rect><text x="840.9583694396574" y="962.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SYS</text>
+<line x1="2087" y1="888" x2="2111.0416305603426" y2="863.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="2087.0416305603426" y="852.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>System</title></rect><text x="2111.0416305603426" y="868.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SYS</text>
+<line x1="1570" y1="1405" x2="1570.0" y2="1371.0" stroke="#2E7D32" stroke-width="7"/><rect x="1546.0" y="1360.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Tasks</title></rect><text x="1570.0" y="1376.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="1805" y1="1734" x2="1829.0416305603426" y2="1758.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1805.0416305603426" y="1747.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Tasks</title></rect><text x="1829.0416305603426" y="1763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="1852" y1="559" x2="1852.0" y2="525.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1828.0" y="514.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>viral</title></rect><text x="1852.0" y="530.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VIR</text>
+<line x1="1852" y1="747" x2="1852.0" y2="781.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1828.0" y="770.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>viral</title></rect><text x="1852.0" y="786.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VIR</text>
+<line x1="1241" y1="1217" x2="1275.0" y2="1217.0" stroke="#dd5ba0" stroke-width="7"/><rect x="1251.0" y="1206.0" width="48" height="22" rx="5" fill="#dd5ba0"><title>Workspaces</title></rect><text x="1275.0" y="1222.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="959" y1="1499" x2="934.9583694396574" y2="1523.0416305603426" stroke="#dd5ba0" stroke-width="7"/><rect x="910.9583694396574" y="1512.0416305603426" width="48" height="22" rx="5" fill="#dd5ba0"><title>Workspaces</title></rect><text x="934.9583694396574" y="1528.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="1617" y1="794" x2="1641.0416305603426" y2="769.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1617.0416305603426" y="758.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1641.0416305603426" y="774.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1617" y1="935" x2="1641.0416305603426" y2="910.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1617.0416305603426" y="899.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1641.0416305603426" y="915.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-a2a-api/#op-a2aJsonRpc" target="_blank" class="st" data-op="a2aJsonRpc"><title>POST /a2a/jsonrpc
+a2a line · a2aJsonRpc</title>
+<circle cx="1664" cy="465" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1676" y="470" text-anchor="start" style="fill:#1A1F2C">Update jsonrpc</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-a2a-api/#op-a2aRestInvoke" target="_blank" class="st" data-op="a2aRestInvoke"><title>POST /a2a/rest
+a2a line · a2aRestInvoke</title>
+<circle cx="1617" cy="512" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1629" y="517" text-anchor="start" style="fill:#1A1F2C">Update a2a</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-a2a-api/#op-listA2aActions" target="_blank" class="st" data-op="listA2aActions"><title>GET /v1/a2a/actions
+a2a line · listA2aActions</title>
+<circle cx="1758" cy="371" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1770" y="376" text-anchor="start" style="fill:#1A1F2C">List actions</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-getApiV1MyAffiliateDashboard" target="_blank" class="st" data-op="getApiV1MyAffiliateDashboard"><title>GET /api/v1/my/affiliate-dashboard
+affiliate line · getApiV1MyAffiliateDashboard</title>
+<circle cx="1147" cy="700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1147" y="736" text-anchor="middle" style="fill:#1A1F2C">Get affiliate dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-getApiV1AffiliateCodes" target="_blank" class="st" data-op="getApiV1AffiliateCodes"><title>GET /api/v1/affiliate/codes
+affiliate line · getApiV1AffiliateCodes</title>
+<circle cx="1382" cy="371" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1394" y="376" text-anchor="start" style="fill:#1A1F2C">List codes</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-postApiV1AffiliateCodes" target="_blank" class="st" data-op="postApiV1AffiliateCodes"><title>POST /api/v1/affiliate/codes
+affiliate line · postApiV1AffiliateCodes</title>
+<circle cx="1382" cy="465" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1394" y="470" text-anchor="start" style="fill:#1A1F2C">Create code</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-postApiV1AffiliateCodesByCodeRevoke" target="_blank" class="st" data-op="postApiV1AffiliateCodesByCodeRevoke"><title>POST /api/v1/affiliate/codes/{code}/revoke
+affiliate line · postApiV1AffiliateCodesByCodeRevoke</title>
+<circle cx="1382" cy="559" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1394" y="564" text-anchor="start" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-postApiV1AffiliateEventsAssist" target="_blank" class="st" data-op="postApiV1AffiliateEventsAssist"><title>POST /api/v1/affiliate/events/assist
+affiliate line · postApiV1AffiliateEventsAssist</title>
+<circle cx="1382" cy="653" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1394" y="658" text-anchor="start" style="fill:#1A1F2C">Update assist</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-getApiV1AffiliateLeaderboard" target="_blank" class="st" data-op="getApiV1AffiliateLeaderboard"><title>GET /api/v1/affiliate/leaderboard
+affiliate line · getApiV1AffiliateLeaderboard</title>
+<circle cx="1382" cy="794" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1388" y="782" transform="rotate(-45 1388 782)" style="fill:#1A1F2C">Get leaderboard <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-affiliate-api/#op-getApiV1AffiliateRecommendations" target="_blank" class="st" data-op="getApiV1AffiliateRecommendations"><title>GET /api/v1/affiliate/recommendations
+affiliate line · getApiV1AffiliateRecommendations</title>
+<circle cx="1288" cy="794" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1288" y="817" text-anchor="middle" style="fill:#1A1F2C">List recommendations</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-getApiV1Me" target="_blank" class="st" data-op="getApiV1Me"><title>GET /api/v1/me
+Agent line · getApiV1Me</title>
+<circle cx="959" cy="794" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="971" y="799" text-anchor="start" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-getApiV1MarketplaceRecommend" target="_blank" class="st" data-op="getApiV1MarketplaceRecommend"><title>GET /api/v1/marketplace/recommend
+Agent line · getApiV1MarketplaceRecommend</title>
+<circle cx="818" cy="794" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="824" y="782" transform="rotate(-45 824 782)" style="fill:#1A1F2C">Get recommend</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-postApiV1Buy" target="_blank" class="st" data-op="postApiV1Buy"><title>POST /api/v1/buy
+Agent line · postApiV1Buy</title>
+<circle cx="536" cy="1217" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="542" y="1205" transform="rotate(-45 542 1205)" style="fill:#1A1F2C">Update buy</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-postApiV1Emit" target="_blank" class="st" data-op="postApiV1Emit"><title>POST /api/v1/emit
+Agent line · postApiV1Emit</title>
+<circle cx="630" cy="1029" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="642" y="1034" text-anchor="start" style="fill:#1A1F2C">Update emit</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-getApiV1MyDeliveries" target="_blank" class="st" data-op="getApiV1MyDeliveries"><title>GET /api/v1/my/deliveries
+Agent line · getApiV1MyDeliveries</title>
+<circle cx="912" cy="653" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="900.0" y="658" text-anchor="end" style="fill:#1A1F2C">List deliveries</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-getApiV1MySubkeys" target="_blank" class="st" data-op="getApiV1MySubkeys"><title>GET /api/v1/my/subkeys
+Agent line · getApiV1MySubkeys</title>
+<circle cx="818" cy="559" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="830" y="564" text-anchor="start" style="fill:#1A1F2C">List subkeys</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-getApiV1MyAffiliateLedger" target="_blank" class="st" data-op="getApiV1MyAffiliateLedger"><title>GET /api/v1/my/affiliate-ledger
+Agent line · getApiV1MyAffiliateLedger</title>
+<circle cx="1006" cy="747" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1018" y="752" text-anchor="start" style="fill:#1A1F2C">Get affiliate ledger <tspan font-weight="700" style="fill:#0B7A75">⇄AFF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-getApiV1ContractsByIdSample" target="_blank" class="st" data-op="getApiV1ContractsByIdSample"><title>GET /api/v1/contracts/{id}/sample
+Agent line · getApiV1ContractsByIdSample</title>
+<circle cx="630" cy="1123" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="642" y="1128" text-anchor="start" style="fill:#1A1F2C">Get sample</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agent-api/#op-postApiV1ContractsByIdReview" target="_blank" class="st" data-op="postApiV1ContractsByIdReview"><title>POST /api/v1/contracts/{id}/review
+Agent line · postApiV1ContractsByIdReview</title>
+<circle cx="630" cy="1217" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="642" y="1222" text-anchor="start" style="fill:#1A1F2C">Update review <tspan font-weight="700" style="fill:#1F5FD1">⇄PRI</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agents-api/#op-selfRegisterAgent" target="_blank" class="st" data-op="selfRegisterAgent"><title>POST /v1/agents/self-register
+Agents line · selfRegisterAgent</title>
+<circle cx="1476" cy="841" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1464.0" y="846" text-anchor="end" style="fill:#1A1F2C">Update self register</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agents-api/#op-registerAgentRuntime" target="_blank" class="st" data-op="registerAgentRuntime"><title>POST /v1/agents/register-runtime
+Agents line · registerAgentRuntime</title>
+<circle cx="1476" cy="747" r="5.5" fill="#17d25b" stroke="#17d25b" stroke-width="2.5"/>
+<text x="1488" y="752" text-anchor="start" style="fill:#1A1F2C">Update register runtime</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-agents-api/#op-bootstrapAgentSession" target="_blank" class="st" data-op="bootstrapAgentSession"><title>POST /v1/agents/bootstrap
+Agents line · bootstrapAgentSession</title>
+<circle cx="1570" cy="653" r="5.5" fill="#17d25b" stroke="#17d25b" stroke-width="2.5"/>
+<text x="1582" y="658" text-anchor="start" style="fill:#1A1F2C">Update bootstrap</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-auth-api/#op-createWalletChallenge" target="_blank" class="st" data-op="createWalletChallenge"><title>POST /v1/auth/wallet/challenge
+Auth line · createWalletChallenge</title>
+<circle cx="912" cy="935" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="924" y="940" text-anchor="start" style="fill:#1A1F2C">Update challenge</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-auth-api/#op-verifyWalletChallenge" target="_blank" class="st" data-op="verifyWalletChallenge"><title>POST /v1/auth/wallet/verify
+Auth line · verifyWalletChallenge</title>
+<circle cx="489" cy="935" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="495" y="923" transform="rotate(-45 495 923)" style="fill:#1A1F2C">Verify wallet</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-auth-api/#op-walletRepeatAccess" target="_blank" class="st" data-op="walletRepeatAccess"><title>POST /v1/auth/wallet/repeat-access
+Auth line · walletRepeatAccess</title>
+<circle cx="724" cy="935" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="730" y="923" transform="rotate(-45 730 923)" style="fill:#1A1F2C">Update repeat access</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-auth-api/#op-getAuthenticatedPrincipal" target="_blank" class="st" data-op="getAuthenticatedPrincipal"><title>GET /v1/auth/me
+Auth line · getAuthenticatedPrincipal</title>
+<circle cx="959" cy="888" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="971" y="893" text-anchor="start" style="fill:#1A1F2C">Get me <tspan font-weight="700" style="fill:#7B3FE4">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-createPricingQuote" target="_blank" class="st" data-op="createPricingQuote"><title>POST /v1/workspaces/{slug}/pricing/quotes
+Billing line · createPricingQuote</title>
+<circle cx="1429" cy="1311" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1420.0" y="1330" text-anchor="end" style="fill:#1A1F2C">Create quote</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-acceptPricingQuote" target="_blank" class="st" data-op="acceptPricingQuote"><title>POST /v1/workspaces/{slug}/pricing/quotes/{quoteId}/accept
+Billing line · acceptPricingQuote</title>
+<circle cx="1570" cy="1264" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1564" y="1276" text-anchor="end" transform="rotate(-45 1564 1276)" style="fill:#1A1F2C">Accept quote</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-createBillingAccount" target="_blank" class="st" data-op="createBillingAccount"><title>POST /v1/workspaces/{slug}/billing/accounts
+Billing line · createBillingAccount</title>
+<circle cx="1570" cy="2110" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1582" y="2115" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-createFundingInstrument" target="_blank" class="st" data-op="createFundingInstrument"><title>POST /v1/workspaces/{slug}/billing/accounts/{accountId}/instruments
+Billing line · createFundingInstrument</title>
+<circle cx="1382" cy="1640" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1370.0" y="1645" text-anchor="end" style="fill:#1A1F2C">Create instrument</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-verifyFundingInstrument" target="_blank" class="st" data-op="verifyFundingInstrument"><title>POST /v1/workspaces/{slug}/billing/accounts/{accountId}/instruments/{instrumentId}/verify
+Billing line · verifyFundingInstrument</title>
+<circle cx="1382" cy="1546" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1370.0" y="1551" text-anchor="end" style="fill:#1A1F2C">Verify instrument</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-createSpendEnvelope" target="_blank" class="st" data-op="createSpendEnvelope"><title>POST /v1/workspaces/{slug}/billing/accounts/{accountId}/envelopes
+Billing line · createSpendEnvelope</title>
+<circle cx="1382" cy="1734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1394" y="1739" text-anchor="start" style="fill:#1A1F2C">Create envelope</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-listDelegatedSpendGrants" target="_blank" class="st" data-op="listDelegatedSpendGrants"><title>GET /v1/workspaces/{slug}/billing/accounts/{accountId}/delegated-spend-grants
+Billing line · listDelegatedSpendGrants</title>
+<circle cx="1476" cy="2016" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1488" y="2021" text-anchor="start" style="fill:#1A1F2C">List delegated spend grants</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-createDelegatedSpendGrant" target="_blank" class="st" data-op="createDelegatedSpendGrant"><title>POST /v1/workspaces/{slug}/billing/accounts/{accountId}/delegated-spend-grants
+Billing line · createDelegatedSpendGrant</title>
+<circle cx="1429" cy="1969" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1441" y="1974" text-anchor="start" style="fill:#1A1F2C">Create delegated spend grant</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-billing-api/#op-revokeDelegatedSpendGrant" target="_blank" class="st" data-op="revokeDelegatedSpendGrant"><title>POST /v1/workspaces/{slug}/billing/accounts/{accountId}/delegated-spend-grants/{grantId}/revoke
+Billing line · revokeDelegatedSpendGrant</title>
+<circle cx="1429" cy="1781" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1441" y="1786" text-anchor="start" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getTaskStatus" target="_blank" class="st" data-op="getTaskStatus"><title>GET /v1/workspaces/{slug}/tasks/{taskId}/status
+Bridge line · getTaskStatus</title>
+<circle cx="1993" cy="1170" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1987" y="1182" text-anchor="end" transform="rotate(-45 1987 1182)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getObjectiveStatus" target="_blank" class="st" data-op="getObjectiveStatus"><title>GET /v1/workspaces/{slug}/objectives/{objectiveId}/status
+Bridge line · getObjectiveStatus</title>
+<circle cx="1664" cy="1170" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1670" y="1158" transform="rotate(-45 1670 1158)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-listBridgeReceipts" target="_blank" class="st" data-op="listBridgeReceipts"><title>GET /v1/workspaces/{slug}/receipts/bridge
+Bridge line · listBridgeReceipts</title>
+<circle cx="1758" cy="1170" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1764" y="1158" transform="rotate(-45 1764 1158)" style="fill:#1A1F2C">Get bridge</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getBridgeReceipt" target="_blank" class="st" data-op="getBridgeReceipt"><title>GET /v1/workspaces/{slug}/receipts/bridge/{receiptId}
+Bridge line · getBridgeReceipt</title>
+<circle cx="1899" cy="1170" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1905" y="1158" transform="rotate(-45 1905 1158)" style="fill:#1A1F2C">Get bridge</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getBridgeHealth" target="_blank" class="st" data-op="getBridgeHealth"><title>GET /v1/workspaces/{slug}/bridge/health
+Bridge line · getBridgeHealth</title>
+<circle cx="1523" cy="1170" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1532" y="1160" text-anchor="start" style="fill:#1A1F2C">Get health <tspan font-weight="700" style="fill:#D6264F">⇄BIL</tspan> <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-postApiV1BridgeReceipt" target="_blank" class="st" data-op="postApiV1BridgeReceipt"><title>POST /api/v1/bridge/receipt
+Bridge line · postApiV1BridgeReceipt</title>
+<circle cx="2228" cy="1452" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2240" y="1457" text-anchor="start" style="fill:#1A1F2C">Update receipt</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-postApiV1BridgeReceiptPull" target="_blank" class="st" data-op="postApiV1BridgeReceiptPull"><title>POST /api/v1/bridge/receipt/pull
+Bridge line · postApiV1BridgeReceiptPull</title>
+<circle cx="2087" cy="1311" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2099" y="1316" text-anchor="start" style="fill:#1A1F2C">Update pull</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getApiV1BridgeReceiptById" target="_blank" class="st" data-op="getApiV1BridgeReceiptById"><title>GET /api/v1/bridge/receipt/{id}
+Bridge line · getApiV1BridgeReceiptById</title>
+<circle cx="2134" cy="1358" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2146" y="1363" text-anchor="start" style="fill:#1A1F2C">Get receipt</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-postApiV1SettlementBridge" target="_blank" class="st" data-op="postApiV1SettlementBridge"><title>POST /api/v1/settlement/bridge
+Bridge line · postApiV1SettlementBridge</title>
+<circle cx="1805" cy="1311" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1793.0" y="1316" text-anchor="end" style="fill:#1A1F2C">Update bridge</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getApiV1SettlementById" target="_blank" class="st" data-op="getApiV1SettlementById"><title>GET /api/v1/settlement/{id}
+Bridge line · getApiV1SettlementById</title>
+<circle cx="1946" cy="1311" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1952" y="1299" transform="rotate(-45 1952 1299)" style="fill:#1A1F2C">Get settlement</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-getApiV1SettlementStatus" target="_blank" class="st" data-op="getApiV1SettlementStatus"><title>GET /api/v1/settlement/status
+Bridge line · getApiV1SettlementStatus</title>
+<circle cx="1664" cy="1264" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1670" y="1252" transform="rotate(-45 1670 1252)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-bridge-api/#op-postApiV1SettlementReconcile" target="_blank" class="st" data-op="postApiV1SettlementReconcile"><title>POST /api/v1/settlement/reconcile
+Bridge line · postApiV1SettlementReconcile</title>
+<circle cx="1758" cy="1264" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1770" y="1269" text-anchor="start" style="fill:#1A1F2C">Update reconcile</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-delegation-api/#op-getApiV1DelegationLeases" target="_blank" class="st" data-op="getApiV1DelegationLeases"><title>GET /api/v1/delegation/leases
+delegation line · getApiV1DelegationLeases</title>
+<circle cx="1147" cy="277" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1159" y="282" text-anchor="start" style="fill:#1A1F2C">List leases</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-delegation-api/#op-postApiV1DelegationLeases" target="_blank" class="st" data-op="postApiV1DelegationLeases"><title>POST /api/v1/delegation/leases
+delegation line · postApiV1DelegationLeases</title>
+<circle cx="1147" cy="371" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1159" y="376" text-anchor="start" style="fill:#1A1F2C">Create leas</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-delegation-api/#op-postApiV1DelegationLeasesByIdRevoke" target="_blank" class="st" data-op="postApiV1DelegationLeasesByIdRevoke"><title>POST /api/v1/delegation/leases/{id}/revoke
+delegation line · postApiV1DelegationLeasesByIdRevoke</title>
+<circle cx="1147" cy="512" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1159" y="517" text-anchor="start" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-delegation-api/#op-getApiV1MyDelegationLeases" target="_blank" class="st" data-op="getApiV1MyDelegationLeases"><title>GET /api/v1/my/delegation/leases
+delegation line · getApiV1MyDelegationLeases</title>
+<circle cx="1241" cy="653" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1253" y="658" text-anchor="start" style="fill:#1A1F2C">List leases <tspan font-weight="700" style="fill:#0B7A75">⇄AFF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getRoamingAgentPreflight" target="_blank" class="st" data-op="getRoamingAgentPreflight"><title>GET /.well-known/roaming-agent.json
+Discovery line · getRoamingAgentPreflight</title>
+<circle cx="1335" cy="935" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1335" y="907" text-anchor="middle" style="fill:#1A1F2C">Get roaming<tspan x="1335" dy="13">agent</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getMcpServerMetadata" target="_blank" class="st" data-op="getMcpServerMetadata"><title>GET /.well-known/mcp/server.json
+Discovery line · getMcpServerMetadata</title>
+<circle cx="1241" cy="935" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1235" y="947" text-anchor="end" transform="rotate(-45 1235 947)" style="fill:#1A1F2C">Get server</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentCard" target="_blank" class="st" data-op="getAgentCard"><title>GET /.well-known/agent-card.json
+Discovery line · getAgentCard</title>
+<circle cx="1147" cy="935" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1135.0" y="940" text-anchor="end" style="fill:#1A1F2C">Get agent card</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentPublicPassport" target="_blank" class="st" data-op="getAgentPublicPassport"><title>GET /v1/agents/{identity}/passport/public
+Discovery line · getAgentPublicPassport</title>
+<circle cx="1241" cy="1311" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1247" y="1299" transform="rotate(-45 1247 1299)" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentReputation" target="_blank" class="st" data-op="getAgentReputation"><title>GET /v1/agents/{identity}/reputation
+Discovery line · getAgentReputation</title>
+<circle cx="1053" cy="1217" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1044.0" y="1236" text-anchor="end" style="fill:#1A1F2C">Get reputation</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentMetrics" target="_blank" class="st" data-op="getAgentMetrics"><title>GET /v1/agents/{identity}/metrics
+Discovery line · getAgentMetrics</title>
+<circle cx="1335" cy="1311" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1347" y="1316" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentHistory" target="_blank" class="st" data-op="getAgentHistory"><title>GET /v1/agents/{identity}/history
+Discovery line · getAgentHistory</title>
+<circle cx="1429" cy="1217" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1441" y="1222" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentHealth" target="_blank" class="st" data-op="getAgentHealth"><title>GET /v1/agents/{identity}/health
+Discovery line · getAgentHealth</title>
+<circle cx="1429" cy="1123" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1441" y="1128" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentPreflight" target="_blank" class="st" data-op="getAgentPreflight"><title>GET /v1/agents/{identity}/preflight
+Discovery line · getAgentPreflight</title>
+<circle cx="1147" cy="1311" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1156" y="1301" text-anchor="start" style="fill:#1A1F2C">Get preflight</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getAgentLeaderboard" target="_blank" class="st" data-op="getAgentLeaderboard"><title>GET /v1/agents/leaderboard
+Discovery line · getAgentLeaderboard</title>
+<circle cx="1429" cy="1029" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1417.0" y="1034" text-anchor="end" style="fill:#1A1F2C">Get leaderboard <tspan font-weight="700" style="fill:#17d25b">⇄AGN</tspan> <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getCapabilityGraph" target="_blank" class="st" data-op="getCapabilityGraph"><title>GET /v1/capabilities/graph
+Discovery line · getCapabilityGraph</title>
+<circle cx="1053" cy="1123" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1065" y="1128" text-anchor="start" style="fill:#1A1F2C">Get graph</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-discovery-api/#op-getCapabilityGraphVersion" target="_blank" class="st" data-op="getCapabilityGraphVersion"><title>GET /v1/capabilities/graph/{version}
+Discovery line · getCapabilityGraphVersion</title>
+<circle cx="1053" cy="1029" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1065" y="1034" text-anchor="start" style="fill:#1A1F2C">Get graph</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-disputes-api/#op-getApiV1MyDisputes" target="_blank" class="st" data-op="getApiV1MyDisputes"><title>GET /api/v1/my/disputes
+Disputes line · getApiV1MyDisputes</title>
+<circle cx="1100" cy="653" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1088.0" y="658" text-anchor="end" style="fill:#1A1F2C">List disputes</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-disputes-api/#op-postApiV1FlagByContractId" target="_blank" class="st" data-op="postApiV1FlagByContractId"><title>POST /api/v1/flag/{contractId}
+Disputes line · postApiV1FlagByContractId</title>
+<circle cx="1053" cy="606" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1065" y="611" text-anchor="start" style="fill:#1A1F2C">Update flag</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-disputes-api/#op-postApiV1Disputes" target="_blank" class="st" data-op="postApiV1Disputes"><title>POST /api/v1/disputes
+Disputes line · postApiV1Disputes</title>
+<circle cx="865" cy="230" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="871" y="218" transform="rotate(-45 871 218)" style="fill:#1A1F2C">Create dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-disputes-api/#op-getApiV1DisputesPending" target="_blank" class="st" data-op="getApiV1DisputesPending"><title>GET /api/v1/disputes/pending
+Disputes line · getApiV1DisputesPending</title>
+<circle cx="1006" cy="230" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1018" y="235" text-anchor="start" style="fill:#1A1F2C">Get pending</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-disputes-api/#op-postApiV1DisputesByIdResolve" target="_blank" class="st" data-op="postApiV1DisputesByIdResolve"><title>POST /api/v1/disputes/{id}/resolve
+Disputes line · postApiV1DisputesByIdResolve</title>
+<circle cx="1053" cy="418" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1041.0" y="423" text-anchor="end" style="fill:#1A1F2C">Update resolve</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-disputes-api/#op-postApiV1DisputesByIdReferee" target="_blank" class="st" data-op="postApiV1DisputesByIdReferee"><title>POST /api/v1/disputes/{id}/referee
+Disputes line · postApiV1DisputesByIdReferee</title>
+<circle cx="1006" cy="371" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1018" y="376" text-anchor="start" style="fill:#1A1F2C">Update referee</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-health-api/#op-getHealthLive" target="_blank" class="st" data-op="getHealthLive"><title>GET /health/live
+More Local line · getHealthLive</title>
+<circle cx="1523" cy="1029" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1532" y="1048" text-anchor="start" style="fill:#1A1F2C">Get live</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-health-api/#op-getHealthReady" target="_blank" class="st" data-op="getHealthReady"><title>GET /health/ready
+More Local line · getHealthReady</title>
+<circle cx="1617" cy="935" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1629" y="940" text-anchor="start" style="fill:#1A1F2C">Get ready</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-leases-api/#op-requestLease" target="_blank" class="st" data-op="requestLease"><title>POST /v1/workspaces/{slug}/leases/request
+Billing line · requestLease</title>
+<circle cx="1382" cy="1499" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1370.0" y="1504" text-anchor="end" style="fill:#1A1F2C">Update request</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-getApiV1ContractsByIdPricingPolicy" target="_blank" class="st" data-op="getApiV1ContractsByIdPricingPolicy"><title>GET /api/v1/contracts/{id}/pricing/policy
+Pricing line · getApiV1ContractsByIdPricingPolicy</title>
+<circle cx="771" cy="1546" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="783" y="1551" text-anchor="start" style="fill:#1A1F2C">Get policy</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-postApiV1ContractsByIdPricingPolicy" target="_blank" class="st" data-op="postApiV1ContractsByIdPricingPolicy"><title>POST /api/v1/contracts/{id}/pricing/policy
+Pricing line · postApiV1ContractsByIdPricingPolicy</title>
+<circle cx="771" cy="1687" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="783" y="1692" text-anchor="start" style="fill:#1A1F2C">Update policy</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-getApiV1ContractsByIdPricingQuote" target="_blank" class="st" data-op="getApiV1ContractsByIdPricingQuote"><title>GET /api/v1/contracts/{id}/pricing/quote
+Pricing line · getApiV1ContractsByIdPricingQuote</title>
+<circle cx="771" cy="1781" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="783" y="1786" text-anchor="start" style="fill:#1A1F2C">Get quote</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-getApiV1ContractsByIdPricingHistory" target="_blank" class="st" data-op="getApiV1ContractsByIdPricingHistory"><title>GET /api/v1/contracts/{id}/pricing/history
+Pricing line · getApiV1ContractsByIdPricingHistory</title>
+<circle cx="771" cy="1405" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="783" y="1410" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-postApiV1ContractsByIdPricingReprice" target="_blank" class="st" data-op="postApiV1ContractsByIdPricingReprice"><title>POST /api/v1/contracts/{id}/pricing/reprice
+Pricing line · postApiV1ContractsByIdPricingReprice</title>
+<circle cx="677" cy="1875" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="689" y="1880" text-anchor="start" style="fill:#1A1F2C">Update reprice</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-getApiV1PricingSweep" target="_blank" class="st" data-op="getApiV1PricingSweep"><title>GET /api/v1/pricing/sweep
+Pricing line · getApiV1PricingSweep</title>
+<circle cx="583" cy="1969" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="595" y="1974" text-anchor="start" style="fill:#1A1F2C">Get sweep</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-postApiV1PricingSweep" target="_blank" class="st" data-op="postApiV1PricingSweep"><title>POST /api/v1/pricing/sweep
+Pricing line · postApiV1PricingSweep</title>
+<circle cx="489" cy="2063" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="501" y="2068" text-anchor="start" style="fill:#1A1F2C">Update sweep</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-pricing-api/#op-postApiV1AdminRepricingCycle" target="_blank" class="st" data-op="postApiV1AdminRepricingCycle"><title>POST /api/v1/admin/repricing/cycle
+Pricing line · postApiV1AdminRepricingCycle</title>
+<circle cx="583" cy="1499" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="595" y="1504" text-anchor="start" style="fill:#1A1F2C">Update cycle</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-providers-api/#op-getProviderCatalog" target="_blank" class="st" data-op="getProviderCatalog"><title>GET /v1/workspaces/{slug}/providers/catalog
+Providers line · getProviderCatalog</title>
+<circle cx="1476" cy="1358" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1464.0" y="1363" text-anchor="end" style="fill:#1A1F2C">Get catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-providers-api/#op-createProviderQuote" target="_blank" class="st" data-op="createProviderQuote"><title>POST /v1/workspaces/{slug}/providers/quotes
+Providers line · createProviderQuote</title>
+<circle cx="1476" cy="1640" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1488" y="1645" text-anchor="start" style="fill:#1A1F2C">Create quote</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-providers-api/#op-executeProviderQuote" target="_blank" class="st" data-op="executeProviderQuote"><title>POST /v1/workspaces/{slug}/providers/quotes/{quoteId}/execute
+Providers line · executeProviderQuote</title>
+<circle cx="1570" cy="1734" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1582" y="1739" text-anchor="start" style="fill:#1A1F2C">Update execute</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-providers-api/#op-listProviderExecutions" target="_blank" class="st" data-op="listProviderExecutions"><title>GET /v1/workspaces/{slug}/providers/executions
+Providers line · listProviderExecutions</title>
+<circle cx="1476" cy="1499" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="1485" y="1489" text-anchor="start" style="fill:#1A1F2C">List executions</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-public-api/#op-getApiV1Marketplace" target="_blank" class="st" data-op="getApiV1Marketplace"><title>GET /api/v1/marketplace
+Agent line · getApiV1Marketplace</title>
+<circle cx="630" cy="794" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="618.0" y="799" text-anchor="end" style="fill:#1A1F2C">Get marketplace</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-public-api/#op-getApiV1Tape" target="_blank" class="st" data-op="getApiV1Tape"><title>GET /api/v1/tape
+More Local line · getApiV1Tape</title>
+<circle cx="1476" cy="982" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1488" y="987" text-anchor="start" style="fill:#1A1F2C">Get tape</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-public-api/#op-getApiV1Leaderboard" target="_blank" class="st" data-op="getApiV1Leaderboard"><title>GET /api/v1/leaderboard
+More Local line · getApiV1Leaderboard</title>
+<circle cx="1429" cy="935" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1429" y="907" text-anchor="middle" style="fill:#1A1F2C">Get<tspan x="1429" dy="13">leaderboard</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-public-api/#op-getApiV1ContractsById" target="_blank" class="st" data-op="getApiV1ContractsById"><title>GET /api/v1/contracts/{id}
+Pricing line · getApiV1ContractsById</title>
+<circle cx="677" cy="1311" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="683" y="1299" transform="rotate(-45 683 1299)" style="fill:#1A1F2C">Get contract</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-public-api/#op-postApiV1FollowBySellerIdentity" target="_blank" class="st" data-op="postApiV1FollowBySellerIdentity"><title>POST /api/v1/follow/{sellerIdentity}
+More Local line · postApiV1FollowBySellerIdentity</title>
+<circle cx="1617" cy="794" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1629" y="799" text-anchor="start" style="fill:#1A1F2C">Update follow</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-reactions-api/#op-createReaction" target="_blank" class="st" data-op="createReaction"><title>POST /v1/workspaces/{slug}/reactions
+Reactions line · createReaction</title>
+<circle cx="1335" cy="1405" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1323.0" y="1410" text-anchor="end" style="fill:#1A1F2C">Create reaction</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-reactions-api/#op-listReactions" target="_blank" class="st" data-op="listReactions"><title>GET /v1/workspaces/{slug}/reactions
+Reactions line · listReactions</title>
+<circle cx="1335" cy="1170" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1323.0" y="1175" text-anchor="end" style="fill:#1A1F2C">List reactions <tspan font-weight="700" style="fill:#D6264F">⇄BIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-reactions-api/#op-deleteReaction" target="_blank" class="st" data-op="deleteReaction"><title>DELETE /v1/workspaces/{slug}/reactions/{reactionId}
+Reactions line · deleteReaction</title>
+<circle cx="1241" cy="1499" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1237" y1="1503" x2="1245" y2="1495" stroke="#C2410C" stroke-width="2"/>
+<text x="1229.0" y="1504" text-anchor="end" style="fill:#1A1F2C">Delete reaction</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-reactions-api/#op-getApiV1MyReactions" target="_blank" class="st" data-op="getApiV1MyReactions"><title>GET /api/v1/my/reactions
+Reactions line · getApiV1MyReactions</title>
+<circle cx="1147" cy="794" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1159" y="799" text-anchor="start" style="fill:#1A1F2C">List reactions <tspan font-weight="700" style="fill:#0B7A75">⇄AFF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-reactions-api/#op-postApiV1Reactions" target="_blank" class="st" data-op="postApiV1Reactions"><title>POST /api/v1/reactions
+Reactions line · postApiV1Reactions</title>
+<circle cx="1194" cy="841" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1206" y="846" text-anchor="start" style="fill:#1A1F2C">Create reaction</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-reactions-api/#op-getApiV1ReactionsSummary" target="_blank" class="st" data-op="getApiV1ReactionsSummary"><title>GET /api/v1/reactions/summary
+Reactions line · getApiV1ReactionsSummary</title>
+<circle cx="1335" cy="1123" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1347" y="1128" text-anchor="start" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-realtime-api/#op-getApiV1RealtimeCapabilities" target="_blank" class="st" data-op="getApiV1RealtimeCapabilities"><title>GET /api/v1/realtime/capabilities
+Realtime line · getApiV1RealtimeCapabilities</title>
+<circle cx="959" cy="1076" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="947.0" y="1081" text-anchor="end" style="fill:#1A1F2C">List capabilities <tspan font-weight="700" style="fill:#0E9F6E">⇄DIS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-realtime-api/#op-postApiV1RealtimeSession" target="_blank" class="st" data-op="postApiV1RealtimeSession"><title>POST /api/v1/realtime/session
+Realtime line · postApiV1RealtimeSession</title>
+<circle cx="771" cy="1076" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="759.0" y="1081" text-anchor="end" style="fill:#1A1F2C">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-realtime-api/#op-getApiV1RealtimePublic" target="_blank" class="st" data-op="getApiV1RealtimePublic"><title>GET /api/v1/realtime/public
+Realtime line · getApiV1RealtimePublic</title>
+<circle cx="771" cy="1170" r="5.5" fill="#fff" stroke="#0d7773" stroke-width="2.5"/>
+<text x="783" y="1175" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-realtime-api/#op-getApiV1RealtimePrivate" target="_blank" class="st" data-op="getApiV1RealtimePrivate"><title>GET /api/v1/realtime/private
+Realtime line · getApiV1RealtimePrivate</title>
+<circle cx="818" cy="1217" r="5.5" fill="#fff" stroke="#0d7773" stroke-width="2.5"/>
+<text x="812" y="1229" text-anchor="end" transform="rotate(-45 812 1229)" style="fill:#1A1F2C">Get private</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-postApiV1Contracts" target="_blank" class="st" data-op="postApiV1Contracts"><title>POST /api/v1/contracts
+Seller line · postApiV1Contracts</title>
+<circle cx="630" cy="1358" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="624" y="1370" text-anchor="end" transform="rotate(-45 624 1370)" style="fill:#1A1F2C">Create contract</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-postApiV1SellersRegister" target="_blank" class="st" data-op="postApiV1SellersRegister"><title>POST /api/v1/sellers/register
+Seller line · postApiV1SellersRegister</title>
+<circle cx="301" cy="1593" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="289.0" y="1598" text-anchor="end" style="fill:#1A1F2C">Register sellers</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-getApiV1SellersBySellerIdBalance" target="_blank" class="st" data-op="getApiV1SellersBySellerIdBalance"><title>GET /api/v1/sellers/{sellerId}/balance
+Seller line · getApiV1SellersBySellerIdBalance</title>
+<circle cx="254" cy="1546" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="266" y="1551" text-anchor="start" style="fill:#1A1F2C">Get balance</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-postApiV1SellersBySellerIdWithdraw" target="_blank" class="st" data-op="postApiV1SellersBySellerIdWithdraw"><title>POST /api/v1/sellers/{sellerId}/withdraw
+Seller line · postApiV1SellersBySellerIdWithdraw</title>
+<circle cx="160" cy="1452" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="172" y="1457" text-anchor="start" style="fill:#1A1F2C">Update withdraw</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-patchApiV1ContractsById" target="_blank" class="st" data-op="patchApiV1ContractsById"><title>PATCH /api/v1/contracts/{id}
+Seller line · patchApiV1ContractsById</title>
+<circle cx="583" cy="1358" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="571.0" y="1363" text-anchor="end" style="fill:#1A1F2C">Update contract</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-postApiV1ContractsByIdRevoke" target="_blank" class="st" data-op="postApiV1ContractsByIdRevoke"><title>POST /api/v1/contracts/{id}/revoke
+Seller line · postApiV1ContractsByIdRevoke</title>
+<circle cx="348" cy="1593" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="360" y="1598" text-anchor="start" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-seller-api/#op-postApiV1ContractsByIdPublish" target="_blank" class="st" data-op="postApiV1ContractsByIdPublish"><title>POST /api/v1/contracts/{id}/publish
+Seller line · postApiV1ContractsByIdPublish</title>
+<circle cx="442" cy="1499" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="454" y="1504" text-anchor="start" style="fill:#1A1F2C">Update publish</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-streams-api/#op-streamWorkspaceEvents" target="_blank" class="st" data-op="streamWorkspaceEvents"><title>GET /v1/workspaces/{slug}/stream/{role}
+Billing line · streamWorkspaceEvents</title>
+<circle cx="1711" cy="1405" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1723" y="1410" text-anchor="start" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1Health" target="_blank" class="st" data-op="getApiV1Health"><title>GET /api/v1/health
+System line · getApiV1Health</title>
+<circle cx="1570" cy="1076" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1576" y="1064" transform="rotate(-45 1576 1064)" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1Readiness" target="_blank" class="st" data-op="getApiV1Readiness"><title>GET /api/v1/readiness
+System line · getApiV1Readiness</title>
+<circle cx="2087" cy="888" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2099" y="893" text-anchor="start" style="fill:#1A1F2C">Get readiness</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1AuthBootstrap" target="_blank" class="st" data-op="getApiV1AuthBootstrap"><title>GET /api/v1/auth/bootstrap
+System line · getApiV1AuthBootstrap</title>
+<circle cx="865" cy="982" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="877" y="987" text-anchor="start" style="fill:#1A1F2C">Get bootstrap</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1Metrics" target="_blank" class="st" data-op="getApiV1Metrics"><title>GET /api/v1/metrics
+System line · getApiV1Metrics</title>
+<circle cx="1899" cy="1076" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1911" y="1081" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1MetricsPrometheus" target="_blank" class="st" data-op="getApiV1MetricsPrometheus"><title>GET /api/v1/metrics/prometheus
+System line · getApiV1MetricsPrometheus</title>
+<circle cx="1946" cy="1029" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1958" y="1034" text-anchor="start" style="fill:#1A1F2C">List prometheus</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1ControlPlane" target="_blank" class="st" data-op="getApiV1ControlPlane"><title>GET /api/v1/control/plane
+System line · getApiV1ControlPlane</title>
+<circle cx="959" cy="1311" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="971" y="1316" text-anchor="start" style="fill:#1A1F2C">Get plane</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1ControlPlaneHistory" target="_blank" class="st" data-op="getApiV1ControlPlaneHistory"><title>GET /api/v1/control/plane/history
+System line · getApiV1ControlPlaneHistory</title>
+<circle cx="1194" cy="1076" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1182.0" y="1081" text-anchor="end" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1ControlPlaneActions" target="_blank" class="st" data-op="getApiV1ControlPlaneActions"><title>GET /api/v1/control/plane/actions
+System line · getApiV1ControlPlaneActions</title>
+<circle cx="1100" cy="1170" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1112" y="1175" text-anchor="start" style="fill:#1A1F2C">List actions</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-postApiV1ControlPlaneActions" target="_blank" class="st" data-op="postApiV1ControlPlaneActions"><title>POST /api/v1/control/plane/actions
+System line · postApiV1ControlPlaneActions</title>
+<circle cx="1147" cy="1123" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1159" y="1128" text-anchor="start" style="fill:#1A1F2C">Create action</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-postApiV1ControlPlaneReconcile" target="_blank" class="st" data-op="postApiV1ControlPlaneReconcile"><title>POST /api/v1/control/plane/reconcile
+System line · postApiV1ControlPlaneReconcile</title>
+<circle cx="1476" cy="1076" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1476" y="1048" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1476" dy="13">reconcile</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1Capabilities" target="_blank" class="st" data-op="getApiV1Capabilities"><title>GET /api/v1/capabilities
+System line · getApiV1Capabilities</title>
+<circle cx="959" cy="1217" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="959" y="1189" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="959" dy="13">capabilities <tspan font-weight="700" style="fill:#0E9F6E">⇄DIS</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1ContractsDualPlane" target="_blank" class="st" data-op="getApiV1ContractsDualPlane"><title>GET /api/v1/contracts/dual-plane
+System line · getApiV1ContractsDualPlane</title>
+<circle cx="771" cy="1311" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="759.0" y="1309" text-anchor="end" style="fill:#1A1F2C">Get dual<tspan x="759.0" dy="13">plane <tspan font-weight="700" style="fill:#1F5FD1">⇄PRI</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1ContractsDualPlaneErrors" target="_blank" class="st" data-op="getApiV1ContractsDualPlaneErrors"><title>GET /api/v1/contracts/dual-plane/errors
+System line · getApiV1ContractsDualPlaneErrors</title>
+<circle cx="865" cy="1405" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="859" y="1417" text-anchor="end" transform="rotate(-45 859 1417)" style="fill:#1A1F2C">List errors</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-getApiV1Openapi" target="_blank" class="st" data-op="getApiV1Openapi"><title>GET /api/v1/openapi
+System line · getApiV1Openapi</title>
+<circle cx="1993" cy="982" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2005" y="987" text-anchor="start" style="fill:#1A1F2C">Get openapi</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-system-api/#op-postApiV1MaintenancePayloadTtlPrune" target="_blank" class="st" data-op="postApiV1MaintenancePayloadTtlPrune"><title>POST /api/v1/maintenance/payload-ttl/prune
+System line · postApiV1MaintenancePayloadTtlPrune</title>
+<circle cx="1711" cy="1076" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1717" y="1064" transform="rotate(-45 1717 1064)" style="fill:#1A1F2C">Update prune</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-tasks-api/#op-createObjective" target="_blank" class="st" data-op="createObjective"><title>POST /v1/workspaces/{slug}/objectives
+Tasks line · createObjective</title>
+<circle cx="1570" cy="1405" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1579" y="1424" text-anchor="start" style="fill:#1A1F2C">Create objective <tspan font-weight="700" style="fill:#D6264F">⇄BIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-tasks-api/#op-createTask" target="_blank" class="st" data-op="createTask"><title>POST /v1/workspaces/{slug}/tasks
+Tasks line · createTask</title>
+<circle cx="1570" cy="1499" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1582" y="1504" text-anchor="start" style="fill:#1A1F2C">Create task</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-tasks-api/#op-claimTask" target="_blank" class="st" data-op="claimTask"><title>POST /v1/workspaces/{slug}/tasks/{taskId}/claim
+Tasks line · claimTask</title>
+<circle cx="1617" cy="1546" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1629" y="1551" text-anchor="start" style="fill:#1A1F2C">Update claim</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-tasks-api/#op-completeTask" target="_blank" class="st" data-op="completeTask"><title>POST /v1/workspaces/{slug}/tasks/{taskId}/complete
+Tasks line · completeTask</title>
+<circle cx="1711" cy="1640" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1723" y="1645" text-anchor="start" style="fill:#1A1F2C">Complete workspaces tasks</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-tasks-api/#op-raceClaimTask" target="_blank" class="st" data-op="raceClaimTask"><title>POST /v1/workspaces/{slug}/tasks/{taskId}/race-claim
+Tasks line · raceClaimTask</title>
+<circle cx="1805" cy="1734" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1817" y="1739" text-anchor="start" style="fill:#1A1F2C">Update race claim</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-viral-api/#op-getApiV1ViralTrending" target="_blank" class="st" data-op="getApiV1ViralTrending"><title>GET /api/v1/viral/trending
+viral line · getApiV1ViralTrending</title>
+<circle cx="1852" cy="653" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1864" y="658" text-anchor="start" style="fill:#1A1F2C">Get trending</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-viral-api/#op-getApiV1ViralUtility" target="_blank" class="st" data-op="getApiV1ViralUtility"><title>GET /api/v1/viral/utility
+viral line · getApiV1ViralUtility</title>
+<circle cx="1852" cy="747" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1864" y="752" text-anchor="start" style="fill:#1A1F2C">Get utility</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-viral-api/#op-getApiV1ChallengesLive" target="_blank" class="st" data-op="getApiV1ChallengesLive"><title>GET /api/v1/challenges/live
+viral line · getApiV1ChallengesLive</title>
+<circle cx="1852" cy="559" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1864" y="564" text-anchor="start" style="fill:#1A1F2C">Get live</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-workspaces-api/#op-listWorkspaceDirectory" target="_blank" class="st" data-op="listWorkspaceDirectory"><title>GET /v1/workspaces/directory
+Workspaces line · listWorkspaceDirectory</title>
+<circle cx="1241" cy="1217" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1241" y="1253" text-anchor="middle" style="fill:#1A1F2C">Get directory <tspan font-weight="700" style="fill:#D6264F">⇄BIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-workspaces-api/#op-getWorkspaceLoad" target="_blank" class="st" data-op="getWorkspaceLoad"><title>GET /v1/workspaces/{slug}/load
+Workspaces line · getWorkspaceLoad</title>
+<circle cx="959" cy="1499" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="971" y="1504" text-anchor="start" style="fill:#1A1F2C">Get load</text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-workspaces-api/#op-getWorkspaceCapabilities" target="_blank" class="st" data-op="getWorkspaceCapabilities"><title>GET /v1/workspaces/{slug}/capabilities
+Workspaces line · getWorkspaceCapabilities</title>
+<circle cx="1147" cy="1217" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1147" y="1189" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1147" dy="13">capabilities <tspan font-weight="700" style="fill:#0E9F6E">⇄DIS</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/clawspan-cloud/clawspan-cloud-workspaces-api/#op-joinWorkspace" target="_blank" class="st" data-op="joinWorkspace"><title>POST /v1/workspaces/{slug}/join
+Workspaces line · joinWorkspace</title>
+<circle cx="1053" cy="1405" r="5.5" fill="#dd5ba0" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="1065" y="1410" text-anchor="start" style="fill:#1A1F2C">Update join</text>
+</a>
+<text x="2418" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2418" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">BILLING</text>
+<rect x="2418" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2435" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BIL</text><text x="2460" y="269" font-size="11" fill="#1A1F2C">Billing <tspan fill="#8A93A6">11</tspan></text>
+<rect x="2418" y="276" width="34" height="13" rx="3" fill="#af2c23"/><text x="2435" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2460" y="286" font-size="11" fill="#1A1F2C">Providers <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2418" y="293" width="34" height="13" rx="3" fill="#dd5ba0"/><text x="2435" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="2460" y="303" font-size="11" fill="#1A1F2C">Workspaces <tspan fill="#8A93A6">4</tspan></text>
+<text x="2418" y="329" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">AGENTS</text>
+<rect x="2418" y="336" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2435" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIS</text><text x="2460" y="346" font-size="11" fill="#1A1F2C">Discovery <tspan fill="#8A93A6">12</tspan></text>
+<rect x="2418" y="353" width="34" height="13" rx="3" fill="#0d7773"/><text x="2435" y="363" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RLT</text><text x="2460" y="363" font-size="11" fill="#1A1F2C">Realtime <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2418" y="370" width="34" height="13" rx="3" fill="#17d25b"/><text x="2435" y="380" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGN</text><text x="2460" y="380" font-size="11" fill="#1A1F2C">Agents <tspan fill="#8A93A6">3</tspan></text>
+<text x="2418" y="406" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">CONTRACTS</text>
+<rect x="2418" y="413" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2435" y="423" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRI</text><text x="2460" y="423" font-size="11" fill="#1A1F2C">Pricing <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2418" y="430" width="34" height="13" rx="3" fill="#1d33a9"/><text x="2435" y="440" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEL</text><text x="2460" y="440" font-size="11" fill="#1A1F2C">Seller <tspan fill="#8A93A6">7</tspan></text>
+<text x="2418" y="466" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">CONTROL</text>
+<rect x="2418" y="473" width="34" height="13" rx="3" fill="#E07B12"/><text x="2435" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SYS</text><text x="2460" y="483" font-size="11" fill="#1A1F2C">System <tspan fill="#8A93A6">15</tspan></text>
+<text x="2418" y="509" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">MY</text>
+<rect x="2418" y="516" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2435" y="526" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="2460" y="526" font-size="11" fill="#1A1F2C">Agent <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2418" y="533" width="34" height="13" rx="3" fill="#8823d6"/><text x="2435" y="543" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AUT</text><text x="2460" y="543" font-size="11" fill="#1A1F2C">Auth <tspan fill="#8A93A6">4</tspan></text>
+<text x="2418" y="569" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">BRIDGE</text>
+<rect x="2418" y="576" width="34" height="13" rx="3" fill="#B0287F"/><text x="2435" y="586" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BRI</text><text x="2460" y="586" font-size="11" fill="#1A1F2C">Bridge <tspan fill="#8A93A6">12</tspan></text>
+<text x="2418" y="612" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">AFFILIATE</text>
+<rect x="2418" y="619" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2435" y="629" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AFF</text><text x="2460" y="629" font-size="11" fill="#1A1F2C">affiliate <tspan fill="#8A93A6">7</tspan></text>
+<text x="2418" y="655" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">DISPUTES</text>
+<rect x="2418" y="662" width="34" height="13" rx="3" fill="#B8860B"/><text x="2435" y="672" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DSP</text><text x="2460" y="672" font-size="11" fill="#1A1F2C">Disputes <tspan fill="#8A93A6">6</tspan></text>
+<text x="2418" y="698" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">REACTIONS</text>
+<rect x="2418" y="705" width="34" height="13" rx="3" fill="#C2410C"/><text x="2435" y="715" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REA</text><text x="2460" y="715" font-size="11" fill="#1A1F2C">Reactions <tspan fill="#8A93A6">6</tspan></text>
+<text x="2418" y="741" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">TASKS</text>
+<rect x="2418" y="748" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2435" y="758" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAS</text><text x="2460" y="758" font-size="11" fill="#1A1F2C">Tasks <tspan fill="#8A93A6">5</tspan></text>
+<text x="2418" y="784" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">DELEGATION</text>
+<rect x="2418" y="791" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2435" y="801" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DEL</text><text x="2460" y="801" font-size="11" fill="#1A1F2C">delegation <tspan fill="#8A93A6">4</tspan></text>
+<text x="2418" y="827" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2418" y="834" width="34" height="13" rx="3" fill="#D6264F"/><text x="2435" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2460" y="844" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2418" y="851" width="34" height="13" rx="3" fill="#B0287F"/><text x="2435" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">A2A</text><text x="2460" y="861" font-size="11" fill="#1A1F2C">a2a <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2418" y="868" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2435" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VIR</text><text x="2460" y="878" font-size="11" fill="#1A1F2C">viral <tspan fill="#8A93A6">3</tspan></text>
+<text x="2668" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2686,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2712" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2686,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2712" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2686,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2712" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2686,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2712" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2686,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2712" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2686,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2712" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2686,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2712" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2686,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2712" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2668" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2668" y="463" font-size="10.5" fill="#5A6275">“Follow” → More Local line · 1 op</text>
+<text x="2668" y="478" font-size="10.5" fill="#5A6275">“Health” → More Local line · 2 ops</text>
+<text x="2668" y="493" font-size="10.5" fill="#5A6275">“Leaderboard” → More Local line · 1 op</text>
+<text x="2668" y="508" font-size="10.5" fill="#5A6275">“Leases” → Billing line · 1 op</text>
+<text x="2668" y="523" font-size="10.5" fill="#5A6275">“Public” → Agent line · 1 op</text>
+<text x="2668" y="538" font-size="10.5" fill="#5A6275">“Public” → Follow line · 1 op</text>
+<text x="2668" y="553" font-size="10.5" fill="#5A6275">“Public” → Leaderboard line · 1 op</text>
+<text x="2668" y="568" font-size="10.5" fill="#5A6275">“Public” → Pricing line · 1 op</text>
+<text x="2668" y="583" font-size="10.5" fill="#5A6275">“Public” → Tape line · 1 op</text>
+<text x="2668" y="598" font-size="10.5" fill="#5A6275">“Streams” → Billing line · 1 op</text>
+<text x="2668" y="613" font-size="10.5" fill="#5A6275">“Tape” → More Local line · 1 op</text>
+<text x="2668" y="663" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2668" y="680" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2240" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/clawspan-cloud/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
