@@ -1,0 +1,820 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3212 3288" width="3212" height="3288" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3212" height="3288" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Compresr API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">138 operations as stops · 16 tags as lines · 10 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="244" y1="1448" x2="202" y2="1490" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="244" y1="1448" x2="202" y2="1490" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="454" y1="1532" x2="412" y2="1574" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="454" y1="1532" x2="412" y2="1574" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1798" y1="818" x2="1756" y2="860" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1798" y1="818" x2="1756" y2="860" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="370" y1="1616" x2="412" y2="1574" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="370" y1="1616" x2="412" y2="1574" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Admin" d="M1084.0,1406.0 L1168.0,1406.0 L1252.0,1406.0 L1336.0,1406.0 L1420.0,1406.0 L1490.0,1406.0 Q1504.0,1406.0 1513.9,1415.9 L1588.0,1490.0 L1672.0,1574.0 L1756.0,1658.0 L1830.1,1732.1 Q1840.0,1742.0 1840.0,1756.0 L1840.0,1826.0 L1840.0,1910.0 L1840.0,1994.0 L1840.0,2064.0 Q1840.0,2078.0 1830.1,2087.9 L1756.0,2162.0 L1672.0,2246.0 L1588.0,2330.0 L1513.9,2404.1 Q1504.0,2414.0 1490.0,2414.0 L1420.0,2414.0 L1336.0,2414.0 L1252.0,2414.0 L1168.0,2414.0 L1098.0,2414.0 Q1084.0,2414.0 1074.1,2404.1 L1000.0,2330.0 L916.0,2246.0 L832.0,2162.0 L757.9,2087.9 Q748.0,2078.0 748.0,2064.0 L748.0,1994.0 L748.0,1910.0 L748.0,1826.0 L748.0,1756.0 Q748.0,1742.0 757.9,1732.1 L832.0,1658.0 L916.0,1574.0 L1000.0,1490.0 L1084.0,1406.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Admin</title></path>
+<path class="line" data-line="Admin - Whitelist" d="M2470.0,1700.0 L2386.0,1616.0 L2311.9,1541.9 Q2302.0,1532.0 2288.0,1532.0 L2232.0,1532.0 Q2218.0,1532.0 2218.0,1546.0 L2218.0,1658.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Admin - Whitelist</title></path>
+<path class="line" data-line="API Keys" d="M2512.0,2414.0 L2428.0,2414.0 L2344.0,2414.0 L2274.0,2414.0 Q2260.0,2414.0 2250.1,2404.1 L2227.9,2381.9 Q2218.0,2372.0 2218.0,2358.0 L2218.0,2288.0 L2218.0,2204.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Billing" d="M1840.0,2330.0 L1756.0,2330.0 L1686.0,2330.0 Q1672.0,2330.0 1662.1,2339.9 L1597.9,2404.1 Q1588.0,2414.0 1597.9,2423.9 L1714.0,2540.0 L1830.1,2656.1 Q1840.0,2666.0 1854.0,2666.0 L1910.0,2666.0 Q1924.0,2666.0 1933.9,2675.9 L2008.0,2750.0 L2092.0,2834.0 L2134.0,2876.0 L2218.0,2960.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Billing</title></path>
+<path class="line" data-line="Compression-Agentic" d="M202.0,1490.0 L276.1,1564.1 Q286.0,1574.0 295.9,1564.1 L318.1,1541.9 Q328.0,1532.0 328.0,1518.0 L328.0,1336.0 Q328.0,1322.0 318.1,1312.1 L295.9,1289.9 Q286.0,1280.0 286.0,1266.0 L286.0,1210.0 Q286.0,1196.0 295.9,1186.1 L328.0,1154.0 L370.0,1112.0 L402.1,1079.9 Q412.0,1070.0 426.0,1070.0 L524.0,1070.0 Q538.0,1070.0 547.9,1060.1 L570.1,1037.9 Q580.0,1028.0 580.0,1014.0 L580.0,944.0 L580.0,818.0 L580.0,706.0 Q580.0,692.0 570.1,682.1 L547.9,659.9 Q538.0,650.0 538.0,636.0 L538.0,538.0 Q538.0,524.0 528.1,514.1 L463.9,449.9 Q454.0,440.0 454.0,426.0 L454.0,398.0 L454.0,314.0 L454.0,230.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Compression-Agentic</title></path>
+<path class="line" data-line="Compression" d="M244.0,1448.0 L356.0,1448.0 Q370.0,1448.0 379.9,1457.9 L444.1,1522.1 Q454.0,1532.0 463.9,1522.1 L538.0,1448.0 L622.0,1364.0 L706.0,1280.0" fill="none" stroke="#0d7773" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Compression</title></path>
+<path class="line" data-line="Compression-Demo" d="M454.0,1700.0 L486.1,1732.1 Q496.0,1742.0 496.0,1756.0 L496.0,1896.0 Q496.0,1910.0 486.1,1919.9 L454.0,1952.0 L370.0,2036.0 L286.0,2120.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Compression-Demo</title></path>
+<path class="line" data-line="Feature Requests" d="M2008.0,1364.0 L1896.0,1364.0 Q1882.0,1364.0 1882.0,1378.0 L1882.0,1434.0 Q1882.0,1448.0 1891.9,1457.9 L1966.0,1532.0 L2050.0,1616.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Feature Requests</title></path>
+<path class="line" data-line="Gateway" d="M1924.0,1742.0 L2036.0,1742.0 Q2050.0,1742.0 2059.9,1751.9 L2082.1,1774.1 Q2092.0,1784.0 2106.0,1784.0 L2218.0,1784.0 L2302.0,1784.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Gateway</title></path>
+<path class="line" data-line="Health" d="M412.0,1574.0 L538.0,1574.0 L622.0,1574.0" fill="none" stroke="#17d25b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Health</title></path>
+<path class="line" data-line="Newsletter" d="M1084.0,2498.0 L1200.1,2614.1 Q1210.0,2624.0 1224.0,2624.0 L1280.0,2624.0 Q1294.0,2624.0 1303.9,2633.9 L1378.0,2708.0 L1462.0,2792.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Newsletter</title></path>
+<path class="line" data-line="OAuth" d="M1798.0,818.0 L1723.9,743.9 Q1714.0,734.0 1704.1,743.9 L1681.9,766.1 Q1672.0,776.0 1658.0,776.0 L1602.0,776.0 Q1588.0,776.0 1588.0,762.0 L1588.0,692.0 L1588.0,608.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>OAuth</title></path>
+<path class="line" data-line="OAuth Authorization" d="M1756.0,860.0 L1840.0,944.0 L1924.0,1028.0" fill="none" stroke="#b58613" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>OAuth Authorization</title></path>
+<path class="line" data-line="On-Prem Telemetry" d="M370.0,1784.0 L370.0,1630.0 Q370.0,1616.0 356.0,1616.0 L160.0,1616.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>On-Prem Telemetry</title></path>
+<path class="line" data-line="Profile" d="M1168.0,3044.0 L1168.0,2960.0 L1168.0,2848.0 Q1168.0,2834.0 1177.9,2824.1 L1200.1,2801.9 Q1210.0,2792.0 1219.9,2801.9 L1284.1,2866.1 Q1294.0,2876.0 1294.0,2890.0 L1294.0,2960.0 L1294.0,3044.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Profile</title></path>
+<path class="line" data-line="More Local" d="M832.0,2372.0 L832.0,2302.0 Q832.0,2288.0 822.1,2278.1 L757.9,2213.9 Q748.0,2204.0 738.1,2213.9 L715.9,2236.1 Q706.0,2246.0 706.0,2260.0 L706.0,2414.0 L706.0,2540.0 L706.0,2666.0 L706.0,2792.0 L706.0,2876.0 L706.0,2960.0 L706.0,3044.0 L706.0,3128.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<rect x="1054" y="1353" width="60" height="26" rx="13" fill="#D6264F"/><text x="1084" y="1371" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">ADM</text>
+<line x1="2470" y1="1700" x2="2494.0416305603426" y2="1724.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="2470.0416305603426" y="1713.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Admin - Whitelist</title></rect><text x="2494.0416305603426" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AW</text>
+<line x1="2218" y1="1658" x2="2218.0" y2="1692.0" stroke="#2E7D32" stroke-width="7"/><rect x="2194.0" y="1681.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Admin - Whitelist</title></rect><text x="2218.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AW</text>
+<line x1="2512" y1="2414" x2="2546.0" y2="2414.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2522.0" y="2403.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>API Keys</title></rect><text x="2546.0" y="2419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="2218" y1="2204" x2="2218.0" y2="2170.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2194.0" y="2159.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>API Keys</title></rect><text x="2218.0" y="2175.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="1840" y1="2330" x2="1874.0" y2="2330.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1850.0" y="2319.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Billing</title></rect><text x="1874.0" y="2335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="2218" y1="2960" x2="2242.0416305603426" y2="2984.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="2218.0416305603426" y="2973.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Billing</title></rect><text x="2242.0416305603426" y="2989.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="202" y1="1490" x2="177.9583694396574" y2="1465.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="153.9583694396574" y="1454.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Compression-Agentic</title></rect><text x="177.9583694396574" y="1470.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CA</text>
+<line x1="454" y1="230" x2="454.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="430.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Compression-Agentic</title></rect><text x="454.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CA</text>
+<line x1="244" y1="1448" x2="210.0" y2="1422.0" stroke="#0d7773" stroke-width="7"/><rect x="186.0" y="1411.0" width="48" height="22" rx="5" fill="#0d7773"><title>Compression</title></rect><text x="210.0" y="1427.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="706" y1="1280" x2="730.0416305603426" y2="1255.9583694396574" stroke="#0d7773" stroke-width="7"/><rect x="706.0416305603426" y="1244.9583694396574" width="48" height="22" rx="5" fill="#0d7773"><title>Compression</title></rect><text x="730.0416305603426" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="454" y1="1700" x2="429.95836943965736" y2="1675.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="405.95836943965736" y="1664.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Compression-Demo</title></rect><text x="429.95836943965736" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CD</text>
+<line x1="286" y1="2120" x2="261.95836943965736" y2="2144.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="237.95836943965736" y="2133.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Compression-Demo</title></rect><text x="261.95836943965736" y="2149.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CD</text>
+<line x1="2008" y1="1364" x2="2042.0" y2="1364.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2018.0" y="1353.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Feature Requests</title></rect><text x="2042.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FR</text>
+<line x1="2050" y1="1616" x2="2074.0416305603426" y2="1640.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="2050.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Feature Requests</title></rect><text x="2074.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FR</text>
+<line x1="1924" y1="1742" x2="1890.0" y2="1742.0" stroke="#B8860B" stroke-width="7"/><rect x="1866.0" y="1731.0" width="48" height="22" rx="5" fill="#B8860B"><title>Gateway</title></rect><text x="1890.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GAT</text>
+<line x1="2302" y1="1784" x2="2336.0" y2="1784.0" stroke="#B8860B" stroke-width="7"/><rect x="2312.0" y="1773.0" width="48" height="22" rx="5" fill="#B8860B"><title>Gateway</title></rect><text x="2336.0" y="1789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GAT</text>
+<line x1="412" y1="1574" x2="378.0" y2="1574.0" stroke="#17d25b" stroke-width="7"/><rect x="354.0" y="1563.0" width="48" height="22" rx="5" fill="#17d25b"><title>Health</title></rect><text x="378.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HEA</text>
+<line x1="622" y1="1574" x2="656.0" y2="1574.0" stroke="#17d25b" stroke-width="7"/><rect x="632.0" y="1563.0" width="48" height="22" rx="5" fill="#17d25b"><title>Health</title></rect><text x="656.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HEA</text>
+<line x1="1084" y1="2498" x2="1059.9583694396574" y2="2473.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1035.9583694396574" y="2462.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Newsletter</title></rect><text x="1059.9583694396574" y="2478.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NEW</text>
+<line x1="1462" y1="2792" x2="1486.0416305603426" y2="2816.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1462.0416305603426" y="2805.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Newsletter</title></rect><text x="1486.0416305603426" y="2821.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NEW</text>
+<line x1="1798" y1="818" x2="1822.0416305603426" y2="842.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1798.0416305603426" y="831.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>OAuth</title></rect><text x="1822.0416305603426" y="847.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OA</text>
+<line x1="1588" y1="608" x2="1588.0" y2="574.0" stroke="#E07B12" stroke-width="7"/><rect x="1564.0" y="563.0" width="48" height="22" rx="5" fill="#E07B12"><title>OAuth</title></rect><text x="1588.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OA</text>
+<line x1="1756" y1="860" x2="1731.9583694396574" y2="835.9583694396574" stroke="#b58613" stroke-width="7"/><rect x="1707.9583694396574" y="824.9583694396574" width="48" height="22" rx="5" fill="#b58613"><title>OAuth Authorization</title></rect><text x="1731.9583694396574" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OAA</text>
+<line x1="1924" y1="1028" x2="1948.0416305603426" y2="1052.0416305603426" stroke="#b58613" stroke-width="7"/><rect x="1924.0416305603426" y="1041.0416305603426" width="48" height="22" rx="5" fill="#b58613"><title>OAuth Authorization</title></rect><text x="1948.0416305603426" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OAA</text>
+<line x1="370" y1="1784" x2="370.0" y2="1818.0" stroke="#00838F" stroke-width="7"/><rect x="346.0" y="1807.0" width="48" height="22" rx="5" fill="#00838F"><title>On-Prem Telemetry</title></rect><text x="370.0" y="1823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPT</text>
+<line x1="160" y1="1616" x2="126.0" y2="1616.0" stroke="#00838F" stroke-width="7"/><rect x="102.0" y="1605.0" width="48" height="22" rx="5" fill="#00838F"><title>On-Prem Telemetry</title></rect><text x="126.0" y="1621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPT</text>
+<line x1="1168" y1="3044" x2="1168.0" y2="3078.0" stroke="#B0287F" stroke-width="7"/><rect x="1144.0" y="3067.0" width="48" height="22" rx="5" fill="#B0287F"><title>Profile</title></rect><text x="1168.0" y="3083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1294" y1="3044" x2="1294.0" y2="3078.0" stroke="#B0287F" stroke-width="7"/><rect x="1270.0" y="3067.0" width="48" height="22" rx="5" fill="#B0287F"><title>Profile</title></rect><text x="1294.0" y="3083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="832" y1="2372" x2="832.0" y2="2406.0" stroke="#D6264F" stroke-width="7"/><rect x="808.0" y="2395.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="832.0" y="2411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="706" y1="3128" x2="706.0" y2="3162.0" stroke="#D6264F" stroke-width="7"/><rect x="682.0" y="3151.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="706.0" y="3167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-list_key_requests_api_admin_key_requests_get" target="_blank" class="st" data-op="list_key_requests_api_admin_key_requests_get"><title>GET /api/admin/key-requests
+Admin line · list_key_requests_api_admin_key_requests_get</title>
+<circle cx="1252" cy="2414" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="2402" transform="rotate(-45 1258 2402)" style="fill:#1A1F2C">List key requests</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-approve_key_request_api_admin_key_requests__user_id__approve_post" target="_blank" class="st" data-op="approve_key_request_api_admin_key_requests__user_id__approve_post"><title>POST /api/admin/key-requests/{user_id}/approve
+Admin line · approve_key_request_api_admin_key_requests__user_id__approve_post</title>
+<circle cx="1168" cy="2414" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="2402" transform="rotate(-45 1174 2402)" style="fill:#1A1F2C">Approve key request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_users_api_admin_users_get" target="_blank" class="st" data-op="get_users_api_admin_users_get"><title>GET /api/admin/users
+Admin line · get_users_api_admin_users_get</title>
+<circle cx="748" cy="1994" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1999" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-sync_users_api_admin_users_sync_post" target="_blank" class="st" data-op="sync_users_api_admin_users_sync_post"><title>POST /api/admin/users/sync
+Admin line · sync_users_api_admin_users_sync_post</title>
+<circle cx="748" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1831" text-anchor="start" style="fill:#1A1F2C">Sync users</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_user_by_email_api_admin_users_by_email__email__get" target="_blank" class="st" data-op="get_user_by_email_api_admin_users_by_email__email__get"><title>GET /api/admin/users/by-email/{email}
+Admin line · get_user_by_email_api_admin_users_by_email__email__get</title>
+<circle cx="748" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1915" text-anchor="start" style="fill:#1A1F2C">Get by email</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_user_details_api_admin_users__user_id__get" target="_blank" class="st" data-op="get_user_details_api_admin_users__user_id__get"><title>GET /api/admin/users/{user_id}
+Admin line · get_user_details_api_admin_users__user_id__get</title>
+<circle cx="748" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1747" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-delete_user_api_admin_users__user_id__delete" target="_blank" class="st" data-op="delete_user_api_admin_users__user_id__delete"><title>DELETE /api/admin/users/{user_id}
+Admin line · delete_user_api_admin_users__user_id__delete</title>
+<circle cx="916" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="912" y1="1578" x2="920" y2="1570" stroke="#D6264F" stroke-width="2"/>
+<text x="928" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-update_user_api_admin_users__user_id__patch" target="_blank" class="st" data-op="update_user_api_admin_users__user_id__patch"><title>PATCH /api/admin/users/{user_id}
+Admin line · update_user_api_admin_users__user_id__patch</title>
+<circle cx="832" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1663" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_user_analytics_api_admin_users__user_id__analytics_get" target="_blank" class="st" data-op="get_user_analytics_api_admin_users__user_id__analytics_get"><title>GET /api/admin/users/{user_id}/analytics
+Admin line · get_user_analytics_api_admin_users__user_id__analytics_get</title>
+<circle cx="1000" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1495" text-anchor="start" style="fill:#1A1F2C">List analytics</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_audit_logs_api_admin_audit_get" target="_blank" class="st" data-op="get_audit_logs_api_admin_audit_get"><title>GET /api/admin/audit
+Admin line · get_audit_logs_api_admin_audit_get</title>
+<circle cx="1756" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1768" y="1663" text-anchor="start" style="fill:#1A1F2C">Get audit</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_admin_stats_api_admin_stats_get" target="_blank" class="st" data-op="get_admin_stats_api_admin_stats_get"><title>GET /api/admin/stats
+Admin line · get_admin_stats_api_admin_stats_get</title>
+<circle cx="748" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="760" y="2083" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_daily_active_users_api_admin_active_users_get" target="_blank" class="st" data-op="get_daily_active_users_api_admin_active_users_get"><title>GET /api/admin/active-users
+Admin line · get_daily_active_users_api_admin_active_users_get</title>
+<circle cx="1588" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1495" text-anchor="start" style="fill:#1A1F2C">List active users</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_active_users_count_api_admin_active_users_count_get" target="_blank" class="st" data-op="get_active_users_count_api_admin_active_users_count_get"><title>GET /api/admin/active-users-count
+Admin line · get_active_users_count_api_admin_active_users_count_get</title>
+<circle cx="1672" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1579" text-anchor="start" style="fill:#1A1F2C">Get active users count</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_newsletter_subscribers_api_admin_newsletter_subscribers_get" target="_blank" class="st" data-op="get_newsletter_subscribers_api_admin_newsletter_subscribers_get"><title>GET /api/admin/newsletter/subscribers
+Admin line · get_newsletter_subscribers_api_admin_newsletter_subscribers_get</title>
+<circle cx="1084" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1072.0" y="2419" text-anchor="end" style="fill:#1A1F2C">List subscribers</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-delete_newsletter_subscriber_api_admin_newsletter_subscribers__subscriber_id__delete" target="_blank" class="st" data-op="delete_newsletter_subscriber_api_admin_newsletter_subscribers__subscriber_id__delete"><title>DELETE /api/admin/newsletter/subscribers/{subscriber_id}
+Admin line · delete_newsletter_subscriber_api_admin_newsletter_subscribers__subscriber_id__delete</title>
+<circle cx="1000" cy="2330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="996" y1="2334" x2="1004" y2="2326" stroke="#D6264F" stroke-width="2"/>
+<text x="1012" y="2335" text-anchor="start" style="fill:#1A1F2C">Delete subscriber</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_download_stats_api_admin_downloads_stats_get" target="_blank" class="st" data-op="get_download_stats_api_admin_downloads_stats_get"><title>GET /api/admin/downloads/stats
+Admin line · get_download_stats_api_admin_downloads_stats_get</title>
+<circle cx="1840" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1828.0" y="1747" text-anchor="end" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_enterprise_billing_api_admin_enterprise_billing_get" target="_blank" class="st" data-op="get_enterprise_billing_api_admin_enterprise_billing_get"><title>GET /api/admin/enterprise/billing
+Admin line · get_enterprise_billing_api_admin_enterprise_billing_get</title>
+<circle cx="1840" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1852" y="1831" text-anchor="start" style="fill:#1A1F2C">Get billing</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-list_pending_enterprise_keys_api_admin_enterprise_pending_get" target="_blank" class="st" data-op="list_pending_enterprise_keys_api_admin_enterprise_pending_get"><title>GET /api/admin/enterprise/pending
+Admin line · list_pending_enterprise_keys_api_admin_enterprise_pending_get</title>
+<circle cx="1840" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1852" y="1915" text-anchor="start" style="fill:#1A1F2C">Get pending</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-approve_enterprise_key_api_admin_enterprise__key_id__approve_put" target="_blank" class="st" data-op="approve_enterprise_key_api_admin_enterprise__key_id__approve_put"><title>PUT /api/admin/enterprise/{key_id}/approve
+Admin line · approve_enterprise_key_api_admin_enterprise__key_id__approve_put</title>
+<circle cx="1840" cy="1994" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1852" y="1999" text-anchor="start" style="fill:#1A1F2C">Update approve</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-decline_enterprise_key_api_admin_enterprise__key_id__decline_put" target="_blank" class="st" data-op="decline_enterprise_key_api_admin_enterprise__key_id__decline_put"><title>PUT /api/admin/enterprise/{key_id}/decline
+Admin line · decline_enterprise_key_api_admin_enterprise__key_id__decline_put</title>
+<circle cx="1840" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1852" y="2083" text-anchor="start" style="fill:#1A1F2C">Update decline</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-list_account_rules_api_admin_account_rules_get" target="_blank" class="st" data-op="list_account_rules_api_admin_account_rules_get"><title>GET /api/admin/account-rules
+Admin line · list_account_rules_api_admin_account_rules_get</title>
+<circle cx="1084" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="1411" text-anchor="end" style="fill:#1A1F2C">List account rules</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-add_account_rule_api_admin_account_rules_post" target="_blank" class="st" data-op="add_account_rule_api_admin_account_rules_post"><title>POST /api/admin/account-rules
+Admin line · add_account_rule_api_admin_account_rules_post</title>
+<circle cx="1168" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="1394" transform="rotate(-45 1174 1394)" style="fill:#1A1F2C">Create account rule</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-get_account_rule_matches_api_admin_account_rules_matches_get" target="_blank" class="st" data-op="get_account_rule_matches_api_admin_account_rules_matches_get"><title>GET /api/admin/account-rules/matches
+Admin line · get_account_rule_matches_api_admin_account_rules_matches_get</title>
+<circle cx="1252" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="1394" transform="rotate(-45 1258 1394)" style="fill:#1A1F2C">List matches</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-suggest_account_rule_values_api_admin_account_rules_suggest_get" target="_blank" class="st" data-op="suggest_account_rule_values_api_admin_account_rules_suggest_get"><title>GET /api/admin/account-rules/suggest
+Admin line · suggest_account_rule_values_api_admin_account_rules_suggest_get</title>
+<circle cx="1336" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1342" y="1394" transform="rotate(-45 1342 1394)" style="fill:#1A1F2C">Get suggest</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-update_account_rule_api_admin_account_rules__rule_id__put" target="_blank" class="st" data-op="update_account_rule_api_admin_account_rules__rule_id__put"><title>PUT /api/admin/account-rules/{rule_id}
+Admin line · update_account_rule_api_admin_account_rules__rule_id__put</title>
+<circle cx="1420" cy="1406" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1426" y="1394" transform="rotate(-45 1426 1394)" style="fill:#1A1F2C">Update account rule</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-remove_account_rule_api_admin_account_rules__rule_id__delete" target="_blank" class="st" data-op="remove_account_rule_api_admin_account_rules__rule_id__delete"><title>DELETE /api/admin/account-rules/{rule_id}
+Admin line · remove_account_rule_api_admin_account_rules__rule_id__delete</title>
+<circle cx="1504" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1500" y1="1410" x2="1508" y2="1402" stroke="#D6264F" stroke-width="2"/>
+<text x="1516" y="1411" text-anchor="start" style="fill:#1A1F2C">Delete account rule</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-list_unpaid_invoices_api_admin_invoices_unpaid_get" target="_blank" class="st" data-op="list_unpaid_invoices_api_admin_invoices_unpaid_get"><title>GET /api/admin/invoices/unpaid
+Admin line · list_unpaid_invoices_api_admin_invoices_unpaid_get</title>
+<circle cx="1504" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1516" y="2419" text-anchor="start" style="fill:#1A1F2C">Get unpaid</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-waive_usage_invoice_api_admin_invoices_usage__invoice_id__waive_post" target="_blank" class="st" data-op="waive_usage_invoice_api_admin_invoices_usage__invoice_id__waive_post"><title>POST /api/admin/invoices/usage/{invoice_id}/waive
+Admin line · waive_usage_invoice_api_admin_invoices_usage__invoice_id__waive_post</title>
+<circle cx="1336" cy="2414" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1342" y="2402" transform="rotate(-45 1342 2402)" style="fill:#1A1F2C">Update waive</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-unwaive_usage_invoice_api_admin_invoices_usage__invoice_id__unwaive_post" target="_blank" class="st" data-op="unwaive_usage_invoice_api_admin_invoices_usage__invoice_id__unwaive_post"><title>POST /api/admin/invoices/usage/{invoice_id}/unwaive
+Admin line · unwaive_usage_invoice_api_admin_invoices_usage__invoice_id__unwaive_post</title>
+<circle cx="1420" cy="2414" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1426" y="2402" transform="rotate(-45 1426 2402)" style="fill:#1A1F2C">Update unwaive</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-create_manual_invoice_api_admin_invoices_manual_post" target="_blank" class="st" data-op="create_manual_invoice_api_admin_invoices_manual_post"><title>POST /api/admin/invoices/manual
+Admin line · create_manual_invoice_api_admin_invoices_manual_post</title>
+<circle cx="1756" cy="2162" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1768" y="2167" text-anchor="start" style="fill:#1A1F2C">Update manual</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-void_manual_invoice_api_admin_invoices_manual__invoice_id__void_post" target="_blank" class="st" data-op="void_manual_invoice_api_admin_invoices_manual__invoice_id__void_post"><title>POST /api/admin/invoices/manual/{invoice_id}/void
+Admin line · void_manual_invoice_api_admin_invoices_manual__invoice_id__void_post</title>
+<circle cx="1588" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1576.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Void manual</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-rename_manual_invoice_api_admin_invoices_manual__invoice_id__patch" target="_blank" class="st" data-op="rename_manual_invoice_api_admin_invoices_manual__invoice_id__patch"><title>PATCH /api/admin/invoices/manual/{invoice_id}
+Admin line · rename_manual_invoice_api_admin_invoices_manual__invoice_id__patch</title>
+<circle cx="1672" cy="2246" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="2251" text-anchor="start" style="fill:#1A1F2C">Update manual</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-list_retention_log_entries_api_admin_retention_get" target="_blank" class="st" data-op="list_retention_log_entries_api_admin_retention_get"><title>GET /api/admin/retention
+Admin line · list_retention_log_entries_api_admin_retention_get</title>
+<circle cx="916" cy="2246" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="2251" text-anchor="start" style="fill:#1A1F2C">Get retention</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-api/#op-purge_retention_log_entry_api_admin_retention_purge__retention_log_id__post" target="_blank" class="st" data-op="purge_retention_log_entry_api_admin_retention_purge__retention_log_id__post"><title>POST /api/admin/retention/purge/{retention_log_id}
+Admin line · purge_retention_log_entry_api_admin_retention_purge__retention_log_id__post</title>
+<circle cx="832" cy="2162" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="2167" text-anchor="start" style="fill:#1A1F2C">Update purge</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-whitelist-api/#op-list_whitelist_api_admin_whitelist_get" target="_blank" class="st" data-op="list_whitelist_api_admin_whitelist_get"><title>GET /api/admin/whitelist
+Admin - Whitelist line · list_whitelist_api_admin_whitelist_get</title>
+<circle cx="2470" cy="1700" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2482" y="1705" text-anchor="start" style="fill:#1A1F2C">Get whitelist</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-whitelist-api/#op-add_whitelist_api_admin_whitelist_post" target="_blank" class="st" data-op="add_whitelist_api_admin_whitelist_post"><title>POST /api/admin/whitelist
+Admin - Whitelist line · add_whitelist_api_admin_whitelist_post</title>
+<circle cx="2386" cy="1616" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2398" y="1621" text-anchor="start" style="fill:#1A1F2C">Update whitelist</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-whitelist-api/#op-whitelist_matches_api_admin_whitelist__rule_id__matches_get" target="_blank" class="st" data-op="whitelist_matches_api_admin_whitelist__rule_id__matches_get"><title>GET /api/admin/whitelist/{rule_id}/matches
+Admin - Whitelist line · whitelist_matches_api_admin_whitelist__rule_id__matches_get</title>
+<circle cx="2218" cy="1658" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2230" y="1663" text-anchor="start" style="fill:#1A1F2C">List matches</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-whitelist-api/#op-delete_whitelist_api_admin_whitelist__rule_id__delete" target="_blank" class="st" data-op="delete_whitelist_api_admin_whitelist__rule_id__delete"><title>DELETE /api/admin/whitelist/{rule_id}
+Admin - Whitelist line · delete_whitelist_api_admin_whitelist__rule_id__delete</title>
+<circle cx="2302" cy="1532" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="2298" y1="1536" x2="2306" y2="1528" stroke="#2E7D32" stroke-width="2"/>
+<text x="2314" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete whitelist</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-admin-whitelist-api/#op-preview_match_api_admin_whitelist_preview_post" target="_blank" class="st" data-op="preview_match_api_admin_whitelist_preview_post"><title>POST /api/admin/whitelist/preview
+Admin - Whitelist line · preview_match_api_admin_whitelist_preview_post</title>
+<circle cx="2218" cy="1532" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2206.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Preview whitelist</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-get_access_request_api_api_keys_access_request_get" target="_blank" class="st" data-op="get_access_request_api_api_keys_access_request_get"><title>GET /api/api-keys/access-request
+API Keys line · get_access_request_api_api_keys_access_request_get</title>
+<circle cx="2260" cy="2414" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2248.0" y="2419" text-anchor="end" style="fill:#1A1F2C">Get access request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-submit_access_request_api_api_keys_access_request_post" target="_blank" class="st" data-op="submit_access_request_api_api_keys_access_request_post"><title>POST /api/api-keys/access-request
+API Keys line · submit_access_request_api_api_keys_access_request_post</title>
+<circle cx="2218" cy="2372" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2230" y="2377" text-anchor="start" style="fill:#1A1F2C">Update access request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-list_api_keys_api_api_keys_get" target="_blank" class="st" data-op="list_api_keys_api_api_keys_get"><title>GET /api/api-keys
+API Keys line · list_api_keys_api_api_keys_get</title>
+<circle cx="2512" cy="2414" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2506" y="2426" text-anchor="end" transform="rotate(-45 2506 2426)" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-create_api_key_api_api_keys_post" target="_blank" class="st" data-op="create_api_key_api_api_keys_post"><title>POST /api/api-keys
+API Keys line · create_api_key_api_api_keys_post</title>
+<circle cx="2428" cy="2414" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2434" y="2402" transform="rotate(-45 2434 2402)" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-get_demo_key_info_api_api_keys_demo_key_info_get" target="_blank" class="st" data-op="get_demo_key_info_api_api_keys_demo_key_info_get"><title>GET /api/api-keys/demo-key-info
+API Keys line · get_demo_key_info_api_api_keys_demo_key_info_get</title>
+<circle cx="2218" cy="2288" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2230" y="2293" text-anchor="start" style="fill:#1A1F2C">Get demo key info</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-revoke_api_key_api_api_keys__key_id__revoke_put" target="_blank" class="st" data-op="revoke_api_key_api_api_keys__key_id__revoke_put"><title>PUT /api/api-keys/{key_id}/revoke
+API Keys line · revoke_api_key_api_api_keys__key_id__revoke_put</title>
+<circle cx="2218" cy="2204" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2230" y="2209" text-anchor="start" style="fill:#1A1F2C">Update revoke</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-api-keys-api/#op-get_api_key_api_api_keys__key_id__get" target="_blank" class="st" data-op="get_api_key_api_api_keys__key_id__get"><title>GET /api/api-keys/{key_id}
+API Keys line · get_api_key_api_api_keys__key_id__get</title>
+<circle cx="2344" cy="2414" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2350" y="2402" transform="rotate(-45 2350 2402)" style="fill:#1A1F2C">Get api key</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-auth-api/#op-check_email_exists_api_auth_check_email_post" target="_blank" class="st" data-op="check_email_exists_api_auth_check_email_post"><title>POST /api/auth/check-email
+More Local line · check_email_exists_api_auth_check_email_post</title>
+<circle cx="832" cy="2288" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="820.0" y="2293" text-anchor="end" style="fill:#1A1F2C">Update check email</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-create_checkout_session_api_billing_create_checkout_session_post" target="_blank" class="st" data-op="create_checkout_session_api_billing_create_checkout_session_post"><title>POST /api/billing/create-checkout-session
+Billing line · create_checkout_session_api_billing_create_checkout_session_post</title>
+<circle cx="1840" cy="2330" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1834" y="2342" text-anchor="end" transform="rotate(-45 1834 2342)" style="fill:#1A1F2C">Update create checkout session</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-upload_money_api_billing_upload_post" target="_blank" class="st" data-op="upload_money_api_billing_upload_post"><title>POST /api/billing/upload
+Billing line · upload_money_api_billing_upload_post</title>
+<circle cx="2134" cy="2876" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2146" y="2881" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-get_transactions_api_billing_transactions_get" target="_blank" class="st" data-op="get_transactions_api_billing_transactions_get"><title>GET /api/billing/transactions
+Billing line · get_transactions_api_billing_transactions_get</title>
+<circle cx="2092" cy="2834" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2104" y="2839" text-anchor="start" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-get_receipts_api_billing_receipts_get" target="_blank" class="st" data-op="get_receipts_api_billing_receipts_get"><title>GET /api/billing/receipts
+Billing line · get_receipts_api_billing_receipts_get</title>
+<circle cx="1924" cy="2666" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1936" y="2671" text-anchor="start" style="fill:#1A1F2C">List receipts</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-get_tiers_api_billing_tiers_get" target="_blank" class="st" data-op="get_tiers_api_billing_tiers_get"><title>GET /api/billing/tiers
+Billing line · get_tiers_api_billing_tiers_get</title>
+<circle cx="2008" cy="2750" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2020" y="2755" text-anchor="start" style="fill:#1A1F2C">List tiers</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-get_invoices_api_billing_invoices_get" target="_blank" class="st" data-op="get_invoices_api_billing_invoices_get"><title>GET /api/billing/invoices
+Billing line · get_invoices_api_billing_invoices_get</title>
+<circle cx="1588" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600" y="2419" text-anchor="start" style="fill:#1A1F2C">List invoices <tspan font-weight="700" style="fill:#D6264F">⇄ADM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-create_invoice_payment_api_billing_invoices_pay_post" target="_blank" class="st" data-op="create_invoice_payment_api_billing_invoices_pay_post"><title>POST /api/billing/invoices/pay
+Billing line · create_invoice_payment_api_billing_invoices_pay_post</title>
+<circle cx="1840" cy="2666" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1828.0" y="2671" text-anchor="end" style="fill:#1A1F2C">Pay invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-pay_manual_invoice_api_billing_invoices_manual__invoice_id__pay_post" target="_blank" class="st" data-op="pay_manual_invoice_api_billing_invoices_manual__invoice_id__pay_post"><title>POST /api/billing/invoices/manual/{invoice_id}/pay
+Billing line · pay_manual_invoice_api_billing_invoices_manual__invoice_id__pay_post</title>
+<circle cx="1714" cy="2540" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1726" y="2545" text-anchor="start" style="fill:#1A1F2C">Pay manual</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-set_enterprise_budget_api_billing_enterprise_budget_put" target="_blank" class="st" data-op="set_enterprise_budget_api_billing_enterprise_budget_put"><title>PUT /api/billing/enterprise/budget
+Billing line · set_enterprise_budget_api_billing_enterprise_budget_put</title>
+<circle cx="1756" cy="2330" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1750" y="2342" text-anchor="end" transform="rotate(-45 1750 2342)" style="fill:#1A1F2C">Update budget</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-remove_enterprise_budget_api_billing_enterprise_budget__api_key_id__delete" target="_blank" class="st" data-op="remove_enterprise_budget_api_billing_enterprise_budget__api_key_id__delete"><title>DELETE /api/billing/enterprise/budget/{api_key_id}
+Billing line · remove_enterprise_budget_api_billing_enterprise_budget__api_key_id__delete</title>
+<circle cx="1672" cy="2330" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1668" y1="2334" x2="1676" y2="2326" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1681" y="2320" text-anchor="start" style="fill:#1A1F2C">Delete budget</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-billing-api/#op-stripe_webhook_api_billing_webhooks_stripe_post" target="_blank" class="st" data-op="stripe_webhook_api_billing_webhooks_stripe_post"><title>POST /api/billing/webhooks/stripe
+Billing line · stripe_webhook_api_billing_webhooks_stripe_post</title>
+<circle cx="2218" cy="2960" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2230" y="2965" text-anchor="start" style="fill:#1A1F2C">Update stripe</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compresr-platform-api-api/#op-root__get" target="_blank" class="st" data-op="root__get"><title>GET /
+More Local line · root__get</title>
+<circle cx="832" cy="2372" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="2377" text-anchor="start" style="fill:#1A1F2C">root__get</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_history_api_compress_history__post" target="_blank" class="st" data-op="compress_history_api_compress_history__post"><title>POST /api/compress/history/
+Compression-Agentic line · compress_history_api_compress_history__post</title>
+<circle cx="202" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="214" y="1495" text-anchor="start" style="fill:#1A1F2C">Update history</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_history_batch_api_compress_history_batch_post" target="_blank" class="st" data-op="compress_history_batch_api_compress_history_batch_post"><title>POST /api/compress/history/batch
+Compression-Agentic line · compress_history_batch_api_compress_history_batch_post</title>
+<circle cx="286" cy="1574" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="286" y="1597" text-anchor="middle" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_history_stream_api_compress_history_stream_post" target="_blank" class="st" data-op="compress_history_stream_api_compress_history_stream_post"><title>POST /api/compress/history/stream
+Compression-Agentic line · compress_history_stream_api_compress_history_stream_post</title>
+<circle cx="286" cy="1196" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="1201" text-anchor="start" style="fill:#1A1F2C">Update stream</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-health_history_api_compress_history_health_get" target="_blank" class="st" data-op="health_history_api_compress_history_health_get"><title>GET /api/compress/history/health
+Compression-Agentic line · health_history_api_compress_history_health_get</title>
+<circle cx="328" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="340" y="1537" text-anchor="start" style="fill:#1A1F2C">Get health <tspan font-weight="700" style="fill:#17d25b">⇄HEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-models_history_api_compress_history_models_get" target="_blank" class="st" data-op="models_history_api_compress_history_models_get"><title>GET /api/compress/history/models
+Compression-Agentic line · models_history_api_compress_history_models_get</title>
+<circle cx="328" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="1327" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-model_history_api_compress_history_models__model_id__get" target="_blank" class="st" data-op="model_history_api_compress_history_models__model_id__get"><title>GET /api/compress/history/models/{model_id}
+Compression-Agentic line · model_history_api_compress_history_models__model_id__get</title>
+<circle cx="286" cy="1280" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="1285" text-anchor="start" style="fill:#1A1F2C">Get model</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_tool_output_api_compress_tool_output__post" target="_blank" class="st" data-op="compress_tool_output_api_compress_tool_output__post"><title>POST /api/compress/tool-output/
+Compression-Agentic line · compress_tool_output_api_compress_tool_output__post</title>
+<circle cx="538" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="655" text-anchor="start" style="fill:#1A1F2C">Update tool output</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_tool_output_batch_api_compress_tool_output_batch_post" target="_blank" class="st" data-op="compress_tool_output_batch_api_compress_tool_output_batch_post"><title>POST /api/compress/tool-output/batch
+Compression-Agentic line · compress_tool_output_batch_api_compress_tool_output_batch_post</title>
+<circle cx="538" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="529" text-anchor="start" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_tool_output_stream_api_compress_tool_output_stream_post" target="_blank" class="st" data-op="compress_tool_output_stream_api_compress_tool_output_stream_post"><title>POST /api/compress/tool-output/stream
+Compression-Agentic line · compress_tool_output_stream_api_compress_tool_output_stream_post</title>
+<circle cx="454" cy="230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="235" text-anchor="start" style="fill:#1A1F2C">Update stream</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-health_tool_output_api_compress_tool_output_health_get" target="_blank" class="st" data-op="health_tool_output_api_compress_tool_output_health_get"><title>GET /api/compress/tool-output/health
+Compression-Agentic line · health_tool_output_api_compress_tool_output_health_get</title>
+<circle cx="454" cy="440" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="445" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-models_tool_output_api_compress_tool_output_models_get" target="_blank" class="st" data-op="models_tool_output_api_compress_tool_output_models_get"><title>GET /api/compress/tool-output/models
+Compression-Agentic line · models_tool_output_api_compress_tool_output_models_get</title>
+<circle cx="454" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="403" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-model_tool_output_api_compress_tool_output_models__model_id__get" target="_blank" class="st" data-op="model_tool_output_api_compress_tool_output_models__model_id__get"><title>GET /api/compress/tool-output/models/{model_id}
+Compression-Agentic line · model_tool_output_api_compress_tool_output_models__model_id__get</title>
+<circle cx="454" cy="314" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="319" text-anchor="start" style="fill:#1A1F2C">Get model</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_tool_discovery_api_compress_tool_discovery__post" target="_blank" class="st" data-op="compress_tool_discovery_api_compress_tool_discovery__post"><title>POST /api/compress/tool-discovery/
+Compression-Agentic line · compress_tool_discovery_api_compress_tool_discovery__post</title>
+<circle cx="412" cy="1070" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="400.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Update tool discovery</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_tool_discovery_batch_api_compress_tool_discovery_batch_post" target="_blank" class="st" data-op="compress_tool_discovery_batch_api_compress_tool_discovery_batch_post"><title>POST /api/compress/tool-discovery/batch
+Compression-Agentic line · compress_tool_discovery_batch_api_compress_tool_discovery_batch_post</title>
+<circle cx="538" cy="1070" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="1075" text-anchor="start" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-compress_tool_discovery_stream_api_compress_tool_discovery_stream_post" target="_blank" class="st" data-op="compress_tool_discovery_stream_api_compress_tool_discovery_stream_post"><title>POST /api/compress/tool-discovery/stream
+Compression-Agentic line · compress_tool_discovery_stream_api_compress_tool_discovery_stream_post</title>
+<circle cx="580" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="592" y="697" text-anchor="start" style="fill:#1A1F2C">Update stream</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-health_tool_discovery_api_compress_tool_discovery_health_get" target="_blank" class="st" data-op="health_tool_discovery_api_compress_tool_discovery_health_get"><title>GET /api/compress/tool-discovery/health
+Compression-Agentic line · health_tool_discovery_api_compress_tool_discovery_health_get</title>
+<circle cx="580" cy="1028" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="592" y="1033" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-models_tool_discovery_api_compress_tool_discovery_models_get" target="_blank" class="st" data-op="models_tool_discovery_api_compress_tool_discovery_models_get"><title>GET /api/compress/tool-discovery/models
+Compression-Agentic line · models_tool_discovery_api_compress_tool_discovery_models_get</title>
+<circle cx="580" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="592" y="949" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-agentic-api/#op-model_tool_discovery_api_compress_tool_discovery_models__model_id__get" target="_blank" class="st" data-op="model_tool_discovery_api_compress_tool_discovery_models__model_id__get"><title>GET /api/compress/tool-discovery/models/{model_id}
+Compression-Agentic line · model_tool_discovery_api_compress_tool_discovery_models__model_id__get</title>
+<circle cx="580" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="592" y="823" text-anchor="start" style="fill:#1A1F2C">Get model</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-api/#op-compress_query_specific_api_compress_question_specific__post" target="_blank" class="st" data-op="compress_query_specific_api_compress_question_specific__post"><title>POST /api/compress/question-specific/
+Compression line · compress_query_specific_api_compress_question_specific__post</title>
+<circle cx="244" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="244" y="1434" text-anchor="middle" style="fill:#1A1F2C">Update question specific</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-api/#op-compress_query_specific_batch_api_compress_question_specific_batch_post" target="_blank" class="st" data-op="compress_query_specific_batch_api_compress_question_specific_batch_post"><title>POST /api/compress/question-specific/batch
+Compression line · compress_query_specific_batch_api_compress_question_specific_batch_post</title>
+<circle cx="370" cy="1448" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="382" y="1453" text-anchor="start" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-api/#op-compress_query_specific_stream_api_compress_question_specific_stream_post" target="_blank" class="st" data-op="compress_query_specific_stream_api_compress_question_specific_stream_post"><title>POST /api/compress/question-specific/stream
+Compression line · compress_query_specific_stream_api_compress_question_specific_stream_post</title>
+<circle cx="706" cy="1280" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="718" y="1285" text-anchor="start" style="fill:#1A1F2C">Update stream</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-api/#op-health_query_specific_api_compress_question_specific_health_get" target="_blank" class="st" data-op="health_query_specific_api_compress_question_specific_health_get"><title>GET /api/compress/question-specific/health
+Compression line · health_query_specific_api_compress_question_specific_health_get</title>
+<circle cx="454" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="463" y="1551" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-api/#op-models_query_specific_api_compress_question_specific_models_get" target="_blank" class="st" data-op="models_query_specific_api_compress_question_specific_models_get"><title>GET /api/compress/question-specific/models
+Compression line · models_query_specific_api_compress_question_specific_models_get</title>
+<circle cx="538" cy="1448" r="5.5" fill="#fff" stroke="#0d7773" stroke-width="2.5"/>
+<text x="550" y="1453" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-api/#op-model_query_specific_api_compress_question_specific_models__model_id__get" target="_blank" class="st" data-op="model_query_specific_api_compress_question_specific_models__model_id__get"><title>GET /api/compress/question-specific/models/{model_id}
+Compression line · model_query_specific_api_compress_question_specific_models__model_id__get</title>
+<circle cx="622" cy="1364" r="5.5" fill="#fff" stroke="#0d7773" stroke-width="2.5"/>
+<text x="634" y="1369" text-anchor="start" style="fill:#1A1F2C">Get model</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-demo-api/#op-demo_stream_api_demo_stream_get" target="_blank" class="st" data-op="demo_stream_api_demo_stream_get"><title>GET /api/demo/stream
+Compression-Demo line · demo_stream_api_demo_stream_get</title>
+<circle cx="454" cy="1952" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="466" y="1957" text-anchor="start" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-demo-api/#op-demo_stream_post_api_demo_stream_post" target="_blank" class="st" data-op="demo_stream_post_api_demo_stream_post"><title>POST /api/demo/stream
+Compression-Demo line · demo_stream_post_api_demo_stream_post</title>
+<circle cx="370" cy="2036" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="382" y="2041" text-anchor="start" style="fill:#1A1F2C">Update stream</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-demo-api/#op-demo_test_output_api_demo_test_output_post" target="_blank" class="st" data-op="demo_test_output_api_demo_test_output_post"><title>POST /api/demo/test-output
+Compression-Demo line · demo_test_output_api_demo_test_output_post</title>
+<circle cx="286" cy="2120" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="298" y="2125" text-anchor="start" style="fill:#1A1F2C">Update test output</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-demo-api/#op-demo_samples_api_demo_samples_get" target="_blank" class="st" data-op="demo_samples_api_demo_samples_get"><title>GET /api/demo/samples
+Compression-Demo line · demo_samples_api_demo_samples_get</title>
+<circle cx="496" cy="1910" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="508" y="1915" text-anchor="start" style="fill:#1A1F2C">List samples</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-demo-api/#op-demo_health_api_demo_health_get" target="_blank" class="st" data-op="demo_health_api_demo_health_get"><title>GET /api/demo/health
+Compression-Demo line · demo_health_api_demo_health_get</title>
+<circle cx="454" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="466" y="1705" text-anchor="start" style="fill:#1A1F2C">Get health <tspan font-weight="700" style="fill:#17d25b">⇄HEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-demo-api/#op-demo_models_api_demo_models_get" target="_blank" class="st" data-op="demo_models_api_demo_models_get"><title>GET /api/demo/models
+Compression-Demo line · demo_models_api_demo_models_get</title>
+<circle cx="496" cy="1742" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="508" y="1747" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-models-api/#op-list_compression_models_api_compress_models_get" target="_blank" class="st" data-op="list_compression_models_api_compress_models_get"><title>GET /api/compress/models
+Compression-Agentic line · list_compression_models_api_compress_models_get</title>
+<circle cx="328" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="1159" text-anchor="start" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-compression-models-api/#op-get_compression_model_api_compress_models__model_id__get" target="_blank" class="st" data-op="get_compression_model_api_compress_models__model_id__get"><title>GET /api/compress/models/{model_id}
+Compression-Agentic line · get_compression_model_api_compress_models__model_id__get</title>
+<circle cx="370" cy="1112" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="1117" text-anchor="start" style="fill:#1A1F2C">Get model</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-dashboard-api/#op-get_dashboard_stats_api_dashboard_stats_get" target="_blank" class="st" data-op="get_dashboard_stats_api_dashboard_stats_get"><title>GET /api/dashboard/stats
+More Local line · get_dashboard_stats_api_dashboard_stats_get</title>
+<circle cx="748" cy="2204" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="748" y="2190" text-anchor="middle" style="fill:#1A1F2C">List stats <tspan font-weight="700" style="fill:#D6264F">⇄ADM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-feature-requests-api/#op-submit_feature_request_api_feature_request_post" target="_blank" class="st" data-op="submit_feature_request_api_feature_request_post"><title>POST /api/feature/request
+Feature Requests line · submit_feature_request_api_feature_request_post</title>
+<circle cx="2050" cy="1616" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2062" y="1621" text-anchor="start" style="fill:#1A1F2C">Update request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-feature-requests-api/#op-list_feature_requests_api_feature_admin_requests_get" target="_blank" class="st" data-op="list_feature_requests_api_feature_admin_requests_get"><title>GET /api/feature/admin/requests
+Feature Requests line · list_feature_requests_api_feature_admin_requests_get</title>
+<circle cx="2008" cy="1364" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2002" y="1376" text-anchor="end" transform="rotate(-45 2002 1376)" style="fill:#1A1F2C">List requests</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-feature-requests-api/#op-get_feature_request_api_feature_admin_requests__request_id__get" target="_blank" class="st" data-op="get_feature_request_api_feature_admin_requests__request_id__get"><title>GET /api/feature/admin/requests/{request_id}
+Feature Requests line · get_feature_request_api_feature_admin_requests__request_id__get</title>
+<circle cx="1882" cy="1364" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1870.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Get request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-feature-requests-api/#op-update_feature_request_api_feature_admin_requests__request_id__patch" target="_blank" class="st" data-op="update_feature_request_api_feature_admin_requests__request_id__patch"><title>PATCH /api/feature/admin/requests/{request_id}
+Feature Requests line · update_feature_request_api_feature_admin_requests__request_id__patch</title>
+<circle cx="1882" cy="1448" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1894" y="1453" text-anchor="start" style="fill:#1A1F2C">Update request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-feature-requests-api/#op-delete_feature_request_api_feature_admin_requests__request_id__delete" target="_blank" class="st" data-op="delete_feature_request_api_feature_admin_requests__request_id__delete"><title>DELETE /api/feature/admin/requests/{request_id}
+Feature Requests line · delete_feature_request_api_feature_admin_requests__request_id__delete</title>
+<circle cx="1966" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1962" y1="1536" x2="1970" y2="1528" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1978" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-gateway-api/#op-get_install_script_api_install_get" target="_blank" class="st" data-op="get_install_script_api_install_get"><title>GET /api/install
+Gateway line · get_install_script_api_install_get</title>
+<circle cx="2302" cy="1784" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2296" y="1796" text-anchor="end" transform="rotate(-45 2296 1796)" style="fill:#1A1F2C">Get install</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-gateway-api/#op-get_public_download_count_api_gateway_downloads_get" target="_blank" class="st" data-op="get_public_download_count_api_gateway_downloads_get"><title>GET /api/gateway/downloads
+Gateway line · get_public_download_count_api_gateway_downloads_get</title>
+<circle cx="1924" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1930" y="1730" transform="rotate(-45 1930 1730)" style="fill:#1A1F2C">List downloads <tspan font-weight="700" style="fill:#D6264F">⇄ADM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-gateway-api/#op-get_gateway_stats_api_gateway_stats_get" target="_blank" class="st" data-op="get_gateway_stats_api_gateway_stats_get"><title>GET /api/gateway/stats
+Gateway line · get_gateway_stats_api_gateway_stats_get</title>
+<circle cx="2092" cy="1784" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2080.0" y="1789" text-anchor="end" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-gateway-api/#op-get_recent_installs_api_gateway_installs_get" target="_blank" class="st" data-op="get_recent_installs_api_gateway_installs_get"><title>GET /api/gateway/installs
+Gateway line · get_recent_installs_api_gateway_installs_get</title>
+<circle cx="2050" cy="1742" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2062" y="1747" text-anchor="start" style="fill:#1A1F2C">List installs</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-gateway-api/#op-get_gateway_status_api_gateway_status_get" target="_blank" class="st" data-op="get_gateway_status_api_gateway_status_get"><title>GET /api/gateway/status
+Gateway line · get_gateway_status_api_gateway_status_get</title>
+<circle cx="2218" cy="1784" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2224" y="1772" transform="rotate(-45 2224 1772)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-health-api/#op-health_health_get" target="_blank" class="st" data-op="health_health_get"><title>GET /health
+Health line · health_health_get</title>
+<circle cx="412" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="421" y="1564" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-health-api/#op-deep_health_health_deep_get" target="_blank" class="st" data-op="deep_health_health_deep_get"><title>GET /health/deep
+Health line · deep_health_health_deep_get</title>
+<circle cx="622" cy="1574" r="5.5" fill="#fff" stroke="#17d25b" stroke-width="2.5"/>
+<text x="616" y="1586" text-anchor="end" transform="rotate(-45 616 1586)" style="fill:#1A1F2C">Get deep</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-health-api/#op-circuit_status_health_circuits_get" target="_blank" class="st" data-op="circuit_status_health_circuits_get"><title>GET /health/circuits
+Health line · circuit_status_health_circuits_get</title>
+<circle cx="538" cy="1574" r="5.5" fill="#fff" stroke="#17d25b" stroke-width="2.5"/>
+<text x="544" y="1562" transform="rotate(-45 544 1562)" style="fill:#1A1F2C">List circuits</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-inference-api/#op-count_tokens_endpoint_api_tokens_count_post" target="_blank" class="st" data-op="count_tokens_endpoint_api_tokens_count_post"><title>POST /api/tokens/count
+More Local line · count_tokens_endpoint_api_tokens_count_post</title>
+<circle cx="706" cy="2540" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="2545" text-anchor="start" style="fill:#1A1F2C">Update count</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-logs-api/#op-logs_stats_logs_stats_get" target="_blank" class="st" data-op="logs_stats_logs_stats_get"><title>GET /logs/stats
+More Local line · logs_stats_logs_stats_get</title>
+<circle cx="706" cy="2876" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="2881" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-metrics-api/#op-metrics_metrics_get" target="_blank" class="st" data-op="metrics_metrics_get"><title>GET /metrics
+More Local line · metrics_metrics_get</title>
+<circle cx="706" cy="2960" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="2965" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-metrics-api/#op-metrics_json_metrics_json_get" target="_blank" class="st" data-op="metrics_json_metrics_json_get"><title>GET /metrics/json
+More Local line · metrics_json_metrics_json_get</title>
+<circle cx="706" cy="3044" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="3049" text-anchor="start" style="fill:#1A1F2C">Get json</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-newsletter-api/#op-subscribe_to_newsletter_api_newsletter_subscribe_post" target="_blank" class="st" data-op="subscribe_to_newsletter_api_newsletter_subscribe_post"><title>POST /api/newsletter/subscribe
+Newsletter line · subscribe_to_newsletter_api_newsletter_subscribe_post</title>
+<circle cx="1294" cy="2624" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1306" y="2629" text-anchor="start" style="fill:#1A1F2C">Subscribe newsletter</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-newsletter-api/#op-confirm_newsletter_subscription_api_newsletter_confirm_post" target="_blank" class="st" data-op="confirm_newsletter_subscription_api_newsletter_confirm_post"><title>POST /api/newsletter/confirm
+Newsletter line · confirm_newsletter_subscription_api_newsletter_confirm_post</title>
+<circle cx="1084" cy="2498" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="2503" text-anchor="start" style="fill:#1A1F2C">Confirm newsletter <tspan font-weight="700" style="fill:#D6264F">⇄ADM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-newsletter-api/#op-unsubscribe_from_newsletter_api_newsletter_unsubscribe_post" target="_blank" class="st" data-op="unsubscribe_from_newsletter_api_newsletter_unsubscribe_post"><title>POST /api/newsletter/unsubscribe
+Newsletter line · unsubscribe_from_newsletter_api_newsletter_unsubscribe_post</title>
+<circle cx="1462" cy="2792" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1474" y="2797" text-anchor="start" style="fill:#1A1F2C">Unsubscribe newsletter</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-newsletter-api/#op-unsubscribe_via_link_api_newsletter_unsubscribe_get" target="_blank" class="st" data-op="unsubscribe_via_link_api_newsletter_unsubscribe_get"><title>GET /api/newsletter/unsubscribe
+Newsletter line · unsubscribe_via_link_api_newsletter_unsubscribe_get</title>
+<circle cx="1378" cy="2708" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1390" y="2713" text-anchor="start" style="fill:#1A1F2C">Unsubscribe newsletter</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-newsletter-api/#op-get_subscription_status_api_newsletter_status_get" target="_blank" class="st" data-op="get_subscription_status_api_newsletter_status_get"><title>GET /api/newsletter/status
+Newsletter line · get_subscription_status_api_newsletter_status_get</title>
+<circle cx="1210" cy="2624" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1198.0" y="2629" text-anchor="end" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-api/#op-authorize_oauth_authorize_get" target="_blank" class="st" data-op="authorize_oauth_authorize_get"><title>GET /oauth/authorize
+OAuth line · authorize_oauth_authorize_get</title>
+<circle cx="1798" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1810" y="823" text-anchor="start" style="fill:#1A1F2C">Authorize oauth</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-api/#op-get_authorize_request_oauth_authorize_request__request_id__get" target="_blank" class="st" data-op="get_authorize_request_oauth_authorize_request__request_id__get"><title>GET /oauth/authorize/request/{request_id}
+OAuth line · get_authorize_request_oauth_authorize_request__request_id__get</title>
+<circle cx="1672" cy="776" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1663.0" y="795" text-anchor="end" style="fill:#1A1F2C">Get request</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-api/#op-authorize_decision_oauth_authorize_decision_post" target="_blank" class="st" data-op="authorize_decision_oauth_authorize_decision_post"><title>POST /oauth/authorize/decision
+OAuth line · authorize_decision_oauth_authorize_decision_post</title>
+<circle cx="1714" cy="734" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1714" y="720" text-anchor="middle" style="fill:#1A1F2C">Update decision</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-api/#op-token_oauth_token_post" target="_blank" class="st" data-op="token_oauth_token_post"><title>POST /oauth/token
+OAuth line · token_oauth_token_post</title>
+<circle cx="1588" cy="608" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1600" y="613" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-api/#op-device_authorization_oauth_device_authorization_post" target="_blank" class="st" data-op="device_authorization_oauth_device_authorization_post"><title>POST /oauth/device_authorization
+OAuth line · device_authorization_oauth_device_authorization_post</title>
+<circle cx="1588" cy="692" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1600" y="697" text-anchor="start" style="fill:#1A1F2C">Update device authorization</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-api/#op-device_decision_oauth_device_decision_post" target="_blank" class="st" data-op="device_decision_oauth_device_decision_post"><title>POST /oauth/device/decision
+OAuth line · device_decision_oauth_device_decision_post</title>
+<circle cx="1588" cy="776" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1576.0" y="781" text-anchor="end" style="fill:#1A1F2C">Update decision</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-authorization-api/#op-get_cli_token_api_authorize_cli_token_post" target="_blank" class="st" data-op="get_cli_token_api_authorize_cli_token_post"><title>POST /api/authorize/cli-token
+OAuth Authorization line · get_cli_token_api_authorize_cli_token_post</title>
+<circle cx="1756" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1744.0" y="865" text-anchor="end" style="fill:#1A1F2C">Update cli token</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-authorization-api/#op-logout_api_authorize_logout_post" target="_blank" class="st" data-op="logout_api_authorize_logout_post"><title>POST /api/authorize/logout
+OAuth Authorization line · logout_api_authorize_logout_post</title>
+<circle cx="1840" cy="944" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="1852" y="949" text-anchor="start" style="fill:#1A1F2C">Update logout</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-oauth-authorization-api/#op-ws_callback_api_authorize_ws_callback_post" target="_blank" class="st" data-op="ws_callback_api_authorize_ws_callback_post"><title>POST /api/authorize/ws-callback
+OAuth Authorization line · ws_callback_api_authorize_ws_callback_post</title>
+<circle cx="1924" cy="1028" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="1936" y="1033" text-anchor="start" style="fill:#1A1F2C">Update ws callback</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-on-prem-api/#op-validate_key_api_v1_onprem_validate_key_get" target="_blank" class="st" data-op="validate_key_api_v1_onprem_validate_key_get"><title>GET /api/v1/onprem/validate-key
+More Local line · validate_key_api_v1_onprem_validate_key_get</title>
+<circle cx="706" cy="2792" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="2797" text-anchor="start" style="fill:#1A1F2C">Get validate key</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-on-prem-telemetry-api/#op-register_signing_secret_api_v1_telemetry_register_post" target="_blank" class="st" data-op="register_signing_secret_api_v1_telemetry_register_post"><title>POST /api/v1/telemetry/register
+On-Prem Telemetry line · register_signing_secret_api_v1_telemetry_register_post</title>
+<circle cx="160" cy="1616" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="169" y="1635" text-anchor="start" style="fill:#1A1F2C">Register telemetry</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-on-prem-telemetry-api/#op-ingest_telemetry_batch_api_v1_telemetry_batch_post" target="_blank" class="st" data-op="ingest_telemetry_batch_api_v1_telemetry_batch_post"><title>POST /api/v1/telemetry/batch
+On-Prem Telemetry line · ingest_telemetry_batch_api_v1_telemetry_batch_post</title>
+<circle cx="370" cy="1784" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="382" y="1789" text-anchor="start" style="fill:#1A1F2C">Update batch</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-on-prem-telemetry-api/#op-telemetry_health_api_v1_telemetry_health_get" target="_blank" class="st" data-op="telemetry_health_api_v1_telemetry_health_get"><title>GET /api/v1/telemetry/health
+On-Prem Telemetry line · telemetry_health_api_v1_telemetry_health_get</title>
+<circle cx="370" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="382" y="1621" text-anchor="start" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-pricing-api/#op-get_compression_models_api_pricing_compression_models_get" target="_blank" class="st" data-op="get_compression_models_api_pricing_compression_models_get"><title>GET /api/pricing/compression-models
+More Local line · get_compression_models_api_pricing_compression_models_get</title>
+<circle cx="706" cy="2246" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="694.0" y="2251" text-anchor="end" style="fill:#1A1F2C">List compression models</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-pricing-api/#op-estimate_compression_cost_api_pricing_estimate_cost_post" target="_blank" class="st" data-op="estimate_compression_cost_api_pricing_estimate_cost_post"><title>POST /api/pricing/estimate-cost
+More Local line · estimate_compression_cost_api_pricing_estimate_cost_post</title>
+<circle cx="706" cy="2414" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="694.0" y="2419" text-anchor="end" style="fill:#1A1F2C">Update estimate cost</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-create_profile_api_profile_create_post" target="_blank" class="st" data-op="create_profile_api_profile_create_post"><title>POST /api/profile/create
+Profile line · create_profile_api_profile_create_post</title>
+<circle cx="1168" cy="2960" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="2965" text-anchor="start" style="fill:#1A1F2C">Create profile</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-get_role_api_profile_role_get" target="_blank" class="st" data-op="get_role_api_profile_role_get"><title>GET /api/profile/role
+Profile line · get_role_api_profile_role_get</title>
+<circle cx="1294" cy="3044" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="3049" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-get_profile_api_profile_me_get" target="_blank" class="st" data-op="get_profile_api_profile_me_get"><title>GET /api/profile/me
+Profile line · get_profile_api_profile_me_get</title>
+<circle cx="1210" cy="2792" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1216" y="2780" transform="rotate(-45 1216 2780)" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-update_profile_api_profile_me_patch" target="_blank" class="st" data-op="update_profile_api_profile_me_patch"><title>PATCH /api/profile/me
+Profile line · update_profile_api_profile_me_patch</title>
+<circle cx="1294" cy="2876" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="2881" text-anchor="start" style="fill:#1A1F2C">Update me</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-get_user_rate_limits_api_profile_rate_limits_get" target="_blank" class="st" data-op="get_user_rate_limits_api_profile_rate_limits_get"><title>GET /api/profile/rate-limits
+Profile line · get_user_rate_limits_api_profile_rate_limits_get</title>
+<circle cx="1294" cy="2960" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="2965" text-anchor="start" style="fill:#1A1F2C">List rate limits</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-check_can_delete_api_profile_can_delete_get" target="_blank" class="st" data-op="check_can_delete_api_profile_can_delete_get"><title>GET /api/profile/can-delete
+Profile line · check_can_delete_api_profile_can_delete_get</title>
+<circle cx="1168" cy="3044" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="3049" text-anchor="start" style="fill:#1A1F2C">Get can delete</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-profile-api/#op-delete_account_api_profile_delete_delete" target="_blank" class="st" data-op="delete_account_api_profile_delete_delete"><title>DELETE /api/profile/delete
+Profile line · delete_account_api_profile_delete_delete</title>
+<circle cx="1168" cy="2834" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1164" y1="2838" x2="1172" y2="2830" stroke="#B0287F" stroke-width="2"/>
+<text x="1156.0" y="2839" text-anchor="end" style="fill:#1A1F2C">Delete profile</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-ready-api/#op-readiness_ready_get" target="_blank" class="st" data-op="readiness_ready_get"><title>GET /ready
+More Local line · readiness_ready_get</title>
+<circle cx="706" cy="3128" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="3133" text-anchor="start" style="fill:#1A1F2C">Get ready</text>
+</a>
+<a href="https://apis.apis.io/apis/compresr/compresr-usage-api/#op-get_usage_stats_api_usage_stats_get" target="_blank" class="st" data-op="get_usage_stats_api_usage_stats_get"><title>GET /api/usage/stats
+More Local line · get_usage_stats_api_usage_stats_get</title>
+<circle cx="706" cy="2666" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="2671" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<text x="2702" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2702" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">USERS</text>
+<rect x="2702" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2719" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ADM</text><text x="2744" y="269" font-size="11" fill="#1A1F2C">Admin <tspan fill="#8A93A6">34</tspan></text>
+<text x="2702" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">COMPRESS</text>
+<rect x="2702" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2719" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CA</text><text x="2744" y="312" font-size="11" fill="#1A1F2C">Compression-Agentic <tspan fill="#8A93A6">20</tspan></text>
+<rect x="2702" y="319" width="34" height="13" rx="3" fill="#0d7773"/><text x="2719" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="2744" y="329" font-size="11" fill="#1A1F2C">Compression <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2702" y="336" width="34" height="13" rx="3" fill="#17d25b"/><text x="2719" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HEA</text><text x="2744" y="346" font-size="11" fill="#1A1F2C">Health <tspan fill="#8A93A6">3</tspan></text>
+<text x="2702" y="372" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">BILLING</text>
+<rect x="2702" y="379" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2719" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BIL</text><text x="2744" y="389" font-size="11" fill="#1A1F2C">Billing <tspan fill="#8A93A6">11</tspan></text>
+<text x="2702" y="415" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">OAUTH</text>
+<rect x="2702" y="422" width="34" height="13" rx="3" fill="#E07B12"/><text x="2719" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OA</text><text x="2744" y="432" font-size="11" fill="#1A1F2C">OAuth <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2702" y="439" width="34" height="13" rx="3" fill="#b58613"/><text x="2719" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OAA</text><text x="2744" y="449" font-size="11" fill="#1A1F2C">OAuth Authorization <tspan fill="#8A93A6">3</tspan></text>
+<text x="2702" y="475" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">API KEYS</text>
+<rect x="2702" y="482" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2719" y="492" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="2744" y="492" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">7</tspan></text>
+<text x="2702" y="518" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">PROFILE</text>
+<rect x="2702" y="525" width="34" height="13" rx="3" fill="#B0287F"/><text x="2719" y="535" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2744" y="535" font-size="11" fill="#1A1F2C">Profile <tspan fill="#8A93A6">7</tspan></text>
+<text x="2702" y="561" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">DEMO</text>
+<rect x="2702" y="568" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2719" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CD</text><text x="2744" y="578" font-size="11" fill="#1A1F2C">Compression-Demo <tspan fill="#8A93A6">6</tspan></text>
+<text x="2702" y="604" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">GATEWAY</text>
+<rect x="2702" y="611" width="34" height="13" rx="3" fill="#B8860B"/><text x="2719" y="621" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GAT</text><text x="2744" y="621" font-size="11" fill="#1A1F2C">Gateway <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="647" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">NEWSLETTER</text>
+<rect x="2702" y="654" width="34" height="13" rx="3" fill="#C2410C"/><text x="2719" y="664" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NEW</text><text x="2744" y="664" font-size="11" fill="#1A1F2C">Newsletter <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">WHITELIST</text>
+<rect x="2702" y="697" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2719" y="707" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AW</text><text x="2744" y="707" font-size="11" fill="#1A1F2C">Admin - Whitelist <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="733" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">FEATURE</text>
+<rect x="2702" y="740" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2719" y="750" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FR</text><text x="2744" y="750" font-size="11" fill="#1A1F2C">Feature Requests <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="776" font-size="12" font-weight="700" letter-spacing="1.5" fill="#00838F">TELEMETRY</text>
+<rect x="2702" y="783" width="34" height="13" rx="3" fill="#00838F"/><text x="2719" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPT</text><text x="2744" y="793" font-size="11" fill="#1A1F2C">On-Prem Telemetry <tspan fill="#8A93A6">3</tspan></text>
+<text x="2702" y="819" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2702" y="826" width="34" height="13" rx="3" fill="#D6264F"/><text x="2719" y="836" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2744" y="836" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">12</tspan></text>
+<text x="2952" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2970,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2996" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2970,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2996" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2970,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2996" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2970,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2996" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2970,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2996" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2970,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2996" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2970,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2996" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2970,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2996" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2952" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2952" y="463" font-size="10.5" fill="#5A6275">“Auth” → More Local line · 1 op</text>
+<text x="2952" y="478" font-size="10.5" fill="#5A6275">“Compresr Platform API” → More Local line · 1 op</text>
+<text x="2952" y="493" font-size="10.5" fill="#5A6275">“Compression-Models” → Compression-Agentic line · 2 ops</text>
+<text x="2952" y="508" font-size="10.5" fill="#5A6275">“Dashboard” → More Local line · 1 op</text>
+<text x="2952" y="523" font-size="10.5" fill="#5A6275">“Inference” → More Local line · 1 op</text>
+<text x="2952" y="538" font-size="10.5" fill="#5A6275">“Logs” → More Local line · 1 op</text>
+<text x="2952" y="553" font-size="10.5" fill="#5A6275">“Metrics” → More Local line · 2 ops</text>
+<text x="2952" y="568" font-size="10.5" fill="#5A6275">“On Prem” → More Local line · 1 op</text>
+<text x="2952" y="583" font-size="10.5" fill="#5A6275">“Pricing” → More Local line · 2 ops</text>
+<text x="2952" y="598" font-size="10.5" fill="#5A6275">“Ready” → More Local line · 1 op</text>
+<text x="2952" y="613" font-size="10.5" fill="#5A6275">“Usage” → More Local line · 1 op</text>
+<text x="2952" y="663" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2952" y="680" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3258" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/compresr/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
