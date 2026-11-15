@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 1314" width="1700" height="1314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1700" height="1314" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Fargate API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">16 operations as stops · 3 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="477.625" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">FARGATE</text>
+<path class="line" data-line="Task Definitions" d="M1000.0,692.0 L916.0,608.0 L832.0,524.0 L748.0,440.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Task Definitions</title></path>
+<path class="line" data-line="Tasks" d="M160.0,566.0 L244.0,482.0 L318.1,407.9 Q328.0,398.0 328.0,384.0 L328.0,314.0 L328.0,230.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tasks</title></path>
+<path class="line" data-line="Fargate Local" d="M622.0,1154.0 L538.0,1070.0 L463.9,995.9 Q454.0,986.0 440.0,986.0 L412.0,986.0 L328.0,986.0 L244.0,986.0 L160.0,986.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Fargate Local</title></path>
+<line x1="1000" y1="692" x2="1024.0416305603426" y2="716.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1000.0416305603426" y="705.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Task Definitions</title></rect><text x="1024.0416305603426" y="721.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TD</text>
+<line x1="748" y1="440" x2="723.9583694396574" y2="415.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="699.9583694396574" y="404.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Task Definitions</title></rect><text x="723.9583694396574" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TD</text>
+<line x1="160" y1="566" x2="135.9583694396574" y2="590.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="579.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tasks</title></rect><text x="135.9583694396574" y="595.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="328" y1="230" x2="328.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="304.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tasks</title></rect><text x="328.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="622" y1="1154" x2="646.0416305603426" y2="1178.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="622.0416305603426" y="1167.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Fargate Local</title></rect><text x="646.0416305603426" y="1183.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FL</text>
+<line x1="160" y1="986" x2="126.0" y2="986.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="975.0" width="48" height="22" rx="5" fill="#D6264F"><title>Fargate Local</title></rect><text x="126.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FL</text>
+<a href="https://apis.apis.io/apis/fargate/fargate-clusters-api/#op-createCluster" target="_blank" class="st" data-op="createCluster"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.CreateCluster
+Fargate Local line · createCluster</title>
+<circle cx="622" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="634" y="1159" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.createcluster</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-clusters-api/#op-describeClusters" target="_blank" class="st" data-op="describeClusters"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DescribeClusters
+Fargate Local line · describeClusters</title>
+<circle cx="412" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="418" y="974" transform="rotate(-45 418 974)" style="fill:#1A1F2C">Create #x amz target=amazonec2containerservicev20141113.describecluster</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-task-definitions-api/#op-registerTaskDefinition" target="_blank" class="st" data-op="registerTaskDefinition"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.RegisterTaskDefinition
+Task Definitions line · registerTaskDefinition</title>
+<circle cx="748" cy="440" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="760" y="445" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.registertaskdefinition</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-task-definitions-api/#op-describeTaskDefinition" target="_blank" class="st" data-op="describeTaskDefinition"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DescribeTaskDefinition
+Task Definitions line · describeTaskDefinition</title>
+<circle cx="916" cy="608" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="613" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.describetaskdefinition</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-task-definitions-api/#op-listTaskDefinitions" target="_blank" class="st" data-op="listTaskDefinitions"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ListTaskDefinitions
+Task Definitions line · listTaskDefinitions</title>
+<circle cx="832" cy="524" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="844" y="529" text-anchor="start" style="fill:#1A1F2C">Create #x amz target=amazonec2containerservicev20141113.listtaskdefinition</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-task-definitions-api/#op-deregisterTaskDefinition" target="_blank" class="st" data-op="deregisterTaskDefinition"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DeregisterTaskDefinition
+Task Definitions line · deregisterTaskDefinition</title>
+<circle cx="1000" cy="692" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1012" y="697" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.deregistertaskdefinition</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-tasks-api/#op-runTask" target="_blank" class="st" data-op="runTask"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.RunTask
+Tasks line · runTask</title>
+<circle cx="328" cy="314" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="319" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.runtask</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-tasks-api/#op-stopTask" target="_blank" class="st" data-op="stopTask"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.StopTask
+Tasks line · stopTask</title>
+<circle cx="328" cy="230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="235" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.stoptask</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-tasks-api/#op-describeTasks" target="_blank" class="st" data-op="describeTasks"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DescribeTasks
+Tasks line · describeTasks</title>
+<circle cx="160" cy="566" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="571" text-anchor="start" style="fill:#1A1F2C">Create #x amz target=amazonec2containerservicev20141113.describetask</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-tasks-api/#op-listTasks" target="_blank" class="st" data-op="listTasks"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ListTasks
+Tasks line · listTasks</title>
+<circle cx="328" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="316.0" y="403" text-anchor="end" style="fill:#1A1F2C">Create #x amz target=amazonec2containerservicev20141113.listtask</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-tasks-api/#op-executeCommand" target="_blank" class="st" data-op="executeCommand"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ExecuteCommand
+Tasks line · executeCommand</title>
+<circle cx="244" cy="482" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="256" y="487" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.executecommand</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-x-amz-target-amazonec2containerservicev20141113-createservice-api/#op-createService" target="_blank" class="st" data-op="createService"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.CreateService
+Fargate Local line · createService</title>
+<circle cx="538" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1075" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.createservice</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-x-amz-target-amazonec2containerservicev20141113-deleteservice-api/#op-deleteService" target="_blank" class="st" data-op="deleteService"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DeleteService
+Fargate Local line · deleteService</title>
+<circle cx="454" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="991" text-anchor="start" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.deleteservice</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-x-amz-target-amazonec2containerservicev20141113-describeservices-api/#op-describeServices" target="_blank" class="st" data-op="describeServices"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.DescribeServices
+Fargate Local line · describeServices</title>
+<circle cx="328" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="334" y="974" transform="rotate(-45 334 974)" style="fill:#1A1F2C">Create #x amz target=amazonec2containerservicev20141113.describeservice</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-x-amz-target-amazonec2containerservicev20141113-listservices-api/#op-listServices" target="_blank" class="st" data-op="listServices"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.ListServices
+Fargate Local line · listServices</title>
+<circle cx="244" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="974" transform="rotate(-45 250 974)" style="fill:#1A1F2C">Create #x amz target=amazonec2containerservicev20141113.listservice</text>
+</a>
+<a href="https://apis.apis.io/apis/fargate/fargate-x-amz-target-amazonec2containerservicev20141113-updateservice-api/#op-updateService" target="_blank" class="st" data-op="updateService"><title>POST /#X-Amz-Target=AmazonEC2ContainerServiceV20141113.UpdateService
+Fargate Local line · updateService</title>
+<circle cx="160" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="974" transform="rotate(-45 166 974)" style="fill:#1A1F2C">Update #x amz target=amazonec2containerservicev20141113.updateservice</text>
+</a>
+<text x="1190" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1190" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">FARGATE</text>
+<rect x="1190" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1207" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FL</text><text x="1232" y="269" font-size="11" fill="#1A1F2C">Fargate Local <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1190" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1207" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAS</text><text x="1232" y="286" font-size="11" fill="#1A1F2C">Tasks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1190" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1207" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TD</text><text x="1232" y="303" font-size="11" fill="#1A1F2C">Task Definitions <tspan fill="#8A93A6">4</tspan></text>
+<text x="1440" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1458,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1458,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1458,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1484" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1458,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1484" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1458,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1484" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1458,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1484" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1458,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1484" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1458,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1484" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1440" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1440" y="463" font-size="10.5" fill="#5A6275">“#X Amz Target=AmazonEC2ContainerServiceV20141113.CreateService” → Fargate Local line · 1 op</text>
+<text x="1440" y="478" font-size="10.5" fill="#5A6275">“#X Amz Target=AmazonEC2ContainerServiceV20141113.DeleteService” → Fargate Local line · 1 op</text>
+<text x="1440" y="493" font-size="10.5" fill="#5A6275">“#X Amz Target=AmazonEC2ContainerServiceV20141113.DescribeServices” → Fargate Local line · 1 op</text>
+<text x="1440" y="508" font-size="10.5" fill="#5A6275">“#X Amz Target=AmazonEC2ContainerServiceV20141113.ListServices” → Fargate Local line · 1 op</text>
+<text x="1440" y="523" font-size="10.5" fill="#5A6275">“#X Amz Target=AmazonEC2ContainerServiceV20141113.UpdateService” → Fargate Local line · 1 op</text>
+<text x="1440" y="538" font-size="10.5" fill="#5A6275">“Clusters” → Fargate Local line · 2 ops</text>
+<text x="1440" y="588" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1440" y="605" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1284" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/fargate/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

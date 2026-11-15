@@ -1,0 +1,750 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2288 1860" width="2288" height="1860" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2288" height="1860" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Cadasto API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">123 operations as stops · 19 tags as lines · 17 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="412" y1="1280" x2="454" y2="1238" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="412" y1="1280" x2="454" y2="1238" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1126" y1="1280" x2="1168" y2="1322" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1126" y1="1280" x2="1168" y2="1322" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="538" y1="650" x2="538" y2="692" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="538" y1="650" x2="538" y2="692" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="ADL1.4" d="M1294.0,650.0 L1210.0,650.0 L1098.0,650.0 Q1084.0,650.0 1084.0,636.0 L1084.0,482.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ADL1.4</title></path>
+<path class="line" data-line="ADL2" d="M1210.0,734.0 L1182.0,734.0 Q1168.0,734.0 1158.1,743.9 L1000.0,902.0 L916.0,986.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ADL2</title></path>
+<path class="line" data-line="Episode" d="M1588.0,1154.0 L1504.0,1154.0 L1420.0,1154.0 L1224.0,1154.0 Q1210.0,1154.0 1200.1,1163.9 L1177.9,1186.1 Q1168.0,1196.0 1168.0,1210.0 L1168.0,1308.0 Q1168.0,1322.0 1177.9,1331.9 L1252.0,1406.0 L1284.1,1438.1 Q1294.0,1448.0 1294.0,1462.0 L1294.0,1476.0 Q1294.0,1490.0 1303.9,1499.9 L1378.0,1574.0 L1462.0,1658.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Episode</title></path>
+<path class="line" data-line="Agent" d="M538.0,692.0 L384.0,692.0 Q370.0,692.0 360.1,701.9 L328.0,734.0 L244.0,818.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent</title></path>
+<path class="line" data-line="Composition" d="M412.0,1280.0 L295.9,1396.1 Q286.0,1406.0 286.0,1420.0 L286.0,1490.0 L286.0,1560.0 Q286.0,1574.0 295.9,1583.9 L318.1,1606.1 Q328.0,1616.0 342.0,1616.0 L482.0,1616.0 Q496.0,1616.0 505.9,1606.1 L570.1,1541.9 Q580.0,1532.0 594.0,1532.0 L650.0,1532.0 Q664.0,1532.0 664.0,1546.0 L664.0,1658.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Composition</title></path>
+<path class="line" data-line="Contribution" d="M538.0,902.0 L538.0,972.0 Q538.0,986.0 528.1,995.9 L505.9,1018.1 Q496.0,1028.0 486.1,1018.1 L463.9,995.9 Q454.0,986.0 440.0,986.0 L286.0,986.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Contribution</title></path>
+<path class="line" data-line="Datamap Definition" d="M1126.0,1406.0 L1084.0,1406.0 L1014.0,1406.0 Q1000.0,1406.0 990.1,1415.9 L958.0,1448.0 L874.0,1532.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Datamap Definition</title></path>
+<path class="line" data-line="Datamap Query" d="M1252.0,1280.0 L1284.1,1247.9 Q1294.0,1238.0 1294.0,1224.0 L1294.0,1126.0 Q1294.0,1112.0 1284.1,1102.1 L1261.9,1079.9 Q1252.0,1070.0 1252.0,1056.0 L1252.0,958.0 Q1252.0,944.0 1266.0,944.0 L1378.0,944.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Datamap Query</title></path>
+<path class="line" data-line="Directory" d="M538.0,1112.0 L570.1,1079.9 Q580.0,1070.0 594.0,1070.0 L650.0,1070.0 Q664.0,1070.0 664.0,1084.0 L664.0,1140.0 Q664.0,1154.0 673.9,1163.9 L748.0,1238.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Directory</title></path>
+<path class="line" data-line="EHR" d="M160.0,1112.0 L244.0,1112.0 L314.0,1112.0 Q328.0,1112.0 337.9,1121.9 L444.1,1228.1 Q454.0,1238.0 440.0,1238.0 L286.0,1238.0 L258.0,1238.0 Q244.0,1238.0 244.0,1252.0 L244.0,1308.0 Q244.0,1322.0 258.0,1322.0 L286.0,1322.0 L496.0,1322.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>EHR</title></path>
+<path class="line" data-line="EHR_STATUS" d="M412.0,1406.0 L444.1,1438.1 Q454.0,1448.0 468.0,1448.0 L524.0,1448.0 Q538.0,1448.0 547.9,1438.1 L570.1,1415.9 Q580.0,1406.0 589.9,1415.9 L612.1,1438.1 Q622.0,1448.0 612.1,1457.9 L463.9,1606.1 Q454.0,1616.0 440.0,1616.0 L426.0,1616.0 Q412.0,1616.0 402.1,1625.9 L328.0,1700.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>EHR_STATUS</title></path>
+<path class="line" data-line="Group" d="M580.0,566.0 L654.1,491.9 Q664.0,482.0 678.0,482.0 L706.0,482.0 L790.0,482.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Group</title></path>
+<path class="line" data-line="Health" d="M1126.0,1280.0 L967.9,1121.9 Q958.0,1112.0 944.0,1112.0 L916.0,1112.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Health</title></path>
+<path class="line" data-line="Item Tag" d="M664.0,608.0 L748.0,608.0 L832.0,608.0 L902.0,608.0 Q916.0,608.0 925.9,617.9 L1000.0,692.0 L1084.0,776.0 L1158.1,850.1 Q1168.0,860.0 1168.0,874.0 L1168.0,944.0 L1168.0,1028.0 L1168.0,1098.0 Q1168.0,1112.0 1158.1,1121.9 L1084.0,1196.0 L1000.0,1280.0 L925.9,1354.1 Q916.0,1364.0 902.0,1364.0 L832.0,1364.0 L748.0,1364.0 L678.0,1364.0 Q664.0,1364.0 654.1,1354.1 L580.0,1280.0 L496.0,1196.0 L421.9,1121.9 Q412.0,1112.0 412.0,1098.0 L412.0,1028.0 L412.0,944.0 L412.0,874.0 Q412.0,860.0 421.9,850.1 L496.0,776.0 L664.0,608.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Item Tag</title></path>
+<path class="line" data-line="Organisation" d="M538.0,650.0 L570.1,682.1 Q580.0,692.0 594.0,692.0 L748.0,692.0 L818.0,692.0 Q832.0,692.0 841.9,701.9 L916.0,776.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organisation</title></path>
+<path class="line" data-line="Person" d="M580.0,818.0 L654.1,892.1 Q664.0,902.0 664.0,916.0 L664.0,930.0 Q664.0,944.0 673.9,953.9 L706.0,986.0 L790.0,1070.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Person</title></path>
+<path class="line" data-line="Query" d="M1210.0,566.0 L1284.1,491.9 Q1294.0,482.0 1294.0,468.0 L1294.0,398.0 L1294.0,328.0 Q1294.0,314.0 1284.1,304.1 L1219.9,239.9 Q1210.0,230.0 1196.0,230.0 L1140.0,230.0 Q1126.0,230.0 1116.1,239.9 L1042.0,314.0 L967.9,388.1 Q958.0,398.0 958.0,412.0 L958.0,510.0 Q958.0,524.0 967.9,533.9 L1000.0,566.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query</title></path>
+<path class="line" data-line="Role" d="M454.0,608.0 L454.0,538.0 Q454.0,524.0 463.9,514.1 L538.0,440.0 L622.0,356.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Role</title></path>
+<path class="line" data-line="VERSIONED_PARTY" d="M622.0,734.0 L696.1,808.1 Q706.0,818.0 720.0,818.0 L734.0,818.0 Q748.0,818.0 757.9,827.9 L832.0,902.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>VERSIONED_PARTY</title></path>
+<line x1="1294" y1="650" x2="1328.0" y2="650.0" stroke="#2E7D32" stroke-width="7"/><rect x="1304.0" y="639.0" width="48" height="22" rx="5" fill="#2E7D32"><title>ADL1.4</title></rect><text x="1328.0" y="655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">A14</text>
+<line x1="1084" y1="482" x2="1084.0" y2="448.0" stroke="#2E7D32" stroke-width="7"/><rect x="1060.0" y="437.0" width="48" height="22" rx="5" fill="#2E7D32"><title>ADL1.4</title></rect><text x="1084.0" y="453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">A14</text>
+<line x1="1210" y1="734" x2="1244.0" y2="734.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1220.0" y="723.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>ADL2</title></rect><text x="1244.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">A2</text>
+<line x1="916" y1="986" x2="891.9583694396574" y2="1010.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="867.9583694396574" y="999.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>ADL2</title></rect><text x="891.9583694396574" y="1015.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">A2</text>
+<line x1="1588" y1="1154" x2="1622.0" y2="1154.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1598.0" y="1143.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Episode</title></rect><text x="1622.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EPI</text>
+<line x1="1462" y1="1658" x2="1486.0416305603426" y2="1682.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1462.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Episode</title></rect><text x="1486.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EPI</text>
+<line x1="538" y1="692" x2="610.0" y2="692.0" stroke="#00838F" stroke-width="7"/><rect x="586.0" y="681.0" width="48" height="22" rx="5" fill="#00838F"><title>Agent</title></rect><text x="610.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="244" y1="818" x2="219.9583694396574" y2="842.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="195.9583694396574" y="831.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Agent</title></rect><text x="219.9583694396574" y="847.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="412" y1="1280" x2="454.42640687119285" y2="1274.3431457505076" stroke="#7B3FE4" stroke-width="7"/><rect x="430.42640687119285" y="1263.3431457505076" width="48" height="22" rx="5" fill="#7B3FE4"><title>Composition</title></rect><text x="454.42640687119285" y="1279.3431457505076" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="664" y1="1658" x2="664.0" y2="1692.0" stroke="#7B3FE4" stroke-width="7"/><rect x="640.0" y="1681.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Composition</title></rect><text x="664.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="538" y1="902" x2="538.0" y2="868.0" stroke="#8D6E63" stroke-width="7"/><rect x="514.0" y="857.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Contribution</title></rect><text x="538.0" y="873.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="286" y1="986" x2="252.0" y2="986.0" stroke="#8D6E63" stroke-width="7"/><rect x="228.0" y="975.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Contribution</title></rect><text x="252.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1126" y1="1406" x2="1160.0" y2="1406.0" stroke="#B8860B" stroke-width="7"/><rect x="1136.0" y="1395.0" width="48" height="22" rx="5" fill="#B8860B"><title>Datamap Definition</title></rect><text x="1160.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DD</text>
+<line x1="874" y1="1532" x2="849.9583694396574" y2="1556.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="825.9583694396574" y="1545.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Datamap Definition</title></rect><text x="849.9583694396574" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DD</text>
+<line x1="1252" y1="1280" x2="1227.9583694396574" y2="1304.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1203.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Datamap Query</title></rect><text x="1227.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DQ</text>
+<line x1="1378" y1="944" x2="1412.0" y2="944.0" stroke="#0B7A75" stroke-width="7"/><rect x="1388.0" y="933.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Datamap Query</title></rect><text x="1412.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DQ</text>
+<line x1="538" y1="1112" x2="513.9583694396574" y2="1136.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="489.9583694396574" y="1125.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Directory</title></rect><text x="513.9583694396574" y="1141.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIR</text>
+<line x1="748" y1="1238" x2="772.0416305603426" y2="1262.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="748.0416305603426" y="1251.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Directory</title></rect><text x="772.0416305603426" y="1267.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIR</text>
+<line x1="160" y1="1112" x2="126.0" y2="1112.0" stroke="#E07B12" stroke-width="7"/><rect x="102.0" y="1101.0" width="48" height="22" rx="5" fill="#E07B12"><title>EHR</title></rect><text x="126.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EHR</text>
+<line x1="496" y1="1322" x2="530.0" y2="1322.0" stroke="#E07B12" stroke-width="7"/><rect x="506.0" y="1311.0" width="48" height="22" rx="5" fill="#E07B12"><title>EHR</title></rect><text x="530.0" y="1327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EHR</text>
+<line x1="412" y1="1406" x2="387.95836943965736" y2="1381.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="363.95836943965736" y="1370.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>EHR_STATUS</title></rect><text x="387.95836943965736" y="1386.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ES</text>
+<line x1="328" y1="1700" x2="303.95836943965736" y2="1724.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="279.95836943965736" y="1713.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>EHR_STATUS</title></rect><text x="303.95836943965736" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ES</text>
+<line x1="580" y1="566" x2="555.9583694396574" y2="590.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="531.9583694396574" y="579.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Group</title></rect><text x="555.9583694396574" y="595.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRO</text>
+<line x1="790" y1="482" x2="824.0" y2="482.0" stroke="#4A5568" stroke-width="7"/><rect x="800.0" y="471.0" width="48" height="22" rx="5" fill="#4A5568"><title>Group</title></rect><text x="824.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRO</text>
+<line x1="1126" y1="1280" x2="1131.6568542494924" y2="1322.4264068711927" stroke="#7B3FE4" stroke-width="7"/><rect x="1107.6568542494924" y="1311.4264068711927" width="48" height="22" rx="5" fill="#7B3FE4"><title>Health</title></rect><text x="1131.6568542494924" y="1327.4264068711927" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HEA</text>
+<line x1="916" y1="1112" x2="882.0" y2="1112.0" stroke="#7B3FE4" stroke-width="7"/><rect x="858.0" y="1101.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Health</title></rect><text x="882.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HEA</text>
+<rect x="634" y="555" width="60" height="26" rx="13" fill="#D6264F"/><text x="664" y="573" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">IT</text>
+<line x1="538" y1="650" x2="513.9583694396574" y2="625.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="489.9583694396574" y="614.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Organisation</title></rect><text x="513.9583694396574" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="916" y1="776" x2="940.0416305603426" y2="800.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="916.0416305603426" y="789.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Organisation</title></rect><text x="940.0416305603426" y="805.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="580" y1="818" x2="555.9583694396574" y2="793.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="531.9583694396574" y="782.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Person</title></rect><text x="555.9583694396574" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PER</text>
+<line x1="790" y1="1070" x2="814.0416305603426" y2="1094.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="790.0416305603426" y="1083.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Person</title></rect><text x="814.0416305603426" y="1099.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PER</text>
+<line x1="1210" y1="566" x2="1185.9583694396574" y2="590.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1161.9583694396574" y="579.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Query</title></rect><text x="1185.9583694396574" y="595.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="1000" y1="566" x2="1024.0416305603426" y2="590.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1000.0416305603426" y="579.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Query</title></rect><text x="1024.0416305603426" y="595.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="454" y1="608" x2="454.0" y2="642.0" stroke="#1F5FD1" stroke-width="7"/><rect x="430.0" y="631.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Role</title></rect><text x="454.0" y="647.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="622" y1="356" x2="646.0416305603426" y2="331.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="622.0416305603426" y="320.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Role</title></rect><text x="646.0416305603426" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="622" y1="734" x2="579.5735931288071" y2="728.3431457505076" stroke="#E07B12" stroke-width="7"/><rect x="555.5735931288071" y="717.3431457505076" width="48" height="22" rx="5" fill="#E07B12"><title>VERSIONED_PARTY</title></rect><text x="579.5735931288071" y="733.3431457505076" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VP</text>
+<line x1="832" y1="902" x2="856.0416305603426" y2="926.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="832.0416305603426" y="915.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>VERSIONED_PARTY</title></rect><text x="856.0416305603426" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VP</text>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl1-4-api/#op-definition_template_adl1.4_upload" target="_blank" class="st" data-op="definition_template_adl1.4_upload"><title>POST /definition/template/adl1.4
+ADL1.4 line · definition_template_adl1.4_upload</title>
+<circle cx="1210" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1216" y="638" transform="rotate(-45 1216 638)" style="fill:#1A1F2C">Update adl1.4</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl1-4-api/#op-definition_template_adl1.4_list" target="_blank" class="st" data-op="definition_template_adl1.4_list"><title>GET /definition/template/adl1.4
+ADL1.4 line · definition_template_adl1.4_list</title>
+<circle cx="1294" cy="650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1288" y="662" text-anchor="end" transform="rotate(-45 1288 662)" style="fill:#1A1F2C">Get adl1.4</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl1-4-api/#op-definition_template_adl1.4_get" target="_blank" class="st" data-op="definition_template_adl1.4_get"><title>GET /definition/template/adl1.4/{template_id}
+ADL1.4 line · definition_template_adl1.4_get</title>
+<circle cx="1084" cy="650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1072.0" y="655" text-anchor="end" style="fill:#1A1F2C">Get adl1.4</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl1-4-api/#op-definition_template_adl1.4_example_get" target="_blank" class="st" data-op="definition_template_adl1.4_example_get"><title>GET /definition/template/adl1.4/{template_id}/example
+ADL1.4 line · definition_template_adl1.4_example_get</title>
+<circle cx="1084" cy="482" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="487" text-anchor="start" style="fill:#1A1F2C">Get example</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl2-api/#op-definition_template_adl2_upload" target="_blank" class="st" data-op="definition_template_adl2_upload"><title>POST /definition/template/adl2
+ADL2 line · definition_template_adl2_upload</title>
+<circle cx="1168" cy="734" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1156.0" y="739" text-anchor="end" style="fill:#1A1F2C">Update adl2</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl2-api/#op-definition_template_adl2_list" target="_blank" class="st" data-op="definition_template_adl2_list"><title>GET /definition/template/adl2
+ADL2 line · definition_template_adl2_list</title>
+<circle cx="1210" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1204" y="746" text-anchor="end" transform="rotate(-45 1204 746)" style="fill:#1A1F2C">Get adl2 <tspan font-weight="700" style="fill:#2E7D32">⇄A14</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl2-api/#op-definition_template_adl2_get" target="_blank" class="st" data-op="definition_template_adl2_get"><title>GET /definition/template/adl2/{template_id}
+ADL2 line · definition_template_adl2_get</title>
+<circle cx="1000" cy="902" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1012" y="907" text-anchor="start" style="fill:#1A1F2C">Get adl2</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-adl2-api/#op-definition_template_adl2_version_get" target="_blank" class="st" data-op="definition_template_adl2_version_get"><title>GET /definition/template/adl2/{template_id}/{version}
+ADL2 line · definition_template_adl2_version_get</title>
+<circle cx="916" cy="986" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="928" y="991" text-anchor="start" style="fill:#1A1F2C">Get adl2</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-admin-api/#op-putExtraV1AdminEhrByEhrUidEpisodeByUidDestroy" target="_blank" class="st" data-op="putExtraV1AdminEhrByEhrUidEpisodeByUidDestroy"><title>PUT /extra/v1/admin/ehr/{ehrUid}/episode/{uid}/destroy
+Episode line · putExtraV1AdminEhrByEhrUidEpisodeByUidDestroy</title>
+<circle cx="1168" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1174" y="1310" transform="rotate(-45 1174 1310)" style="fill:#1A1F2C">Update destroy</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-agent-api/#op-agent_create" target="_blank" class="st" data-op="agent_create"><title>POST /demographic/agent
+Agent line · agent_create</title>
+<circle cx="538" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="532" y="704" text-anchor="end" transform="rotate(-45 532 704)" style="fill:#1A1F2C">Update agent</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-agent-api/#op-agent_get" target="_blank" class="st" data-op="agent_get"><title>GET /demographic/agent/{uid_based_id}
+Agent line · agent_get</title>
+<circle cx="370" cy="692" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="358.0" y="697" text-anchor="end" style="fill:#1A1F2C">Get agent</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-agent-api/#op-agent_update" target="_blank" class="st" data-op="agent_update"><title>PUT /demographic/agent/{uid_based_id}
+Agent line · agent_update</title>
+<circle cx="328" cy="734" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="340" y="739" text-anchor="start" style="fill:#1A1F2C">Update agent</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-agent-api/#op-agent_delete" target="_blank" class="st" data-op="agent_delete"><title>DELETE /demographic/agent/{uid_based_id}
+Agent line · agent_delete</title>
+<circle cx="244" cy="818" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="240" y1="822" x2="248" y2="814" stroke="#00838F" stroke-width="2"/>
+<text x="256" y="823" text-anchor="start" style="fill:#1A1F2C">Delete agent</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-composition_create" target="_blank" class="st" data-op="composition_create"><title>POST /ehr/{ehr_id}/composition
+Composition line · composition_create</title>
+<circle cx="412" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="421" y="1299" text-anchor="start" style="fill:#1A1F2C">Update composition</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-composition_get" target="_blank" class="st" data-op="composition_get"><title>GET /ehr/{ehr_id}/composition/{uid_based_id}
+Composition line · composition_get</title>
+<circle cx="286" cy="1406" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="298" y="1411" text-anchor="start" style="fill:#1A1F2C">Get composition</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-composition_update" target="_blank" class="st" data-op="composition_update"><title>PUT /ehr/{ehr_id}/composition/{uid_based_id}
+Composition line · composition_update</title>
+<circle cx="286" cy="1490" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="298" y="1495" text-anchor="start" style="fill:#1A1F2C">Update composition</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-composition_delete" target="_blank" class="st" data-op="composition_delete"><title>DELETE /ehr/{ehr_id}/composition/{uid_based_id}
+Composition line · composition_delete</title>
+<circle cx="286" cy="1574" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="282" y1="1578" x2="290" y2="1570" stroke="#7B3FE4" stroke-width="2"/>
+<text x="298" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete composition</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-versioned_composition_get" target="_blank" class="st" data-op="versioned_composition_get"><title>GET /ehr/{ehr_id}/versioned_composition/{versioned_object_uid}
+Composition line · versioned_composition_get</title>
+<circle cx="496" cy="1616" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="490" y="1628" text-anchor="end" transform="rotate(-45 490 1628)" style="fill:#1A1F2C">Get versioned composition</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-versioned_composition_revision_history" target="_blank" class="st" data-op="versioned_composition_revision_history"><title>GET /ehr/{ehr_id}/versioned_composition/{versioned_object_uid}/revision_history
+Composition line · versioned_composition_revision_history</title>
+<circle cx="580" cy="1532" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="589" y="1522" text-anchor="start" style="fill:#1A1F2C">Get revision history</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-versioned_composition_version_get_at_time" target="_blank" class="st" data-op="versioned_composition_version_get_at_time"><title>GET /ehr/{ehr_id}/versioned_composition/{versioned_object_uid}/version
+Composition line · versioned_composition_version_get_at_time</title>
+<circle cx="664" cy="1532" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="676" y="1537" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-composition-api/#op-versioned_composition_version_get_by_id" target="_blank" class="st" data-op="versioned_composition_version_get_by_id"><title>GET /ehr/{ehr_id}/versioned_composition/{versioned_object_uid}/version/{version_uid}
+Composition line · versioned_composition_version_get_by_id</title>
+<circle cx="664" cy="1658" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="676" y="1663" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-contribution-api/#op-contribution_create" target="_blank" class="st" data-op="contribution_create"><title>POST /demographic/contribution
+Contribution line · contribution_create</title>
+<circle cx="538" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="526.0" y="900" text-anchor="end" style="fill:#1A1F2C">Update<tspan x="526.0" dy="13">contribution <tspan font-weight="700" style="fill:#00838F">⇄AGE</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-contribution-api/#op-contribution_get" target="_blank" class="st" data-op="contribution_get"><title>GET /demographic/contribution/{contribution_uid}
+Contribution line · contribution_get</title>
+<circle cx="538" cy="986" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="550" y="991" text-anchor="start" style="fill:#1A1F2C">Get contribution</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-contribution-api/#op-postEhrByEhrIdContribution" target="_blank" class="st" data-op="postEhrByEhrIdContribution"><title>POST /ehr/{ehr_id}/contribution
+Contribution line · postEhrByEhrIdContribution</title>
+<circle cx="496" cy="1028" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="496" y="1051" text-anchor="middle" style="fill:#1A1F2C">Update contribution <tspan font-weight="700" style="fill:#E07B12">⇄EHR</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-contribution-api/#op-getEhrByEhrIdContributionByContributionUid" target="_blank" class="st" data-op="getEhrByEhrIdContributionByContributionUid"><title>GET /ehr/{ehr_id}/contribution/{contribution_uid}
+Contribution line · getEhrByEhrIdContributionByContributionUid</title>
+<circle cx="286" cy="986" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="292" y="974" transform="rotate(-45 292 974)" style="fill:#1A1F2C">Get contribution</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-definition-api/#op-getExtraV1DefinitionDatamap" target="_blank" class="st" data-op="getExtraV1DefinitionDatamap"><title>GET /extra/v1/definition/datamap
+Datamap Definition line · getExtraV1DefinitionDatamap</title>
+<circle cx="1126" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1120" y="1418" text-anchor="end" transform="rotate(-45 1120 1418)" style="fill:#1A1F2C">Get datamap <tspan font-weight="700" style="fill:#0E9F6E">⇄EPI</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-definition-api/#op-getExtraV1DefinitionDatamapByDatamapName" target="_blank" class="st" data-op="getExtraV1DefinitionDatamapByDatamapName"><title>GET /extra/v1/definition/datamap/{datamapName}
+Datamap Definition line · getExtraV1DefinitionDatamapByDatamapName</title>
+<circle cx="1084" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1090" y="1394" transform="rotate(-45 1090 1394)" style="fill:#1A1F2C">Get datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-definition-api/#op-putExtraV1DefinitionDatamapByDatamapName" target="_blank" class="st" data-op="putExtraV1DefinitionDatamapByDatamapName"><title>PUT /extra/v1/definition/datamap/{datamapName}
+Datamap Definition line · putExtraV1DefinitionDatamapByDatamapName</title>
+<circle cx="1000" cy="1406" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="988.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Update datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-definition-api/#op-deleteExtraV1DefinitionDatamapByDatamapName" target="_blank" class="st" data-op="deleteExtraV1DefinitionDatamapByDatamapName"><title>DELETE /extra/v1/definition/datamap/{datamapName}
+Datamap Definition line · deleteExtraV1DefinitionDatamapByDatamapName</title>
+<circle cx="958" cy="1448" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="954" y1="1452" x2="962" y2="1444" stroke="#B8860B" stroke-width="2"/>
+<text x="970" y="1453" text-anchor="start" style="fill:#1A1F2C">Delete datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-definition-api/#op-getExtraV1DefinitionDatamapByDatamapNameSchema" target="_blank" class="st" data-op="getExtraV1DefinitionDatamapByDatamapNameSchema"><title>GET /extra/v1/definition/datamap/{datamapName}/schema
+Datamap Definition line · getExtraV1DefinitionDatamapByDatamapNameSchema</title>
+<circle cx="874" cy="1532" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="886" y="1537" text-anchor="start" style="fill:#1A1F2C">Get schema</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-query-api/#op-postExtraV1Datamap" target="_blank" class="st" data-op="postExtraV1Datamap"><title>POST /extra/v1/datamap
+Datamap Query line · postExtraV1Datamap</title>
+<circle cx="1252" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1264" y="1285" text-anchor="start" style="fill:#1A1F2C">Update datamap <tspan font-weight="700" style="fill:#0E9F6E">⇄EPI</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-query-api/#op-getExtraV1DatamapByDatamapName" target="_blank" class="st" data-op="getExtraV1DatamapByDatamapName"><title>GET /extra/v1/datamap/{datamapName}
+Datamap Query line · getExtraV1DatamapByDatamapName</title>
+<circle cx="1294" cy="1238" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1306" y="1243" text-anchor="start" style="fill:#1A1F2C">Get datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-query-api/#op-postExtraV1DatamapByDatamapName" target="_blank" class="st" data-op="postExtraV1DatamapByDatamapName"><title>POST /extra/v1/datamap/{datamapName}
+Datamap Query line · postExtraV1DatamapByDatamapName</title>
+<circle cx="1294" cy="1112" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1306" y="1117" text-anchor="start" style="fill:#1A1F2C">Update datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-query-api/#op-getExtraV1DatamapByDatamapNameByUidBasedId" target="_blank" class="st" data-op="getExtraV1DatamapByDatamapNameByUidBasedId"><title>GET /extra/v1/datamap/{datamapName}/{uidBasedId}
+Datamap Query line · getExtraV1DatamapByDatamapNameByUidBasedId</title>
+<circle cx="1252" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1264" y="1075" text-anchor="start" style="fill:#1A1F2C">Get datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-query-api/#op-putExtraV1DatamapByDatamapNameByUidBasedId" target="_blank" class="st" data-op="putExtraV1DatamapByDatamapNameByUidBasedId"><title>PUT /extra/v1/datamap/{datamapName}/{uidBasedId}
+Datamap Query line · putExtraV1DatamapByDatamapNameByUidBasedId</title>
+<circle cx="1252" cy="944" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1261" y="934" text-anchor="start" style="fill:#1A1F2C">Update datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-datamap-query-api/#op-deleteExtraV1DatamapByDatamapNameByUidBasedId" target="_blank" class="st" data-op="deleteExtraV1DatamapByDatamapNameByUidBasedId"><title>DELETE /extra/v1/datamap/{datamapName}/{uidBasedId}
+Datamap Query line · deleteExtraV1DatamapByDatamapNameByUidBasedId</title>
+<circle cx="1378" cy="944" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1374" y1="948" x2="1382" y2="940" stroke="#0B7A75" stroke-width="2"/>
+<text x="1372" y="956" text-anchor="end" transform="rotate(-45 1372 956)" style="fill:#1A1F2C">Delete datamap</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-directory-api/#op-directory_create" target="_blank" class="st" data-op="directory_create"><title>POST /ehr/{ehr_id}/directory
+Directory line · directory_create</title>
+<circle cx="580" cy="1070" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="568.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Update directory</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-directory-api/#op-directory_update" target="_blank" class="st" data-op="directory_update"><title>PUT /ehr/{ehr_id}/directory
+Directory line · directory_update</title>
+<circle cx="664" cy="1070" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="676" y="1075" text-anchor="start" style="fill:#1A1F2C">Update directory</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-directory-api/#op-directory_delete" target="_blank" class="st" data-op="directory_delete"><title>DELETE /ehr/{ehr_id}/directory
+Directory line · directory_delete</title>
+<circle cx="664" cy="1154" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="660" y1="1158" x2="668" y2="1150" stroke="#C2410C" stroke-width="2"/>
+<text x="676" y="1159" text-anchor="start" style="fill:#1A1F2C">Delete directory</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-directory-api/#op-directory_get_at_time" target="_blank" class="st" data-op="directory_get_at_time"><title>GET /ehr/{ehr_id}/directory
+Directory line · directory_get_at_time</title>
+<circle cx="538" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="550" y="1117" text-anchor="start" style="fill:#1A1F2C">Get directory <tspan font-weight="700" style="fill:#E07B12">⇄EHR</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-directory-api/#op-directory_get_by_version_id" target="_blank" class="st" data-op="directory_get_by_version_id"><title>GET /ehr/{ehr_id}/directory/{version_uid}
+Directory line · directory_get_by_version_id</title>
+<circle cx="748" cy="1238" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="760" y="1243" text-anchor="start" style="fill:#1A1F2C">Get directory</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-admin_ehr_delete" target="_blank" class="st" data-op="admin_ehr_delete"><title>DELETE /admin/ehr/{ehr_id}
+EHR line · admin_ehr_delete</title>
+<circle cx="160" cy="1112" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="156" y1="1116" x2="164" y2="1108" stroke="#E07B12" stroke-width="2"/>
+<text x="166" y="1100" transform="rotate(-45 166 1100)" style="fill:#1A1F2C">Delete ehr</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-admin_ehr_delete_all" target="_blank" class="st" data-op="admin_ehr_delete_all"><title>DELETE /admin/ehr/all
+EHR line · admin_ehr_delete_all</title>
+<circle cx="244" cy="1238" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="240" y1="1242" x2="248" y2="1234" stroke="#E07B12" stroke-width="2"/>
+<text x="232.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Delete all</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-admin_ehr_merge" target="_blank" class="st" data-op="admin_ehr_merge"><title>PUT /admin/ehr/{ehr_id}/merge/{targetEhrUid}
+EHR line · admin_ehr_merge</title>
+<circle cx="286" cy="1322" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="292" y="1310" transform="rotate(-45 292 1310)" style="fill:#1A1F2C">Update merge</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-admin_ehr_delete_composition" target="_blank" class="st" data-op="admin_ehr_delete_composition"><title>DELETE /admin/ehr/{ehr_id}/composition/{composition_id}
+EHR line · admin_ehr_delete_composition</title>
+<circle cx="244" cy="1322" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="240" y1="1326" x2="248" y2="1318" stroke="#E07B12" stroke-width="2"/>
+<text x="232.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Delete composition</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-admin_template_delete" target="_blank" class="st" data-op="admin_template_delete"><title>DELETE /admin/template/{template_id}
+EHR line · admin_template_delete</title>
+<circle cx="496" cy="1322" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="492" y1="1326" x2="500" y2="1318" stroke="#E07B12" stroke-width="2"/>
+<text x="490" y="1334" text-anchor="end" transform="rotate(-45 490 1334)" style="fill:#1A1F2C">Delete template</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-ehr_create" target="_blank" class="st" data-op="ehr_create"><title>POST /ehr
+EHR line · ehr_create</title>
+<circle cx="328" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="340" y="1117" text-anchor="start" style="fill:#1A1F2C">Update ehr</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-ehr_get_by_subject" target="_blank" class="st" data-op="ehr_get_by_subject"><title>GET /ehr
+EHR line · ehr_get_by_subject</title>
+<circle cx="244" cy="1112" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="250" y="1100" transform="rotate(-45 250 1100)" style="fill:#1A1F2C">Get ehr</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-ehr_create_with_id" target="_blank" class="st" data-op="ehr_create_with_id"><title>PUT /ehr/{ehr_id}
+EHR line · ehr_create_with_id</title>
+<circle cx="286" cy="1238" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="292" y="1226" transform="rotate(-45 292 1226)" style="fill:#1A1F2C">Update ehr</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-api/#op-ehr_get_by_id" target="_blank" class="st" data-op="ehr_get_by_id"><title>GET /ehr/{ehr_id}
+EHR line · ehr_get_by_id</title>
+<circle cx="454" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="466" y="1243" text-anchor="start" style="fill:#1A1F2C">Get ehr</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-ehr_status_get_by_version_id" target="_blank" class="st" data-op="ehr_status_get_by_version_id"><title>GET /ehr/{ehr_id}/ehr_status/{version_uid}
+EHR_STATUS line · ehr_status_get_by_version_id</title>
+<circle cx="538" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="529.0" y="1467" text-anchor="end" style="fill:#1A1F2C">Get ehr statu</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-ehr_status_get_at_time" target="_blank" class="st" data-op="ehr_status_get_at_time"><title>GET /ehr/{ehr_id}/ehr_status
+EHR_STATUS line · ehr_status_get_at_time</title>
+<circle cx="412" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="424" y="1411" text-anchor="start" style="fill:#1A1F2C">List ehr status <tspan font-weight="700" style="fill:#E07B12">⇄EHR</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-ehr_status_update" target="_blank" class="st" data-op="ehr_status_update"><title>PUT /ehr/{ehr_id}/ehr_status
+EHR_STATUS line · ehr_status_update</title>
+<circle cx="454" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="442.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Create ehr statu</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-versioned_ehr_status_get" target="_blank" class="st" data-op="versioned_ehr_status_get"><title>GET /ehr/{ehr_id}/versioned_ehr_status
+EHR_STATUS line · versioned_ehr_status_get</title>
+<circle cx="580" cy="1406" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="580" y="1392" text-anchor="middle" style="fill:#1A1F2C">List versioned ehr status</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-versioned_ehr_status_revision_history" target="_blank" class="st" data-op="versioned_ehr_status_revision_history"><title>GET /ehr/{ehr_id}/versioned_ehr_status/revision_history
+EHR_STATUS line · versioned_ehr_status_revision_history</title>
+<circle cx="622" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="634" y="1453" text-anchor="start" style="fill:#1A1F2C">Get revision history</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-versioned_ehr_status_version_get_at_time" target="_blank" class="st" data-op="versioned_ehr_status_version_get_at_time"><title>GET /ehr/{ehr_id}/versioned_ehr_status/version
+EHR_STATUS line · versioned_ehr_status_version_get_at_time</title>
+<circle cx="412" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="403.0" y="1606" text-anchor="end" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-ehr-status-api/#op-versioned_ehr_status_version_get_by_id" target="_blank" class="st" data-op="versioned_ehr_status_version_get_by_id"><title>GET /ehr/{ehr_id}/versioned_ehr_status/version/{version_uid}
+EHR_STATUS line · versioned_ehr_status_version_get_by_id</title>
+<circle cx="328" cy="1700" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="316.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-getExtraV1EhrByEhrUidEpisode" target="_blank" class="st" data-op="getExtraV1EhrByEhrUidEpisode"><title>GET /extra/v1/ehr/{ehrUid}/episode
+Episode line · getExtraV1EhrByEhrUidEpisode</title>
+<circle cx="1588" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1582" y="1166" text-anchor="end" transform="rotate(-45 1582 1166)" style="fill:#1A1F2C">Get episode</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-postExtraV1EhrByEhrUidEpisode" target="_blank" class="st" data-op="postExtraV1EhrByEhrUidEpisode"><title>POST /extra/v1/ehr/{ehrUid}/episode
+Episode line · postExtraV1EhrByEhrUidEpisode</title>
+<circle cx="1504" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1510" y="1142" transform="rotate(-45 1510 1142)" style="fill:#1A1F2C">Update episode</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-getExtraV1EhrByEhrUidEpisodeByUid" target="_blank" class="st" data-op="getExtraV1EhrByEhrUidEpisodeByUid"><title>GET /extra/v1/ehr/{ehrUid}/episode/{uid}
+Episode line · getExtraV1EhrByEhrUidEpisodeByUid</title>
+<circle cx="1420" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1426" y="1142" transform="rotate(-45 1426 1142)" style="fill:#1A1F2C">Get episode</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-putExtraV1EhrByEhrUidEpisodeByUid" target="_blank" class="st" data-op="putExtraV1EhrByEhrUidEpisodeByUid"><title>PUT /extra/v1/ehr/{ehrUid}/episode/{uid}
+Episode line · putExtraV1EhrByEhrUidEpisodeByUid</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1210" y="1140" text-anchor="middle" style="fill:#1A1F2C">Update episode</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-deleteExtraV1EhrByEhrUidEpisodeByUid" target="_blank" class="st" data-op="deleteExtraV1EhrByEhrUidEpisodeByUid"><title>DELETE /extra/v1/ehr/{ehrUid}/episode/{uid}
+Episode line · deleteExtraV1EhrByEhrUidEpisodeByUid</title>
+<circle cx="1168" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1164" y1="1200" x2="1172" y2="1192" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1180" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete episode</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-putExtraV1EhrByEhrUidEpisodeByUidActivate" target="_blank" class="st" data-op="putExtraV1EhrByEhrUidEpisodeByUidActivate"><title>PUT /extra/v1/ehr/{ehrUid}/episode/{uid}/activate
+Episode line · putExtraV1EhrByEhrUidEpisodeByUidActivate</title>
+<circle cx="1252" cy="1406" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1264" y="1411" text-anchor="start" style="fill:#1A1F2C">Update activate</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-episode-api/#op-putExtraV1EhrByEhrUidEpisodeByUidDeactivate" target="_blank" class="st" data-op="putExtraV1EhrByEhrUidEpisodeByUidDeactivate"><title>PUT /extra/v1/ehr/{ehrUid}/episode/{uid}/deactivate
+Episode line · putExtraV1EhrByEhrUidEpisodeByUidDeactivate</title>
+<circle cx="1294" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="1453" text-anchor="start" style="fill:#1A1F2C">Update deactivate</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-group-api/#op-group_create" target="_blank" class="st" data-op="group_create"><title>POST /demographic/group
+Group line · group_create</title>
+<circle cx="580" cy="566" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="568.0" y="571" text-anchor="end" style="fill:#1A1F2C">Update group <tspan font-weight="700" style="fill:#00838F">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-group-api/#op-group_get" target="_blank" class="st" data-op="group_get"><title>GET /demographic/group/{uid_based_id}
+Group line · group_get</title>
+<circle cx="664" cy="482" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="652.0" y="487" text-anchor="end" style="fill:#1A1F2C">Get group</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-group-api/#op-group_update" target="_blank" class="st" data-op="group_update"><title>PUT /demographic/group/{uid_based_id}
+Group line · group_update</title>
+<circle cx="706" cy="482" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="712" y="470" transform="rotate(-45 712 470)" style="fill:#1A1F2C">Update group</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-group-api/#op-group_delete" target="_blank" class="st" data-op="group_delete"><title>DELETE /demographic/group/{uid_based_id}
+Group line · group_delete</title>
+<circle cx="790" cy="482" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="786" y1="486" x2="794" y2="478" stroke="#4A5568" stroke-width="2"/>
+<text x="784" y="494" text-anchor="end" transform="rotate(-45 784 494)" style="fill:#1A1F2C">Delete group</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-health-api/#op-getExtraHealthStartup" target="_blank" class="st" data-op="getExtraHealthStartup"><title>GET /extra/health/startup
+Health line · getExtraHealthStartup</title>
+<circle cx="916" cy="1112" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="922" y="1100" transform="rotate(-45 922 1100)" style="fill:#1A1F2C">Get startup</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-health-api/#op-getExtraHealthLive" target="_blank" class="st" data-op="getExtraHealthLive"><title>GET /extra/health/live
+Health line · getExtraHealthLive</title>
+<circle cx="1126" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1114.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Get live</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-health-api/#op-getExtraHealthReady" target="_blank" class="st" data-op="getExtraHealthReady"><title>GET /extra/health/ready
+Health line · getExtraHealthReady</title>
+<circle cx="958" cy="1112" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="970" y="1117" text-anchor="start" style="fill:#1A1F2C">Get ready</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-demographic_tags_get" target="_blank" class="st" data-op="demographic_tags_get"><title>GET /demographic/tags
+Item Tag line · demographic_tags_get</title>
+<circle cx="664" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="652.0" y="1369" text-anchor="end" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-agent_tags_get" target="_blank" class="st" data-op="agent_tags_get"><title>GET /demographic/agent/{uid_based_id}/tags
+Item Tag line · agent_tags_get</title>
+<circle cx="664" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="673" y="627" text-anchor="start" style="fill:#1A1F2C">List tags <tspan font-weight="700" style="fill:#00838F">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-agent_tags_update" target="_blank" class="st" data-op="agent_tags_update"><title>PUT /demographic/agent/{uid_based_id}/tags
+Item Tag line · agent_tags_update</title>
+<circle cx="748" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="754" y="596" transform="rotate(-45 754 596)" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-agent_tags_delete" target="_blank" class="st" data-op="agent_tags_delete"><title>DELETE /demographic/agent/{uid_based_id}/tags/{key}
+Item Tag line · agent_tags_delete</title>
+<circle cx="832" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="828" y1="612" x2="836" y2="604" stroke="#D6264F" stroke-width="2"/>
+<text x="838" y="596" transform="rotate(-45 838 596)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-group_tags_get" target="_blank" class="st" data-op="group_tags_get"><title>GET /demographic/group/{uid_based_id}/tags
+Item Tag line · group_tags_get</title>
+<circle cx="916" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="613" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-group_tags_update" target="_blank" class="st" data-op="group_tags_update"><title>PUT /demographic/group/{uid_based_id}/tags
+Item Tag line · group_tags_update</title>
+<circle cx="1000" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="697" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-group_tags_delete" target="_blank" class="st" data-op="group_tags_delete"><title>DELETE /demographic/group/{uid_based_id}/tags/{key}
+Item Tag line · group_tags_delete</title>
+<circle cx="1084" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1080" y1="780" x2="1088" y2="772" stroke="#D6264F" stroke-width="2"/>
+<text x="1075.0" y="795" text-anchor="end" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-organisation_tags_get" target="_blank" class="st" data-op="organisation_tags_get"><title>GET /demographic/organisation/{uid_based_id}/tags
+Item Tag line · organisation_tags_get</title>
+<circle cx="1168" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="865" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-organisation_tags_update" target="_blank" class="st" data-op="organisation_tags_update"><title>PUT /demographic/organisation/{uid_based_id}/tags
+Item Tag line · organisation_tags_update</title>
+<circle cx="1168" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="949" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-organisation_tags_delete" target="_blank" class="st" data-op="organisation_tags_delete"><title>DELETE /demographic/organisation/{uid_based_id}/tags/{key}
+Item Tag line · organisation_tags_delete</title>
+<circle cx="1168" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1164" y1="1032" x2="1172" y2="1024" stroke="#D6264F" stroke-width="2"/>
+<text x="1180" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-person_tags_get" target="_blank" class="st" data-op="person_tags_get"><title>GET /demographic/person/{uid_based_id}/tags
+Item Tag line · person_tags_get</title>
+<circle cx="1168" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="1117" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-person_tags_update" target="_blank" class="st" data-op="person_tags_update"><title>PUT /demographic/person/{uid_based_id}/tags
+Item Tag line · person_tags_update</title>
+<circle cx="1084" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1201" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-person_tags_delete" target="_blank" class="st" data-op="person_tags_delete"><title>DELETE /demographic/person/{uid_based_id}/tags/{key}
+Item Tag line · person_tags_delete</title>
+<circle cx="1000" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="996" y1="1284" x2="1004" y2="1276" stroke="#D6264F" stroke-width="2"/>
+<text x="988.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-role_tags_get" target="_blank" class="st" data-op="role_tags_get"><title>GET /demographic/role/{uid_based_id}/tags
+Item Tag line · role_tags_get</title>
+<circle cx="916" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1369" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-role_tags_update" target="_blank" class="st" data-op="role_tags_update"><title>PUT /demographic/role/{uid_based_id}/tags
+Item Tag line · role_tags_update</title>
+<circle cx="832" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="838" y="1352" transform="rotate(-45 838 1352)" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-role_tags_delete" target="_blank" class="st" data-op="role_tags_delete"><title>DELETE /demographic/role/{uid_based_id}/tags/{key}
+Item Tag line · role_tags_delete</title>
+<circle cx="748" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="744" y1="1368" x2="752" y2="1360" stroke="#D6264F" stroke-width="2"/>
+<text x="754" y="1352" transform="rotate(-45 754 1352)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-ehr_tags_get" target="_blank" class="st" data-op="ehr_tags_get"><title>GET /ehr/{ehr_id}/tags
+Item Tag line · ehr_tags_get</title>
+<circle cx="496" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="484.0" y="781" text-anchor="end" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-composition_tags_get" target="_blank" class="st" data-op="composition_tags_get"><title>GET /ehr/{ehr_id}/composition/{uid_based_id}/tags
+Item Tag line · composition_tags_get</title>
+<circle cx="580" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="592" y="1285" text-anchor="start" style="fill:#1A1F2C">List tags <tspan font-weight="700" style="fill:#E07B12">⇄EHR</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-composition_tags_update" target="_blank" class="st" data-op="composition_tags_update"><title>PUT /ehr/{ehr_id}/composition/{uid_based_id}/tags
+Item Tag line · composition_tags_update</title>
+<circle cx="496" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="1201" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-composition_tags_delete" target="_blank" class="st" data-op="composition_tags_delete"><title>DELETE /ehr/{ehr_id}/composition/{uid_based_id}/tags/{key}
+Item Tag line · composition_tags_delete</title>
+<circle cx="412" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="408" y1="1116" x2="416" y2="1108" stroke="#D6264F" stroke-width="2"/>
+<text x="424" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-ehr_status_tags_get" target="_blank" class="st" data-op="ehr_status_tags_get"><title>GET /ehr/{ehr_id}/ehr_status/{uid_based_id}/tags
+Item Tag line · ehr_status_tags_get</title>
+<circle cx="412" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="1033" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-ehr_status_tags_update" target="_blank" class="st" data-op="ehr_status_tags_update"><title>PUT /ehr/{ehr_id}/ehr_status/{uid_based_id}/tags
+Item Tag line · ehr_status_tags_update</title>
+<circle cx="412" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="949" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-item-tag-api/#op-ehr_status_tags_delete" target="_blank" class="st" data-op="ehr_status_tags_delete"><title>DELETE /ehr/{ehr_id}/ehr_status/{uid_based_id}/tags/{key}
+Item Tag line · ehr_status_tags_delete</title>
+<circle cx="412" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="408" y1="864" x2="416" y2="856" stroke="#D6264F" stroke-width="2"/>
+<text x="424" y="865" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-organisation-api/#op-organisation_create" target="_blank" class="st" data-op="organisation_create"><title>POST /demographic/organisation
+Organisation line · organisation_create</title>
+<circle cx="538" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="529.0" y="669" text-anchor="end" style="fill:#1A1F2C">Update organisation</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-organisation-api/#op-organisation_get" target="_blank" class="st" data-op="organisation_get"><title>GET /demographic/organisation/{uid_based_id}
+Organisation line · organisation_get</title>
+<circle cx="748" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="742" y="704" text-anchor="end" transform="rotate(-45 742 704)" style="fill:#1A1F2C">Get organisation</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-organisation-api/#op-organisation_update" target="_blank" class="st" data-op="organisation_update"><title>PUT /demographic/organisation/{uid_based_id}
+Organisation line · organisation_update</title>
+<circle cx="832" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="697" text-anchor="start" style="fill:#1A1F2C">Update organisation</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-organisation-api/#op-organisation_delete" target="_blank" class="st" data-op="organisation_delete"><title>DELETE /demographic/organisation/{uid_based_id}
+Organisation line · organisation_delete</title>
+<circle cx="916" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="912" y1="780" x2="920" y2="772" stroke="#D6264F" stroke-width="2"/>
+<text x="928" y="781" text-anchor="start" style="fill:#1A1F2C">Delete organisation</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-person-api/#op-person_create" target="_blank" class="st" data-op="person_create"><title>POST /demographic/person
+Person line · person_create</title>
+<circle cx="580" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="571.0" y="837" text-anchor="end" style="fill:#1A1F2C">Update person <tspan font-weight="700" style="fill:#00838F">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-person-api/#op-person_get" target="_blank" class="st" data-op="person_get"><title>GET /demographic/person/{uid_based_id}
+Person line · person_get</title>
+<circle cx="664" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="676" y="949" text-anchor="start" style="fill:#1A1F2C">Get person</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-person-api/#op-person_update" target="_blank" class="st" data-op="person_update"><title>PUT /demographic/person/{uid_based_id}
+Person line · person_update</title>
+<circle cx="706" cy="986" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="991" text-anchor="start" style="fill:#1A1F2C">Update person</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-person-api/#op-person_delete" target="_blank" class="st" data-op="person_delete"><title>DELETE /demographic/person/{uid_based_id}
+Person line · person_delete</title>
+<circle cx="790" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="786" y1="1074" x2="794" y2="1066" stroke="#0E9F6E" stroke-width="2"/>
+<text x="802" y="1075" text-anchor="start" style="fill:#1A1F2C">Delete person</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-definition_query_list" target="_blank" class="st" data-op="definition_query_list"><title>GET /definition/query/{qualified_query_name}
+Query line · definition_query_list</title>
+<circle cx="1210" cy="566" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1222" y="571" text-anchor="start" style="fill:#1A1F2C">Get query <tspan font-weight="700" style="fill:#2E7D32">⇄A14</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-definition_query_store.yaml" target="_blank" class="st" data-op="definition_query_store.yaml"><title>PUT /definition/query/{qualified_query_name}
+Query line · definition_query_store.yaml</title>
+<circle cx="1294" cy="482" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="487" text-anchor="start" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-definition_query_version_store.yaml" target="_blank" class="st" data-op="definition_query_version_store.yaml"><title>PUT /definition/query/{qualified_query_name}/{version}
+Query line · definition_query_version_store.yaml</title>
+<circle cx="1294" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="319" text-anchor="start" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-definition_query_version_get" target="_blank" class="st" data-op="definition_query_version_get"><title>GET /definition/query/{qualified_query_name}/{version}
+Query line · definition_query_version_get</title>
+<circle cx="1294" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1306" y="403" text-anchor="start" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-query_execute_adhoc_query" target="_blank" class="st" data-op="query_execute_adhoc_query"><title>GET /query/aql
+Query line · query_execute_adhoc_query</title>
+<circle cx="958" cy="524" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="529" text-anchor="start" style="fill:#1A1F2C">Get aql</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-query_execute_adhoc_query_body" target="_blank" class="st" data-op="query_execute_adhoc_query_body"><title>POST /query/aql
+Query line · query_execute_adhoc_query_body</title>
+<circle cx="1000" cy="566" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1012" y="571" text-anchor="start" style="fill:#1A1F2C">Update aql</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-query_execute_stored_query" target="_blank" class="st" data-op="query_execute_stored_query"><title>GET /query/{qualified_query_name}
+Query line · query_execute_stored_query</title>
+<circle cx="1210" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1222" y="235" text-anchor="start" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-query_execute_stored_query_body" target="_blank" class="st" data-op="query_execute_stored_query_body"><title>POST /query/{qualified_query_name}
+Query line · query_execute_stored_query_body</title>
+<circle cx="1126" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1114.0" y="235" text-anchor="end" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-query_execute_stored_query_version" target="_blank" class="st" data-op="query_execute_stored_query_version"><title>GET /query/{qualified_query_name}/{version}
+Query line · query_execute_stored_query_version</title>
+<circle cx="1042" cy="314" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1054" y="319" text-anchor="start" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-query-api/#op-query_execute_stored_query_version_body" target="_blank" class="st" data-op="query_execute_stored_query_version_body"><title>POST /query/{qualified_query_name}/{version}
+Query line · query_execute_stored_query_version_body</title>
+<circle cx="958" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="403" text-anchor="start" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-role-api/#op-role_create" target="_blank" class="st" data-op="role_create"><title>POST /demographic/role
+Role line · role_create</title>
+<circle cx="454" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="442.0" y="613" text-anchor="end" style="fill:#1A1F2C">Update role <tspan font-weight="700" style="fill:#00838F">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-role-api/#op-role_get" target="_blank" class="st" data-op="role_get"><title>GET /demographic/role/{uid_based_id}
+Role line · role_get</title>
+<circle cx="454" cy="524" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="466" y="529" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-role-api/#op-role_update" target="_blank" class="st" data-op="role_update"><title>PUT /demographic/role/{uid_based_id}
+Role line · role_update</title>
+<circle cx="538" cy="440" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="550" y="445" text-anchor="start" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-role-api/#op-role_delete" target="_blank" class="st" data-op="role_delete"><title>DELETE /demographic/role/{uid_based_id}
+Role line · role_delete</title>
+<circle cx="622" cy="356" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="618" y1="360" x2="626" y2="352" stroke="#1F5FD1" stroke-width="2"/>
+<text x="634" y="361" text-anchor="start" style="fill:#1A1F2C">Delete role</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-terminology-api/#op-getExtraV1TerminologyCode24" target="_blank" class="st" data-op="getExtraV1TerminologyCode24"><title>GET /extra/v1/terminology/code24
+Episode line · getExtraV1TerminologyCode24</title>
+<circle cx="1294" cy="1490" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="1495" text-anchor="start" style="fill:#1A1F2C">Get code24</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-user-api/#op-getExtraV1UserInfo" target="_blank" class="st" data-op="getExtraV1UserInfo"><title>GET /extra/v1/user/info
+Episode line · getExtraV1UserInfo</title>
+<circle cx="1462" cy="1658" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="1663" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-user-api/#op-getExtraV1UserCaseload" target="_blank" class="st" data-op="getExtraV1UserCaseload"><title>GET /extra/v1/user/caseload
+Episode line · getExtraV1UserCaseload</title>
+<circle cx="1378" cy="1574" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1390" y="1579" text-anchor="start" style="fill:#1A1F2C">Get caseload</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-versioned-party-api/#op-versioned_party_get" target="_blank" class="st" data-op="versioned_party_get"><title>GET /demographic/versioned_party/{versioned_object_uid}
+VERSIONED_PARTY line · versioned_party_get</title>
+<circle cx="622" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="622" y="756" text-anchor="middle" style="fill:#1A1F2C">Get versioned<tspan x="622" dy="13">party <tspan font-weight="700" style="fill:#00838F">⇄AGE</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-versioned-party-api/#op-versioned_party_revision_history" target="_blank" class="st" data-op="versioned_party_revision_history"><title>GET /demographic/versioned_party/{versioned_object_uid}/revision_history
+VERSIONED_PARTY line · versioned_party_revision_history</title>
+<circle cx="706" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="715" y="808" text-anchor="start" style="fill:#1A1F2C">Get revision history</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-versioned-party-api/#op-versioned_party_version_get_at_time" target="_blank" class="st" data-op="versioned_party_version_get_at_time"><title>GET /demographic/versioned_party/{versioned_object_uid}/version
+VERSIONED_PARTY line · versioned_party_version_get_at_time</title>
+<circle cx="748" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="760" y="823" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/cadasto/cadasto-versioned-party-api/#op-versioned_party_version_get_by_id" target="_blank" class="st" data-op="versioned_party_version_get_by_id"><title>GET /demographic/versioned_party/{versioned_object_uid}/version/{version_uid}
+VERSIONED_PARTY line · versioned_party_version_get_by_id</title>
+<circle cx="832" cy="902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="844" y="907" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<text x="1778" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1778" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">CADASTO</text>
+<rect x="1778" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1795" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IT</text><text x="1820" y="269" font-size="11" fill="#1A1F2C">Item Tag <tspan fill="#8A93A6">23</tspan></text>
+<rect x="1778" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1795" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EPI</text><text x="1820" y="286" font-size="11" fill="#1A1F2C">Episode <tspan fill="#8A93A6">11</tspan></text>
+<rect x="1778" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1795" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QUE</text><text x="1820" y="303" font-size="11" fill="#1A1F2C">Query <tspan fill="#8A93A6">10</tspan></text>
+<rect x="1778" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1795" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EHR</text><text x="1820" y="320" font-size="11" fill="#1A1F2C">EHR <tspan fill="#8A93A6">9</tspan></text>
+<rect x="1778" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1795" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="1820" y="337" font-size="11" fill="#1A1F2C">Composition <tspan fill="#8A93A6">8</tspan></text>
+<rect x="1778" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="1795" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ES</text><text x="1820" y="354" font-size="11" fill="#1A1F2C">EHR_STATUS <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1778" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1795" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DQ</text><text x="1820" y="371" font-size="11" fill="#1A1F2C">Datamap Query <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1778" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="1795" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DD</text><text x="1820" y="388" font-size="11" fill="#1A1F2C">Datamap Definition <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1778" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="1795" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIR</text><text x="1820" y="405" font-size="11" fill="#1A1F2C">Directory <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1778" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1795" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">A14</text><text x="1820" y="422" font-size="11" fill="#1A1F2C">ADL1.4 <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1795" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">A2</text><text x="1820" y="439" font-size="11" fill="#1A1F2C">ADL2 <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="1795" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="1820" y="456" font-size="11" fill="#1A1F2C">Agent <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="1795" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="1820" y="473" font-size="11" fill="#1A1F2C">Contribution <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="1795" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRO</text><text x="1820" y="490" font-size="11" fill="#1A1F2C">Group <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="1795" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="1820" y="507" font-size="11" fill="#1A1F2C">Organisation <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="514" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1795" y="524" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PER</text><text x="1820" y="524" font-size="11" fill="#1A1F2C">Person <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="531" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1795" y="541" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROL</text><text x="1820" y="541" font-size="11" fill="#1A1F2C">Role <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="548" width="34" height="13" rx="3" fill="#E07B12"/><text x="1795" y="558" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VP</text><text x="1820" y="558" font-size="11" fill="#1A1F2C">VERSIONED_PARTY <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1778" y="565" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1795" y="575" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HEA</text><text x="1820" y="575" font-size="11" fill="#1A1F2C">Health <tspan fill="#8A93A6">3</tspan></text>
+<text x="2028" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2046,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2072" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2046,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2072" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2046,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2072" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2046,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2072" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2046,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2072" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2046,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2072" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2046,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2072" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2046,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2072" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2028" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2028" y="463" font-size="10.5" fill="#5A6275">“Admin” → Episode line · 1 op</text>
+<text x="2028" y="478" font-size="10.5" fill="#5A6275">“Terminology” → Episode line · 1 op</text>
+<text x="2028" y="493" font-size="10.5" fill="#5A6275">“User” → Episode line · 2 ops</text>
+<text x="2028" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2028" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1830" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/cadasto/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

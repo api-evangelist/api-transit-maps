@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1910 1398" width="1910" height="1398" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1910" height="1398" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Brale API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">20 operations as stops · 4 tags as lines · 3 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="680.8" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">BRALE</text>
+<path class="line" data-line="Accounts" d="M580.0,734.0 L580.0,650.0 L580.0,566.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts</title></path>
+<path class="line" data-line="Addresses" d="M1210.0,944.0 L1126.0,944.0 L1042.0,944.0 L958.0,944.0 L874.0,944.0 L804.0,944.0 Q790.0,944.0 780.1,953.9 L757.9,976.1 Q748.0,986.0 748.0,1000.0 L748.0,1070.0 L748.0,1154.0 L748.0,1238.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Addresses</title></path>
+<path class="line" data-line="Automations" d="M160.0,608.0 L272.0,608.0 Q286.0,608.0 286.0,622.0 L286.0,692.0 L286.0,776.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Automations</title></path>
+<path class="line" data-line="Financial Institutions" d="M622.0,230.0 L622.0,314.0 L622.0,398.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Financial Institutions</title></path>
+<line x1="580" y1="734" x2="580.0" y2="768.0" stroke="#1F5FD1" stroke-width="7"/><rect x="556.0" y="757.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Accounts</title></rect><text x="580.0" y="773.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="580" y1="566" x2="580.0" y2="532.0" stroke="#1F5FD1" stroke-width="7"/><rect x="556.0" y="521.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Accounts</title></rect><text x="580.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1210" y1="944" x2="1244.0" y2="944.0" stroke="#D6264F" stroke-width="7"/><rect x="1220.0" y="933.0" width="48" height="22" rx="5" fill="#D6264F"><title>Addresses</title></rect><text x="1244.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ADD</text>
+<line x1="748" y1="1238" x2="748.0" y2="1272.0" stroke="#D6264F" stroke-width="7"/><rect x="724.0" y="1261.0" width="48" height="22" rx="5" fill="#D6264F"><title>Addresses</title></rect><text x="748.0" y="1277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ADD</text>
+<line x1="160" y1="608" x2="126.0" y2="608.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="597.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Automations</title></rect><text x="126.0" y="613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="286" y1="776" x2="286.0" y2="810.0" stroke="#0E9F6E" stroke-width="7"/><rect x="262.0" y="799.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Automations</title></rect><text x="286.0" y="815.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUT</text>
+<line x1="622" y1="230" x2="622.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="598.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Financial Institutions</title></rect><text x="622.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FI</text>
+<line x1="622" y1="398" x2="622.0" y2="432.0" stroke="#E07B12" stroke-width="7"/><rect x="598.0" y="421.0" width="48" height="22" rx="5" fill="#E07B12"><title>Financial Institutions</title></rect><text x="622.0" y="437.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FI</text>
+<a href="https://apis.apis.io/apis/brale/brale-accounts-api/#op-listAccounts" target="_blank" class="st" data-op="listAccounts"><title>GET /accounts
+Accounts line · listAccounts</title>
+<circle cx="580" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="739" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-accounts-api/#op-createAccount" target="_blank" class="st" data-op="createAccount"><title>POST /accounts
+Accounts line · createAccount</title>
+<circle cx="580" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="655" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-accounts-api/#op-getAccount" target="_blank" class="st" data-op="getAccount"><title>GET /accounts/{account_id}
+Accounts line · getAccount</title>
+<circle cx="580" cy="566" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="592" y="571" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-addresses-api/#op-listAddresses" target="_blank" class="st" data-op="listAddresses"><title>GET /accounts/{account_id}/addresses
+Addresses line · listAddresses</title>
+<circle cx="1210" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1204" y="956" text-anchor="end" transform="rotate(-45 1204 956)" style="fill:#1A1F2C">List addresses <tspan font-weight="700" style="fill:#1F5FD1">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-addresses-api/#op-createAddress" target="_blank" class="st" data-op="createAddress"><title>POST /accounts/{account_id}/addresses/external
+Addresses line · createAddress</title>
+<circle cx="1042" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1048" y="932" transform="rotate(-45 1048 932)" style="fill:#1A1F2C">Update external</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-addresses-api/#op-createInternalAddress" target="_blank" class="st" data-op="createInternalAddress"><title>POST /accounts/{account_id}/addresses/internal
+Addresses line · createInternalAddress</title>
+<circle cx="958" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="932" transform="rotate(-45 964 932)" style="fill:#1A1F2C">Update internal</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-addresses-api/#op-getAddress" target="_blank" class="st" data-op="getAddress"><title>GET /accounts/{account_id}/addresses/{address_id}
+Addresses line · getAddress</title>
+<circle cx="1126" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1132" y="932" transform="rotate(-45 1132 932)" style="fill:#1A1F2C">Get address</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-addresses-api/#op-get_address_balance" target="_blank" class="st" data-op="get_address_balance"><title>GET /accounts/{account_id}/addresses/{address_id}/balance
+Addresses line · get_address_balance</title>
+<circle cx="874" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="880" y="932" transform="rotate(-45 880 932)" style="fill:#1A1F2C">Get balance</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-automations-api/#op-createAutomations" target="_blank" class="st" data-op="createAutomations"><title>POST /accounts/{account_id}/automations
+Automations line · createAutomations</title>
+<circle cx="286" cy="608" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="613" text-anchor="start" style="fill:#1A1F2C">Create automation</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-automations-api/#op-listAutomations" target="_blank" class="st" data-op="listAutomations"><title>GET /accounts/{account_id}/automations
+Automations line · listAutomations</title>
+<circle cx="160" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="166" y="596" transform="rotate(-45 166 596)" style="fill:#1A1F2C">List automations <tspan font-weight="700" style="fill:#1F5FD1">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-automations-api/#op-getAutomations" target="_blank" class="st" data-op="getAutomations"><title>GET /accounts/{account_id}/automations/{id}
+Automations line · getAutomations</title>
+<circle cx="286" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="697" text-anchor="start" style="fill:#1A1F2C">Get automation</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-automations-api/#op-simulate_automation_deposit" target="_blank" class="st" data-op="simulate_automation_deposit"><title>POST /accounts/{account_id}/automations/{automation_id}/simulations/deposits
+Automations line · simulate_automation_deposit</title>
+<circle cx="286" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="781" text-anchor="start" style="fill:#1A1F2C">Create deposit</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-financial-institutions-api/#op-ListFinancialInstitutions" target="_blank" class="st" data-op="ListFinancialInstitutions"><title>GET /accounts/{account_id}/financial-institutions
+Financial Institutions line · ListFinancialInstitutions
+DEPRECATED</title>
+<circle cx="622" cy="230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="634" y="235" text-anchor="start" style="fill:#A0A7B4">List financial institutions <tspan font-weight="700" style="fill:#1F5FD1">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-financial-institutions-api/#op-createFinancialInstitution" target="_blank" class="st" data-op="createFinancialInstitution"><title>POST /accounts/{account_id}/financial-institutions/external
+Financial Institutions line · createFinancialInstitution
+DEPRECATED</title>
+<circle cx="622" cy="398" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="634" y="403" text-anchor="start" style="fill:#A0A7B4">Update external</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-financial-institutions-api/#op-getFinancialInstitution" target="_blank" class="st" data-op="getFinancialInstitution"><title>GET /accounts/{account_id}/financial-institutions/{id}
+Financial Institutions line · getFinancialInstitution
+DEPRECATED</title>
+<circle cx="622" cy="314" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="634" y="319" text-anchor="start" style="fill:#A0A7B4">Get financial institution</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-orders-api/#op-listTransfers" target="_blank" class="st" data-op="brale-orders-api:listTransfers"><title>GET /accounts/{account_id}/transfers
+Addresses line · listTransfers</title>
+<circle cx="748" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1075" text-anchor="start" style="fill:#1A1F2C">List transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-orders-api/#op-createTransfer" target="_blank" class="st" data-op="brale-orders-api:createTransfer"><title>POST /accounts/{account_id}/transfers
+Addresses line · createTransfer</title>
+<circle cx="748" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1159" text-anchor="start" style="fill:#1A1F2C">Create transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-plaid-api/#op-postAccountsByAccountIdPlaidLinkToken" target="_blank" class="st" data-op="postAccountsByAccountIdPlaidLinkToken"><title>POST /accounts/{account_id}/plaid/link_token
+Addresses line · postAccountsByAccountIdPlaidLinkToken</title>
+<circle cx="790" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="778.0" y="949" text-anchor="end" style="fill:#1A1F2C">Update link token</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-plaid-api/#op-postAccountsByAccountIdPlaidRegisterAccount" target="_blank" class="st" data-op="postAccountsByAccountIdPlaidRegisterAccount"><title>POST /accounts/{account_id}/plaid/register-account
+Addresses line · postAccountsByAccountIdPlaidRegisterAccount</title>
+<circle cx="748" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="991" text-anchor="start" style="fill:#1A1F2C">Update register account</text>
+</a>
+<a href="https://apis.apis.io/apis/brale/brale-transfers-api/#op-getTransfer" target="_blank" class="st" data-op="getTransfer"><title>GET /accounts/{account_id}/transfers/{id}
+Addresses line · getTransfer</title>
+<circle cx="748" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="1243" text-anchor="start" style="fill:#1A1F2C">Get transfer</text>
+</a>
+<text x="1400" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1400" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">BRALE</text>
+<rect x="1400" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1417" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ADD</text><text x="1442" y="269" font-size="11" fill="#1A1F2C">Addresses <tspan fill="#8A93A6">10</tspan></text>
+<rect x="1400" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1417" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AUT</text><text x="1442" y="286" font-size="11" fill="#1A1F2C">Automations <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1400" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1417" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="1442" y="303" font-size="11" fill="#1A1F2C">Accounts <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1400" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1417" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FI</text><text x="1442" y="320" font-size="11" fill="#1A1F2C">Financial Institutions <tspan fill="#8A93A6">3</tspan></text>
+<text x="1650" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1668,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1694" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1668,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1694" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1668,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1694" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1668,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1694" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1668,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1694" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1668,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1694" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1668,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1694" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1668,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1694" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1650" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1650" y="463" font-size="10.5" fill="#5A6275">“Orders” → Addresses line · 2 ops</text>
+<text x="1650" y="478" font-size="10.5" fill="#5A6275">“Plaid” → Addresses line · 2 ops</text>
+<text x="1650" y="493" font-size="10.5" fill="#5A6275">“Transfers” → Addresses line · 1 op</text>
+<text x="1650" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1650" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1368" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/brale/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
