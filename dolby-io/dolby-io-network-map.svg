@@ -1,0 +1,554 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2792 1524" width="2792" height="1524" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2792" height="1524" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Dolby-Io API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">82 operations as stops · 10 tags as lines · 9 interchanges · 11 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="748" y1="1112" x2="790" y2="1070" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="748" y1="1112" x2="790" y2="1070" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="454" y1="440" x2="496" y2="440" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="454" y1="440" x2="496" y2="440" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Channels" d="M832.0,356.0 L916.0,356.0 L1000.0,356.0 L1084.0,356.0 L1154.0,356.0 Q1168.0,356.0 1177.9,365.9 L1252.0,440.0 L1336.0,524.0 L1410.1,598.1 Q1420.0,608.0 1420.0,622.0 L1420.0,692.0 L1420.0,776.0 L1420.0,860.0 L1420.0,930.0 Q1420.0,944.0 1410.1,953.9 L1336.0,1028.0 L1252.0,1112.0 L1177.9,1186.1 Q1168.0,1196.0 1154.0,1196.0 L1084.0,1196.0 L1000.0,1196.0 L916.0,1196.0 L846.0,1196.0 Q832.0,1196.0 822.1,1186.1 L748.0,1112.0 L664.0,1028.0 L589.9,953.9 Q580.0,944.0 580.0,930.0 L580.0,860.0 L580.0,776.0 L580.0,706.0 Q580.0,692.0 589.9,682.1 L664.0,608.0 L748.0,524.0 L822.1,449.9 Q832.0,440.0 832.0,426.0 L832.0,356.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Channels</title></path>
+<path class="line" data-line="Custom Endpoints" d="M1084.0,1112.0 L1051.9,1079.9 Q1042.0,1070.0 1042.0,1056.0 L1042.0,944.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Custom Endpoints</title></path>
+<path class="line" data-line="Distributions" d="M916.0,1280.0 L990.1,1354.1 Q1000.0,1364.0 1014.0,1364.0 L1084.0,1364.0 L1168.0,1364.0 L1238.0,1364.0 Q1252.0,1364.0 1261.9,1354.1 L1284.1,1331.9 Q1294.0,1322.0 1294.0,1308.0 L1294.0,1210.0 Q1294.0,1196.0 1303.9,1186.1 L1378.0,1112.0 L1420.0,1070.0 L1504.0,986.0 L1536.1,953.9 Q1546.0,944.0 1560.0,944.0 L1630.0,944.0 L1742.0,944.0 Q1756.0,944.0 1765.9,934.1 L1788.1,911.9 Q1798.0,902.0 1812.0,902.0 L1924.0,902.0 L2008.0,902.0 L2092.0,902.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Distributions</title></path>
+<path class="line" data-line="Engines" d="M790.0,1070.0 L864.1,995.9 Q874.0,986.0 874.0,972.0 L874.0,958.0 Q874.0,944.0 883.9,934.1 L958.0,860.0 L1042.0,776.0 L1126.0,692.0 L1168.0,650.0 L1210.0,608.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Engines</title></path>
+<path class="line" data-line="Ingests" d="M664.0,902.0 L738.1,827.9 Q748.0,818.0 762.0,818.0 L776.0,818.0 Q790.0,818.0 790.0,832.0 L790.0,930.0 Q790.0,944.0 776.0,944.0 L748.0,944.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ingests</title></path>
+<path class="line" data-line="PublishToken" d="M454.0,818.0 L454.0,930.0 Q454.0,944.0 444.1,953.9 L421.9,976.1 Q412.0,986.0 402.1,976.1 L379.9,953.9 Q370.0,944.0 356.0,944.0 L244.0,944.0 L160.0,944.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PublishToken</title></path>
+<path class="line" data-line="SubscribeToken" d="M916.0,608.0 L1000.0,524.0 L1042.0,482.0 L1074.1,449.9 Q1084.0,440.0 1084.0,426.0 L1084.0,230.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SubscribeToken</title></path>
+<path class="line" data-line="Webhook" d="M454.0,440.0 L454.0,566.0 L454.0,650.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhook</title></path>
+<path class="line" data-line="Webhooks" d="M496.0,440.0 L570.1,514.1 Q580.0,524.0 589.9,514.1 L612.1,491.9 Q622.0,482.0 622.0,468.0 L622.0,356.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="Dolby Io Local" d="M874.0,230.0 L874.0,426.0 Q874.0,440.0 860.0,440.0 L846.0,440.0 Q832.0,440.0 822.1,430.1 L757.9,365.9 Q748.0,356.0 748.0,342.0 L748.0,272.0" fill="none" stroke="#0B7A75" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Dolby Io Local</title></path>
+<rect x="802" y="303" width="60" height="26" rx="13" fill="#D6264F"/><text x="832" y="321" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CHA</text>
+<line x1="1084" y1="1112" x2="1108.0416305603426" y2="1136.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1084.0416305603426" y="1125.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Custom Endpoints</title></rect><text x="1108.0416305603426" y="1141.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CE</text>
+<line x1="1042" y1="944" x2="1042.0" y2="910.0" stroke="#C2410C" stroke-width="7"/><rect x="1018.0" y="899.0" width="48" height="22" rx="5" fill="#C2410C"><title>Custom Endpoints</title></rect><text x="1042.0" y="915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CE</text>
+<line x1="916" y1="1280" x2="891.9583694396574" y2="1255.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="867.9583694396574" y="1244.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Distributions</title></rect><text x="891.9583694396574" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="2092" y1="902" x2="2126.0" y2="902.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2102.0" y="891.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Distributions</title></rect><text x="2126.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="790" y1="1070" x2="747.5735931288071" y2="1075.6568542494924" stroke="#1F5FD1" stroke-width="7"/><rect x="723.5735931288071" y="1064.6568542494924" width="48" height="22" rx="5" fill="#1F5FD1"><title>Engines</title></rect><text x="747.5735931288071" y="1080.6568542494924" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENG</text>
+<line x1="1210" y1="608" x2="1234.0416305603426" y2="583.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1210.0416305603426" y="572.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Engines</title></rect><text x="1234.0416305603426" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENG</text>
+<line x1="664" y1="902" x2="639.9583694396574" y2="926.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="615.9583694396574" y="915.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Ingests</title></rect><text x="639.9583694396574" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ING</text>
+<line x1="748" y1="944" x2="714.0" y2="944.0" stroke="#7B3FE4" stroke-width="7"/><rect x="690.0" y="933.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Ingests</title></rect><text x="714.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ING</text>
+<line x1="454" y1="818" x2="454.0" y2="784.0" stroke="#E07B12" stroke-width="7"/><rect x="430.0" y="773.0" width="48" height="22" rx="5" fill="#E07B12"><title>PublishToken</title></rect><text x="454.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PT</text>
+<line x1="160" y1="944" x2="126.0" y2="944.0" stroke="#E07B12" stroke-width="7"/><rect x="102.0" y="933.0" width="48" height="22" rx="5" fill="#E07B12"><title>PublishToken</title></rect><text x="126.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PT</text>
+<line x1="916" y1="608" x2="891.9583694396574" y2="632.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="867.9583694396574" y="621.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>SubscribeToken</title></rect><text x="891.9583694396574" y="637.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ST</text>
+<line x1="1084" y1="230" x2="1084.0" y2="196.0" stroke="#B0287F" stroke-width="7"/><rect x="1060.0" y="185.0" width="48" height="22" rx="5" fill="#B0287F"><title>SubscribeToken</title></rect><text x="1084.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ST</text>
+<line x1="454" y1="440" x2="454.0" y2="406.0" stroke="#2E7D32" stroke-width="7"/><rect x="430.0" y="395.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Webhook</title></rect><text x="454.0" y="411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WBH</text>
+<line x1="454" y1="650" x2="454.0" y2="684.0" stroke="#2E7D32" stroke-width="7"/><rect x="430.0" y="673.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Webhook</title></rect><text x="454.0" y="689.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WBH</text>
+<line x1="496" y1="440" x2="517.2132034355964" y2="418.7867965644036" stroke="#B8860B" stroke-width="7"/><rect x="493.21320343559637" y="407.7867965644036" width="48" height="22" rx="5" fill="#B8860B"><title>Webhooks</title></rect><text x="517.2132034355964" y="423.7867965644036" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="622" y1="356" x2="622.0" y2="322.0" stroke="#B8860B" stroke-width="7"/><rect x="598.0" y="311.0" width="48" height="22" rx="5" fill="#B8860B"><title>Webhooks</title></rect><text x="622.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="874" y1="230" x2="874.0" y2="196.0" stroke="#0B7A75" stroke-width="7"/><rect x="850.0" y="185.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Dolby Io Local</title></rect><text x="874.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIL</text>
+<line x1="748" y1="272" x2="748.0" y2="238.0" stroke="#0B7A75" stroke-width="7"/><rect x="724.0" y="227.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Dolby Io Local</title></rect><text x="748.0" y="243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIL</text>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-abr-ladders-api/#op-get-abr-ladders" target="_blank" class="st" data-op="get-abr-ladders"><title>GET /abr
+Dolby Io Local line · get-abr-ladders</title>
+<circle cx="874" cy="230" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="886" y="235" text-anchor="start" style="fill:#1A1F2C">Get abr</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-analytics-api/#op-getAnalyticsTrackingTotal" target="_blank" class="st" data-op="getAnalyticsTrackingTotal"><title>GET /analytics/tracking/total
+Dolby Io Local line · getAnalyticsTrackingTotal</title>
+<circle cx="874" cy="440" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="886" y="445" text-anchor="start" style="fill:#1A1F2C">Get total</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channels" target="_blank" class="st" data-op="get-channels"><title>GET /channels
+Channels line · get-channels</title>
+<circle cx="832" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="841" y="346" text-anchor="start" style="fill:#1A1F2C">List channels</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-create-channel" target="_blank" class="st" data-op="create-channel"><title>POST /channels
+Channels line · create-channel
+Express: X5</title>
+<circle cx="916" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="913" y="353" width="6" height="6" transform="rotate(45 916 356)" fill="#1A1F2C"/>
+<text x="925" y="346" text-anchor="start" style="fill:#1A1F2C">Create channel</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel" target="_blank" class="st" data-op="get-channel"><title>GET /channels/{id}
+Channels line · get-channel
+Express: X1, X2, X5, X10, X11</title>
+<circle cx="1000" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="997" y="353" width="6" height="6" transform="rotate(45 1000 356)" fill="#1A1F2C"/>
+<text x="994" y="368" text-anchor="end" transform="rotate(-45 994 368)" style="fill:#1A1F2C">Get channel</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-update-channel" target="_blank" class="st" data-op="update-channel"><title>PATCH /channels/{id}
+Channels line · update-channel</title>
+<circle cx="1084" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1090" y="344" transform="rotate(-45 1090 344)" style="fill:#1A1F2C">Update channel</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-delete-channel" target="_blank" class="st" data-op="delete-channel"><title>DELETE /channels/{id}
+Channels line · delete-channel
+Express: X11</title>
+<circle cx="1168" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1164" y1="360" x2="1172" y2="352" stroke="#D6264F" stroke-width="2"/>
+<rect x="1165" y="353" width="6" height="6" transform="rotate(45 1168 356)" fill="#1A1F2C"/>
+<text x="1180" y="361" text-anchor="start" style="fill:#1A1F2C">Delete channel</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-start-channel" target="_blank" class="st" data-op="start-channel"><title>POST /channels/{id}/start
+Channels line · start-channel
+Express: X1, X5</title>
+<circle cx="664" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="605" width="6" height="6" transform="rotate(45 664 608)" fill="#1A1F2C"/>
+<text x="676" y="613" text-anchor="start" style="fill:#1A1F2C">Start channels</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-stop-channel" target="_blank" class="st" data-op="stop-channel"><title>POST /channels/{id}/stop
+Channels line · stop-channel
+Express: X10, X11</title>
+<circle cx="748" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="745" y="521" width="6" height="6" transform="rotate(45 748 524)" fill="#1A1F2C"/>
+<text x="760" y="529" text-anchor="start" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-ingests" target="_blank" class="st" data-op="dolby-io-channels-api:get-channel-ingests"><title>GET /channels/{id}/ingests
+Channels line · get-channel-ingests</title>
+<circle cx="580" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="571.0" y="963" text-anchor="end" style="fill:#1A1F2C">List ingests <tspan font-weight="700" style="fill:#7B3FE4">⇄ING</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-create-channel-ingest" target="_blank" class="st" data-op="dolby-io-channels-api:create-channel-ingest"><title>POST /channels/{id}/ingests
+Channels line · create-channel-ingest
+Express: X1</title>
+<circle cx="580" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="857" width="6" height="6" transform="rotate(45 580 860)" fill="#1A1F2C"/>
+<text x="592" y="865" text-anchor="start" style="fill:#1A1F2C">Create ingest</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-engines" target="_blank" class="st" data-op="dolby-io-channels-api:get-channel-engines"><title>GET /channels/{id}/engines
+Channels line · get-channel-engines
+Express: X4, X9</title>
+<circle cx="748" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="745" y="1109" width="6" height="6" transform="rotate(45 748 1112)" fill="#1A1F2C"/>
+<text x="760" y="1117" text-anchor="start" style="fill:#1A1F2C">List engines</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-create-channel-engine" target="_blank" class="st" data-op="dolby-io-channels-api:create-channel-engine"><title>POST /channels/{id}/engines
+Channels line · create-channel-engine
+Express: X1</title>
+<circle cx="664" cy="1028" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="661" y="1025" width="6" height="6" transform="rotate(45 664 1028)" fill="#1A1F2C"/>
+<text x="676" y="1033" text-anchor="start" style="fill:#1A1F2C">Create engine <tspan font-weight="700" style="fill:#0B7A75">⇄DIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-distributions" target="_blank" class="st" data-op="dolby-io-channels-api:get-channel-distributions"><title>GET /channels/{id}/distributions
+Channels line · get-channel-distributions</title>
+<circle cx="916" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="922" y="1184" transform="rotate(-45 922 1184)" style="fill:#1A1F2C">List distributions <tspan font-weight="700" style="fill:#0E9F6E">⇄DIS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-create-channel-distribution" target="_blank" class="st" data-op="dolby-io-channels-api:create-channel-distribution"><title>POST /channels/{id}/distributions
+Channels line · create-channel-distribution
+Express: X8</title>
+<circle cx="832" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="829" y="1193" width="6" height="6" transform="rotate(45 832 1196)" fill="#1A1F2C"/>
+<text x="820.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Create distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-send-channel-instream-metadata" target="_blank" class="st" data-op="send-channel-instream-metadata"><title>POST /channels/{id}/instream-metadata/{uuid}
+Channels line · send-channel-instream-metadata</title>
+<circle cx="580" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="781" text-anchor="start" style="fill:#1A1F2C">Update instream metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-runs" target="_blank" class="st" data-op="get-channel-runs"><title>GET /channels/{id}/runs
+Channels line · get-channel-runs
+Express: X2</title>
+<circle cx="580" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="689" width="6" height="6" transform="rotate(45 580 692)" fill="#1A1F2C"/>
+<text x="592" y="697" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-transcoding-minutes" target="_blank" class="st" data-op="get-channel-transcoding-minutes"><title>GET /channels/{id}/analytics/transcoding-minutes
+Channels line · get-channel-transcoding-minutes
+Express: X2</title>
+<circle cx="1420" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1417" y="941" width="6" height="6" transform="rotate(45 1420 944)" fill="#1A1F2C"/>
+<text x="1408.0" y="949" text-anchor="end" style="fill:#1A1F2C">List transcoding minutes</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-viewing-minutes" target="_blank" class="st" data-op="get-channel-viewing-minutes"><title>GET /channels/{id}/analytics/viewing-minutes
+Channels line · get-channel-viewing-minutes</title>
+<circle cx="1336" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1324.0" y="1033" text-anchor="end" style="fill:#1A1F2C">List viewing minutes</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-bytes-transferred" target="_blank" class="st" data-op="get-channel-bytes-transferred"><title>GET /channels/{id}/analytics/bytes-transferred
+Channels line · get-channel-bytes-transferred</title>
+<circle cx="1252" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="445" text-anchor="start" style="fill:#1A1F2C">Get bytes transferred</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-viewing-minutes-browsers" target="_blank" class="st" data-op="get-channel-viewing-minutes-browsers"><title>GET /channels/{id}/analytics/viewing-minutes/browsers
+Channels line · get-channel-viewing-minutes-browsers</title>
+<circle cx="1252" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="1117" text-anchor="start" style="fill:#1A1F2C">List browsers</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-viewing-minutes-countries" target="_blank" class="st" data-op="get-channel-viewing-minutes-countries"><title>GET /channels/{id}/analytics/viewing-minutes/countries
+Channels line · get-channel-viewing-minutes-countries</title>
+<circle cx="1168" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="1201" text-anchor="start" style="fill:#1A1F2C">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-bytes-transferred-browsers" target="_blank" class="st" data-op="get-channel-bytes-transferred-browsers"><title>GET /channels/{id}/analytics/bytes-transferred/browsers
+Channels line · get-channel-bytes-transferred-browsers</title>
+<circle cx="1336" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="529" text-anchor="start" style="fill:#1A1F2C">List browsers</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-bytes-transferred-countries" target="_blank" class="st" data-op="get-channel-bytes-transferred-countries"><title>GET /channels/{id}/analytics/bytes-transferred/countries
+Channels line · get-channel-bytes-transferred-countries</title>
+<circle cx="1420" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="613" text-anchor="start" style="fill:#1A1F2C">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-insights-countries" target="_blank" class="st" data-op="get-channel-insights-countries"><title>GET /channels/{id}/analytics/insights/countries
+Channels line · get-channel-insights-countries</title>
+<circle cx="1420" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="781" text-anchor="start" style="fill:#1A1F2C">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-insights-browsers-os" target="_blank" class="st" data-op="get-channel-insights-browsers-os"><title>GET /channels/{id}/analytics/insights/browsers-os
+Channels line · get-channel-insights-browsers-os</title>
+<circle cx="1420" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="697" text-anchor="start" style="fill:#1A1F2C">List browsers os</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-insights-viewers" target="_blank" class="st" data-op="get-channel-insights-viewers"><title>GET /channels/{id}/analytics/insights/viewers
+Channels line · get-channel-insights-viewers</title>
+<circle cx="1420" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="865" text-anchor="start" style="fill:#1A1F2C">List viewers</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-create-custom-endpoint" target="_blank" class="st" data-op="dolby-io-channels-api:create-custom-endpoint"><title>POST /channels/{id}/custom-endpoints
+Channels line · create-custom-endpoint</title>
+<circle cx="1000" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1000" y="1168" text-anchor="middle" style="fill:#1A1F2C">Create custom<tspan x="1000" dy="13">endpoint</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-channels-api/#op-get-channel-custom-endpoints" target="_blank" class="st" data-op="dolby-io-channels-api:get-channel-custom-endpoints"><title>GET /channels/{id}/custom-endpoints
+Channels line · get-channel-custom-endpoints</title>
+<circle cx="1084" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1078" y="1208" text-anchor="end" transform="rotate(-45 1078 1208)" style="fill:#1A1F2C">List custom endpoints <tspan font-weight="700" style="fill:#C2410C">⇄CE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-cluster-api/#op-getCluster" target="_blank" class="st" data-op="getCluster"><title>GET /cluster
+Dolby Io Local line · getCluster
+Express: X6</title>
+<circle cx="832" cy="440" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="829" y="437" width="6" height="6" transform="rotate(45 832 440)" fill="#1A1F2C"/>
+<text x="820.0" y="445" text-anchor="end" style="fill:#1A1F2C">Get cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-custom-endpoint-providers-api/#op-get-custom-endpoint-providers" target="_blank" class="st" data-op="get-custom-endpoint-providers"><title>GET /custom-endpoint-providers
+Dolby Io Local line · get-custom-endpoint-providers</title>
+<circle cx="748" cy="356" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="748" y="328" text-anchor="middle" style="fill:#1A1F2C">List custom<tspan x="748" dy="13">endpoint providers</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-custom-endpoints-api/#op-get-custom-endpoint" target="_blank" class="st" data-op="get-custom-endpoint"><title>GET /custom-endpoints/{id}
+Custom Endpoints line · get-custom-endpoint</title>
+<circle cx="1084" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="1117" text-anchor="start" style="fill:#1A1F2C">Get custom endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-custom-endpoints-api/#op-update-custom-endpoint" target="_blank" class="st" data-op="update-custom-endpoint"><title>PATCH /custom-endpoints/{id}
+Custom Endpoints line · update-custom-endpoint</title>
+<circle cx="1042" cy="1070" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1054" y="1075" text-anchor="start" style="fill:#1A1F2C">Update custom endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-custom-endpoints-api/#op-delete-custom-endpoint" target="_blank" class="st" data-op="delete-custom-endpoint"><title>DELETE /custom-endpoints/{id}
+Custom Endpoints line · delete-custom-endpoint</title>
+<circle cx="1042" cy="944" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1038" y1="948" x2="1046" y2="940" stroke="#C2410C" stroke-width="2"/>
+<text x="1054" y="949" text-anchor="start" style="fill:#1A1F2C">Delete custom endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution" target="_blank" class="st" data-op="get-distribution"><title>GET /distributions/{id}
+Distributions line · get-distribution</title>
+<circle cx="916" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="904.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Get distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-update-distribution" target="_blank" class="st" data-op="update-distribution"><title>PATCH /distributions/{id}
+Distributions line · update-distribution</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="988.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Update distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-delete-distribution" target="_blank" class="st" data-op="delete-distribution"><title>DELETE /distributions/{id}
+Distributions line · delete-distribution</title>
+<circle cx="1084" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1080" y1="1368" x2="1088" y2="1360" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1090" y="1352" transform="rotate(-45 1090 1352)" style="fill:#1A1F2C">Delete distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-security-keys" target="_blank" class="st" data-op="get-distribution-security-keys"><title>GET /distributions/{id}/security/keys
+Distributions line · get-distribution-security-keys</title>
+<circle cx="1756" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="949" text-anchor="start" style="fill:#1A1F2C">List keys</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-create-distribution-security-key" target="_blank" class="st" data-op="create-distribution-security-key"><title>POST /distributions/{id}/security/keys
+Distributions line · create-distribution-security-key
+Express: X8</title>
+<circle cx="1798" cy="902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1795" y="899" width="6" height="6" transform="rotate(45 1798 902)" fill="#1A1F2C"/>
+<text x="1786.0" y="907" text-anchor="end" style="fill:#1A1F2C">Create key</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-delete-all-distribution-security-keys" target="_blank" class="st" data-op="delete-all-distribution-security-keys"><title>DELETE /distributions/{id}/security/keys
+Distributions line · delete-all-distribution-security-keys</title>
+<circle cx="1924" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1920" y1="906" x2="1928" y2="898" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1930" y="890" transform="rotate(-45 1930 890)" style="fill:#1A1F2C">Delete key</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-security-key" target="_blank" class="st" data-op="get-distribution-security-key"><title>GET /distributions/{id}/security/keys/{keyId}
+Distributions line · get-distribution-security-key</title>
+<circle cx="2008" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2014" y="890" transform="rotate(-45 2014 890)" style="fill:#1A1F2C">Get key</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-delete-distribution-security-key" target="_blank" class="st" data-op="delete-distribution-security-key"><title>DELETE /distributions/{id}/security/keys/{keyId}
+Distributions line · delete-distribution-security-key</title>
+<circle cx="2092" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2088" y1="906" x2="2096" y2="898" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2086" y="914" text-anchor="end" transform="rotate(-45 2086 914)" style="fill:#1A1F2C">Delete key</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-viewing-minutes" target="_blank" class="st" data-op="get-distribution-viewing-minutes"><title>GET /distributions/{id}/analytics/viewing-minutes
+Distributions line · get-distribution-viewing-minutes</title>
+<circle cx="1504" cy="986" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1516" y="991" text-anchor="start" style="fill:#1A1F2C">List viewing minutes</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-bytes-transferred" target="_blank" class="st" data-op="get-distribution-bytes-transferred"><title>GET /distributions/{id}/analytics/bytes-transferred
+Distributions line · get-distribution-bytes-transferred</title>
+<circle cx="1168" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1174" y="1352" transform="rotate(-45 1174 1352)" style="fill:#1A1F2C">Get bytes transferred</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-viewing-minutes-browsers" target="_blank" class="st" data-op="get-distribution-viewing-minutes-browsers"><title>GET /distributions/{id}/analytics/viewing-minutes/browsers
+Distributions line · get-distribution-viewing-minutes-browsers</title>
+<circle cx="1546" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1534.0" y="949" text-anchor="end" style="fill:#1A1F2C">List browsers</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-viewing-minutes-countries" target="_blank" class="st" data-op="get-distribution-viewing-minutes-countries"><title>GET /distributions/{id}/analytics/viewing-minutes/countries
+Distributions line · get-distribution-viewing-minutes-countries</title>
+<circle cx="1630" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1636" y="932" transform="rotate(-45 1636 932)" style="fill:#1A1F2C">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-bytes-transferred-browsers" target="_blank" class="st" data-op="get-distribution-bytes-transferred-browsers"><title>GET /distributions/{id}/analytics/bytes-transferred/browsers
+Distributions line · get-distribution-bytes-transferred-browsers</title>
+<circle cx="1252" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1264" y="1369" text-anchor="start" style="fill:#1A1F2C">List browsers</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-bytes-transferred-countries" target="_blank" class="st" data-op="get-distribution-bytes-transferred-countries"><title>GET /distributions/{id}/analytics/bytes-transferred/countries
+Distributions line · get-distribution-bytes-transferred-countries</title>
+<circle cx="1294" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="1327" text-anchor="start" style="fill:#1A1F2C">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-insights-countries" target="_blank" class="st" data-op="get-distribution-insights-countries"><title>GET /distributions/{id}/analytics/insights/countries
+Distributions line · get-distribution-insights-countries</title>
+<circle cx="1378" cy="1112" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1390" y="1117" text-anchor="start" style="fill:#1A1F2C">List countries</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-insights-browsers-os" target="_blank" class="st" data-op="get-distribution-insights-browsers-os"><title>GET /distributions/{id}/analytics/insights/browsers-os
+Distributions line · get-distribution-insights-browsers-os</title>
+<circle cx="1294" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="1201" text-anchor="start" style="fill:#1A1F2C">List browsers os</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-distributions-api/#op-get-distribution-insights-viewers" target="_blank" class="st" data-op="get-distribution-insights-viewers"><title>GET /distributions/{id}/analytics/insights/viewers
+Distributions line · get-distribution-insights-viewers</title>
+<circle cx="1420" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1075" text-anchor="start" style="fill:#1A1F2C">List viewers</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-get-engine" target="_blank" class="st" data-op="get-engine"><title>GET /engines/{id}
+Engines line · get-engine
+Express: X9</title>
+<circle cx="790" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="787" y="1067" width="6" height="6" transform="rotate(45 790 1070)" fill="#1A1F2C"/>
+<text x="802" y="1075" text-anchor="start" style="fill:#1A1F2C">Get engine</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-update-engine" target="_blank" class="st" data-op="update-engine"><title>PATCH /engines/{id}
+Engines line · update-engine</title>
+<circle cx="874" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="886" y="949" text-anchor="start" style="fill:#1A1F2C">Update engine <tspan font-weight="700" style="fill:#0B7A75">⇄DIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-delete-engine" target="_blank" class="st" data-op="delete-engine"><title>DELETE /engines/{id}
+Engines line · delete-engine</title>
+<circle cx="958" cy="860" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="954" y1="864" x2="962" y2="856" stroke="#1F5FD1" stroke-width="2"/>
+<text x="970" y="865" text-anchor="start" style="fill:#1A1F2C">Delete engine</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-start-engine" target="_blank" class="st" data-op="start-engine"><title>POST /engines/{id}/start
+Engines line · start-engine
+Express: X9</title>
+<circle cx="1168" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1165" y="647" width="6" height="6" transform="rotate(45 1168 650)" fill="#1A1F2C"/>
+<text x="1180" y="655" text-anchor="start" style="fill:#1A1F2C">Start engines</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-stop-engine" target="_blank" class="st" data-op="stop-engine"><title>POST /engines/{id}/stop
+Engines line · stop-engine</title>
+<circle cx="1210" cy="608" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1222" y="613" text-anchor="start" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-get-engine-last-run" target="_blank" class="st" data-op="get-engine-last-run"><title>GET /engines/{id}/last-run
+Engines line · get-engine-last-run
+Express: X4</title>
+<circle cx="1042" cy="776" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1039" y="773" width="6" height="6" transform="rotate(45 1042 776)" fill="#1A1F2C"/>
+<text x="1054" y="781" text-anchor="start" style="fill:#1A1F2C">Get last run</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-engines-api/#op-get-engine-runs" target="_blank" class="st" data-op="get-engine-runs"><title>GET /engines/{id}/runs
+Engines line · get-engine-runs
+Express: X4</title>
+<circle cx="1126" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1123" y="689" width="6" height="6" transform="rotate(45 1126 692)" fill="#1A1F2C"/>
+<text x="1138" y="697" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-ingests-api/#op-get-ingest" target="_blank" class="st" data-op="get-ingest"><title>GET /ingests/{id}
+Ingests line · get-ingest</title>
+<circle cx="664" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="676" y="907" text-anchor="start" style="fill:#1A1F2C">Get ingest</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-ingests-api/#op-update-ingest" target="_blank" class="st" data-op="update-ingest"><title>PATCH /ingests/{id}
+Ingests line · update-ingest</title>
+<circle cx="748" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="736.0" y="823" text-anchor="end" style="fill:#1A1F2C">Update ingest <tspan font-weight="700" style="fill:#0B7A75">⇄DIL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-ingests-api/#op-delete-ingest" target="_blank" class="st" data-op="delete-ingest"><title>DELETE /ingests/{id}
+Ingests line · delete-ingest</title>
+<circle cx="790" cy="818" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="786" y1="822" x2="794" y2="814" stroke="#7B3FE4" stroke-width="2"/>
+<text x="802" y="823" text-anchor="start" style="fill:#1A1F2C">Delete ingest</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-ingests-api/#op-get-ingest-engines" target="_blank" class="st" data-op="get-ingest-engines"><title>GET /ingests/{id}/engines
+Ingests line · get-ingest-engines</title>
+<circle cx="790" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="790" y="966" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="790" dy="13">engines <tspan font-weight="700" style="fill:#1F5FD1">⇄ENG</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-ingests-api/#op-create-ingest-engine" target="_blank" class="st" data-op="create-ingest-engine"><title>POST /ingests/{id}/engines
+Ingests line · create-ingest-engine</title>
+<circle cx="748" cy="944" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="757" y="934" text-anchor="start" style="fill:#1A1F2C">Create engine</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-publishtoken-api/#op-createPublishToken" target="_blank" class="st" data-op="createPublishToken"><title>POST /publish_token
+PublishToken line · createPublishToken
+Express: X3, X6</title>
+<circle cx="454" cy="818" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="451" y="815" width="6" height="6" transform="rotate(45 454 818)" fill="#1A1F2C"/>
+<text x="442.0" y="823" text-anchor="end" style="fill:#1A1F2C">Update publish token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-publishtoken-api/#op-listPublishTokens" target="_blank" class="st" data-op="listPublishTokens"><title>GET /publish_token/list
+PublishToken line · listPublishTokens</title>
+<circle cx="160" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="166" y="932" transform="rotate(-45 166 932)" style="fill:#1A1F2C">List publish token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-publishtoken-api/#op-getPublishToken" target="_blank" class="st" data-op="getPublishToken"><title>GET /publish_token/{tokenID}
+PublishToken line · getPublishToken
+Express: X6</title>
+<circle cx="454" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="451" y="941" width="6" height="6" transform="rotate(45 454 944)" fill="#1A1F2C"/>
+<text x="466" y="949" text-anchor="start" style="fill:#1A1F2C">Get publish token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-publishtoken-api/#op-updatePublishToken" target="_blank" class="st" data-op="updatePublishToken"><title>PATCH /publish_token/{tokenID}
+PublishToken line · updatePublishToken</title>
+<circle cx="412" cy="986" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="406" y="998" text-anchor="end" transform="rotate(-45 406 998)" style="fill:#1A1F2C">Update publish token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-publishtoken-api/#op-deletePublishToken" target="_blank" class="st" data-op="deletePublishToken"><title>DELETE /publish_token/{tokenID}
+PublishToken line · deletePublishToken</title>
+<circle cx="370" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="366" y1="948" x2="374" y2="940" stroke="#E07B12" stroke-width="2"/>
+<text x="361.0" y="963" text-anchor="end" style="fill:#1A1F2C">Delete publish token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-publishtoken-api/#op-listActivePublishTokenIds" target="_blank" class="st" data-op="listActivePublishTokenIds"><title>GET /publish_token/account/tokens
+PublishToken line · listActivePublishTokenIds</title>
+<circle cx="244" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="250" y="932" transform="rotate(-45 250 932)" style="fill:#1A1F2C">List tokens</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-regions-api/#op-get-regions" target="_blank" class="st" data-op="get-regions"><title>GET /regions
+Dolby Io Local line · get-regions</title>
+<circle cx="748" cy="272" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="760" y="277" text-anchor="start" style="fill:#1A1F2C">List regions</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-subscribetoken-api/#op-createSubscribeToken" target="_blank" class="st" data-op="createSubscribeToken"><title>POST /subscribe_token
+SubscribeToken line · createSubscribeToken
+Express: X7</title>
+<circle cx="916" cy="608" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="913" y="605" width="6" height="6" transform="rotate(45 916 608)" fill="#1A1F2C"/>
+<text x="928" y="613" text-anchor="start" style="fill:#1A1F2C">Update subscribe token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-subscribetoken-api/#op-listSubscribeTokens" target="_blank" class="st" data-op="listSubscribeTokens"><title>GET /subscribe_token/list
+SubscribeToken line · listSubscribeTokens</title>
+<circle cx="1084" cy="230" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1096" y="235" text-anchor="start" style="fill:#1A1F2C">List subscribe token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-subscribetoken-api/#op-getSubscribeToken" target="_blank" class="st" data-op="getSubscribeToken"><title>GET /subscribe_token/{tokenID}
+SubscribeToken line · getSubscribeToken
+Express: X7</title>
+<circle cx="1000" cy="524" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="997" y="521" width="6" height="6" transform="rotate(45 1000 524)" fill="#1A1F2C"/>
+<text x="1012" y="529" text-anchor="start" style="fill:#1A1F2C">Get subscribe token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-subscribetoken-api/#op-updateSubscribeToken" target="_blank" class="st" data-op="updateSubscribeToken"><title>PATCH /subscribe_token/{tokenID}
+SubscribeToken line · updateSubscribeToken</title>
+<circle cx="1042" cy="482" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="487" text-anchor="start" style="fill:#1A1F2C">Update subscribe token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-subscribetoken-api/#op-deleteSubscribeToken" target="_blank" class="st" data-op="deleteSubscribeToken"><title>DELETE /subscribe_token/{tokenID}
+SubscribeToken line · deleteSubscribeToken</title>
+<circle cx="1084" cy="440" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1080" y1="444" x2="1088" y2="436" stroke="#B0287F" stroke-width="2"/>
+<text x="1096" y="445" text-anchor="start" style="fill:#1A1F2C">Delete subscribe token</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhook-api/#op-listWebhooks" target="_blank" class="st" data-op="listWebhooks"><title>GET /webhooks
+Webhook line · listWebhooks</title>
+<circle cx="454" cy="440" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="442.0" y="445" text-anchor="end" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhook-api/#op-createWebhook" target="_blank" class="st" data-op="createWebhook"><title>POST /webhooks
+Webhook line · createWebhook
+Express: X3</title>
+<circle cx="454" cy="566" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="451" y="563" width="6" height="6" transform="rotate(45 454 566)" fill="#1A1F2C"/>
+<text x="466" y="571" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhook-api/#op-deleteWebhook" target="_blank" class="st" data-op="deleteWebhook"><title>DELETE /webhooks/{webhookID}
+Webhook line · deleteWebhook</title>
+<circle cx="454" cy="650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="450" y1="654" x2="458" y2="646" stroke="#2E7D32" stroke-width="2"/>
+<text x="466" y="655" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhooks-api/#op-get-webhook" target="_blank" class="st" data-op="get-webhook"><title>GET /webhooks/{id}
+Webhooks line · get-webhook</title>
+<circle cx="496" cy="440" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="508" y="445" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhooks-api/#op-update-webhook" target="_blank" class="st" data-op="update-webhook"><title>PATCH /webhooks/{id}
+Webhooks line · update-webhook</title>
+<circle cx="580" cy="524" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="580" y="547" text-anchor="middle" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhooks-api/#op-get-webhook-secret" target="_blank" class="st" data-op="get-webhook-secret"><title>GET /webhooks/{id}/secret
+Webhooks line · get-webhook-secret</title>
+<circle cx="622" cy="356" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="634" y="361" text-anchor="start" style="fill:#1A1F2C">Get secret</text>
+</a>
+<a href="https://apis.apis.io/apis/dolby-io/dolby-io-webhooks-api/#op-get-webhook-logs" target="_blank" class="st" data-op="get-webhook-logs"><title>GET /webhooks/{id}/logs
+Webhooks line · get-webhook-logs</title>
+<circle cx="622" cy="482" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="634" y="487" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<text x="2282" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2282" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">DOLBY IO</text>
+<rect x="2282" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2299" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="2324" y="269" font-size="11" fill="#1A1F2C">Channels <tspan fill="#8A93A6">27</tspan></text>
+<rect x="2282" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2299" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIS</text><text x="2324" y="286" font-size="11" fill="#1A1F2C">Distributions <tspan fill="#8A93A6">17</tspan></text>
+<rect x="2282" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2299" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENG</text><text x="2324" y="303" font-size="11" fill="#1A1F2C">Engines <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2282" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2299" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PT</text><text x="2324" y="320" font-size="11" fill="#1A1F2C">PublishToken <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2282" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2299" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ING</text><text x="2324" y="337" font-size="11" fill="#1A1F2C">Ingests <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2282" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2299" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ST</text><text x="2324" y="354" font-size="11" fill="#1A1F2C">SubscribeToken <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2282" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2299" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIL</text><text x="2324" y="371" font-size="11" fill="#1A1F2C">Dolby Io Local <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2282" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2299" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2324" y="388" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2282" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2299" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CE</text><text x="2324" y="405" font-size="11" fill="#1A1F2C">Custom Endpoints <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2282" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2299" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WBH</text><text x="2324" y="422" font-size="11" fill="#1A1F2C">Webhook <tspan fill="#8A93A6">3</tspan></text>
+<text x="2532" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2550,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2576" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2550,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2576" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2550,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2576" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2550,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2576" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2550,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2576" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2550,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2576" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2550,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2576" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2550,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2576" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2532" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2532" y="463" font-size="10.5" fill="#5A6275">“ABR Ladders” → Dolby Io Local line · 1 op</text>
+<text x="2532" y="478" font-size="10.5" fill="#5A6275">“Analytics” → Dolby Io Local line · 1 op</text>
+<text x="2532" y="493" font-size="10.5" fill="#5A6275">“Cluster” → Dolby Io Local line · 1 op</text>
+<text x="2532" y="508" font-size="10.5" fill="#5A6275">“Custom Endpoint Providers” → Dolby Io Local line · 1 op</text>
+<text x="2532" y="523" font-size="10.5" fill="#5A6275">“Regions” → Dolby Io Local line · 1 op</text>
+<text x="2532" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2532" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="dolby-io-channels-api:create-channel-ingest dolby-io-channels-api:create-channel-engine start-channel get-channel"><rect x="2532" y="602" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="613" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="2569" y="613" font-size="11" fill="#1A1F2C">Dolby OptiView Attach Ingest a</text></g>
+<g class="rt" data-stops="get-channel get-channel-runs get-channel-transcoding-minutes"><rect x="2532" y="621" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="632" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="2569" y="632" font-size="11" fill="#1A1F2C">Dolby OptiView Audit Channel R</text></g>
+<g class="rt" data-stops="createWebhook createPublishToken"><rect x="2532" y="640" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="651" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="2569" y="651" font-size="11" fill="#1A1F2C">Dolby OptiView Enable Recordin</text></g>
+<g class="rt" data-stops="dolby-io-channels-api:get-channel-engines get-engine-last-run get-engine-runs"><rect x="2532" y="659" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="670" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="2569" y="670" font-size="11" fill="#1A1F2C">Dolby OptiView Inspect an Engi</text></g>
+<g class="rt" data-stops="create-channel start-channel get-channel"><rect x="2532" y="678" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="689" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="2569" y="689" font-size="11" fill="#1A1F2C">Dolby OptiView Provision and S</text></g>
+<g class="rt" data-stops="getCluster createPublishToken getPublishToken"><rect x="2532" y="697" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="708" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="2569" y="708" font-size="11" fill="#1A1F2C">Dolby OptiView Provision a Bro</text></g>
+<g class="rt" data-stops="createSubscribeToken getSubscribeToken"><rect x="2532" y="716" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="727" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="2569" y="727" font-size="11" fill="#1A1F2C">Dolby OptiView Provision a Vie</text></g>
+<g class="rt" data-stops="dolby-io-channels-api:create-channel-distribution create-distribution-security-key"><rect x="2532" y="735" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="746" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="2569" y="746" font-size="11" fill="#1A1F2C">Dolby OptiView Publish a Secur</text></g>
+<g class="rt" data-stops="dolby-io-channels-api:get-channel-engines start-engine get-engine"><rect x="2532" y="754" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="765" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="2569" y="765" font-size="11" fill="#1A1F2C">Dolby OptiView Start a Single </text></g>
+<g class="rt" data-stops="stop-channel get-channel"><rect x="2532" y="773" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="784" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X10</text><text x="2569" y="784" font-size="11" fill="#1A1F2C">Dolby OptiView Stop a Channel </text></g>
+<g class="rt" data-stops="stop-channel get-channel delete-channel"><rect x="2532" y="792" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2547" y="803" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X11</text><text x="2569" y="803" font-size="11" fill="#1A1F2C">Dolby OptiView Tear Down a Cha</text></g>
+<text x="160" y="1494" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/dolby-io/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

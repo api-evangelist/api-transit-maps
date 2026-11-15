@@ -1,0 +1,169 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 894" width="1448" height="894" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1448" height="894" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Microsoft-Azure-Private-Link API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">24 operations as stops · 3 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Private Endpoints" d="M160.0,692.0 L286.0,566.0 L328.0,524.0 L360.1,491.9 Q370.0,482.0 370.0,468.0 L370.0,314.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Private Endpoints</title></path>
+<path class="line" data-line="PrivateDnsZoneGroups" d="M454.0,356.0 L486.1,388.1 Q496.0,398.0 510.0,398.0 L566.0,398.0 Q580.0,398.0 589.9,388.1 L748.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PrivateDnsZoneGroups</title></path>
+<path class="line" data-line="PrivateLinkServices" d="M370.0,230.0 L454.0,230.0 L524.0,230.0 Q538.0,230.0 547.9,239.9 L622.0,314.0 L696.1,388.1 Q706.0,398.0 706.0,412.0 L706.0,482.0 L706.0,552.0 Q706.0,566.0 696.1,575.9 L622.0,650.0 L547.9,724.1 Q538.0,734.0 524.0,734.0 L454.0,734.0 L384.0,734.0 Q370.0,734.0 360.1,724.1 L286.0,650.0 L211.9,575.9 Q202.0,566.0 202.0,552.0 L202.0,482.0 L202.0,412.0 Q202.0,398.0 211.9,388.1 L370.0,230.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>PrivateLinkServices</title></path>
+<line x1="160" y1="692" x2="135.9583694396574" y2="716.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="705.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Private Endpoints</title></rect><text x="135.9583694396574" y="721.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PE</text>
+<line x1="370" y1="314" x2="370.0" y2="280.0" stroke="#0E9F6E" stroke-width="7"/><rect x="346.0" y="269.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Private Endpoints</title></rect><text x="370.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PE</text>
+<line x1="454" y1="356" x2="429.95836943965736" y2="331.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="405.95836943965736" y="320.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>PrivateDnsZoneGroups</title></rect><text x="429.95836943965736" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PDZG</text>
+<line x1="748" y1="230" x2="772.0416305603426" y2="205.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="748.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>PrivateDnsZoneGroups</title></rect><text x="772.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PDZG</text>
+<rect x="340" y="177" width="60" height="26" rx="13" fill="#D6264F"/><text x="370" y="195" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">PLS</text>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-private-endpoints-api/#op-PrivateEndpoints_Delete" target="_blank" class="st" data-op="PrivateEndpoints_Delete"><title>DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}
+Private Endpoints line · PrivateEndpoints_Delete</title>
+<circle cx="370" cy="314" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="379" y="304" text-anchor="start" style="fill:#1A1F2C">Delete privateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-private-endpoints-api/#op-PrivateEndpoints_Get" target="_blank" class="st" data-op="PrivateEndpoints_Get"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}
+Private Endpoints line · PrivateEndpoints_Get</title>
+<circle cx="328" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="529" text-anchor="start" style="fill:#1A1F2C">Get privateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-private-endpoints-api/#op-PrivateEndpoints_CreateOrUpdate" target="_blank" class="st" data-op="PrivateEndpoints_CreateOrUpdate"><title>PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}
+Private Endpoints line · PrivateEndpoints_CreateOrUpdate</title>
+<circle cx="370" cy="482" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="487" text-anchor="start" style="fill:#1A1F2C">Update privateendpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-private-endpoints-api/#op-PrivateEndpoints_List" target="_blank" class="st" data-op="PrivateEndpoints_List"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints
+Private Endpoints line · PrivateEndpoints_List</title>
+<circle cx="286" cy="566" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="571" text-anchor="start" style="fill:#1A1F2C">List privateendpoints</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-private-endpoints-api/#op-PrivateEndpoints_ListBySubscription" target="_blank" class="st" data-op="PrivateEndpoints_ListBySubscription"><title>GET /subscriptions/{subscriptionId}/providers/Microsoft.Network/privateEndpoints
+Private Endpoints line · PrivateEndpoints_ListBySubscription</title>
+<circle cx="160" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="697" text-anchor="start" style="fill:#1A1F2C">List privateendpoints</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatednszonegroups-api/#op-PrivateDnsZoneGroups_Delete" target="_blank" class="st" data-op="PrivateDnsZoneGroups_Delete"><title>DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}/privateDnsZoneGroups/{privateDnsZoneGroupName}
+PrivateDnsZoneGroups line · PrivateDnsZoneGroups_Delete</title>
+<circle cx="748" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="744" y1="234" x2="752" y2="226" stroke="#1F5FD1" stroke-width="2"/>
+<text x="760" y="235" text-anchor="start" style="fill:#1A1F2C">Delete privatednszonegroup</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatednszonegroups-api/#op-PrivateDnsZoneGroups_Get" target="_blank" class="st" data-op="PrivateDnsZoneGroups_Get"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}/privateDnsZoneGroups/{privateDnsZoneGroupName}
+PrivateDnsZoneGroups line · PrivateDnsZoneGroups_Get</title>
+<circle cx="496" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="496" y="420" text-anchor="middle" style="fill:#1A1F2C">Get<tspan x="496" dy="13">privatednszonegroup</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatednszonegroups-api/#op-PrivateDnsZoneGroups_CreateOrUpdate" target="_blank" class="st" data-op="PrivateDnsZoneGroups_CreateOrUpdate"><title>PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}/privateDnsZoneGroups/{privateDnsZoneGroupName}
+PrivateDnsZoneGroups line · PrivateDnsZoneGroups_CreateOrUpdate</title>
+<circle cx="580" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="580" y="370" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="580" dy="13">privatednszonegroup</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatednszonegroups-api/#op-PrivateDnsZoneGroups_List" target="_blank" class="st" data-op="PrivateDnsZoneGroups_List"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateEndpoints/{privateEndpointName}/privateDnsZoneGroups
+PrivateDnsZoneGroups line · PrivateDnsZoneGroups_List</title>
+<circle cx="454" cy="356" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="442.0" y="361" text-anchor="end" style="fill:#1A1F2C">List privatednszonegroups <tspan font-weight="700" style="fill:#0E9F6E">⇄PE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservice-api/#op-PrivateLinkServices_CreateOrUpdate" target="_blank" class="st" data-op="PrivateLinkServices_CreateOrUpdate"><title>PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}
+PrivateLinkServices line · PrivateLinkServices_CreateOrUpdate</title>
+<circle cx="454" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="460" y="722" transform="rotate(-45 460 722)" style="fill:#1A1F2C">Update privatelinkservice</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_Delete" target="_blank" class="st" data-op="PrivateLinkServices_Delete"><title>DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}
+PrivateLinkServices line · PrivateLinkServices_Delete</title>
+<circle cx="370" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="366" y1="738" x2="374" y2="730" stroke="#D6264F" stroke-width="2"/>
+<text x="358.0" y="739" text-anchor="end" style="fill:#1A1F2C">Delete privatelinkservice</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_Get" target="_blank" class="st" data-op="PrivateLinkServices_Get"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}
+PrivateLinkServices line · PrivateLinkServices_Get</title>
+<circle cx="538" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="739" text-anchor="start" style="fill:#1A1F2C">Get privatelinkservice</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_List" target="_blank" class="st" data-op="PrivateLinkServices_List"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices
+PrivateLinkServices line · PrivateLinkServices_List</title>
+<circle cx="622" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="634" y="655" text-anchor="start" style="fill:#1A1F2C">List privatelinkservices</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_ListBySubscription" target="_blank" class="st" data-op="PrivateLinkServices_ListBySubscription"><title>GET /subscriptions/{subscriptionId}/providers/Microsoft.Network/privateLinkServices
+PrivateLinkServices line · PrivateLinkServices_ListBySubscription</title>
+<circle cx="622" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="610.0" y="319" text-anchor="end" style="fill:#1A1F2C">List privatelinkservices</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_GetPrivateEndpointConnection" target="_blank" class="st" data-op="PrivateLinkServices_GetPrivateEndpointConnection"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}/privateEndpointConnections/{peConnectionName}
+PrivateLinkServices line · PrivateLinkServices_GetPrivateEndpointConnection</title>
+<circle cx="202" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="190.0" y="571" text-anchor="end" style="fill:#1A1F2C">Get privateendpointconnection</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_UpdatePrivateEndpointConnection" target="_blank" class="st" data-op="PrivateLinkServices_UpdatePrivateEndpointConnection"><title>PUT /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}/privateEndpointConnections/{peConnectionName}
+PrivateLinkServices line · PrivateLinkServices_UpdatePrivateEndpointConnection</title>
+<circle cx="202" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="190.0" y="487" text-anchor="end" style="fill:#1A1F2C">Update privateendpointconnection</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_DeletePrivateEndpointConnection" target="_blank" class="st" data-op="PrivateLinkServices_DeletePrivateEndpointConnection"><title>DELETE /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}/privateEndpointConnections/{peConnectionName}
+PrivateLinkServices line · PrivateLinkServices_DeletePrivateEndpointConnection</title>
+<circle cx="202" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="198" y1="402" x2="206" y2="394" stroke="#D6264F" stroke-width="2"/>
+<text x="190.0" y="403" text-anchor="end" style="fill:#1A1F2C">Delete privateendpointconnection</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_ListPrivateEndpointConnections" target="_blank" class="st" data-op="PrivateLinkServices_ListPrivateEndpointConnections"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/privateLinkServices/{serviceName}/privateEndpointConnections
+PrivateLinkServices line · PrivateLinkServices_ListPrivateEndpointConnections</title>
+<circle cx="286" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="655" text-anchor="start" style="fill:#1A1F2C">List privateendpointconnections</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_CheckPrivateLinkServiceVisibility" target="_blank" class="st" data-op="PrivateLinkServices_CheckPrivateLinkServiceVisibility"><title>POST /subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/checkPrivateLinkServiceVisibility
+PrivateLinkServices line · PrivateLinkServices_CheckPrivateLinkServiceVisibility</title>
+<circle cx="538" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="544" y="218" transform="rotate(-45 544 218)" style="fill:#1A1F2C">Update checkprivatelinkservicevisibility</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_CheckPrivateLinkServiceVisibilityByResourceGroup" target="_blank" class="st" data-op="PrivateLinkServices_CheckPrivateLinkServiceVisibilityByResourceGroup"><title>POST /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/locations/{location}/checkPrivateLinkServiceVisibility
+PrivateLinkServices line · PrivateLinkServices_CheckPrivateLinkServiceVisibilityByResourceGroup</title>
+<circle cx="706" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="571" text-anchor="start" style="fill:#1A1F2C">Update checkprivatelinkservicevisibility</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_ListAutoApprovedPrivateLinkServices" target="_blank" class="st" data-op="PrivateLinkServices_ListAutoApprovedPrivateLinkServices"><title>GET /subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/autoApprovedPrivateLinkServices
+PrivateLinkServices line · PrivateLinkServices_ListAutoApprovedPrivateLinkServices</title>
+<circle cx="370" cy="230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="358.0" y="235" text-anchor="end" style="fill:#1A1F2C">List autoapprovedprivatelinkservices <tspan font-weight="700" style="fill:#0E9F6E">⇄PE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-privatelinkservices-api/#op-PrivateLinkServices_ListAutoApprovedPrivateLinkServicesByResourceGroup" target="_blank" class="st" data-op="PrivateLinkServices_ListAutoApprovedPrivateLinkServicesByResourceGroup"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/locations/{location}/autoApprovedPrivateLinkServices
+PrivateLinkServices line · PrivateLinkServices_ListAutoApprovedPrivateLinkServicesByResourceGroup</title>
+<circle cx="706" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="403" text-anchor="start" style="fill:#1A1F2C">List autoapprovedprivatelinkservices</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-subscriptions-api/#op-AvailablePrivateEndpointTypes_List" target="_blank" class="st" data-op="AvailablePrivateEndpointTypes_List"><title>GET /subscriptions/{subscriptionId}/providers/Microsoft.Network/locations/{location}/availablePrivateEndpointTypes
+PrivateLinkServices line · AvailablePrivateEndpointTypes_List</title>
+<circle cx="454" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="460" y="218" transform="rotate(-45 460 218)" style="fill:#1A1F2C">List availableprivateendpointtypes</text>
+</a>
+<a href="https://apis.apis.io/apis/microsoft-azure-private-link/microsoft-azure-private-link-subscriptions-api/#op-AvailablePrivateEndpointTypes_ListByResourceGroup" target="_blank" class="st" data-op="AvailablePrivateEndpointTypes_ListByResourceGroup"><title>GET /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Network/locations/{location}/availablePrivateEndpointTypes
+PrivateLinkServices line · AvailablePrivateEndpointTypes_ListByResourceGroup</title>
+<circle cx="706" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="487" text-anchor="start" style="fill:#1A1F2C">List availableprivateendpointtypes</text>
+</a>
+<text x="938" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="938" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">MICROSOFT AZURE PRIVATE LINK</text>
+<rect x="938" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="955" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLS</text><text x="980" y="269" font-size="11" fill="#1A1F2C">PrivateLinkServices <tspan fill="#8A93A6">15</tspan></text>
+<rect x="938" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="955" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PE</text><text x="980" y="286" font-size="11" fill="#1A1F2C">Private Endpoints <tspan fill="#8A93A6">5</tspan></text>
+<rect x="938" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="955" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PDZG</text><text x="980" y="303" font-size="11" fill="#1A1F2C">PrivateDnsZoneGroups <tspan fill="#8A93A6">4</tspan></text>
+<text x="1188" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1206,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1232" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1206,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1232" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1206,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1232" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1206,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1232" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1206,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1232" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1206,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1232" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1206,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1232" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1206,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1232" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1188" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1188" y="463" font-size="10.5" fill="#5A6275">“PrivateLinkService” → PrivateLinkServices line · 1 op</text>
+<text x="1188" y="478" font-size="10.5" fill="#5A6275">“Subscriptions” → PrivateLinkServices line · 2 ops</text>
+<text x="1188" y="528" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1188" y="545" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="864" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/microsoft-azure-private-link/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

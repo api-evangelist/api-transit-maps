@@ -1,0 +1,1517 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3716 3372" width="3716" height="3372" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3716" height="3372" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Cisco-Umbrella API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">255 operations as stops · 32 tags as lines · 16 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="2680" y1="1952" x2="2638" y2="1994" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2680" y1="1952" x2="2638" y2="1994" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1840" y1="566" x2="1882" y2="608" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1840" y1="566" x2="1882" y2="608" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2050" y1="1280" x2="2008" y2="1322" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2050" y1="1280" x2="2008" y2="1322" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Activity" d="M412.0,902.0 L496.0,986.0 L570.1,1060.1 Q580.0,1070.0 580.0,1084.0 L580.0,1182.0 Q580.0,1196.0 566.0,1196.0 L384.0,1196.0 Q370.0,1196.0 360.1,1205.9 L337.9,1228.1 Q328.0,1238.0 314.0,1238.0 L160.0,1238.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Activity</title></path>
+<path class="line" data-line="Api Keys" d="M2764.0,944.0 L2596.0,944.0 L2568.0,944.0 Q2554.0,944.0 2544.1,953.9 L2521.9,976.1 Q2512.0,986.0 2498.0,986.0 L2442.0,986.0 Q2428.0,986.0 2418.1,976.1 L2386.0,944.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Api Keys</title></path>
+<path class="line" data-line="Api Usage" d="M2806.0,1700.0 L2736.0,1700.0 Q2722.0,1700.0 2712.1,1709.9 L2689.9,1732.1 Q2680.0,1742.0 2680.0,1756.0 L2680.0,1952.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Api Usage</title></path>
+<path class="line" data-line="App Discovery" d="M1672.0,1448.0 L1756.0,1448.0 L1826.0,1448.0 Q1840.0,1448.0 1849.9,1457.9 L1914.1,1522.1 Q1924.0,1532.0 1924.0,1546.0 L1924.0,1616.0 L1924.0,1686.0 Q1924.0,1700.0 1914.1,1709.9 L1849.9,1774.1 Q1840.0,1784.0 1826.0,1784.0 L1756.0,1784.0 L1686.0,1784.0 Q1672.0,1784.0 1662.1,1774.1 L1597.9,1709.9 Q1588.0,1700.0 1588.0,1686.0 L1588.0,1616.0 L1588.0,1546.0 Q1588.0,1532.0 1597.9,1522.1 L1672.0,1448.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>App Discovery</title></path>
+<path class="line" data-line="Application Lists" d="M2680.0,1028.0 L2605.9,1102.1 Q2596.0,1112.0 2582.0,1112.0 L2568.0,1112.0 Q2554.0,1112.0 2554.0,1126.0 L2554.0,1140.0 Q2554.0,1154.0 2568.0,1154.0 L2638.0,1154.0 L2806.0,1154.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Application Lists</title></path>
+<path class="line" data-line="Apps" d="M2722.0,1238.0 L2638.0,1238.0 L2568.0,1238.0 Q2554.0,1238.0 2544.1,1247.9 L2470.0,1322.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Apps</title></path>
+<path class="line" data-line="Sample" d="M2764.0,1406.0 L2731.9,1373.9 Q2722.0,1364.0 2708.0,1364.0 L2638.0,1364.0 L2596.0,1364.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sample</title></path>
+<path class="line" data-line="Config" d="M580.0,1658.0 L664.0,1742.0 L738.1,1816.1 Q748.0,1826.0 762.0,1826.0 L860.0,1826.0 Q874.0,1826.0 883.9,1816.1 L906.1,1793.9 Q916.0,1784.0 930.0,1784.0 L1042.0,1784.0 L1112.0,1784.0 Q1126.0,1784.0 1126.0,1798.0 L1126.0,1854.0 Q1126.0,1868.0 1116.1,1877.9 L1084.0,1910.0 L1051.9,1942.1 Q1042.0,1952.0 1028.0,1952.0 L958.0,1952.0 L832.0,1952.0 L762.0,1952.0 Q748.0,1952.0 738.1,1961.9 L664.0,2036.0 L580.0,2120.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Config</title></path>
+<path class="line" data-line="Tunnels" d="M1420.0,3212.0 L1420.0,3128.0 L1420.0,3044.0 L1420.0,2918.0 L1420.0,2834.0 L1420.0,2722.0 Q1420.0,2708.0 1429.9,2698.1 L1452.1,2675.9 Q1462.0,2666.0 1462.0,2652.0 L1462.0,2470.0 Q1462.0,2456.0 1452.1,2446.1 L1429.9,2423.9 Q1420.0,2414.0 1410.1,2423.9 L1387.9,2446.1 Q1378.0,2456.0 1378.0,2470.0 L1378.0,2582.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tunnels</title></path>
+<path class="line" data-line="Destinationlists" d="M1924.0,2456.0 L1840.0,2372.0 L1807.9,2339.9 Q1798.0,2330.0 1798.0,2316.0 L1798.0,2204.0 L1798.0,2134.0 Q1798.0,2120.0 1812.0,2120.0 L1868.0,2120.0 Q1882.0,2120.0 1891.9,2129.9 L1966.0,2204.0 L2050.0,2288.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Destinationlists</title></path>
+<path class="line" data-line="Domains" d="M2680.0,1490.0 L2596.0,1490.0 L2526.0,1490.0 Q2512.0,1490.0 2502.1,1480.1 L2470.0,1448.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Domains</title></path>
+<path class="line" data-line="Incidents" d="M1546.0,2750.0 L1546.0,2624.0 L1546.0,2512.0 Q1546.0,2498.0 1536.1,2488.1 L1429.9,2381.9 Q1420.0,2372.0 1420.0,2358.0 L1420.0,2344.0 Q1420.0,2330.0 1429.9,2320.1 L1452.1,2297.9 Q1462.0,2288.0 1476.0,2288.0 L1532.0,2288.0 Q1546.0,2288.0 1555.9,2297.9 L1672.0,2414.0" fill="none" stroke="#8b2346" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Incidents</title></path>
+<path class="line" data-line="Internaldomains" d="M2302.0,1154.0 L2302.0,1224.0 Q2302.0,1238.0 2311.9,1247.9 L2334.1,1270.1 Q2344.0,1280.0 2353.9,1270.1 L2418.1,1205.9 Q2428.0,1196.0 2428.0,1182.0 L2428.0,1112.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Internaldomains</title></path>
+<path class="line" data-line="Internalnetworks" d="M1042.0,2708.0 L1042.0,2624.0 L1042.0,2596.0 Q1042.0,2582.0 1051.9,2572.1 L1126.0,2498.0 L1210.0,2414.0 L1252.0,2372.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Internalnetworks</title></path>
+<path class="line" data-line="IP" d="M160.0,1406.0 L234.1,1331.9 Q244.0,1322.0 258.0,1322.0 L328.0,1322.0 L412.0,1322.0 L482.0,1322.0 Q496.0,1322.0 496.0,1308.0 L496.0,1126.0 Q496.0,1112.0 482.0,1112.0 L370.0,1112.0 L286.0,1112.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>IP</title></path>
+<path class="line" data-line="Managed" d="M2344.0,1406.0 L2260.0,1406.0 L2232.0,1406.0 Q2218.0,1406.0 2208.1,1396.1 L2185.9,1373.9 Q2176.0,1364.0 2176.0,1350.0 L2176.0,1280.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Managed</title></path>
+<path class="line" data-line="Networkdevices" d="M1210.0,2834.0 L1210.0,2750.0 L1210.0,2666.0 L1210.0,2596.0 Q1210.0,2582.0 1219.9,2572.1 L1294.0,2498.0 L1336.0,2456.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Networkdevices</title></path>
+<path class="line" data-line="Networks" d="M874.0,2540.0 L948.1,2465.9 Q958.0,2456.0 958.0,2442.0 L958.0,2428.0 Q958.0,2414.0 967.9,2404.1 L1042.0,2330.0 L1074.1,2297.9 Q1084.0,2288.0 1098.0,2288.0 L1294.0,2288.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Networks</title></path>
+<path class="line" data-line="Roamingcomputers" d="M2302.0,1700.0 L2302.0,1728.0 Q2302.0,1742.0 2292.1,1751.9 L2269.9,1774.1 Q2260.0,1784.0 2260.0,1798.0 L2260.0,1910.0 L2260.0,1938.0 Q2260.0,1952.0 2250.1,1961.9 L2134.0,2078.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Roamingcomputers</title></path>
+<path class="line" data-line="Pdns" d="M244.0,1490.0 L318.1,1415.9 Q328.0,1406.0 342.0,1406.0 L356.0,1406.0 Q370.0,1406.0 379.9,1415.9 L454.0,1490.0" fill="none" stroke="#b58613" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Pdns</title></path>
+<path class="line" data-line="Policies" d="M1336.0,2372.0 L1578.1,2129.9 Q1588.0,2120.0 1574.0,2120.0 L1462.0,2120.0" fill="none" stroke="#17d25b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Policies</title></path>
+<path class="line" data-line="Providers" d="M1672.0,1112.0 L1588.0,1028.0 L1471.9,911.9 Q1462.0,902.0 1462.0,888.0 L1462.0,874.0 Q1462.0,860.0 1452.1,850.1 L1345.9,743.9 Q1336.0,734.0 1322.0,734.0 L1294.0,734.0 L1210.0,734.0 L1098.0,734.0 Q1084.0,734.0 1074.1,724.1 L1051.9,701.9 Q1042.0,692.0 1028.0,692.0 L930.0,692.0 Q916.0,692.0 916.0,678.0 L916.0,608.0 L916.0,538.0 Q916.0,524.0 925.9,514.1 L948.1,491.9 Q958.0,482.0 972.0,482.0 L1112.0,482.0 Q1126.0,482.0 1135.9,472.1 L1158.1,449.9 Q1168.0,440.0 1168.0,426.0 L1168.0,370.0 Q1168.0,356.0 1177.9,346.1 L1200.1,323.9 Q1210.0,314.0 1224.0,314.0 L1294.0,314.0 L1378.0,314.0 L1504.0,314.0 L1574.0,314.0 Q1588.0,314.0 1597.9,323.9 L1630.0,356.0 L1714.0,440.0 L1798.0,524.0 L1830.1,556.1 Q1840.0,566.0 1849.9,556.1 L1872.1,533.9 Q1882.0,524.0 1882.0,510.0 L1882.0,356.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Providers</title></path>
+<path class="line" data-line="Sites" d="M2512.0,1742.0 L2484.0,1742.0 Q2470.0,1742.0 2460.1,1751.9 L2437.9,1774.1 Q2428.0,1784.0 2414.0,1784.0 L2400.0,1784.0 Q2386.0,1784.0 2386.0,1798.0 L2386.0,1812.0 Q2386.0,1826.0 2395.9,1835.9 L2428.0,1868.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sites</title></path>
+<path class="line" data-line="Device Settings" d="M2386.0,1658.0 L2311.9,1583.9 Q2302.0,1574.0 2302.0,1560.0 L2302.0,1532.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Device Settings</title></path>
+<path class="line" data-line="Tags" d="M1000.0,2204.0 L1112.0,2204.0 Q1126.0,2204.0 1126.0,2190.0 L1126.0,2134.0 Q1126.0,2120.0 1116.1,2110.1 L1093.9,2087.9 Q1084.0,2078.0 1070.0,2078.0 L1000.0,2078.0" fill="none" stroke="#8823d6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="Users" d="M1882.0,2666.0 L1798.0,2582.0 L1723.9,2507.9 Q1714.0,2498.0 1704.1,2507.9 L1672.0,2540.0" fill="none" stroke="#d044c7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="Identities" d="M1462.0,1994.0 L1546.0,1994.0 L1672.0,1994.0" fill="none" stroke="#0d7773" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Identities</title></path>
+<path class="line" data-line="Virtualappliances" d="M2806.0,1826.0 L2722.0,1826.0 L2610.0,1826.0 Q2596.0,1826.0 2586.1,1835.9 L2554.0,1868.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Virtualappliances</title></path>
+<path class="line" data-line="Whois" d="M2008.0,902.0 L2050.0,944.0 L2166.1,1060.1 Q2176.0,1070.0 2176.0,1084.0 L2176.0,1140.0 Q2176.0,1154.0 2166.1,1163.9 L2059.9,1270.1 Q2050.0,1280.0 2050.0,1266.0 L2050.0,1196.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Whois</title></path>
+<path class="line" data-line="More Local 1" d="M1714.0,1658.0 L1746.1,1625.9 Q1756.0,1616.0 1756.0,1602.0 L1756.0,1546.0 Q1756.0,1532.0 1742.0,1532.0 L1686.0,1532.0 Q1672.0,1532.0 1662.1,1522.1 L1555.9,1415.9 Q1546.0,1406.0 1546.0,1392.0 L1546.0,1378.0 Q1546.0,1364.0 1555.9,1354.1 L1672.0,1238.0 L1756.0,1154.0 L1788.1,1121.9 Q1798.0,1112.0 1812.0,1112.0 L1952.0,1112.0 Q1966.0,1112.0 1975.9,1102.1 L2040.1,1037.9 Q2050.0,1028.0 2064.0,1028.0 L2246.0,1028.0 Q2260.0,1028.0 2260.0,1014.0 L2260.0,944.0 L2260.0,874.0 Q2260.0,860.0 2269.9,850.1 L2376.1,743.9 Q2386.0,734.0 2386.0,720.0 L2386.0,664.0 Q2386.0,650.0 2395.9,640.1 L2470.0,566.0 L2554.0,482.0 L2586.1,449.9 Q2596.0,440.0 2596.0,426.0 L2596.0,314.0 L2596.0,230.0" fill="none" stroke="#5C6BC0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 1</title></path>
+<path class="line" data-line="More Local 2" d="M1966.0,440.0 L1966.0,524.0 L1966.0,594.0 Q1966.0,608.0 1952.0,608.0 L1896.0,608.0 Q1882.0,608.0 1882.0,622.0 L1882.0,776.0 L1882.0,902.0 L1882.0,1014.0 Q1882.0,1028.0 1891.9,1037.9 L1914.1,1060.1 Q1924.0,1070.0 1924.0,1084.0 L1924.0,1224.0 Q1924.0,1238.0 1933.9,1247.9 L2008.0,1322.0 L2040.1,1354.1 Q2050.0,1364.0 2050.0,1378.0 L2050.0,1518.0 Q2050.0,1532.0 2059.9,1541.9 L2082.1,1564.1 Q2092.0,1574.0 2092.0,1588.0 L2092.0,1770.0 Q2092.0,1784.0 2106.0,1784.0 L2204.0,1784.0 Q2218.0,1784.0 2227.9,1793.9 L2334.1,1900.1 Q2344.0,1910.0 2344.0,1924.0 L2344.0,1938.0 Q2344.0,1952.0 2353.9,1961.9 L2376.1,1984.1 Q2386.0,1994.0 2400.0,1994.0 L2512.0,1994.0 L2624.0,1994.0 Q2638.0,1994.0 2647.9,2003.9 L2712.1,2068.1 Q2722.0,2078.0 2736.0,2078.0 L2792.0,2078.0 Q2806.0,2078.0 2815.9,2068.1 L2890.0,1994.0 L2974.0,1910.0" fill="none" stroke="#B0287F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 2</title></path>
+<path class="line" data-line="More Local 3" d="M3016.0,1280.0 L2932.0,1364.0 L2899.9,1396.1 Q2890.0,1406.0 2890.0,1420.0 L2890.0,1434.0 Q2890.0,1448.0 2880.1,1457.9 L2806.0,1532.0 L2731.9,1606.1 Q2722.0,1616.0 2708.0,1616.0 L2568.0,1616.0 Q2554.0,1616.0 2544.1,1606.1 L2521.9,1583.9 Q2512.0,1574.0 2498.0,1574.0 L2484.0,1574.0 Q2470.0,1574.0 2460.1,1583.9 L2437.9,1606.1 Q2428.0,1616.0 2414.0,1616.0 L2232.0,1616.0 Q2218.0,1616.0 2208.1,1625.9 L2176.0,1658.0 L2143.9,1690.1 Q2134.0,1700.0 2134.0,1714.0 L2134.0,1896.0 Q2134.0,1910.0 2143.9,1919.9 L2176.0,1952.0 L2260.0,2036.0 L2292.1,2068.1 Q2302.0,2078.0 2316.0,2078.0 L2414.0,2078.0 Q2428.0,2078.0 2437.9,2087.9 L2544.1,2194.1 Q2554.0,2204.0 2554.0,2218.0 L2554.0,2274.0 Q2554.0,2288.0 2563.9,2297.9 L2670.1,2404.1 Q2680.0,2414.0 2694.0,2414.0 L2722.0,2414.0 L2806.0,2414.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 3</title></path>
+<line x1="412" y1="902" x2="387.95836943965736" y2="877.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="363.95836943965736" y="866.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Activity</title></rect><text x="387.95836943965736" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACT</text>
+<line x1="160" y1="1238" x2="126.0" y2="1238.0" stroke="#C2410C" stroke-width="7"/><rect x="102.0" y="1227.0" width="48" height="22" rx="5" fill="#C2410C"><title>Activity</title></rect><text x="126.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACT</text>
+<line x1="2764" y1="944" x2="2798.0" y2="944.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2774.0" y="933.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Api Keys</title></rect><text x="2798.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="2386" y1="944" x2="2361.9583694396574" y2="919.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="2337.9583694396574" y="908.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Api Keys</title></rect><text x="2361.9583694396574" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="2806" y1="1700" x2="2840.0" y2="1700.0" stroke="#C2410C" stroke-width="7"/><rect x="2816.0" y="1689.0" width="48" height="22" rx="5" fill="#C2410C"><title>Api Usage</title></rect><text x="2840.0" y="1705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AU</text>
+<line x1="2680" y1="1952" x2="2680.0" y2="1986.0" stroke="#C2410C" stroke-width="7"/><rect x="2656.0" y="1975.0" width="48" height="22" rx="5" fill="#C2410C"><title>Api Usage</title></rect><text x="2680.0" y="1991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AU</text>
+<rect x="1642" y="1395" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="1672" y="1413" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">AD</text>
+<line x1="2680" y1="1028" x2="2704.0416305603426" y2="1003.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="2680.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Application Lists</title></rect><text x="2704.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AL</text>
+<line x1="2806" y1="1154" x2="2840.0" y2="1154.0" stroke="#00838F" stroke-width="7"/><rect x="2816.0" y="1143.0" width="48" height="22" rx="5" fill="#00838F"><title>Application Lists</title></rect><text x="2840.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AL</text>
+<line x1="2722" y1="1238" x2="2756.0" y2="1238.0" stroke="#4A5568" stroke-width="7"/><rect x="2732.0" y="1227.0" width="48" height="22" rx="5" fill="#4A5568"><title>Apps</title></rect><text x="2756.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="2470" y1="1322" x2="2445.9583694396574" y2="1346.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="2421.9583694396574" y="1335.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Apps</title></rect><text x="2445.9583694396574" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="2764" y1="1406" x2="2788.0416305603426" y2="1430.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="2764.0416305603426" y="1419.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Sample</title></rect><text x="2788.0416305603426" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SAM</text>
+<line x1="2596" y1="1364" x2="2562.0" y2="1364.0" stroke="#2E7D32" stroke-width="7"/><rect x="2538.0" y="1353.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Sample</title></rect><text x="2562.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SAM</text>
+<line x1="580" y1="1658" x2="555.9583694396574" y2="1633.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="531.9583694396574" y="1622.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Config</title></rect><text x="555.9583694396574" y="1638.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="580" y1="2120" x2="555.9583694396574" y2="2144.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="531.9583694396574" y="2133.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Config</title></rect><text x="555.9583694396574" y="2149.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1420" y1="3212" x2="1420.0" y2="3246.0" stroke="#0B7A75" stroke-width="7"/><rect x="1396.0" y="3235.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tunnels</title></rect><text x="1420.0" y="3251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TUN</text>
+<line x1="1378" y1="2582" x2="1378.0" y2="2616.0" stroke="#0B7A75" stroke-width="7"/><rect x="1354.0" y="2605.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tunnels</title></rect><text x="1378.0" y="2621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TUN</text>
+<line x1="1924" y1="2456" x2="1948.0416305603426" y2="2480.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1924.0416305603426" y="2469.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Destinationlists</title></rect><text x="1948.0416305603426" y="2485.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DES</text>
+<line x1="2050" y1="2288" x2="2074.0416305603426" y2="2312.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="2050.0416305603426" y="2301.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Destinationlists</title></rect><text x="2074.0416305603426" y="2317.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DES</text>
+<line x1="2680" y1="1490" x2="2714.0" y2="1490.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2690.0" y="1479.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Domains</title></rect><text x="2714.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="2470" y1="1448" x2="2445.9583694396574" y2="1423.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="2421.9583694396574" y="1412.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Domains</title></rect><text x="2445.9583694396574" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="1546" y1="2750" x2="1546.0" y2="2784.0" stroke="#8b2346" stroke-width="7"/><rect x="1522.0" y="2773.0" width="48" height="22" rx="5" fill="#8b2346"><title>Incidents</title></rect><text x="1546.0" y="2789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INC</text>
+<line x1="1672" y1="2414" x2="1696.0416305603426" y2="2438.0416305603426" stroke="#8b2346" stroke-width="7"/><rect x="1672.0416305603426" y="2427.0416305603426" width="48" height="22" rx="5" fill="#8b2346"><title>Incidents</title></rect><text x="1696.0416305603426" y="2443.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INC</text>
+<line x1="2302" y1="1154" x2="2302.0" y2="1120.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2278.0" y="1109.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Internaldomains</title></rect><text x="2302.0" y="1125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INTE</text>
+<line x1="2428" y1="1112" x2="2428.0" y2="1078.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2404.0" y="1067.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Internaldomains</title></rect><text x="2428.0" y="1083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INTE</text>
+<line x1="1042" y1="2708" x2="1042.0" y2="2742.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1018.0" y="2731.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Internalnetworks</title></rect><text x="1042.0" y="2747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1252" y1="2372" x2="1276.0416305603426" y2="2347.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1252.0416305603426" y="2336.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Internalnetworks</title></rect><text x="1276.0416305603426" y="2352.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="160" y1="1406" x2="135.9583694396574" y2="1430.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="111.95836943965739" y="1419.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>IP</title></rect><text x="135.9583694396574" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IP</text>
+<line x1="286" y1="1112" x2="252.0" y2="1112.0" stroke="#E07B12" stroke-width="7"/><rect x="228.0" y="1101.0" width="48" height="22" rx="5" fill="#E07B12"><title>IP</title></rect><text x="252.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IP</text>
+<line x1="2344" y1="1406" x2="2378.0" y2="1406.0" stroke="#B8860B" stroke-width="7"/><rect x="2354.0" y="1395.0" width="48" height="22" rx="5" fill="#B8860B"><title>Managed</title></rect><text x="2378.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAN</text>
+<line x1="2176" y1="1280" x2="2176.0" y2="1246.0" stroke="#B8860B" stroke-width="7"/><rect x="2152.0" y="1235.0" width="48" height="22" rx="5" fill="#B8860B"><title>Managed</title></rect><text x="2176.0" y="1251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAN</text>
+<line x1="1210" y1="2834" x2="1210.0" y2="2868.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1186.0" y="2857.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Networkdevices</title></rect><text x="1210.0" y="2873.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NET</text>
+<line x1="1336" y1="2456" x2="1360.0416305603426" y2="2431.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1336.0416305603426" y="2420.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Networkdevices</title></rect><text x="1360.0416305603426" y="2436.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NET</text>
+<line x1="874" y1="2540" x2="849.9583694396574" y2="2564.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="825.9583694396574" y="2553.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Networks</title></rect><text x="849.9583694396574" y="2569.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NTW</text>
+<line x1="1294" y1="2288" x2="1328.0" y2="2288.0" stroke="#2E7D32" stroke-width="7"/><rect x="1304.0" y="2277.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Networks</title></rect><text x="1328.0" y="2293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NTW</text>
+<line x1="2302" y1="1700" x2="2302.0" y2="1666.0" stroke="#8D6E63" stroke-width="7"/><rect x="2278.0" y="1655.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Roamingcomputers</title></rect><text x="2302.0" y="1671.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROA</text>
+<line x1="2134" y1="2078" x2="2109.9583694396574" y2="2102.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="2085.9583694396574" y="2091.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Roamingcomputers</title></rect><text x="2109.9583694396574" y="2107.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROA</text>
+<line x1="244" y1="1490" x2="219.9583694396574" y2="1514.0416305603426" stroke="#b58613" stroke-width="7"/><rect x="195.9583694396574" y="1503.0416305603426" width="48" height="22" rx="5" fill="#b58613"><title>Pdns</title></rect><text x="219.9583694396574" y="1519.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PDN</text>
+<line x1="454" y1="1490" x2="478.04163056034264" y2="1514.0416305603426" stroke="#b58613" stroke-width="7"/><rect x="454.04163056034264" y="1503.0416305603426" width="48" height="22" rx="5" fill="#b58613"><title>Pdns</title></rect><text x="478.04163056034264" y="1519.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PDN</text>
+<line x1="1336" y1="2372" x2="1311.9583694396574" y2="2396.0416305603426" stroke="#17d25b" stroke-width="7"/><rect x="1287.9583694396574" y="2385.0416305603426" width="48" height="22" rx="5" fill="#17d25b"><title>Policies</title></rect><text x="1311.9583694396574" y="2401.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POL</text>
+<line x1="1462" y1="2120" x2="1428.0" y2="2120.0" stroke="#17d25b" stroke-width="7"/><rect x="1404.0" y="2109.0" width="48" height="22" rx="5" fill="#17d25b"><title>Policies</title></rect><text x="1428.0" y="2125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POL</text>
+<line x1="1672" y1="1112" x2="1696.0416305603426" y2="1136.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1672.0416305603426" y="1125.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Providers</title></rect><text x="1696.0416305603426" y="1141.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1882" y1="356" x2="1882.0" y2="322.0" stroke="#D6264F" stroke-width="7"/><rect x="1858.0" y="311.0" width="48" height="22" rx="5" fill="#D6264F"><title>Providers</title></rect><text x="1882.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="2512" y1="1742" x2="2546.0" y2="1742.0" stroke="#E07B12" stroke-width="7"/><rect x="2522.0" y="1731.0" width="48" height="22" rx="5" fill="#E07B12"><title>Sites</title></rect><text x="2546.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SIT</text>
+<line x1="2428" y1="1868" x2="2452.0416305603426" y2="1892.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="2428.0416305603426" y="1881.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Sites</title></rect><text x="2452.0416305603426" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SIT</text>
+<line x1="2386" y1="1658" x2="2410.0416305603426" y2="1682.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2386.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Device Settings</title></rect><text x="2410.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DS</text>
+<line x1="2302" y1="1532" x2="2302.0" y2="1498.0" stroke="#B0287F" stroke-width="7"/><rect x="2278.0" y="1487.0" width="48" height="22" rx="5" fill="#B0287F"><title>Device Settings</title></rect><text x="2302.0" y="1503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DS</text>
+<line x1="1000" y1="2204" x2="966.0" y2="2204.0" stroke="#8823d6" stroke-width="7"/><rect x="942.0" y="2193.0" width="48" height="22" rx="5" fill="#8823d6"><title>Tags</title></rect><text x="966.0" y="2209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1000" y1="2078" x2="966.0" y2="2078.0" stroke="#8823d6" stroke-width="7"/><rect x="942.0" y="2067.0" width="48" height="22" rx="5" fill="#8823d6"><title>Tags</title></rect><text x="966.0" y="2083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1882" y1="2666" x2="1906.0416305603426" y2="2690.0416305603426" stroke="#d044c7" stroke-width="7"/><rect x="1882.0416305603426" y="2679.0416305603426" width="48" height="22" rx="5" fill="#d044c7"><title>Users</title></rect><text x="1906.0416305603426" y="2695.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1672" y1="2540" x2="1647.9583694396574" y2="2564.0416305603426" stroke="#d044c7" stroke-width="7"/><rect x="1623.9583694396574" y="2553.0416305603426" width="48" height="22" rx="5" fill="#d044c7"><title>Users</title></rect><text x="1647.9583694396574" y="2569.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1462" y1="1994" x2="1428.0" y2="1994.0" stroke="#0d7773" stroke-width="7"/><rect x="1404.0" y="1983.0" width="48" height="22" rx="5" fill="#0d7773"><title>Identities</title></rect><text x="1428.0" y="1999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IDE</text>
+<line x1="1672" y1="1994" x2="1706.0" y2="1994.0" stroke="#0d7773" stroke-width="7"/><rect x="1682.0" y="1983.0" width="48" height="22" rx="5" fill="#0d7773"><title>Identities</title></rect><text x="1706.0" y="1999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IDE</text>
+<line x1="2806" y1="1826" x2="2840.0" y2="1826.0" stroke="#D6264F" stroke-width="7"/><rect x="2816.0" y="1815.0" width="48" height="22" rx="5" fill="#D6264F"><title>Virtualappliances</title></rect><text x="2840.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VIR</text>
+<line x1="2554" y1="1868" x2="2529.9583694396574" y2="1892.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="2505.9583694396574" y="1881.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Virtualappliances</title></rect><text x="2529.9583694396574" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VIR</text>
+<line x1="2008" y1="902" x2="1983.9583694396574" y2="877.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1959.9583694396574" y="866.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Whois</title></rect><text x="1983.9583694396574" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WHO</text>
+<line x1="2050" y1="1196" x2="2050.0" y2="1162.0" stroke="#0B7A75" stroke-width="7"/><rect x="2026.0" y="1151.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Whois</title></rect><text x="2050.0" y="1167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WHO</text>
+<line x1="1714" y1="1658" x2="1689.9583694396574" y2="1682.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1665.9583694396574" y="1671.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>More Local 1</title></rect><text x="1689.9583694396574" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML1</text>
+<line x1="2596" y1="230" x2="2596.0" y2="196.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2572.0" y="185.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>More Local 1</title></rect><text x="2596.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML1</text>
+<line x1="1966" y1="440" x2="1966.0" y2="406.0" stroke="#B0287F" stroke-width="7"/><rect x="1942.0" y="395.0" width="48" height="22" rx="5" fill="#B0287F"><title>More Local 2</title></rect><text x="1966.0" y="411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML2</text>
+<line x1="2974" y1="1910" x2="2998.0416305603426" y2="1885.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="2974.0416305603426" y="1874.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>More Local 2</title></rect><text x="2998.0416305603426" y="1890.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML2</text>
+<line x1="3016" y1="1280" x2="3040.0416305603426" y2="1255.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="3016.0416305603426" y="1244.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 3</title></rect><text x="3040.0416305603426" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML3</text>
+<line x1="2806" y1="2414" x2="2840.0" y2="2414.0" stroke="#D6264F" stroke-width="7"/><rect x="2816.0" y="2403.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 3</title></rect><text x="2840.0" y="2419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML3</text>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activities-api/#op-listActivities" target="_blank" class="st" data-op="listActivities"><title>GET /activities
+More Local 1 line · listActivities</title>
+<circle cx="1714" cy="1658" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1726" y="1663" text-anchor="start" style="fill:#1A1F2C">List activities</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivities" target="_blank" class="st" data-op="getActivities"><title>GET /activity
+Activity line · getActivities</title>
+<circle cx="412" cy="902" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="424" y="907" text-anchor="start" style="fill:#1A1F2C">Get activity</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivityDns" target="_blank" class="st" data-op="getActivityDns"><title>GET /activity/dns
+Activity line · getActivityDns</title>
+<circle cx="580" cy="1070" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="592" y="1075" text-anchor="start" style="fill:#1A1F2C">List dns</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivityProxy" target="_blank" class="st" data-op="getActivityProxy"><title>GET /activity/proxy
+Activity line · getActivityProxy</title>
+<circle cx="160" cy="1238" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="166" y="1226" transform="rotate(-45 166 1226)" style="fill:#1A1F2C">Get proxy</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivityFirewall" target="_blank" class="st" data-op="getActivityFirewall"><title>GET /activity/firewall
+Activity line · getActivityFirewall</title>
+<circle cx="580" cy="1196" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="592" y="1201" text-anchor="start" style="fill:#1A1F2C">Get firewall</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivityIntrusion" target="_blank" class="st" data-op="getActivityIntrusion"><title>GET /activity/intrusion
+Activity line · getActivityIntrusion</title>
+<circle cx="370" cy="1196" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="358.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Get intrusion</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivityIP" target="_blank" class="st" data-op="getActivityIP"><title>GET /activity/ip
+Activity line · getActivityIP</title>
+<circle cx="328" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="319.0" y="1257" text-anchor="end" style="fill:#1A1F2C">Get ip <tspan font-weight="700" style="fill:#E07B12">⇄IP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-activity-api/#op-getActivityAmpRetrospective" target="_blank" class="st" data-op="getActivityAmpRetrospective"><title>GET /activity/amp-retrospective
+Activity line · getActivityAmpRetrospective</title>
+<circle cx="496" cy="986" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="508" y="991" text-anchor="start" style="fill:#1A1F2C">Get amp retrospective</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-keys-api/#op-getAPIKeys" target="_blank" class="st" data-op="getAPIKeys"><title>GET /apiKeys
+Api Keys line · getAPIKeys</title>
+<circle cx="2764" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2755.0" y="934" text-anchor="end" style="fill:#1A1F2C">List apikeys</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-keys-api/#op-createAPIKeys" target="_blank" class="st" data-op="createAPIKeys"><title>POST /apiKeys
+Api Keys line · createAPIKeys</title>
+<circle cx="2596" cy="944" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2602" y="932" transform="rotate(-45 2602 932)" style="fill:#1A1F2C">Create apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-keys-api/#op-getAPIKey" target="_blank" class="st" data-op="getAPIKey"><title>GET /apiKeys/{apiKeyId}
+Api Keys line · getAPIKey</title>
+<circle cx="2554" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2542.0" y="949" text-anchor="end" style="fill:#1A1F2C">Get apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-keys-api/#op-deleteAPIKey" target="_blank" class="st" data-op="deleteAPIKey"><title>DELETE /apiKeys/{apiKeyId}
+Api Keys line · deleteAPIKey</title>
+<circle cx="2428" cy="986" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2424" y1="990" x2="2432" y2="982" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2416.0" y="991" text-anchor="end" style="fill:#1A1F2C">Delete apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-keys-api/#op-patchAPIKey" target="_blank" class="st" data-op="patchAPIKey"><title>PATCH /apiKeys/{apiKeyId}
+Api Keys line · patchAPIKey</title>
+<circle cx="2512" cy="986" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2524" y="991" text-anchor="start" style="fill:#1A1F2C">Update apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-keys-api/#op-refreshApiKey" target="_blank" class="st" data-op="refreshApiKey"><title>POST /apiKeys/{apiKeyId}/refresh
+Api Keys line · refreshApiKey</title>
+<circle cx="2386" cy="944" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2395" y="934" text-anchor="start" style="fill:#1A1F2C">Refresh apikey</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-usage-report-api/#op-getAPIUsageRequests" target="_blank" class="st" data-op="getAPIUsageRequests"><title>GET /apiUsage/requests
+Api Usage line · getAPIUsageRequests</title>
+<circle cx="2722" cy="1700" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2710.0" y="1705" text-anchor="end" style="fill:#1A1F2C">List requests</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-usage-report-api/#op-getAPIUsageResponses" target="_blank" class="st" data-op="getAPIUsageResponses"><title>GET /apiUsage/responses
+Api Usage line · getAPIUsageResponses</title>
+<circle cx="2680" cy="1742" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2692" y="1747" text-anchor="start" style="fill:#1A1F2C">List responses</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-usage-report-api/#op-getAPIUsageKeys" target="_blank" class="st" data-op="getAPIUsageKeys"><title>GET /apiUsage/keys
+Api Usage line · getAPIUsageKeys</title>
+<circle cx="2806" cy="1700" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2797.0" y="1690" text-anchor="end" style="fill:#1A1F2C">List keys</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-api-usage-report-api/#op-getAPIUsageSummary" target="_blank" class="st" data-op="getAPIUsageSummary"><title>GET /apiUsage/summary
+Api Usage line · getAPIUsageSummary</title>
+<circle cx="2680" cy="1952" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2692" y="1957" text-anchor="start" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-categories-api/#op-getApplicationCategories" target="_blank" class="st" data-op="getApplicationCategories"><title>GET /appDiscovery/applicationCategories
+App Discovery line · getApplicationCategories</title>
+<circle cx="1672" cy="1448" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1681" y="1467" text-anchor="start" style="fill:#1A1F2C">List applicationcategories</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-lists-api/#op-getApplicationLists" target="_blank" class="st" data-op="getApplicationLists"><title>GET /applicationLists
+Application Lists line · getApplicationLists</title>
+<circle cx="2680" cy="1028" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2692" y="1033" text-anchor="start" style="fill:#1A1F2C">List applicationlists</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-lists-api/#op-createApplicationList" target="_blank" class="st" data-op="createApplicationList"><title>POST /applicationLists
+Application Lists line · createApplicationList</title>
+<circle cx="2554" cy="1112" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2545.0" y="1131" text-anchor="end" style="fill:#1A1F2C">Create applicationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-lists-api/#op-getApplicationList" target="_blank" class="st" data-op="getApplicationList"><title>GET /applicationLists/{applicationListId}
+Application Lists line · getApplicationList</title>
+<circle cx="2554" cy="1154" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2563" y="1144" text-anchor="start" style="fill:#1A1F2C">Get applicationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-lists-api/#op-putApplicationList" target="_blank" class="st" data-op="putApplicationList"><title>PUT /applicationLists/{applicationListId}
+Application Lists line · putApplicationList</title>
+<circle cx="2638" cy="1154" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2638" y="1177" text-anchor="middle" style="fill:#1A1F2C">Update applicationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-lists-api/#op-deleteApplicationList" target="_blank" class="st" data-op="deleteApplicationList"><title>DELETE /applicationLists/{applicationListId}
+Application Lists line · deleteApplicationList</title>
+<circle cx="2806" cy="1154" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="2802" y1="1158" x2="2810" y2="1150" stroke="#00838F" stroke-width="2"/>
+<text x="2806" y="1127" text-anchor="middle" style="fill:#1A1F2C">Delete applicationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-application-lists-api/#op-updateUsageApplications" target="_blank" class="st" data-op="updateUsageApplications"><title>GET /applications/usage
+More Local 1 line · updateUsageApplications</title>
+<circle cx="1756" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1768" y="1537" text-anchor="start" style="fill:#1A1F2C">Get usage</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-getApplicationsAppDiscovery" target="_blank" class="st" data-op="getApplicationsAppDiscovery"><title>GET /appDiscovery/applications
+App Discovery line · getApplicationsAppDiscovery</title>
+<circle cx="1756" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1762" y="1436" transform="rotate(-45 1762 1436)" style="fill:#1A1F2C">List applications <tspan font-weight="700" style="fill:#5C6BC0">⇄ML1</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-patchApplications" target="_blank" class="st" data-op="patchApplications"><title>PATCH /appDiscovery/applications
+App Discovery line · patchApplications</title>
+<circle cx="1840" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1852" y="1453" text-anchor="start" style="fill:#1A1F2C">Create application</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-getApplication" target="_blank" class="st" data-op="getApplication"><title>GET /appDiscovery/applications/{applicationId}
+App Discovery line · getApplication</title>
+<circle cx="1924" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1936" y="1621" text-anchor="start" style="fill:#1A1F2C">Get application</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-updateApplication" target="_blank" class="st" data-op="updateApplication"><title>PATCH /appDiscovery/applications/{applicationId}
+App Discovery line · updateApplication</title>
+<circle cx="1924" cy="1700" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1936" y="1705" text-anchor="start" style="fill:#1A1F2C">Update application</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-getApplicationRisk" target="_blank" class="st" data-op="getApplicationRisk"><title>GET /appDiscovery/applications/{applicationId}/risk
+App Discovery line · getApplicationRisk</title>
+<circle cx="1672" cy="1784" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1660.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Get risk</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-getApplicationIdentities" target="_blank" class="st" data-op="getApplicationIdentities"><title>GET /appDiscovery/applications/{applicationId}/identities
+App Discovery line · getApplicationIdentities</title>
+<circle cx="1756" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1762" y="1772" transform="rotate(-45 1762 1772)" style="fill:#1A1F2C">List identities <tspan font-weight="700" style="fill:#0d7773">⇄IDE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-getApplicationAttributes" target="_blank" class="st" data-op="getApplicationAttributes"><title>GET /appDiscovery/applications/{applicationId}/attributes
+App Discovery line · getApplicationAttributes</title>
+<circle cx="1840" cy="1784" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1852" y="1789" text-anchor="start" style="fill:#1A1F2C">List attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-applications-api/#op-getApplicationsInfo" target="_blank" class="st" data-op="getApplicationsInfo"><title>GET /appDiscovery/applications/info
+App Discovery line · getApplicationsInfo</title>
+<circle cx="1924" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1936" y="1537" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-apps-api/#op-listApplications" target="_blank" class="st" data-op="listApplications"><title>GET /apps
+Apps line · listApplications</title>
+<circle cx="2722" cy="1238" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2716" y="1250" text-anchor="end" transform="rotate(-45 2716 1250)" style="fill:#1A1F2C">List apps</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-apps-api/#op-listApplicationAccessScopes" target="_blank" class="st" data-op="listApplicationAccessScopes"><title>GET /apps/{id}/access_scopes
+Apps line · listApplicationAccessScopes</title>
+<circle cx="2638" cy="1238" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2632" y="1250" text-anchor="end" transform="rotate(-45 2632 1250)" style="fill:#1A1F2C">List access scopes</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-apps-api/#op-updateAppsClassification" target="_blank" class="st" data-op="updateAppsClassification"><title>POST /apps/{id}/classification
+Apps line · updateAppsClassification</title>
+<circle cx="2554" cy="1238" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2542.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Update classification</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-apps-api/#op-listApplicationInstallations" target="_blank" class="st" data-op="listApplicationInstallations"><title>GET /apps/{id}/installs
+Apps line · listApplicationInstallations</title>
+<circle cx="2470" cy="1322" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2458.0" y="1327" text-anchor="end" style="fill:#1A1F2C">List installs</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-as-information-for-a-domain-api/#op-getBgpRoutesIp" target="_blank" class="st" data-op="getBgpRoutesIp"><title>GET /bgp_routes/ip/{ip}/as_for_ip.json
+More Local 1 line · getBgpRoutesIp</title>
+<circle cx="1672" cy="1238" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1684" y="1243" text-anchor="start" style="fill:#1A1F2C">Get as for ip</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-as-information-for-a-domain-api/#op-getBgpRoutesAsn" target="_blank" class="st" data-op="getBgpRoutesAsn"><title>GET /bgp_routes/asn/{asn}/prefixes_for_asn.json
+More Local 1 line · getBgpRoutesAsn</title>
+<circle cx="1546" cy="1364" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="1369" text-anchor="start" style="fill:#1A1F2C">Get prefixes for asn</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-bandwidth-by-hour-api/#op-getBandwidthByHour" target="_blank" class="st" data-op="getBandwidthByHour"><title>GET /bandwidth-by-hour
+More Local 1 line · getBandwidthByHour</title>
+<circle cx="1672" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1681" y="1522" text-anchor="start" style="fill:#1A1F2C">Get bandwidth by hour</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-bandwidth-by-timerange-api/#op-getBandwidthByTimerange" target="_blank" class="st" data-op="getBandwidthByTimerange"><title>GET /bandwidth-by-timerange
+More Local 1 line · getBandwidthByTimerange</title>
+<circle cx="1546" cy="1406" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1534.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Get bandwidth by timerange</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cisco-secure-malware-analytics-integration-api/#op-getSamplesDestination" target="_blank" class="st" data-op="getSamplesDestination"><title>GET /samples/{destination}
+More Local 2 line · getSamplesDestination</title>
+<circle cx="1924" cy="1238" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1936" y="1243" text-anchor="start" style="fill:#1A1F2C">Get sample</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cisco-secure-malware-analytics-integration-api/#op-getSampleHash" target="_blank" class="st" data-op="getSampleHash"><title>GET /sample/{hash}
+Sample line · getSampleHash</title>
+<circle cx="2764" cy="1406" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2776" y="1411" text-anchor="start" style="fill:#1A1F2C">Get sample</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cisco-secure-malware-analytics-integration-api/#op-getSampleHashArtifacts" target="_blank" class="st" data-op="getSampleHashArtifacts"><title>GET /sample/{hash}/artifacts
+Sample line · getSampleHashArtifacts</title>
+<circle cx="2722" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2734" y="1369" text-anchor="start" style="fill:#1A1F2C">List artifacts</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cisco-secure-malware-analytics-integration-api/#op-getSampleHashConnections" target="_blank" class="st" data-op="getSampleHashConnections"><title>GET /sample/{hash}/connections
+Sample line · getSampleHashConnections</title>
+<circle cx="2596" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2602" y="1352" transform="rotate(-45 2602 1352)" style="fill:#1A1F2C">List connections</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cisco-secure-malware-analytics-integration-api/#op-getSampleHashBehaviors" target="_blank" class="st" data-op="getSampleHashBehaviors"><title>GET /sample/{hash}/behaviors
+Sample line · getSampleHashBehaviors</title>
+<circle cx="2638" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2644" y="1352" transform="rotate(-45 2644 1352)" style="fill:#1A1F2C">List behaviors</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cnames-api/#op-getCnames" target="_blank" class="st" data-op="getCnames"><title>GET /config/cnames
+Config line · getCnames</title>
+<circle cx="580" cy="1658" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="1663" text-anchor="start" style="fill:#1A1F2C">List cnames</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cnames-api/#op-createCname" target="_blank" class="st" data-op="createCname"><title>POST /config/cnames
+Config line · createCname</title>
+<circle cx="664" cy="1742" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="1747" text-anchor="start" style="fill:#1A1F2C">Create cname</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cnames-api/#op-getCname" target="_blank" class="st" data-op="getCname"><title>GET /config/cnames/{cnameId}
+Config line · getCname</title>
+<circle cx="748" cy="1826" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="736.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Get cname</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cnames-api/#op-updateCname" target="_blank" class="st" data-op="updateCname"><title>PUT /config/cnames/{cnameId}
+Config line · updateCname</title>
+<circle cx="874" cy="1826" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="886" y="1831" text-anchor="start" style="fill:#1A1F2C">Update cname</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-cnames-api/#op-deleteCname" target="_blank" class="st" data-op="deleteCname"><title>DELETE /config/cnames/{cnameId}
+Config line · deleteCname</title>
+<circle cx="916" cy="1784" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="912" y1="1788" x2="920" y2="1780" stroke="#1F5FD1" stroke-width="2"/>
+<text x="904.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Delete cname</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-co-occurrences-for-a-domain-api/#op-getRecommendationsName" target="_blank" class="st" data-op="getRecommendationsName"><title>GET /recommendations/name/{domain}.json
+More Local 2 line · getRecommendationsName</title>
+<circle cx="1966" cy="524" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="529" text-anchor="start" style="fill:#1A1F2C">Get name</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-contacts-api/#op-getContacts" target="_blank" class="st" data-op="getContacts"><title>GET /config/contacts
+Config line · getContacts</title>
+<circle cx="1042" cy="1784" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1048" y="1772" transform="rotate(-45 1048 1772)" style="fill:#1A1F2C">List contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-contacts-api/#op-createContact" target="_blank" class="st" data-op="createContact"><title>POST /config/contacts
+Config line · createContact</title>
+<circle cx="1126" cy="1784" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="1789" text-anchor="start" style="fill:#1A1F2C">Create contact</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-contacts-api/#op-getContact" target="_blank" class="st" data-op="getContact"><title>GET /config/contacts/{contactId}
+Config line · getContact</title>
+<circle cx="1126" cy="1868" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="1873" text-anchor="start" style="fill:#1A1F2C">Get contact</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-contacts-api/#op-updateContact" target="_blank" class="st" data-op="updateContact"><title>PUT /config/contacts/{contactId}
+Config line · updateContact</title>
+<circle cx="1084" cy="1910" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="1915" text-anchor="start" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-contacts-api/#op-deleteContact" target="_blank" class="st" data-op="deleteContact"><title>DELETE /config/contacts/{contactId}
+Config line · deleteContact</title>
+<circle cx="1042" cy="1952" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1038" y1="1956" x2="1046" y2="1948" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1054" y="1957" text-anchor="start" style="fill:#1A1F2C">Delete contact</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-data-center-api/#op-getDatacenters" target="_blank" class="st" data-op="getDatacenters"><title>GET /datacenters
+More Local 1 line · getDatacenters</title>
+<circle cx="2260" cy="944" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2272" y="949" text-anchor="start" style="fill:#1A1F2C">List datacenters</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-debugging-api/#op-getOrgTunnelState" target="_blank" class="st" data-op="getOrgTunnelState"><title>GET /tunnelsState
+More Local 3 line · getOrgTunnelState</title>
+<circle cx="2806" cy="2414" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2800" y="2426" text-anchor="end" transform="rotate(-45 2800 2426)" style="fill:#1A1F2C">Get tunnelsstate</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-debugging-api/#op-getTunnelState" target="_blank" class="st" data-op="getTunnelState"><title>GET /tunnels/{id}/state
+Tunnels line · getTunnelState</title>
+<circle cx="1378" cy="2582" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1390" y="2587" text-anchor="start" style="fill:#1A1F2C">Get state</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-debugging-api/#op-getTunnelErrorEvents" target="_blank" class="st" data-op="getTunnelErrorEvents"><title>GET /tunnels/{id}/events
+Tunnels line · getTunnelErrorEvents</title>
+<circle cx="1420" cy="2708" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="2713" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-debugging-api/#op-getTunnelGlobalErrorEvents" target="_blank" class="st" data-op="getTunnelGlobalErrorEvents"><title>GET /tunnels/{id}/globalEvents/sourceIp/{ip}
+Tunnels line · getTunnelGlobalErrorEvents</title>
+<circle cx="1462" cy="2666" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1450.0" y="2671" text-anchor="end" style="fill:#1A1F2C">Get sourceip</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-deployment-status-api/#op-getDeploymentStatus" target="_blank" class="st" data-op="getDeploymentStatus"><title>GET /deployment-status
+More Local 1 line · getDeploymentStatus</title>
+<circle cx="2260" cy="860" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2272" y="865" text-anchor="start" style="fill:#1A1F2C">List deployment status</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destination-lists-api/#op-getDestinationLists" target="_blank" class="st" data-op="getDestinationLists"><title>GET /destinationlists
+Destinationlists line · getDestinationLists</title>
+<circle cx="1924" cy="2456" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1936" y="2461" text-anchor="start" style="fill:#1A1F2C">List destinationlists</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destination-lists-api/#op-createDestinationList" target="_blank" class="st" data-op="createDestinationList"><title>POST /destinationlists
+Destinationlists line · createDestinationList</title>
+<circle cx="1840" cy="2372" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1852" y="2377" text-anchor="start" style="fill:#1A1F2C">Create destinationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destination-lists-api/#op-updateDestinationLists" target="_blank" class="st" data-op="updateDestinationLists"><title>PATCH /destinationlists/{destinationListId}
+Destinationlists line · updateDestinationLists</title>
+<circle cx="1798" cy="2204" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1810" y="2209" text-anchor="start" style="fill:#1A1F2C">Update destinationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destination-lists-api/#op-deleteDestinationList" target="_blank" class="st" data-op="deleteDestinationList"><title>DELETE /destinationlists/{destinationListId}
+Destinationlists line · deleteDestinationList</title>
+<circle cx="1798" cy="2120" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1794" y1="2124" x2="1802" y2="2116" stroke="#B8860B" stroke-width="2"/>
+<text x="1786.0" y="2125" text-anchor="end" style="fill:#1A1F2C">Delete destinationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destination-lists-api/#op-getDestinationList" target="_blank" class="st" data-op="getDestinationList"><title>GET /destinationlists/{destinationListId}
+Destinationlists line · getDestinationList</title>
+<circle cx="1798" cy="2330" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1810" y="2335" text-anchor="start" style="fill:#1A1F2C">Get destinationlist</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destinations-api/#op-getDestinations" target="_blank" class="st" data-op="getDestinations"><title>GET /destinationlists/{destinationListId}/destinations
+Destinationlists line · getDestinations</title>
+<circle cx="1882" cy="2120" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1894" y="2125" text-anchor="start" style="fill:#1A1F2C">List destinations</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destinations-api/#op-createDestinations" target="_blank" class="st" data-op="createDestinations"><title>POST /destinationlists/{destinationListId}/destinations
+Destinationlists line · createDestinations</title>
+<circle cx="1966" cy="2204" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1978" y="2209" text-anchor="start" style="fill:#1A1F2C">Create destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-destinations-api/#op-deleteDestinations" target="_blank" class="st" data-op="deleteDestinations"><title>DELETE /destinationlists/{destinationListId}/destinations/remove
+Destinationlists line · deleteDestinations</title>
+<circle cx="2050" cy="2288" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2046" y1="2292" x2="2054" y2="2284" stroke="#B8860B" stroke-width="2"/>
+<text x="2062" y="2293" text-anchor="start" style="fill:#1A1F2C">Remove destinationlists destinations</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-domain-status-and-categorization-api/#op-getDomainsCategorization" target="_blank" class="st" data-op="getDomainsCategorization"><title>GET /domains/categorization/{domain}
+Domains line · getDomainsCategorization</title>
+<circle cx="2596" cy="1490" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2602" y="1478" transform="rotate(-45 2602 1478)" style="fill:#1A1F2C">Get categorization</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-domain-status-and-categorization-api/#op-postDomainsCategorization" target="_blank" class="st" data-op="postDomainsCategorization"><title>POST /domains/categorization
+Domains line · postDomainsCategorization</title>
+<circle cx="2680" cy="1490" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2671.0" y="1509" text-anchor="end" style="fill:#1A1F2C">Update categorization</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-domain-volume-api/#op-getDomainVolume" target="_blank" class="st" data-op="getDomainVolume"><title>GET /domains/volume/{domain}
+Domains line · getDomainVolume</title>
+<circle cx="2470" cy="1448" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2482" y="1453" text-anchor="start" style="fill:#1A1F2C">Get volume</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-entities-api/#op-listEntities" target="_blank" class="st" data-op="listEntities"><title>GET /entities
+More Local 1 line · listEntities</title>
+<circle cx="2386" cy="734" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2398" y="739" text-anchor="start" style="fill:#1A1F2C">List entities</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-identities-api/#op-getProtocolIdentities" target="_blank" class="st" data-op="getProtocolIdentities"><title>GET /appDiscovery/protocols/{protocolId}/identities
+App Discovery line · getProtocolIdentities</title>
+<circle cx="1588" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1576.0" y="1537" text-anchor="end" style="fill:#1A1F2C">List identities</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-identity-distribution-api/#op-getIdentityDistribution" target="_blank" class="st" data-op="getIdentityDistribution"><title>GET /identity-distribution
+More Local 1 line · getIdentityDistribution</title>
+<circle cx="2470" cy="566" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2482" y="571" text-anchor="start" style="fill:#1A1F2C">Get identity distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-identity-distribution-api/#op-getIdentityDistributionType" target="_blank" class="st" data-op="getIdentityDistributionType"><title>GET /identity-distribution/{type}
+More Local 1 line · getIdentityDistributionType</title>
+<circle cx="2554" cy="482" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2566" y="487" text-anchor="start" style="fill:#1A1F2C">Get identity distribution</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incident-aggregates-api/#op-listIncidentAggregatesPolicies" target="_blank" class="st" data-op="listIncidentAggregatesPolicies"><title>GET /incidents/aggregates/policies
+Incidents line · listIncidentAggregatesPolicies</title>
+<circle cx="1420" cy="2330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1429" y="2320" text-anchor="start" style="fill:#1A1F2C">List policies <tspan font-weight="700" style="fill:#17d25b">⇄POL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incident-aggregates-api/#op-listIncidentAggregatesStatus" target="_blank" class="st" data-op="listIncidentAggregatesStatus"><title>GET /incidents/aggregates/status
+Incidents line · listIncidentAggregatesStatus</title>
+<circle cx="1546" cy="2288" r="5.5" fill="#fff" stroke="#8b2346" stroke-width="2.5"/>
+<text x="1552" y="2276" transform="rotate(-45 1552 2276)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incident-aggregates-api/#op-listIncidentAggregatesUsers" target="_blank" class="st" data-op="listIncidentAggregatesUsers"><title>GET /incidents/aggregates/users
+Incidents line · listIncidentAggregatesUsers</title>
+<circle cx="1672" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1684" y="2419" text-anchor="start" style="fill:#1A1F2C">List users <tspan font-weight="700" style="fill:#d044c7">⇄USE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incident-entities-api/#op-listIncidentEntities" target="_blank" class="st" data-op="listIncidentEntities"><title>GET /incident_entities/{id}
+More Local 1 line · listIncidentEntities</title>
+<circle cx="2596" cy="440" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2608" y="445" text-anchor="start" style="fill:#1A1F2C">Get incident entity</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incidents-api/#op-listIncidents" target="_blank" class="st" data-op="listIncidents"><title>GET /incidents
+Incidents line · listIncidents</title>
+<circle cx="1546" cy="2750" r="5.5" fill="#fff" stroke="#8b2346" stroke-width="2.5"/>
+<text x="1558" y="2755" text-anchor="start" style="fill:#1A1F2C">List incidents</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incidents-api/#op-getIncident" target="_blank" class="st" data-op="getIncident"><title>GET /incidents/{id}
+Incidents line · getIncident</title>
+<circle cx="1546" cy="2624" r="5.5" fill="#fff" stroke="#8b2346" stroke-width="2.5"/>
+<text x="1558" y="2629" text-anchor="start" style="fill:#1A1F2C">Get incident</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-incidents-api/#op-updateIncident" target="_blank" class="st" data-op="updateIncident"><title>PUT /incidents/{id}
+Incidents line · updateIncident</title>
+<circle cx="1546" cy="2498" r="5.5" fill="#8b2346" stroke="#8b2346" stroke-width="2.5"/>
+<text x="1558" y="2503" text-anchor="start" style="fill:#1A1F2C">Update incident</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-domains-api/#op-createInternalDomain" target="_blank" class="st" data-op="createInternalDomain"><title>POST /internaldomains
+Internaldomains line · createInternalDomain</title>
+<circle cx="2302" cy="1238" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2290.0" y="1236" text-anchor="end" style="fill:#1A1F2C">Create<tspan x="2290.0" dy="13">internaldomain</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-domains-api/#op-listInternalDomains" target="_blank" class="st" data-op="listInternalDomains"><title>GET /internaldomains
+Internaldomains line · listInternalDomains</title>
+<circle cx="2302" cy="1154" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2314" y="1152" text-anchor="start" style="fill:#1A1F2C">List<tspan x="2314" dy="13">internaldomains</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-domains-api/#op-getInternalDomain" target="_blank" class="st" data-op="getInternalDomain"><title>GET /internaldomains/{internalDomainId}
+Internaldomains line · getInternalDomain</title>
+<circle cx="2344" cy="1280" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2344" y="1303" text-anchor="middle" style="fill:#1A1F2C">Get internaldomain</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-domains-api/#op-updateInternalDomain" target="_blank" class="st" data-op="updateInternalDomain"><title>PUT /internaldomains/{internalDomainId}
+Internaldomains line · updateInternalDomain</title>
+<circle cx="2428" cy="1196" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2440" y="1201" text-anchor="start" style="fill:#1A1F2C">Update internaldomain</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-domains-api/#op-deleteInternalDomain" target="_blank" class="st" data-op="deleteInternalDomain"><title>DELETE /internaldomains/{internalDomainId}
+Internaldomains line · deleteInternalDomain</title>
+<circle cx="2428" cy="1112" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2424" y1="1116" x2="2432" y2="1108" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2437" y="1102" text-anchor="start" style="fill:#1A1F2C">Delete internaldomain</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-networks-api/#op-createInternalNetwork" target="_blank" class="st" data-op="createInternalNetwork"><title>POST /internalnetworks
+Internalnetworks line · createInternalNetwork</title>
+<circle cx="1042" cy="2624" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1054" y="2629" text-anchor="start" style="fill:#1A1F2C">Create internalnetwork</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-networks-api/#op-listInternalNetworks" target="_blank" class="st" data-op="listInternalNetworks"><title>GET /internalnetworks
+Internalnetworks line · listInternalNetworks</title>
+<circle cx="1042" cy="2708" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1054" y="2713" text-anchor="start" style="fill:#1A1F2C">List internalnetworks</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-networks-api/#op-getInternalNetwork" target="_blank" class="st" data-op="getInternalNetwork"><title>GET /internalnetworks/{internalNetworkId}
+Internalnetworks line · getInternalNetwork</title>
+<circle cx="1042" cy="2582" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1054" y="2587" text-anchor="start" style="fill:#1A1F2C">Get internalnetwork</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-networks-api/#op-updateInternalNetwork" target="_blank" class="st" data-op="updateInternalNetwork"><title>PUT /internalnetworks/{internalNetworkId}
+Internalnetworks line · updateInternalNetwork</title>
+<circle cx="1126" cy="2498" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="2503" text-anchor="start" style="fill:#1A1F2C">Update internalnetwork</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-networks-api/#op-deleteInternalNetwork" target="_blank" class="st" data-op="deleteInternalNetwork"><title>DELETE /internalnetworks/{internalNetworkId}
+Internalnetworks line · deleteInternalNetwork</title>
+<circle cx="1210" cy="2414" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1206" y1="2418" x2="1214" y2="2410" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1198.0" y="2419" text-anchor="end" style="fill:#1A1F2C">Delete internalnetwork</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-internal-networks-api/#op-listInternalNetworkPolicies" target="_blank" class="st" data-op="listInternalNetworkPolicies"><title>GET /internalnetworks/{internalNetworkId}/policies
+Internalnetworks line · listInternalNetworkPolicies</title>
+<circle cx="1252" cy="2372" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1240.0" y="2377" text-anchor="end" style="fill:#1A1F2C">List policies <tspan font-weight="700" style="fill:#17d25b">⇄POL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-deleteEntriesIpSuspicious" target="_blank" class="st" data-op="deleteEntriesIpSuspicious"><title>DELETE /ip/suspicious
+IP line · deleteEntriesIpSuspicious</title>
+<circle cx="328" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="334" y="1310" transform="rotate(-45 334 1310)" style="fill:#1A1F2C">Delete suspiciou</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-listEntriesIpSuspicious" target="_blank" class="st" data-op="listEntriesIpSuspicious"><title>GET /ip/suspicious
+IP line · listEntriesIpSuspicious</title>
+<circle cx="160" cy="1406" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="148.0" y="1411" text-anchor="end" style="fill:#1A1F2C">List suspicious</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-importCsvEntriesIpSuspicious" target="_blank" class="st" data-op="importCsvEntriesIpSuspicious"><title>POST /ip/suspicious
+IP line · importCsvEntriesIpSuspicious</title>
+<circle cx="244" cy="1322" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="232.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Create suspiciou</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-updateEntryIpSuspicious" target="_blank" class="st" data-op="updateEntryIpSuspicious"><title>PUT /ip/suspicious/{id}
+IP line · updateEntryIpSuspicious</title>
+<circle cx="412" cy="1322" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="418" y="1310" transform="rotate(-45 418 1310)" style="fill:#1A1F2C">Update suspiciou</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-deleteEntriesIpTrusted" target="_blank" class="st" data-op="deleteEntriesIpTrusted"><title>DELETE /ip/trusted
+IP line · deleteEntriesIpTrusted</title>
+<circle cx="370" cy="1112" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="366" y1="1116" x2="374" y2="1108" stroke="#E07B12" stroke-width="2"/>
+<text x="376" y="1100" transform="rotate(-45 376 1100)" style="fill:#1A1F2C">Delete trusted</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-listEntriesTrustedIp" target="_blank" class="st" data-op="listEntriesTrustedIp"><title>GET /ip/trusted
+IP line · listEntriesTrustedIp</title>
+<circle cx="496" cy="1322" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="508" y="1327" text-anchor="start" style="fill:#1A1F2C">Get trusted</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-importCsvEntriesIpTrusted" target="_blank" class="st" data-op="importCsvEntriesIpTrusted"><title>POST /ip/trusted
+IP line · importCsvEntriesIpTrusted</title>
+<circle cx="496" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="487.0" y="1131" text-anchor="end" style="fill:#1A1F2C">Update trusted</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-ip-libraries-api/#op-updateEntryIpTrusted" target="_blank" class="st" data-op="updateEntryIpTrusted"><title>PUT /ip/trusted/{id}
+IP line · updateEntryIpTrusted</title>
+<circle cx="286" cy="1112" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="292" y="1100" transform="rotate(-45 292 1100)" style="fill:#1A1F2C">Update trusted</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-logos-api/#op-getLogos" target="_blank" class="st" data-op="getLogos"><title>GET /config/logos
+Config line · getLogos</title>
+<circle cx="958" cy="1952" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="964" y="1940" transform="rotate(-45 964 1940)" style="fill:#1A1F2C">List logos</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-logos-api/#op-createLogo" target="_blank" class="st" data-op="createLogo"><title>POST /config/logos
+Config line · createLogo</title>
+<circle cx="832" cy="1952" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="838" y="1940" transform="rotate(-45 838 1940)" style="fill:#1A1F2C">Create logo</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-logos-api/#op-getLogo" target="_blank" class="st" data-op="getLogo"><title>GET /config/logos/{logoId}
+Config line · getLogo</title>
+<circle cx="748" cy="1952" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="736.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Get logo</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-logos-api/#op-updateLogo" target="_blank" class="st" data-op="updateLogo"><title>PUT /config/logos/{logoId}
+Config line · updateLogo</title>
+<circle cx="664" cy="2036" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="2041" text-anchor="start" style="fill:#1A1F2C">Update logo</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-logos-api/#op-deleteLogo" target="_blank" class="st" data-op="deleteLogo"><title>DELETE /config/logos/{logoId}
+Config line · deleteLogo</title>
+<circle cx="580" cy="2120" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="576" y1="2124" x2="584" y2="2116" stroke="#1F5FD1" stroke-width="2"/>
+<text x="592" y="2125" text-anchor="start" style="fill:#1A1F2C">Delete logo</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-managed-providers-api/#op-createManagedProviderCustomer" target="_blank" class="st" data-op="createManagedProviderCustomer"><title>POST /managed/customers
+Managed line · createManagedProviderCustomer</title>
+<circle cx="2260" cy="1406" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2266" y="1394" transform="rotate(-45 2266 1394)" style="fill:#1A1F2C">Create customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-managed-providers-api/#op-listManagedProviderCustomers" target="_blank" class="st" data-op="listManagedProviderCustomers"><title>GET /managed/customers
+Managed line · listManagedProviderCustomers</title>
+<circle cx="2344" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2338" y="1418" text-anchor="end" transform="rotate(-45 2338 1418)" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-managed-providers-api/#op-getManagedProviderCustomer" target="_blank" class="st" data-op="getManagedProviderCustomer"><title>GET /managed/customers/{customerId}
+Managed line · getManagedProviderCustomer</title>
+<circle cx="2218" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2206.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-managed-providers-api/#op-deleteMangedProviderCustomer" target="_blank" class="st" data-op="deleteMangedProviderCustomer"><title>DELETE /managed/customers/{customerId}
+Managed line · deleteMangedProviderCustomer</title>
+<circle cx="2176" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2172" y1="1284" x2="2180" y2="1276" stroke="#B8860B" stroke-width="2"/>
+<text x="2188" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-managed-providers-api/#op-updateManagedProviderCustomer" target="_blank" class="st" data-op="updateManagedProviderCustomer"><title>PUT /managed/customers/{customerId}
+Managed line · updateManagedProviderCustomer</title>
+<circle cx="2176" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2188" y="1369" text-anchor="start" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-network-devices-api/#op-createNetworkDevice" target="_blank" class="st" data-op="createNetworkDevice"><title>POST /networkdevices
+Networkdevices line · createNetworkDevice</title>
+<circle cx="1210" cy="2750" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1222" y="2755" text-anchor="start" style="fill:#1A1F2C">Create networkdevice <tspan font-weight="700" style="fill:#8823d6">⇄TAG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-network-devices-api/#op-getAllNetworkDevices" target="_blank" class="st" data-op="getAllNetworkDevices"><title>GET /networkdevices
+Networkdevices line · getAllNetworkDevices</title>
+<circle cx="1210" cy="2834" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1222" y="2839" text-anchor="start" style="fill:#1A1F2C">List networkdevices</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-network-devices-api/#op-updateNetworkDevice" target="_blank" class="st" data-op="updateNetworkDevice"><title>PATCH /networkdevices/{originId}
+Networkdevices line · updateNetworkDevice</title>
+<circle cx="1210" cy="2582" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1222" y="2587" text-anchor="start" style="fill:#1A1F2C">Update networkdevice</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-network-devices-api/#op-getNetworkDevice" target="_blank" class="st" data-op="getNetworkDevice"><title>GET /networkdevices/{originId}
+Networkdevices line · getNetworkDevice</title>
+<circle cx="1210" cy="2666" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1222" y="2671" text-anchor="start" style="fill:#1A1F2C">Get networkdevice</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-network-devices-api/#op-deleteNetworkDevice" target="_blank" class="st" data-op="deleteNetworkDevice"><title>DELETE /networkdevices/{originId}
+Networkdevices line · deleteNetworkDevice</title>
+<circle cx="1294" cy="2498" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1290" y1="2502" x2="1298" y2="2494" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1306" y="2503" text-anchor="start" style="fill:#1A1F2C">Delete networkdevice</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-network-devices-api/#op-listNetworkDevicePolicies" target="_blank" class="st" data-op="listNetworkDevicePolicies"><title>GET /networkdevices/{originId}/policies
+Networkdevices line · listNetworkDevicePolicies</title>
+<circle cx="1336" cy="2456" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1324.0" y="2461" text-anchor="end" style="fill:#1A1F2C">List policies <tspan font-weight="700" style="fill:#17d25b">⇄POL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-networks-api/#op-createNetwork" target="_blank" class="st" data-op="createNetwork"><title>POST /networks
+Networks line · createNetwork</title>
+<circle cx="958" cy="2456" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="970" y="2461" text-anchor="start" style="fill:#1A1F2C">Create network</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-networks-api/#op-listNetworks" target="_blank" class="st" data-op="listNetworks"><title>GET /networks
+Networks line · listNetworks</title>
+<circle cx="874" cy="2540" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="886" y="2545" text-anchor="start" style="fill:#1A1F2C">List networks</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-networks-api/#op-getNetwork" target="_blank" class="st" data-op="getNetwork"><title>GET /networks/{networkId}
+Networks line · getNetwork</title>
+<circle cx="958" cy="2414" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="970" y="2419" text-anchor="start" style="fill:#1A1F2C">Get network</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-networks-api/#op-updateNetwork" target="_blank" class="st" data-op="updateNetwork"><title>PUT /networks/{networkId}
+Networks line · updateNetwork</title>
+<circle cx="1042" cy="2330" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1054" y="2335" text-anchor="start" style="fill:#1A1F2C">Update network</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-networks-api/#op-deleteNetwork" target="_blank" class="st" data-op="deleteNetwork"><title>DELETE /networks/{networkId}
+Networks line · deleteNetwork</title>
+<circle cx="1084" cy="2288" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1080" y1="2292" x2="1088" y2="2284" stroke="#2E7D32" stroke-width="2"/>
+<text x="1072.0" y="2293" text-anchor="end" style="fill:#1A1F2C">Delete network</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-networks-api/#op-listNetworkPolicies" target="_blank" class="st" data-op="listNetworkPolicies"><title>GET /networks/{networkId}/policies
+Networks line · listNetworkPolicies</title>
+<circle cx="1294" cy="2288" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1285.0" y="2278" text-anchor="end" style="fill:#1A1F2C">List policies <tspan font-weight="700" style="fill:#17d25b">⇄POL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-information-api/#op-getOrganizationInfo" target="_blank" class="st" data-op="getOrganizationInfo"><title>GET /roamingcomputers/orgInfo
+Roamingcomputers line · getOrganizationInfo</title>
+<circle cx="2134" cy="2078" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2122.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Get orginfo</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-hour-and-category-api/#op-getRequestsByHourAndCategory" target="_blank" class="st" data-op="getRequestsByHourAndCategory"><title>GET /categories-by-hour
+More Local 1 line · getRequestsByHourAndCategory</title>
+<circle cx="1798" cy="1112" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1807" y="1102" text-anchor="start" style="fill:#1A1F2C">Get categories by hour</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-hour-and-category-api/#op-getRequestsByHourAndCategoryAndType" target="_blank" class="st" data-op="getRequestsByHourAndCategoryAndType"><title>GET /categories-by-hour/{type}
+More Local 1 line · getRequestsByHourAndCategoryAndType</title>
+<circle cx="1966" cy="1112" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1978" y="1117" text-anchor="start" style="fill:#1A1F2C">Get categories by hour</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-hour-api/#op-getRequestsByHour" target="_blank" class="st" data-op="getRequestsByHour"><title>GET /requests-by-hour
+More Local 2 line · getRequestsByHour</title>
+<circle cx="1966" cy="608" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="613" text-anchor="start" style="fill:#1A1F2C">Get requests by hour</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-hour-api/#op-getOrganizationRequestsByHour" target="_blank" class="st" data-op="getOrganizationRequestsByHour"><title>GET /requests-by-hour/{type}
+More Local 2 line · getOrganizationRequestsByHour</title>
+<circle cx="1882" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1870.0" y="613" text-anchor="end" style="fill:#1A1F2C">Get requests by hour</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-timerange-and-category-api/#op-getRequestsByTimerangeAndCategory" target="_blank" class="st" data-op="getRequestsByTimerangeAndCategory"><title>GET /categories-by-timerange
+More Local 1 line · getRequestsByTimerangeAndCategory</title>
+<circle cx="2050" cy="1028" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2038.0" y="1026" text-anchor="end" style="fill:#1A1F2C">Get categories<tspan x="2038.0" dy="13">by timerange</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-timerange-and-category-api/#op-getRequestsByTimerangeAndCategoryType" target="_blank" class="st" data-op="getRequestsByTimerangeAndCategoryType"><title>GET /categories-by-timerange/{type}
+More Local 1 line · getRequestsByTimerangeAndCategoryType</title>
+<circle cx="2260" cy="1028" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2272" y="1033" text-anchor="start" style="fill:#1A1F2C">Get categories by timerange</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-timerange-api/#op-getRequestsByTimerange" target="_blank" class="st" data-op="getRequestsByTimerange"><title>GET /requests-by-timerange
+More Local 2 line · getRequestsByTimerange</title>
+<circle cx="1882" cy="776" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="781" text-anchor="start" style="fill:#1A1F2C">Get requests by timerange</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-requests-by-timerange-api/#op-getRequestsByTimerangeType" target="_blank" class="st" data-op="getRequestsByTimerangeType"><title>GET /requests-by-timerange/{type}
+More Local 2 line · getRequestsByTimerangeType</title>
+<circle cx="1882" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1870.0" y="907" text-anchor="end" style="fill:#1A1F2C">Get requests by timerange</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-listTunnels" target="_blank" class="st" data-op="listTunnels"><title>GET /tunnels
+Tunnels line · listTunnels</title>
+<circle cx="1420" cy="3212" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="3217" text-anchor="start" style="fill:#1A1F2C">List tunnels</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-addTunnel" target="_blank" class="st" data-op="addTunnel"><title>POST /tunnels
+Tunnels line · addTunnel</title>
+<circle cx="1420" cy="3128" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="3133" text-anchor="start" style="fill:#1A1F2C">Create tunnel</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-getTunnel" target="_blank" class="st" data-op="getTunnel"><title>GET /tunnels/{id}
+Tunnels line · getTunnel</title>
+<circle cx="1420" cy="3044" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="3049" text-anchor="start" style="fill:#1A1F2C">Get tunnel</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-updateTunnel" target="_blank" class="st" data-op="updateTunnel"><title>PUT /tunnels/{id}
+Tunnels line · updateTunnel</title>
+<circle cx="1420" cy="2918" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="2923" text-anchor="start" style="fill:#1A1F2C">Update tunnel</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-deleteTunnel" target="_blank" class="st" data-op="deleteTunnel"><title>DELETE /tunnels/{id}
+Tunnels line · deleteTunnel</title>
+<circle cx="1420" cy="2834" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1416" y1="2838" x2="1424" y2="2830" stroke="#0B7A75" stroke-width="2"/>
+<text x="1432" y="2839" text-anchor="start" style="fill:#1A1F2C">Delete tunnel</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-updateTunnelCredentials" target="_blank" class="st" data-op="updateTunnelCredentials"><title>POST /tunnels/{id}/keys
+Tunnels line · updateTunnelCredentials</title>
+<circle cx="1462" cy="2456" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1450.0" y="2461" text-anchor="end" style="fill:#1A1F2C">Create key</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-organization-tunnel-api/#op-getTunnelPolicies" target="_blank" class="st" data-op="getTunnelPolicies"><title>GET /tunnels/{id}/policies
+Tunnels line · getTunnelPolicies</title>
+<circle cx="1420" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1426" y="2402" transform="rotate(-45 1426 2402)" style="fill:#1A1F2C">List policies <tspan font-weight="700" style="fill:#17d25b">⇄POL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-passive-dns-api/#op-getPassiveDNSName" target="_blank" class="st" data-op="getPassiveDNSName"><title>GET /pdns/name/{domain}
+Pdns line · getPassiveDNSName</title>
+<circle cx="370" cy="1406" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<text x="382" y="1411" text-anchor="start" style="fill:#1A1F2C">Get name</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-passive-dns-api/#op-getPassiveDNSDomain" target="_blank" class="st" data-op="getPassiveDNSDomain"><title>GET /pdns/domain/{domain}
+Pdns line · getPassiveDNSDomain</title>
+<circle cx="244" cy="1490" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<text x="256" y="1495" text-anchor="start" style="fill:#1A1F2C">Get domain</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-passive-dns-api/#op-getPassiveDNSIp" target="_blank" class="st" data-op="getPassiveDNSIp"><title>GET /pdns/ip/{ip}
+Pdns line · getPassiveDNSIp</title>
+<circle cx="328" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="316.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Get ip <tspan font-weight="700" style="fill:#E07B12">⇄IP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-passive-dns-api/#op-getPassiveDNSRaw" target="_blank" class="st" data-op="getPassiveDNSRaw"><title>GET /pdns/raw/{anystring}
+Pdns line · getPassiveDNSRaw</title>
+<circle cx="454" cy="1490" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<text x="466" y="1495" text-anchor="start" style="fill:#1A1F2C">Get raw</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-policies-api/#op-listPolicies" target="_blank" class="st" data-op="cisco-umbrella-policies-api:listPolicies"><title>GET /policies
+Policies line · listPolicies</title>
+<circle cx="1336" cy="2372" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348" y="2377" text-anchor="start" style="fill:#1A1F2C">List policies</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-policy-api/#op-updatePolicyIdentities" target="_blank" class="st" data-op="updatePolicyIdentities"><title>PUT /policies/{policyId}/identities/{originId}
+Policies line · updatePolicyIdentities</title>
+<circle cx="1588" cy="2120" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1597" y="2110" text-anchor="start" style="fill:#1A1F2C">Update identity <tspan font-weight="700" style="fill:#0d7773">⇄IDE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-policy-api/#op-deletePolicyIdentities" target="_blank" class="st" data-op="deletePolicyIdentities"><title>DELETE /policies/{policyId}/identities/{originId}
+Policies line · deletePolicyIdentities</title>
+<circle cx="1462" cy="2120" r="5.5" fill="#fff" stroke="#17d25b" stroke-width="2.5"/>
+<line x1="1458" y1="2124" x2="1466" y2="2116" stroke="#17d25b" stroke-width="2"/>
+<text x="1468" y="2108" transform="rotate(-45 1468 2108)" style="fill:#1A1F2C">Delete identity</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-popularity-list-top-million-domains-api/#op-getTopmillion" target="_blank" class="st" data-op="getTopmillion"><title>GET /topmillion
+More Local 3 line · getTopmillion</title>
+<circle cx="2554" cy="2288" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2566" y="2293" text-anchor="start" style="fill:#1A1F2C">Get topmillion</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-protocols-api/#op-getProtocols" target="_blank" class="st" data-op="getProtocols"><title>GET /appDiscovery/protocols
+App Discovery line · getProtocols</title>
+<circle cx="1588" cy="1700" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1576.0" y="1705" text-anchor="end" style="fill:#1A1F2C">List protocols</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-protocols-api/#op-getProtocol" target="_blank" class="st" data-op="getProtocol"><title>GET /appDiscovery/protocols/{protocolId}
+App Discovery line · getProtocol</title>
+<circle cx="1588" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="1621" text-anchor="start" style="fill:#1A1F2C">Get protocol</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-category-requests-by-organization-api/#op-getProviderCategoryRequestsByOrganization" target="_blank" class="st" data-op="getProviderCategoryRequestsByOrganization"><title>GET /providers/category-requests-by-org
+Providers line · getProviderCategoryRequestsByOrganization</title>
+<circle cx="1588" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1033" text-anchor="start" style="fill:#1A1F2C">Get category requests by org</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-deployment-status-api/#op-getDeploymentStatusByOrganization" target="_blank" class="st" data-op="getDeploymentStatusByOrganization"><title>GET /providers/deployments
+Providers line · getDeploymentStatusByOrganization</title>
+<circle cx="1630" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="361" text-anchor="start" style="fill:#1A1F2C">List deployments</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-requests-by-category-api/#op-getProviderRequestsByCategory" target="_blank" class="st" data-op="getProviderRequestsByCategory"><title>GET /providers/requests-by-category
+Providers line · getProviderRequestsByCategory</title>
+<circle cx="1714" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="445" text-anchor="start" style="fill:#1A1F2C">Get requests by category</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-requests-by-destination-api/#op-getProviderRequestsByDestination" target="_blank" class="st" data-op="getProviderRequestsByDestination"><title>GET /providers/requests-by-destination
+Providers line · getProviderRequestsByDestination</title>
+<circle cx="1798" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1786.0" y="529" text-anchor="end" style="fill:#1A1F2C">Get requests by destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-requests-by-hour-api/#op-getProviderRequestsByHour" target="_blank" class="st" data-op="getProviderRequestsByHour"><title>GET /providers/requests-by-hour
+Providers line · getProviderRequestsByHour</title>
+<circle cx="1840" cy="566" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1840" y="589" text-anchor="middle" style="fill:#1A1F2C">Get requests by hour</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-requests-by-organization-api/#op-getProviderRequestsByOrganization" target="_blank" class="st" data-op="getProviderRequestsByOrganization"><title>GET /providers/requests-by-org
+Providers line · getProviderRequestsByOrganization</title>
+<circle cx="1882" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1891" y="514" text-anchor="start" style="fill:#1A1F2C">Get requests by org</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-provider-requests-by-timerange-api/#op-getProviderRequestsByTimerange" target="_blank" class="st" data-op="getProviderRequestsByTimerange"><title>GET /providers/requests-by-timerange
+Providers line · getProviderRequestsByTimerange</title>
+<circle cx="1882" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1894" y="361" text-anchor="start" style="fill:#1A1F2C">Get requests by timerange</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-createProviderCustomer" target="_blank" class="st" data-op="createProviderCustomer"><title>POST /providers/customers
+Providers line · createProviderCustomer</title>
+<circle cx="1084" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="739" text-anchor="end" style="fill:#1A1F2C">Create customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-listProviderCustomers" target="_blank" class="st" data-op="listProviderCustomers"><title>GET /providers/customers
+Providers line · listProviderCustomers</title>
+<circle cx="1210" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1216" y="722" transform="rotate(-45 1216 722)" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getProviderCustomer" target="_blank" class="st" data-op="getProviderCustomer"><title>GET /providers/customers/{customerId}
+Providers line · getProviderCustomer</title>
+<circle cx="1042" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="697" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-deleteProviderCustomer" target="_blank" class="st" data-op="deleteProviderCustomer"><title>DELETE /providers/customers/{customerId}
+Providers line · deleteProviderCustomer</title>
+<circle cx="916" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="912" y1="612" x2="920" y2="604" stroke="#D6264F" stroke-width="2"/>
+<text x="928" y="613" text-anchor="start" style="fill:#1A1F2C">Delete customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-updateProviderCustomer" target="_blank" class="st" data-op="updateProviderCustomer"><title>PUT /providers/customers/{customerId}
+Providers line · updateProviderCustomer</title>
+<circle cx="916" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="904.0" y="697" text-anchor="end" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-putTrialConversions" target="_blank" class="st" data-op="putTrialConversions"><title>PUT /providers/customers/{customerId}/trialconversions
+Providers line · putTrialConversions</title>
+<circle cx="1378" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1384" y="302" transform="rotate(-45 1384 302)" style="fill:#1A1F2C">Create trialconversion</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-createCustomerAccessRequest" target="_blank" class="st" data-op="createCustomerAccessRequest"><title>POST /providers/customers/{customerId}/accessRequests
+Providers line · createCustomerAccessRequest</title>
+<circle cx="1126" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="487" text-anchor="start" style="fill:#1A1F2C">Create accessrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getCustomerAccessRequest" target="_blank" class="st" data-op="getCustomerAccessRequest"><title>GET /providers/customers/{customerId}/accessRequests/{accessRequestId}
+Providers line · getCustomerAccessRequest</title>
+<circle cx="1168" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="445" text-anchor="start" style="fill:#1A1F2C">Get accessrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-updateCustomerAccessRequest" target="_blank" class="st" data-op="updateCustomerAccessRequest"><title>PUT /providers/customers/{customerId}/accessRequests/{accessRequestId}
+Providers line · updateCustomerAccessRequest</title>
+<circle cx="1168" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="361" text-anchor="start" style="fill:#1A1F2C">Update accessrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-createCustomerTrialExtensions" target="_blank" class="st" data-op="createCustomerTrialExtensions"><title>POST /providers/customers/{customerId}/trialExtensions
+Providers line · createCustomerTrialExtensions</title>
+<circle cx="1504" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1510" y="302" transform="rotate(-45 1510 302)" style="fill:#1A1F2C">Create trialextension</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getCustomerSubscriptionDetails" target="_blank" class="st" data-op="getCustomerSubscriptionDetails"><title>GET /providers/customers/{customerId}/subscriptionDetails
+Providers line · getCustomerSubscriptionDetails</title>
+<circle cx="1294" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="302" transform="rotate(-45 1300 302)" style="fill:#1A1F2C">List subscriptiondetails</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getCustomerTrialStrength" target="_blank" class="st" data-op="getCustomerTrialStrength"><title>GET /providers/customers/{customerId}/trialStrengths
+Providers line · getCustomerTrialStrength</title>
+<circle cx="1588" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="319" text-anchor="start" style="fill:#1A1F2C">List trialstrengths</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getCustomerAddresses" target="_blank" class="st" data-op="getCustomerAddresses"><title>GET /providers/customerAddresses
+Providers line · getCustomerAddresses</title>
+<circle cx="1462" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="865" text-anchor="start" style="fill:#1A1F2C">List customeraddresses</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getCustomerPackages" target="_blank" class="st" data-op="getCustomerPackages"><title>GET /providers/customers/packages
+Providers line · getCustomerPackages</title>
+<circle cx="958" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="946.0" y="487" text-anchor="end" style="fill:#1A1F2C">List packages</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getCustomerDeals" target="_blank" class="st" data-op="getCustomerDeals"><title>GET /providers/customerDeals/{dealId}
+Providers line · getCustomerDeals</title>
+<circle cx="1336" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="739" text-anchor="start" style="fill:#1A1F2C">Get customerdeal</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-updateCustomerDeals" target="_blank" class="st" data-op="updateCustomerDeals"><title>PUT /providers/customerDeals/{dealId}
+Providers line · updateCustomerDeals</title>
+<circle cx="1294" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="722" transform="rotate(-45 1300 722)" style="fill:#1A1F2C">Update customerdeal</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getProvidersConsoleData" target="_blank" class="st" data-op="getProvidersConsoleData"><title>GET /providers/consoles
+Providers line · getProvidersConsoleData</title>
+<circle cx="1462" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1474" y="907" text-anchor="start" style="fill:#1A1F2C">List consoles</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-getServiceProviderCustomerSecurityReport" target="_blank" class="st" data-op="getServiceProviderCustomerSecurityReport"><title>GET /providers/customers/downloadReportRequests
+Providers line · getServiceProviderCustomerSecurityReport</title>
+<circle cx="916" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="529" text-anchor="start" style="fill:#1A1F2C">List downloadreportrequests</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-providers-api/#op-createCustomerSecurityReportRequest" target="_blank" class="st" data-op="createCustomerSecurityReportRequest"><title>POST /providers/customers/{customerId}/securityReportRequests
+Providers line · createCustomerSecurityReportRequest</title>
+<circle cx="1210" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1198.0" y="319" text-anchor="end" style="fill:#1A1F2C">Create securityreportrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-related-domains-for-a-domain-api/#op-getLinksName" target="_blank" class="st" data-op="getLinksName"><title>GET /links/name/{domain}
+More Local 1 line · getLinksName</title>
+<circle cx="2596" cy="314" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2608" y="319" text-anchor="start" style="fill:#1A1F2C">Get name</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-roaming-computers-api/#op-listRoamingComputers" target="_blank" class="st" data-op="listRoamingComputers"><title>GET /roamingcomputers
+Roamingcomputers line · listRoamingComputers</title>
+<circle cx="2302" cy="1700" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2290.0" y="1705" text-anchor="end" style="fill:#1A1F2C">List roamingcomputers</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-roaming-computers-api/#op-getRoamingComputer" target="_blank" class="st" data-op="getRoamingComputer"><title>GET /roamingcomputers/{deviceId}
+Roamingcomputers line · getRoamingComputer</title>
+<circle cx="2302" cy="1742" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2314" y="1747" text-anchor="start" style="fill:#1A1F2C">Get roamingcomputer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-roaming-computers-api/#op-updateRoamingComputer" target="_blank" class="st" data-op="updateRoamingComputer"><title>PUT /roamingcomputers/{deviceId}
+Roamingcomputers line · updateRoamingComputer</title>
+<circle cx="2260" cy="1910" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2248.0" y="1908" text-anchor="end" style="fill:#1A1F2C">Update<tspan x="2248.0" dy="13">roamingcomputer</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-roaming-computers-api/#op-deleteRoamingComputer" target="_blank" class="st" data-op="deleteRoamingComputer"><title>DELETE /roamingcomputers/{deviceId}
+Roamingcomputers line · deleteRoamingComputer</title>
+<circle cx="2260" cy="1952" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="2256" y1="1956" x2="2264" y2="1948" stroke="#8D6E63" stroke-width="2"/>
+<text x="2269" y="1942" text-anchor="start" style="fill:#1A1F2C">Delete roamingcomputer</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-roles-api/#op-listRoles" target="_blank" class="st" data-op="listRoles"><title>GET /roles
+More Local 2 line · listRoles</title>
+<circle cx="1882" cy="1028" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1870.0" y="1033" text-anchor="end" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-s3-bucket-key-rotation-api/#op-createS3BucketKey" target="_blank" class="st" data-op="createS3BucketKey"><title>POST /iam/rotateKey
+More Local 1 line · createS3BucketKey</title>
+<circle cx="2386" cy="650" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2398" y="655" text-anchor="start" style="fill:#1A1F2C">Update rotatekey</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-search-domain-api/#op-getSearch" target="_blank" class="st" data-op="getSearch"><title>GET /search/{expression}
+More Local 2 line · getSearch</title>
+<circle cx="2008" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2020" y="1327" text-anchor="start" style="fill:#1A1F2C">Search</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-security-information-for-a-domain-api/#op-getSecurityName" target="_blank" class="st" data-op="getSecurityName"><title>GET /security/name/{domain}
+More Local 2 line · getSecurityName</title>
+<circle cx="2050" cy="1364" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="1369" text-anchor="start" style="fill:#1A1F2C">Get name</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-security-information-for-a-domain-api/#op-getDomainsRiskScore" target="_blank" class="st" data-op="getDomainsRiskScore"><title>GET /domains/risk-score/{domain}
+Domains line · getDomainsRiskScore</title>
+<circle cx="2512" cy="1490" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2500.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Get risk score</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-sites-api/#op-createSite" target="_blank" class="st" data-op="createSite"><title>POST /sites
+Sites line · createSite</title>
+<circle cx="2470" cy="1742" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2476" y="1730" transform="rotate(-45 2476 1730)" style="fill:#1A1F2C">Create site</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-sites-api/#op-listSites" target="_blank" class="st" data-op="listSites"><title>GET /sites
+Sites line · listSites</title>
+<circle cx="2512" cy="1742" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2506" y="1754" text-anchor="end" transform="rotate(-45 2506 1754)" style="fill:#1A1F2C">List sites</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-sites-api/#op-getSite" target="_blank" class="st" data-op="getSite"><title>GET /sites/{siteId}
+Sites line · getSite</title>
+<circle cx="2386" cy="1784" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2374.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Get site</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-sites-api/#op-updateSite" target="_blank" class="st" data-op="updateSite"><title>PUT /sites/{siteId}
+Sites line · updateSite</title>
+<circle cx="2386" cy="1826" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2398" y="1831" text-anchor="start" style="fill:#1A1F2C">Update site</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-sites-api/#op-deleteSite" target="_blank" class="st" data-op="deleteSite"><title>DELETE /sites/{siteId}
+Sites line · deleteSite</title>
+<circle cx="2428" cy="1868" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2424" y1="1872" x2="2432" y2="1864" stroke="#E07B12" stroke-width="2"/>
+<text x="2440" y="1873" text-anchor="start" style="fill:#1A1F2C">Delete site</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-subdomains-for-a-domain-api/#op-getSubDomains" target="_blank" class="st" data-op="getSubDomains"><title>GET /subdomains/{domain}
+More Local 2 line · getSubDomains</title>
+<circle cx="2050" cy="1532" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="1537" text-anchor="start" style="fill:#1A1F2C">Get subdomain</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summaries-by-category-api/#op-getSummariesByCategory" target="_blank" class="st" data-op="getSummariesByCategory"><title>GET /summaries-by-category
+More Local 2 line · getSummariesByCategory</title>
+<circle cx="2092" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2104" y="1579" text-anchor="start" style="fill:#1A1F2C">Get summaries by category</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summaries-by-category-api/#op-getSummariesByCategoryType" target="_blank" class="st" data-op="getSummariesByCategoryType"><title>GET /summaries-by-category/{type}
+More Local 2 line · getSummariesByCategoryType</title>
+<circle cx="2092" cy="1784" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2083.0" y="1803" text-anchor="end" style="fill:#1A1F2C">Get summaries by category</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summaries-by-destination-api/#op-getSummariesByDestination" target="_blank" class="st" data-op="getSummariesByDestination"><title>GET /summaries-by-destination
+More Local 2 line · getSummariesByDestination</title>
+<circle cx="2218" cy="1784" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2218" y="1756" text-anchor="middle" style="fill:#1A1F2C">Get summaries<tspan x="2218" dy="13">by destination</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summaries-by-destination-api/#op-getSummariesByDestinationType" target="_blank" class="st" data-op="getSummariesByDestinationType"><title>GET /summaries-by-destination/{type}
+More Local 2 line · getSummariesByDestinationType</title>
+<circle cx="2344" cy="1952" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2356" y="1957" text-anchor="start" style="fill:#1A1F2C">Get summaries by destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summaries-by-rule-intrusion-api/#op-getSummariesByRuleIntrusion" target="_blank" class="st" data-op="getSummariesByRuleIntrusion"><title>GET /summaries-by-rule/intrusion
+More Local 2 line · getSummariesByRuleIntrusion</title>
+<circle cx="2386" cy="1994" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2374.0" y="1999" text-anchor="end" style="fill:#1A1F2C">Get intrusion</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summary-api/#op-getSummary" target="_blank" class="st" data-op="getSummary"><title>GET /summary
+More Local 2 line · getSummary</title>
+<circle cx="2512" cy="1994" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2518" y="1982" transform="rotate(-45 2518 1982)" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-summary-api/#op-getSummaryByType" target="_blank" class="st" data-op="getSummaryByType"><title>GET /summary/{type}
+More Local 2 line · getSummaryByType</title>
+<circle cx="2638" cy="1994" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2629.0" y="2013" text-anchor="end" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-swg-device-settings-api/#op-createSecureWebGatewayDeviceSettings" target="_blank" class="st" data-op="createSecureWebGatewayDeviceSettings"><title>POST /deviceSettings/SWGEnabled/set
+Device Settings line · createSecureWebGatewayDeviceSettings</title>
+<circle cx="2302" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2314" y="1537" text-anchor="start" style="fill:#1A1F2C">Set devicesettings swgenabled</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-swg-device-settings-api/#op-listSecureWebGatewayDeviceSettings" target="_blank" class="st" data-op="listSecureWebGatewayDeviceSettings"><title>POST /deviceSettings/SWGEnabled/list
+Device Settings line · listSecureWebGatewayDeviceSettings</title>
+<circle cx="2386" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2398" y="1663" text-anchor="start" style="fill:#1A1F2C">List devicesettings swgenabled</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-swg-device-settings-api/#op-deleteSecureWebGatewayDeviceSettings" target="_blank" class="st" data-op="deleteSecureWebGatewayDeviceSettings"><title>POST /deviceSettings/SWGEnabled/remove
+Device Settings line · deleteSecureWebGatewayDeviceSettings</title>
+<circle cx="2302" cy="1574" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2311" y="1564" text-anchor="start" style="fill:#1A1F2C">Remove devicesettings swgenabled</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-tagdevices-api/#op-getDevicesWithTag" target="_blank" class="st" data-op="getDevicesWithTag"><title>GET /tags/{tagId}/devices
+Tags line · getDevicesWithTag</title>
+<circle cx="1126" cy="2120" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1138" y="2125" text-anchor="start" style="fill:#1A1F2C">List devices</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-tagdevices-api/#op-addTagToDevices" target="_blank" class="st" data-op="addTagToDevices"><title>POST /tags/{tagId}/devices
+Tags line · addTagToDevices</title>
+<circle cx="1084" cy="2078" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1096" y="2083" text-anchor="start" style="fill:#1A1F2C">Create device</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-tagdevices-api/#op-deleteTagOnDevices" target="_blank" class="st" data-op="deleteTagOnDevices"><title>DELETE /tags/{tagId}/devices
+Tags line · deleteTagOnDevices</title>
+<circle cx="1000" cy="2078" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<line x1="996" y1="2082" x2="1004" y2="2074" stroke="#8823d6" stroke-width="2"/>
+<text x="1006" y="2066" transform="rotate(-45 1006 2066)" style="fill:#1A1F2C">Delete device</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-tagging-timeline-api/#op-getTimeline" target="_blank" class="st" data-op="getTimeline"><title>GET /timeline/{name}
+More Local 3 line · getTimeline</title>
+<circle cx="3016" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3028" y="1285" text-anchor="start" style="fill:#1A1F2C">Get timeline</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-tags-api/#op-getTags" target="_blank" class="st" data-op="getTags"><title>GET /tags
+Tags line · getTags</title>
+<circle cx="1000" cy="2204" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1006" y="2192" transform="rotate(-45 1006 2192)" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-tags-api/#op-createTag" target="_blank" class="st" data-op="createTag"><title>POST /tags
+Tags line · createTag</title>
+<circle cx="1126" cy="2204" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1138" y="2209" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-token-api/#op-createAuthToken" target="_blank" class="st" data-op="createAuthToken"><title>POST /token
+More Local 3 line · createAuthToken</title>
+<circle cx="2932" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2944" y="1369" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-categories-api/#op-getTopCategories" target="_blank" class="st" data-op="getTopCategories"><title>GET /top-categories
+More Local 3 line · getTopCategories</title>
+<circle cx="2890" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2902" y="1411" text-anchor="start" style="fill:#1A1F2C">List top categories</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-categories-api/#op-getTopCategoriesType" target="_blank" class="st" data-op="getTopCategoriesType"><title>GET /top-categories/{type}
+More Local 3 line · getTopCategoriesType</title>
+<circle cx="2890" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2902" y="1453" text-anchor="start" style="fill:#1A1F2C">Get top category</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-destinations-api/#op-getTopDestinations" target="_blank" class="st" data-op="getTopDestinations"><title>GET /top-destinations
+More Local 3 line · getTopDestinations</title>
+<circle cx="2806" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2818" y="1537" text-anchor="start" style="fill:#1A1F2C">List top destinations</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-destinations-api/#op-getTopDestinationsType" target="_blank" class="st" data-op="getTopDestinationsType"><title>GET /top-destinations/{type}
+More Local 3 line · getTopDestinationsType</title>
+<circle cx="2722" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2734" y="1621" text-anchor="start" style="fill:#1A1F2C">Get top destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-destinations-api/#op-getTopUrls" target="_blank" class="st" data-op="getTopUrls"><title>GET /top-urls
+More Local 3 line · getTopUrls</title>
+<circle cx="2554" cy="2204" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2566" y="2209" text-anchor="start" style="fill:#1A1F2C">List top urls</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-dns-query-types-api/#op-getTopDNSQueryTypes" target="_blank" class="st" data-op="getTopDNSQueryTypes"><title>GET /top-dns-query-types
+More Local 3 line · getTopDNSQueryTypes</title>
+<circle cx="2554" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2563" y="1606" text-anchor="start" style="fill:#1A1F2C">List top dns query types</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-event-types-api/#op-getTopEventTypes" target="_blank" class="st" data-op="getTopEventTypes"><title>GET /top-eventtypes
+More Local 3 line · getTopEventTypes</title>
+<circle cx="2512" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2524" y="1579" text-anchor="start" style="fill:#1A1F2C">List top eventtypes</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-files-api/#op-getTopFilesProxy" target="_blank" class="st" data-op="getTopFilesProxy"><title>GET /top-files
+More Local 3 line · getTopFilesProxy</title>
+<circle cx="2470" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2458.0" y="1579" text-anchor="end" style="fill:#1A1F2C">List top files</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-identities-api/#op-getTopIdentities" target="_blank" class="st" data-op="getTopIdentities"><title>GET /top-identities
+More Local 3 line · getTopIdentities</title>
+<circle cx="2218" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2227" y="1635" text-anchor="start" style="fill:#1A1F2C">List top identities</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-identities-api/#op-getTopIdentitiesType" target="_blank" class="st" data-op="getTopIdentitiesType"><title>GET /top-identities/{type}
+More Local 3 line · getTopIdentitiesType</title>
+<circle cx="2176" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="1656" text-anchor="start" style="fill:#1A1F2C">Get top<tspan x="2188" dy="13">identity</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-ips-api/#op-getTopIps" target="_blank" class="st" data-op="getTopIps"><title>GET /top-ips
+More Local 3 line · getTopIps</title>
+<circle cx="2134" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2122.0" y="1705" text-anchor="end" style="fill:#1A1F2C">List top ips</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-ips-api/#op-getTopIpsInternal" target="_blank" class="st" data-op="getTopIpsInternal"><title>GET /top-ips/internal
+More Local 3 line · getTopIpsInternal</title>
+<circle cx="2134" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2122.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Get internal</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-threat-types-api/#op-getTopThreatTypes" target="_blank" class="st" data-op="getTopThreatTypes"><title>GET /top-threat-types
+More Local 3 line · getTopThreatTypes</title>
+<circle cx="2176" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2164.0" y="1957" text-anchor="end" style="fill:#1A1F2C">List top threat types</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-threat-types-api/#op-getTopThreatTypesByType" target="_blank" class="st" data-op="getTopThreatTypesByType"><title>GET /top-threat-types/{type}
+More Local 3 line · getTopThreatTypesByType</title>
+<circle cx="2260" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2272" y="2041" text-anchor="start" style="fill:#1A1F2C">Get top threat type</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-threats-api/#op-getTopThreats" target="_blank" class="st" data-op="getTopThreats"><title>GET /top-threats
+More Local 3 line · getTopThreats</title>
+<circle cx="2302" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2290.0" y="2083" text-anchor="end" style="fill:#1A1F2C">List top threats</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-top-threats-api/#op-getTopThreatsByType" target="_blank" class="st" data-op="getTopThreatsByType"><title>GET /top-threats/{type}
+More Local 3 line · getTopThreatsByType</title>
+<circle cx="2428" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2440" y="2083" text-anchor="start" style="fill:#1A1F2C">Get top threat</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-total-requests-api/#op-getTotalRequests" target="_blank" class="st" data-op="getTotalRequests"><title>GET /total-requests
+More Local 3 line · getTotalRequests</title>
+<circle cx="2680" cy="2414" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2668.0" y="2419" text-anchor="end" style="fill:#1A1F2C">List total requests</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-total-requests-api/#op-getTotalRequestsByType" target="_blank" class="st" data-op="getTotalRequestsByType"><title>GET /total-requests/{type}
+More Local 3 line · getTotalRequestsByType</title>
+<circle cx="2722" cy="2414" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2728" y="2402" transform="rotate(-45 2728 2402)" style="fill:#1A1F2C">Get total request</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-users-api/#op-createUser" target="_blank" class="st" data-op="createUser"><title>POST /users
+Users line · createUser</title>
+<circle cx="1798" cy="2582" r="5.5" fill="#d044c7" stroke="#d044c7" stroke-width="2.5"/>
+<text x="1810" y="2587" text-anchor="start" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-users-api/#op-listUsers" target="_blank" class="st" data-op="listUsers"><title>GET /users
+Users line · listUsers</title>
+<circle cx="1882" cy="2666" r="5.5" fill="#fff" stroke="#d044c7" stroke-width="2.5"/>
+<text x="1894" y="2671" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-users-api/#op-getUser" target="_blank" class="st" data-op="getUser"><title>GET /users/{userId}
+Users line · getUser</title>
+<circle cx="1714" cy="2498" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1720" y="2486" transform="rotate(-45 1720 2486)" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-users-api/#op-deleteUser" target="_blank" class="st" data-op="deleteUser"><title>DELETE /users/{userId}
+Users line · deleteUser</title>
+<circle cx="1672" cy="2540" r="5.5" fill="#fff" stroke="#d044c7" stroke-width="2.5"/>
+<line x1="1668" y1="2544" x2="1676" y2="2536" stroke="#d044c7" stroke-width="2"/>
+<text x="1660.0" y="2545" text-anchor="end" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-users-api/#op-createPasswordResets" target="_blank" class="st" data-op="createPasswordResets"><title>POST /passwordResets/{customerId}
+More Local 2 line · createPasswordResets</title>
+<circle cx="1966" cy="440" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="445" text-anchor="start" style="fill:#1A1F2C">Update passwordreset</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-users-api/#op-getOrganizationInformation" target="_blank" class="st" data-op="getOrganizationInformation"><title>GET /organizations
+More Local 1 line · getOrganizationInformation</title>
+<circle cx="2596" cy="230" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2608" y="235" text-anchor="start" style="fill:#1A1F2C">List organizations</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getApplications" target="_blank" class="st" data-op="getApplications"><title>GET /applications
+More Local 1 line · getApplications</title>
+<circle cx="1756" cy="1616" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1768" y="1621" text-anchor="start" style="fill:#1A1F2C">List applications</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getCategories" target="_blank" class="st" data-op="getCategories"><title>GET /categories
+More Local 1 line · getCategories</title>
+<circle cx="1756" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1768" y="1159" text-anchor="start" style="fill:#1A1F2C">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getIdentities" target="_blank" class="st" data-op="getIdentities"><title>GET /identities
+Identities line · getIdentities</title>
+<circle cx="1462" cy="1994" r="5.5" fill="#fff" stroke="#0d7773" stroke-width="2.5"/>
+<text x="1468" y="1982" transform="rotate(-45 1468 1982)" style="fill:#1A1F2C">List identities</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-postIdentities" target="_blank" class="st" data-op="postIdentities"><title>POST /identities
+Identities line · postIdentities</title>
+<circle cx="1546" cy="1994" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="1552" y="1982" transform="rotate(-45 1552 1982)" style="fill:#1A1F2C">Create identity</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getIdentity" target="_blank" class="st" data-op="getIdentity"><title>GET /identities/{identityid}
+Identities line · getIdentity</title>
+<circle cx="1672" cy="1994" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1666" y="2006" text-anchor="end" transform="rotate(-45 1666 2006)" style="fill:#1A1F2C">Get identity</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getThreatTypes" target="_blank" class="st" data-op="getThreatTypes"><title>GET /threat-types
+More Local 2 line · getThreatTypes</title>
+<circle cx="2890" cy="1994" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2902" y="1999" text-anchor="start" style="fill:#1A1F2C">List threat types</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getThreatType" target="_blank" class="st" data-op="getThreatType"><title>GET /threat-types/{threattypeid}
+More Local 2 line · getThreatType</title>
+<circle cx="2974" cy="1910" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2986" y="1915" text-anchor="start" style="fill:#1A1F2C">Get threat type</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getThreatNames" target="_blank" class="st" data-op="getThreatNames"><title>GET /threat-names
+More Local 2 line · getThreatNames</title>
+<circle cx="2722" cy="2078" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2710.0" y="2083" text-anchor="end" style="fill:#1A1F2C">List threat names</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getThreatName" target="_blank" class="st" data-op="getThreatName"><title>GET /threat-names/{threatnameid}
+More Local 2 line · getThreatName</title>
+<circle cx="2806" cy="2078" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2818" y="2083" text-anchor="start" style="fill:#1A1F2C">Get threat name</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-utility-api/#op-getProviderCategories" target="_blank" class="st" data-op="getProviderCategories"><title>GET /providers/categories
+Providers line · getProviderCategories</title>
+<circle cx="1672" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1660.0" y="1117" text-anchor="end" style="fill:#1A1F2C">List categories <tspan font-weight="700" style="fill:#5C6BC0">⇄ML1</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-virtual-appliances-api/#op-listVirtualAppliances" target="_blank" class="st" data-op="listVirtualAppliances"><title>GET /virtualappliances
+Virtualappliances line · listVirtualAppliances</title>
+<circle cx="2806" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2800" y="1838" text-anchor="end" transform="rotate(-45 2800 1838)" style="fill:#1A1F2C">List virtualappliances</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-virtual-appliances-api/#op-getVirtualAppliance" target="_blank" class="st" data-op="getVirtualAppliance"><title>GET /virtualappliances/{virtualApplianceId}
+Virtualappliances line · getVirtualAppliance</title>
+<circle cx="2722" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2728" y="1814" transform="rotate(-45 2728 1814)" style="fill:#1A1F2C">Get virtualappliance</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-virtual-appliances-api/#op-updateVirtualAppliance" target="_blank" class="st" data-op="updateVirtualAppliance"><title>PUT /virtualappliances/{virtualApplianceId}
+Virtualappliances line · updateVirtualAppliance</title>
+<circle cx="2596" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2596" y="1798" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="2596" dy="13">virtualappliance</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-virtual-appliances-api/#op-deleteVirtualAppliance" target="_blank" class="st" data-op="deleteVirtualAppliance"><title>DELETE /virtualappliances/{virtualApplianceId}
+Virtualappliances line · deleteVirtualAppliance</title>
+<circle cx="2554" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2550" y1="1872" x2="2558" y2="1864" stroke="#D6264F" stroke-width="2"/>
+<text x="2566" y="1866" text-anchor="start" style="fill:#1A1F2C">Delete<tspan x="2566" dy="13">virtualappliance</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-whois-information-for-a-domain-api/#op-getWhois" target="_blank" class="st" data-op="getWhois"><title>GET /whois/{domain}
+Whois line · getWhois</title>
+<circle cx="2008" cy="902" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2020" y="907" text-anchor="start" style="fill:#1A1F2C">Get whoi</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-whois-information-for-a-domain-api/#op-getWhoisHistory" target="_blank" class="st" data-op="getWhoisHistory"><title>GET /whois/{domain}/history
+Whois line · getWhoisHistory</title>
+<circle cx="2050" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2038.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-whois-information-for-a-domain-api/#op-getWhoisNameserver" target="_blank" class="st" data-op="getWhoisNameserver"><title>GET /whois/nameservers/{nameserver}
+Whois line · getWhoisNameserver</title>
+<circle cx="2176" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2188" y="1159" text-anchor="start" style="fill:#1A1F2C">Get nameserver</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-whois-information-for-a-domain-api/#op-getWhoisNameservers" target="_blank" class="st" data-op="getWhoisNameservers"><title>GET /whois/nameservers
+Whois line · getWhoisNameservers</title>
+<circle cx="2176" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2188" y="1075" text-anchor="start" style="fill:#1A1F2C">List nameservers</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-whois-information-for-a-domain-api/#op-getWhoisEmail" target="_blank" class="st" data-op="getWhoisEmail"><title>GET /whois/emails/{email}
+Whois line · getWhoisEmail</title>
+<circle cx="2050" cy="944" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2062" y="949" text-anchor="start" style="fill:#1A1F2C">Get email</text>
+</a>
+<a href="https://apis.apis.io/apis/cisco-umbrella/cisco-umbrella-whois-information-for-a-domain-api/#op-getWhoisSearch" target="_blank" class="st" data-op="getWhoisSearch"><title>GET /whois/search/{searchField}/{regexExpression}
+Whois line · getWhoisSearch</title>
+<circle cx="2050" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2062" y="1285" text-anchor="start" style="fill:#1A1F2C">Search whois</text>
+</a>
+<text x="3206" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3206" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">PROVIDERS</text>
+<rect x="3206" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3223" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="3248" y="269" font-size="11" fill="#1A1F2C">Providers <tspan fill="#8A93A6">27</tspan></text>
+<text x="3206" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">APP DISCOVERY</text>
+<rect x="3206" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3223" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AD</text><text x="3248" y="312" font-size="11" fill="#1A1F2C">App Discovery <tspan fill="#8A93A6">12</tspan></text>
+<rect x="3206" y="319" width="34" height="13" rx="3" fill="#0d7773"/><text x="3223" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IDE</text><text x="3248" y="329" font-size="11" fill="#1A1F2C">Identities <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3206" y="336" width="34" height="13" rx="3" fill="#17d25b"/><text x="3223" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POL</text><text x="3248" y="346" font-size="11" fill="#1A1F2C">Policies <tspan fill="#8A93A6">3</tspan></text>
+<text x="3206" y="372" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">CONFIG</text>
+<rect x="3206" y="379" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3223" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="3248" y="389" font-size="11" fill="#1A1F2C">Config <tspan fill="#8A93A6">15</tspan></text>
+<text x="3206" y="415" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">IP</text>
+<rect x="3206" y="422" width="34" height="13" rx="3" fill="#E07B12"/><text x="3223" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IP</text><text x="3248" y="432" font-size="11" fill="#1A1F2C">IP <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3206" y="439" width="34" height="13" rx="3" fill="#b58613"/><text x="3223" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PDN</text><text x="3248" y="449" font-size="11" fill="#1A1F2C">Pdns <tspan fill="#8A93A6">4</tspan></text>
+<text x="3206" y="475" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">NETWORKDEVICES</text>
+<rect x="3206" y="482" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3223" y="492" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NET</text><text x="3248" y="492" font-size="11" fill="#1A1F2C">Networkdevices <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3206" y="499" width="34" height="13" rx="3" fill="#8823d6"/><text x="3223" y="509" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="3248" y="509" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">5</tspan></text>
+<text x="3206" y="535" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">INCIDENTS</text>
+<rect x="3206" y="542" width="34" height="13" rx="3" fill="#B0287F"/><text x="3223" y="552" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML2</text><text x="3248" y="552" font-size="11" fill="#1A1F2C">More Local 2 <tspan fill="#8A93A6">22</tspan></text>
+<rect x="3206" y="559" width="34" height="13" rx="3" fill="#8b2346"/><text x="3223" y="569" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INC</text><text x="3248" y="569" font-size="11" fill="#1A1F2C">Incidents <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3206" y="576" width="34" height="13" rx="3" fill="#d044c7"/><text x="3223" y="586" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="3248" y="586" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">4</tspan></text>
+<text x="3206" y="612" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">TUNNELS</text>
+<rect x="3206" y="619" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3223" y="629" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TUN</text><text x="3248" y="629" font-size="11" fill="#1A1F2C">Tunnels <tspan fill="#8A93A6">10</tspan></text>
+<text x="3206" y="655" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">DESTINATIONLISTS</text>
+<rect x="3206" y="662" width="34" height="13" rx="3" fill="#B8860B"/><text x="3223" y="672" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DES</text><text x="3248" y="672" font-size="11" fill="#1A1F2C">Destinationlists <tspan fill="#8A93A6">8</tspan></text>
+<text x="3206" y="698" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">ACTIVITY</text>
+<rect x="3206" y="705" width="34" height="13" rx="3" fill="#C2410C"/><text x="3223" y="715" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACT</text><text x="3248" y="715" font-size="11" fill="#1A1F2C">Activity <tspan fill="#8A93A6">7</tspan></text>
+<text x="3206" y="741" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">NETWORKS</text>
+<rect x="3206" y="748" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3223" y="758" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NTW</text><text x="3248" y="758" font-size="11" fill="#1A1F2C">Networks <tspan fill="#8A93A6">6</tspan></text>
+<text x="3206" y="784" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">INTERNALNETWORKS</text>
+<rect x="3206" y="791" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3223" y="801" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="3248" y="801" font-size="11" fill="#1A1F2C">Internalnetworks <tspan fill="#8A93A6">6</tspan></text>
+<text x="3206" y="827" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3206" y="834" width="34" height="13" rx="3" fill="#D6264F"/><text x="3223" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML3</text><text x="3248" y="844" font-size="11" fill="#1A1F2C">More Local 3 <tspan fill="#8A93A6">22</tspan></text>
+<rect x="3206" y="851" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3223" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML1</text><text x="3248" y="861" font-size="11" fill="#1A1F2C">More Local 1 <tspan fill="#8A93A6">21</tspan></text>
+<rect x="3206" y="868" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3223" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML1</text><text x="3248" y="878" font-size="11" fill="#1A1F2C">More Local 1 <tspan fill="#8A93A6">21</tspan></text>
+<rect x="3206" y="885" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3223" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="3248" y="895" font-size="11" fill="#1A1F2C">Api Keys <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3206" y="902" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3223" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WHO</text><text x="3248" y="912" font-size="11" fill="#1A1F2C">Whois <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3206" y="919" width="34" height="13" rx="3" fill="#00838F"/><text x="3223" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AL</text><text x="3248" y="929" font-size="11" fill="#1A1F2C">Application Lists <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3206" y="936" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3223" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INTE</text><text x="3248" y="946" font-size="11" fill="#1A1F2C">Internaldomains <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3206" y="953" width="34" height="13" rx="3" fill="#B8860B"/><text x="3223" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MAN</text><text x="3248" y="963" font-size="11" fill="#1A1F2C">Managed <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3206" y="970" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3223" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROA</text><text x="3248" y="980" font-size="11" fill="#1A1F2C">Roamingcomputers <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3206" y="987" width="34" height="13" rx="3" fill="#E07B12"/><text x="3223" y="997" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SIT</text><text x="3248" y="997" font-size="11" fill="#1A1F2C">Sites <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3206" y="1004" width="34" height="13" rx="3" fill="#C2410C"/><text x="3223" y="1014" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AU</text><text x="3248" y="1014" font-size="11" fill="#1A1F2C">Api Usage <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3206" y="1021" width="34" height="13" rx="3" fill="#4A5568"/><text x="3223" y="1031" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="3248" y="1031" font-size="11" fill="#1A1F2C">Apps <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3206" y="1038" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3223" y="1048" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOM</text><text x="3248" y="1048" font-size="11" fill="#1A1F2C">Domains <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3206" y="1055" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3223" y="1065" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SAM</text><text x="3248" y="1065" font-size="11" fill="#1A1F2C">Sample <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3206" y="1072" width="34" height="13" rx="3" fill="#D6264F"/><text x="3223" y="1082" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VIR</text><text x="3248" y="1082" font-size="11" fill="#1A1F2C">Virtualappliances <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3206" y="1089" width="34" height="13" rx="3" fill="#B0287F"/><text x="3223" y="1099" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DS</text><text x="3248" y="1099" font-size="11" fill="#1A1F2C">Device Settings <tspan fill="#8A93A6">3</tspan></text>
+<text x="3456" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3474,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3500" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3474,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3500" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3474,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3500" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3474,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3500" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3474,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3500" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3474,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3500" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3474,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3500" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3474,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3500" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3456" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3456" y="463" font-size="10.5" fill="#5A6275">“Activities” → More Local line · 1 op</text>
+<text x="3456" y="478" font-size="10.5" fill="#5A6275">“Applications” → More Local line · 2 ops</text>
+<text x="3456" y="493" font-size="10.5" fill="#5A6275">“Bandwidth By Hour” → More Local line · 1 op</text>
+<text x="3456" y="508" font-size="10.5" fill="#5A6275">“Bandwidth By Timerange” → More Local line · 1 op</text>
+<text x="3456" y="523" font-size="10.5" fill="#5A6275">“Bgp Routes” → More Local line · 2 ops</text>
+<text x="3456" y="538" font-size="10.5" fill="#5A6275">“Categories” → More Local line · 1 op</text>
+<text x="3456" y="553" font-size="10.5" fill="#5A6275">“Categories By Hour” → More Local line · 2 ops</text>
+<text x="3456" y="568" font-size="10.5" fill="#5A6275">“Categories By Timerange” → More Local line · 2 ops</text>
+<text x="3456" y="583" font-size="10.5" fill="#5A6275">“Datacenters” → More Local line · 1 op</text>
+<text x="3456" y="598" font-size="10.5" fill="#5A6275">“Deployment Status” → More Local line · 1 op</text>
+<text x="3456" y="613" font-size="10.5" fill="#5A6275">“Entities” → More Local line · 1 op</text>
+<text x="3456" y="628" font-size="10.5" fill="#5A6275">“IAM” → More Local line · 1 op</text>
+<text x="3456" y="643" font-size="10.5" fill="#5A6275">“Identity Distribution” → More Local line · 2 ops</text>
+<text x="3456" y="658" font-size="10.5" fill="#5A6275">“Incident Entities” → More Local line · 1 op</text>
+<text x="3456" y="673" font-size="10.5" fill="#5A6275">“Links” → More Local line · 1 op</text>
+<text x="3456" y="688" font-size="10.5" fill="#5A6275">“Organizations” → More Local line · 1 op</text>
+<text x="3456" y="703" font-size="10.5" fill="#5A6275">“Password Resets” → More Local line · 1 op</text>
+<text x="3456" y="718" font-size="10.5" fill="#5A6275">“Recommendations” → More Local line · 1 op</text>
+<text x="3456" y="733" font-size="10.5" fill="#5A6275">“Requests By Hour” → More Local line · 2 ops</text>
+<text x="3456" y="748" font-size="10.5" fill="#5A6275">“Requests By Timerange” → More Local line · 2 ops</text>
+<text x="3456" y="763" font-size="10.5" fill="#5A6275">“Roles” → More Local line · 1 op</text>
+<text x="3456" y="778" font-size="10.5" fill="#5A6275">“Samples” → More Local line · 1 op</text>
+<text x="3456" y="793" font-size="10.5" fill="#5A6275">“Search” → More Local line · 1 op</text>
+<text x="3456" y="808" font-size="10.5" fill="#5A6275">“Security” → More Local line · 1 op</text>
+<text x="3456" y="823" font-size="10.5" fill="#5A6275">“Subdomains” → More Local line · 1 op</text>
+<text x="3456" y="838" font-size="10.5" fill="#5A6275">“Summaries By Category” → More Local line · 2 ops</text>
+<text x="3456" y="853" font-size="10.5" fill="#5A6275">“Summaries By Destination” → More Local line · 2 ops</text>
+<text x="3456" y="868" font-size="10.5" fill="#5A6275">“Summaries By Rule” → More Local line · 1 op</text>
+<text x="3456" y="883" font-size="10.5" fill="#5A6275">“Summary” → More Local line · 2 ops</text>
+<text x="3456" y="898" font-size="10.5" fill="#5A6275">“Threat Names” → More Local line · 2 ops</text>
+<text x="3456" y="913" font-size="10.5" fill="#5A6275">“Threat Types” → More Local line · 2 ops</text>
+<text x="3456" y="928" font-size="10.5" fill="#5A6275">“Timeline” → More Local line · 1 op</text>
+<text x="3456" y="943" font-size="10.5" fill="#5A6275">“Token” → More Local line · 1 op</text>
+<text x="3456" y="958" font-size="10.5" fill="#5A6275">“Top Categories” → More Local line · 2 ops</text>
+<text x="3456" y="973" font-size="10.5" fill="#5A6275">“Top Destinations” → More Local line · 2 ops</text>
+<text x="3456" y="988" font-size="10.5" fill="#5A6275">“Top Dns Query Types” → More Local line · 1 op</text>
+<text x="3456" y="1003" font-size="10.5" fill="#5A6275">“Top Eventtypes” → More Local line · 1 op</text>
+<text x="3456" y="1018" font-size="10.5" fill="#5A6275">“Top Files” → More Local line · 1 op</text>
+<text x="3456" y="1033" font-size="10.5" fill="#5A6275">“Top Identities” → More Local line · 2 ops</text>
+<text x="3456" y="1048" font-size="10.5" fill="#5A6275">“Top Ips” → More Local line · 2 ops</text>
+<text x="3456" y="1063" font-size="10.5" fill="#5A6275">“Top Threat Types” → More Local line · 2 ops</text>
+<text x="3456" y="1078" font-size="10.5" fill="#5A6275">“Top Threats” → More Local line · 2 ops</text>
+<text x="3456" y="1093" font-size="10.5" fill="#5A6275">“Top Urls” → More Local line · 1 op</text>
+<text x="3456" y="1108" font-size="10.5" fill="#5A6275">“Topmillion” → More Local line · 1 op</text>
+<text x="3456" y="1123" font-size="10.5" fill="#5A6275">“Total Requests” → More Local line · 2 ops</text>
+<text x="3456" y="1138" font-size="10.5" fill="#5A6275">“Tunnels State” → More Local line · 1 op</text>
+<text x="3456" y="1188" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3456" y="1205" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3342" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/cisco-umbrella/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

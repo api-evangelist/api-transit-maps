@@ -1,0 +1,576 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2246 1986" width="2246" height="1986" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2246" height="1986" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Observeinc API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">88 operations as stops · 15 tags as lines · 3 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="906.6666666666666" y="496" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">INGEST</text>
+<text x="1176.4" y="1294" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">DATASETS</text>
+<text x="1495.6" y="538" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">SERVICE ACCOUNTS</text>
+<text x="554.8" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">MONITORS</text>
+<text x="1294.0" y="412" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">REFERENCETABLES</text>
+<text x="563.2" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">DASHBOARDS</text>
+<text x="462.4" y="1000" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">MONITOR MUTES</text>
+<text x="1411.6" y="1168" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">SKILLS</text>
+<text x="972.0" y="1084" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">META</text>
+<text x="664.0" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">APM</text>
+<text x="1168.0" y="580" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">LOGIN</text>
+<text x="290.2" y="874" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="832" y1="902" x2="874" y2="944" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="832" y1="902" x2="874" y2="944" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="APM" d="M706.0,902.0 L664.0,944.0 L622.0,986.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>APM</title></path>
+<path class="line" data-line="Dashboards" d="M706.0,1448.0 L622.0,1448.0 L594.0,1448.0 Q580.0,1448.0 570.1,1438.1 L496.0,1364.0 L412.0,1280.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dashboards</title></path>
+<path class="line" data-line="Dataset" d="M1210.0,1532.0 L1140.0,1532.0 Q1126.0,1532.0 1116.1,1522.1 L1093.9,1499.9 Q1084.0,1490.0 1084.0,1476.0 L1084.0,1462.0 Q1084.0,1448.0 1093.9,1438.1 L1168.0,1364.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dataset</title></path>
+<path class="line" data-line="Dataset Query Filter" d="M1084.0,1616.0 L1116.1,1648.1 Q1126.0,1658.0 1140.0,1658.0 L1196.0,1658.0 Q1210.0,1658.0 1219.9,1667.9 L1294.0,1742.0 L1378.0,1826.0" fill="none" stroke="#0d7768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dataset Query Filter</title></path>
+<path class="line" data-line="Drop Filters" d="M958.0,818.0 L883.9,892.1 Q874.0,902.0 874.0,916.0 L874.0,930.0 Q874.0,944.0 883.9,953.9 L906.1,976.1 Q916.0,986.0 930.0,986.0 L1042.0,986.0 L1126.0,986.0 L1196.0,986.0 Q1210.0,986.0 1219.9,995.9 L1252.0,1028.0 L1336.0,1112.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Drop Filters</title></path>
+<path class="line" data-line="Export" d="M1042.0,1280.0 L958.0,1196.0 L916.0,1154.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Export</title></path>
+<path class="line" data-line="Ingest Routes" d="M874.0,1028.0 L804.0,1028.0 Q790.0,1028.0 780.1,1037.9 L715.9,1102.1 Q706.0,1112.0 706.0,1126.0 L706.0,1224.0 Q706.0,1238.0 696.1,1247.9 L664.0,1280.0 L622.0,1322.0" fill="none" stroke="#af2c23" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ingest Routes</title></path>
+<path class="line" data-line="Ingest Tokens" d="M832.0,902.0 L832.0,818.0 L832.0,734.0 L832.0,650.0 L832.0,566.0" fill="none" stroke="#dd5ba0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ingest Tokens</title></path>
+<path class="line" data-line="Login" d="M1168.0,818.0 L1168.0,734.0 L1168.0,650.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Login</title></path>
+<path class="line" data-line="Monitor" d="M622.0,230.0 L622.0,314.0 L622.0,398.0 L622.0,482.0 L622.0,566.0 L622.0,636.0 Q622.0,650.0 612.1,659.9 L538.0,734.0 L496.0,776.0 L463.9,808.1 Q454.0,818.0 440.0,818.0 L328.0,818.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Monitor</title></path>
+<path class="line" data-line="MonitorMute" d="M328.0,1070.0 L412.0,1070.0 L482.0,1070.0 Q496.0,1070.0 505.9,1079.9 L528.1,1102.1 Q538.0,1112.0 538.0,1126.0 L538.0,1238.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>MonitorMute</title></path>
+<path class="line" data-line="ReferenceTables" d="M1294.0,860.0 L1294.0,776.0 L1294.0,692.0 L1294.0,608.0 L1294.0,566.0 L1294.0,482.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ReferenceTables</title></path>
+<path class="line" data-line="Service Accounts" d="M1546.0,1364.0 L1546.0,1280.0 L1546.0,1196.0 L1546.0,1126.0 Q1546.0,1112.0 1536.1,1102.1 L1471.9,1037.9 Q1462.0,1028.0 1462.0,1014.0 L1462.0,944.0 L1462.0,860.0 L1462.0,776.0 L1462.0,692.0 L1462.0,608.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Accounts</title></path>
+<path class="line" data-line="Skills" d="M1336.0,1238.0 L1336.0,1350.0 Q1336.0,1364.0 1345.9,1373.9 L1378.0,1406.0 L1462.0,1490.0 L1546.0,1574.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Skills</title></path>
+<path class="line" data-line="More Local" d="M160.0,944.0 L160.0,1028.0 L160.0,1140.0 Q160.0,1154.0 169.9,1163.9 L234.1,1228.1 Q244.0,1238.0 244.0,1252.0 L244.0,1322.0 L244.0,1392.0 Q244.0,1406.0 253.9,1415.9 L318.1,1480.1 Q328.0,1490.0 342.0,1490.0 L356.0,1490.0 Q370.0,1490.0 379.9,1499.9 L454.0,1574.0 L538.0,1658.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="706" y1="902" x2="730.0416305603426" y2="877.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="706.0416305603426" y="866.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>APM</title></rect><text x="730.0416305603426" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APM</text>
+<line x1="622" y1="986" x2="597.9583694396574" y2="1010.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="573.9583694396574" y="999.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>APM</title></rect><text x="597.9583694396574" y="1015.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APM</text>
+<line x1="706" y1="1448" x2="740.0" y2="1448.0" stroke="#B0287F" stroke-width="7"/><rect x="716.0" y="1437.0" width="48" height="22" rx="5" fill="#B0287F"><title>Dashboards</title></rect><text x="740.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="412" y1="1280" x2="387.95836943965736" y2="1255.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="363.95836943965736" y="1244.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Dashboards</title></rect><text x="387.95836943965736" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="1210" y1="1532" x2="1244.0" y2="1532.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1220.0" y="1521.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dataset</title></rect><text x="1244.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="1168" y1="1364" x2="1192.0416305603426" y2="1339.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1168.0416305603426" y="1328.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dataset</title></rect><text x="1192.0416305603426" y="1344.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="1084" y1="1616" x2="1059.9583694396574" y2="1591.9583694396574" stroke="#0d7768" stroke-width="7"/><rect x="1035.9583694396574" y="1580.9583694396574" width="48" height="22" rx="5" fill="#0d7768"><title>Dataset Query Filter</title></rect><text x="1059.9583694396574" y="1596.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DQF</text>
+<line x1="1378" y1="1826" x2="1402.0416305603426" y2="1850.0416305603426" stroke="#0d7768" stroke-width="7"/><rect x="1378.0416305603426" y="1839.0416305603426" width="48" height="22" rx="5" fill="#0d7768"><title>Dataset Query Filter</title></rect><text x="1402.0416305603426" y="1855.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DQF</text>
+<line x1="958" y1="818" x2="982.0416305603426" y2="793.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="958.0416305603426" y="782.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Drop Filters</title></rect><text x="982.0416305603426" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DF</text>
+<line x1="1336" y1="1112" x2="1360.0416305603426" y2="1136.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1336.0416305603426" y="1125.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Drop Filters</title></rect><text x="1360.0416305603426" y="1141.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DF</text>
+<line x1="1042" y1="1280" x2="1066.0416305603426" y2="1304.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1042.0416305603426" y="1293.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Export</title></rect><text x="1066.0416305603426" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXP</text>
+<line x1="916" y1="1154" x2="891.9583694396574" y2="1129.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="867.9583694396574" y="1118.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Export</title></rect><text x="891.9583694396574" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXP</text>
+<line x1="874" y1="1028" x2="908.0" y2="1028.0" stroke="#af2c23" stroke-width="7"/><rect x="884.0" y="1017.0" width="48" height="22" rx="5" fill="#af2c23"><title>Ingest Routes</title></rect><text x="908.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IR</text>
+<line x1="622" y1="1322" x2="597.9583694396574" y2="1346.0416305603426" stroke="#af2c23" stroke-width="7"/><rect x="573.9583694396574" y="1335.0416305603426" width="48" height="22" rx="5" fill="#af2c23"><title>Ingest Routes</title></rect><text x="597.9583694396574" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IR</text>
+<line x1="832" y1="902" x2="832.0" y2="936.0" stroke="#dd5ba0" stroke-width="7"/><rect x="808.0" y="925.0" width="48" height="22" rx="5" fill="#dd5ba0"><title>Ingest Tokens</title></rect><text x="832.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IT</text>
+<line x1="832" y1="566" x2="832.0" y2="532.0" stroke="#dd5ba0" stroke-width="7"/><rect x="808.0" y="521.0" width="48" height="22" rx="5" fill="#dd5ba0"><title>Ingest Tokens</title></rect><text x="832.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IT</text>
+<line x1="1168" y1="818" x2="1168.0" y2="852.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1144.0" y="841.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Login</title></rect><text x="1168.0" y="857.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOG</text>
+<line x1="1168" y1="650" x2="1168.0" y2="616.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1144.0" y="605.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Login</title></rect><text x="1168.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOG</text>
+<line x1="622" y1="230" x2="622.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="598.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Monitor</title></rect><text x="622.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MON</text>
+<line x1="328" y1="818" x2="294.0" y2="818.0" stroke="#E07B12" stroke-width="7"/><rect x="270.0" y="807.0" width="48" height="22" rx="5" fill="#E07B12"><title>Monitor</title></rect><text x="294.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MON</text>
+<line x1="328" y1="1070" x2="294.0" y2="1070.0" stroke="#0B7A75" stroke-width="7"/><rect x="270.0" y="1059.0" width="48" height="22" rx="5" fill="#0B7A75"><title>MonitorMute</title></rect><text x="294.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MM</text>
+<line x1="538" y1="1238" x2="538.0" y2="1272.0" stroke="#0B7A75" stroke-width="7"/><rect x="514.0" y="1261.0" width="48" height="22" rx="5" fill="#0B7A75"><title>MonitorMute</title></rect><text x="538.0" y="1277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MM</text>
+<line x1="1294" y1="860" x2="1294.0" y2="894.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1270.0" y="883.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>ReferenceTables</title></rect><text x="1294.0" y="899.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="1294" y1="482" x2="1294.0" y2="448.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1270.0" y="437.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>ReferenceTables</title></rect><text x="1294.0" y="453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="1546" y1="1364" x2="1546.0" y2="1398.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1522.0" y="1387.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Service Accounts</title></rect><text x="1546.0" y="1403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="1462" y1="608" x2="1462.0" y2="574.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1438.0" y="563.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Service Accounts</title></rect><text x="1462.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="1336" y1="1238" x2="1336.0" y2="1204.0" stroke="#B8860B" stroke-width="7"/><rect x="1312.0" y="1193.0" width="48" height="22" rx="5" fill="#B8860B"><title>Skills</title></rect><text x="1336.0" y="1209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="1546" y1="1574" x2="1570.0416305603426" y2="1598.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1546.0416305603426" y="1587.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Skills</title></rect><text x="1570.0416305603426" y="1603.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="160" y1="944" x2="160.0" y2="910.0" stroke="#D6264F" stroke-width="7"/><rect x="136.0" y="899.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="160.0" y="915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="538" y1="1658" x2="562.0416305603426" y2="1682.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="538.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="562.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-alert-api/#op-GetAlert" target="_blank" class="st" data-op="GetAlert"><title>GET /v1/alerts/{id}
+More Local line · GetAlert</title>
+<circle cx="160" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1033" text-anchor="start" style="fill:#1A1F2C">Get alert</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-alert-api/#op-ListAlerts" target="_blank" class="st" data-op="ListAlerts"><title>GET /v1/alerts
+More Local line · ListAlerts</title>
+<circle cx="160" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="949" text-anchor="start" style="fill:#1A1F2C">List alerts</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-apm-api/#op-GetApmInvocationGraph" target="_blank" class="st" data-op="GetApmInvocationGraph"><title>GET /v1/apm/invocation-graph
+APM line · GetApmInvocationGraph</title>
+<circle cx="664" cy="944" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="676" y="949" text-anchor="start" style="fill:#1A1F2C">Get invocation graph</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-apm-api/#op-ListApmEnvironments" target="_blank" class="st" data-op="ListApmEnvironments"><title>GET /v1/apm/environments
+APM line · ListApmEnvironments</title>
+<circle cx="706" cy="902" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="694.0" y="907" text-anchor="end" style="fill:#1A1F2C">List environments</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-apm-api/#op-ListApmServices" target="_blank" class="st" data-op="ListApmServices"><title>GET /v1/apm/services
+APM line · ListApmServices</title>
+<circle cx="622" cy="986" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="634" y="991" text-anchor="start" style="fill:#1A1F2C">List services</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dashboards-api/#op-CreateDashboard" target="_blank" class="st" data-op="CreateDashboard"><title>POST /v1/dashboards
+Dashboards line · CreateDashboard</title>
+<circle cx="622" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="628" y="1436" transform="rotate(-45 628 1436)" style="fill:#1A1F2C">Create dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dashboards-api/#op-ListDashboards" target="_blank" class="st" data-op="ListDashboards"><title>GET /v1/dashboards
+Dashboards line · ListDashboards</title>
+<circle cx="706" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="700" y="1460" text-anchor="end" transform="rotate(-45 700 1460)" style="fill:#1A1F2C">List dashboards</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dashboards-api/#op-DeleteDashboard" target="_blank" class="st" data-op="DeleteDashboard"><title>DELETE /v1/dashboards/{id}
+Dashboards line · DeleteDashboard</title>
+<circle cx="412" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="408" y1="1284" x2="416" y2="1276" stroke="#B0287F" stroke-width="2"/>
+<text x="400.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Delete dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dashboards-api/#op-GetDashboard" target="_blank" class="st" data-op="GetDashboard"><title>GET /v1/dashboards/{id}
+Dashboards line · GetDashboard</title>
+<circle cx="580" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="568.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dashboards-api/#op-UpdateDashboard" target="_blank" class="st" data-op="UpdateDashboard"><title>PATCH /v1/dashboards/{id}
+Dashboards line · UpdateDashboard</title>
+<circle cx="496" cy="1364" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="484.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-api/#op-GetDataset" target="_blank" class="st" data-op="GetDataset"><title>GET /v1/datasets/{id}
+Dataset line · GetDataset</title>
+<circle cx="1126" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1114.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Get dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-api/#op-GetDatasetGraph" target="_blank" class="st" data-op="GetDatasetGraph"><title>GET /v1/datasets/{id}/graph
+Dataset line · GetDatasetGraph</title>
+<circle cx="1084" cy="1448" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1096" y="1453" text-anchor="start" style="fill:#1A1F2C">Get graph</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-api/#op-GetDatasetStats" target="_blank" class="st" data-op="GetDatasetStats"><title>GET /v1/datasets/stats
+Dataset line · GetDatasetStats</title>
+<circle cx="1168" cy="1364" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="1369" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-api/#op-ListDatasetGraph" target="_blank" class="st" data-op="ListDatasetGraph"><title>GET /v1/datasets/graph
+Dataset line · ListDatasetGraph</title>
+<circle cx="1084" cy="1490" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1096" y="1495" text-anchor="start" style="fill:#1A1F2C">Get graph</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-api/#op-ListDatasets" target="_blank" class="st" data-op="ListDatasets"><title>GET /v1/datasets
+Dataset line · ListDatasets</title>
+<circle cx="1210" cy="1532" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1204" y="1544" text-anchor="end" transform="rotate(-45 1204 1544)" style="fill:#1A1F2C">List datasets</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-legacy-api/#op-getDatasetById" target="_blank" class="st" data-op="getDatasetById"><title>GET /v1/dataset/{id}
+More Local line · getDatasetById</title>
+<circle cx="244" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="1243" text-anchor="start" style="fill:#1A1F2C">Get dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-legacy-api/#op-listDatasets" target="_blank" class="st" data-op="listDatasets"><title>GET /v1/dataset
+More Local line · listDatasets</title>
+<circle cx="160" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1159" text-anchor="start" style="fill:#1A1F2C">Get dataset</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-query-filter-api/#op-CreateDatasetQueryFilter" target="_blank" class="st" data-op="CreateDatasetQueryFilter"><title>POST /v1/datasets/{datasetId}/query-filters
+Dataset Query Filter line · CreateDatasetQueryFilter</title>
+<circle cx="1126" cy="1658" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1114.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Create query filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-query-filter-api/#op-ListDatasetQueryFilters" target="_blank" class="st" data-op="ListDatasetQueryFilters"><title>GET /v1/datasets/{datasetId}/query-filters
+Dataset Query Filter line · ListDatasetQueryFilters</title>
+<circle cx="1084" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="1621" text-anchor="start" style="fill:#1A1F2C">List query filters <tspan font-weight="700" style="fill:#0E9F6E">⇄DAT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-query-filter-api/#op-DeleteDatasetQueryFilter" target="_blank" class="st" data-op="DeleteDatasetQueryFilter"><title>DELETE /v1/datasets/{datasetId}/query-filters/{id}
+Dataset Query Filter line · DeleteDatasetQueryFilter</title>
+<circle cx="1378" cy="1826" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<line x1="1374" y1="1830" x2="1382" y2="1822" stroke="#0d7768" stroke-width="2"/>
+<text x="1390" y="1831" text-anchor="start" style="fill:#1A1F2C">Delete query filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-query-filter-api/#op-GetDatasetQueryFilterById" target="_blank" class="st" data-op="GetDatasetQueryFilterById"><title>GET /v1/datasets/{datasetId}/query-filters/{id}
+Dataset Query Filter line · GetDatasetQueryFilterById</title>
+<circle cx="1210" cy="1658" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1222" y="1663" text-anchor="start" style="fill:#1A1F2C">Get query filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-dataset-query-filter-api/#op-UpdateDatasetQueryFilter" target="_blank" class="st" data-op="UpdateDatasetQueryFilter"><title>PATCH /v1/datasets/{datasetId}/query-filters/{id}
+Dataset Query Filter line · UpdateDatasetQueryFilter</title>
+<circle cx="1294" cy="1742" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="1306" y="1747" text-anchor="start" style="fill:#1A1F2C">Update query filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-documentation-api/#op-SearchDocumentation" target="_blank" class="st" data-op="SearchDocumentation"><title>POST /v1/documentation/search
+More Local line · SearchDocumentation</title>
+<circle cx="244" cy="1322" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="1327" text-anchor="start" style="fill:#1A1F2C">Search documentation</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-CreateIngestFilter" target="_blank" class="st" data-op="CreateIngestFilter"><title>POST /v1/ingest/filters
+Drop Filters line · CreateIngestFilter</title>
+<circle cx="874" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="886" y="949" text-anchor="start" style="fill:#1A1F2C">Create filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-ListIngestFilters" target="_blank" class="st" data-op="ListIngestFilters"><title>GET /v1/ingest/filters
+Drop Filters line · ListIngestFilters</title>
+<circle cx="958" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="823" text-anchor="start" style="fill:#1A1F2C">List filters</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-DeleteIngestFilter" target="_blank" class="st" data-op="DeleteIngestFilter"><title>DELETE /v1/ingest/filters/{id}
+Drop Filters line · DeleteIngestFilter</title>
+<circle cx="1210" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1206" y1="990" x2="1214" y2="982" stroke="#D6264F" stroke-width="2"/>
+<text x="1222" y="991" text-anchor="start" style="fill:#1A1F2C">Delete filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-GetIngestFilter" target="_blank" class="st" data-op="GetIngestFilter"><title>GET /v1/ingest/filters/{id}
+Drop Filters line · GetIngestFilter</title>
+<circle cx="1042" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1048" y="974" transform="rotate(-45 1048 974)" style="fill:#1A1F2C">Get filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-UpdateIngestFilter" target="_blank" class="st" data-op="UpdateIngestFilter"><title>PATCH /v1/ingest/filters/{id}
+Drop Filters line · UpdateIngestFilter</title>
+<circle cx="1126" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1132" y="974" transform="rotate(-45 1132 974)" style="fill:#1A1F2C">Update filter</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-ListFilterableDatasets" target="_blank" class="st" data-op="ListFilterableDatasets"><title>GET /v1/ingest/filters/filterable-datasets
+Drop Filters line · ListFilterableDatasets</title>
+<circle cx="1252" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="1033" text-anchor="start" style="fill:#1A1F2C">List filterable datasets</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-drop-filters-api/#op-ValidateIngestFilterExpression" target="_blank" class="st" data-op="ValidateIngestFilterExpression"><title>POST /v1/ingest/filters/validate
+Drop Filters line · ValidateIngestFilterExpression</title>
+<circle cx="1336" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1117" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-export-api/#op-exportQuery" target="_blank" class="st" data-op="exportQuery"><title>POST /v1/meta/export/query
+Export line · exportQuery</title>
+<circle cx="1042" cy="1280" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1054" y="1285" text-anchor="start" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-export-api/#op-exportQueryPage" target="_blank" class="st" data-op="exportQueryPage"><title>GET /v1/meta/export/query/page
+Export line · exportQueryPage</title>
+<circle cx="958" cy="1196" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="970" y="1201" text-anchor="start" style="fill:#1A1F2C">Get page</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-export-api/#op-exportWorksheet" target="_blank" class="st" data-op="exportWorksheet"><title>POST /v1/meta/export/worksheet/{worksheetId}
+Export line · exportWorksheet</title>
+<circle cx="916" cy="1154" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="928" y="1159" text-anchor="start" style="fill:#1A1F2C">Update worksheet</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-routes-api/#op-CreateIngestRoute" target="_blank" class="st" data-op="CreateIngestRoute"><title>POST /v1/ingest/routes/{type}
+Ingest Routes line · CreateIngestRoute</title>
+<circle cx="790" cy="1028" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="778.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Update route</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-routes-api/#op-ListIngestRoutes" target="_blank" class="st" data-op="ListIngestRoutes"><title>GET /v1/ingest/routes/{type}
+Ingest Routes line · ListIngestRoutes</title>
+<circle cx="874" cy="1028" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="868" y="1040" text-anchor="end" transform="rotate(-45 868 1040)" style="fill:#1A1F2C">Get route <tspan font-weight="700" style="fill:#D6264F">⇄DF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-routes-api/#op-UpdateIngestRoutePriorities" target="_blank" class="st" data-op="UpdateIngestRoutePriorities"><title>PATCH /v1/ingest/routes/{type}
+Ingest Routes line · UpdateIngestRoutePriorities</title>
+<circle cx="706" cy="1112" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="718" y="1117" text-anchor="start" style="fill:#1A1F2C">Update route</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-routes-api/#op-DeleteIngestRoute" target="_blank" class="st" data-op="DeleteIngestRoute"><title>DELETE /v1/ingest/routes/{type}/{id}
+Ingest Routes line · DeleteIngestRoute</title>
+<circle cx="622" cy="1322" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<line x1="618" y1="1326" x2="626" y2="1318" stroke="#af2c23" stroke-width="2"/>
+<text x="634" y="1327" text-anchor="start" style="fill:#1A1F2C">Delete route</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-routes-api/#op-GetIngestRoute" target="_blank" class="st" data-op="GetIngestRoute"><title>GET /v1/ingest/routes/{type}/{id}
+Ingest Routes line · GetIngestRoute</title>
+<circle cx="706" cy="1238" r="5.5" fill="#fff" stroke="#af2c23" stroke-width="2.5"/>
+<text x="718" y="1243" text-anchor="start" style="fill:#1A1F2C">Get route</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-routes-api/#op-UpdateIngestRoute" target="_blank" class="st" data-op="UpdateIngestRoute"><title>PATCH /v1/ingest/routes/{type}/{id}
+Ingest Routes line · UpdateIngestRoute</title>
+<circle cx="664" cy="1280" r="5.5" fill="#af2c23" stroke="#af2c23" stroke-width="2.5"/>
+<text x="676" y="1285" text-anchor="start" style="fill:#1A1F2C">Update route</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-tokens-api/#op-CreateIngestToken" target="_blank" class="st" data-op="CreateIngestToken"><title>POST /v1/ingest/tokens
+Ingest Tokens line · CreateIngestToken</title>
+<circle cx="832" cy="818" r="5.5" fill="#dd5ba0" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="844" y="823" text-anchor="start" style="fill:#1A1F2C">Create token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-tokens-api/#op-ListIngestTokens" target="_blank" class="st" data-op="ListIngestTokens"><title>GET /v1/ingest/tokens
+Ingest Tokens line · ListIngestTokens</title>
+<circle cx="832" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="820.0" y="907" text-anchor="end" style="fill:#1A1F2C">List tokens</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-tokens-api/#op-DeleteIngestToken" target="_blank" class="st" data-op="DeleteIngestToken"><title>DELETE /v1/ingest/tokens/{id}
+Ingest Tokens line · DeleteIngestToken</title>
+<circle cx="832" cy="566" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<line x1="828" y1="570" x2="836" y2="562" stroke="#dd5ba0" stroke-width="2"/>
+<text x="844" y="571" text-anchor="start" style="fill:#1A1F2C">Delete token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-tokens-api/#op-GetIngestToken" target="_blank" class="st" data-op="GetIngestToken"><title>GET /v1/ingest/tokens/{id}
+Ingest Tokens line · GetIngestToken</title>
+<circle cx="832" cy="734" r="5.5" fill="#fff" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="844" y="739" text-anchor="start" style="fill:#1A1F2C">Get token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-ingest-tokens-api/#op-UpdateIngestToken" target="_blank" class="st" data-op="UpdateIngestToken"><title>PATCH /v1/ingest/tokens/{id}
+Ingest Tokens line · UpdateIngestToken</title>
+<circle cx="832" cy="650" r="5.5" fill="#dd5ba0" stroke="#dd5ba0" stroke-width="2.5"/>
+<text x="844" y="655" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-login-api/#op-generateAPIToken" target="_blank" class="st" data-op="generateAPIToken"><title>POST /v1/login
+Login line · generateAPIToken</title>
+<circle cx="1168" cy="818" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="823" text-anchor="start" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-login-api/#op-pollDelegatedLogin" target="_blank" class="st" data-op="pollDelegatedLogin"><title>GET /v1/login/delegated/{serverToken}
+Login line · pollDelegatedLogin</title>
+<circle cx="1168" cy="650" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="655" text-anchor="start" style="fill:#1A1F2C">Get delegated</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-login-api/#op-startDelegatedLogin" target="_blank" class="st" data-op="startDelegatedLogin"><title>POST /v1/login/delegated
+Login line · startDelegatedLogin</title>
+<circle cx="1168" cy="734" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="739" text-anchor="start" style="fill:#1A1F2C">Update delegated</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-metrics-api/#op-ListMetrics" target="_blank" class="st" data-op="ListMetrics"><title>GET /v1/metrics
+More Local line · ListMetrics</title>
+<circle cx="244" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="1411" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-createMonitor" target="_blank" class="st" data-op="createMonitor"><title>POST /v1/monitors
+Monitor line · createMonitor</title>
+<circle cx="622" cy="650" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="655" text-anchor="start" style="fill:#1A1F2C">Create monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-ListMonitors" target="_blank" class="st" data-op="ListMonitors"><title>GET /v1/monitors
+Monitor line · ListMonitors</title>
+<circle cx="622" cy="566" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="571" text-anchor="start" style="fill:#1A1F2C">List monitors</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-createMonitorMuteRule" target="_blank" class="st" data-op="createMonitorMuteRule"><title>POST /v1/monitor-mute-rules
+Monitor line · createMonitorMuteRule</title>
+<circle cx="622" cy="314" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="319" text-anchor="start" style="fill:#1A1F2C">Create monitor mute rule</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-listMonitorMuteRules" target="_blank" class="st" data-op="listMonitorMuteRules"><title>GET /v1/monitor-mute-rules
+Monitor line · listMonitorMuteRules</title>
+<circle cx="622" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="235" text-anchor="start" style="fill:#1A1F2C">List monitor mute rules</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-deleteMonitor" target="_blank" class="st" data-op="deleteMonitor"><title>DELETE /v1/monitors/{id}
+Monitor line · deleteMonitor</title>
+<circle cx="454" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="450" y1="822" x2="458" y2="814" stroke="#E07B12" stroke-width="2"/>
+<text x="466" y="823" text-anchor="start" style="fill:#1A1F2C">Delete monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-GetMonitor" target="_blank" class="st" data-op="GetMonitor"><title>GET /v1/monitors/{id}
+Monitor line · GetMonitor</title>
+<circle cx="538" cy="734" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="550" y="739" text-anchor="start" style="fill:#1A1F2C">Get monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-updateMonitor" target="_blank" class="st" data-op="updateMonitor"><title>PATCH /v1/monitors/{id}
+Monitor line · updateMonitor</title>
+<circle cx="496" cy="776" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="508" y="781" text-anchor="start" style="fill:#1A1F2C">Update monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-deleteMonitorMuteRule" target="_blank" class="st" data-op="deleteMonitorMuteRule"><title>DELETE /v1/monitor-mute-rules/{id}
+Monitor line · deleteMonitorMuteRule</title>
+<circle cx="622" cy="482" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="618" y1="486" x2="626" y2="478" stroke="#E07B12" stroke-width="2"/>
+<text x="634" y="487" text-anchor="start" style="fill:#1A1F2C">Delete monitor mute rule</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-getMonitorMuteRule" target="_blank" class="st" data-op="getMonitorMuteRule"><title>GET /v1/monitor-mute-rules/{id}
+Monitor line · getMonitorMuteRule</title>
+<circle cx="622" cy="398" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="403" text-anchor="start" style="fill:#1A1F2C">Get monitor mute rule</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitor-api/#op-GetMonitorStats" target="_blank" class="st" data-op="GetMonitorStats"><title>GET /v1/monitors/stats
+Monitor line · GetMonitorStats</title>
+<circle cx="328" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="334" y="806" transform="rotate(-45 334 806)" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitormute-api/#op-CreateMonitorMute" target="_blank" class="st" data-op="CreateMonitorMute"><title>POST /v1/monitor-mutes
+MonitorMute line · CreateMonitorMute</title>
+<circle cx="412" cy="1070" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="418" y="1058" transform="rotate(-45 418 1058)" style="fill:#1A1F2C">Create monitor mute</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitormute-api/#op-ListMonitorMutes" target="_blank" class="st" data-op="ListMonitorMutes"><title>GET /v1/monitor-mutes
+MonitorMute line · ListMonitorMutes</title>
+<circle cx="328" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="334" y="1058" transform="rotate(-45 334 1058)" style="fill:#1A1F2C">List monitor mutes</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitormute-api/#op-DeleteMonitorMute" target="_blank" class="st" data-op="DeleteMonitorMute"><title>DELETE /v1/monitor-mutes/{id}
+MonitorMute line · DeleteMonitorMute</title>
+<circle cx="538" cy="1238" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="534" y1="1242" x2="542" y2="1234" stroke="#0B7A75" stroke-width="2"/>
+<text x="550" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete monitor mute</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitormute-api/#op-GetMonitorMute" target="_blank" class="st" data-op="GetMonitorMute"><title>GET /v1/monitor-mutes/{id}
+MonitorMute line · GetMonitorMute</title>
+<circle cx="496" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="508" y="1075" text-anchor="start" style="fill:#1A1F2C">Get monitor mute</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-monitormute-api/#op-UpdateMonitorMute" target="_blank" class="st" data-op="UpdateMonitorMute"><title>PATCH /v1/monitor-mutes/{id}
+MonitorMute line · UpdateMonitorMute</title>
+<circle cx="538" cy="1112" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="550" y="1117" text-anchor="start" style="fill:#1A1F2C">Update monitor mute</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-objecttags-api/#op-SearchObjectTagKeys" target="_blank" class="st" data-op="SearchObjectTagKeys"><title>GET /v1/object-tags/search
+More Local line · SearchObjectTagKeys</title>
+<circle cx="328" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="316.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Search object tags</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-objecttags-api/#op-SearchObjectTagValues" target="_blank" class="st" data-op="SearchObjectTagValues"><title>GET /v1/object-tags/search/{key}
+More Local line · SearchObjectTagValues</title>
+<circle cx="370" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="1495" text-anchor="start" style="fill:#1A1F2C">Search object tags</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-referencetables-api/#op-CreateReferenceTable" target="_blank" class="st" data-op="CreateReferenceTable"><title>POST /v1/referencetables
+ReferenceTables line · CreateReferenceTable</title>
+<circle cx="1294" cy="776" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1306" y="781" text-anchor="start" style="fill:#1A1F2C">Create referencetable</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-referencetables-api/#op-QueryReferenceTables" target="_blank" class="st" data-op="QueryReferenceTables"><title>GET /v1/referencetables
+ReferenceTables line · QueryReferenceTables</title>
+<circle cx="1294" cy="860" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1306" y="865" text-anchor="start" style="fill:#1A1F2C">List referencetables</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-referencetables-api/#op-DeleteReferenceTable" target="_blank" class="st" data-op="DeleteReferenceTable"><title>DELETE /v1/referencetables/{id}
+ReferenceTables line · DeleteReferenceTable</title>
+<circle cx="1294" cy="482" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1290" y1="486" x2="1298" y2="478" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1306" y="487" text-anchor="start" style="fill:#1A1F2C">Delete referencetable</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-referencetables-api/#op-GetReferenceTable" target="_blank" class="st" data-op="GetReferenceTable"><title>GET /v1/referencetables/{id}
+ReferenceTables line · GetReferenceTable</title>
+<circle cx="1294" cy="692" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1306" y="697" text-anchor="start" style="fill:#1A1F2C">Get referencetable</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-referencetables-api/#op-UpdateReferenceTable" target="_blank" class="st" data-op="UpdateReferenceTable"><title>PUT /v1/referencetables/{id}
+ReferenceTables line · UpdateReferenceTable</title>
+<circle cx="1294" cy="608" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1306" y="613" text-anchor="start" style="fill:#1A1F2C">Update referencetable</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-referencetables-api/#op-UpdateReferenceTableMetadata" target="_blank" class="st" data-op="UpdateReferenceTableMetadata"><title>PATCH /v1/referencetables/{id}
+ReferenceTables line · UpdateReferenceTableMetadata</title>
+<circle cx="1294" cy="566" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1306" y="571" text-anchor="start" style="fill:#1A1F2C">Update referencetable</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-CreateApiToken" target="_blank" class="st" data-op="CreateApiToken"><title>POST /v1/service-accounts/{accountId}/api-tokens
+Service Accounts line · CreateApiToken</title>
+<circle cx="1462" cy="860" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1474" y="865" text-anchor="start" style="fill:#1A1F2C">Create api token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-ListApiTokens" target="_blank" class="st" data-op="ListApiTokens"><title>GET /v1/service-accounts/{accountId}/api-tokens
+Service Accounts line · ListApiTokens</title>
+<circle cx="1462" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1474" y="949" text-anchor="start" style="fill:#1A1F2C">List api tokens</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-CreateServiceAccount" target="_blank" class="st" data-op="CreateServiceAccount"><title>POST /v1/service-accounts
+Service Accounts line · CreateServiceAccount</title>
+<circle cx="1546" cy="1280" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="1285" text-anchor="start" style="fill:#1A1F2C">Create service account</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-ListServiceAccounts" target="_blank" class="st" data-op="ListServiceAccounts"><title>GET /v1/service-accounts
+Service Accounts line · ListServiceAccounts</title>
+<circle cx="1546" cy="1364" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="1369" text-anchor="start" style="fill:#1A1F2C">List service accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-DeleteApiToken" target="_blank" class="st" data-op="DeleteApiToken"><title>DELETE /v1/service-accounts/{accountId}/api-tokens/{tokenId}
+Service Accounts line · DeleteApiToken</title>
+<circle cx="1462" cy="608" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1458" y1="612" x2="1466" y2="604" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1474" y="613" text-anchor="start" style="fill:#1A1F2C">Delete api token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-GetApiToken" target="_blank" class="st" data-op="GetApiToken"><title>GET /v1/service-accounts/{accountId}/api-tokens/{tokenId}
+Service Accounts line · GetApiToken</title>
+<circle cx="1462" cy="776" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1474" y="781" text-anchor="start" style="fill:#1A1F2C">Get api token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-UpdateApiToken" target="_blank" class="st" data-op="UpdateApiToken"><title>PATCH /v1/service-accounts/{accountId}/api-tokens/{tokenId}
+Service Accounts line · UpdateApiToken</title>
+<circle cx="1462" cy="692" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1474" y="697" text-anchor="start" style="fill:#1A1F2C">Update api token</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-DeleteServiceAccount" target="_blank" class="st" data-op="DeleteServiceAccount"><title>DELETE /v1/service-accounts/{accountId}
+Service Accounts line · DeleteServiceAccount</title>
+<circle cx="1462" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1458" y1="1032" x2="1466" y2="1024" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1474" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete service account</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-GetServiceAccount" target="_blank" class="st" data-op="GetServiceAccount"><title>GET /v1/service-accounts/{accountId}
+Service Accounts line · GetServiceAccount</title>
+<circle cx="1546" cy="1196" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="1201" text-anchor="start" style="fill:#1A1F2C">Get service account</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-service-accounts-api/#op-UpdateServiceAccount" target="_blank" class="st" data-op="UpdateServiceAccount"><title>PATCH /v1/service-accounts/{accountId}
+Service Accounts line · UpdateServiceAccount</title>
+<circle cx="1546" cy="1112" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="1117" text-anchor="start" style="fill:#1A1F2C">Update service account</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-skills-api/#op-CreateSkill" target="_blank" class="st" data-op="CreateSkill"><title>POST /v1/skills
+Skills line · CreateSkill</title>
+<circle cx="1336" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1348" y="1369" text-anchor="start" style="fill:#1A1F2C">Create skill</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-skills-api/#op-ListSkills" target="_blank" class="st" data-op="ListSkills"><title>GET /v1/skills
+Skills line · ListSkills</title>
+<circle cx="1336" cy="1238" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1348" y="1243" text-anchor="start" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-skills-api/#op-DeleteSkill" target="_blank" class="st" data-op="DeleteSkill"><title>DELETE /v1/skills/{id}
+Skills line · DeleteSkill</title>
+<circle cx="1546" cy="1574" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1542" y1="1578" x2="1550" y2="1570" stroke="#B8860B" stroke-width="2"/>
+<text x="1558" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete skill</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-skills-api/#op-GetSkill" target="_blank" class="st" data-op="GetSkill"><title>GET /v1/skills/{id}
+Skills line · GetSkill</title>
+<circle cx="1378" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1390" y="1411" text-anchor="start" style="fill:#1A1F2C">Get skill</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-skills-api/#op-UpdateSkill" target="_blank" class="st" data-op="UpdateSkill"><title>PATCH /v1/skills/{id}
+Skills line · UpdateSkill</title>
+<circle cx="1462" cy="1490" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1474" y="1495" text-anchor="start" style="fill:#1A1F2C">Update skill</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-tag-values-api/#op-SearchTagValues" target="_blank" class="st" data-op="SearchTagValues"><title>GET /v1/tags/values
+More Local line · SearchTagValues</title>
+<circle cx="538" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1663" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/observeinc/observeinc-tags-api/#op-ListDatasetTags" target="_blank" class="st" data-op="ListDatasetTags"><title>GET /v1/tags
+More Local line · ListDatasetTags</title>
+<circle cx="454" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="1579" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<text x="1736" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1736" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">INGEST</text>
+<rect x="1736" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1753" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DF</text><text x="1778" y="269" font-size="11" fill="#1A1F2C">Drop Filters <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1736" y="276" width="34" height="13" rx="3" fill="#af2c23"/><text x="1753" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IR</text><text x="1778" y="286" font-size="11" fill="#1A1F2C">Ingest Routes <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1736" y="293" width="34" height="13" rx="3" fill="#dd5ba0"/><text x="1753" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IT</text><text x="1778" y="303" font-size="11" fill="#1A1F2C">Ingest Tokens <tspan fill="#8A93A6">5</tspan></text>
+<text x="1736" y="329" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">DATASETS</text>
+<rect x="1736" y="336" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1753" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="1778" y="346" font-size="11" fill="#1A1F2C">Dataset <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1736" y="353" width="34" height="13" rx="3" fill="#0d7768"/><text x="1753" y="363" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DQF</text><text x="1778" y="363" font-size="11" fill="#1A1F2C">Dataset Query Filter <tspan fill="#8A93A6">5</tspan></text>
+<text x="1736" y="389" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">SERVICE ACCOUNTS</text>
+<rect x="1736" y="396" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1753" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="1778" y="406" font-size="11" fill="#1A1F2C">Service Accounts <tspan fill="#8A93A6">10</tspan></text>
+<text x="1736" y="432" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">MONITORS</text>
+<rect x="1736" y="439" width="34" height="13" rx="3" fill="#E07B12"/><text x="1753" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MON</text><text x="1778" y="449" font-size="11" fill="#1A1F2C">Monitor <tspan fill="#8A93A6">10</tspan></text>
+<text x="1736" y="475" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">REFERENCETABLES</text>
+<rect x="1736" y="482" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1753" y="492" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RT</text><text x="1778" y="492" font-size="11" fill="#1A1F2C">ReferenceTables <tspan fill="#8A93A6">6</tspan></text>
+<text x="1736" y="518" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">DASHBOARDS</text>
+<rect x="1736" y="525" width="34" height="13" rx="3" fill="#B0287F"/><text x="1753" y="535" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAS</text><text x="1778" y="535" font-size="11" fill="#1A1F2C">Dashboards <tspan fill="#8A93A6">5</tspan></text>
+<text x="1736" y="561" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">MONITOR MUTES</text>
+<rect x="1736" y="568" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1753" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MM</text><text x="1778" y="578" font-size="11" fill="#1A1F2C">MonitorMute <tspan fill="#8A93A6">5</tspan></text>
+<text x="1736" y="604" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">SKILLS</text>
+<rect x="1736" y="611" width="34" height="13" rx="3" fill="#B8860B"/><text x="1753" y="621" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SKI</text><text x="1778" y="621" font-size="11" fill="#1A1F2C">Skills <tspan fill="#8A93A6">5</tspan></text>
+<text x="1736" y="647" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">META</text>
+<rect x="1736" y="654" width="34" height="13" rx="3" fill="#C2410C"/><text x="1753" y="664" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EXP</text><text x="1778" y="664" font-size="11" fill="#1A1F2C">Export <tspan fill="#8A93A6">3</tspan></text>
+<text x="1736" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">APM</text>
+<rect x="1736" y="697" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1753" y="707" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APM</text><text x="1778" y="707" font-size="11" fill="#1A1F2C">APM <tspan fill="#8A93A6">3</tspan></text>
+<text x="1736" y="733" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">LOGIN</text>
+<rect x="1736" y="740" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1753" y="750" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOG</text><text x="1778" y="750" font-size="11" fill="#1A1F2C">Login <tspan fill="#8A93A6">3</tspan></text>
+<text x="1736" y="776" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="1736" y="783" width="34" height="13" rx="3" fill="#D6264F"/><text x="1753" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="1778" y="793" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">10</tspan></text>
+<text x="1986" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2004,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2030" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2004,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2030" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2004,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2030" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2004,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2030" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2004,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2030" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2004,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2030" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2004,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2030" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2004,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2030" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1986" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1986" y="463" font-size="10.5" fill="#5A6275">“Alert” → More Local line · 2 ops</text>
+<text x="1986" y="478" font-size="10.5" fill="#5A6275">“Dataset Legacy” → More Local line · 2 ops</text>
+<text x="1986" y="493" font-size="10.5" fill="#5A6275">“Documentation” → More Local line · 1 op</text>
+<text x="1986" y="508" font-size="10.5" fill="#5A6275">“Metrics” → More Local line · 1 op</text>
+<text x="1986" y="523" font-size="10.5" fill="#5A6275">“ObjectTags” → More Local line · 2 ops</text>
+<text x="1986" y="538" font-size="10.5" fill="#5A6275">“Tag Values” → More Local line · 1 op</text>
+<text x="1986" y="553" font-size="10.5" fill="#5A6275">“Tags” → More Local line · 1 op</text>
+<text x="1986" y="603" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1986" y="620" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1956" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/observeinc/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

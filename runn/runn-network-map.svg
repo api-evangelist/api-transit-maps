@@ -1,0 +1,1158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3896 2898" width="3896" height="2898" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3896" height="2898" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Runn API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">196 operations as stops · 21 tags as lines · 17 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1832" y1="714" x2="1832" y2="670" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1832" y1="714" x2="1832" y2="670" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1744" y1="1682" x2="1700" y2="1726" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1744" y1="1682" x2="1700" y2="1726" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1436" y1="1110" x2="1436" y2="1066" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1436" y1="1110" x2="1436" y2="1066" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2360" y1="2430" x2="2360" y2="2386" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2360" y1="2430" x2="2360" y2="2386" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Actuals" d="M2052.0,846.0 L2052.0,1022.0 L2052.0,1066.0 L2052.0,1154.0 L2052.0,1242.0" fill="none" stroke="#0d7768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Actuals</title></path>
+<path class="line" data-line="Assignments" d="M2184.0,846.0 L2149.9,880.1 Q2140.0,890.0 2140.0,904.0 L2140.0,934.0" fill="none" stroke="#17d26e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Assignments</title></path>
+<path class="line" data-line="Clients" d="M1832.0,494.0 L1753.9,572.1 Q1744.0,582.0 1730.0,582.0 L1714.0,582.0 Q1700.0,582.0 1709.9,591.9 L1734.1,616.1 Q1744.0,626.0 1744.0,640.0 L1744.0,744.0 Q1744.0,758.0 1758.0,758.0 L1774.0,758.0 Q1788.0,758.0 1797.9,748.1 L1832.0,714.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Clients</title></path>
+<path class="line" data-line="Contracts" d="M1436.0,1066.0 L1436.0,978.0" fill="none" stroke="#09d3e1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Contracts</title></path>
+<path class="line" data-line="Custom Fields" d="M1656.0,802.0 L1621.9,836.1 Q1612.0,846.0 1598.0,846.0 L1494.0,846.0 Q1480.0,846.0 1470.1,836.1 L1401.9,767.9 Q1392.0,758.0 1378.0,758.0 L1304.0,758.0 L1230.0,758.0 Q1216.0,758.0 1206.1,748.1 L1137.9,679.9 Q1128.0,670.0 1128.0,656.0 L1128.0,552.0 Q1128.0,538.0 1118.1,528.1 L1049.9,459.9 Q1040.0,450.0 1026.0,450.0 L966.0,450.0 Q952.0,450.0 942.1,459.9 L917.9,484.1 Q908.0,494.0 894.0,494.0 L776.0,494.0 L658.0,494.0 Q644.0,494.0 634.1,484.1 L565.9,415.9 Q556.0,406.0 556.0,392.0 L556.0,376.0 Q556.0,362.0 546.1,352.1 L433.9,239.9 Q424.0,230.0 410.0,230.0 L336.0,230.0 L248.0,230.0 L160.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Custom Fields</title></path>
+<path class="line" data-line="Holiday Groups" d="M2668.0,1198.0 L2668.0,1286.0 L2668.0,1374.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Holiday Groups</title></path>
+<path class="line" data-line="Invitations" d="M2668.0,1066.0 L2712.0,1022.0 L2800.0,934.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invitations</title></path>
+<path class="line" data-line="People" d="M1348.0,1330.0 L1436.0,1242.0 L1558.1,1119.9 Q1568.0,1110.0 1568.0,1096.0 L1568.0,1022.0 L1568.0,992.0 Q1568.0,978.0 1577.9,968.1 L1602.1,943.9 Q1612.0,934.0 1626.0,934.0 L1642.0,934.0 Q1656.0,934.0 1656.0,948.0 L1656.0,1154.0 L1656.0,1330.0 L1656.0,1462.0 L1656.0,1580.0 Q1656.0,1594.0 1665.9,1603.9 L1734.1,1672.1 Q1744.0,1682.0 1753.9,1672.1 L1866.1,1559.9 Q1876.0,1550.0 1876.0,1536.0 L1876.0,1374.0 L1876.0,1198.0 L1876.0,1124.0 Q1876.0,1110.0 1885.9,1100.1 L1998.1,987.9 Q2008.0,978.0 2008.0,964.0 L2008.0,948.0 Q2008.0,934.0 1998.1,924.1 L1929.9,855.9 Q1920.0,846.0 1906.0,846.0 L1890.0,846.0 Q1876.0,846.0 1885.9,836.1 L1920.0,802.0 L1954.1,767.9 Q1964.0,758.0 1978.0,758.0 L1994.0,758.0 Q2008.0,758.0 2008.0,744.0 L2008.0,596.0 Q2008.0,582.0 2017.9,572.1 L2042.1,547.9 Q2052.0,538.0 2052.0,524.0 L2052.0,494.0 L2052.0,406.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>People</title></path>
+<path class="line" data-line="People" d="M1568.0,1110.0 L1436.0,1110.0 L1304.0,1110.0 L1216.0,1110.0 L1010.0,1110.0 Q996.0,1110.0 996.0,1124.0 L996.0,1198.0 L996.0,1286.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>People</title></path>
+<path class="line" data-line="People Tags" d="M2404.0,714.0 L2492.0,802.0 L2536.0,846.0 L2580.0,890.0 L2624.0,934.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>People Tags</title></path>
+<path class="line" data-line="Placeholders" d="M1568.0,1902.0 L1602.1,1867.9 Q1612.0,1858.0 1612.0,1844.0 L1612.0,1770.0 L1612.0,1696.0 Q1612.0,1682.0 1602.1,1672.1 L1577.9,1647.9 Q1568.0,1638.0 1554.0,1638.0 L1480.0,1638.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Placeholders</title></path>
+<path class="line" data-line="Project Tags" d="M3196.0,1638.0 L3108.0,1638.0 L3020.0,1638.0 L2946.0,1638.0 Q2932.0,1638.0 2922.1,1647.9 L2844.0,1726.0 L2756.0,1814.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Project Tags</title></path>
+<path class="line" data-line="Projects" d="M1568.0,670.0 L1656.0,670.0 L1744.0,670.0 L1832.0,670.0 L1920.0,670.0 L2008.0,670.0 L2082.0,670.0 Q2096.0,670.0 2105.9,679.9 L2184.0,758.0 L2272.0,846.0 L2360.0,934.0 L2448.0,1022.0 L2526.1,1100.1 Q2536.0,1110.0 2536.0,1124.0 L2536.0,1198.0 L2536.0,1286.0 L2536.0,1374.0 L2536.0,1462.0 L2536.0,1550.0 L2536.0,1624.0 Q2536.0,1638.0 2526.1,1647.9 L2448.0,1726.0 L2360.0,1814.0 L2272.0,1902.0 L2184.0,1990.0 L2105.9,2068.1 Q2096.0,2078.0 2082.0,2078.0 L2008.0,2078.0 L1920.0,2078.0 L1832.0,2078.0 L1744.0,2078.0 L1656.0,2078.0 L1582.0,2078.0 Q1568.0,2078.0 1558.1,2068.1 L1480.0,1990.0 L1392.0,1902.0 L1304.0,1814.0 L1216.0,1726.0 L1137.9,1647.9 Q1128.0,1638.0 1128.0,1624.0 L1128.0,1550.0 L1128.0,1462.0 L1128.0,1374.0 L1128.0,1286.0 L1128.0,1198.0 L1128.0,1124.0 Q1128.0,1110.0 1137.9,1100.1 L1216.0,1022.0 L1304.0,934.0 L1392.0,846.0 L1480.0,758.0 L1568.0,670.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Projects</title></path>
+<path class="line" data-line="Rate Cards" d="M3020.0,1242.0 L2946.0,1242.0 Q2932.0,1242.0 2922.1,1232.1 L2853.9,1163.9 Q2844.0,1154.0 2853.9,1144.1 L2878.1,1119.9 Q2888.0,1110.0 2902.0,1110.0 L3020.0,1110.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rate Cards</title></path>
+<path class="line" data-line="Reports" d="M1700.0,1022.0 L1778.1,943.9 Q1788.0,934.0 1788.0,920.0 L1788.0,846.0 L1788.0,934.0 L1788.0,1110.0 L1788.0,1198.0 L1788.0,1286.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reports</title></path>
+<path class="line" data-line="Roles" d="M2184.0,1418.0 L2184.0,1330.0 L2184.0,1242.0 L2184.0,1110.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Roles</title></path>
+<path class="line" data-line="Skills" d="M1876.0,1902.0 L1788.0,1814.0 L1709.9,1735.9 Q1700.0,1726.0 1700.0,1740.0 L1700.0,1858.0 L1700.0,1946.0 L1700.0,2166.0 L1700.0,2254.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Skills</title></path>
+<path class="line" data-line="Teams" d="M1304.0,1550.0 L1392.0,1550.0 L1554.0,1550.0 Q1568.0,1550.0 1568.0,1536.0 L1568.0,1462.0 L1568.0,1330.0 L1568.0,1242.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Teams</title></path>
+<path class="line" data-line="Time Offs" d="M380.0,2210.0 L468.0,2122.0 L556.0,2034.0 L600.0,1990.0 L688.0,1902.0 L766.1,1823.9 Q776.0,1814.0 776.0,1800.0 L776.0,1740.0 Q776.0,1726.0 766.1,1716.1 L688.0,1638.0 L600.0,1550.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Time Offs</title></path>
+<path class="line" data-line="Users" d="M2272.0,2738.0 L2272.0,2650.0 L2272.0,2606.0 L2272.0,2532.0 Q2272.0,2518.0 2281.9,2508.1 L2350.1,2439.9 Q2360.0,2430.0 2369.9,2439.9 L2448.0,2518.0 L2536.0,2606.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="Workstreams" d="M3064.0,1374.0 L2976.0,1374.0 L2946.0,1374.0 Q2932.0,1374.0 2922.1,1383.9 L2844.0,1462.0 L2756.0,1550.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workstreams</title></path>
+<path class="line" data-line="More Local" d="M2228.0,978.0 L2258.0,978.0 Q2272.0,978.0 2272.0,992.0 L2272.0,1198.0 L2272.0,1228.0 Q2272.0,1242.0 2281.9,1251.9 L2306.1,1276.1 Q2316.0,1286.0 2316.0,1300.0 L2316.0,1492.0 Q2316.0,1506.0 2325.9,1515.9 L2350.1,1540.1 Q2360.0,1550.0 2360.0,1564.0 L2360.0,1726.0 L2360.0,1946.0 L2360.0,2034.0 L2360.0,2122.0 L2360.0,2254.0 L2360.0,2386.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="2052" y1="846" x2="2052.0" y2="812.0" stroke="#0d7768" stroke-width="7"/><rect x="2028.0" y="801.0" width="48" height="22" rx="5" fill="#0d7768"><title>Actuals</title></rect><text x="2052.0" y="817.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACT</text>
+<line x1="2052" y1="1242" x2="2052.0" y2="1276.0" stroke="#0d7768" stroke-width="7"/><rect x="2028.0" y="1265.0" width="48" height="22" rx="5" fill="#0d7768"><title>Actuals</title></rect><text x="2052.0" y="1281.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACT</text>
+<line x1="2184" y1="846" x2="2208.0416305603426" y2="821.9583694396574" stroke="#17d26e" stroke-width="7"/><rect x="2184.0416305603426" y="810.9583694396574" width="48" height="22" rx="5" fill="#17d26e"><title>Assignments</title></rect><text x="2208.0416305603426" y="826.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASS</text>
+<line x1="2140" y1="934" x2="2140.0" y2="968.0" stroke="#17d26e" stroke-width="7"/><rect x="2116.0" y="957.0" width="48" height="22" rx="5" fill="#17d26e"><title>Assignments</title></rect><text x="2140.0" y="973.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASS</text>
+<line x1="1832" y1="494" x2="1856.0416305603426" y2="469.95836943965736" stroke="#5C6BC0" stroke-width="7"/><rect x="1832.0416305603426" y="458.95836943965736" width="48" height="22" rx="5" fill="#5C6BC0"><title>Clients</title></rect><text x="1856.0416305603426" y="474.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLI</text>
+<line x1="1832" y1="714" x2="1856.0416305603426" y2="689.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1832.0416305603426" y="678.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Clients</title></rect><text x="1856.0416305603426" y="694.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLI</text>
+<line x1="1436" y1="1066" x2="1436.0" y2="1138.0" stroke="#09d3e1" stroke-width="7"/><rect x="1412.0" y="1127.0" width="48" height="22" rx="5" fill="#09d3e1"><title>Contracts</title></rect><text x="1436.0" y="1143.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1436" y1="978" x2="1436.0" y2="944.0" stroke="#09d3e1" stroke-width="7"/><rect x="1412.0" y="933.0" width="48" height="22" rx="5" fill="#09d3e1"><title>Contracts</title></rect><text x="1436.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1656" y1="802" x2="1680.0416305603426" y2="777.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1656.0416305603426" y="766.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Custom Fields</title></rect><text x="1680.0416305603426" y="782.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CF</text>
+<line x1="160" y1="230" x2="126.0" y2="230.0" stroke="#1F5FD1" stroke-width="7"/><rect x="102.0" y="219.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Custom Fields</title></rect><text x="126.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CF</text>
+<line x1="2668" y1="1198" x2="2668.0" y2="1164.0" stroke="#00838F" stroke-width="7"/><rect x="2644.0" y="1153.0" width="48" height="22" rx="5" fill="#00838F"><title>Holiday Groups</title></rect><text x="2668.0" y="1169.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HG</text>
+<line x1="2668" y1="1374" x2="2668.0" y2="1408.0" stroke="#00838F" stroke-width="7"/><rect x="2644.0" y="1397.0" width="48" height="22" rx="5" fill="#00838F"><title>Holiday Groups</title></rect><text x="2668.0" y="1413.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HG</text>
+<line x1="2668" y1="1066" x2="2643.9583694396574" y2="1090.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="2619.9583694396574" y="1079.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Invitations</title></rect><text x="2643.9583694396574" y="1095.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="2800" y1="934" x2="2824.0416305603426" y2="909.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="2800.0416305603426" y="898.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Invitations</title></rect><text x="2824.0416305603426" y="914.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="1004.9999999998977" y1="1286.0" x2="987.0000000001023" y2="1286.0" stroke="#0E9F6E" stroke-width="6" stroke-linecap="round"/>
+<line x1="1348" y1="1330" x2="1323.9583694396574" y2="1354.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1299.9583694396574" y="1343.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>People</title></rect><text x="1323.9583694396574" y="1359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PEO</text>
+<line x1="2052" y1="406" x2="2052.0" y2="372.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2028.0" y="361.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>People</title></rect><text x="2052.0" y="377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PEO</text>
+<line x1="2404" y1="714" x2="2379.9583694396574" y2="689.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="2355.9583694396574" y="678.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>People Tags</title></rect><text x="2379.9583694396574" y="694.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PET</text>
+<line x1="2624" y1="934" x2="2648.0416305603426" y2="958.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2624.0416305603426" y="947.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>People Tags</title></rect><text x="2648.0416305603426" y="963.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PET</text>
+<line x1="1568" y1="1902" x2="1543.9583694396574" y2="1926.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1519.9583694396574" y="1915.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Placeholders</title></rect><text x="1543.9583694396574" y="1931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLA</text>
+<line x1="1480" y1="1638" x2="1446.0" y2="1638.0" stroke="#C2410C" stroke-width="7"/><rect x="1422.0" y="1627.0" width="48" height="22" rx="5" fill="#C2410C"><title>Placeholders</title></rect><text x="1446.0" y="1643.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLA</text>
+<line x1="3196" y1="1638" x2="3230.0" y2="1638.0" stroke="#0B7A75" stroke-width="7"/><rect x="3206.0" y="1627.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Project Tags</title></rect><text x="3230.0" y="1643.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PT</text>
+<line x1="2756" y1="1814" x2="2731.9583694396574" y2="1838.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="2707.9583694396574" y="1827.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Project Tags</title></rect><text x="2731.9583694396574" y="1843.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PT</text>
+<rect x="1538" y="617" width="60" height="26" rx="13" fill="#D6264F"/><text x="1568" y="635" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">PRO</text>
+<line x1="3020" y1="1242" x2="3054.0" y2="1242.0" stroke="#5C6BC0" stroke-width="7"/><rect x="3030.0" y="1231.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Rate Cards</title></rect><text x="3054.0" y="1247.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RC</text>
+<line x1="3020" y1="1110" x2="3054.0" y2="1110.0" stroke="#5C6BC0" stroke-width="7"/><rect x="3030.0" y="1099.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Rate Cards</title></rect><text x="3054.0" y="1115.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RC</text>
+<line x1="1700" y1="1022" x2="1675.9583694396574" y2="1046.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1651.9583694396574" y="1035.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Reports</title></rect><text x="1675.9583694396574" y="1051.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="1788" y1="1286" x2="1788.0" y2="1320.0" stroke="#2E7D32" stroke-width="7"/><rect x="1764.0" y="1309.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Reports</title></rect><text x="1788.0" y="1325.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="2184" y1="1418" x2="2184.0" y2="1452.0" stroke="#0B7A75" stroke-width="7"/><rect x="2160.0" y="1441.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Roles</title></rect><text x="2184.0" y="1457.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="2184" y1="1110" x2="2184.0" y2="1076.0" stroke="#0B7A75" stroke-width="7"/><rect x="2160.0" y="1065.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Roles</title></rect><text x="2184.0" y="1081.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="1876" y1="1902" x2="1900.0416305603426" y2="1926.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="1876.0416305603426" y="1915.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Skills</title></rect><text x="1900.0416305603426" y="1931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="1700" y1="2254" x2="1700.0" y2="2288.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1676.0" y="2277.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Skills</title></rect><text x="1700.0" y="2293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="1304" y1="1550" x2="1270.0" y2="1550.0" stroke="#B8860B" stroke-width="7"/><rect x="1246.0" y="1539.0" width="48" height="22" rx="5" fill="#B8860B"><title>Teams</title></rect><text x="1270.0" y="1555.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1568" y1="1242" x2="1568.0" y2="1208.0" stroke="#B8860B" stroke-width="7"/><rect x="1544.0" y="1197.0" width="48" height="22" rx="5" fill="#B8860B"><title>Teams</title></rect><text x="1568.0" y="1213.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="380" y1="2210" x2="355.95836943965736" y2="2234.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="331.95836943965736" y="2223.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Time Offs</title></rect><text x="355.95836943965736" y="2239.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TO</text>
+<line x1="600" y1="1550" x2="575.9583694396574" y2="1525.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="551.9583694396574" y="1514.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Time Offs</title></rect><text x="575.9583694396574" y="1530.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TO</text>
+<line x1="2272" y1="2738" x2="2272.0" y2="2772.0" stroke="#B0287F" stroke-width="7"/><rect x="2248.0" y="2761.0" width="48" height="22" rx="5" fill="#B0287F"><title>Users</title></rect><text x="2272.0" y="2777.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="2536" y1="2606" x2="2560.0416305603426" y2="2630.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2536.0416305603426" y="2619.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Users</title></rect><text x="2560.0416305603426" y="2635.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="3064" y1="1374" x2="3098.0" y2="1374.0" stroke="#0E9F6E" stroke-width="7"/><rect x="3074.0" y="1363.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Workstreams</title></rect><text x="3098.0" y="1379.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="2756" y1="1550" x2="2731.9583694396574" y2="1574.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="2707.9583694396574" y="1563.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Workstreams</title></rect><text x="2731.9583694396574" y="1579.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="2228" y1="978" x2="2194.0" y2="1004.0" stroke="#D6264F" stroke-width="7"/><rect x="2170.0" y="993.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2194.0" y="1009.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="2360" y1="2386" x2="2360.0" y2="2458.0" stroke="#D6264F" stroke-width="7"/><rect x="2336.0" y="2447.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2360.0" y="2463.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/runn/runn-activity-log-api/#op-listActivityLog" target="_blank" class="st" data-op="listActivityLog"><title>GET /activity-log/
+More Local line · listActivityLog</title>
+<circle cx="2228" cy="978" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2228" y="964" text-anchor="middle" style="fill:#1A1F2C">Get activity log</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-actuals-api/#op-listActuals" target="_blank" class="st" data-op="listActuals"><title>GET /actuals/
+Actuals line · listActuals</title>
+<circle cx="2052" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2040.0" y="851" text-anchor="end" style="fill:#1A1F2C">List actuals</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-actuals-api/#op-createActual" target="_blank" class="st" data-op="createActual"><title>POST /actuals/
+Actuals line · createActual</title>
+<circle cx="2052" cy="1022" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="2064" y="1027" text-anchor="start" style="fill:#1A1F2C">Create actual</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-actuals-api/#op-createActualTimeEntry" target="_blank" class="st" data-op="createActualTimeEntry"><title>POST /actuals/time-entry
+Actuals line · createActualTimeEntry</title>
+<circle cx="2052" cy="1242" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="2064" y="1247" text-anchor="start" style="fill:#1A1F2C">Update time entry</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-actuals-api/#op-deleteActual" target="_blank" class="st" data-op="deleteActual"><title>DELETE /actuals/{actualId}/
+Actuals line · deleteActual</title>
+<circle cx="2052" cy="1066" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<line x1="2048" y1="1070" x2="2056" y2="1062" stroke="#0d7768" stroke-width="2"/>
+<text x="2064" y="1071" text-anchor="start" style="fill:#1A1F2C">Delete actual</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-actuals-api/#op-createActualsBulk" target="_blank" class="st" data-op="createActualsBulk"><title>POST /actuals/bulk/
+Actuals line · createActualsBulk</title>
+<circle cx="2052" cy="1154" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="2064" y="1159" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-assignments-api/#op-createAssignment" target="_blank" class="st" data-op="createAssignment"><title>POST /assignments/
+Assignments line · createAssignment</title>
+<circle cx="2140" cy="890" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2152" y="895" text-anchor="start" style="fill:#1A1F2C">Create assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-assignments-api/#op-listAssignments" target="_blank" class="st" data-op="listAssignments"><title>GET /assignments/
+Assignments line · listAssignments</title>
+<circle cx="2184" cy="846" r="5.5" fill="#fff" stroke="#17d26e" stroke-width="2.5"/>
+<text x="2172.0" y="851" text-anchor="end" style="fill:#1A1F2C">List assignments</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-assignments-api/#op-deleteAssignment" target="_blank" class="st" data-op="deleteAssignment"><title>DELETE /assignments/{assignmentId}/
+Assignments line · deleteAssignment</title>
+<circle cx="2140" cy="934" r="5.5" fill="#fff" stroke="#17d26e" stroke-width="2.5"/>
+<line x1="2136" y1="938" x2="2144" y2="930" stroke="#17d26e" stroke-width="2"/>
+<text x="2152" y="939" text-anchor="start" style="fill:#1A1F2C">Delete assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-budget-roles-api/#op-listBudgetRoles" target="_blank" class="st" data-op="listBudgetRoles"><title>GET /budget-roles/
+More Local line · listBudgetRoles</title>
+<circle cx="2272" cy="978" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2284" y="983" text-anchor="start" style="fill:#1A1F2C">List budget roles</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-clients-api/#op-listClients" target="_blank" class="st" data-op="listClients"><title>GET /clients/
+Clients line · listClients</title>
+<circle cx="1832" cy="494" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1844" y="499" text-anchor="start" style="fill:#1A1F2C">List clients</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-clients-api/#op-createClient" target="_blank" class="st" data-op="createClient"><title>POST /clients/
+Clients line · createClient</title>
+<circle cx="1744" cy="582" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1735.0" y="572" text-anchor="end" style="fill:#1A1F2C">Create client</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-clients-api/#op-getClient" target="_blank" class="st" data-op="getClient"><title>GET /clients/{clientId}
+Clients line · getClient</title>
+<circle cx="1700" cy="582" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1688.0" y="587" text-anchor="end" style="fill:#1A1F2C">Get client</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-clients-api/#op-updateClient" target="_blank" class="st" data-op="updateClient"><title>PATCH /clients/{clientId}
+Clients line · updateClient</title>
+<circle cx="1744" cy="758" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1735.0" y="748" text-anchor="end" style="fill:#1A1F2C">Update client</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-clients-api/#op-listClientProjects" target="_blank" class="st" data-op="listClientProjects"><title>GET /clients/{clientId}/projects/
+Clients line · listClientProjects</title>
+<circle cx="1832" cy="714" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1844" y="719" text-anchor="start" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-clients-api/#op-createClientsBulk" target="_blank" class="st" data-op="createClientsBulk"><title>POST /clients/bulk/
+Clients line · createClientsBulk</title>
+<circle cx="1788" cy="758" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1800" y="763" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-contracts-api/#op-listContracts" target="_blank" class="st" data-op="listContracts"><title>GET /contracts/
+Contracts line · listContracts</title>
+<circle cx="1436" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1448" y="1071" text-anchor="start" style="fill:#1A1F2C">List contracts</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-contracts-api/#op-updateContract" target="_blank" class="st" data-op="updateContract"><title>PATCH /contracts/{contractId}
+Contracts line · updateContract</title>
+<circle cx="1436" cy="978" r="5.5" fill="#09d3e1" stroke="#09d3e1" stroke-width="2.5"/>
+<text x="1424.0" y="983" text-anchor="end" style="fill:#1A1F2C">Update contract</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-listCheckboxCustomFields" target="_blank" class="st" data-op="listCheckboxCustomFields"><title>GET /custom-fields/checkbox/
+Custom Fields line · listCheckboxCustomFields</title>
+<circle cx="1656" cy="802" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1668" y="807" text-anchor="start" style="fill:#1A1F2C">Get checkbox</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-createCheckboxCustomField" target="_blank" class="st" data-op="createCheckboxCustomField"><title>POST /custom-fields/checkbox/
+Custom Fields line · createCheckboxCustomField</title>
+<circle cx="1612" cy="846" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1624" y="851" text-anchor="start" style="fill:#1A1F2C">Update checkbox</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-updateCheckboxCustomField" target="_blank" class="st" data-op="updateCheckboxCustomField"><title>PATCH /custom-fields/checkbox/{checkboxFieldId}
+Custom Fields line · updateCheckboxCustomField</title>
+<circle cx="1480" cy="846" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1489" y="836" text-anchor="start" style="fill:#1A1F2C">Update checkbox</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-deleteCheckboxCustomField" target="_blank" class="st" data-op="deleteCheckboxCustomField"><title>DELETE /custom-fields/checkbox/{checkboxFieldId}
+Custom Fields line · deleteCheckboxCustomField</title>
+<circle cx="1392" cy="758" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1388" y1="762" x2="1396" y2="754" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1383.0" y="777" text-anchor="end" style="fill:#1A1F2C">Delete checkbox</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-createDateCustomField" target="_blank" class="st" data-op="createDateCustomField"><title>POST /custom-fields/date/
+Custom Fields line · createDateCustomField</title>
+<circle cx="1216" cy="758" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1204.0" y="763" text-anchor="end" style="fill:#1A1F2C">Update date</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-listDateCustomFields" target="_blank" class="st" data-op="listDateCustomFields"><title>GET /custom-fields/date/
+Custom Fields line · listDateCustomFields</title>
+<circle cx="1304" cy="758" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1310" y="746" transform="rotate(-45 1310 746)" style="fill:#1A1F2C">Get date</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-deleteDateCustomField" target="_blank" class="st" data-op="deleteDateCustomField"><title>DELETE /custom-fields/date/{dateFieldId}
+Custom Fields line · deleteDateCustomField</title>
+<circle cx="1128" cy="538" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1124" y1="542" x2="1132" y2="534" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1140" y="543" text-anchor="start" style="fill:#1A1F2C">Delete date</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-updateDateCustomField" target="_blank" class="st" data-op="updateDateCustomField"><title>PATCH /custom-fields/date/{dateFieldId}
+Custom Fields line · updateDateCustomField</title>
+<circle cx="1128" cy="670" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1140" y="675" text-anchor="start" style="fill:#1A1F2C">Update date</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-createSelectCustomField" target="_blank" class="st" data-op="createSelectCustomField"><title>POST /custom-fields/select/
+Custom Fields line · createSelectCustomField</title>
+<circle cx="952" cy="450" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="940.0" y="455" text-anchor="end" style="fill:#1A1F2C">Update select</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-listSelectCustomFields" target="_blank" class="st" data-op="listSelectCustomFields"><title>GET /custom-fields/select/
+Custom Fields line · listSelectCustomFields</title>
+<circle cx="1040" cy="450" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1052" y="455" text-anchor="start" style="fill:#1A1F2C">Get select</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-updateSelectCustomField" target="_blank" class="st" data-op="updateSelectCustomField"><title>PATCH /custom-fields/select/{selectFieldId}
+Custom Fields line · updateSelectCustomField</title>
+<circle cx="908" cy="494" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="920" y="499" text-anchor="start" style="fill:#1A1F2C">Update select</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-deleteSelectCustomField" target="_blank" class="st" data-op="deleteSelectCustomField"><title>DELETE /custom-fields/select/{selectFieldId}
+Custom Fields line · deleteSelectCustomField</title>
+<circle cx="776" cy="494" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="772" y1="498" x2="780" y2="490" stroke="#1F5FD1" stroke-width="2"/>
+<text x="782" y="482" transform="rotate(-45 782 482)" style="fill:#1A1F2C">Delete select</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-deleteSelectCustomFieldOption" target="_blank" class="st" data-op="deleteSelectCustomFieldOption"><title>DELETE /custom-fields/select/{selectFieldId}/options/{selectOptionId}
+Custom Fields line · deleteSelectCustomFieldOption</title>
+<circle cx="556" cy="362" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="552" y1="366" x2="560" y2="358" stroke="#1F5FD1" stroke-width="2"/>
+<text x="568" y="367" text-anchor="start" style="fill:#1A1F2C">Delete option</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-updateSelectCustomFieldOption" target="_blank" class="st" data-op="updateSelectCustomFieldOption"><title>PATCH /custom-fields/select/{selectFieldId}/options/{selectOptionId}
+Custom Fields line · updateSelectCustomFieldOption</title>
+<circle cx="556" cy="406" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="568" y="411" text-anchor="start" style="fill:#1A1F2C">Update option</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-createSelectCustomFieldOption" target="_blank" class="st" data-op="createSelectCustomFieldOption"><title>POST /custom-fields/select/{selectFieldId}/options
+Custom Fields line · createSelectCustomFieldOption</title>
+<circle cx="644" cy="494" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="632.0" y="499" text-anchor="end" style="fill:#1A1F2C">Create option</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-createTextCustomField" target="_blank" class="st" data-op="createTextCustomField"><title>POST /custom-fields/text/
+Custom Fields line · createTextCustomField</title>
+<circle cx="336" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="342" y="218" transform="rotate(-45 342 218)" style="fill:#1A1F2C">Update text</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-listTextCustomFields" target="_blank" class="st" data-op="listTextCustomFields"><title>GET /custom-fields/text/
+Custom Fields line · listTextCustomFields</title>
+<circle cx="424" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="436" y="235" text-anchor="start" style="fill:#1A1F2C">Get text</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-deleteTextCustomField" target="_blank" class="st" data-op="deleteTextCustomField"><title>DELETE /custom-fields/text/{textFieldId}
+Custom Fields line · deleteTextCustomField</title>
+<circle cx="160" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="156" y1="234" x2="164" y2="226" stroke="#1F5FD1" stroke-width="2"/>
+<text x="166" y="218" transform="rotate(-45 166 218)" style="fill:#1A1F2C">Delete text</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-custom-fields-api/#op-updateTextCustomField" target="_blank" class="st" data-op="updateTextCustomField"><title>PATCH /custom-fields/text/{textFieldId}
+Custom Fields line · updateTextCustomField</title>
+<circle cx="248" cy="230" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="254" y="218" transform="rotate(-45 254 218)" style="fill:#1A1F2C">Update text</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-holiday-groups-api/#op-listHolidayGroups" target="_blank" class="st" data-op="listHolidayGroups"><title>GET /holiday-groups/
+Holiday Groups line · listHolidayGroups</title>
+<circle cx="2668" cy="1198" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2680" y="1203" text-anchor="start" style="fill:#1A1F2C">List holiday groups</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-holiday-groups-api/#op-getHolidayGroup" target="_blank" class="st" data-op="getHolidayGroup"><title>GET /holiday-groups/{holidayGroupId}
+Holiday Groups line · getHolidayGroup</title>
+<circle cx="2668" cy="1286" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2680" y="1291" text-anchor="start" style="fill:#1A1F2C">Get holiday group</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-holiday-groups-api/#op-listHolidayGroupHolidays" target="_blank" class="st" data-op="listHolidayGroupHolidays"><title>GET /holiday-groups/{holidayGroupId}/holidays
+Holiday Groups line · listHolidayGroupHolidays</title>
+<circle cx="2668" cy="1374" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2680" y="1379" text-anchor="start" style="fill:#1A1F2C">List holidays</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-invitations-api/#op-listInvitations" target="_blank" class="st" data-op="listInvitations"><title>GET /invitations/
+Invitations line · listInvitations</title>
+<circle cx="2668" cy="1066" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2680" y="1071" text-anchor="start" style="fill:#1A1F2C">List invitations</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-invitations-api/#op-createInvitation" target="_blank" class="st" data-op="createInvitation"><title>POST /invitations/
+Invitations line · createInvitation</title>
+<circle cx="2712" cy="1022" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2724" y="1027" text-anchor="start" style="fill:#1A1F2C">Create invitation</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-invitations-api/#op-deleteInvitation" target="_blank" class="st" data-op="deleteInvitation"><title>DELETE /invitations/{invitationId}
+Invitations line · deleteInvitation</title>
+<circle cx="2800" cy="934" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2796" y1="938" x2="2804" y2="930" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2812" y="939" text-anchor="start" style="fill:#1A1F2C">Delete invitation</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-legacy-id-api/#op-getLegacyId" target="_blank" class="st" data-op="getLegacyId"><title>GET /legacy-id/{model}/{legacyId}
+More Local line · getLegacyId</title>
+<circle cx="2272" cy="1198" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2284" y="1203" text-anchor="start" style="fill:#1A1F2C">Get legacy id</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-me-api/#op-getMe" target="_blank" class="st" data-op="getMe"><title>GET /me/
+More Local line · getMe</title>
+<circle cx="2272" cy="1242" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2284" y="1247" text-anchor="start" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-milestones-api/#op-listMilestones" target="_blank" class="st" data-op="listMilestones"><title>GET /milestones/
+More Local line · listMilestones</title>
+<circle cx="2316" cy="1286" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2328" y="1291" text-anchor="start" style="fill:#1A1F2C">List milestones</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-other-expenses-api/#op-listOtherExpenses" target="_blank" class="st" data-op="listOtherExpenses"><title>GET /other-expenses/
+More Local line · listOtherExpenses</title>
+<circle cx="2316" cy="1506" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2328" y="1511" text-anchor="start" style="fill:#1A1F2C">List other expenses</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-getPerson" target="_blank" class="st" data-op="getPerson"><title>GET /people/{personId}
+People line · getPerson</title>
+<circle cx="1568" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1580" y="1115" text-anchor="start" style="fill:#1A1F2C">Get people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePerson" target="_blank" class="st" data-op="updatePerson"><title>PATCH /people/{personId}
+People line · updatePerson</title>
+<circle cx="1568" cy="1022" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1556.0" y="1027" text-anchor="end" style="fill:#1A1F2C">Update people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-deletePerson" target="_blank" class="st" data-op="deletePerson"><title>DELETE /people/{personId}
+People line · deletePerson</title>
+<circle cx="1568" cy="978" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1564" y1="982" x2="1572" y2="974" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1556.0" y="983" text-anchor="end" style="fill:#1A1F2C">Delete people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPeople" target="_blank" class="st" data-op="listPeople"><title>GET /people/
+People line · listPeople</title>
+<circle cx="1348" cy="1330" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1360" y="1335" text-anchor="start" style="fill:#1A1F2C">Get people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-createPerson" target="_blank" class="st" data-op="createPerson"><title>POST /people/
+People line · createPerson</title>
+<circle cx="1436" cy="1242" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1424.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Update people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPeopleSkills" target="_blank" class="st" data-op="listPeopleSkills"><title>GET /people/skills
+People line · listPeopleSkills</title>
+<circle cx="1744" cy="1682" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1744" y="1705" text-anchor="middle" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPeopleNotes" target="_blank" class="st" data-op="listPeopleNotes"><title>GET /people/notes
+People line · listPeopleNotes</title>
+<circle cx="1656" cy="1594" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="1599" text-anchor="start" style="fill:#1A1F2C">List notes</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPeopleCurrentContracts" target="_blank" class="st" data-op="listPeopleCurrentContracts"><title>GET /people/contracts/current
+People line · listPeopleCurrentContracts</title>
+<circle cx="996" cy="1198" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1008" y="1203" text-anchor="start" style="fill:#1A1F2C">Get current</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPeopleCustomFields" target="_blank" class="st" data-op="listPeopleCustomFields"><title>GET /people/custom-fields
+People line · listPeopleCustomFields</title>
+<circle cx="1612" cy="934" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600.0" y="939" text-anchor="end" style="fill:#1A1F2C">List custom fields <tspan font-weight="700" style="fill:#1F5FD1">⇄CF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonActuals" target="_blank" class="st" data-op="listPersonActuals"><title>GET /people/{personId}/actuals/
+People line · listPersonActuals</title>
+<circle cx="2008" cy="978" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1996.0" y="983" text-anchor="end" style="fill:#1A1F2C">List actuals <tspan font-weight="700" style="fill:#0d7768">⇄ACT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonAssignments" target="_blank" class="st" data-op="listPersonAssignments"><title>GET /people/{personId}/assignments/
+People line · listPersonAssignments</title>
+<circle cx="2008" cy="934" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1996.0" y="939" text-anchor="end" style="fill:#1A1F2C">List assignments <tspan font-weight="700" style="fill:#17d26e">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonContracts" target="_blank" class="st" data-op="listPersonContracts"><title>GET /people/{personId}/contracts/
+People line · listPersonContracts</title>
+<circle cx="1436" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1436" y="1096" text-anchor="middle" style="fill:#1A1F2C">List contracts</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-createPersonContract" target="_blank" class="st" data-op="createPersonContract"><title>POST /people/{personId}/contracts/
+People line · createPersonContract</title>
+<circle cx="1304" cy="1110" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1310" y="1098" transform="rotate(-45 1310 1098)" style="fill:#1A1F2C">Create contract</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-getPersonCurrentContract" target="_blank" class="st" data-op="getPersonCurrentContract"><title>GET /people/{personId}/contracts/current
+People line · getPersonCurrentContract</title>
+<circle cx="996" cy="1286" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1008" y="1291" text-anchor="start" style="fill:#1A1F2C">Get current</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-deletePersonContract" target="_blank" class="st" data-op="deletePersonContract"><title>DELETE /people/{personId}/contracts/{contractId}
+People line · deletePersonContract</title>
+<circle cx="996" cy="1110" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="992" y1="1114" x2="1000" y2="1106" stroke="#0E9F6E" stroke-width="2"/>
+<text x="984.0" y="1115" text-anchor="end" style="fill:#1A1F2C">Delete contract</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePersonContract" target="_blank" class="st" data-op="updatePersonContract"><title>PATCH /people/{personId}/contracts/{contractId}
+People line · updatePersonContract</title>
+<circle cx="1216" cy="1110" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1222" y="1098" transform="rotate(-45 1222 1098)" style="fill:#1A1F2C">Update contract</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePersonCheckboxCustomFields" target="_blank" class="st" data-op="updatePersonCheckboxCustomFields"><title>PATCH /people/{personId}/custom-fields/checkbox/
+People line · updatePersonCheckboxCustomFields</title>
+<circle cx="1656" cy="934" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="939" text-anchor="start" style="fill:#1A1F2C">Update checkbox</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePersonDateCustomFields" target="_blank" class="st" data-op="updatePersonDateCustomFields"><title>PATCH /people/{personId}/custom-fields/date/
+People line · updatePersonDateCustomFields</title>
+<circle cx="1656" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="1159" text-anchor="start" style="fill:#1A1F2C">Update date</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePersonSelectCustomFields" target="_blank" class="st" data-op="updatePersonSelectCustomFields"><title>PATCH /people/{personId}/custom-fields/select/
+People line · updatePersonSelectCustomFields</title>
+<circle cx="1656" cy="1330" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="1335" text-anchor="start" style="fill:#1A1F2C">Update select</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePersonTextCustomFields" target="_blank" class="st" data-op="updatePersonTextCustomFields"><title>PATCH /people/{personId}/custom-fields/text/
+People line · updatePersonTextCustomFields</title>
+<circle cx="1656" cy="1462" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1668" y="1467" text-anchor="start" style="fill:#1A1F2C">Update text</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonProjects" target="_blank" class="st" data-op="listPersonProjects"><title>GET /people/{personId}/projects/
+People line · listPersonProjects</title>
+<circle cx="1876" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1876" y="868" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1876" dy="13">projects <tspan font-weight="700" style="fill:#D6264F">⇄PRO</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-createPersonProject" target="_blank" class="st" data-op="createPersonProject"><title>POST /people/{personId}/projects/
+People line · createPersonProject</title>
+<circle cx="1920" cy="802" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1932" y="807" text-anchor="start" style="fill:#1A1F2C">Create project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonSkills" target="_blank" class="st" data-op="listPersonSkills"><title>GET /people/{personId}/skills/
+People line · listPersonSkills</title>
+<circle cx="1876" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1888" y="1555" text-anchor="start" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-createPersonSkill" target="_blank" class="st" data-op="createPersonSkill"><title>POST /people/{personId}/skills/
+People line · createPersonSkill</title>
+<circle cx="1876" cy="1374" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1888" y="1379" text-anchor="start" style="fill:#1A1F2C">Create skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-updatePersonSkill" target="_blank" class="st" data-op="updatePersonSkill"><title>PATCH /people/{personId}/skills/{skillId}
+People line · updatePersonSkill</title>
+<circle cx="1876" cy="1198" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1888" y="1203" text-anchor="start" style="fill:#1A1F2C">Update skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-deletePersonSkill" target="_blank" class="st" data-op="deletePersonSkill"><title>DELETE /people/{personId}/skills/{skillId}
+People line · deletePersonSkill</title>
+<circle cx="1876" cy="1110" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1872" y1="1114" x2="1880" y2="1106" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1888" y="1115" text-anchor="start" style="fill:#1A1F2C">Delete skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-getPersonCurrentTeam" target="_blank" class="st" data-op="getPersonCurrentTeam"><title>GET /people/{personId}/teams/current
+People line · getPersonCurrentTeam
+DEPRECATED</title>
+<circle cx="2008" cy="582" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2020" y="587" text-anchor="start" style="fill:#A0A7B4">Get current</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-createPersonTeam" target="_blank" class="st" data-op="createPersonTeam"><title>POST /people/{personId}/teams/
+People line · createPersonTeam
+DEPRECATED</title>
+<circle cx="1964" cy="758" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1952.0" y="763" text-anchor="end" style="fill:#A0A7B4">Create team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-deletePersonTeam" target="_blank" class="st" data-op="deletePersonTeam"><title>DELETE /people/{personId}/teams/{teamId}
+People line · deletePersonTeam
+DEPRECATED</title>
+<circle cx="2008" cy="758" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="2020" y="763" text-anchor="start" style="fill:#A0A7B4">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonLeave" target="_blank" class="st" data-op="listPersonLeave"><title>GET /people/{personId}/time-offs/leave
+People line · listPersonLeave</title>
+<circle cx="2052" cy="494" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2064" y="499" text-anchor="start" style="fill:#1A1F2C">Get leave</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonHolidays" target="_blank" class="st" data-op="listPersonHolidays"><title>GET /people/{personId}/time-offs/holidays
+People line · listPersonHolidays</title>
+<circle cx="2052" cy="538" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2064" y="543" text-anchor="start" style="fill:#1A1F2C">List holidays</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-api/#op-listPersonRosteredOff" target="_blank" class="st" data-op="listPersonRosteredOff"><title>GET /people/{personId}/time-offs/rostered-off
+People line · listPersonRosteredOff</title>
+<circle cx="2052" cy="406" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2064" y="411" text-anchor="start" style="fill:#1A1F2C">Get rostered off</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-tags-api/#op-listPeopleTags" target="_blank" class="st" data-op="listPeopleTags"><title>GET /people-tags/
+People Tags line · listPeopleTags</title>
+<circle cx="2404" cy="714" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2416" y="719" text-anchor="start" style="fill:#1A1F2C">List people tags</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-tags-api/#op-createPeopleTag" target="_blank" class="st" data-op="createPeopleTag"><title>POST /people-tags/
+People Tags line · createPeopleTag</title>
+<circle cx="2492" cy="802" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2504" y="807" text-anchor="start" style="fill:#1A1F2C">Create people tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-tags-api/#op-getPeopleTag" target="_blank" class="st" data-op="getPeopleTag"><title>GET /people-tags/{peopleTagId}
+People Tags line · getPeopleTag</title>
+<circle cx="2536" cy="846" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2548" y="851" text-anchor="start" style="fill:#1A1F2C">Get people tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-tags-api/#op-updatePeopleTag" target="_blank" class="st" data-op="updatePeopleTag"><title>PATCH /people-tags/{peopleTagId}
+People Tags line · updatePeopleTag</title>
+<circle cx="2580" cy="890" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2592" y="895" text-anchor="start" style="fill:#1A1F2C">Update people tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-people-tags-api/#op-deletePeopleTag" target="_blank" class="st" data-op="deletePeopleTag"><title>DELETE /people-tags/{peopleTagId}
+People Tags line · deletePeopleTag</title>
+<circle cx="2624" cy="934" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2620" y1="938" x2="2628" y2="930" stroke="#B0287F" stroke-width="2"/>
+<text x="2636" y="939" text-anchor="start" style="fill:#1A1F2C">Delete people tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-person-requests-api/#op-listPersonRequests" target="_blank" class="st" data-op="listPersonRequests"><title>GET /person-requests/
+More Local line · listPersonRequests</title>
+<circle cx="2360" cy="1550" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="1555" text-anchor="start" style="fill:#1A1F2C">List person requests</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-phases-api/#op-listPhases" target="_blank" class="st" data-op="listPhases"><title>GET /phases/
+More Local line · listPhases</title>
+<circle cx="2360" cy="1726" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2348.0" y="1731" text-anchor="end" style="fill:#1A1F2C">List phases</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-placeholders-api/#op-listPlaceholders" target="_blank" class="st" data-op="listPlaceholders"><title>GET /placeholders/
+Placeholders line · listPlaceholders</title>
+<circle cx="1568" cy="1902" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1580" y="1907" text-anchor="start" style="fill:#1A1F2C">List placeholders</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-placeholders-api/#op-createPlaceholder" target="_blank" class="st" data-op="createPlaceholder"><title>POST /placeholders/
+Placeholders line · createPlaceholder</title>
+<circle cx="1612" cy="1858" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1600.0" y="1863" text-anchor="end" style="fill:#1A1F2C">Create placeholder</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-placeholders-api/#op-createPlaceholderSkill" target="_blank" class="st" data-op="createPlaceholderSkill"><title>POST /placeholders/{placeholderId}/skills/
+Placeholders line · createPlaceholderSkill</title>
+<circle cx="1612" cy="1770" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600.0" y="1775" text-anchor="end" style="fill:#1A1F2C">Create skill <tspan font-weight="700" style="fill:#7B3FE4">⇄SKI</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-placeholders-api/#op-deletePlaceholderSkill" target="_blank" class="st" data-op="deletePlaceholderSkill"><title>DELETE /placeholders/{placeholderId}/skills/{skillId}
+Placeholders line · deletePlaceholderSkill</title>
+<circle cx="1612" cy="1682" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1608" y1="1686" x2="1616" y2="1678" stroke="#C2410C" stroke-width="2"/>
+<text x="1624" y="1687" text-anchor="start" style="fill:#1A1F2C">Delete skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-placeholders-api/#op-createPlaceholderTeam" target="_blank" class="st" data-op="createPlaceholderTeam"><title>POST /placeholders/{placeholderId}/teams/
+Placeholders line · createPlaceholderTeam</title>
+<circle cx="1568" cy="1638" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1580" y="1643" text-anchor="start" style="fill:#1A1F2C">Create team <tspan font-weight="700" style="fill:#B8860B">⇄TEA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-placeholders-api/#op-deletePlaceholderTeam" target="_blank" class="st" data-op="deletePlaceholderTeam"><title>DELETE /placeholders/{placeholderId}/teams/{teamId}
+Placeholders line · deletePlaceholderTeam</title>
+<circle cx="1480" cy="1638" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1476" y1="1642" x2="1484" y2="1634" stroke="#C2410C" stroke-width="2"/>
+<text x="1486" y="1626" transform="rotate(-45 1486 1626)" style="fill:#1A1F2C">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-members-api/#op-listProjectMembers" target="_blank" class="st" data-op="listProjectMembers"><title>GET /project-members/
+More Local line · listProjectMembers</title>
+<circle cx="2360" cy="1946" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="1951" text-anchor="start" style="fill:#1A1F2C">List project members</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-notes-api/#op-listProjectNotes" target="_blank" class="st" data-op="listProjectNotes"><title>GET /project-notes/
+More Local line · listProjectNotes</title>
+<circle cx="2360" cy="2034" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="2039" text-anchor="start" style="fill:#1A1F2C">List project notes</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-rates-api/#op-listProjectRates" target="_blank" class="st" data-op="listProjectRates"><title>GET /project-rates/
+More Local line · listProjectRates</title>
+<circle cx="2360" cy="2122" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="2127" text-anchor="start" style="fill:#1A1F2C">List project rates</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-tags-api/#op-getProjectTag" target="_blank" class="st" data-op="getProjectTag"><title>GET /project-tags/{projectTagId}
+Project Tags line · getProjectTag</title>
+<circle cx="3020" cy="1638" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="3026" y="1626" transform="rotate(-45 3026 1626)" style="fill:#1A1F2C">Get project tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-tags-api/#op-updateProjectTag" target="_blank" class="st" data-op="updateProjectTag"><title>PATCH /project-tags/{projectTagId}
+Project Tags line · updateProjectTag</title>
+<circle cx="2932" cy="1638" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2920.0" y="1643" text-anchor="end" style="fill:#1A1F2C">Update project tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-tags-api/#op-listProjectTags" target="_blank" class="st" data-op="listProjectTags"><title>GET /project-tags/
+Project Tags line · listProjectTags</title>
+<circle cx="3196" cy="1638" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="3190" y="1650" text-anchor="end" transform="rotate(-45 3190 1650)" style="fill:#1A1F2C">List project tags</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-tags-api/#op-createProjectTag" target="_blank" class="st" data-op="createProjectTag"><title>POST /project-tags/
+Project Tags line · createProjectTag</title>
+<circle cx="3108" cy="1638" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="3114" y="1626" transform="rotate(-45 3114 1626)" style="fill:#1A1F2C">Create project tag</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-tags-api/#op-createProjectTagProject" target="_blank" class="st" data-op="createProjectTagProject"><title>POST /project-tags/{projectTagId}/project/{projectId}
+Project Tags line · createProjectTagProject</title>
+<circle cx="2844" cy="1726" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2856" y="1731" text-anchor="start" style="fill:#1A1F2C">Update project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-tags-api/#op-deleteProjectTagProject" target="_blank" class="st" data-op="deleteProjectTagProject"><title>DELETE /project-tags/{projectTagId}/project/{projectId}
+Project Tags line · deleteProjectTagProject</title>
+<circle cx="2756" cy="1814" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2752" y1="1818" x2="2760" y2="1810" stroke="#0B7A75" stroke-width="2"/>
+<text x="2768" y="1819" text-anchor="start" style="fill:#1A1F2C">Delete project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-project-workstreams-api/#op-listProjectWorkstreams" target="_blank" class="st" data-op="listProjectWorkstreams"><title>GET /project-workstreams/
+More Local line · listProjectWorkstreams</title>
+<circle cx="2360" cy="2254" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="2259" text-anchor="start" style="fill:#1A1F2C">List project workstreams</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProject" target="_blank" class="st" data-op="getProject"><title>GET /projects/{projectId}
+Projects line · getProject</title>
+<circle cx="1832" cy="670" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1838" y="658" transform="rotate(-45 1838 658)" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProject" target="_blank" class="st" data-op="updateProject"><title>PATCH /projects/{projectId}
+Projects line · updateProject</title>
+<circle cx="1920" cy="670" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1926" y="658" transform="rotate(-45 1926 658)" style="fill:#1A1F2C">Update project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjects" target="_blank" class="st" data-op="listProjects"><title>GET /projects/
+Projects line · listProjects</title>
+<circle cx="1568" cy="670" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1556.0" y="675" text-anchor="end" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProject" target="_blank" class="st" data-op="createProject"><title>POST /projects/
+Projects line · createProject</title>
+<circle cx="1656" cy="670" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1650" y="682" text-anchor="end" transform="rotate(-45 1650 682)" style="fill:#1A1F2C">Create project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectCustomFields" target="_blank" class="st" data-op="listProjectCustomFields"><title>GET /projects/custom-fields
+Projects line · listProjectCustomFields</title>
+<circle cx="1744" cy="670" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1750" y="658" transform="rotate(-45 1750 658)" style="fill:#1A1F2C">List custom fields <tspan font-weight="700" style="fill:#1F5FD1">⇄CF</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-deleteProject" target="_blank" class="st" data-op="deleteProject"><title>DELETE /projects/{projectId}/
+Projects line · deleteProject</title>
+<circle cx="2008" cy="670" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2004" y1="674" x2="2012" y2="666" stroke="#D6264F" stroke-width="2"/>
+<text x="2014" y="658" transform="rotate(-45 2014 658)" style="fill:#1A1F2C">Delete project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectActuals" target="_blank" class="st" data-op="listProjectActuals"><title>GET /projects/{projectId}/actuals/
+Projects line · listProjectActuals</title>
+<circle cx="2096" cy="670" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2108" y="675" text-anchor="start" style="fill:#1A1F2C">List actuals <tspan font-weight="700" style="fill:#0d7768">⇄ACT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectAssignments" target="_blank" class="st" data-op="listProjectAssignments"><title>GET /projects/{projectId}/assignments/
+Projects line · listProjectAssignments</title>
+<circle cx="2184" cy="758" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2196" y="763" text-anchor="start" style="fill:#1A1F2C">List assignments <tspan font-weight="700" style="fill:#17d26e">⇄ASS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectBudgetRole" target="_blank" class="st" data-op="getProjectBudgetRole"><title>GET /projects/{projectId}/budget-roles/{roleId}
+Projects line · getProjectBudgetRole</title>
+<circle cx="2448" cy="1022" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2460" y="1027" text-anchor="start" style="fill:#1A1F2C">Get budget role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectBudgetRole" target="_blank" class="st" data-op="updateProjectBudgetRole"><title>PATCH /projects/{projectId}/budget-roles/{roleId}
+Projects line · updateProjectBudgetRole</title>
+<circle cx="2536" cy="1110" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2548" y="1115" text-anchor="start" style="fill:#1A1F2C">Update budget role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-deleteProjectBudgetRole" target="_blank" class="st" data-op="deleteProjectBudgetRole"><title>DELETE /projects/{projectId}/budget-roles/{roleId}
+Projects line · deleteProjectBudgetRole</title>
+<circle cx="2536" cy="1198" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2532" y1="1202" x2="2540" y2="1194" stroke="#D6264F" stroke-width="2"/>
+<text x="2548" y="1203" text-anchor="start" style="fill:#1A1F2C">Delete budget role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectBudgetRoles" target="_blank" class="st" data-op="listProjectBudgetRoles"><title>GET /projects/{projectId}/budget-roles/
+Projects line · listProjectBudgetRoles</title>
+<circle cx="2272" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2284" y="851" text-anchor="start" style="fill:#1A1F2C">List budget roles <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectBudgetRole" target="_blank" class="st" data-op="createProjectBudgetRole"><title>POST /projects/{projectId}/budget-roles/
+Projects line · createProjectBudgetRole</title>
+<circle cx="2360" cy="934" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="939" text-anchor="start" style="fill:#1A1F2C">Create budget role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectCheckboxCustomFields" target="_blank" class="st" data-op="updateProjectCheckboxCustomFields"><title>PATCH /projects/{projectId}/custom-fields/checkbox/
+Projects line · updateProjectCheckboxCustomFields</title>
+<circle cx="2536" cy="1286" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2548" y="1291" text-anchor="start" style="fill:#1A1F2C">Update checkbox</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectDateCustomFields" target="_blank" class="st" data-op="updateProjectDateCustomFields"><title>PATCH /projects/{projectId}/custom-fields/date/
+Projects line · updateProjectDateCustomFields</title>
+<circle cx="2536" cy="1374" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2548" y="1379" text-anchor="start" style="fill:#1A1F2C">Update date</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectSelectCustomFields" target="_blank" class="st" data-op="updateProjectSelectCustomFields"><title>PATCH /projects/{projectId}/custom-fields/select/
+Projects line · updateProjectSelectCustomFields</title>
+<circle cx="2536" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2548" y="1467" text-anchor="start" style="fill:#1A1F2C">Update select</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectTextCustomFields" target="_blank" class="st" data-op="updateProjectTextCustomFields"><title>PATCH /projects/{projectId}/custom-fields/text/
+Projects line · updateProjectTextCustomFields</title>
+<circle cx="2536" cy="1550" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2548" y="1555" text-anchor="start" style="fill:#1A1F2C">Update text</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectMilestone" target="_blank" class="st" data-op="createProjectMilestone"><title>POST /projects/{projectId}/milestones/
+Projects line · createProjectMilestone</title>
+<circle cx="2448" cy="1726" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2460" y="1731" text-anchor="start" style="fill:#1A1F2C">Create milestone</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectMilestones" target="_blank" class="st" data-op="listProjectMilestones"><title>GET /projects/{projectId}/milestones/
+Projects line · listProjectMilestones</title>
+<circle cx="2536" cy="1638" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2548" y="1643" text-anchor="start" style="fill:#1A1F2C">List milestones</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-deleteProjectMilestone" target="_blank" class="st" data-op="deleteProjectMilestone"><title>DELETE /projects/{projectId}/milestones/{milestoneId}
+Projects line · deleteProjectMilestone</title>
+<circle cx="2272" cy="1902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2268" y1="1906" x2="2276" y2="1898" stroke="#D6264F" stroke-width="2"/>
+<text x="2260.0" y="1907" text-anchor="end" style="fill:#1A1F2C">Delete milestone</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectMilestone" target="_blank" class="st" data-op="updateProjectMilestone"><title>PATCH /projects/{projectId}/milestones/{milestoneId}
+Projects line · updateProjectMilestone</title>
+<circle cx="2360" cy="1814" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2372" y="1819" text-anchor="start" style="fill:#1A1F2C">Update milestone</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectNote" target="_blank" class="st" data-op="createProjectNote"><title>POST /projects/{projectId}/notes/
+Projects line · createProjectNote</title>
+<circle cx="2096" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2108" y="2083" text-anchor="start" style="fill:#1A1F2C">Create note</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectNotes" target="_blank" class="st" data-op="getProjectNotes"><title>GET /projects/{projectId}/notes/
+Projects line · getProjectNotes</title>
+<circle cx="2184" cy="1990" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2196" y="1995" text-anchor="start" style="fill:#1A1F2C">List notes</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectOtherExpenses" target="_blank" class="st" data-op="listProjectOtherExpenses"><title>GET /projects/{projectId}/other-expenses/
+Projects line · listProjectOtherExpenses</title>
+<circle cx="2008" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2014" y="2066" transform="rotate(-45 2014 2066)" style="fill:#1A1F2C">List other expenses</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectOtherExpense" target="_blank" class="st" data-op="createProjectOtherExpense"><title>POST /projects/{projectId}/other-expenses/
+Projects line · createProjectOtherExpense</title>
+<circle cx="1920" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1926" y="2066" transform="rotate(-45 1926 2066)" style="fill:#1A1F2C">Create other expens</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectOtherExpense" target="_blank" class="st" data-op="updateProjectOtherExpense"><title>PATCH /projects/{projectId}/other-expenses/{otherExpenseId}/
+Projects line · updateProjectOtherExpense</title>
+<circle cx="1832" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1838" y="2066" transform="rotate(-45 1838 2066)" style="fill:#1A1F2C">Update other expens</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectPeople" target="_blank" class="st" data-op="listProjectPeople"><title>GET /projects/{projectId}/people/
+Projects line · listProjectPeople</title>
+<circle cx="1744" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1750" y="2066" transform="rotate(-45 1750 2066)" style="fill:#1A1F2C">Get people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectPersonRequests" target="_blank" class="st" data-op="listProjectPersonRequests"><title>GET /projects/{projectId}/person-requests/
+Projects line · listProjectPersonRequests</title>
+<circle cx="1656" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1650" y="2090" text-anchor="end" transform="rotate(-45 1650 2090)" style="fill:#1A1F2C">List person requests</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectPersonRequest" target="_blank" class="st" data-op="createProjectPersonRequest"><title>POST /projects/{projectId}/person-requests/
+Projects line · createProjectPersonRequest</title>
+<circle cx="1568" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1556.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Create person request</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectPersonRequest" target="_blank" class="st" data-op="getProjectPersonRequest"><title>GET /projects/{projectId}/person-requests/{personRequestId}
+Projects line · getProjectPersonRequest</title>
+<circle cx="1480" cy="1990" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1492" y="1995" text-anchor="start" style="fill:#1A1F2C">Get person request</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectPersonRequest" target="_blank" class="st" data-op="updateProjectPersonRequest"><title>PATCH /projects/{projectId}/person-requests/{personRequestId}
+Projects line · updateProjectPersonRequest</title>
+<circle cx="1392" cy="1902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1404" y="1907" text-anchor="start" style="fill:#1A1F2C">Update person request</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-listProjectPhases" target="_blank" class="st" data-op="listProjectPhases"><title>GET /projects/{projectId}/phases/
+Projects line · listProjectPhases</title>
+<circle cx="1304" cy="1814" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="1819" text-anchor="start" style="fill:#1A1F2C">List phases</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectPhase" target="_blank" class="st" data-op="createProjectPhase"><title>POST /projects/{projectId}/phases/
+Projects line · createProjectPhase</title>
+<circle cx="1216" cy="1726" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1228" y="1731" text-anchor="start" style="fill:#1A1F2C">Create phas</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectPhase" target="_blank" class="st" data-op="getProjectPhase"><title>GET /projects/{projectId}/phases/{phaseId}
+Projects line · getProjectPhase</title>
+<circle cx="1128" cy="1638" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1643" text-anchor="start" style="fill:#1A1F2C">Get phas</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectPhase" target="_blank" class="st" data-op="updateProjectPhase"><title>PATCH /projects/{projectId}/phases/{phaseId}
+Projects line · updateProjectPhase</title>
+<circle cx="1128" cy="1550" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1555" text-anchor="start" style="fill:#1A1F2C">Update phas</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-deleteProjectPhase" target="_blank" class="st" data-op="deleteProjectPhase"><title>DELETE /projects/{projectId}/phases/{phaseId}
+Projects line · deleteProjectPhase</title>
+<circle cx="1128" cy="1462" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1124" y1="1466" x2="1132" y2="1458" stroke="#D6264F" stroke-width="2"/>
+<text x="1140" y="1467" text-anchor="start" style="fill:#1A1F2C">Delete phas</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectRates" target="_blank" class="st" data-op="getProjectRates"><title>GET /projects/{projectId}/project-rates/
+Projects line · getProjectRates</title>
+<circle cx="1128" cy="1374" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1379" text-anchor="start" style="fill:#1A1F2C">List project rates</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectRate" target="_blank" class="st" data-op="updateProjectRate"><title>PATCH /projects/{projectId}/project-rates/{projectRateId}/
+Projects line · updateProjectRate</title>
+<circle cx="1128" cy="1286" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1291" text-anchor="start" style="fill:#1A1F2C">Update project rate</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectWorkstreams" target="_blank" class="st" data-op="getProjectWorkstreams"><title>GET /projects/{projectId}/project-workstreams/
+Projects line · getProjectWorkstreams</title>
+<circle cx="1128" cy="1198" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1203" text-anchor="start" style="fill:#1A1F2C">List project workstreams</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectWorkstream" target="_blank" class="st" data-op="getProjectWorkstream"><title>GET /projects/{projectId}/project-workstreams/{workstreamId}/
+Projects line · getProjectWorkstream</title>
+<circle cx="1128" cy="1110" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1128" y="1132" text-anchor="middle" style="fill:#1A1F2C">Get project<tspan x="1128" dy="13">workstream</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-createProjectWorkstream" target="_blank" class="st" data-op="createProjectWorkstream"><title>POST /projects/{projectId}/project-workstreams/{workstreamId}/
+Projects line · createProjectWorkstream</title>
+<circle cx="1216" cy="1022" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1228" y="1027" text-anchor="start" style="fill:#1A1F2C">Update project workstream</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-deleteProjectWorkstream" target="_blank" class="st" data-op="deleteProjectWorkstream"><title>DELETE /projects/{projectId}/project-workstreams/{workstreamId}/
+Projects line · deleteProjectWorkstream</title>
+<circle cx="1304" cy="934" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1300" y1="938" x2="1308" y2="930" stroke="#D6264F" stroke-width="2"/>
+<text x="1292.0" y="939" text-anchor="end" style="fill:#1A1F2C">Delete project workstream</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-getProjectTimesheetLock" target="_blank" class="st" data-op="getProjectTimesheetLock"><title>GET /projects/{projectId}/timesheet-lock/
+Projects line · getProjectTimesheetLock</title>
+<circle cx="1392" cy="846" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1380.0" y="851" text-anchor="end" style="fill:#1A1F2C">Get timesheet lock</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-projects-api/#op-updateProjectTimesheetLock" target="_blank" class="st" data-op="updateProjectTimesheetLock"><title>PATCH /projects/{projectId}/timesheet-lock/
+Projects line · updateProjectTimesheetLock</title>
+<circle cx="1480" cy="758" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1492" y="763" text-anchor="start" style="fill:#1A1F2C">Update timesheet lock</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-rate-cards-api/#op-listRateCards" target="_blank" class="st" data-op="listRateCards"><title>GET /rate-cards/
+Rate Cards line · listRateCards</title>
+<circle cx="3020" cy="1242" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3014" y="1254" text-anchor="end" transform="rotate(-45 3014 1254)" style="fill:#1A1F2C">List rate cards</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-rate-cards-api/#op-createRateCard" target="_blank" class="st" data-op="createRateCard"><title>POST /rate-cards/
+Rate Cards line · createRateCard</title>
+<circle cx="2932" cy="1242" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2920.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Create rate card</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-rate-cards-api/#op-getRateCard" target="_blank" class="st" data-op="getRateCard"><title>GET /rate-cards/{rateCardId}
+Rate Cards line · getRateCard</title>
+<circle cx="2844" cy="1154" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2856" y="1159" text-anchor="start" style="fill:#1A1F2C">Get rate card</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-rate-cards-api/#op-deleteRateCard" target="_blank" class="st" data-op="deleteRateCard"><title>DELETE /rate-cards/{rateCardId}
+Rate Cards line · deleteRateCard</title>
+<circle cx="3020" cy="1110" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="3016" y1="1114" x2="3024" y2="1106" stroke="#5C6BC0" stroke-width="2"/>
+<text x="3014" y="1122" text-anchor="end" transform="rotate(-45 3014 1122)" style="fill:#1A1F2C">Delete rate card</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-rate-cards-api/#op-updateRateCard" target="_blank" class="st" data-op="updateRateCard"><title>PATCH /rate-cards/{rateCardId}
+Rate Cards line · updateRateCard</title>
+<circle cx="2888" cy="1110" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2876.0" y="1115" text-anchor="end" style="fill:#1A1F2C">Update rate card</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-reports-api/#op-getPersonHoursReport" target="_blank" class="st" data-op="getPersonHoursReport"><title>GET /reports/hours/people/{personId}
+Reports line · getPersonHoursReport</title>
+<circle cx="1700" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1712" y="1020" text-anchor="start" style="fill:#1A1F2C">Get<tspan x="1712" dy="13">people <tspan font-weight="700" style="fill:#0E9F6E">⇄PEO</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-reports-api/#op-getProjectHoursReport" target="_blank" class="st" data-op="getProjectHoursReport"><title>GET /reports/hours/projects/{projectId}
+Reports line · getProjectHoursReport</title>
+<circle cx="1788" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1794" y="834" transform="rotate(-45 1794 834)" style="fill:#1A1F2C">Get project <tspan font-weight="700" style="fill:#D6264F">⇄PRO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-reports-api/#op-getPersonReport" target="_blank" class="st" data-op="getPersonReport"><title>GET /reports/people/{personId}/
+Reports line · getPersonReport</title>
+<circle cx="1788" cy="934" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1800" y="939" text-anchor="start" style="fill:#1A1F2C">Get people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-reports-api/#op-getProjectReport" target="_blank" class="st" data-op="getProjectReport"><title>GET /reports/projects/{projectId}/
+Reports line · getProjectReport</title>
+<circle cx="1788" cy="1110" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1800" y="1115" text-anchor="start" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-reports-api/#op-listProjectTotalsReports" target="_blank" class="st" data-op="listProjectTotalsReports"><title>GET /reports/totals/projects/
+Reports line · listProjectTotalsReports</title>
+<circle cx="1788" cy="1198" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1776.0" y="1203" text-anchor="end" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-reports-api/#op-getProjectTotalsReport" target="_blank" class="st" data-op="getProjectTotalsReport"><title>GET /reports/totals/projects/{projectId}
+Reports line · getProjectTotalsReport</title>
+<circle cx="1788" cy="1286" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1800" y="1291" text-anchor="start" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-roles-api/#op-listRoles" target="_blank" class="st" data-op="listRoles"><title>GET /roles/
+Roles line · listRoles</title>
+<circle cx="2184" cy="1418" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2196" y="1423" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-roles-api/#op-createRole" target="_blank" class="st" data-op="createRole"><title>POST /roles/
+Roles line · createRole</title>
+<circle cx="2184" cy="1330" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2196" y="1335" text-anchor="start" style="fill:#1A1F2C">Create role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-roles-api/#op-getRole" target="_blank" class="st" data-op="getRole"><title>GET /roles/{roleId}
+Roles line · getRole</title>
+<circle cx="2184" cy="1242" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2196" y="1247" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-roles-api/#op-updateRole" target="_blank" class="st" data-op="updateRole"><title>PATCH /roles/{roleId}
+Roles line · updateRole</title>
+<circle cx="2184" cy="1110" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2196" y="1115" text-anchor="start" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-listSkills" target="_blank" class="st" data-op="listSkills"><title>GET /skills/
+Skills line · listSkills</title>
+<circle cx="1876" cy="1902" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1888" y="1907" text-anchor="start" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-createSkill" target="_blank" class="st" data-op="createSkill"><title>POST /skills/
+Skills line · createSkill</title>
+<circle cx="1788" cy="1814" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1800" y="1819" text-anchor="start" style="fill:#1A1F2C">Create skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-getSkill" target="_blank" class="st" data-op="getSkill"><title>GET /skills/{skillId}
+Skills line · getSkill</title>
+<circle cx="1700" cy="1726" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1712" y="1731" text-anchor="start" style="fill:#1A1F2C">Get skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-updateSkill" target="_blank" class="st" data-op="updateSkill"><title>PATCH /skills/{skillId}
+Skills line · updateSkill</title>
+<circle cx="1700" cy="1858" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1712" y="1863" text-anchor="start" style="fill:#1A1F2C">Update skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-deleteSkill" target="_blank" class="st" data-op="deleteSkill"><title>DELETE /skills/{skillId}
+Skills line · deleteSkill</title>
+<circle cx="1700" cy="1946" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1696" y1="1950" x2="1704" y2="1942" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1712" y="1951" text-anchor="start" style="fill:#1A1F2C">Delete skill</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-listSkillPeople" target="_blank" class="st" data-op="listSkillPeople"><title>GET /skills/{skillId}/people/
+Skills line · listSkillPeople</title>
+<circle cx="1700" cy="2166" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1712" y="2171" text-anchor="start" style="fill:#1A1F2C">Get people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-skills-api/#op-createSkillPerson" target="_blank" class="st" data-op="createSkillPerson"><title>POST /skills/{skillId}/people/
+Skills line · createSkillPerson</title>
+<circle cx="1700" cy="2254" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1712" y="2259" text-anchor="start" style="fill:#1A1F2C">Update people</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-teams-api/#op-listTeams" target="_blank" class="st" data-op="listTeams"><title>GET /teams/
+Teams line · listTeams</title>
+<circle cx="1304" cy="1550" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1310" y="1538" transform="rotate(-45 1310 1538)" style="fill:#1A1F2C">List teams</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-teams-api/#op-createTeam" target="_blank" class="st" data-op="createTeam"><title>POST /teams/
+Teams line · createTeam</title>
+<circle cx="1392" cy="1550" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1398" y="1538" transform="rotate(-45 1398 1538)" style="fill:#1A1F2C">Create team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-teams-api/#op-getTeam" target="_blank" class="st" data-op="getTeam"><title>GET /teams/{teamId}/
+Teams line · getTeam</title>
+<circle cx="1568" cy="1550" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1580" y="1555" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-teams-api/#op-updateTeam" target="_blank" class="st" data-op="updateTeam"><title>PATCH /teams/{teamId}/
+Teams line · updateTeam</title>
+<circle cx="1568" cy="1462" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1580" y="1467" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-teams-api/#op-deleteTeam" target="_blank" class="st" data-op="deleteTeam"><title>DELETE /teams/{teamId}/
+Teams line · deleteTeam</title>
+<circle cx="1568" cy="1330" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1564" y1="1334" x2="1572" y2="1326" stroke="#B8860B" stroke-width="2"/>
+<text x="1580" y="1335" text-anchor="start" style="fill:#1A1F2C">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-teams-api/#op-listTeamPeople" target="_blank" class="st" data-op="listTeamPeople"><title>GET /teams/{teamId}/people/
+Teams line · listTeamPeople</title>
+<circle cx="1568" cy="1242" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1556.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Get people <tspan font-weight="700" style="fill:#0E9F6E">⇄PEO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-listHolidays" target="_blank" class="st" data-op="listHolidays"><title>GET /time-offs/holidays/
+Time Offs line · listHolidays</title>
+<circle cx="380" cy="2210" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="392" y="2215" text-anchor="start" style="fill:#1A1F2C">List holidays</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-listLeave" target="_blank" class="st" data-op="listLeave"><title>GET /time-offs/leave/
+Time Offs line · listLeave</title>
+<circle cx="468" cy="2122" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="480" y="2127" text-anchor="start" style="fill:#1A1F2C">Get leave</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-createLeave" target="_blank" class="st" data-op="createLeave"><title>POST /time-offs/leave/
+Time Offs line · createLeave</title>
+<circle cx="556" cy="2034" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="568" y="2039" text-anchor="start" style="fill:#1A1F2C">Update leave</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-getLeave" target="_blank" class="st" data-op="getLeave"><title>GET /time-offs/leave/{timeOffId}/
+Time Offs line · getLeave</title>
+<circle cx="600" cy="1990" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="612" y="1995" text-anchor="start" style="fill:#1A1F2C">Get leave</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-deleteLeave" target="_blank" class="st" data-op="deleteLeave"><title>DELETE /time-offs/leave/{timeOffId}/
+Time Offs line · deleteLeave</title>
+<circle cx="688" cy="1902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="684" y1="1906" x2="692" y2="1898" stroke="#E07B12" stroke-width="2"/>
+<text x="700" y="1907" text-anchor="start" style="fill:#1A1F2C">Delete leave</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-createLeaveBulk" target="_blank" class="st" data-op="createLeaveBulk"><title>POST /time-offs/leave/bulk/
+Time Offs line · createLeaveBulk</title>
+<circle cx="776" cy="1814" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="788" y="1819" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-deleteLeaveBulk" target="_blank" class="st" data-op="deleteLeaveBulk"><title>DELETE /time-offs/leave/bulk/
+Time Offs line · deleteLeaveBulk</title>
+<circle cx="776" cy="1726" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="772" y1="1730" x2="780" y2="1722" stroke="#E07B12" stroke-width="2"/>
+<text x="788" y="1731" text-anchor="start" style="fill:#1A1F2C">Delete bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-listRosteredOff" target="_blank" class="st" data-op="listRosteredOff"><title>GET /time-offs/rostered-off/
+Time Offs line · listRosteredOff</title>
+<circle cx="688" cy="1638" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="700" y="1643" text-anchor="start" style="fill:#1A1F2C">Get rostered off</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-time-offs-api/#op-deleteRosteredOff" target="_blank" class="st" data-op="deleteRosteredOff"><title>DELETE /time-offs/rostered-off/{timeOffId}
+Time Offs line · deleteRosteredOff</title>
+<circle cx="600" cy="1550" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="596" y1="1554" x2="604" y2="1546" stroke="#E07B12" stroke-width="2"/>
+<text x="612" y="1555" text-anchor="start" style="fill:#1A1F2C">Delete rostered off</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-listUsers" target="_blank" class="st" data-op="listUsers"><title>GET /users/
+Users line · listUsers</title>
+<circle cx="2272" cy="2738" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2284" y="2743" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-getUser" target="_blank" class="st" data-op="getUser"><title>GET /users/{userId}
+Users line · getUser</title>
+<circle cx="2272" cy="2650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2284" y="2655" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-updateUser" target="_blank" class="st" data-op="updateUser"><title>PATCH /users/{userId}
+Users line · updateUser</title>
+<circle cx="2272" cy="2606" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2284" y="2611" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-deleteUser" target="_blank" class="st" data-op="deleteUser"><title>DELETE /users/{userId}
+Users line · deleteUser</title>
+<circle cx="2272" cy="2518" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2268" y1="2522" x2="2276" y2="2514" stroke="#B0287F" stroke-width="2"/>
+<text x="2284" y="2523" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-listUserViews" target="_blank" class="st" data-op="listUserViews"><title>GET /users/{userId}/views/
+Users line · listUserViews</title>
+<circle cx="2360" cy="2430" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2366" y="2418" transform="rotate(-45 2366 2418)" style="fill:#1A1F2C">List views</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-createUserView" target="_blank" class="st" data-op="createUserView"><title>POST /users/{userId}/views/{viewId}
+Users line · createUserView</title>
+<circle cx="2448" cy="2518" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2460" y="2523" text-anchor="start" style="fill:#1A1F2C">Update view</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-users-api/#op-deleteUserView" target="_blank" class="st" data-op="deleteUserView"><title>DELETE /users/{userId}/views/{viewId}/
+Users line · deleteUserView</title>
+<circle cx="2536" cy="2606" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2532" y1="2610" x2="2540" y2="2602" stroke="#B0287F" stroke-width="2"/>
+<text x="2548" y="2611" text-anchor="start" style="fill:#1A1F2C">Delete view</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-views-api/#op-listViews" target="_blank" class="st" data-op="listViews"><title>GET /views/
+More Local line · listViews</title>
+<circle cx="2360" cy="2386" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2348.0" y="2391" text-anchor="end" style="fill:#1A1F2C">List views</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-workstreams-api/#op-listWorkstreams" target="_blank" class="st" data-op="listWorkstreams"><title>GET /workstreams/
+Workstreams line · listWorkstreams</title>
+<circle cx="3064" cy="1374" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3058" y="1386" text-anchor="end" transform="rotate(-45 3058 1386)" style="fill:#1A1F2C">List workstreams</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-workstreams-api/#op-createWorkstream" target="_blank" class="st" data-op="createWorkstream"><title>POST /workstreams/
+Workstreams line · createWorkstream</title>
+<circle cx="2976" cy="1374" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2982" y="1362" transform="rotate(-45 2982 1362)" style="fill:#1A1F2C">Create workstream</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-workstreams-api/#op-getWorkstream" target="_blank" class="st" data-op="getWorkstream"><title>GET /workstreams/{workstreamId}/
+Workstreams line · getWorkstream</title>
+<circle cx="2932" cy="1374" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2920.0" y="1379" text-anchor="end" style="fill:#1A1F2C">Get workstream</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-workstreams-api/#op-updateWorkstream" target="_blank" class="st" data-op="updateWorkstream"><title>PATCH /workstreams/{workstreamId}/
+Workstreams line · updateWorkstream</title>
+<circle cx="2844" cy="1462" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2856" y="1467" text-anchor="start" style="fill:#1A1F2C">Update workstream</text>
+</a>
+<a href="https://apis.apis.io/apis/runn/runn-workstreams-api/#op-deleteWorkstream" target="_blank" class="st" data-op="deleteWorkstream"><title>DELETE /workstreams/{workstreamId}/
+Workstreams line · deleteWorkstream</title>
+<circle cx="2756" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2752" y1="1554" x2="2760" y2="1546" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2768" y="1555" text-anchor="start" style="fill:#1A1F2C">Delete workstream</text>
+</a>
+<text x="3386" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3386" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">PROJECTS</text>
+<rect x="3386" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3403" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="3428" y="269" font-size="11" fill="#1A1F2C">Projects <tspan fill="#8A93A6">44</tspan></text>
+<text x="3386" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">CONTRACTS</text>
+<rect x="3386" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3403" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PEO</text><text x="3428" y="312" font-size="11" fill="#1A1F2C">People <tspan fill="#8A93A6">32</tspan></text>
+<rect x="3386" y="319" width="34" height="13" rx="3" fill="#0d7768"/><text x="3403" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACT</text><text x="3428" y="329" font-size="11" fill="#1A1F2C">Actuals <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3386" y="336" width="34" height="13" rx="3" fill="#17d26e"/><text x="3403" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASS</text><text x="3428" y="346" font-size="11" fill="#1A1F2C">Assignments <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3386" y="353" width="34" height="13" rx="3" fill="#09d3e1"/><text x="3403" y="363" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="3428" y="363" font-size="11" fill="#1A1F2C">Contracts <tspan fill="#8A93A6">2</tspan></text>
+<text x="3386" y="389" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">CUSTOM FIELDS</text>
+<rect x="3386" y="396" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3403" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CF</text><text x="3428" y="406" font-size="11" fill="#1A1F2C">Custom Fields <tspan fill="#8A93A6">19</tspan></text>
+<text x="3386" y="432" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">TIME OFFS</text>
+<rect x="3386" y="439" width="34" height="13" rx="3" fill="#E07B12"/><text x="3403" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TO</text><text x="3428" y="449" font-size="11" fill="#1A1F2C">Time Offs <tspan fill="#8A93A6">9</tspan></text>
+<text x="3386" y="475" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">SKILLS</text>
+<rect x="3386" y="482" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3403" y="492" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SKI</text><text x="3428" y="492" font-size="11" fill="#1A1F2C">Skills <tspan fill="#8A93A6">7</tspan></text>
+<text x="3386" y="518" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">USERS</text>
+<rect x="3386" y="525" width="34" height="13" rx="3" fill="#B0287F"/><text x="3403" y="535" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="3428" y="535" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">7</tspan></text>
+<text x="3386" y="561" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">PROJECT TAGS</text>
+<rect x="3386" y="568" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3403" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PT</text><text x="3428" y="578" font-size="11" fill="#1A1F2C">Project Tags <tspan fill="#8A93A6">6</tspan></text>
+<text x="3386" y="604" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">TEAMS</text>
+<rect x="3386" y="611" width="34" height="13" rx="3" fill="#B8860B"/><text x="3403" y="621" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="3428" y="621" font-size="11" fill="#1A1F2C">Teams <tspan fill="#8A93A6">6</tspan></text>
+<text x="3386" y="647" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">PLACEHOLDERS</text>
+<rect x="3386" y="654" width="34" height="13" rx="3" fill="#C2410C"/><text x="3403" y="664" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLA</text><text x="3428" y="664" font-size="11" fill="#1A1F2C">Placeholders <tspan fill="#8A93A6">6</tspan></text>
+<text x="3386" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">REPORTS</text>
+<rect x="3386" y="697" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3403" y="707" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="3428" y="707" font-size="11" fill="#1A1F2C">Reports <tspan fill="#8A93A6">6</tspan></text>
+<text x="3386" y="733" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">CLIENTS</text>
+<rect x="3386" y="740" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3403" y="750" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLI</text><text x="3428" y="750" font-size="11" fill="#1A1F2C">Clients <tspan fill="#8A93A6">6</tspan></text>
+<text x="3386" y="776" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3386" y="783" width="34" height="13" rx="3" fill="#D6264F"/><text x="3403" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3428" y="793" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">13</tspan></text>
+<rect x="3386" y="800" width="34" height="13" rx="3" fill="#B0287F"/><text x="3403" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PET</text><text x="3428" y="810" font-size="11" fill="#1A1F2C">People Tags <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3386" y="817" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3403" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RC</text><text x="3428" y="827" font-size="11" fill="#1A1F2C">Rate Cards <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3386" y="834" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3403" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="3428" y="844" font-size="11" fill="#1A1F2C">Workstreams <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3386" y="851" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3403" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROL</text><text x="3428" y="861" font-size="11" fill="#1A1F2C">Roles <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3386" y="868" width="34" height="13" rx="3" fill="#00838F"/><text x="3403" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HG</text><text x="3428" y="878" font-size="11" fill="#1A1F2C">Holiday Groups <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3386" y="885" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3403" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="3428" y="895" font-size="11" fill="#1A1F2C">Invitations <tspan fill="#8A93A6">3</tspan></text>
+<text x="3636" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3654,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3680" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3654,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3680" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3654,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3680" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3654,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3680" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3654,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3680" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3654,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3680" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3654,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3680" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3654,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3680" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3636" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3636" y="463" font-size="10.5" fill="#5A6275">“Activity Log” → More Local line · 1 op</text>
+<text x="3636" y="478" font-size="10.5" fill="#5A6275">“Budget Roles” → More Local line · 1 op</text>
+<text x="3636" y="493" font-size="10.5" fill="#5A6275">“Legacy Id” → More Local line · 1 op</text>
+<text x="3636" y="508" font-size="10.5" fill="#5A6275">“Me” → More Local line · 1 op</text>
+<text x="3636" y="523" font-size="10.5" fill="#5A6275">“Milestones” → More Local line · 1 op</text>
+<text x="3636" y="538" font-size="10.5" fill="#5A6275">“Other Expenses” → More Local line · 1 op</text>
+<text x="3636" y="553" font-size="10.5" fill="#5A6275">“Person Requests” → More Local line · 1 op</text>
+<text x="3636" y="568" font-size="10.5" fill="#5A6275">“Phases” → More Local line · 1 op</text>
+<text x="3636" y="583" font-size="10.5" fill="#5A6275">“Project Members” → More Local line · 1 op</text>
+<text x="3636" y="598" font-size="10.5" fill="#5A6275">“Project Notes” → More Local line · 1 op</text>
+<text x="3636" y="613" font-size="10.5" fill="#5A6275">“Project Rates” → More Local line · 1 op</text>
+<text x="3636" y="628" font-size="10.5" fill="#5A6275">“Project Workstreams” → More Local line · 1 op</text>
+<text x="3636" y="643" font-size="10.5" fill="#5A6275">“Views” → More Local line · 1 op</text>
+<text x="3636" y="693" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3636" y="710" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2868" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/runn/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
