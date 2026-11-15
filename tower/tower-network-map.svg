@@ -1,0 +1,699 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2834 2910" width="2834" height="2910" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2834" height="2910" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Tower API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">112 operations as stops · 17 tags as lines · 14 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1420" y1="1868" x2="1378" y2="1826" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1420" y1="1868" x2="1378" y2="1826" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1546" y1="1910" x2="1588" y2="1910" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1546" y1="1910" x2="1588" y2="1910" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="328" y1="608" x2="286" y2="650" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="328" y1="608" x2="286" y2="650" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Accounts" d="M1462.0,1364.0 L1546.0,1448.0 L1588.0,1490.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts</title></path>
+<path class="line" data-line="Alerts" d="M1462.0,2540.0 L1462.0,2456.0 L1462.0,2344.0 Q1462.0,2330.0 1452.1,2320.1 L1420.0,2288.0 L1336.0,2204.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Alerts</title></path>
+<path class="line" data-line="API Keys" d="M286.0,818.0 L286.0,734.0 L286.0,650.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Apps" d="M1084.0,1448.0 L1168.0,1448.0 L1252.0,1448.0 L1322.0,1448.0 Q1336.0,1448.0 1345.9,1457.9 L1420.0,1532.0 L1494.1,1606.1 Q1504.0,1616.0 1504.0,1630.0 L1504.0,1700.0 L1504.0,1770.0 Q1504.0,1784.0 1494.1,1793.9 L1420.0,1868.0 L1345.9,1942.1 Q1336.0,1952.0 1322.0,1952.0 L1252.0,1952.0 L1182.0,1952.0 Q1168.0,1952.0 1158.1,1942.1 L1084.0,1868.0 L1009.9,1793.9 Q1000.0,1784.0 1000.0,1770.0 L1000.0,1700.0 L1000.0,1630.0 Q1000.0,1616.0 1009.9,1606.1 L1074.1,1541.9 Q1084.0,1532.0 1084.0,1518.0 L1084.0,1448.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Apps</title></path>
+<path class="line" data-line="Catalogs" d="M2008.0,1322.0 L1924.0,1322.0 L1854.0,1322.0 Q1840.0,1322.0 1840.0,1308.0 L1840.0,1210.0 Q1840.0,1196.0 1849.9,1186.1 L1882.0,1154.0 L1966.0,1070.0 L2050.0,986.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Catalogs</title></path>
+<path class="line" data-line="Environments" d="M1672.0,1574.0 L1639.9,1606.1 Q1630.0,1616.0 1630.0,1630.0 L1630.0,1686.0 Q1630.0,1700.0 1644.0,1700.0 L1658.0,1700.0 Q1672.0,1700.0 1681.9,1690.1 L1798.0,1574.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Environments</title></path>
+<path class="line" data-line="Guests" d="M2134.0,1406.0 L2050.0,1490.0 L2008.0,1532.0 L1966.0,1574.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Guests</title></path>
+<path class="line" data-line="Login" d="M1588.0,1112.0 L1588.0,1196.0 L1588.0,1280.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Login</title></path>
+<path class="line" data-line="Runs" d="M1378.0,1826.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Runs</title></path>
+<path class="line" data-line="Schedules" d="M370.0,1658.0 L454.0,1658.0 L538.0,1658.0 L622.0,1658.0 L734.0,1658.0 Q748.0,1658.0 748.0,1644.0 L748.0,1532.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Schedules</title></path>
+<path class="line" data-line="Secrets" d="M1588.0,1910.0 L1662.1,1984.1 Q1672.0,1994.0 1686.0,1994.0 L1700.0,1994.0 Q1714.0,1994.0 1723.9,1984.1 L1746.1,1961.9 Q1756.0,1952.0 1756.0,1938.0 L1756.0,1756.0 Q1756.0,1742.0 1770.0,1742.0 L1784.0,1742.0 Q1798.0,1742.0 1807.9,1732.1 L1882.0,1658.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Secrets</title></path>
+<path class="line" data-line="Service Accounts" d="M412.0,230.0 L412.0,314.0 L412.0,398.0 L412.0,482.0 L412.0,594.0 Q412.0,608.0 398.0,608.0 L342.0,608.0 Q328.0,608.0 318.1,598.1 L244.0,524.0 L160.0,440.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Accounts</title></path>
+<path class="line" data-line="Session" d="M874.0,1280.0 L958.0,1280.0 L1042.0,1280.0 L1126.0,1280.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Session</title></path>
+<path class="line" data-line="Teams" d="M790.0,2750.0 L790.0,2638.0 Q790.0,2624.0 799.9,2614.1 L832.0,2582.0 L864.1,2549.9 Q874.0,2540.0 874.0,2526.0 L874.0,2456.0 L874.0,2372.0 L874.0,2302.0 Q874.0,2288.0 860.0,2288.0 L748.0,2288.0 L664.0,2288.0 L636.0,2288.0 Q622.0,2288.0 612.1,2297.9 L538.0,2372.0 L454.0,2456.0 L370.0,2540.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Teams</title></path>
+<path class="line" data-line="User" d="M1462.0,1154.0 L1420.0,1196.0 L1336.0,1280.0 L1294.0,1322.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User</title></path>
+<path class="line" data-line="Webhooks" d="M538.0,2120.0 L622.0,2120.0 L692.0,2120.0 Q706.0,2120.0 715.9,2110.1 L780.1,2045.9 Q790.0,2036.0 780.1,2026.1 L757.9,2003.9 Q748.0,1994.0 734.0,1994.0 L622.0,1994.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="More Local" d="M1924.0,2330.0 L1840.0,2330.0 L1812.0,2330.0 Q1798.0,2330.0 1788.1,2320.1 L1672.0,2204.0 L1588.0,2120.0 L1555.9,2087.9 Q1546.0,2078.0 1546.0,2064.0 L1546.0,1924.0 Q1546.0,1910.0 1536.1,1900.1 L1336.0,1700.0 L1303.9,1667.9 Q1294.0,1658.0 1294.0,1644.0 L1294.0,1546.0 Q1294.0,1532.0 1303.9,1541.9 L1410.1,1648.1 Q1420.0,1658.0 1420.0,1672.0 L1420.0,1686.0 Q1420.0,1700.0 1429.9,1709.9 L1494.1,1774.1 Q1504.0,1784.0 1518.0,1784.0 L1616.0,1784.0 Q1630.0,1784.0 1639.9,1793.9 L1662.1,1816.1 Q1672.0,1826.0 1686.0,1826.0 L1826.0,1826.0 Q1840.0,1826.0 1849.9,1835.9 L1882.0,1868.0 L1966.0,1952.0 L2050.0,2036.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1462" y1="1364" x2="1437.9583694396574" y2="1339.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1413.9583694396574" y="1328.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Accounts</title></rect><text x="1437.9583694396574" y="1344.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1588" y1="1490" x2="1612.0416305603426" y2="1514.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1588.0416305603426" y="1503.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Accounts</title></rect><text x="1612.0416305603426" y="1519.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1462" y1="2540" x2="1462.0" y2="2574.0" stroke="#B8860B" stroke-width="7"/><rect x="1438.0" y="2563.0" width="48" height="22" rx="5" fill="#B8860B"><title>Alerts</title></rect><text x="1462.0" y="2579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALE</text>
+<line x1="1336" y1="2204" x2="1311.9583694396574" y2="2179.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1287.9583694396574" y="2168.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Alerts</title></rect><text x="1311.9583694396574" y="2184.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALE</text>
+<line x1="286" y1="818" x2="286.0" y2="852.0" stroke="#1d33a9" stroke-width="7"/><rect x="262.0" y="841.0" width="48" height="22" rx="5" fill="#1d33a9"><title>API Keys</title></rect><text x="286.0" y="857.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="286" y1="650" x2="286.0" y2="616.0" stroke="#1d33a9" stroke-width="7"/><rect x="262.0" y="605.0" width="48" height="22" rx="5" fill="#1d33a9"><title>API Keys</title></rect><text x="286.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<rect x="1054" y="1395" width="60" height="26" rx="13" fill="#D6264F"/><text x="1084" y="1413" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">APP</text>
+<line x1="2008" y1="1322" x2="2042.0" y2="1322.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2018.0" y="1311.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Catalogs</title></rect><text x="2042.0" y="1327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAT</text>
+<line x1="2050" y1="986" x2="2074.0416305603426" y2="961.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="2050.0416305603426" y="950.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Catalogs</title></rect><text x="2074.0416305603426" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAT</text>
+<line x1="1672" y1="1574" x2="1696.0416305603426" y2="1549.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1672.0416305603426" y="1538.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Environments</title></rect><text x="1696.0416305603426" y="1554.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENV</text>
+<line x1="1798" y1="1574" x2="1822.0416305603426" y2="1549.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1798.0416305603426" y="1538.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Environments</title></rect><text x="1822.0416305603426" y="1554.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENV</text>
+<line x1="2134" y1="1406" x2="2158.0416305603426" y2="1381.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="2134.0416305603426" y="1370.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Guests</title></rect><text x="2158.0416305603426" y="1386.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GUE</text>
+<line x1="1966" y1="1574" x2="1941.9583694396574" y2="1598.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1917.9583694396574" y="1587.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Guests</title></rect><text x="1941.9583694396574" y="1603.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GUE</text>
+<line x1="1588" y1="1112" x2="1588.0" y2="1078.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1564.0" y="1067.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Login</title></rect><text x="1588.0" y="1083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOG</text>
+<line x1="1588" y1="1280" x2="1588.0" y2="1314.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1564.0" y="1303.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Login</title></rect><text x="1588.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOG</text>
+<line x1="1378" y1="1826" x2="1412.0" y2="1826.0" stroke="#af2328" stroke-width="7"/><rect x="1388.0" y="1815.0" width="48" height="22" rx="5" fill="#af2328"><title>Runs</title></rect><text x="1412.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="1378" y1="1826" x2="1378.0" y2="1856.0" stroke="#af2328" stroke-width="7"/><rect x="1354.0" y="1845.0" width="48" height="22" rx="5" fill="#af2328"><title>Runs</title></rect><text x="1378.0" y="1861.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="370" y1="1658" x2="336.0" y2="1658.0" stroke="#B0287F" stroke-width="7"/><rect x="312.0" y="1647.0" width="48" height="22" rx="5" fill="#B0287F"><title>Schedules</title></rect><text x="336.0" y="1663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="748" y1="1532" x2="748.0" y2="1498.0" stroke="#B0287F" stroke-width="7"/><rect x="724.0" y="1487.0" width="48" height="22" rx="5" fill="#B0287F"><title>Schedules</title></rect><text x="748.0" y="1503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="1588" y1="1910" x2="1563.9583694396574" y2="1885.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1539.9583694396574" y="1874.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Secrets</title></rect><text x="1563.9583694396574" y="1890.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEC</text>
+<line x1="1882" y1="1658" x2="1906.0416305603426" y2="1633.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1882.0416305603426" y="1622.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Secrets</title></rect><text x="1906.0416305603426" y="1638.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEC</text>
+<line x1="412" y1="230" x2="412.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="388.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Service Accounts</title></rect><text x="412.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="160" y1="440" x2="135.9583694396574" y2="415.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="111.95836943965739" y="404.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Service Accounts</title></rect><text x="135.9583694396574" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="874" y1="1280" x2="840.0" y2="1280.0" stroke="#2E7D32" stroke-width="7"/><rect x="816.0" y="1269.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Session</title></rect><text x="840.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="1126" y1="1280" x2="1160.0" y2="1280.0" stroke="#2E7D32" stroke-width="7"/><rect x="1136.0" y="1269.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Session</title></rect><text x="1160.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="790" y1="2750" x2="790.0" y2="2784.0" stroke="#0E9F6E" stroke-width="7"/><rect x="766.0" y="2773.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Teams</title></rect><text x="790.0" y="2789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="370" y1="2540" x2="345.95836943965736" y2="2564.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="321.95836943965736" y="2553.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Teams</title></rect><text x="345.95836943965736" y="2569.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1462" y1="1154" x2="1486.0416305603426" y2="1129.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1462.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>User</title></rect><text x="1486.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1294" y1="1322" x2="1269.9583694396574" y2="1346.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1245.9583694396574" y="1335.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>User</title></rect><text x="1269.9583694396574" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="538" y1="2120" x2="504.0" y2="2120.0" stroke="#0B7A75" stroke-width="7"/><rect x="480.0" y="2109.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Webhooks</title></rect><text x="504.0" y="2125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="622" y1="1994" x2="588.0" y2="1994.0" stroke="#0B7A75" stroke-width="7"/><rect x="564.0" y="1983.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Webhooks</title></rect><text x="588.0" y="1999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1924" y1="2330" x2="1958.0" y2="2330.0" stroke="#D6264F" stroke-width="7"/><rect x="1934.0" y="2319.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1958.0" y="2335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="2050" y1="2036" x2="2074.0416305603426" y2="2060.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="2050.0416305603426" y="2049.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2074.0416305603426" y="2065.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/tower/tower-accounts-api/#op-create-account" target="_blank" class="st" data-op="create-account"><title>POST /accounts
+Accounts line · create-account</title>
+<circle cx="1462" cy="1364" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1474" y="1369" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-accounts-api/#op-describe-account" target="_blank" class="st" data-op="describe-account"><title>GET /accounts/{name}
+Accounts line · describe-account</title>
+<circle cx="1546" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="1453" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-accounts-api/#op-update-account" target="_blank" class="st" data-op="update-account"><title>PUT /accounts/{name}
+Accounts line · update-account</title>
+<circle cx="1588" cy="1490" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1600" y="1495" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-alerts-api/#op-list-alerts" target="_blank" class="st" data-op="list-alerts"><title>GET /alerts
+Alerts line · list-alerts</title>
+<circle cx="1462" cy="2540" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1474" y="2545" text-anchor="start" style="fill:#1A1F2C">List alerts <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-alerts-api/#op-acknowledge-all-alerts" target="_blank" class="st" data-op="acknowledge-all-alerts"><title>POST /alerts/acknowledge-all
+Alerts line · acknowledge-all-alerts</title>
+<circle cx="1462" cy="2330" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1474" y="2335" text-anchor="start" style="fill:#1A1F2C">Update acknowledge all</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-alerts-api/#op-stream-alerts" target="_blank" class="st" data-op="stream-alerts"><title>GET /alerts/stream
+Alerts line · stream-alerts</title>
+<circle cx="1420" cy="2288" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1432" y="2293" text-anchor="start" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-alerts-api/#op-delete-alert" target="_blank" class="st" data-op="delete-alert"><title>DELETE /alerts/{alert_id}
+Alerts line · delete-alert</title>
+<circle cx="1462" cy="2456" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1458" y1="2460" x2="1466" y2="2452" stroke="#B8860B" stroke-width="2"/>
+<text x="1474" y="2461" text-anchor="start" style="fill:#1A1F2C">Delete alert</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-alerts-api/#op-acknowledge-alert" target="_blank" class="st" data-op="acknowledge-alert"><title>POST /alerts/{alert_seq}/acknowledge
+Alerts line · acknowledge-alert</title>
+<circle cx="1336" cy="2204" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1348" y="2209" text-anchor="start" style="fill:#1A1F2C">Update acknowledge</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-api-keys-api/#op-delete-api-key" target="_blank" class="st" data-op="delete-api-key"><title>DELETE /api-keys
+API Keys line · delete-api-key</title>
+<circle cx="286" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="298" y="655" text-anchor="start" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-api-keys-api/#op-list-api-keys" target="_blank" class="st" data-op="list-api-keys"><title>GET /api-keys
+API Keys line · list-api-keys</title>
+<circle cx="286" cy="818" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="298" y="823" text-anchor="start" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-api-keys-api/#op-create-api-key" target="_blank" class="st" data-op="create-api-key"><title>POST /api-keys
+API Keys line · create-api-key</title>
+<circle cx="286" cy="734" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="298" y="739" text-anchor="start" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-list-apps" target="_blank" class="st" data-op="list-apps"><title>GET /apps
+Apps line · list-apps</title>
+<circle cx="1084" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="1453" text-anchor="end" style="fill:#1A1F2C">List apps</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-create-app" target="_blank" class="st" data-op="create-app"><title>POST /apps
+Apps line · create-app</title>
+<circle cx="1168" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="1436" transform="rotate(-45 1174 1436)" style="fill:#1A1F2C">Create app</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-delete-app" target="_blank" class="st" data-op="delete-app"><title>DELETE /apps/{name}
+Apps line · delete-app</title>
+<circle cx="1420" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1416" y1="1536" x2="1424" y2="1528" stroke="#D6264F" stroke-width="2"/>
+<text x="1432" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete app</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-describe-app" target="_blank" class="st" data-op="describe-app"><title>GET /apps/{name}
+Apps line · describe-app</title>
+<circle cx="1252" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1258" y="1436" transform="rotate(-45 1258 1436)" style="fill:#1A1F2C">Get app</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-update-app" target="_blank" class="st" data-op="update-app"><title>PUT /apps/{name}
+Apps line · update-app</title>
+<circle cx="1336" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1453" text-anchor="start" style="fill:#1A1F2C">Update app</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-deploy-app" target="_blank" class="st" data-op="deploy-app"><title>POST /apps/{name}/deploy
+Apps line · deploy-app</title>
+<circle cx="1504" cy="1616" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1621" text-anchor="start" style="fill:#1A1F2C">Update deploy</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-list-app-environments" target="_blank" class="st" data-op="list-app-environments"><title>GET /apps/{name}/environments
+Apps line · list-app-environments</title>
+<circle cx="1504" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1513" y="1690" text-anchor="start" style="fill:#1A1F2C">List environments <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-update-app-environment" target="_blank" class="st" data-op="update-app-environment"><title>PUT /apps/{name}/environments/{environment}
+Apps line · update-app-environment</title>
+<circle cx="1504" cy="1784" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1513" y="1774" text-anchor="start" style="fill:#1A1F2C">Update environment</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-list-runs" target="_blank" class="st" data-op="list-runs"><title>GET /apps/{name}/runs
+Apps line · list-runs</title>
+<circle cx="1420" cy="1868" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1432" y="1873" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-run-app" target="_blank" class="st" data-op="run-app"><title>POST /apps/{name}/runs
+Apps line · run-app</title>
+<circle cx="1336" cy="1952" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1957" text-anchor="start" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-describe-run" target="_blank" class="st" data-op="describe-run"><title>GET /apps/{name}/runs/{seq}
+Apps line · describe-run</title>
+<circle cx="1252" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="1940" transform="rotate(-45 1258 1940)" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-cancel-run" target="_blank" class="st" data-op="cancel-run"><title>POST /apps/{name}/runs/{seq}
+Apps line · cancel-run</title>
+<circle cx="1168" cy="1952" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1156.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Update run</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-describe-run-graph" target="_blank" class="st" data-op="describe-run-graph"><title>GET /apps/{name}/runs/{seq}/graph
+Apps line · describe-run-graph</title>
+<circle cx="1084" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1873" text-anchor="start" style="fill:#1A1F2C">Get graph</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-describe-run-logs" target="_blank" class="st" data-op="describe-run-logs"><title>GET /apps/{name}/runs/{seq}/logs
+Apps line · describe-run-logs</title>
+<circle cx="1000" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1789" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-stream-run-logs" target="_blank" class="st" data-op="stream-run-logs"><title>GET /apps/{name}/runs/{seq}/logs/stream
+Apps line · stream-run-logs</title>
+<circle cx="1000" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1705" text-anchor="start" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-list-app-versions" target="_blank" class="st" data-op="list-app-versions"><title>GET /apps/{name}/versions
+Apps line · list-app-versions</title>
+<circle cx="1000" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1621" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-apps-api/#op-describe-app-version" target="_blank" class="st" data-op="describe-app-version"><title>GET /apps/{name}/versions/{num}
+Apps line · describe-app-version</title>
+<circle cx="1084" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1537" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-list-catalogs" target="_blank" class="st" data-op="list-catalogs"><title>GET /catalogs
+Catalogs line · list-catalogs</title>
+<circle cx="2008" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2002" y="1334" text-anchor="end" transform="rotate(-45 2002 1334)" style="fill:#1A1F2C">List catalogs <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-create-catalog" target="_blank" class="st" data-op="create-catalog"><title>POST /catalogs
+Catalogs line · create-catalog</title>
+<circle cx="1924" cy="1322" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1930" y="1310" transform="rotate(-45 1930 1310)" style="fill:#1A1F2C">Create catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-export-catalogs" target="_blank" class="st" data-op="export-catalogs"><title>POST /catalogs/export
+Catalogs line · export-catalogs</title>
+<circle cx="1966" cy="1070" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1978" y="1075" text-anchor="start" style="fill:#1A1F2C">Export catalogs</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-delete-catalog" target="_blank" class="st" data-op="delete-catalog"><title>DELETE /catalogs/{name}
+Catalogs line · delete-catalog</title>
+<circle cx="1882" cy="1154" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1878" y1="1158" x2="1886" y2="1150" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1894" y="1159" text-anchor="start" style="fill:#1A1F2C">Delete catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-describe-catalog" target="_blank" class="st" data-op="describe-catalog"><title>GET /catalogs/{name}
+Catalogs line · describe-catalog</title>
+<circle cx="1840" cy="1322" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1828.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Get catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-update-catalog" target="_blank" class="st" data-op="update-catalog"><title>PUT /catalogs/{name}
+Catalogs line · update-catalog</title>
+<circle cx="1840" cy="1196" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1852" y="1201" text-anchor="start" style="fill:#1A1F2C">Update catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-catalogs-api/#op-vend-catalog-credentials" target="_blank" class="st" data-op="vend-catalog-credentials"><title>POST /catalogs/{name}/credentials
+Catalogs line · vend-catalog-credentials</title>
+<circle cx="2050" cy="986" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2062" y="991" text-anchor="start" style="fill:#1A1F2C">Create credential</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-environments-api/#op-list-environments" target="_blank" class="st" data-op="list-environments"><title>GET /environments
+Environments line · list-environments</title>
+<circle cx="1672" cy="1574" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1660.0" y="1579" text-anchor="end" style="fill:#1A1F2C">List environments</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-environments-api/#op-create-environment" target="_blank" class="st" data-op="create-environment"><title>POST /environments
+Environments line · create-environment</title>
+<circle cx="1630" cy="1616" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1621.0" y="1635" text-anchor="end" style="fill:#1A1F2C">Create environment</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-environments-api/#op-delete-environment" target="_blank" class="st" data-op="delete-environment"><title>DELETE /environments/{name}
+Environments line · delete-environment</title>
+<circle cx="1798" cy="1574" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1794" y1="1578" x2="1802" y2="1570" stroke="#C2410C" stroke-width="2"/>
+<text x="1810" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete environment</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-environments-api/#op-describe-environment" target="_blank" class="st" data-op="describe-environment"><title>GET /environments/{name}
+Environments line · describe-environment</title>
+<circle cx="1630" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1618.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Get environment</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-environments-api/#op-update-environment" target="_blank" class="st" data-op="update-environment"><title>PUT /environments/{name}
+Environments line · update-environment</title>
+<circle cx="1672" cy="1700" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1684" y="1705" text-anchor="start" style="fill:#1A1F2C">Update environment</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-feature-flags-api/#op-get-feature-flag-value" target="_blank" class="st" data-op="get-feature-flag-value"><title>GET /feature-flags/{key}
+More Local line · get-feature-flag-value</title>
+<circle cx="1924" cy="2330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1918" y="2342" text-anchor="end" transform="rotate(-45 1918 2342)" style="fill:#1A1F2C">Get feature flag</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-guests-api/#op-list-guests" target="_blank" class="st" data-op="list-guests"><title>GET /guests
+Guests line · list-guests</title>
+<circle cx="2134" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2146" y="1411" text-anchor="start" style="fill:#1A1F2C">List guests <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-guests-api/#op-create-guest" target="_blank" class="st" data-op="create-guest"><title>POST /guests
+Guests line · create-guest</title>
+<circle cx="2050" cy="1490" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2062" y="1495" text-anchor="start" style="fill:#1A1F2C">Create guest</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-guests-api/#op-delete-guest" target="_blank" class="st" data-op="delete-guest"><title>DELETE /guests/{guest_id}
+Guests line · delete-guest</title>
+<circle cx="2008" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="2004" y1="1536" x2="2012" y2="1528" stroke="#5C6BC0" stroke-width="2"/>
+<text x="2020" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete guest</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-guests-api/#op-regenerate-guest-login-url" target="_blank" class="st" data-op="regenerate-guest-login-url"><title>POST /guests/{guest_id}/login-url
+Guests line · regenerate-guest-login-url</title>
+<circle cx="1966" cy="1574" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1978" y="1579" text-anchor="start" style="fill:#1A1F2C">Update login url</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-login-api/#op-create-device-login-ticket" target="_blank" class="st" data-op="create-device-login-ticket"><title>GET /login/device
+Login line · create-device-login-ticket</title>
+<circle cx="1588" cy="1112" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="1117" text-anchor="start" style="fill:#1A1F2C">Get device</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-login-api/#op-claim-device-login-ticket" target="_blank" class="st" data-op="claim-device-login-ticket"><title>POST /login/device/claim
+Login line · claim-device-login-ticket</title>
+<circle cx="1588" cy="1280" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="1285" text-anchor="start" style="fill:#1A1F2C">Update claim</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-login-api/#op-describe-device-login-session" target="_blank" class="st" data-op="describe-device-login-session"><title>GET /login/device/{device_code}
+Login line · describe-device-login-session</title>
+<circle cx="1588" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="1201" text-anchor="start" style="fill:#1A1F2C">Get device</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-organizations-api/#op-update-organization" target="_blank" class="st" data-op="update-organization"><title>PUT /organizations/{name}
+More Local line · update-organization</title>
+<circle cx="1840" cy="2330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1846" y="2318" transform="rotate(-45 1846 2318)" style="fill:#1A1F2C">Update organization</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-plan-api/#op-describe-plan" target="_blank" class="st" data-op="describe-plan"><title>GET /plan
+More Local line · describe-plan</title>
+<circle cx="1798" cy="2330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1786.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Get plan</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-plan-api/#op-update-plan" target="_blank" class="st" data-op="update-plan"><title>PUT /plan
+More Local line · update-plan</title>
+<circle cx="1672" cy="2204" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="2209" text-anchor="start" style="fill:#1A1F2C">Update plan</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-runners-api/#op-list-runners" target="_blank" class="st" data-op="list-runners"><title>GET /runners
+More Local line · list-runners</title>
+<circle cx="1588" cy="2120" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="2125" text-anchor="start" style="fill:#1A1F2C">List runners</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-runners-api/#op-generate-runner-credentials" target="_blank" class="st" data-op="generate-runner-credentials"><title>POST /runners/credentials
+More Local line · generate-runner-credentials</title>
+<circle cx="1546" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="2083" text-anchor="start" style="fill:#1A1F2C">Create credential</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-runs-api/#op-search-runs" target="_blank" class="st" data-op="search-runs"><title>GET /runs
+Runs line · search-runs</title>
+<circle cx="1378" cy="1826" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1369.0" y="1816" text-anchor="end" style="fill:#1A1F2C">List runs <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-sandbox-api/#op-create-sandbox-secrets" target="_blank" class="st" data-op="create-sandbox-secrets"><title>POST /sandbox/secrets
+More Local line · create-sandbox-secrets</title>
+<circle cx="1546" cy="1910" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1534.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Create secret <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-schedules-api/#op-delete-schedule" target="_blank" class="st" data-op="delete-schedule"><title>DELETE /schedules
+Schedules line · delete-schedule</title>
+<circle cx="538" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="534" y1="1662" x2="542" y2="1654" stroke="#B0287F" stroke-width="2"/>
+<text x="544" y="1646" transform="rotate(-45 544 1646)" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-schedules-api/#op-list-schedules" target="_blank" class="st" data-op="list-schedules"><title>GET /schedules
+Schedules line · list-schedules</title>
+<circle cx="370" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="376" y="1646" transform="rotate(-45 376 1646)" style="fill:#1A1F2C">List schedules <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan> <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-schedules-api/#op-create-schedule" target="_blank" class="st" data-op="create-schedule"><title>POST /schedules
+Schedules line · create-schedule</title>
+<circle cx="454" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="460" y="1646" transform="rotate(-45 460 1646)" style="fill:#1A1F2C">Create schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-schedules-api/#op-activate-schedules" target="_blank" class="st" data-op="activate-schedules"><title>PATCH /schedules/activate
+Schedules line · activate-schedules</title>
+<circle cx="748" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="760" y="1663" text-anchor="start" style="fill:#1A1F2C">Update activate</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-schedules-api/#op-deactivate-schedules" target="_blank" class="st" data-op="deactivate-schedules"><title>PATCH /schedules/deactivate
+Schedules line · deactivate-schedules</title>
+<circle cx="748" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="760" y="1537" text-anchor="start" style="fill:#1A1F2C">Update deactivate</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-schedules-api/#op-update-schedule" target="_blank" class="st" data-op="update-schedule"><title>PUT /schedules/{idOrName}
+Schedules line · update-schedule</title>
+<circle cx="622" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="628" y="1646" transform="rotate(-45 628 1646)" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-list-secrets" target="_blank" class="st" data-op="list-secrets"><title>GET /secrets
+Secrets line · list-secrets</title>
+<circle cx="1588" cy="1910" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600" y="1915" text-anchor="start" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-create-secret" target="_blank" class="st" data-op="create-secret"><title>POST /secrets
+Secrets line · create-secret</title>
+<circle cx="1672" cy="1994" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1660.0" y="1999" text-anchor="end" style="fill:#1A1F2C">Create secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-list-secret-environments" target="_blank" class="st" data-op="list-secret-environments"><title>GET /secrets/environments
+Secrets line · list-secret-environments</title>
+<circle cx="1756" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1744.0" y="1747" text-anchor="end" style="fill:#1A1F2C">List environments <tspan font-weight="700" style="fill:#C2410C">⇄ENV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-export-secrets" target="_blank" class="st" data-op="export-secrets"><title>POST /secrets/export
+Secrets line · export-secrets</title>
+<circle cx="1798" cy="1742" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1810" y="1747" text-anchor="start" style="fill:#1A1F2C">Export secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-describe-secrets-key" target="_blank" class="st" data-op="describe-secrets-key"><title>GET /secrets/key
+Secrets line · describe-secrets-key</title>
+<circle cx="1882" cy="1658" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1894" y="1663" text-anchor="start" style="fill:#1A1F2C">Get key</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-delete-secret" target="_blank" class="st" data-op="delete-secret"><title>DELETE /secrets/{name}
+Secrets line · delete-secret</title>
+<circle cx="1756" cy="1952" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1752" y1="1956" x2="1760" y2="1948" stroke="#E07B12" stroke-width="2"/>
+<text x="1768" y="1957" text-anchor="start" style="fill:#1A1F2C">Delete secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-secrets-api/#op-update-secret" target="_blank" class="st" data-op="update-secret"><title>PUT /secrets/{name}
+Secrets line · update-secret</title>
+<circle cx="1714" cy="1994" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1726" y="1999" text-anchor="start" style="fill:#1A1F2C">Update secret</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-list-service-accounts" target="_blank" class="st" data-op="list-service-accounts"><title>GET /service-accounts
+Service Accounts line · list-service-accounts</title>
+<circle cx="412" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="424" y="235" text-anchor="start" style="fill:#1A1F2C">List service accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-create-service-account" target="_blank" class="st" data-op="create-service-account"><title>POST /service-accounts
+Service Accounts line · create-service-account</title>
+<circle cx="412" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="424" y="319" text-anchor="start" style="fill:#1A1F2C">Create service account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-delete-service-account" target="_blank" class="st" data-op="delete-service-account"><title>DELETE /service-accounts/{idOrName}
+Service Accounts line · delete-service-account</title>
+<circle cx="412" cy="608" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="408" y1="612" x2="416" y2="604" stroke="#1F5FD1" stroke-width="2"/>
+<text x="424" y="613" text-anchor="start" style="fill:#1A1F2C">Delete service account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-describe-service-account" target="_blank" class="st" data-op="describe-service-account"><title>GET /service-accounts/{idOrName}
+Service Accounts line · describe-service-account</title>
+<circle cx="412" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="424" y="403" text-anchor="start" style="fill:#1A1F2C">Get service account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-update-service-account" target="_blank" class="st" data-op="update-service-account"><title>PATCH /service-accounts/{idOrName}
+Service Accounts line · update-service-account</title>
+<circle cx="412" cy="482" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="424" y="487" text-anchor="start" style="fill:#1A1F2C">Update service account</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-delete-service-account-api-key" target="_blank" class="st" data-op="delete-service-account-api-key"><title>DELETE /service-accounts/{idOrName}/api-keys
+Service Accounts line · delete-service-account-api-key</title>
+<circle cx="160" cy="440" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="156" y1="444" x2="164" y2="436" stroke="#1F5FD1" stroke-width="2"/>
+<text x="172" y="445" text-anchor="start" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-list-service-account-api-keys" target="_blank" class="st" data-op="list-service-account-api-keys"><title>GET /service-accounts/{idOrName}/api-keys
+Service Accounts line · list-service-account-api-keys</title>
+<circle cx="328" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="337" y="627" text-anchor="start" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-service-accounts-api/#op-create-service-account-api-key" target="_blank" class="st" data-op="create-service-account-api-key"><title>POST /service-accounts/{idOrName}/api-keys
+Service Accounts line · create-service-account-api-key</title>
+<circle cx="244" cy="524" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="256" y="529" text-anchor="start" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-session-api/#op-delete-session" target="_blank" class="st" data-op="delete-session"><title>DELETE /session
+Session line · delete-session</title>
+<circle cx="1042" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1038" y1="1284" x2="1046" y2="1276" stroke="#2E7D32" stroke-width="2"/>
+<text x="1048" y="1268" transform="rotate(-45 1048 1268)" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-session-api/#op-describe-session" target="_blank" class="st" data-op="describe-session"><title>GET /session
+Session line · describe-session</title>
+<circle cx="874" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="880" y="1268" transform="rotate(-45 880 1268)" style="fill:#1A1F2C">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-session-api/#op-create-session" target="_blank" class="st" data-op="create-session"><title>POST /session
+Session line · create-session</title>
+<circle cx="958" cy="1280" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="964" y="1268" transform="rotate(-45 964 1268)" style="fill:#1A1F2C">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-session-api/#op-refresh-session" target="_blank" class="st" data-op="refresh-session"><title>POST /session/refresh
+Session line · refresh-session</title>
+<circle cx="1126" cy="1280" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1120" y="1292" text-anchor="end" transform="rotate(-45 1120 1292)" style="fill:#1A1F2C">Refresh session</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-shouldertaps-api/#op-stream-shouldertaps" target="_blank" class="st" data-op="stream-shouldertaps"><title>GET /shouldertaps/stream
+More Local line · stream-shouldertaps</title>
+<circle cx="1336" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1705" text-anchor="start" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-stats-api/#op-generate-app-statistics" target="_blank" class="st" data-op="generate-app-statistics"><title>GET /stats/apps
+More Local line · generate-app-statistics</title>
+<circle cx="1294" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1306" y="1537" text-anchor="start" style="fill:#1A1F2C">List apps <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-stats-api/#op-generate-run-statistics" target="_blank" class="st" data-op="generate-run-statistics"><title>GET /stats/runs
+More Local line · generate-run-statistics</title>
+<circle cx="1420" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1420" y="1686" text-anchor="middle" style="fill:#1A1F2C">List runs <tspan font-weight="700" style="fill:#af2328">⇄RUN</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-storage-api/#op-describe-default-catalog" target="_blank" class="st" data-op="describe-default-catalog"><title>GET /storage/catalogs/default
+More Local line · describe-default-catalog</title>
+<circle cx="1630" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="1789" text-anchor="start" style="fill:#1A1F2C">Get default</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-team-invites-api/#op-list-my-team-invitations" target="_blank" class="st" data-op="list-my-team-invitations"><title>GET /team-invites
+More Local line · list-my-team-invitations</title>
+<circle cx="1672" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1660.0" y="1831" text-anchor="end" style="fill:#1A1F2C">List team invites</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-team-invites-api/#op-update-my-team-invitation" target="_blank" class="st" data-op="update-my-team-invitation"><title>PUT /team-invites
+More Local line · update-my-team-invitation</title>
+<circle cx="1840" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1852" y="1831" text-anchor="start" style="fill:#1A1F2C">Create team invite</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-delete-team" target="_blank" class="st" data-op="delete-team"><title>DELETE /teams
+Teams line · delete-team</title>
+<circle cx="832" cy="2582" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="828" y1="2586" x2="836" y2="2578" stroke="#0E9F6E" stroke-width="2"/>
+<text x="844" y="2587" text-anchor="start" style="fill:#1A1F2C">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-list-teams" target="_blank" class="st" data-op="list-teams"><title>GET /teams
+Teams line · list-teams</title>
+<circle cx="790" cy="2750" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="2755" text-anchor="start" style="fill:#1A1F2C">List teams</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-create-team" target="_blank" class="st" data-op="create-team"><title>POST /teams
+Teams line · create-team</title>
+<circle cx="790" cy="2624" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="2629" text-anchor="start" style="fill:#1A1F2C">Create team</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-describe-team" target="_blank" class="st" data-op="describe-team"><title>GET /teams/{name}
+Teams line · describe-team</title>
+<circle cx="874" cy="2540" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="2545" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-update-team" target="_blank" class="st" data-op="update-team"><title>PUT /teams/{name}
+Teams line · update-team</title>
+<circle cx="874" cy="2456" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="2461" text-anchor="start" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-delete-team-invitation" target="_blank" class="st" data-op="delete-team-invitation"><title>DELETE /teams/{name}/invites
+Teams line · delete-team-invitation</title>
+<circle cx="748" cy="2288" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="744" y1="2292" x2="752" y2="2284" stroke="#0E9F6E" stroke-width="2"/>
+<text x="754" y="2276" transform="rotate(-45 754 2276)" style="fill:#1A1F2C">Delete invite</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-list-team-invitations" target="_blank" class="st" data-op="list-team-invitations"><title>GET /teams/{name}/invites
+Teams line · list-team-invitations</title>
+<circle cx="874" cy="2372" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="2377" text-anchor="start" style="fill:#1A1F2C">List invites</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-invite-team-member" target="_blank" class="st" data-op="invite-team-member"><title>POST /teams/{name}/invites
+Teams line · invite-team-member</title>
+<circle cx="874" cy="2288" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="2293" text-anchor="start" style="fill:#1A1F2C">Create invite</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-resend-team-invitation" target="_blank" class="st" data-op="resend-team-invitation"><title>POST /teams/{name}/invites/resend
+Teams line · resend-team-invitation</title>
+<circle cx="664" cy="2288" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="670" y="2276" transform="rotate(-45 670 2276)" style="fill:#1A1F2C">Update resend</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-leave-team" target="_blank" class="st" data-op="leave-team"><title>POST /teams/{name}/leave
+Teams line · leave-team</title>
+<circle cx="622" cy="2288" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="610.0" y="2293" text-anchor="end" style="fill:#1A1F2C">Update leave</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-remove-team-member" target="_blank" class="st" data-op="remove-team-member"><title>DELETE /teams/{name}/members
+Teams line · remove-team-member</title>
+<circle cx="370" cy="2540" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="366" y1="2544" x2="374" y2="2536" stroke="#0E9F6E" stroke-width="2"/>
+<text x="382" y="2545" text-anchor="start" style="fill:#1A1F2C">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-list-team-members" target="_blank" class="st" data-op="list-team-members"><title>GET /teams/{name}/members
+Teams line · list-team-members</title>
+<circle cx="538" cy="2372" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="2377" text-anchor="start" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-teams-api/#op-update-team-member" target="_blank" class="st" data-op="update-team-member"><title>PUT /teams/{name}/members
+Teams line · update-team-member</title>
+<circle cx="454" cy="2456" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="2461" text-anchor="start" style="fill:#1A1F2C">Create member</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-usage-api/#op-describe-organization-usage" target="_blank" class="st" data-op="describe-organization-usage"><title>GET /usage
+More Local line · describe-organization-usage</title>
+<circle cx="1882" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1894" y="1873" text-anchor="start" style="fill:#1A1F2C">Get usage</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-usage-api/#op-generate-organization-usage-time-series" target="_blank" class="st" data-op="generate-organization-usage-time-series"><title>GET /usage/time-series
+More Local line · generate-organization-usage-time-series</title>
+<circle cx="1966" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1978" y="1957" text-anchor="start" style="fill:#1A1F2C">List time series</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-user-api/#op-update-user" target="_blank" class="st" data-op="update-user"><title>PUT /user
+User line · update-user</title>
+<circle cx="1462" cy="1154" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1474" y="1159" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-user-api/#op-describe-authentication-context" target="_blank" class="st" data-op="describe-authentication-context"><title>GET /user/auth-context
+User line · describe-authentication-context</title>
+<circle cx="1420" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="1201" text-anchor="start" style="fill:#1A1F2C">Get auth context</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-user-api/#op-describe-email-preferences" target="_blank" class="st" data-op="describe-email-preferences"><title>GET /user/email-preferences
+User line · describe-email-preferences</title>
+<circle cx="1336" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1348" y="1285" text-anchor="start" style="fill:#1A1F2C">List email preferences</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-user-api/#op-update-email-preferences" target="_blank" class="st" data-op="update-email-preferences"><title>PUT /user/email-preferences
+User line · update-email-preferences</title>
+<circle cx="1294" cy="1322" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1282.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Create email preference</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-webhooks-api/#op-list-webhooks" target="_blank" class="st" data-op="list-webhooks"><title>GET /webhooks
+Webhooks line · list-webhooks</title>
+<circle cx="538" cy="2120" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="544" y="2108" transform="rotate(-45 544 2108)" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-webhooks-api/#op-create-webhook" target="_blank" class="st" data-op="create-webhook"><title>POST /webhooks
+Webhooks line · create-webhook</title>
+<circle cx="622" cy="2120" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="628" y="2108" transform="rotate(-45 628 2108)" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-webhooks-api/#op-delete-webhook" target="_blank" class="st" data-op="delete-webhook"><title>DELETE /webhooks/{name}
+Webhooks line · delete-webhook</title>
+<circle cx="748" cy="1994" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="744" y1="1998" x2="752" y2="1990" stroke="#0B7A75" stroke-width="2"/>
+<text x="760" y="1999" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-webhooks-api/#op-describe-webhook" target="_blank" class="st" data-op="describe-webhook"><title>GET /webhooks/{name}
+Webhooks line · describe-webhook</title>
+<circle cx="706" cy="2120" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="718" y="2125" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-webhooks-api/#op-update-webhook" target="_blank" class="st" data-op="update-webhook"><title>PUT /webhooks/{name}
+Webhooks line · update-webhook</title>
+<circle cx="790" cy="2036" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="802" y="2041" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-webhooks-api/#op-check-webhook" target="_blank" class="st" data-op="check-webhook"><title>POST /webhooks/{name}/test
+Webhooks line · check-webhook</title>
+<circle cx="622" cy="1994" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="628" y="1982" transform="rotate(-45 628 1982)" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/tower/tower-whoami-api/#op-describe-whoami" target="_blank" class="st" data-op="describe-whoami"><title>GET /whoami
+More Local line · describe-whoami</title>
+<circle cx="2050" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2062" y="2041" text-anchor="start" style="fill:#1A1F2C">Get whoami</text>
+</a>
+<text x="2324" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2324" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">RUNS</text>
+<rect x="2324" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2341" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="2366" y="269" font-size="11" fill="#1A1F2C">Apps <tspan fill="#8A93A6">17</tspan></text>
+<rect x="2324" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="2341" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RUN</text><text x="2366" y="286" font-size="11" fill="#1A1F2C">Runs <tspan fill="#8A93A6">1</tspan></text>
+<text x="2324" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">TEAMS</text>
+<rect x="2324" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2341" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="2366" y="329" font-size="11" fill="#1A1F2C">Teams <tspan fill="#8A93A6">13</tspan></text>
+<text x="2324" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">SERVICE ACCOUNTS</text>
+<rect x="2324" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2341" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="2366" y="372" font-size="11" fill="#1A1F2C">Service Accounts <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2324" y="379" width="34" height="13" rx="3" fill="#1d33a9"/><text x="2341" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="2366" y="389" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">3</tspan></text>
+<text x="2324" y="415" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">SECRETS</text>
+<rect x="2324" y="422" width="34" height="13" rx="3" fill="#E07B12"/><text x="2341" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEC</text><text x="2366" y="432" font-size="11" fill="#1A1F2C">Secrets <tspan fill="#8A93A6">7</tspan></text>
+<text x="2324" y="458" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">CATALOGS</text>
+<rect x="2324" y="465" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2341" y="475" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAT</text><text x="2366" y="475" font-size="11" fill="#1A1F2C">Catalogs <tspan fill="#8A93A6">7</tspan></text>
+<text x="2324" y="501" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">SCHEDULES</text>
+<rect x="2324" y="508" width="34" height="13" rx="3" fill="#B0287F"/><text x="2341" y="518" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCH</text><text x="2366" y="518" font-size="11" fill="#1A1F2C">Schedules <tspan fill="#8A93A6">6</tspan></text>
+<text x="2324" y="544" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">WEBHOOKS</text>
+<rect x="2324" y="551" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2341" y="561" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2366" y="561" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">6</tspan></text>
+<text x="2324" y="587" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">ALERTS</text>
+<rect x="2324" y="594" width="34" height="13" rx="3" fill="#B8860B"/><text x="2341" y="604" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ALE</text><text x="2366" y="604" font-size="11" fill="#1A1F2C">Alerts <tspan fill="#8A93A6">5</tspan></text>
+<text x="2324" y="630" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">ENVIRONMENTS</text>
+<rect x="2324" y="637" width="34" height="13" rx="3" fill="#C2410C"/><text x="2341" y="647" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENV</text><text x="2366" y="647" font-size="11" fill="#1A1F2C">Environments <tspan fill="#8A93A6">5</tspan></text>
+<text x="2324" y="673" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">SESSION</text>
+<rect x="2324" y="680" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2341" y="690" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SES</text><text x="2366" y="690" font-size="11" fill="#1A1F2C">Session <tspan fill="#8A93A6">4</tspan></text>
+<text x="2324" y="716" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">GUESTS</text>
+<rect x="2324" y="723" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2341" y="733" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GUE</text><text x="2366" y="733" font-size="11" fill="#1A1F2C">Guests <tspan fill="#8A93A6">4</tspan></text>
+<text x="2324" y="759" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2324" y="766" width="34" height="13" rx="3" fill="#D6264F"/><text x="2341" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2366" y="776" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">16</tspan></text>
+<rect x="2324" y="783" width="34" height="13" rx="3" fill="#B0287F"/><text x="2341" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="2366" y="793" font-size="11" fill="#1A1F2C">User <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2324" y="800" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2341" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="2366" y="810" font-size="11" fill="#1A1F2C">Accounts <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="817" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2341" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOG</text><text x="2366" y="827" font-size="11" fill="#1A1F2C">Login <tspan fill="#8A93A6">3</tspan></text>
+<text x="2574" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2592,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2618" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2592,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2618" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2592,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2618" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2592,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2618" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2592,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2618" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2592,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2618" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2592,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2618" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2592,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2618" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2574" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2574" y="463" font-size="10.5" fill="#5A6275">“Feature Flags” → More Local line · 1 op</text>
+<text x="2574" y="478" font-size="10.5" fill="#5A6275">“Organizations” → More Local line · 1 op</text>
+<text x="2574" y="493" font-size="10.5" fill="#5A6275">“Plan” → More Local line · 2 ops</text>
+<text x="2574" y="508" font-size="10.5" fill="#5A6275">“Runners” → More Local line · 2 ops</text>
+<text x="2574" y="523" font-size="10.5" fill="#5A6275">“Sandbox” → More Local line · 1 op</text>
+<text x="2574" y="538" font-size="10.5" fill="#5A6275">“Shouldertaps” → More Local line · 1 op</text>
+<text x="2574" y="553" font-size="10.5" fill="#5A6275">“Stats” → More Local line · 2 ops</text>
+<text x="2574" y="568" font-size="10.5" fill="#5A6275">“Storage” → More Local line · 1 op</text>
+<text x="2574" y="583" font-size="10.5" fill="#5A6275">“Team Invites” → More Local line · 2 ops</text>
+<text x="2574" y="598" font-size="10.5" fill="#5A6275">“Usage” → More Local line · 2 ops</text>
+<text x="2574" y="613" font-size="10.5" fill="#5A6275">“Whoami” → More Local line · 1 op</text>
+<text x="2574" y="663" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2574" y="680" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2880" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/tower/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

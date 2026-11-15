@@ -1,0 +1,663 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2532 1930" width="2532" height="1930" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2532" height="1930" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Openrelay API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">110 operations as stops · 17 tags as lines · 14 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="908" y1="1066" x2="952" y2="1110" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="908" y1="1066" x2="952" y2="1110" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="996" y1="1110" x2="952" y2="1110" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="996" y1="1110" x2="952" y2="1110" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Account" d="M1392.0,582.0 L1304.0,670.0 L1269.9,704.1 Q1260.0,714.0 1260.0,728.0 L1260.0,788.0 Q1260.0,802.0 1269.9,811.9 L1338.1,880.1 Q1348.0,890.0 1362.0,890.0 L1436.0,890.0 L1524.0,890.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account</title></path>
+<path class="line" data-line="API Keys" d="M908.0,1066.0 L829.9,987.9 Q820.0,978.0 806.0,978.0 L644.0,978.0 L556.0,978.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Batches" d="M468.0,846.0 L542.0,846.0 Q556.0,846.0 565.9,836.1 L590.1,811.9 Q600.0,802.0 600.0,788.0 L600.0,714.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Batches</title></path>
+<path class="line" data-line="Billing" d="M908.0,1242.0 L820.0,1330.0 L776.0,1374.0 L732.0,1418.0 L653.9,1496.1 Q644.0,1506.0 644.0,1520.0 L644.0,1594.0 L644.0,1726.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Billing</title></path>
+<path class="line" data-line="Catalog" d="M1172.0,1682.0 L1172.0,1594.0 L1172.0,1520.0 Q1172.0,1506.0 1158.0,1506.0 L1098.0,1506.0 Q1084.0,1506.0 1074.1,1515.9 L1049.9,1540.1 Q1040.0,1550.0 1040.0,1564.0 L1040.0,1638.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Catalog</title></path>
+<path class="line" data-line="Clusters" d="M1480.0,1638.0 L1392.0,1550.0 L1313.9,1471.9 Q1304.0,1462.0 1304.0,1448.0 L1304.0,1388.0 Q1304.0,1374.0 1294.1,1364.1 L1269.9,1339.9 Q1260.0,1330.0 1246.0,1330.0 L1186.0,1330.0 Q1172.0,1330.0 1162.1,1320.1 L1093.9,1251.9 Q1084.0,1242.0 1070.0,1242.0 L1040.0,1242.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Clusters</title></path>
+<path class="line" data-line="Files" d="M908.0,1638.0 L829.9,1559.9 Q820.0,1550.0 810.1,1559.9 L785.9,1584.1 Q776.0,1594.0 776.0,1608.0 L776.0,1682.0 L776.0,1770.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Files</title></path>
+<path class="line" data-line="Internal" d="M1436.0,1022.0 L1348.0,1022.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Internal</title></path>
+<path class="line" data-line="Organizations" d="M952.0,978.0 L952.0,1096.0 Q952.0,1110.0 938.0,1110.0 L688.0,1110.0 L644.0,1110.0 L600.0,1110.0 L526.0,1110.0 Q512.0,1110.0 502.1,1100.1 L477.9,1075.9 Q468.0,1066.0 454.0,1066.0 L350.0,1066.0 Q336.0,1066.0 326.1,1075.9 L248.0,1154.0 L160.0,1242.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organizations</title></path>
+<path class="line" data-line="Provider" d="M1084.0,1110.0 L1260.0,1110.0 L1290.0,1110.0 Q1304.0,1110.0 1313.9,1119.9 L1348.0,1154.0 L1382.1,1188.1 Q1392.0,1198.0 1406.0,1198.0 L1480.0,1198.0 L1510.0,1198.0 Q1524.0,1198.0 1533.9,1207.9 L1646.1,1320.1 Q1656.0,1330.0 1670.0,1330.0 L1744.0,1330.0 L1832.0,1330.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Provider</title></path>
+<path class="line" data-line="Registry Credentials" d="M952.0,1198.0 L952.0,1404.0 Q952.0,1418.0 942.1,1427.9 L908.0,1462.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Registry Credentials</title></path>
+<path class="line" data-line="Runners" d="M996.0,1022.0 L996.0,816.0 Q996.0,802.0 1005.9,792.1 L1030.1,767.9 Q1040.0,758.0 1040.0,744.0 L1040.0,670.0 L1040.0,582.0 L1040.0,494.0 L1040.0,406.0 L1040.0,318.0 L1040.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Runners</title></path>
+<path class="line" data-line="Snapshots" d="M996.0,1110.0 L1118.1,987.9 Q1128.0,978.0 1142.0,978.0 L1158.0,978.0 Q1172.0,978.0 1172.0,964.0 L1172.0,904.0 Q1172.0,890.0 1162.1,880.1 L1128.0,846.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Snapshots</title></path>
+<path class="line" data-line="SSH Keys" d="M864.0,978.0 L741.9,855.9 Q732.0,846.0 718.0,846.0 L702.0,846.0 Q688.0,846.0 697.9,836.1 L732.0,802.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SSH Keys</title></path>
+<path class="line" data-line="Transfers" d="M864.0,1154.0 L785.9,1232.1 Q776.0,1242.0 762.0,1242.0 L732.0,1242.0 L614.0,1242.0 Q600.0,1242.0 590.1,1251.9 L565.9,1276.1 Q556.0,1286.0 556.0,1300.0 L556.0,1316.0 Q556.0,1330.0 546.1,1339.9 L433.9,1452.1 Q424.0,1462.0 410.0,1462.0 L336.0,1462.0 L248.0,1462.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transfers</title></path>
+<path class="line" data-line="VMs" d="M820.0,890.0 L908.0,890.0 L982.0,890.0 Q996.0,890.0 1005.9,899.9 L1084.0,978.0 L1162.1,1056.1 Q1172.0,1066.0 1172.0,1080.0 L1172.0,1154.0 L1172.0,1228.0 Q1172.0,1242.0 1162.1,1251.9 L1093.9,1320.1 Q1084.0,1330.0 1070.0,1330.0 L996.0,1330.0 L922.0,1330.0 Q908.0,1330.0 898.1,1320.1 L820.0,1242.0 L741.9,1163.9 Q732.0,1154.0 732.0,1140.0 L732.0,1066.0 L732.0,992.0 Q732.0,978.0 741.9,968.1 L820.0,890.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>VMs</title></path>
+<path class="line" data-line="Webhooks" d="M820.0,1066.0 L854.1,1031.9 Q864.0,1022.0 864.0,1008.0 L864.0,802.0 L864.0,772.0 Q864.0,758.0 854.1,748.1 L741.9,635.9 Q732.0,626.0 718.0,626.0 L702.0,626.0 Q688.0,626.0 678.1,616.1 L600.0,538.0 L512.0,450.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<line x1="1392" y1="582" x2="1416.0416305603426" y2="557.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1392.0416305603426" y="546.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Account</title></rect><text x="1416.0416305603426" y="562.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1524" y1="890" x2="1558.0" y2="890.0" stroke="#0B7A75" stroke-width="7"/><rect x="1534.0" y="879.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Account</title></rect><text x="1558.0" y="895.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="908" y1="1066" x2="932.0416305603426" y2="1090.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="908.0416305603426" y="1079.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>API Keys</title></rect><text x="932.0416305603426" y="1095.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="556" y1="978" x2="522.0" y2="978.0" stroke="#4A5568" stroke-width="7"/><rect x="498.0" y="967.0" width="48" height="22" rx="5" fill="#4A5568"><title>API Keys</title></rect><text x="522.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="468" y1="846" x2="434.0" y2="846.0" stroke="#00838F" stroke-width="7"/><rect x="410.0" y="835.0" width="48" height="22" rx="5" fill="#00838F"><title>Batches</title></rect><text x="434.0" y="851.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAT</text>
+<line x1="600" y1="714" x2="600.0" y2="680.0" stroke="#00838F" stroke-width="7"/><rect x="576.0" y="669.0" width="48" height="22" rx="5" fill="#00838F"><title>Batches</title></rect><text x="600.0" y="685.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAT</text>
+<line x1="908" y1="1242" x2="932.0416305603426" y2="1217.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="908.0416305603426" y="1206.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Billing</title></rect><text x="932.0416305603426" y="1222.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="644" y1="1726" x2="644.0" y2="1760.0" stroke="#B8860B" stroke-width="7"/><rect x="620.0" y="1749.0" width="48" height="22" rx="5" fill="#B8860B"><title>Billing</title></rect><text x="644.0" y="1765.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="1172" y1="1682" x2="1172.0" y2="1716.0" stroke="#2E7D32" stroke-width="7"/><rect x="1148.0" y="1705.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Catalog</title></rect><text x="1172.0" y="1721.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAT</text>
+<line x1="1040" y1="1638" x2="1040.0" y2="1672.0" stroke="#2E7D32" stroke-width="7"/><rect x="1016.0" y="1661.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Catalog</title></rect><text x="1040.0" y="1677.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAT</text>
+<line x1="1480" y1="1638" x2="1504.0416305603426" y2="1662.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="1480.0416305603426" y="1651.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Clusters</title></rect><text x="1504.0416305603426" y="1667.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLU</text>
+<line x1="1040" y1="1242" x2="1006.0" y2="1242.0" stroke="#7B3FE4" stroke-width="7"/><rect x="982.0" y="1231.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Clusters</title></rect><text x="1006.0" y="1247.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLU</text>
+<line x1="908" y1="1638" x2="932.0416305603426" y2="1662.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="908.0416305603426" y="1651.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Files</title></rect><text x="932.0416305603426" y="1667.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIL</text>
+<line x1="776" y1="1770" x2="776.0" y2="1804.0" stroke="#5C6BC0" stroke-width="7"/><rect x="752.0" y="1793.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Files</title></rect><text x="776.0" y="1809.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FIL</text>
+<line x1="1436" y1="1022" x2="1470.0" y2="1022.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1446.0" y="1011.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Internal</title></rect><text x="1470.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1348" y1="1022" x2="1314.0" y2="1022.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1290.0" y="1011.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Internal</title></rect><text x="1314.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="952" y1="978" x2="952.0" y2="944.0" stroke="#0E9F6E" stroke-width="7"/><rect x="928.0" y="933.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Organizations</title></rect><text x="952.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="160" y1="1242" x2="135.9583694396574" y2="1266.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="1255.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Organizations</title></rect><text x="135.9583694396574" y="1271.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="1084" y1="1110" x2="1050.0" y2="1110.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1026.0" y="1099.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Provider</title></rect><text x="1050.0" y="1115.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1832" y1="1330" x2="1866.0" y2="1330.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1842.0" y="1319.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Provider</title></rect><text x="1866.0" y="1335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="952" y1="1198" x2="952.0" y2="1164.0" stroke="#D6264F" stroke-width="7"/><rect x="928.0" y="1153.0" width="48" height="22" rx="5" fill="#D6264F"><title>Registry Credentials</title></rect><text x="952.0" y="1169.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RC</text>
+<line x1="908" y1="1462" x2="883.9583694396574" y2="1486.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="859.9583694396574" y="1475.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Registry Credentials</title></rect><text x="883.9583694396574" y="1491.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RC</text>
+<line x1="996" y1="1022" x2="996.0" y2="1056.0" stroke="#E07B12" stroke-width="7"/><rect x="972.0" y="1045.0" width="48" height="22" rx="5" fill="#E07B12"><title>Runners</title></rect><text x="996.0" y="1061.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="1040" y1="230" x2="1040.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="1016.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Runners</title></rect><text x="1040.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="996" y1="1110" x2="971.9583694396574" y2="1134.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="947.9583694396574" y="1123.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Snapshots</title></rect><text x="971.9583694396574" y="1139.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SNA</text>
+<line x1="1128" y1="846" x2="1103.9583694396574" y2="821.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="1079.9583694396574" y="810.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Snapshots</title></rect><text x="1103.9583694396574" y="826.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SNA</text>
+<line x1="864" y1="978" x2="888.0416305603426" y2="1002.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="864.0416305603426" y="991.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>SSH Keys</title></rect><text x="888.0416305603426" y="1007.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SK</text>
+<line x1="732" y1="802" x2="756.0416305603426" y2="777.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="732.0416305603426" y="766.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>SSH Keys</title></rect><text x="756.0416305603426" y="782.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SK</text>
+<line x1="864" y1="1154" x2="888.0416305603426" y2="1129.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="864.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Transfers</title></rect><text x="888.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="248" y1="1462" x2="214.0" y2="1462.0" stroke="#B0287F" stroke-width="7"/><rect x="190.0" y="1451.0" width="48" height="22" rx="5" fill="#B0287F"><title>Transfers</title></rect><text x="214.0" y="1467.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<rect x="790" y="837" width="60" height="26" rx="13" fill="#D6264F"/><text x="820" y="855" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">VMS</text>
+<line x1="820" y1="1066" x2="795.9583694396574" y2="1090.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="771.9583694396574" y="1079.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Webhooks</title></rect><text x="795.9583694396574" y="1095.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="512" y1="450" x2="487.95836943965736" y2="425.95836943965736" stroke="#C2410C" stroke-width="7"/><rect x="463.95836943965736" y="414.95836943965736" width="48" height="22" rx="5" fill="#C2410C"><title>Webhooks</title></rect><text x="487.95836943965736" y="430.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-getMe" target="_blank" class="st" data-op="getMe"><title>GET /v1/me
+Account line · getMe</title>
+<circle cx="1392" cy="582" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1404" y="587" text-anchor="start" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-listMyInvites" target="_blank" class="st" data-op="listMyInvites"><title>GET /v1/me/invites
+Account line · listMyInvites</title>
+<circle cx="1304" cy="670" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1316" y="675" text-anchor="start" style="fill:#1A1F2C">List invites</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-acceptOrgInvite" target="_blank" class="st" data-op="acceptOrgInvite"><title>POST /v1/me/invites/{orgId}/accept
+Account line · acceptOrgInvite</title>
+<circle cx="1260" cy="714" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1272" y="719" text-anchor="start" style="fill:#1A1F2C">Accept invite</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-declineOrgInvite" target="_blank" class="st" data-op="declineOrgInvite"><title>POST /v1/me/invites/{orgId}/decline
+Account line · declineOrgInvite</title>
+<circle cx="1260" cy="802" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1272" y="807" text-anchor="start" style="fill:#1A1F2C">Decline invite</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-updateProfile" target="_blank" class="st" data-op="updateProfile"><title>PATCH /v1/me/profile
+Account line · updateProfile</title>
+<circle cx="1348" cy="890" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1339.0" y="909" text-anchor="end" style="fill:#1A1F2C">Update profile</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-bootstrap" target="_blank" class="st" data-op="bootstrap"><title>POST /v1/onboarding/bootstrap
+Account line · bootstrap</title>
+<circle cx="1436" cy="890" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1442" y="878" transform="rotate(-45 1442 878)" style="fill:#1A1F2C">Update bootstrap</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-account-api/#op-whoami" target="_blank" class="st" data-op="whoami"><title>GET /v1/whoami
+Account line · whoami</title>
+<circle cx="1524" cy="890" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1518" y="902" text-anchor="end" transform="rotate(-45 1518 902)" style="fill:#1A1F2C">Get whoami</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-api-keys-api/#op-listOrgApiKeys" target="_blank" class="st" data-op="listOrgApiKeys"><title>GET /v1/orgs/{orgId}/api-keys
+API Keys line · listOrgApiKeys</title>
+<circle cx="908" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="920" y="1071" text-anchor="start" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-api-keys-api/#op-createOrgApiKey" target="_blank" class="st" data-op="createOrgApiKey"><title>POST /v1/orgs/{orgId}/api-keys/create
+API Keys line · createOrgApiKey</title>
+<circle cx="556" cy="978" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="562" y="966" transform="rotate(-45 562 966)" style="fill:#1A1F2C">Create orgs api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-api-keys-api/#op-revokeOrgApiKey" target="_blank" class="st" data-op="revokeOrgApiKey"><title>DELETE /v1/orgs/{orgId}/api-keys/{id}
+API Keys line · revokeOrgApiKey</title>
+<circle cx="644" cy="978" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="640" y1="982" x2="648" y2="974" stroke="#4A5568" stroke-width="2"/>
+<text x="650" y="966" transform="rotate(-45 650 966)" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-batches-api/#op-listBatches" target="_blank" class="st" data-op="listBatches"><title>GET /v1/batches
+Batches line · listBatches</title>
+<circle cx="468" cy="846" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="474" y="834" transform="rotate(-45 474 834)" style="fill:#1A1F2C">List batches</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-batches-api/#op-createBatch" target="_blank" class="st" data-op="createBatch"><title>POST /v1/batches
+Batches line · createBatch</title>
+<circle cx="556" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="568" y="851" text-anchor="start" style="fill:#1A1F2C">Create batche <tspan font-weight="700" style="fill:#2E7D32">⇄CAT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-batches-api/#op-getBatch" target="_blank" class="st" data-op="getBatch"><title>GET /v1/batches/{id}
+Batches line · getBatch</title>
+<circle cx="600" cy="802" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="612" y="807" text-anchor="start" style="fill:#1A1F2C">Get batche</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-batches-api/#op-cancelBatch" target="_blank" class="st" data-op="cancelBatch"><title>POST /v1/batches/{id}/cancel
+Batches line · cancelBatch</title>
+<circle cx="600" cy="714" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="612" y="719" text-anchor="start" style="fill:#1A1F2C">Cancel batche</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-getAutoRecharge" target="_blank" class="st" data-op="getAutoRecharge"><title>GET /v1/orgs/{orgId}/billing/auto-recharge
+Billing line · getAutoRecharge</title>
+<circle cx="908" cy="1242" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="908" y="1264" text-anchor="middle" style="fill:#1A1F2C">Get auto<tspan x="908" dy="13">recharge <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-updateAutoRecharge" target="_blank" class="st" data-op="updateAutoRecharge"><title>PUT /v1/orgs/{orgId}/billing/auto-recharge
+Billing line · updateAutoRecharge</title>
+<circle cx="820" cy="1330" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="808.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Update auto recharge</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-getBalance" target="_blank" class="st" data-op="getBalance"><title>GET /v1/orgs/{orgId}/billing/balance
+Billing line · getBalance</title>
+<circle cx="776" cy="1374" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="788" y="1379" text-anchor="start" style="fill:#1A1F2C">Get balance</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-createBillingDeposit" target="_blank" class="st" data-op="createBillingDeposit"><title>POST /v1/orgs/{orgId}/billing/deposit
+Billing line · createBillingDeposit</title>
+<circle cx="732" cy="1418" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="744" y="1423" text-anchor="start" style="fill:#1A1F2C">Update deposit</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-listBillingPaymentMethods" target="_blank" class="st" data-op="listBillingPaymentMethods"><title>GET /v1/orgs/{orgId}/billing/payment-methods
+Billing line · listBillingPaymentMethods</title>
+<circle cx="644" cy="1506" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="656" y="1511" text-anchor="start" style="fill:#1A1F2C">List payment methods</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-deleteBillingPaymentMethod" target="_blank" class="st" data-op="deleteBillingPaymentMethod"><title>DELETE /v1/orgs/{orgId}/billing/payment-methods/{paymentMethodId}
+Billing line · deleteBillingPaymentMethod</title>
+<circle cx="644" cy="1594" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="640" y1="1598" x2="648" y2="1590" stroke="#B8860B" stroke-width="2"/>
+<text x="632.0" y="1599" text-anchor="end" style="fill:#1A1F2C">Delete payment method</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-billing-api/#op-createBillingSetupIntent" target="_blank" class="st" data-op="createBillingSetupIntent"><title>POST /v1/orgs/{orgId}/billing/setup-intent
+Billing line · createBillingSetupIntent</title>
+<circle cx="644" cy="1726" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="656" y="1731" text-anchor="start" style="fill:#1A1F2C">Update setup intent</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-catalog-api/#op-getGpuAvailability" target="_blank" class="st" data-op="getGpuAvailability"><title>GET /v1/gpu-availability
+Catalog line · getGpuAvailability</title>
+<circle cx="1172" cy="1682" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1184" y="1687" text-anchor="start" style="fill:#1A1F2C">Get gpu availability</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-catalog-api/#op-listGpuModels" target="_blank" class="st" data-op="listGpuModels"><title>GET /v1/gpu-models
+Catalog line · listGpuModels</title>
+<circle cx="1172" cy="1594" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1184" y="1599" text-anchor="start" style="fill:#1A1F2C">List gpu models</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-catalog-api/#op-listLocations" target="_blank" class="st" data-op="listLocations"><title>GET /v1/locations
+Catalog line · listLocations</title>
+<circle cx="1172" cy="1506" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1184" y="1511" text-anchor="start" style="fill:#1A1F2C">List locations</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-catalog-api/#op-listModels" target="_blank" class="st" data-op="listModels"><title>GET /v1/models
+Catalog line · listModels</title>
+<circle cx="1084" cy="1506" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1072.0" y="1511" text-anchor="end" style="fill:#1A1F2C">List models</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-catalog-api/#op-getPricing" target="_blank" class="st" data-op="getPricing"><title>GET /v1/pricing
+Catalog line · getPricing</title>
+<circle cx="1040" cy="1550" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1052" y="1555" text-anchor="start" style="fill:#1A1F2C">Get pricing</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-catalog-api/#op-listVmTemplates" target="_blank" class="st" data-op="listVmTemplates"><title>GET /v1/vm-templates
+Catalog line · listVmTemplates</title>
+<circle cx="1040" cy="1638" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1052" y="1643" text-anchor="start" style="fill:#1A1F2C">List vm templates</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-getCluster" target="_blank" class="st" data-op="getCluster"><title>GET /v1/clusters/{id}
+Clusters line · getCluster</title>
+<circle cx="1480" cy="1638" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1492" y="1643" text-anchor="start" style="fill:#1A1F2C">Get cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-getClusterDetail" target="_blank" class="st" data-op="getClusterDetail"><title>GET /v1/clusters/{id}/detail
+Clusters line · getClusterDetail</title>
+<circle cx="1392" cy="1550" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1404" y="1555" text-anchor="start" style="fill:#1A1F2C">Get detail</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-restartCluster" target="_blank" class="st" data-op="restartCluster"><title>POST /v1/clusters/{id}/restart
+Clusters line · restartCluster</title>
+<circle cx="1304" cy="1462" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1316" y="1467" text-anchor="start" style="fill:#1A1F2C">Update restart</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-scaleCluster" target="_blank" class="st" data-op="scaleCluster"><title>POST /v1/clusters/{id}/scale
+Clusters line · scaleCluster</title>
+<circle cx="1304" cy="1374" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1316" y="1379" text-anchor="start" style="fill:#1A1F2C">Update scale</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-stopCluster" target="_blank" class="st" data-op="stopCluster"><title>POST /v1/clusters/{id}/stop
+Clusters line · stopCluster</title>
+<circle cx="1260" cy="1330" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1272" y="1335" text-anchor="start" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-terminateCluster" target="_blank" class="st" data-op="terminateCluster"><title>POST /v1/clusters/{id}/terminate
+Clusters line · terminateCluster</title>
+<circle cx="1172" cy="1330" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1181" y="1320" text-anchor="start" style="fill:#1A1F2C">Update terminate</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-listOrgClusters" target="_blank" class="st" data-op="listOrgClusters"><title>GET /v1/orgs/{orgId}/clusters
+Clusters line · listOrgClusters</title>
+<circle cx="1084" cy="1242" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1093" y="1232" text-anchor="start" style="fill:#1A1F2C">List clusters <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-clusters-api/#op-createCluster" target="_blank" class="st" data-op="createCluster"><title>POST /v1/orgs/{orgId}/clusters/create
+Clusters line · createCluster</title>
+<circle cx="1040" cy="1242" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1028.0" y="1240" text-anchor="end" style="fill:#1A1F2C">Create orgs<tspan x="1028.0" dy="13">clusters</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-files-api/#op-uploadFile" target="_blank" class="st" data-op="uploadFile"><title>POST /v1/files
+Files line · uploadFile</title>
+<circle cx="908" cy="1638" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="920" y="1643" text-anchor="start" style="fill:#1A1F2C">Create file</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-files-api/#op-presignFileUpload" target="_blank" class="st" data-op="presignFileUpload"><title>POST /v1/files/presign
+Files line · presignFileUpload</title>
+<circle cx="776" cy="1594" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="764.0" y="1599" text-anchor="end" style="fill:#1A1F2C">Update presign</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-files-api/#op-getFile" target="_blank" class="st" data-op="getFile"><title>GET /v1/files/{id}
+Files line · getFile</title>
+<circle cx="820" cy="1550" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="826" y="1538" transform="rotate(-45 826 1538)" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-files-api/#op-completeFileUpload" target="_blank" class="st" data-op="completeFileUpload"><title>POST /v1/files/{id}/complete
+Files line · completeFileUpload</title>
+<circle cx="776" cy="1682" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="788" y="1687" text-anchor="start" style="fill:#1A1F2C">Complete files</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-files-api/#op-getFileContent" target="_blank" class="st" data-op="getFileContent"><title>GET /v1/files/{id}/content
+Files line · getFileContent</title>
+<circle cx="776" cy="1770" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="788" y="1775" text-anchor="start" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-internal-api/#op-getHealth" target="_blank" class="st" data-op="getHealth"><title>GET /health
+Internal line · getHealth</title>
+<circle cx="1436" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1430" y="1034" text-anchor="end" transform="rotate(-45 1430 1034)" style="fill:#1A1F2C">Get health</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-internal-api/#op-enrollNode" target="_blank" class="st" data-op="enrollNode"><title>POST /v1/nodes/enroll
+Internal line · enrollNode</title>
+<circle cx="1348" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1354" y="1010" transform="rotate(-45 1354 1010)" style="fill:#1A1F2C">Update enroll</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-createOrg" target="_blank" class="st" data-op="createOrg"><title>POST /v1/orgs
+Organizations line · createOrg</title>
+<circle cx="952" cy="978" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="940.0" y="983" text-anchor="end" style="fill:#1A1F2C">Create org</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-getOrg" target="_blank" class="st" data-op="getOrg"><title>GET /v1/orgs/{orgId}
+Organizations line · getOrg</title>
+<circle cx="952" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="961" y="1100" text-anchor="start" style="fill:#1A1F2C">Get org</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-updateOrg" target="_blank" class="st" data-op="updateOrg"><title>PATCH /v1/orgs/{orgId}
+Organizations line · updateOrg</title>
+<circle cx="688" cy="1110" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="682" y="1122" text-anchor="end" transform="rotate(-45 682 1122)" style="fill:#1A1F2C">Update org</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-listOrgInvites" target="_blank" class="st" data-op="listOrgInvites"><title>GET /v1/orgs/{orgId}/invites
+Organizations line · listOrgInvites</title>
+<circle cx="644" cy="1110" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="638" y="1122" text-anchor="end" transform="rotate(-45 638 1122)" style="fill:#1A1F2C">List invites</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-revokeOrgInvite" target="_blank" class="st" data-op="revokeOrgInvite"><title>DELETE /v1/orgs/{orgId}/invites/{email}
+Organizations line · revokeOrgInvite</title>
+<circle cx="600" cy="1110" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="596" y1="1114" x2="604" y2="1106" stroke="#0E9F6E" stroke-width="2"/>
+<text x="594" y="1122" text-anchor="end" transform="rotate(-45 594 1122)" style="fill:#1A1F2C">Delete invite</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-listOrgMembers" target="_blank" class="st" data-op="listOrgMembers"><title>GET /v1/orgs/{orgId}/members
+Organizations line · listOrgMembers</title>
+<circle cx="512" cy="1110" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="500.0" y="1115" text-anchor="end" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-addOrgMember" target="_blank" class="st" data-op="addOrgMember"><title>POST /v1/orgs/{orgId}/members/add
+Organizations line · addOrgMember</title>
+<circle cx="248" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="260" y="1159" text-anchor="start" style="fill:#1A1F2C">Update add</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-removeOrgMember" target="_blank" class="st" data-op="removeOrgMember"><title>DELETE /v1/orgs/{orgId}/members/{userId}
+Organizations line · removeOrgMember</title>
+<circle cx="336" cy="1066" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="332" y1="1070" x2="340" y2="1062" stroke="#0E9F6E" stroke-width="2"/>
+<text x="324.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-organizations-api/#op-updateOrgMemberRole" target="_blank" class="st" data-op="updateOrgMemberRole"><title>PATCH /v1/orgs/{orgId}/members/{userId}
+Organizations line · updateOrgMemberRole</title>
+<circle cx="468" cy="1066" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="480" y="1071" text-anchor="start" style="fill:#1A1F2C">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-applyForProvider" target="_blank" class="st" data-op="applyForProvider"><title>POST /v1/orgs/{orgId}/provider/apply
+Provider line · applyForProvider</title>
+<circle cx="1084" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1084" y="1146" text-anchor="middle" style="fill:#1A1F2C">Apply provider <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-getProviderEarnings" target="_blank" class="st" data-op="getProviderEarnings"><title>GET /v1/orgs/{orgId}/provider/earnings
+Provider line · getProviderEarnings</title>
+<circle cx="1260" cy="1110" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1266" y="1098" transform="rotate(-45 1266 1098)" style="fill:#1A1F2C">List earnings</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-listProviderNodes" target="_blank" class="st" data-op="listProviderNodes"><title>GET /v1/orgs/{orgId}/provider/nodes
+Provider line · listProviderNodes</title>
+<circle cx="1304" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1316" y="1115" text-anchor="start" style="fill:#1A1F2C">List nodes <tspan font-weight="700" style="fill:#1F5FD1">⇄INT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-updateProviderNode" target="_blank" class="st" data-op="updateProviderNode"><title>PATCH /v1/orgs/{orgId}/provider/nodes/{nodeId}
+Provider line · updateProviderNode</title>
+<circle cx="1348" cy="1154" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1360" y="1159" text-anchor="start" style="fill:#1A1F2C">Update node</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-getProviderStats" target="_blank" class="st" data-op="getProviderStats"><title>GET /v1/orgs/{orgId}/provider/stats
+Provider line · getProviderStats</title>
+<circle cx="1392" cy="1198" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1380.0" y="1203" text-anchor="end" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-getProviderStatus" target="_blank" class="st" data-op="getProviderStatus"><title>GET /v1/orgs/{orgId}/provider/status
+Provider line · getProviderStatus</title>
+<circle cx="1480" cy="1198" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1486" y="1186" transform="rotate(-45 1486 1186)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-listProvisioningTokens" target="_blank" class="st" data-op="listProvisioningTokens"><title>GET /v1/orgs/{orgId}/provider/tokens
+Provider line · listProvisioningTokens</title>
+<circle cx="1524" cy="1198" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1536" y="1203" text-anchor="start" style="fill:#1A1F2C">List tokens</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-generateProvisioningToken" target="_blank" class="st" data-op="generateProvisioningToken"><title>POST /v1/orgs/{orgId}/provider/tokens
+Provider line · generateProvisioningToken</title>
+<circle cx="1656" cy="1330" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1644.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Create token</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-revokeProvisioningToken" target="_blank" class="st" data-op="revokeProvisioningToken"><title>DELETE /v1/orgs/{orgId}/provider/tokens/{id}
+Provider line · revokeProvisioningToken</title>
+<circle cx="1744" cy="1330" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1740" y1="1334" x2="1748" y2="1326" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1750" y="1318" transform="rotate(-45 1750 1318)" style="fill:#1A1F2C">Delete token</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-provider-api/#op-providerBootstrap" target="_blank" class="st" data-op="providerBootstrap"><title>GET /v1/provider/bootstrap
+Provider line · providerBootstrap</title>
+<circle cx="1832" cy="1330" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1826" y="1342" text-anchor="end" transform="rotate(-45 1826 1342)" style="fill:#1A1F2C">Get bootstrap</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-registry-credentials-api/#op-listOrgRegistryCredentials" target="_blank" class="st" data-op="listOrgRegistryCredentials"><title>GET /v1/orgs/{orgId}/registry-credentials
+Registry Credentials line · listOrgRegistryCredentials</title>
+<circle cx="952" cy="1198" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="964" y="1203" text-anchor="start" style="fill:#1A1F2C">List registry credentials <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-registry-credentials-api/#op-createOrgRegistryCredential" target="_blank" class="st" data-op="createOrgRegistryCredential"><title>POST /v1/orgs/{orgId}/registry-credentials/create
+Registry Credentials line · createOrgRegistryCredential</title>
+<circle cx="908" cy="1462" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="920" y="1467" text-anchor="start" style="fill:#1A1F2C">Create orgs registry credentials</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-registry-credentials-api/#op-deleteOrgRegistryCredential" target="_blank" class="st" data-op="deleteOrgRegistryCredential"><title>DELETE /v1/orgs/{orgId}/registry-credentials/{id}
+Registry Credentials line · deleteOrgRegistryCredential</title>
+<circle cx="952" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="948" y1="1422" x2="956" y2="1414" stroke="#D6264F" stroke-width="2"/>
+<text x="964" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete registry credential</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-listRunnerPools" target="_blank" class="st" data-op="listRunnerPools"><title>GET /v1/orgs/{orgId}/runner-pools
+Runners line · listRunnerPools</title>
+<circle cx="996" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="996" y="994" text-anchor="middle" style="fill:#1A1F2C">List runner<tspan x="996" dy="13">pools <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-createRunnerPool" target="_blank" class="st" data-op="createRunnerPool"><title>POST /v1/orgs/{orgId}/runner-pools
+Runners line · createRunnerPool</title>
+<circle cx="996" cy="802" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="984.0" y="807" text-anchor="end" style="fill:#1A1F2C">Create runner pool</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-getRunnerConnectUrl" target="_blank" class="st" data-op="getRunnerConnectUrl"><title>GET /v1/orgs/{orgId}/runner-pools/connect-url
+Runners line · getRunnerConnectUrl</title>
+<circle cx="1040" cy="582" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1052" y="587" text-anchor="start" style="fill:#1A1F2C">Get connect url</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-listRunnerInstallations" target="_blank" class="st" data-op="listRunnerInstallations"><title>POST /v1/orgs/{orgId}/runner-pools/installations
+Runners line · listRunnerInstallations</title>
+<circle cx="1040" cy="494" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1052" y="499" text-anchor="start" style="fill:#1A1F2C">Create installation</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-deleteRunnerPool" target="_blank" class="st" data-op="deleteRunnerPool"><title>DELETE /v1/orgs/{orgId}/runner-pools/{id}
+Runners line · deleteRunnerPool</title>
+<circle cx="1040" cy="670" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1036" y1="674" x2="1044" y2="666" stroke="#E07B12" stroke-width="2"/>
+<text x="1052" y="675" text-anchor="start" style="fill:#1A1F2C">Delete runner pool</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-getRunnerPool" target="_blank" class="st" data-op="getRunnerPool"><title>GET /v1/orgs/{orgId}/runner-pools/{id}
+Runners line · getRunnerPool</title>
+<circle cx="1040" cy="758" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1052" y="763" text-anchor="start" style="fill:#1A1F2C">Get runner pool</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-listRunnerJobs" target="_blank" class="st" data-op="listRunnerJobs"><title>GET /v1/orgs/{orgId}/runner-pools/{id}/jobs
+Runners line · listRunnerJobs</title>
+<circle cx="1040" cy="406" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1052" y="411" text-anchor="start" style="fill:#1A1F2C">List jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-getRunnerJobMetrics" target="_blank" class="st" data-op="getRunnerJobMetrics"><title>GET /v1/orgs/{orgId}/runner-pools/{id}/metrics
+Runners line · getRunnerJobMetrics</title>
+<circle cx="1040" cy="318" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1052" y="323" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-runners-api/#op-resizeRunnerPool" target="_blank" class="st" data-op="resizeRunnerPool"><title>POST /v1/orgs/{orgId}/runner-pools/{id}/resize
+Runners line · resizeRunnerPool</title>
+<circle cx="1040" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1052" y="235" text-anchor="start" style="fill:#1A1F2C">Update resize</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-snapshots-api/#op-listOrgSnapshots" target="_blank" class="st" data-op="listOrgSnapshots"><title>GET /v1/orgs/{orgId}/snapshots
+Snapshots line · listOrgSnapshots</title>
+<circle cx="996" cy="1110" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1005" y="1129" text-anchor="start" style="fill:#1A1F2C">List snapshots</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-snapshots-api/#op-forkVm" target="_blank" class="st" data-op="forkVm"><title>POST /v1/orgs/{orgId}/vms/fork
+Snapshots line · forkVm</title>
+<circle cx="1172" cy="978" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1184" y="983" text-anchor="start" style="fill:#1A1F2C">Update fork</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-snapshots-api/#op-deleteSnapshot" target="_blank" class="st" data-op="deleteSnapshot"><title>DELETE /v1/snapshots/{id}
+Snapshots line · deleteSnapshot</title>
+<circle cx="1172" cy="890" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="1168" y1="894" x2="1176" y2="886" stroke="#8D6E63" stroke-width="2"/>
+<text x="1184" y="895" text-anchor="start" style="fill:#1A1F2C">Delete snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-snapshots-api/#op-createVmSnapshot" target="_blank" class="st" data-op="createVmSnapshot"><title>POST /v1/vms/{id}/snapshots
+Snapshots line · createVmSnapshot</title>
+<circle cx="1128" cy="846" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1140" y="851" text-anchor="start" style="fill:#1A1F2C">Create snapshot <tspan font-weight="700" style="fill:#D6264F">⇄VMS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-ssh-keys-api/#op-listOrgSshKeys" target="_blank" class="st" data-op="listOrgSshKeys"><title>GET /v1/orgs/{orgId}/ssh-keys
+SSH Keys line · listOrgSshKeys</title>
+<circle cx="864" cy="978" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="873" y="968" text-anchor="start" style="fill:#1A1F2C">List ssh keys <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-ssh-keys-api/#op-createOrgSshKey" target="_blank" class="st" data-op="createOrgSshKey"><title>POST /v1/orgs/{orgId}/ssh-keys/create
+SSH Keys line · createOrgSshKey</title>
+<circle cx="732" cy="802" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="732" y="824" text-anchor="middle" style="fill:#1A1F2C">Create orgs<tspan x="732" dy="13">ssh keys</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-ssh-keys-api/#op-deleteOrgSshKey" target="_blank" class="st" data-op="deleteOrgSshKey"><title>DELETE /v1/orgs/{orgId}/ssh-keys/{id}
+SSH Keys line · deleteOrgSshKey</title>
+<circle cx="688" cy="846" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="684" y1="850" x2="692" y2="842" stroke="#0E9F6E" stroke-width="2"/>
+<text x="679.0" y="836" text-anchor="end" style="fill:#1A1F2C">Delete ssh key</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-initiateTransfer" target="_blank" class="st" data-op="initiateTransfer"><title>POST /v1/orgs/{orgId}/transfers
+Transfers line · initiateTransfer</title>
+<circle cx="864" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="876" y="1159" text-anchor="start" style="fill:#1A1F2C">Create transfer <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-listIncomingTransfers" target="_blank" class="st" data-op="listIncomingTransfers"><title>GET /v1/orgs/{orgId}/transfers/incoming
+Transfers line · listIncomingTransfers</title>
+<circle cx="732" cy="1242" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="726" y="1254" text-anchor="end" transform="rotate(-45 726 1254)" style="fill:#1A1F2C">Get incoming</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-listOutgoingTransfers" target="_blank" class="st" data-op="listOutgoingTransfers"><title>GET /v1/orgs/{orgId}/transfers/outgoing
+Transfers line · listOutgoingTransfers</title>
+<circle cx="600" cy="1242" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="588.0" y="1247" text-anchor="end" style="fill:#1A1F2C">Get outgoing</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-getTransferPendingCount" target="_blank" class="st" data-op="getTransferPendingCount"><title>GET /v1/orgs/{orgId}/transfers/pending-count
+Transfers line · getTransferPendingCount</title>
+<circle cx="556" cy="1286" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="568" y="1291" text-anchor="start" style="fill:#1A1F2C">Get pending count</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-listTransferTargetOrgs" target="_blank" class="st" data-op="listTransferTargetOrgs"><title>GET /v1/transfers/target-orgs
+Transfers line · listTransferTargetOrgs</title>
+<circle cx="556" cy="1330" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="568" y="1335" text-anchor="start" style="fill:#1A1F2C">List target orgs</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-acceptTransfer" target="_blank" class="st" data-op="acceptTransfer"><title>POST /v1/transfers/{id}/accept
+Transfers line · acceptTransfer</title>
+<circle cx="424" cy="1462" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="436" y="1467" text-anchor="start" style="fill:#1A1F2C">Accept transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-cancelTransfer" target="_blank" class="st" data-op="cancelTransfer"><title>POST /v1/transfers/{id}/cancel
+Transfers line · cancelTransfer</title>
+<circle cx="336" cy="1462" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="342" y="1450" transform="rotate(-45 342 1450)" style="fill:#1A1F2C">Cancel transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-transfers-api/#op-rejectTransfer" target="_blank" class="st" data-op="rejectTransfer"><title>POST /v1/transfers/{id}/reject
+Transfers line · rejectTransfer</title>
+<circle cx="248" cy="1462" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="254" y="1450" transform="rotate(-45 254 1450)" style="fill:#1A1F2C">Reject transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-usage-api/#op-getCurrentUsage" target="_blank" class="st" data-op="getCurrentUsage"><title>GET /v1/orgs/{orgId}/usage/current
+Organizations line · getCurrentUsage</title>
+<circle cx="160" cy="1242" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="1247" text-anchor="start" style="fill:#1A1F2C">Get current</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-listOrgVms" target="_blank" class="st" data-op="listOrgVms"><title>GET /v1/orgs/{orgId}/vms
+VMs line · listOrgVms</title>
+<circle cx="820" cy="890" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="820" y="876" text-anchor="middle" style="fill:#1A1F2C">List vms <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-createVm" target="_blank" class="st" data-op="createVm"><title>POST /v1/orgs/{orgId}/vms/create
+VMs line · createVm</title>
+<circle cx="908" cy="890" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="914" y="878" transform="rotate(-45 914 878)" style="fill:#1A1F2C">Create orgs vms</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-getVm" target="_blank" class="st" data-op="getVm"><title>GET /v1/vms/{id}
+VMs line · getVm</title>
+<circle cx="996" cy="890" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1008" y="895" text-anchor="start" style="fill:#1A1F2C">Get vm</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-getVmBurn" target="_blank" class="st" data-op="getVmBurn"><title>GET /v1/vms/{id}/burn
+VMs line · getVmBurn</title>
+<circle cx="1084" cy="978" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1093" y="968" text-anchor="start" style="fill:#1A1F2C">Get burn</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-getVmDetail" target="_blank" class="st" data-op="getVmDetail"><title>GET /v1/vms/{id}/detail
+VMs line · getVmDetail</title>
+<circle cx="1172" cy="1066" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1071" text-anchor="start" style="fill:#1A1F2C">Get detail</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-rebootVm" target="_blank" class="st" data-op="rebootVm"><title>POST /v1/vms/{id}/reboot
+VMs line · rebootVm</title>
+<circle cx="1172" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1159" text-anchor="start" style="fill:#1A1F2C">Update reboot</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-resizeVmDisk" target="_blank" class="st" data-op="resizeVmDisk"><title>POST /v1/vms/{id}/resize-disk
+VMs line · resizeVmDisk</title>
+<circle cx="1172" cy="1242" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1247" text-anchor="start" style="fill:#1A1F2C">Update resize disk</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-restartVm" target="_blank" class="st" data-op="restartVm"><title>POST /v1/vms/{id}/restart
+VMs line · restartVm</title>
+<circle cx="1084" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1075.0" y="1349" text-anchor="end" style="fill:#1A1F2C">Update restart</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-getVmSshKeys" target="_blank" class="st" data-op="getVmSshKeys"><title>GET /v1/vms/{id}/ssh-keys
+VMs line · getVmSshKeys</title>
+<circle cx="996" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1002" y="1318" transform="rotate(-45 1002 1318)" style="fill:#1A1F2C">List ssh keys</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-attachVmSshKey" target="_blank" class="st" data-op="attachVmSshKey"><title>POST /v1/vms/{id}/ssh-keys
+VMs line · attachVmSshKey</title>
+<circle cx="908" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="902" y="1342" text-anchor="end" transform="rotate(-45 902 1342)" style="fill:#1A1F2C">Create ssh key</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-stopVm" target="_blank" class="st" data-op="stopVm"><title>POST /v1/vms/{id}/stop
+VMs line · stopVm</title>
+<circle cx="820" cy="1242" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="829" y="1232" text-anchor="start" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-getVmTelegramLink" target="_blank" class="st" data-op="getVmTelegramLink"><title>GET /v1/vms/{id}/telegram-link
+VMs line · getVmTelegramLink</title>
+<circle cx="732" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="744" y="1159" text-anchor="start" style="fill:#1A1F2C">Get telegram link</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-terminateVm" target="_blank" class="st" data-op="terminateVm"><title>POST /v1/vms/{id}/terminate
+VMs line · terminateVm</title>
+<circle cx="732" cy="1066" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="720.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Update terminate</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-vms-api/#op-setVmVisibility" target="_blank" class="st" data-op="setVmVisibility"><title>POST /v1/vms/{id}/visibility
+VMs line · setVmVisibility</title>
+<circle cx="732" cy="978" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="723.0" y="997" text-anchor="end" style="fill:#1A1F2C">Update visibility</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-listOrgWebhooks" target="_blank" class="st" data-op="listOrgWebhooks"><title>GET /v1/orgs/{orgId}/webhooks
+Webhooks line · listOrgWebhooks</title>
+<circle cx="820" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="811.0" y="1056" text-anchor="end" style="fill:#1A1F2C">List webhooks <tspan font-weight="700" style="fill:#0E9F6E">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-createOrgWebhook" target="_blank" class="st" data-op="createOrgWebhook"><title>POST /v1/orgs/{orgId}/webhooks/create
+Webhooks line · createOrgWebhook</title>
+<circle cx="732" cy="626" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="744" y="631" text-anchor="start" style="fill:#1A1F2C">Create orgs webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-deleteOrgWebhook" target="_blank" class="st" data-op="deleteOrgWebhook"><title>DELETE /v1/orgs/{orgId}/webhooks/{id}
+Webhooks line · deleteOrgWebhook</title>
+<circle cx="864" cy="758" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="860" y1="762" x2="868" y2="754" stroke="#C2410C" stroke-width="2"/>
+<text x="876" y="763" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-updateOrgWebhook" target="_blank" class="st" data-op="updateOrgWebhook"><title>PATCH /v1/orgs/{orgId}/webhooks/{id}
+Webhooks line · updateOrgWebhook</title>
+<circle cx="864" cy="802" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="852.0" y="807" text-anchor="end" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-listOrgWebhookDeliveries" target="_blank" class="st" data-op="listOrgWebhookDeliveries"><title>GET /v1/orgs/{orgId}/webhooks/{id}/deliveries
+Webhooks line · listOrgWebhookDeliveries</title>
+<circle cx="688" cy="626" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="676.0" y="631" text-anchor="end" style="fill:#1A1F2C">List deliveries</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-regenerateOrgWebhookSecret" target="_blank" class="st" data-op="regenerateOrgWebhookSecret"><title>POST /v1/orgs/{orgId}/webhooks/{id}/regenerate-secret
+Webhooks line · regenerateOrgWebhookSecret</title>
+<circle cx="600" cy="538" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="612" y="543" text-anchor="start" style="fill:#1A1F2C">Update regenerate secret</text>
+</a>
+<a href="https://apis.apis.io/apis/openrelay/openrelay-webhooks-api/#op-toggleOrgWebhook" target="_blank" class="st" data-op="toggleOrgWebhook"><title>POST /v1/orgs/{orgId}/webhooks/{id}/toggle
+Webhooks line · toggleOrgWebhook</title>
+<circle cx="512" cy="450" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="524" y="455" text-anchor="start" style="fill:#1A1F2C">Update toggle</text>
+</a>
+<text x="2022" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2022" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">OPENRELAY</text>
+<rect x="2022" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2039" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VMS</text><text x="2064" y="269" font-size="11" fill="#1A1F2C">VMs <tspan fill="#8A93A6">14</tspan></text>
+<rect x="2022" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2039" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="2064" y="286" font-size="11" fill="#1A1F2C">Organizations <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2022" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2039" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2064" y="303" font-size="11" fill="#1A1F2C">Provider <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2022" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2039" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RUN</text><text x="2064" y="320" font-size="11" fill="#1A1F2C">Runners <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2022" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2039" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLU</text><text x="2064" y="337" font-size="11" fill="#1A1F2C">Clusters <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2022" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2039" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="2064" y="354" font-size="11" fill="#1A1F2C">Transfers <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2022" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2039" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="2064" y="371" font-size="11" fill="#1A1F2C">Account <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2022" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2039" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BIL</text><text x="2064" y="388" font-size="11" fill="#1A1F2C">Billing <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2022" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2039" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2064" y="405" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2022" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2039" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAT</text><text x="2064" y="422" font-size="11" fill="#1A1F2C">Catalog <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2022" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2039" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FIL</text><text x="2064" y="439" font-size="11" fill="#1A1F2C">Files <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2022" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="2039" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BAT</text><text x="2064" y="456" font-size="11" fill="#1A1F2C">Batches <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2022" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2039" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SNA</text><text x="2064" y="473" font-size="11" fill="#1A1F2C">Snapshots <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2022" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="2039" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="2064" y="490" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2022" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="2039" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RC</text><text x="2064" y="507" font-size="11" fill="#1A1F2C">Registry Credentials <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2022" y="514" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2039" y="524" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SK</text><text x="2064" y="524" font-size="11" fill="#1A1F2C">SSH Keys <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2022" y="531" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2039" y="541" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="2064" y="541" font-size="11" fill="#1A1F2C">Internal <tspan fill="#8A93A6">2</tspan></text>
+<text x="2272" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2290,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2316" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2290,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2316" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2290,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2316" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2290,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2316" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2290,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2316" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2290,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2316" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2290,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2316" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2290,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2316" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2272" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2272" y="463" font-size="10.5" fill="#5A6275">“Usage” → Organizations line · 1 op</text>
+<text x="2272" y="513" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2272" y="530" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1900" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/openrelay/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

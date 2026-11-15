@@ -1,0 +1,1527 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4996 3382" width="4996" height="3382" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="4996" height="3382" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Cloud-Foundry API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">260 operations as stops · 32 tags as lines · 20 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1172" y1="1506" x2="1216" y2="1550" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1172" y1="1506" x2="1216" y2="1550" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1656" y1="1858" x2="1700" y2="1858" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1656" y1="1858" x2="1700" y2="1858" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1964" y1="2254" x2="2008" y2="2210" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1964" y1="2254" x2="2008" y2="2210" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="3724" y1="1022" x2="3768" y2="1066" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="3724" y1="1022" x2="3768" y2="1066" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2184" y1="2078" x2="2228" y2="2078" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2184" y1="2078" x2="2228" y2="2078" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2008" y1="2166" x2="2008" y2="2210" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2008" y1="2166" x2="2008" y2="2210" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="App Usage Events" d="M2624.0,2826.0 L2580.0,2782.0 L2492.0,2694.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>App Usage Events</title></path>
+<path class="line" data-line="Apps" d="M1788.0,2210.0 L1832.0,2210.0 L1994.0,2210.0 Q2008.0,2210.0 1998.1,2200.1 L1929.9,2131.9 Q1920.0,2122.0 1906.0,2122.0 L1876.0,2122.0 L1700.0,2122.0 L1656.0,2122.0 L1568.0,2122.0 L1436.0,2122.0 L1318.0,2122.0 Q1304.0,2122.0 1294.1,2112.1 L1260.0,2078.0 L1181.9,1999.9 Q1172.0,1990.0 1172.0,1976.0 L1172.0,1902.0 L1172.0,1814.0 L1172.0,1726.0 L1172.0,1638.0 L1172.0,1520.0 Q1172.0,1506.0 1162.1,1496.1 L1093.9,1427.9 Q1084.0,1418.0 1070.0,1418.0 L1054.0,1418.0 Q1040.0,1418.0 1030.1,1408.1 L952.0,1330.0 L917.9,1295.9 Q908.0,1286.0 894.0,1286.0 L746.0,1286.0 Q732.0,1286.0 722.1,1276.1 L688.0,1242.0 L609.9,1163.9 Q600.0,1154.0 586.0,1154.0 L512.0,1154.0 L438.0,1154.0 Q424.0,1154.0 414.1,1144.1 L301.9,1031.9 Q292.0,1022.0 278.0,1022.0 L248.0,1022.0 L160.0,1022.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Apps</title></path>
+<path class="line" data-line="Buildpacks" d="M3064.0,3002.0 L3064.0,2884.0 Q3064.0,2870.0 3050.0,2870.0 L2902.0,2870.0 Q2888.0,2870.0 2878.1,2879.9 L2853.9,2904.1 Q2844.0,2914.0 2844.0,2928.0 L2844.0,2988.0 Q2844.0,3002.0 2853.9,3011.9 L2932.0,3090.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Buildpacks</title></path>
+<path class="line" data-line="Builds" d="M2052.0,2298.0 L2174.1,2420.1 Q2184.0,2430.0 2193.9,2420.1 L2218.1,2395.9 Q2228.0,2386.0 2242.0,2386.0 L2390.0,2386.0 Q2404.0,2386.0 2404.0,2400.0 L2404.0,2518.0 L2404.0,2606.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Builds</title></path>
+<path class="line" data-line="Deployments" d="M2756.0,3090.0 L2756.0,3002.0 L2756.0,2914.0 L2756.0,2884.0 Q2756.0,2870.0 2742.0,2870.0 L2506.0,2870.0 Q2492.0,2870.0 2492.0,2884.0 L2492.0,3002.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Deployments</title></path>
+<path class="line" data-line="Domains" d="M2272.0,230.0 L2184.0,318.0 L2149.9,352.1 Q2140.0,362.0 2140.0,376.0 L2140.0,480.0 Q2140.0,494.0 2149.9,503.9 L2184.0,538.0 L2262.1,616.1 Q2272.0,626.0 2286.0,626.0 L2360.0,626.0 L2478.0,626.0 Q2492.0,626.0 2501.9,635.9 L2536.0,670.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Domains</title></path>
+<path class="line" data-line="Droplets" d="M996.0,1550.0 L1084.0,1550.0 L1216.0,1550.0 L1378.0,1550.0 Q1392.0,1550.0 1401.9,1559.9 L1426.1,1584.1 Q1436.0,1594.0 1436.0,1608.0 L1436.0,1624.0 Q1436.0,1638.0 1445.9,1647.9 L1568.0,1770.0 L1656.0,1858.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Droplets</title></path>
+<path class="line" data-line="Feature Flags" d="M2756.0,2518.0 L2668.0,2518.0 L2580.0,2518.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Feature Flags</title></path>
+<path class="line" data-line="Isolation Segments" d="M2844.0,494.0 L2756.0,582.0 L2721.9,616.1 Q2712.0,626.0 2712.0,640.0 L2712.0,714.0 L2712.0,744.0 Q2712.0,758.0 2702.1,767.9 L2589.9,880.1 Q2580.0,890.0 2580.0,904.0 L2580.0,1096.0 Q2580.0,1110.0 2570.1,1119.9 L2492.0,1198.0 L2413.9,1276.1 Q2404.0,1286.0 2404.0,1300.0 L2404.0,1506.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Isolation Segments</title></path>
+<path class="line" data-line="Organization Quotas" d="M2008.0,582.0 L2096.0,670.0 L2130.1,704.1 Q2140.0,714.0 2154.0,714.0 L2258.0,714.0 Q2272.0,714.0 2281.9,723.9 L2306.1,748.1 Q2316.0,758.0 2330.0,758.0 L2448.0,758.0" fill="none" stroke="#1d25a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organization Quotas</title></path>
+<path class="line" data-line="Organizations" d="M2624.0,538.0 L2624.0,744.0 Q2624.0,758.0 2614.1,767.9 L2589.9,792.1 Q2580.0,802.0 2566.0,802.0 L2550.0,802.0 Q2536.0,802.0 2526.1,811.9 L2448.0,890.0 L2404.0,934.0 L2316.0,1022.0 L2237.9,1100.1 Q2228.0,1110.0 2228.0,1124.0 L2228.0,1242.0 L2228.0,1330.0 L2228.0,1506.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organizations</title></path>
+<path class="line" data-line="Packages" d="M1920.0,2034.0 L1890.0,2034.0 Q1876.0,2034.0 1866.1,2024.1 L1788.0,1946.0 L1709.9,1867.9 Q1700.0,1858.0 1700.0,1844.0 L1700.0,1726.0 L1700.0,1638.0 L1700.0,1550.0 L1700.0,1462.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Packages</title></path>
+<path class="line" data-line="Processes" d="M1964.0,2254.0 L1964.0,2372.0 Q1964.0,2386.0 1954.1,2395.9 L1876.0,2474.0 L1797.9,2552.1 Q1788.0,2562.0 1788.0,2576.0 L1788.0,2592.0 Q1788.0,2606.0 1774.0,2606.0 L1582.0,2606.0 Q1568.0,2606.0 1568.0,2592.0 L1568.0,2488.0 Q1568.0,2474.0 1577.9,2464.1 L1646.1,2395.9 Q1656.0,2386.0 1646.1,2376.1 L1621.9,2351.9 Q1612.0,2342.0 1602.1,2351.9 L1480.0,2474.0 L1392.0,2562.0 L1304.0,2650.0 L1216.0,2738.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Processes</title></path>
+<path class="line" data-line="Revisions" d="M2140.0,2254.0 L2170.0,2254.0 Q2184.0,2254.0 2193.9,2263.9 L2306.1,2376.1 Q2316.0,2386.0 2316.0,2400.0 L2316.0,2416.0 Q2316.0,2430.0 2306.1,2439.9 L2272.0,2474.0 L2184.0,2562.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Revisions</title></path>
+<path class="line" data-line="Roles" d="M2976.0,2782.0 L2888.0,2782.0 L2858.0,2782.0 Q2844.0,2782.0 2834.1,2772.1 L2756.0,2694.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Roles</title></path>
+<path class="line" data-line="Routes" d="M2096.0,2122.0 L2174.1,2043.9 Q2184.0,2034.0 2184.0,2020.0 L2184.0,2004.0 Q2184.0,1990.0 2198.0,1990.0 L2214.0,1990.0 Q2228.0,1990.0 2228.0,2004.0 L2228.0,2064.0 Q2228.0,2078.0 2218.1,2087.9 L2193.9,2112.1 Q2184.0,2122.0 2184.0,2136.0 L2184.0,2328.0 Q2184.0,2342.0 2174.1,2351.9 L2061.9,2464.1 Q2052.0,2474.0 2038.0,2474.0 L1978.0,2474.0 Q1964.0,2474.0 1954.1,2483.9 L1885.9,2552.1 Q1876.0,2562.0 1876.0,2576.0 L1876.0,2724.0 Q1876.0,2738.0 1866.1,2747.9 L1832.0,2782.0 L1744.0,2870.0 L1656.0,2958.0 L1533.9,3080.1 Q1524.0,3090.0 1524.0,3104.0 L1524.0,3134.0 L1524.0,3222.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Routes</title></path>
+<path class="line" data-line="Security Groups" d="M2360.0,3002.0 L2360.0,2914.0 L2360.0,2826.0 L2360.0,2796.0 Q2360.0,2782.0 2350.1,2772.1 L2281.9,2703.9 Q2272.0,2694.0 2258.0,2694.0 L2198.0,2694.0 Q2184.0,2694.0 2174.1,2703.9 L2149.9,2728.1 Q2140.0,2738.0 2140.0,2752.0 L2140.0,2870.0 L2140.0,2958.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Security Groups</title></path>
+<path class="line" data-line="Service Brokers" d="M3152.0,2650.0 L2985.9,2483.9 Q2976.0,2474.0 2976.0,2460.0 L2976.0,2444.0 Q2976.0,2430.0 2985.9,2420.1 L3010.1,2395.9 Q3020.0,2386.0 3034.0,2386.0 L3196.0,2386.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Brokers</title></path>
+<path class="line" data-line="Service Credential Bindings" d="M3416.0,2342.0 L3342.0,2342.0 Q3328.0,2342.0 3318.1,2332.1 L3293.9,2307.9 Q3284.0,2298.0 3270.0,2298.0 L3122.0,2298.0 Q3108.0,2298.0 3108.0,2284.0 L3108.0,2268.0 Q3108.0,2254.0 3117.9,2244.1 L3142.1,2219.9 Q3152.0,2210.0 3166.0,2210.0 L3240.0,2210.0 L3284.0,2210.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Credential Bindings</title></path>
+<path class="line" data-line="Service Instances" d="M4032.0,802.0 L3944.0,890.0 L3856.0,978.0 L3777.9,1056.1 Q3768.0,1066.0 3768.0,1080.0 L3768.0,1154.0 L3768.0,1242.0 L3768.0,1330.0 L3768.0,1448.0 Q3768.0,1462.0 3777.9,1471.9 L3802.1,1496.1 Q3812.0,1506.0 3821.9,1496.1 L3846.1,1471.9 Q3856.0,1462.0 3870.0,1462.0 L4018.0,1462.0 Q4032.0,1462.0 4041.9,1471.9 L4066.1,1496.1 Q4076.0,1506.0 4090.0,1506.0 L4208.0,1506.0 L4296.0,1506.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Instances</title></path>
+<path class="line" data-line="Service Offerings" d="M2976.0,2254.0 L2897.9,2175.9 Q2888.0,2166.0 2888.0,2152.0 L2888.0,2136.0 Q2888.0,2122.0 2878.1,2131.9 L2800.0,2210.0 L2712.0,2298.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Offerings</title></path>
+<path class="line" data-line="Service Plans" d="M3416.0,1990.0 L3328.0,1990.0 L3240.0,1990.0 L3152.0,1990.0 L3078.0,1990.0 Q3064.0,1990.0 3064.0,1976.0 L3064.0,1916.0 Q3064.0,1902.0 3073.9,1892.1 L3098.1,1867.9 Q3108.0,1858.0 3122.0,1858.0 L3240.0,1858.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Plans</title></path>
+<path class="line" data-line="Service Route Bindings" d="M3372.0,2738.0 L3284.0,2650.0 L3152.0,2518.0 L3117.9,2483.9 Q3108.0,2474.0 3098.1,2483.9 L3029.9,2552.1 Q3020.0,2562.0 3029.9,2571.9 L3186.1,2728.1 Q3196.0,2738.0 3196.0,2752.0 L3196.0,2782.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Route Bindings</title></path>
+<path class="line" data-line="Service Usage Events" d="M2932.0,1858.0 L2932.0,1932.0 Q2932.0,1946.0 2922.1,1955.9 L2888.0,1990.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Service Usage Events</title></path>
+<path class="line" data-line="ServiceBindings" d="M3724.0,1022.0 L3606.0,1022.0 Q3592.0,1022.0 3582.1,1031.9 L3504.0,1110.0 L3416.0,1198.0" fill="none" stroke="#8823d6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ServiceBindings</title></path>
+<path class="line" data-line="Sidecars" d="M1876.0,2298.0 L1841.9,2332.1 Q1832.0,2342.0 1818.0,2342.0 L1758.0,2342.0 Q1744.0,2342.0 1744.0,2356.0 L1744.0,2416.0 Q1744.0,2430.0 1734.1,2439.9 L1709.9,2464.1 Q1700.0,2474.0 1700.0,2488.0 L1700.0,2694.0" fill="none" stroke="#b58613" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sidecars</title></path>
+<path class="line" data-line="Space Quotas" d="M3020.0,1374.0 L2932.0,1374.0 L2858.0,1374.0 Q2844.0,1374.0 2834.1,1383.9 L2712.0,1506.0 L2633.9,1584.1 Q2624.0,1594.0 2610.0,1594.0 L2506.0,1594.0 Q2492.0,1594.0 2492.0,1580.0 L2492.0,1418.0" fill="none" stroke="#0d7768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Space Quotas</title></path>
+<path class="line" data-line="Spaces" d="M2184.0,1638.0 L2272.0,1638.0 L2360.0,1638.0 L2434.0,1638.0 Q2448.0,1638.0 2457.9,1647.9 L2536.0,1726.0 L2614.1,1804.1 Q2624.0,1814.0 2624.0,1828.0 L2624.0,1902.0 L2624.0,1976.0 Q2624.0,1990.0 2614.1,1999.9 L2536.0,2078.0 L2457.9,2156.1 Q2448.0,2166.0 2434.0,2166.0 L2360.0,2166.0 L2286.0,2166.0 Q2272.0,2166.0 2262.1,2156.1 L2184.0,2078.0 L2105.9,1999.9 Q2096.0,1990.0 2096.0,1976.0 L2096.0,1902.0 L2096.0,1828.0 Q2096.0,1814.0 2105.9,1804.1 L2174.1,1735.9 Q2184.0,1726.0 2184.0,1712.0 L2184.0,1638.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Spaces</title></path>
+<path class="line" data-line="Stacks" d="M2404.0,1946.0 L2404.0,2034.0 L2404.0,2240.0 Q2404.0,2254.0 2390.0,2254.0 L2316.0,2254.0 L2286.0,2254.0 Q2272.0,2254.0 2262.1,2244.1 L2193.9,2175.9 Q2184.0,2166.0 2170.0,2166.0 L2008.0,2166.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Stacks</title></path>
+<path class="line" data-line="Tasks" d="M2008.0,2078.0 L2008.0,1960.0 Q2008.0,1946.0 1998.1,1936.1 L1973.9,1911.9 Q1964.0,1902.0 1964.0,1888.0 L1964.0,1770.0 L1964.0,1682.0 L1964.0,1594.0 L1964.0,1506.0 L1964.0,1418.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tasks</title></path>
+<path class="line" data-line="Users" d="M2096.0,1462.0 L2096.0,1580.0 Q2096.0,1594.0 2110.0,1594.0 L2228.0,1594.0 L2302.0,1594.0 Q2316.0,1594.0 2316.0,1580.0 L2316.0,1418.0" fill="none" stroke="#4daee0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="More Local" d="M2932.0,2650.0 L2897.9,2615.9 Q2888.0,2606.0 2888.0,2592.0 L2888.0,2518.0 L2888.0,2430.0 L2888.0,2342.0 L2888.0,2224.0 Q2888.0,2210.0 2897.9,2200.1 L2976.0,2122.0 L3010.1,2087.9 Q3020.0,2078.0 3034.0,2078.0 L3196.0,2078.0 L3314.0,2078.0 Q3328.0,2078.0 3337.9,2087.9 L3416.0,2166.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="2624" y1="2826" x2="2648.0416305603426" y2="2850.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="2624.0416305603426" y="2839.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>App Usage Events</title></rect><text x="2648.0416305603426" y="2855.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUE</text>
+<line x1="2492" y1="2694" x2="2467.9583694396574" y2="2669.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="2443.9583694396574" y="2658.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>App Usage Events</title></rect><text x="2467.9583694396574" y="2674.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AUE</text>
+<line x1="1788" y1="2210" x2="1754.0" y2="2210.0" stroke="#D6264F" stroke-width="7"/><rect x="1730.0" y="2199.0" width="48" height="22" rx="5" fill="#D6264F"><title>Apps</title></rect><text x="1754.0" y="2215.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="160" y1="1022" x2="126.0" y2="1022.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="1011.0" width="48" height="22" rx="5" fill="#D6264F"><title>Apps</title></rect><text x="126.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="3064" y1="3002" x2="3064.0" y2="3036.0" stroke="#0E9F6E" stroke-width="7"/><rect x="3040.0" y="3025.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Buildpacks</title></rect><text x="3064.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUI</text>
+<line x1="2932" y1="3090" x2="2956.0416305603426" y2="3114.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="2932.0416305603426" y="3103.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Buildpacks</title></rect><text x="2956.0416305603426" y="3119.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUI</text>
+<line x1="2052" y1="2298" x2="2027.9583694396574" y2="2273.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="2003.9583694396574" y="2262.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Builds</title></rect><text x="2027.9583694396574" y="2278.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BLD</text>
+<line x1="2404" y1="2606" x2="2404.0" y2="2640.0" stroke="#0B7A75" stroke-width="7"/><rect x="2380.0" y="2629.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Builds</title></rect><text x="2404.0" y="2645.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BLD</text>
+<line x1="2756" y1="3090" x2="2756.0" y2="3124.0" stroke="#00838F" stroke-width="7"/><rect x="2732.0" y="3113.0" width="48" height="22" rx="5" fill="#00838F"><title>Deployments</title></rect><text x="2756.0" y="3129.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEP</text>
+<line x1="2492" y1="3002" x2="2492.0" y2="3036.0" stroke="#00838F" stroke-width="7"/><rect x="2468.0" y="3025.0" width="48" height="22" rx="5" fill="#00838F"><title>Deployments</title></rect><text x="2492.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEP</text>
+<line x1="2272" y1="230" x2="2296.0416305603426" y2="205.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="2272.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Domains</title></rect><text x="2296.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="2536" y1="670" x2="2560.0416305603426" y2="694.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="2536.0416305603426" y="683.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Domains</title></rect><text x="2560.0416305603426" y="699.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="996" y1="1550" x2="962.0" y2="1550.0" stroke="#af2328" stroke-width="7"/><rect x="938.0" y="1539.0" width="48" height="22" rx="5" fill="#af2328"><title>Droplets</title></rect><text x="962.0" y="1555.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DRO</text>
+<line x1="1656" y1="1858" x2="1680.0416305603426" y2="1882.0416305603426" stroke="#af2328" stroke-width="7"/><rect x="1656.0416305603426" y="1871.0416305603426" width="48" height="22" rx="5" fill="#af2328"><title>Droplets</title></rect><text x="1680.0416305603426" y="1887.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DRO</text>
+<line x1="2756" y1="2518" x2="2790.0" y2="2518.0" stroke="#2E7D32" stroke-width="7"/><rect x="2766.0" y="2507.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Feature Flags</title></rect><text x="2790.0" y="2523.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FF</text>
+<line x1="2580" y1="2518" x2="2546.0" y2="2518.0" stroke="#2E7D32" stroke-width="7"/><rect x="2522.0" y="2507.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Feature Flags</title></rect><text x="2546.0" y="2523.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FF</text>
+<line x1="2844" y1="494" x2="2868.0416305603426" y2="469.95836943965736" stroke="#0B7A75" stroke-width="7"/><rect x="2844.0416305603426" y="458.95836943965736" width="48" height="22" rx="5" fill="#0B7A75"><title>Isolation Segments</title></rect><text x="2868.0416305603426" y="474.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IS</text>
+<line x1="2404" y1="1506" x2="2404.0" y2="1540.0" stroke="#0B7A75" stroke-width="7"/><rect x="2380.0" y="1529.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Isolation Segments</title></rect><text x="2404.0" y="1545.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IS</text>
+<line x1="2008" y1="582" x2="1983.9583694396574" y2="557.9583694396574" stroke="#1d25a9" stroke-width="7"/><rect x="1959.9583694396574" y="546.9583694396574" width="48" height="22" rx="5" fill="#1d25a9"><title>Organization Quotas</title></rect><text x="1983.9583694396574" y="562.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OQ</text>
+<line x1="2448" y1="758" x2="2482.0" y2="758.0" stroke="#1d25a9" stroke-width="7"/><rect x="2458.0" y="747.0" width="48" height="22" rx="5" fill="#1d25a9"><title>Organization Quotas</title></rect><text x="2482.0" y="763.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OQ</text>
+<line x1="2624" y1="538" x2="2624.0" y2="504.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2600.0" y="493.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Organizations</title></rect><text x="2624.0" y="509.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="2228" y1="1506" x2="2228.0" y2="1540.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2204.0" y="1529.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Organizations</title></rect><text x="2228.0" y="1545.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="1920" y1="2034" x2="1954.0" y2="2034.0" stroke="#2E7D32" stroke-width="7"/><rect x="1930.0" y="2023.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Packages</title></rect><text x="1954.0" y="2039.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAC</text>
+<line x1="1700" y1="1462" x2="1700.0" y2="1428.0" stroke="#2E7D32" stroke-width="7"/><rect x="1676.0" y="1417.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Packages</title></rect><text x="1700.0" y="1433.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAC</text>
+<line x1="1964" y1="2254" x2="1964.0" y2="2220.0" stroke="#E07B12" stroke-width="7"/><rect x="1940.0" y="2209.0" width="48" height="22" rx="5" fill="#E07B12"><title>Processes</title></rect><text x="1964.0" y="2225.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1216" y1="2738" x2="1191.9583694396574" y2="2762.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1167.9583694396574" y="2751.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Processes</title></rect><text x="1191.9583694396574" y="2767.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="2140" y1="2254" x2="2106.0" y2="2254.0" stroke="#8D6E63" stroke-width="7"/><rect x="2082.0" y="2243.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Revisions</title></rect><text x="2106.0" y="2259.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REV</text>
+<line x1="2184" y1="2562" x2="2159.9583694396574" y2="2586.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="2135.9583694396574" y="2575.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Revisions</title></rect><text x="2159.9583694396574" y="2591.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REV</text>
+<line x1="2976" y1="2782" x2="3010.0" y2="2782.0" stroke="#C2410C" stroke-width="7"/><rect x="2986.0" y="2771.0" width="48" height="22" rx="5" fill="#C2410C"><title>Roles</title></rect><text x="3010.0" y="2787.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="2756" y1="2694" x2="2731.9583694396574" y2="2669.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="2707.9583694396574" y="2658.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Roles</title></rect><text x="2731.9583694396574" y="2674.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="2096" y1="2122" x2="2071.9583694396574" y2="2146.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2047.9583694396574" y="2135.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Routes</title></rect><text x="2071.9583694396574" y="2151.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROU</text>
+<line x1="1524" y1="3222" x2="1524.0" y2="3256.0" stroke="#B0287F" stroke-width="7"/><rect x="1500.0" y="3245.0" width="48" height="22" rx="5" fill="#B0287F"><title>Routes</title></rect><text x="1524.0" y="3261.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROU</text>
+<line x1="2360" y1="3002" x2="2360.0" y2="3036.0" stroke="#C2410C" stroke-width="7"/><rect x="2336.0" y="3025.0" width="48" height="22" rx="5" fill="#C2410C"><title>Security Groups</title></rect><text x="2360.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SG</text>
+<line x1="2140" y1="2958" x2="2140.0" y2="2992.0" stroke="#C2410C" stroke-width="7"/><rect x="2116.0" y="2981.0" width="48" height="22" rx="5" fill="#C2410C"><title>Security Groups</title></rect><text x="2140.0" y="2997.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SG</text>
+<line x1="3152" y1="2650" x2="3176.0416305603426" y2="2674.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="3152.0416305603426" y="2663.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Service Brokers</title></rect><text x="3176.0416305603426" y="2679.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SB</text>
+<line x1="3196" y1="2386" x2="3230.0" y2="2386.0" stroke="#E07B12" stroke-width="7"/><rect x="3206.0" y="2375.0" width="48" height="22" rx="5" fill="#E07B12"><title>Service Brokers</title></rect><text x="3230.0" y="2391.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SB</text>
+<line x1="3416" y1="2342" x2="3450.0" y2="2342.0" stroke="#5C6BC0" stroke-width="7"/><rect x="3426.0" y="2331.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Service Credential Bindings</title></rect><text x="3450.0" y="2347.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCB</text>
+<line x1="3284" y1="2210" x2="3318.0" y2="2210.0" stroke="#5C6BC0" stroke-width="7"/><rect x="3294.0" y="2199.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Service Credential Bindings</title></rect><text x="3318.0" y="2215.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCB</text>
+<line x1="4032" y1="802" x2="4056.0416305603426" y2="777.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="4032.0416305603426" y="766.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Service Instances</title></rect><text x="4056.0416305603426" y="782.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SI</text>
+<line x1="4296" y1="1506" x2="4330.0" y2="1506.0" stroke="#7B3FE4" stroke-width="7"/><rect x="4306.0" y="1495.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Service Instances</title></rect><text x="4330.0" y="1511.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SI</text>
+<line x1="2976" y1="2254" x2="3000.0416305603426" y2="2278.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="2976.0416305603426" y="2267.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Service Offerings</title></rect><text x="3000.0416305603426" y="2283.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SO</text>
+<line x1="2712" y1="2298" x2="2687.9583694396574" y2="2322.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="2663.9583694396574" y="2311.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Service Offerings</title></rect><text x="2687.9583694396574" y="2327.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SO</text>
+<line x1="3416" y1="1990" x2="3450.0" y2="1990.0" stroke="#B0287F" stroke-width="7"/><rect x="3426.0" y="1979.0" width="48" height="22" rx="5" fill="#B0287F"><title>Service Plans</title></rect><text x="3450.0" y="1995.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="3240" y1="1858" x2="3274.0" y2="1858.0" stroke="#B0287F" stroke-width="7"/><rect x="3250.0" y="1847.0" width="48" height="22" rx="5" fill="#B0287F"><title>Service Plans</title></rect><text x="3274.0" y="1863.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="3372" y1="2738" x2="3396.0416305603426" y2="2762.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="3372.0416305603426" y="2751.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Service Route Bindings</title></rect><text x="3396.0416305603426" y="2767.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SRB</text>
+<line x1="3196" y1="2782" x2="3196.0" y2="2816.0" stroke="#1F5FD1" stroke-width="7"/><rect x="3172.0" y="2805.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Service Route Bindings</title></rect><text x="3196.0" y="2821.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SRB</text>
+<line x1="2932" y1="1858" x2="2932.0" y2="1824.0" stroke="#D6264F" stroke-width="7"/><rect x="2908.0" y="1813.0" width="48" height="22" rx="5" fill="#D6264F"><title>Service Usage Events</title></rect><text x="2932.0" y="1829.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUE</text>
+<line x1="2888" y1="1990" x2="2863.9583694396574" y2="2014.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="2839.9583694396574" y="2003.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Service Usage Events</title></rect><text x="2863.9583694396574" y="2019.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUE</text>
+<line x1="3724" y1="1022" x2="3758.0" y2="1022.0" stroke="#8823d6" stroke-width="7"/><rect x="3734.0" y="1011.0" width="48" height="22" rx="5" fill="#8823d6"><title>ServiceBindings</title></rect><text x="3758.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEB</text>
+<line x1="3416" y1="1198" x2="3391.9583694396574" y2="1222.0416305603426" stroke="#8823d6" stroke-width="7"/><rect x="3367.9583694396574" y="1211.0416305603426" width="48" height="22" rx="5" fill="#8823d6"><title>ServiceBindings</title></rect><text x="3391.9583694396574" y="1227.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEB</text>
+<line x1="1876" y1="2298" x2="1900.0416305603426" y2="2273.9583694396574" stroke="#b58613" stroke-width="7"/><rect x="1876.0416305603426" y="2262.9583694396574" width="48" height="22" rx="5" fill="#b58613"><title>Sidecars</title></rect><text x="1900.0416305603426" y="2278.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SID</text>
+<line x1="1700" y1="2694" x2="1700.0" y2="2728.0" stroke="#b58613" stroke-width="7"/><rect x="1676.0" y="2717.0" width="48" height="22" rx="5" fill="#b58613"><title>Sidecars</title></rect><text x="1700.0" y="2733.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SID</text>
+<line x1="3020" y1="1374" x2="3054.0" y2="1374.0" stroke="#0d7768" stroke-width="7"/><rect x="3030.0" y="1363.0" width="48" height="22" rx="5" fill="#0d7768"><title>Space Quotas</title></rect><text x="3054.0" y="1379.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="2492" y1="1418" x2="2492.0" y2="1384.0" stroke="#0d7768" stroke-width="7"/><rect x="2468.0" y="1373.0" width="48" height="22" rx="5" fill="#0d7768"><title>Space Quotas</title></rect><text x="2492.0" y="1389.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<rect x="2154" y="1585" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="2184" y="1603" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">SPA</text>
+<line x1="2404" y1="1946" x2="2404.0" y2="1912.0" stroke="#B8860B" stroke-width="7"/><rect x="2380.0" y="1901.0" width="48" height="22" rx="5" fill="#B8860B"><title>Stacks</title></rect><text x="2404.0" y="1917.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STA</text>
+<line x1="2008" y1="2166" x2="1974.0" y2="2166.0" stroke="#B8860B" stroke-width="7"/><rect x="1950.0" y="2155.0" width="48" height="22" rx="5" fill="#B8860B"><title>Stacks</title></rect><text x="1974.0" y="2171.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STA</text>
+<line x1="2008" y1="2078" x2="2008.0" y2="2112.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1984.0" y="2101.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Tasks</title></rect><text x="2008.0" y="2117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="1964" y1="1418" x2="1964.0" y2="1384.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1940.0" y="1373.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Tasks</title></rect><text x="1964.0" y="1389.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="2096" y1="1462" x2="2096.0" y2="1428.0" stroke="#4daee0" stroke-width="7"/><rect x="2072.0" y="1417.0" width="48" height="22" rx="5" fill="#4daee0"><title>Users</title></rect><text x="2096.0" y="1433.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="2316" y1="1418" x2="2316.0" y2="1384.0" stroke="#4daee0" stroke-width="7"/><rect x="2292.0" y="1373.0" width="48" height="22" rx="5" fill="#4daee0"><title>Users</title></rect><text x="2316.0" y="1389.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="2932" y1="2650" x2="2956.0416305603426" y2="2674.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="2932.0416305603426" y="2663.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2956.0416305603426" y="2679.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="3416" y1="2166" x2="3440.0416305603426" y2="2190.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="3416.0416305603426" y="2179.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="3440.0416305603426" y="2195.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-admin-api/#op-clearBuildpackCache" target="_blank" class="st" data-op="clearBuildpackCache"><title>POST /v3/admin/actions/clear_buildpack_cache
+More Local line · clearBuildpackCache</title>
+<circle cx="2888" cy="2518" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2900" y="2516" text-anchor="start" style="fill:#1A1F2C">Update clear<tspan x="2900" dy="13">buildpack cache</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-app-usage-events-api/#op-listAppUsageEvents" target="_blank" class="st" data-op="listAppUsageEvents"><title>GET /v3/app_usage_events
+App Usage Events line · listAppUsageEvents</title>
+<circle cx="2624" cy="2826" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2636" y="2831" text-anchor="start" style="fill:#1A1F2C">List app usage events</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-app-usage-events-api/#op-getAppUsageEvent" target="_blank" class="st" data-op="getAppUsageEvent"><title>GET /v3/app_usage_events/{guid}
+App Usage Events line · getAppUsageEvent</title>
+<circle cx="2580" cy="2782" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2592" y="2787" text-anchor="start" style="fill:#1A1F2C">Get app usage event</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-app-usage-events-api/#op-purgeAndSeedAppUsageEvents" target="_blank" class="st" data-op="purgeAndSeedAppUsageEvents"><title>POST /v3/app_usage_events/actions/destructively_purge_all_and_reseed
+App Usage Events line · purgeAndSeedAppUsageEvents</title>
+<circle cx="2492" cy="2694" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2504" y="2692" text-anchor="start" style="fill:#1A1F2C">Update destructively<tspan x="2504" dy="13">purge all and reseed</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-application-metric-api-v1-api/#op-getV1AppsByGuidAggregatedMetricHistoriesByMetricType" target="_blank" class="st" data-op="getV1AppsByGuidAggregatedMetricHistoriesByMetricType"><title>GET /v1/apps/{guid}/aggregated_metric_histories/{metric_type}
+Apps line · getV1AppsByGuidAggregatedMetricHistoriesByMetricType</title>
+<circle cx="1656" cy="2122" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1662" y="2110" transform="rotate(-45 1662 2110)" style="fill:#1A1F2C">Get aggregated metric history</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-listApps" target="_blank" class="st" data-op="listApps"><title>GET /v3/apps
+Apps line · listApps</title>
+<circle cx="1788" cy="2210" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1794" y="2198" transform="rotate(-45 1794 2198)" style="fill:#1A1F2C">List apps</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-createApp" target="_blank" class="st" data-op="createApp"><title>POST /v3/apps
+Apps line · createApp</title>
+<circle cx="1832" cy="2210" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1838" y="2198" transform="rotate(-45 1838 2198)" style="fill:#1A1F2C">Create app</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getApp" target="_blank" class="st" data-op="getApp"><title>GET /v3/apps/{guid}
+Apps line · getApp</title>
+<circle cx="2008" cy="2210" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2020" y="2215" text-anchor="start" style="fill:#1A1F2C">Get app</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-updateApp" target="_blank" class="st" data-op="updateApp"><title>PATCH /v3/apps/{guid}
+Apps line · updateApp</title>
+<circle cx="1876" cy="2122" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1882" y="2110" transform="rotate(-45 1882 2110)" style="fill:#1A1F2C">Update app</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-deleteApp" target="_blank" class="st" data-op="deleteApp"><title>DELETE /v3/apps/{guid}
+Apps line · deleteApp</title>
+<circle cx="1700" cy="2122" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1696" y1="2126" x2="1704" y2="2118" stroke="#D6264F" stroke-width="2"/>
+<text x="1706" y="2110" transform="rotate(-45 1706 2110)" style="fill:#1A1F2C">Delete app</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-startApp" target="_blank" class="st" data-op="startApp"><title>POST /v3/apps/{guid}/actions/start
+Apps line · startApp</title>
+<circle cx="1172" cy="1726" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1731" text-anchor="start" style="fill:#1A1F2C">Start apps actions</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-stopApp" target="_blank" class="st" data-op="stopApp"><title>POST /v3/apps/{guid}/actions/stop
+Apps line · stopApp</title>
+<circle cx="1172" cy="1638" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1643" text-anchor="start" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-restartApp" target="_blank" class="st" data-op="restartApp"><title>POST /v3/apps/{guid}/actions/restart
+Apps line · restartApp</title>
+<circle cx="1172" cy="1814" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1819" text-anchor="start" style="fill:#1A1F2C">Update restart</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-listAppDroplets" target="_blank" class="st" data-op="cloud-foundry-apps-api:listAppDroplets"><title>GET /v3/apps/{guid}/droplets
+Apps line · listAppDroplets</title>
+<circle cx="1172" cy="1506" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1184" y="1511" text-anchor="start" style="fill:#1A1F2C">List droplets</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getCurrentDropletForApp" target="_blank" class="st" data-op="getCurrentDropletForApp"><title>GET /v3/apps/{guid}/droplets/current
+Apps line · getCurrentDropletForApp</title>
+<circle cx="1084" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1423" text-anchor="start" style="fill:#1A1F2C">Get current</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getCurrentDropletAssociationForApp" target="_blank" class="st" data-op="getCurrentDropletAssociationForApp"><title>GET /v3/apps/{guid}/relationships/current_droplet
+Apps line · getCurrentDropletAssociationForApp</title>
+<circle cx="292" cy="1022" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="304" y="1027" text-anchor="start" style="fill:#1A1F2C">Get current droplet</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-setCurrentDropletForApp" target="_blank" class="st" data-op="setCurrentDropletForApp"><title>PATCH /v3/apps/{guid}/relationships/current_droplet
+Apps line · setCurrentDropletForApp</title>
+<circle cx="248" cy="1022" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="254" y="1010" transform="rotate(-45 254 1010)" style="fill:#1A1F2C">Update current droplet</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-clearBuildpackCacheForApplication" target="_blank" class="st" data-op="clearBuildpackCacheForApplication"><title>POST /v3/apps/{guid}/actions/clear_buildpack_cache
+Apps line · clearBuildpackCacheForApplication</title>
+<circle cx="1172" cy="1902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1907" text-anchor="start" style="fill:#1A1F2C">Update clear buildpack cache</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getEnvForApp" target="_blank" class="st" data-op="getEnvForApp"><title>GET /v3/apps/{guid}/env
+Apps line · getEnvForApp</title>
+<circle cx="1040" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1028.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Get env</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getEnvironmentVariablesForApp" target="_blank" class="st" data-op="getEnvironmentVariablesForApp"><title>GET /v3/apps/{guid}/environment_variables
+Apps line · getEnvironmentVariablesForApp</title>
+<circle cx="952" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="1335" text-anchor="start" style="fill:#1A1F2C">List environment variables</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-updateEnvironmentVariablesForApp" target="_blank" class="st" data-op="updateEnvironmentVariablesForApp"><title>PATCH /v3/apps/{guid}/environment_variables
+Apps line · updateEnvironmentVariablesForApp</title>
+<circle cx="908" cy="1286" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="920" y="1291" text-anchor="start" style="fill:#1A1F2C">Create environment variable</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-listAppFeatures" target="_blank" class="st" data-op="listAppFeatures"><title>GET /v3/apps/{guid}/features
+Apps line · listAppFeatures</title>
+<circle cx="732" cy="1286" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="720.0" y="1291" text-anchor="end" style="fill:#1A1F2C">List features</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getAppFeature" target="_blank" class="st" data-op="getAppFeature"><title>GET /v3/apps/{guid}/features/{name}
+Apps line · getAppFeature</title>
+<circle cx="688" cy="1242" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="700" y="1247" text-anchor="start" style="fill:#1A1F2C">Get feature</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-updateAppFeature" target="_blank" class="st" data-op="updateAppFeature"><title>PATCH /v3/apps/{guid}/features/{name}
+Apps line · updateAppFeature</title>
+<circle cx="600" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="612" y="1159" text-anchor="start" style="fill:#1A1F2C">Update feature</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getPermissionsForApp" target="_blank" class="st" data-op="getPermissionsForApp"><title>GET /v3/apps/{guid}/permissions
+Apps line · getPermissionsForApp</title>
+<circle cx="424" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="412.0" y="1159" text-anchor="end" style="fill:#1A1F2C">List permissions</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-apps-api/#op-getSshEnabledForApp" target="_blank" class="st" data-op="getSshEnabledForApp"><title>GET /v3/apps/{guid}/ssh_enabled
+Apps line · getSshEnabledForApp</title>
+<circle cx="160" cy="1022" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="1010" transform="rotate(-45 166 1010)" style="fill:#1A1F2C">Get ssh enabled</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-audit-events-api/#op-listAuditEvents" target="_blank" class="st" data-op="listAuditEvents"><title>GET /v3/audit_events
+More Local line · listAuditEvents</title>
+<circle cx="2888" cy="2430" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2876.0" y="2435" text-anchor="end" style="fill:#1A1F2C">List audit events</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-audit-events-api/#op-getAuditEvent" target="_blank" class="st" data-op="getAuditEvent"><title>GET /v3/audit_events/{guid}
+More Local line · getAuditEvent</title>
+<circle cx="2888" cy="2342" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2900" y="2347" text-anchor="start" style="fill:#1A1F2C">Get audit event</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-buildpacks-api/#op-listBuildpacks" target="_blank" class="st" data-op="listBuildpacks"><title>GET /v3/buildpacks
+Buildpacks line · listBuildpacks</title>
+<circle cx="3064" cy="3002" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3076" y="3007" text-anchor="start" style="fill:#1A1F2C">List buildpacks</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-buildpacks-api/#op-createBuildpack" target="_blank" class="st" data-op="createBuildpack"><title>POST /v3/buildpacks
+Buildpacks line · createBuildpack</title>
+<circle cx="3064" cy="2870" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3076" y="2875" text-anchor="start" style="fill:#1A1F2C">Create buildpack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-buildpacks-api/#op-getBuildpack" target="_blank" class="st" data-op="getBuildpack"><title>GET /v3/buildpacks/{guid}
+Buildpacks line · getBuildpack</title>
+<circle cx="2888" cy="2870" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2876.0" y="2875" text-anchor="end" style="fill:#1A1F2C">Get buildpack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-buildpacks-api/#op-updateBuildpack" target="_blank" class="st" data-op="updateBuildpack"><title>PATCH /v3/buildpacks/{guid}
+Buildpacks line · updateBuildpack</title>
+<circle cx="2844" cy="2914" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2856" y="2919" text-anchor="start" style="fill:#1A1F2C">Update buildpack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-buildpacks-api/#op-deleteBuildpack" target="_blank" class="st" data-op="deleteBuildpack"><title>DELETE /v3/buildpacks/{guid}
+Buildpacks line · deleteBuildpack</title>
+<circle cx="2844" cy="3002" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2840" y1="3006" x2="2848" y2="2998" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2856" y="3007" text-anchor="start" style="fill:#1A1F2C">Delete buildpack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-buildpacks-api/#op-uploadBuildpack" target="_blank" class="st" data-op="uploadBuildpack"><title>POST /v3/buildpacks/{guid}/upload
+Buildpacks line · uploadBuildpack</title>
+<circle cx="2932" cy="3090" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2944" y="3095" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-builds-api/#op-listBuilds" target="_blank" class="st" data-op="listBuilds"><title>GET /v3/builds
+Builds line · listBuilds</title>
+<circle cx="2228" cy="2386" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2237" y="2405" text-anchor="start" style="fill:#1A1F2C">List builds</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-builds-api/#op-createBuild" target="_blank" class="st" data-op="createBuild"><title>POST /v3/builds
+Builds line · createBuild</title>
+<circle cx="2404" cy="2386" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2416" y="2391" text-anchor="start" style="fill:#1A1F2C">Create build</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-builds-api/#op-getBuild" target="_blank" class="st" data-op="getBuild"><title>GET /v3/builds/{guid}
+Builds line · getBuild</title>
+<circle cx="2404" cy="2518" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2416" y="2523" text-anchor="start" style="fill:#1A1F2C">Get build</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-builds-api/#op-updateBuild" target="_blank" class="st" data-op="updateBuild"><title>PATCH /v3/builds/{guid}
+Builds line · updateBuild</title>
+<circle cx="2404" cy="2606" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2416" y="2611" text-anchor="start" style="fill:#1A1F2C">Update build</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-builds-api/#op-listAppBuilds" target="_blank" class="st" data-op="listAppBuilds"><title>GET /v3/apps/{guid}/builds
+Builds line · listAppBuilds</title>
+<circle cx="2052" cy="2298" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2043.0" y="2317" text-anchor="end" style="fill:#1A1F2C">List builds <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-builds-api/#op-updateBuildViaApp" target="_blank" class="st" data-op="updateBuildViaApp"><title>PATCH /v3/apps/{guid}/builds
+Builds line · updateBuildViaApp</title>
+<circle cx="2184" cy="2430" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2178" y="2442" text-anchor="end" transform="rotate(-45 2178 2442)" style="fill:#1A1F2C">Create build</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-catalog-api/#op-catalog.get" target="_blank" class="st" data-op="catalog.get"><title>GET /v2/catalog
+More Local line · catalog.get</title>
+<circle cx="2888" cy="2606" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2900" y="2611" text-anchor="start" style="fill:#1A1F2C">Get catalog</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-create-policy-api-v1-api/#op-putV1AppsByGuidPolicy" target="_blank" class="st" data-op="putV1AppsByGuidPolicy"><title>PUT /v1/apps/{guid}/policy
+Apps line · putV1AppsByGuidPolicy</title>
+<circle cx="1304" cy="2122" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1292.0" y="2127" text-anchor="end" style="fill:#1A1F2C">Update policy</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-custom-metrics-api-v1-api/#op-postV1AppsByAppGuidMetrics" target="_blank" class="st" data-op="postV1AppsByAppGuidMetrics"><title>POST /v1/apps/{appGuid}/metrics
+Apps line · postV1AppsByAppGuidMetrics</title>
+<circle cx="1568" cy="2122" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1574" y="2110" transform="rotate(-45 1574 2110)" style="fill:#1A1F2C">Create metric</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-delete-policy-api-v1-api/#op-deleteV1AppsByGuidPolicy" target="_blank" class="st" data-op="deleteV1AppsByGuidPolicy"><title>DELETE /v1/apps/{guid}/policy
+Apps line · deleteV1AppsByGuidPolicy</title>
+<circle cx="1260" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1256" y1="2082" x2="1264" y2="2074" stroke="#D6264F" stroke-width="2"/>
+<text x="1272" y="2083" text-anchor="start" style="fill:#1A1F2C">Delete policy</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-deployments-api/#op-listDeployments" target="_blank" class="st" data-op="listDeployments"><title>GET /v3/deployments
+Deployments line · listDeployments</title>
+<circle cx="2756" cy="3090" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2768" y="3095" text-anchor="start" style="fill:#1A1F2C">List deployments</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-deployments-api/#op-createDeployment" target="_blank" class="st" data-op="createDeployment"><title>POST /v3/deployments
+Deployments line · createDeployment</title>
+<circle cx="2756" cy="3002" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2744.0" y="3007" text-anchor="end" style="fill:#1A1F2C">Create deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-deployments-api/#op-getDeployment" target="_blank" class="st" data-op="getDeployment"><title>GET /v3/deployments/{guid}
+Deployments line · getDeployment</title>
+<circle cx="2756" cy="2914" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="2744.0" y="2919" text-anchor="end" style="fill:#1A1F2C">Get deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-deployments-api/#op-updateDeployment" target="_blank" class="st" data-op="updateDeployment"><title>PATCH /v3/deployments/{guid}
+Deployments line · updateDeployment</title>
+<circle cx="2756" cy="2870" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2765" y="2860" text-anchor="start" style="fill:#1A1F2C">Update deployment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-deployments-api/#op-cancelDeployment" target="_blank" class="st" data-op="cancelDeployment"><title>POST /v3/deployments/{guid}/actions/cancel
+Deployments line · cancelDeployment</title>
+<circle cx="2492" cy="2870" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2480.0" y="2875" text-anchor="end" style="fill:#1A1F2C">Cancel action</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-deployments-api/#op-continueDeployment" target="_blank" class="st" data-op="continueDeployment"><title>POST /v3/deployments/{guid}/actions/continue
+Deployments line · continueDeployment</title>
+<circle cx="2492" cy="3002" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="2504" y="3007" text-anchor="start" style="fill:#1A1F2C">Update continue</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-listDomains" target="_blank" class="st" data-op="listDomains"><title>GET /v3/domains
+Domains line · listDomains</title>
+<circle cx="2272" cy="230" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2284" y="235" text-anchor="start" style="fill:#1A1F2C">List domains</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-createDomain" target="_blank" class="st" data-op="createDomain"><title>POST /v3/domains
+Domains line · createDomain</title>
+<circle cx="2184" cy="318" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2196" y="323" text-anchor="start" style="fill:#1A1F2C">Create domain</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-getDomain" target="_blank" class="st" data-op="getDomain"><title>GET /v3/domains/{guid}
+Domains line · getDomain</title>
+<circle cx="2140" cy="362" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2152" y="367" text-anchor="start" style="fill:#1A1F2C">Get domain</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-updateDomain" target="_blank" class="st" data-op="updateDomain"><title>PATCH /v3/domains/{guid}
+Domains line · updateDomain</title>
+<circle cx="2140" cy="494" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2152" y="499" text-anchor="start" style="fill:#1A1F2C">Update domain</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-deleteDomain" target="_blank" class="st" data-op="deleteDomain"><title>DELETE /v3/domains/{guid}
+Domains line · deleteDomain</title>
+<circle cx="2184" cy="538" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2180" y1="542" x2="2188" y2="534" stroke="#B8860B" stroke-width="2"/>
+<text x="2196" y="543" text-anchor="start" style="fill:#1A1F2C">Delete domain</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-shareDomain" target="_blank" class="st" data-op="shareDomain"><title>POST /v3/domains/{guid}/relationships/shared_organizations
+Domains line · shareDomain</title>
+<circle cx="2272" cy="626" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2260.0" y="631" text-anchor="end" style="fill:#1A1F2C">Create shared organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-unshareDomain" target="_blank" class="st" data-op="unshareDomain"><title>DELETE /v3/domains/{guid}/relationships/shared_organizations/{org_guid}
+Domains line · unshareDomain</title>
+<circle cx="2360" cy="626" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2356" y1="630" x2="2364" y2="622" stroke="#B8860B" stroke-width="2"/>
+<text x="2366" y="614" transform="rotate(-45 2366 614)" style="fill:#1A1F2C">Delete shared organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-checkReservedRoutesForDomain" target="_blank" class="st" data-op="checkReservedRoutesForDomain"><title>GET /v3/domains/{guid}/route_reservations
+Domains line · checkReservedRoutesForDomain</title>
+<circle cx="2492" cy="626" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2483.0" y="645" text-anchor="end" style="fill:#1A1F2C">List route reservations</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-domains-api/#op-listDomainsForOrganization" target="_blank" class="st" data-op="listDomainsForOrganization"><title>GET /v3/organizations/{guid}/domains
+Domains line · listDomainsForOrganization</title>
+<circle cx="2536" cy="670" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2524.0" y="675" text-anchor="end" style="fill:#1A1F2C">List domains <tspan font-weight="700" style="fill:#1F5FD1">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-listDroplets" target="_blank" class="st" data-op="listDroplets"><title>GET /v3/droplets
+Droplets line · listDroplets</title>
+<circle cx="996" cy="1550" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1002" y="1538" transform="rotate(-45 1002 1538)" style="fill:#1A1F2C">List droplets</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-createDroplet" target="_blank" class="st" data-op="createDroplet"><title>POST /v3/droplets
+Droplets line · createDroplet</title>
+<circle cx="1084" cy="1550" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1078" y="1562" text-anchor="end" transform="rotate(-45 1078 1562)" style="fill:#1A1F2C">Create droplet</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-getDroplet" target="_blank" class="st" data-op="getDroplet"><title>GET /v3/droplets/{guid}
+Droplets line · getDroplet</title>
+<circle cx="1216" cy="1550" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1216" y="1536" text-anchor="middle" style="fill:#1A1F2C">Get droplet</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-updateDroplet" target="_blank" class="st" data-op="updateDroplet"><title>PATCH /v3/droplets/{guid}
+Droplets line · updateDroplet</title>
+<circle cx="1392" cy="1550" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1404" y="1555" text-anchor="start" style="fill:#1A1F2C">Update droplet</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-deleteDroplet" target="_blank" class="st" data-op="deleteDroplet"><title>DELETE /v3/droplets/{guid}
+Droplets line · deleteDroplet</title>
+<circle cx="1436" cy="1594" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<line x1="1432" y1="1598" x2="1440" y2="1590" stroke="#af2328" stroke-width="2"/>
+<text x="1448" y="1599" text-anchor="start" style="fill:#1A1F2C">Delete droplet</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-downloadDroplet" target="_blank" class="st" data-op="downloadDroplet"><title>GET /v3/droplets/{guid}/download
+Droplets line · downloadDroplet</title>
+<circle cx="1436" cy="1638" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1448" y="1643" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-uploadDroplet" target="_blank" class="st" data-op="uploadDroplet"><title>POST /v3/droplets/{guid}/upload
+Droplets line · uploadDroplet</title>
+<circle cx="1568" cy="1770" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1580" y="1775" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-droplets-api/#op-listPackageDroplets" target="_blank" class="st" data-op="cloud-foundry-droplets-api:listPackageDroplets"><title>GET /v3/packages/{guid}/droplets
+Droplets line · listPackageDroplets</title>
+<circle cx="1656" cy="1858" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1644.0" y="1863" text-anchor="end" style="fill:#1A1F2C">List droplets</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-environment-variable-groups-api/#op-getEnvironmentVariableGroup" target="_blank" class="st" data-op="getEnvironmentVariableGroup"><title>GET /v3/environment_variable_groups/{name}
+More Local line · getEnvironmentVariableGroup</title>
+<circle cx="2888" cy="2210" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2882" y="2222" text-anchor="end" transform="rotate(-45 2882 2222)" style="fill:#1A1F2C">Get environment variable group</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-environment-variable-groups-api/#op-updateEnvironmentVariableGroup" target="_blank" class="st" data-op="updateEnvironmentVariableGroup"><title>PATCH /v3/environment_variable_groups/{name}
+More Local line · updateEnvironmentVariableGroup</title>
+<circle cx="2976" cy="2122" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2988" y="2127" text-anchor="start" style="fill:#1A1F2C">Update environment variable group</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-feature-flags-api/#op-listFeatureFlags" target="_blank" class="st" data-op="listFeatureFlags"><title>GET /v3/feature_flags
+Feature Flags line · listFeatureFlags</title>
+<circle cx="2756" cy="2518" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2750" y="2530" text-anchor="end" transform="rotate(-45 2750 2530)" style="fill:#1A1F2C">List feature flags</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-feature-flags-api/#op-getFeatureFlag" target="_blank" class="st" data-op="getFeatureFlag"><title>GET /v3/feature_flags/{name}
+Feature Flags line · getFeatureFlag</title>
+<circle cx="2668" cy="2518" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2674" y="2506" transform="rotate(-45 2674 2506)" style="fill:#1A1F2C">Get feature flag</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-feature-flags-api/#op-updateFeatureFlag" target="_blank" class="st" data-op="updateFeatureFlag"><title>PATCH /v3/feature_flags/{name}
+Feature Flags line · updateFeatureFlag</title>
+<circle cx="2580" cy="2518" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2586" y="2506" transform="rotate(-45 2586 2506)" style="fill:#1A1F2C">Update feature flag</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-get-policy-api-v1-api/#op-getV1AppsByGuidPolicy" target="_blank" class="st" data-op="getV1AppsByGuidPolicy"><title>GET /v1/apps/{guid}/policy
+Apps line · getV1AppsByGuidPolicy</title>
+<circle cx="1436" cy="2122" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1442" y="2110" transform="rotate(-45 1442 2110)" style="fill:#1A1F2C">Get policy</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-info-api/#op-getPlatformInfo" target="_blank" class="st" data-op="getPlatformInfo"><title>GET /v3/info
+More Local line · getPlatformInfo</title>
+<circle cx="3020" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3008.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-info-api/#op-getPlatformUsageSummary" target="_blank" class="st" data-op="getPlatformUsageSummary"><title>GET /v3/info/usage_summary
+More Local line · getPlatformUsageSummary</title>
+<circle cx="3196" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3202" y="2066" transform="rotate(-45 3202 2066)" style="fill:#1A1F2C">Get usage summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-listIsolationSegments" target="_blank" class="st" data-op="listIsolationSegments"><title>GET /v3/isolation_segments
+Isolation Segments line · listIsolationSegments</title>
+<circle cx="2844" cy="494" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2856" y="499" text-anchor="start" style="fill:#1A1F2C">List isolation segments</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-createIsolationSegment" target="_blank" class="st" data-op="createIsolationSegment"><title>POST /v3/isolation_segments
+Isolation Segments line · createIsolationSegment</title>
+<circle cx="2756" cy="582" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2768" y="587" text-anchor="start" style="fill:#1A1F2C">Create isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-getIsolationSegment" target="_blank" class="st" data-op="getIsolationSegment"><title>GET /v3/isolation_segments/{guid}
+Isolation Segments line · getIsolationSegment</title>
+<circle cx="2712" cy="626" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2724" y="631" text-anchor="start" style="fill:#1A1F2C">Get isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-updateIsolationSegment" target="_blank" class="st" data-op="updateIsolationSegment"><title>PATCH /v3/isolation_segments/{guid}
+Isolation Segments line · updateIsolationSegment</title>
+<circle cx="2712" cy="714" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2724" y="719" text-anchor="start" style="fill:#1A1F2C">Update isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-deleteIsolationSegment" target="_blank" class="st" data-op="deleteIsolationSegment"><title>DELETE /v3/isolation_segments/{guid}
+Isolation Segments line · deleteIsolationSegment</title>
+<circle cx="2712" cy="758" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2708" y1="762" x2="2716" y2="754" stroke="#0B7A75" stroke-width="2"/>
+<text x="2724" y="763" text-anchor="start" style="fill:#1A1F2C">Delete isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-entitleOrganizationsForIsolationSegment" target="_blank" class="st" data-op="entitleOrganizationsForIsolationSegment"><title>POST /v3/isolation_segments/{guid}/relationships/organizations
+Isolation Segments line · entitleOrganizationsForIsolationSegment</title>
+<circle cx="2492" cy="1198" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2504" y="1203" text-anchor="start" style="fill:#1A1F2C">Create organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-listOrganizationsForIsolationSegment" target="_blank" class="st" data-op="listOrganizationsForIsolationSegment"><title>GET /v3/isolation_segments/{guid}/relationships/organizations
+Isolation Segments line · listOrganizationsForIsolationSegment</title>
+<circle cx="2580" cy="1110" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2592" y="1115" text-anchor="start" style="fill:#1A1F2C">List organizations</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-revokeIsolationSegmentForOrganization" target="_blank" class="st" data-op="revokeIsolationSegmentForOrganization"><title>DELETE /v3/isolation_segments/{guid}/relationships/organizations/{org_guid}
+Isolation Segments line · revokeIsolationSegmentForOrganization</title>
+<circle cx="2404" cy="1286" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2400" y1="1290" x2="2408" y2="1282" stroke="#0B7A75" stroke-width="2"/>
+<text x="2416" y="1291" text-anchor="start" style="fill:#1A1F2C">Delete organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-listSpacesForIsolationSegment" target="_blank" class="st" data-op="listSpacesForIsolationSegment"><title>GET /v3/isolation_segments/{guid}/relationships/spaces
+Isolation Segments line · listSpacesForIsolationSegment</title>
+<circle cx="2404" cy="1506" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2413" y="1496" text-anchor="start" style="fill:#1A1F2C">List spaces <tspan font-weight="700" style="fill:#0E9F6E">⇄SPA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-isolation-segments-api/#op-listOrganizationsForIsolationSegmentShort" target="_blank" class="st" data-op="listOrganizationsForIsolationSegmentShort"><title>GET /v3/isolation_segments/{guid}/organizations
+Isolation Segments line · listOrganizationsForIsolationSegmentShort</title>
+<circle cx="2580" cy="890" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2592" y="895" text-anchor="start" style="fill:#1A1F2C">List organizations <tspan font-weight="700" style="fill:#1F5FD1">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-jobs-api/#op-getJob" target="_blank" class="st" data-op="getJob"><title>GET /v3/jobs/{guid}
+More Local line · getJob</title>
+<circle cx="3328" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3340" y="2083" text-anchor="start" style="fill:#1A1F2C">Get job</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-manifests-api/#op-generateManifest" target="_blank" class="st" data-op="generateManifest"><title>GET /v3/apps/{guid}/manifest
+Apps line · generateManifest</title>
+<circle cx="512" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="518" y="1142" transform="rotate(-45 518 1142)" style="fill:#1A1F2C">Get manifest</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organization-quotas-api/#op-listOrganizationQuotas" target="_blank" class="st" data-op="listOrganizationQuotas"><title>GET /v3/organization_quotas
+Organization Quotas line · listOrganizationQuotas</title>
+<circle cx="2008" cy="582" r="5.5" fill="#fff" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2020" y="587" text-anchor="start" style="fill:#1A1F2C">List organization quotas</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organization-quotas-api/#op-createOrganizationQuota" target="_blank" class="st" data-op="createOrganizationQuota"><title>POST /v3/organization_quotas
+Organization Quotas line · createOrganizationQuota</title>
+<circle cx="2096" cy="670" r="5.5" fill="#1d25a9" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2108" y="675" text-anchor="start" style="fill:#1A1F2C">Create organization quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organization-quotas-api/#op-getOrganizationQuota" target="_blank" class="st" data-op="getOrganizationQuota"><title>GET /v3/organization_quotas/{guid}
+Organization Quotas line · getOrganizationQuota</title>
+<circle cx="2140" cy="714" r="5.5" fill="#fff" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2128.0" y="719" text-anchor="end" style="fill:#1A1F2C">Get organization quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organization-quotas-api/#op-updateOrganizationQuota" target="_blank" class="st" data-op="updateOrganizationQuota"><title>PATCH /v3/organization_quotas/{guid}
+Organization Quotas line · updateOrganizationQuota</title>
+<circle cx="2272" cy="714" r="5.5" fill="#1d25a9" stroke="#1d25a9" stroke-width="2.5"/>
+<text x="2284" y="719" text-anchor="start" style="fill:#1A1F2C">Update organization quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organization-quotas-api/#op-deleteOrganizationQuota" target="_blank" class="st" data-op="deleteOrganizationQuota"><title>DELETE /v3/organization_quotas/{guid}
+Organization Quotas line · deleteOrganizationQuota</title>
+<circle cx="2316" cy="758" r="5.5" fill="#fff" stroke="#1d25a9" stroke-width="2.5"/>
+<line x1="2312" y1="762" x2="2320" y2="754" stroke="#1d25a9" stroke-width="2"/>
+<text x="2304.0" y="763" text-anchor="end" style="fill:#1A1F2C">Delete organization quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organization-quotas-api/#op-applyOrganizationQuota" target="_blank" class="st" data-op="applyOrganizationQuota"><title>POST /v3/organization_quotas/{quota_guid}/relationships/organizations
+Organization Quotas line · applyOrganizationQuota</title>
+<circle cx="2448" cy="758" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2442" y="770" text-anchor="end" transform="rotate(-45 2442 770)" style="fill:#1A1F2C">Create organization <tspan font-weight="700" style="fill:#1F5FD1">⇄ORG</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-listOrganizations" target="_blank" class="st" data-op="listOrganizations"><title>GET /v3/organizations
+Organizations line · listOrganizations</title>
+<circle cx="2624" cy="538" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2636" y="543" text-anchor="start" style="fill:#1A1F2C">List organizations</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-createOrganization" target="_blank" class="st" data-op="createOrganization"><title>POST /v3/organizations
+Organizations line · createOrganization</title>
+<circle cx="2624" cy="758" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2612.0" y="756" text-anchor="end" style="fill:#1A1F2C">Create<tspan x="2612.0" dy="13">organization</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-getOrganization" target="_blank" class="st" data-op="getOrganization"><title>GET /v3/organizations/{guid}
+Organizations line · getOrganization</title>
+<circle cx="2536" cy="802" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2524.0" y="807" text-anchor="end" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-updateOrganization" target="_blank" class="st" data-op="updateOrganization"><title>PATCH /v3/organizations/{guid}
+Organizations line · updateOrganization</title>
+<circle cx="2448" cy="890" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2436.0" y="895" text-anchor="end" style="fill:#1A1F2C">Update organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-deleteOrganization" target="_blank" class="st" data-op="deleteOrganization"><title>DELETE /v3/organizations/{guid}
+Organizations line · deleteOrganization</title>
+<circle cx="2404" cy="934" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2400" y1="938" x2="2408" y2="930" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2416" y="939" text-anchor="start" style="fill:#1A1F2C">Delete organization</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-getDefaultDomainForOrganization" target="_blank" class="st" data-op="getDefaultDomainForOrganization"><title>GET /v3/organizations/{guid}/domains/default
+Organizations line · getDefaultDomainForOrganization</title>
+<circle cx="2316" cy="1022" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2328" y="1027" text-anchor="start" style="fill:#1A1F2C">Get default</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-getUsageSummaryForOrganization" target="_blank" class="st" data-op="getUsageSummaryForOrganization"><title>GET /v3/organizations/{guid}/usage_summary
+Organizations line · getUsageSummaryForOrganization</title>
+<circle cx="2228" cy="1330" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2240" y="1335" text-anchor="start" style="fill:#1A1F2C">Get usage summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-listUsersForOrganization" target="_blank" class="st" data-op="listUsersForOrganization"><title>GET /v3/organizations/{guid}/users
+Organizations line · listUsersForOrganization</title>
+<circle cx="2228" cy="1506" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2216.0" y="1511" text-anchor="end" style="fill:#1A1F2C">List users <tspan font-weight="700" style="fill:#4daee0">⇄USE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-getDefaultIsolationSegmentForOrganization" target="_blank" class="st" data-op="getDefaultIsolationSegmentForOrganization"><title>GET /v3/organizations/{guid}/relationships/default_isolation_segment
+Organizations line · getDefaultIsolationSegmentForOrganization</title>
+<circle cx="2228" cy="1110" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2240" y="1115" text-anchor="start" style="fill:#1A1F2C">Get default isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-organizations-api/#op-assignDefaultIsolationSegmentForOrganization" target="_blank" class="st" data-op="assignDefaultIsolationSegmentForOrganization"><title>PATCH /v3/organizations/{guid}/relationships/default_isolation_segment
+Organizations line · assignDefaultIsolationSegmentForOrganization</title>
+<circle cx="2228" cy="1242" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2240" y="1247" text-anchor="start" style="fill:#1A1F2C">Update default isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-listPackages" target="_blank" class="st" data-op="listPackages"><title>GET /v3/packages
+Packages line · listPackages</title>
+<circle cx="1876" cy="2034" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1864.0" y="2039" text-anchor="end" style="fill:#1A1F2C">List packages</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-createPackage" target="_blank" class="st" data-op="createPackage"><title>POST /v3/packages
+Packages line · createPackage</title>
+<circle cx="1788" cy="1946" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1800" y="1951" text-anchor="start" style="fill:#1A1F2C">Create package</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-getPackage" target="_blank" class="st" data-op="getPackage"><title>GET /v3/packages/{guid}
+Packages line · getPackage</title>
+<circle cx="1700" cy="1858" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1712" y="1863" text-anchor="start" style="fill:#1A1F2C">Get package</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-updatePackage" target="_blank" class="st" data-op="updatePackage"><title>PATCH /v3/packages/{guid}
+Packages line · updatePackage</title>
+<circle cx="1700" cy="1726" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1712" y="1731" text-anchor="start" style="fill:#1A1F2C">Update package</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-deletePackage" target="_blank" class="st" data-op="deletePackage"><title>DELETE /v3/packages/{guid}
+Packages line · deletePackage</title>
+<circle cx="1700" cy="1638" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1696" y1="1642" x2="1704" y2="1634" stroke="#2E7D32" stroke-width="2"/>
+<text x="1712" y="1643" text-anchor="start" style="fill:#1A1F2C">Delete package</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-listAppPackages" target="_blank" class="st" data-op="listAppPackages"><title>GET /v3/apps/{guid}/packages
+Packages line · listAppPackages</title>
+<circle cx="1920" cy="2034" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1911.0" y="2053" text-anchor="end" style="fill:#1A1F2C">List packages <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-uploadPackageBits" target="_blank" class="st" data-op="uploadPackageBits"><title>POST /v3/packages/{guid}/upload
+Packages line · uploadPackageBits</title>
+<circle cx="1700" cy="1462" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1712" y="1467" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-packages-api/#op-downloadPackageBits" target="_blank" class="st" data-op="downloadPackageBits"><title>GET /v3/packages/{guid}/download
+Packages line · downloadPackageBits</title>
+<circle cx="1700" cy="1550" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1712" y="1555" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-listProcesses" target="_blank" class="st" data-op="listProcesses"><title>GET /v3/processes
+Processes line · listProcesses</title>
+<circle cx="1568" cy="2474" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1580" y="2479" text-anchor="start" style="fill:#1A1F2C">List processes</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-getProcess" target="_blank" class="st" data-op="getProcess"><title>GET /v3/processes/{guid}
+Processes line · getProcess</title>
+<circle cx="1656" cy="2386" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1668" y="2391" text-anchor="start" style="fill:#1A1F2C">Get process</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-updateProcess" target="_blank" class="st" data-op="updateProcess"><title>PATCH /v3/processes/{guid}
+Processes line · updateProcess</title>
+<circle cx="1612" cy="2342" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1618" y="2330" transform="rotate(-45 1618 2330)" style="fill:#1A1F2C">Update process</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-listProcessInstances" target="_blank" class="st" data-op="listProcessInstances"><title>GET /v3/processes/{guid}/process_instances
+Processes line · listProcessInstances</title>
+<circle cx="1304" cy="2650" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1316" y="2655" text-anchor="start" style="fill:#1A1F2C">List process instances</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-getProcessStats" target="_blank" class="st" data-op="getProcessStats"><title>GET /v3/processes/{guid}/stats
+Processes line · getProcessStats</title>
+<circle cx="1216" cy="2738" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1228" y="2743" text-anchor="start" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-scaleProcess" target="_blank" class="st" data-op="scaleProcess"><title>POST /v3/processes/{guid}/actions/scale
+Processes line · scaleProcess</title>
+<circle cx="1480" cy="2474" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1468.0" y="2479" text-anchor="end" style="fill:#1A1F2C">Update scale</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-terminateProcessInstance" target="_blank" class="st" data-op="terminateProcessInstance"><title>DELETE /v3/processes/{guid}/instances/{index}
+Processes line · terminateProcessInstance</title>
+<circle cx="1392" cy="2562" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1388" y1="2566" x2="1396" y2="2558" stroke="#E07B12" stroke-width="2"/>
+<text x="1404" y="2567" text-anchor="start" style="fill:#1A1F2C">Delete instance</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-listAppProcesses" target="_blank" class="st" data-op="listAppProcesses"><title>GET /v3/apps/{guid}/processes
+Processes line · listAppProcesses</title>
+<circle cx="1964" cy="2254" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1973" y="2244" text-anchor="start" style="fill:#1A1F2C">List processes</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-getProcessForApp" target="_blank" class="st" data-op="getProcessForApp"><title>GET /v3/apps/{guid}/processes/{type}
+Processes line · getProcessForApp</title>
+<circle cx="1964" cy="2386" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1976" y="2391" text-anchor="start" style="fill:#1A1F2C">Get process</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-updateProcessForApp" target="_blank" class="st" data-op="updateProcessForApp"><title>PATCH /v3/apps/{guid}/processes/{type}
+Processes line · updateProcessForApp</title>
+<circle cx="1876" cy="2474" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1864.0" y="2479" text-anchor="end" style="fill:#1A1F2C">Update process</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-getProcessStatsForApp" target="_blank" class="st" data-op="getProcessStatsForApp"><title>GET /v3/apps/{guid}/processes/{type}/stats
+Processes line · getProcessStatsForApp</title>
+<circle cx="1568" cy="2606" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1556.0" y="2611" text-anchor="end" style="fill:#1A1F2C">List stats</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-scaleProcessForApp" target="_blank" class="st" data-op="scaleProcessForApp"><title>POST /v3/apps/{guid}/processes/{type}/actions/scale
+Processes line · scaleProcessForApp</title>
+<circle cx="1788" cy="2562" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1779.0" y="2581" text-anchor="end" style="fill:#1A1F2C">Update scale</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-processes-api/#op-terminateProcessInstanceForApp" target="_blank" class="st" data-op="terminateProcessInstanceForApp"><title>DELETE /v3/apps/{guid}/processes/{type}/instances/{index}
+Processes line · terminateProcessInstanceForApp</title>
+<circle cx="1788" cy="2606" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1784" y1="2610" x2="1792" y2="2602" stroke="#E07B12" stroke-width="2"/>
+<text x="1800" y="2604" text-anchor="start" style="fill:#1A1F2C">Delete<tspan x="1800" dy="13">instance</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-resource-matches-api/#op-postResourceMatches" target="_blank" class="st" data-op="postResourceMatches"><title>POST /v3/resource_matches
+More Local line · postResourceMatches</title>
+<circle cx="3416" cy="2166" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="3428" y="2171" text-anchor="start" style="fill:#1A1F2C">Create resource matche</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-revisions-api/#op-getRevision" target="_blank" class="st" data-op="getRevision"><title>GET /v3/revisions/{guid}
+Revisions line · getRevision</title>
+<circle cx="2316" cy="2430" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2304.0" y="2435" text-anchor="end" style="fill:#1A1F2C">Get revision</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-revisions-api/#op-updateRevision" target="_blank" class="st" data-op="updateRevision"><title>PATCH /v3/revisions/{guid}
+Revisions line · updateRevision</title>
+<circle cx="2272" cy="2474" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2284" y="2479" text-anchor="start" style="fill:#1A1F2C">Update revision</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-revisions-api/#op-getRevisionEnvironmentVariables" target="_blank" class="st" data-op="getRevisionEnvironmentVariables"><title>GET /v3/revisions/{guid}/environment_variables
+Revisions line · getRevisionEnvironmentVariables</title>
+<circle cx="2184" cy="2562" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2196" y="2567" text-anchor="start" style="fill:#1A1F2C">List environment variables</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-revisions-api/#op-listRevisionsForApp" target="_blank" class="st" data-op="listRevisionsForApp"><title>GET /v3/apps/{guid}/revisions
+Revisions line · listRevisionsForApp</title>
+<circle cx="2140" cy="2254" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2140" y="2227" text-anchor="middle" style="fill:#1A1F2C">List revisions <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-revisions-api/#op-listDeployedRevisionsForApp" target="_blank" class="st" data-op="listDeployedRevisionsForApp"><title>GET /v3/apps/{guid}/revisions/deployed
+Revisions line · listDeployedRevisionsForApp</title>
+<circle cx="2184" cy="2254" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2178" y="2266" text-anchor="end" transform="rotate(-45 2178 2266)" style="fill:#1A1F2C">Get deployed</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-roles-api/#op-listRoles" target="_blank" class="st" data-op="listRoles"><title>GET /v3/roles
+Roles line · listRoles</title>
+<circle cx="2976" cy="2782" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2970" y="2794" text-anchor="end" transform="rotate(-45 2970 2794)" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-roles-api/#op-createRole" target="_blank" class="st" data-op="createRole"><title>POST /v3/roles
+Roles line · createRole</title>
+<circle cx="2888" cy="2782" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2894" y="2770" transform="rotate(-45 2894 2770)" style="fill:#1A1F2C">Create role</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-roles-api/#op-getRole" target="_blank" class="st" data-op="getRole"><title>GET /v3/roles/{guid}
+Roles line · getRole</title>
+<circle cx="2844" cy="2782" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2832.0" y="2787" text-anchor="end" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-roles-api/#op-deleteRole" target="_blank" class="st" data-op="deleteRole"><title>DELETE /v3/roles/{guid}
+Roles line · deleteRole</title>
+<circle cx="2756" cy="2694" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="2752" y1="2698" x2="2760" y2="2690" stroke="#C2410C" stroke-width="2"/>
+<text x="2768" y="2699" text-anchor="start" style="fill:#1A1F2C">Delete role</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-root-api/#op-getV3ApiRoot" target="_blank" class="st" data-op="getV3ApiRoot"><title>GET /v3
+More Local line · getV3ApiRoot</title>
+<circle cx="2932" cy="2650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2944" y="2655" text-anchor="start" style="fill:#1A1F2C">getV3ApiRoot</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-listRoutes" target="_blank" class="st" data-op="listRoutes"><title>GET /v3/routes
+Routes line · listRoutes</title>
+<circle cx="2184" cy="1990" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2193" y="1980" text-anchor="start" style="fill:#1A1F2C">List routes</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-createRoute" target="_blank" class="st" data-op="createRoute"><title>POST /v3/routes
+Routes line · createRoute</title>
+<circle cx="2228" cy="1990" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2240" y="1995" text-anchor="start" style="fill:#1A1F2C">Create route</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-listDestinationsForRoute" target="_blank" class="st" data-op="listDestinationsForRoute"><title>GET /v3/routes/{guid}/destinations
+Routes line · listDestinationsForRoute</title>
+<circle cx="1964" cy="2474" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1964" y="2446" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1964" dy="13">destinations</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-insertDestinationsForRoute" target="_blank" class="st" data-op="insertDestinationsForRoute"><title>POST /v3/routes/{guid}/destinations
+Routes line · insertDestinationsForRoute</title>
+<circle cx="1876" cy="2562" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1888" y="2567" text-anchor="start" style="fill:#1A1F2C">Create destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-replaceDestinationsForRouteWithPatch" target="_blank" class="st" data-op="replaceDestinationsForRouteWithPatch"><title>PATCH /v3/routes/{guid}/destinations
+Routes line · replaceDestinationsForRouteWithPatch</title>
+<circle cx="1876" cy="2738" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1888" y="2743" text-anchor="start" style="fill:#1A1F2C">Create destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-updateDestinationProtocolForRoute" target="_blank" class="st" data-op="updateDestinationProtocolForRoute"><title>PATCH /v3/routes/{guid}/destinations/{destination_guid}
+Routes line · updateDestinationProtocolForRoute</title>
+<circle cx="1832" cy="2782" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1844" y="2787" text-anchor="start" style="fill:#1A1F2C">Update destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-removeDestinationForRoute" target="_blank" class="st" data-op="removeDestinationForRoute"><title>DELETE /v3/routes/{guid}/destinations/{destination_guid}
+Routes line · removeDestinationForRoute</title>
+<circle cx="1744" cy="2870" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1740" y1="2874" x2="1748" y2="2866" stroke="#B0287F" stroke-width="2"/>
+<text x="1756" y="2875" text-anchor="start" style="fill:#1A1F2C">Delete destination</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-listAppRoutes" target="_blank" class="st" data-op="listAppRoutes"><title>GET /v3/apps/{guid}/routes
+Routes line · listAppRoutes</title>
+<circle cx="2096" cy="2122" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2084.0" y="2127" text-anchor="end" style="fill:#1A1F2C">List routes <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-getRoute" target="_blank" class="st" data-op="getRoute"><title>GET /v3/routes/{guid}
+Routes line · getRoute</title>
+<circle cx="2228" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2240" y="2083" text-anchor="start" style="fill:#1A1F2C">Get route</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-updateRoute" target="_blank" class="st" data-op="updateRoute"><title>PATCH /v3/routes/{guid}
+Routes line · updateRoute</title>
+<circle cx="2184" cy="2342" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2175.0" y="2332" text-anchor="end" style="fill:#1A1F2C">Update route</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-deleteRoute" target="_blank" class="st" data-op="deleteRoute"><title>DELETE /v3/routes/{guid}
+Routes line · deleteRoute</title>
+<circle cx="2052" cy="2474" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2048" y1="2478" x2="2056" y2="2470" stroke="#B0287F" stroke-width="2"/>
+<text x="2043.0" y="2493" text-anchor="end" style="fill:#1A1F2C">Delete route</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-listSharedSpacesRelationship" target="_blank" class="st" data-op="listSharedSpacesRelationship"><title>GET /v3/routes/{guid}/relationships/shared_spaces
+Routes line · listSharedSpacesRelationship</title>
+<circle cx="1656" cy="2958" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1668" y="2963" text-anchor="start" style="fill:#1A1F2C">List shared spaces</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-shareRoute" target="_blank" class="st" data-op="shareRoute"><title>POST /v3/routes/{guid}/relationships/shared_spaces
+Routes line · shareRoute</title>
+<circle cx="1524" cy="3090" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1536" y="3095" text-anchor="start" style="fill:#1A1F2C">Create shared space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-unshareRoute" target="_blank" class="st" data-op="unshareRoute"><title>DELETE /v3/routes/{guid}/relationships/shared_spaces/{space_guid}
+Routes line · unshareRoute</title>
+<circle cx="1524" cy="3134" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1520" y1="3138" x2="1528" y2="3130" stroke="#B0287F" stroke-width="2"/>
+<text x="1536" y="3139" text-anchor="start" style="fill:#1A1F2C">Delete shared space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-routes-api/#op-transferRouteOwnership" target="_blank" class="st" data-op="transferRouteOwnership"><title>PATCH /v3/routes/{guid}/relationships/space
+Routes line · transferRouteOwnership</title>
+<circle cx="1524" cy="3222" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1536" y="3227" text-anchor="start" style="fill:#1A1F2C">Update space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-scaling-history-api-v1-api/#op-getV1AppsByGuidScalingHistories" target="_blank" class="st" data-op="getV1AppsByGuidScalingHistories"><title>GET /v1/apps/{guid}/scaling_histories
+Apps line · getV1AppsByGuidScalingHistories</title>
+<circle cx="1172" cy="1990" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1184" y="1995" text-anchor="start" style="fill:#1A1F2C">List scaling histories</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-listSecurityGroups" target="_blank" class="st" data-op="listSecurityGroups"><title>GET /v3/security_groups
+Security Groups line · listSecurityGroups</title>
+<circle cx="2360" cy="3002" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2348.0" y="3007" text-anchor="end" style="fill:#1A1F2C">List security groups</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-createSecurityGroup" target="_blank" class="st" data-op="createSecurityGroup"><title>POST /v3/security_groups
+Security Groups line · createSecurityGroup</title>
+<circle cx="2360" cy="2914" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2348.0" y="2919" text-anchor="end" style="fill:#1A1F2C">Create security group</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-getSecurityGroup" target="_blank" class="st" data-op="getSecurityGroup"><title>GET /v3/security_groups/{guid}
+Security Groups line · getSecurityGroup</title>
+<circle cx="2360" cy="2826" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2372" y="2831" text-anchor="start" style="fill:#1A1F2C">Get security group</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-updateSecurityGroup" target="_blank" class="st" data-op="updateSecurityGroup"><title>PATCH /v3/security_groups/{guid}
+Security Groups line · updateSecurityGroup</title>
+<circle cx="2360" cy="2782" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2372" y="2787" text-anchor="start" style="fill:#1A1F2C">Update security group</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-deleteSecurityGroup" target="_blank" class="st" data-op="deleteSecurityGroup"><title>DELETE /v3/security_groups/{guid}
+Security Groups line · deleteSecurityGroup</title>
+<circle cx="2272" cy="2694" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="2268" y1="2698" x2="2276" y2="2690" stroke="#C2410C" stroke-width="2"/>
+<text x="2284" y="2699" text-anchor="start" style="fill:#1A1F2C">Delete security group</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-bindRunningSecurityGroup" target="_blank" class="st" data-op="bindRunningSecurityGroup"><title>POST /v3/security_groups/{guid}/relationships/running_spaces
+Security Groups line · bindRunningSecurityGroup</title>
+<circle cx="2184" cy="2694" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2172.0" y="2699" text-anchor="end" style="fill:#1A1F2C">Create running space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-unbindRunningSecurityGroup" target="_blank" class="st" data-op="unbindRunningSecurityGroup"><title>DELETE /v3/security_groups/{guid}/relationships/running_spaces/{space_guid}
+Security Groups line · unbindRunningSecurityGroup</title>
+<circle cx="2140" cy="2738" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="2136" y1="2742" x2="2144" y2="2734" stroke="#C2410C" stroke-width="2"/>
+<text x="2152" y="2743" text-anchor="start" style="fill:#1A1F2C">Delete running space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-bindStagingSecurityGroup" target="_blank" class="st" data-op="bindStagingSecurityGroup"><title>POST /v3/security_groups/{guid}/relationships/staging_spaces
+Security Groups line · bindStagingSecurityGroup</title>
+<circle cx="2140" cy="2870" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2152" y="2875" text-anchor="start" style="fill:#1A1F2C">Create staging space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-security-groups-api/#op-unbindStagingSecurityGroup" target="_blank" class="st" data-op="unbindStagingSecurityGroup"><title>DELETE /v3/security_groups/{guid}/relationships/staging_spaces/{space_guid}
+Security Groups line · unbindStagingSecurityGroup</title>
+<circle cx="2140" cy="2958" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="2136" y1="2962" x2="2144" y2="2954" stroke="#C2410C" stroke-width="2"/>
+<text x="2152" y="2963" text-anchor="start" style="fill:#1A1F2C">Delete staging space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-brokers-api/#op-listServiceBrokers" target="_blank" class="st" data-op="listServiceBrokers"><title>GET /v3/service_brokers
+Service Brokers line · listServiceBrokers</title>
+<circle cx="3152" cy="2650" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="3152" y="2622" text-anchor="middle" style="fill:#1A1F2C">List service<tspan x="3152" dy="13">brokers</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-brokers-api/#op-createServiceBroker" target="_blank" class="st" data-op="createServiceBroker"><title>POST /v3/service_brokers
+Service Brokers line · createServiceBroker</title>
+<circle cx="2976" cy="2474" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2964.0" y="2479" text-anchor="end" style="fill:#1A1F2C">Create service broker</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-brokers-api/#op-getServiceBroker" target="_blank" class="st" data-op="getServiceBroker"><title>GET /v3/service_brokers/{guid}
+Service Brokers line · getServiceBroker</title>
+<circle cx="2976" cy="2430" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2988" y="2435" text-anchor="start" style="fill:#1A1F2C">Get service broker</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-brokers-api/#op-updateServiceBroker" target="_blank" class="st" data-op="updateServiceBroker"><title>PATCH /v3/service_brokers/{guid}
+Service Brokers line · updateServiceBroker</title>
+<circle cx="3020" cy="2386" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="3029" y="2376" text-anchor="start" style="fill:#1A1F2C">Update service broker</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-brokers-api/#op-deleteServiceBroker" target="_blank" class="st" data-op="deleteServiceBroker"><title>DELETE /v3/service_brokers/{guid}
+Service Brokers line · deleteServiceBroker</title>
+<circle cx="3196" cy="2386" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="3192" y1="2390" x2="3200" y2="2382" stroke="#E07B12" stroke-width="2"/>
+<text x="3187.0" y="2405" text-anchor="end" style="fill:#1A1F2C">Delete service broker</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-listServiceCredentialBindings" target="_blank" class="st" data-op="listServiceCredentialBindings"><title>GET /v3/service_credential_bindings
+Service Credential Bindings line · listServiceCredentialBindings</title>
+<circle cx="3416" cy="2342" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3410" y="2354" text-anchor="end" transform="rotate(-45 3410 2354)" style="fill:#1A1F2C">List service credential bindings</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-createServiceCredentialBinding" target="_blank" class="st" data-op="createServiceCredentialBinding"><title>POST /v3/service_credential_bindings
+Service Credential Bindings line · createServiceCredentialBinding</title>
+<circle cx="3328" cy="2342" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3322" y="2354" text-anchor="end" transform="rotate(-45 3322 2354)" style="fill:#1A1F2C">Create service credential binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-getServiceCredentialBinding" target="_blank" class="st" data-op="getServiceCredentialBinding"><title>GET /v3/service_credential_bindings/{guid}
+Service Credential Bindings line · getServiceCredentialBinding</title>
+<circle cx="3108" cy="2298" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3096.0" y="2303" text-anchor="end" style="fill:#1A1F2C">Get service credential binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-updateServiceCredentialBinding" target="_blank" class="st" data-op="updateServiceCredentialBinding"><title>PATCH /v3/service_credential_bindings/{guid}
+Service Credential Bindings line · updateServiceCredentialBinding</title>
+<circle cx="3108" cy="2254" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3120" y="2259" text-anchor="start" style="fill:#1A1F2C">Update service credential binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-deleteServiceCredentialBinding" target="_blank" class="st" data-op="deleteServiceCredentialBinding"><title>DELETE /v3/service_credential_bindings/{guid}
+Service Credential Bindings line · deleteServiceCredentialBinding</title>
+<circle cx="3152" cy="2210" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="3148" y1="2214" x2="3156" y2="2206" stroke="#5C6BC0" stroke-width="2"/>
+<text x="3152" y="2182" text-anchor="middle" style="fill:#1A1F2C">Delete service<tspan x="3152" dy="13">credential binding</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-getServiceCredentialBindingDetails" target="_blank" class="st" data-op="getServiceCredentialBindingDetails"><title>GET /v3/service_credential_bindings/{guid}/details
+Service Credential Bindings line · getServiceCredentialBindingDetails</title>
+<circle cx="3240" cy="2210" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3246" y="2198" transform="rotate(-45 3246 2198)" style="fill:#1A1F2C">List details</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-credential-bindings-api/#op-getServiceCredentialBindingParameters" target="_blank" class="st" data-op="getServiceCredentialBindingParameters"><title>GET /v3/service_credential_bindings/{guid}/parameters
+Service Credential Bindings line · getServiceCredentialBindingParameters</title>
+<circle cx="3284" cy="2210" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="3275.0" y="2229" text-anchor="end" style="fill:#1A1F2C">List parameters</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-listServiceInstances" target="_blank" class="st" data-op="listServiceInstances"><title>GET /v3/service_instances
+Service Instances line · listServiceInstances</title>
+<circle cx="3944" cy="890" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3956" y="895" text-anchor="start" style="fill:#1A1F2C">List service instances</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-createServiceInstance" target="_blank" class="st" data-op="createServiceInstance"><title>POST /v3/service_instances
+Service Instances line · createServiceInstance</title>
+<circle cx="3856" cy="978" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3868" y="983" text-anchor="start" style="fill:#1A1F2C">Create service instance</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-getServiceInstance" target="_blank" class="st" data-op="getServiceInstance"><title>GET /v3/service_instances/{guid}
+Service Instances line · getServiceInstance</title>
+<circle cx="3768" cy="1066" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="3780" y="1071" text-anchor="start" style="fill:#1A1F2C">Get service instance</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-updateServiceInstance" target="_blank" class="st" data-op="updateServiceInstance"><title>PATCH /v3/service_instances/{guid}
+Service Instances line · updateServiceInstance</title>
+<circle cx="3768" cy="1154" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3780" y="1159" text-anchor="start" style="fill:#1A1F2C">Update service instance</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-deleteServiceInstance" target="_blank" class="st" data-op="deleteServiceInstance"><title>DELETE /v3/service_instances/{guid}
+Service Instances line · deleteServiceInstance</title>
+<circle cx="3768" cy="1242" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="3764" y1="1246" x2="3772" y2="1238" stroke="#7B3FE4" stroke-width="2"/>
+<text x="3780" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete service instance</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-getServiceInstanceCredentials" target="_blank" class="st" data-op="getServiceInstanceCredentials"><title>GET /v3/service_instances/{guid}/credentials
+Service Instances line · getServiceInstanceCredentials</title>
+<circle cx="3768" cy="1462" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3756.0" y="1467" text-anchor="end" style="fill:#1A1F2C">List credentials</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-getServiceInstanceParameters" target="_blank" class="st" data-op="getServiceInstanceParameters"><title>GET /v3/service_instances/{guid}/parameters
+Service Instances line · getServiceInstanceParameters</title>
+<circle cx="3812" cy="1506" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3806" y="1518" text-anchor="end" transform="rotate(-45 3806 1518)" style="fill:#1A1F2C">List parameters</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-getServiceInstancePermissions" target="_blank" class="st" data-op="getServiceInstancePermissions"><title>GET /v3/service_instances/{guid}/permissions
+Service Instances line · getServiceInstancePermissions</title>
+<circle cx="3856" cy="1462" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3865" y="1452" text-anchor="start" style="fill:#1A1F2C">List permissions</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-listServiceInstanceSharedSpaces" target="_blank" class="st" data-op="listServiceInstanceSharedSpaces"><title>GET /v3/service_instances/{guid}/relationships/shared_spaces
+Service Instances line · listServiceInstanceSharedSpaces</title>
+<circle cx="4032" cy="1462" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="4044" y="1467" text-anchor="start" style="fill:#1A1F2C">List shared spaces</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-shareServiceInstance" target="_blank" class="st" data-op="shareServiceInstance"><title>POST /v3/service_instances/{guid}/relationships/shared_spaces
+Service Instances line · shareServiceInstance</title>
+<circle cx="4076" cy="1506" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="4064.0" y="1511" text-anchor="end" style="fill:#1A1F2C">Create shared space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-getServiceInstanceUsageSummaryInSharedSpaces" target="_blank" class="st" data-op="getServiceInstanceUsageSummaryInSharedSpaces"><title>GET /v3/service_instances/{guid}/relationships/shared_spaces/usage_summary
+Service Instances line · getServiceInstanceUsageSummaryInSharedSpaces</title>
+<circle cx="4296" cy="1506" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="4290" y="1518" text-anchor="end" transform="rotate(-45 4290 1518)" style="fill:#1A1F2C">Get usage summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-unshareServiceInstance" target="_blank" class="st" data-op="unshareServiceInstance"><title>DELETE /v3/service_instances/{guid}/relationships/shared_spaces/{space_guid}
+Service Instances line · unshareServiceInstance</title>
+<circle cx="4208" cy="1506" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="4204" y1="1510" x2="4212" y2="1502" stroke="#7B3FE4" stroke-width="2"/>
+<text x="4214" y="1494" transform="rotate(-45 4214 1494)" style="fill:#1A1F2C">Delete shared space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-serviceInstance.provision" target="_blank" class="st" data-op="serviceInstance.provision"><title>PUT /v2/service_instances/{instance_id}
+Service Instances line · serviceInstance.provision</title>
+<circle cx="4032" cy="802" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="4044" y="807" text-anchor="start" style="fill:#1A1F2C">Update service instance</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-instances-api/#op-serviceInstance.lastOperation.get" target="_blank" class="st" data-op="serviceInstance.lastOperation.get"><title>GET /v2/service_instances/{instance_id}/last_operation
+Service Instances line · serviceInstance.lastOperation.get</title>
+<circle cx="3768" cy="1330" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="3780" y="1335" text-anchor="start" style="fill:#1A1F2C">Get last operation</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-offerings-api/#op-listServiceOfferings" target="_blank" class="st" data-op="listServiceOfferings"><title>GET /v3/service_offerings
+Service Offerings line · listServiceOfferings</title>
+<circle cx="2976" cy="2254" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2982" y="2242" transform="rotate(-45 2982 2242)" style="fill:#1A1F2C">List service offerings</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-offerings-api/#op-getServiceOffering" target="_blank" class="st" data-op="getServiceOffering"><title>GET /v3/service_offerings/{guid}
+Service Offerings line · getServiceOffering</title>
+<circle cx="2888" cy="2122" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2894" y="2110" transform="rotate(-45 2894 2110)" style="fill:#1A1F2C">Get service offering</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-offerings-api/#op-updateServiceOffering" target="_blank" class="st" data-op="updateServiceOffering"><title>PATCH /v3/service_offerings/{guid}
+Service Offerings line · updateServiceOffering</title>
+<circle cx="2800" cy="2210" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="2788.0" y="2215" text-anchor="end" style="fill:#1A1F2C">Update service offering</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-offerings-api/#op-deleteServiceOffering" target="_blank" class="st" data-op="deleteServiceOffering"><title>DELETE /v3/service_offerings/{guid}
+Service Offerings line · deleteServiceOffering</title>
+<circle cx="2712" cy="2298" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="2708" y1="2302" x2="2716" y2="2294" stroke="#4A5568" stroke-width="2"/>
+<text x="2700.0" y="2303" text-anchor="end" style="fill:#1A1F2C">Delete service offering</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-listServicePlans" target="_blank" class="st" data-op="listServicePlans"><title>GET /v3/service_plans
+Service Plans line · listServicePlans</title>
+<circle cx="3416" cy="1990" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3407.0" y="2009" text-anchor="end" style="fill:#1A1F2C">List service plans</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-getServicePlan" target="_blank" class="st" data-op="getServicePlan"><title>GET /v3/service_plans/{guid}
+Service Plans line · getServicePlan</title>
+<circle cx="3328" cy="1990" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3334" y="1978" transform="rotate(-45 3334 1978)" style="fill:#1A1F2C">Get service plan</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-updateServicePlan" target="_blank" class="st" data-op="updateServicePlan"><title>PATCH /v3/service_plans/{guid}
+Service Plans line · updateServicePlan</title>
+<circle cx="3240" cy="1990" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3246" y="1978" transform="rotate(-45 3246 1978)" style="fill:#1A1F2C">Update service plan</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-deleteServicePlan" target="_blank" class="st" data-op="deleteServicePlan"><title>DELETE /v3/service_plans/{guid}
+Service Plans line · deleteServicePlan</title>
+<circle cx="3152" cy="1990" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="3148" y1="1994" x2="3156" y2="1986" stroke="#B0287F" stroke-width="2"/>
+<text x="3158" y="1978" transform="rotate(-45 3158 1978)" style="fill:#1A1F2C">Delete service plan</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-getServicePlanVisibility" target="_blank" class="st" data-op="getServicePlanVisibility"><title>GET /v3/service_plans/{guid}/visibility
+Service Plans line · getServicePlanVisibility</title>
+<circle cx="3064" cy="1990" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3052.0" y="1995" text-anchor="end" style="fill:#1A1F2C">Get visibility</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-updateServicePlanVisibility" target="_blank" class="st" data-op="updateServicePlanVisibility"><title>PATCH /v3/service_plans/{guid}/visibility
+Service Plans line · updateServicePlanVisibility</title>
+<circle cx="3108" cy="1858" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3117" y="1848" text-anchor="start" style="fill:#1A1F2C">Update visibility</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-applyServicePlanVisibility" target="_blank" class="st" data-op="applyServicePlanVisibility"><title>POST /v3/service_plans/{guid}/visibility
+Service Plans line · applyServicePlanVisibility</title>
+<circle cx="3064" cy="1902" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="3076" y="1907" text-anchor="start" style="fill:#1A1F2C">Update visibility</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-plans-api/#op-removeOrganizationFromServicePlanVisibility" target="_blank" class="st" data-op="removeOrganizationFromServicePlanVisibility"><title>DELETE /v3/service_plans/{guid}/visibility/{organization_guid}
+Service Plans line · removeOrganizationFromServicePlanVisibility</title>
+<circle cx="3240" cy="1858" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="3236" y1="1862" x2="3244" y2="1854" stroke="#B0287F" stroke-width="2"/>
+<text x="3234" y="1870" text-anchor="end" transform="rotate(-45 3234 1870)" style="fill:#1A1F2C">Delete visibility</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-route-bindings-api/#op-listServiceRouteBindings" target="_blank" class="st" data-op="listServiceRouteBindings"><title>GET /v3/service_route_bindings
+Service Route Bindings line · listServiceRouteBindings</title>
+<circle cx="3372" cy="2738" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3384" y="2743" text-anchor="start" style="fill:#1A1F2C">List service route bindings</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-route-bindings-api/#op-createServiceRouteBinding" target="_blank" class="st" data-op="createServiceRouteBinding"><title>POST /v3/service_route_bindings
+Service Route Bindings line · createServiceRouteBinding</title>
+<circle cx="3284" cy="2650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3296" y="2655" text-anchor="start" style="fill:#1A1F2C">Create service route binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-route-bindings-api/#op-getServiceRouteBinding" target="_blank" class="st" data-op="getServiceRouteBinding"><title>GET /v3/service_route_bindings/{guid}
+Service Route Bindings line · getServiceRouteBinding</title>
+<circle cx="3152" cy="2518" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3164" y="2523" text-anchor="start" style="fill:#1A1F2C">Get service route binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-route-bindings-api/#op-updateServiceRouteBinding" target="_blank" class="st" data-op="updateServiceRouteBinding"><title>PATCH /v3/service_route_bindings/{guid}
+Service Route Bindings line · updateServiceRouteBinding</title>
+<circle cx="3108" cy="2474" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3108" y="2460" text-anchor="middle" style="fill:#1A1F2C">Update service route binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-route-bindings-api/#op-deleteServiceRouteBinding" target="_blank" class="st" data-op="deleteServiceRouteBinding"><title>DELETE /v3/service_route_bindings/{guid}
+Service Route Bindings line · deleteServiceRouteBinding</title>
+<circle cx="3020" cy="2562" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="3016" y1="2566" x2="3024" y2="2558" stroke="#1F5FD1" stroke-width="2"/>
+<text x="3008.0" y="2560" text-anchor="end" style="fill:#1A1F2C">Delete service<tspan x="3008.0" dy="13">route binding</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-route-bindings-api/#op-getServiceRouteBindingParameters" target="_blank" class="st" data-op="getServiceRouteBindingParameters"><title>GET /v3/service_route_bindings/{guid}/parameters
+Service Route Bindings line · getServiceRouteBindingParameters</title>
+<circle cx="3196" cy="2782" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="3208" y="2787" text-anchor="start" style="fill:#1A1F2C">List parameters</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-usage-events-api/#op-listServiceUsageEvents" target="_blank" class="st" data-op="listServiceUsageEvents"><title>GET /v3/service_usage_events
+Service Usage Events line · listServiceUsageEvents</title>
+<circle cx="2932" cy="1858" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2944" y="1863" text-anchor="start" style="fill:#1A1F2C">List service usage events</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-usage-events-api/#op-getServiceUsageEvent" target="_blank" class="st" data-op="getServiceUsageEvent"><title>GET /v3/service_usage_events/{guid}
+Service Usage Events line · getServiceUsageEvent</title>
+<circle cx="2932" cy="1946" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2920.0" y="1951" text-anchor="end" style="fill:#1A1F2C">Get service usage event</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-service-usage-events-api/#op-purgeAndSeedServiceUsageEvents" target="_blank" class="st" data-op="purgeAndSeedServiceUsageEvents"><title>POST /v3/service_usage_events/actions/destructively_purge_all_and_reseed
+Service Usage Events line · purgeAndSeedServiceUsageEvents</title>
+<circle cx="2888" cy="1990" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2879.0" y="1980" text-anchor="end" style="fill:#1A1F2C">Update destructively purge all and reseed</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-servicebindings-api/#op-serviceBinding.lastOperation.get" target="_blank" class="st" data-op="serviceBinding.lastOperation.get"><title>GET /v2/service_instances/{instance_id}/service_bindings/{binding_id}/last_operation
+ServiceBindings line · serviceBinding.lastOperation.get</title>
+<circle cx="3416" cy="1198" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<text x="3428" y="1203" text-anchor="start" style="fill:#1A1F2C">Get last operation</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-servicebindings-api/#op-serviceBinding.binding" target="_blank" class="st" data-op="serviceBinding.binding"><title>PUT /v2/service_instances/{instance_id}/service_bindings/{binding_id}
+ServiceBindings line · serviceBinding.binding</title>
+<circle cx="3592" cy="1022" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="3580.0" y="1027" text-anchor="end" style="fill:#1A1F2C">Update service binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-servicebindings-api/#op-serviceBinding.unbinding" target="_blank" class="st" data-op="serviceBinding.unbinding"><title>DELETE /v2/service_instances/{instance_id}/service_bindings/{binding_id}
+ServiceBindings line · serviceBinding.unbinding</title>
+<circle cx="3504" cy="1110" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<line x1="3500" y1="1114" x2="3508" y2="1106" stroke="#8823d6" stroke-width="2"/>
+<text x="3492.0" y="1115" text-anchor="end" style="fill:#1A1F2C">Delete service binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-servicebindings-api/#op-serviceBinding.get" target="_blank" class="st" data-op="serviceBinding.get"><title>GET /v2/service_instances/{instance_id}/service_bindings/{binding_id}
+ServiceBindings line · serviceBinding.get</title>
+<circle cx="3724" cy="1022" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="3718" y="1034" text-anchor="end" transform="rotate(-45 3718 1034)" style="fill:#1A1F2C">Get service binding</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-sidecars-api/#op-getSidecar" target="_blank" class="st" data-op="getSidecar"><title>GET /v3/sidecars/{guid}
+Sidecars line · getSidecar</title>
+<circle cx="1744" cy="2430" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<text x="1756" y="2435" text-anchor="start" style="fill:#1A1F2C">Get sidecar</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-sidecars-api/#op-updateSidecar" target="_blank" class="st" data-op="updateSidecar"><title>PATCH /v3/sidecars/{guid}
+Sidecars line · updateSidecar</title>
+<circle cx="1700" cy="2474" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="1691.0" y="2493" text-anchor="end" style="fill:#1A1F2C">Update sidecar</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-sidecars-api/#op-deleteSidecar" target="_blank" class="st" data-op="deleteSidecar"><title>DELETE /v3/sidecars/{guid}
+Sidecars line · deleteSidecar</title>
+<circle cx="1700" cy="2694" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<line x1="1696" y1="2698" x2="1704" y2="2690" stroke="#b58613" stroke-width="2"/>
+<text x="1712" y="2699" text-anchor="start" style="fill:#1A1F2C">Delete sidecar</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-sidecars-api/#op-listAppSidecars" target="_blank" class="st" data-op="listAppSidecars"><title>GET /v3/apps/{guid}/sidecars
+Sidecars line · listAppSidecars</title>
+<circle cx="1876" cy="2298" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1864.0" y="2303" text-anchor="end" style="fill:#1A1F2C">List sidecars <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-sidecars-api/#op-createSidecar" target="_blank" class="st" data-op="createSidecar"><title>POST /v3/apps/{guid}/sidecars
+Sidecars line · createSidecar</title>
+<circle cx="1832" cy="2342" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="1844" y="2347" text-anchor="start" style="fill:#1A1F2C">Create sidecar</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-sidecars-api/#op-listProcessSidecars" target="_blank" class="st" data-op="listProcessSidecars"><title>GET /v3/processes/{guid}/sidecars
+Sidecars line · listProcessSidecars</title>
+<circle cx="1744" cy="2342" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1732.0" y="2340" text-anchor="end" style="fill:#1A1F2C">List<tspan x="1732.0" dy="13">sidecars <tspan font-weight="700" style="fill:#E07B12">⇄PRO</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-listSpaceQuotas" target="_blank" class="st" data-op="listSpaceQuotas"><title>GET /v3/space_quotas
+Space Quotas line · listSpaceQuotas</title>
+<circle cx="3020" cy="1374" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<text x="3014" y="1386" text-anchor="end" transform="rotate(-45 3014 1386)" style="fill:#1A1F2C">List space quotas</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-createSpaceQuota" target="_blank" class="st" data-op="createSpaceQuota"><title>POST /v3/space_quotas
+Space Quotas line · createSpaceQuota</title>
+<circle cx="2932" cy="1374" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="2938" y="1362" transform="rotate(-45 2938 1362)" style="fill:#1A1F2C">Create space quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-getSpaceQuota" target="_blank" class="st" data-op="getSpaceQuota"><title>GET /v3/space_quotas/{guid}
+Space Quotas line · getSpaceQuota</title>
+<circle cx="2844" cy="1374" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<text x="2832.0" y="1379" text-anchor="end" style="fill:#1A1F2C">Get space quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-updateSpaceQuota" target="_blank" class="st" data-op="updateSpaceQuota"><title>PATCH /v3/space_quotas/{guid}
+Space Quotas line · updateSpaceQuota</title>
+<circle cx="2712" cy="1506" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="2724" y="1511" text-anchor="start" style="fill:#1A1F2C">Update space quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-deleteSpaceQuota" target="_blank" class="st" data-op="deleteSpaceQuota"><title>DELETE /v3/space_quotas/{guid}
+Space Quotas line · deleteSpaceQuota</title>
+<circle cx="2624" cy="1594" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<line x1="2620" y1="1598" x2="2628" y2="1590" stroke="#0d7768" stroke-width="2"/>
+<text x="2636" y="1599" text-anchor="start" style="fill:#1A1F2C">Delete space quota</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-applySpaceQuota" target="_blank" class="st" data-op="applySpaceQuota"><title>POST /v3/space_quotas/{quota_guid}/relationships/spaces
+Space Quotas line · applySpaceQuota</title>
+<circle cx="2492" cy="1594" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2501" y="1584" text-anchor="start" style="fill:#1A1F2C">Create space <tspan font-weight="700" style="fill:#0E9F6E">⇄SPA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-space-quotas-api/#op-removeSpaceQuotaFromSpace" target="_blank" class="st" data-op="removeSpaceQuotaFromSpace"><title>DELETE /v3/space_quotas/{guid}/relationships/spaces/{space_guid}
+Space Quotas line · removeSpaceQuotaFromSpace</title>
+<circle cx="2492" cy="1418" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<line x1="2488" y1="1422" x2="2496" y2="1414" stroke="#0d7768" stroke-width="2"/>
+<text x="2504" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-listSpaces" target="_blank" class="st" data-op="listSpaces"><title>GET /v3/spaces
+Spaces line · listSpaces</title>
+<circle cx="2184" cy="1638" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2172.0" y="1643" text-anchor="end" style="fill:#1A1F2C">List spaces</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-createSpace" target="_blank" class="st" data-op="createSpace"><title>POST /v3/spaces
+Spaces line · createSpace</title>
+<circle cx="2272" cy="1638" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2266" y="1650" text-anchor="end" transform="rotate(-45 2266 1650)" style="fill:#1A1F2C">Create space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-getSpace" target="_blank" class="st" data-op="getSpace"><title>GET /v3/spaces/{guid}
+Spaces line · getSpace</title>
+<circle cx="2360" cy="1638" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2354" y="1650" text-anchor="end" transform="rotate(-45 2354 1650)" style="fill:#1A1F2C">Get space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-updateSpace" target="_blank" class="st" data-op="updateSpace"><title>PATCH /v3/spaces/{guid}
+Spaces line · updateSpace</title>
+<circle cx="2448" cy="1638" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2460" y="1643" text-anchor="start" style="fill:#1A1F2C">Update space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-deleteSpace" target="_blank" class="st" data-op="deleteSpace"><title>DELETE /v3/spaces/{guid}
+Spaces line · deleteSpace</title>
+<circle cx="2536" cy="1726" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2532" y1="1730" x2="2540" y2="1722" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2548" y="1731" text-anchor="start" style="fill:#1A1F2C">Delete space</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-applyManifestToSpace" target="_blank" class="st" data-op="applyManifestToSpace"><title>POST /v3/spaces/{guid}/actions/apply_manifest
+Spaces line · applyManifestToSpace</title>
+<circle cx="2624" cy="1814" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2636" y="1819" text-anchor="start" style="fill:#1A1F2C">Update apply manifest</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-listSpaceFeatures" target="_blank" class="st" data-op="listSpaceFeatures"><title>GET /v3/spaces/{guid}/features
+Spaces line · listSpaceFeatures</title>
+<circle cx="2624" cy="1902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2636" y="1907" text-anchor="start" style="fill:#1A1F2C">List features</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-getSpaceFeature" target="_blank" class="st" data-op="getSpaceFeature"><title>GET /v3/spaces/{guid}/features/{name}
+Spaces line · getSpaceFeature</title>
+<circle cx="2624" cy="1990" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2636" y="1995" text-anchor="start" style="fill:#1A1F2C">Get feature</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-updateSpaceFeature" target="_blank" class="st" data-op="updateSpaceFeature"><title>PATCH /v3/spaces/{guid}/features/{name}
+Spaces line · updateSpaceFeature</title>
+<circle cx="2536" cy="2078" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2548" y="2083" text-anchor="start" style="fill:#1A1F2C">Update feature</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-createManifestDiffForSpace" target="_blank" class="st" data-op="createManifestDiffForSpace"><title>POST /v3/spaces/{guid}/manifest_diff
+Spaces line · createManifestDiffForSpace</title>
+<circle cx="2448" cy="2166" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2460" y="2171" text-anchor="start" style="fill:#1A1F2C">Update manifest diff</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-getAssignedIsolationSegmentForSpace" target="_blank" class="st" data-op="getAssignedIsolationSegmentForSpace"><title>GET /v3/spaces/{guid}/relationships/isolation_segment
+Spaces line · getAssignedIsolationSegmentForSpace</title>
+<circle cx="2360" cy="2166" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2360" y="2138" text-anchor="middle" style="fill:#1A1F2C">Get isolation<tspan x="2360" dy="13">segment</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-manageIsolationSegmentForSpace" target="_blank" class="st" data-op="manageIsolationSegmentForSpace"><title>PATCH /v3/spaces/{guid}/relationships/isolation_segment
+Spaces line · manageIsolationSegmentForSpace</title>
+<circle cx="2272" cy="2166" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2278" y="2154" transform="rotate(-45 2278 2154)" style="fill:#1A1F2C">Update isolation segment</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-deleteUnmappedRoutesForSpace" target="_blank" class="st" data-op="deleteUnmappedRoutesForSpace"><title>DELETE /v3/spaces/{guid}/routes
+Spaces line · deleteUnmappedRoutesForSpace</title>
+<circle cx="2184" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2178" y="2090" text-anchor="end" transform="rotate(-45 2178 2090)" style="fill:#1A1F2C">Delete route</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-getUsageSummaryForSpace" target="_blank" class="st" data-op="getUsageSummaryForSpace"><title>GET /v3/spaces/{guid}/usage_summary
+Spaces line · getUsageSummaryForSpace</title>
+<circle cx="2096" cy="1814" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2108" y="1819" text-anchor="start" style="fill:#1A1F2C">Get usage summary</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-listRunningSecurityGroupsForSpace" target="_blank" class="st" data-op="listRunningSecurityGroupsForSpace"><title>GET /v3/spaces/{guid}/running_security_groups
+Spaces line · listRunningSecurityGroupsForSpace</title>
+<circle cx="2096" cy="1990" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2102" y="1978" transform="rotate(-45 2102 1978)" style="fill:#1A1F2C">List running security groups</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-listStagingSecurityGroupsForSpace" target="_blank" class="st" data-op="listStagingSecurityGroupsForSpace"><title>GET /v3/spaces/{guid}/staging_security_groups
+Spaces line · listStagingSecurityGroupsForSpace</title>
+<circle cx="2096" cy="1902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2084.0" y="1900" text-anchor="end" style="fill:#1A1F2C">List staging<tspan x="2084.0" dy="13">security groups</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-spaces-api/#op-listUsersForSpace" target="_blank" class="st" data-op="listUsersForSpace"><title>GET /v3/spaces/{guid}/users
+Spaces line · listUsersForSpace</title>
+<circle cx="2184" cy="1726" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2196" y="1731" text-anchor="start" style="fill:#1A1F2C">List users <tspan font-weight="700" style="fill:#4daee0">⇄USE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-stacks-api/#op-listStacks" target="_blank" class="st" data-op="listStacks"><title>GET /v3/stacks
+Stacks line · listStacks</title>
+<circle cx="2404" cy="1946" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2416" y="1951" text-anchor="start" style="fill:#1A1F2C">List stacks</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-stacks-api/#op-createStack" target="_blank" class="st" data-op="createStack"><title>POST /v3/stacks
+Stacks line · createStack</title>
+<circle cx="2404" cy="2034" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2416" y="2039" text-anchor="start" style="fill:#1A1F2C">Create stack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-stacks-api/#op-getStack" target="_blank" class="st" data-op="getStack"><title>GET /v3/stacks/{guid}
+Stacks line · getStack</title>
+<circle cx="2404" cy="2254" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2416" y="2259" text-anchor="start" style="fill:#1A1F2C">Get stack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-stacks-api/#op-updateStack" target="_blank" class="st" data-op="updateStack"><title>PATCH /v3/stacks/{guid}
+Stacks line · updateStack</title>
+<circle cx="2316" cy="2254" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2322" y="2242" transform="rotate(-45 2322 2242)" style="fill:#1A1F2C">Update stack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-stacks-api/#op-deleteStack" target="_blank" class="st" data-op="deleteStack"><title>DELETE /v3/stacks/{guid}
+Stacks line · deleteStack</title>
+<circle cx="2272" cy="2254" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2268" y1="2258" x2="2276" y2="2250" stroke="#B8860B" stroke-width="2"/>
+<text x="2278" y="2242" transform="rotate(-45 2278 2242)" style="fill:#1A1F2C">Delete stack</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-stacks-api/#op-listAppsOnStack" target="_blank" class="st" data-op="listAppsOnStack"><title>GET /v3/stacks/{guid}/apps
+Stacks line · listAppsOnStack</title>
+<circle cx="2008" cy="2166" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2017" y="2185" text-anchor="start" style="fill:#1A1F2C">List apps</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-listTasks" target="_blank" class="st" data-op="listTasks"><title>GET /v3/tasks
+Tasks line · listTasks</title>
+<circle cx="1964" cy="1902" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1952.0" y="1907" text-anchor="end" style="fill:#1A1F2C">List tasks</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-getTask" target="_blank" class="st" data-op="getTask"><title>GET /v3/tasks/{guid}
+Tasks line · getTask</title>
+<circle cx="1964" cy="1770" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1976" y="1775" text-anchor="start" style="fill:#1A1F2C">Get task</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-updateTask" target="_blank" class="st" data-op="updateTask"><title>PATCH /v3/tasks/{guid}
+Tasks line · updateTask</title>
+<circle cx="1964" cy="1682" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1976" y="1687" text-anchor="start" style="fill:#1A1F2C">Update task</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-cancelTask" target="_blank" class="st" data-op="cancelTask"><title>POST /v3/tasks/{guid}/actions/cancel
+Tasks line · cancelTask</title>
+<circle cx="1964" cy="1594" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1976" y="1599" text-anchor="start" style="fill:#1A1F2C">Cancel action</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-cancelTaskPut" target="_blank" class="st" data-op="cancelTaskPut"><title>PUT /v3/tasks/{guid}/actions/cancel
+Tasks line · cancelTaskPut</title>
+<circle cx="1964" cy="1506" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1952.0" y="1511" text-anchor="end" style="fill:#1A1F2C">Cancel tasks actions</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-cancelTaskShort" target="_blank" class="st" data-op="cancelTaskShort"><title>PUT /v3/tasks/{guid}/cancel
+Tasks line · cancelTaskShort</title>
+<circle cx="1964" cy="1418" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1976" y="1423" text-anchor="start" style="fill:#1A1F2C">Cancel tasks</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-listAppTasks" target="_blank" class="st" data-op="listAppTasks"><title>GET /v3/apps/{guid}/tasks
+Tasks line · listAppTasks</title>
+<circle cx="2008" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2020" y="2083" text-anchor="start" style="fill:#1A1F2C">List tasks <tspan font-weight="700" style="fill:#D6264F">⇄APP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-tasks-api/#op-createTask" target="_blank" class="st" data-op="createTask"><title>POST /v3/apps/{guid}/tasks
+Tasks line · createTask</title>
+<circle cx="2008" cy="1946" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2020" y="1951" text-anchor="start" style="fill:#1A1F2C">Create task</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-users-api/#op-listUsers" target="_blank" class="st" data-op="listUsers"><title>GET /v3/users
+Users line · listUsers</title>
+<circle cx="2096" cy="1462" r="5.5" fill="#fff" stroke="#4daee0" stroke-width="2.5"/>
+<text x="2108" y="1467" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-users-api/#op-createUser" target="_blank" class="st" data-op="createUser"><title>POST /v3/users
+Users line · createUser</title>
+<circle cx="2096" cy="1594" r="5.5" fill="#4daee0" stroke="#4daee0" stroke-width="2.5"/>
+<text x="2087.0" y="1613" text-anchor="end" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-users-api/#op-getUser" target="_blank" class="st" data-op="getUser"><title>GET /v3/users/{guid}
+Users line · getUser</title>
+<circle cx="2228" cy="1594" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2228" y="1580" text-anchor="middle" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-users-api/#op-updateUser" target="_blank" class="st" data-op="updateUser"><title>PATCH /v3/users/{guid}
+Users line · updateUser</title>
+<circle cx="2316" cy="1594" r="5.5" fill="#4daee0" stroke="#4daee0" stroke-width="2.5"/>
+<text x="2328" y="1599" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/cloud-foundry/cloud-foundry-users-api/#op-deleteUser" target="_blank" class="st" data-op="deleteUser"><title>DELETE /v3/users/{guid}
+Users line · deleteUser</title>
+<circle cx="2316" cy="1418" r="5.5" fill="#fff" stroke="#4daee0" stroke-width="2.5"/>
+<line x1="2312" y1="1422" x2="2320" y2="1414" stroke="#4daee0" stroke-width="2"/>
+<text x="2328" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<text x="4486" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="4486" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">APPS</text>
+<rect x="4486" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="4503" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="4528" y="269" font-size="11" fill="#1A1F2C">Apps <tspan fill="#8A93A6">28</tspan></text>
+<rect x="4486" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="4503" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DRO</text><text x="4528" y="286" font-size="11" fill="#1A1F2C">Droplets <tspan fill="#8A93A6">8</tspan></text>
+<text x="4486" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">SPACES</text>
+<rect x="4486" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="4503" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SPA</text><text x="4528" y="329" font-size="11" fill="#1A1F2C">Spaces <tspan fill="#8A93A6">17</tspan></text>
+<rect x="4486" y="336" width="34" height="13" rx="3" fill="#0d7768"/><text x="4503" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SQ</text><text x="4528" y="346" font-size="11" fill="#1A1F2C">Space Quotas <tspan fill="#8A93A6">7</tspan></text>
+<text x="4486" y="372" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">ORGANIZATIONS</text>
+<rect x="4486" y="379" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="4503" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="4528" y="389" font-size="11" fill="#1A1F2C">Organizations <tspan fill="#8A93A6">10</tspan></text>
+<rect x="4486" y="396" width="34" height="13" rx="3" fill="#1d25a9"/><text x="4503" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OQ</text><text x="4528" y="406" font-size="11" fill="#1A1F2C">Organization Quotas <tspan fill="#8A93A6">6</tspan></text>
+<rect x="4486" y="413" width="34" height="13" rx="3" fill="#4daee0"/><text x="4503" y="423" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="4528" y="423" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">5</tspan></text>
+<text x="4486" y="449" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">PROCESSES</text>
+<rect x="4486" y="456" width="34" height="13" rx="3" fill="#E07B12"/><text x="4503" y="466" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="4528" y="466" font-size="11" fill="#1A1F2C">Processes <tspan fill="#8A93A6">13</tspan></text>
+<rect x="4486" y="473" width="34" height="13" rx="3" fill="#b58613"/><text x="4503" y="483" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SID</text><text x="4528" y="483" font-size="11" fill="#1A1F2C">Sidecars <tspan fill="#8A93A6">6</tspan></text>
+<text x="4486" y="509" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">SERVICE INSTANCES</text>
+<rect x="4486" y="516" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="4503" y="526" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SI</text><text x="4528" y="526" font-size="11" fill="#1A1F2C">Service Instances <tspan fill="#8A93A6">14</tspan></text>
+<rect x="4486" y="533" width="34" height="13" rx="3" fill="#8823d6"/><text x="4503" y="543" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEB</text><text x="4528" y="543" font-size="11" fill="#1A1F2C">ServiceBindings <tspan fill="#8A93A6">4</tspan></text>
+<text x="4486" y="569" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">ROUTES</text>
+<rect x="4486" y="576" width="34" height="13" rx="3" fill="#B0287F"/><text x="4503" y="586" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROU</text><text x="4528" y="586" font-size="11" fill="#1A1F2C">Routes <tspan fill="#8A93A6">15</tspan></text>
+<text x="4486" y="612" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ISOLATION SEGMENTS</text>
+<rect x="4486" y="619" width="34" height="13" rx="3" fill="#0B7A75"/><text x="4503" y="629" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IS</text><text x="4528" y="629" font-size="11" fill="#1A1F2C">Isolation Segments <tspan fill="#8A93A6">10</tspan></text>
+<text x="4486" y="655" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">DOMAINS</text>
+<rect x="4486" y="662" width="34" height="13" rx="3" fill="#B8860B"/><text x="4503" y="672" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOM</text><text x="4528" y="672" font-size="11" fill="#1A1F2C">Domains <tspan fill="#8A93A6">9</tspan></text>
+<text x="4486" y="698" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">SECURITY GROUPS</text>
+<rect x="4486" y="705" width="34" height="13" rx="3" fill="#C2410C"/><text x="4503" y="715" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SG</text><text x="4528" y="715" font-size="11" fill="#1A1F2C">Security Groups <tspan fill="#8A93A6">9</tspan></text>
+<text x="4486" y="741" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">PACKAGES</text>
+<rect x="4486" y="748" width="34" height="13" rx="3" fill="#2E7D32"/><text x="4503" y="758" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAC</text><text x="4528" y="758" font-size="11" fill="#1A1F2C">Packages <tspan fill="#8A93A6">8</tspan></text>
+<text x="4486" y="784" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">TASKS</text>
+<rect x="4486" y="791" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="4503" y="801" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAS</text><text x="4528" y="801" font-size="11" fill="#1A1F2C">Tasks <tspan fill="#8A93A6">8</tspan></text>
+<text x="4486" y="827" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="4486" y="834" width="34" height="13" rx="3" fill="#D6264F"/><text x="4503" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="4528" y="844" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">11</tspan></text>
+<rect x="4486" y="851" width="34" height="13" rx="3" fill="#B0287F"/><text x="4503" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SP</text><text x="4528" y="861" font-size="11" fill="#1A1F2C">Service Plans <tspan fill="#8A93A6">8</tspan></text>
+<rect x="4486" y="868" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="4503" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCB</text><text x="4528" y="878" font-size="11" fill="#1A1F2C">Service Credential Bindings <tspan fill="#8A93A6">7</tspan></text>
+<rect x="4486" y="885" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="4503" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BUI</text><text x="4528" y="895" font-size="11" fill="#1A1F2C">Buildpacks <tspan fill="#8A93A6">6</tspan></text>
+<rect x="4486" y="902" width="34" height="13" rx="3" fill="#0B7A75"/><text x="4503" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BLD</text><text x="4528" y="912" font-size="11" fill="#1A1F2C">Builds <tspan fill="#8A93A6">6</tspan></text>
+<rect x="4486" y="919" width="34" height="13" rx="3" fill="#00838F"/><text x="4503" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DEP</text><text x="4528" y="929" font-size="11" fill="#1A1F2C">Deployments <tspan fill="#8A93A6">6</tspan></text>
+<rect x="4486" y="936" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="4503" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SRB</text><text x="4528" y="946" font-size="11" fill="#1A1F2C">Service Route Bindings <tspan fill="#8A93A6">6</tspan></text>
+<rect x="4486" y="953" width="34" height="13" rx="3" fill="#B8860B"/><text x="4503" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STA</text><text x="4528" y="963" font-size="11" fill="#1A1F2C">Stacks <tspan fill="#8A93A6">6</tspan></text>
+<rect x="4486" y="970" width="34" height="13" rx="3" fill="#8D6E63"/><text x="4503" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REV</text><text x="4528" y="980" font-size="11" fill="#1A1F2C">Revisions <tspan fill="#8A93A6">5</tspan></text>
+<rect x="4486" y="987" width="34" height="13" rx="3" fill="#E07B12"/><text x="4503" y="997" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SB</text><text x="4528" y="997" font-size="11" fill="#1A1F2C">Service Brokers <tspan fill="#8A93A6">5</tspan></text>
+<rect x="4486" y="1004" width="34" height="13" rx="3" fill="#C2410C"/><text x="4503" y="1014" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROL</text><text x="4528" y="1014" font-size="11" fill="#1A1F2C">Roles <tspan fill="#8A93A6">4</tspan></text>
+<rect x="4486" y="1021" width="34" height="13" rx="3" fill="#4A5568"/><text x="4503" y="1031" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SO</text><text x="4528" y="1031" font-size="11" fill="#1A1F2C">Service Offerings <tspan fill="#8A93A6">4</tspan></text>
+<rect x="4486" y="1038" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="4503" y="1048" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AUE</text><text x="4528" y="1048" font-size="11" fill="#1A1F2C">App Usage Events <tspan fill="#8A93A6">3</tspan></text>
+<rect x="4486" y="1055" width="34" height="13" rx="3" fill="#2E7D32"/><text x="4503" y="1065" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FF</text><text x="4528" y="1065" font-size="11" fill="#1A1F2C">Feature Flags <tspan fill="#8A93A6">3</tspan></text>
+<rect x="4486" y="1072" width="34" height="13" rx="3" fill="#D6264F"/><text x="4503" y="1082" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUE</text><text x="4528" y="1082" font-size="11" fill="#1A1F2C">Service Usage Events <tspan fill="#8A93A6">3</tspan></text>
+<text x="4736" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(4754,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="4780" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(4754,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="4780" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(4754,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="4780" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(4754,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="4780" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(4754,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="4780" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(4754,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="4780" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(4754,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="4780" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(4754,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="4780" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="4736" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="4736" y="463" font-size="10.5" fill="#5A6275">“Admin” → More Local line · 1 op</text>
+<text x="4736" y="478" font-size="10.5" fill="#5A6275">“Application Metric API V1” → Apps line · 1 op</text>
+<text x="4736" y="493" font-size="10.5" fill="#5A6275">“Audit Events” → More Local line · 2 ops</text>
+<text x="4736" y="508" font-size="10.5" fill="#5A6275">“Catalog” → More Local line · 1 op</text>
+<text x="4736" y="523" font-size="10.5" fill="#5A6275">“Create Policy API V1” → Apps line · 1 op</text>
+<text x="4736" y="538" font-size="10.5" fill="#5A6275">“Custom Metrics API V1” → Apps line · 1 op</text>
+<text x="4736" y="553" font-size="10.5" fill="#5A6275">“Delete Policy API V1” → Apps line · 1 op</text>
+<text x="4736" y="568" font-size="10.5" fill="#5A6275">“Environment Variable Groups” → More Local line · 2 ops</text>
+<text x="4736" y="583" font-size="10.5" fill="#5A6275">“Get Policy API V1” → Apps line · 1 op</text>
+<text x="4736" y="598" font-size="10.5" fill="#5A6275">“Info” → More Local line · 2 ops</text>
+<text x="4736" y="613" font-size="10.5" fill="#5A6275">“Jobs” → More Local line · 1 op</text>
+<text x="4736" y="628" font-size="10.5" fill="#5A6275">“Manifests” → Apps line · 1 op</text>
+<text x="4736" y="643" font-size="10.5" fill="#5A6275">“Resource Matches” → More Local line · 1 op</text>
+<text x="4736" y="658" font-size="10.5" fill="#5A6275">“Root” → More Local line · 1 op</text>
+<text x="4736" y="673" font-size="10.5" fill="#5A6275">“Scaling History API V1” → Apps line · 1 op</text>
+<text x="4736" y="723" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="4736" y="740" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3352" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/cloud-foundry/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1532 1020" width="1532" height="1020" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1532" height="1020" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Demandsphere API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">10 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="454.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">DEMANDSPHERE</text>
+<path class="line" data-line="Keywords" d="M832.0,608.0 L748.0,608.0 L720.0,608.0 Q706.0,608.0 696.1,617.9 L622.0,692.0 L538.0,776.0 L454.0,860.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Keywords</title></path>
+<path class="line" data-line="Demandsphere Local" d="M160.0,230.0 L160.0,314.0 L160.0,398.0 L160.0,482.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Demandsphere Local</title></path>
+<line x1="832" y1="608" x2="866.0" y2="608.0" stroke="#D6264F" stroke-width="7"/><rect x="842.0" y="597.0" width="48" height="22" rx="5" fill="#D6264F"><title>Keywords</title></rect><text x="866.0" y="613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">KEY</text>
+<line x1="454" y1="860" x2="429.95836943965736" y2="884.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="405.95836943965736" y="873.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Keywords</title></rect><text x="429.95836943965736" y="889.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">KEY</text>
+<line x1="160" y1="230" x2="160.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="136.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Demandsphere Local</title></rect><text x="160.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DL</text>
+<line x1="160" y1="482" x2="160.0" y2="516.0" stroke="#0E9F6E" stroke-width="7"/><rect x="136.0" y="505.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Demandsphere Local</title></rect><text x="160.0" y="521.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DL</text>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-keywords-api/#op-Keywords_KeywordGroupsDetail" target="_blank" class="st" data-op="Keywords_KeywordGroupsDetail"><title>POST /keywords/keyword_groups_detail/list
+Keywords line · Keywords_KeywordGroupsDetail</title>
+<circle cx="832" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="826" y="620" text-anchor="end" transform="rotate(-45 826 620)" style="fill:#1A1F2C">List keywords keyword groups detail</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-keywords-api/#op-Keywords_KeywordsPerformanceDetail" target="_blank" class="st" data-op="Keywords_KeywordsPerformanceDetail"><title>POST /keywords/keywords_performance_detail/list
+Keywords line · Keywords_KeywordsPerformanceDetail</title>
+<circle cx="748" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="754" y="596" transform="rotate(-45 754 596)" style="fill:#1A1F2C">List keywords keywords performance detail</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-keywords-api/#op-Keywords_LandingMatches" target="_blank" class="st" data-op="Keywords_LandingMatches"><title>POST /keywords/landing_matches/list
+Keywords line · Keywords_LandingMatches</title>
+<circle cx="706" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="694.0" y="613" text-anchor="end" style="fill:#1A1F2C">List keywords landing matches</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-keywords-api/#op-Keywords_LocalRankings" target="_blank" class="st" data-op="Keywords_LocalRankings"><title>POST /keywords/local_rankings/list
+Keywords line · Keywords_LocalRankings</title>
+<circle cx="622" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="610.0" y="697" text-anchor="end" style="fill:#1A1F2C">List keywords local rankings</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-keywords-api/#op-Keywords_RankingTrends" target="_blank" class="st" data-op="Keywords_RankingTrends"><title>POST /keywords/ranking_trends/list
+Keywords line · Keywords_RankingTrends</title>
+<circle cx="538" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="781" text-anchor="start" style="fill:#1A1F2C">List keywords ranking trends</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-keywords-api/#op-Keywords_SearchEngines" target="_blank" class="st" data-op="Keywords_SearchEngines"><title>POST /keywords/search_engines/list
+Keywords line · Keywords_SearchEngines</title>
+<circle cx="454" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="865" text-anchor="start" style="fill:#1A1F2C">List keywords search engines</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-pages-api/#op-Pages_LandingsHistory" target="_blank" class="st" data-op="Pages_LandingsHistory"><title>POST /pages/landings_history/list
+Demandsphere Local line · Pages_LandingsHistory</title>
+<circle cx="160" cy="230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="235" text-anchor="start" style="fill:#1A1F2C">List pages landings history</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-searchengines-api/#op-SearchEngines_Summary" target="_blank" class="st" data-op="SearchEngines_Summary"><title>POST /search_engines/summary/list
+Demandsphere Local line · SearchEngines_Summary</title>
+<circle cx="160" cy="314" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="319" text-anchor="start" style="fill:#1A1F2C">List search engines summary</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-sites-api/#op-Sites_HierarchyList" target="_blank" class="st" data-op="Sites_HierarchyList"><title>POST /sites/hierarchy/list
+Demandsphere Local line · Sites_HierarchyList</title>
+<circle cx="160" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="403" text-anchor="start" style="fill:#1A1F2C">List sites hierarchy</text>
+</a>
+<a href="https://apis.apis.io/apis/demandsphere/demandsphere-sites-api/#op-Sites_PropertiesList" target="_blank" class="st" data-op="Sites_PropertiesList"><title>POST /sites/properties/list
+Demandsphere Local line · Sites_PropertiesList</title>
+<circle cx="160" cy="482" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="487" text-anchor="start" style="fill:#1A1F2C">List sites properties</text>
+</a>
+<text x="1022" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1022" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">DEMANDSPHERE</text>
+<rect x="1022" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1039" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">KEY</text><text x="1064" y="269" font-size="11" fill="#1A1F2C">Keywords <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1022" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1039" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DL</text><text x="1064" y="286" font-size="11" fill="#1A1F2C">Demandsphere Local <tspan fill="#8A93A6">4</tspan></text>
+<text x="1272" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1290,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1316" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1290,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1316" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1290,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1316" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1290,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1316" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1290,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1316" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1290,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1316" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1290,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1316" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1290,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1316" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1272" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1272" y="463" font-size="10.5" fill="#5A6275">“Pages” → Demandsphere Local line · 1 op</text>
+<text x="1272" y="478" font-size="10.5" fill="#5A6275">“Sites” → Demandsphere Local line · 2 ops</text>
+<text x="1272" y="493" font-size="10.5" fill="#5A6275">“searchengines” → Demandsphere Local line · 1 op</text>
+<text x="1272" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1272" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="990" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/demandsphere/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
