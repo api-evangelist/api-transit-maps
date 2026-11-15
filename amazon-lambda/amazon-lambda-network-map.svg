@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1616 1062" width="1616" height="1062" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1616" height="1062" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Amazon-Lambda API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">11 operations as stops · 2 tags as lines · 0 interchanges · 8 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="518.9090909090909" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">AMAZON LAMBDA</text>
+<path class="line" data-line="Event Source Mappings" d="M916.0,902.0 L832.0,902.0 L706.0,902.0 L622.0,902.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Event Source Mappings</title></path>
+<path class="line" data-line="Functions" d="M496.0,230.0 L496.0,314.0 L496.0,384.0 Q496.0,398.0 486.1,407.9 L421.9,472.1 Q412.0,482.0 398.0,482.0 L328.0,482.0 L244.0,482.0 L160.0,482.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Functions</title></path>
+<line x1="916" y1="902" x2="950.0" y2="902.0" stroke="#0E9F6E" stroke-width="7"/><rect x="926.0" y="891.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Event Source Mappings</title></rect><text x="950.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ESM</text>
+<line x1="622" y1="902" x2="588.0" y2="902.0" stroke="#0E9F6E" stroke-width="7"/><rect x="564.0" y="891.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Event Source Mappings</title></rect><text x="588.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ESM</text>
+<line x1="496" y1="230" x2="496.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="472.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Functions</title></rect><text x="496.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUN</text>
+<line x1="160" y1="482" x2="126.0" y2="482.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="471.0" width="48" height="22" rx="5" fill="#D6264F"><title>Functions</title></rect><text x="126.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUN</text>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-event-source-mappings-api/#op-CreateEventSourceMapping" target="_blank" class="st" data-op="CreateEventSourceMapping"><title>POST /event-source-mappings
+Event Source Mappings line · CreateEventSourceMapping
+Express: X3, X4</title>
+<circle cx="832" cy="902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="829" y="899" width="6" height="6" transform="rotate(45 832 902)" fill="#1A1F2C"/>
+<text x="838" y="890" transform="rotate(-45 838 890)" style="fill:#1A1F2C">Create event source mapping</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-event-source-mappings-api/#op-ListEventSourceMappings" target="_blank" class="st" data-op="ListEventSourceMappings"><title>GET /event-source-mappings
+Event Source Mappings line · ListEventSourceMappings
+Express: X7</title>
+<circle cx="916" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="913" y="899" width="6" height="6" transform="rotate(45 916 902)" fill="#1A1F2C"/>
+<text x="910" y="914" text-anchor="end" transform="rotate(-45 910 914)" style="fill:#1A1F2C">List event source mappings</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-event-source-mappings-api/#op-GetEventSourceMapping" target="_blank" class="st" data-op="GetEventSourceMapping"><title>GET /event-source-mappings/{UUID}
+Event Source Mappings line · GetEventSourceMapping
+Express: X3, X4, X7</title>
+<circle cx="706" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="703" y="899" width="6" height="6" transform="rotate(45 706 902)" fill="#1A1F2C"/>
+<text x="712" y="890" transform="rotate(-45 712 890)" style="fill:#1A1F2C">Get event source mapping</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-event-source-mappings-api/#op-DeleteEventSourceMapping" target="_blank" class="st" data-op="DeleteEventSourceMapping"><title>DELETE /event-source-mappings/{UUID}
+Event Source Mappings line · DeleteEventSourceMapping
+Express: X7</title>
+<circle cx="622" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="618" y1="906" x2="626" y2="898" stroke="#0E9F6E" stroke-width="2"/>
+<rect x="619" y="899" width="6" height="6" transform="rotate(45 622 902)" fill="#1A1F2C"/>
+<text x="628" y="890" transform="rotate(-45 628 890)" style="fill:#1A1F2C">Delete event source mapping</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-CreateFunction" target="_blank" class="st" data-op="CreateFunction"><title>POST /functions
+Functions line · CreateFunction
+Express: X2, X3</title>
+<circle cx="496" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="493" y="311" width="6" height="6" transform="rotate(45 496 314)" fill="#1A1F2C"/>
+<text x="508" y="319" text-anchor="start" style="fill:#1A1F2C">Create function</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-ListFunctions" target="_blank" class="st" data-op="ListFunctions"><title>GET /functions
+Functions line · ListFunctions
+Express: X6</title>
+<circle cx="496" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="493" y="227" width="6" height="6" transform="rotate(45 496 230)" fill="#1A1F2C"/>
+<text x="508" y="235" text-anchor="start" style="fill:#1A1F2C">List functions</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-GetFunction" target="_blank" class="st" data-op="GetFunction"><title>GET /functions/{FunctionName}
+Functions line · GetFunction
+Express: X1, X2, X3, X5, X6, X8</title>
+<circle cx="496" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="493" y="395" width="6" height="6" transform="rotate(45 496 398)" fill="#1A1F2C"/>
+<text x="508" y="403" text-anchor="start" style="fill:#1A1F2C">Get function</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-DeleteFunction" target="_blank" class="st" data-op="DeleteFunction"><title>DELETE /functions/{FunctionName}
+Functions line · DeleteFunction
+Express: X1</title>
+<circle cx="412" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="408" y1="486" x2="416" y2="478" stroke="#D6264F" stroke-width="2"/>
+<rect x="409" y="479" width="6" height="6" transform="rotate(45 412 482)" fill="#1A1F2C"/>
+<text x="424" y="487" text-anchor="start" style="fill:#1A1F2C">Delete function</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-UpdateFunctionCode" target="_blank" class="st" data-op="UpdateFunctionCode"><title>PUT /functions/{FunctionName}/code
+Functions line · UpdateFunctionCode
+Express: X6, X8</title>
+<circle cx="328" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="479" width="6" height="6" transform="rotate(45 328 482)" fill="#1A1F2C"/>
+<text x="334" y="470" transform="rotate(-45 334 470)" style="fill:#1A1F2C">Update code</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-UpdateFunctionConfiguration" target="_blank" class="st" data-op="UpdateFunctionConfiguration"><title>PUT /functions/{FunctionName}/configuration
+Functions line · UpdateFunctionConfiguration
+Express: X5</title>
+<circle cx="244" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="241" y="479" width="6" height="6" transform="rotate(45 244 482)" fill="#1A1F2C"/>
+<text x="250" y="470" transform="rotate(-45 250 470)" style="fill:#1A1F2C">Update configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-lambda/amazon-lambda-functions-api/#op-InvokeFunction" target="_blank" class="st" data-op="InvokeFunction"><title>POST /functions/{FunctionName}/invocations
+Functions line · InvokeFunction
+Express: X2, X5, X8</title>
+<circle cx="160" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="157" y="479" width="6" height="6" transform="rotate(45 160 482)" fill="#1A1F2C"/>
+<text x="166" y="470" transform="rotate(-45 166 470)" style="fill:#1A1F2C">Create invocation</text>
+</a>
+<text x="1106" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1106" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AMAZON LAMBDA</text>
+<rect x="1106" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1123" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FUN</text><text x="1148" y="269" font-size="11" fill="#1A1F2C">Functions <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1106" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1123" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ESM</text><text x="1148" y="286" font-size="11" fill="#1A1F2C">Event Source Mappings <tspan fill="#8A93A6">4</tspan></text>
+<text x="1356" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1374,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1374,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1374,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1400" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1374,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1400" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1374,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1400" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1374,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1400" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1374,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1400" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1374,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1400" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1356" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1356" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="GetFunction DeleteFunction"><rect x="1356" y="487" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="498" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1393" y="498" font-size="11" fill="#1A1F2C">Amazon Lambda Decommission Fun</text></g>
+<g class="rt" data-stops="CreateFunction GetFunction InvokeFunction"><rect x="1356" y="506" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="517" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1393" y="517" font-size="11" fill="#1A1F2C">Amazon Lambda Deploy and Invok</text></g>
+<g class="rt" data-stops="CreateFunction GetFunction CreateEventSourceMapping GetEventSourceMapping"><rect x="1356" y="525" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="536" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1393" y="536" font-size="11" fill="#1A1F2C">Amazon Lambda Deploy Function </text></g>
+<g class="rt" data-stops="CreateEventSourceMapping GetEventSourceMapping"><rect x="1356" y="544" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="555" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1393" y="555" font-size="11" fill="#1A1F2C">Amazon Lambda Provision Event </text></g>
+<g class="rt" data-stops="UpdateFunctionConfiguration GetFunction InvokeFunction"><rect x="1356" y="563" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="574" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1393" y="574" font-size="11" fill="#1A1F2C">Amazon Lambda Reconfigure Func</text></g>
+<g class="rt" data-stops="ListFunctions UpdateFunctionCode GetFunction"><rect x="1356" y="582" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="593" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1393" y="593" font-size="11" fill="#1A1F2C">Amazon Lambda Redeploy Discove</text></g>
+<g class="rt" data-stops="ListEventSourceMappings GetEventSourceMapping DeleteEventSourceMapping"><rect x="1356" y="601" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="612" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1393" y="612" font-size="11" fill="#1A1F2C">Amazon Lambda Teardown Event S</text></g>
+<g class="rt" data-stops="UpdateFunctionCode GetFunction InvokeFunction"><rect x="1356" y="620" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1371" y="631" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="1393" y="631" font-size="11" fill="#1A1F2C">Amazon Lambda Update Code and </text></g>
+<text x="160" y="1032" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/amazon-lambda/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
