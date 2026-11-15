@@ -1,0 +1,995 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3808 2150" width="3808" height="2150" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3808" height="2150" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The One-Codex API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">170 operations as stops · 21 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Alignments" d="M380.0,406.0 L380.0,524.0 Q380.0,538.0 389.9,547.9 L424.0,582.0 L458.1,616.1 Q468.0,626.0 468.0,640.0 L468.0,744.0 Q468.0,758.0 458.1,767.9 L424.0,802.0 L389.9,836.1 Q380.0,846.0 366.0,846.0 L336.0,846.0 L248.0,846.0 L160.0,846.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Alignments</title></path>
+<path class="line" data-line="Analyses" d="M2008.0,494.0 L2086.1,572.1 Q2096.0,582.0 2096.0,596.0 L2096.0,670.0 L2096.0,744.0 Q2096.0,758.0 2105.9,767.9 L2130.1,792.1 Q2140.0,802.0 2140.0,816.0 L2140.0,876.0 Q2140.0,890.0 2130.1,899.9 L2017.9,1012.1 Q2008.0,1022.0 1998.1,1012.1 L1964.0,978.0 L1929.9,943.9 Q1920.0,934.0 1920.0,920.0 L1920.0,758.0 L1920.0,670.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Analyses</title></path>
+<path class="line" data-line="Annotation Sets" d="M644.0,1462.0 L688.0,1418.0 L820.0,1286.0 L908.0,1198.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Annotation Sets</title></path>
+<path class="line" data-line="Assemblies" d="M688.0,1066.0 L776.0,1066.0 L864.0,1066.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Assemblies</title></path>
+<path class="line" data-line="Assets" d="M776.0,934.0 L688.0,846.0 L653.9,811.9 Q644.0,802.0 644.0,788.0 L644.0,714.0 L644.0,582.0 L644.0,494.0 L644.0,406.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Assets</title></path>
+<path class="line" data-line="Classifications" d="M3108.0,1418.0 L3020.0,1418.0 L2976.0,1418.0 L2814.0,1418.0 Q2800.0,1418.0 2790.1,1408.1 L2765.9,1383.9 Q2756.0,1374.0 2742.0,1374.0 L2594.0,1374.0 Q2580.0,1374.0 2570.1,1383.9 L2545.9,1408.1 Q2536.0,1418.0 2536.0,1432.0 L2536.0,1448.0 Q2536.0,1462.0 2545.9,1471.9 L2614.1,1540.1 Q2624.0,1550.0 2638.0,1550.0 L2654.0,1550.0 Q2668.0,1550.0 2677.9,1559.9 L2756.0,1638.0 L2844.0,1726.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Classifications</title></path>
+<path class="line" data-line="Controls" d="M2008.0,1990.0 L2008.0,1902.0 L2008.0,1770.0 L2008.0,1682.0 L2008.0,1608.0 Q2008.0,1594.0 2017.9,1584.1 L2042.1,1559.9 Q2052.0,1550.0 2066.0,1550.0 L2126.0,1550.0 Q2140.0,1550.0 2140.0,1564.0 L2140.0,1682.0 L2140.0,1770.0 L2140.0,1858.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Controls</title></path>
+<path class="line" data-line="Documents" d="M2008.0,846.0 L2130.1,968.1 Q2140.0,978.0 2154.0,978.0 L2170.0,978.0 Q2184.0,978.0 2193.9,968.1 L2218.1,943.9 Q2228.0,934.0 2218.1,924.1 L2193.9,899.9 Q2184.0,890.0 2184.0,876.0 L2184.0,758.0 L2184.0,626.0 L2184.0,538.0 L2184.0,406.0 L2184.0,318.0 L2184.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Documents</title></path>
+<path class="line" data-line="Functional Profiles" d="M2712.0,582.0 L2624.0,670.0 L2580.0,714.0 L2492.0,802.0 L2413.9,880.1 Q2404.0,890.0 2390.0,890.0 L2330.0,890.0 Q2316.0,890.0 2306.1,880.1 L2281.9,855.9 Q2272.0,846.0 2272.0,832.0 L2272.0,728.0 Q2272.0,714.0 2281.9,704.1 L2350.1,635.9 Q2360.0,626.0 2360.0,612.0 L2360.0,538.0 L2360.0,450.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Functional Profiles</title></path>
+<path class="line" data-line="Jobs" d="M468.0,1814.0 L586.0,1814.0 Q600.0,1814.0 600.0,1800.0 L600.0,1652.0 Q600.0,1638.0 590.1,1628.1 L565.9,1603.9 Q556.0,1594.0 542.0,1594.0 L526.0,1594.0 Q512.0,1594.0 502.1,1603.9 L424.0,1682.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Jobs</title></path>
+<path class="line" data-line="Metadata" d="M820.0,1462.0 L688.0,1330.0 L644.0,1286.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Metadata</title></path>
+<path class="line" data-line="Mlsts" d="M2668.0,1902.0 L2580.0,1814.0 L2501.9,1735.9 Q2492.0,1726.0 2492.0,1712.0 L2492.0,1652.0 Q2492.0,1638.0 2482.1,1628.1 L2413.9,1559.9 Q2404.0,1550.0 2390.0,1550.0 L2286.0,1550.0 Q2272.0,1550.0 2272.0,1564.0 L2272.0,1594.0 L2272.0,1682.0 L2272.0,1770.0 L2272.0,1902.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Mlsts</title></path>
+<path class="line" data-line="Panels" d="M2976.0,1198.0 L2888.0,1198.0 L2800.0,1198.0 L2712.0,1198.0 L2682.0,1198.0 Q2668.0,1198.0 2658.1,1188.1 L2633.9,1163.9 Q2624.0,1154.0 2610.0,1154.0 L2506.0,1154.0 Q2492.0,1154.0 2492.0,1140.0 L2492.0,1124.0 Q2492.0,1110.0 2501.9,1100.1 L2624.0,978.0 L2702.1,899.9 Q2712.0,890.0 2726.0,890.0 L2800.0,890.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Panels</title></path>
+<path class="line" data-line="Projects" d="M2888.0,1330.0 L2853.9,1295.9 Q2844.0,1286.0 2830.0,1286.0 L2668.0,1286.0 L2550.0,1286.0 Q2536.0,1286.0 2526.1,1276.1 L2501.9,1251.9 Q2492.0,1242.0 2501.9,1232.1 L2624.0,1110.0 L2658.1,1075.9 Q2668.0,1066.0 2682.0,1066.0 L2756.0,1066.0 L2844.0,1066.0 L2932.0,1066.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Projects</title></path>
+<path class="line" data-line="Reports" d="M2492.0,538.0 L2492.0,626.0 L2492.0,700.0 Q2492.0,714.0 2482.1,723.9 L2413.9,792.1 Q2404.0,802.0 2390.0,802.0 L2374.0,802.0 Q2360.0,802.0 2360.0,816.0 L2360.0,964.0 Q2360.0,978.0 2374.0,978.0 L2478.0,978.0 Q2492.0,978.0 2501.9,968.1 L2536.0,934.0 L2624.0,846.0 L2712.0,758.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reports</title></path>
+<path class="line" data-line="Samples" d="M1656.0,978.0 L1744.0,978.0 L1818.0,978.0 Q1832.0,978.0 1841.9,987.9 L1920.0,1066.0 L1998.1,1144.1 Q2008.0,1154.0 2008.0,1168.0 L2008.0,1242.0 L2008.0,1316.0 Q2008.0,1330.0 1998.1,1339.9 L1929.9,1408.1 Q1920.0,1418.0 1906.0,1418.0 L1832.0,1418.0 L1758.0,1418.0 Q1744.0,1418.0 1734.1,1408.1 L1665.9,1339.9 Q1656.0,1330.0 1656.0,1316.0 L1656.0,1242.0 L1656.0,1154.0 L1656.0,978.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Samples</title></path>
+<path class="line" data-line="Sequencing" d="M2096.0,1418.0 L2022.0,1418.0 Q2008.0,1418.0 1998.1,1408.1 L1929.9,1339.9 Q1920.0,1330.0 1906.0,1330.0 L1788.0,1330.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sequencing</title></path>
+<path class="line" data-line="Tags" d="M820.0,1594.0 L732.0,1682.0 L688.0,1726.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="Taxa" d="M248.0,1066.0 L336.0,1154.0 L414.1,1232.1 Q424.0,1242.0 414.1,1251.9 L336.0,1330.0 L248.0,1418.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Taxa</title></path>
+<path class="line" data-line="Workflows" d="M2404.0,1946.0 L2404.0,1858.0 L2404.0,1740.0 Q2404.0,1726.0 2394.1,1716.1 L2369.9,1691.9 Q2360.0,1682.0 2360.0,1668.0 L2360.0,1638.0 L2360.0,1432.0 Q2360.0,1418.0 2374.0,1418.0 L2390.0,1418.0 Q2404.0,1418.0 2413.9,1427.9 L2536.0,1550.0 L2624.0,1638.0 L2702.1,1716.1 Q2712.0,1726.0 2712.0,1740.0 L2712.0,1770.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workflows</title></path>
+<path class="line" data-line="More Local" d="M380.0,978.0 L454.0,978.0 Q468.0,978.0 477.9,987.9 L502.1,1012.1 Q512.0,1022.0 512.0,1036.0 L512.0,1154.0 L512.0,1242.0 L512.0,1360.0 Q512.0,1374.0 502.1,1383.9 L468.0,1418.0 L380.0,1506.0 L292.0,1594.0" fill="none" stroke="#B0287F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="380" y1="406" x2="380.0" y2="372.0" stroke="#D6264F" stroke-width="7"/><rect x="356.0" y="361.0" width="48" height="22" rx="5" fill="#D6264F"><title>Alignments</title></rect><text x="380.0" y="377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALI</text>
+<line x1="160" y1="846" x2="126.0" y2="846.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="835.0" width="48" height="22" rx="5" fill="#D6264F"><title>Alignments</title></rect><text x="126.0" y="851.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALI</text>
+<line x1="2008" y1="494" x2="1983.9583694396574" y2="469.95836943965736" stroke="#0B7A75" stroke-width="7"/><rect x="1959.9583694396574" y="458.95836943965736" width="48" height="22" rx="5" fill="#0B7A75"><title>Analyses</title></rect><text x="1983.9583694396574" y="474.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ANA</text>
+<line x1="1920" y1="670" x2="1920.0" y2="636.0" stroke="#0B7A75" stroke-width="7"/><rect x="1896.0" y="625.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Analyses</title></rect><text x="1920.0" y="641.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ANA</text>
+<line x1="644" y1="1462" x2="619.9583694396574" y2="1486.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="595.9583694396574" y="1475.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Annotation Sets</title></rect><text x="619.9583694396574" y="1491.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="908" y1="1198" x2="932.0416305603426" y2="1173.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="908.0416305603426" y="1162.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Annotation Sets</title></rect><text x="932.0416305603426" y="1178.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="688" y1="1066" x2="654.0" y2="1066.0" stroke="#1F5FD1" stroke-width="7"/><rect x="630.0" y="1055.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Assemblies</title></rect><text x="654.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASSE</text>
+<line x1="864" y1="1066" x2="898.0" y2="1066.0" stroke="#1F5FD1" stroke-width="7"/><rect x="874.0" y="1055.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Assemblies</title></rect><text x="898.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASSE</text>
+<line x1="776" y1="934" x2="800.0416305603426" y2="958.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="776.0416305603426" y="947.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Assets</title></rect><text x="800.0416305603426" y="963.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASS</text>
+<line x1="644" y1="406" x2="644.0" y2="372.0" stroke="#5C6BC0" stroke-width="7"/><rect x="620.0" y="361.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Assets</title></rect><text x="644.0" y="377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ASS</text>
+<line x1="3108" y1="1418" x2="3142.0" y2="1418.0" stroke="#0E9F6E" stroke-width="7"/><rect x="3118.0" y="1407.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Classifications</title></rect><text x="3142.0" y="1423.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="2844" y1="1726" x2="2868.0416305603426" y2="1750.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="2844.0416305603426" y="1739.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Classifications</title></rect><text x="2868.0416305603426" y="1755.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="2008" y1="1990" x2="2008.0" y2="2024.0" stroke="#2E7D32" stroke-width="7"/><rect x="1984.0" y="2013.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Controls</title></rect><text x="2008.0" y="2029.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="2140" y1="1858" x2="2140.0" y2="1892.0" stroke="#2E7D32" stroke-width="7"/><rect x="2116.0" y="1881.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Controls</title></rect><text x="2140.0" y="1897.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="2008" y1="846" x2="1983.9583694396574" y2="821.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1959.9583694396574" y="810.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Documents</title></rect><text x="1983.9583694396574" y="826.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOC</text>
+<line x1="2184" y1="230" x2="2184.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="2160.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Documents</title></rect><text x="2184.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOC</text>
+<line x1="2712" y1="582" x2="2736.0416305603426" y2="557.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="2712.0416305603426" y="546.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Functional Profiles</title></rect><text x="2736.0416305603426" y="562.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FP</text>
+<line x1="2360" y1="450" x2="2360.0" y2="416.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2336.0" y="405.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Functional Profiles</title></rect><text x="2360.0" y="421.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FP</text>
+<line x1="468" y1="1814" x2="434.0" y2="1814.0" stroke="#0E9F6E" stroke-width="7"/><rect x="410.0" y="1803.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Jobs</title></rect><text x="434.0" y="1819.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOB</text>
+<line x1="424" y1="1682" x2="399.95836943965736" y2="1706.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="375.95836943965736" y="1695.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Jobs</title></rect><text x="399.95836943965736" y="1711.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOB</text>
+<line x1="820" y1="1462" x2="844.0416305603426" y2="1486.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="820.0416305603426" y="1475.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Metadata</title></rect><text x="844.0416305603426" y="1491.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MET</text>
+<line x1="644" y1="1286" x2="619.9583694396574" y2="1261.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="595.9583694396574" y="1250.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Metadata</title></rect><text x="619.9583694396574" y="1266.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MET</text>
+<line x1="2668" y1="1902" x2="2692.0416305603426" y2="1926.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="2668.0416305603426" y="1915.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Mlsts</title></rect><text x="2692.0416305603426" y="1931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MLS</text>
+<line x1="2272" y1="1902" x2="2272.0" y2="1936.0" stroke="#B8860B" stroke-width="7"/><rect x="2248.0" y="1925.0" width="48" height="22" rx="5" fill="#B8860B"><title>Mlsts</title></rect><text x="2272.0" y="1941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MLS</text>
+<line x1="2976" y1="1198" x2="3010.0" y2="1198.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2986.0" y="1187.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Panels</title></rect><text x="3010.0" y="1203.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAN</text>
+<line x1="2800" y1="890" x2="2834.0" y2="890.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2810.0" y="879.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Panels</title></rect><text x="2834.0" y="895.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAN</text>
+<line x1="2888" y1="1330" x2="2912.0416305603426" y2="1354.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="2888.0416305603426" y="1343.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Projects</title></rect><text x="2912.0416305603426" y="1359.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="2932" y1="1066" x2="2966.0" y2="1066.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2942.0" y="1055.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Projects</title></rect><text x="2966.0" y="1071.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="2492" y1="538" x2="2492.0" y2="504.0" stroke="#C2410C" stroke-width="7"/><rect x="2468.0" y="493.0" width="48" height="22" rx="5" fill="#C2410C"><title>Reports</title></rect><text x="2492.0" y="509.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="2712" y1="758" x2="2736.0416305603426" y2="733.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="2712.0416305603426" y="722.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Reports</title></rect><text x="2736.0416305603426" y="738.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<rect x="1626" y="925" width="60" height="26" rx="13" fill="#D6264F"/><text x="1656" y="943" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">SAM</text>
+<line x1="2096" y1="1418" x2="2130.0" y2="1418.0" stroke="#af2328" stroke-width="7"/><rect x="2106.0" y="1407.0" width="48" height="22" rx="5" fill="#af2328"><title>Sequencing</title></rect><text x="2130.0" y="1423.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEQ</text>
+<line x1="1788" y1="1330" x2="1754.0" y2="1330.0" stroke="#af2328" stroke-width="7"/><rect x="1730.0" y="1319.0" width="48" height="22" rx="5" fill="#af2328"><title>Sequencing</title></rect><text x="1754.0" y="1335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEQ</text>
+<line x1="820" y1="1594" x2="844.0416305603426" y2="1569.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="820.0416305603426" y="1558.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Tags</title></rect><text x="844.0416305603426" y="1574.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="688" y1="1726" x2="663.9583694396574" y2="1750.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="639.9583694396574" y="1739.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Tags</title></rect><text x="663.9583694396574" y="1755.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="248" y1="1066" x2="223.9583694396574" y2="1041.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="199.9583694396574" y="1030.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Taxa</title></rect><text x="223.9583694396574" y="1046.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAX</text>
+<line x1="248" y1="1418" x2="223.9583694396574" y2="1442.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="199.9583694396574" y="1431.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Taxa</title></rect><text x="223.9583694396574" y="1447.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAX</text>
+<line x1="2404" y1="1946" x2="2404.0" y2="1980.0" stroke="#B0287F" stroke-width="7"/><rect x="2380.0" y="1969.0" width="48" height="22" rx="5" fill="#B0287F"><title>Workflows</title></rect><text x="2404.0" y="1985.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="2712" y1="1770" x2="2712.0" y2="1804.0" stroke="#B0287F" stroke-width="7"/><rect x="2688.0" y="1793.0" width="48" height="22" rx="5" fill="#B0287F"><title>Workflows</title></rect><text x="2712.0" y="1809.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="380" y1="978" x2="346.0" y2="978.0" stroke="#B0287F" stroke-width="7"/><rect x="322.0" y="967.0" width="48" height="22" rx="5" fill="#B0287F"><title>More Local</title></rect><text x="346.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="292" y1="1594" x2="267.95836943965736" y2="1618.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="243.95836943965736" y="1607.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>More Local</title></rect><text x="267.95836943965736" y="1623.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-account-api/#op-get_account_instances" target="_blank" class="st" data-op="get_account_instances"><title>GET /api/v1/account
+More Local line · get_account_instances</title>
+<circle cx="380" cy="978" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="386" y="966" transform="rotate(-45 386 966)" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_instances" target="_blank" class="st" data-op="get_alignments_instances"><title>GET /api/v1/alignments
+Alignments line · get_alignments_instances</title>
+<circle cx="380" cy="406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="392" y="411" text-anchor="start" style="fill:#1A1F2C">List alignments</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_instances_public" target="_blank" class="st" data-op="get_alignments_instances_public"><title>GET /api/v1/alignments/public
+Alignments line · get_alignments_instances_public</title>
+<circle cx="424" cy="582" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="436" y="587" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_self" target="_blank" class="st" data-op="get_alignments_self"><title>GET /api/v1/alignments/{id}
+Alignments line · get_alignments_self</title>
+<circle cx="380" cy="538" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="392" y="543" text-anchor="start" style="fill:#1A1F2C">Get alignment</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-post_alignments_cancel" target="_blank" class="st" data-op="post_alignments_cancel"><title>POST /api/v1/alignments/{id}/cancel
+Alignments line · post_alignments_cancel</title>
+<circle cx="468" cy="626" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="480" y="631" text-anchor="start" style="fill:#1A1F2C">Cancel alignment</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_file_details" target="_blank" class="st" data-op="get_alignments_file_details"><title>GET /api/v1/alignments/{id}/file_details
+Alignments line · get_alignments_file_details</title>
+<circle cx="468" cy="758" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="480" y="763" text-anchor="start" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-delete_alignments_files" target="_blank" class="st" data-op="delete_alignments_files"><title>DELETE /api/v1/alignments/{id}/files
+Alignments line · delete_alignments_files</title>
+<circle cx="380" cy="846" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="376" y1="850" x2="384" y2="842" stroke="#D6264F" stroke-width="2"/>
+<text x="392" y="851" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_files" target="_blank" class="st" data-op="get_alignments_files"><title>GET /api/v1/alignments/{id}/files
+Alignments line · get_alignments_files</title>
+<circle cx="424" cy="802" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="436" y="807" text-anchor="start" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_logs" target="_blank" class="st" data-op="get_alignments_logs"><title>GET /api/v1/alignments/{id}/logs
+Alignments line · get_alignments_logs</title>
+<circle cx="336" cy="846" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="342" y="834" transform="rotate(-45 342 834)" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-post_alignments_rerun" target="_blank" class="st" data-op="post_alignments_rerun"><title>POST /api/v1/alignments/{id}/rerun
+Alignments line · post_alignments_rerun</title>
+<circle cx="248" cy="846" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="254" y="834" transform="rotate(-45 254 834)" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-alignments-api/#op-get_alignments_results" target="_blank" class="st" data-op="get_alignments_results"><title>GET /api/v1/alignments/{id}/results
+Alignments line · get_alignments_results</title>
+<circle cx="160" cy="846" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="834" transform="rotate(-45 166 834)" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_instances" target="_blank" class="st" data-op="get_analyses_instances"><title>GET /api/v1/analyses
+Analyses line · get_analyses_instances</title>
+<circle cx="2008" cy="494" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2020" y="499" text-anchor="start" style="fill:#1A1F2C">List analyses</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_instances_public" target="_blank" class="st" data-op="get_analyses_instances_public"><title>GET /api/v1/analyses/public
+Analyses line · get_analyses_instances_public</title>
+<circle cx="2096" cy="670" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2108" y="675" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_self" target="_blank" class="st" data-op="get_analyses_self"><title>GET /api/v1/analyses/{id}
+Analyses line · get_analyses_self</title>
+<circle cx="2096" cy="582" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2108" y="587" text-anchor="start" style="fill:#1A1F2C">Get analys</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-post_analyses_cancel" target="_blank" class="st" data-op="post_analyses_cancel"><title>POST /api/v1/analyses/{id}/cancel
+Analyses line · post_analyses_cancel</title>
+<circle cx="2096" cy="758" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2084.0" y="763" text-anchor="end" style="fill:#1A1F2C">Cancel analys</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_file_details" target="_blank" class="st" data-op="get_analyses_file_details"><title>GET /api/v1/analyses/{id}/file_details
+Analyses line · get_analyses_file_details</title>
+<circle cx="2140" cy="890" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2128.0" y="888" text-anchor="end" style="fill:#1A1F2C">List file<tspan x="2128.0" dy="13">details</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-delete_analyses_files" target="_blank" class="st" data-op="delete_analyses_files"><title>DELETE /api/v1/analyses/{id}/files
+Analyses line · delete_analyses_files</title>
+<circle cx="1964" cy="978" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1960" y1="982" x2="1968" y2="974" stroke="#0B7A75" stroke-width="2"/>
+<text x="1952.0" y="983" text-anchor="end" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_files" target="_blank" class="st" data-op="get_analyses_files"><title>GET /api/v1/analyses/{id}/files
+Analyses line · get_analyses_files</title>
+<circle cx="2008" cy="1022" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2002" y="1034" text-anchor="end" transform="rotate(-45 2002 1034)" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_logs" target="_blank" class="st" data-op="get_analyses_logs"><title>GET /api/v1/analyses/{id}/logs
+Analyses line · get_analyses_logs</title>
+<circle cx="1920" cy="934" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1932" y="939" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-post_analyses_rerun" target="_blank" class="st" data-op="post_analyses_rerun"><title>POST /api/v1/analyses/{id}/rerun
+Analyses line · post_analyses_rerun</title>
+<circle cx="1920" cy="758" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1908.0" y="763" text-anchor="end" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-analyses-api/#op-get_analyses_results" target="_blank" class="st" data-op="get_analyses_results"><title>GET /api/v1/analyses/{id}/results
+Analyses line · get_analyses_results</title>
+<circle cx="1920" cy="670" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1932" y="675" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-annotation-sets-api/#op-get_annotation_sets_instances" target="_blank" class="st" data-op="get_annotation_sets_instances"><title>GET /api/v1/annotation_sets
+Annotation Sets line · get_annotation_sets_instances</title>
+<circle cx="644" cy="1462" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="656" y="1467" text-anchor="start" style="fill:#1A1F2C">List annotation sets</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-annotation-sets-api/#op-get_annotation_sets_self" target="_blank" class="st" data-op="get_annotation_sets_self"><title>GET /api/v1/annotation_sets/{id}
+Annotation Sets line · get_annotation_sets_self</title>
+<circle cx="688" cy="1418" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="676.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Get annotation set</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-annotation-sets-api/#op-post_annotation_sets_download_csv" target="_blank" class="st" data-op="post_annotation_sets_download_csv"><title>POST /api/v1/annotation_sets/{id}/download_csv
+Annotation Sets line · post_annotation_sets_download_csv</title>
+<circle cx="820" cy="1286" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="832" y="1291" text-anchor="start" style="fill:#1A1F2C">Update download csv</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-annotation-sets-api/#op-post_annotation_sets_download_uri" target="_blank" class="st" data-op="post_annotation_sets_download_uri"><title>POST /api/v1/annotation_sets/{id}/download_uri
+Annotation Sets line · post_annotation_sets_download_uri</title>
+<circle cx="908" cy="1198" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="920" y="1203" text-anchor="start" style="fill:#1A1F2C">Update download uri</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assemblies-api/#op-get_assemblies_instances" target="_blank" class="st" data-op="get_assemblies_instances"><title>GET /api/v1/assemblies
+Assemblies line · get_assemblies_instances</title>
+<circle cx="688" cy="1066" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="694" y="1054" transform="rotate(-45 694 1054)" style="fill:#1A1F2C">List assemblies</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assemblies-api/#op-get_assemblies_self" target="_blank" class="st" data-op="get_assemblies_self"><title>GET /api/v1/assemblies/{id}
+Assemblies line · get_assemblies_self</title>
+<circle cx="776" cy="1066" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="782" y="1054" transform="rotate(-45 782 1054)" style="fill:#1A1F2C">Get assembly</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assemblies-api/#op-post_assemblies_download_uri" target="_blank" class="st" data-op="post_assemblies_download_uri"><title>POST /api/v1/assemblies/{id}/download_uri
+Assemblies line · post_assemblies_download_uri</title>
+<circle cx="864" cy="1066" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="858" y="1078" text-anchor="end" transform="rotate(-45 858 1078)" style="fill:#1A1F2C">Update download uri</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-get_assets_instances" target="_blank" class="st" data-op="get_assets_instances"><title>GET /api/v1/assets
+Assets line · get_assets_instances</title>
+<circle cx="776" cy="934" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="788" y="939" text-anchor="start" style="fill:#1A1F2C">List assets</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-post_assets_instances_confirm_multipart_upload" target="_blank" class="st" data-op="post_assets_instances_confirm_multipart_upload"><title>POST /api/v1/assets/confirm_multipart_upload
+Assets line · post_assets_instances_confirm_multipart_upload</title>
+<circle cx="644" cy="582" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="656" y="587" text-anchor="start" style="fill:#1A1F2C">Update confirm multipart upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-post_assets_instances_init_multipart_upload" target="_blank" class="st" data-op="post_assets_instances_init_multipart_upload"><title>POST /api/v1/assets/init_multipart_upload
+Assets line · post_assets_instances_init_multipart_upload</title>
+<circle cx="644" cy="494" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="656" y="499" text-anchor="start" style="fill:#1A1F2C">Update init multipart upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-delete_assets_self" target="_blank" class="st" data-op="delete_assets_self"><title>DELETE /api/v1/assets/{id}
+Assets line · delete_assets_self</title>
+<circle cx="644" cy="714" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="640" y1="718" x2="648" y2="710" stroke="#5C6BC0" stroke-width="2"/>
+<text x="656" y="719" text-anchor="start" style="fill:#1A1F2C">Delete asset</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-get_assets_self" target="_blank" class="st" data-op="get_assets_self"><title>GET /api/v1/assets/{id}
+Assets line · get_assets_self</title>
+<circle cx="688" cy="846" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="700" y="851" text-anchor="start" style="fill:#1A1F2C">Get asset</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-patch_assets_self" target="_blank" class="st" data-op="patch_assets_self"><title>PATCH /api/v1/assets/{id}
+Assets line · patch_assets_self</title>
+<circle cx="644" cy="802" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="656" y="807" text-anchor="start" style="fill:#1A1F2C">Update asset</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-assets-api/#op-post_assets_download_uri" target="_blank" class="st" data-op="post_assets_download_uri"><title>POST /api/v1/assets/{id}/download_uri
+Assets line · post_assets_download_uri</title>
+<circle cx="644" cy="406" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="656" y="411" text-anchor="start" style="fill:#1A1F2C">Update download uri</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_instances" target="_blank" class="st" data-op="get_classifications_instances"><title>GET /api/v1/classifications
+Classifications line · get_classifications_instances</title>
+<circle cx="3108" cy="1418" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3102" y="1430" text-anchor="end" transform="rotate(-45 3102 1430)" style="fill:#1A1F2C">List classifications</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_instances_public" target="_blank" class="st" data-op="get_classifications_instances_public"><title>GET /api/v1/classifications/public
+Classifications line · get_classifications_instances_public</title>
+<circle cx="2976" cy="1418" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2982" y="1406" transform="rotate(-45 2982 1406)" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_self" target="_blank" class="st" data-op="get_classifications_self"><title>GET /api/v1/classifications/{id}
+Classifications line · get_classifications_self</title>
+<circle cx="3020" cy="1418" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="3026" y="1406" transform="rotate(-45 3026 1406)" style="fill:#1A1F2C">Get classification</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-post_classifications_cancel" target="_blank" class="st" data-op="post_classifications_cancel"><title>POST /api/v1/classifications/{id}/cancel
+Classifications line · post_classifications_cancel</title>
+<circle cx="2800" cy="1418" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2788.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Cancel classification</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_file_details" target="_blank" class="st" data-op="get_classifications_file_details"><title>GET /api/v1/classifications/{id}/file_details
+Classifications line · get_classifications_file_details</title>
+<circle cx="2756" cy="1374" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2768" y="1379" text-anchor="start" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-delete_classifications_files" target="_blank" class="st" data-op="delete_classifications_files"><title>DELETE /api/v1/classifications/{id}/files
+Classifications line · delete_classifications_files</title>
+<circle cx="2536" cy="1418" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2532" y1="1422" x2="2540" y2="1414" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2548" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_files" target="_blank" class="st" data-op="get_classifications_files"><title>GET /api/v1/classifications/{id}/files
+Classifications line · get_classifications_files</title>
+<circle cx="2580" cy="1374" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2568.0" y="1379" text-anchor="end" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_logs" target="_blank" class="st" data-op="get_classifications_logs"><title>GET /api/v1/classifications/{id}/logs
+Classifications line · get_classifications_logs</title>
+<circle cx="2536" cy="1462" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2548" y="1467" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_raw_results" target="_blank" class="st" data-op="get_classifications_raw_results"><title>GET /api/v1/classifications/{id}/raw_results
+Classifications line · get_classifications_raw_results</title>
+<circle cx="2624" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2633" y="1540" text-anchor="start" style="fill:#1A1F2C">List raw results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_readlevel" target="_blank" class="st" data-op="get_classifications_readlevel"><title>GET /api/v1/classifications/{id}/readlevel
+Classifications line · get_classifications_readlevel</title>
+<circle cx="2668" cy="1550" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2680" y="1555" text-anchor="start" style="fill:#1A1F2C">Get readlevel</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-post_classifications_rerun" target="_blank" class="st" data-op="post_classifications_rerun"><title>POST /api/v1/classifications/{id}/rerun
+Classifications line · post_classifications_rerun</title>
+<circle cx="2756" cy="1638" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2768" y="1643" text-anchor="start" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-classifications-api/#op-get_classifications_results" target="_blank" class="st" data-op="get_classifications_results"><title>GET /api/v1/classifications/{id}/results
+Classifications line · get_classifications_results</title>
+<circle cx="2844" cy="1726" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2856" y="1731" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_instances" target="_blank" class="st" data-op="get_controls_instances"><title>GET /api/v1/controls
+Controls line · get_controls_instances</title>
+<circle cx="2008" cy="1990" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2020" y="1995" text-anchor="start" style="fill:#1A1F2C">List controls</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_instances_public" target="_blank" class="st" data-op="get_controls_instances_public"><title>GET /api/v1/controls/public
+Controls line · get_controls_instances_public</title>
+<circle cx="2008" cy="1770" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2020" y="1775" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_self" target="_blank" class="st" data-op="get_controls_self"><title>GET /api/v1/controls/{id}
+Controls line · get_controls_self</title>
+<circle cx="2008" cy="1902" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2020" y="1907" text-anchor="start" style="fill:#1A1F2C">Get control</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-post_controls_cancel" target="_blank" class="st" data-op="post_controls_cancel"><title>POST /api/v1/controls/{id}/cancel
+Controls line · post_controls_cancel</title>
+<circle cx="2008" cy="1682" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2020" y="1687" text-anchor="start" style="fill:#1A1F2C">Cancel control</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_file_details" target="_blank" class="st" data-op="get_controls_file_details"><title>GET /api/v1/controls/{id}/file_details
+Controls line · get_controls_file_details</title>
+<circle cx="2008" cy="1594" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2020" y="1599" text-anchor="start" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-delete_controls_files" target="_blank" class="st" data-op="delete_controls_files"><title>DELETE /api/v1/controls/{id}/files
+Controls line · delete_controls_files</title>
+<circle cx="2140" cy="1550" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="2136" y1="1554" x2="2144" y2="1546" stroke="#2E7D32" stroke-width="2"/>
+<text x="2152" y="1555" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_files" target="_blank" class="st" data-op="get_controls_files"><title>GET /api/v1/controls/{id}/files
+Controls line · get_controls_files</title>
+<circle cx="2052" cy="1550" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2040.0" y="1555" text-anchor="end" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_logs" target="_blank" class="st" data-op="get_controls_logs"><title>GET /api/v1/controls/{id}/logs
+Controls line · get_controls_logs</title>
+<circle cx="2140" cy="1682" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2152" y="1687" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-post_controls_rerun" target="_blank" class="st" data-op="post_controls_rerun"><title>POST /api/v1/controls/{id}/rerun
+Controls line · post_controls_rerun</title>
+<circle cx="2140" cy="1770" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2152" y="1775" text-anchor="start" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-controls-api/#op-get_controls_results" target="_blank" class="st" data-op="get_controls_results"><title>GET /api/v1/controls/{id}/results
+Controls line · get_controls_results</title>
+<circle cx="2140" cy="1858" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2152" y="1863" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-get_documents_instances" target="_blank" class="st" data-op="get_documents_instances"><title>GET /api/v1/documents
+Documents line · get_documents_instances</title>
+<circle cx="2008" cy="846" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2020" y="851" text-anchor="start" style="fill:#1A1F2C">List documents</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-post_documents_instances_confirm_upload" target="_blank" class="st" data-op="post_documents_instances_confirm_upload"><title>POST /api/v1/documents/confirm_upload
+Documents line · post_documents_instances_confirm_upload</title>
+<circle cx="2228" cy="934" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2240" y="932" text-anchor="start" style="fill:#1A1F2C">Update<tspan x="2240" dy="13">confirm upload</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-post_documents_instances_init_multipart_upload" target="_blank" class="st" data-op="post_documents_instances_init_multipart_upload"><title>POST /api/v1/documents/init_multipart_upload
+Documents line · post_documents_instances_init_multipart_upload</title>
+<circle cx="2184" cy="758" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2190" y="746" transform="rotate(-45 2190 746)" style="fill:#1A1F2C">Update init multipart upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-post_documents_instances_init_upload" target="_blank" class="st" data-op="post_documents_instances_init_upload"><title>POST /api/v1/documents/init_upload
+Documents line · post_documents_instances_init_upload</title>
+<circle cx="2184" cy="626" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2193" y="616" text-anchor="start" style="fill:#1A1F2C">Update init upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-delete_documents_self" target="_blank" class="st" data-op="delete_documents_self"><title>DELETE /api/v1/documents/{id}
+Documents line · delete_documents_self</title>
+<circle cx="2184" cy="978" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2180" y1="982" x2="2188" y2="974" stroke="#E07B12" stroke-width="2"/>
+<text x="2196" y="983" text-anchor="start" style="fill:#1A1F2C">Delete document</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-get_documents_self" target="_blank" class="st" data-op="get_documents_self"><title>GET /api/v1/documents/{id}
+Documents line · get_documents_self</title>
+<circle cx="2140" cy="978" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2131.0" y="997" text-anchor="end" style="fill:#1A1F2C">Get document</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-post_documents_add_user" target="_blank" class="st" data-op="post_documents_add_user"><title>POST /api/v1/documents/{id}/add_user
+Documents line · post_documents_add_user</title>
+<circle cx="2184" cy="538" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2196" y="543" text-anchor="start" style="fill:#1A1F2C">Update add user</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-post_documents_download_uri" target="_blank" class="st" data-op="post_documents_download_uri"><title>POST /api/v1/documents/{id}/download_uri
+Documents line · post_documents_download_uri</title>
+<circle cx="2184" cy="406" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2196" y="411" text-anchor="start" style="fill:#1A1F2C">Update download uri</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-post_documents_remove_user" target="_blank" class="st" data-op="post_documents_remove_user"><title>POST /api/v1/documents/{id}/remove_user
+Documents line · post_documents_remove_user</title>
+<circle cx="2184" cy="318" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2196" y="323" text-anchor="start" style="fill:#1A1F2C">Update remove user</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-documents-api/#op-patch_documents_rename" target="_blank" class="st" data-op="patch_documents_rename"><title>PATCH /api/v1/documents/{id}/rename
+Documents line · patch_documents_rename</title>
+<circle cx="2184" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2196" y="235" text-anchor="start" style="fill:#1A1F2C">Update rename</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-events-api/#op-get_events_instances" target="_blank" class="st" data-op="get_events_instances"><title>GET /api/v1/events
+More Local line · get_events_instances</title>
+<circle cx="468" cy="978" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="480" y="983" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-events-api/#op-get_events_self" target="_blank" class="st" data-op="get_events_self"><title>GET /api/v1/events/{id}
+More Local line · get_events_self</title>
+<circle cx="512" cy="1022" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="524" y="1027" text-anchor="start" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_instances" target="_blank" class="st" data-op="get_functional_profiles_instances"><title>GET /api/v1/functional_profiles
+Functional Profiles line · get_functional_profiles_instances</title>
+<circle cx="2712" cy="582" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2724" y="587" text-anchor="start" style="fill:#1A1F2C">List functional profiles</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_instances_public" target="_blank" class="st" data-op="get_functional_profiles_instances_public"><title>GET /api/v1/functional_profiles/public
+Functional Profiles line · get_functional_profiles_instances_public</title>
+<circle cx="2580" cy="714" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2592" y="719" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_self" target="_blank" class="st" data-op="get_functional_profiles_self"><title>GET /api/v1/functional_profiles/{id}
+Functional Profiles line · get_functional_profiles_self</title>
+<circle cx="2624" cy="670" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2636" y="675" text-anchor="start" style="fill:#1A1F2C">Get functional profile</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-post_functional_profiles_cancel" target="_blank" class="st" data-op="post_functional_profiles_cancel"><title>POST /api/v1/functional_profiles/{id}/cancel
+Functional Profiles line · post_functional_profiles_cancel</title>
+<circle cx="2492" cy="802" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2504" y="807" text-anchor="start" style="fill:#1A1F2C">Cancel functional profile</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_file_details" target="_blank" class="st" data-op="get_functional_profiles_file_details"><title>GET /api/v1/functional_profiles/{id}/file_details
+Functional Profiles line · get_functional_profiles_file_details</title>
+<circle cx="2404" cy="890" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2416" y="895" text-anchor="start" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-delete_functional_profiles_files" target="_blank" class="st" data-op="delete_functional_profiles_files"><title>DELETE /api/v1/functional_profiles/{id}/files
+Functional Profiles line · delete_functional_profiles_files</title>
+<circle cx="2272" cy="846" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2268" y1="850" x2="2276" y2="842" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2284" y="851" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_files" target="_blank" class="st" data-op="get_functional_profiles_files"><title>GET /api/v1/functional_profiles/{id}/files
+Functional Profiles line · get_functional_profiles_files</title>
+<circle cx="2316" cy="890" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2304.0" y="895" text-anchor="end" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_filtered_results" target="_blank" class="st" data-op="get_functional_profiles_filtered_results"><title>GET /api/v1/functional_profiles/{id}/filtered_results
+Functional Profiles line · get_functional_profiles_filtered_results</title>
+<circle cx="2272" cy="714" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2284" y="719" text-anchor="start" style="fill:#1A1F2C">List filtered results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_logs" target="_blank" class="st" data-op="get_functional_profiles_logs"><title>GET /api/v1/functional_profiles/{id}/logs
+Functional Profiles line · get_functional_profiles_logs</title>
+<circle cx="2360" cy="626" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2372" y="631" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-post_functional_profiles_rerun" target="_blank" class="st" data-op="post_functional_profiles_rerun"><title>POST /api/v1/functional_profiles/{id}/rerun
+Functional Profiles line · post_functional_profiles_rerun</title>
+<circle cx="2360" cy="538" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2372" y="543" text-anchor="start" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-functional-profiles-api/#op-get_functional_profiles_results" target="_blank" class="st" data-op="get_functional_profiles_results"><title>GET /api/v1/functional_profiles/{id}/results
+Functional Profiles line · get_functional_profiles_results</title>
+<circle cx="2360" cy="450" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2372" y="455" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-genomes-api/#op-get_genomes_instances" target="_blank" class="st" data-op="get_genomes_instances"><title>GET /api/v1/genomes
+More Local line · get_genomes_instances</title>
+<circle cx="512" cy="1154" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="524" y="1159" text-anchor="start" style="fill:#1A1F2C">List genomes</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-genomes-api/#op-get_genomes_self" target="_blank" class="st" data-op="get_genomes_self"><title>GET /api/v1/genomes/{id}
+More Local line · get_genomes_self</title>
+<circle cx="512" cy="1242" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="524" y="1247" text-anchor="start" style="fill:#1A1F2C">Get genome</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-jobs-api/#op-get_jobs_instances" target="_blank" class="st" data-op="get_jobs_instances"><title>GET /api/v1/jobs
+Jobs line · get_jobs_instances</title>
+<circle cx="468" cy="1814" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="474" y="1802" transform="rotate(-45 474 1802)" style="fill:#1A1F2C">List jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-jobs-api/#op-post_jobs_instances" target="_blank" class="st" data-op="post_jobs_instances"><title>POST /api/v1/jobs
+Jobs line · post_jobs_instances</title>
+<circle cx="600" cy="1814" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="612" y="1819" text-anchor="start" style="fill:#1A1F2C">Create job</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-jobs-api/#op-get_jobs_self" target="_blank" class="st" data-op="get_jobs_self"><title>GET /api/v1/jobs/{id}
+Jobs line · get_jobs_self</title>
+<circle cx="600" cy="1638" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="612" y="1643" text-anchor="start" style="fill:#1A1F2C">Get job</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-jobs-api/#op-patch_jobs_self" target="_blank" class="st" data-op="patch_jobs_self"><title>PATCH /api/v1/jobs/{id}
+Jobs line · patch_jobs_self</title>
+<circle cx="556" cy="1594" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="568" y="1599" text-anchor="start" style="fill:#1A1F2C">Update job</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-jobs-api/#op-get_jobs_details" target="_blank" class="st" data-op="get_jobs_details"><title>GET /api/v1/jobs/{id}/details
+Jobs line · get_jobs_details</title>
+<circle cx="512" cy="1594" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="500.0" y="1599" text-anchor="end" style="fill:#1A1F2C">List details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-jobs-api/#op-post_jobs_run" target="_blank" class="st" data-op="post_jobs_run"><title>POST /api/v1/jobs/{id}/run
+Jobs line · post_jobs_run</title>
+<circle cx="424" cy="1682" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="436" y="1687" text-anchor="start" style="fill:#1A1F2C">Run job</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-metadata-api/#op-get_metadata_instances" target="_blank" class="st" data-op="get_metadata_instances"><title>GET /api/v1/metadata
+Metadata line · get_metadata_instances</title>
+<circle cx="820" cy="1462" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="832" y="1467" text-anchor="start" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-metadata-api/#op-get_metadata_self" target="_blank" class="st" data-op="get_metadata_self"><title>GET /api/v1/metadata/{id}
+Metadata line · get_metadata_self</title>
+<circle cx="688" cy="1330" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="676.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-metadata-api/#op-patch_metadata_self" target="_blank" class="st" data-op="patch_metadata_self"><title>PATCH /api/v1/metadata/{id}
+Metadata line · patch_metadata_self</title>
+<circle cx="644" cy="1286" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="656" y="1291" text-anchor="start" style="fill:#1A1F2C">Update metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_instances" target="_blank" class="st" data-op="get_mlsts_instances"><title>GET /api/v1/mlsts
+Mlsts line · get_mlsts_instances</title>
+<circle cx="2668" cy="1902" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2680" y="1907" text-anchor="start" style="fill:#1A1F2C">List mlsts</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_instances_public" target="_blank" class="st" data-op="get_mlsts_instances_public"><title>GET /api/v1/mlsts/public
+Mlsts line · get_mlsts_instances_public</title>
+<circle cx="2492" cy="1726" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2504" y="1731" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_self" target="_blank" class="st" data-op="get_mlsts_self"><title>GET /api/v1/mlsts/{id}
+Mlsts line · get_mlsts_self</title>
+<circle cx="2580" cy="1814" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2592" y="1819" text-anchor="start" style="fill:#1A1F2C">Get mlst</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-post_mlsts_cancel" target="_blank" class="st" data-op="post_mlsts_cancel"><title>POST /api/v1/mlsts/{id}/cancel
+Mlsts line · post_mlsts_cancel</title>
+<circle cx="2492" cy="1638" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2504" y="1643" text-anchor="start" style="fill:#1A1F2C">Cancel mlst</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_file_details" target="_blank" class="st" data-op="get_mlsts_file_details"><title>GET /api/v1/mlsts/{id}/file_details
+Mlsts line · get_mlsts_file_details</title>
+<circle cx="2404" cy="1550" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2416" y="1555" text-anchor="start" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-delete_mlsts_files" target="_blank" class="st" data-op="delete_mlsts_files"><title>DELETE /api/v1/mlsts/{id}/files
+Mlsts line · delete_mlsts_files</title>
+<circle cx="2272" cy="1594" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="2268" y1="1598" x2="2276" y2="1590" stroke="#B8860B" stroke-width="2"/>
+<text x="2284" y="1599" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_files" target="_blank" class="st" data-op="get_mlsts_files"><title>GET /api/v1/mlsts/{id}/files
+Mlsts line · get_mlsts_files</title>
+<circle cx="2272" cy="1550" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2281" y="1540" text-anchor="start" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_logs" target="_blank" class="st" data-op="get_mlsts_logs"><title>GET /api/v1/mlsts/{id}/logs
+Mlsts line · get_mlsts_logs</title>
+<circle cx="2272" cy="1682" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2284" y="1687" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-post_mlsts_rerun" target="_blank" class="st" data-op="post_mlsts_rerun"><title>POST /api/v1/mlsts/{id}/rerun
+Mlsts line · post_mlsts_rerun</title>
+<circle cx="2272" cy="1770" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2284" y="1775" text-anchor="start" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-mlsts-api/#op-get_mlsts_results" target="_blank" class="st" data-op="get_mlsts_results"><title>GET /api/v1/mlsts/{id}/results
+Mlsts line · get_mlsts_results</title>
+<circle cx="2272" cy="1902" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2284" y="1907" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_instances" target="_blank" class="st" data-op="get_panels_instances"><title>GET /api/v1/panels
+Panels line · get_panels_instances</title>
+<circle cx="2976" cy="1198" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2970" y="1210" text-anchor="end" transform="rotate(-45 2970 1210)" style="fill:#1A1F2C">List panels</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_instances_public" target="_blank" class="st" data-op="get_panels_instances_public"><title>GET /api/v1/panels/public
+Panels line · get_panels_instances_public</title>
+<circle cx="2800" cy="1198" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2806" y="1186" transform="rotate(-45 2806 1186)" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_self" target="_blank" class="st" data-op="get_panels_self"><title>GET /api/v1/panels/{id}
+Panels line · get_panels_self</title>
+<circle cx="2888" cy="1198" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2894" y="1186" transform="rotate(-45 2894 1186)" style="fill:#1A1F2C">Get panel</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-post_panels_cancel" target="_blank" class="st" data-op="post_panels_cancel"><title>POST /api/v1/panels/{id}/cancel
+Panels line · post_panels_cancel</title>
+<circle cx="2712" cy="1198" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2718" y="1186" transform="rotate(-45 2718 1186)" style="fill:#1A1F2C">Cancel panel</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_file_details" target="_blank" class="st" data-op="get_panels_file_details"><title>GET /api/v1/panels/{id}/file_details
+Panels line · get_panels_file_details</title>
+<circle cx="2668" cy="1198" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2674" y="1186" transform="rotate(-45 2674 1186)" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-delete_panels_files" target="_blank" class="st" data-op="delete_panels_files"><title>DELETE /api/v1/panels/{id}/files
+Panels line · delete_panels_files</title>
+<circle cx="2492" cy="1110" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2488" y1="1114" x2="2496" y2="1106" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2504" y="1115" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_files" target="_blank" class="st" data-op="get_panels_files"><title>GET /api/v1/panels/{id}/files
+Panels line · get_panels_files</title>
+<circle cx="2492" cy="1154" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2480.0" y="1159" text-anchor="end" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_logs" target="_blank" class="st" data-op="get_panels_logs"><title>GET /api/v1/panels/{id}/logs
+Panels line · get_panels_logs</title>
+<circle cx="2624" cy="978" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2636" y="983" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-post_panels_rerun" target="_blank" class="st" data-op="post_panels_rerun"><title>POST /api/v1/panels/{id}/rerun
+Panels line · post_panels_rerun</title>
+<circle cx="2712" cy="890" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2700.0" y="895" text-anchor="end" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-panels-api/#op-get_panels_results" target="_blank" class="st" data-op="get_panels_results"><title>GET /api/v1/panels/{id}/results
+Panels line · get_panels_results</title>
+<circle cx="2800" cy="890" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2794" y="902" text-anchor="end" transform="rotate(-45 2794 902)" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-get_projects_instances" target="_blank" class="st" data-op="get_projects_instances"><title>GET /api/v1/projects
+Projects line · get_projects_instances</title>
+<circle cx="2888" cy="1330" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2900" y="1335" text-anchor="start" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-post_projects_instances" target="_blank" class="st" data-op="post_projects_instances"><title>POST /api/v1/projects
+Projects line · post_projects_instances</title>
+<circle cx="2844" cy="1286" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2856" y="1291" text-anchor="start" style="fill:#1A1F2C">Create project</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-get_projects_instances_public" target="_blank" class="st" data-op="get_projects_instances_public"><title>GET /api/v1/projects/public
+Projects line · get_projects_instances_public</title>
+<circle cx="2624" cy="1110" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2636" y="1115" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-delete_projects_self" target="_blank" class="st" data-op="delete_projects_self"><title>DELETE /api/v1/projects/{id}
+Projects line · delete_projects_self</title>
+<circle cx="2492" cy="1242" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="2488" y1="1246" x2="2496" y2="1238" stroke="#5C6BC0" stroke-width="2"/>
+<text x="2504" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete project</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-get_projects_self" target="_blank" class="st" data-op="get_projects_self"><title>GET /api/v1/projects/{id}
+Projects line · get_projects_self</title>
+<circle cx="2668" cy="1286" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2674" y="1274" transform="rotate(-45 2674 1274)" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-patch_projects_self" target="_blank" class="st" data-op="patch_projects_self"><title>PATCH /api/v1/projects/{id}
+Projects line · patch_projects_self</title>
+<circle cx="2536" cy="1286" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2524.0" y="1291" text-anchor="end" style="fill:#1A1F2C">Update project</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-post_projects_add_user" target="_blank" class="st" data-op="post_projects_add_user"><title>POST /api/v1/projects/{id}/add_user
+Projects line · post_projects_add_user</title>
+<circle cx="2668" cy="1066" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2656.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Update add user</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-post_projects_change_sharing" target="_blank" class="st" data-op="post_projects_change_sharing"><title>POST /api/v1/projects/{id}/change_sharing
+Projects line · post_projects_change_sharing</title>
+<circle cx="2756" cy="1066" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2762" y="1054" transform="rotate(-45 2762 1054)" style="fill:#1A1F2C">Update change sharing</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-get_projects_members" target="_blank" class="st" data-op="get_projects_members"><title>GET /api/v1/projects/{id}/members
+Projects line · get_projects_members</title>
+<circle cx="2844" cy="1066" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2850" y="1054" transform="rotate(-45 2850 1054)" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-projects-api/#op-post_projects_remove_user" target="_blank" class="st" data-op="post_projects_remove_user"><title>POST /api/v1/projects/{id}/remove_user
+Projects line · post_projects_remove_user</title>
+<circle cx="2932" cy="1066" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2923.0" y="1085" text-anchor="end" style="fill:#1A1F2C">Update remove user</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_instances" target="_blank" class="st" data-op="get_reports_instances"><title>GET /api/v1/reports
+Reports line · get_reports_instances</title>
+<circle cx="2492" cy="538" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2504" y="543" text-anchor="start" style="fill:#1A1F2C">List reports</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_instances_public" target="_blank" class="st" data-op="get_reports_instances_public"><title>GET /api/v1/reports/public
+Reports line · get_reports_instances_public</title>
+<circle cx="2492" cy="714" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2504" y="719" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_self" target="_blank" class="st" data-op="get_reports_self"><title>GET /api/v1/reports/{id}
+Reports line · get_reports_self</title>
+<circle cx="2492" cy="626" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2504" y="631" text-anchor="start" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-post_reports_cancel" target="_blank" class="st" data-op="post_reports_cancel"><title>POST /api/v1/reports/{id}/cancel
+Reports line · post_reports_cancel</title>
+<circle cx="2404" cy="802" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2395.0" y="792" text-anchor="end" style="fill:#1A1F2C">Cancel report</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_file_details" target="_blank" class="st" data-op="get_reports_file_details"><title>GET /api/v1/reports/{id}/file_details
+Reports line · get_reports_file_details</title>
+<circle cx="2360" cy="802" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2360" y="825" text-anchor="middle" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-delete_reports_files" target="_blank" class="st" data-op="delete_reports_files"><title>DELETE /api/v1/reports/{id}/files
+Reports line · delete_reports_files</title>
+<circle cx="2492" cy="978" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="2488" y1="982" x2="2496" y2="974" stroke="#C2410C" stroke-width="2"/>
+<text x="2504" y="983" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_files" target="_blank" class="st" data-op="get_reports_files"><title>GET /api/v1/reports/{id}/files
+Reports line · get_reports_files</title>
+<circle cx="2360" cy="978" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2369" y="968" text-anchor="start" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_logs" target="_blank" class="st" data-op="get_reports_logs"><title>GET /api/v1/reports/{id}/logs
+Reports line · get_reports_logs</title>
+<circle cx="2536" cy="934" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2548" y="939" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-post_reports_rerun" target="_blank" class="st" data-op="post_reports_rerun"><title>POST /api/v1/reports/{id}/rerun
+Reports line · post_reports_rerun</title>
+<circle cx="2624" cy="846" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2636" y="851" text-anchor="start" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-reports-api/#op-get_reports_results" target="_blank" class="st" data-op="get_reports_results"><title>GET /api/v1/reports/{id}/results
+Reports line · get_reports_results</title>
+<circle cx="2712" cy="758" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="2724" y="763" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-get_samples_instances" target="_blank" class="st" data-op="get_samples_instances"><title>GET /api/v1/samples
+Samples line · get_samples_instances</title>
+<circle cx="1656" cy="978" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1644.0" y="983" text-anchor="end" style="fill:#1A1F2C">List samples</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_instances_cancel_upload" target="_blank" class="st" data-op="post_samples_instances_cancel_upload"><title>POST /api/v1/samples/cancel_upload
+Samples line · post_samples_instances_cancel_upload</title>
+<circle cx="1744" cy="978" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1750" y="966" transform="rotate(-45 1750 966)" style="fill:#1A1F2C">Update cancel upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_instances_confirm_upload" target="_blank" class="st" data-op="post_samples_instances_confirm_upload"><title>POST /api/v1/samples/confirm_upload
+Samples line · post_samples_instances_confirm_upload</title>
+<circle cx="1832" cy="978" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1823.0" y="997" text-anchor="end" style="fill:#1A1F2C">Update confirm upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_instances_import" target="_blank" class="st" data-op="post_samples_instances_import"><title>POST /api/v1/samples/import
+Samples line · post_samples_instances_import</title>
+<circle cx="1920" cy="1066" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1908.0" y="1071" text-anchor="end" style="fill:#1A1F2C">Import samples</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_instances_init_multipart_upload" target="_blank" class="st" data-op="post_samples_instances_init_multipart_upload"><title>POST /api/v1/samples/init_multipart_upload
+Samples line · post_samples_instances_init_multipart_upload</title>
+<circle cx="2008" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="1159" text-anchor="start" style="fill:#1A1F2C">Update init multipart upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_instances_init_upload" target="_blank" class="st" data-op="post_samples_instances_init_upload"><title>POST /api/v1/samples/init_upload
+Samples line · post_samples_instances_init_upload</title>
+<circle cx="2008" cy="1242" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="1247" text-anchor="start" style="fill:#1A1F2C">Update init upload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-get_samples_instances_organization" target="_blank" class="st" data-op="get_samples_instances_organization"><title>GET /api/v1/samples/organization
+Samples line · get_samples_instances_organization</title>
+<circle cx="2008" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="1335" text-anchor="start" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_instances_preupload" target="_blank" class="st" data-op="post_samples_instances_preupload"><title>POST /api/v1/samples/preupload
+Samples line · post_samples_instances_preupload</title>
+<circle cx="1920" cy="1418" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1911.0" y="1437" text-anchor="end" style="fill:#1A1F2C">Update preupload</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-get_samples_instances_public" target="_blank" class="st" data-op="get_samples_instances_public"><title>GET /api/v1/samples/public
+Samples line · get_samples_instances_public</title>
+<circle cx="1832" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1838" y="1406" transform="rotate(-45 1838 1406)" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-delete_samples_self" target="_blank" class="st" data-op="delete_samples_self"><title>DELETE /api/v1/samples/{id}
+Samples line · delete_samples_self</title>
+<circle cx="1656" cy="1242" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1652" y1="1246" x2="1660" y2="1238" stroke="#D6264F" stroke-width="2"/>
+<text x="1668" y="1247" text-anchor="start" style="fill:#1A1F2C">Delete sample</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-get_samples_self" target="_blank" class="st" data-op="get_samples_self"><title>GET /api/v1/samples/{id}
+Samples line · get_samples_self</title>
+<circle cx="1744" cy="1418" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1732.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Get sample</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-patch_samples_self" target="_blank" class="st" data-op="patch_samples_self"><title>PATCH /api/v1/samples/{id}
+Samples line · patch_samples_self</title>
+<circle cx="1656" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1644.0" y="1335" text-anchor="end" style="fill:#1A1F2C">Update sample</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-samples-api/#op-post_samples_download_uri" target="_blank" class="st" data-op="post_samples_download_uri"><title>POST /api/v1/samples/{id}/download_uri
+Samples line · post_samples_download_uri</title>
+<circle cx="1656" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1668" y="1159" text-anchor="start" style="fill:#1A1F2C">Update download uri</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-sequencing-api/#op-get_sequencing_instances_batches" target="_blank" class="st" data-op="get_sequencing_instances_batches"><title>GET /api/v1/sequencing/batches
+Sequencing line · get_sequencing_instances_batches</title>
+<circle cx="2096" cy="1418" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="2090" y="1430" text-anchor="end" transform="rotate(-45 2090 1430)" style="fill:#1A1F2C">List batches</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-sequencing-api/#op-post_sequencing_instances_batches_register" target="_blank" class="st" data-op="post_sequencing_instances_batches_register"><title>POST /api/v1/sequencing/batches/register
+Sequencing line · post_sequencing_instances_batches_register</title>
+<circle cx="1920" cy="1330" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1920" y="1302" text-anchor="middle" style="fill:#1A1F2C">Register<tspan x="1920" dy="13">sequencing batches</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-sequencing-api/#op-get_sequencing_batches" target="_blank" class="st" data-op="get_sequencing_batches"><title>GET /api/v1/sequencing/batches/{id}
+Sequencing line · get_sequencing_batches</title>
+<circle cx="2008" cy="1418" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1996.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Get batche</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-sequencing-api/#op-get_sequencing_batches_samples" target="_blank" class="st" data-op="get_sequencing_batches_samples"><title>GET /api/v1/sequencing/batches/{id}/samples
+Sequencing line · get_sequencing_batches_samples</title>
+<circle cx="1788" cy="1330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1794" y="1318" transform="rotate(-45 1794 1318)" style="fill:#1A1F2C">List samples <tspan font-weight="700" style="fill:#D6264F">⇄SAM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-tags-api/#op-get_tags_instances" target="_blank" class="st" data-op="get_tags_instances"><title>GET /api/v1/tags
+Tags line · get_tags_instances</title>
+<circle cx="820" cy="1594" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="832" y="1599" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-tags-api/#op-post_tags_instances" target="_blank" class="st" data-op="post_tags_instances"><title>POST /api/v1/tags
+Tags line · post_tags_instances</title>
+<circle cx="732" cy="1682" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="744" y="1687" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-tags-api/#op-get_tags_self" target="_blank" class="st" data-op="get_tags_self"><title>GET /api/v1/tags/{id}
+Tags line · get_tags_self</title>
+<circle cx="688" cy="1726" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="700" y="1731" text-anchor="start" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-taxa-api/#op-get_taxa_instances" target="_blank" class="st" data-op="get_taxa_instances"><title>GET /api/v1/taxa
+Taxa line · get_taxa_instances</title>
+<circle cx="248" cy="1066" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="260" y="1071" text-anchor="start" style="fill:#1A1F2C">Get taxa</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-taxa-api/#op-get_taxa_self" target="_blank" class="st" data-op="get_taxa_self"><title>GET /api/v1/taxa/{id}
+Taxa line · get_taxa_self</title>
+<circle cx="336" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="348" y="1159" text-anchor="start" style="fill:#1A1F2C">Get taxa</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-taxa-api/#op-get_taxa_genomes" target="_blank" class="st" data-op="get_taxa_genomes"><title>GET /api/v1/taxa/{id}/genomes
+Taxa line · get_taxa_genomes</title>
+<circle cx="424" cy="1242" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="412.0" y="1247" text-anchor="end" style="fill:#1A1F2C">List genomes <tspan font-weight="700" style="fill:#B0287F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-taxa-api/#op-get_taxa_parents" target="_blank" class="st" data-op="get_taxa_parents"><title>GET /api/v1/taxa/{id}/parents
+Taxa line · get_taxa_parents</title>
+<circle cx="336" cy="1330" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="348" y="1335" text-anchor="start" style="fill:#1A1F2C">List parents</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-taxa-api/#op-get_taxa_reference_assembly" target="_blank" class="st" data-op="get_taxa_reference_assembly"><title>GET /api/v1/taxa/{id}/reference_assembly
+Taxa line · get_taxa_reference_assembly</title>
+<circle cx="248" cy="1418" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="260" y="1423" text-anchor="start" style="fill:#1A1F2C">Get reference assembly</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-users-api/#op-get_users_instances" target="_blank" class="st" data-op="get_users_instances"><title>GET /api/v1/users
+More Local line · get_users_instances</title>
+<circle cx="512" cy="1374" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="524" y="1379" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-users-api/#op-get_users_self" target="_blank" class="st" data-op="get_users_self"><title>GET /api/v1/users/{id}
+More Local line · get_users_self</title>
+<circle cx="468" cy="1418" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="480" y="1423" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-webhooks-api/#op-get_webhooks_instances" target="_blank" class="st" data-op="get_webhooks_instances"><title>GET /api/v1/webhooks
+More Local line · get_webhooks_instances</title>
+<circle cx="380" cy="1506" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="392" y="1511" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-webhooks-api/#op-get_webhooks_self" target="_blank" class="st" data-op="get_webhooks_self"><title>GET /api/v1/webhooks/{id}
+More Local line · get_webhooks_self</title>
+<circle cx="292" cy="1594" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="304" y="1599" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_instances" target="_blank" class="st" data-op="get_workflows_instances"><title>GET /api/v1/workflows
+Workflows line · get_workflows_instances</title>
+<circle cx="2404" cy="1946" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2416" y="1951" text-anchor="start" style="fill:#1A1F2C">List workflows</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_instances_public" target="_blank" class="st" data-op="get_workflows_instances_public"><title>GET /api/v1/workflows/public
+Workflows line · get_workflows_instances_public</title>
+<circle cx="2404" cy="1726" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2416" y="1731" text-anchor="start" style="fill:#1A1F2C">Get public</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_self" target="_blank" class="st" data-op="get_workflows_self"><title>GET /api/v1/workflows/{id}
+Workflows line · get_workflows_self</title>
+<circle cx="2404" cy="1858" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2416" y="1863" text-anchor="start" style="fill:#1A1F2C">Get workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-post_workflows_cancel" target="_blank" class="st" data-op="post_workflows_cancel"><title>POST /api/v1/workflows/{id}/cancel
+Workflows line · post_workflows_cancel</title>
+<circle cx="2360" cy="1682" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2372" y="1687" text-anchor="start" style="fill:#1A1F2C">Cancel workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_file_details" target="_blank" class="st" data-op="get_workflows_file_details"><title>GET /api/v1/workflows/{id}/file_details
+Workflows line · get_workflows_file_details</title>
+<circle cx="2360" cy="1638" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2372" y="1643" text-anchor="start" style="fill:#1A1F2C">List file details</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-delete_workflows_files" target="_blank" class="st" data-op="delete_workflows_files"><title>DELETE /api/v1/workflows/{id}/files
+Workflows line · delete_workflows_files</title>
+<circle cx="2404" cy="1418" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2400" y1="1422" x2="2408" y2="1414" stroke="#B0287F" stroke-width="2"/>
+<text x="2416" y="1423" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_files" target="_blank" class="st" data-op="get_workflows_files"><title>GET /api/v1/workflows/{id}/files
+Workflows line · get_workflows_files</title>
+<circle cx="2360" cy="1418" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2348.0" y="1423" text-anchor="end" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_logs" target="_blank" class="st" data-op="get_workflows_logs"><title>GET /api/v1/workflows/{id}/logs
+Workflows line · get_workflows_logs</title>
+<circle cx="2536" cy="1550" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2548" y="1555" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-post_workflows_rerun" target="_blank" class="st" data-op="post_workflows_rerun"><title>POST /api/v1/workflows/{id}/rerun
+Workflows line · post_workflows_rerun</title>
+<circle cx="2624" cy="1638" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2636" y="1643" text-anchor="start" style="fill:#1A1F2C">Update rerun</text>
+</a>
+<a href="https://apis.apis.io/apis/one-codex/one-codex-workflows-api/#op-get_workflows_results" target="_blank" class="st" data-op="get_workflows_results"><title>GET /api/v1/workflows/{id}/results
+Workflows line · get_workflows_results</title>
+<circle cx="2712" cy="1770" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2724" y="1775" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<text x="3298" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3298" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SAMPLES</text>
+<rect x="3298" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3315" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SAM</text><text x="3340" y="269" font-size="11" fill="#1A1F2C">Samples <tspan fill="#8A93A6">13</tspan></text>
+<rect x="3298" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="3315" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEQ</text><text x="3340" y="286" font-size="11" fill="#1A1F2C">Sequencing <tspan fill="#8A93A6">4</tspan></text>
+<text x="3298" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">CLASSIFICATIONS</text>
+<rect x="3298" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3315" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLA</text><text x="3340" y="329" font-size="11" fill="#1A1F2C">Classifications <tspan fill="#8A93A6">12</tspan></text>
+<text x="3298" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">FUNCTIONAL PROFILES</text>
+<rect x="3298" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3315" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FP</text><text x="3340" y="372" font-size="11" fill="#1A1F2C">Functional Profiles <tspan fill="#8A93A6">11</tspan></text>
+<text x="3298" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">DOCUMENTS</text>
+<rect x="3298" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="3315" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOC</text><text x="3340" y="415" font-size="11" fill="#1A1F2C">Documents <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">PANELS</text>
+<rect x="3298" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3315" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAN</text><text x="3340" y="458" font-size="11" fill="#1A1F2C">Panels <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">WORKFLOWS</text>
+<rect x="3298" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="3315" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="3340" y="501" font-size="11" fill="#1A1F2C">Workflows <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ANALYSES</text>
+<rect x="3298" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3315" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ANA</text><text x="3340" y="544" font-size="11" fill="#1A1F2C">Analyses <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">MLSTS</text>
+<rect x="3298" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="3315" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MLS</text><text x="3340" y="587" font-size="11" fill="#1A1F2C">Mlsts <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">REPORTS</text>
+<rect x="3298" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="3315" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="3340" y="630" font-size="11" fill="#1A1F2C">Reports <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">CONTROLS</text>
+<rect x="3298" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3315" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="3340" y="673" font-size="11" fill="#1A1F2C">Controls <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">PROJECTS</text>
+<rect x="3298" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3315" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="3340" y="716" font-size="11" fill="#1A1F2C">Projects <tspan fill="#8A93A6">10</tspan></text>
+<text x="3298" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3298" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="3315" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ALI</text><text x="3340" y="759" font-size="11" fill="#1A1F2C">Alignments <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3298" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="3315" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3340" y="776" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">9</tspan></text>
+<rect x="3298" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3315" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASS</text><text x="3340" y="793" font-size="11" fill="#1A1F2C">Assets <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3298" y="800" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3315" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JOB</text><text x="3340" y="810" font-size="11" fill="#1A1F2C">Jobs <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3298" y="817" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3315" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAX</text><text x="3340" y="827" font-size="11" fill="#1A1F2C">Taxa <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3298" y="834" width="34" height="13" rx="3" fill="#00838F"/><text x="3315" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AS</text><text x="3340" y="844" font-size="11" fill="#1A1F2C">Annotation Sets <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3298" y="851" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3315" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ASSE</text><text x="3340" y="861" font-size="11" fill="#1A1F2C">Assemblies <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3298" y="868" width="34" height="13" rx="3" fill="#B8860B"/><text x="3315" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MET</text><text x="3340" y="878" font-size="11" fill="#1A1F2C">Metadata <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3298" y="885" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3315" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="3340" y="895" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">3</tspan></text>
+<text x="3548" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3566,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3592" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3566,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3592" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3566,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3592" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3566,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3592" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3566,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3592" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3566,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3592" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3566,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3592" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3566,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3592" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3548" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3548" y="463" font-size="10.5" fill="#5A6275">“Account” → More Local line · 1 op</text>
+<text x="3548" y="478" font-size="10.5" fill="#5A6275">“Events” → More Local line · 2 ops</text>
+<text x="3548" y="493" font-size="10.5" fill="#5A6275">“Genomes” → More Local line · 2 ops</text>
+<text x="3548" y="508" font-size="10.5" fill="#5A6275">“Users” → More Local line · 2 ops</text>
+<text x="3548" y="523" font-size="10.5" fill="#5A6275">“Webhooks” → More Local line · 2 ops</text>
+<text x="3548" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3548" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2120" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/one-codex/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
