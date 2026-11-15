@@ -1,0 +1,1163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3674 1440" width="3674" height="1440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3674" height="1440" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Oracle API · Transit Map · Sheet 17: Fleets, Remediation Runs</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">64 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="applicationDependencyManagement" d="M1378.0,272.0 L1462.0,272.0 L1546.0,272.0 L1630.0,272.0 L1700.0,272.0 Q1714.0,272.0 1723.9,281.9 L1798.0,356.0 L1882.0,440.0 L1966.0,524.0 L2040.1,598.1 Q2050.0,608.0 2050.0,622.0 L2050.0,692.0 L2050.0,776.0 L2050.0,860.0 L2050.0,930.0 Q2050.0,944.0 2040.1,953.9 L1966.0,1028.0 L1882.0,1112.0 L1798.0,1196.0 L1723.9,1270.1 Q1714.0,1280.0 1700.0,1280.0 L1630.0,1280.0 L1546.0,1280.0 L1462.0,1280.0 L1392.0,1280.0 Q1378.0,1280.0 1368.1,1270.1 L1294.0,1196.0 L1210.0,1112.0 L1126.0,1028.0 L1051.9,953.9 Q1042.0,944.0 1042.0,930.0 L1042.0,860.0 L1042.0,776.0 L1042.0,692.0 L1042.0,622.0 Q1042.0,608.0 1051.9,598.1 L1126.0,524.0 L1210.0,440.0 L1294.0,356.0 L1378.0,272.0" fill="none" stroke="#0d6676" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>applicationDependencyManagement</title></path>
+<path class="line" data-line="fleetAppsManagement" d="M2974.0,1154.0 L2890.0,1154.0 L2820.0,1154.0 Q2806.0,1154.0 2796.1,1144.1 L2722.0,1070.0 L2647.9,995.9 Q2638.0,986.0 2624.0,986.0 L2554.0,986.0 L2484.0,986.0 Q2470.0,986.0 2460.1,976.1 L2386.0,902.0 L2353.9,869.9 Q2344.0,860.0 2330.0,860.0 L2232.0,860.0 Q2218.0,860.0 2208.1,850.1 L2176.0,818.0 L2143.9,785.9 Q2134.0,776.0 2120.0,776.0 L1966.0,776.0 L1896.0,776.0 Q1882.0,776.0 1872.1,766.1 L1807.9,701.9 Q1798.0,692.0 1784.0,692.0 L1714.0,692.0 L1686.0,692.0 Q1672.0,692.0 1662.1,682.1 L1588.0,608.0 L1513.9,533.9 Q1504.0,524.0 1490.0,524.0 L1378.0,524.0 L1294.0,524.0 L1224.0,524.0 Q1210.0,524.0 1200.1,514.1 L1093.9,407.9 Q1084.0,398.0 1070.0,398.0 L958.0,398.0 L874.0,398.0 L804.0,398.0 Q790.0,398.0 780.1,388.1 L715.9,323.9 Q706.0,314.0 692.0,314.0 L622.0,314.0 L510.0,314.0 Q496.0,314.0 486.1,304.1 L421.9,239.9 Q412.0,230.0 398.0,230.0 L328.0,230.0 L244.0,230.0 L160.0,230.0" fill="none" stroke="#0d775b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>fleetAppsManagement</title></path>
+<rect x="1348" y="219" width="60" height="26" rx="13" fill="#0d6676"/><text x="1378" y="237" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">ADM</text>
+<line x1="2974" y1="1154" x2="3008.0" y2="1154.0" stroke="#0d775b" stroke-width="7"/><rect x="2984.0" y="1143.0" width="48" height="22" rx="5" fill="#0d775b"><title>fleetAppsManagement</title></rect><text x="3008.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FAM</text>
+<line x1="160" y1="230" x2="126.0" y2="230.0" stroke="#0d775b" stroke-width="7"/><rect x="102.0" y="219.0" width="48" height="22" rx="5" fill="#0d775b"><title>fleetAppsManagement</title></rect><text x="126.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FAM</text>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListKnowledgeBases" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:ListKnowledgeBases"><title>GET /knowledgeBases
+applicationDependencyManagement line · ListKnowledgeBases</title>
+<circle cx="1378" cy="272" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1366.0" y="277" text-anchor="end" style="fill:#1A1F2C">List knowledgebases</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-CreateKnowledgeBase" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:CreateKnowledgeBase"><title>POST /knowledgeBases
+applicationDependencyManagement line · CreateKnowledgeBase</title>
+<circle cx="1462" cy="272" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1468" y="260" transform="rotate(-45 1468 260)" style="fill:#1A1F2C">Create knowledgebas</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-DeleteKnowledgeBase" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:DeleteKnowledgeBase"><title>DELETE /knowledgeBases/{knowledgeBaseId}
+applicationDependencyManagement line · DeleteKnowledgeBase</title>
+<circle cx="1714" cy="272" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<line x1="1710" y1="276" x2="1718" y2="268" stroke="#0d6676" stroke-width="2"/>
+<text x="1726" y="277" text-anchor="start" style="fill:#1A1F2C">Delete knowledgebas</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-GetKnowledgeBase" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:GetKnowledgeBase"><title>GET /knowledgeBases/{knowledgeBaseId}
+applicationDependencyManagement line · GetKnowledgeBase</title>
+<circle cx="1546" cy="272" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1552" y="260" transform="rotate(-45 1552 260)" style="fill:#1A1F2C">Get knowledgebas <tspan font-weight="700" style="fill:#dd5ba0">⇄GAAR p.12</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-UpdateKnowledgeBase" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:UpdateKnowledgeBase"><title>PUT /knowledgeBases/{knowledgeBaseId}
+applicationDependencyManagement line · UpdateKnowledgeBase</title>
+<circle cx="1630" cy="272" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1636" y="260" transform="rotate(-45 1636 260)" style="fill:#1A1F2C">Update knowledgebas</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ChangeKnowledgeBaseCompartment" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:ChangeKnowledgeBaseCompartment"><title>POST /knowledgeBases/{knowledgeBaseId}/actions/changeCompartment
+applicationDependencyManagement line · ChangeKnowledgeBaseCompartment</title>
+<circle cx="1798" cy="356" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1810" y="361" text-anchor="start" style="fill:#1A1F2C">Update changecompartment</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListRemediationRecipes" target="_blank" class="st" data-op="ListRemediationRecipes"><title>GET /remediationRecipes
+applicationDependencyManagement line · ListRemediationRecipes</title>
+<circle cx="1882" cy="440" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1894" y="445" text-anchor="start" style="fill:#1A1F2C">List remediationrecipes</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-CreateRemediationRecipe" target="_blank" class="st" data-op="CreateRemediationRecipe"><title>POST /remediationRecipes
+applicationDependencyManagement line · CreateRemediationRecipe</title>
+<circle cx="1966" cy="524" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1978" y="529" text-anchor="start" style="fill:#1A1F2C">Create remediationrecipe</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-DeleteRemediationRecipe" target="_blank" class="st" data-op="DeleteRemediationRecipe"><title>DELETE /remediationRecipes/{remediationRecipeId}
+applicationDependencyManagement line · DeleteRemediationRecipe</title>
+<circle cx="2050" cy="776" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<line x1="2046" y1="780" x2="2054" y2="772" stroke="#0d6676" stroke-width="2"/>
+<text x="2059" y="766" text-anchor="start" style="fill:#1A1F2C">Delete remediationrecipe</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-GetRemediationRecipe" target="_blank" class="st" data-op="GetRemediationRecipe"><title>GET /remediationRecipes/{remediationRecipeId}
+applicationDependencyManagement line · GetRemediationRecipe</title>
+<circle cx="2050" cy="608" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="2062" y="613" text-anchor="start" style="fill:#1A1F2C">Get remediationrecipe</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-UpdateRemediationRecipe" target="_blank" class="st" data-op="UpdateRemediationRecipe"><title>PUT /remediationRecipes/{remediationRecipeId}
+applicationDependencyManagement line · UpdateRemediationRecipe</title>
+<circle cx="2050" cy="692" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="2062" y="697" text-anchor="start" style="fill:#1A1F2C">Update remediationrecipe</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ActivateRemediationRecipe" target="_blank" class="st" data-op="ActivateRemediationRecipe"><title>POST /remediationRecipes/{remediationRecipeId}/actions/activate
+applicationDependencyManagement line · ActivateRemediationRecipe</title>
+<circle cx="2050" cy="860" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="2062" y="865" text-anchor="start" style="fill:#1A1F2C">Activate action</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ChangeRemediationRecipeCompartment" target="_blank" class="st" data-op="ChangeRemediationRecipeCompartment"><title>POST /remediationRecipes/{remediationRecipeId}/actions/changeCompartment
+applicationDependencyManagement line · ChangeRemediationRecipeCompartment</title>
+<circle cx="2050" cy="944" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="2062" y="949" text-anchor="start" style="fill:#1A1F2C">Update changecompartment</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-DeactivateRemediationRecipe" target="_blank" class="st" data-op="DeactivateRemediationRecipe"><title>POST /remediationRecipes/{remediationRecipeId}/actions/deactivate
+applicationDependencyManagement line · DeactivateRemediationRecipe</title>
+<circle cx="1966" cy="1028" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1978" y="1033" text-anchor="start" style="fill:#1A1F2C">Deactivate action</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListRemediationRuns" target="_blank" class="st" data-op="ListRemediationRuns"><title>GET /remediationRuns
+applicationDependencyManagement line · ListRemediationRuns</title>
+<circle cx="1882" cy="1112" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1894" y="1117" text-anchor="start" style="fill:#1A1F2C">List remediationruns</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-CreateRemediationRun" target="_blank" class="st" data-op="CreateRemediationRun"><title>POST /remediationRuns
+applicationDependencyManagement line · CreateRemediationRun</title>
+<circle cx="1798" cy="1196" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1810" y="1201" text-anchor="start" style="fill:#1A1F2C">Create remediationrun</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-DeleteRemediationRun" target="_blank" class="st" data-op="DeleteRemediationRun"><title>DELETE /remediationRuns/{remediationRunId}
+applicationDependencyManagement line · DeleteRemediationRun</title>
+<circle cx="1546" cy="1280" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<line x1="1542" y1="1284" x2="1550" y2="1276" stroke="#0d6676" stroke-width="2"/>
+<text x="1552" y="1268" transform="rotate(-45 1552 1268)" style="fill:#1A1F2C">Delete remediationrun</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-GetRemediationRun" target="_blank" class="st" data-op="GetRemediationRun"><title>GET /remediationRuns/{remediationRunId}
+applicationDependencyManagement line · GetRemediationRun</title>
+<circle cx="1714" cy="1280" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1726" y="1285" text-anchor="start" style="fill:#1A1F2C">Get remediationrun</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-UpdateRemediationRun" target="_blank" class="st" data-op="UpdateRemediationRun"><title>PUT /remediationRuns/{remediationRunId}
+applicationDependencyManagement line · UpdateRemediationRun</title>
+<circle cx="1630" cy="1280" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1636" y="1268" transform="rotate(-45 1636 1268)" style="fill:#1A1F2C">Update remediationrun</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-CancelRemediationRun" target="_blank" class="st" data-op="CancelRemediationRun"><title>POST /remediationRuns/{remediationRunId}/actions/cancel
+applicationDependencyManagement line · CancelRemediationRun</title>
+<circle cx="1462" cy="1280" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1468" y="1268" transform="rotate(-45 1468 1268)" style="fill:#1A1F2C">Cancel action</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ChangeRemediationRunCompartment" target="_blank" class="st" data-op="ChangeRemediationRunCompartment"><title>POST /remediationRuns/{remediationRunId}/actions/changeCompartment
+applicationDependencyManagement line · ChangeRemediationRunCompartment</title>
+<circle cx="1378" cy="1280" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1366.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Update changecompartment</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListApplicationDependencyRecommendations" target="_blank" class="st" data-op="ListApplicationDependencyRecommendations"><title>GET /remediationRuns/{remediationRunId}/applicationDependencyRecommendations
+applicationDependencyManagement line · ListApplicationDependencyRecommendations</title>
+<circle cx="1294" cy="1196" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1306" y="1201" text-anchor="start" style="fill:#1A1F2C">List applicationdependencyrecommendations</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListStages" target="_blank" class="st" data-op="ListStages"><title>GET /remediationRuns/{remediationRunId}/stages
+applicationDependencyManagement line · ListStages</title>
+<circle cx="1210" cy="1112" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1222" y="1117" text-anchor="start" style="fill:#1A1F2C">List stages</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-GetStage" target="_blank" class="st" data-op="GetStage"><title>GET /remediationRuns/{remediationRunId}/stages/{stageType}
+applicationDependencyManagement line · GetStage</title>
+<circle cx="1126" cy="1028" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1138" y="1033" text-anchor="start" style="fill:#1A1F2C">Get stage</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListVulnerabilityAudits" target="_blank" class="st" data-op="ListVulnerabilityAudits"><title>GET /vulnerabilityAudits
+applicationDependencyManagement line · ListVulnerabilityAudits</title>
+<circle cx="1042" cy="944" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1054" y="949" text-anchor="start" style="fill:#1A1F2C">List vulnerabilityaudits</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-CreateVulnerabilityAudit" target="_blank" class="st" data-op="CreateVulnerabilityAudit"><title>POST /vulnerabilityAudits
+applicationDependencyManagement line · CreateVulnerabilityAudit</title>
+<circle cx="1042" cy="860" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1054" y="865" text-anchor="start" style="fill:#1A1F2C">Create vulnerabilityaudit</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-DeleteVulnerabilityAudit" target="_blank" class="st" data-op="DeleteVulnerabilityAudit"><title>DELETE /vulnerabilityAudits/{vulnerabilityAuditId}
+applicationDependencyManagement line · DeleteVulnerabilityAudit</title>
+<circle cx="1042" cy="608" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<line x1="1038" y1="612" x2="1046" y2="604" stroke="#0d6676" stroke-width="2"/>
+<text x="1030.0" y="613" text-anchor="end" style="fill:#1A1F2C">Delete vulnerabilityaudit</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-GetVulnerabilityAudit" target="_blank" class="st" data-op="GetVulnerabilityAudit"><title>GET /vulnerabilityAudits/{vulnerabilityAuditId}
+applicationDependencyManagement line · GetVulnerabilityAudit</title>
+<circle cx="1042" cy="776" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1054" y="781" text-anchor="start" style="fill:#1A1F2C">Get vulnerabilityaudit</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-UpdateVulnerabilityAudit" target="_blank" class="st" data-op="UpdateVulnerabilityAudit"><title>PUT /vulnerabilityAudits/{vulnerabilityAuditId}
+applicationDependencyManagement line · UpdateVulnerabilityAudit</title>
+<circle cx="1042" cy="692" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1054" y="697" text-anchor="start" style="fill:#1A1F2C">Update vulnerabilityaudit</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ChangeVulnerabilityAuditCompartment" target="_blank" class="st" data-op="ChangeVulnerabilityAuditCompartment"><title>POST /vulnerabilityAudits/{vulnerabilityAuditId}/actions/changeCompartment
+applicationDependencyManagement line · ChangeVulnerabilityAuditCompartment</title>
+<circle cx="1126" cy="524" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1114.0" y="529" text-anchor="end" style="fill:#1A1F2C">Update changecompartment</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListApplicationDependencyVulnerabilities" target="_blank" class="st" data-op="ListApplicationDependencyVulnerabilities"><title>GET /vulnerabilityAudits/{vulnerabilityAuditId}/applicationDependencyVulnerabilities
+applicationDependencyManagement line · ListApplicationDependencyVulnerabilities</title>
+<circle cx="1210" cy="440" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1222" y="445" text-anchor="start" style="fill:#1A1F2C">List applicationdependencyvulnerabilities</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-applicationdependencymanagement-api/#op-ListVulnerabilities" target="_blank" class="st" data-op="oracle-applicationdependencymanagement-api:ListVulnerabilities"><title>GET /vulnerabilityAudits/{vulnerabilityAuditId}/vulnerabilities
+applicationDependencyManagement line · ListVulnerabilities</title>
+<circle cx="1294" cy="356" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1306" y="361" text-anchor="start" style="fill:#1A1F2C">List vulnerabilities <tspan font-weight="700" style="fill:#0B7A75">⇄VS p.12</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListFleets" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:ListFleets"><title>GET /fleets
+fleetAppsManagement line · ListFleets</title>
+<circle cx="2974" cy="1154" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2968" y="1166" text-anchor="end" transform="rotate(-45 2968 1166)" style="fill:#1A1F2C">List fleets</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-CreateFleet" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:CreateFleet"><title>POST /fleets
+fleetAppsManagement line · CreateFleet</title>
+<circle cx="2890" cy="1154" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2896" y="1142" transform="rotate(-45 2896 1142)" style="fill:#1A1F2C">Create fleet</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-CheckResourceTagging" target="_blank" class="st" data-op="CheckResourceTagging"><title>POST /fleets/actions/checkResourceTagging
+fleetAppsManagement line · CheckResourceTagging</title>
+<circle cx="2554" cy="986" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2560" y="974" transform="rotate(-45 2560 974)" style="fill:#1A1F2C">Update checkresourcetagging</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-DeleteFleet" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:DeleteFleet"><title>DELETE /fleets/{fleetId}
+fleetAppsManagement line · DeleteFleet</title>
+<circle cx="2638" cy="986" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<line x1="2634" y1="990" x2="2642" y2="982" stroke="#0d775b" stroke-width="2"/>
+<text x="2650" y="991" text-anchor="start" style="fill:#1A1F2C">Delete fleet</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GetFleet" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:GetFleet"><title>GET /fleets/{fleetId}
+fleetAppsManagement line · GetFleet</title>
+<circle cx="2806" cy="1154" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2794.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Get fleet <tspan font-weight="700" style="fill:#0E9F6E">⇄JMSF p.9</tspan> <tspan font-weight="700" style="fill:#17d2cd">⇄JAV p.9</tspan> <tspan font-weight="700" style="fill:#0d7732">⇄JVM p.9</tspan> <tspan font-weight="700" style="fill:#09e1b9">⇄JAMS p.9</tspan> <tspan font-weight="700" style="fill:#05797f">⇄JAVA p.9</tspan> <tspan font-weight="700" style="fill:#17d24a">⇄JVMN p.9</tspan> <tspan font-weight="700" style="fill:#17bad2">⇄JVA p.9</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-UpdateFleet" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:UpdateFleet"><title>PUT /fleets/{fleetId}
+fleetAppsManagement line · UpdateFleet</title>
+<circle cx="2722" cy="1070" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2734" y="1075" text-anchor="start" style="fill:#1A1F2C">Update fleet</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ChangeFleetCompartment" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:ChangeFleetCompartment"><title>POST /fleets/{fleetId}/actions/changeCompartment
+fleetAppsManagement line · ChangeFleetCompartment</title>
+<circle cx="2470" cy="986" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2458.0" y="991" text-anchor="end" style="fill:#1A1F2C">Update changecompartment</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ConfirmTargets" target="_blank" class="st" data-op="ConfirmTargets"><title>POST /fleets/{fleetId}/actions/confirmTargets
+fleetAppsManagement line · ConfirmTargets</title>
+<circle cx="2386" cy="902" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2398" y="907" text-anchor="start" style="fill:#1A1F2C">Create confirmtarget</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GenerateComplianceReport" target="_blank" class="st" data-op="GenerateComplianceReport"><title>POST /fleets/{fleetId}/actions/generateComplianceReport
+fleetAppsManagement line · GenerateComplianceReport</title>
+<circle cx="2344" cy="860" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2356" y="865" text-anchor="start" style="fill:#1A1F2C">Update generatecompliancereport</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-RequestResourceValidation" target="_blank" class="st" data-op="RequestResourceValidation"><title>POST /fleets/{fleetId}/actions/requestResourceValidation
+fleetAppsManagement line · RequestResourceValidation</title>
+<circle cx="2218" cy="860" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2227" y="850" text-anchor="start" style="fill:#1A1F2C">Update requestresourcevalidation</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-RequestTargetDiscovery" target="_blank" class="st" data-op="RequestTargetDiscovery"><title>POST /fleets/{fleetId}/actions/requestTargetDiscovery
+fleetAppsManagement line · RequestTargetDiscovery</title>
+<circle cx="2176" cy="818" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="2188" y="823" text-anchor="start" style="fill:#1A1F2C">Update requesttargetdiscovery</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GetCompliance" target="_blank" class="st" data-op="GetCompliance"><title>GET /fleets/{fleetId}/compliance
+fleetAppsManagement line · GetCompliance</title>
+<circle cx="1966" cy="776" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1972" y="764" transform="rotate(-45 1972 764)" style="fill:#1A1F2C">Get compliance</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GetComplianceReport" target="_blank" class="st" data-op="GetComplianceReport"><title>GET /fleets/{fleetId}/complianceReports/{complianceReportId}
+fleetAppsManagement line · GetComplianceReport</title>
+<circle cx="1882" cy="776" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1870.0" y="781" text-anchor="end" style="fill:#1A1F2C">Get compliancereport</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListFleetCredentials" target="_blank" class="st" data-op="ListFleetCredentials"><title>GET /fleets/{fleetId}/fleetCredentials
+fleetAppsManagement line · ListFleetCredentials</title>
+<circle cx="1798" cy="692" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1810" y="697" text-anchor="start" style="fill:#1A1F2C">List fleetcredentials</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-CreateFleetCredential" target="_blank" class="st" data-op="CreateFleetCredential"><title>POST /fleets/{fleetId}/fleetCredentials
+fleetAppsManagement line · CreateFleetCredential</title>
+<circle cx="1714" cy="692" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1720" y="680" transform="rotate(-45 1720 680)" style="fill:#1A1F2C">Create fleetcredential</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-DeleteFleetCredential" target="_blank" class="st" data-op="DeleteFleetCredential"><title>DELETE /fleets/{fleetId}/fleetCredentials/{fleetCredentialId}
+fleetAppsManagement line · DeleteFleetCredential</title>
+<circle cx="1504" cy="524" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<line x1="1500" y1="528" x2="1508" y2="520" stroke="#0d775b" stroke-width="2"/>
+<text x="1516" y="529" text-anchor="start" style="fill:#1A1F2C">Delete fleetcredential</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GetFleetCredential" target="_blank" class="st" data-op="GetFleetCredential"><title>GET /fleets/{fleetId}/fleetCredentials/{fleetCredentialId}
+fleetAppsManagement line · GetFleetCredential</title>
+<circle cx="1672" cy="692" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1660.0" y="697" text-anchor="end" style="fill:#1A1F2C">Get fleetcredential</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-UpdateFleetCredential" target="_blank" class="st" data-op="UpdateFleetCredential"><title>PUT /fleets/{fleetId}/fleetCredentials/{fleetCredentialId}
+fleetAppsManagement line · UpdateFleetCredential</title>
+<circle cx="1588" cy="608" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1600" y="613" text-anchor="start" style="fill:#1A1F2C">Update fleetcredential</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListFleetProducts" target="_blank" class="st" data-op="ListFleetProducts"><title>GET /fleets/{fleetId}/fleetProducts
+fleetAppsManagement line · ListFleetProducts</title>
+<circle cx="1378" cy="524" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1372" y="536" text-anchor="end" transform="rotate(-45 1372 536)" style="fill:#1A1F2C">List fleetproducts</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListFleetProperties" target="_blank" class="st" data-op="ListFleetProperties"><title>GET /fleets/{fleetId}/fleetProperties
+fleetAppsManagement line · ListFleetProperties</title>
+<circle cx="1294" cy="524" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1288" y="536" text-anchor="end" transform="rotate(-45 1288 536)" style="fill:#1A1F2C">List fleetproperties</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-CreateFleetProperty" target="_blank" class="st" data-op="CreateFleetProperty"><title>POST /fleets/{fleetId}/fleetProperties
+fleetAppsManagement line · CreateFleetProperty</title>
+<circle cx="1210" cy="524" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1219" y="514" text-anchor="start" style="fill:#1A1F2C">Create fleetproperty</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-DeleteFleetProperty" target="_blank" class="st" data-op="DeleteFleetProperty"><title>DELETE /fleets/{fleetId}/fleetProperties/{fleetPropertyId}
+fleetAppsManagement line · DeleteFleetProperty</title>
+<circle cx="874" cy="398" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<line x1="870" y1="402" x2="878" y2="394" stroke="#0d775b" stroke-width="2"/>
+<text x="880" y="386" transform="rotate(-45 880 386)" style="fill:#1A1F2C">Delete fleetproperty</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GetFleetProperty" target="_blank" class="st" data-op="GetFleetProperty"><title>GET /fleets/{fleetId}/fleetProperties/{fleetPropertyId}
+fleetAppsManagement line · GetFleetProperty</title>
+<circle cx="1084" cy="398" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="1096" y="403" text-anchor="start" style="fill:#1A1F2C">Get fleetproperty</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-UpdateFleetProperty" target="_blank" class="st" data-op="UpdateFleetProperty"><title>PUT /fleets/{fleetId}/fleetProperties/{fleetPropertyId}
+fleetAppsManagement line · UpdateFleetProperty</title>
+<circle cx="958" cy="398" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="964" y="386" transform="rotate(-45 964 386)" style="fill:#1A1F2C">Update fleetproperty</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListFleetResources" target="_blank" class="st" data-op="ListFleetResources"><title>GET /fleets/{fleetId}/fleetResources
+fleetAppsManagement line · ListFleetResources</title>
+<circle cx="790" cy="398" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="778.0" y="403" text-anchor="end" style="fill:#1A1F2C">List fleetresources</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-CreateFleetResource" target="_blank" class="st" data-op="CreateFleetResource"><title>POST /fleets/{fleetId}/fleetResources
+fleetAppsManagement line · CreateFleetResource</title>
+<circle cx="706" cy="314" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="718" y="319" text-anchor="start" style="fill:#1A1F2C">Create fleetresource</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-DeleteFleetResource" target="_blank" class="st" data-op="DeleteFleetResource"><title>DELETE /fleets/{fleetId}/fleetResources/{fleetResourceId}
+fleetAppsManagement line · DeleteFleetResource</title>
+<circle cx="412" cy="230" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<line x1="408" y1="234" x2="416" y2="226" stroke="#0d775b" stroke-width="2"/>
+<text x="424" y="235" text-anchor="start" style="fill:#1A1F2C">Delete fleetresource</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-GetFleetResource" target="_blank" class="st" data-op="GetFleetResource"><title>GET /fleets/{fleetId}/fleetResources/{fleetResourceId}
+fleetAppsManagement line · GetFleetResource</title>
+<circle cx="622" cy="314" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="628" y="302" transform="rotate(-45 628 302)" style="fill:#1A1F2C">Get fleetresource</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-UpdateFleetResource" target="_blank" class="st" data-op="UpdateFleetResource"><title>PUT /fleets/{fleetId}/fleetResources/{fleetResourceId}
+fleetAppsManagement line · UpdateFleetResource</title>
+<circle cx="496" cy="314" r="5.5" fill="#0d775b" stroke="#0d775b" stroke-width="2.5"/>
+<text x="484.0" y="319" text-anchor="end" style="fill:#1A1F2C">Update fleetresource</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListFleetTargets" target="_blank" class="st" data-op="ListFleetTargets"><title>GET /fleets/{fleetId}/fleetTargets
+fleetAppsManagement line · ListFleetTargets</title>
+<circle cx="328" cy="230" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="334" y="218" transform="rotate(-45 334 218)" style="fill:#1A1F2C">List fleettargets</text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListTargets" target="_blank" class="st" data-op="oracle-fleetappsmanagement-api:ListTargets"><title>GET /fleets/{fleetId}/targets
+fleetAppsManagement line · ListTargets</title>
+<circle cx="244" cy="230" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="250" y="218" transform="rotate(-45 250 218)" style="fill:#1A1F2C">List targets <tspan font-weight="700" style="fill:#eba015">⇄CGT p.8</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/oracle/oracle-fleetappsmanagement-api/#op-ListInventoryResources" target="_blank" class="st" data-op="ListInventoryResources"><title>GET /inventoryResources
+fleetAppsManagement line · ListInventoryResources</title>
+<circle cx="160" cy="230" r="5.5" fill="#fff" stroke="#0d775b" stroke-width="2.5"/>
+<text x="166" y="218" transform="rotate(-45 166 218)" style="fill:#1A1F2C">List inventoryresources</text>
+</a>
+<text x="3164" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3164" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">JAVAMANAGEMENTSERVICE</text>
+<rect x="3164" y="259" width="34" height="13" rx="3" fill="#0d775b"/><text x="3181" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FAM</text><text x="3206" y="269" font-size="11" fill="#1A1F2C">fleetAppsManagement <tspan fill="#8A93A6">32</tspan></text>
+<text x="3164" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">HOST SCAN TARGETS</text>
+<rect x="3164" y="302" width="34" height="13" rx="3" fill="#0d6676"/><text x="3181" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ADM</text><text x="3206" y="312" font-size="11" fill="#1A1F2C">applicationDependencyManagement <tspan fill="#8A93A6">32</tspan></text>
+<text x="3414" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3432,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3458" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3432,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3458" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3432,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3458" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3432,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3458" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3432,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3458" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3432,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3458" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3432,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3458" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3432,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3458" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3414" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3414" y="463" font-size="10.5" fill="#5A6275">“${submit-email-tag}” → AIServiceLanguage line · 1 op</text>
+<text x="3414" y="478" font-size="10.5" fill="#5A6275">“${submit-raw-email-tag}” → AIServiceLanguage line · 1 op</text>
+<text x="3414" y="493" font-size="10.5" fill="#5A6275">“Account” → More Local line · 2 ops</text>
+<text x="3414" y="508" font-size="10.5" fill="#5A6275">“CloudAccountResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="523" font-size="10.5" fill="#5A6275">“CloudAccountsResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="538" font-size="10.5" fill="#5A6275">“Commitment” → More Local line · 2 ops</text>
+<text x="3414" y="553" font-size="10.5" fill="#5A6275">“Compute” → Compute · App Catalog Listings line · 5 ops</text>
+<text x="3414" y="568" font-size="10.5" fill="#5A6275">“Compute” → Compute · App Catalog Subscriptions line · 3 ops</text>
+<text x="3414" y="583" font-size="10.5" fill="#5A6275">“Compute” → Compute · Boot Volume Attachments line · 4 ops</text>
+<text x="3414" y="598" font-size="10.5" fill="#5A6275">“Compute” → Compute · Capacity Reports line · 1 op</text>
+<text x="3414" y="613" font-size="10.5" fill="#5A6275">“Compute” → Compute · Capacity Reservation Instance Shapes line · 1 op</text>
+<text x="3414" y="628" font-size="10.5" fill="#5A6275">“Compute” → Compute · Capacity Reservations line · 7 ops</text>
+<text x="3414" y="643" font-size="10.5" fill="#5A6275">“Compute” → Compute · Capacity Topologies line · 9 ops</text>
+<text x="3414" y="658" font-size="10.5" fill="#5A6275">“Compute” → Compute · Clusters line · 6 ops</text>
+<text x="3414" y="673" font-size="10.5" fill="#5A6275">“Compute” → Compute · Dedicated Vm Host Instance Shapes line · 1 op</text>
+<text x="3414" y="688" font-size="10.5" fill="#5A6275">“Compute” → Compute · Dedicated Vm Host Shapes line · 1 op</text>
+<text x="3414" y="703" font-size="10.5" fill="#5A6275">“Compute” → Compute · Dedicated Vm Hosts line · 7 ops</text>
+<text x="3414" y="718" font-size="10.5" fill="#5A6275">“Compute” → Compute · Firmware Bundles line · 2 ops</text>
+<text x="3414" y="733" font-size="10.5" fill="#5A6275">“Compute” → Compute · Global Image Capability Schemas line · 4 ops</text>
+<text x="3414" y="748" font-size="10.5" fill="#5A6275">“Compute” → Compute · Gpu Memory Clusters line · 7 ops</text>
+<text x="3414" y="763" font-size="10.5" fill="#5A6275">“Compute” → Compute · Gpu Memory Fabrics line · 4 ops</text>
+<text x="3414" y="778" font-size="10.5" fill="#5A6275">“Compute” → Compute · Host Groups line · 6 ops</text>
+<text x="3414" y="793" font-size="10.5" fill="#5A6275">“Compute” → Compute · Hosts line · 8 ops</text>
+<text x="3414" y="808" font-size="10.5" fill="#5A6275">“Compute” → Compute · Image Capability Schemas line · 6 ops</text>
+<text x="3414" y="823" font-size="10.5" fill="#5A6275">“Compute” → Compute · Images line · 11 ops</text>
+<text x="3414" y="838" font-size="10.5" fill="#5A6275">“Compute” → Compute · Instance Console Connections line · 5 ops</text>
+<text x="3414" y="853" font-size="10.5" fill="#5A6275">“Compute” → Compute · Instance Console Histories line · 6 ops</text>
+<text x="3414" y="868" font-size="10.5" fill="#5A6275">“Compute” → Compute · Instance Maintenance Events line · 3 ops</text>
+<text x="3414" y="883" font-size="10.5" fill="#5A6275">“Compute” → Compute · Instances line · 13 ops</text>
+<text x="3414" y="898" font-size="10.5" fill="#5A6275">“Compute” → Compute · Shapes line · 1 op</text>
+<text x="3414" y="913" font-size="10.5" fill="#5A6275">“Compute” → Compute · Vnic Attachments line · 4 ops</text>
+<text x="3414" y="928" font-size="10.5" fill="#5A6275">“Compute” → Compute · Volume Attachments line · 5 ops</text>
+<text x="3414" y="943" font-size="10.5" fill="#5A6275">“Compute · Capacity Reports” → More Local line · 1 op</text>
+<text x="3414" y="958" font-size="10.5" fill="#5A6275">“Compute · Capacity Reservation Instance Shapes” → More Local line · 1 op</text>
+<text x="3414" y="973" font-size="10.5" fill="#5A6275">“Compute · Dedicated Vm Host Instance Shapes” → More Local line · 1 op</text>
+<text x="3414" y="988" font-size="10.5" fill="#5A6275">“Compute · Dedicated Vm Host Shapes” → More Local line · 1 op</text>
+<text x="3414" y="1003" font-size="10.5" fill="#5A6275">“Compute · Firmware Bundles” → More Local line · 2 ops</text>
+<text x="3414" y="1018" font-size="10.5" fill="#5A6275">“Compute · Shapes” → More Local line · 1 op</text>
+<text x="3414" y="1033" font-size="10.5" fill="#5A6275">“Connector Plugins” → More Local line · 2 ops</text>
+<text x="3414" y="1048" font-size="10.5" fill="#5A6275">“Container Registry” → More Local line · 1 op</text>
+<text x="3414" y="1063" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs line · 5 ops</text>
+<text x="3414" y="1078" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Actions line · 8 ops</text>
+<text x="3414" y="1093" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Assets line · 5 ops</text>
+<text x="3414" y="1108" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Assets Actions line · 9 ops</text>
+<text x="3414" y="1123" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Assets Connections line · 7 ops</text>
+<text x="3414" y="1138" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Assets Entities line · 23 ops</text>
+<text x="3414" y="1153" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Assets Folders line · 9 ops</text>
+<text x="3414" y="1168" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Assets Tags line · 4 ops</text>
+<text x="3414" y="1183" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Glossaries line · 19 ops</text>
+<text x="3414" y="1198" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Job Definitions line · 5 ops</text>
+<text x="3414" y="1213" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Jobs line · 12 ops</text>
+<text x="3414" y="1228" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Namespaces line · 10 ops</text>
+<text x="3414" y="1243" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Patterns line · 7 ops</text>
+<text x="3414" y="1258" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Catalogs Types line · 4 ops</text>
+<text x="3414" y="1273" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Metastores line · 6 ops</text>
+<text x="3414" y="1288" font-size="10.5" fill="#5A6275">“Data Catalog” → Data Catalog · Private Endpoints line · 6 ops</text>
+<text x="3414" y="1303" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Work Requests line · 1 op</text>
+<text x="3414" y="1318" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces line · 5 ops</text>
+<text x="3414" y="1333" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Actions line · 3 ops</text>
+<text x="3414" y="1348" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Applications line · 46 ops</text>
+<text x="3414" y="1363" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Assets line · 5 ops</text>
+<text x="3414" y="1378" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Connection Validations line · 4 ops</text>
+<text x="3414" y="1393" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Connections line · 10 ops</text>
+<text x="3414" y="1408" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Copy Object Requests line · 5 ops</text>
+<text x="3414" y="1423" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Dis Applications line · 11 ops</text>
+<text x="3414" y="1438" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Export Requests line · 5 ops</text>
+<text x="3414" y="1453" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Flow Validations line · 4 ops</text>
+<text x="3414" y="1468" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Flows line · 5 ops</text>
+<text x="3414" y="1483" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Folders line · 5 ops</text>
+<text x="3414" y="1498" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Function Libraries line · 5 ops</text>
+<text x="3414" y="1513" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Import Requests line · 5 ops</text>
+<text x="3414" y="1528" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Pipeline Validations line · 4 ops</text>
+<text x="3414" y="1543" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Pipelines line · 5 ops</text>
+<text x="3414" y="1558" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Projects line · 5 ops</text>
+<text x="3414" y="1573" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Task Validations line · 4 ops</text>
+<text x="3414" y="1588" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces Tasks line · 14 ops</text>
+<text x="3414" y="1603" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces User Defined Function Validations line · 4 ops</text>
+<text x="3414" y="1618" font-size="10.5" fill="#5A6275">“Data Integration” → Data Integration · Workspaces User Defined Functions line · 5 ops</text>
+<text x="3414" y="1633" font-size="10.5" fill="#5A6275">“Data Integration · Work Requests” → workRequest line · 1 op</text>
+<text x="3414" y="1648" font-size="10.5" fill="#5A6275">“Database” → Database · Application Vip line · 4 ops</text>
+<text x="3414" y="1663" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Backups line · 5 ops</text>
+<text x="3414" y="1678" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Character Sets line · 1 op</text>
+<text x="3414" y="1693" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Container Backups line · 1 op</text>
+<text x="3414" y="1708" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Container Databases line · 25 ops</text>
+<text x="3414" y="1723" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Container Versions line · 1 op</text>
+<text x="3414" y="1738" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Databases line · 40 ops</text>
+<text x="3414" y="1753" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Db Preview Versions line · 1 op</text>
+<text x="3414" y="1768" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Db Versions line · 1 op</text>
+<text x="3414" y="1783" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Exadata Infrastructure Shapes line · 1 op</text>
+<text x="3414" y="1798" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Exadata Infrastructures line · 9 ops</text>
+<text x="3414" y="1813" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Patches line · 1 op</text>
+<text x="3414" y="1828" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Software Images line · 6 ops</text>
+<text x="3414" y="1843" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Virtual Machines line · 2 ops</text>
+<text x="3414" y="1858" font-size="10.5" fill="#5A6275">“Database” → Database · Autonomous Vm Clusters line · 11 ops</text>
+<text x="3414" y="1873" font-size="10.5" fill="#5A6275">“Database” → Database · Backup Destinations line · 6 ops</text>
+<text x="3414" y="1888" font-size="10.5" fill="#5A6275">“Database” → Database · Backups line · 5 ops</text>
+<text x="3414" y="1903" font-size="10.5" fill="#5A6275">“Database” → Database · Cloud Autonomous Vm Clusters line · 11 ops</text>
+<text x="3414" y="1918" font-size="10.5" fill="#5A6275">“Database” → Database · Cloud Exadata Infrastructures line · 10 ops</text>
+<text x="3414" y="1933" font-size="10.5" fill="#5A6275">“Database” → Database · Cloud Vm Clusters line · 17 ops</text>
+<text x="3414" y="1948" font-size="10.5" fill="#5A6275">“Database” → Database · Databases line · 32 ops</text>
+<text x="3414" y="1963" font-size="10.5" fill="#5A6275">“Database” → Database · Db Connection Bundles line · 3 ops</text>
+<text x="3414" y="1978" font-size="10.5" fill="#5A6275">“Database” → Database · Db Homes line · 9 ops</text>
+<text x="3414" y="1993" font-size="10.5" fill="#5A6275">“Database” → Database · Db Nodes line · 13 ops</text>
+<text x="3414" y="2008" font-size="10.5" fill="#5A6275">“Database” → Database · Db Servers line · 2 ops</text>
+<text x="3414" y="2023" font-size="10.5" fill="#5A6275">“Database” → Database · Db System Compute Performance line · 1 op</text>
+<text x="3414" y="2038" font-size="10.5" fill="#5A6275">“Database” → Database · Db System Shapes line · 2 ops</text>
+<text x="3414" y="2053" font-size="10.5" fill="#5A6275">“Database” → Database · Db System Storage Performance line · 1 op</text>
+<text x="3414" y="2068" font-size="10.5" fill="#5A6275">“Database” → Database · Db Systems line · 20 ops</text>
+<text x="3414" y="2083" font-size="10.5" fill="#5A6275">“Database” → Database · Db Versions line · 1 op</text>
+<text x="3414" y="2098" font-size="10.5" fill="#5A6275">“Database” → Database · Dbnode Snapshots line · 5 ops</text>
+<text x="3414" y="2113" font-size="10.5" fill="#5A6275">“Database” → Database · Exadata Infrastructures line · 19 ops</text>
+<text x="3414" y="2128" font-size="10.5" fill="#5A6275">“Database” → Database · Exadb Vm Clusters line · 13 ops</text>
+<text x="3414" y="2143" font-size="10.5" fill="#5A6275">“Database” → Database · Exascale Db Storage Vaults line · 7 ops</text>
+<text x="3414" y="2158" font-size="10.5" fill="#5A6275">“Database” → Database · Execution Actions line · 6 ops</text>
+<text x="3414" y="2173" font-size="10.5" fill="#5A6275">“Database” → Database · Execution Windows line · 6 ops</text>
+<text x="3414" y="2188" font-size="10.5" fill="#5A6275">“Database” → Database · External Backup Jobs line · 3 ops</text>
+<text x="3414" y="2203" font-size="10.5" fill="#5A6275">“Database” → Database · Externalcontainerdatabases line · 11 ops</text>
+<text x="3414" y="2218" font-size="10.5" fill="#5A6275">“Database” → Database · Externaldatabaseconnectors line · 6 ops</text>
+<text x="3414" y="2233" font-size="10.5" fill="#5A6275">“Database” → Database · Externalnoncontainerdatabases line · 12 ops</text>
+<text x="3414" y="2248" font-size="10.5" fill="#5A6275">“Database” → Database · Externalpluggabledatabases line · 12 ops</text>
+<text x="3414" y="2263" font-size="10.5" fill="#5A6275">“Database” → Database · Gi Versions line · 2 ops</text>
+<text x="3414" y="2278" font-size="10.5" fill="#5A6275">“Database” → Database · Key Stores line · 6 ops</text>
+<text x="3414" y="2293" font-size="10.5" fill="#5A6275">“Database” → Database · Maintenance Run History line · 2 ops</text>
+<text x="3414" y="2308" font-size="10.5" fill="#5A6275">“Database” → Database · Maintenance Runs line · 4 ops</text>
+<text x="3414" y="2323" font-size="10.5" fill="#5A6275">“Database” → Database · Oneoff Patches line · 7 ops</text>
+<text x="3414" y="2338" font-size="10.5" fill="#5A6275">“Database” → Database · Pluggable Databases line · 11 ops</text>
+<text x="3414" y="2353" font-size="10.5" fill="#5A6275">“Database” → Database · Pluggable Snapshots line · 4 ops</text>
+<text x="3414" y="2368" font-size="10.5" fill="#5A6275">“Database” → Database · Resource Principal Token line · 1 op</text>
+<text x="3414" y="2383" font-size="10.5" fill="#5A6275">“Database” → Database · Scheduled Action Params line · 1 op</text>
+<text x="3414" y="2398" font-size="10.5" fill="#5A6275">“Database” → Database · Scheduled Actions line · 5 ops</text>
+<text x="3414" y="2413" font-size="10.5" fill="#5A6275">“Database” → Database · Scheduling Plans line · 6 ops</text>
+<text x="3414" y="2428" font-size="10.5" fill="#5A6275">“Database” → Database · Scheduling Policies line · 12 ops</text>
+<text x="3414" y="2443" font-size="10.5" fill="#5A6275">“Database” → Database · Software Images line · 6 ops</text>
+<text x="3414" y="2458" font-size="10.5" fill="#5A6275">“Database” → Database · System Versions line · 2 ops</text>
+<text x="3414" y="2473" font-size="10.5" fill="#5A6275">“Database” → Database · Vm Clusters line · 16 ops</text>
+<text x="3414" y="2488" font-size="10.5" fill="#5A6275">“Database · Autonomous Character Sets” → More Local line · 1 op</text>
+<text x="3414" y="2503" font-size="10.5" fill="#5A6275">“Database · Autonomous Container Backups” → More Local line · 1 op</text>
+<text x="3414" y="2518" font-size="10.5" fill="#5A6275">“Database · Autonomous Container Versions” → More Local line · 1 op</text>
+<text x="3414" y="2533" font-size="10.5" fill="#5A6275">“Database · Autonomous Db Preview Versions” → More Local line · 1 op</text>
+<text x="3414" y="2548" font-size="10.5" fill="#5A6275">“Database · Autonomous Db Versions” → More Local line · 1 op</text>
+<text x="3414" y="2563" font-size="10.5" fill="#5A6275">“Database · Autonomous Exadata Infrastructure Shapes” → More Local line · 1 op</text>
+<text x="3414" y="2578" font-size="10.5" fill="#5A6275">“Database · Autonomous Patches” → More Local line · 1 op</text>
+<text x="3414" y="2593" font-size="10.5" fill="#5A6275">“Database · Autonomous Virtual Machines” → More Local line · 2 ops</text>
+<text x="3414" y="2608" font-size="10.5" fill="#5A6275">“Database · Db Servers” → More Local line · 2 ops</text>
+<text x="3414" y="2623" font-size="10.5" fill="#5A6275">“Database · Db System Compute Performance” → More Local line · 1 op</text>
+<text x="3414" y="2638" font-size="10.5" fill="#5A6275">“Database · Db System Shapes” → More Local line · 2 ops</text>
+<text x="3414" y="2653" font-size="10.5" fill="#5A6275">“Database · Db System Storage Performance” → More Local line · 1 op</text>
+<text x="3414" y="2668" font-size="10.5" fill="#5A6275">“Database · Db Versions” → More Local line · 1 op</text>
+<text x="3414" y="2683" font-size="10.5" fill="#5A6275">“Database · Gi Versions” → More Local line · 2 ops</text>
+<text x="3414" y="2698" font-size="10.5" fill="#5A6275">“Database · Maintenance Run History” → More Local line · 2 ops</text>
+<text x="3414" y="2713" font-size="10.5" fill="#5A6275">“Database · Resource Principal Token” → More Local line · 1 op</text>
+<text x="3414" y="2728" font-size="10.5" fill="#5A6275">“Database · Scheduled Action Params” → More Local line · 1 op</text>
+<text x="3414" y="2743" font-size="10.5" fill="#5A6275">“Database · System Versions” → More Local line · 2 ops</text>
+<text x="3414" y="2758" font-size="10.5" fill="#5A6275">“Dataplane” → AIServiceLanguage line · 1 op</text>
+<text x="3414" y="2773" font-size="10.5" fill="#5A6275">“Dataplane” → More Local line · 1 op</text>
+<text x="3414" y="2788" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Build Pipeline Stages line · 5 ops</text>
+<text x="3414" y="2803" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Build Pipelines line · 5 ops</text>
+<text x="3414" y="2818" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Build Runs line · 5 ops</text>
+<text x="3414" y="2833" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Connections line · 1 op</text>
+<text x="3414" y="2848" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Deploy Artifacts line · 5 ops</text>
+<text x="3414" y="2863" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Deploy Environments line · 5 ops</text>
+<text x="3414" y="2878" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Deploy Pipelines line · 5 ops</text>
+<text x="3414" y="2893" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Deploy Stages line · 5 ops</text>
+<text x="3414" y="2908" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Deployments line · 2 ops</text>
+<text x="3414" y="2923" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Projects line · 9 ops</text>
+<text x="3414" y="2938" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Pull Requests line · 32 ops</text>
+<text x="3414" y="2953" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Repositories line · 34 ops</text>
+<text x="3414" y="2968" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Repository line · 1 op</text>
+<text x="3414" y="2983" font-size="10.5" fill="#5A6275">“Dev Ops” → Dev Ops · Triggers line · 5 ops</text>
+<text x="3414" y="2998" font-size="10.5" fill="#5A6275">“Dev Ops · Connections” → databaseMigration line · 1 op</text>
+<text x="3414" y="3013" font-size="10.5" fill="#5A6275">“Dev Ops · Deployments” → goldenGate · Deployments line · 2 ops</text>
+<text x="3414" y="3028" font-size="10.5" fill="#5A6275">“Dev Ops · Repository” → More Local line · 1 op</text>
+<text x="3414" y="3043" font-size="10.5" fill="#5A6275">“Events” → identityDomains · Rules line · 1 op</text>
+<text x="3414" y="3058" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Export Sets line · 3 ops</text>
+<text x="3414" y="3073" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Exports line · 7 ops</text>
+<text x="3414" y="3088" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Filesystem Snapshot Policies line · 10 ops</text>
+<text x="3414" y="3103" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Mount Targets line · 12 ops</text>
+<text x="3414" y="3118" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Outbound Connectors line · 8 ops</text>
+<text x="3414" y="3133" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Replication Targets line · 3 ops</text>
+<text x="3414" y="3148" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Replications line · 8 ops</text>
+<text x="3414" y="3163" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Snapshots line · 7 ops</text>
+<text x="3414" y="3178" font-size="10.5" fill="#5A6275">“File Storage” → File Storage · Systems line · 16 ops</text>
+<text x="3414" y="3193" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Api Keys line · 4 ops</text>
+<text x="3414" y="3208" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Dedicated Ai Clusters line · 6 ops</text>
+<text x="3414" y="3223" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Generative Ai Private Endpoints line · 6 ops</text>
+<text x="3414" y="3238" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Generative Ai Projects line · 6 ops</text>
+<text x="3414" y="3253" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Hosted Application Storages line · 5 ops</text>
+<text x="3414" y="3268" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Hosted Applications line · 6 ops</text>
+<text x="3414" y="3283" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Hosted Applications Iam line · 6 ops</text>
+<text x="3414" y="3298" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Hosted Deployments line · 7 ops</text>
+<text x="3414" y="3313" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Imported Models line · 6 ops</text>
+<text x="3414" y="3328" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Semantic Stores line · 6 ops</text>
+<text x="3414" y="3343" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Vector Store Connector File Syncs line · 5 ops</text>
+<text x="3414" y="3358" font-size="10.5" fill="#5A6275">“GenerativeAi” → GenerativeAi · Vector Store Connectors line · 7 ops</text>
+<text x="3414" y="3373" font-size="10.5" fill="#5A6275">“Governance” → Organization line · 2 ops</text>
+<text x="3414" y="3388" font-size="10.5" fill="#5A6275">“Greetings” → More Local line · 2 ops</text>
+<text x="3414" y="3403" font-size="10.5" fill="#5A6275">“Identity” → Identity · Allowed Domain License Types line · 1 op</text>
+<text x="3414" y="3418" font-size="10.5" fill="#5A6275">“Identity” → Identity · Authentication Policies line · 2 ops</text>
+<text x="3414" y="3433" font-size="10.5" fill="#5A6275">“Identity” → Identity · Availability Domains line · 1 op</text>
+<text x="3414" y="3448" font-size="10.5" fill="#5A6275">“Identity” → Identity · Compartments line · 10 ops</text>
+<text x="3414" y="3463" font-size="10.5" fill="#5A6275">“Identity” → Identity · Domains line · 5 ops</text>
+<text x="3414" y="3478" font-size="10.5" fill="#5A6275">“Identity” → Identity · Dynamic Groups line · 5 ops</text>
+<text x="3414" y="3493" font-size="10.5" fill="#5A6275">“Identity” → Identity · Fault Domains line · 1 op</text>
+<text x="3414" y="3508" font-size="10.5" fill="#5A6275">“Identity” → Identity · Iam Work Requests line · 4 ops</text>
+<text x="3414" y="3523" font-size="10.5" fill="#5A6275">“Identity” → Identity · Idcs Domain Service Status line · 1 op</text>
+<text x="3414" y="3538" font-size="10.5" fill="#5A6275">“Identity” → Identity · Network Sources line · 5 ops</text>
+<text x="3414" y="3553" font-size="10.5" fill="#5A6275">“Identity” → Identity · Policies line · 2 ops</text>
+<text x="3414" y="3568" font-size="10.5" fill="#5A6275">“Identity” → Identity · Providers line · 7 ops</text>
+<text x="3414" y="3583" font-size="10.5" fill="#5A6275">“Identity” → Identity · Regions line · 1 op</text>
+<text x="3414" y="3598" font-size="10.5" fill="#5A6275">“Identity” → Identity · Tag Defaults line · 8 ops</text>
+<text x="3414" y="3613" font-size="10.5" fill="#5A6275">“Identity” → Identity · Tag Namespaces line · 15 ops</text>
+<text x="3414" y="3628" font-size="10.5" fill="#5A6275">“Identity” → Identity · Tagging Work Requests line · 4 ops</text>
+<text x="3414" y="3643" font-size="10.5" fill="#5A6275">“Identity” → Identity · Tags line · 6 ops</text>
+<text x="3414" y="3658" font-size="10.5" fill="#5A6275">“Identity” → Identity · Tenancies line · 3 ops</text>
+<text x="3414" y="3673" font-size="10.5" fill="#5A6275">“Identity” → Identity · User Group Memberships line · 4 ops</text>
+<text x="3414" y="3688" font-size="10.5" fill="#5A6275">“Identity” → Identity · Users line · 36 ops</text>
+<text x="3414" y="3703" font-size="10.5" fill="#5A6275">“Identity · Allowed Domain License Types” → More Local line · 1 op</text>
+<text x="3414" y="3718" font-size="10.5" fill="#5A6275">“Identity · Authentication Policies” → More Local line · 2 ops</text>
+<text x="3414" y="3733" font-size="10.5" fill="#5A6275">“Identity · Availability Domains” → More Local line · 1 op</text>
+<text x="3414" y="3748" font-size="10.5" fill="#5A6275">“Identity · Fault Domains” → More Local line · 1 op</text>
+<text x="3414" y="3763" font-size="10.5" fill="#5A6275">“Identity · Idcs Domain Service Status” → More Local line · 1 op</text>
+<text x="3414" y="3778" font-size="10.5" fill="#5A6275">“Identity · Policies” → identityDomains · Policies line · 2 ops</text>
+<text x="3414" y="3793" font-size="10.5" fill="#5A6275">“Identity · Regions” → More Local line · 1 op</text>
+<text x="3414" y="3808" font-size="10.5" fill="#5A6275">“Log Search” → More Local line · 1 op</text>
+<text x="3414" y="3823" font-size="10.5" fill="#5A6275">“Logging” → More Local line · 1 op</text>
+<text x="3414" y="3838" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Artifacts line · 7 ops</text>
+<text x="3414" y="3853" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Available Services line · 1 op</text>
+<text x="3414" y="3868" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Categories line · 1 op</text>
+<text x="3414" y="3883" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Customer Instance Report Records line · 1 op</text>
+<text x="3414" y="3898" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Disbursement Report Records line · 1 op</text>
+<text x="3414" y="3913" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Leads line · 2 ops</text>
+<text x="3414" y="3928" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Listing Revision Attachments line · 7 ops</text>
+<text x="3414" y="3943" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Listing Revision Notes line · 5 ops</text>
+<text x="3414" y="3958" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Listing Revision Packages line · 8 ops</text>
+<text x="3414" y="3973" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Listing Revisions line · 14 ops</text>
+<text x="3414" y="3988" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Listings line · 5 ops</text>
+<text x="3414" y="4003" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Markets line · 2 ops</text>
+<text x="3414" y="4018" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Products line · 2 ops</text>
+<text x="3414" y="4033" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Publishers line · 1 op</text>
+<text x="3414" y="4048" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Support Docs line · 3 ops</text>
+<text x="3414" y="4063" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Supported Currencies line · 1 op</text>
+<text x="3414" y="4078" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Supported Shapes line · 1 op</text>
+<text x="3414" y="4093" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Term Versions line · 8 ops</text>
+<text x="3414" y="4108" font-size="10.5" fill="#5A6275">“MarketplacePublisher” → MarketplacePublisher · Terms line · 6 ops</text>
+<text x="3414" y="4123" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Available Services” → More Local line · 1 op</text>
+<text x="3414" y="4138" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Categories” → Marketplace line · 1 op</text>
+<text x="3414" y="4153" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Customer Instance Report Records” → More Local line · 1 op</text>
+<text x="3414" y="4168" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Disbursement Report Records” → More Local line · 1 op</text>
+<text x="3414" y="4183" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Leads” → More Local line · 2 ops</text>
+<text x="3414" y="4198" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Markets” → More Local line · 2 ops</text>
+<text x="3414" y="4213" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Products” → More Local line · 2 ops</text>
+<text x="3414" y="4228" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Publishers” → Marketplace line · 1 op</text>
+<text x="3414" y="4243" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Supported Currencies” → More Local line · 1 op</text>
+<text x="3414" y="4258" font-size="10.5" fill="#5A6275">“MarketplacePublisher · Supported Shapes” → More Local line · 1 op</text>
+<text x="3414" y="4273" font-size="10.5" fill="#5A6275">“OperationResource” → SEExadataSecurityGroupResource line · 2 ops</text>
+<text x="3414" y="4288" font-size="10.5" fill="#5A6275">“OperationsResource” → SEExadataSecurityGroupResource line · 2 ops</text>
+<text x="3414" y="4303" font-size="10.5" fill="#5A6275">“OracleDbAzureKey” → More Local line · 2 ops</text>
+<text x="3414" y="4318" font-size="10.5" fill="#5A6275">“Orders” → More Local line · 2 ops</text>
+<text x="3414" y="4333" font-size="10.5" fill="#5A6275">“Plugin” → More Local line · 2 ops</text>
+<text x="3414" y="4348" font-size="10.5" fill="#5A6275">“PurchaseEntitlementResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4363" font-size="10.5" fill="#5A6275">“PurchaseEntitlementsResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4378" font-size="10.5" fill="#5A6275">“Query” → usageapi line · 2 ops</text>
+<text x="3414" y="4393" font-size="10.5" fill="#5A6275">“Rate Card” → More Local line · 1 op</text>
+<text x="3414" y="4408" font-size="10.5" fill="#5A6275">“ResourceSearch” → More Local line · 2 ops</text>
+<text x="3414" y="4423" font-size="10.5" fill="#5A6275">“Resources” → More Local line · 2 ops</text>
+<text x="3414" y="4438" font-size="10.5" fill="#5A6275">“SEExadataSecurityGroupsResource” → SEExadataSecurityGroupResource line · 2 ops</text>
+<text x="3414" y="4453" font-size="10.5" fill="#5A6275">“SEServiceConfigurationResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4468" font-size="10.5" fill="#5A6275">“SEServiceConfigurationsResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4483" font-size="10.5" fill="#5A6275">“SIExadataBurstingResource” → SEExadataSecurityGroupResource line · 2 ops</text>
+<text x="3414" y="4498" font-size="10.5" fill="#5A6275">“SIExadataSecurityGroupAssignmentResource” → SEExadataSecurityGroupResource line · 2 ops</text>
+<text x="3414" y="4513" font-size="10.5" fill="#5A6275">“SIExadataSecurityGroupAssignmentsResource” → SEExadataSecurityGroupResource line · 2 ops</text>
+<text x="3414" y="4528" font-size="10.5" fill="#5A6275">“SIServiceConfigurationResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4543" font-size="10.5" fill="#5A6275">“SIServiceConfigurationsResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4558" font-size="10.5" fill="#5A6275">“Service” → More Local line · 1 op</text>
+<text x="3414" y="4573" font-size="10.5" fill="#5A6275">“ServiceDefinitionResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4588" font-size="10.5" fill="#5A6275">“ServiceDefinitionsResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4603" font-size="10.5" fill="#5A6275">“ServiceEntitlementResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4618" font-size="10.5" fill="#5A6275">“ServiceEntitlementsResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4633" font-size="10.5" fill="#5A6275">“ServiceInstanceResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4648" font-size="10.5" fill="#5A6275">“ServiceInstancesResource” → SEExadataSecurityGroupResource line · 1 op</text>
+<text x="3414" y="4663" font-size="10.5" fill="#5A6275">“bds” → bds · Capacity Reports line · 1 op</text>
+<text x="3414" y="4678" font-size="10.5" fill="#5A6275">“bds” → bds · Cluster Versions line · 1 op</text>
+<text x="3414" y="4693" font-size="10.5" fill="#5A6275">“bds” → bds · Instances line · 5 ops</text>
+<text x="3414" y="4708" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Actions line · 34 ops</text>
+<text x="3414" y="4723" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Api Keys line · 5 ops</text>
+<text x="3414" y="4738" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Auto Scaling Configuration line · 5 ops</text>
+<text x="3414" y="4753" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Certificate Configurations line · 5 ops</text>
+<text x="3414" y="4768" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Identity Configurations line · 11 ops</text>
+<text x="3414" y="4783" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Metastore Configs line · 7 ops</text>
+<text x="3414" y="4798" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Node Backup Configurations line · 5 ops</text>
+<text x="3414" y="4813" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Node Backups line · 3 ops</text>
+<text x="3414" y="4828" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Node Replace Configurations line · 5 ops</text>
+<text x="3414" y="4843" font-size="10.5" fill="#5A6275">“bds” → bds · Instances Resource Principal Configurations line · 6 ops</text>
+<text x="3414" y="4858" font-size="10.5" fill="#5A6275">“bds · Capacity Reports” → More Local line · 1 op</text>
+<text x="3414" y="4873" font-size="10.5" fill="#5A6275">“bds · Cluster Versions” → More Local line · 1 op</text>
+<text x="3414" y="4888" font-size="10.5" fill="#5A6275">“billingSchedule” → More Local line · 1 op</text>
+<text x="3414" y="4903" font-size="10.5" fill="#5A6275">“cancelEnrichmentJob” → GenerativeAi · Semantic Stores line · 1 op</text>
+<text x="3414" y="4918" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Actions line · 1 op</text>
+<text x="3414" y="4933" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Condition Metadata Types line · 2 ops</text>
+<text x="3414" y="4948" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Configuration line · 2 ops</text>
+<text x="3414" y="4963" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Data Mask Rules line · 5 ops</text>
+<text x="3414" y="4978" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Data Sources line · 7 ops</text>
+<text x="3414" y="4993" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Detector Recipes line · 17 ops</text>
+<text x="3414" y="5008" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Detectors line · 4 ops</text>
+<text x="3414" y="5023" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Managed List Types line · 1 op</text>
+<text x="3414" y="5038" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Managed Lists line · 6 ops</text>
+<text x="3414" y="5053" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Mitre Tactics line · 2 ops</text>
+<text x="3414" y="5068" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Monitoring Resources line · 1 op</text>
+<text x="3414" y="5083" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Problems line · 13 ops</text>
+<text x="3414" y="5098" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Recommendations line · 1 op</text>
+<text x="3414" y="5113" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Resource Profile Risk Scores line · 1 op</text>
+<text x="3414" y="5128" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Resource Profiles line · 4 ops</text>
+<text x="3414" y="5143" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Resource Risk Scores line · 1 op</text>
+<text x="3414" y="5158" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Resource Types line · 1 op</text>
+<text x="3414" y="5173" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Responder Executions line · 7 ops</text>
+<text x="3414" y="5188" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Responder Recipes line · 9 ops</text>
+<text x="3414" y="5203" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Responder Rules line · 2 ops</text>
+<text x="3414" y="5218" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Risk Scores line · 1 op</text>
+<text x="3414" y="5233" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Security Policies line · 2 ops</text>
+<text x="3414" y="5248" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Security Recipes line · 6 ops</text>
+<text x="3414" y="5263" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Security Scores line · 2 ops</text>
+<text x="3414" y="5278" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Security Zones line · 8 ops</text>
+<text x="3414" y="5293" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Sightings line · 6 ops</text>
+<text x="3414" y="5308" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Tactics line · 1 op</text>
+<text x="3414" y="5323" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Targets line · 22 ops</text>
+<text x="3414" y="5338" font-size="10.5" fill="#5A6275">“cloudGuard” → cloudGuard · Techniques line · 1 op</text>
+<text x="3414" y="5353" font-size="10.5" fill="#5A6275">“cloudGuard · Actions” → AIServiceLanguage line · 1 op</text>
+<text x="3414" y="5368" font-size="10.5" fill="#5A6275">“cloudGuard · Condition Metadata Types” → More Local line · 2 ops</text>
+<text x="3414" y="5383" font-size="10.5" fill="#5A6275">“cloudGuard · Configuration” → More Local line · 2 ops</text>
+<text x="3414" y="5398" font-size="10.5" fill="#5A6275">“cloudGuard · Managed List Types” → More Local line · 1 op</text>
+<text x="3414" y="5413" font-size="10.5" fill="#5A6275">“cloudGuard · Mitre Tactics” → More Local line · 2 ops</text>
+<text x="3414" y="5428" font-size="10.5" fill="#5A6275">“cloudGuard · Monitoring Resources” → More Local line · 1 op</text>
+<text x="3414" y="5443" font-size="10.5" fill="#5A6275">“cloudGuard · Recommendations” → Optimizer line · 1 op</text>
+<text x="3414" y="5458" font-size="10.5" fill="#5A6275">“cloudGuard · Resource Profile Risk Scores” → More Local line · 1 op</text>
+<text x="3414" y="5473" font-size="10.5" fill="#5A6275">“cloudGuard · Resource Risk Scores” → More Local line · 1 op</text>
+<text x="3414" y="5488" font-size="10.5" fill="#5A6275">“cloudGuard · Resource Types” → More Local line · 1 op</text>
+<text x="3414" y="5503" font-size="10.5" fill="#5A6275">“cloudGuard · Responder Rules” → More Local line · 2 ops</text>
+<text x="3414" y="5518" font-size="10.5" fill="#5A6275">“cloudGuard · Risk Scores” → More Local line · 1 op</text>
+<text x="3414" y="5533" font-size="10.5" fill="#5A6275">“cloudGuard · Security Policies” → dataSafe · Security Policies line · 2 ops</text>
+<text x="3414" y="5548" font-size="10.5" fill="#5A6275">“cloudGuard · Security Scores” → More Local line · 2 ops</text>
+<text x="3414" y="5563" font-size="10.5" fill="#5A6275">“cloudGuard · Tactics” → More Local line · 1 op</text>
+<text x="3414" y="5578" font-size="10.5" fill="#5A6275">“cloudGuard · Techniques” → More Local line · 1 op</text>
+<text x="3414" y="5593" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Actions line · 1 op</text>
+<text x="3414" y="5608" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Alert Analytics line · 1 op</text>
+<text x="3414" y="5623" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Alert Policies line · 3 ops</text>
+<text x="3414" y="5638" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Alerts line · 6 ops</text>
+<text x="3414" y="5653" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Attribute Sets line · 7 ops</text>
+<text x="3414" y="5668" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Archive Retrievals line · 6 ops</text>
+<text x="3414" y="5683" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Event Analytics line · 1 op</text>
+<text x="3414" y="5698" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Events line · 1 op</text>
+<text x="3414" y="5713" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Policies line · 6 ops</text>
+<text x="3414" y="5728" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Policy Analytics line · 1 op</text>
+<text x="3414" y="5743" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Profile Analytics line · 1 op</text>
+<text x="3414" y="5758" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Profiles line · 13 ops</text>
+<text x="3414" y="5773" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Trail Analytics line · 1 op</text>
+<text x="3414" y="5788" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Audit Trails line · 7 ops</text>
+<text x="3414" y="5803" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Compatible Formats For Data Types line · 1 op</text>
+<text x="3414" y="5818" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Compatible Formats For Sensitive Types line · 1 op</text>
+<text x="3414" y="5833" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Configuration line · 1 op</text>
+<text x="3414" y="5848" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Data Safe Private Endpoints line · 6 ops</text>
+<text x="3414" y="5863" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Database Security Configs line · 5 ops</text>
+<text x="3414" y="5878" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Discovery Analytics line · 1 op</text>
+<text x="3414" y="5893" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Discovery Jobs line · 9 ops</text>
+<text x="3414" y="5908" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Library Masking Formats line · 6 ops</text>
+<text x="3414" y="5923" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Masking Analytics line · 1 op</text>
+<text x="3414" y="5938" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Masking Policies line · 25 ops</text>
+<text x="3414" y="5953" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Masking Policy Health Reports line · 5 ops</text>
+<text x="3414" y="5968" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Masking Reports line · 5 ops</text>
+<text x="3414" y="5983" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · On Prem Connectors line · 8 ops</text>
+<text x="3414" y="5998" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Registration Policies line · 6 ops</text>
+<text x="3414" y="6013" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Report Definitions line · 9 ops</text>
+<text x="3414" y="6028" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Reports line · 5 ops</text>
+<text x="3414" y="6043" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sdm Masking Policy Differences line · 9 ops</text>
+<text x="3414" y="6058" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Security Assessments line · 28 ops</text>
+<text x="3414" y="6073" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Security Policies line · 4 ops</text>
+<text x="3414" y="6088" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Security Policy Configs line · 6 ops</text>
+<text x="3414" y="6103" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Security Policy Deployments line · 10 ops</text>
+<text x="3414" y="6118" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Security Policy Reports line · 7 ops</text>
+<text x="3414" y="6133" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sensitive Column Analytics line · 1 op</text>
+<text x="3414" y="6148" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sensitive Data Models line · 25 ops</text>
+<text x="3414" y="6163" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sensitive Type Groups line · 8 ops</text>
+<text x="3414" y="6178" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sensitive Types line · 7 ops</text>
+<text x="3414" y="6193" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sensitive Types Exports line · 7 ops</text>
+<text x="3414" y="6208" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Collection Analytics line · 1 op</text>
+<text x="3414" y="6223" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Collections line · 12 ops</text>
+<text x="3414" y="6238" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Firewall Allowed Analytics line · 1 op</text>
+<text x="3414" y="6253" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Firewall Allowed Sqls line · 6 ops</text>
+<text x="3414" y="6268" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Firewall Policies line · 5 ops</text>
+<text x="3414" y="6283" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Firewall Policy Analytics line · 1 op</text>
+<text x="3414" y="6298" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Firewall Violation Analytics line · 1 op</text>
+<text x="3414" y="6313" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Sql Firewall Violations line · 1 op</text>
+<text x="3414" y="6328" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Target Alert Policy Associations line · 8 ops</text>
+<text x="3414" y="6343" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Target Database Groups line · 7 ops</text>
+<text x="3414" y="6358" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Target Databases line · 21 ops</text>
+<text x="3414" y="6373" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Unified Audit Policies line · 7 ops</text>
+<text x="3414" y="6388" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Unified Audit Policy Definitions line · 5 ops</text>
+<text x="3414" y="6403" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · User Assessments line · 21 ops</text>
+<text x="3414" y="6418" font-size="10.5" fill="#5A6275">“dataSafe” → dataSafe · Work Requests line · 2 ops</text>
+<text x="3414" y="6433" font-size="10.5" fill="#5A6275">“dataSafe · Actions” → AIServiceLanguage line · 1 op</text>
+<text x="3414" y="6448" font-size="10.5" fill="#5A6275">“dataSafe · Alert Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6463" font-size="10.5" fill="#5A6275">“dataSafe · Audit Event Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6478" font-size="10.5" fill="#5A6275">“dataSafe · Audit Events” → More Local line · 1 op</text>
+<text x="3414" y="6493" font-size="10.5" fill="#5A6275">“dataSafe · Audit Policy Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6508" font-size="10.5" fill="#5A6275">“dataSafe · Audit Profile Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6523" font-size="10.5" fill="#5A6275">“dataSafe · Audit Trail Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6538" font-size="10.5" fill="#5A6275">“dataSafe · Compatible Formats For Data Types” → More Local line · 1 op</text>
+<text x="3414" y="6553" font-size="10.5" fill="#5A6275">“dataSafe · Compatible Formats For Sensitive Types” → More Local line · 1 op</text>
+<text x="3414" y="6568" font-size="10.5" fill="#5A6275">“dataSafe · Configuration” → More Local line · 1 op</text>
+<text x="3414" y="6583" font-size="10.5" fill="#5A6275">“dataSafe · Discovery Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6598" font-size="10.5" fill="#5A6275">“dataSafe · Masking Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6613" font-size="10.5" fill="#5A6275">“dataSafe · Sensitive Column Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6628" font-size="10.5" fill="#5A6275">“dataSafe · Sql Collection Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6643" font-size="10.5" fill="#5A6275">“dataSafe · Sql Firewall Allowed Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6658" font-size="10.5" fill="#5A6275">“dataSafe · Sql Firewall Policy Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6673" font-size="10.5" fill="#5A6275">“dataSafe · Sql Firewall Violation Analytics” → More Local line · 1 op</text>
+<text x="3414" y="6688" font-size="10.5" fill="#5A6275">“dataSafe · Sql Firewall Violations” → More Local line · 1 op</text>
+<text x="3414" y="6703" font-size="10.5" fill="#5A6275">“dataSafe · Work Requests” → workRequest line · 2 ops</text>
+<text x="3414" y="6718" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Compute Target Shapes line · 1 op</text>
+<text x="3414" y="6733" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Compute Targets line · 6 ops</text>
+<text x="3414" y="6748" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Data Science Private Endpoints line · 6 ops</text>
+<text x="3414" y="6763" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Fast Launch Job Configs line · 1 op</text>
+<text x="3414" y="6778" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Job Runs line · 7 ops</text>
+<text x="3414" y="6793" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Job Shapes line · 1 op</text>
+<text x="3414" y="6808" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Jobs line · 2 ops</text>
+<text x="3414" y="6823" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Ml Application Implementation Versions line · 4 ops</text>
+<text x="3414" y="6838" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Ml Application Implementations line · 8 ops</text>
+<text x="3414" y="6853" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Ml Application Instance Views line · 8 ops</text>
+<text x="3414" y="6868" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Ml Application Instances line · 7 ops</text>
+<text x="3414" y="6883" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Ml Applications line · 6 ops</text>
+<text x="3414" y="6898" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Model Deployment Shapes line · 1 op</text>
+<text x="3414" y="6913" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Model Deployments line · 9 ops</text>
+<text x="3414" y="6928" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Model Group Version History line · 6 ops</text>
+<text x="3414" y="6943" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Model Groups line · 11 ops</text>
+<text x="3414" y="6958" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Model Version Sets line · 6 ops</text>
+<text x="3414" y="6973" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Models line · 10 ops</text>
+<text x="3414" y="6988" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Notebook Session Shapes line · 1 op</text>
+<text x="3414" y="7003" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Notebook Sessions line · 8 ops</text>
+<text x="3414" y="7018" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Pipeline Runs line · 7 ops</text>
+<text x="3414" y="7033" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Pipelines line · 8 ops</text>
+<text x="3414" y="7048" font-size="10.5" fill="#5A6275">“dataScience” → dataScience · Schedules line · 8 ops</text>
+<text x="3414" y="7063" font-size="10.5" fill="#5A6275">“dataScience · Compute Target Shapes” → More Local line · 1 op</text>
+<text x="3414" y="7078" font-size="10.5" fill="#5A6275">“dataScience · Fast Launch Job Configs” → More Local line · 1 op</text>
+<text x="3414" y="7093" font-size="10.5" fill="#5A6275">“dataScience · Job Shapes” → More Local line · 1 op</text>
+<text x="3414" y="7108" font-size="10.5" fill="#5A6275">“dataScience · Jobs” → databaseMigration line · 2 ops</text>
+<text x="3414" y="7123" font-size="10.5" fill="#5A6275">“dataScience · Model Deployment Shapes” → More Local line · 1 op</text>
+<text x="3414" y="7138" font-size="10.5" fill="#5A6275">“dataScience · Notebook Session Shapes” → More Local line · 1 op</text>
+<text x="3414" y="7153" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Autonomous Databases line · 1 op</text>
+<text x="3414" y="7168" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Asm Instances line · 3 ops</text>
+<text x="3414" y="7183" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Asms line · 7 ops</text>
+<text x="3414" y="7198" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Cluster Instances line · 3 ops</text>
+<text x="3414" y="7213" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Clusters line · 4 ops</text>
+<text x="3414" y="7228" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Databases line · 1 op</text>
+<text x="3414" y="7243" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Db Homes line · 3 ops</text>
+<text x="3414" y="7258" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Db Nodes line · 4 ops</text>
+<text x="3414" y="7273" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Db System Connectors line · 6 ops</text>
+<text x="3414" y="7288" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Db System Discoveries line · 6 ops</text>
+<text x="3414" y="7303" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Db Systems line · 10 ops</text>
+<text x="3414" y="7318" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Exadata Infrastructures line · 3 ops</text>
+<text x="3414" y="7333" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Exadata Storage Connectors line · 6 ops</text>
+<text x="3414" y="7348" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Exadata Storage Grids line · 2 ops</text>
+<text x="3414" y="7363" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Exadata Storage Servers line · 5 ops</text>
+<text x="3414" y="7378" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Cloud Listeners line · 5 ops</text>
+<text x="3414" y="7393" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Database Fleet Backup Metrics line · 1 op</text>
+<text x="3414" y="7408" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Database Fleet Dataguard Metrics line · 1 op</text>
+<text x="3414" y="7423" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Database Fleet Ha Overview Metrics line · 1 op</text>
+<text x="3414" y="7438" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Database Home Metrics line · 1 op</text>
+<text x="3414" y="7453" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Db Management Private Endpoints line · 7 ops</text>
+<text x="3414" y="7468" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Exadata Infrastructure Fleet Metrics line · 1 op</text>
+<text x="3414" y="7483" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Asm Instances line · 3 ops</text>
+<text x="3414" y="7498" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Asms line · 7 ops</text>
+<text x="3414" y="7513" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Cluster Instances line · 3 ops</text>
+<text x="3414" y="7528" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Clusters line · 4 ops</text>
+<text x="3414" y="7543" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Databases line · 1 op</text>
+<text x="3414" y="7558" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Db Homes line · 3 ops</text>
+<text x="3414" y="7573" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Db Nodes line · 4 ops</text>
+<text x="3414" y="7588" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Db System Connectors line · 6 ops</text>
+<text x="3414" y="7603" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Db System Discoveries line · 6 ops</text>
+<text x="3414" y="7618" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Db Systems line · 11 ops</text>
+<text x="3414" y="7633" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Exadata Infrastructures line · 9 ops</text>
+<text x="3414" y="7648" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Exadata Storage Connectors line · 6 ops</text>
+<text x="3414" y="7663" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Exadata Storage Grids line · 2 ops</text>
+<text x="3414" y="7678" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Exadata Storage Servers line · 6 ops</text>
+<text x="3414" y="7693" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External Listeners line · 5 ops</text>
+<text x="3414" y="7708" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External My Sql Database Connectors line · 6 ops</text>
+<text x="3414" y="7723" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · External My Sql Databases line · 7 ops</text>
+<text x="3414" y="7738" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Externalcontainerdatabases line · 1 op</text>
+<text x="3414" y="7753" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Fleet Metrics line · 1 op</text>
+<text x="3414" y="7768" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Job Executions line · 2 ops</text>
+<text x="3414" y="7783" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Job Executions Status line · 1 op</text>
+<text x="3414" y="7798" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Database Groups line · 8 ops</text>
+<text x="3414" y="7813" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases line · 3 ops</text>
+<text x="3414" y="7828" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Actions line · 4 ops</text>
+<text x="3414" y="7843" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Awr Dbs line · 12 ops</text>
+<text x="3414" y="7858" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Optimizer Statistics Advisor Executions line · 4 ops</text>
+<text x="3414" y="7873" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Preferred Credentials line · 5 ops</text>
+<text x="3414" y="7888" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Sql Plan Baselines line · 37 ops</text>
+<text x="3414" y="7903" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Tablespaces line · 8 ops</text>
+<text x="3414" y="7918" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Managed Databases Users line · 9 ops</text>
+<text x="3414" y="7933" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Named Credentials line · 7 ops</text>
+<text x="3414" y="7948" font-size="10.5" fill="#5A6275">“dbManagement” → dbManagement · Pluggable Databases line · 3 ops</text>
+<text x="3414" y="7963" font-size="10.5" fill="#5A6275">“dbManagement · Autonomous Databases” → Database · Autonomous Databases line · 1 op</text>
+<text x="3414" y="7978" font-size="10.5" fill="#5A6275">“dbManagement · Cloud Databases” → More Local line · 1 op</text>
+<text x="3414" y="7993" font-size="10.5" fill="#5A6275">“dbManagement · Cloud Exadata Storage Grids” → More Local line · 2 ops</text>
+<text x="3414" y="8008" font-size="10.5" fill="#5A6275">“dbManagement · Database Fleet Backup Metrics” → More Local line · 1 op</text>
+<text x="3414" y="8023" font-size="10.5" fill="#5A6275">“dbManagement · Database Fleet Dataguard Metrics” → More Local line · 1 op</text>
+<text x="3414" y="8038" font-size="10.5" fill="#5A6275">“dbManagement · Database Fleet Ha Overview Metrics” → More Local line · 1 op</text>
+<text x="3414" y="8053" font-size="10.5" fill="#5A6275">“dbManagement · Database Home Metrics” → More Local line · 1 op</text>
+<text x="3414" y="8068" font-size="10.5" fill="#5A6275">“dbManagement · Exadata Infrastructure Fleet Metrics” → More Local line · 1 op</text>
+<text x="3414" y="8083" font-size="10.5" fill="#5A6275">“dbManagement · External Databases” → More Local line · 1 op</text>
+<text x="3414" y="8098" font-size="10.5" fill="#5A6275">“dbManagement · External Exadata Storage Grids” → More Local line · 2 ops</text>
+<text x="3414" y="8113" font-size="10.5" fill="#5A6275">“dbManagement · Externalcontainerdatabases” → Database · Externalcontainerdatabases line · 1 op</text>
+<text x="3414" y="8128" font-size="10.5" fill="#5A6275">“dbManagement · Fleet Metrics” → More Local line · 1 op</text>
+<text x="3414" y="8143" font-size="10.5" fill="#5A6275">“dbManagement · Job Executions” → More Local line · 2 ops</text>
+<text x="3414" y="8158" font-size="10.5" fill="#5A6275">“dbManagement · Job Executions Status” → More Local line · 1 op</text>
+<text x="3414" y="8173" font-size="10.5" fill="#5A6275">“functionsInvoke” → functionsManagement line · 1 op</text>
+<text x="3414" y="8188" font-size="10.5" fill="#5A6275">“generateEnrichmentJob” → GenerativeAi · Semantic Stores line · 1 op</text>
+<text x="3414" y="8203" font-size="10.5" fill="#5A6275">“generateSqlFromNlJob” → GenerativeAi · Semantic Stores line · 1 op</text>
+<text x="3414" y="8218" font-size="10.5" fill="#5A6275">“getEnrichmentJob” → GenerativeAi · Semantic Stores line · 1 op</text>
+<text x="3414" y="8233" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Ai Models line · 1 op</text>
+<text x="3414" y="8248" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Ai Providers line · 1 op</text>
+<text x="3414" y="8263" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Connection Assignments line · 5 ops</text>
+<text x="3414" y="8278" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Connections line · 5 ops</text>
+<text x="3414" y="8293" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Database Registrations line · 6 ops</text>
+<text x="3414" y="8308" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Deployment Backups line · 11 ops</text>
+<text x="3414" y="8323" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Deployment Environments line · 1 op</text>
+<text x="3414" y="8338" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Deployment Types line · 1 op</text>
+<text x="3414" y="8353" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Deployment Upgrades line · 8 ops</text>
+<text x="3414" y="8368" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Deployment Versions line · 1 op</text>
+<text x="3414" y="8383" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Deployments line · 20 ops</text>
+<text x="3414" y="8398" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Messages line · 1 op</text>
+<text x="3414" y="8413" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Pipelines line · 10 ops</text>
+<text x="3414" y="8428" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Recipes line · 1 op</text>
+<text x="3414" y="8443" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Trail Files line · 1 op</text>
+<text x="3414" y="8458" font-size="10.5" fill="#5A6275">“goldenGate” → goldenGate · Trail Sequences line · 1 op</text>
+<text x="3414" y="8473" font-size="10.5" fill="#5A6275">“goldenGate · Ai Models” → More Local line · 1 op</text>
+<text x="3414" y="8488" font-size="10.5" fill="#5A6275">“goldenGate · Ai Providers” → More Local line · 1 op</text>
+<text x="3414" y="8503" font-size="10.5" fill="#5A6275">“goldenGate · Deployment Environments” → More Local line · 1 op</text>
+<text x="3414" y="8518" font-size="10.5" fill="#5A6275">“goldenGate · Deployment Types” → More Local line · 1 op</text>
+<text x="3414" y="8533" font-size="10.5" fill="#5A6275">“goldenGate · Deployment Versions” → More Local line · 1 op</text>
+<text x="3414" y="8548" font-size="10.5" fill="#5A6275">“goldenGate · Messages” → More Local line · 1 op</text>
+<text x="3414" y="8563" font-size="10.5" fill="#5A6275">“goldenGate · Recipes” → More Local line · 1 op</text>
+<text x="3414" y="8578" font-size="10.5" fill="#5A6275">“goldenGate · Trail Files” → More Local line · 1 op</text>
+<text x="3414" y="8593" font-size="10.5" fill="#5A6275">“goldenGate · Trail Sequences” → More Local line · 1 op</text>
+<text x="3414" y="8608" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Account Mgmt Infos line · 3 ops</text>
+<text x="3414" y="8623" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Account Recovery Settings line · 4 ops</text>
+<text x="3414" y="8638" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Api Keys line · 6 ops</text>
+<text x="3414" y="8653" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · App Roles line · 6 ops</text>
+<text x="3414" y="8668" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · App Status Changer line · 1 op</text>
+<text x="3414" y="8683" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Approval Workflow Assignments line · 4 ops</text>
+<text x="3414" y="8698" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Approval Workflow Steps line · 5 ops</text>
+<text x="3414" y="8713" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Approval Workflows line · 6 ops</text>
+<text x="3414" y="8728" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Apps line · 7 ops</text>
+<text x="3414" y="8743" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Auth Tokens line · 6 ops</text>
+<text x="3414" y="8758" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Authentication Factor Settings line · 4 ops</text>
+<text x="3414" y="8773" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Authentication Factors Remover line · 1 op</text>
+<text x="3414" y="8788" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Branding Settings line · 2 ops</text>
+<text x="3414" y="8803" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Cloud Gate Mappings line · 7 ops</text>
+<text x="3414" y="8818" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Cloud Gate Servers line · 7 ops</text>
+<text x="3414" y="8833" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Cloud Gates line · 7 ops</text>
+<text x="3414" y="8848" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Conditions line · 7 ops</text>
+<text x="3414" y="8863" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Customer Secret Keys line · 6 ops</text>
+<text x="3414" y="8878" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Dynamic Resource Groups line · 7 ops</text>
+<text x="3414" y="8893" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Grants line · 6 ops</text>
+<text x="3414" y="8908" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Groups line · 7 ops</text>
+<text x="3414" y="8923" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Identity Propagation Trusts line · 6 ops</text>
+<text x="3414" y="8938" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Identity Providers line · 7 ops</text>
+<text x="3414" y="8953" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Identity Settings line · 5 ops</text>
+<text x="3414" y="8968" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Kmsi Settings line · 5 ops</text>
+<text x="3414" y="8983" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · ME line · 4 ops</text>
+<text x="3414" y="8998" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Mapped Attributes line · 5 ops</text>
+<text x="3414" y="9013" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Me Password Changer line · 1 op</text>
+<text x="3414" y="9028" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Api Keys line · 5 ops</text>
+<text x="3414" y="9043" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Apps line · 2 ops</text>
+<text x="3414" y="9058" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Auth Tokens line · 5 ops</text>
+<text x="3414" y="9073" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Authentication Factor Initiator line · 1 op</text>
+<text x="3414" y="9088" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Authentication Factor Validator line · 1 op</text>
+<text x="3414" y="9103" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Authentication Factors Remover line · 1 op</text>
+<text x="3414" y="9118" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Completed Approvals line · 2 ops</text>
+<text x="3414" y="9133" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Customer Secret Keys line · 5 ops</text>
+<text x="3414" y="9148" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Devices line · 4 ops</text>
+<text x="3414" y="9163" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Groups line · 2 ops</text>
+<text x="3414" y="9178" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Oauth2client Credentials line · 5 ops</text>
+<text x="3414" y="9193" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Pending Approvals line · 3 ops</text>
+<text x="3414" y="9208" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Requestable Groups line · 2 ops</text>
+<text x="3414" y="9223" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Requests line · 5 ops</text>
+<text x="3414" y="9238" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Smtp Credentials line · 5 ops</text>
+<text x="3414" y="9253" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Support Accounts line · 4 ops</text>
+<text x="3414" y="9268" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My Trusted User Agents line · 3 ops</text>
+<text x="3414" y="9283" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · My User Db Credentials line · 4 ops</text>
+<text x="3414" y="9298" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Network Perimeters line · 7 ops</text>
+<text x="3414" y="9313" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Notification Settings line · 4 ops</text>
+<text x="3414" y="9328" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Oauth Client Certificates line · 5 ops</text>
+<text x="3414" y="9343" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Oauth Partner Certificates line · 5 ops</text>
+<text x="3414" y="9358" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Oauth2client Credentials line · 6 ops</text>
+<text x="3414" y="9373" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Oci Console Sign On Policy Consents line · 3 ops</text>
+<text x="3414" y="9388" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Password Policies line · 7 ops</text>
+<text x="3414" y="9403" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Policies line · 7 ops</text>
+<text x="3414" y="9418" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Resource Type Schema Attributes line · 2 ops</text>
+<text x="3414" y="9433" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Restore Oci Console Policy line · 1 op</text>
+<text x="3414" y="9448" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Rules line · 7 ops</text>
+<text x="3414" y="9463" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Schemas line · 5 ops</text>
+<text x="3414" y="9478" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Security Question Settings line · 5 ops</text>
+<text x="3414" y="9493" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Security Questions line · 6 ops</text>
+<text x="3414" y="9508" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Self Registration Profiles line · 7 ops</text>
+<text x="3414" y="9523" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Settings line · 5 ops</text>
+<text x="3414" y="9538" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Smtp Credentials line · 6 ops</text>
+<text x="3414" y="9553" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Social Identity Providers line · 7 ops</text>
+<text x="3414" y="9568" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · User Attributes Settings line · 4 ops</text>
+<text x="3414" y="9583" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · User Capabilities Changer line · 1 op</text>
+<text x="3414" y="9598" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · User Db Credentials line · 5 ops</text>
+<text x="3414" y="9613" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · User Password Changer line · 1 op</text>
+<text x="3414" y="9628" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · User Password Resetter line · 1 op</text>
+<text x="3414" y="9643" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · User Status Changer line · 1 op</text>
+<text x="3414" y="9658" font-size="10.5" fill="#5A6275">“identityDomains” → identityDomains · Users line · 7 ops</text>
+<text x="3414" y="9673" font-size="10.5" fill="#5A6275">“identityDomains · App Status Changer” → More Local line · 1 op</text>
+<text x="3414" y="9688" font-size="10.5" fill="#5A6275">“identityDomains · Authentication Factors Remover” → More Local line · 1 op</text>
+<text x="3414" y="9703" font-size="10.5" fill="#5A6275">“identityDomains · Branding Settings” → More Local line · 2 ops</text>
+<text x="3414" y="9718" font-size="10.5" fill="#5A6275">“identityDomains · Me Password Changer” → More Local line · 1 op</text>
+<text x="3414" y="9733" font-size="10.5" fill="#5A6275">“identityDomains · My Apps” → More Local line · 2 ops</text>
+<text x="3414" y="9748" font-size="10.5" fill="#5A6275">“identityDomains · My Authentication Factor Initiator” → More Local line · 1 op</text>
+<text x="3414" y="9763" font-size="10.5" fill="#5A6275">“identityDomains · My Authentication Factor Validator” → More Local line · 1 op</text>
+<text x="3414" y="9778" font-size="10.5" fill="#5A6275">“identityDomains · My Authentication Factors Remover” → More Local line · 1 op</text>
+<text x="3414" y="9793" font-size="10.5" fill="#5A6275">“identityDomains · My Completed Approvals” → More Local line · 2 ops</text>
+<text x="3414" y="9808" font-size="10.5" fill="#5A6275">“identityDomains · My Groups” → More Local line · 2 ops</text>
+<text x="3414" y="9823" font-size="10.5" fill="#5A6275">“identityDomains · My Requestable Groups” → More Local line · 2 ops</text>
+<text x="3414" y="9838" font-size="10.5" fill="#5A6275">“identityDomains · Resource Type Schema Attributes” → More Local line · 2 ops</text>
+<text x="3414" y="9853" font-size="10.5" fill="#5A6275">“identityDomains · Restore Oci Console Policy” → More Local line · 1 op</text>
+<text x="3414" y="9868" font-size="10.5" fill="#5A6275">“identityDomains · User Capabilities Changer” → More Local line · 1 op</text>
+<text x="3414" y="9883" font-size="10.5" fill="#5A6275">“identityDomains · User Password Changer” → More Local line · 1 op</text>
+<text x="3414" y="9898" font-size="10.5" fill="#5A6275">“identityDomains · User Password Resetter” → More Local line · 1 op</text>
+<text x="3414" y="9913" font-size="10.5" fill="#5A6275">“identityDomains · User Status Changer” → More Local line · 1 op</text>
+<text x="3414" y="9928" font-size="10.5" fill="#5A6275">“invoiceSummary” → More Local line · 2 ops</text>
+<text x="3414" y="9943" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Agent Installers line · 3 ops</text>
+<text x="3414" y="9958" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleet Error Analytics line · 1 op</text>
+<text x="3414" y="9973" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleet Errors line · 1 op</text>
+<text x="3414" y="9988" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Actions line · 36 ops</text>
+<text x="3414" y="10003" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Blocklists line · 3 ops</text>
+<text x="3414" y="10018" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Crypto Analysis Results line · 3 ops</text>
+<text x="3414" y="10033" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Drs Files line · 5 ops</text>
+<text x="3414" y="10048" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Java Migration Analysis Results line · 3 ops</text>
+<text x="3414" y="10063" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Performance Tuning Analysis Results line · 3 ops</text>
+<text x="3414" y="10078" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Fleets Uncorrelated Packages line · 3 ops</text>
+<text x="3414" y="10093" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Java Families line · 2 ops</text>
+<text x="3414" y="10108" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Jms Plugins line · 5 ops</text>
+<text x="3414" y="10123" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · List Jre Usage line · 1 op</text>
+<text x="3414" y="10138" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Plugin Error Analytics line · 1 op</text>
+<text x="3414" y="10153" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Plugin Errors line · 1 op</text>
+<text x="3414" y="10168" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Summarize Resource Inventory line · 1 op</text>
+<text x="3414" y="10183" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Task Schedules line · 5 ops</text>
+<text x="3414" y="10198" font-size="10.5" fill="#5A6275">“javaManagementService” → javaManagementService · Work Requests line · 1 op</text>
+<text x="3414" y="10213" font-size="10.5" fill="#5A6275">“javaManagementService · Fleet Error Analytics” → More Local line · 1 op</text>
+<text x="3414" y="10228" font-size="10.5" fill="#5A6275">“javaManagementService · Fleet Errors” → More Local line · 1 op</text>
+<text x="3414" y="10243" font-size="10.5" fill="#5A6275">“javaManagementService · Java Families” → More Local line · 2 ops</text>
+<text x="3414" y="10258" font-size="10.5" fill="#5A6275">“javaManagementService · List Jre Usage” → More Local line · 1 op</text>
+<text x="3414" y="10273" font-size="10.5" fill="#5A6275">“javaManagementService · Plugin Error Analytics” → More Local line · 1 op</text>
+<text x="3414" y="10288" font-size="10.5" fill="#5A6275">“javaManagementService · Plugin Errors” → More Local line · 1 op</text>
+<text x="3414" y="10303" font-size="10.5" fill="#5A6275">“javaManagementService · Summarize Resource Inventory” → More Local line · 1 op</text>
+<text x="3414" y="10318" font-size="10.5" fill="#5A6275">“javaManagementService · Work Requests” → workRequest line · 1 op</text>
+<text x="3414" y="10333" font-size="10.5" fill="#5A6275">“linkFeatures” → More Local line · 1 op</text>
+<text x="3414" y="10348" font-size="10.5" fill="#5A6275">“listEnrichmentJobs” → GenerativeAi · Semantic Stores line · 1 op</text>
+<text x="3414" y="10363" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Actions line · 7 ops</text>
+<text x="3414" y="10378" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Associations line · 3 ops</text>
+<text x="3414" y="10393" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Categories line · 5 ops</text>
+<text x="3414" y="10408" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Fields line · 5 ops</text>
+<text x="3414" y="10423" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Ingest Time Rules line · 8 ops</text>
+<text x="3414" y="10438" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Labels line · 5 ops</text>
+<text x="3414" y="10453" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Log Analytics Em Bridges line · 7 ops</text>
+<text x="3414" y="10468" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Log Analytics Entities line · 11 ops</text>
+<text x="3414" y="10483" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Log Analytics Entity Types line · 5 ops</text>
+<text x="3414" y="10498" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Log Analytics Groups line · 6 ops</text>
+<text x="3414" y="10513" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Log Analytics Object Collection Rules line · 6 ops</text>
+<text x="3414" y="10528" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Lookups line · 8 ops</text>
+<text x="3414" y="10543" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Parsers line · 7 ops</text>
+<text x="3414" y="10558" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Preferences line · 3 ops</text>
+<text x="3414" y="10573" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Query Work Requests line · 4 ops</text>
+<text x="3414" y="10588" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Scheduled Tasks line · 11 ops</text>
+<text x="3414" y="10603" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Search line · 7 ops</text>
+<text x="3414" y="10618" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Sources line · 53 ops</text>
+<text x="3414" y="10633" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Storage line · 20 ops</text>
+<text x="3414" y="10648" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Storage Work Requests line · 3 ops</text>
+<text x="3414" y="10663" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Uploads line · 9 ops</text>
+<text x="3414" y="10678" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Warnings line · 3 ops</text>
+<text x="3414" y="10693" font-size="10.5" fill="#5A6275">“logAnalytics” → logAnalytics · Work Requests line · 4 ops</text>
+<text x="3414" y="10708" font-size="10.5" fill="#5A6275">“mediaStream” → AIServiceLanguage line · 2 ops</text>
+<text x="3414" y="10723" font-size="10.5" fill="#5A6275">“multiCloudsMetadata” → More Local line · 2 ops</text>
+<text x="3414" y="10738" font-size="10.5" fill="#5A6275">“multicloudResources” → More Local line · 1 op</text>
+<text x="3414" y="10753" font-size="10.5" fill="#5A6275">“multicloudsubscriptions” → More Local line · 1 op</text>
+<text x="3414" y="10768" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies line · 5 ops</text>
+<text x="3414" y="10783" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Actions line · 4 ops</text>
+<text x="3414" y="10798" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Address Lists line · 6 ops</text>
+<text x="3414" y="10813" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Application Groups line · 6 ops</text>
+<text x="3414" y="10828" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Applications line · 6 ops</text>
+<text x="3414" y="10843" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Decryption Profiles line · 6 ops</text>
+<text x="3414" y="10858" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Decryption Rules line · 6 ops</text>
+<text x="3414" y="10873" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Mapped Secrets line · 6 ops</text>
+<text x="3414" y="10888" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Nat Rules line · 6 ops</text>
+<text x="3414" y="10903" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Security Rules line · 6 ops</text>
+<text x="3414" y="10918" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Service Lists line · 6 ops</text>
+<text x="3414" y="10933" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Services line · 6 ops</text>
+<text x="3414" y="10948" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Tunnel Inspection Rules line · 6 ops</text>
+<text x="3414" y="10963" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewall Policies Url Lists line · 6 ops</text>
+<text x="3414" y="10978" font-size="10.5" fill="#5A6275">“networkFirewall” → networkFirewall · Network Firewalls line · 7 ops</text>
+<text x="3414" y="10993" font-size="10.5" fill="#5A6275">“occMetrics” → More Local line · 2 ops</text>
+<text x="3414" y="11008" font-size="10.5" fill="#5A6275">“ociCacheDefaultConfigSet” → More Local line · 2 ops</text>
+<text x="3414" y="11023" font-size="10.5" fill="#5A6275">“omhubNetworkAnchor” → More Local line · 2 ops</text>
+<text x="3414" y="11038" font-size="10.5" fill="#5A6275">“omhubResourceAnchor” → More Local line · 2 ops</text>
+<text x="3414" y="11053" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Actions line · 1 op</text>
+<text x="3414" y="11068" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Awr Hub Objects line · 4 ops</text>
+<text x="3414" y="11083" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Awr Hub Sources line · 8 ops</text>
+<text x="3414" y="11098" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Awr Hubs line · 21 ops</text>
+<text x="3414" y="11113" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Chargeback Plan Report line · 6 ops</text>
+<text x="3414" y="11128" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Chargeback Plans line · 6 ops</text>
+<text x="3414" y="11143" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Data Objects line · 1 op</text>
+<text x="3414" y="11158" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Database Insights line · 5 ops</text>
+<text x="3414" y="11173" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Database Insights Actions line · 47 ops</text>
+<text x="3414" y="11188" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Enterprise Manager Bridges line · 7 ops</text>
+<text x="3414" y="11203" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Exadata Insights line · 21 ops</text>
+<text x="3414" y="11218" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Host Insights line · 23 ops</text>
+<text x="3414" y="11233" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Importable Agent Entities line · 1 op</text>
+<text x="3414" y="11248" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Importable Compute Entities line · 1 op</text>
+<text x="3414" y="11263" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Kube Cluster Insights line · 8 ops</text>
+<text x="3414" y="11278" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · News Reports line · 6 ops</text>
+<text x="3414" y="11293" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Operations Insights Private Endpoints line · 6 ops</text>
+<text x="3414" y="11308" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Operations Insights Warehouse Users line · 5 ops</text>
+<text x="3414" y="11323" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Operations Insights Warehouses line · 9 ops</text>
+<text x="3414" y="11338" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Opsi Configurations line · 7 ops</text>
+<text x="3414" y="11353" font-size="10.5" fill="#5A6275">“operationsInsights” → operationsInsights · Opsi Data Objects line · 3 ops</text>
+<text x="3414" y="11368" font-size="10.5" fill="#5A6275">“operationsInsights · Actions” → AIServiceLanguage line · 1 op</text>
+<text x="3414" y="11383" font-size="10.5" fill="#5A6275">“operationsInsights · Data Objects” → More Local line · 1 op</text>
+<text x="3414" y="11398" font-size="10.5" fill="#5A6275">“operationsInsights · Importable Agent Entities” → More Local line · 1 op</text>
+<text x="3414" y="11413" font-size="10.5" fill="#5A6275">“operationsInsights · Importable Compute Entities” → More Local line · 1 op</text>
+<text x="3414" y="11428" font-size="10.5" fill="#5A6275">“operatorActions” → More Local line · 2 ops</text>
+<text x="3414" y="11443" font-size="10.5" fill="#5A6275">“organizationSubscription” → More Local line · 1 op</text>
+<text x="3414" y="11458" font-size="10.5" fill="#5A6275">“perfhub” → dbManagement · Managed Databases Sql Plan Baselines line · 1 op</text>
+<text x="3414" y="11473" font-size="10.5" fill="#5A6275">“plugin config” → More Local line · 1 op</text>
+<text x="3414" y="11488" font-size="10.5" fill="#5A6275">“redisIdentity” → redisCluster line · 1 op</text>
+<text x="3414" y="11503" font-size="10.5" fill="#5A6275">“scheduledActivity” → fusionEnvironment line · 2 ops</text>
+<text x="3414" y="11518" font-size="10.5" fill="#5A6275">“serviceAttachment” → fusionEnvironment line · 2 ops</text>
+<text x="3414" y="11533" font-size="10.5" fill="#5A6275">“serviceManagerProxy” → More Local line · 2 ops</text>
+<text x="3414" y="11548" font-size="10.5" fill="#5A6275">“subscribedService” → More Local line · 2 ops</text>
+<text x="3414" y="11563" font-size="10.5" fill="#5A6275">“usage limits” → More Local line · 1 op</text>
+<text x="3414" y="11578" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Allowed Peer Regions For Remote Peering line · 1 op</text>
+<text x="3414" y="11593" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Byoasns line · 7 ops</text>
+<text x="3414" y="11608" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Byoip Ranges line · 12 ops</text>
+<text x="3414" y="11623" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Capture Filters line · 6 ops</text>
+<text x="3414" y="11638" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Cpe Device Shapes line · 2 ops</text>
+<text x="3414" y="11653" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Cpes line · 7 ops</text>
+<text x="3414" y="11668" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Cross Connect Groups line · 6 ops</text>
+<text x="3414" y="11683" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Cross Connect Locations line · 1 op</text>
+<text x="3414" y="11698" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Cross Connect Port Speed Shapes line · 1 op</text>
+<text x="3414" y="11713" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Cross Connects line · 8 ops</text>
+<text x="3414" y="11728" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Dhcps line · 6 ops</text>
+<text x="3414" y="11743" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Drg Attachments line · 6 ops</text>
+<text x="3414" y="11758" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Drg Route Distributions line · 9 ops</text>
+<text x="3414" y="11773" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Drg Route Tables line · 10 ops</text>
+<text x="3414" y="11788" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Drgs line · 9 ops</text>
+<text x="3414" y="11803" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Fast Connect Provider Services line · 4 ops</text>
+<text x="3414" y="11818" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Internet Gateways line · 6 ops</text>
+<text x="3414" y="11833" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Ip Inventory line · 5 ops</text>
+<text x="3414" y="11848" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Ipsec Algorithms line · 1 op</text>
+<text x="3414" y="11863" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Ipsec Connections line · 20 ops</text>
+<text x="3414" y="11878" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Ipv6 line · 10 ops</text>
+<text x="3414" y="11893" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Local Peering Gateways line · 7 ops</text>
+<text x="3414" y="11908" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Nat Gateways line · 6 ops</text>
+<text x="3414" y="11923" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Network Security Groups line · 11 ops</text>
+<text x="3414" y="11938" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Networking Topology line · 1 op</text>
+<text x="3414" y="11953" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Private Ips line · 10 ops</text>
+<text x="3414" y="11968" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Public Ip Pools line · 8 ops</text>
+<text x="3414" y="11983" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Public Ips line · 8 ops</text>
+<text x="3414" y="11998" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Remote Peering Connections line · 7 ops</text>
+<text x="3414" y="12013" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Route Tables line · 6 ops</text>
+<text x="3414" y="12028" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Security Lists line · 6 ops</text>
+<text x="3414" y="12043" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Service Gateways line · 8 ops</text>
+<text x="3414" y="12058" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Services line · 1 op</text>
+<text x="3414" y="12073" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Subnet Topology line · 1 op</text>
+<text x="3414" y="12088" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Subnets line · 11 ops</text>
+<text x="3414" y="12103" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Vcn Topology line · 1 op</text>
+<text x="3414" y="12118" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Vcns line · 11 ops</text>
+<text x="3414" y="12133" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Virtual Circuit Bandwidth Shapes line · 1 op</text>
+<text x="3414" y="12148" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Virtual Circuits line · 11 ops</text>
+<text x="3414" y="12163" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Vlans line · 6 ops</text>
+<text x="3414" y="12178" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Vnics line · 2 ops</text>
+<text x="3414" y="12193" font-size="10.5" fill="#5A6275">“virtualNetwork” → virtualNetwork · Vtaps line · 6 ops</text>
+<text x="3414" y="12208" font-size="10.5" fill="#5A6275">“virtualNetwork · Allowed Peer Regions For Remote Peering” → More Local line · 1 op</text>
+<text x="3414" y="12223" font-size="10.5" fill="#5A6275">“virtualNetwork · Cpe Device Shapes” → More Local line · 2 ops</text>
+<text x="3414" y="12238" font-size="10.5" fill="#5A6275">“virtualNetwork · Cross Connect Locations” → More Local line · 1 op</text>
+<text x="3414" y="12253" font-size="10.5" fill="#5A6275">“virtualNetwork · Cross Connect Port Speed Shapes” → More Local line · 1 op</text>
+<text x="3414" y="12268" font-size="10.5" fill="#5A6275">“virtualNetwork · Ipsec Algorithms” → More Local line · 1 op</text>
+<text x="3414" y="12283" font-size="10.5" fill="#5A6275">“virtualNetwork · Networking Topology” → More Local line · 1 op</text>
+<text x="3414" y="12298" font-size="10.5" fill="#5A6275">“virtualNetwork · Services” → More Local line · 1 op</text>
+<text x="3414" y="12313" font-size="10.5" fill="#5A6275">“virtualNetwork · Subnet Topology” → More Local line · 1 op</text>
+<text x="3414" y="12328" font-size="10.5" fill="#5A6275">“virtualNetwork · Vcn Topology” → More Local line · 1 op</text>
+<text x="3414" y="12343" font-size="10.5" fill="#5A6275">“virtualNetwork · Virtual Circuit Bandwidth Shapes” → More Local line · 1 op</text>
+<text x="3414" y="12358" font-size="10.5" fill="#5A6275">“virtualNetwork · Vnics” → More Local line · 2 ops</text>
+<text x="3414" y="12408" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3414" y="12425" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1410" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/oracle/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

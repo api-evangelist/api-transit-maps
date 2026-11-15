@@ -203,3 +203,4 @@ First draft lessons: the engine's automatic line source re-derived lines from pa
 ### Dense-sheet pass (2026-11-14)
 - **Crowded sheets are redrawn larger.** Labels are a fixed font size, so a sheet with > 40 labels on track re-runs at 80 px/cell, then 100 (same layout; `--umin`). Worst atlas sheets: palo-alto 170 -> 48, oracle-hospitality 125 -> 41, optimizely 117 -> 39; maps: malwarebytes 124 -> 38, cloudera 64 -> 12. Splaying stops further apart (`--radius`) made it worse (117 -> 134).
 - `BAND=strong ./run_next.sh 50` maps the next band.
+- **Stranded groups dock as a unit.** Single strays were docked, but pairs and trios (Atlassian Jira) stayed 100+ cells out; detached components smaller than 5% of stops now slide toward the main body. atlassian-jira 15,818 x 12,702 -> 9,856 x 10,686 px.

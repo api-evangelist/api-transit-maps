@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1490 1104" width="1490" height="1104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1490" height="1104" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Browserstack API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">18 operations as stops · 3 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="519.3333333333334" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">BROWSERSTACK</text>
+<line x1="496" y1="776" x2="538" y2="734" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="496" y1="776" x2="538" y2="734" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Sessions" d="M748.0,944.0 L664.0,860.0 L622.0,818.0 L547.9,743.9 Q538.0,734.0 538.0,720.0 L538.0,608.0 L538.0,566.0 L538.0,496.0 Q538.0,482.0 528.1,472.1 L505.9,449.9 Q496.0,440.0 496.0,426.0 L496.0,314.0 L496.0,230.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sessions</title></path>
+<path class="line" data-line="Builds" d="M622.0,692.0 L706.0,692.0 L790.0,692.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Builds</title></path>
+<path class="line" data-line="Projects" d="M496.0,776.0 L384.0,776.0 Q370.0,776.0 360.1,785.9 L295.9,850.1 Q286.0,860.0 272.0,860.0 L244.0,860.0 L160.0,860.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Projects</title></path>
+<line x1="748" y1="944" x2="772.0416305603426" y2="968.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="748.0416305603426" y="957.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Sessions</title></rect><text x="772.0416305603426" y="973.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="496" y1="230" x2="496.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="472.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Sessions</title></rect><text x="496.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SES</text>
+<line x1="622" y1="692" x2="588.0" y2="692.0" stroke="#1F5FD1" stroke-width="7"/><rect x="564.0" y="681.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Builds</title></rect><text x="588.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUI</text>
+<line x1="790" y1="692" x2="824.0" y2="692.0" stroke="#1F5FD1" stroke-width="7"/><rect x="800.0" y="681.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Builds</title></rect><text x="824.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUI</text>
+<line x1="496" y1="776" x2="530.0" y2="776.0" stroke="#0E9F6E" stroke-width="7"/><rect x="506.0" y="765.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Projects</title></rect><text x="530.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="160" y1="860" x2="126.0" y2="860.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="849.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Projects</title></rect><text x="126.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-accesskey-api/#op-recycleAccessKey" target="_blank" class="st" data-op="recycleAccessKey"><title>PUT /automate/recycle_key.json
+Sessions line · recycleAccessKey</title>
+<circle cx="538" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="550" y="739" text-anchor="start" style="fill:#1A1F2C">Update recycle key</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-browsers-api/#op-getBrowsers" target="_blank" class="st" data-op="getBrowsers"><title>GET /automate/browsers.json
+Sessions line · getBrowsers</title>
+<circle cx="748" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="949" text-anchor="start" style="fill:#1A1F2C">List browsers</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-builds-api/#op-listBuilds" target="_blank" class="st" data-op="listBuilds"><title>GET /automate/builds.json
+Builds line · listBuilds</title>
+<circle cx="790" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="784" y="704" text-anchor="end" transform="rotate(-45 784 704)" style="fill:#1A1F2C">List builds</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-builds-api/#op-updateBuild" target="_blank" class="st" data-op="updateBuild"><title>PUT /automate/builds/{buildId}.json
+Builds line · updateBuild</title>
+<circle cx="622" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="628" y="680" transform="rotate(-45 628 680)" style="fill:#1A1F2C">Update build <tspan font-weight="700" style="fill:#D6264F">⇄SES</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-builds-api/#op-deleteBuild" target="_blank" class="st" data-op="deleteBuild"><title>DELETE /automate/builds/{buildId}.json
+Builds line · deleteBuild</title>
+<circle cx="706" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="702" y1="696" x2="710" y2="688" stroke="#1F5FD1" stroke-width="2"/>
+<text x="712" y="680" transform="rotate(-45 712 680)" style="fill:#1A1F2C">Delete build</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-plan-api/#op-getPlan" target="_blank" class="st" data-op="getPlan"><title>GET /automate/plan.json
+Sessions line · getPlan</title>
+<circle cx="622" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="634" y="823" text-anchor="start" style="fill:#1A1F2C">Get plan</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-projects-api/#op-listProjects" target="_blank" class="st" data-op="listProjects"><title>GET /automate/projects.json
+Projects line · listProjects</title>
+<circle cx="244" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="250" y="848" transform="rotate(-45 250 848)" style="fill:#1A1F2C">List projects</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-projects-api/#op-getProject" target="_blank" class="st" data-op="getProject"><title>GET /automate/projects/{projectId}.json
+Projects line · getProject</title>
+<circle cx="496" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="490" y="788" text-anchor="end" transform="rotate(-45 490 788)" style="fill:#1A1F2C">Get project</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-projects-api/#op-updateProject" target="_blank" class="st" data-op="updateProject"><title>PUT /automate/projects/{projectId}.json
+Projects line · updateProject</title>
+<circle cx="370" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="358.0" y="781" text-anchor="end" style="fill:#1A1F2C">Update project</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-projects-api/#op-deleteProject" target="_blank" class="st" data-op="deleteProject"><title>DELETE /automate/projects/{projectId}.json
+Projects line · deleteProject</title>
+<circle cx="286" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="282" y1="864" x2="290" y2="856" stroke="#0E9F6E" stroke-width="2"/>
+<text x="298" y="865" text-anchor="start" style="fill:#1A1F2C">Delete project</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-projects-api/#op-getProjectBadgeKey" target="_blank" class="st" data-op="getProjectBadgeKey"><title>GET /automate/projects/{projectId}/badge_key
+Projects line · getProjectBadgeKey</title>
+<circle cx="160" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="166" y="848" transform="rotate(-45 166 848)" style="fill:#1A1F2C">Get badge key</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-listBuildSessions" target="_blank" class="st" data-op="listBuildSessions"><title>GET /automate/builds/{buildId}/sessions.json
+Sessions line · listBuildSessions</title>
+<circle cx="664" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="865" text-anchor="start" style="fill:#1A1F2C">List sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-getSession" target="_blank" class="st" data-op="getSession"><title>GET /automate/sessions/{sessionId}.json
+Sessions line · getSession</title>
+<circle cx="538" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="613" text-anchor="start" style="fill:#1A1F2C">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-updateSession" target="_blank" class="st" data-op="updateSession"><title>PUT /automate/sessions/{sessionId}.json
+Sessions line · updateSession</title>
+<circle cx="538" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="571" text-anchor="start" style="fill:#1A1F2C">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-deleteSession" target="_blank" class="st" data-op="deleteSession"><title>DELETE /automate/sessions/{sessionId}.json
+Sessions line · deleteSession</title>
+<circle cx="538" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="534" y1="486" x2="542" y2="478" stroke="#D6264F" stroke-width="2"/>
+<text x="550" y="487" text-anchor="start" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-getSessionLogs" target="_blank" class="st" data-op="getSessionLogs"><title>GET /automate/sessions/{sessionId}/logs
+Sessions line · getSessionLogs</title>
+<circle cx="496" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="319" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-getSessionNetworkLogs" target="_blank" class="st" data-op="getSessionNetworkLogs"><title>GET /automate/sessions/{sessionId}/networklogs
+Sessions line · getSessionNetworkLogs</title>
+<circle cx="496" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="235" text-anchor="start" style="fill:#1A1F2C">List networklogs</text>
+</a>
+<a href="https://apis.apis.io/apis/browserstack/browserstack-sessions-api/#op-getSessionConsoleLogs" target="_blank" class="st" data-op="getSessionConsoleLogs"><title>GET /automate/sessions/{sessionId}/consolelogs
+Sessions line · getSessionConsoleLogs</title>
+<circle cx="496" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="445" text-anchor="start" style="fill:#1A1F2C">List consolelogs</text>
+</a>
+<text x="980" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="980" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">BROWSERSTACK</text>
+<rect x="980" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="997" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SES</text><text x="1022" y="269" font-size="11" fill="#1A1F2C">Sessions <tspan fill="#8A93A6">10</tspan></text>
+<rect x="980" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="997" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="1022" y="286" font-size="11" fill="#1A1F2C">Projects <tspan fill="#8A93A6">5</tspan></text>
+<rect x="980" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="997" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BUI</text><text x="1022" y="303" font-size="11" fill="#1A1F2C">Builds <tspan fill="#8A93A6">3</tspan></text>
+<text x="1230" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1248,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1274" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1248,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1274" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1248,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1274" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1248,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1274" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1248,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1274" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1248,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1274" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1248,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1274" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1248,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1274" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1230" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1230" y="463" font-size="10.5" fill="#5A6275">“AccessKey” → Sessions line · 1 op</text>
+<text x="1230" y="478" font-size="10.5" fill="#5A6275">“Browsers” → Sessions line · 1 op</text>
+<text x="1230" y="493" font-size="10.5" fill="#5A6275">“Plan” → Sessions line · 1 op</text>
+<text x="1230" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1230" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1074" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/browserstack/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

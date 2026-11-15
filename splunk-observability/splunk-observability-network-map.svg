@@ -1,0 +1,1380 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3758 3372" width="3758" height="3372" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3758" height="3372" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Splunk-Observability API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">227 operations as stops · 34 tags as lines · 12 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M706.0,1406.0 L803.7,1503.7 Q832.0,1532.0 872.0,1532.0 L1756.0,1532.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1169.0" y="1457.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1231.0" y="1473.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>APM ⇄ More</title>1 interchange</text></g>
+<path d="M2344.0,2750.0 L1700.3,2106.3 Q1672.0,2078.0 1672.0,2038.0 L1672.0,1196.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1946.0" y="1961.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="2008.0" y="1977.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Tests</title>1 interchange</text></g>
+<path d="M1714.0,1784.0 L1769.7,1728.3 Q1798.0,1700.0 1798.0,1660.0 L1798.0,356.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1694.0" y="1058.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1756.0" y="1074.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Tag</title>1 interchange</text></g>
+<text x="2494.5853658536585" y="1798" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">TESTS</text>
+<text x="848.8" y="1252" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">APM</text>
+<text x="1735.0" y="2176" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">DASHBOARDGROUP</text>
+<text x="2435.6363636363635" y="2806" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">NAVIGATOR</text>
+<text x="1847.6363636363637" y="286" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">TAG</text>
+<text x="953.8" y="1756" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">DETECTOR</text>
+<text x="2533.0" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">ALERTMUTING</text>
+<text x="496.0" y="1672" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">ORGANIZATION</text>
+<text x="1028.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">TEAM</text>
+<text x="989.5" y="622" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">LOCATIONS</text>
+<text x="2326.0" y="664" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">METRICRULESET</text>
+<text x="1695.7831325301204" y="454" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="1714" y1="2666" x2="1756" y2="2708" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1714" y1="2666" x2="1756" y2="2708" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="790" y1="1532" x2="832" y2="1574" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="790" y1="1532" x2="832" y2="1574" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2512" y1="2330" x2="2470" y2="2288" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2512" y1="2330" x2="2470" y2="2288" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="APM visibility filters" d="M832.0,1574.0 L874.0,1616.0 L948.1,1690.1 Q958.0,1700.0 972.0,1700.0 L1028.0,1700.0 Q1042.0,1700.0 1051.9,1709.9 L1084.0,1742.0 L1168.0,1826.0 L1210.0,1868.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>APM visibility filters</title></path>
+<path class="line" data-line="Automated archival" d="M1420.0,2246.0 L1420.0,2162.0 L1420.0,2092.0 Q1420.0,2078.0 1410.1,2068.1 L1378.0,2036.0 L1336.0,1994.0 L1294.0,1952.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Automated archival</title></path>
+<path class="line" data-line="Charts" d="M1378.0,1280.0 L1420.0,1322.0 L1494.1,1396.1 Q1504.0,1406.0 1494.1,1415.9 L1471.9,1438.1 Q1462.0,1448.0 1448.0,1448.0 L1336.0,1448.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Charts</title></path>
+<path class="line" data-line="Client Inventory" d="M2176.0,1112.0 L2064.0,1112.0 Q2050.0,1112.0 2040.1,1121.9 L2008.0,1154.0 L1966.0,1196.0 L1882.0,1280.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Client Inventory</title></path>
+<path class="line" data-line="Dashboard Groups" d="M1756.0,2246.0 L1756.0,2330.0 L1756.0,2442.0 Q1756.0,2456.0 1765.9,2465.9 L1788.1,2488.1 Q1798.0,2498.0 1798.0,2512.0 L1798.0,2568.0 Q1798.0,2582.0 1788.1,2591.9 L1714.0,2666.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dashboard Groups</title></path>
+<path class="line" data-line="Dashboards" d="M1504.0,2708.0 L1588.0,2708.0 L1742.0,2708.0 Q1756.0,2708.0 1765.9,2717.9 L1788.1,2740.1 Q1798.0,2750.0 1798.0,2764.0 L1798.0,2876.0 L1798.0,2960.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dashboards</title></path>
+<path class="line" data-line="Data links" d="M1840.0,860.0 L1840.0,944.0 L1840.0,1014.0 Q1840.0,1028.0 1854.0,1028.0 L1910.0,1028.0 Q1924.0,1028.0 1933.9,1018.1 L2008.0,944.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Data links</title></path>
+<path class="line" data-line="Detectors" d="M1000.0,2582.0 L1000.0,2498.0 L1000.0,2428.0 Q1000.0,2414.0 990.1,2404.1 L916.0,2330.0 L883.9,2297.9 Q874.0,2288.0 874.0,2274.0 L874.0,2176.0 Q874.0,2162.0 883.9,2152.1 L948.1,2087.9 Q958.0,2078.0 958.0,2064.0 L958.0,1994.0 L958.0,1882.0 Q958.0,1868.0 967.9,1858.1 L1000.0,1826.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Detectors</title></path>
+<path class="line" data-line="Download APM traces" d="M790.0,1532.0 L790.0,1448.0 L790.0,1322.0" fill="none" stroke="#17d25b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Download APM traces</title></path>
+<path class="line" data-line="Incidents and alerts" d="M2764.0,902.0 L2764.0,986.0 L2764.0,1014.0 Q2764.0,1028.0 2754.1,1037.9 L2680.0,1112.0 L2596.0,1196.0 L2563.9,1228.1 Q2554.0,1238.0 2540.0,1238.0 L2428.0,1238.0 L2344.0,1238.0 L2260.0,1238.0 L2176.0,1238.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Incidents and alerts</title></path>
+<path class="line" data-line="Integrations" d="M2092.0,1868.0 L2008.0,1952.0 L1966.0,1994.0 L1933.9,2026.1 Q1924.0,2036.0 1924.0,2050.0 L1924.0,2120.0 L1924.0,2204.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Integrations</title></path>
+<path class="line" data-line="Metric ruleset" d="M2554.0,734.0 L2470.0,734.0 L2400.0,734.0 Q2386.0,734.0 2376.1,743.9 L2344.0,776.0 L2269.9,850.1 Q2260.0,860.0 2246.0,860.0 L2176.0,860.0 L2092.0,860.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Metric ruleset</title></path>
+<path class="line" data-line="Metrics metadata" d="M1420.0,440.0 L1504.0,440.0 L1630.0,440.0 L1700.0,440.0 Q1714.0,440.0 1723.9,430.1 L1788.1,365.9 Q1798.0,356.0 1812.0,356.0 L1840.0,356.0 L1910.0,356.0 Q1924.0,356.0 1933.9,365.9 L2008.0,440.0 L2040.1,472.1 Q2050.0,482.0 2064.0,482.0 L2176.0,482.0 L2260.0,482.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Metrics metadata</title></path>
+<path class="line" data-line="Navigators" d="M2806.0,3212.0 L2722.0,3128.0 L2647.9,3053.9 Q2638.0,3044.0 2638.0,3030.0 L2638.0,3016.0 Q2638.0,3002.0 2628.1,2992.1 L2521.9,2885.9 Q2512.0,2876.0 2498.0,2876.0 L2428.0,2876.0 L2358.0,2876.0 Q2344.0,2876.0 2334.1,2885.9 L2311.9,2908.1 Q2302.0,2918.0 2288.0,2918.0 L2218.0,2918.0 L2134.0,2918.0 L2050.0,2918.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Navigators</title></path>
+<path class="line" data-line="Org tokens" d="M1672.0,2162.0 L1672.0,2078.0 L1672.0,1966.0 Q1672.0,1952.0 1686.0,1952.0 L1742.0,1952.0 Q1756.0,1952.0 1765.9,1961.9 L1788.1,1984.1 Q1798.0,1994.0 1798.0,2008.0 L1798.0,2078.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Org tokens</title></path>
+<path class="line" data-line="Organizations" d="M874.0,1784.0 L799.9,1858.1 Q790.0,1868.0 776.0,1868.0 L720.0,1868.0 Q706.0,1868.0 696.1,1858.1 L589.9,1751.9 Q580.0,1742.0 566.0,1742.0 L496.0,1742.0 L426.0,1742.0 Q412.0,1742.0 402.1,1751.9 L370.0,1784.0 L328.0,1826.0 L244.0,1910.0 L160.0,1994.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Organizations</title></path>
+<path class="line" data-line="Role" d="M1924.0,524.0 L1924.0,608.0 L1924.0,692.0 L1924.0,776.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Role</title></path>
+<path class="line" data-line="Send traces, metrics and events" d="M496.0,1406.0 L580.0,1406.0 L692.0,1406.0 Q706.0,1406.0 706.0,1420.0 L706.0,1532.0 L706.0,1616.0" fill="none" stroke="#0d7773" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Send traces, metrics and events</title></path>
+<path class="line" data-line="SignalFlow" d="M1252.0,1742.0 L1336.0,1742.0 L1406.0,1742.0 Q1420.0,1742.0 1429.9,1732.1 L1494.1,1667.9 Q1504.0,1658.0 1494.1,1648.1 L1429.9,1583.9 Q1420.0,1574.0 1406.0,1574.0 L1336.0,1574.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SignalFlow</title></path>
+<path class="line" data-line="SLOs" d="M1924.0,1574.0 L2008.0,1658.0 L2082.1,1732.1 Q2092.0,1742.0 2106.0,1742.0 L2176.0,1742.0 L2260.0,1742.0 L2344.0,1742.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SLOs</title></path>
+<path class="line" data-line="Synthetics API tests V2" d="M2470.0,2540.0 L2470.0,2302.0 Q2470.0,2288.0 2479.9,2278.1 L2596.0,2162.0 L2628.1,2129.9 Q2638.0,2120.0 2638.0,2106.0 L2638.0,2050.0 Q2638.0,2036.0 2628.1,2026.1 L2554.0,1952.0 L2470.0,1868.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics API tests V2</title></path>
+<path class="line" data-line="Synthetics artifacts" d="M2470.0,2204.0 L2395.9,2129.9 Q2386.0,2120.0 2386.0,2106.0 L2386.0,2036.0" fill="none" stroke="#e851ba" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics artifacts</title></path>
+<path class="line" data-line="Synthetics Browser tests V2" d="M2344.0,2330.0 L2311.9,2362.1 Q2302.0,2372.0 2288.0,2372.0 L2232.0,2372.0 Q2218.0,2372.0 2208.1,2362.1 L2185.9,2339.9 Q2176.0,2330.0 2162.0,2330.0 L2092.0,2330.0 L2008.0,2330.0 L1924.0,2330.0" fill="none" stroke="#af232e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics Browser tests V2</title></path>
+<path class="line" data-line="Synthetics CA certificates" d="M1210.0,1028.0 L1280.0,1028.0 Q1294.0,1028.0 1303.9,1037.9 L1368.1,1102.1 Q1378.0,1112.0 1368.1,1121.9 L1345.9,1144.1 Q1336.0,1154.0 1322.0,1154.0 L1210.0,1154.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics CA certificates</title></path>
+<path class="line" data-line="Synthetics certificates" d="M1210.0,860.0 L1284.1,934.1 Q1294.0,944.0 1308.0,944.0 L1364.0,944.0 Q1378.0,944.0 1378.0,930.0 L1378.0,832.0 Q1378.0,818.0 1368.1,808.1 L1294.0,734.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics certificates</title></path>
+<path class="line" data-line="Synthetics downtime configurations" d="M2218.0,1490.0 L2134.0,1490.0 L2064.0,1490.0 Q2050.0,1490.0 2040.1,1480.1 L2017.9,1457.9 Q2008.0,1448.0 2008.0,1434.0 L2008.0,1378.0 Q2008.0,1364.0 2017.9,1354.1 L2050.0,1322.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics downtime configurations</title></path>
+<path class="line" data-line="Synthetics global variables" d="M1462.0,608.0 L1462.0,720.0 Q1462.0,734.0 1476.0,734.0 L1532.0,734.0 Q1546.0,734.0 1555.9,724.1 L1578.1,701.9 Q1588.0,692.0 1588.0,678.0 L1588.0,566.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics global variables</title></path>
+<path class="line" data-line="Synthetics HTTP tests" d="M2596.0,2288.0 L2628.1,2255.9 Q2638.0,2246.0 2652.0,2246.0 L2722.0,2246.0 L2834.0,2246.0 Q2848.0,2246.0 2857.9,2236.1 L2880.1,2213.9 Q2890.0,2204.0 2904.0,2204.0 L2974.0,2204.0 L3058.0,2204.0" fill="none" stroke="#dd5b8e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics HTTP tests</title></path>
+<path class="line" data-line="Synthetics locations" d="M1084.0,692.0 L1084.0,776.0 L1084.0,888.0 Q1084.0,902.0 1074.1,911.9 L1051.9,934.1 Q1042.0,944.0 1042.0,958.0 L1042.0,1056.0 Q1042.0,1070.0 1028.0,1070.0 L930.0,1070.0 Q916.0,1070.0 906.1,1060.1 L874.0,1028.0 L790.0,944.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics locations</title></path>
+<path class="line" data-line="Synthetics Port tests" d="M2512.0,2330.0 L2596.0,2414.0 L2712.1,2530.1 Q2722.0,2540.0 2722.0,2554.0 L2722.0,2568.0 Q2722.0,2582.0 2731.9,2591.9 L2764.0,2624.0 L2848.0,2708.0 L2932.0,2792.0" fill="none" stroke="#e85c51" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics Port tests</title></path>
+<path class="line" data-line="Synthetics SSL Certificate Tests" d="M2386.0,2246.0 L2344.0,2204.0 L2260.0,2120.0 L2176.0,2036.0" fill="none" stroke="#af4423" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics SSL Certificate Tests</title></path>
+<path class="line" data-line="Synthetics tests" d="M2428.0,2414.0 L2353.9,2488.1 Q2344.0,2498.0 2344.0,2512.0 L2344.0,2540.0 L2344.0,2624.0 L2344.0,2666.0 L2344.0,2750.0" fill="none" stroke="#af236f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Synthetics tests</title></path>
+<path class="line" data-line="Teams" d="M1336.0,566.0 L1252.0,566.0 L1168.0,566.0 L1084.0,566.0 L1014.0,566.0 Q1000.0,566.0 990.1,556.1 L916.0,482.0 L841.9,407.9 Q832.0,398.0 832.0,384.0 L832.0,314.0 L832.0,230.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Teams</title></path>
+<path class="line" data-line="More Local" d="M1672.0,1826.0 L1704.1,1793.9 Q1714.0,1784.0 1714.0,1770.0 L1714.0,1700.0 L1714.0,1588.0 Q1714.0,1574.0 1723.9,1564.1 L1746.1,1541.9 Q1756.0,1532.0 1756.0,1518.0 L1756.0,1462.0 Q1756.0,1448.0 1746.1,1438.1 L1723.9,1415.9 Q1714.0,1406.0 1714.0,1392.0 L1714.0,1252.0 Q1714.0,1238.0 1704.1,1228.1 L1672.0,1196.0 L1597.9,1121.9 Q1588.0,1112.0 1588.0,1098.0 L1588.0,1028.0 L1588.0,944.0 L1588.0,860.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="832" y1="1574" x2="826.3431457505076" y2="1531.5735931288073" stroke="#0E9F6E" stroke-width="7"/><rect x="802.3431457505076" y="1520.5735931288073" width="48" height="22" rx="5" fill="#0E9F6E"><title>APM visibility filters</title></rect><text x="826.3431457505076" y="1536.5735931288073" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AVF</text>
+<line x1="1210" y1="1868" x2="1234.0416305603426" y2="1892.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1210.0416305603426" y="1881.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>APM visibility filters</title></rect><text x="1234.0416305603426" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AVF</text>
+<line x1="1420" y1="2246" x2="1420.0" y2="2280.0" stroke="#B0287F" stroke-width="7"/><rect x="1396.0" y="2269.0" width="48" height="22" rx="5" fill="#B0287F"><title>Automated archival</title></rect><text x="1420.0" y="2285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AA</text>
+<line x1="1294" y1="1952" x2="1269.9583694396574" y2="1927.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1245.9583694396574" y="1916.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Automated archival</title></rect><text x="1269.9583694396574" y="1932.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AA</text>
+<line x1="1378" y1="1280" x2="1353.9583694396574" y2="1255.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1329.9583694396574" y="1244.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Charts</title></rect><text x="1353.9583694396574" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="1336" y1="1448" x2="1302.0" y2="1448.0" stroke="#B8860B" stroke-width="7"/><rect x="1278.0" y="1437.0" width="48" height="22" rx="5" fill="#B8860B"><title>Charts</title></rect><text x="1302.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="2176" y1="1112" x2="2210.0" y2="1112.0" stroke="#8D6E63" stroke-width="7"/><rect x="2186.0" y="1101.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Client Inventory</title></rect><text x="2210.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CI</text>
+<line x1="1882" y1="1280" x2="1857.9583694396574" y2="1304.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1833.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Client Inventory</title></rect><text x="1857.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CI</text>
+<line x1="1756" y1="2246" x2="1756.0" y2="2212.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1732.0" y="2201.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Dashboard Groups</title></rect><text x="1756.0" y="2217.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DG</text>
+<line x1="1714" y1="2666" x2="1689.9583694396574" y2="2690.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1665.9583694396574" y="2679.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Dashboard Groups</title></rect><text x="1689.9583694396574" y="2695.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DG</text>
+<line x1="1504" y1="2708" x2="1470.0" y2="2708.0" stroke="#1d33a9" stroke-width="7"/><rect x="1446.0" y="2697.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Dashboards</title></rect><text x="1470.0" y="2713.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="1798" y1="2960" x2="1798.0" y2="2994.0" stroke="#1d33a9" stroke-width="7"/><rect x="1774.0" y="2983.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Dashboards</title></rect><text x="1798.0" y="2999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="1840" y1="860" x2="1840.0" y2="826.0" stroke="#E07B12" stroke-width="7"/><rect x="1816.0" y="815.0" width="48" height="22" rx="5" fill="#E07B12"><title>Data links</title></rect><text x="1840.0" y="831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DL</text>
+<line x1="2008" y1="944" x2="2032.0416305603426" y2="919.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="2008.0416305603426" y="908.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Data links</title></rect><text x="2032.0416305603426" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DL</text>
+<line x1="1000" y1="2582" x2="1000.0" y2="2616.0" stroke="#B0287F" stroke-width="7"/><rect x="976.0" y="2605.0" width="48" height="22" rx="5" fill="#B0287F"><title>Detectors</title></rect><text x="1000.0" y="2621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DET</text>
+<line x1="1000" y1="1826" x2="1024.0416305603426" y2="1801.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1000.0416305603426" y="1790.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Detectors</title></rect><text x="1024.0416305603426" y="1806.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DET</text>
+<line x1="790" y1="1532" x2="790.0" y2="1566.0" stroke="#17d25b" stroke-width="7"/><rect x="766.0" y="1555.0" width="48" height="22" rx="5" fill="#17d25b"><title>Download APM traces</title></rect><text x="790.0" y="1571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="790" y1="1322" x2="790.0" y2="1288.0" stroke="#17d25b" stroke-width="7"/><rect x="766.0" y="1277.0" width="48" height="22" rx="5" fill="#17d25b"><title>Download APM traces</title></rect><text x="790.0" y="1293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="2764" y1="902" x2="2764.0" y2="868.0" stroke="#0B7A75" stroke-width="7"/><rect x="2740.0" y="857.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Incidents and alerts</title></rect><text x="2764.0" y="873.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IAA</text>
+<line x1="2176" y1="1238" x2="2142.0" y2="1238.0" stroke="#0B7A75" stroke-width="7"/><rect x="2118.0" y="1227.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Incidents and alerts</title></rect><text x="2142.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IAA</text>
+<line x1="2092" y1="1868" x2="2116.0416305603426" y2="1843.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="2092.0416305603426" y="1832.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Integrations</title></rect><text x="2116.0416305603426" y="1848.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="1924" y1="2204" x2="1924.0" y2="2238.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1900.0" y="2227.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Integrations</title></rect><text x="1924.0" y="2243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INT</text>
+<line x1="2554" y1="734" x2="2588.0" y2="734.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2564.0" y="723.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Metric ruleset</title></rect><text x="2588.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MR</text>
+<line x1="2092" y1="860" x2="2058.0" y2="860.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2034.0" y="849.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Metric ruleset</title></rect><text x="2058.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MR</text>
+<line x1="1420" y1="440" x2="1386.0" y2="440.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1362.0" y="429.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Metrics metadata</title></rect><text x="1386.0" y="445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MM</text>
+<line x1="2260" y1="482" x2="2294.0" y2="482.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2270.0" y="471.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Metrics metadata</title></rect><text x="2294.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MM</text>
+<line x1="2806" y1="3212" x2="2830.0416305603426" y2="3236.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="2806.0416305603426" y="3225.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Navigators</title></rect><text x="2830.0416305603426" y="3241.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NAV</text>
+<line x1="2050" y1="2918" x2="2016.0" y2="2918.0" stroke="#E07B12" stroke-width="7"/><rect x="1992.0" y="2907.0" width="48" height="22" rx="5" fill="#E07B12"><title>Navigators</title></rect><text x="2016.0" y="2923.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NAV</text>
+<line x1="1672" y1="2162" x2="1672.0" y2="2196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1648.0" y="2185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Org tokens</title></rect><text x="1672.0" y="2201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OT</text>
+<line x1="1798" y1="2078" x2="1798.0" y2="2112.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1774.0" y="2101.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Org tokens</title></rect><text x="1798.0" y="2117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OT</text>
+<line x1="874" y1="1784" x2="898.0416305603426" y2="1759.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="874.0416305603426" y="1748.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Organizations</title></rect><text x="898.0416305603426" y="1764.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="160" y1="1994" x2="135.9583694396574" y2="2018.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="111.95836943965739" y="2007.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Organizations</title></rect><text x="135.9583694396574" y="2023.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORG</text>
+<line x1="1924" y1="524" x2="1924.0" y2="490.0" stroke="#2E7D32" stroke-width="7"/><rect x="1900.0" y="479.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Role</title></rect><text x="1924.0" y="495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="1924" y1="776" x2="1924.0" y2="810.0" stroke="#2E7D32" stroke-width="7"/><rect x="1900.0" y="799.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Role</title></rect><text x="1924.0" y="815.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="496" y1="1406" x2="462.0" y2="1406.0" stroke="#0d7773" stroke-width="7"/><rect x="438.0" y="1395.0" width="48" height="22" rx="5" fill="#0d7773"><title>Send traces, metrics and events</title></rect><text x="462.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STMA</text>
+<line x1="706" y1="1616" x2="706.0" y2="1650.0" stroke="#0d7773" stroke-width="7"/><rect x="682.0" y="1639.0" width="48" height="22" rx="5" fill="#0d7773"><title>Send traces, metrics and events</title></rect><text x="706.0" y="1655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STMA</text>
+<line x1="1252" y1="1742" x2="1218.0" y2="1742.0" stroke="#00838F" stroke-width="7"/><rect x="1194.0" y="1731.0" width="48" height="22" rx="5" fill="#00838F"><title>SignalFlow</title></rect><text x="1218.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SF</text>
+<line x1="1336" y1="1574" x2="1302.0" y2="1574.0" stroke="#00838F" stroke-width="7"/><rect x="1278.0" y="1563.0" width="48" height="22" rx="5" fill="#00838F"><title>SignalFlow</title></rect><text x="1302.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SF</text>
+<line x1="1924" y1="1574" x2="1899.9583694396574" y2="1549.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1875.9583694396574" y="1538.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>SLOs</title></rect><text x="1899.9583694396574" y="1554.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SLO</text>
+<line x1="2344" y1="1742" x2="2378.0" y2="1742.0" stroke="#0B7A75" stroke-width="7"/><rect x="2354.0" y="1731.0" width="48" height="22" rx="5" fill="#0B7A75"><title>SLOs</title></rect><text x="2378.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SLO</text>
+<line x1="2470" y1="2540" x2="2470.0" y2="2574.0" stroke="#D6264F" stroke-width="7"/><rect x="2446.0" y="2563.0" width="48" height="22" rx="5" fill="#D6264F"><title>Synthetics API tests V2</title></rect><text x="2470.0" y="2579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SATV</text>
+<line x1="2470" y1="1868" x2="2445.9583694396574" y2="1843.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="2421.9583694396574" y="1832.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Synthetics API tests V2</title></rect><text x="2445.9583694396574" y="1848.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SATV</text>
+<line x1="2470" y1="2204" x2="2494.0416305603426" y2="2228.0416305603426" stroke="#e851ba" stroke-width="7"/><rect x="2470.0416305603426" y="2217.0416305603426" width="48" height="22" rx="5" fill="#e851ba"><title>Synthetics artifacts</title></rect><text x="2494.0416305603426" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="2386" y1="2036" x2="2386.0" y2="2002.0" stroke="#e851ba" stroke-width="7"/><rect x="2362.0" y="1991.0" width="48" height="22" rx="5" fill="#e851ba"><title>Synthetics artifacts</title></rect><text x="2386.0" y="2007.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="2344" y1="2330" x2="2368.0416305603426" y2="2305.9583694396574" stroke="#af232e" stroke-width="7"/><rect x="2344.0416305603426" y="2294.9583694396574" width="48" height="22" rx="5" fill="#af232e"><title>Synthetics Browser tests V2</title></rect><text x="2368.0416305603426" y="2310.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SBTV</text>
+<line x1="1924" y1="2330" x2="1890.0" y2="2330.0" stroke="#af232e" stroke-width="7"/><rect x="1866.0" y="2319.0" width="48" height="22" rx="5" fill="#af232e"><title>Synthetics Browser tests V2</title></rect><text x="1890.0" y="2335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SBTV</text>
+<line x1="1210" y1="1028" x2="1176.0" y2="1028.0" stroke="#C2410C" stroke-width="7"/><rect x="1152.0" y="1017.0" width="48" height="22" rx="5" fill="#C2410C"><title>Synthetics CA certificates</title></rect><text x="1176.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCC</text>
+<line x1="1210" y1="1154" x2="1176.0" y2="1154.0" stroke="#C2410C" stroke-width="7"/><rect x="1152.0" y="1143.0" width="48" height="22" rx="5" fill="#C2410C"><title>Synthetics CA certificates</title></rect><text x="1176.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCC</text>
+<line x1="1210" y1="860" x2="1185.9583694396574" y2="835.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="1161.9583694396574" y="824.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>Synthetics certificates</title></rect><text x="1185.9583694396574" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SC</text>
+<line x1="1294" y1="734" x2="1269.9583694396574" y2="709.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="1245.9583694396574" y="698.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>Synthetics certificates</title></rect><text x="1269.9583694396574" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SC</text>
+<line x1="2218" y1="1490" x2="2252.0" y2="1490.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2228.0" y="1479.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Synthetics downtime configurations</title></rect><text x="2252.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SDC</text>
+<line x1="2050" y1="1322" x2="2074.0416305603426" y2="1297.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="2050.0416305603426" y="1286.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Synthetics downtime configurations</title></rect><text x="2074.0416305603426" y="1302.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SDC</text>
+<line x1="1462" y1="608" x2="1462.0" y2="574.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1438.0" y="563.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Synthetics global variables</title></rect><text x="1462.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SGV</text>
+<line x1="1588" y1="566" x2="1588.0" y2="532.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1564.0" y="521.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Synthetics global variables</title></rect><text x="1588.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SGV</text>
+<line x1="2596" y1="2288" x2="2571.9583694396574" y2="2312.0416305603426" stroke="#dd5b8e" stroke-width="7"/><rect x="2547.9583694396574" y="2301.0416305603426" width="48" height="22" rx="5" fill="#dd5b8e"><title>Synthetics HTTP tests</title></rect><text x="2571.9583694396574" y="2317.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHT</text>
+<line x1="3058" y1="2204" x2="3092.0" y2="2204.0" stroke="#dd5b8e" stroke-width="7"/><rect x="3068.0" y="2193.0" width="48" height="22" rx="5" fill="#dd5b8e"><title>Synthetics HTTP tests</title></rect><text x="3092.0" y="2209.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHT</text>
+<line x1="1084" y1="692" x2="1084.0" y2="658.0" stroke="#2E7D32" stroke-width="7"/><rect x="1060.0" y="647.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Synthetics locations</title></rect><text x="1084.0" y="663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SL</text>
+<line x1="790" y1="944" x2="765.9583694396574" y2="919.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="741.9583694396574" y="908.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Synthetics locations</title></rect><text x="765.9583694396574" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SL</text>
+<line x1="2512" y1="2330" x2="2506.3431457505076" y2="2287.5735931288073" stroke="#e85c51" stroke-width="7"/><rect x="2482.3431457505076" y="2276.5735931288073" width="48" height="22" rx="5" fill="#e85c51"><title>Synthetics Port tests</title></rect><text x="2506.3431457505076" y="2292.5735931288073" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SPT</text>
+<line x1="2932" y1="2792" x2="2956.0416305603426" y2="2816.0416305603426" stroke="#e85c51" stroke-width="7"/><rect x="2932.0416305603426" y="2805.0416305603426" width="48" height="22" rx="5" fill="#e85c51"><title>Synthetics Port tests</title></rect><text x="2956.0416305603426" y="2821.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SPT</text>
+<line x1="2386" y1="2246" x2="2410.0416305603426" y2="2270.0416305603426" stroke="#af4423" stroke-width="7"/><rect x="2386.0416305603426" y="2259.0416305603426" width="48" height="22" rx="5" fill="#af4423"><title>Synthetics SSL Certificate Tests</title></rect><text x="2410.0416305603426" y="2275.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SSCT</text>
+<line x1="2176" y1="2036" x2="2151.9583694396574" y2="2011.9583694396574" stroke="#af4423" stroke-width="7"/><rect x="2127.9583694396574" y="2000.9583694396574" width="48" height="22" rx="5" fill="#af4423"><title>Synthetics SSL Certificate Tests</title></rect><text x="2151.9583694396574" y="2016.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SSCT</text>
+<line x1="2428" y1="2414" x2="2452.0416305603426" y2="2389.9583694396574" stroke="#af236f" stroke-width="7"/><rect x="2428.0416305603426" y="2378.9583694396574" width="48" height="22" rx="5" fill="#af236f"><title>Synthetics tests</title></rect><text x="2452.0416305603426" y="2394.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ST</text>
+<line x1="2344" y1="2750" x2="2344.0" y2="2784.0" stroke="#af236f" stroke-width="7"/><rect x="2320.0" y="2773.0" width="48" height="22" rx="5" fill="#af236f"><title>Synthetics tests</title></rect><text x="2344.0" y="2789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ST</text>
+<line x1="1336" y1="566" x2="1370.0" y2="566.0" stroke="#C2410C" stroke-width="7"/><rect x="1346.0" y="555.0" width="48" height="22" rx="5" fill="#C2410C"><title>Teams</title></rect><text x="1370.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="832" y1="230" x2="832.0" y2="196.0" stroke="#C2410C" stroke-width="7"/><rect x="808.0" y="185.0" width="48" height="22" rx="5" fill="#C2410C"><title>Teams</title></rect><text x="832.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1672" y1="1826" x2="1647.9583694396574" y2="1850.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1623.9583694396574" y="1839.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1647.9583694396574" y="1855.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1588" y1="860" x2="1588.0" y2="826.0" stroke="#D6264F" stroke-width="7"/><rect x="1564.0" y="815.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1588.0" y="831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-service-topology-api/#op-postApmTopology" target="_blank" class="st" data-op="postApmTopology"><title>POST /apm/topology
+APM visibility filters line · postApmTopology</title>
+<circle cx="832" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="844" y="1579" text-anchor="start" style="fill:#1A1F2C">Update topology</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-service-topology-api/#op-postApmTopologyByServiceName" target="_blank" class="st" data-op="postApmTopologyByServiceName"><title>POST /apm/topology/{serviceName}
+APM visibility filters line · postApmTopologyByServiceName</title>
+<circle cx="874" cy="1616" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="1621" text-anchor="start" style="fill:#1A1F2C">Update topology</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-visibility-filters-api/#op-getApmVisibilityFilter" target="_blank" class="st" data-op="getApmVisibilityFilter"><title>GET /apm/visibility-filter
+APM visibility filters line · getApmVisibilityFilter</title>
+<circle cx="958" cy="1700" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="946.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Get visibility filter</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-visibility-filters-api/#op-postApmVisibilityFilter" target="_blank" class="st" data-op="postApmVisibilityFilter"><title>POST /apm/visibility-filter
+APM visibility filters line · postApmVisibilityFilter</title>
+<circle cx="1042" cy="1700" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="1705" text-anchor="start" style="fill:#1A1F2C">Update visibility filter</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-visibility-filters-api/#op-getApmVisibilityFilterByFilterId" target="_blank" class="st" data-op="getApmVisibilityFilterByFilterId"><title>GET /apm/visibility-filter/{FilterId}
+APM visibility filters line · getApmVisibilityFilterByFilterId</title>
+<circle cx="1084" cy="1742" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1072.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get visibility filter</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-visibility-filters-api/#op-deleteApmVisibilityFilterByFilterId" target="_blank" class="st" data-op="deleteApmVisibilityFilterByFilterId"><title>DELETE /apm/visibility-filter/{FilterId}
+APM visibility filters line · deleteApmVisibilityFilterByFilterId</title>
+<circle cx="1168" cy="1826" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1164" y1="1830" x2="1172" y2="1822" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1180" y="1831" text-anchor="start" style="fill:#1A1F2C">Delete visibility filter</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-apm-visibility-filters-api/#op-putApmVisibilityFilterByFilterIdEnabled" target="_blank" class="st" data-op="putApmVisibilityFilterByFilterIdEnabled"><title>PUT /apm/visibility-filter/{FilterId}/enabled
+APM visibility filters line · putApmVisibilityFilterByFilterIdEnabled</title>
+<circle cx="1210" cy="1868" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1222" y="1873" text-anchor="start" style="fill:#1A1F2C">Update enabled</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-automated-archival-api/#op-getAutomatedArchivalExemptMetrics" target="_blank" class="st" data-op="getAutomatedArchivalExemptMetrics"><title>GET /automated-archival/exempt-metrics
+Automated archival line · getAutomatedArchivalExemptMetrics</title>
+<circle cx="1420" cy="2246" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2251" text-anchor="start" style="fill:#1A1F2C">List exempt metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-automated-archival-api/#op-postAutomatedArchivalExemptMetrics" target="_blank" class="st" data-op="postAutomatedArchivalExemptMetrics"><title>POST /automated-archival/exempt-metrics
+Automated archival line · postAutomatedArchivalExemptMetrics</title>
+<circle cx="1420" cy="2162" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2167" text-anchor="start" style="fill:#1A1F2C">Create exempt metric</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-automated-archival-api/#op-deleteAutomatedArchivalExemptMetrics" target="_blank" class="st" data-op="deleteAutomatedArchivalExemptMetrics"><title>DELETE /automated-archival/exempt-metrics
+Automated archival line · deleteAutomatedArchivalExemptMetrics</title>
+<circle cx="1420" cy="2078" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1416" y1="2082" x2="1424" y2="2074" stroke="#B0287F" stroke-width="2"/>
+<text x="1432" y="2083" text-anchor="start" style="fill:#1A1F2C">Delete exempt metric</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-automated-archival-api/#op-getAutomatedArchivalPreview" target="_blank" class="st" data-op="getAutomatedArchivalPreview"><title>GET /automated-archival/preview
+Automated archival line · getAutomatedArchivalPreview</title>
+<circle cx="1378" cy="2036" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2041" text-anchor="start" style="fill:#1A1F2C">Preview automated archival</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-automated-archival-api/#op-getAutomatedArchivalSettings" target="_blank" class="st" data-op="getAutomatedArchivalSettings"><title>GET /automated-archival/settings
+Automated archival line · getAutomatedArchivalSettings</title>
+<circle cx="1336" cy="1994" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1348" y="1999" text-anchor="start" style="fill:#1A1F2C">List settings</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-automated-archival-api/#op-putAutomatedArchivalSettings" target="_blank" class="st" data-op="putAutomatedArchivalSettings"><title>PUT /automated-archival/settings
+Automated archival line · putAutomatedArchivalSettings</title>
+<circle cx="1294" cy="1952" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="1957" text-anchor="start" style="fill:#1A1F2C">Create setting</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-backfill-api/#op-postBackfill" target="_blank" class="st" data-op="postBackfill"><title>POST /backfill
+More Local line · postBackfill</title>
+<circle cx="1714" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1726" y="1789" text-anchor="start" style="fill:#1A1F2C">Update backfill <tspan font-weight="700" style="fill:#7B3FE4">⇄MM</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-charts-api/#op-getChart" target="_blank" class="st" data-op="getChart"><title>GET /chart
+Charts line · getChart</title>
+<circle cx="1378" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1390" y="1285" text-anchor="start" style="fill:#1A1F2C">Get chart</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-charts-api/#op-postChart" target="_blank" class="st" data-op="postChart"><title>POST /chart
+Charts line · postChart</title>
+<circle cx="1420" cy="1322" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1432" y="1327" text-anchor="start" style="fill:#1A1F2C">Update chart</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-charts-api/#op-getChartById" target="_blank" class="st" data-op="getChartById"><title>GET /chart/{id}
+Charts line · getChartById</title>
+<circle cx="1504" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1516" y="1411" text-anchor="start" style="fill:#1A1F2C">Get chart</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-charts-api/#op-putChartById" target="_blank" class="st" data-op="putChartById"><title>PUT /chart/{id}
+Charts line · putChartById</title>
+<circle cx="1462" cy="1448" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1474" y="1453" text-anchor="start" style="fill:#1A1F2C">Update chart</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-charts-api/#op-deleteChartById" target="_blank" class="st" data-op="deleteChartById"><title>DELETE /chart/{id}
+Charts line · deleteChartById</title>
+<circle cx="1336" cy="1448" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1332" y1="1452" x2="1340" y2="1444" stroke="#B8860B" stroke-width="2"/>
+<text x="1342" y="1436" transform="rotate(-45 1342 1436)" style="fill:#1A1F2C">Delete chart</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-client-inventory-api/#op-getClients" target="_blank" class="st" data-op="getClients"><title>GET /clients
+Client Inventory line · getClients</title>
+<circle cx="2176" cy="1112" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2167.0" y="1102" text-anchor="end" style="fill:#1A1F2C">List clients</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-client-inventory-api/#op-getClientsById" target="_blank" class="st" data-op="getClientsById"><title>GET /clients/{id}
+Client Inventory line · getClientsById</title>
+<circle cx="2050" cy="1112" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2038.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Get client</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-client-inventory-api/#op-getClientsByIdConfig" target="_blank" class="st" data-op="getClientsByIdConfig"><title>GET /clients/{id}/config
+Client Inventory line · getClientsByIdConfig</title>
+<circle cx="1882" cy="1280" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1894" y="1285" text-anchor="start" style="fill:#1A1F2C">Get config</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-client-inventory-api/#op-postClientsConfigs:batch" target="_blank" class="st" data-op="postClientsConfigs:batch"><title>POST /clients/configs:batch
+Client Inventory line · postClientsConfigs:batch</title>
+<circle cx="2008" cy="1154" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="2020" y="1159" text-anchor="start" style="fill:#1A1F2C">Update configs:batch</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-client-inventory-api/#op-getClientsMetadataValues" target="_blank" class="st" data-op="getClientsMetadataValues"><title>GET /clients/metadata/values
+Client Inventory line · getClientsMetadataValues</title>
+<circle cx="1966" cy="1196" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1978" y="1201" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboard-groups-api/#op-getDashboardgroup" target="_blank" class="st" data-op="getDashboardgroup"><title>GET /dashboardgroup
+Dashboard Groups line · getDashboardgroup</title>
+<circle cx="1756" cy="2246" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="2251" text-anchor="start" style="fill:#1A1F2C">Get dashboardgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboard-groups-api/#op-postDashboardgroup" target="_blank" class="st" data-op="postDashboardgroup"><title>POST /dashboardgroup
+Dashboard Groups line · postDashboardgroup</title>
+<circle cx="1756" cy="2330" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1744.0" y="2335" text-anchor="end" style="fill:#1A1F2C">Update dashboardgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboard-groups-api/#op-getDashboardgroupById" target="_blank" class="st" data-op="getDashboardgroupById"><title>GET /dashboardgroup/{id}
+Dashboard Groups line · getDashboardgroupById</title>
+<circle cx="1756" cy="2456" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1768" y="2461" text-anchor="start" style="fill:#1A1F2C">Get dashboardgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboard-groups-api/#op-putDashboardgroupById" target="_blank" class="st" data-op="putDashboardgroupById"><title>PUT /dashboardgroup/{id}
+Dashboard Groups line · putDashboardgroupById</title>
+<circle cx="1798" cy="2498" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1810" y="2503" text-anchor="start" style="fill:#1A1F2C">Update dashboardgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboard-groups-api/#op-deleteDashboardgroupById" target="_blank" class="st" data-op="deleteDashboardgroupById"><title>DELETE /dashboardgroup/{id}
+Dashboard Groups line · deleteDashboardgroupById</title>
+<circle cx="1798" cy="2582" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1794" y1="2586" x2="1802" y2="2578" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1810" y="2587" text-anchor="start" style="fill:#1A1F2C">Delete dashboardgroup</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboard-groups-api/#op-postDashboardgroupByIdDashboard" target="_blank" class="st" data-op="postDashboardgroupByIdDashboard"><title>POST /dashboardgroup/{id}/dashboard
+Dashboard Groups line · postDashboardgroupByIdDashboard</title>
+<circle cx="1714" cy="2666" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1726" y="2671" text-anchor="start" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboards-api/#op-getDashboard" target="_blank" class="st" data-op="getDashboard"><title>GET /dashboard
+Dashboards line · getDashboard</title>
+<circle cx="1504" cy="2708" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1510" y="2696" transform="rotate(-45 1510 2696)" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboards-api/#op-postDashboard" target="_blank" class="st" data-op="postDashboard"><title>POST /dashboard
+Dashboards line · postDashboard</title>
+<circle cx="1588" cy="2708" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1594" y="2696" transform="rotate(-45 1594 2696)" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboards-api/#op-getDashboardById" target="_blank" class="st" data-op="getDashboardById"><title>GET /dashboard/{id}
+Dashboards line · getDashboardById</title>
+<circle cx="1756" cy="2708" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1768" y="2713" text-anchor="start" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboards-api/#op-putDashboardById" target="_blank" class="st" data-op="putDashboardById"><title>PUT /dashboard/{id}
+Dashboards line · putDashboardById</title>
+<circle cx="1798" cy="2750" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1810" y="2755" text-anchor="start" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboards-api/#op-deleteDashboardById" target="_blank" class="st" data-op="deleteDashboardById"><title>DELETE /dashboard/{id}
+Dashboards line · deleteDashboardById</title>
+<circle cx="1798" cy="2876" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<line x1="1794" y1="2880" x2="1802" y2="2872" stroke="#1d33a9" stroke-width="2"/>
+<text x="1810" y="2881" text-anchor="start" style="fill:#1A1F2C">Delete dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-dashboards-api/#op-postDashboardSimple" target="_blank" class="st" data-op="postDashboardSimple"><title>POST /dashboard/simple
+Dashboards line · postDashboardSimple</title>
+<circle cx="1798" cy="2960" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1810" y="2965" text-anchor="start" style="fill:#1A1F2C">Update simple</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-data-links-api/#op-getCrosslink" target="_blank" class="st" data-op="getCrosslink"><title>GET /crosslink
+Data links line · getCrosslink</title>
+<circle cx="1840" cy="860" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1852" y="865" text-anchor="start" style="fill:#1A1F2C">Get crosslink</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-data-links-api/#op-postCrosslink" target="_blank" class="st" data-op="postCrosslink"><title>POST /crosslink
+Data links line · postCrosslink</title>
+<circle cx="1840" cy="944" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1852" y="949" text-anchor="start" style="fill:#1A1F2C">Update crosslink</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-data-links-api/#op-getCrosslinkById" target="_blank" class="st" data-op="getCrosslinkById"><title>GET /crosslink/{id}
+Data links line · getCrosslinkById</title>
+<circle cx="1840" cy="1028" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1828.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Get crosslink</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-data-links-api/#op-putCrosslinkById" target="_blank" class="st" data-op="putCrosslinkById"><title>PUT /crosslink/{id}
+Data links line · putCrosslinkById</title>
+<circle cx="1924" cy="1028" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1936" y="1033" text-anchor="start" style="fill:#1A1F2C">Update crosslink</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-data-links-api/#op-deleteCrosslinkById" target="_blank" class="st" data-op="deleteCrosslinkById"><title>DELETE /crosslink/{id}
+Data links line · deleteCrosslinkById</title>
+<circle cx="2008" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2004" y1="948" x2="2012" y2="940" stroke="#E07B12" stroke-width="2"/>
+<text x="2020" y="949" text-anchor="start" style="fill:#1A1F2C">Delete crosslink</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-getDetector" target="_blank" class="st" data-op="getDetector"><title>GET /detector
+Detectors line · getDetector</title>
+<circle cx="1000" cy="2582" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="2587" text-anchor="start" style="fill:#1A1F2C">Get detector</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-postDetector" target="_blank" class="st" data-op="postDetector"><title>POST /detector
+Detectors line · postDetector</title>
+<circle cx="1000" cy="2498" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="2503" text-anchor="start" style="fill:#1A1F2C">Update detector</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-getDetectorById" target="_blank" class="st" data-op="getDetectorById"><title>GET /detector/{id}
+Detectors line · getDetectorById</title>
+<circle cx="1000" cy="2414" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="2419" text-anchor="start" style="fill:#1A1F2C">Get detector</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-putDetectorById" target="_blank" class="st" data-op="putDetectorById"><title>PUT /detector/{id}
+Detectors line · putDetectorById</title>
+<circle cx="916" cy="2330" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="928" y="2335" text-anchor="start" style="fill:#1A1F2C">Update detector</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-deleteDetectorById" target="_blank" class="st" data-op="deleteDetectorById"><title>DELETE /detector/{id}
+Detectors line · deleteDetectorById</title>
+<circle cx="874" cy="2288" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="870" y1="2292" x2="878" y2="2284" stroke="#B0287F" stroke-width="2"/>
+<text x="886" y="2293" text-anchor="start" style="fill:#1A1F2C">Delete detector</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-putDetectorByIdDisable" target="_blank" class="st" data-op="putDetectorByIdDisable"><title>PUT /detector/{id}/disable
+Detectors line · putDetectorByIdDisable</title>
+<circle cx="958" cy="2078" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="970" y="2083" text-anchor="start" style="fill:#1A1F2C">Update disable</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-putDetectorByIdEnable" target="_blank" class="st" data-op="putDetectorByIdEnable"><title>PUT /detector/{id}/enable
+Detectors line · putDetectorByIdEnable</title>
+<circle cx="958" cy="1994" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="970" y="1999" text-anchor="start" style="fill:#1A1F2C">Update enable</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-getDetectorByIdEvents" target="_blank" class="st" data-op="getDetectorByIdEvents"><title>GET /detector/{id}/events
+Detectors line · getDetectorByIdEvents</title>
+<circle cx="958" cy="1868" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="970" y="1873" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-getDetectorByIdIncidents" target="_blank" class="st" data-op="getDetectorByIdIncidents"><title>GET /detector/{id}/incidents
+Detectors line · getDetectorByIdIncidents</title>
+<circle cx="1000" cy="1826" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="1831" text-anchor="start" style="fill:#1A1F2C">List incidents</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-detectors-api/#op-postDetectorValidate" target="_blank" class="st" data-op="postDetectorValidate"><title>POST /detector/validate
+Detectors line · postDetectorValidate</title>
+<circle cx="874" cy="2162" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="886" y="2167" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-download-apm-traces-api/#op-getApmTraceByTraceIdBySegmentTimestamp" target="_blank" class="st" data-op="getApmTraceByTraceIdBySegmentTimestamp"><title>GET /apm/trace/{traceId}/{segmentTimestamp}
+Download APM traces line · getApmTraceByTraceIdBySegmentTimestamp</title>
+<circle cx="790" cy="1448" r="5.5" fill="#fff" stroke="#17d25b" stroke-width="2.5"/>
+<text x="802" y="1453" text-anchor="start" style="fill:#1A1F2C">Get trace</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-download-apm-traces-api/#op-getApmTraceByTraceIdLatest" target="_blank" class="st" data-op="getApmTraceByTraceIdLatest"><title>GET /apm/trace/{traceId}/latest
+Download APM traces line · getApmTraceByTraceIdLatest</title>
+<circle cx="790" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="778.0" y="1530" text-anchor="end" style="fill:#1A1F2C">Get<tspan x="778.0" dy="13">trace <tspan font-weight="700" style="fill:#0d7773">⇄STMA</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-download-apm-traces-api/#op-getApmTraceByTraceIdSegments" target="_blank" class="st" data-op="getApmTraceByTraceIdSegments"><title>GET /apm/trace/{traceId}/segments
+Download APM traces line · getApmTraceByTraceIdSegments</title>
+<circle cx="790" cy="1322" r="5.5" fill="#fff" stroke="#17d25b" stroke-width="2.5"/>
+<text x="802" y="1327" text-anchor="start" style="fill:#1A1F2C">List segments</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-getAlertmuting" target="_blank" class="st" data-op="getAlertmuting"><title>GET /alertmuting
+Incidents and alerts line · getAlertmuting</title>
+<circle cx="2764" cy="902" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2776" y="907" text-anchor="start" style="fill:#1A1F2C">Get alertmuting</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-postAlertmuting" target="_blank" class="st" data-op="postAlertmuting"><title>POST /alertmuting
+Incidents and alerts line · postAlertmuting</title>
+<circle cx="2764" cy="986" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2776" y="991" text-anchor="start" style="fill:#1A1F2C">Update alertmuting</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-getAlertmutingById" target="_blank" class="st" data-op="getAlertmutingById"><title>GET /alertmuting/{id}
+Incidents and alerts line · getAlertmutingById</title>
+<circle cx="2764" cy="1028" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2776" y="1033" text-anchor="start" style="fill:#1A1F2C">Get alertmuting</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-putAlertmutingById" target="_blank" class="st" data-op="putAlertmutingById"><title>PUT /alertmuting/{id}
+Incidents and alerts line · putAlertmutingById</title>
+<circle cx="2680" cy="1112" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2692" y="1117" text-anchor="start" style="fill:#1A1F2C">Update alertmuting</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-deleteAlertmutingById" target="_blank" class="st" data-op="deleteAlertmutingById"><title>DELETE /alertmuting/{id}
+Incidents and alerts line · deleteAlertmutingById</title>
+<circle cx="2596" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2592" y1="1200" x2="2600" y2="1192" stroke="#0B7A75" stroke-width="2"/>
+<text x="2608" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete alertmuting</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-putAlertmutingByIdUnmute" target="_blank" class="st" data-op="putAlertmutingByIdUnmute"><title>PUT /alertmuting/{id}/unmute
+Incidents and alerts line · putAlertmutingByIdUnmute</title>
+<circle cx="2554" cy="1238" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2566" y="1243" text-anchor="start" style="fill:#1A1F2C">Update unmute</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-getIncident" target="_blank" class="st" data-op="getIncident"><title>GET /incident
+Incidents and alerts line · getIncident</title>
+<circle cx="2428" cy="1238" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2434" y="1226" transform="rotate(-45 2434 1226)" style="fill:#1A1F2C">Get incident</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-getIncidentById" target="_blank" class="st" data-op="getIncidentById"><title>GET /incident/{id}
+Incidents and alerts line · getIncidentById</title>
+<circle cx="2344" cy="1238" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2350" y="1226" transform="rotate(-45 2350 1226)" style="fill:#1A1F2C">Get incident</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-putIncidentByIdClear" target="_blank" class="st" data-op="putIncidentByIdClear"><title>PUT /incident/{id}/clear
+Incidents and alerts line · putIncidentByIdClear</title>
+<circle cx="2176" cy="1238" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2182" y="1226" transform="rotate(-45 2182 1226)" style="fill:#1A1F2C">Update clear</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-incidents-and-alerts-api/#op-putIncidentClear" target="_blank" class="st" data-op="putIncidentClear"><title>PUT /incident/clear
+Incidents and alerts line · putIncidentClear</title>
+<circle cx="2260" cy="1238" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2266" y="1226" transform="rotate(-45 2266 1226)" style="fill:#1A1F2C">Update clear</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-integrations-api/#op-getIntegration" target="_blank" class="st" data-op="getIntegration"><title>GET /integration
+Integrations line · getIntegration</title>
+<circle cx="2092" cy="1868" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2104" y="1873" text-anchor="start" style="fill:#1A1F2C">Get integration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-integrations-api/#op-postIntegration" target="_blank" class="st" data-op="postIntegration"><title>POST /integration
+Integrations line · postIntegration</title>
+<circle cx="2008" cy="1952" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2020" y="1957" text-anchor="start" style="fill:#1A1F2C">Update integration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-integrations-api/#op-getIntegrationById" target="_blank" class="st" data-op="getIntegrationById"><title>GET /integration/{id}
+Integrations line · getIntegrationById</title>
+<circle cx="1966" cy="1994" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1978" y="1999" text-anchor="start" style="fill:#1A1F2C">Get integration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-integrations-api/#op-putIntegrationById" target="_blank" class="st" data-op="putIntegrationById"><title>PUT /integration/{id}
+Integrations line · putIntegrationById</title>
+<circle cx="1924" cy="2036" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1936" y="2041" text-anchor="start" style="fill:#1A1F2C">Update integration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-integrations-api/#op-deleteIntegrationById" target="_blank" class="st" data-op="deleteIntegrationById"><title>DELETE /integration/{id}
+Integrations line · deleteIntegrationById</title>
+<circle cx="1924" cy="2120" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1920" y1="2124" x2="1928" y2="2116" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1936" y="2125" text-anchor="start" style="fill:#1A1F2C">Delete integration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-integrations-api/#op-getIntegrationValidateById" target="_blank" class="st" data-op="getIntegrationValidateById"><title>GET /integration/validate/{id}
+Integrations line · getIntegrationValidateById</title>
+<circle cx="1924" cy="2204" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1936" y="2209" text-anchor="start" style="fill:#1A1F2C">Get validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-getMetricruleset" target="_blank" class="st" data-op="getMetricruleset"><title>GET /metricruleset
+Metric ruleset line · getMetricruleset</title>
+<circle cx="2554" cy="734" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2548" y="746" text-anchor="end" transform="rotate(-45 2548 746)" style="fill:#1A1F2C">Get metricruleset</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-postMetricruleset" target="_blank" class="st" data-op="postMetricruleset"><title>POST /metricruleset
+Metric ruleset line · postMetricruleset</title>
+<circle cx="2470" cy="734" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2476" y="722" transform="rotate(-45 2476 722)" style="fill:#1A1F2C">Update metricruleset</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-getMetricrulesetById" target="_blank" class="st" data-op="getMetricrulesetById"><title>GET /metricruleset/{id}
+Metric ruleset line · getMetricrulesetById</title>
+<circle cx="2386" cy="734" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2386" y="706" text-anchor="middle" style="fill:#1A1F2C">Get<tspan x="2386" dy="13">metricruleset</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-putMetricrulesetById" target="_blank" class="st" data-op="putMetricrulesetById"><title>PUT /metricruleset/{id}
+Metric ruleset line · putMetricrulesetById</title>
+<circle cx="2344" cy="776" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2356" y="781" text-anchor="start" style="fill:#1A1F2C">Update metricruleset</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-deleteMetricrulesetById" target="_blank" class="st" data-op="deleteMetricrulesetById"><title>DELETE /metricruleset/{id}
+Metric ruleset line · deleteMetricrulesetById</title>
+<circle cx="2260" cy="860" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="2256" y1="864" x2="2264" y2="856" stroke="#5C6BC0" stroke-width="2"/>
+<text x="2272" y="865" text-anchor="start" style="fill:#1A1F2C">Delete metricruleset</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-postMetricrulesetGenerateAggregationMetricName" target="_blank" class="st" data-op="postMetricrulesetGenerateAggregationMetricName"><title>POST /metricruleset/generateAggregationMetricName
+Metric ruleset line · postMetricrulesetGenerateAggregationMetricName</title>
+<circle cx="2176" cy="860" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2182" y="848" transform="rotate(-45 2182 848)" style="fill:#1A1F2C">Update generateaggregationmetricname</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metric-ruleset-api/#op-getMetricrulesetRestorationById" target="_blank" class="st" data-op="getMetricrulesetRestorationById"><title>GET /metricruleset/restoration/{id}
+Metric ruleset line · getMetricrulesetRestorationById</title>
+<circle cx="2092" cy="860" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2098" y="848" transform="rotate(-45 2098 848)" style="fill:#1A1F2C">Get restoration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getDimension" target="_blank" class="st" data-op="getDimension"><title>GET /dimension
+Metrics metadata line · getDimension</title>
+<circle cx="1420" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1426" y="428" transform="rotate(-45 1426 428)" style="fill:#1A1F2C">Get dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getDimensionByKeyByValue" target="_blank" class="st" data-op="getDimensionByKeyByValue"><title>GET /dimension/{key}/{value}
+Metrics metadata line · getDimensionByKeyByValue</title>
+<circle cx="1504" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1510" y="428" transform="rotate(-45 1510 428)" style="fill:#1A1F2C">Get dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-putDimensionByKeyByValue" target="_blank" class="st" data-op="putDimensionByKeyByValue"><title>PUT /dimension/{key}/{value}
+Metrics metadata line · putDimensionByKeyByValue</title>
+<circle cx="1630" cy="440" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1636" y="428" transform="rotate(-45 1636 428)" style="fill:#1A1F2C">Update dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getMetric" target="_blank" class="st" data-op="getMetric"><title>GET /metric
+Metrics metadata line · getMetric</title>
+<circle cx="1714" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1726" y="445" text-anchor="start" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getMetricByName" target="_blank" class="st" data-op="getMetricByName"><title>GET /metric/{name}
+Metrics metadata line · getMetricByName</title>
+<circle cx="1798" cy="356" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1786.0" y="361" text-anchor="end" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getMetrictimeseries" target="_blank" class="st" data-op="getMetrictimeseries"><title>GET /metrictimeseries
+Metrics metadata line · getMetrictimeseries</title>
+<circle cx="1840" cy="356" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1846" y="344" transform="rotate(-45 1846 344)" style="fill:#1A1F2C">List metrictimeseries</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getMetrictimeseriesById" target="_blank" class="st" data-op="getMetrictimeseriesById"><title>GET /metrictimeseries/{id}
+Metrics metadata line · getMetrictimeseriesById</title>
+<circle cx="1924" cy="356" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1936" y="361" text-anchor="start" style="fill:#1A1F2C">Get metrictimesery</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getTag" target="_blank" class="st" data-op="getTag"><title>GET /tag
+Metrics metadata line · getTag</title>
+<circle cx="2008" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2020" y="445" text-anchor="start" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-getTagByName" target="_blank" class="st" data-op="getTagByName"><title>GET /tag/{name}
+Metrics metadata line · getTagByName</title>
+<circle cx="2050" cy="482" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2038.0" y="487" text-anchor="end" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-putTagByName" target="_blank" class="st" data-op="putTagByName"><title>PUT /tag/{name}
+Metrics metadata line · putTagByName</title>
+<circle cx="2176" cy="482" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2182" y="470" transform="rotate(-45 2182 470)" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-metrics-metadata-api/#op-deleteTagByName" target="_blank" class="st" data-op="deleteTagByName"><title>DELETE /tag/{name}
+Metrics metadata line · deleteTagByName</title>
+<circle cx="2260" cy="482" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2256" y1="486" x2="2264" y2="478" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2254" y="494" text-anchor="end" transform="rotate(-45 2254 494)" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-getNavigator" target="_blank" class="st" data-op="getNavigator"><title>GET /navigator
+Navigators line · getNavigator</title>
+<circle cx="2806" cy="3212" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2818" y="3217" text-anchor="start" style="fill:#1A1F2C">Get navigator</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-postNavigator" target="_blank" class="st" data-op="postNavigator"><title>POST /navigator
+Navigators line · postNavigator</title>
+<circle cx="2722" cy="3128" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2734" y="3133" text-anchor="start" style="fill:#1A1F2C">Update navigator</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-getNavigatorById" target="_blank" class="st" data-op="getNavigatorById"><title>GET /navigator/{id}
+Navigators line · getNavigatorById</title>
+<circle cx="2638" cy="3044" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2650" y="3049" text-anchor="start" style="fill:#1A1F2C">Get navigator</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-putNavigatorById" target="_blank" class="st" data-op="putNavigatorById"><title>PUT /navigator/{id}
+Navigators line · putNavigatorById</title>
+<circle cx="2638" cy="3002" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2650" y="3007" text-anchor="start" style="fill:#1A1F2C">Update navigator</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-deleteNavigatorById" target="_blank" class="st" data-op="deleteNavigatorById"><title>DELETE /navigator/{id}
+Navigators line · deleteNavigatorById</title>
+<circle cx="2512" cy="2876" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2508" y1="2880" x2="2516" y2="2872" stroke="#E07B12" stroke-width="2"/>
+<text x="2524" y="2881" text-anchor="start" style="fill:#1A1F2C">Delete navigator</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-getNavigatorByIdDashboards" target="_blank" class="st" data-op="getNavigatorByIdDashboards"><title>GET /navigator/{id}/dashboards
+Navigators line · getNavigatorByIdDashboards</title>
+<circle cx="2428" cy="2876" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2428" y="2899" text-anchor="middle" style="fill:#1A1F2C">List dashboards</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-getNavigatorByIdNavigatorcustomization" target="_blank" class="st" data-op="getNavigatorByIdNavigatorcustomization"><title>GET /navigator/{id}/navigatorcustomization
+Navigators line · getNavigatorByIdNavigatorcustomization</title>
+<circle cx="2344" cy="2876" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2353" y="2866" text-anchor="start" style="fill:#1A1F2C">Get navigatorcustomization</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-postNavigatorByIdNavigatorcustomization" target="_blank" class="st" data-op="postNavigatorByIdNavigatorcustomization"><title>POST /navigator/{id}/navigatorcustomization
+Navigators line · postNavigatorByIdNavigatorcustomization</title>
+<circle cx="2302" cy="2918" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2314" y="2923" text-anchor="start" style="fill:#1A1F2C">Update navigatorcustomization</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-getNavigatorByIdNavigatorcustomizationByCustomizationId" target="_blank" class="st" data-op="getNavigatorByIdNavigatorcustomizationByCustomizationId"><title>GET /navigator/{id}/navigatorcustomization/{customizationId}
+Navigators line · getNavigatorByIdNavigatorcustomizationByCustomizationId</title>
+<circle cx="2218" cy="2918" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2212" y="2930" text-anchor="end" transform="rotate(-45 2212 2930)" style="fill:#1A1F2C">Get navigatorcustomization</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-putNavigatorByIdNavigatorcustomizationByCustomizationId" target="_blank" class="st" data-op="putNavigatorByIdNavigatorcustomizationByCustomizationId"><title>PUT /navigator/{id}/navigatorcustomization/{customizationId}
+Navigators line · putNavigatorByIdNavigatorcustomizationByCustomizationId</title>
+<circle cx="2134" cy="2918" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2140" y="2906" transform="rotate(-45 2140 2906)" style="fill:#1A1F2C">Update navigatorcustomization</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-navigators-api/#op-deleteNavigatorByIdNavigatorcustomizationByCustomizationId" target="_blank" class="st" data-op="deleteNavigatorByIdNavigatorcustomizationByCustomizationId"><title>DELETE /navigator/{id}/navigatorcustomization/{customizationId}
+Navigators line · deleteNavigatorByIdNavigatorcustomizationByCustomizationId</title>
+<circle cx="2050" cy="2918" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2046" y1="2922" x2="2054" y2="2914" stroke="#E07B12" stroke-width="2"/>
+<text x="2056" y="2906" transform="rotate(-45 2056 2906)" style="fill:#1A1F2C">Delete navigatorcustomization</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-org-tokens-api/#op-getToken" target="_blank" class="st" data-op="getToken"><title>GET /token
+Org tokens line · getToken</title>
+<circle cx="1672" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1684" y="2167" text-anchor="start" style="fill:#1A1F2C">Get token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-org-tokens-api/#op-postToken" target="_blank" class="st" data-op="postToken"><title>POST /token
+Org tokens line · postToken</title>
+<circle cx="1672" cy="2078" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1684" y="2083" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-org-tokens-api/#op-getTokenByName" target="_blank" class="st" data-op="getTokenByName"><title>GET /token/{name}
+Org tokens line · getTokenByName</title>
+<circle cx="1672" cy="1952" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1660.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Get token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-org-tokens-api/#op-putTokenByName" target="_blank" class="st" data-op="putTokenByName"><title>PUT /token/{name}
+Org tokens line · putTokenByName</title>
+<circle cx="1756" cy="1952" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1768" y="1957" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-org-tokens-api/#op-deleteTokenByName" target="_blank" class="st" data-op="deleteTokenByName"><title>DELETE /token/{name}
+Org tokens line · deleteTokenByName</title>
+<circle cx="1798" cy="1994" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1794" y1="1998" x2="1802" y2="1990" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1810" y="1999" text-anchor="start" style="fill:#1A1F2C">Delete token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-org-tokens-api/#op-postTokenByNameRotate" target="_blank" class="st" data-op="postTokenByNameRotate"><title>POST /token/{name}/rotate
+Org tokens line · postTokenByNameRotate</title>
+<circle cx="1798" cy="2078" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1810" y="2083" text-anchor="start" style="fill:#1A1F2C">Update rotate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-getOrganization" target="_blank" class="st" data-op="getOrganization"><title>GET /organization
+Organizations line · getOrganization</title>
+<circle cx="874" cy="1784" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="886" y="1789" text-anchor="start" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-getOrganizationCustomCategories" target="_blank" class="st" data-op="getOrganizationCustomCategories"><title>GET /organization/custom-categories
+Organizations line · getOrganizationCustomCategories</title>
+<circle cx="790" cy="1868" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="802" y="1873" text-anchor="start" style="fill:#1A1F2C">List custom categories</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-patchOrganizationCustomCategories" target="_blank" class="st" data-op="patchOrganizationCustomCategories"><title>PATCH /organization/custom-categories
+Organizations line · patchOrganizationCustomCategories</title>
+<circle cx="706" cy="1868" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="694.0" y="1873" text-anchor="end" style="fill:#1A1F2C">Create custom category</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-getOrganizationMember" target="_blank" class="st" data-op="getOrganizationMember"><title>GET /organization/member
+Organizations line · getOrganizationMember</title>
+<circle cx="580" cy="1742" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="592" y="1747" text-anchor="start" style="fill:#1A1F2C">Get member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-postOrganizationMember" target="_blank" class="st" data-op="postOrganizationMember"><title>POST /organization/member
+Organizations line · postOrganizationMember</title>
+<circle cx="496" cy="1742" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="502" y="1730" transform="rotate(-45 502 1730)" style="fill:#1A1F2C">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-getOrganizationMemberById" target="_blank" class="st" data-op="getOrganizationMemberById"><title>GET /organization/member/{id}
+Organizations line · getOrganizationMemberById</title>
+<circle cx="412" cy="1742" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="400.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-putOrganizationMemberById" target="_blank" class="st" data-op="putOrganizationMemberById"><title>PUT /organization/member/{id}
+Organizations line · putOrganizationMemberById</title>
+<circle cx="370" cy="1784" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="382" y="1789" text-anchor="start" style="fill:#1A1F2C">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-deleteOrganizationMemberById" target="_blank" class="st" data-op="deleteOrganizationMemberById"><title>DELETE /organization/member/{id}
+Organizations line · deleteOrganizationMemberById</title>
+<circle cx="328" cy="1826" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="324" y1="1830" x2="332" y2="1822" stroke="#B8860B" stroke-width="2"/>
+<text x="340" y="1831" text-anchor="start" style="fill:#1A1F2C">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-postOrganizationMembers" target="_blank" class="st" data-op="postOrganizationMembers"><title>POST /organization/members
+Organizations line · postOrganizationMembers</title>
+<circle cx="244" cy="1910" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="256" y="1915" text-anchor="start" style="fill:#1A1F2C">Create member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-organizations-api/#op-postOrganizationOrgMembers" target="_blank" class="st" data-op="postOrganizationOrgMembers"><title>POST /organization/orgMembers
+Organizations line · postOrganizationOrgMembers</title>
+<circle cx="160" cy="1994" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="172" y="1999" text-anchor="start" style="fill:#1A1F2C">Create orgmember</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-passwords-api/#op-postPasswordUpdate" target="_blank" class="st" data-op="postPasswordUpdate"><title>POST /password/update
+More Local line · postPasswordUpdate</title>
+<circle cx="1714" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1243" text-anchor="start" style="fill:#1A1F2C">Update password</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-retrieve-events-v1-api/#op-getEvent" target="_blank" class="st" data-op="getEvent"><title>GET /event
+More Local line · getEvent</title>
+<circle cx="1756" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1768" y="1537" text-anchor="start" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-retrieve-events-v2-api/#op-getEventFind" target="_blank" class="st" data-op="getEventFind"><title>GET /event/find
+More Local line · getEventFind</title>
+<circle cx="1756" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1744.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Find event</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-retrieve-metric-time-series-mts-api/#op-getTimeserieswindow" target="_blank" class="st" data-op="getTimeserieswindow"><title>GET /timeserieswindow
+More Local line · getTimeserieswindow</title>
+<circle cx="1588" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="949" text-anchor="start" style="fill:#1A1F2C">Get timeserieswindow</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-role-api/#op-getRole" target="_blank" class="st" data-op="getRole"><title>GET /role
+Role line · getRole</title>
+<circle cx="1924" cy="524" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="529" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-role-api/#op-getRoleByRoleId" target="_blank" class="st" data-op="getRoleByRoleId"><title>GET /role/{roleId}
+Role line · getRoleByRoleId</title>
+<circle cx="1924" cy="608" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="613" text-anchor="start" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-role-api/#op-patchRoleAssign" target="_blank" class="st" data-op="patchRoleAssign"><title>PATCH /role/assign
+Role line · patchRoleAssign</title>
+<circle cx="1924" cy="692" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="697" text-anchor="start" style="fill:#1A1F2C">Update assign</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-role-api/#op-patchRoleDismiss" target="_blank" class="st" data-op="patchRoleDismiss"><title>PATCH /role/dismiss
+Role line · patchRoleDismiss</title>
+<circle cx="1924" cy="776" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1936" y="781" text-anchor="start" style="fill:#1A1F2C">Update dismiss</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-send-traces-metrics-and-events-api/#op-postDatapoint" target="_blank" class="st" data-op="postDatapoint"><title>POST /datapoint
+Send traces, metrics and events line · postDatapoint</title>
+<circle cx="496" cy="1406" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="502" y="1394" transform="rotate(-45 502 1394)" style="fill:#1A1F2C">Update datapoint</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-send-traces-metrics-and-events-api/#op-postDatapointOtlp" target="_blank" class="st" data-op="postDatapointOtlp"><title>POST /datapoint/otlp
+Send traces, metrics and events line · postDatapointOtlp</title>
+<circle cx="580" cy="1406" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="586" y="1394" transform="rotate(-45 586 1394)" style="fill:#1A1F2C">Update otlp</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-send-traces-metrics-and-events-api/#op-postEvent" target="_blank" class="st" data-op="postEvent"><title>POST /event
+Send traces, metrics and events line · postEvent</title>
+<circle cx="706" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="697.0" y="1425" text-anchor="end" style="fill:#1A1F2C">Update event <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-send-traces-metrics-and-events-api/#op-postTrace" target="_blank" class="st" data-op="postTrace"><title>POST /trace
+Send traces, metrics and events line · postTrace</title>
+<circle cx="706" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="694.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Update trace</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-send-traces-metrics-and-events-api/#op-postTraceOtlp" target="_blank" class="st" data-op="postTraceOtlp"><title>POST /trace/otlp
+Send traces, metrics and events line · postTraceOtlp</title>
+<circle cx="706" cy="1616" r="5.5" fill="#0d7773" stroke="#0d7773" stroke-width="2.5"/>
+<text x="718" y="1621" text-anchor="start" style="fill:#1A1F2C">Update otlp</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-session-tokens-api/#op-postSession" target="_blank" class="st" data-op="postSession"><title>POST /session
+More Local line · postSession</title>
+<circle cx="1588" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1117" text-anchor="start" style="fill:#1A1F2C">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-session-tokens-api/#op-deleteSession" target="_blank" class="st" data-op="deleteSession"><title>DELETE /session
+More Local line · deleteSession</title>
+<circle cx="1588" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1584" y1="1032" x2="1592" y2="1024" stroke="#D6264F" stroke-width="2"/>
+<text x="1600" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete session</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-signalflow-api/#op-getByIdFeedback" target="_blank" class="st" data-op="getByIdFeedback"><title>GET /{id}/feedback
+SignalFlow line · getByIdFeedback</title>
+<circle cx="1420" cy="1574" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1432" y="1579" text-anchor="start" style="fill:#1A1F2C">Get feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-signalflow-api/#op-postByIdStop" target="_blank" class="st" data-op="postByIdStop"><title>POST /{id}/stop
+SignalFlow line · postByIdStop</title>
+<circle cx="1336" cy="1574" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1342" y="1562" transform="rotate(-45 1342 1562)" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-signalflow-api/#op-getConnect" target="_blank" class="st" data-op="getConnect"><title>GET /connect
+SignalFlow line · getConnect</title>
+<circle cx="1252" cy="1742" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1258" y="1730" transform="rotate(-45 1258 1730)" style="fill:#1A1F2C">Get connect</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-signalflow-api/#op-postExecute" target="_blank" class="st" data-op="postExecute"><title>POST /execute
+SignalFlow line · postExecute</title>
+<circle cx="1336" cy="1742" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1342" y="1730" transform="rotate(-45 1342 1730)" style="fill:#1A1F2C">Update execute</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-signalflow-api/#op-postPreflight" target="_blank" class="st" data-op="postPreflight"><title>POST /preflight
+SignalFlow line · postPreflight</title>
+<circle cx="1420" cy="1742" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1432" y="1747" text-anchor="start" style="fill:#1A1F2C">Update preflight</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-signalflow-api/#op-postStart" target="_blank" class="st" data-op="postStart"><title>POST /start
+SignalFlow line · postStart</title>
+<circle cx="1504" cy="1658" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1516" y="1663" text-anchor="start" style="fill:#1A1F2C">Update start</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-slos-api/#op-postSlo" target="_blank" class="st" data-op="postSlo"><title>POST /slo
+SLOs line · postSlo</title>
+<circle cx="1924" cy="1574" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1936" y="1579" text-anchor="start" style="fill:#1A1F2C">Update slo</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-slos-api/#op-getSloById" target="_blank" class="st" data-op="getSloById"><title>GET /slo/{id}
+SLOs line · getSloById</title>
+<circle cx="2008" cy="1658" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2020" y="1663" text-anchor="start" style="fill:#1A1F2C">Get slo</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-slos-api/#op-putSloById" target="_blank" class="st" data-op="putSloById"><title>PUT /slo/{id}
+SLOs line · putSloById</title>
+<circle cx="2092" cy="1742" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2080.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Update slo</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-slos-api/#op-deleteSloById" target="_blank" class="st" data-op="deleteSloById"><title>DELETE /slo/{id}
+SLOs line · deleteSloById</title>
+<circle cx="2176" cy="1742" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2172" y1="1746" x2="2180" y2="1738" stroke="#0B7A75" stroke-width="2"/>
+<text x="2182" y="1730" transform="rotate(-45 2182 1730)" style="fill:#1A1F2C">Delete slo</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-slos-api/#op-postSloSearch" target="_blank" class="st" data-op="postSloSearch"><title>POST /slo/search
+SLOs line · postSloSearch</title>
+<circle cx="2260" cy="1742" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2266" y="1730" transform="rotate(-45 2266 1730)" style="fill:#1A1F2C">Search slo</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-slos-api/#op-postSloValidate" target="_blank" class="st" data-op="postSloValidate"><title>POST /slo/validate
+SLOs line · postSloValidate</title>
+<circle cx="2344" cy="1742" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2338" y="1754" text-anchor="end" transform="rotate(-45 2338 1754)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-splunk-observability-cloud-audit-events-api/#op-getV2AuditEvents" target="_blank" class="st" data-op="getV2AuditEvents"><title>GET /v2/audit/events
+More Local line · getV2AuditEvents</title>
+<circle cx="1588" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="865" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-postV2TestsApi" target="_blank" class="st" data-op="postV2TestsApi"><title>POST /v2/tests/api
+Synthetics API tests V2 line · postV2TestsApi</title>
+<circle cx="2470" cy="2540" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2482" y="2545" text-anchor="start" style="fill:#1A1F2C">Create test</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-getV2TestsApiById" target="_blank" class="st" data-op="getV2TestsApiById"><title>GET /v2/tests/api/{id}
+Synthetics API tests V2 line · getV2TestsApiById</title>
+<circle cx="2470" cy="2288" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2461.0" y="2307" text-anchor="end" style="fill:#1A1F2C">Get test</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-putV2TestsApiById" target="_blank" class="st" data-op="putV2TestsApiById"><title>PUT /v2/tests/api/{id}
+Synthetics API tests V2 line · putV2TestsApiById</title>
+<circle cx="2596" cy="2162" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2608" y="2167" text-anchor="start" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-deleteV2TestsApiById" target="_blank" class="st" data-op="deleteV2TestsApiById"><title>DELETE /v2/tests/api/{id}
+Synthetics API tests V2 line · deleteV2TestsApiById</title>
+<circle cx="2638" cy="2120" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2634" y1="2124" x2="2642" y2="2116" stroke="#D6264F" stroke-width="2"/>
+<text x="2650" y="2125" text-anchor="start" style="fill:#1A1F2C">Delete test</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-putV2TestsApiByIdValidate" target="_blank" class="st" data-op="putV2TestsApiByIdValidate"><title>PUT /v2/tests/api/{id}/validate
+Synthetics API tests V2 line · putV2TestsApiByIdValidate</title>
+<circle cx="2470" cy="1868" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2482" y="1873" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-postV2TestsApiTryNow" target="_blank" class="st" data-op="postV2TestsApiTryNow"><title>POST /v2/tests/api/try_now
+Synthetics API tests V2 line · postV2TestsApiTryNow</title>
+<circle cx="2638" cy="2036" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2650" y="2041" text-anchor="start" style="fill:#1A1F2C">Update try now</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-api-tests-v2-api/#op-postV2TestsApiValidate" target="_blank" class="st" data-op="postV2TestsApiValidate"><title>POST /v2/tests/api/validate
+Synthetics API tests V2 line · postV2TestsApiValidate</title>
+<circle cx="2554" cy="1952" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2566" y="1957" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-artifacts-api/#op-getTestsByIdArtifacts" target="_blank" class="st" data-op="getTestsByIdArtifacts"><title>GET /tests/{id}/artifacts
+Synthetics artifacts line · getTestsByIdArtifacts</title>
+<circle cx="2470" cy="2204" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2476" y="2192" transform="rotate(-45 2476 2192)" style="fill:#1A1F2C">List artifacts <tspan font-weight="700" style="fill:#D6264F">⇄SATV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-artifacts-api/#op-getTestsByIdArtifactsByLocationIdByTimestampByRunIdByFilename" target="_blank" class="st" data-op="getTestsByIdArtifactsByLocationIdByTimestampByRunIdByFilename"><title>GET /tests/{id}/artifacts/{locationId}/{timestamp}/{runId}/{filename}
+Synthetics artifacts line · getTestsByIdArtifactsByLocationIdByTimestampByRunIdByFilename</title>
+<circle cx="2386" cy="2120" r="5.5" fill="#fff" stroke="#e851ba" stroke-width="2.5"/>
+<text x="2398" y="2125" text-anchor="start" style="fill:#1A1F2C">Get artifact</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-artifacts-api/#op-getTestsByIdArtifactsByLocationIdByTimestampByRunIdByFilenameDownload" target="_blank" class="st" data-op="getTestsByIdArtifactsByLocationIdByTimestampByRunIdByFilenameDownload"><title>GET /tests/{id}/artifacts/{locationId}/{timestamp}/{runId}/{filename}/download
+Synthetics artifacts line · getTestsByIdArtifactsByLocationIdByTimestampByRunIdByFilenameDownload</title>
+<circle cx="2386" cy="2036" r="5.5" fill="#fff" stroke="#e851ba" stroke-width="2.5"/>
+<text x="2398" y="2041" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-audit-api/#op-getAudits" target="_blank" class="st" data-op="getAudits"><title>GET /audits
+More Local line · getAudits</title>
+<circle cx="1672" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1831" text-anchor="start" style="fill:#1A1F2C">List audits</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-postV2TestsBrowser" target="_blank" class="st" data-op="postV2TestsBrowser"><title>POST /v2/tests/browser
+Synthetics Browser tests V2 line · postV2TestsBrowser</title>
+<circle cx="2344" cy="2330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2335.0" y="2320" text-anchor="end" style="fill:#1A1F2C">Update browser <tspan font-weight="700" style="fill:#D6264F">⇄SATV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-getV2TestsBrowserById" target="_blank" class="st" data-op="getV2TestsBrowserById"><title>GET /v2/tests/browser/{id}
+Synthetics Browser tests V2 line · getV2TestsBrowserById</title>
+<circle cx="2302" cy="2372" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<text x="2314" y="2377" text-anchor="start" style="fill:#1A1F2C">Get browser</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-putV2TestsBrowserById" target="_blank" class="st" data-op="putV2TestsBrowserById"><title>PUT /v2/tests/browser/{id}
+Synthetics Browser tests V2 line · putV2TestsBrowserById</title>
+<circle cx="2218" cy="2372" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2206.0" y="2377" text-anchor="end" style="fill:#1A1F2C">Update browser</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-deleteV2TestsBrowserById" target="_blank" class="st" data-op="deleteV2TestsBrowserById"><title>DELETE /v2/tests/browser/{id}
+Synthetics Browser tests V2 line · deleteV2TestsBrowserById</title>
+<circle cx="2176" cy="2330" r="5.5" fill="#fff" stroke="#af232e" stroke-width="2.5"/>
+<line x1="2172" y1="2334" x2="2180" y2="2326" stroke="#af232e" stroke-width="2"/>
+<text x="2188" y="2335" text-anchor="start" style="fill:#1A1F2C">Delete browser</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-putV2TestsBrowserByIdValidate" target="_blank" class="st" data-op="putV2TestsBrowserByIdValidate"><title>PUT /v2/tests/browser/{id}/validate
+Synthetics Browser tests V2 line · putV2TestsBrowserByIdValidate</title>
+<circle cx="1924" cy="2330" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="1930" y="2318" transform="rotate(-45 1930 2318)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-postV2TestsBrowserTryNow" target="_blank" class="st" data-op="postV2TestsBrowserTryNow"><title>POST /v2/tests/browser/try_now
+Synthetics Browser tests V2 line · postV2TestsBrowserTryNow</title>
+<circle cx="2092" cy="2330" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2098" y="2318" transform="rotate(-45 2098 2318)" style="fill:#1A1F2C">Update try now</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-browser-tests-v2-api/#op-postV2TestsBrowserValidate" target="_blank" class="st" data-op="postV2TestsBrowserValidate"><title>POST /v2/tests/browser/validate
+Synthetics Browser tests V2 line · postV2TestsBrowserValidate</title>
+<circle cx="2008" cy="2330" r="5.5" fill="#af232e" stroke="#af232e" stroke-width="2.5"/>
+<text x="2014" y="2318" transform="rotate(-45 2014 2318)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ca-certificates-api/#op-getCacerts" target="_blank" class="st" data-op="getCacerts"><title>GET /cacerts
+Synthetics CA certificates line · getCacerts</title>
+<circle cx="1210" cy="1028" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1216" y="1016" transform="rotate(-45 1216 1016)" style="fill:#1A1F2C">List cacerts</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ca-certificates-api/#op-postCacerts" target="_blank" class="st" data-op="postCacerts"><title>POST /cacerts
+Synthetics CA certificates line · postCacerts</title>
+<circle cx="1294" cy="1028" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1306" y="1033" text-anchor="start" style="fill:#1A1F2C">Create cacert</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ca-certificates-api/#op-getCacertsById" target="_blank" class="st" data-op="getCacertsById"><title>GET /cacerts/{id}
+Synthetics CA certificates line · getCacertsById</title>
+<circle cx="1378" cy="1112" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1390" y="1117" text-anchor="start" style="fill:#1A1F2C">Get cacert</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ca-certificates-api/#op-putCacertsById" target="_blank" class="st" data-op="putCacertsById"><title>PUT /cacerts/{id}
+Synthetics CA certificates line · putCacertsById</title>
+<circle cx="1336" cy="1154" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1348" y="1159" text-anchor="start" style="fill:#1A1F2C">Update cacert</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ca-certificates-api/#op-deleteCacertsById" target="_blank" class="st" data-op="deleteCacertsById"><title>DELETE /cacerts/{id}
+Synthetics CA certificates line · deleteCacertsById</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1206" y1="1158" x2="1214" y2="1150" stroke="#C2410C" stroke-width="2"/>
+<text x="1216" y="1142" transform="rotate(-45 1216 1142)" style="fill:#1A1F2C">Delete cacert</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-certificates-api/#op-getCertificates" target="_blank" class="st" data-op="getCertificates"><title>GET /certificates
+Synthetics certificates line · getCertificates</title>
+<circle cx="1210" cy="860" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1222" y="865" text-anchor="start" style="fill:#1A1F2C">List certificates</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-certificates-api/#op-postCertificates" target="_blank" class="st" data-op="postCertificates"><title>POST /certificates
+Synthetics certificates line · postCertificates</title>
+<circle cx="1294" cy="944" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1282.0" y="949" text-anchor="end" style="fill:#1A1F2C">Create certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-certificates-api/#op-getCertificatesById" target="_blank" class="st" data-op="getCertificatesById"><title>GET /certificates/{id}
+Synthetics certificates line · getCertificatesById</title>
+<circle cx="1378" cy="944" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1390" y="949" text-anchor="start" style="fill:#1A1F2C">Get certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-certificates-api/#op-putCertificatesById" target="_blank" class="st" data-op="putCertificatesById"><title>PUT /certificates/{id}
+Synthetics certificates line · putCertificatesById</title>
+<circle cx="1378" cy="818" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1390" y="823" text-anchor="start" style="fill:#1A1F2C">Update certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-certificates-api/#op-deleteCertificatesById" target="_blank" class="st" data-op="deleteCertificatesById"><title>DELETE /certificates/{id}
+Synthetics certificates line · deleteCertificatesById</title>
+<circle cx="1294" cy="734" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="1290" y1="738" x2="1298" y2="730" stroke="#4A5568" stroke-width="2"/>
+<text x="1282.0" y="739" text-anchor="end" style="fill:#1A1F2C">Delete certificate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-chrome-flags-api/#op-getChromeFlags" target="_blank" class="st" data-op="getChromeFlags"><title>GET /chrome_flags
+More Local line · getChromeFlags</title>
+<circle cx="1714" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1705" text-anchor="start" style="fill:#1A1F2C">List chrome flags</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-devices-api/#op-getDevices" target="_blank" class="st" data-op="getDevices"><title>GET /devices
+More Local line · getDevices</title>
+<circle cx="1714" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1579" text-anchor="start" style="fill:#1A1F2C">List devices</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-downtime-configurations-api/#op-getDowntimeConfigurations" target="_blank" class="st" data-op="getDowntimeConfigurations"><title>GET /downtime_configurations
+Synthetics downtime configurations line · getDowntimeConfigurations</title>
+<circle cx="2218" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2212" y="1502" text-anchor="end" transform="rotate(-45 2212 1502)" style="fill:#1A1F2C">List downtime configurations</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-downtime-configurations-api/#op-postDowntimeConfigurations" target="_blank" class="st" data-op="postDowntimeConfigurations"><title>POST /downtime_configurations
+Synthetics downtime configurations line · postDowntimeConfigurations</title>
+<circle cx="2134" cy="1490" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2140" y="1478" transform="rotate(-45 2140 1478)" style="fill:#1A1F2C">Create downtime configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-downtime-configurations-api/#op-getDowntimeConfigurationsById" target="_blank" class="st" data-op="getDowntimeConfigurationsById"><title>GET /downtime_configurations/{id}
+Synthetics downtime configurations line · getDowntimeConfigurationsById</title>
+<circle cx="2050" cy="1490" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2038.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Get downtime configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-downtime-configurations-api/#op-putDowntimeConfigurationsById" target="_blank" class="st" data-op="putDowntimeConfigurationsById"><title>PUT /downtime_configurations/{id}
+Synthetics downtime configurations line · putDowntimeConfigurationsById</title>
+<circle cx="2008" cy="1448" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1996.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Update downtime configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-downtime-configurations-api/#op-deleteDowntimeConfigurationsById" target="_blank" class="st" data-op="deleteDowntimeConfigurationsById"><title>DELETE /downtime_configurations/{id}
+Synthetics downtime configurations line · deleteDowntimeConfigurationsById</title>
+<circle cx="2008" cy="1364" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2004" y1="1368" x2="2012" y2="1360" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2020" y="1369" text-anchor="start" style="fill:#1A1F2C">Delete downtime configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-downtime-configurations-api/#op-putDowntimeConfigurationsByIdEnd" target="_blank" class="st" data-op="putDowntimeConfigurationsByIdEnd"><title>PUT /downtime_configurations/{id}/end
+Synthetics downtime configurations line · putDowntimeConfigurationsByIdEnd</title>
+<circle cx="2050" cy="1322" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2062" y="1327" text-anchor="start" style="fill:#1A1F2C">Update end</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-excluded-files-api/#op-getExcludedFileTypes" target="_blank" class="st" data-op="getExcludedFileTypes"><title>GET /excluded_file_types
+More Local line · getExcludedFileTypes</title>
+<circle cx="1714" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1411" text-anchor="start" style="fill:#1A1F2C">List excluded file types</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-global-variables-api/#op-getVariables" target="_blank" class="st" data-op="getVariables"><title>GET /variables
+Synthetics global variables line · getVariables</title>
+<circle cx="1462" cy="608" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1474" y="613" text-anchor="start" style="fill:#1A1F2C">List variables</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-global-variables-api/#op-postVariables" target="_blank" class="st" data-op="postVariables"><title>POST /variables
+Synthetics global variables line · postVariables</title>
+<circle cx="1462" cy="734" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1450.0" y="739" text-anchor="end" style="fill:#1A1F2C">Create variable</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-global-variables-api/#op-getVariablesById" target="_blank" class="st" data-op="getVariablesById"><title>GET /variables/{id}
+Synthetics global variables line · getVariablesById</title>
+<circle cx="1546" cy="734" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1558" y="739" text-anchor="start" style="fill:#1A1F2C">Get variable</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-global-variables-api/#op-putVariablesById" target="_blank" class="st" data-op="putVariablesById"><title>PUT /variables/{id}
+Synthetics global variables line · putVariablesById</title>
+<circle cx="1588" cy="692" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1600" y="697" text-anchor="start" style="fill:#1A1F2C">Update variable</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-global-variables-api/#op-deleteVariablesById" target="_blank" class="st" data-op="deleteVariablesById"><title>DELETE /variables/{id}
+Synthetics global variables line · deleteVariablesById</title>
+<circle cx="1588" cy="566" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1584" y1="570" x2="1592" y2="562" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1600" y="571" text-anchor="start" style="fill:#1A1F2C">Delete variable</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-postTestsHttp" target="_blank" class="st" data-op="postTestsHttp"><title>POST /tests/http
+Synthetics HTTP tests line · postTestsHttp</title>
+<circle cx="2596" cy="2288" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2608" y="2293" text-anchor="start" style="fill:#1A1F2C">Update http <tspan font-weight="700" style="fill:#D6264F">⇄SATV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-getTestsHttpById" target="_blank" class="st" data-op="getTestsHttpById"><title>GET /tests/http/{id}
+Synthetics HTTP tests line · getTestsHttpById</title>
+<circle cx="2638" cy="2246" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2626.0" y="2251" text-anchor="end" style="fill:#1A1F2C">Get http</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-putTestsHttpById" target="_blank" class="st" data-op="putTestsHttpById"><title>PUT /tests/http/{id}
+Synthetics HTTP tests line · putTestsHttpById</title>
+<circle cx="2722" cy="2246" r="5.5" fill="#dd5b8e" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2728" y="2234" transform="rotate(-45 2728 2234)" style="fill:#1A1F2C">Update http</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-deleteTestsHttpById" target="_blank" class="st" data-op="deleteTestsHttpById"><title>DELETE /tests/http/{id}
+Synthetics HTTP tests line · deleteTestsHttpById</title>
+<circle cx="2848" cy="2246" r="5.5" fill="#fff" stroke="#dd5b8e" stroke-width="2.5"/>
+<line x1="2844" y1="2250" x2="2852" y2="2242" stroke="#dd5b8e" stroke-width="2"/>
+<text x="2860" y="2251" text-anchor="start" style="fill:#1A1F2C">Delete http</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-putTestsHttpByIdValidate" target="_blank" class="st" data-op="putTestsHttpByIdValidate"><title>PUT /tests/http/{id}/validate
+Synthetics HTTP tests line · putTestsHttpByIdValidate</title>
+<circle cx="3058" cy="2204" r="5.5" fill="#dd5b8e" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="3052" y="2216" text-anchor="end" transform="rotate(-45 3052 2216)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-postTestsHttpTryNow" target="_blank" class="st" data-op="postTestsHttpTryNow"><title>POST /tests/http/try_now
+Synthetics HTTP tests line · postTestsHttpTryNow</title>
+<circle cx="2890" cy="2204" r="5.5" fill="#dd5b8e" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2878.0" y="2209" text-anchor="end" style="fill:#1A1F2C">Update try now</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-http-tests-api/#op-postTestsHttpValidate" target="_blank" class="st" data-op="postTestsHttpValidate"><title>POST /tests/http/validate
+Synthetics HTTP tests line · postTestsHttpValidate</title>
+<circle cx="2974" cy="2204" r="5.5" fill="#dd5b8e" stroke="#dd5b8e" stroke-width="2.5"/>
+<text x="2980" y="2192" transform="rotate(-45 2980 2192)" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-getLocations" target="_blank" class="st" data-op="getLocations"><title>GET /locations
+Synthetics locations line · getLocations</title>
+<circle cx="1084" cy="692" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="697" text-anchor="start" style="fill:#1A1F2C">List locations</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-postLocations" target="_blank" class="st" data-op="postLocations"><title>POST /locations
+Synthetics locations line · postLocations</title>
+<circle cx="1084" cy="776" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="781" text-anchor="start" style="fill:#1A1F2C">Create location</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-getLocationsById" target="_blank" class="st" data-op="getLocationsById"><title>GET /locations/{id}
+Synthetics locations line · getLocationsById</title>
+<circle cx="1084" cy="902" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="907" text-anchor="start" style="fill:#1A1F2C">Get location</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-deleteLocationsById" target="_blank" class="st" data-op="deleteLocationsById"><title>DELETE /locations/{id}
+Synthetics locations line · deleteLocationsById</title>
+<circle cx="1042" cy="944" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1038" y1="948" x2="1046" y2="940" stroke="#2E7D32" stroke-width="2"/>
+<text x="1054" y="949" text-anchor="start" style="fill:#1A1F2C">Delete location</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-getLocationsByLocationIdRunnerTokens" target="_blank" class="st" data-op="getLocationsByLocationIdRunnerTokens"><title>GET /locations/{location_id}/runner_tokens
+Synthetics locations line · getLocationsByLocationIdRunnerTokens</title>
+<circle cx="1042" cy="1070" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1054" y="1075" text-anchor="start" style="fill:#1A1F2C">List runner tokens</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-postLocationsByLocationIdRunnerTokens" target="_blank" class="st" data-op="postLocationsByLocationIdRunnerTokens"><title>POST /locations/{location_id}/runner_tokens
+Synthetics locations line · postLocationsByLocationIdRunnerTokens</title>
+<circle cx="916" cy="1070" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="904.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Create runner token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-getLocationsByLocationIdRunnerTokensById" target="_blank" class="st" data-op="getLocationsByLocationIdRunnerTokensById"><title>GET /locations/{location_id}/runner_tokens/{id}
+Synthetics locations line · getLocationsByLocationIdRunnerTokensById</title>
+<circle cx="874" cy="1028" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="886" y="1033" text-anchor="start" style="fill:#1A1F2C">Get runner token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-locations-api/#op-deleteLocationsByLocationIdRunnerTokensById" target="_blank" class="st" data-op="deleteLocationsByLocationIdRunnerTokensById"><title>DELETE /locations/{location_id}/runner_tokens/{id}
+Synthetics locations line · deleteLocationsByLocationIdRunnerTokensById</title>
+<circle cx="790" cy="944" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="786" y1="948" x2="794" y2="940" stroke="#2E7D32" stroke-width="2"/>
+<text x="802" y="949" text-anchor="start" style="fill:#1A1F2C">Delete runner token</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-postTestsPort" target="_blank" class="st" data-op="postTestsPort"><title>POST /tests/port
+Synthetics Port tests line · postTestsPort</title>
+<circle cx="2512" cy="2330" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2503.0" y="2349" text-anchor="end" style="fill:#1A1F2C">Update port</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-getTestsPortById" target="_blank" class="st" data-op="getTestsPortById"><title>GET /tests/port/{id}
+Synthetics Port tests line · getTestsPortById</title>
+<circle cx="2596" cy="2414" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2608" y="2419" text-anchor="start" style="fill:#1A1F2C">Get port</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-putTestsPortById" target="_blank" class="st" data-op="putTestsPortById"><title>PUT /tests/port/{id}
+Synthetics Port tests line · putTestsPortById</title>
+<circle cx="2722" cy="2540" r="5.5" fill="#e85c51" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2734" y="2545" text-anchor="start" style="fill:#1A1F2C">Update port</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-deleteTestsPortById" target="_blank" class="st" data-op="deleteTestsPortById"><title>DELETE /tests/port/{id}
+Synthetics Port tests line · deleteTestsPortById</title>
+<circle cx="2722" cy="2582" r="5.5" fill="#fff" stroke="#e85c51" stroke-width="2.5"/>
+<line x1="2718" y1="2586" x2="2726" y2="2578" stroke="#e85c51" stroke-width="2"/>
+<text x="2734" y="2587" text-anchor="start" style="fill:#1A1F2C">Delete port</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-putTestsPortByIdValidate" target="_blank" class="st" data-op="putTestsPortByIdValidate"><title>PUT /tests/port/{id}/validate
+Synthetics Port tests line · putTestsPortByIdValidate</title>
+<circle cx="2932" cy="2792" r="5.5" fill="#e85c51" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2944" y="2797" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-postTestsPortTryNow" target="_blank" class="st" data-op="postTestsPortTryNow"><title>POST /tests/port/try_now
+Synthetics Port tests line · postTestsPortTryNow</title>
+<circle cx="2764" cy="2624" r="5.5" fill="#e85c51" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2776" y="2629" text-anchor="start" style="fill:#1A1F2C">Update try now</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-port-tests-api/#op-postTestsPortValidate" target="_blank" class="st" data-op="postTestsPortValidate"><title>POST /tests/port/validate
+Synthetics Port tests line · postTestsPortValidate</title>
+<circle cx="2848" cy="2708" r="5.5" fill="#e85c51" stroke="#e85c51" stroke-width="2.5"/>
+<text x="2860" y="2713" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-runs-api/#op-getRunsById" target="_blank" class="st" data-op="getRunsById"><title>GET /runs/{id}
+More Local line · getRunsById</title>
+<circle cx="1672" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1684" y="1201" text-anchor="start" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ssl-certificate-tests-api/#op-postTestsSsl" target="_blank" class="st" data-op="postTestsSsl"><title>POST /tests/ssl
+Synthetics SSL Certificate Tests line · postTestsSsl</title>
+<circle cx="2386" cy="2246" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2374.0" y="2251" text-anchor="end" style="fill:#1A1F2C">Update ssl <tspan font-weight="700" style="fill:#D6264F">⇄SATV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ssl-certificate-tests-api/#op-getTestsSslById" target="_blank" class="st" data-op="getTestsSslById"><title>GET /tests/ssl/{id}
+Synthetics SSL Certificate Tests line · getTestsSslById</title>
+<circle cx="2344" cy="2204" r="5.5" fill="#fff" stroke="#af4423" stroke-width="2.5"/>
+<text x="2356" y="2209" text-anchor="start" style="fill:#1A1F2C">Get ssl</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ssl-certificate-tests-api/#op-putTestsSslById" target="_blank" class="st" data-op="putTestsSslById"><title>PUT /tests/ssl/{id}
+Synthetics SSL Certificate Tests line · putTestsSslById</title>
+<circle cx="2260" cy="2120" r="5.5" fill="#af4423" stroke="#af4423" stroke-width="2.5"/>
+<text x="2272" y="2125" text-anchor="start" style="fill:#1A1F2C">Update ssl</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-ssl-certificate-tests-api/#op-deleteTestsSslById" target="_blank" class="st" data-op="deleteTestsSslById"><title>DELETE /tests/ssl/{id}
+Synthetics SSL Certificate Tests line · deleteTestsSslById</title>
+<circle cx="2176" cy="2036" r="5.5" fill="#fff" stroke="#af4423" stroke-width="2.5"/>
+<line x1="2172" y1="2040" x2="2180" y2="2032" stroke="#af4423" stroke-width="2"/>
+<text x="2188" y="2041" text-anchor="start" style="fill:#1A1F2C">Delete ssl</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-tests-api/#op-getTests" target="_blank" class="st" data-op="getTests"><title>GET /tests
+Synthetics tests line · getTests</title>
+<circle cx="2428" cy="2414" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2440" y="2419" text-anchor="start" style="fill:#1A1F2C">List tests <tspan font-weight="700" style="fill:#D6264F">⇄SATV</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-tests-api/#op-postTestsByIdRunNow" target="_blank" class="st" data-op="postTestsByIdRunNow"><title>POST /tests/{id}/run_now
+Synthetics tests line · postTestsByIdRunNow</title>
+<circle cx="2344" cy="2666" r="5.5" fill="#af236f" stroke="#af236f" stroke-width="2.5"/>
+<text x="2356" y="2671" text-anchor="start" style="fill:#1A1F2C">Update run now</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-tests-api/#op-getTestsByIdRuns" target="_blank" class="st" data-op="getTestsByIdRuns"><title>GET /tests/{id}/runs
+Synthetics tests line · getTestsByIdRuns</title>
+<circle cx="2344" cy="2750" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2356" y="2755" text-anchor="start" style="fill:#1A1F2C">List runs <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-tests-api/#op-postTestsBulkDelete" target="_blank" class="st" data-op="postTestsBulkDelete"><title>POST /tests/bulk_delete
+Synthetics tests line · postTestsBulkDelete</title>
+<circle cx="2344" cy="2498" r="5.5" fill="#af236f" stroke="#af236f" stroke-width="2.5"/>
+<text x="2356" y="2503" text-anchor="start" style="fill:#1A1F2C">Update bulk delete</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-tests-api/#op-putTestsPause" target="_blank" class="st" data-op="putTestsPause"><title>PUT /tests/pause
+Synthetics tests line · putTestsPause</title>
+<circle cx="2344" cy="2540" r="5.5" fill="#af236f" stroke="#af236f" stroke-width="2.5"/>
+<text x="2356" y="2545" text-anchor="start" style="fill:#1A1F2C">Update pause</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-synthetics-tests-api/#op-putTestsPlay" target="_blank" class="st" data-op="putTestsPlay"><title>PUT /tests/play
+Synthetics tests line · putTestsPlay</title>
+<circle cx="2344" cy="2624" r="5.5" fill="#af236f" stroke="#af236f" stroke-width="2.5"/>
+<text x="2356" y="2629" text-anchor="start" style="fill:#1A1F2C">Update play</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-getTeam" target="_blank" class="st" data-op="getTeam"><title>GET /team
+Teams line · getTeam</title>
+<circle cx="1336" cy="566" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1330" y="578" text-anchor="end" transform="rotate(-45 1330 578)" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-postTeam" target="_blank" class="st" data-op="postTeam"><title>POST /team
+Teams line · postTeam</title>
+<circle cx="1252" cy="566" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1258" y="554" transform="rotate(-45 1258 554)" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-getTeamByTid" target="_blank" class="st" data-op="getTeamByTid"><title>GET /team/{tid}
+Teams line · getTeamByTid</title>
+<circle cx="1168" cy="566" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1174" y="554" transform="rotate(-45 1174 554)" style="fill:#1A1F2C">Get team</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-putTeamByTid" target="_blank" class="st" data-op="putTeamByTid"><title>PUT /team/{tid}
+Teams line · putTeamByTid</title>
+<circle cx="1084" cy="566" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1090" y="554" transform="rotate(-45 1090 554)" style="fill:#1A1F2C">Update team</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-deleteTeamByTid" target="_blank" class="st" data-op="deleteTeamByTid"><title>DELETE /team/{tid}
+Teams line · deleteTeamByTid</title>
+<circle cx="1000" cy="566" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="996" y1="570" x2="1004" y2="562" stroke="#C2410C" stroke-width="2"/>
+<text x="988.0" y="571" text-anchor="end" style="fill:#1A1F2C">Delete team</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-putTeamByTidMemberByUid" target="_blank" class="st" data-op="putTeamByTidMemberByUid"><title>PUT /team/{tid}/member/{uid}
+Teams line · putTeamByTidMemberByUid</title>
+<circle cx="916" cy="482" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="928" y="487" text-anchor="start" style="fill:#1A1F2C">Update member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-deleteTeamByTidMemberByUid" target="_blank" class="st" data-op="deleteTeamByTidMemberByUid"><title>DELETE /team/{tid}/member/{uid}
+Teams line · deleteTeamByTidMemberByUid</title>
+<circle cx="832" cy="398" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="828" y1="402" x2="836" y2="394" stroke="#C2410C" stroke-width="2"/>
+<text x="844" y="403" text-anchor="start" style="fill:#1A1F2C">Delete member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-putTeamByTidMembers" target="_blank" class="st" data-op="putTeamByTidMembers"><title>PUT /team/{tid}/members
+Teams line · putTeamByTidMembers</title>
+<circle cx="832" cy="314" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="844" y="319" text-anchor="start" style="fill:#1A1F2C">Create member</text>
+</a>
+<a href="https://apis.apis.io/apis/splunk-observability/splunk-observability-teams-api/#op-deleteTeamByTidMembers" target="_blank" class="st" data-op="deleteTeamByTidMembers"><title>DELETE /team/{tid}/members
+Teams line · deleteTeamByTidMembers</title>
+<circle cx="832" cy="230" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="828" y1="234" x2="836" y2="226" stroke="#C2410C" stroke-width="2"/>
+<text x="844" y="235" text-anchor="start" style="fill:#1A1F2C">Delete member</text>
+</a>
+<text x="3248" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3248" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">TESTS</text>
+<rect x="3248" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3265" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SATV</text><text x="3290" y="269" font-size="11" fill="#1A1F2C">Synthetics API tests V2 <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3248" y="276" width="34" height="13" rx="3" fill="#af232e"/><text x="3265" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SBTV</text><text x="3290" y="286" font-size="11" fill="#1A1F2C">Synthetics Browser tests V2 <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3248" y="293" width="34" height="13" rx="3" fill="#dd5b8e"/><text x="3265" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SHT</text><text x="3290" y="303" font-size="11" fill="#1A1F2C">Synthetics HTTP tests <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3248" y="310" width="34" height="13" rx="3" fill="#e85c51"/><text x="3265" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SPT</text><text x="3290" y="320" font-size="11" fill="#1A1F2C">Synthetics Port tests <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3248" y="327" width="34" height="13" rx="3" fill="#af236f"/><text x="3265" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ST</text><text x="3290" y="337" font-size="11" fill="#1A1F2C">Synthetics tests <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="344" width="34" height="13" rx="3" fill="#af4423"/><text x="3265" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SSCT</text><text x="3290" y="354" font-size="11" fill="#1A1F2C">Synthetics SSL Certificate Tests <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3248" y="361" width="34" height="13" rx="3" fill="#e851ba"/><text x="3265" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="3290" y="371" font-size="11" fill="#1A1F2C">Synthetics artifacts <tspan fill="#8A93A6">3</tspan></text>
+<text x="3248" y="397" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">APM</text>
+<rect x="3248" y="404" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3265" y="414" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AVF</text><text x="3290" y="414" font-size="11" fill="#1A1F2C">APM visibility filters <tspan fill="#8A93A6">7</tspan></text>
+<rect x="3248" y="421" width="34" height="13" rx="3" fill="#0d7773"/><text x="3265" y="431" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STMA</text><text x="3290" y="431" font-size="11" fill="#1A1F2C">Send traces, metrics and events <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="438" width="34" height="13" rx="3" fill="#17d25b"/><text x="3265" y="448" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="3290" y="448" font-size="11" fill="#1A1F2C">Download APM traces <tspan fill="#8A93A6">3</tspan></text>
+<text x="3248" y="474" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">DASHBOARDGROUP</text>
+<rect x="3248" y="481" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3265" y="491" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DG</text><text x="3290" y="491" font-size="11" fill="#1A1F2C">Dashboard Groups <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="498" width="34" height="13" rx="3" fill="#1d33a9"/><text x="3265" y="508" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAS</text><text x="3290" y="508" font-size="11" fill="#1A1F2C">Dashboards <tspan fill="#8A93A6">6</tspan></text>
+<text x="3248" y="534" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">NAVIGATOR</text>
+<rect x="3248" y="541" width="34" height="13" rx="3" fill="#E07B12"/><text x="3265" y="551" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NAV</text><text x="3290" y="551" font-size="11" fill="#1A1F2C">Navigators <tspan fill="#8A93A6">11</tspan></text>
+<text x="3248" y="577" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">TAG</text>
+<rect x="3248" y="584" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3265" y="594" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MM</text><text x="3290" y="594" font-size="11" fill="#1A1F2C">Metrics metadata <tspan fill="#8A93A6">11</tspan></text>
+<text x="3248" y="620" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">DETECTOR</text>
+<rect x="3248" y="627" width="34" height="13" rx="3" fill="#B0287F"/><text x="3265" y="637" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DET</text><text x="3290" y="637" font-size="11" fill="#1A1F2C">Detectors <tspan fill="#8A93A6">10</tspan></text>
+<text x="3248" y="663" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ALERTMUTING</text>
+<rect x="3248" y="670" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3265" y="680" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IAA</text><text x="3290" y="680" font-size="11" fill="#1A1F2C">Incidents and alerts <tspan fill="#8A93A6">10</tspan></text>
+<text x="3248" y="706" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">ORGANIZATION</text>
+<rect x="3248" y="713" width="34" height="13" rx="3" fill="#B8860B"/><text x="3265" y="723" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORG</text><text x="3290" y="723" font-size="11" fill="#1A1F2C">Organizations <tspan fill="#8A93A6">10</tspan></text>
+<text x="3248" y="749" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">TEAM</text>
+<rect x="3248" y="756" width="34" height="13" rx="3" fill="#C2410C"/><text x="3265" y="766" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="3290" y="766" font-size="11" fill="#1A1F2C">Teams <tspan fill="#8A93A6">9</tspan></text>
+<text x="3248" y="792" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">LOCATIONS</text>
+<rect x="3248" y="799" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3265" y="809" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SL</text><text x="3290" y="809" font-size="11" fill="#1A1F2C">Synthetics locations <tspan fill="#8A93A6">8</tspan></text>
+<text x="3248" y="835" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">METRICRULESET</text>
+<rect x="3248" y="842" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3265" y="852" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MR</text><text x="3290" y="852" font-size="11" fill="#1A1F2C">Metric ruleset <tspan fill="#8A93A6">7</tspan></text>
+<text x="3248" y="878" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3248" y="885" width="34" height="13" rx="3" fill="#D6264F"/><text x="3265" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3290" y="895" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">13</tspan></text>
+<rect x="3248" y="902" width="34" height="13" rx="3" fill="#B0287F"/><text x="3265" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AA</text><text x="3290" y="912" font-size="11" fill="#1A1F2C">Automated archival <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="919" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3265" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INT</text><text x="3290" y="929" font-size="11" fill="#1A1F2C">Integrations <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="936" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3265" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OT</text><text x="3290" y="946" font-size="11" fill="#1A1F2C">Org tokens <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="953" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3265" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SLO</text><text x="3290" y="963" font-size="11" fill="#1A1F2C">SLOs <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="970" width="34" height="13" rx="3" fill="#00838F"/><text x="3265" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SF</text><text x="3290" y="980" font-size="11" fill="#1A1F2C">SignalFlow <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="987" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3265" y="997" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SDC</text><text x="3290" y="997" font-size="11" fill="#1A1F2C">Synthetics downtime configurations <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3248" y="1004" width="34" height="13" rx="3" fill="#B8860B"/><text x="3265" y="1014" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="3290" y="1014" font-size="11" fill="#1A1F2C">Charts <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="1021" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3265" y="1031" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CI</text><text x="3290" y="1031" font-size="11" fill="#1A1F2C">Client Inventory <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="1038" width="34" height="13" rx="3" fill="#E07B12"/><text x="3265" y="1048" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DL</text><text x="3290" y="1048" font-size="11" fill="#1A1F2C">Data links <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="1055" width="34" height="13" rx="3" fill="#C2410C"/><text x="3265" y="1065" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCC</text><text x="3290" y="1065" font-size="11" fill="#1A1F2C">Synthetics CA certificates <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="1072" width="34" height="13" rx="3" fill="#4A5568"/><text x="3265" y="1082" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SC</text><text x="3290" y="1082" font-size="11" fill="#1A1F2C">Synthetics certificates <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="1089" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3265" y="1099" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SGV</text><text x="3290" y="1099" font-size="11" fill="#1A1F2C">Synthetics global variables <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3248" y="1106" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3265" y="1116" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROL</text><text x="3290" y="1116" font-size="11" fill="#1A1F2C">Role <tspan fill="#8A93A6">4</tspan></text>
+<text x="3498" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3516,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3542" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3516,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3542" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3516,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3542" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3516,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3542" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3516,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3542" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3516,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3542" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3516,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3542" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3516,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3542" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3498" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3498" y="463" font-size="10.5" fill="#5A6275">“APM service topology” → APM visibility filters line · 2 ops</text>
+<text x="3498" y="478" font-size="10.5" fill="#5A6275">“Backfill” → More Local line · 1 op</text>
+<text x="3498" y="493" font-size="10.5" fill="#5A6275">“Passwords” → More Local line · 1 op</text>
+<text x="3498" y="508" font-size="10.5" fill="#5A6275">“Retrieve events V1” → More Local line · 1 op</text>
+<text x="3498" y="523" font-size="10.5" fill="#5A6275">“Retrieve events V2” → More Local line · 1 op</text>
+<text x="3498" y="538" font-size="10.5" fill="#5A6275">“Retrieve metric time series (MTS)” → More Local line · 1 op</text>
+<text x="3498" y="553" font-size="10.5" fill="#5A6275">“Session Tokens” → More Local line · 2 ops</text>
+<text x="3498" y="568" font-size="10.5" fill="#5A6275">“Splunk Observability Cloud Audit Events” → More Local line · 1 op</text>
+<text x="3498" y="583" font-size="10.5" fill="#5A6275">“Synthetics Chrome flags” → More Local line · 1 op</text>
+<text x="3498" y="598" font-size="10.5" fill="#5A6275">“Synthetics audit” → More Local line · 1 op</text>
+<text x="3498" y="613" font-size="10.5" fill="#5A6275">“Synthetics devices” → More Local line · 1 op</text>
+<text x="3498" y="628" font-size="10.5" fill="#5A6275">“Synthetics excluded files” → More Local line · 1 op</text>
+<text x="3498" y="643" font-size="10.5" fill="#5A6275">“Synthetics runs” → More Local line · 1 op</text>
+<text x="3498" y="693" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3498" y="710" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3342" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/splunk-observability/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

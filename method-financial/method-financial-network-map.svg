@@ -1,0 +1,857 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2834 2658" width="2834" height="2658" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2834" height="2658" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Method-Financial API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">128 operations as stops · 30 tags as lines · 20 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1588.0,1574.0 L1322.3,1308.3 Q1294.0,1280.0 1254.0,1280.0 L916.0,1280.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1190.0" y="1415.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1252.0" y="1431.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Attributes ⇄ More</title>2 interchanges</text></g>
+<path d="M286.0,1322.0 L307.0,1301.0 Q328.0,1280.0 357.7,1280.0 L916.0,1280.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="539.0" y="1289.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="601.0" y="1305.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Verification Sessions</title>2 interchanges</text></g>
+<path d="M1546.0,2036.0 L1140.8,1630.8 Q1126.0,1616.0 1126.0,1595.0 L1126.0,1574.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1274.0" y="1793.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1336.0" y="1809.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Payment Instruments</title>1 interchange</text></g>
+<path d="M958.0,650.0 L1097.7,789.7 Q1126.0,818.0 1126.0,858.0 L1126.0,1574.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="980.0" y="1100.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1042.0" y="1116.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Subscriptions</title>2 interchanges</text></g>
+<path d="M958.0,2162.0 L937.0,2141.0 Q916.0,2120.0 916.0,2090.3 L916.0,1280.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="875.0" y="1709.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="937.0" y="1725.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Connect ⇄ More</title>1 interchange</text></g>
+<path d="M580.0,1490.0 L929.7,1140.3 Q958.0,1112.0 998.0,1112.0 L1126.0,1112.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="791.0" y="1289.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="853.0" y="1305.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Simulate</title>1 interchange</text></g>
+<path d="M664.0,1406.0 L608.3,1461.7 Q580.0,1490.0 580.0,1530.0 L580.0,1742.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="560.0" y="1562.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="622.0" y="1578.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Payments ⇄ Simulate</title>1 interchange</text></g>
+<text x="598.0" y="328" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">VERIFICATION SESSIONS</text>
+<text x="510.0" y="1252" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">SIMULATE</text>
+<text x="1257.25" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">SUBSCRIPTIONS</text>
+<text x="1273.0" y="2050" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">CONNECT</text>
+<text x="934.0" y="370" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">TEAMS</text>
+<text x="544.0" y="1546" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">PAYMENTS</text>
+<text x="1903.0" y="1252" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">ATTRIBUTES</text>
+<text x="1772.8" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">WEBHOOKS</text>
+<text x="1646.8" y="916" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">ELEMENTS</text>
+<text x="1546.0" y="1714" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">PAYMENT INSTRUMENTS</text>
+<text x="1126.0" y="2176" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">SECRETS</text>
+<text x="1130.1176470588234" y="664" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="454" y1="1532" x2="496" y2="1490" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="454" y1="1532" x2="496" y2="1490" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Account Attributes" d="M2134.0,1532.0 L2134.0,1448.0 L2134.0,1322.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Attributes</title></path>
+<path class="line" data-line="Account Balances" d="M1420.0,1196.0 L1336.0,1196.0 L1252.0,1196.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Balances</title></path>
+<path class="line" data-line="Account Card Brands" d="M1168.0,1322.0 L1252.0,1406.0 L1294.0,1448.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Card Brands</title></path>
+<path class="line" data-line="Account Verification Sessions" d="M1042.0,860.0 L967.9,785.9 Q958.0,776.0 944.0,776.0 L874.0,776.0 L790.0,776.0 L706.0,776.0 L678.0,776.0 Q664.0,776.0 654.1,766.1 L589.9,701.9 Q580.0,692.0 580.0,678.0 L580.0,608.0 L580.0,482.0 L580.0,398.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Verification Sessions</title></path>
+<path class="line" data-line="Account Payment Instruments" d="M1546.0,2036.0 L1546.0,1952.0 L1546.0,1868.0 L1546.0,1784.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Payment Instruments</title></path>
+<path class="line" data-line="Account Payoffs" d="M1420.0,1364.0 L1494.1,1438.1 Q1504.0,1448.0 1518.0,1448.0 L1588.0,1448.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Payoffs</title></path>
+<path class="line" data-line="Account Sensitive" d="M1504.0,1658.0 L1420.0,1574.0 L1378.0,1532.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Sensitive</title></path>
+<path class="line" data-line="Account Subscriptions" d="M958.0,650.0 L1028.0,650.0 Q1042.0,650.0 1051.9,659.9 L1084.0,692.0 L1126.0,734.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Subscriptions</title></path>
+<path class="line" data-line="Account Updates" d="M1000.0,1826.0 L1084.0,1826.0 L1168.0,1826.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Updates</title></path>
+<path class="line" data-line="Accounts" d="M1000.0,1448.0 L1084.0,1532.0 L1126.0,1574.0 L1168.0,1616.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts</title></path>
+<path class="line" data-line="Elements" d="M1546.0,1280.0 L1588.0,1238.0 L1672.0,1154.0 L1704.1,1121.9 Q1714.0,1112.0 1714.0,1098.0 L1714.0,986.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Elements</title></path>
+<path class="line" data-line="Entities" d="M748.0,1112.0 L832.0,1196.0 L916.0,1280.0 L958.0,1322.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entities</title></path>
+<path class="line" data-line="Entity Attributes" d="M1588.0,1574.0 L1672.0,1658.0 L1756.0,1742.0" fill="none" stroke="#0d6676" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Attributes</title></path>
+<path class="line" data-line="Entity Connects" d="M958.0,2162.0 L1042.0,2162.0 L1196.0,2162.0 Q1210.0,2162.0 1219.9,2152.1 L1242.1,2129.9 Q1252.0,2120.0 1266.0,2120.0 L1336.0,2120.0 L1378.0,2120.0 L1448.0,2120.0 Q1462.0,2120.0 1471.9,2129.9 L1546.0,2204.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Connects</title></path>
+<path class="line" data-line="Entity Credit Scores" d="M916.0,1742.0 L874.0,1700.0 L790.0,1616.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Credit Scores</title></path>
+<path class="line" data-line="Entity Identities" d="M1378.0,1784.0 L1336.0,1742.0 L1294.0,1700.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Identities</title></path>
+<path class="line" data-line="Entity Subscriptions" d="M1588.0,230.0 L1504.0,230.0 L1420.0,230.0 L1336.0,230.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Subscriptions</title></path>
+<path class="line" data-line="Entity Vehicles" d="M1000.0,1658.0 L916.0,1574.0 L832.0,1490.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Vehicles</title></path>
+<path class="line" data-line="Entity Verification Sessions" d="M286.0,1322.0 L286.0,1238.0 L286.0,1168.0 Q286.0,1154.0 272.0,1154.0 L160.0,1154.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Verification Sessions</title></path>
+<path class="line" data-line="Managed Accounts" d="M874.0,1952.0 L832.0,1910.0 L790.0,1868.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Managed Accounts</title></path>
+<path class="line" data-line="Opal" d="M1168.0,1952.0 L1084.0,1952.0 L1000.0,1952.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Opal</title></path>
+<path class="line" data-line="Payment Reversals" d="M496.0,1700.0 L412.0,1784.0 L328.0,1868.0" fill="none" stroke="#8b2351" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Reversals</title></path>
+<path class="line" data-line="Payments" d="M748.0,1742.0 L664.0,1742.0 L594.0,1742.0 Q580.0,1742.0 580.0,1728.0 L580.0,1616.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payments</title></path>
+<path class="line" data-line="Reports" d="M1294.0,1994.0 L1336.0,1952.0 L1378.0,1910.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reports</title></path>
+<path class="line" data-line="Secrets" d="M1126.0,2498.0 L1126.0,2414.0 L1126.0,2330.0 L1126.0,2246.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Secrets</title></path>
+<path class="line" data-line="Simulate Accounts" d="M496.0,1322.0 L496.0,1406.0 L496.0,1476.0 Q496.0,1490.0 510.0,1490.0 L566.0,1490.0 Q580.0,1490.0 589.9,1480.1 L664.0,1406.0 L748.0,1322.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Simulate Accounts</title></path>
+<path class="line" data-line="Simulate Entities" d="M454.0,1532.0 L370.0,1532.0 L286.0,1532.0" fill="none" stroke="#0d7768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Simulate Entities</title></path>
+<path class="line" data-line="Teams" d="M1168.0,524.0 L1056.0,524.0 Q1042.0,524.0 1032.1,514.1 L1000.0,482.0 L967.9,449.9 Q958.0,440.0 944.0,440.0 L874.0,440.0 L790.0,440.0 L706.0,440.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Teams</title></path>
+<path class="line" data-line="Webhooks" d="M1840.0,1658.0 L1765.9,1583.9 Q1756.0,1574.0 1756.0,1560.0 L1756.0,1448.0 L1756.0,1364.0 L1756.0,1280.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="More Local" d="M1294.0,734.0 L1219.9,808.1 Q1210.0,818.0 1210.0,832.0 L1210.0,944.0 L1210.0,1014.0 Q1210.0,1028.0 1200.1,1037.9 L1126.0,1112.0 L1093.9,1144.1 Q1084.0,1154.0 1074.1,1144.1 L1042.0,1112.0 L1000.0,1070.0 L916.0,986.0 L832.0,902.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="2134" y1="1532" x2="2134.0" y2="1566.0" stroke="#0B7A75" stroke-width="7"/><rect x="2110.0" y="1555.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Account Attributes</title></rect><text x="2134.0" y="1571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AA</text>
+<line x1="2134" y1="1322" x2="2134.0" y2="1288.0" stroke="#0B7A75" stroke-width="7"/><rect x="2110.0" y="1277.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Account Attributes</title></rect><text x="2134.0" y="1293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AA</text>
+<line x1="1420" y1="1196" x2="1454.0" y2="1196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1430.0" y="1185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Account Balances</title></rect><text x="1454.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AB</text>
+<line x1="1252" y1="1196" x2="1218.0" y2="1196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1194.0" y="1185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Account Balances</title></rect><text x="1218.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AB</text>
+<line x1="1168" y1="1322" x2="1143.9583694396574" y2="1297.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1119.9583694396574" y="1286.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Account Card Brands</title></rect><text x="1143.9583694396574" y="1302.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACB</text>
+<line x1="1294" y1="1448" x2="1318.0416305603426" y2="1472.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1294.0416305603426" y="1461.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Account Card Brands</title></rect><text x="1318.0416305603426" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACB</text>
+<line x1="1042" y1="860" x2="1066.0416305603426" y2="884.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1042.0416305603426" y="873.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Account Verification Sessions</title></rect><text x="1066.0416305603426" y="889.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AVS</text>
+<line x1="580" y1="398" x2="580.0" y2="364.0" stroke="#D6264F" stroke-width="7"/><rect x="556.0" y="353.0" width="48" height="22" rx="5" fill="#D6264F"><title>Account Verification Sessions</title></rect><text x="580.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AVS</text>
+<line x1="1546" y1="2036" x2="1546.0" y2="2070.0" stroke="#2E7D32" stroke-width="7"/><rect x="1522.0" y="2059.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Account Payment Instruments</title></rect><text x="1546.0" y="2075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">API</text>
+<line x1="1546" y1="1784" x2="1546.0" y2="1750.0" stroke="#2E7D32" stroke-width="7"/><rect x="1522.0" y="1739.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Account Payment Instruments</title></rect><text x="1546.0" y="1755.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">API</text>
+<line x1="1420" y1="1364" x2="1395.9583694396574" y2="1339.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="1371.9583694396574" y="1328.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Account Payoffs</title></rect><text x="1395.9583694396574" y="1344.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AP</text>
+<line x1="1588" y1="1448" x2="1622.0" y2="1448.0" stroke="#00838F" stroke-width="7"/><rect x="1598.0" y="1437.0" width="48" height="22" rx="5" fill="#00838F"><title>Account Payoffs</title></rect><text x="1622.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AP</text>
+<line x1="1504" y1="1658" x2="1528.0416305603426" y2="1682.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1504.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Account Sensitive</title></rect><text x="1528.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACS</text>
+<line x1="1378" y1="1532" x2="1353.9583694396574" y2="1507.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1329.9583694396574" y="1496.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Account Sensitive</title></rect><text x="1353.9583694396574" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACS</text>
+<line x1="958" y1="650" x2="924.0" y2="650.0" stroke="#1F5FD1" stroke-width="7"/><rect x="900.0" y="639.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Account Subscriptions</title></rect><text x="924.0" y="655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="1126" y1="734" x2="1150.0416305603426" y2="758.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1126.0416305603426" y="747.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Account Subscriptions</title></rect><text x="1150.0416305603426" y="763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="1000" y1="1826" x2="966.0" y2="1826.0" stroke="#B8860B" stroke-width="7"/><rect x="942.0" y="1815.0" width="48" height="22" rx="5" fill="#B8860B"><title>Account Updates</title></rect><text x="966.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AU</text>
+<line x1="1168" y1="1826" x2="1202.0" y2="1826.0" stroke="#B8860B" stroke-width="7"/><rect x="1178.0" y="1815.0" width="48" height="22" rx="5" fill="#B8860B"><title>Account Updates</title></rect><text x="1202.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AU</text>
+<line x1="1000" y1="1448" x2="975.9583694396574" y2="1423.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="951.9583694396574" y="1412.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Accounts</title></rect><text x="975.9583694396574" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1168" y1="1616" x2="1192.0416305603426" y2="1640.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1168.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Accounts</title></rect><text x="1192.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1546" y1="1280" x2="1521.9583694396574" y2="1304.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1497.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Elements</title></rect><text x="1521.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ELE</text>
+<line x1="1714" y1="986" x2="1714.0" y2="952.0" stroke="#C2410C" stroke-width="7"/><rect x="1690.0" y="941.0" width="48" height="22" rx="5" fill="#C2410C"><title>Elements</title></rect><text x="1714.0" y="957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ELE</text>
+<line x1="748" y1="1112" x2="723.9583694396574" y2="1087.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="699.9583694396574" y="1076.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Entities</title></rect><text x="723.9583694396574" y="1092.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENT</text>
+<line x1="958" y1="1322" x2="982.0416305603426" y2="1346.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="958.0416305603426" y="1335.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Entities</title></rect><text x="982.0416305603426" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENT</text>
+<line x1="1588" y1="1574" x2="1563.9583694396574" y2="1549.9583694396574" stroke="#0d6676" stroke-width="7"/><rect x="1539.9583694396574" y="1538.9583694396574" width="48" height="22" rx="5" fill="#0d6676"><title>Entity Attributes</title></rect><text x="1563.9583694396574" y="1554.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EA</text>
+<line x1="1756" y1="1742" x2="1780.0416305603426" y2="1766.0416305603426" stroke="#0d6676" stroke-width="7"/><rect x="1756.0416305603426" y="1755.0416305603426" width="48" height="22" rx="5" fill="#0d6676"><title>Entity Attributes</title></rect><text x="1780.0416305603426" y="1771.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EA</text>
+<line x1="958" y1="2162" x2="924.0" y2="2162.0" stroke="#E07B12" stroke-width="7"/><rect x="900.0" y="2151.0" width="48" height="22" rx="5" fill="#E07B12"><title>Entity Connects</title></rect><text x="924.0" y="2167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EC</text>
+<line x1="1546" y1="2204" x2="1570.0416305603426" y2="2228.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1546.0416305603426" y="2217.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Entity Connects</title></rect><text x="1570.0416305603426" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EC</text>
+<line x1="916" y1="1742" x2="940.0416305603426" y2="1766.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="916.0416305603426" y="1755.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Entity Credit Scores</title></rect><text x="940.0416305603426" y="1771.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ECS</text>
+<line x1="790" y1="1616" x2="765.9583694396574" y2="1591.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="741.9583694396574" y="1580.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Entity Credit Scores</title></rect><text x="765.9583694396574" y="1596.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ECS</text>
+<line x1="1378" y1="1784" x2="1402.0416305603426" y2="1808.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1378.0416305603426" y="1797.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Entity Identities</title></rect><text x="1402.0416305603426" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EI</text>
+<line x1="1294" y1="1700" x2="1269.9583694396574" y2="1675.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1245.9583694396574" y="1664.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Entity Identities</title></rect><text x="1269.9583694396574" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EI</text>
+<line x1="1588" y1="230" x2="1622.0" y2="230.0" stroke="#1d33a9" stroke-width="7"/><rect x="1598.0" y="219.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Entity Subscriptions</title></rect><text x="1622.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ES</text>
+<line x1="1336" y1="230" x2="1302.0" y2="230.0" stroke="#1d33a9" stroke-width="7"/><rect x="1278.0" y="219.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Entity Subscriptions</title></rect><text x="1302.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ES</text>
+<line x1="1000" y1="1658" x2="1024.0416305603426" y2="1682.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1000.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Entity Vehicles</title></rect><text x="1024.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EV</text>
+<line x1="832" y1="1490" x2="807.9583694396574" y2="1465.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="783.9583694396574" y="1454.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Entity Vehicles</title></rect><text x="807.9583694396574" y="1470.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EV</text>
+<line x1="286" y1="1322" x2="286.0" y2="1356.0" stroke="#af2328" stroke-width="7"/><rect x="262.0" y="1345.0" width="48" height="22" rx="5" fill="#af2328"><title>Entity Verification Sessions</title></rect><text x="286.0" y="1361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EVS</text>
+<line x1="160" y1="1154" x2="126.0" y2="1154.0" stroke="#af2328" stroke-width="7"/><rect x="102.0" y="1143.0" width="48" height="22" rx="5" fill="#af2328"><title>Entity Verification Sessions</title></rect><text x="126.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EVS</text>
+<line x1="874" y1="1952" x2="898.0416305603426" y2="1976.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="874.0416305603426" y="1965.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Managed Accounts</title></rect><text x="898.0416305603426" y="1981.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MA</text>
+<line x1="790" y1="1868" x2="765.9583694396574" y2="1843.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="741.9583694396574" y="1832.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>Managed Accounts</title></rect><text x="765.9583694396574" y="1848.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MA</text>
+<line x1="1168" y1="1952" x2="1202.0" y2="1952.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1178.0" y="1941.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Opal</title></rect><text x="1202.0" y="1957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPA</text>
+<line x1="1000" y1="1952" x2="966.0" y2="1952.0" stroke="#7B3FE4" stroke-width="7"/><rect x="942.0" y="1941.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Opal</title></rect><text x="966.0" y="1957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPA</text>
+<line x1="496" y1="1700" x2="520.0416305603426" y2="1675.9583694396574" stroke="#8b2351" stroke-width="7"/><rect x="496.0416305603426" y="1664.9583694396574" width="48" height="22" rx="5" fill="#8b2351"><title>Payment Reversals</title></rect><text x="520.0416305603426" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PR</text>
+<line x1="328" y1="1868" x2="303.95836943965736" y2="1892.0416305603426" stroke="#8b2351" stroke-width="7"/><rect x="279.95836943965736" y="1881.0416305603426" width="48" height="22" rx="5" fill="#8b2351"><title>Payment Reversals</title></rect><text x="303.95836943965736" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PR</text>
+<line x1="748" y1="1742" x2="782.0" y2="1742.0" stroke="#B0287F" stroke-width="7"/><rect x="758.0" y="1731.0" width="48" height="22" rx="5" fill="#B0287F"><title>Payments</title></rect><text x="782.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="580" y1="1616" x2="580.0" y2="1582.0" stroke="#B0287F" stroke-width="7"/><rect x="556.0" y="1571.0" width="48" height="22" rx="5" fill="#B0287F"><title>Payments</title></rect><text x="580.0" y="1587.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="1294" y1="1994" x2="1269.9583694396574" y2="2018.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1245.9583694396574" y="2007.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Reports</title></rect><text x="1269.9583694396574" y="2023.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="1378" y1="1910" x2="1402.0416305603426" y2="1885.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1378.0416305603426" y="1874.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Reports</title></rect><text x="1402.0416305603426" y="1890.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="1126" y1="2498" x2="1126.0" y2="2532.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1102.0" y="2521.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Secrets</title></rect><text x="1126.0" y="2537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEC</text>
+<line x1="1126" y1="2246" x2="1126.0" y2="2212.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1102.0" y="2201.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Secrets</title></rect><text x="1126.0" y="2217.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SEC</text>
+<line x1="496" y1="1322" x2="496.0" y2="1288.0" stroke="#0E9F6E" stroke-width="7"/><rect x="472.0" y="1277.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Simulate Accounts</title></rect><text x="496.0" y="1293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="748" y1="1322" x2="772.0416305603426" y2="1297.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="748.0416305603426" y="1286.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Simulate Accounts</title></rect><text x="772.0416305603426" y="1302.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SA</text>
+<line x1="454" y1="1532" x2="488.0" y2="1532.0" stroke="#0d7768" stroke-width="7"/><rect x="464.0" y="1521.0" width="48" height="22" rx="5" fill="#0d7768"><title>Simulate Entities</title></rect><text x="488.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SE</text>
+<line x1="286" y1="1532" x2="252.0" y2="1532.0" stroke="#0d7768" stroke-width="7"/><rect x="228.0" y="1521.0" width="48" height="22" rx="5" fill="#0d7768"><title>Simulate Entities</title></rect><text x="252.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SE</text>
+<line x1="1168" y1="524" x2="1202.0" y2="524.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1178.0" y="513.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Teams</title></rect><text x="1202.0" y="529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="706" y1="440" x2="672.0" y2="440.0" stroke="#7B3FE4" stroke-width="7"/><rect x="648.0" y="429.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Teams</title></rect><text x="672.0" y="445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1840" y1="1658" x2="1864.0416305603426" y2="1682.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1840.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Webhooks</title></rect><text x="1864.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1756" y1="1280" x2="1756.0" y2="1246.0" stroke="#B8860B" stroke-width="7"/><rect x="1732.0" y="1235.0" width="48" height="22" rx="5" fill="#B8860B"><title>Webhooks</title></rect><text x="1756.0" y="1251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1294" y1="734" x2="1318.0416305603426" y2="709.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1294.0416305603426" y="698.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1318.0416305603426" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="832" y1="902" x2="807.9583694396574" y2="877.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="783.9583694396574" y="866.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="807.9583694396574" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-attributes-api/#op-listAccountAttributes" target="_blank" class="st" data-op="listAccountAttributes"><title>GET /accounts/{accountId}/attributes
+Account Attributes line · listAccountAttributes</title>
+<circle cx="2134" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2146" y="1537" text-anchor="start" style="fill:#1A1F2C">List attributes <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-attributes-api/#op-createAccountAttribute" target="_blank" class="st" data-op="createAccountAttribute"><title>POST /accounts/{accountId}/attributes
+Account Attributes line · createAccountAttribute</title>
+<circle cx="2134" cy="1448" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2146" y="1453" text-anchor="start" style="fill:#1A1F2C">Create attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-attributes-api/#op-retrieveAccountAttribute" target="_blank" class="st" data-op="retrieveAccountAttribute"><title>GET /accounts/{accountId}/attributes/{accAttrId}
+Account Attributes line · retrieveAccountAttribute</title>
+<circle cx="2134" cy="1322" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2146" y="1327" text-anchor="start" style="fill:#1A1F2C">Get attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-balances-api/#op-listAccountBalances" target="_blank" class="st" data-op="listAccountBalances"><title>GET /accounts/{accountId}/balances
+Account Balances line · listAccountBalances</title>
+<circle cx="1420" cy="1196" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1414" y="1208" text-anchor="end" transform="rotate(-45 1414 1208)" style="fill:#1A1F2C">List balances <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-balances-api/#op-createAccountBalance" target="_blank" class="st" data-op="createAccountBalance"><title>POST /accounts/{accountId}/balances
+Account Balances line · createAccountBalance</title>
+<circle cx="1336" cy="1196" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1342" y="1184" transform="rotate(-45 1342 1184)" style="fill:#1A1F2C">Create balance</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-balances-api/#op-retrieveAccountBalance" target="_blank" class="st" data-op="retrieveAccountBalance"><title>GET /accounts/{accountId}/balances/{balId}
+Account Balances line · retrieveAccountBalance</title>
+<circle cx="1252" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1258" y="1184" transform="rotate(-45 1258 1184)" style="fill:#1A1F2C">Get balance</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-card-brands-api/#op-listAccountCardBrands" target="_blank" class="st" data-op="listAccountCardBrands"><title>GET /accounts/{accountId}/card_brands
+Account Card Brands line · listAccountCardBrands</title>
+<circle cx="1168" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1180" y="1327" text-anchor="start" style="fill:#1A1F2C">List card brands <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-card-brands-api/#op-createAccountCardBrand" target="_blank" class="st" data-op="createAccountCardBrand"><title>POST /accounts/{accountId}/card_brands
+Account Card Brands line · createAccountCardBrand</title>
+<circle cx="1252" cy="1406" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1264" y="1411" text-anchor="start" style="fill:#1A1F2C">Create card brand</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-card-brands-api/#op-retrieveAccountCardBrand" target="_blank" class="st" data-op="retrieveAccountCardBrand"><title>GET /accounts/{accountId}/card_brands/{cbrdId}
+Account Card Brands line · retrieveAccountCardBrand</title>
+<circle cx="1294" cy="1448" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1306" y="1453" text-anchor="start" style="fill:#1A1F2C">Get card brand</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-consent-api/#op-updateAccountConsent" target="_blank" class="st" data-op="updateAccountConsent"><title>POST /accounts/{accountId}/consent
+Account Verification Sessions line · updateAccountConsent</title>
+<circle cx="1042" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1054" y="865" text-anchor="start" style="fill:#1A1F2C">Update consent <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payment-instruments-api/#op-listAccountPaymentInstruments" target="_blank" class="st" data-op="listAccountPaymentInstruments"><title>GET /accounts/{accountId}/payment_instruments
+Account Payment Instruments line · listAccountPaymentInstruments</title>
+<circle cx="1546" cy="2036" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1558" y="2041" text-anchor="start" style="fill:#1A1F2C">List payment instruments <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payment-instruments-api/#op-createAccountPaymentInstrument" target="_blank" class="st" data-op="createAccountPaymentInstrument"><title>POST /accounts/{accountId}/payment_instruments
+Account Payment Instruments line · createAccountPaymentInstrument</title>
+<circle cx="1546" cy="1952" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1558" y="1957" text-anchor="start" style="fill:#1A1F2C">Create payment instrument</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payment-instruments-api/#op-retrieveAccountPaymentInstrument" target="_blank" class="st" data-op="retrieveAccountPaymentInstrument"><title>GET /accounts/{accountId}/payment_instruments/{pmtInsId}
+Account Payment Instruments line · retrieveAccountPaymentInstrument</title>
+<circle cx="1546" cy="1868" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1558" y="1873" text-anchor="start" style="fill:#1A1F2C">Get payment instrument</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payment-instruments-api/#op-closeAccountPaymentInstrument" target="_blank" class="st" data-op="closeAccountPaymentInstrument"><title>DELETE /accounts/{accountId}/payment_instruments/{pmtInsId}
+Account Payment Instruments line · closeAccountPaymentInstrument</title>
+<circle cx="1546" cy="1784" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1542" y1="1788" x2="1550" y2="1780" stroke="#2E7D32" stroke-width="2"/>
+<text x="1558" y="1789" text-anchor="start" style="fill:#1A1F2C">Delete payment instrument</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payoffs-api/#op-listAccountPayoffs" target="_blank" class="st" data-op="listAccountPayoffs"><title>GET /accounts/{accountId}/payoffs
+Account Payoffs line · listAccountPayoffs</title>
+<circle cx="1420" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1432" y="1369" text-anchor="start" style="fill:#1A1F2C">List payoffs <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payoffs-api/#op-createAccountPayoff" target="_blank" class="st" data-op="createAccountPayoff"><title>POST /accounts/{accountId}/payoffs
+Account Payoffs line · createAccountPayoff</title>
+<circle cx="1504" cy="1448" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1492.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Create payoff</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-payoffs-api/#op-retrieveAccountPayoff" target="_blank" class="st" data-op="retrieveAccountPayoff"><title>GET /accounts/{accountId}/payoffs/{pyfId}
+Account Payoffs line · retrieveAccountPayoff</title>
+<circle cx="1588" cy="1448" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1582" y="1460" text-anchor="end" transform="rotate(-45 1582 1460)" style="fill:#1A1F2C">Get payoff</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-products-api/#op-listAccountProducts" target="_blank" class="st" data-op="listAccountProducts"><title>GET /accounts/{accountId}/products
+Account Verification Sessions line · listAccountProducts</title>
+<circle cx="958" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="781" text-anchor="start" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-products-api/#op-retrieveAccountProduct" target="_blank" class="st" data-op="retrieveAccountProduct"><title>GET /accounts/{accountId}/products/{prdId}
+Account Verification Sessions line · retrieveAccountProduct</title>
+<circle cx="874" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="880" y="764" transform="rotate(-45 880 764)" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-sensitive-api/#op-listAccountSensitives" target="_blank" class="st" data-op="listAccountSensitives"><title>GET /accounts/{accountId}/sensitive
+Account Sensitive line · listAccountSensitives</title>
+<circle cx="1504" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1516" y="1663" text-anchor="start" style="fill:#1A1F2C">Get sensitive <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-sensitive-api/#op-createAccountSensitive" target="_blank" class="st" data-op="createAccountSensitive"><title>POST /accounts/{accountId}/sensitive
+Account Sensitive line · createAccountSensitive</title>
+<circle cx="1420" cy="1574" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="1579" text-anchor="start" style="fill:#1A1F2C">Update sensitive</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-sensitive-api/#op-retrieveAccountSensitive" target="_blank" class="st" data-op="retrieveAccountSensitive"><title>GET /accounts/{accountId}/sensitive/{astvId}
+Account Sensitive line · retrieveAccountSensitive</title>
+<circle cx="1378" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1390" y="1537" text-anchor="start" style="fill:#1A1F2C">Get sensitive</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-subscriptions-api/#op-listAccountSubscriptions" target="_blank" class="st" data-op="listAccountSubscriptions"><title>GET /accounts/{accountId}/subscriptions
+Account Subscriptions line · listAccountSubscriptions</title>
+<circle cx="958" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="964" y="638" transform="rotate(-45 964 638)" style="fill:#1A1F2C">List subscriptions <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-subscriptions-api/#op-createAccountSubscription" target="_blank" class="st" data-op="createAccountSubscription"><title>POST /accounts/{accountId}/subscriptions
+Account Subscriptions line · createAccountSubscription</title>
+<circle cx="1042" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1054" y="655" text-anchor="start" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-subscriptions-api/#op-retrieveAccountSubscription" target="_blank" class="st" data-op="retrieveAccountSubscription"><title>GET /accounts/{accountId}/subscriptions/{subId}
+Account Subscriptions line · retrieveAccountSubscription</title>
+<circle cx="1084" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="697" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-subscriptions-api/#op-deleteAccountSubscription" target="_blank" class="st" data-op="deleteAccountSubscription"><title>DELETE /accounts/{accountId}/subscriptions/{subId}
+Account Subscriptions line · deleteAccountSubscription</title>
+<circle cx="1126" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1122" y1="738" x2="1130" y2="730" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1138" y="739" text-anchor="start" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-transactions-api/#op-listAccountTransactions" target="_blank" class="st" data-op="listAccountTransactions"><title>GET /accounts/{accountId}/transactions
+Account Verification Sessions line · listAccountTransactions</title>
+<circle cx="790" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="796" y="764" transform="rotate(-45 796 764)" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-transactions-api/#op-retrieveAccountTransaction" target="_blank" class="st" data-op="retrieveAccountTransaction"><title>GET /accounts/{accountId}/transactions/{accTxnId}
+Account Verification Sessions line · retrieveAccountTransaction</title>
+<circle cx="706" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="712" y="764" transform="rotate(-45 712 764)" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-updates-api/#op-listAccountUpdates" target="_blank" class="st" data-op="listAccountUpdates"><title>GET /accounts/{accountId}/updates
+Account Updates line · listAccountUpdates</title>
+<circle cx="1000" cy="1826" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1009" y="1845" text-anchor="start" style="fill:#1A1F2C">List updates <tspan font-weight="700" style="fill:#B0287F">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-updates-api/#op-createAccountUpdate" target="_blank" class="st" data-op="createAccountUpdate"><title>POST /accounts/{accountId}/updates
+Account Updates line · createAccountUpdate</title>
+<circle cx="1084" cy="1826" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1090" y="1814" transform="rotate(-45 1090 1814)" style="fill:#1A1F2C">Create update</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-updates-api/#op-retrieveAccountUpdate" target="_blank" class="st" data-op="retrieveAccountUpdate"><title>GET /accounts/{accountId}/updates/{updateId}
+Account Updates line · retrieveAccountUpdate</title>
+<circle cx="1168" cy="1826" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1162" y="1838" text-anchor="end" transform="rotate(-45 1162 1838)" style="fill:#1A1F2C">Get update</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-verification-sessions-api/#op-listAccountVerificationSessions" target="_blank" class="st" data-op="listAccountVerificationSessions"><title>GET /accounts/{accountId}/verification_sessions
+Account Verification Sessions line · listAccountVerificationSessions</title>
+<circle cx="664" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="652.0" y="781" text-anchor="end" style="fill:#1A1F2C">List verification sessions</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-verification-sessions-api/#op-createAccountVerificationSession" target="_blank" class="st" data-op="createAccountVerificationSession"><title>POST /accounts/{accountId}/verification_sessions
+Account Verification Sessions line · createAccountVerificationSession</title>
+<circle cx="580" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="697" text-anchor="start" style="fill:#1A1F2C">Create verification session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-verification-sessions-api/#op-retrieveAccountVerificationSession" target="_blank" class="st" data-op="retrieveAccountVerificationSession"><title>GET /accounts/{accountId}/verification_sessions/{avfId}
+Account Verification Sessions line · retrieveAccountVerificationSession</title>
+<circle cx="580" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="613" text-anchor="start" style="fill:#1A1F2C">Get verification session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-verification-sessions-api/#op-updateAccountVerificationSession" target="_blank" class="st" data-op="updateAccountVerificationSession"><title>PUT /accounts/{accountId}/verification_sessions/{avfId}
+Account Verification Sessions line · updateAccountVerificationSession</title>
+<circle cx="580" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="487" text-anchor="start" style="fill:#1A1F2C">Update verification session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-account-verification-sessions-api/#op-retrieveAccountVerificationSessionAmounts" target="_blank" class="st" data-op="retrieveAccountVerificationSessionAmounts"><title>GET /accounts/{accountId}/verification_sessions/{avfId}/amounts
+Account Verification Sessions line · retrieveAccountVerificationSessionAmounts</title>
+<circle cx="580" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="403" text-anchor="start" style="fill:#1A1F2C">List amounts</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-accounts-api/#op-listAccounts" target="_blank" class="st" data-op="listAccounts"><title>GET /accounts
+Accounts line · listAccounts</title>
+<circle cx="1000" cy="1448" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="1453" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-accounts-api/#op-createAccount" target="_blank" class="st" data-op="createAccount"><title>POST /accounts
+Accounts line · createAccount</title>
+<circle cx="1084" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1096" y="1537" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-accounts-api/#op-retrieveAccount" target="_blank" class="st" data-op="retrieveAccount"><title>GET /accounts/{accountId}
+Accounts line · retrieveAccount</title>
+<circle cx="1126" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1138" y="1579" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-accounts-api/#op-updateAccount" target="_blank" class="st" data-op="updateAccount"><title>PUT /accounts/{accountId}
+Accounts line · updateAccount</title>
+<circle cx="1168" cy="1616" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="1621" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-card-products-api/#op-retrieveCardProduct" target="_blank" class="st" data-op="retrieveCardProduct"><title>GET /card_products/{product_id}
+More Local line · retrieveCardProduct</title>
+<circle cx="1210" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="949" text-anchor="start" style="fill:#1A1F2C">Get card product</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-elements-api/#op-elementsCreateToken" target="_blank" class="st" data-op="elementsCreateToken"><title>POST /elements/token
+Elements line · elementsCreateToken
+DEPRECATED</title>
+<circle cx="1714" cy="1112" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1726" y="1117" text-anchor="start" style="fill:#A0A7B4">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-elements-api/#op-elementsRetrieveSessionResults" target="_blank" class="st" data-op="elementsRetrieveSessionResults"><title>GET /elements/token/{pk_elem_id}/results
+Elements line · elementsRetrieveSessionResults
+DEPRECATED</title>
+<circle cx="1714" cy="986" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1726" y="991" text-anchor="start" style="fill:#A0A7B4">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-elements-api/#op-elementsRetrieveSession" target="_blank" class="st" data-op="elementsRetrieveSession"><title>GET /elements/sessions/{session_id}
+Elements line · elementsRetrieveSession
+DEPRECATED</title>
+<circle cx="1588" cy="1238" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1600" y="1243" text-anchor="start" style="fill:#A0A7B4">Get session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-elements-api/#op-elementsUpdateSession" target="_blank" class="st" data-op="elementsUpdateSession"><title>PUT /elements/sessions/{session_id}
+Elements line · elementsUpdateSession
+DEPRECATED</title>
+<circle cx="1672" cy="1154" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1684" y="1159" text-anchor="start" style="fill:#A0A7B4">Update session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-elements-api/#op-elementsExchangeAccount" target="_blank" class="st" data-op="elementsExchangeAccount"><title>POST /elements/accounts/exchange
+Elements line · elementsExchangeAccount
+DEPRECATED</title>
+<circle cx="1546" cy="1280" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1558" y="1285" text-anchor="start" style="fill:#A0A7B4">Exchange elements accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entities-api/#op-listEntities" target="_blank" class="st" data-op="listEntities"><title>GET /entities
+Entities line · listEntities</title>
+<circle cx="748" cy="1112" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="760" y="1117" text-anchor="start" style="fill:#1A1F2C">List entities</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entities-api/#op-createEntity" target="_blank" class="st" data-op="createEntity"><title>POST /entities
+Entities line · createEntity</title>
+<circle cx="832" cy="1196" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="844" y="1201" text-anchor="start" style="fill:#1A1F2C">Create entity</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entities-api/#op-retrieveEntity" target="_blank" class="st" data-op="retrieveEntity"><title>GET /entities/{entityId}
+Entities line · retrieveEntity</title>
+<circle cx="916" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="1285" text-anchor="start" style="fill:#1A1F2C">Get entity</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entities-api/#op-updateEntity" target="_blank" class="st" data-op="updateEntity"><title>PUT /entities/{entityId}
+Entities line · updateEntity</title>
+<circle cx="958" cy="1322" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="970" y="1327" text-anchor="start" style="fill:#1A1F2C">Update entity</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-attributes-api/#op-listEntityAttributes" target="_blank" class="st" data-op="listEntityAttributes"><title>GET /entities/{entityId}/attributes
+Entity Attributes line · listEntityAttributes</title>
+<circle cx="1588" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600" y="1579" text-anchor="start" style="fill:#1A1F2C">List attributes <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-attributes-api/#op-createEntityAttributes" target="_blank" class="st" data-op="createEntityAttributes"><title>POST /entities/{entityId}/attributes
+Entity Attributes line · createEntityAttributes</title>
+<circle cx="1672" cy="1658" r="5.5" fill="#0d6676" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1684" y="1663" text-anchor="start" style="fill:#1A1F2C">Create attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-attributes-api/#op-retrieveEntityAttribute" target="_blank" class="st" data-op="retrieveEntityAttribute"><title>GET /entities/{entityId}/attributes/{attrId}
+Entity Attributes line · retrieveEntityAttribute</title>
+<circle cx="1756" cy="1742" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="1768" y="1747" text-anchor="start" style="fill:#1A1F2C">Get attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-connects-api/#op-listEntityConnects" target="_blank" class="st" data-op="listEntityConnects"><title>GET /entities/{entityId}/connect
+Entity Connects line · listEntityConnects</title>
+<circle cx="958" cy="2162" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="964" y="2150" transform="rotate(-45 964 2150)" style="fill:#1A1F2C">Get connect <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-connects-api/#op-createEntityConnect" target="_blank" class="st" data-op="createEntityConnect"><title>POST /entities/{entityId}/connect
+Entity Connects line · createEntityConnect</title>
+<circle cx="1042" cy="2162" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1048" y="2150" transform="rotate(-45 1048 2150)" style="fill:#1A1F2C">Update connect</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-connects-api/#op-retrieveEntityConnect" target="_blank" class="st" data-op="retrieveEntityConnect"><title>GET /entities/{entityId}/connect/{cxnId}
+Entity Connects line · retrieveEntityConnect</title>
+<circle cx="1210" cy="2162" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1222" y="2167" text-anchor="start" style="fill:#1A1F2C">Get connect</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-connects-api/#op-createEntityManualConnect" target="_blank" class="st" data-op="createEntityManualConnect"><title>POST /entities/{entityId}/manual_connect
+Entity Connects line · createEntityManualConnect</title>
+<circle cx="1336" cy="2120" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1342" y="2108" transform="rotate(-45 1342 2108)" style="fill:#1A1F2C">Update manual connect</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-connects-api/#op-retrieveEntityManualConnect" target="_blank" class="st" data-op="retrieveEntityManualConnect"><title>GET /entities/{entityId}/manual_connect/{mcxnId}
+Entity Connects line · retrieveEntityManualConnect</title>
+<circle cx="1378" cy="2120" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1384" y="2108" transform="rotate(-45 1384 2108)" style="fill:#1A1F2C">Get manual connect</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-consent-api/#op-updateEntityConsent" target="_blank" class="st" data-op="updateEntityConsent"><title>POST /entities/{entityId}/consent
+Entity Connects line · updateEntityConsent</title>
+<circle cx="1252" cy="2120" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1240.0" y="2125" text-anchor="end" style="fill:#1A1F2C">Update consent</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-credit-scores-api/#op-listEntityCreditScores" target="_blank" class="st" data-op="listEntityCreditScores"><title>GET /entities/{entityId}/credit_scores
+Entity Credit Scores line · listEntityCreditScores</title>
+<circle cx="916" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="1747" text-anchor="start" style="fill:#1A1F2C">List credit scores <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-credit-scores-api/#op-createEntityCreditScore" target="_blank" class="st" data-op="createEntityCreditScore"><title>POST /entities/{entityId}/credit_scores
+Entity Credit Scores line · createEntityCreditScore</title>
+<circle cx="874" cy="1700" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="862.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Create credit score</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-credit-scores-api/#op-retrieveEntityCreditScore" target="_blank" class="st" data-op="retrieveEntityCreditScore"><title>GET /entities/{entityId}/credit_scores/{crsId}
+Entity Credit Scores line · retrieveEntityCreditScore</title>
+<circle cx="790" cy="1616" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="802" y="1621" text-anchor="start" style="fill:#1A1F2C">Get credit score</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-identities-api/#op-listEntityIdentities" target="_blank" class="st" data-op="listEntityIdentities"><title>GET /entities/{entityId}/identities
+Entity Identities line · listEntityIdentities</title>
+<circle cx="1378" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1390" y="1789" text-anchor="start" style="fill:#1A1F2C">List identities <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-identities-api/#op-createEntityIdentity" target="_blank" class="st" data-op="createEntityIdentity"><title>POST /entities/{entityId}/identities
+Entity Identities line · createEntityIdentity</title>
+<circle cx="1336" cy="1742" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1348" y="1747" text-anchor="start" style="fill:#1A1F2C">Create identity</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-identities-api/#op-retrieveEntityIdentity" target="_blank" class="st" data-op="retrieveEntityIdentity"><title>GET /entities/{entityId}/identities/{idnId}
+Entity Identities line · retrieveEntityIdentity</title>
+<circle cx="1294" cy="1700" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1306" y="1705" text-anchor="start" style="fill:#1A1F2C">Get identity</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-products-api/#op-listEntityProducts" target="_blank" class="st" data-op="listEntityProducts"><title>GET /entities/{entityId}/products
+Entity Connects line · listEntityProducts</title>
+<circle cx="1462" cy="2120" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1474" y="2125" text-anchor="start" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-products-api/#op-retrieveEntityProduct" target="_blank" class="st" data-op="retrieveEntityProduct"><title>GET /entities/{entityId}/products/{prdId}
+Entity Connects line · retrieveEntityProduct</title>
+<circle cx="1546" cy="2204" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1558" y="2209" text-anchor="start" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-subscriptions-api/#op-listEntitySubscriptions" target="_blank" class="st" data-op="listEntitySubscriptions"><title>GET /entities/{entityId}/subscriptions
+Entity Subscriptions line · listEntitySubscriptions</title>
+<circle cx="1588" cy="230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1582" y="242" text-anchor="end" transform="rotate(-45 1582 242)" style="fill:#1A1F2C">List subscriptions <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-subscriptions-api/#op-createEntitySubscription" target="_blank" class="st" data-op="createEntitySubscription"><title>POST /entities/{entityId}/subscriptions
+Entity Subscriptions line · createEntitySubscription</title>
+<circle cx="1504" cy="230" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1510" y="218" transform="rotate(-45 1510 218)" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-subscriptions-api/#op-retrieveEntitySubscription" target="_blank" class="st" data-op="retrieveEntitySubscription"><title>GET /entities/{entityId}/subscriptions/{subId}
+Entity Subscriptions line · retrieveEntitySubscription</title>
+<circle cx="1420" cy="230" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1426" y="218" transform="rotate(-45 1426 218)" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-subscriptions-api/#op-deleteEntitySubscription" target="_blank" class="st" data-op="deleteEntitySubscription"><title>DELETE /entities/{entityId}/subscriptions/{subId}
+Entity Subscriptions line · deleteEntitySubscription</title>
+<circle cx="1336" cy="230" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<line x1="1332" y1="234" x2="1340" y2="226" stroke="#1d33a9" stroke-width="2"/>
+<text x="1342" y="218" transform="rotate(-45 1342 218)" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-vehicles-api/#op-listEntityVehicles" target="_blank" class="st" data-op="listEntityVehicles"><title>GET /entities/{entityId}/vehicles
+Entity Vehicles line · listEntityVehicles</title>
+<circle cx="1000" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1012" y="1663" text-anchor="start" style="fill:#1A1F2C">List vehicles <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-vehicles-api/#op-searchEntityVehicles" target="_blank" class="st" data-op="searchEntityVehicles"><title>POST /entities/{entityId}/vehicles
+Entity Vehicles line · searchEntityVehicles</title>
+<circle cx="916" cy="1574" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="928" y="1579" text-anchor="start" style="fill:#1A1F2C">Create vehicle</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-vehicles-api/#op-retrieveEntityVehicle" target="_blank" class="st" data-op="retrieveEntityVehicle"><title>GET /entities/{entityId}/vehicles/{vhlId}
+Entity Vehicles line · retrieveEntityVehicle</title>
+<circle cx="832" cy="1490" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="844" y="1495" text-anchor="start" style="fill:#1A1F2C">Get vehicle</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-verification-sessions-api/#op-listEntityVerificationSessions" target="_blank" class="st" data-op="listEntityVerificationSessions"><title>GET /entities/{entityId}/verification_sessions
+Entity Verification Sessions line · listEntityVerificationSessions</title>
+<circle cx="286" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="298" y="1327" text-anchor="start" style="fill:#1A1F2C">List verification sessions <tspan font-weight="700" style="fill:#5C6BC0">⇄ENT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-verification-sessions-api/#op-createEntityVerificationSession" target="_blank" class="st" data-op="createEntityVerificationSession"><title>POST /entities/{entityId}/verification_sessions
+Entity Verification Sessions line · createEntityVerificationSession</title>
+<circle cx="286" cy="1238" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="298" y="1243" text-anchor="start" style="fill:#1A1F2C">Create verification session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-verification-sessions-api/#op-retrieveEntityVerificationSession" target="_blank" class="st" data-op="retrieveEntityVerificationSession"><title>GET /entities/{entityId}/verification_sessions/{evfId}
+Entity Verification Sessions line · retrieveEntityVerificationSession</title>
+<circle cx="286" cy="1154" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="298" y="1159" text-anchor="start" style="fill:#1A1F2C">Get verification session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-entity-verification-sessions-api/#op-updateEntityVerificationSession" target="_blank" class="st" data-op="updateEntityVerificationSession"><title>PUT /entities/{entityId}/verification_sessions/{evfId}
+Entity Verification Sessions line · updateEntityVerificationSession</title>
+<circle cx="160" cy="1154" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="166" y="1142" transform="rotate(-45 166 1142)" style="fill:#1A1F2C">Update verification session</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-events-api/#op-listEvents" target="_blank" class="st" data-op="listEvents"><title>GET /events
+More Local line · listEvents</title>
+<circle cx="1210" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="1033" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-events-api/#op-retrieveEvent" target="_blank" class="st" data-op="retrieveEvent"><title>GET /events/{evtId}
+More Local line · retrieveEvent</title>
+<circle cx="1126" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1138" y="1117" text-anchor="start" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-forwarding-requests-api/#op-createForwardingRequest" target="_blank" class="st" data-op="createForwardingRequest"><title>POST /forwarding_requests
+More Local line · createForwardingRequest</title>
+<circle cx="1084" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1078" y="1166" text-anchor="end" transform="rotate(-45 1078 1166)" style="fill:#1A1F2C">Create forwarding request</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-forwarding-requests-api/#op-retrieveForwardingRequest" target="_blank" class="st" data-op="retrieveForwardingRequest"><title>GET /forwarding_requests/{id}
+More Local line · retrieveForwardingRequest</title>
+<circle cx="1042" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1030.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Get forwarding request</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-managed-accounts-api/#op-listManagedAccounts" target="_blank" class="st" data-op="listManagedAccounts"><title>GET /managed_accounts
+Managed Accounts line · listManagedAccounts</title>
+<circle cx="874" cy="1952" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="862.0" y="1957" text-anchor="end" style="fill:#1A1F2C">List managed accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-managed-accounts-api/#op-retrieveManagedAccount" target="_blank" class="st" data-op="retrieveManagedAccount"><title>GET /managed_accounts/{macc_id}
+Managed Accounts line · retrieveManagedAccount</title>
+<circle cx="832" cy="1910" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="844" y="1915" text-anchor="start" style="fill:#1A1F2C">Get managed account</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-managed-accounts-api/#op-listManagedAccountTransactions" target="_blank" class="st" data-op="listManagedAccountTransactions"><title>GET /managed_accounts/{macc_id}/transactions
+Managed Accounts line · listManagedAccountTransactions</title>
+<circle cx="790" cy="1868" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="802" y="1873" text-anchor="start" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-merchants-api/#op-listMerchants" target="_blank" class="st" data-op="listMerchants"><title>GET /merchants
+More Local line · listMerchants</title>
+<circle cx="1000" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1075" text-anchor="start" style="fill:#1A1F2C">List merchants</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-merchants-api/#op-retrieveMerchant" target="_blank" class="st" data-op="retrieveMerchant"><title>GET /merchants/{mchId}
+More Local line · retrieveMerchant</title>
+<circle cx="916" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="991" text-anchor="start" style="fill:#1A1F2C">Get merchant</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-opal-api/#op-retrieveOpalToken" target="_blank" class="st" data-op="retrieveOpalToken"><title>GET /opal/token
+Opal line · retrieveOpalToken</title>
+<circle cx="1168" cy="1952" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1162" y="1964" text-anchor="end" transform="rotate(-45 1162 1964)" style="fill:#1A1F2C">Get token</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-opal-api/#op-createOpalToken" target="_blank" class="st" data-op="createOpalToken"><title>POST /opal/token
+Opal line · createOpalToken</title>
+<circle cx="1084" cy="1952" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1090" y="1940" transform="rotate(-45 1090 1940)" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-opal-api/#op-deactivateOpalToken" target="_blank" class="st" data-op="deactivateOpalToken"><title>DELETE /opal/token
+Opal line · deactivateOpalToken</title>
+<circle cx="1000" cy="1952" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="996" y1="1956" x2="1004" y2="1948" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1006" y="1940" transform="rotate(-45 1006 1940)" style="fill:#1A1F2C">Delete token</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payment-reversals-api/#op-listPaymentReversals" target="_blank" class="st" data-op="listPaymentReversals"><title>GET /payments/{paymentId}/reversals
+Payment Reversals line · listPaymentReversals</title>
+<circle cx="496" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="484.0" y="1705" text-anchor="end" style="fill:#1A1F2C">List reversals <tspan font-weight="700" style="fill:#B0287F">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payment-reversals-api/#op-retrievePaymentReversal" target="_blank" class="st" data-op="retrievePaymentReversal"><title>GET /payments/{paymentId}/reversals/{reversalId}
+Payment Reversals line · retrievePaymentReversal</title>
+<circle cx="412" cy="1784" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<text x="424" y="1789" text-anchor="start" style="fill:#1A1F2C">Get reversal</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payment-reversals-api/#op-updatePaymentReversal" target="_blank" class="st" data-op="updatePaymentReversal"><title>PUT /payments/{paymentId}/reversals/{reversalId}
+Payment Reversals line · updatePaymentReversal</title>
+<circle cx="328" cy="1868" r="5.5" fill="#8b2351" stroke="#8b2351" stroke-width="2.5"/>
+<text x="340" y="1873" text-anchor="start" style="fill:#1A1F2C">Update reversal</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payments-api/#op-listPayments" target="_blank" class="st" data-op="listPayments"><title>GET /payments
+Payments line · listPayments</title>
+<circle cx="748" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="742" y="1754" text-anchor="end" transform="rotate(-45 742 1754)" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payments-api/#op-createPayment" target="_blank" class="st" data-op="createPayment"><title>POST /payments
+Payments line · createPayment</title>
+<circle cx="664" cy="1742" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="670" y="1730" transform="rotate(-45 670 1730)" style="fill:#1A1F2C">Create payment</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payments-api/#op-retrievePayment" target="_blank" class="st" data-op="retrievePayment"><title>GET /payments/{paymentId}
+Payments line · retrievePayment</title>
+<circle cx="580" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="568.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-payments-api/#op-deletePayment" target="_blank" class="st" data-op="deletePayment"><title>DELETE /payments/{paymentId}
+Payments line · deletePayment</title>
+<circle cx="580" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="576" y1="1620" x2="584" y2="1612" stroke="#B0287F" stroke-width="2"/>
+<text x="592" y="1621" text-anchor="start" style="fill:#1A1F2C">Delete payment</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-ping-api/#op-ping" target="_blank" class="st" data-op="ping"><title>GET /ping
+More Local line · ping</title>
+<circle cx="832" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="907" text-anchor="start" style="fill:#1A1F2C">Get ping</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-public-keys-api/#op-listPublicJwks" target="_blank" class="st" data-op="listPublicJwks"><title>GET /.well-known/jwks.json
+More Local line · listPublicJwks</title>
+<circle cx="1294" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="739" text-anchor="start" style="fill:#1A1F2C">List jwks</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-public-keys-api/#op-retrievePublicJwk" target="_blank" class="st" data-op="retrievePublicJwk"><title>GET /auth/{jwk_id}
+More Local line · retrievePublicJwk</title>
+<circle cx="1210" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="823" text-anchor="start" style="fill:#1A1F2C">Get auth</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-reports-api/#op-createReport" target="_blank" class="st" data-op="createReport"><title>POST /reports
+Reports line · createReport</title>
+<circle cx="1294" cy="1994" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1306" y="1999" text-anchor="start" style="fill:#1A1F2C">Create report</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-reports-api/#op-retrieveReport" target="_blank" class="st" data-op="retrieveReport"><title>GET /reports/{reportId}
+Reports line · retrieveReport</title>
+<circle cx="1336" cy="1952" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1348" y="1957" text-anchor="start" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-reports-api/#op-downloadReport" target="_blank" class="st" data-op="downloadReport"><title>GET /reports/{reportId}/download
+Reports line · downloadReport</title>
+<circle cx="1378" cy="1910" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1390" y="1915" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-secrets-api/#op-listSecrets" target="_blank" class="st" data-op="listSecrets"><title>GET /secrets
+Secrets line · listSecrets</title>
+<circle cx="1126" cy="2498" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="2503" text-anchor="start" style="fill:#1A1F2C">List secrets</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-secrets-api/#op-createSecret" target="_blank" class="st" data-op="createSecret"><title>POST /secrets
+Secrets line · createSecret</title>
+<circle cx="1126" cy="2414" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="2419" text-anchor="start" style="fill:#1A1F2C">Create secret</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-secrets-api/#op-retrieveSecret" target="_blank" class="st" data-op="retrieveSecret"><title>GET /secrets/{id}
+Secrets line · retrieveSecret</title>
+<circle cx="1126" cy="2330" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="2335" text-anchor="start" style="fill:#1A1F2C">Get secret</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-secrets-api/#op-deleteSecret" target="_blank" class="st" data-op="deleteSecret"><title>DELETE /secrets/{id}
+Secrets line · deleteSecret</title>
+<circle cx="1126" cy="2246" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1122" y1="2250" x2="1130" y2="2242" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1138" y="2251" text-anchor="start" style="fill:#1A1F2C">Delete secret</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-accounts-api/#op-simulateRetrieveVerificationAmounts" target="_blank" class="st" data-op="simulateRetrieveVerificationAmounts"><title>GET /simulate/accounts/{accountId}/verification_sessions/{avfId}/amounts
+Simulate Accounts line · simulateRetrieveVerificationAmounts</title>
+<circle cx="496" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="484.0" y="1495" text-anchor="end" style="fill:#1A1F2C">List amounts</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-accounts-api/#op-simulateCreateAccountTransaction" target="_blank" class="st" data-op="simulateCreateAccountTransaction"><title>POST /simulate/accounts/{accountId}/transactions
+Simulate Accounts line · simulateCreateAccountTransaction</title>
+<circle cx="496" cy="1406" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="1411" text-anchor="start" style="fill:#1A1F2C">Create transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-accounts-api/#op-simulateCreateAccountCardBrand" target="_blank" class="st" data-op="simulateCreateAccountCardBrand"><title>POST /simulate/accounts/{accountId}/card_brands
+Simulate Accounts line · simulateCreateAccountCardBrand</title>
+<circle cx="496" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="1327" text-anchor="start" style="fill:#1A1F2C">Create card brand</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-entities-api/#op-simulateEntityCreditScore" target="_blank" class="st" data-op="simulateEntityCreditScore"><title>POST /simulate/entities/{entity_id}/credit_scores/{crs_id}
+Simulate Entities line · simulateEntityCreditScore</title>
+<circle cx="286" cy="1532" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="292" y="1520" transform="rotate(-45 292 1520)" style="fill:#1A1F2C">Update credit score</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-entities-api/#op-simulateEntityConnect" target="_blank" class="st" data-op="simulateEntityConnect"><title>POST /simulate/entities/{entity_id}/connect
+Simulate Entities line · simulateEntityConnect</title>
+<circle cx="370" cy="1532" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="364" y="1544" text-anchor="end" transform="rotate(-45 364 1544)" style="fill:#1A1F2C">Update connect</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-entities-api/#op-simulateEntityAttributes" target="_blank" class="st" data-op="simulateEntityAttributes"><title>POST /simulate/entities/{entity_id}/attributes
+Simulate Entities line · simulateEntityAttributes</title>
+<circle cx="454" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="448" y="1544" text-anchor="end" transform="rotate(-45 448 1544)" style="fill:#1A1F2C">Create attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-events-api/#op-simulateCreateEvent" target="_blank" class="st" data-op="simulateCreateEvent"><title>POST /simulate/events
+Simulate Accounts line · simulateCreateEvent</title>
+<circle cx="580" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="592" y="1495" text-anchor="start" style="fill:#1A1F2C">Create event <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-payments-api/#op-simulateUpdatePaymentStatus" target="_blank" class="st" data-op="simulateUpdatePaymentStatus"><title>POST /simulate/payments/{paymentId}
+Simulate Accounts line · simulateUpdatePaymentStatus</title>
+<circle cx="664" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="676" y="1411" text-anchor="start" style="fill:#1A1F2C">Update payment <tspan font-weight="700" style="fill:#B0287F">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-simulate-payments-api/#op-simulatePostPaymentViaPaymentInstrument" target="_blank" class="st" data-op="simulatePostPaymentViaPaymentInstrument"><title>POST /simulate/payments/payment_instruments/{pmt_inst_id}
+Simulate Accounts line · simulatePostPaymentViaPaymentInstrument</title>
+<circle cx="748" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="1327" text-anchor="start" style="fill:#1A1F2C">Update payment instrument</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-retrieveTeam" target="_blank" class="st" data-op="retrieveTeam"><title>GET /teams
+Teams line · retrieveTeam</title>
+<circle cx="1168" cy="524" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1162" y="536" text-anchor="end" transform="rotate(-45 1162 536)" style="fill:#1A1F2C">List teams</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-createTeam" target="_blank" class="st" data-op="createTeam"><title>POST /teams
+Teams line · createTeam</title>
+<circle cx="1042" cy="524" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1030.0" y="529" text-anchor="end" style="fill:#1A1F2C">Create team</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-createTeamEncryptionKey" target="_blank" class="st" data-op="createTeamEncryptionKey"><title>POST /teams/default_encryption_key
+Teams line · createTeamEncryptionKey</title>
+<circle cx="1000" cy="482" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1012" y="487" text-anchor="start" style="fill:#1A1F2C">Update default encryption key</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-listTeamPublicKeys" target="_blank" class="st" data-op="listTeamPublicKeys"><title>GET /teams/mle/public_keys
+Teams line · listTeamPublicKeys</title>
+<circle cx="958" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="970" y="445" text-anchor="start" style="fill:#1A1F2C">List public keys</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-createTeamPublicKey" target="_blank" class="st" data-op="createTeamPublicKey"><title>POST /teams/mle/public_keys
+Teams line · createTeamPublicKey</title>
+<circle cx="874" cy="440" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="880" y="428" transform="rotate(-45 880 428)" style="fill:#1A1F2C">Create public key</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-retrieveTeamPublicKey" target="_blank" class="st" data-op="retrieveTeamPublicKey"><title>GET /teams/mle/public_keys/{id}
+Teams line · retrieveTeamPublicKey</title>
+<circle cx="790" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="796" y="428" transform="rotate(-45 796 428)" style="fill:#1A1F2C">Get public key</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-teams-api/#op-deleteTeamPublicKey" target="_blank" class="st" data-op="deleteTeamPublicKey"><title>DELETE /teams/mle/public_keys/{id}
+Teams line · deleteTeamPublicKey</title>
+<circle cx="706" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="702" y1="444" x2="710" y2="436" stroke="#7B3FE4" stroke-width="2"/>
+<text x="712" y="428" transform="rotate(-45 712 428)" style="fill:#1A1F2C">Delete public key</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-webhooks-api/#op-listWebhooks" target="_blank" class="st" data-op="listWebhooks"><title>GET /webhooks
+Webhooks line · listWebhooks</title>
+<circle cx="1840" cy="1658" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1852" y="1663" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-webhooks-api/#op-createWebhook" target="_blank" class="st" data-op="createWebhook"><title>POST /webhooks
+Webhooks line · createWebhook</title>
+<circle cx="1756" cy="1574" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1768" y="1579" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-webhooks-api/#op-retrieveWebhook" target="_blank" class="st" data-op="retrieveWebhook"><title>GET /webhooks/{webhookId}
+Webhooks line · retrieveWebhook</title>
+<circle cx="1756" cy="1448" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1768" y="1453" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-webhooks-api/#op-updateWebhook" target="_blank" class="st" data-op="updateWebhook"><title>PATCH /webhooks/{webhookId}
+Webhooks line · updateWebhook</title>
+<circle cx="1756" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1768" y="1369" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/method-financial/method-financial-webhooks-api/#op-deleteWebhook" target="_blank" class="st" data-op="deleteWebhook"><title>DELETE /webhooks/{webhookId}
+Webhooks line · deleteWebhook</title>
+<circle cx="1756" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1752" y1="1284" x2="1760" y2="1276" stroke="#B8860B" stroke-width="2"/>
+<text x="1768" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<text x="2324" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2324" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">VERIFICATION SESSIONS</text>
+<rect x="2324" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2341" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AVS</text><text x="2366" y="269" font-size="11" fill="#1A1F2C">Account Verification Sessions <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2324" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="2341" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EVS</text><text x="2366" y="286" font-size="11" fill="#1A1F2C">Entity Verification Sessions <tspan fill="#8A93A6">4</tspan></text>
+<text x="2324" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">SIMULATE</text>
+<rect x="2324" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2341" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SA</text><text x="2366" y="329" font-size="11" fill="#1A1F2C">Simulate Accounts <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2324" y="336" width="34" height="13" rx="3" fill="#0d7768"/><text x="2341" y="346" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SE</text><text x="2366" y="346" font-size="11" fill="#1A1F2C">Simulate Entities <tspan fill="#8A93A6">3</tspan></text>
+<text x="2324" y="372" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">SUBSCRIPTIONS</text>
+<rect x="2324" y="379" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2341" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AS</text><text x="2366" y="389" font-size="11" fill="#1A1F2C">Account Subscriptions <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2324" y="396" width="34" height="13" rx="3" fill="#1d33a9"/><text x="2341" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ES</text><text x="2366" y="406" font-size="11" fill="#1A1F2C">Entity Subscriptions <tspan fill="#8A93A6">4</tspan></text>
+<text x="2324" y="432" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">CONNECT</text>
+<rect x="2324" y="439" width="34" height="13" rx="3" fill="#E07B12"/><text x="2341" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EC</text><text x="2366" y="449" font-size="11" fill="#1A1F2C">Entity Connects <tspan fill="#8A93A6">8</tspan></text>
+<text x="2324" y="475" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">TEAMS</text>
+<rect x="2324" y="482" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2341" y="492" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="2366" y="492" font-size="11" fill="#1A1F2C">Teams <tspan fill="#8A93A6">7</tspan></text>
+<text x="2324" y="518" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">PAYMENTS</text>
+<rect x="2324" y="525" width="34" height="13" rx="3" fill="#B0287F"/><text x="2341" y="535" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="2366" y="535" font-size="11" fill="#1A1F2C">Payments <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2324" y="542" width="34" height="13" rx="3" fill="#8b2351"/><text x="2341" y="552" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PR</text><text x="2366" y="552" font-size="11" fill="#1A1F2C">Payment Reversals <tspan fill="#8A93A6">3</tspan></text>
+<text x="2324" y="578" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ATTRIBUTES</text>
+<rect x="2324" y="585" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2341" y="595" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AA</text><text x="2366" y="595" font-size="11" fill="#1A1F2C">Account Attributes <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="602" width="34" height="13" rx="3" fill="#0d6676"/><text x="2341" y="612" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EA</text><text x="2366" y="612" font-size="11" fill="#1A1F2C">Entity Attributes <tspan fill="#8A93A6">3</tspan></text>
+<text x="2324" y="638" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">WEBHOOKS</text>
+<rect x="2324" y="645" width="34" height="13" rx="3" fill="#B8860B"/><text x="2341" y="655" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2366" y="655" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">5</tspan></text>
+<text x="2324" y="681" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">ELEMENTS</text>
+<rect x="2324" y="688" width="34" height="13" rx="3" fill="#C2410C"/><text x="2341" y="698" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ELE</text><text x="2366" y="698" font-size="11" fill="#1A1F2C">Elements <tspan fill="#8A93A6">5</tspan></text>
+<text x="2324" y="724" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">PAYMENT INSTRUMENTS</text>
+<rect x="2324" y="731" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2341" y="741" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">API</text><text x="2366" y="741" font-size="11" fill="#1A1F2C">Account Payment Instruments <tspan fill="#8A93A6">4</tspan></text>
+<text x="2324" y="767" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">SECRETS</text>
+<rect x="2324" y="774" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2341" y="784" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SEC</text><text x="2366" y="784" font-size="11" fill="#1A1F2C">Secrets <tspan fill="#8A93A6">4</tspan></text>
+<text x="2324" y="810" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2324" y="817" width="34" height="13" rx="3" fill="#D6264F"/><text x="2341" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2366" y="827" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2324" y="834" width="34" height="13" rx="3" fill="#B0287F"/><text x="2341" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="2366" y="844" font-size="11" fill="#1A1F2C">Accounts <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2324" y="851" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2341" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENT</text><text x="2366" y="861" font-size="11" fill="#1A1F2C">Entities <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2324" y="868" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2341" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AB</text><text x="2366" y="878" font-size="11" fill="#1A1F2C">Account Balances <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="885" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2341" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACB</text><text x="2366" y="895" font-size="11" fill="#1A1F2C">Account Card Brands <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="902" width="34" height="13" rx="3" fill="#00838F"/><text x="2341" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AP</text><text x="2366" y="912" font-size="11" fill="#1A1F2C">Account Payoffs <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="919" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2341" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACS</text><text x="2366" y="929" font-size="11" fill="#1A1F2C">Account Sensitive <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="936" width="34" height="13" rx="3" fill="#B8860B"/><text x="2341" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AU</text><text x="2366" y="946" font-size="11" fill="#1A1F2C">Account Updates <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="953" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2341" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ECS</text><text x="2366" y="963" font-size="11" fill="#1A1F2C">Entity Credit Scores <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="970" width="34" height="13" rx="3" fill="#E07B12"/><text x="2341" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EI</text><text x="2366" y="980" font-size="11" fill="#1A1F2C">Entity Identities <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="987" width="34" height="13" rx="3" fill="#C2410C"/><text x="2341" y="997" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EV</text><text x="2366" y="997" font-size="11" fill="#1A1F2C">Entity Vehicles <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="1004" width="34" height="13" rx="3" fill="#4A5568"/><text x="2341" y="1014" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MA</text><text x="2366" y="1014" font-size="11" fill="#1A1F2C">Managed Accounts <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="1021" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2341" y="1031" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPA</text><text x="2366" y="1031" font-size="11" fill="#1A1F2C">Opal <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2324" y="1038" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2341" y="1048" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="2366" y="1048" font-size="11" fill="#1A1F2C">Reports <tspan fill="#8A93A6">3</tspan></text>
+<text x="2574" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2592,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2618" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2592,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2618" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2592,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2618" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2592,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2618" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2592,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2618" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2592,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2618" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2592,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2618" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2592,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2618" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2574" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2574" y="463" font-size="10.5" fill="#5A6275">“Account Consent” → Account Verification Sessions line · 1 op</text>
+<text x="2574" y="478" font-size="10.5" fill="#5A6275">“Account Products” → Account Verification Sessions line · 2 ops</text>
+<text x="2574" y="493" font-size="10.5" fill="#5A6275">“Account Transactions” → Account Verification Sessions line · 2 ops</text>
+<text x="2574" y="508" font-size="10.5" fill="#5A6275">“Card Products” → More Local line · 1 op</text>
+<text x="2574" y="523" font-size="10.5" fill="#5A6275">“Entity Consent” → Entity Connects line · 1 op</text>
+<text x="2574" y="538" font-size="10.5" fill="#5A6275">“Entity Products” → Entity Connects line · 2 ops</text>
+<text x="2574" y="553" font-size="10.5" fill="#5A6275">“Events” → More Local line · 2 ops</text>
+<text x="2574" y="568" font-size="10.5" fill="#5A6275">“Forwarding Requests” → More Local line · 2 ops</text>
+<text x="2574" y="583" font-size="10.5" fill="#5A6275">“Merchants” → More Local line · 2 ops</text>
+<text x="2574" y="598" font-size="10.5" fill="#5A6275">“Ping” → More Local line · 1 op</text>
+<text x="2574" y="613" font-size="10.5" fill="#5A6275">“Public Keys” → More Local line · 2 ops</text>
+<text x="2574" y="628" font-size="10.5" fill="#5A6275">“Simulate Events” → Simulate Accounts line · 1 op</text>
+<text x="2574" y="643" font-size="10.5" fill="#5A6275">“Simulate Payments” → Simulate Accounts line · 2 ops</text>
+<text x="2574" y="693" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2574" y="710" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2628" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/method-financial/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

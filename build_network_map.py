@@ -627,6 +627,35 @@ for _ in range(3):
             if best is not None: break
         if best is not None:
             P[i] = best
+# small stranded groups (Atlassian Jira: pairs and trios of stops 100+ cells out) move as a unit:
+# components of the 'within 10 cells' graph other than the main body slide until they sit beside it
+if N > 20:
+    from scipy.sparse.csgraph import connected_components as _cc
+    from scipy.sparse import coo_matrix as _coo
+    for _ in range(4):
+        tree = _KD(P.astype(float)); prs = np.array(sorted(tree.query_pairs(10.0)) or [(0, 0)])
+        ncomp, lab = _cc(_coo((np.ones(len(prs)), (prs[:, 0], prs[:, 1])), shape=(N, N)), directed=False)
+        if ncomp <= 1:
+            break
+        main = np.bincount(lab).argmax()
+        body = P[lab == main].astype(float); btree = _KD(body)
+        movedc = 0
+        for c in range(ncomp):
+            idxs = np.where(lab == c)[0]
+            if c == main or len(idxs) > 0.05 * N or any(i in INSET_IDX for i in idxs):
+                continue
+            grp = P[idxs].astype(float); d, j = btree.query(grp); k = int(np.argmin(d))
+            if d[k] <= 10:
+                continue
+            v = body[j[k]] - grp[k]; v = v / np.linalg.norm(v)
+            # step toward the body until the group is 4-8 cells from it and on free cells
+            for t in np.arange(d[k] - 8, 0, -1.0):
+                shift = np.round(v * t)
+                g2 = grp + shift
+                if btree.query(g2)[0].min() >= 3:
+                    P[idxs] = g2.astype(P.dtype); movedc += 1; break
+        if not movedc:
+            break
 print('stray-stop docking done', file=sys.stderr)
 
 # ---------- render ----------

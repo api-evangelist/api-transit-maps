@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1700 894" width="1700" height="894" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1700" height="894" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Tealium API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">18 operations as stops · 4 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="626.6666666666666" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">TEALIUM</text>
+<path class="line" data-line="Collect" d="M454.0,566.0 L538.0,566.0 L622.0,566.0 L692.0,566.0 Q706.0,566.0 715.9,556.1 L748.0,524.0 L832.0,440.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Collect</title></path>
+<path class="line" data-line="Privacy" d="M1000.0,734.0 L916.0,734.0 L832.0,734.0 L748.0,734.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Privacy</title></path>
+<path class="line" data-line="Wp Json" d="M916.0,230.0 L832.0,230.0 L748.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Wp Json</title></path>
+<path class="line" data-line="Tealium Local" d="M160.0,734.0 L244.0,650.0 L318.1,575.9 Q328.0,566.0 328.0,552.0 L328.0,482.0 L328.0,398.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Tealium Local</title></path>
+<line x1="454" y1="566" x2="420.0" y2="566.0" stroke="#D6264F" stroke-width="7"/><rect x="396.0" y="555.0" width="48" height="22" rx="5" fill="#D6264F"><title>Collect</title></rect><text x="420.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="832" y1="440" x2="856.0416305603426" y2="415.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="832.0416305603426" y="404.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>Collect</title></rect><text x="856.0416305603426" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="1000" y1="734" x2="1034.0" y2="734.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1010.0" y="723.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Privacy</title></rect><text x="1034.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRI</text>
+<line x1="748" y1="734" x2="714.0" y2="734.0" stroke="#1F5FD1" stroke-width="7"/><rect x="690.0" y="723.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Privacy</title></rect><text x="714.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRI</text>
+<line x1="916" y1="230" x2="950.0" y2="230.0" stroke="#E07B12" stroke-width="7"/><rect x="926.0" y="219.0" width="48" height="22" rx="5" fill="#E07B12"><title>Wp Json</title></rect><text x="950.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WJ</text>
+<line x1="748" y1="230" x2="714.0" y2="230.0" stroke="#E07B12" stroke-width="7"/><rect x="690.0" y="219.0" width="48" height="22" rx="5" fill="#E07B12"><title>Wp Json</title></rect><text x="714.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WJ</text>
+<line x1="160" y1="734" x2="135.9583694396574" y2="758.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="747.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tealium Local</title></rect><text x="135.9583694396574" y="763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TL</text>
+<line x1="328" y1="398" x2="328.0" y2="364.0" stroke="#0E9F6E" stroke-width="7"/><rect x="304.0" y="353.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tealium Local</title></rect><text x="328.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TL</text>
+<a href="https://apis.apis.io/apis/tealium/tealium-auth-api/#op-generateBearerToken" target="_blank" class="st" data-op="generateBearerToken"><title>POST /auth/accounts/{account}/profiles/{profile}
+Tealium Local line · generateBearerToken</title>
+<circle cx="160" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="739" text-anchor="start" style="fill:#1A1F2C">Update profile</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-collect-api/#op-collectEventGet" target="_blank" class="st" data-op="collectEventGet"><title>GET /collect/event
+Collect line · collectEventGet</title>
+<circle cx="538" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="544" y="554" transform="rotate(-45 544 554)" style="fill:#1A1F2C">Get event</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-collect-api/#op-collectEventPost" target="_blank" class="st" data-op="collectEventPost"><title>POST /collect/event
+Collect line · collectEventPost</title>
+<circle cx="622" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="628" y="554" transform="rotate(-45 628 554)" style="fill:#1A1F2C">Update event</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-collect-api/#op-collectBulkEvent" target="_blank" class="st" data-op="collectBulkEvent"><title>POST /collect/bulk-event
+Collect line · collectBulkEvent</title>
+<circle cx="454" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="460" y="554" transform="rotate(-45 460 554)" style="fill:#1A1F2C">Update bulk event</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-collect-api/#op-collectRegionalEvent" target="_blank" class="st" data-op="collectRegionalEvent"><title>POST /collect/regional/event
+Collect line · collectRegionalEvent</title>
+<circle cx="832" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="445" text-anchor="start" style="fill:#1A1F2C">Update event</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-collect-api/#op-collectRegionalBulkEvent" target="_blank" class="st" data-op="collectRegionalBulkEvent"><title>POST /collect/regional/bulk-event
+Collect line · collectRegionalBulkEvent</title>
+<circle cx="748" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="529" text-anchor="start" style="fill:#1A1F2C">Update bulk event</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-collect-api/#op-collectIntegrationEvent" target="_blank" class="st" data-op="collectIntegrationEvent"><title>POST /collect/integration/event/accounts/{account}/profiles/{profile}/datasources/{datasourceId}
+Collect line · collectIntegrationEvent</title>
+<circle cx="706" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="571" text-anchor="start" style="fill:#1A1F2C">Update datasource</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-customer-api/#op-getVisitorProfile" target="_blank" class="st" data-op="getVisitorProfile"><title>GET /customer/visitor/accounts/{account}/profiles/{profile}
+Tealium Local line · getVisitorProfile</title>
+<circle cx="244" cy="650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="256" y="655" text-anchor="start" style="fill:#1A1F2C">Get profile</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-customer-api/#op-getHistoricalVisitorProfile" target="_blank" class="st" data-op="getHistoricalVisitorProfile"><title>GET /customer/visitor/historical/accounts/{account}/profiles/{profile}
+Tealium Local line · getHistoricalVisitorProfile</title>
+<circle cx="328" cy="566" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="316.0" y="571" text-anchor="end" style="fill:#1A1F2C">Get profile</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-personalization-api/#op-getMomentsByVisitorId" target="_blank" class="st" data-op="getMomentsByVisitorId"><title>GET /personalization/accounts/{account}/profiles/{profile}/engines/{engineId}/visitors/{visitorId}
+Tealium Local line · getMomentsByVisitorId</title>
+<circle cx="328" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="403" text-anchor="start" style="fill:#1A1F2C">Get visitor</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-personalization-api/#op-getMomentsByAttributeValue" target="_blank" class="st" data-op="getMomentsByAttributeValue"><title>GET /personalization/accounts/{account}/profiles/{profile}/engines/{engineId}
+Tealium Local line · getMomentsByAttributeValue</title>
+<circle cx="328" cy="482" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="487" text-anchor="start" style="fill:#1A1F2C">Get engine</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-privacy-api/#op-getPrivacyVisitor" target="_blank" class="st" data-op="getPrivacyVisitor"><title>GET /privacy/visitor/accounts/{account}/profiles/{profile}
+Privacy line · getPrivacyVisitor</title>
+<circle cx="1000" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="994" y="746" text-anchor="end" transform="rotate(-45 994 746)" style="fill:#1A1F2C">Get profile</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-privacy-api/#op-deletePrivacyVisitor" target="_blank" class="st" data-op="deletePrivacyVisitor"><title>DELETE /privacy/visitor/accounts/{account}/profiles/{profile}
+Privacy line · deletePrivacyVisitor</title>
+<circle cx="916" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="912" y1="738" x2="920" y2="730" stroke="#1F5FD1" stroke-width="2"/>
+<text x="922" y="722" transform="rotate(-45 922 722)" style="fill:#1A1F2C">Delete profile</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-privacy-api/#op-getDeleteTransactionStatus" target="_blank" class="st" data-op="getDeleteTransactionStatus"><title>GET /privacy/visitor/accounts/{account}/profiles/{profile}/transactions/{transaction_id}
+Privacy line · getDeleteTransactionStatus</title>
+<circle cx="748" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="754" y="722" transform="rotate(-45 754 722)" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-privacy-api/#op-getVisitorIdAttributes" target="_blank" class="st" data-op="getVisitorIdAttributes"><title>GET /privacy/visitor/accounts/{account}/profiles/{profile}/ids
+Privacy line · getVisitorIdAttributes</title>
+<circle cx="832" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="838" y="722" transform="rotate(-45 838 722)" style="fill:#1A1F2C">List ids</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-wp-json-api/#op-getStatus" target="_blank" class="st" data-op="getStatus"><title>GET /wp-json/ai/v1/status
+Wp Json line · getStatus</title>
+<circle cx="748" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="754" y="218" transform="rotate(-45 754 218)" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-wp-json-api/#op-getFAQ" target="_blank" class="st" data-op="getFAQ"><title>GET /wp-json/ai/v1/faq
+Wp Json line · getFAQ</title>
+<circle cx="832" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="838" y="218" transform="rotate(-45 838 218)" style="fill:#1A1F2C">Get faq</text>
+</a>
+<a href="https://apis.apis.io/apis/tealium/tealium-wp-json-api/#op-getDocsPointer" target="_blank" class="st" data-op="getDocsPointer"><title>GET /wp-json/ai/v1/docs
+Wp Json line · getDocsPointer</title>
+<circle cx="916" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="910" y="242" text-anchor="end" transform="rotate(-45 910 242)" style="fill:#1A1F2C">List docs</text>
+</a>
+<text x="1190" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1190" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">TEALIUM</text>
+<rect x="1190" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1207" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COL</text><text x="1232" y="269" font-size="11" fill="#1A1F2C">Collect <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1190" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1207" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TL</text><text x="1232" y="286" font-size="11" fill="#1A1F2C">Tealium Local <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1190" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1207" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRI</text><text x="1232" y="303" font-size="11" fill="#1A1F2C">Privacy <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1190" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1207" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WJ</text><text x="1232" y="320" font-size="11" fill="#1A1F2C">Wp Json <tspan fill="#8A93A6">3</tspan></text>
+<text x="1440" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1458,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1458,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1484" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1458,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1484" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1458,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1484" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1458,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1484" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1458,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1484" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1458,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1484" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1458,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1484" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1440" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1440" y="463" font-size="10.5" fill="#5A6275">“Auth” → Tealium Local line · 1 op</text>
+<text x="1440" y="478" font-size="10.5" fill="#5A6275">“Customer” → Tealium Local line · 2 ops</text>
+<text x="1440" y="493" font-size="10.5" fill="#5A6275">“Personalization” → Tealium Local line · 2 ops</text>
+<text x="1440" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1440" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="864" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/tealium/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

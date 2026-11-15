@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1616 1188" width="1616" height="1188" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1616" height="1188" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Ortto API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">11 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="541.8181818181819" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">ORTTO</text>
+<path class="line" data-line="People" d="M790.0,1028.0 L790.0,916.0 Q790.0,902.0 799.9,892.1 L832.0,860.0 L916.0,776.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>People</title></path>
+<path class="line" data-line="Ortto Local" d="M496.0,230.0 L496.0,314.0 L496.0,384.0 Q496.0,398.0 486.1,407.9 L412.0,482.0 L337.9,556.1 Q328.0,566.0 314.0,566.0 L244.0,566.0 L160.0,566.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Ortto Local</title></path>
+<line x1="790" y1="1028" x2="790.0" y2="1062.0" stroke="#0E9F6E" stroke-width="7"/><rect x="766.0" y="1051.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>People</title></rect><text x="790.0" y="1067.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PEO</text>
+<line x1="916" y1="776" x2="940.0416305603426" y2="751.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="916.0416305603426" y="740.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>People</title></rect><text x="940.0416305603426" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PEO</text>
+<line x1="496" y1="230" x2="496.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="472.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Ortto Local</title></rect><text x="496.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OL</text>
+<line x1="160" y1="566" x2="126.0" y2="566.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="555.0" width="48" height="22" rx="5" fill="#D6264F"><title>Ortto Local</title></rect><text x="126.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OL</text>
+<a href="https://apis.apis.io/apis/ortto/ortto-accounts-api/#op-mergeAccounts" target="_blank" class="st" data-op="mergeAccounts"><title>POST /accounts/merge
+Ortto Local line · mergeAccounts</title>
+<circle cx="496" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="235" text-anchor="start" style="fill:#1A1F2C">Merge accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-activities-api/#op-createActivities" target="_blank" class="st" data-op="createActivities"><title>POST /activities/create
+Ortto Local line · createActivities</title>
+<circle cx="496" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="319" text-anchor="start" style="fill:#1A1F2C">Create activities</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-campaigns-api/#op-getCampaignCalendar" target="_blank" class="st" data-op="getCampaignCalendar"><title>POST /campaign/calendar
+Ortto Local line · getCampaignCalendar</title>
+<circle cx="496" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="403" text-anchor="start" style="fill:#1A1F2C">Calendar campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-campaigns-api/#op-getCampaignReport" target="_blank" class="st" data-op="getCampaignReport"><title>POST /campaign/reports/get
+Ortto Local line · getCampaignReport</title>
+<circle cx="412" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="487" text-anchor="start" style="fill:#1A1F2C">Get campaign reports</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-people-api/#op-mergePeople" target="_blank" class="st" data-op="mergePeople"><title>POST /person/merge
+People line · mergePeople</title>
+<circle cx="916" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="781" text-anchor="start" style="fill:#1A1F2C">Merge person</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-people-api/#op-getPeople" target="_blank" class="st" data-op="getPeople"><title>POST /person/get
+People line · getPeople</title>
+<circle cx="790" cy="902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="907" text-anchor="start" style="fill:#1A1F2C">Get person</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-people-api/#op-getPeopleByIds" target="_blank" class="st" data-op="getPeopleByIds"><title>POST /person/get-by-ids
+People line · getPeopleByIds</title>
+<circle cx="832" cy="860" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="865" text-anchor="start" style="fill:#1A1F2C">Get by ids person</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-people-api/#op-deletePeople" target="_blank" class="st" data-op="deletePeople"><title>POST /person/delete
+People line · deletePeople</title>
+<circle cx="790" cy="1028" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete person</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-tags-api/#op-getTags" target="_blank" class="st" data-op="getTags"><title>POST /tags/get
+Ortto Local line · getTags</title>
+<circle cx="328" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="571" text-anchor="start" style="fill:#1A1F2C">Get tags</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-transactional-api/#op-sendTransactionalEmail" target="_blank" class="st" data-op="sendTransactionalEmail"><title>POST /transactional/send
+Ortto Local line · sendTransactionalEmail</title>
+<circle cx="244" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="554" transform="rotate(-45 250 554)" style="fill:#1A1F2C">Send transactional</text>
+</a>
+<a href="https://apis.apis.io/apis/ortto/ortto-transactional-api/#op-sendTransactionalSms" target="_blank" class="st" data-op="sendTransactionalSms"><title>POST /transactional/send-sms
+Ortto Local line · sendTransactionalSms</title>
+<circle cx="160" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="554" transform="rotate(-45 166 554)" style="fill:#1A1F2C">Send sms transactional</text>
+</a>
+<text x="1106" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1106" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">ORTTO</text>
+<rect x="1106" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1123" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OL</text><text x="1148" y="269" font-size="11" fill="#1A1F2C">Ortto Local <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1106" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1123" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PEO</text><text x="1148" y="286" font-size="11" fill="#1A1F2C">People <tspan fill="#8A93A6">4</tspan></text>
+<text x="1356" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1374,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1374,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1374,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1400" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1374,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1400" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1374,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1400" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1374,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1400" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1374,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1400" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1374,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1400" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1356" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1356" y="463" font-size="10.5" fill="#5A6275">“Accounts” → Ortto Local line · 1 op</text>
+<text x="1356" y="478" font-size="10.5" fill="#5A6275">“Activities” → Ortto Local line · 1 op</text>
+<text x="1356" y="493" font-size="10.5" fill="#5A6275">“Campaigns” → Ortto Local line · 2 ops</text>
+<text x="1356" y="508" font-size="10.5" fill="#5A6275">“Tags” → Ortto Local line · 1 op</text>
+<text x="1356" y="523" font-size="10.5" fill="#5A6275">“Transactional” → Ortto Local line · 2 ops</text>
+<text x="1356" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1356" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1158" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/ortto/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

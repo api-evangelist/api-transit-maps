@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1784 1188" width="1784" height="1188" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1784" height="1188" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Sift-Com API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">16 operations as stops · 3 tags as lines · 0 interchanges · 7 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="603.625" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">SIFT COM</text>
+<path class="line" data-line="Decisions" d="M1084.0,608.0 L1000.0,608.0 L930.0,608.0 Q916.0,608.0 906.1,617.9 L874.0,650.0 L841.9,682.1 Q832.0,692.0 832.0,706.0 L832.0,776.0 L832.0,902.0 L832.0,986.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Decisions</title></path>
+<path class="line" data-line="Verification" d="M202.0,860.0 L286.0,944.0 L370.0,1028.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Verification</title></path>
+<path class="line" data-line="Sift Com Local" d="M412.0,230.0 L412.0,342.0 Q412.0,356.0 402.1,365.9 L379.9,388.1 Q370.0,398.0 356.0,398.0 L244.0,398.0 L160.0,398.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Sift Com Local</title></path>
+<line x1="1084" y1="608" x2="1118.0" y2="608.0" stroke="#D6264F" stroke-width="7"/><rect x="1094.0" y="597.0" width="48" height="22" rx="5" fill="#D6264F"><title>Decisions</title></rect><text x="1118.0" y="613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEC</text>
+<line x1="832" y1="986" x2="832.0" y2="1020.0" stroke="#D6264F" stroke-width="7"/><rect x="808.0" y="1009.0" width="48" height="22" rx="5" fill="#D6264F"><title>Decisions</title></rect><text x="832.0" y="1025.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEC</text>
+<line x1="202" y1="860" x2="177.9583694396574" y2="835.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="153.9583694396574" y="824.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Verification</title></rect><text x="177.9583694396574" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VER</text>
+<line x1="370" y1="1028" x2="394.04163056034264" y2="1052.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="370.04163056034264" y="1041.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Verification</title></rect><text x="394.04163056034264" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VER</text>
+<line x1="412" y1="230" x2="412.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="388.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Sift Com Local</title></rect><text x="412.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCL</text>
+<line x1="160" y1="398" x2="126.0" y2="398.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="387.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Sift Com Local</title></rect><text x="126.0" y="403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCL</text>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-decisions-api/#op-applyUserDecision" target="_blank" class="st" data-op="applyUserDecision"><title>POST /accounts/{account_id}/users/{user_id}/decisions
+Decisions line · applyUserDecision
+Express: X3, X4, X6</title>
+<circle cx="874" cy="650" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="871" y="647" width="6" height="6" transform="rotate(45 874 650)" fill="#1A1F2C"/>
+<text x="886" y="655" text-anchor="start" style="fill:#1A1F2C">Create decision</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-decisions-api/#op-getUserDecision" target="_blank" class="st" data-op="getUserDecision"><title>GET /accounts/{account_id}/users/{user_id}/decisions
+Decisions line · getUserDecision
+Express: X3</title>
+<circle cx="916" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="913" y="605" width="6" height="6" transform="rotate(45 916 608)" fill="#1A1F2C"/>
+<text x="904.0" y="613" text-anchor="end" style="fill:#1A1F2C">List decisions</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-decisions-api/#op-applyOrderDecision" target="_blank" class="st" data-op="applyOrderDecision"><title>POST /accounts/{account_id}/users/{user_id}/orders/{order_id}/decisions
+Decisions line · applyOrderDecision
+Express: X5</title>
+<circle cx="832" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="829" y="689" width="6" height="6" transform="rotate(45 832 692)" fill="#1A1F2C"/>
+<text x="844" y="697" text-anchor="start" style="fill:#1A1F2C">Create decision</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-decisions-api/#op-applySessionDecision" target="_blank" class="st" data-op="applySessionDecision"><title>POST /accounts/{account_id}/users/{user_id}/sessions/{session_id}/decisions
+Decisions line · applySessionDecision
+Express: X6</title>
+<circle cx="832" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="829" y="773" width="6" height="6" transform="rotate(45 832 776)" fill="#1A1F2C"/>
+<text x="844" y="781" text-anchor="start" style="fill:#1A1F2C">Create decision</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-decisions-api/#op-applyContentDecision" target="_blank" class="st" data-op="applyContentDecision"><title>POST /accounts/{account_id}/users/{user_id}/content/{content_id}/decisions
+Decisions line · applyContentDecision</title>
+<circle cx="1000" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1006" y="596" transform="rotate(-45 1006 596)" style="fill:#1A1F2C">Create decision</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-decisions-api/#op-listDecisions" target="_blank" class="st" data-op="listDecisions"><title>GET /accounts/{account_id}/decisions
+Decisions line · listDecisions
+Express: X3</title>
+<circle cx="1084" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1081" y="605" width="6" height="6" transform="rotate(45 1084 608)" fill="#1A1F2C"/>
+<text x="1078" y="620" text-anchor="end" transform="rotate(-45 1078 620)" style="fill:#1A1F2C">List decisions</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-events-api/#op-sendEvent" target="_blank" class="st" data-op="sendEvent"><title>POST /events
+Sift Com Local line · sendEvent
+Express: X1, X2, X4, X5, X6, X7</title>
+<circle cx="412" cy="230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="409" y="227" width="6" height="6" transform="rotate(45 412 230)" fill="#1A1F2C"/>
+<text x="424" y="235" text-anchor="start" style="fill:#1A1F2C">Create event</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-labels-api/#op-applyLabel" target="_blank" class="st" data-op="applyLabel"><title>POST /users/{user_id}/labels
+Sift Com Local line · applyLabel
+Express: X1</title>
+<circle cx="244" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="241" y="395" width="6" height="6" transform="rotate(45 244 398)" fill="#1A1F2C"/>
+<text x="250" y="386" transform="rotate(-45 250 386)" style="fill:#1A1F2C">Create label</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-labels-api/#op-removeLabel" target="_blank" class="st" data-op="removeLabel"><title>DELETE /users/{user_id}/labels
+Sift Com Local line · removeLabel</title>
+<circle cx="160" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="156" y1="402" x2="164" y2="394" stroke="#0E9F6E" stroke-width="2"/>
+<text x="166" y="386" transform="rotate(-45 166 386)" style="fill:#1A1F2C">Delete label</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-scores-api/#op-getScore" target="_blank" class="st" data-op="getScore"><title>GET /score/{user_id}
+Sift Com Local line · getScore
+Express: X1, X3, X4, X5, X6</title>
+<circle cx="370" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="367" y="395" width="6" height="6" transform="rotate(45 370 398)" fill="#1A1F2C"/>
+<text x="382" y="403" text-anchor="start" style="fill:#1A1F2C">Get score</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-scores-api/#op-rescoreUser" target="_blank" class="st" data-op="rescoreUser"><title>POST /rescore/{user_id}
+Sift Com Local line · rescoreUser
+Express: X1</title>
+<circle cx="412" cy="356" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="409" y="353" width="6" height="6" transform="rotate(45 412 356)" fill="#1A1F2C"/>
+<text x="424" y="361" text-anchor="start" style="fill:#1A1F2C">Update rescore</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-verification-api/#op-sendVerification" target="_blank" class="st" data-op="sendVerification"><title>POST /verification/send
+Verification line · sendVerification
+Express: X2</title>
+<circle cx="370" cy="1028" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="367" y="1025" width="6" height="6" transform="rotate(45 370 1028)" fill="#1A1F2C"/>
+<text x="382" y="1033" text-anchor="start" style="fill:#1A1F2C">Send verification</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-verification-api/#op-resendVerification" target="_blank" class="st" data-op="resendVerification"><title>POST /verification/resend
+Verification line · resendVerification</title>
+<circle cx="286" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="298" y="949" text-anchor="start" style="fill:#1A1F2C">Update resend</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-verification-api/#op-checkVerification" target="_blank" class="st" data-op="checkVerification"><title>POST /verification/check
+Verification line · checkVerification
+Express: X2</title>
+<circle cx="202" cy="860" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="199" y="857" width="6" height="6" transform="rotate(45 202 860)" fill="#1A1F2C"/>
+<text x="214" y="865" text-anchor="start" style="fill:#1A1F2C">Update check</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-workflows-api/#op-getWorkflowRun" target="_blank" class="st" data-op="getWorkflowRun"><title>GET /accounts/{account_id}/workflows/runs/{run_id}
+Decisions line · getWorkflowRun
+Express: X7</title>
+<circle cx="832" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="829" y="983" width="6" height="6" transform="rotate(45 832 986)" fill="#1A1F2C"/>
+<text x="844" y="991" text-anchor="start" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/sift-com/sift-com-workflows-api/#op-listUserWorkflowRuns" target="_blank" class="st" data-op="listUserWorkflowRuns"><title>GET /accounts/{account_id}/users/{user_id}/workflows
+Decisions line · listUserWorkflowRuns
+Express: X7</title>
+<circle cx="832" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="829" y="899" width="6" height="6" transform="rotate(45 832 902)" fill="#1A1F2C"/>
+<text x="844" y="907" text-anchor="start" style="fill:#1A1F2C">List workflows</text>
+</a>
+<text x="1274" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1274" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SIFT COM</text>
+<rect x="1274" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1291" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DEC</text><text x="1316" y="269" font-size="11" fill="#1A1F2C">Decisions <tspan fill="#8A93A6">8</tspan></text>
+<rect x="1274" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1291" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCL</text><text x="1316" y="286" font-size="11" fill="#1A1F2C">Sift Com Local <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1274" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1291" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VER</text><text x="1316" y="303" font-size="11" fill="#1A1F2C">Verification <tspan fill="#8A93A6">3</tspan></text>
+<text x="1524" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1542,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1542,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1568" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1542,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1568" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1542,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1568" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1542,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1568" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1542,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1568" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1542,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1568" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1542,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1568" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1524" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1524" y="463" font-size="10.5" fill="#5A6275">“Events” → Sift Com Local line · 1 op</text>
+<text x="1524" y="478" font-size="10.5" fill="#5A6275">“Labels” → Sift Com Local line · 2 ops</text>
+<text x="1524" y="493" font-size="10.5" fill="#5A6275">“Scores” → Sift Com Local line · 2 ops</text>
+<text x="1524" y="508" font-size="10.5" fill="#5A6275">“Workflows” → Decisions line · 2 ops</text>
+<text x="1524" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1524" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="sendEvent applyLabel rescoreUser getScore"><rect x="1524" y="587" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="598" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1561" y="598" font-size="11" fill="#1A1F2C">Sift Chargeback Label And Resc</text></g>
+<g class="rt" data-stops="sendEvent sendVerification checkVerification"><rect x="1524" y="606" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="617" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1561" y="617" font-size="11" fill="#1A1F2C">Sift Login Step-Up Verificatio</text></g>
+<g class="rt" data-stops="getScore listDecisions applyUserDecision getUserDecision"><rect x="1524" y="625" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="636" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1561" y="636" font-size="11" fill="#1A1F2C">Sift Manual Review And Decide </text></g>
+<g class="rt" data-stops="sendEvent getScore applyUserDecision"><rect x="1524" y="644" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="655" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1561" y="655" font-size="11" fill="#1A1F2C">Sift Screen Account Creation</text></g>
+<g class="rt" data-stops="sendEvent getScore applyOrderDecision"><rect x="1524" y="663" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="674" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1561" y="674" font-size="11" fill="#1A1F2C">Sift Screen Order And Transact</text></g>
+<g class="rt" data-stops="sendEvent getScore applyUserDecision applySessionDecision"><rect x="1524" y="682" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="693" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1561" y="693" font-size="11" fill="#1A1F2C">Sift Transaction Score And Dec</text></g>
+<g class="rt" data-stops="sendEvent listUserWorkflowRuns getWorkflowRun"><rect x="1524" y="701" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1539" y="712" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1561" y="712" font-size="11" fill="#1A1F2C">Sift Workflow Run Evaluation</text></g>
+<text x="160" y="1158" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/sift-com/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
