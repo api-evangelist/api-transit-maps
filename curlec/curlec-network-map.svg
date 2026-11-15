@@ -1,0 +1,862 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3674 2364" width="3674" height="2364" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3674" height="2364" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Curlec API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">136 operations as stops · 26 tags as lines · 12 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1294.0,1406.0 L1433.7,1545.7 Q1462.0,1574.0 1462.0,1614.0 L1462.0,1742.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1316.0" y="1562.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1378.0" y="1578.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Accounts ⇄ Documents</title>1 interchange</text></g>
+<path d="M1336.0,734.0 L1433.7,831.7 Q1462.0,860.0 1462.0,900.0 L1462.0,1742.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1337.0" y="1226.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1399.0" y="1242.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Accounts ⇄ More</title>1 interchange</text></g>
+<path d="M1252.0,1112.0 L1517.7,846.3 Q1546.0,818.0 1586.0,818.0 L2050.0,818.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1589.0" y="953.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1651.0" y="969.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Payments ⇄ Transfers</title>1 interchange</text></g>
+<path d="M2974.0,608.0 L2792.3,789.7 Q2764.0,818.0 2724.0,818.0 L2050.0,818.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="2450.0" y="701.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="2512.0" y="717.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Payments ⇄ Virtual Accounts</title>1 interchange</text></g>
+<path d="M1546.0,1112.0 L1490.3,1167.7 Q1462.0,1196.0 1462.0,1236.0 L1462.0,1742.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1442.0" y="1415.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1504.0" y="1431.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Accounts ⇄ Transfers</title>1 interchange</text></g>
+<text x="2018.9565217391305" y="328" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">PAYMENTS</text>
+<text x="1424.2" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">SUBSCRIPTIONS</text>
+<text x="2629.6" y="538" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">VIRTUAL ACCOUNTS</text>
+<text x="1550.2" y="1168" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">ACCOUNTS</text>
+<text x="1546.0" y="1588" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">CUSTOMERS</text>
+<text x="1787.5" y="1252" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">INVOICES</text>
+<text x="1530.25" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">TRANSFERS</text>
+<text x="1318.0" y="1168" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">DOCUMENTS</text>
+<text x="346.0" y="748" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">FUND ACCOUNTS</text>
+<text x="1511.0" y="1798" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">PAYMENT LINKS</text>
+<text x="902.0" y="1462" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">SETTLEMENTS</text>
+<text x="891.8181818181819" y="412" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<path class="line" data-line="Bills" d="M580.0,986.0 L622.0,1028.0 L706.0,1112.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Bills</title></path>
+<path class="line" data-line="Customers" d="M1924.0,1700.0 L1840.0,1784.0 L1807.9,1816.1 Q1798.0,1826.0 1798.0,1840.0 L1798.0,1952.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Customers</title></path>
+<path class="line" data-line="Disputes" d="M1126.0,608.0 L1042.0,692.0 L1000.0,734.0 L958.0,776.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Disputes</title></path>
+<path class="line" data-line="Documents" d="M1336.0,1574.0 L1261.9,1499.9 Q1252.0,1490.0 1238.0,1490.0 L1168.0,1490.0" fill="none" stroke="#8e820c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Documents</title></path>
+<path class="line" data-line="Instant Settlements" d="M958.0,1742.0 L958.0,1616.0 L958.0,1532.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Instant Settlements</title></path>
+<path class="line" data-line="Invoices" d="M1588.0,1742.0 L1672.0,1742.0 L1700.0,1742.0 Q1714.0,1742.0 1723.9,1732.1 L1798.0,1658.0 L1872.1,1583.9 Q1882.0,1574.0 1882.0,1560.0 L1882.0,1490.0 L1882.0,1406.0 L1882.0,1322.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invoices</title></path>
+<path class="line" data-line="Items" d="M538.0,650.0 L622.0,650.0 L650.0,650.0 Q664.0,650.0 673.9,640.1 L748.0,566.0 L832.0,482.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Items</title></path>
+<path class="line" data-line="Linked Accounts" d="M1462.0,1826.0 L1462.0,1742.0 L1462.0,1616.0 L1462.0,1532.0 L1462.0,1420.0 Q1462.0,1406.0 1471.9,1396.1 L1504.0,1364.0 L1546.0,1322.0 L1620.1,1247.9 Q1630.0,1238.0 1644.0,1238.0 L1714.0,1238.0 L1798.0,1238.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Linked Accounts</title></path>
+<path class="line" data-line="Orders" d="M2218.0,398.0 L2218.0,510.0 Q2218.0,524.0 2208.1,533.9 L2176.0,566.0 L2101.9,640.1 Q2092.0,650.0 2092.0,664.0 L2092.0,734.0" fill="none" stroke="#dd5b93" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Partner Documents" d="M1294.0,1406.0 L1336.0,1364.0 L1378.0,1322.0 L1462.0,1238.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Partner Documents</title></path>
+<path class="line" data-line="Partner Webhooks" d="M1336.0,734.0 L1252.0,818.0 L1219.9,850.1 Q1210.0,860.0 1210.0,874.0 L1210.0,930.0 Q1210.0,944.0 1224.0,944.0 L1336.0,944.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Partner Webhooks</title></path>
+<path class="line" data-line="QR Codes" d="M1966.0,776.0 L1882.0,776.0 L1854.0,776.0 Q1840.0,776.0 1830.1,766.1 L1765.9,701.9 Q1756.0,692.0 1756.0,678.0 L1756.0,622.0 Q1756.0,608.0 1746.1,598.1 L1723.9,575.9 Q1714.0,566.0 1700.0,566.0 L1588.0,566.0 L1504.0,566.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>QR Codes</title></path>
+<path class="line" data-line="Payment Links" d="M1462.0,2204.0 L1462.0,2120.0 L1462.0,2050.0 Q1462.0,2036.0 1471.9,2026.1 L1504.0,1994.0 L1546.0,1952.0 L1630.0,1868.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Links</title></path>
+<path class="line" data-line="Payments" d="M2092.0,902.0 L2059.9,869.9 Q2050.0,860.0 2050.0,846.0 L2050.0,832.0 Q2050.0,818.0 2040.1,827.9 L1966.0,902.0 L1882.0,986.0" fill="none" stroke="#e86a51" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payments</title></path>
+<path class="line" data-line="Plans" d="M748.0,1532.0 L832.0,1448.0 L916.0,1364.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Plans</title></path>
+<path class="line" data-line="Refunds" d="M2176.0,818.0 L2176.0,972.0 Q2176.0,986.0 2190.0,986.0 L2218.0,986.0 L2288.0,986.0 Q2302.0,986.0 2311.9,995.9 L2344.0,1028.0 L2428.0,1112.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Refunds</title></path>
+<path class="line" data-line="Settlements" d="M790.0,1658.0 L864.1,1732.1 Q874.0,1742.0 874.0,1756.0 L874.0,1868.0" fill="none" stroke="#4b46ac" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Settlements</title></path>
+<path class="line" data-line="Subscriptions" d="M1462.0,944.0 L1462.0,860.0 L1462.0,776.0 L1462.0,706.0 Q1462.0,692.0 1452.1,682.1 L1387.9,617.9 Q1378.0,608.0 1378.0,594.0 L1378.0,524.0 L1378.0,454.0 Q1378.0,440.0 1387.9,430.1 L1410.1,407.9 Q1420.0,398.0 1420.0,384.0 L1420.0,314.0 L1420.0,230.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscriptions</title></path>
+<path class="line" data-line="Transfers" d="M1252.0,1112.0 L1336.0,1112.0 L1420.0,1112.0 L1532.0,1112.0 Q1546.0,1112.0 1555.9,1102.1 L1588.0,1070.0 L1630.0,1028.0 L1714.0,944.0 L1756.0,902.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transfers</title></path>
+<path class="line" data-line="Virtual Accounts" d="M2974.0,608.0 L2890.0,692.0 L2806.0,776.0 L2764.0,818.0 L2689.9,892.1 Q2680.0,902.0 2666.0,902.0 L2596.0,902.0 L2526.0,902.0 Q2512.0,902.0 2502.1,892.1 L2437.9,827.9 Q2428.0,818.0 2414.0,818.0 L2358.0,818.0 Q2344.0,818.0 2334.1,827.9 L2302.0,860.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Accounts</title></path>
+<path class="line" data-line="X Account Validation" d="M370.0,902.0 L440.0,902.0 Q454.0,902.0 463.9,892.1 L538.0,818.0" fill="none" stroke="#97510d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>X Account Validation</title></path>
+<path class="line" data-line="X Contacts" d="M1252.0,1658.0 L1252.0,1742.0 L1252.0,1826.0 L1252.0,1910.0" fill="none" stroke="#8823d6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>X Contacts</title></path>
+<path class="line" data-line="X Fund Accounts" d="M160.0,818.0 L244.0,902.0 L286.0,944.0 L370.0,1028.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>X Fund Accounts</title></path>
+<path class="line" data-line="X Payout Links" d="M1084.0,1406.0 L1084.0,1322.0 L1084.0,1238.0 L1084.0,1154.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>X Payout Links</title></path>
+<path class="line" data-line="X Payouts" d="M832.0,818.0 L906.1,892.1 Q916.0,902.0 916.0,916.0 L916.0,972.0 Q916.0,986.0 906.1,995.9 L841.9,1060.1 Q832.0,1070.0 832.0,1084.0 L832.0,1154.0 L832.0,1238.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>X Payouts</title></path>
+<path class="line" data-line="More Local" d="M496.0,1112.0 L570.1,1186.1 Q580.0,1196.0 580.0,1210.0 L580.0,1322.0" fill="none" stroke="#1F5FD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="580" y1="986" x2="555.9583694396574" y2="961.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="531.9583694396574" y="950.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Bills</title></rect><text x="555.9583694396574" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="706" y1="1112" x2="730.0416305603426" y2="1136.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="706.0416305603426" y="1125.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Bills</title></rect><text x="730.0416305603426" y="1141.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BIL</text>
+<line x1="1924" y1="1700" x2="1948.0416305603426" y2="1675.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1924.0416305603426" y="1664.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Customers</title></rect><text x="1948.0416305603426" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="1798" y1="1952" x2="1798.0" y2="1986.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1774.0" y="1975.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Customers</title></rect><text x="1798.0" y="1991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="1126" y1="608" x2="1150.0416305603426" y2="583.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1126.0416305603426" y="572.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Disputes</title></rect><text x="1150.0416305603426" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="958" y1="776" x2="933.9583694396574" y2="800.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="909.9583694396574" y="789.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Disputes</title></rect><text x="933.9583694396574" y="805.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIS</text>
+<line x1="1336" y1="1574" x2="1360.0416305603426" y2="1598.0416305603426" stroke="#8e820c" stroke-width="7"/><rect x="1336.0416305603426" y="1587.0416305603426" width="48" height="22" rx="5" fill="#8e820c"><title>Documents</title></rect><text x="1360.0416305603426" y="1603.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOC</text>
+<line x1="1168" y1="1490" x2="1134.0" y2="1490.0" stroke="#8e820c" stroke-width="7"/><rect x="1110.0" y="1479.0" width="48" height="22" rx="5" fill="#8e820c"><title>Documents</title></rect><text x="1134.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOC</text>
+<line x1="958" y1="1742" x2="958.0" y2="1776.0" stroke="#5C6BC0" stroke-width="7"/><rect x="934.0" y="1765.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Instant Settlements</title></rect><text x="958.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IS</text>
+<line x1="958" y1="1532" x2="958.0" y2="1498.0" stroke="#5C6BC0" stroke-width="7"/><rect x="934.0" y="1487.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Instant Settlements</title></rect><text x="958.0" y="1503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IS</text>
+<line x1="1588" y1="1742" x2="1554.0" y2="1742.0" stroke="#B0287F" stroke-width="7"/><rect x="1530.0" y="1731.0" width="48" height="22" rx="5" fill="#B0287F"><title>Invoices</title></rect><text x="1554.0" y="1747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="1882" y1="1322" x2="1882.0" y2="1288.0" stroke="#B0287F" stroke-width="7"/><rect x="1858.0" y="1277.0" width="48" height="22" rx="5" fill="#B0287F"><title>Invoices</title></rect><text x="1882.0" y="1293.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="538" y1="650" x2="504.0" y2="650.0" stroke="#B0287F" stroke-width="7"/><rect x="480.0" y="639.0" width="48" height="22" rx="5" fill="#B0287F"><title>Items</title></rect><text x="504.0" y="655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ITE</text>
+<line x1="832" y1="482" x2="856.0416305603426" y2="457.95836943965736" stroke="#B0287F" stroke-width="7"/><rect x="832.0416305603426" y="446.95836943965736" width="48" height="22" rx="5" fill="#B0287F"><title>Items</title></rect><text x="856.0416305603426" y="462.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ITE</text>
+<line x1="1462" y1="1826" x2="1462.0" y2="1860.0" stroke="#E07B12" stroke-width="7"/><rect x="1438.0" y="1849.0" width="48" height="22" rx="5" fill="#E07B12"><title>Linked Accounts</title></rect><text x="1462.0" y="1865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LA</text>
+<line x1="1798" y1="1238" x2="1832.0" y2="1238.0" stroke="#E07B12" stroke-width="7"/><rect x="1808.0" y="1227.0" width="48" height="22" rx="5" fill="#E07B12"><title>Linked Accounts</title></rect><text x="1832.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LA</text>
+<line x1="2218" y1="398" x2="2218.0" y2="364.0" stroke="#dd5b93" stroke-width="7"/><rect x="2194.0" y="353.0" width="48" height="22" rx="5" fill="#dd5b93"><title>Orders</title></rect><text x="2218.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="2092" y1="734" x2="2092.0" y2="768.0" stroke="#dd5b93" stroke-width="7"/><rect x="2068.0" y="757.0" width="48" height="22" rx="5" fill="#dd5b93"><title>Orders</title></rect><text x="2092.0" y="773.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="1294" y1="1406" x2="1269.9583694396574" y2="1430.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1245.9583694396574" y="1419.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Partner Documents</title></rect><text x="1269.9583694396574" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PD</text>
+<line x1="1462" y1="1238" x2="1486.0416305603426" y2="1213.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1462.0416305603426" y="1202.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Partner Documents</title></rect><text x="1486.0416305603426" y="1218.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PD</text>
+<line x1="1336" y1="734" x2="1360.0416305603426" y2="709.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1336.0416305603426" y="698.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Partner Webhooks</title></rect><text x="1360.0416305603426" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PW</text>
+<line x1="1336" y1="944" x2="1370.0" y2="944.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1346.0" y="933.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Partner Webhooks</title></rect><text x="1370.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PW</text>
+<line x1="1966" y1="776" x2="2000.0" y2="776.0" stroke="#D6264F" stroke-width="7"/><rect x="1976.0" y="765.0" width="48" height="22" rx="5" fill="#D6264F"><title>QR Codes</title></rect><text x="2000.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QC</text>
+<line x1="1504" y1="566" x2="1470.0" y2="566.0" stroke="#D6264F" stroke-width="7"/><rect x="1446.0" y="555.0" width="48" height="22" rx="5" fill="#D6264F"><title>QR Codes</title></rect><text x="1470.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QC</text>
+<line x1="1462" y1="2204" x2="1462.0" y2="2238.0" stroke="#2E7D32" stroke-width="7"/><rect x="1438.0" y="2227.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Payment Links</title></rect><text x="1462.0" y="2243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PL</text>
+<line x1="1630" y1="1868" x2="1654.0416305603426" y2="1843.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1630.0416305603426" y="1832.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Payment Links</title></rect><text x="1654.0416305603426" y="1848.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PL</text>
+<line x1="2092" y1="902" x2="2116.0416305603426" y2="926.0416305603426" stroke="#e86a51" stroke-width="7"/><rect x="2092.0416305603426" y="915.0416305603426" width="48" height="22" rx="5" fill="#e86a51"><title>Payments</title></rect><text x="2116.0416305603426" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="1882" y1="986" x2="1857.9583694396574" y2="1010.0416305603426" stroke="#e86a51" stroke-width="7"/><rect x="1833.9583694396574" y="999.0416305603426" width="48" height="22" rx="5" fill="#e86a51"><title>Payments</title></rect><text x="1857.9583694396574" y="1015.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="748" y1="1532" x2="723.9583694396574" y2="1556.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="699.9583694396574" y="1545.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Plans</title></rect><text x="723.9583694396574" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLA</text>
+<line x1="916" y1="1364" x2="940.0416305603426" y2="1339.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="916.0416305603426" y="1328.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Plans</title></rect><text x="940.0416305603426" y="1344.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLA</text>
+<line x1="2176" y1="818" x2="2176.0" y2="784.0" stroke="#af2328" stroke-width="7"/><rect x="2152.0" y="773.0" width="48" height="22" rx="5" fill="#af2328"><title>Refunds</title></rect><text x="2176.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REF</text>
+<line x1="2428" y1="1112" x2="2452.0416305603426" y2="1136.0416305603426" stroke="#af2328" stroke-width="7"/><rect x="2428.0416305603426" y="1125.0416305603426" width="48" height="22" rx="5" fill="#af2328"><title>Refunds</title></rect><text x="2452.0416305603426" y="1141.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REF</text>
+<line x1="790" y1="1658" x2="765.9583694396574" y2="1633.9583694396574" stroke="#4b46ac" stroke-width="7"/><rect x="741.9583694396574" y="1622.9583694396574" width="48" height="22" rx="5" fill="#4b46ac"><title>Settlements</title></rect><text x="765.9583694396574" y="1638.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SET</text>
+<line x1="874" y1="1868" x2="874.0" y2="1902.0" stroke="#4b46ac" stroke-width="7"/><rect x="850.0" y="1891.0" width="48" height="22" rx="5" fill="#4b46ac"><title>Settlements</title></rect><text x="874.0" y="1907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SET</text>
+<line x1="1462" y1="944" x2="1462.0" y2="978.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1438.0" y="967.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Subscriptions</title></rect><text x="1462.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1420" y1="230" x2="1420.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1396.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Subscriptions</title></rect><text x="1420.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1252" y1="1112" x2="1218.0" y2="1112.0" stroke="#0B7A75" stroke-width="7"/><rect x="1194.0" y="1101.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Transfers</title></rect><text x="1218.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1756" y1="902" x2="1780.0416305603426" y2="877.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1756.0416305603426" y="866.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Transfers</title></rect><text x="1780.0416305603426" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="2974" y1="608" x2="2998.0416305603426" y2="583.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="2974.0416305603426" y="572.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Virtual Accounts</title></rect><text x="2998.0416305603426" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VA</text>
+<line x1="2302" y1="860" x2="2277.9583694396574" y2="884.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="2253.9583694396574" y="873.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Virtual Accounts</title></rect><text x="2277.9583694396574" y="889.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VA</text>
+<line x1="370" y1="902" x2="336.0" y2="902.0" stroke="#97510d" stroke-width="7"/><rect x="312.0" y="891.0" width="48" height="22" rx="5" fill="#97510d"><title>X Account Validation</title></rect><text x="336.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XAV</text>
+<line x1="538" y1="818" x2="562.0416305603426" y2="793.9583694396574" stroke="#97510d" stroke-width="7"/><rect x="538.0416305603426" y="782.9583694396574" width="48" height="22" rx="5" fill="#97510d"><title>X Account Validation</title></rect><text x="562.0416305603426" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XAV</text>
+<line x1="1252" y1="1658" x2="1252.0" y2="1624.0" stroke="#8823d6" stroke-width="7"/><rect x="1228.0" y="1613.0" width="48" height="22" rx="5" fill="#8823d6"><title>X Contacts</title></rect><text x="1252.0" y="1629.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XC</text>
+<line x1="1252" y1="1910" x2="1252.0" y2="1944.0" stroke="#8823d6" stroke-width="7"/><rect x="1228.0" y="1933.0" width="48" height="22" rx="5" fill="#8823d6"><title>X Contacts</title></rect><text x="1252.0" y="1949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XC</text>
+<line x1="160" y1="818" x2="135.9583694396574" y2="793.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="111.95836943965739" y="782.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>X Fund Accounts</title></rect><text x="135.9583694396574" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XFA</text>
+<line x1="370" y1="1028" x2="394.04163056034264" y2="1052.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="370.04163056034264" y="1041.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>X Fund Accounts</title></rect><text x="394.04163056034264" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XFA</text>
+<line x1="1084" y1="1406" x2="1084.0" y2="1440.0" stroke="#0B7A75" stroke-width="7"/><rect x="1060.0" y="1429.0" width="48" height="22" rx="5" fill="#0B7A75"><title>X Payout Links</title></rect><text x="1084.0" y="1445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XPL</text>
+<line x1="1084" y1="1154" x2="1084.0" y2="1120.0" stroke="#0B7A75" stroke-width="7"/><rect x="1060.0" y="1109.0" width="48" height="22" rx="5" fill="#0B7A75"><title>X Payout Links</title></rect><text x="1084.0" y="1125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XPL</text>
+<line x1="832" y1="818" x2="807.9583694396574" y2="793.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="783.9583694396574" y="782.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>X Payouts</title></rect><text x="807.9583694396574" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XP</text>
+<line x1="832" y1="1238" x2="832.0" y2="1272.0" stroke="#D6264F" stroke-width="7"/><rect x="808.0" y="1261.0" width="48" height="22" rx="5" fill="#D6264F"><title>X Payouts</title></rect><text x="832.0" y="1277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">XP</text>
+<line x1="496" y1="1112" x2="471.95836943965736" y2="1087.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="447.95836943965736" y="1076.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>More Local</title></rect><text x="471.95836943965736" y="1092.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="580" y1="1322" x2="580.0" y2="1356.0" stroke="#1F5FD1" stroke-width="7"/><rect x="556.0" y="1345.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>More Local</title></rect><text x="580.0" y="1361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/curlec/curlec-bills-api/#op-createBill" target="_blank" class="st" data-op="createBill"><title>POST /bills
+Bills line · createBill</title>
+<circle cx="580" cy="986" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="592" y="991" text-anchor="start" style="fill:#1A1F2C">Create bill</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-bills-api/#op-updateBill" target="_blank" class="st" data-op="updateBill"><title>PATCH /bills/{bill_id}
+Bills line · updateBill</title>
+<circle cx="622" cy="1028" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="634" y="1033" text-anchor="start" style="fill:#1A1F2C">Update bill</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-bills-api/#op-deleteBill" target="_blank" class="st" data-op="deleteBill"><title>DELETE /bills/{bill_id}
+Bills line · deleteBill</title>
+<circle cx="706" cy="1112" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="702" y1="1116" x2="710" y2="1108" stroke="#00838F" stroke-width="2"/>
+<text x="718" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete bill</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-customers-api/#op-createCustomer" target="_blank" class="st" data-op="createCustomer"><title>POST /customers
+Customers line · createCustomer</title>
+<circle cx="1840" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1852" y="1789" text-anchor="start" style="fill:#1A1F2C">Create customer <tspan font-weight="700" style="fill:#8823d6">⇄XC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-customers-api/#op-fetchAllCustomers" target="_blank" class="st" data-op="fetchAllCustomers"><title>GET /customers
+Customers line · fetchAllCustomers</title>
+<circle cx="1924" cy="1700" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1936" y="1705" text-anchor="start" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-customers-api/#op-fetchCustomer" target="_blank" class="st" data-op="fetchCustomer"><title>GET /customers/{id}
+Customers line · fetchCustomer</title>
+<circle cx="1798" cy="1826" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1810" y="1831" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-customers-api/#op-updateCustomer" target="_blank" class="st" data-op="updateCustomer"><title>PUT /customers/{id}
+Customers line · updateCustomer</title>
+<circle cx="1798" cy="1952" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1810" y="1957" text-anchor="start" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-disputes-api/#op-fetchAllDisputes" target="_blank" class="st" data-op="fetchAllDisputes"><title>GET /disputes
+Disputes line · fetchAllDisputes</title>
+<circle cx="1126" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1138" y="613" text-anchor="start" style="fill:#1A1F2C">List disputes</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-disputes-api/#op-fetchDispute" target="_blank" class="st" data-op="fetchDispute"><title>GET /disputes/{id}
+Disputes line · fetchDispute</title>
+<circle cx="1042" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="697" text-anchor="start" style="fill:#1A1F2C">Get dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-disputes-api/#op-acceptDispute" target="_blank" class="st" data-op="acceptDispute"><title>POST /disputes/{id}/accept
+Disputes line · acceptDispute</title>
+<circle cx="1000" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1012" y="739" text-anchor="start" style="fill:#1A1F2C">Accept dispute</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-disputes-api/#op-contestDispute" target="_blank" class="st" data-op="contestDispute"><title>PATCH /disputes/{id}/contest
+Disputes line · contestDispute</title>
+<circle cx="958" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="970" y="781" text-anchor="start" style="fill:#1A1F2C">Update contest</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-documents-api/#op-uploadDocument" target="_blank" class="st" data-op="uploadDocument"><title>POST /documents
+Documents line · uploadDocument</title>
+<circle cx="1336" cy="1574" r="5.5" fill="#8e820c" stroke="#8e820c" stroke-width="2.5"/>
+<text x="1348" y="1579" text-anchor="start" style="fill:#1A1F2C">Create document</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-documents-api/#op-fetchDocument" target="_blank" class="st" data-op="fetchDocument"><title>GET /documents/{id}
+Documents line · fetchDocument</title>
+<circle cx="1252" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1264" y="1495" text-anchor="start" style="fill:#1A1F2C">Get document</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-documents-api/#op-fetchDocumentContent" target="_blank" class="st" data-op="fetchDocumentContent"><title>POST /documents/{id}/content
+Documents line · fetchDocumentContent</title>
+<circle cx="1168" cy="1490" r="5.5" fill="#8e820c" stroke="#8e820c" stroke-width="2.5"/>
+<text x="1174" y="1478" transform="rotate(-45 1174 1478)" style="fill:#1A1F2C">Update content</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-instant-settlements-api/#op-createInstantSettlement" target="_blank" class="st" data-op="createInstantSettlement"><title>POST /settlements/ondemand
+Instant Settlements line · createInstantSettlement</title>
+<circle cx="958" cy="1616" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="970" y="1621" text-anchor="start" style="fill:#1A1F2C">Update ondemand</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-instant-settlements-api/#op-fetchAllInstantSettlements" target="_blank" class="st" data-op="fetchAllInstantSettlements"><title>GET /settlements/ondemand
+Instant Settlements line · fetchAllInstantSettlements</title>
+<circle cx="958" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="970" y="1747" text-anchor="start" style="fill:#1A1F2C">Get ondemand <tspan font-weight="700" style="fill:#4b46ac">⇄SET</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-instant-settlements-api/#op-fetchInstantSettlement" target="_blank" class="st" data-op="fetchInstantSettlement"><title>GET /settlements/ondemand/{id}
+Instant Settlements line · fetchInstantSettlement</title>
+<circle cx="958" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="970" y="1537" text-anchor="start" style="fill:#1A1F2C">Get ondemand</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-createInvoice" target="_blank" class="st" data-op="createInvoice"><title>POST /invoices
+Invoices line · createInvoice</title>
+<circle cx="1672" cy="1742" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1678" y="1730" transform="rotate(-45 1678 1730)" style="fill:#1A1F2C">Create invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-listInvoices" target="_blank" class="st" data-op="listInvoices"><title>GET /invoices
+Invoices line · listInvoices</title>
+<circle cx="1588" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1594" y="1730" transform="rotate(-45 1594 1730)" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-fetchInvoice" target="_blank" class="st" data-op="fetchInvoice"><title>GET /invoices/{id}
+Invoices line · fetchInvoice</title>
+<circle cx="1714" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1726" y="1747" text-anchor="start" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-updateInvoice" target="_blank" class="st" data-op="updateInvoice"><title>PATCH /invoices/{id}
+Invoices line · updateInvoice</title>
+<circle cx="1798" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1810" y="1663" text-anchor="start" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-deleteInvoice" target="_blank" class="st" data-op="deleteInvoice"><title>DELETE /invoices/{id}
+Invoices line · deleteInvoice</title>
+<circle cx="1882" cy="1574" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1878" y1="1578" x2="1886" y2="1570" stroke="#B0287F" stroke-width="2"/>
+<text x="1894" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-issueInvoice" target="_blank" class="st" data-op="issueInvoice"><title>POST /invoices/{id}/issue
+Invoices line · issueInvoice</title>
+<circle cx="1882" cy="1406" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="1411" text-anchor="start" style="fill:#1A1F2C">Update issue</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-cancelInvoice" target="_blank" class="st" data-op="cancelInvoice"><title>POST /invoices/{id}/cancel
+Invoices line · cancelInvoice</title>
+<circle cx="1882" cy="1490" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="1495" text-anchor="start" style="fill:#1A1F2C">Cancel invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-invoices-api/#op-sendInvoiceNotification" target="_blank" class="st" data-op="sendInvoiceNotification"><title>POST /invoices/{id}/notify_by/{medium}
+Invoices line · sendInvoiceNotification</title>
+<circle cx="1882" cy="1322" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="1327" text-anchor="start" style="fill:#1A1F2C">Update notify by</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-items-api/#op-createItem" target="_blank" class="st" data-op="createItem"><title>POST /items
+Items line · createItem</title>
+<circle cx="622" cy="650" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="628" y="638" transform="rotate(-45 628 638)" style="fill:#1A1F2C">Create item</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-items-api/#op-listItems" target="_blank" class="st" data-op="listItems"><title>GET /items
+Items line · listItems</title>
+<circle cx="538" cy="650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="544" y="638" transform="rotate(-45 544 638)" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-items-api/#op-fetchItem" target="_blank" class="st" data-op="fetchItem"><title>GET /items/{id}
+Items line · fetchItem</title>
+<circle cx="664" cy="650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="655" text-anchor="start" style="fill:#1A1F2C">Get item</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-items-api/#op-updateItem" target="_blank" class="st" data-op="updateItem"><title>PATCH /items/{id}
+Items line · updateItem</title>
+<circle cx="748" cy="566" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="760" y="571" text-anchor="start" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-items-api/#op-deleteItem" target="_blank" class="st" data-op="deleteItem"><title>DELETE /items/{id}
+Items line · deleteItem</title>
+<circle cx="832" cy="482" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="828" y1="486" x2="836" y2="478" stroke="#B0287F" stroke-width="2"/>
+<text x="844" y="487" text-anchor="start" style="fill:#1A1F2C">Delete item</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-createLinkedAccount" target="_blank" class="st" data-op="createLinkedAccount"><title>POST /v2/accounts
+Linked Accounts line · createLinkedAccount</title>
+<circle cx="1462" cy="1826" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1474" y="1831" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-fetchLinkedAccount" target="_blank" class="st" data-op="curlec-linked-accounts-api:fetchLinkedAccount"><title>GET /v2/accounts/{account_id}
+Linked Accounts line · fetchLinkedAccount</title>
+<circle cx="1462" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1450.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-updateLinkedAccount" target="_blank" class="st" data-op="curlec-linked-accounts-api:updateLinkedAccount"><title>PATCH /v2/accounts/{account_id}
+Linked Accounts line · updateLinkedAccount</title>
+<circle cx="1462" cy="1616" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1474" y="1621" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-createStakeholder" target="_blank" class="st" data-op="curlec-linked-accounts-api:createStakeholder"><title>POST /v2/accounts/{account_id}/stakeholders
+Linked Accounts line · createStakeholder</title>
+<circle cx="1714" cy="1238" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1720" y="1226" transform="rotate(-45 1720 1226)" style="fill:#1A1F2C">Create stakeholder</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-updateStakeholder" target="_blank" class="st" data-op="curlec-linked-accounts-api:updateStakeholder"><title>PATCH /v2/accounts/{account_id}/stakeholders/{stakeholder_id}
+Linked Accounts line · updateStakeholder</title>
+<circle cx="1798" cy="1238" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1792" y="1250" text-anchor="end" transform="rotate(-45 1792 1250)" style="fill:#1A1F2C">Update stakeholder</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-requestProductConfig" target="_blank" class="st" data-op="requestProductConfig"><title>POST /v2/accounts/{account_id}/products
+Linked Accounts line · requestProductConfig</title>
+<circle cx="1462" cy="1406" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1474" y="1411" text-anchor="start" style="fill:#1A1F2C">Create product</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-fetchProductConfig" target="_blank" class="st" data-op="fetchProductConfig"><title>GET /v2/accounts/{account_id}/products/{product_id}
+Linked Accounts line · fetchProductConfig</title>
+<circle cx="1504" cy="1364" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1516" y="1369" text-anchor="start" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-linked-accounts-api/#op-updateProductConfig" target="_blank" class="st" data-op="updateProductConfig"><title>PATCH /v2/accounts/{account_id}/products/{product_id}
+Linked Accounts line · updateProductConfig</title>
+<circle cx="1546" cy="1322" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1558" y="1327" text-anchor="start" style="fill:#1A1F2C">Update product</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-orders-api/#op-createOrder" target="_blank" class="st" data-op="createOrder"><title>POST /orders
+Orders line · createOrder</title>
+<circle cx="2218" cy="524" r="5.5" fill="#dd5b93" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="2230" y="529" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-orders-api/#op-fetchAllOrders" target="_blank" class="st" data-op="fetchAllOrders"><title>GET /orders
+Orders line · fetchAllOrders</title>
+<circle cx="2218" cy="398" r="5.5" fill="#fff" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="2230" y="403" text-anchor="start" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-orders-api/#op-fetchOrder" target="_blank" class="st" data-op="fetchOrder"><title>GET /orders/{id}
+Orders line · fetchOrder</title>
+<circle cx="2176" cy="566" r="5.5" fill="#fff" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="2188" y="571" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-orders-api/#op-updateOrder" target="_blank" class="st" data-op="updateOrder"><title>PATCH /orders/{id}
+Orders line · updateOrder</title>
+<circle cx="2092" cy="650" r="5.5" fill="#dd5b93" stroke="#dd5b93" stroke-width="2.5"/>
+<text x="2104" y="655" text-anchor="start" style="fill:#1A1F2C">Update order</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-orders-api/#op-fetchOrderPayments" target="_blank" class="st" data-op="fetchOrderPayments"><title>GET /orders/{id}/payments
+Orders line · fetchOrderPayments</title>
+<circle cx="2092" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2104" y="739" text-anchor="start" style="fill:#1A1F2C">List payments <tspan font-weight="700" style="fill:#e86a51">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-accounts-api/#op-deletePartnerAccount" target="_blank" class="st" data-op="deletePartnerAccount"><title>DELETE /v2/accounts/{account_id}
+Linked Accounts line · deletePartnerAccount</title>
+<circle cx="1462" cy="1532" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1458" y1="1536" x2="1466" y2="1528" stroke="#E07B12" stroke-width="2"/>
+<text x="1474" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-documents-api/#op-uploadAccountDocuments" target="_blank" class="st" data-op="uploadAccountDocuments"><title>POST /v2/accounts/{account_id}/documents
+Partner Documents line · uploadAccountDocuments</title>
+<circle cx="1336" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1348" y="1369" text-anchor="start" style="fill:#1A1F2C">Create document</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-documents-api/#op-fetchAccountDocuments" target="_blank" class="st" data-op="fetchAccountDocuments"><title>GET /v2/accounts/{account_id}/documents
+Partner Documents line · fetchAccountDocuments</title>
+<circle cx="1294" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1306" y="1411" text-anchor="start" style="fill:#1A1F2C">List documents <tspan font-weight="700" style="fill:#8e820c">⇄DOC</tspan> <tspan font-weight="700" style="fill:#E07B12">⇄LA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-documents-api/#op-uploadStakeholderDocuments" target="_blank" class="st" data-op="uploadStakeholderDocuments"><title>POST /v2/accounts/{account_id}/stakeholders/{stakeholder_id}/documents
+Partner Documents line · uploadStakeholderDocuments</title>
+<circle cx="1462" cy="1238" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1450.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Create document</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-documents-api/#op-fetchStakeholderDocuments" target="_blank" class="st" data-op="fetchStakeholderDocuments"><title>GET /v2/accounts/{account_id}/stakeholders/{stakeholder_id}/documents
+Partner Documents line · fetchStakeholderDocuments</title>
+<circle cx="1378" cy="1322" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1390" y="1327" text-anchor="start" style="fill:#1A1F2C">List documents</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-stakeholders-api/#op-fetchAllStakeholders" target="_blank" class="st" data-op="fetchAllStakeholders"><title>GET /v2/accounts/{account_id}/stakeholders
+Linked Accounts line · fetchAllStakeholders</title>
+<circle cx="1630" cy="1238" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1618.0" y="1243" text-anchor="end" style="fill:#1A1F2C">List stakeholders</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-webhooks-api/#op-createPartnerWebhook" target="_blank" class="st" data-op="createPartnerWebhook"><title>POST /v2/accounts/{account_id}/webhooks
+Partner Webhooks line · createPartnerWebhook</title>
+<circle cx="1252" cy="818" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="823" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-webhooks-api/#op-listPartnerWebhooks" target="_blank" class="st" data-op="listPartnerWebhooks"><title>GET /v2/accounts/{account_id}/webhooks
+Partner Webhooks line · listPartnerWebhooks</title>
+<circle cx="1336" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348" y="739" text-anchor="start" style="fill:#1A1F2C">List webhooks <tspan font-weight="700" style="fill:#E07B12">⇄LA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-webhooks-api/#op-fetchPartnerWebhook" target="_blank" class="st" data-op="fetchPartnerWebhook"><title>GET /v2/accounts/{account_id}/webhooks/{webhook_id}
+Partner Webhooks line · fetchPartnerWebhook</title>
+<circle cx="1210" cy="860" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1222" y="865" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-webhooks-api/#op-updatePartnerWebhook" target="_blank" class="st" data-op="updatePartnerWebhook"><title>PATCH /v2/accounts/{account_id}/webhooks/{webhook_id}
+Partner Webhooks line · updatePartnerWebhook</title>
+<circle cx="1210" cy="944" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1198.0" y="949" text-anchor="end" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-partner-webhooks-api/#op-deletePartnerWebhook" target="_blank" class="st" data-op="deletePartnerWebhook"><title>DELETE /v2/accounts/{account_id}/webhooks/{webhook_id}
+Partner Webhooks line · deletePartnerWebhook</title>
+<circle cx="1336" cy="944" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1332" y1="948" x2="1340" y2="940" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1330" y="956" text-anchor="end" transform="rotate(-45 1330 956)" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-downtimes-api/#op-fetchPaymentDowntimes" target="_blank" class="st" data-op="fetchPaymentDowntimes"><title>GET /payments/downtimes
+QR Codes line · fetchPaymentDowntimes</title>
+<circle cx="1966" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1960" y="788" text-anchor="end" transform="rotate(-45 1960 788)" style="fill:#1A1F2C">List downtimes <tspan font-weight="700" style="fill:#e86a51">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-downtimes-api/#op-fetchPaymentDowntime" target="_blank" class="st" data-op="fetchPaymentDowntime"><title>GET /payments/downtimes/{id}
+QR Codes line · fetchPaymentDowntime</title>
+<circle cx="1882" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1888" y="764" transform="rotate(-45 1888 764)" style="fill:#1A1F2C">Get downtime</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-links-api/#op-createPaymentLink" target="_blank" class="st" data-op="createPaymentLink"><title>POST /payment_links
+Payment Links line · createPaymentLink</title>
+<circle cx="1462" cy="2120" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1474" y="2125" text-anchor="start" style="fill:#1A1F2C">Create payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-links-api/#op-fetchAllPaymentLinks" target="_blank" class="st" data-op="fetchAllPaymentLinks"><title>GET /payment_links
+Payment Links line · fetchAllPaymentLinks</title>
+<circle cx="1462" cy="2204" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1474" y="2209" text-anchor="start" style="fill:#1A1F2C">List payment links</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-links-api/#op-fetchPaymentLink" target="_blank" class="st" data-op="fetchPaymentLink"><title>GET /payment_links/{id}
+Payment Links line · fetchPaymentLink</title>
+<circle cx="1462" cy="2036" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1474" y="2041" text-anchor="start" style="fill:#1A1F2C">Get payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-links-api/#op-updatePaymentLink" target="_blank" class="st" data-op="updatePaymentLink"><title>PATCH /payment_links/{id}
+Payment Links line · updatePaymentLink</title>
+<circle cx="1504" cy="1994" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1516" y="1999" text-anchor="start" style="fill:#1A1F2C">Update payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-links-api/#op-cancelPaymentLink" target="_blank" class="st" data-op="cancelPaymentLink"><title>POST /payment_links/{id}/cancel
+Payment Links line · cancelPaymentLink</title>
+<circle cx="1546" cy="1952" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1558" y="1957" text-anchor="start" style="fill:#1A1F2C">Cancel payment link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payment-links-api/#op-resendPaymentLinkNotification" target="_blank" class="st" data-op="resendPaymentLinkNotification"><title>POST /payment_links/{id}/notify_by/{medium}
+Payment Links line · resendPaymentLinkNotification</title>
+<circle cx="1630" cy="1868" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1642" y="1873" text-anchor="start" style="fill:#1A1F2C">Update notify by</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payments-api/#op-fetchAllPayments" target="_blank" class="st" data-op="fetchAllPayments"><title>GET /payments
+Payments line · fetchAllPayments</title>
+<circle cx="2092" cy="902" r="5.5" fill="#fff" stroke="#e86a51" stroke-width="2.5"/>
+<text x="2104" y="907" text-anchor="start" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payments-api/#op-fetchPayment" target="_blank" class="st" data-op="fetchPayment"><title>GET /payments/{id}
+Payments line · fetchPayment</title>
+<circle cx="2050" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2050" y="804" text-anchor="middle" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payments-api/#op-updatePayment" target="_blank" class="st" data-op="updatePayment"><title>PATCH /payments/{id}
+Payments line · updatePayment</title>
+<circle cx="1966" cy="902" r="5.5" fill="#e86a51" stroke="#e86a51" stroke-width="2.5"/>
+<text x="1978" y="907" text-anchor="start" style="fill:#1A1F2C">Update payment</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-payments-api/#op-capturePayment" target="_blank" class="st" data-op="capturePayment"><title>POST /payments/{id}/capture
+Payments line · capturePayment</title>
+<circle cx="1882" cy="986" r="5.5" fill="#e86a51" stroke="#e86a51" stroke-width="2.5"/>
+<text x="1894" y="991" text-anchor="start" style="fill:#1A1F2C">Capture payment</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-plans-api/#op-createPlan" target="_blank" class="st" data-op="createPlan"><title>POST /plans
+Plans line · createPlan</title>
+<circle cx="832" cy="1448" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="844" y="1453" text-anchor="start" style="fill:#1A1F2C">Create plan</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-plans-api/#op-listPlans" target="_blank" class="st" data-op="listPlans"><title>GET /plans
+Plans line · listPlans</title>
+<circle cx="748" cy="1532" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="760" y="1537" text-anchor="start" style="fill:#1A1F2C">List plans</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-plans-api/#op-fetchPlan" target="_blank" class="st" data-op="fetchPlan"><title>GET /plans/{id}
+Plans line · fetchPlan</title>
+<circle cx="916" cy="1364" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="928" y="1369" text-anchor="start" style="fill:#1A1F2C">Get plan</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-qr-codes-api/#op-createQrCode" target="_blank" class="st" data-op="createQrCode"><title>POST /payments/qr_codes
+QR Codes line · createQrCode</title>
+<circle cx="1756" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1768" y="697" text-anchor="start" style="fill:#1A1F2C">Create qr code</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-qr-codes-api/#op-fetchAllQrCodes" target="_blank" class="st" data-op="fetchAllQrCodes"><title>GET /payments/qr_codes
+QR Codes line · fetchAllQrCodes</title>
+<circle cx="1840" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1828.0" y="781" text-anchor="end" style="fill:#1A1F2C">List qr codes</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-qr-codes-api/#op-fetchQrCode" target="_blank" class="st" data-op="fetchQrCode"><title>GET /payments/qr_codes/{id}
+QR Codes line · fetchQrCode</title>
+<circle cx="1756" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1768" y="613" text-anchor="start" style="fill:#1A1F2C">Get qr code</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-qr-codes-api/#op-updateQrCode" target="_blank" class="st" data-op="updateQrCode"><title>PATCH /payments/qr_codes/{id}
+QR Codes line · updateQrCode</title>
+<circle cx="1714" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="571" text-anchor="start" style="fill:#1A1F2C">Update qr code</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-qr-codes-api/#op-closeQrCode" target="_blank" class="st" data-op="closeQrCode"><title>POST /payments/qr_codes/{id}/close
+QR Codes line · closeQrCode</title>
+<circle cx="1588" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1594" y="554" transform="rotate(-45 1594 554)" style="fill:#1A1F2C">Close qr code</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-qr-codes-api/#op-fetchQrCodePayments" target="_blank" class="st" data-op="fetchQrCodePayments"><title>GET /payments/qr_codes/{id}/payments
+QR Codes line · fetchQrCodePayments</title>
+<circle cx="1504" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1510" y="554" transform="rotate(-45 1510 554)" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-refunds-api/#op-createRefund" target="_blank" class="st" data-op="createRefund"><title>POST /payments/{id}/refund
+Refunds line · createRefund</title>
+<circle cx="2176" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2185" y="808" text-anchor="start" style="fill:#1A1F2C">Update refund <tspan font-weight="700" style="fill:#e86a51">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-refunds-api/#op-fetchPaymentRefunds" target="_blank" class="st" data-op="fetchPaymentRefunds"><title>GET /payments/{payment_id}/refunds
+Refunds line · fetchPaymentRefunds</title>
+<circle cx="2176" cy="986" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="2164.0" y="991" text-anchor="end" style="fill:#1A1F2C">List refunds</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-refunds-api/#op-fetchPaymentRefund" target="_blank" class="st" data-op="fetchPaymentRefund"><title>GET /payments/{payment_id}/refunds/{refund_id}
+Refunds line · fetchPaymentRefund</title>
+<circle cx="2218" cy="986" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="2224" y="974" transform="rotate(-45 2224 974)" style="fill:#1A1F2C">Get refund</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-refunds-api/#op-fetchAllRefunds" target="_blank" class="st" data-op="fetchAllRefunds"><title>GET /refunds
+Refunds line · fetchAllRefunds</title>
+<circle cx="2302" cy="986" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="2314" y="991" text-anchor="start" style="fill:#1A1F2C">List refunds</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-refunds-api/#op-fetchRefund" target="_blank" class="st" data-op="fetchRefund"><title>GET /refunds/{id}
+Refunds line · fetchRefund</title>
+<circle cx="2344" cy="1028" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="2356" y="1033" text-anchor="start" style="fill:#1A1F2C">Get refund</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-refunds-api/#op-updateRefund" target="_blank" class="st" data-op="updateRefund"><title>PATCH /refunds/{id}
+Refunds line · updateRefund</title>
+<circle cx="2428" cy="1112" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="2440" y="1117" text-anchor="start" style="fill:#1A1F2C">Update refund</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-settlements-api/#op-fetchAllSettlements" target="_blank" class="st" data-op="fetchAllSettlements"><title>GET /settlements
+Settlements line · fetchAllSettlements</title>
+<circle cx="790" cy="1658" r="5.5" fill="#fff" stroke="#4b46ac" stroke-width="2.5"/>
+<text x="802" y="1663" text-anchor="start" style="fill:#1A1F2C">List settlements</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-settlements-api/#op-fetchSettlement" target="_blank" class="st" data-op="fetchSettlement"><title>GET /settlements/{id}
+Settlements line · fetchSettlement</title>
+<circle cx="874" cy="1742" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="862.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get settlement</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-settlements-api/#op-fetchSettlementRecon" target="_blank" class="st" data-op="fetchSettlementRecon"><title>GET /settlements/recon/combined
+Settlements line · fetchSettlementRecon</title>
+<circle cx="874" cy="1868" r="5.5" fill="#fff" stroke="#4b46ac" stroke-width="2.5"/>
+<text x="886" y="1873" text-anchor="start" style="fill:#1A1F2C">Get combined</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-createSubscription" target="_blank" class="st" data-op="createSubscription"><title>POST /subscriptions
+Subscriptions line · createSubscription</title>
+<circle cx="1462" cy="860" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="865" text-anchor="start" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-listSubscriptions" target="_blank" class="st" data-op="listSubscriptions"><title>GET /subscriptions
+Subscriptions line · listSubscriptions</title>
+<circle cx="1462" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="949" text-anchor="start" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-fetchSubscription" target="_blank" class="st" data-op="fetchSubscription"><title>GET /subscriptions/{id}
+Subscriptions line · fetchSubscription</title>
+<circle cx="1462" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="781" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-updateSubscription" target="_blank" class="st" data-op="updateSubscription"><title>PATCH /subscriptions/{id}
+Subscriptions line · updateSubscription</title>
+<circle cx="1462" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="697" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-cancelSubscription" target="_blank" class="st" data-op="cancelSubscription"><title>POST /subscriptions/{id}/cancel
+Subscriptions line · cancelSubscription</title>
+<circle cx="1378" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1390" y="529" text-anchor="start" style="fill:#1A1F2C">Cancel subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-pauseSubscription" target="_blank" class="st" data-op="pauseSubscription"><title>POST /subscriptions/{id}/pause
+Subscriptions line · pauseSubscription</title>
+<circle cx="1420" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="403" text-anchor="start" style="fill:#1A1F2C">Update pause</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-resumeSubscription" target="_blank" class="st" data-op="resumeSubscription"><title>POST /subscriptions/{id}/resume
+Subscriptions line · resumeSubscription</title>
+<circle cx="1420" cy="314" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="319" text-anchor="start" style="fill:#1A1F2C">Resume subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-fetchSubscriptionScheduledChanges" target="_blank" class="st" data-op="fetchSubscriptionScheduledChanges"><title>GET /subscriptions/{id}/retrieve_scheduled_changes
+Subscriptions line · fetchSubscriptionScheduledChanges</title>
+<circle cx="1420" cy="230" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="235" text-anchor="start" style="fill:#1A1F2C">List retrieve scheduled changes</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-cancelSubscriptionScheduledChanges" target="_blank" class="st" data-op="cancelSubscriptionScheduledChanges"><title>POST /subscriptions/{id}/cancel_scheduled_changes
+Subscriptions line · cancelSubscriptionScheduledChanges</title>
+<circle cx="1378" cy="440" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1390" y="445" text-anchor="start" style="fill:#1A1F2C">Create cancel scheduled change</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-subscriptions-api/#op-deleteSubscriptionOffer" target="_blank" class="st" data-op="deleteSubscriptionOffer"><title>DELETE /subscriptions/{sub_id}/{offer_id}
+Subscriptions line · deleteSubscriptionOffer</title>
+<circle cx="1378" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1374" y1="612" x2="1382" y2="604" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1390" y="613" text-anchor="start" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-createTransfersFromPayment" target="_blank" class="st" data-op="createTransfersFromPayment"><title>POST /payments/{id}/transfers
+Transfers line · createTransfersFromPayment</title>
+<circle cx="1336" cy="1112" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1342" y="1100" transform="rotate(-45 1342 1100)" style="fill:#1A1F2C">Create transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-fetchTransfersForPayment" target="_blank" class="st" data-op="fetchTransfersForPayment"><title>GET /payments/{id}/transfers
+Transfers line · fetchTransfersForPayment</title>
+<circle cx="1252" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1258" y="1100" transform="rotate(-45 1258 1100)" style="fill:#1A1F2C">List transfers <tspan font-weight="700" style="fill:#e86a51">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-createDirectTransfer" target="_blank" class="st" data-op="createDirectTransfer"><title>POST /transfers
+Transfers line · createDirectTransfer</title>
+<circle cx="1546" cy="1112" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1558" y="1117" text-anchor="start" style="fill:#1A1F2C">Create transfer <tspan font-weight="700" style="fill:#E07B12">⇄LA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-listTransfers" target="_blank" class="st" data-op="listTransfers"><title>GET /transfers
+Transfers line · listTransfers</title>
+<circle cx="1420" cy="1112" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1426" y="1100" transform="rotate(-45 1426 1100)" style="fill:#1A1F2C">List transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-fetchTransfer" target="_blank" class="st" data-op="fetchTransfer"><title>GET /transfers/{id}
+Transfers line · fetchTransfer</title>
+<circle cx="1588" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1600" y="1075" text-anchor="start" style="fill:#1A1F2C">Get transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-modifyTransferSettlementHold" target="_blank" class="st" data-op="modifyTransferSettlementHold"><title>PATCH /transfers/{id}
+Transfers line · modifyTransferSettlementHold</title>
+<circle cx="1630" cy="1028" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1642" y="1033" text-anchor="start" style="fill:#1A1F2C">Update transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-reverseTransfer" target="_blank" class="st" data-op="reverseTransfer"><title>POST /transfers/{id}/reversals
+Transfers line · reverseTransfer</title>
+<circle cx="1756" cy="902" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1768" y="907" text-anchor="start" style="fill:#1A1F2C">Create reversal</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-transfers-api/#op-listReversals" target="_blank" class="st" data-op="listReversals"><title>GET /transfers/{id}/reversals
+Transfers line · listReversals</title>
+<circle cx="1714" cy="944" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1726" y="949" text-anchor="start" style="fill:#1A1F2C">List reversals</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-createVirtualAccount" target="_blank" class="st" data-op="createVirtualAccount"><title>POST /virtual_accounts
+Virtual Accounts line · createVirtualAccount</title>
+<circle cx="2806" cy="776" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2818" y="781" text-anchor="start" style="fill:#1A1F2C">Create virtual account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-listVirtualAccounts" target="_blank" class="st" data-op="listVirtualAccounts"><title>GET /virtual_accounts
+Virtual Accounts line · listVirtualAccounts</title>
+<circle cx="2890" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2902" y="697" text-anchor="start" style="fill:#1A1F2C">List virtual accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-fetchVirtualAccount" target="_blank" class="st" data-op="fetchVirtualAccount"><title>GET /virtual_accounts/{id}
+Virtual Accounts line · fetchVirtualAccount</title>
+<circle cx="2764" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2776" y="823" text-anchor="start" style="fill:#1A1F2C">Get virtual account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-updateVirtualAccount" target="_blank" class="st" data-op="updateVirtualAccount"><title>PATCH /virtual_accounts/{id}
+Virtual Accounts line · updateVirtualAccount</title>
+<circle cx="2680" cy="902" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2692" y="907" text-anchor="start" style="fill:#1A1F2C">Update virtual account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-closeVirtualAccount" target="_blank" class="st" data-op="closeVirtualAccount"><title>POST /virtual_accounts/{id}/close
+Virtual Accounts line · closeVirtualAccount</title>
+<circle cx="2428" cy="818" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2440" y="823" text-anchor="start" style="fill:#1A1F2C">Close virtual account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-fetchVirtualAccountPayments" target="_blank" class="st" data-op="fetchVirtualAccountPayments"><title>GET /virtual_accounts/{id}/payments
+Virtual Accounts line · fetchVirtualAccountPayments</title>
+<circle cx="2344" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2332.0" y="823" text-anchor="end" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-addVpaReceiver" target="_blank" class="st" data-op="addVpaReceiver"><title>POST /virtual_accounts/{id}/receivers
+Virtual Accounts line · addVpaReceiver</title>
+<circle cx="2302" cy="860" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2314" y="865" text-anchor="start" style="fill:#1A1F2C">Create receiver</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-addAllowedPayer" target="_blank" class="st" data-op="addAllowedPayer"><title>POST /virtual_accounts/{va_id}/allowed_payers
+Virtual Accounts line · addAllowedPayer</title>
+<circle cx="2596" cy="902" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2602" y="890" transform="rotate(-45 2602 890)" style="fill:#1A1F2C">Create allowed payer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-deleteAllowedPayer" target="_blank" class="st" data-op="deleteAllowedPayer"><title>DELETE /virtual_accounts/{va_id}/allowed_payers/{id}
+Virtual Accounts line · deleteAllowedPayer</title>
+<circle cx="2512" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2508" y1="906" x2="2516" y2="898" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2500.0" y="907" text-anchor="end" style="fill:#1A1F2C">Delete allowed payer</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-virtual-accounts-api/#op-fetchBankTransfer" target="_blank" class="st" data-op="fetchBankTransfer"><title>GET /payments/{id}/bank_transfer
+Virtual Accounts line · fetchBankTransfer</title>
+<circle cx="2974" cy="608" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2986" y="613" text-anchor="start" style="fill:#1A1F2C">Get bank transfer <tspan font-weight="700" style="fill:#e86a51">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-account-validation-api/#op-validateFundAccount" target="_blank" class="st" data-op="validateFundAccount"><title>POST /fund_accounts/validations
+X Account Validation line · validateFundAccount</title>
+<circle cx="454" cy="902" r="5.5" fill="#97510d" stroke="#97510d" stroke-width="2.5"/>
+<text x="466" y="907" text-anchor="start" style="fill:#1A1F2C">Create validation</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-account-validation-api/#op-listFundAccountValidations" target="_blank" class="st" data-op="listFundAccountValidations"><title>GET /fund_accounts/validations
+X Account Validation line · listFundAccountValidations</title>
+<circle cx="370" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="376" y="890" transform="rotate(-45 376 890)" style="fill:#1A1F2C">List validations <tspan font-weight="700" style="fill:#C2410C">⇄XFA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-account-validation-api/#op-fetchFundAccountValidation" target="_blank" class="st" data-op="fetchFundAccountValidation"><title>GET /fund_accounts/validations/{validation_id}
+X Account Validation line · fetchFundAccountValidation</title>
+<circle cx="538" cy="818" r="5.5" fill="#fff" stroke="#97510d" stroke-width="2.5"/>
+<text x="550" y="823" text-anchor="start" style="fill:#1A1F2C">Get validation</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-banking-balances-api/#op-fetchBankingBalances" target="_blank" class="st" data-op="fetchBankingBalances"><title>GET /banking_balances
+More Local line · fetchBankingBalances</title>
+<circle cx="496" cy="1112" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="1117" text-anchor="start" style="fill:#1A1F2C">List banking balances</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-contacts-api/#op-createContact" target="_blank" class="st" data-op="createContact"><title>POST /contacts
+X Contacts line · createContact</title>
+<circle cx="1252" cy="1742" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1264" y="1747" text-anchor="start" style="fill:#1A1F2C">Create contact</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-contacts-api/#op-listContacts" target="_blank" class="st" data-op="listContacts"><title>GET /contacts
+X Contacts line · listContacts</title>
+<circle cx="1252" cy="1658" r="5.5" fill="#fff" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1264" y="1663" text-anchor="start" style="fill:#1A1F2C">List contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-contacts-api/#op-fetchContact" target="_blank" class="st" data-op="fetchContact"><title>GET /contacts/{contact_id}
+X Contacts line · fetchContact</title>
+<circle cx="1252" cy="1826" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1264" y="1831" text-anchor="start" style="fill:#1A1F2C">Get contact</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-contacts-api/#op-updateContact" target="_blank" class="st" data-op="updateContact"><title>PATCH /contacts/{contact_id}
+X Contacts line · updateContact</title>
+<circle cx="1252" cy="1910" r="5.5" fill="#8823d6" stroke="#8823d6" stroke-width="2.5"/>
+<text x="1264" y="1915" text-anchor="start" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-fund-accounts-api/#op-createFundAccount" target="_blank" class="st" data-op="createFundAccount"><title>POST /fund_accounts
+X Fund Accounts line · createFundAccount</title>
+<circle cx="244" cy="902" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="232.0" y="907" text-anchor="end" style="fill:#1A1F2C">Create fund account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-fund-accounts-api/#op-listFundAccounts" target="_blank" class="st" data-op="listFundAccounts"><title>GET /fund_accounts
+X Fund Accounts line · listFundAccounts</title>
+<circle cx="160" cy="818" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="172" y="823" text-anchor="start" style="fill:#1A1F2C">List fund accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-fund-accounts-api/#op-fetchFundAccount" target="_blank" class="st" data-op="fetchFundAccount"><title>GET /fund_accounts/{fund_account_id}
+X Fund Accounts line · fetchFundAccount</title>
+<circle cx="286" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="298" y="949" text-anchor="start" style="fill:#1A1F2C">Get fund account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-fund-accounts-api/#op-activateDeactivateFundAccount" target="_blank" class="st" data-op="activateDeactivateFundAccount"><title>PATCH /fund_accounts/{fund_account_id}
+X Fund Accounts line · activateDeactivateFundAccount</title>
+<circle cx="370" cy="1028" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="382" y="1033" text-anchor="start" style="fill:#1A1F2C">Update fund account</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payout-links-api/#op-createPayoutLink" target="_blank" class="st" data-op="createPayoutLink"><title>POST /payout-links
+X Payout Links line · createPayoutLink</title>
+<circle cx="1084" cy="1322" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="1327" text-anchor="start" style="fill:#1A1F2C">Create payout link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payout-links-api/#op-listPayoutLinks" target="_blank" class="st" data-op="listPayoutLinks"><title>GET /payout-links
+X Payout Links line · listPayoutLinks</title>
+<circle cx="1084" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="1411" text-anchor="start" style="fill:#1A1F2C">List payout links</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payout-links-api/#op-fetchPayoutLink" target="_blank" class="st" data-op="fetchPayoutLink"><title>GET /payout-links/{payout_link_id}
+X Payout Links line · fetchPayoutLink</title>
+<circle cx="1084" cy="1238" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="1243" text-anchor="start" style="fill:#1A1F2C">Get payout link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payout-links-api/#op-cancelPayoutLink" target="_blank" class="st" data-op="cancelPayoutLink"><title>POST /payout-links/{payout_link_id}/cancel
+X Payout Links line · cancelPayoutLink</title>
+<circle cx="1084" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="1159" text-anchor="start" style="fill:#1A1F2C">Cancel payout link</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payouts-api/#op-createPayout" target="_blank" class="st" data-op="createPayout"><title>POST /payouts
+X Payouts line · createPayout</title>
+<circle cx="916" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="907" text-anchor="start" style="fill:#1A1F2C">Create payout</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payouts-api/#op-listPayouts" target="_blank" class="st" data-op="listPayouts"><title>GET /payouts
+X Payouts line · listPayouts</title>
+<circle cx="832" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="820.0" y="823" text-anchor="end" style="fill:#1A1F2C">List payouts</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payouts-api/#op-fetchPayout" target="_blank" class="st" data-op="fetchPayout"><title>GET /payouts/{payout_id}
+X Payouts line · fetchPayout</title>
+<circle cx="916" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="991" text-anchor="start" style="fill:#1A1F2C">Get payout</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payouts-api/#op-cancelPayout" target="_blank" class="st" data-op="cancelPayout"><title>POST /payouts/{payout_id}/cancel
+X Payouts line · cancelPayout</title>
+<circle cx="832" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1159" text-anchor="start" style="fill:#1A1F2C">Cancel payout</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payouts-api/#op-approvePayout" target="_blank" class="st" data-op="approvePayout"><title>POST /payouts/{payout_id}/approve
+X Payouts line · approvePayout</title>
+<circle cx="832" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1075" text-anchor="start" style="fill:#1A1F2C">Approve payout</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-payouts-api/#op-rejectPayout" target="_blank" class="st" data-op="rejectPayout"><title>POST /payouts/{payout_id}/reject
+X Payouts line · rejectPayout</title>
+<circle cx="832" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1243" text-anchor="start" style="fill:#1A1F2C">Reject payout</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-transactions-api/#op-listTransactions" target="_blank" class="st" data-op="listTransactions"><title>GET /transactions
+More Local line · listTransactions</title>
+<circle cx="580" cy="1196" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="1201" text-anchor="start" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/curlec/curlec-x-transactions-api/#op-fetchTransaction" target="_blank" class="st" data-op="fetchTransaction"><title>GET /transactions/{transaction_id}
+More Local line · fetchTransaction</title>
+<circle cx="580" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="1327" text-anchor="start" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<text x="3164" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3164" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">PAYMENTS</text>
+<rect x="3164" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3181" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QC</text><text x="3206" y="269" font-size="11" fill="#1A1F2C">QR Codes <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3164" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="3181" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REF</text><text x="3206" y="286" font-size="11" fill="#1A1F2C">Refunds <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3164" y="293" width="34" height="13" rx="3" fill="#dd5b93"/><text x="3181" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="3206" y="303" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3164" y="310" width="34" height="13" rx="3" fill="#e86a51"/><text x="3181" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="3206" y="320" font-size="11" fill="#1A1F2C">Payments <tspan fill="#8A93A6">4</tspan></text>
+<text x="3164" y="346" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">SUBSCRIPTIONS</text>
+<rect x="3164" y="353" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3181" y="363" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUB</text><text x="3206" y="363" font-size="11" fill="#1A1F2C">Subscriptions <tspan fill="#8A93A6">10</tspan></text>
+<text x="3164" y="389" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">VIRTUAL ACCOUNTS</text>
+<rect x="3164" y="396" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3181" y="406" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VA</text><text x="3206" y="406" font-size="11" fill="#1A1F2C">Virtual Accounts <tspan fill="#8A93A6">10</tspan></text>
+<text x="3164" y="432" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">ACCOUNTS</text>
+<rect x="3164" y="439" width="34" height="13" rx="3" fill="#E07B12"/><text x="3181" y="449" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LA</text><text x="3206" y="449" font-size="11" fill="#1A1F2C">Linked Accounts <tspan fill="#8A93A6">10</tspan></text>
+<text x="3164" y="475" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">CUSTOMERS</text>
+<rect x="3164" y="482" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3181" y="492" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CUS</text><text x="3206" y="492" font-size="11" fill="#1A1F2C">Customers <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3164" y="499" width="34" height="13" rx="3" fill="#8823d6"/><text x="3181" y="509" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">XC</text><text x="3206" y="509" font-size="11" fill="#1A1F2C">X Contacts <tspan fill="#8A93A6">4</tspan></text>
+<text x="3164" y="535" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">INVOICES</text>
+<rect x="3164" y="542" width="34" height="13" rx="3" fill="#B0287F"/><text x="3181" y="552" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="3206" y="552" font-size="11" fill="#1A1F2C">Invoices <tspan fill="#8A93A6">8</tspan></text>
+<text x="3164" y="578" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">TRANSFERS</text>
+<rect x="3164" y="585" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3181" y="595" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="3206" y="595" font-size="11" fill="#1A1F2C">Transfers <tspan fill="#8A93A6">8</tspan></text>
+<text x="3164" y="621" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">DOCUMENTS</text>
+<rect x="3164" y="628" width="34" height="13" rx="3" fill="#B8860B"/><text x="3181" y="638" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PD</text><text x="3206" y="638" font-size="11" fill="#1A1F2C">Partner Documents <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3164" y="645" width="34" height="13" rx="3" fill="#8e820c"/><text x="3181" y="655" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOC</text><text x="3206" y="655" font-size="11" fill="#1A1F2C">Documents <tspan fill="#8A93A6">3</tspan></text>
+<text x="3164" y="681" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">FUND ACCOUNTS</text>
+<rect x="3164" y="688" width="34" height="13" rx="3" fill="#C2410C"/><text x="3181" y="698" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">XFA</text><text x="3206" y="698" font-size="11" fill="#1A1F2C">X Fund Accounts <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3164" y="705" width="34" height="13" rx="3" fill="#97510d"/><text x="3181" y="715" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">XAV</text><text x="3206" y="715" font-size="11" fill="#1A1F2C">X Account Validation <tspan fill="#8A93A6">3</tspan></text>
+<text x="3164" y="741" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">PAYMENT LINKS</text>
+<rect x="3164" y="748" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3181" y="758" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PL</text><text x="3206" y="758" font-size="11" fill="#1A1F2C">Payment Links <tspan fill="#8A93A6">6</tspan></text>
+<text x="3164" y="784" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">SETTLEMENTS</text>
+<rect x="3164" y="791" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3181" y="801" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IS</text><text x="3206" y="801" font-size="11" fill="#1A1F2C">Instant Settlements <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3164" y="808" width="34" height="13" rx="3" fill="#4b46ac"/><text x="3181" y="818" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SET</text><text x="3206" y="818" font-size="11" fill="#1A1F2C">Settlements <tspan fill="#8A93A6">3</tspan></text>
+<text x="3164" y="844" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3164" y="851" width="34" height="13" rx="3" fill="#D6264F"/><text x="3181" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">XP</text><text x="3206" y="861" font-size="11" fill="#1A1F2C">X Payouts <tspan fill="#8A93A6">6</tspan></text>
+<rect x="3164" y="868" width="34" height="13" rx="3" fill="#B0287F"/><text x="3181" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ITE</text><text x="3206" y="878" font-size="11" fill="#1A1F2C">Items <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3164" y="885" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3181" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PW</text><text x="3206" y="895" font-size="11" fill="#1A1F2C">Partner Webhooks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3164" y="902" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3181" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIS</text><text x="3206" y="912" font-size="11" fill="#1A1F2C">Disputes <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3164" y="919" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3181" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">XPL</text><text x="3206" y="929" font-size="11" fill="#1A1F2C">X Payout Links <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3164" y="936" width="34" height="13" rx="3" fill="#00838F"/><text x="3181" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BIL</text><text x="3206" y="946" font-size="11" fill="#1A1F2C">Bills <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3164" y="953" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3181" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3206" y="963" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">3</tspan></text>
+<rect x="3164" y="970" width="34" height="13" rx="3" fill="#B8860B"/><text x="3181" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLA</text><text x="3206" y="980" font-size="11" fill="#1A1F2C">Plans <tspan fill="#8A93A6">3</tspan></text>
+<text x="3414" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3432,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3458" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3432,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3458" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3432,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3458" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3432,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3458" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3432,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3458" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3432,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3458" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3432,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3458" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3432,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3458" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3414" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3414" y="463" font-size="10.5" fill="#5A6275">“Partner Accounts” → Linked Accounts line · 1 op</text>
+<text x="3414" y="478" font-size="10.5" fill="#5A6275">“Partner Stakeholders” → Linked Accounts line · 1 op</text>
+<text x="3414" y="493" font-size="10.5" fill="#5A6275">“Payment Downtimes” → QR Codes line · 2 ops</text>
+<text x="3414" y="508" font-size="10.5" fill="#5A6275">“X Banking Balances” → More Local line · 1 op</text>
+<text x="3414" y="523" font-size="10.5" fill="#5A6275">“X Transactions” → More Local line · 2 ops</text>
+<text x="3414" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3414" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2334" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/curlec/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

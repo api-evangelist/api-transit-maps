@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 861" width="1448" height="861" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1448" height="861" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Amazon-Healthimaging API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">18 operations as stops · 3 tags as lines · 1 interchanges · 9 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Datastore" d="M412.0,356.0 L496.0,356.0 L566.0,356.0 Q580.0,356.0 589.9,365.9 L654.1,430.1 Q664.0,440.0 664.0,454.0 L664.0,524.0 L664.0,594.0 Q664.0,608.0 654.1,617.9 L589.9,682.1 Q580.0,692.0 566.0,692.0 L496.0,692.0 L426.0,692.0 Q412.0,692.0 402.1,682.1 L337.9,617.9 Q328.0,608.0 328.0,594.0 L328.0,524.0 L328.0,454.0 Q328.0,440.0 337.9,430.1 L412.0,356.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Datastore</title></path>
+<path class="line" data-line="Tags" d="M160.0,440.0 L244.0,356.0 L328.0,272.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="Amazon Healthimaging Local" d="M664.0,230.0 L664.0,342.0 Q664.0,356.0 678.0,356.0 L748.0,356.0" fill="none" stroke="#1F5FD1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Amazon Healthimaging Local</title></path>
+<rect x="382" y="303" width="60" height="26" rx="13" fill="#D6264F"/><text x="412" y="321" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">DAT</text>
+<line x1="160" y1="440" x2="135.9583694396574" y2="464.04163056034264" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="453.04163056034264" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tags</title></rect><text x="135.9583694396574" y="469.04163056034264" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="328" y1="272" x2="352.04163056034264" y2="247.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="328.04163056034264" y="236.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Tags</title></rect><text x="352.04163056034264" y="252.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="664" y1="230" x2="664.0" y2="196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="640.0" y="185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Amazon Healthimaging Local</title></rect><text x="664.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AHL</text>
+<line x1="748" y1="356" x2="782.0" y2="356.0" stroke="#1F5FD1" stroke-width="7"/><rect x="758.0" y="345.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Amazon Healthimaging Local</title></rect><text x="782.0" y="361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AHL</text>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-CreateDatastore" target="_blank" class="st" data-op="CreateDatastore"><title>POST /datastore
+Datastore line · CreateDatastore
+Express: X6, X7</title>
+<circle cx="496" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="493" y="353" width="6" height="6" transform="rotate(45 496 356)" fill="#1A1F2C"/>
+<text x="502" y="344" transform="rotate(-45 502 344)" style="fill:#1A1F2C">Update datastore</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-ListDatastores" target="_blank" class="st" data-op="ListDatastores"><title>GET /datastore
+Datastore line · ListDatastores</title>
+<circle cx="412" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="400.0" y="361" text-anchor="end" style="fill:#1A1F2C">Get datastore</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-GetDatastore" target="_blank" class="st" data-op="GetDatastore"><title>GET /datastore/{datastoreId}
+Datastore line · GetDatastore
+Express: X6, X7</title>
+<circle cx="580" cy="356" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="577" y="353" width="6" height="6" transform="rotate(45 580 356)" fill="#1A1F2C"/>
+<text x="571.0" y="375" text-anchor="end" style="fill:#1A1F2C">Get datastore</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-DeleteDatastore" target="_blank" class="st" data-op="DeleteDatastore"><title>DELETE /datastore/{datastoreId}
+Datastore line · DeleteDatastore</title>
+<circle cx="664" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="660" y1="444" x2="668" y2="436" stroke="#D6264F" stroke-width="2"/>
+<text x="676" y="445" text-anchor="start" style="fill:#1A1F2C">Delete datastore</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-CopyImageSet" target="_blank" class="st" data-op="CopyImageSet"><title>POST /datastore/{datastoreId}/imageSet/{sourceImageSetId}/copyImageSet
+Datastore line · CopyImageSet
+Express: X2</title>
+<circle cx="664" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="521" width="6" height="6" transform="rotate(45 664 524)" fill="#1A1F2C"/>
+<text x="676" y="529" text-anchor="start" style="fill:#1A1F2C">Update copyimageset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-DeleteImageSet" target="_blank" class="st" data-op="DeleteImageSet"><title>POST /datastore/{datastoreId}/imageSet/{imageSetId}/deleteImageSet
+Datastore line · DeleteImageSet</title>
+<circle cx="664" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="613" text-anchor="start" style="fill:#1A1F2C">Update deleteimageset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-GetImageFrame" target="_blank" class="st" data-op="GetImageFrame"><title>POST /datastore/{datastoreId}/imageSet/{imageSetId}/getImageFrame
+Datastore line · GetImageFrame
+Express: X5</title>
+<circle cx="580" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="577" y="689" width="6" height="6" transform="rotate(45 580 692)" fill="#1A1F2C"/>
+<text x="592" y="697" text-anchor="start" style="fill:#1A1F2C">Update getimageframe</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-GetImageSet" target="_blank" class="st" data-op="GetImageSet"><title>POST /datastore/{datastoreId}/imageSet/{imageSetId}/getImageSet
+Datastore line · GetImageSet
+Express: X2, X3, X5, X8, X9</title>
+<circle cx="496" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="493" y="689" width="6" height="6" transform="rotate(45 496 692)" fill="#1A1F2C"/>
+<text x="502" y="680" transform="rotate(-45 502 680)" style="fill:#1A1F2C">Update getimageset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-GetImageSetMetadata" target="_blank" class="st" data-op="GetImageSetMetadata"><title>POST /datastore/{datastoreId}/imageSet/{imageSetId}/getImageSetMetadata
+Datastore line · GetImageSetMetadata
+Express: X3, X5</title>
+<circle cx="412" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="409" y="689" width="6" height="6" transform="rotate(45 412 692)" fill="#1A1F2C"/>
+<text x="400.0" y="697" text-anchor="end" style="fill:#1A1F2C">Update getimagesetmetadata</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-ListImageSetVersions" target="_blank" class="st" data-op="ListImageSetVersions"><title>POST /datastore/{datastoreId}/imageSet/{imageSetId}/listImageSetVersions
+Datastore line · ListImageSetVersions
+Express: X9</title>
+<circle cx="328" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="605" width="6" height="6" transform="rotate(45 328 608)" fill="#1A1F2C"/>
+<text x="340" y="613" text-anchor="start" style="fill:#1A1F2C">Create listimagesetversion</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-SearchImageSets" target="_blank" class="st" data-op="SearchImageSets"><title>POST /datastore/{datastoreId}/searchImageSets
+Datastore line · SearchImageSets
+Express: X1, X3, X4</title>
+<circle cx="328" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="437" width="6" height="6" transform="rotate(45 328 440)" fill="#1A1F2C"/>
+<text x="340" y="445" text-anchor="start" style="fill:#1A1F2C">Create searchimageset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-datastore-api/#op-UpdateImageSetMetadata" target="_blank" class="st" data-op="UpdateImageSetMetadata"><title>POST /datastore/{datastoreId}/imageSet/{imageSetId}/updateImageSetMetadata
+Datastore line · UpdateImageSetMetadata
+Express: X9</title>
+<circle cx="328" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="521" width="6" height="6" transform="rotate(45 328 524)" fill="#1A1F2C"/>
+<text x="340" y="529" text-anchor="start" style="fill:#1A1F2C">Update updateimagesetmetadata</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-get-dicom-import-job-api/#op-GetDICOMImportJob" target="_blank" class="st" data-op="GetDICOMImportJob"><title>GET /getDICOMImportJob/datastore/{datastoreId}/job/{jobId}
+Amazon Healthimaging Local line · GetDICOMImportJob
+Express: X1, X4, X6</title>
+<circle cx="664" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="661" y="227" width="6" height="6" transform="rotate(45 664 230)" fill="#1A1F2C"/>
+<text x="676" y="235" text-anchor="start" style="fill:#1A1F2C">Get job</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-list-dicom-import-jobs-api/#op-ListDICOMImportJobs" target="_blank" class="st" data-op="ListDICOMImportJobs"><title>GET /listDICOMImportJobs/datastore/{datastoreId}
+Amazon Healthimaging Local line · ListDICOMImportJobs
+Express: X1</title>
+<circle cx="664" cy="356" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="661" y="353" width="6" height="6" transform="rotate(45 664 356)" fill="#1A1F2C"/>
+<text x="664" y="328" text-anchor="middle" style="fill:#1A1F2C">Get<tspan x="664" dy="13">datastore <tspan font-weight="700" style="fill:#D6264F">⇄DAT</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-start-dicom-import-job-api/#op-StartDICOMImportJob" target="_blank" class="st" data-op="StartDICOMImportJob"><title>POST /startDICOMImportJob/datastore/{datastoreId}
+Amazon Healthimaging Local line · StartDICOMImportJob
+Express: X4, X6</title>
+<circle cx="748" cy="356" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="745" y="353" width="6" height="6" transform="rotate(45 748 356)" fill="#1A1F2C"/>
+<text x="739.0" y="375" text-anchor="end" style="fill:#1A1F2C">Update datastore</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-tags-api/#op-ListTagsForResource" target="_blank" class="st" data-op="ListTagsForResource"><title>GET /tags/{resourceArn}
+Tags line · ListTagsForResource
+Express: X8</title>
+<circle cx="160" cy="440" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="157" y="437" width="6" height="6" transform="rotate(45 160 440)" fill="#1A1F2C"/>
+<text x="172" y="445" text-anchor="start" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-tags-api/#op-TagResource" target="_blank" class="st" data-op="TagResource"><title>POST /tags/{resourceArn}
+Tags line · TagResource
+Express: X8</title>
+<circle cx="244" cy="356" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="241" y="353" width="6" height="6" transform="rotate(45 244 356)" fill="#1A1F2C"/>
+<text x="256" y="361" text-anchor="start" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-healthimaging/amazon-healthimaging-tags-api/#op-UntagResource" target="_blank" class="st" data-op="UntagResource"><title>DELETE /tags/{resourceArn}
+Tags line · UntagResource</title>
+<circle cx="328" cy="272" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="324" y1="276" x2="332" y2="268" stroke="#0E9F6E" stroke-width="2"/>
+<text x="340" y="277" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<text x="938" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="938" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AMAZON HEALTHIMAGING</text>
+<rect x="938" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="955" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="980" y="269" font-size="11" fill="#1A1F2C">Datastore <tspan fill="#8A93A6">12</tspan></text>
+<rect x="938" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="955" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="980" y="286" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">3</tspan></text>
+<rect x="938" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="955" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AHL</text><text x="980" y="303" font-size="11" fill="#1A1F2C">Amazon Healthimaging Local <tspan fill="#8A93A6">3</tspan></text>
+<text x="1188" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1206,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1232" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1206,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1232" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1206,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1232" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1206,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1232" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1206,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1232" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1206,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1232" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1206,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1232" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1206,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1232" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1188" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1188" y="463" font-size="10.5" fill="#5A6275">“Get Dicom Import Job” → Amazon Healthimaging Local line · 1 op</text>
+<text x="1188" y="478" font-size="10.5" fill="#5A6275">“List Dicom Import Jobs” → Amazon Healthimaging Local line · 1 op</text>
+<text x="1188" y="493" font-size="10.5" fill="#5A6275">“Start Dicom Import Job” → Amazon Healthimaging Local line · 1 op</text>
+<text x="1188" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1188" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="ListDICOMImportJobs GetDICOMImportJob SearchImageSets"><rect x="1188" y="572" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="583" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1225" y="583" font-size="11" fill="#1A1F2C">Amazon HealthImaging Audit Com</text></g>
+<g class="rt" data-stops="GetImageSet CopyImageSet"><rect x="1188" y="591" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="602" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1225" y="602" font-size="11" fill="#1A1F2C">Amazon HealthImaging Copy Imag</text></g>
+<g class="rt" data-stops="SearchImageSets GetImageSet GetImageSetMetadata"><rect x="1188" y="610" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="621" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1225" y="621" font-size="11" fill="#1A1F2C">Amazon HealthImaging Find Imag</text></g>
+<g class="rt" data-stops="StartDICOMImportJob GetDICOMImportJob SearchImageSets"><rect x="1188" y="629" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="640" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1225" y="640" font-size="11" fill="#1A1F2C">Amazon HealthImaging Import DI</text></g>
+<g class="rt" data-stops="GetImageSet GetImageSetMetadata GetImageFrame"><rect x="1188" y="648" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="659" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1225" y="659" font-size="11" fill="#1A1F2C">Amazon HealthImaging Inspect I</text></g>
+<g class="rt" data-stops="CreateDatastore GetDatastore StartDICOMImportJob GetDICOMImportJob"><rect x="1188" y="667" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="678" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1225" y="678" font-size="11" fill="#1A1F2C">Amazon HealthImaging Onboard D</text></g>
+<g class="rt" data-stops="CreateDatastore GetDatastore"><rect x="1188" y="686" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="697" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1225" y="697" font-size="11" fill="#1A1F2C">Amazon HealthImaging Provision</text></g>
+<g class="rt" data-stops="GetImageSet TagResource ListTagsForResource"><rect x="1188" y="705" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="716" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="1225" y="716" font-size="11" fill="#1A1F2C">Amazon HealthImaging Tag Image</text></g>
+<g class="rt" data-stops="GetImageSet UpdateImageSetMetadata ListImageSetVersions"><rect x="1188" y="724" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1203" y="735" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="1225" y="735" font-size="11" fill="#1A1F2C">Amazon HealthImaging Update Im</text></g>
+<text x="160" y="831" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/amazon-healthimaging/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

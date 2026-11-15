@@ -1,0 +1,507 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2120 1440" width="2120" height="1440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2120" height="1440" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Amazon-Rekognition API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">75 operations as stops · 13 tags as lines · 0 interchanges · 11 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Celebrity Recognition" d="M496.0,272.0 L580.0,272.0 L664.0,272.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Celebrity Recognition</title></path>
+<path class="line" data-line="Content Moderation" d="M412.0,944.0 L412.0,972.0 Q412.0,986.0 402.1,995.9 L328.0,1070.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Content Moderation</title></path>
+<path class="line" data-line="Dataset" d="M496.0,524.0 L454.0,482.0 L370.0,398.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dataset</title></path>
+<path class="line" data-line="Face" d="M160.0,1028.0 L244.0,944.0 L286.0,902.0 L318.1,869.9 Q328.0,860.0 328.0,846.0 L328.0,832.0 Q328.0,818.0 318.1,808.1 L244.0,734.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Face</title></path>
+<path class="line" data-line="Face Collections" d="M622.0,1196.0 L538.0,1112.0 L496.0,1070.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Face Collections</title></path>
+<path class="line" data-line="Media Analysis Job" d="M832.0,1154.0 L790.0,1196.0 L706.0,1280.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Media Analysis Job</title></path>
+<path class="line" data-line="Operations" d="M664.0,440.0 L748.0,440.0 L832.0,440.0 L902.0,440.0 Q916.0,440.0 925.9,449.9 L1000.0,524.0 L1074.1,598.1 Q1084.0,608.0 1084.0,622.0 L1084.0,692.0 L1084.0,776.0 L1084.0,846.0 Q1084.0,860.0 1074.1,869.9 L1000.0,944.0 L925.9,1018.1 Q916.0,1028.0 902.0,1028.0 L832.0,1028.0 L748.0,1028.0 L678.0,1028.0 Q664.0,1028.0 654.1,1018.1 L580.0,944.0 L505.9,869.9 Q496.0,860.0 496.0,846.0 L496.0,776.0 L496.0,706.0 Q496.0,692.0 505.9,682.1 L580.0,608.0 L654.1,533.9 Q664.0,524.0 664.0,510.0 L664.0,440.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Operations</title></path>
+<path class="line" data-line="Project" d="M706.0,566.0 L738.1,598.1 Q748.0,608.0 762.0,608.0 L832.0,608.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Project</title></path>
+<path class="line" data-line="Project Policy" d="M958.0,1154.0 L1042.0,1070.0 L1084.0,1028.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Project Policy</title></path>
+<path class="line" data-line="Project Version" d="M1126.0,230.0 L1042.0,314.0 L1009.9,346.1 Q1000.0,356.0 986.0,356.0 L930.0,356.0 Q916.0,356.0 916.0,342.0 L916.0,230.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Project Version</title></path>
+<path class="line" data-line="Stream Processor" d="M1210.0,1280.0 L1210.0,1196.0 L1210.0,1112.0 L1210.0,1000.0 Q1210.0,986.0 1219.9,976.1 L1242.1,953.9 Q1252.0,944.0 1266.0,944.0 L1336.0,944.0 L1420.0,944.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Stream Processor</title></path>
+<path class="line" data-line="User" d="M1252.0,272.0 L1177.9,346.1 Q1168.0,356.0 1168.0,370.0 L1168.0,468.0 Q1168.0,482.0 1182.0,482.0 L1252.0,482.0 L1336.0,482.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User</title></path>
+<path class="line" data-line="Amazon Rekognition Local" d="M370.0,566.0 L370.0,650.0 L370.0,720.0 Q370.0,734.0 384.0,734.0 L580.0,734.0 L664.0,734.0 L748.0,734.0 L832.0,734.0 L902.0,734.0 Q916.0,734.0 925.9,743.9 L948.1,766.1 Q958.0,776.0 972.0,776.0 L1168.0,776.0 L1210.0,776.0 L1294.0,776.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Amazon Rekognition Local</title></path>
+<line x1="496" y1="272" x2="462.0" y2="272.0" stroke="#0B7A75" stroke-width="7"/><rect x="438.0" y="261.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Celebrity Recognition</title></rect><text x="462.0" y="277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CR</text>
+<line x1="664" y1="272" x2="698.0" y2="272.0" stroke="#0B7A75" stroke-width="7"/><rect x="674.0" y="261.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Celebrity Recognition</title></rect><text x="698.0" y="277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CR</text>
+<line x1="412" y1="944" x2="412.0" y2="910.0" stroke="#B8860B" stroke-width="7"/><rect x="388.0" y="899.0" width="48" height="22" rx="5" fill="#B8860B"><title>Content Moderation</title></rect><text x="412.0" y="915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CM</text>
+<line x1="328" y1="1070" x2="303.95836943965736" y2="1094.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="279.95836943965736" y="1083.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Content Moderation</title></rect><text x="303.95836943965736" y="1099.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CM</text>
+<line x1="496" y1="524" x2="520.0416305603426" y2="548.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="496.0416305603426" y="537.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Dataset</title></rect><text x="520.0416305603426" y="553.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="370" y1="398" x2="345.95836943965736" y2="373.95836943965736" stroke="#C2410C" stroke-width="7"/><rect x="321.95836943965736" y="362.95836943965736" width="48" height="22" rx="5" fill="#C2410C"><title>Dataset</title></rect><text x="345.95836943965736" y="378.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAT</text>
+<line x1="160" y1="1028" x2="135.9583694396574" y2="1052.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="111.95836943965739" y="1041.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Face</title></rect><text x="135.9583694396574" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FAC</text>
+<line x1="244" y1="734" x2="219.9583694396574" y2="709.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="195.9583694396574" y="698.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Face</title></rect><text x="219.9583694396574" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FAC</text>
+<line x1="622" y1="1196" x2="646.0416305603426" y2="1220.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="622.0416305603426" y="1209.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Face Collections</title></rect><text x="646.0416305603426" y="1225.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FC</text>
+<line x1="496" y1="1070" x2="471.95836943965736" y2="1045.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="447.95836943965736" y="1034.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Face Collections</title></rect><text x="471.95836943965736" y="1050.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FC</text>
+<line x1="832" y1="1154" x2="856.0416305603426" y2="1129.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="832.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Media Analysis Job</title></rect><text x="856.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAJ</text>
+<line x1="706" y1="1280" x2="681.9583694396574" y2="1304.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="657.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Media Analysis Job</title></rect><text x="681.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MAJ</text>
+<rect x="634" y="387" width="60" height="26" rx="13" fill="#D6264F"/><text x="664" y="405" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">OPE</text>
+<line x1="706" y1="566" x2="681.9583694396574" y2="541.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="657.9583694396574" y="530.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Project</title></rect><text x="681.9583694396574" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="832" y1="608" x2="866.0" y2="608.0" stroke="#00838F" stroke-width="7"/><rect x="842.0" y="597.0" width="48" height="22" rx="5" fill="#00838F"><title>Project</title></rect><text x="866.0" y="613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="958" y1="1154" x2="933.9583694396574" y2="1178.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="909.9583694396574" y="1167.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Project Policy</title></rect><text x="933.9583694396574" y="1183.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PP</text>
+<line x1="1084" y1="1028" x2="1108.0416305603426" y2="1003.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="1084.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Project Policy</title></rect><text x="1108.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PP</text>
+<line x1="1126" y1="230" x2="1150.0416305603426" y2="205.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="1126.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Project Version</title></rect><text x="1150.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PV</text>
+<line x1="916" y1="230" x2="916.0" y2="196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="892.0" y="185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Project Version</title></rect><text x="916.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PV</text>
+<line x1="1210" y1="1280" x2="1210.0" y2="1314.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1186.0" y="1303.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Stream Processor</title></rect><text x="1210.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="1420" y1="944" x2="1454.0" y2="944.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1430.0" y="933.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Stream Processor</title></rect><text x="1454.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="1252" y1="272" x2="1276.0416305603426" y2="247.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1252.0416305603426" y="236.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>User</title></rect><text x="1276.0416305603426" y="252.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="1336" y1="482" x2="1370.0" y2="482.0" stroke="#B0287F" stroke-width="7"/><rect x="1346.0" y="471.0" width="48" height="22" rx="5" fill="#B0287F"><title>User</title></rect><text x="1370.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="370" y1="566" x2="370.0" y2="532.0" stroke="#0E9F6E" stroke-width="7"/><rect x="346.0" y="521.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Amazon Rekognition Local</title></rect><text x="370.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ARL</text>
+<line x1="1294" y1="776" x2="1328.0" y2="776.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1304.0" y="765.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Amazon Rekognition Local</title></rect><text x="1328.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ARL</text>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-celebrity-recognition-api/#op-GetCelebrityRecognition" target="_blank" class="st" data-op="GetCelebrityRecognition"><title>POST /#GetCelebrityRecognition
+Celebrity Recognition line · GetCelebrityRecognition</title>
+<circle cx="496" cy="272" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="502" y="260" transform="rotate(-45 502 260)" style="fill:#1A1F2C">Update #getcelebrityrecognition</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-celebrity-recognition-api/#op-StartCelebrityRecognition" target="_blank" class="st" data-op="StartCelebrityRecognition"><title>POST /#StartCelebrityRecognition
+Celebrity Recognition line · StartCelebrityRecognition</title>
+<circle cx="664" cy="272" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="658" y="284" text-anchor="end" transform="rotate(-45 658 284)" style="fill:#1A1F2C">Update #startcelebrityrecognition</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-celebrity-recognition-api/#op-RecognizeCelebrities" target="_blank" class="st" data-op="amazon-rekognition-celebrity-recognition-api:RecognizeCelebrities"><title>POST /#RecognizeCelebrities
+Celebrity Recognition line · RecognizeCelebrities
+Express: X1</title>
+<circle cx="580" cy="272" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="577" y="269" width="6" height="6" transform="rotate(45 580 272)" fill="#1A1F2C"/>
+<text x="586" y="260" transform="rotate(-45 586 260)" style="fill:#1A1F2C">Create #recognizecelebrity</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-content-moderation-api/#op-GetContentModeration" target="_blank" class="st" data-op="GetContentModeration"><title>POST /#GetContentModeration
+Content Moderation line · GetContentModeration</title>
+<circle cx="412" cy="986" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="424" y="991" text-anchor="start" style="fill:#1A1F2C">Update #getcontentmoderation</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-content-moderation-api/#op-StartContentModeration" target="_blank" class="st" data-op="StartContentModeration"><title>POST /#StartContentModeration
+Content Moderation line · StartContentModeration</title>
+<circle cx="328" cy="1070" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="316.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Update #startcontentmoderation</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-content-moderation-api/#op-DetectModerationLabels" target="_blank" class="st" data-op="amazon-rekognition-content-moderation-api:DetectModerationLabels"><title>POST /#DetectModerationLabels
+Content Moderation line · DetectModerationLabels
+Express: X2, X6, X9</title>
+<circle cx="412" cy="944" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<rect x="409" y="941" width="6" height="6" transform="rotate(45 412 944)" fill="#1A1F2C"/>
+<text x="424" y="942" text-anchor="start" style="fill:#1A1F2C">Create<tspan x="424" dy="13">#detectmoderationlabel</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-custom-labels-api/#op-DetectCustomLabels" target="_blank" class="st" data-op="amazon-rekognition-custom-labels-api:DetectCustomLabels"><title>POST /#DetectCustomLabels
+Amazon Rekognition Local line · DetectCustomLabels
+Express: X2</title>
+<circle cx="370" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="367" y="731" width="6" height="6" transform="rotate(45 370 734)" fill="#1A1F2C"/>
+<text x="370" y="706" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="370" dy="13">#detectcustomlabel</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-dataset-api/#op-CreateDataset" target="_blank" class="st" data-op="CreateDataset"><title>POST /#CreateDataset
+Dataset line · CreateDataset</title>
+<circle cx="496" cy="524" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="508" y="529" text-anchor="start" style="fill:#1A1F2C">Update #createdataset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-dataset-api/#op-DeleteDataset" target="_blank" class="st" data-op="DeleteDataset"><title>POST /#DeleteDataset
+Dataset line · DeleteDataset</title>
+<circle cx="454" cy="482" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="466" y="487" text-anchor="start" style="fill:#1A1F2C">Update #deletedataset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-dataset-api/#op-DescribeDataset" target="_blank" class="st" data-op="DescribeDataset"><title>POST /#DescribeDataset
+Dataset line · DescribeDataset</title>
+<circle cx="370" cy="398" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="382" y="403" text-anchor="start" style="fill:#1A1F2C">Update #describedataset</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-api/#op-AssociateFaces" target="_blank" class="st" data-op="AssociateFaces"><title>POST /#AssociateFaces
+Face line · AssociateFaces</title>
+<circle cx="160" cy="1028" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="172" y="1033" text-anchor="start" style="fill:#1A1F2C">Create #associateface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-api/#op-DeleteFaces" target="_blank" class="st" data-op="DeleteFaces"><title>POST /#DeleteFaces
+Face line · DeleteFaces</title>
+<circle cx="244" cy="944" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="256" y="949" text-anchor="start" style="fill:#1A1F2C">Create #deleteface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-api/#op-DisassociateFaces" target="_blank" class="st" data-op="DisassociateFaces"><title>POST /#DisassociateFaces
+Face line · DisassociateFaces</title>
+<circle cx="286" cy="902" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="274.0" y="907" text-anchor="end" style="fill:#1A1F2C">Create #disassociateface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-api/#op-ListFaces" target="_blank" class="st" data-op="ListFaces"><title>POST /#ListFaces
+Face line · ListFaces</title>
+<circle cx="328" cy="860" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="340" y="865" text-anchor="start" style="fill:#1A1F2C">Create #listface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-api/#op-SearchFaces" target="_blank" class="st" data-op="SearchFaces"><title>POST /#SearchFaces
+Face line · SearchFaces</title>
+<circle cx="328" cy="818" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="316.0" y="823" text-anchor="end" style="fill:#1A1F2C">Create #searchface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-api/#op-SearchFacesByImage" target="_blank" class="st" data-op="amazon-rekognition-face-api:SearchFacesByImage"><title>POST /#SearchFacesByImage
+Face line · SearchFacesByImage
+Express: X4, X10</title>
+<circle cx="244" cy="734" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="241" y="731" width="6" height="6" transform="rotate(45 244 734)" fill="#1A1F2C"/>
+<text x="232.0" y="739" text-anchor="end" style="fill:#1A1F2C">Update #searchfacesbyimage</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-collections-api/#op-IndexFaces" target="_blank" class="st" data-op="amazon-rekognition-face-collections-api:IndexFaces"><title>POST /#IndexFaces
+Face Collections line · IndexFaces
+Express: X4, X7, X8</title>
+<circle cx="538" cy="1112" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="535" y="1109" width="6" height="6" transform="rotate(45 538 1112)" fill="#1A1F2C"/>
+<text x="550" y="1117" text-anchor="start" style="fill:#1A1F2C">Create #indexface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-collections-api/#op-CreateCollection" target="_blank" class="st" data-op="CreateCollection"><title>POST /#CreateCollection
+Face Collections line · CreateCollection
+Express: X4, X8</title>
+<circle cx="622" cy="1196" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="619" y="1193" width="6" height="6" transform="rotate(45 622 1196)" fill="#1A1F2C"/>
+<text x="610.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Update #createcollection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-collections-api/#op-ListCollections" target="_blank" class="st" data-op="ListCollections"><title>POST /#ListCollections
+Face Collections line · ListCollections
+Express: X8</title>
+<circle cx="496" cy="1070" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="493" y="1067" width="6" height="6" transform="rotate(45 496 1070)" fill="#1A1F2C"/>
+<text x="484.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Create #listcollection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-liveness-api/#op-CreateFaceLivenessSession" target="_blank" class="st" data-op="CreateFaceLivenessSession"><title>POST /#CreateFaceLivenessSession
+Amazon Rekognition Local line · CreateFaceLivenessSession
+Express: X5</title>
+<circle cx="370" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="367" y="647" width="6" height="6" transform="rotate(45 370 650)" fill="#1A1F2C"/>
+<text x="358.0" y="655" text-anchor="end" style="fill:#1A1F2C">Update #createfacelivenesssession</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-liveness-api/#op-GetFaceLivenessSessionResults" target="_blank" class="st" data-op="GetFaceLivenessSessionResults"><title>POST /#GetFaceLivenessSessionResults
+Amazon Rekognition Local line · GetFaceLivenessSessionResults
+Express: X5</title>
+<circle cx="748" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="745" y="731" width="6" height="6" transform="rotate(45 748 734)" fill="#1A1F2C"/>
+<text x="742" y="746" text-anchor="end" transform="rotate(-45 742 746)" style="fill:#1A1F2C">Create #getfacelivenesssessionresult</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-search-api/#op-GetFaceSearch" target="_blank" class="st" data-op="GetFaceSearch"><title>POST /#GetFaceSearch
+Amazon Rekognition Local line · GetFaceSearch</title>
+<circle cx="832" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="838" y="722" transform="rotate(-45 838 722)" style="fill:#1A1F2C">Update #getfacesearch</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-face-search-api/#op-StartFaceSearch" target="_blank" class="st" data-op="StartFaceSearch"><title>POST /#StartFaceSearch
+Amazon Rekognition Local line · StartFaceSearch</title>
+<circle cx="1168" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1168" y="749" text-anchor="middle" style="fill:#1A1F2C">Update #startfacesearch</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-facial-analysis-api/#op-CompareFaces" target="_blank" class="st" data-op="amazon-rekognition-facial-analysis-api:CompareFaces"><title>POST /#CompareFaces
+Amazon Rekognition Local line · CompareFaces
+Express: X3</title>
+<circle cx="370" cy="566" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="367" y="563" width="6" height="6" transform="rotate(45 370 566)" fill="#1A1F2C"/>
+<text x="358.0" y="571" text-anchor="end" style="fill:#1A1F2C">Create #compareface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-facial-analysis-api/#op-DetectFaces" target="_blank" class="st" data-op="amazon-rekognition-facial-analysis-api:DetectFaces"><title>POST /#DetectFaces
+Amazon Rekognition Local line · DetectFaces
+Express: X3, X7, X10</title>
+<circle cx="580" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="577" y="731" width="6" height="6" transform="rotate(45 580 734)" fill="#1A1F2C"/>
+<text x="580" y="720" text-anchor="middle" style="fill:#1A1F2C">Create #detectface</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-image-analysis-api/#op-DetectLabels" target="_blank" class="st" data-op="amazon-rekognition-image-analysis-api:DetectLabels"><title>POST /#DetectLabels
+Amazon Rekognition Local line · DetectLabels
+Express: X1, X6</title>
+<circle cx="664" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="661" y="731" width="6" height="6" transform="rotate(45 664 734)" fill="#1A1F2C"/>
+<text x="670" y="722" transform="rotate(-45 670 722)" style="fill:#1A1F2C">Create #detectlabel</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-media-analysis-job-api/#op-GetMediaAnalysisJob" target="_blank" class="st" data-op="GetMediaAnalysisJob"><title>POST /#GetMediaAnalysisJob
+Media Analysis Job line · GetMediaAnalysisJob</title>
+<circle cx="832" cy="1154" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="820.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Update #getmediaanalysisjob</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-media-analysis-job-api/#op-ListMediaAnalysisJobs" target="_blank" class="st" data-op="ListMediaAnalysisJobs"><title>POST /#ListMediaAnalysisJobs
+Media Analysis Job line · ListMediaAnalysisJobs</title>
+<circle cx="790" cy="1196" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="799" y="1215" text-anchor="start" style="fill:#1A1F2C">Create #listmediaanalysisjob</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-media-analysis-job-api/#op-StartMediaAnalysisJob" target="_blank" class="st" data-op="StartMediaAnalysisJob"><title>POST /#StartMediaAnalysisJob
+Media Analysis Job line · StartMediaAnalysisJob</title>
+<circle cx="706" cy="1280" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="718" y="1285" text-anchor="start" style="fill:#1A1F2C">Update #startmediaanalysisjob</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-CopyProjectVersion" target="_blank" class="st" data-op="CopyProjectVersion"><title>POST /#CopyProjectVersion
+Operations line · CopyProjectVersion</title>
+<circle cx="664" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="652.0" y="445" text-anchor="end" style="fill:#1A1F2C">Update #copyprojectversion</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-DetectProtectiveEquipment" target="_blank" class="st" data-op="DetectProtectiveEquipment"><title>POST /#DetectProtectiveEquipment
+Operations line · DetectProtectiveEquipment</title>
+<circle cx="916" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="445" text-anchor="start" style="fill:#1A1F2C">Update #detectprotectiveequipment</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-DetectText" target="_blank" class="st" data-op="amazon-rekognition-operations-api:DetectText"><title>POST /#DetectText
+Operations line · DetectText
+Express: X9</title>
+<circle cx="1000" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="997" y="521" width="6" height="6" transform="rotate(45 1000 524)" fill="#1A1F2C"/>
+<text x="1012" y="529" text-anchor="start" style="fill:#1A1F2C">Update #detecttext</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-DistributeDatasetEntries" target="_blank" class="st" data-op="DistributeDatasetEntries"><title>POST /#DistributeDatasetEntries
+Operations line · DistributeDatasetEntries</title>
+<circle cx="1084" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="613" text-anchor="start" style="fill:#1A1F2C">Create #distributedatasetentry</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-DeleteCollection" target="_blank" class="st" data-op="DeleteCollection"><title>POST /#DeleteCollection
+Operations line · DeleteCollection</title>
+<circle cx="748" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="748" y="463" text-anchor="middle" style="fill:#1A1F2C">Update #deletecollection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-DescribeCollection" target="_blank" class="st" data-op="DescribeCollection"><title>POST /#DescribeCollection
+Operations line · DescribeCollection</title>
+<circle cx="832" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="832" y="426" text-anchor="middle" style="fill:#1A1F2C">Update #describecollection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-GetCelebrityInfo" target="_blank" class="st" data-op="GetCelebrityInfo"><title>POST /#GetCelebrityInfo
+Operations line · GetCelebrityInfo</title>
+<circle cx="1084" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="697" text-anchor="start" style="fill:#1A1F2C">Update #getcelebrityinfo</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-GetFaceDetection" target="_blank" class="st" data-op="GetFaceDetection"><title>POST /#GetFaceDetection
+Operations line · GetFaceDetection</title>
+<circle cx="1084" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1093" y="766" text-anchor="start" style="fill:#1A1F2C">Update #getfacedetection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-StartFaceDetection" target="_blank" class="st" data-op="StartFaceDetection"><title>POST /#StartFaceDetection
+Operations line · StartFaceDetection</title>
+<circle cx="664" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="664" y="1050" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="664" dy="13">#startfacedetection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-GetPersonTracking" target="_blank" class="st" data-op="GetPersonTracking"><title>POST /#GetPersonTracking
+Operations line · GetPersonTracking</title>
+<circle cx="1084" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="865" text-anchor="end" style="fill:#1A1F2C">Update #getpersontracking</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-StartPersonTracking" target="_blank" class="st" data-op="StartPersonTracking"><title>POST /#StartPersonTracking
+Operations line · StartPersonTracking</title>
+<circle cx="580" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="949" text-anchor="start" style="fill:#1A1F2C">Update #startpersontracking</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-GetSegmentDetection" target="_blank" class="st" data-op="GetSegmentDetection"><title>POST /#GetSegmentDetection
+Operations line · GetSegmentDetection</title>
+<circle cx="1000" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1009" y="963" text-anchor="start" style="fill:#1A1F2C">Update #getsegmentdetection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-StartSegmentDetection" target="_blank" class="st" data-op="StartSegmentDetection"><title>POST /#StartSegmentDetection
+Operations line · StartSegmentDetection</title>
+<circle cx="496" cy="860" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="496" y="832" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="496" dy="13">#startsegmentdetection</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-ListDatasetEntries" target="_blank" class="st" data-op="ListDatasetEntries"><title>POST /#ListDatasetEntries
+Operations line · ListDatasetEntries</title>
+<circle cx="916" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="907.0" y="1047" text-anchor="end" style="fill:#1A1F2C">Create #listdatasetentry</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-UpdateDatasetEntries" target="_blank" class="st" data-op="UpdateDatasetEntries"><title>POST /#UpdateDatasetEntries
+Operations line · UpdateDatasetEntries</title>
+<circle cx="580" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="568.0" y="613" text-anchor="end" style="fill:#1A1F2C">Create #updatedatasetentry</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-ListDatasetLabels" target="_blank" class="st" data-op="ListDatasetLabels"><title>POST /#ListDatasetLabels
+Operations line · ListDatasetLabels</title>
+<circle cx="832" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="838" y="1016" transform="rotate(-45 838 1016)" style="fill:#1A1F2C">Create #listdatasetlabel</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-ListTagsForResource" target="_blank" class="st" data-op="ListTagsForResource"><title>POST /#ListTagsForResource
+Operations line · ListTagsForResource</title>
+<circle cx="748" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="754" y="1016" transform="rotate(-45 754 1016)" style="fill:#1A1F2C">Update #listtagsforresource</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-TagResource" target="_blank" class="st" data-op="TagResource"><title>POST /#TagResource
+Operations line · TagResource</title>
+<circle cx="496" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="781" text-anchor="start" style="fill:#1A1F2C">Update #tagresource</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-operations-api/#op-UntagResource" target="_blank" class="st" data-op="UntagResource"><title>POST /#UntagResource
+Operations line · UntagResource</title>
+<circle cx="496" cy="692" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="697" text-anchor="start" style="fill:#1A1F2C">Update #untagresource</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-api/#op-CreateProject" target="_blank" class="st" data-op="CreateProject"><title>POST /#CreateProject
+Project line · CreateProject</title>
+<circle cx="706" cy="566" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="718" y="571" text-anchor="start" style="fill:#1A1F2C">Update #createproject</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-api/#op-DeleteProject" target="_blank" class="st" data-op="DeleteProject"><title>POST /#DeleteProject
+Project line · DeleteProject</title>
+<circle cx="748" cy="608" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="736.0" y="613" text-anchor="end" style="fill:#1A1F2C">Update #deleteproject</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-api/#op-DescribeProjects" target="_blank" class="st" data-op="DescribeProjects"><title>POST /#DescribeProjects
+Project line · DescribeProjects</title>
+<circle cx="832" cy="608" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="826" y="620" text-anchor="end" transform="rotate(-45 826 620)" style="fill:#1A1F2C">Create #describeproject</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-policy-api/#op-DeleteProjectPolicy" target="_blank" class="st" data-op="DeleteProjectPolicy"><title>POST /#DeleteProjectPolicy
+Project Policy line · DeleteProjectPolicy</title>
+<circle cx="958" cy="1154" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="970" y="1159" text-anchor="start" style="fill:#1A1F2C">Update #deleteprojectpolicy</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-policy-api/#op-ListProjectPolicies" target="_blank" class="st" data-op="ListProjectPolicies"><title>POST /#ListProjectPolicies
+Project Policy line · ListProjectPolicies</title>
+<circle cx="1042" cy="1070" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1030.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Create #listprojectpolicy</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-policy-api/#op-PutProjectPolicy" target="_blank" class="st" data-op="PutProjectPolicy"><title>POST /#PutProjectPolicy
+Project Policy line · PutProjectPolicy</title>
+<circle cx="1084" cy="1028" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1072.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Update #putprojectpolicy</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-version-api/#op-CreateProjectVersion" target="_blank" class="st" data-op="CreateProjectVersion"><title>POST /#CreateProjectVersion
+Project Version line · CreateProjectVersion</title>
+<circle cx="1126" cy="230" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1114.0" y="235" text-anchor="end" style="fill:#1A1F2C">Update #createprojectversion</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-version-api/#op-DeleteProjectVersion" target="_blank" class="st" data-op="DeleteProjectVersion"><title>POST /#DeleteProjectVersion
+Project Version line · DeleteProjectVersion</title>
+<circle cx="1042" cy="314" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1054" y="312" text-anchor="start" style="fill:#1A1F2C">Update<tspan x="1054" dy="13">#deleteprojectversion</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-version-api/#op-DescribeProjectVersions" target="_blank" class="st" data-op="DescribeProjectVersions"><title>POST /#DescribeProjectVersions
+Project Version line · DescribeProjectVersions</title>
+<circle cx="1000" cy="356" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="991.0" y="375" text-anchor="end" style="fill:#1A1F2C">Create #describeprojectversion</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-version-api/#op-StartProjectVersion" target="_blank" class="st" data-op="StartProjectVersion"><title>POST /#StartProjectVersion
+Project Version line · StartProjectVersion</title>
+<circle cx="916" cy="356" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="904.0" y="361" text-anchor="end" style="fill:#1A1F2C">Update #startprojectversion</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-project-version-api/#op-StopProjectVersion" target="_blank" class="st" data-op="StopProjectVersion"><title>POST /#StopProjectVersion
+Project Version line · StopProjectVersion</title>
+<circle cx="916" cy="230" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="904.0" y="235" text-anchor="end" style="fill:#1A1F2C">Update #stopprojectversion</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stored-video-analysis-api/#op-GetLabelDetection" target="_blank" class="st" data-op="GetLabelDetection"><title>POST /#GetLabelDetection
+Amazon Rekognition Local line · GetLabelDetection
+Express: X11</title>
+<circle cx="916" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="913" y="731" width="6" height="6" transform="rotate(45 916 734)" fill="#1A1F2C"/>
+<text x="925" y="724" text-anchor="start" style="fill:#1A1F2C">Update #getlabeldetection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stored-video-analysis-api/#op-StartLabelDetection" target="_blank" class="st" data-op="StartLabelDetection"><title>POST /#StartLabelDetection
+Amazon Rekognition Local line · StartLabelDetection
+Express: X11</title>
+<circle cx="1210" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1207" y="773" width="6" height="6" transform="rotate(45 1210 776)" fill="#1A1F2C"/>
+<text x="1204" y="788" text-anchor="end" transform="rotate(-45 1204 788)" style="fill:#1A1F2C">Update #startlabeldetection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-CreateStreamProcessor" target="_blank" class="st" data-op="CreateStreamProcessor"><title>POST /#CreateStreamProcessor
+Stream Processor line · CreateStreamProcessor</title>
+<circle cx="1210" cy="1280" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1222" y="1285" text-anchor="start" style="fill:#1A1F2C">Update #createstreamprocessor</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-DeleteStreamProcessor" target="_blank" class="st" data-op="DeleteStreamProcessor"><title>POST /#DeleteStreamProcessor
+Stream Processor line · DeleteStreamProcessor</title>
+<circle cx="1210" cy="1196" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1222" y="1201" text-anchor="start" style="fill:#1A1F2C">Update #deletestreamprocessor</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-DescribeStreamProcessor" target="_blank" class="st" data-op="DescribeStreamProcessor"><title>POST /#DescribeStreamProcessor
+Stream Processor line · DescribeStreamProcessor</title>
+<circle cx="1210" cy="1112" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1222" y="1117" text-anchor="start" style="fill:#1A1F2C">Update #describestreamprocessor</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-ListStreamProcessors" target="_blank" class="st" data-op="ListStreamProcessors"><title>POST /#ListStreamProcessors
+Stream Processor line · ListStreamProcessors</title>
+<circle cx="1210" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1210" y="1008" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="1210" dy="13">#liststreamprocessor</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-StartStreamProcessor" target="_blank" class="st" data-op="StartStreamProcessor"><title>POST /#StartStreamProcessor
+Stream Processor line · StartStreamProcessor</title>
+<circle cx="1252" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1240.0" y="949" text-anchor="end" style="fill:#1A1F2C">Update #startstreamprocessor</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-StopStreamProcessor" target="_blank" class="st" data-op="StopStreamProcessor"><title>POST /#StopStreamProcessor
+Stream Processor line · StopStreamProcessor</title>
+<circle cx="1336" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1342" y="932" transform="rotate(-45 1342 932)" style="fill:#1A1F2C">Update #stopstreamprocessor</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-stream-processor-api/#op-UpdateStreamProcessor" target="_blank" class="st" data-op="UpdateStreamProcessor"><title>POST /#UpdateStreamProcessor
+Stream Processor line · UpdateStreamProcessor</title>
+<circle cx="1420" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1414" y="956" text-anchor="end" transform="rotate(-45 1414 956)" style="fill:#1A1F2C">Update #updatestreamprocessor</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-text-detection-api/#op-GetTextDetection" target="_blank" class="st" data-op="GetTextDetection"><title>POST /#GetTextDetection
+Amazon Rekognition Local line · GetTextDetection</title>
+<circle cx="958" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="946.0" y="781" text-anchor="end" style="fill:#1A1F2C">Update #gettextdetection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-text-detection-api/#op-StartTextDetection" target="_blank" class="st" data-op="StartTextDetection"><title>POST /#StartTextDetection
+Amazon Rekognition Local line · StartTextDetection</title>
+<circle cx="1294" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1288" y="788" text-anchor="end" transform="rotate(-45 1288 788)" style="fill:#1A1F2C">Update #starttextdetection</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-user-api/#op-CreateUser" target="_blank" class="st" data-op="CreateUser"><title>POST /#CreateUser
+User line · CreateUser</title>
+<circle cx="1252" cy="272" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="277" text-anchor="start" style="fill:#1A1F2C">Update #createuser</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-user-api/#op-DeleteUser" target="_blank" class="st" data-op="DeleteUser"><title>POST /#DeleteUser
+User line · DeleteUser</title>
+<circle cx="1168" cy="356" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="361" text-anchor="start" style="fill:#1A1F2C">Update #deleteuser</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-user-api/#op-ListUsers" target="_blank" class="st" data-op="ListUsers"><title>POST /#ListUsers
+User line · ListUsers</title>
+<circle cx="1168" cy="482" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1156.0" y="487" text-anchor="end" style="fill:#1A1F2C">Create #listuser</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-user-api/#op-SearchUsers" target="_blank" class="st" data-op="SearchUsers"><title>POST /#SearchUsers
+User line · SearchUsers</title>
+<circle cx="1252" cy="482" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1258" y="470" transform="rotate(-45 1258 470)" style="fill:#1A1F2C">Create #searchuser</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-rekognition/amazon-rekognition-user-api/#op-SearchUsersByImage" target="_blank" class="st" data-op="SearchUsersByImage"><title>POST /#SearchUsersByImage
+User line · SearchUsersByImage</title>
+<circle cx="1336" cy="482" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1327.0" y="501" text-anchor="end" style="fill:#1A1F2C">Update #searchusersbyimage</text>
+</a>
+<text x="1610" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1610" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AMAZON REKOGNITION</text>
+<rect x="1610" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1627" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPE</text><text x="1652" y="269" font-size="11" fill="#1A1F2C">Operations <tspan fill="#8A93A6">19</tspan></text>
+<rect x="1610" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1627" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ARL</text><text x="1652" y="286" font-size="11" fill="#1A1F2C">Amazon Rekognition Local <tspan fill="#8A93A6">12</tspan></text>
+<rect x="1610" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1627" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SP</text><text x="1652" y="303" font-size="11" fill="#1A1F2C">Stream Processor <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1610" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1627" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FAC</text><text x="1652" y="320" font-size="11" fill="#1A1F2C">Face <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1610" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1627" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PV</text><text x="1652" y="337" font-size="11" fill="#1A1F2C">Project Version <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1610" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="1627" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="1652" y="354" font-size="11" fill="#1A1F2C">User <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1610" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1627" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CR</text><text x="1652" y="371" font-size="11" fill="#1A1F2C">Celebrity Recognition <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1610" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="1627" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CM</text><text x="1652" y="388" font-size="11" fill="#1A1F2C">Content Moderation <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1610" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="1627" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAT</text><text x="1652" y="405" font-size="11" fill="#1A1F2C">Dataset <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1610" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1627" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FC</text><text x="1652" y="422" font-size="11" fill="#1A1F2C">Face Collections <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1610" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1627" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MAJ</text><text x="1652" y="439" font-size="11" fill="#1A1F2C">Media Analysis Job <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1610" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="1627" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="1652" y="456" font-size="11" fill="#1A1F2C">Project <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1610" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="1627" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PP</text><text x="1652" y="473" font-size="11" fill="#1A1F2C">Project Policy <tspan fill="#8A93A6">3</tspan></text>
+<text x="1860" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1878,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1904" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1878,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1904" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1878,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1904" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1878,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1904" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1878,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1904" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1878,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1904" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1878,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1904" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1878,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1904" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1860" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1860" y="463" font-size="10.5" fill="#5A6275">“Custom Labels” → Amazon Rekognition Local line · 1 op</text>
+<text x="1860" y="478" font-size="10.5" fill="#5A6275">“Face Liveness” → Amazon Rekognition Local line · 2 ops</text>
+<text x="1860" y="493" font-size="10.5" fill="#5A6275">“Face Search” → Amazon Rekognition Local line · 2 ops</text>
+<text x="1860" y="508" font-size="10.5" fill="#5A6275">“Facial Analysis” → Amazon Rekognition Local line · 2 ops</text>
+<text x="1860" y="523" font-size="10.5" fill="#5A6275">“Image Analysis” → Amazon Rekognition Local line · 1 op</text>
+<text x="1860" y="538" font-size="10.5" fill="#5A6275">“Stored Video Analysis” → Amazon Rekognition Local line · 2 ops</text>
+<text x="1860" y="553" font-size="10.5" fill="#5A6275">“Text Detection” → Amazon Rekognition Local line · 2 ops</text>
+<text x="1860" y="603" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1860" y="620" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="amazon-rekognition-celebrity-recognition-api:RecognizeCelebrities amazon-rekognition-image-analysis-api:DetectLabels"><rect x="1860" y="632" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="643" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1897" y="643" font-size="11" fill="#1A1F2C">Amazon Rekognition Celebrity S</text></g>
+<g class="rt" data-stops="amazon-rekognition-custom-labels-api:DetectCustomLabels amazon-rekognition-content-moderation-api:DetectModerationLabels"><rect x="1860" y="651" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="662" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1897" y="662" font-size="11" fill="#1A1F2C">Amazon Rekognition Custom Labe</text></g>
+<g class="rt" data-stops="amazon-rekognition-facial-analysis-api:DetectFaces amazon-rekognition-facial-analysis-api:CompareFaces"><rect x="1860" y="670" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="681" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1897" y="681" font-size="11" fill="#1A1F2C">Amazon Rekognition Detect then</text></g>
+<g class="rt" data-stops="CreateCollection amazon-rekognition-face-collections-api:IndexFaces amazon-rekognition-face-api:SearchFacesByImage"><rect x="1860" y="689" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="700" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1897" y="700" font-size="11" fill="#1A1F2C">Amazon Rekognition Enroll and </text></g>
+<g class="rt" data-stops="CreateFaceLivenessSession GetFaceLivenessSessionResults"><rect x="1860" y="708" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="719" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1897" y="719" font-size="11" fill="#1A1F2C">Amazon Rekognition Face Livene</text></g>
+<g class="rt" data-stops="amazon-rekognition-image-analysis-api:DetectLabels amazon-rekognition-content-moderation-api:DetectModerationLabels"><rect x="1860" y="727" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="738" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1897" y="738" font-size="11" fill="#1A1F2C">Amazon Rekognition Label and M</text></g>
+<g class="rt" data-stops="amazon-rekognition-facial-analysis-api:DetectFaces amazon-rekognition-face-collections-api:IndexFaces"><rect x="1860" y="746" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="757" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1897" y="757" font-size="11" fill="#1A1F2C">Amazon Rekognition Quality Gat</text></g>
+<g class="rt" data-stops="ListCollections CreateCollection amazon-rekognition-face-collections-api:IndexFaces"><rect x="1860" y="765" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="776" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="1897" y="776" font-size="11" fill="#1A1F2C">Amazon Rekognition Reuse or Cr</text></g>
+<g class="rt" data-stops="amazon-rekognition-operations-api:DetectText amazon-rekognition-content-moderation-api:DetectModerationLabels"><rect x="1860" y="784" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="795" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="1897" y="795" font-size="11" fill="#1A1F2C">Amazon Rekognition Text and Mo</text></g>
+<g class="rt" data-stops="amazon-rekognition-facial-analysis-api:DetectFaces amazon-rekognition-face-api:SearchFacesByImage"><rect x="1860" y="803" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="814" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X10</text><text x="1897" y="814" font-size="11" fill="#1A1F2C">Amazon Rekognition Verify a Fa</text></g>
+<g class="rt" data-stops="StartLabelDetection GetLabelDetection"><rect x="1860" y="822" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1875" y="833" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X11</text><text x="1897" y="833" font-size="11" fill="#1A1F2C">Amazon Rekognition Video Label</text></g>
+<text x="160" y="1410" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/amazon-rekognition/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
