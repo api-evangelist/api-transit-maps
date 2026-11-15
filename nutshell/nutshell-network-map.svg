@@ -1,0 +1,678 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3212 1902" width="3212" height="1902" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3212" height="1902" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Nutshell API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">111 operations as stops · 15 tags as lines · 3 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Accounts (Companies)" d="M748.0,1364.0 L832.0,1280.0 L906.1,1205.9 Q916.0,1196.0 916.0,1182.0 L916.0,1168.0 Q916.0,1154.0 906.1,1144.1 L874.0,1112.0 L841.9,1079.9 Q832.0,1070.0 818.0,1070.0 L706.0,1070.0 L636.0,1070.0 Q622.0,1070.0 612.1,1060.1 L538.0,986.0 L454.0,902.0 L379.9,827.9 Q370.0,818.0 356.0,818.0 L328.0,818.0 L244.0,818.0 L160.0,818.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts (Companies)</title></path>
+<path class="line" data-line="Activities" d="M832.0,944.0 L948.1,1060.1 Q958.0,1070.0 972.0,1070.0 L1028.0,1070.0 Q1042.0,1070.0 1042.0,1056.0 L1042.0,1000.0 Q1042.0,986.0 1032.1,976.1 L1000.0,944.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Activities</title></path>
+<path class="line" data-line="Competitors" d="M1966.0,1700.0 L1882.0,1616.0 L1849.9,1583.9 Q1840.0,1574.0 1826.0,1574.0 L1728.0,1574.0 Q1714.0,1574.0 1714.0,1588.0 L1714.0,1658.0 L1714.0,1742.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Competitors</title></path>
+<path class="line" data-line="Contacts (People)" d="M2512.0,1364.0 L2428.0,1364.0 L2302.0,1364.0 L2218.0,1364.0 L2106.0,1364.0 Q2092.0,1364.0 2082.1,1354.1 L2059.9,1331.9 Q2050.0,1322.0 2036.0,1322.0 L1966.0,1322.0 L1896.0,1322.0 Q1882.0,1322.0 1882.0,1308.0 L1882.0,1210.0 Q1882.0,1196.0 1896.0,1196.0 L2008.0,1196.0 L2092.0,1196.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Contacts (People)</title></path>
+<path class="line" data-line="Invoices" d="M1252.0,1070.0 L1284.1,1102.1 Q1294.0,1112.0 1294.0,1126.0 L1294.0,1238.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invoices</title></path>
+<path class="line" data-line="Leads" d="M1210.0,776.0 L1294.0,776.0 L1378.0,776.0 L1448.0,776.0 Q1462.0,776.0 1471.9,785.9 L1546.0,860.0 L1630.0,944.0 L1704.1,1018.1 Q1714.0,1028.0 1714.0,1042.0 L1714.0,1112.0 L1714.0,1196.0 L1714.0,1266.0 Q1714.0,1280.0 1704.1,1289.9 L1630.0,1364.0 L1555.9,1438.1 Q1546.0,1448.0 1532.0,1448.0 L1462.0,1448.0 L1378.0,1448.0 L1308.0,1448.0 Q1294.0,1448.0 1284.1,1438.1 L1210.0,1364.0 L1135.9,1289.9 Q1126.0,1280.0 1126.0,1266.0 L1126.0,1196.0 L1126.0,1112.0 L1126.0,1042.0 Q1126.0,1028.0 1135.9,1018.1 L1200.1,953.9 Q1210.0,944.0 1210.0,930.0 L1210.0,776.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Leads</title></path>
+<path class="line" data-line="Notes" d="M1252.0,650.0 L1252.0,846.0 Q1252.0,860.0 1261.9,869.9 L1284.1,892.1 Q1294.0,902.0 1303.9,892.1 L1336.0,860.0 L1368.1,827.9 Q1378.0,818.0 1378.0,804.0 L1378.0,650.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Notes</title></path>
+<path class="line" data-line="Product Categories" d="M1378.0,986.0 L1452.1,1060.1 Q1462.0,1070.0 1476.0,1070.0 L1546.0,1070.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Product Categories</title></path>
+<path class="line" data-line="Products" d="M958.0,566.0 L958.0,650.0 L958.0,734.0 L958.0,804.0 Q958.0,818.0 972.0,818.0 L1028.0,818.0 Q1042.0,818.0 1051.9,808.1 L1116.1,743.9 Q1126.0,734.0 1126.0,720.0 L1126.0,650.0 L1126.0,566.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Products</title></path>
+<path class="line" data-line="Quotes" d="M1924.0,1448.0 L1840.0,1448.0 L1756.0,1448.0 L1714.0,1448.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Quotes</title></path>
+<path class="line" data-line="Sources" d="M1420.0,1700.0 L1504.0,1616.0 L1546.0,1574.0 L1588.0,1532.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sources</title></path>
+<path class="line" data-line="Stagesets (Pipelines)" d="M1336.0,1364.0 L1420.0,1280.0 L1504.0,1196.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Stagesets (Pipelines)</title></path>
+<path class="line" data-line="Tags" d="M916.0,1364.0 L1000.0,1364.0 L1028.0,1364.0 Q1042.0,1364.0 1051.9,1373.9 L1126.0,1448.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="Tasks" d="M1840.0,986.0 L1840.0,1056.0 Q1840.0,1070.0 1849.9,1079.9 L1872.1,1102.1 Q1882.0,1112.0 1896.0,1112.0 L1910.0,1112.0 Q1924.0,1112.0 1933.9,1102.1 L2008.0,1028.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tasks</title></path>
+<path class="line" data-line="More Local" d="M2176.0,440.0 L2092.0,524.0 L2008.0,608.0 L1924.0,692.0 L1849.9,766.1 Q1840.0,776.0 1826.0,776.0 L1812.0,776.0 Q1798.0,776.0 1788.1,785.9 L1723.9,850.1 Q1714.0,860.0 1700.0,860.0 L1644.0,860.0 Q1630.0,860.0 1620.1,850.1 L1555.9,785.9 Q1546.0,776.0 1555.9,766.1 L1662.1,659.9 Q1672.0,650.0 1672.0,636.0 L1672.0,566.0 L1672.0,496.0 Q1672.0,482.0 1662.1,472.1 L1639.9,449.9 Q1630.0,440.0 1630.0,426.0 L1630.0,314.0 L1630.0,230.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="748" y1="1364" x2="723.9583694396574" y2="1388.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="699.9583694396574" y="1377.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Accounts (Companies)</title></rect><text x="723.9583694396574" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AC</text>
+<line x1="160" y1="818" x2="126.0" y2="818.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="807.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Accounts (Companies)</title></rect><text x="126.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AC</text>
+<line x1="832" y1="944" x2="807.9583694396574" y2="919.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="783.9583694396574" y="908.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Activities</title></rect><text x="807.9583694396574" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACT</text>
+<line x1="1000" y1="944" x2="975.9583694396574" y2="919.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="951.9583694396574" y="908.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Activities</title></rect><text x="975.9583694396574" y="924.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACT</text>
+<line x1="1966" y1="1700" x2="1990.0416305603426" y2="1724.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="1966.0416305603426" y="1713.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Competitors</title></rect><text x="1990.0416305603426" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1714" y1="1742" x2="1714.0" y2="1776.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1690.0" y="1765.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Competitors</title></rect><text x="1714.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="2512" y1="1364" x2="2546.0" y2="1364.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2522.0" y="1353.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Contacts (People)</title></rect><text x="2546.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CP</text>
+<line x1="2092" y1="1196" x2="2126.0" y2="1196.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2102.0" y="1185.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Contacts (People)</title></rect><text x="2126.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CP</text>
+<line x1="1252" y1="1070" x2="1227.9583694396574" y2="1045.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1203.9583694396574" y="1034.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Invoices</title></rect><text x="1227.9583694396574" y="1050.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="1294" y1="1238" x2="1294.0" y2="1272.0" stroke="#B0287F" stroke-width="7"/><rect x="1270.0" y="1261.0" width="48" height="22" rx="5" fill="#B0287F"><title>Invoices</title></rect><text x="1294.0" y="1277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<rect x="1180" y="723" width="60" height="26" rx="13" fill="#D6264F"/><text x="1210" y="741" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">LEA</text>
+<line x1="1252" y1="650" x2="1252.0" y2="616.0" stroke="#B0287F" stroke-width="7"/><rect x="1228.0" y="605.0" width="48" height="22" rx="5" fill="#B0287F"><title>Notes</title></rect><text x="1252.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="1378" y1="650" x2="1378.0" y2="616.0" stroke="#B0287F" stroke-width="7"/><rect x="1354.0" y="605.0" width="48" height="22" rx="5" fill="#B0287F"><title>Notes</title></rect><text x="1378.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="1378" y1="986" x2="1353.9583694396574" y2="961.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1329.9583694396574" y="950.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Product Categories</title></rect><text x="1353.9583694396574" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PC</text>
+<line x1="1546" y1="1070" x2="1580.0" y2="1070.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1556.0" y="1059.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Product Categories</title></rect><text x="1580.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PC</text>
+<line x1="958" y1="566" x2="958.0" y2="532.0" stroke="#E07B12" stroke-width="7"/><rect x="934.0" y="521.0" width="48" height="22" rx="5" fill="#E07B12"><title>Products</title></rect><text x="958.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1126" y1="566" x2="1126.0" y2="532.0" stroke="#E07B12" stroke-width="7"/><rect x="1102.0" y="521.0" width="48" height="22" rx="5" fill="#E07B12"><title>Products</title></rect><text x="1126.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1924" y1="1448" x2="1958.0" y2="1448.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1934.0" y="1437.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Quotes</title></rect><text x="1958.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUO</text>
+<line x1="1714" y1="1448" x2="1680.0" y2="1448.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1656.0" y="1437.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Quotes</title></rect><text x="1680.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUO</text>
+<line x1="1420" y1="1700" x2="1395.9583694396574" y2="1724.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1371.9583694396574" y="1713.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Sources</title></rect><text x="1395.9583694396574" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOU</text>
+<line x1="1588" y1="1532" x2="1612.0416305603426" y2="1507.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1588.0416305603426" y="1496.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Sources</title></rect><text x="1612.0416305603426" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOU</text>
+<line x1="1336" y1="1364" x2="1311.9583694396574" y2="1388.0416305603426" stroke="#af2328" stroke-width="7"/><rect x="1287.9583694396574" y="1377.0416305603426" width="48" height="22" rx="5" fill="#af2328"><title>Stagesets (Pipelines)</title></rect><text x="1311.9583694396574" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="1504" y1="1196" x2="1528.0416305603426" y2="1171.9583694396574" stroke="#af2328" stroke-width="7"/><rect x="1504.0416305603426" y="1160.9583694396574" width="48" height="22" rx="5" fill="#af2328"><title>Stagesets (Pipelines)</title></rect><text x="1528.0416305603426" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="916" y1="1364" x2="882.0" y2="1364.0" stroke="#2E7D32" stroke-width="7"/><rect x="858.0" y="1353.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Tags</title></rect><text x="882.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1126" y1="1448" x2="1150.0416305603426" y2="1472.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1126.0416305603426" y="1461.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Tags</title></rect><text x="1150.0416305603426" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1840" y1="986" x2="1840.0" y2="952.0" stroke="#0B7A75" stroke-width="7"/><rect x="1816.0" y="941.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Tasks</title></rect><text x="1840.0" y="957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="2008" y1="1028" x2="2032.0416305603426" y2="1003.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="2008.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Tasks</title></rect><text x="2032.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="2176" y1="440" x2="2200.0416305603426" y2="415.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="2176.0416305603426" y="404.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2200.0416305603426" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1630" y1="230" x2="1630.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="1606.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1630.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-e011fe1a74d2ca75e6294040b98423f1" target="_blank" class="st" data-op="e011fe1a74d2ca75e6294040b98423f1"><title>GET /accounts/{id}
+Accounts (Companies) line · e011fe1a74d2ca75e6294040b98423f1</title>
+<circle cx="916" cy="1196" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="1201" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-2ab29d8b08add12de00c9075a1dc934f" target="_blank" class="st" data-op="2ab29d8b08add12de00c9075a1dc934f"><title>DELETE /accounts/{id}
+Accounts (Companies) line · 2ab29d8b08add12de00c9075a1dc934f</title>
+<circle cx="874" cy="1112" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="870" y1="1116" x2="878" y2="1108" stroke="#0E9F6E" stroke-width="2"/>
+<text x="886" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-48bf7b1de74805c35713fb7b3a9f1e52" target="_blank" class="st" data-op="48bf7b1de74805c35713fb7b3a9f1e52"><title>PATCH /accounts/{id}
+Accounts (Companies) line · 48bf7b1de74805c35713fb7b3a9f1e52</title>
+<circle cx="916" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="1159" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-31ef0f539b00b82d394f351491b80103" target="_blank" class="st" data-op="31ef0f539b00b82d394f351491b80103"><title>GET /accounts/{id}/customfields
+Accounts (Companies) line · 31ef0f539b00b82d394f351491b80103</title>
+<circle cx="538" cy="986" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="991" text-anchor="start" style="fill:#1A1F2C">List customfields</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-09c7340848e47c8b7727d7e316702d3d" target="_blank" class="st" data-op="09c7340848e47c8b7727d7e316702d3d"><title>GET /accounts/customfields/attributes
+Accounts (Companies) line · 09c7340848e47c8b7727d7e316702d3d</title>
+<circle cx="454" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="907" text-anchor="start" style="fill:#1A1F2C">List attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-aa09106535968abeb7ea879a5774eec7" target="_blank" class="st" data-op="aa09106535968abeb7ea879a5774eec7"><title>POST /accounts/customfield
+Accounts (Companies) line · aa09106535968abeb7ea879a5774eec7</title>
+<circle cx="832" cy="1070" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="823.0" y="1089" text-anchor="end" style="fill:#1A1F2C">Update customfield</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-fea99eec1a11b79a75fd3c6092ea1c95" target="_blank" class="st" data-op="fea99eec1a11b79a75fd3c6092ea1c95"><title>GET /accounts/list
+Accounts (Companies) line · fea99eec1a11b79a75fd3c6092ea1c95</title>
+<circle cx="706" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="712" y="1058" transform="rotate(-45 712 1058)" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-ee7a9535ab7ae30da91d6d9cebe2ed85" target="_blank" class="st" data-op="ee7a9535ab7ae30da91d6d9cebe2ed85"><title>GET /accounts
+Accounts (Companies) line · ee7a9535ab7ae30da91d6d9cebe2ed85</title>
+<circle cx="748" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="736.0" y="1369" text-anchor="end" style="fill:#1A1F2C">List accounts <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-0e0199fef8e93c05437d3a33104886d1" target="_blank" class="st" data-op="0e0199fef8e93c05437d3a33104886d1"><title>POST /accounts
+Accounts (Companies) line · 0e0199fef8e93c05437d3a33104886d1</title>
+<circle cx="832" cy="1280" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="1285" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-23c63a8f80517c993fb93e50e216167b" target="_blank" class="st" data-op="23c63a8f80517c993fb93e50e216167b"><title>POST /accounts/{id}/undelete
+Accounts (Companies) line · 23c63a8f80517c993fb93e50e216167b</title>
+<circle cx="370" cy="818" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="823" text-anchor="start" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-4eb956de07606de9ea86f6b39feeff20" target="_blank" class="st" data-op="4eb956de07606de9ea86f6b39feeff20"><title>GET /accounts/list/fields
+Accounts (Companies) line · 4eb956de07606de9ea86f6b39feeff20</title>
+<circle cx="622" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="610.0" y="1075" text-anchor="end" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-73f17127f4378721e7a57e7a7890b1b3" target="_blank" class="st" data-op="73f17127f4378721e7a57e7a7890b1b3"><title>GET /accounttypes
+Accounts (Companies) line · 73f17127f4378721e7a57e7a7890b1b3</title>
+<circle cx="328" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="334" y="806" transform="rotate(-45 334 806)" style="fill:#1A1F2C">List accounttypes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-accounts-companies-api/#op-7e2ccf9488b1ee4f602c7059eee817e5" target="_blank" class="st" data-op="7e2ccf9488b1ee4f602c7059eee817e5"><title>GET /industries
+Accounts (Companies) line · 7e2ccf9488b1ee4f602c7059eee817e5</title>
+<circle cx="244" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="250" y="806" transform="rotate(-45 250 806)" style="fill:#1A1F2C">List industries</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-activities-api/#op-afbafbf6832a5c50439963afb493230f" target="_blank" class="st" data-op="afbafbf6832a5c50439963afb493230f"><title>GET /activities
+Activities line · afbafbf6832a5c50439963afb493230f</title>
+<circle cx="832" cy="944" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="844" y="949" text-anchor="start" style="fill:#1A1F2C">List activities</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-activities-api/#op-245ac4db7d1ce9919113871e1fd9d14c" target="_blank" class="st" data-op="245ac4db7d1ce9919113871e1fd9d14c"><title>POST /activities
+Activities line · 245ac4db7d1ce9919113871e1fd9d14c</title>
+<circle cx="958" cy="1070" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="946.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Create activity</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-activities-api/#op-386cd1704288a91f21d7ea531d7cdcf6" target="_blank" class="st" data-op="386cd1704288a91f21d7ea531d7cdcf6"><title>GET /activities/{id}
+Activities line · 386cd1704288a91f21d7ea531d7cdcf6</title>
+<circle cx="1042" cy="1070" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1033.0" y="1089" text-anchor="end" style="fill:#1A1F2C">Get activity</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-activities-api/#op-cc696feb60257dd8d550082b06513c14" target="_blank" class="st" data-op="cc696feb60257dd8d550082b06513c14"><title>PUT /activities/{id}
+Activities line · cc696feb60257dd8d550082b06513c14</title>
+<circle cx="1042" cy="986" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1054" y="991" text-anchor="start" style="fill:#1A1F2C">Update activity</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-activities-api/#op-e09bcf63999a97ba02d8f461039bbba2" target="_blank" class="st" data-op="e09bcf63999a97ba02d8f461039bbba2"><title>GET /activitytypes
+Activities line · e09bcf63999a97ba02d8f461039bbba2</title>
+<circle cx="1000" cy="944" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1012" y="949" text-anchor="start" style="fill:#1A1F2C">List activitytypes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-audiences-api/#op-0e172d1fdc100344130d7c677ea0b498" target="_blank" class="st" data-op="0e172d1fdc100344130d7c677ea0b498"><title>GET /audiences
+More Local line · 0e172d1fdc100344130d7c677ea0b498</title>
+<circle cx="2176" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2188" y="445" text-anchor="start" style="fill:#1A1F2C">List audiences</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-audiences-api/#op-9e1046e87d298eda177cb6323ddaa01c" target="_blank" class="st" data-op="9e1046e87d298eda177cb6323ddaa01c"><title>POST /audiences
+More Local line · 9e1046e87d298eda177cb6323ddaa01c</title>
+<circle cx="2092" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2104" y="529" text-anchor="start" style="fill:#1A1F2C">Create audience</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-competitors-api/#op-c7625772e8320ae9d155b40b1974291b" target="_blank" class="st" data-op="c7625772e8320ae9d155b40b1974291b"><title>GET /competitors/{id}
+Competitors line · c7625772e8320ae9d155b40b1974291b</title>
+<circle cx="1714" cy="1742" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1726" y="1747" text-anchor="start" style="fill:#1A1F2C">Get competitor</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-competitors-api/#op-3013cdcf2331b70ff8d2cebc7a4c3c81" target="_blank" class="st" data-op="3013cdcf2331b70ff8d2cebc7a4c3c81"><title>GET /competitors
+Competitors line · 3013cdcf2331b70ff8d2cebc7a4c3c81</title>
+<circle cx="1714" cy="1658" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1726" y="1663" text-anchor="start" style="fill:#1A1F2C">List competitors</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-competitors-api/#op-b1d85dde464bf9f894809bdafc72560e" target="_blank" class="st" data-op="nutshell-competitors-api:b1d85dde464bf9f894809bdafc72560e"><title>GET /competitormaps/{id}
+Competitors line · b1d85dde464bf9f894809bdafc72560e</title>
+<circle cx="1882" cy="1616" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1894" y="1621" text-anchor="start" style="fill:#1A1F2C">Get competitormap</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-competitors-api/#op-851afdd2aef2a992349827409b2e6771" target="_blank" class="st" data-op="nutshell-competitors-api:851afdd2aef2a992349827409b2e6771"><title>DELETE /competitormaps/{id}
+Competitors line · 851afdd2aef2a992349827409b2e6771</title>
+<circle cx="1714" cy="1574" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1710" y1="1578" x2="1718" y2="1570" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1723" y="1564" text-anchor="start" style="fill:#1A1F2C">Delete competitormap</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-competitors-api/#op-ba720a5972ac5167437e05f71e3592d0" target="_blank" class="st" data-op="nutshell-competitors-api:ba720a5972ac5167437e05f71e3592d0"><title>PATCH /competitormaps/{id}
+Competitors line · ba720a5972ac5167437e05f71e3592d0</title>
+<circle cx="1840" cy="1574" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1852" y="1579" text-anchor="start" style="fill:#1A1F2C">Update competitormap</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-competitors-api/#op-e1accd46a9067a71fe5617536bda2103" target="_blank" class="st" data-op="nutshell-competitors-api:e1accd46a9067a71fe5617536bda2103"><title>GET /competitormaps
+Competitors line · e1accd46a9067a71fe5617536bda2103</title>
+<circle cx="1966" cy="1700" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1978" y="1705" text-anchor="start" style="fill:#1A1F2C">List competitormaps</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-8a291bf9a1a7e4a7fd1ca0cabfdaa8a7" target="_blank" class="st" data-op="8a291bf9a1a7e4a7fd1ca0cabfdaa8a7"><title>GET /contacts/{id}
+Contacts (People) line · 8a291bf9a1a7e4a7fd1ca0cabfdaa8a7</title>
+<circle cx="2302" cy="1364" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2308" y="1352" transform="rotate(-45 2308 1352)" style="fill:#1A1F2C">Get contact</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-2b3d155b2889d34aa67235e67aa91d3f" target="_blank" class="st" data-op="2b3d155b2889d34aa67235e67aa91d3f"><title>DELETE /contacts/{id}
+Contacts (People) line · 2b3d155b2889d34aa67235e67aa91d3f</title>
+<circle cx="2092" cy="1364" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2088" y1="1368" x2="2096" y2="1360" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2080.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Delete contact</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-cb995ae09d7e0e99e91b122bcc9358ed" target="_blank" class="st" data-op="cb995ae09d7e0e99e91b122bcc9358ed"><title>PATCH /contacts/{id}
+Contacts (People) line · cb995ae09d7e0e99e91b122bcc9358ed</title>
+<circle cx="2218" cy="1364" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2224" y="1352" transform="rotate(-45 2224 1352)" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-66abde512928a58ff9e3d7fac51a236e" target="_blank" class="st" data-op="66abde512928a58ff9e3d7fac51a236e"><title>GET /contacts/{id}/customfields
+Contacts (People) line · 66abde512928a58ff9e3d7fac51a236e</title>
+<circle cx="1882" cy="1196" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1891" y="1186" text-anchor="start" style="fill:#1A1F2C">List customfields</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-6f66fdf709475681e4e16528980ec105" target="_blank" class="st" data-op="6f66fdf709475681e4e16528980ec105"><title>GET /contacts/customfields/attributes
+Contacts (People) line · 6f66fdf709475681e4e16528980ec105</title>
+<circle cx="2008" cy="1196" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2014" y="1184" transform="rotate(-45 2014 1184)" style="fill:#1A1F2C">List attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-e156619e0c6caae9203e0c505a33bcad" target="_blank" class="st" data-op="e156619e0c6caae9203e0c505a33bcad"><title>POST /contacts/customfield
+Contacts (People) line · e156619e0c6caae9203e0c505a33bcad</title>
+<circle cx="2050" cy="1322" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2062" y="1327" text-anchor="start" style="fill:#1A1F2C">Update customfield</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-cde301caba6b033521a71e6bed772a58" target="_blank" class="st" data-op="cde301caba6b033521a71e6bed772a58"><title>GET /contacts
+Contacts (People) line · cde301caba6b033521a71e6bed772a58</title>
+<circle cx="2512" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2506" y="1376" text-anchor="end" transform="rotate(-45 2506 1376)" style="fill:#1A1F2C">List contacts <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-376a09558c05d3d4d273459f15a57326" target="_blank" class="st" data-op="376a09558c05d3d4d273459f15a57326"><title>POST /contacts
+Contacts (People) line · 376a09558c05d3d4d273459f15a57326</title>
+<circle cx="2428" cy="1364" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2434" y="1352" transform="rotate(-45 2434 1352)" style="fill:#1A1F2C">Create contact</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-c56447f926210f833c484e8ba7486e8c" target="_blank" class="st" data-op="c56447f926210f833c484e8ba7486e8c"><title>POST /contacts/{id}/undelete
+Contacts (People) line · c56447f926210f833c484e8ba7486e8c</title>
+<circle cx="2092" cy="1196" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2083.0" y="1215" text-anchor="end" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-7416ffd79a200377cb6276e02b1f5ddb" target="_blank" class="st" data-op="7416ffd79a200377cb6276e02b1f5ddb"><title>GET /contacts/list
+Contacts (People) line · 7416ffd79a200377cb6276e02b1f5ddb</title>
+<circle cx="1966" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1972" y="1310" transform="rotate(-45 1972 1310)" style="fill:#1A1F2C">List contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-contacts-people-api/#op-a2e78cb11ef577ef33e5c162da51ab51" target="_blank" class="st" data-op="a2e78cb11ef577ef33e5c162da51ab51"><title>GET /contacts/list/fields
+Contacts (People) line · a2e78cb11ef577ef33e5c162da51ab51</title>
+<circle cx="1882" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1870.0" y="1327" text-anchor="end" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-editions-api/#op-4a302c8065d7f9015251d17f23bb237e" target="_blank" class="st" data-op="4a302c8065d7f9015251d17f23bb237e"><title>GET /editions
+More Local line · 4a302c8065d7f9015251d17f23bb237e</title>
+<circle cx="2008" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2020" y="613" text-anchor="start" style="fill:#1A1F2C">List editions</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-editions-api/#op-7975bcc74536182c42a0ceca95dcbc35" target="_blank" class="st" data-op="7975bcc74536182c42a0ceca95dcbc35"><title>GET /editions/{id}
+More Local line · 7975bcc74536182c42a0ceca95dcbc35</title>
+<circle cx="1924" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1936" y="697" text-anchor="start" style="fill:#1A1F2C">Get edition</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-emails-api/#op-43ba2d674b5cc459bb8cdf42698d303f" target="_blank" class="st" data-op="43ba2d674b5cc459bb8cdf42698d303f"><title>GET /emails/{id}
+More Local line · 43ba2d674b5cc459bb8cdf42698d303f</title>
+<circle cx="1840" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1852" y="781" text-anchor="start" style="fill:#1A1F2C">Get email</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-events-timeline-api/#op-975fac2bed2a6a346717a88cfcdb9324" target="_blank" class="st" data-op="975fac2bed2a6a346717a88cfcdb9324"><title>GET /events
+More Local line · 975fac2bed2a6a346717a88cfcdb9324</title>
+<circle cx="1798" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1786.0" y="781" text-anchor="end" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-events-timeline-api/#op-eade9331abb11f33feaeb9e9d8ae89a7" target="_blank" class="st" data-op="eade9331abb11f33feaeb9e9d8ae89a7"><title>GET /events/deleted
+More Local line · eade9331abb11f33feaeb9e9d8ae89a7</title>
+<circle cx="1714" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="865" text-anchor="start" style="fill:#1A1F2C">Get deleted</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-filter-api/#op-9bbf17f9beb5e7eebe638a634e861945" target="_blank" class="st" data-op="9bbf17f9beb5e7eebe638a634e861945"><title>GET /filters
+More Local line · 9bbf17f9beb5e7eebe638a634e861945</title>
+<circle cx="1630" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1639" y="850" text-anchor="start" style="fill:#1A1F2C">List filters</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-forms-api/#op-b0fec1131366b61118593ec9e86a4c9e" target="_blank" class="st" data-op="b0fec1131366b61118593ec9e86a4c9e"><title>GET /forms
+More Local line · b0fec1131366b61118593ec9e86a4c9e</title>
+<circle cx="1546" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="781" text-anchor="start" style="fill:#1A1F2C">List forms</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-forms-api/#op-c150c11fa75e601f12a5d0c3291b7e9c" target="_blank" class="st" data-op="c150c11fa75e601f12a5d0c3291b7e9c"><title>GET /forms/{id}
+More Local line · c150c11fa75e601f12a5d0c3291b7e9c</title>
+<circle cx="1672" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="655" text-anchor="start" style="fill:#1A1F2C">Get form</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-industries-api/#op-3d6ab32d8162c8d9fd58cd0f40888de4" target="_blank" class="st" data-op="3d6ab32d8162c8d9fd58cd0f40888de4"><title>GET /industries/{id}
+Accounts (Companies) line · 3d6ab32d8162c8d9fd58cd0f40888de4</title>
+<circle cx="160" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="166" y="806" transform="rotate(-45 166 806)" style="fill:#1A1F2C">Get industry</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-invoices-api/#op-b9c9d23692da5d58d025a29911416b8f" target="_blank" class="st" data-op="b9c9d23692da5d58d025a29911416b8f"><title>GET /invoices/{id}
+Invoices line · b9c9d23692da5d58d025a29911416b8f</title>
+<circle cx="1294" cy="1112" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="1117" text-anchor="start" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-invoices-api/#op-d35e25a23af6446bdc10dffb07a59c79" target="_blank" class="st" data-op="d35e25a23af6446bdc10dffb07a59c79"><title>POST /invoices/{id}/status
+Invoices line · d35e25a23af6446bdc10dffb07a59c79</title>
+<circle cx="1294" cy="1238" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="1243" text-anchor="start" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-invoices-api/#op-44a63cb9277feafb979ccef9038cd6d5" target="_blank" class="st" data-op="44a63cb9277feafb979ccef9038cd6d5"><title>GET /invoices
+Invoices line · 44a63cb9277feafb979ccef9038cd6d5</title>
+<circle cx="1252" cy="1070" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1240.0" y="1075" text-anchor="end" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-83433994d9721607dea58b99daf963ee" target="_blank" class="st" data-op="83433994d9721607dea58b99daf963ee"><title>GET /leads/{id}/customfields
+Leads line · 83433994d9721607dea58b99daf963ee</title>
+<circle cx="1630" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="1369" text-anchor="start" style="fill:#1A1F2C">List customfields</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-653f973376f3b7ecfdf95585605ddc40" target="_blank" class="st" data-op="653f973376f3b7ecfdf95585605ddc40"><title>GET /leads/customfields/attributes
+Leads line · 653f973376f3b7ecfdf95585605ddc40</title>
+<circle cx="1462" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1462" y="748" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1462" dy="13">attributes</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-91e474dc9fbb7fc3414b76130994d575" target="_blank" class="st" data-op="91e474dc9fbb7fc3414b76130994d575"><title>POST /leads/customfield
+Leads line · 91e474dc9fbb7fc3414b76130994d575</title>
+<circle cx="1378" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1384" y="764" transform="rotate(-45 1384 764)" style="fill:#1A1F2C">Update customfield</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-8e55836889bb7d432d5fe3d9bfe608b7" target="_blank" class="st" data-op="8e55836889bb7d432d5fe3d9bfe608b7"><title>GET /leads/{id}
+Leads line · 8e55836889bb7d432d5fe3d9bfe608b7</title>
+<circle cx="1714" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1117" text-anchor="start" style="fill:#1A1F2C">Get lead</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-2ac175944b197a9c18dd9f6e9a53cb88" target="_blank" class="st" data-op="2ac175944b197a9c18dd9f6e9a53cb88"><title>DELETE /leads/{id}
+Leads line · 2ac175944b197a9c18dd9f6e9a53cb88</title>
+<circle cx="1714" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1710" y1="1284" x2="1718" y2="1276" stroke="#D6264F" stroke-width="2"/>
+<text x="1726" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete lead</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-5a47a634e21ffbad6a5c268af67a63ae" target="_blank" class="st" data-op="5a47a634e21ffbad6a5c268af67a63ae"><title>PATCH /leads/{id}
+Leads line · 5a47a634e21ffbad6a5c268af67a63ae</title>
+<circle cx="1714" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1201" text-anchor="start" style="fill:#1A1F2C">Update lead</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-3b3fb3c15cb2f6f9bd67ecae3cb0baa9" target="_blank" class="st" data-op="3b3fb3c15cb2f6f9bd67ecae3cb0baa9"><title>GET /leads/list
+Leads line · 3b3fb3c15cb2f6f9bd67ecae3cb0baa9</title>
+<circle cx="1546" cy="860" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="865" text-anchor="start" style="fill:#1A1F2C">List leads</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-132e65861bebcb3781c3d37e66aff309" target="_blank" class="st" data-op="132e65861bebcb3781c3d37e66aff309"><title>GET /leads
+Leads line · 132e65861bebcb3781c3d37e66aff309</title>
+<circle cx="1210" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1198.0" y="781" text-anchor="end" style="fill:#1A1F2C">List leads</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-7d9961f8fbd457ba5670721926517135" target="_blank" class="st" data-op="7d9961f8fbd457ba5670721926517135"><title>POST /leads
+Leads line · 7d9961f8fbd457ba5670721926517135</title>
+<circle cx="1294" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1300" y="764" transform="rotate(-45 1300 764)" style="fill:#1A1F2C">Create lead</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-c7d33a5a9825ea23ef5a75587cc4a9bd" target="_blank" class="st" data-op="c7d33a5a9825ea23ef5a75587cc4a9bd"><title>GET /leads/report
+Leads line · c7d33a5a9825ea23ef5a75587cc4a9bd</title>
+<circle cx="1714" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="1033" text-anchor="start" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-7c4277bf7ac3a1e50fb98c713565bc36" target="_blank" class="st" data-op="7c4277bf7ac3a1e50fb98c713565bc36"><title>GET /leads/{id}/installments
+Leads line · 7c4277bf7ac3a1e50fb98c713565bc36</title>
+<circle cx="1546" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1537.0" y="1467" text-anchor="end" style="fill:#1A1F2C">List installments</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-32aed6101ab1c412a24275e076aaba1f" target="_blank" class="st" data-op="32aed6101ab1c412a24275e076aaba1f"><title>POST /leads/{id}/installments
+Leads line · 32aed6101ab1c412a24275e076aaba1f</title>
+<circle cx="1462" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1468" y="1436" transform="rotate(-45 1468 1436)" style="fill:#1A1F2C">Create installment</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-3cc07d39be52c9a287e147e138f88446" target="_blank" class="st" data-op="3cc07d39be52c9a287e147e138f88446"><title>GET /leads/{id}/stages
+Leads line · 3cc07d39be52c9a287e147e138f88446</title>
+<circle cx="1294" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1282.0" y="1453" text-anchor="end" style="fill:#1A1F2C">List stages <tspan font-weight="700" style="fill:#af2328">⇄SP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-104d97bbcf04ea8a2ac72428fbdaa10b" target="_blank" class="st" data-op="104d97bbcf04ea8a2ac72428fbdaa10b"><title>POST /leads/{id}/reopen
+Leads line · 104d97bbcf04ea8a2ac72428fbdaa10b</title>
+<circle cx="1378" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1384" y="1436" transform="rotate(-45 1384 1436)" style="fill:#1A1F2C">Update reopen</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-74bb9b0e446b6a0a9913e5b8f8bca628" target="_blank" class="st" data-op="74bb9b0e446b6a0a9913e5b8f8bca628"><title>POST /leads/{id}/status
+Leads line · 74bb9b0e446b6a0a9913e5b8f8bca628</title>
+<circle cx="1126" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1285" text-anchor="start" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-ac69339d38f3809791db2340e47bff9b" target="_blank" class="st" data-op="ac69339d38f3809791db2340e47bff9b"><title>POST /leads/{id}/stageset
+Leads line · ac69339d38f3809791db2340e47bff9b</title>
+<circle cx="1210" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1222" y="1369" text-anchor="start" style="fill:#1A1F2C">Update stageset</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-cb65d8c1aa9bba020e669ab84d846887" target="_blank" class="st" data-op="cb65d8c1aa9bba020e669ab84d846887"><title>POST /leads/{id}/watch
+Leads line · cb65d8c1aa9bba020e669ab84d846887</title>
+<circle cx="1126" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1117" text-anchor="start" style="fill:#1A1F2C">Update watch</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-3e509411f0439f11ffa52e726354b3b9" target="_blank" class="st" data-op="3e509411f0439f11ffa52e726354b3b9"><title>POST /leads/{id}/undelete
+Leads line · 3e509411f0439f11ffa52e726354b3b9</title>
+<circle cx="1126" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1201" text-anchor="start" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-1ef7499bb48d0b6d9aedccfeb6053b95" target="_blank" class="st" data-op="1ef7499bb48d0b6d9aedccfeb6053b95"><title>GET /leads/list/fields
+Leads line · 1ef7499bb48d0b6d9aedccfeb6053b95</title>
+<circle cx="1630" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="949" text-anchor="start" style="fill:#1A1F2C">List fields</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-a02ff2477ba693ce337ed58c2f7cb2d4" target="_blank" class="st" data-op="a02ff2477ba693ce337ed58c2f7cb2d4"><title>GET /outcomes/{id}
+Leads line · a02ff2477ba693ce337ed58c2f7cb2d4</title>
+<circle cx="1210" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1198.0" y="949" text-anchor="end" style="fill:#1A1F2C">Get outcome</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-leads-api/#op-023ebfb59f2c7fe37eb81dc618d24af0" target="_blank" class="st" data-op="023ebfb59f2c7fe37eb81dc618d24af0"><title>GET /outcomes
+Leads line · 023ebfb59f2c7fe37eb81dc618d24af0</title>
+<circle cx="1126" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1114.0" y="1033" text-anchor="end" style="fill:#1A1F2C">List outcomes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-markets-api/#op-1ea697bdc341c343978370e0465ec30a" target="_blank" class="st" data-op="1ea697bdc341c343978370e0465ec30a"><title>GET /markets/{id}
+More Local line · 1ea697bdc341c343978370e0465ec30a</title>
+<circle cx="1672" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="487" text-anchor="start" style="fill:#1A1F2C">Get market</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-markets-api/#op-9768a284fcd11af320b20036afca17d6" target="_blank" class="st" data-op="9768a284fcd11af320b20036afca17d6"><title>GET /markets
+More Local line · 9768a284fcd11af320b20036afca17d6</title>
+<circle cx="1672" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="571" text-anchor="start" style="fill:#1A1F2C">List markets</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-notes-api/#op-7cda4297fad55a1bd186049667840325" target="_blank" class="st" data-op="7cda4297fad55a1bd186049667840325"><title>GET /notes/{id}
+Notes line · 7cda4297fad55a1bd186049667840325</title>
+<circle cx="1294" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1288" y="914" text-anchor="end" transform="rotate(-45 1288 914)" style="fill:#1A1F2C">Get note</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-notes-api/#op-836127953fcc40da01ecc8c605bad12a" target="_blank" class="st" data-op="836127953fcc40da01ecc8c605bad12a"><title>DELETE /notes/{id}
+Notes line · 836127953fcc40da01ecc8c605bad12a</title>
+<circle cx="1336" cy="860" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1332" y1="864" x2="1340" y2="856" stroke="#B0287F" stroke-width="2"/>
+<text x="1348" y="865" text-anchor="start" style="fill:#1A1F2C">Delete note</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-notes-api/#op-56325ab1a38cdcc6bcbbdbe540a78907" target="_blank" class="st" data-op="56325ab1a38cdcc6bcbbdbe540a78907"><title>POST /notes/{id}/undelete
+Notes line · 56325ab1a38cdcc6bcbbdbe540a78907</title>
+<circle cx="1378" cy="650" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="655" text-anchor="start" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-notes-api/#op-c855c6708aa8bb59e12dd00ac6afbd04" target="_blank" class="st" data-op="c855c6708aa8bb59e12dd00ac6afbd04"><title>GET /notes
+Notes line · c855c6708aa8bb59e12dd00ac6afbd04</title>
+<circle cx="1252" cy="650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="655" text-anchor="start" style="fill:#1A1F2C">List notes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-notes-api/#op-d75ec624406914f4ac17a0cf1fc38d05" target="_blank" class="st" data-op="d75ec624406914f4ac17a0cf1fc38d05"><title>POST /notes
+Notes line · d75ec624406914f4ac17a0cf1fc38d05</title>
+<circle cx="1252" cy="860" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1261" y="850" text-anchor="start" style="fill:#1A1F2C">Create note</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-product-categories-api/#op-717f48307abd255776158e66cbbe8656" target="_blank" class="st" data-op="717f48307abd255776158e66cbbe8656"><title>GET /productcategories
+Product Categories line · 717f48307abd255776158e66cbbe8656</title>
+<circle cx="1378" cy="986" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1390" y="991" text-anchor="start" style="fill:#1A1F2C">List productcategories</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-product-categories-api/#op-6b6ddd29d78bb86bfa27c73614f601ff" target="_blank" class="st" data-op="6b6ddd29d78bb86bfa27c73614f601ff"><title>POST /productcategories
+Product Categories line · 6b6ddd29d78bb86bfa27c73614f601ff</title>
+<circle cx="1462" cy="1070" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1450.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Create productcategory</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-product-categories-api/#op-e35b57d17d5dad46410b632e6e4a539d" target="_blank" class="st" data-op="e35b57d17d5dad46410b632e6e4a539d"><title>GET /productcategories/{id}
+Product Categories line · e35b57d17d5dad46410b632e6e4a539d</title>
+<circle cx="1546" cy="1070" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1540" y="1082" text-anchor="end" transform="rotate(-45 1540 1082)" style="fill:#1A1F2C">Get productcategory</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-e524bd8b37d52ef8fa586cadacfbbe63" target="_blank" class="st" data-op="e524bd8b37d52ef8fa586cadacfbbe63"><title>GET /products/{id}
+Products line · e524bd8b37d52ef8fa586cadacfbbe63</title>
+<circle cx="1126" cy="734" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1117.0" y="724" text-anchor="end" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-1fb8ea517bd0df4cfe5fedda69e56084" target="_blank" class="st" data-op="1fb8ea517bd0df4cfe5fedda69e56084"><title>DELETE /products/{id}
+Products line · 1fb8ea517bd0df4cfe5fedda69e56084</title>
+<circle cx="1126" cy="650" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1122" y1="654" x2="1130" y2="646" stroke="#E07B12" stroke-width="2"/>
+<text x="1138" y="655" text-anchor="start" style="fill:#1A1F2C">Delete product</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-799d14014dfe97d25006bd23aa1955de" target="_blank" class="st" data-op="799d14014dfe97d25006bd23aa1955de"><title>POST /products/{id}/undelete
+Products line · 799d14014dfe97d25006bd23aa1955de</title>
+<circle cx="1126" cy="566" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1138" y="571" text-anchor="start" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-09a50065f621a61a55b5bc5c0df3f338" target="_blank" class="st" data-op="09a50065f621a61a55b5bc5c0df3f338"><title>GET /products
+Products line · 09a50065f621a61a55b5bc5c0df3f338</title>
+<circle cx="1042" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1054" y="823" text-anchor="start" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-741f6e4eb5abcbdfc94754dd76257d9e" target="_blank" class="st" data-op="741f6e4eb5abcbdfc94754dd76257d9e"><title>GET /productmaps/{id}
+Products line · 741f6e4eb5abcbdfc94754dd76257d9e</title>
+<circle cx="958" cy="650" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="655" text-anchor="start" style="fill:#1A1F2C">Get productmap</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-427685c90f14ed7ca22515715a03b4e4" target="_blank" class="st" data-op="427685c90f14ed7ca22515715a03b4e4"><title>PATCH /productmaps/{id}
+Products line · 427685c90f14ed7ca22515715a03b4e4</title>
+<circle cx="958" cy="734" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="739" text-anchor="start" style="fill:#1A1F2C">Update productmap</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-7aa410de8a00f46edf22043fee324e39" target="_blank" class="st" data-op="7aa410de8a00f46edf22043fee324e39"><title>DELETE /productMaps/{id}
+Products line · 7aa410de8a00f46edf22043fee324e39</title>
+<circle cx="958" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="954" y1="822" x2="962" y2="814" stroke="#E07B12" stroke-width="2"/>
+<text x="946.0" y="823" text-anchor="end" style="fill:#1A1F2C">Delete productmap</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-products-api/#op-4bc737ff6f91aab43dc7617f2c36ab3c" target="_blank" class="st" data-op="4bc737ff6f91aab43dc7617f2c36ab3c"><title>GET /productmaps
+Products line · 4bc737ff6f91aab43dc7617f2c36ab3c</title>
+<circle cx="958" cy="566" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="571" text-anchor="start" style="fill:#1A1F2C">List productmaps</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-quotes-api/#op-4c251930a518927960cce7d1211a0945" target="_blank" class="st" data-op="4c251930a518927960cce7d1211a0945"><title>GET /quotes/{id}
+Quotes line · 4c251930a518927960cce7d1211a0945</title>
+<circle cx="1840" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1846" y="1436" transform="rotate(-45 1846 1436)" style="fill:#1A1F2C">Get quote</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-quotes-api/#op-9809f001604e5cbe8f478e14b6ec6295" target="_blank" class="st" data-op="9809f001604e5cbe8f478e14b6ec6295"><title>POST /quotes/{id}/status
+Quotes line · 9809f001604e5cbe8f478e14b6ec6295</title>
+<circle cx="1714" cy="1448" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1720" y="1436" transform="rotate(-45 1720 1436)" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-quotes-api/#op-8ce989ecb071d43420747aa852f155db" target="_blank" class="st" data-op="8ce989ecb071d43420747aa852f155db"><title>POST /quotes/{id}/invoice
+Quotes line · 8ce989ecb071d43420747aa852f155db</title>
+<circle cx="1756" cy="1448" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1762" y="1436" transform="rotate(-45 1762 1436)" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-quotes-api/#op-1aee48fe1472d38116c60c87e2ca4161" target="_blank" class="st" data-op="1aee48fe1472d38116c60c87e2ca4161"><title>GET /quotes
+Quotes line · 1aee48fe1472d38116c60c87e2ca4161</title>
+<circle cx="1924" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1918" y="1460" text-anchor="end" transform="rotate(-45 1918 1460)" style="fill:#1A1F2C">List quotes</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-sources-api/#op-4d0d83bd963cdf17734d5dacc8fe4235" target="_blank" class="st" data-op="4d0d83bd963cdf17734d5dacc8fe4235"><title>DELETE /sources/{id}
+Sources line · 4d0d83bd963cdf17734d5dacc8fe4235</title>
+<circle cx="1546" cy="1574" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1542" y1="1578" x2="1550" y2="1570" stroke="#C2410C" stroke-width="2"/>
+<text x="1558" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete source</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-sources-api/#op-80894cc152322d74d5a4115aca5297f9" target="_blank" class="st" data-op="80894cc152322d74d5a4115aca5297f9"><title>POST /sources/{id}/undelete
+Sources line · 80894cc152322d74d5a4115aca5297f9</title>
+<circle cx="1588" cy="1532" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1600" y="1537" text-anchor="start" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-sources-api/#op-2d07cb07b45de2ae13701b873b26cf9e" target="_blank" class="st" data-op="2d07cb07b45de2ae13701b873b26cf9e"><title>GET /sources
+Sources line · 2d07cb07b45de2ae13701b873b26cf9e</title>
+<circle cx="1420" cy="1700" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1432" y="1705" text-anchor="start" style="fill:#1A1F2C">List sources</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-sources-api/#op-cd431c40f2b57127c71b15044d270a13" target="_blank" class="st" data-op="cd431c40f2b57127c71b15044d270a13"><title>POST /sources
+Sources line · cd431c40f2b57127c71b15044d270a13</title>
+<circle cx="1504" cy="1616" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1516" y="1621" text-anchor="start" style="fill:#1A1F2C">Create source</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-stagesets-pipelines-api/#op-14af5dd687ab31f65e5af1a2b1fa5527" target="_blank" class="st" data-op="14af5dd687ab31f65e5af1a2b1fa5527"><title>GET /stages
+Stagesets (Pipelines) line · 14af5dd687ab31f65e5af1a2b1fa5527</title>
+<circle cx="1336" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348" y="1369" text-anchor="start" style="fill:#1A1F2C">List stages</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-stagesets-pipelines-api/#op-7e925de7233253ea915fdf486fb23321" target="_blank" class="st" data-op="7e925de7233253ea915fdf486fb23321"><title>GET /stagesets
+Stagesets (Pipelines) line · 7e925de7233253ea915fdf486fb23321</title>
+<circle cx="1420" cy="1280" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1432" y="1285" text-anchor="start" style="fill:#1A1F2C">List stagesets</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-stagesets-pipelines-api/#op-add7f9ef66629fa4ccee5dcc0479795b" target="_blank" class="st" data-op="add7f9ef66629fa4ccee5dcc0479795b"><title>GET /stagesets/{id}/export
+Stagesets (Pipelines) line · add7f9ef66629fa4ccee5dcc0479795b</title>
+<circle cx="1504" cy="1196" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1516" y="1201" text-anchor="start" style="fill:#1A1F2C">Export stagesets</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tags-api/#op-796b8e738949a2a0563da5032e29a12c" target="_blank" class="st" data-op="796b8e738949a2a0563da5032e29a12c"><title>DELETE /tags/{id}
+Tags line · 796b8e738949a2a0563da5032e29a12c</title>
+<circle cx="1042" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1038" y1="1368" x2="1046" y2="1360" stroke="#2E7D32" stroke-width="2"/>
+<text x="1054" y="1369" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tags-api/#op-422aa2c0d6493b41248e46c6ac93a43b" target="_blank" class="st" data-op="422aa2c0d6493b41248e46c6ac93a43b"><title>GET /tags
+Tags line · 422aa2c0d6493b41248e46c6ac93a43b</title>
+<circle cx="916" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="922" y="1352" transform="rotate(-45 922 1352)" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tags-api/#op-88c135d662e0a79e2a0c5fdf337ba537" target="_blank" class="st" data-op="88c135d662e0a79e2a0c5fdf337ba537"><title>POST /tags
+Tags line · 88c135d662e0a79e2a0c5fdf337ba537</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1006" y="1352" transform="rotate(-45 1006 1352)" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tags-api/#op-f09a0e050d70fe8d55b68a0ddddd3df0" target="_blank" class="st" data-op="f09a0e050d70fe8d55b68a0ddddd3df0"><title>POST /tags/{id}/undelete
+Tags line · f09a0e050d70fe8d55b68a0ddddd3df0</title>
+<circle cx="1126" cy="1448" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1114.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Update undelete</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tasks-api/#op-04c249286f1032bdf6d8178e0e9f384c" target="_blank" class="st" data-op="04c249286f1032bdf6d8178e0e9f384c"><title>GET /tasks/{id}
+Tasks line · 04c249286f1032bdf6d8178e0e9f384c</title>
+<circle cx="1882" cy="1112" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1870.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Get task</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tasks-api/#op-8df89ef1ffa672b94c860d2b6b77ee16" target="_blank" class="st" data-op="8df89ef1ffa672b94c860d2b6b77ee16"><title>DELETE /tasks/{id}
+Tasks line · 8df89ef1ffa672b94c860d2b6b77ee16</title>
+<circle cx="2008" cy="1028" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2004" y1="1032" x2="2012" y2="1024" stroke="#0B7A75" stroke-width="2"/>
+<text x="2020" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete task</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tasks-api/#op-fab5f8833c76cb64c8e82ec09416f467" target="_blank" class="st" data-op="fab5f8833c76cb64c8e82ec09416f467"><title>PATCH /tasks/{id}
+Tasks line · fab5f8833c76cb64c8e82ec09416f467</title>
+<circle cx="1924" cy="1112" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1936" y="1117" text-anchor="start" style="fill:#1A1F2C">Update task</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tasks-api/#op-2fe0bcdbe5941e2cfdc54a7c09b54200" target="_blank" class="st" data-op="2fe0bcdbe5941e2cfdc54a7c09b54200"><title>GET /tasks
+Tasks line · 2fe0bcdbe5941e2cfdc54a7c09b54200</title>
+<circle cx="1840" cy="986" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1852" y="991" text-anchor="start" style="fill:#1A1F2C">List tasks</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-tasks-api/#op-6558005d25c656d862228999ac70bcc2" target="_blank" class="st" data-op="6558005d25c656d862228999ac70bcc2"><title>POST /tasks
+Tasks line · 6558005d25c656d862228999ac70bcc2</title>
+<circle cx="1840" cy="1070" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1852" y="1075" text-anchor="start" style="fill:#1A1F2C">Create task</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-territories-api/#op-cf95ba52f86fef3511b456449ca9f9a9" target="_blank" class="st" data-op="cf95ba52f86fef3511b456449ca9f9a9"><title>GET /territories
+More Local line · cf95ba52f86fef3511b456449ca9f9a9</title>
+<circle cx="1630" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="445" text-anchor="start" style="fill:#1A1F2C">List territories</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-users-api/#op-d3997a48c80629bf9a63637c4fde9aab" target="_blank" class="st" data-op="d3997a48c80629bf9a63637c4fde9aab"><title>GET /users
+More Local line · d3997a48c80629bf9a63637c4fde9aab</title>
+<circle cx="1630" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="319" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/nutshell/nutshell-users-api/#op-69176b892afb5ae1c99520250d4bd331" target="_blank" class="st" data-op="69176b892afb5ae1c99520250d4bd331"><title>GET /users/{id}
+More Local line · 69176b892afb5ae1c99520250d4bd331</title>
+<circle cx="1630" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="235" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<text x="2702" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2702" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">LEADS</text>
+<rect x="2702" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2719" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LEA</text><text x="2744" y="269" font-size="11" fill="#1A1F2C">Leads <tspan fill="#8A93A6">21</tspan></text>
+<rect x="2702" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="2719" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SP</text><text x="2744" y="286" font-size="11" fill="#1A1F2C">Stagesets (Pipelines) <tspan fill="#8A93A6">3</tspan></text>
+<text x="2702" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">ACCOUNTS</text>
+<rect x="2702" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2719" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AC</text><text x="2744" y="329" font-size="11" fill="#1A1F2C">Accounts (Companies) <tspan fill="#8A93A6">14</tspan></text>
+<text x="2702" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">CONTACTS</text>
+<rect x="2702" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2719" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CP</text><text x="2744" y="372" font-size="11" fill="#1A1F2C">Contacts (People) <tspan fill="#8A93A6">11</tspan></text>
+<text x="2702" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">PRODUCTMAPS</text>
+<rect x="2702" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="2719" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="2744" y="415" font-size="11" fill="#1A1F2C">Products <tspan fill="#8A93A6">8</tspan></text>
+<text x="2702" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">COMPETITORMAPS</text>
+<rect x="2702" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2719" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="2744" y="458" font-size="11" fill="#1A1F2C">Competitors <tspan fill="#8A93A6">6</tspan></text>
+<text x="2702" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">NOTES</text>
+<rect x="2702" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="2719" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NOT</text><text x="2744" y="501" font-size="11" fill="#1A1F2C">Notes <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">TASKS</text>
+<rect x="2702" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2719" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAS</text><text x="2744" y="544" font-size="11" fill="#1A1F2C">Tasks <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">ACTIVITIES</text>
+<rect x="2702" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="2719" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACT</text><text x="2744" y="587" font-size="11" fill="#1A1F2C">Activities <tspan fill="#8A93A6">5</tspan></text>
+<text x="2702" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">SOURCES</text>
+<rect x="2702" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="2719" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SOU</text><text x="2744" y="630" font-size="11" fill="#1A1F2C">Sources <tspan fill="#8A93A6">4</tspan></text>
+<text x="2702" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">TAGS</text>
+<rect x="2702" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2719" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="2744" y="673" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">4</tspan></text>
+<text x="2702" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">QUOTES</text>
+<rect x="2702" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2719" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QUO</text><text x="2744" y="716" font-size="11" fill="#1A1F2C">Quotes <tspan fill="#8A93A6">4</tspan></text>
+<text x="2702" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2702" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="2719" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2744" y="759" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">15</tspan></text>
+<rect x="2702" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="2719" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="2744" y="776" font-size="11" fill="#1A1F2C">Invoices <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2702" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2719" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PC</text><text x="2744" y="793" font-size="11" fill="#1A1F2C">Product Categories <tspan fill="#8A93A6">3</tspan></text>
+<text x="2952" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2970,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2996" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2970,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2996" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2970,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2996" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2970,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2996" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2970,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2996" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2970,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2996" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2970,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2996" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2970,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2996" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2952" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2952" y="463" font-size="10.5" fill="#5A6275">“Audiences” → More Local line · 2 ops</text>
+<text x="2952" y="478" font-size="10.5" fill="#5A6275">“Editions” → More Local line · 2 ops</text>
+<text x="2952" y="493" font-size="10.5" fill="#5A6275">“Emails” → More Local line · 1 op</text>
+<text x="2952" y="508" font-size="10.5" fill="#5A6275">“Events (Timeline)” → More Local line · 2 ops</text>
+<text x="2952" y="523" font-size="10.5" fill="#5A6275">“Filter” → More Local line · 1 op</text>
+<text x="2952" y="538" font-size="10.5" fill="#5A6275">“Forms” → More Local line · 2 ops</text>
+<text x="2952" y="553" font-size="10.5" fill="#5A6275">“Industries” → Accounts (Companies) line · 1 op</text>
+<text x="2952" y="568" font-size="10.5" fill="#5A6275">“Markets” → More Local line · 2 ops</text>
+<text x="2952" y="583" font-size="10.5" fill="#5A6275">“Territories” → More Local line · 1 op</text>
+<text x="2952" y="598" font-size="10.5" fill="#5A6275">“Users” → More Local line · 2 ops</text>
+<text x="2952" y="648" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2952" y="665" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1872" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/nutshell/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

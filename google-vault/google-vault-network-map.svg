@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1616 1146" width="1616" height="1146" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1616" height="1146" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Google-Vault API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">27 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Matters" d="M412.0,230.0 L496.0,230.0 L580.0,230.0 L650.0,230.0 Q664.0,230.0 673.9,239.9 L748.0,314.0 L832.0,398.0 L906.1,472.1 Q916.0,482.0 916.0,496.0 L916.0,566.0 L916.0,650.0 L916.0,720.0 Q916.0,734.0 906.1,743.9 L832.0,818.0 L748.0,902.0 L673.9,976.1 Q664.0,986.0 650.0,986.0 L580.0,986.0 L496.0,986.0 L426.0,986.0 Q412.0,986.0 402.1,976.1 L328.0,902.0 L244.0,818.0 L169.9,743.9 Q160.0,734.0 160.0,720.0 L160.0,650.0 L160.0,566.0 L160.0,496.0 Q160.0,482.0 169.9,472.1 L244.0,398.0 L412.0,230.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Matters</title></path>
+<path class="line" data-line="Operations" d="M538.0,818.0 L622.0,734.0 L706.0,650.0 L790.0,566.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Operations</title></path>
+<rect x="382" y="177" width="60" height="26" rx="13" fill="#D6264F"/><text x="412" y="195" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">MAT</text>
+<line x1="538" y1="818" x2="513.9583694396574" y2="842.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="489.9583694396574" y="831.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Operations</title></rect><text x="513.9583694396574" y="847.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPE</text>
+<line x1="790" y1="566" x2="814.0416305603426" y2="541.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="790.0416305603426" y="530.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Operations</title></rect><text x="814.0416305603426" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OPE</text>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.delete" target="_blank" class="st" data-op="vault.matters.delete"><title>DELETE /v1/matters/{matterId}
+Matters line · vault.matters.delete</title>
+<circle cx="832" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="828" y1="402" x2="836" y2="394" stroke="#D6264F" stroke-width="2"/>
+<text x="844" y="403" text-anchor="start" style="fill:#1A1F2C">Delete matter</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.get" target="_blank" class="st" data-op="vault.matters.get"><title>GET /v1/matters/{matterId}
+Matters line · vault.matters.get</title>
+<circle cx="580" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="586" y="218" transform="rotate(-45 586 218)" style="fill:#1A1F2C">Get matter</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.update" target="_blank" class="st" data-op="vault.matters.update"><title>PUT /v1/matters/{matterId}
+Matters line · vault.matters.update</title>
+<circle cx="748" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="319" text-anchor="start" style="fill:#1A1F2C">Update matter</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.reopen" target="_blank" class="st" data-op="vault.matters.reopen"><title>POST /v1/matters/{matterId}:reopen
+Matters line · vault.matters.reopen</title>
+<circle cx="664" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="235" text-anchor="start" style="fill:#1A1F2C">Update matter</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.list" target="_blank" class="st" data-op="vault.matters.list"><title>GET /v1/matters
+Matters line · vault.matters.list</title>
+<circle cx="412" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="400.0" y="235" text-anchor="end" style="fill:#1A1F2C">List matters</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.create" target="_blank" class="st" data-op="vault.matters.create"><title>POST /v1/matters
+Matters line · vault.matters.create</title>
+<circle cx="496" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="502" y="218" transform="rotate(-45 502 218)" style="fill:#1A1F2C">Create matter</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.savedQueries.create" target="_blank" class="st" data-op="vault.matters.savedQueries.create"><title>POST /v1/matters/{matterId}/savedQueries
+Matters line · vault.matters.savedQueries.create</title>
+<circle cx="160" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="571" text-anchor="start" style="fill:#1A1F2C">Create savedquery</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.savedQueries.list" target="_blank" class="st" data-op="vault.matters.savedQueries.list"><title>GET /v1/matters/{matterId}/savedQueries
+Matters line · vault.matters.savedQueries.list</title>
+<circle cx="160" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="655" text-anchor="start" style="fill:#1A1F2C">List savedqueries</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.savedQueries.delete" target="_blank" class="st" data-op="vault.matters.savedQueries.delete"><title>DELETE /v1/matters/{matterId}/savedQueries/{savedQueryId}
+Matters line · vault.matters.savedQueries.delete</title>
+<circle cx="244" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="240" y1="402" x2="248" y2="394" stroke="#D6264F" stroke-width="2"/>
+<text x="256" y="403" text-anchor="start" style="fill:#1A1F2C">Delete savedquery</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.savedQueries.get" target="_blank" class="st" data-op="vault.matters.savedQueries.get"><title>GET /v1/matters/{matterId}/savedQueries/{savedQueryId}
+Matters line · vault.matters.savedQueries.get</title>
+<circle cx="160" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="487" text-anchor="start" style="fill:#1A1F2C">Get savedquery</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.exports.list" target="_blank" class="st" data-op="vault.matters.exports.list"><title>GET /v1/matters/{matterId}/exports
+Matters line · vault.matters.exports.list</title>
+<circle cx="916" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="487" text-anchor="start" style="fill:#1A1F2C">List exports</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.exports.create" target="_blank" class="st" data-op="vault.matters.exports.create"><title>POST /v1/matters/{matterId}/exports
+Matters line · vault.matters.exports.create</title>
+<circle cx="916" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="571" text-anchor="start" style="fill:#1A1F2C">Create export</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.exports.get" target="_blank" class="st" data-op="vault.matters.exports.get"><title>GET /v1/matters/{matterId}/exports/{exportId}
+Matters line · vault.matters.exports.get</title>
+<circle cx="916" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="655" text-anchor="start" style="fill:#1A1F2C">Get export</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.exports.delete" target="_blank" class="st" data-op="vault.matters.exports.delete"><title>DELETE /v1/matters/{matterId}/exports/{exportId}
+Matters line · vault.matters.exports.delete</title>
+<circle cx="916" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="912" y1="738" x2="920" y2="730" stroke="#D6264F" stroke-width="2"/>
+<text x="928" y="739" text-anchor="start" style="fill:#1A1F2C">Delete export</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.delete" target="_blank" class="st" data-op="vault.matters.holds.delete"><title>DELETE /v1/matters/{matterId}/holds/{holdId}
+Matters line · vault.matters.holds.delete</title>
+<circle cx="412" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="408" y1="990" x2="416" y2="982" stroke="#D6264F" stroke-width="2"/>
+<text x="400.0" y="991" text-anchor="end" style="fill:#1A1F2C">Delete hold</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.update" target="_blank" class="st" data-op="vault.matters.holds.update"><title>PUT /v1/matters/{matterId}/holds/{holdId}
+Matters line · vault.matters.holds.update</title>
+<circle cx="496" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="502" y="974" transform="rotate(-45 502 974)" style="fill:#1A1F2C">Update hold</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.get" target="_blank" class="st" data-op="vault.matters.holds.get"><title>GET /v1/matters/{matterId}/holds/{holdId}
+Matters line · vault.matters.holds.get</title>
+<circle cx="664" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="991" text-anchor="start" style="fill:#1A1F2C">Get hold</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.removeHeldAccounts" target="_blank" class="st" data-op="vault.matters.holds.removeHeldAccounts"><title>POST /v1/matters/{matterId}/holds/{holdId}:removeHeldAccounts
+Matters line · vault.matters.holds.removeHeldAccounts</title>
+<circle cx="580" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="586" y="974" transform="rotate(-45 586 974)" style="fill:#1A1F2C">Update hold</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.list" target="_blank" class="st" data-op="vault.matters.holds.list"><title>GET /v1/matters/{matterId}/holds
+Matters line · vault.matters.holds.list</title>
+<circle cx="832" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="823" text-anchor="start" style="fill:#1A1F2C">List holds</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.create" target="_blank" class="st" data-op="vault.matters.holds.create"><title>POST /v1/matters/{matterId}/holds
+Matters line · vault.matters.holds.create</title>
+<circle cx="748" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="760" y="907" text-anchor="start" style="fill:#1A1F2C">Create hold</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.accounts.list" target="_blank" class="st" data-op="vault.matters.holds.accounts.list"><title>GET /v1/matters/{matterId}/holds/{holdId}/accounts
+Matters line · vault.matters.holds.accounts.list</title>
+<circle cx="328" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="907" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.accounts.create" target="_blank" class="st" data-op="vault.matters.holds.accounts.create"><title>POST /v1/matters/{matterId}/holds/{holdId}/accounts
+Matters line · vault.matters.holds.accounts.create</title>
+<circle cx="244" cy="818" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="823" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-matters-api/#op-vault.matters.holds.accounts.delete" target="_blank" class="st" data-op="vault.matters.holds.accounts.delete"><title>DELETE /v1/matters/{matterId}/holds/{holdId}/accounts/{accountId}
+Matters line · vault.matters.holds.accounts.delete</title>
+<circle cx="160" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="156" y1="738" x2="164" y2="730" stroke="#D6264F" stroke-width="2"/>
+<text x="172" y="739" text-anchor="start" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-operations-api/#op-vault.operations.list" target="_blank" class="st" data-op="vault.operations.list"><title>GET /v1/operations
+Operations line · vault.operations.list</title>
+<circle cx="538" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="823" text-anchor="start" style="fill:#1A1F2C">List operations</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-operations-api/#op-vault.operations.get" target="_blank" class="st" data-op="vault.operations.get"><title>GET /v1/operations/{operationsId}
+Operations line · vault.operations.get</title>
+<circle cx="622" cy="734" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="739" text-anchor="start" style="fill:#1A1F2C">Get operation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-operations-api/#op-vault.operations.delete" target="_blank" class="st" data-op="vault.operations.delete"><title>DELETE /v1/operations/{operationsId}
+Operations line · vault.operations.delete</title>
+<circle cx="790" cy="566" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="786" y1="570" x2="794" y2="562" stroke="#0E9F6E" stroke-width="2"/>
+<text x="802" y="571" text-anchor="start" style="fill:#1A1F2C">Delete operation</text>
+</a>
+<a href="https://apis.apis.io/apis/google-vault/google-vault-operations-api/#op-vault.operations.cancel" target="_blank" class="st" data-op="vault.operations.cancel"><title>POST /v1/operations/{operationsId}:cancel
+Operations line · vault.operations.cancel</title>
+<circle cx="706" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="655" text-anchor="start" style="fill:#1A1F2C">Update operation</text>
+</a>
+<text x="1106" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1106" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">GOOGLE VAULT</text>
+<rect x="1106" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1123" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MAT</text><text x="1148" y="269" font-size="11" fill="#1A1F2C">Matters <tspan fill="#8A93A6">23</tspan></text>
+<rect x="1106" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1123" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPE</text><text x="1148" y="286" font-size="11" fill="#1A1F2C">Operations <tspan fill="#8A93A6">4</tspan></text>
+<text x="1356" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1374,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1374,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1374,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1400" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1374,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1400" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1374,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1400" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1374,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1400" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1374,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1400" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1374,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1400" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1356" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1356" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1116" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/google-vault/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
