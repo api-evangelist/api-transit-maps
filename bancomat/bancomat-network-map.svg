@@ -1,0 +1,718 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3002 3120" width="3002" height="3120" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3002" height="3120" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Bancomat API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">117 operations as stops · 16 tags as lines · 7 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1378" y1="1448" x2="1336" y2="1406" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1378" y1="1448" x2="1336" y2="1406" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1420" y1="2666" x2="1462" y2="2708" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1420" y1="2666" x2="1462" y2="2708" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Accounts" d="M790.0,776.0 L864.1,850.1 Q874.0,860.0 874.0,874.0 L874.0,930.0 Q874.0,944.0 860.0,944.0 L790.0,944.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts</title></path>
+<path class="line" data-line="AIS Service" d="M958.0,1280.0 L1000.0,1238.0 L1042.0,1196.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>AIS Service</title></path>
+<path class="line" data-line="Bulk" d="M328.0,776.0 L412.0,776.0 L482.0,776.0 Q496.0,776.0 505.9,785.9 L612.1,892.1 Q622.0,902.0 622.0,916.0 L622.0,930.0 Q622.0,944.0 608.0,944.0 L538.0,944.0 L454.0,944.0 L370.0,944.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Bulk</title></path>
+<path class="line" data-line="Chain" d="M160.0,1574.0 L244.0,1574.0 L314.0,1574.0 Q328.0,1574.0 328.0,1560.0 L328.0,1504.0 Q328.0,1490.0 318.1,1480.1 L286.0,1448.0 L202.0,1364.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Chain</title></path>
+<path class="line" data-line="Checkout" d="M1462.0,2792.0 L1462.0,2722.0 Q1462.0,2708.0 1471.9,2698.1 L1546.0,2624.0" fill="none" stroke="#8b2351" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Checkout</title></path>
+<path class="line" data-line="Construction" d="M706.0,356.0 L790.0,440.0 L874.0,524.0 L948.1,598.1 Q958.0,608.0 958.0,622.0 L958.0,650.0 L958.0,720.0 Q958.0,734.0 972.0,734.0 L1070.0,734.0 Q1084.0,734.0 1093.9,724.1 L1116.1,701.9 Q1126.0,692.0 1126.0,678.0 L1126.0,608.0 L1126.0,524.0 L1126.0,440.0 L1126.0,314.0 L1126.0,230.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Construction</title></path>
+<path class="line" data-line="Documents" d="M1000.0,1070.0 L1084.0,1070.0 L1154.0,1070.0 Q1168.0,1070.0 1177.9,1079.9 L1252.0,1154.0 L1326.1,1228.1 Q1336.0,1238.0 1336.0,1252.0 L1336.0,1322.0 L1336.0,1392.0 Q1336.0,1406.0 1326.1,1415.9 L1252.0,1490.0 L1177.9,1564.1 Q1168.0,1574.0 1154.0,1574.0 L1084.0,1574.0 L1014.0,1574.0 Q1000.0,1574.0 990.1,1564.1 L916.0,1490.0 L841.9,1415.9 Q832.0,1406.0 832.0,1392.0 L832.0,1322.0 L832.0,1252.0 Q832.0,1238.0 841.9,1228.1 L916.0,1154.0 L1000.0,1070.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Documents</title></path>
+<path class="line" data-line="Fatture" d="M1378.0,1448.0 L1378.0,1574.0 L1378.0,1700.0 L1378.0,1784.0 L1378.0,1854.0 Q1378.0,1868.0 1387.9,1877.9 L1462.0,1952.0 L1546.0,2036.0 L1630.0,2120.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Fatture</title></path>
+<path class="line" data-line="Fee" d="M1546.0,1700.0 L1471.9,1625.9 Q1462.0,1616.0 1462.0,1602.0 L1462.0,1546.0 Q1462.0,1532.0 1471.9,1522.1 L1546.0,1448.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Fee</title></path>
+<path class="line" data-line="pagoPA" d="M1084.0,1658.0 L1084.0,1742.0 L1084.0,1854.0 Q1084.0,1868.0 1074.1,1877.9 L1042.0,1910.0 L1000.0,1952.0 L916.0,2036.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>pagoPA</title></path>
+<path class="line" data-line="Sessioni di checkout" d="M1420.0,2666.0 L1378.0,2708.0 L1303.9,2782.1 Q1294.0,2792.0 1294.0,2806.0 L1294.0,2876.0 L1294.0,2960.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sessioni di checkout</title></path>
+<path class="line" data-line="Stipendi" d="M538.0,2078.0 L538.0,1994.0 L538.0,1910.0 L538.0,1840.0 Q538.0,1826.0 524.0,1826.0 L412.0,1826.0 L328.0,1826.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Stipendi</title></path>
+<path class="line" data-line="Transfer" d="M790.0,1070.0 L622.0,1070.0 L538.0,1070.0 L454.0,1070.0 L370.0,1070.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transfer</title></path>
+<path class="line" data-line="Transfers" d="M706.0,1280.0 L822.1,1163.9 Q832.0,1154.0 818.0,1154.0 L706.0,1154.0" fill="none" stroke="#0d6676" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transfers</title></path>
+<path class="line" data-line="Webhook" d="M1588.0,944.0 L1504.0,944.0 L1434.0,944.0 Q1420.0,944.0 1410.1,934.1 L1387.9,911.9 Q1378.0,902.0 1378.0,888.0 L1378.0,790.0 Q1378.0,776.0 1387.9,766.1 L1420.0,734.0 L1462.0,692.0 L1536.1,617.9 Q1546.0,608.0 1546.0,594.0 L1546.0,482.0 L1546.0,398.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhook</title></path>
+<path class="line" data-line="More Local" d="M2302.0,734.0 L2218.0,818.0 L2134.0,902.0 L2059.9,976.1 Q2050.0,986.0 2036.0,986.0 L1924.0,986.0 L1840.0,986.0 L1770.0,986.0 Q1756.0,986.0 1746.1,995.9 L1672.0,1070.0 L1630.0,1112.0 L1555.9,1186.1 Q1546.0,1196.0 1555.9,1205.9 L1620.1,1270.1 Q1630.0,1280.0 1644.0,1280.0 L1714.0,1280.0 L1798.0,1280.0 L1882.0,1280.0 L1952.0,1280.0 Q1966.0,1280.0 1975.9,1289.9 L2050.0,1364.0 L2134.0,1448.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="790" y1="776" x2="765.9583694396574" y2="751.9583694396574" stroke="#af2328" stroke-width="7"/><rect x="741.9583694396574" y="740.9583694396574" width="48" height="22" rx="5" fill="#af2328"><title>Accounts</title></rect><text x="765.9583694396574" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="790" y1="944" x2="756.0" y2="944.0" stroke="#af2328" stroke-width="7"/><rect x="732.0" y="933.0" width="48" height="22" rx="5" fill="#af2328"><title>Accounts</title></rect><text x="756.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="958" y1="1280" x2="933.9583694396574" y2="1304.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="909.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>AIS Service</title></rect><text x="933.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="1042" y1="1196" x2="1066.0416305603426" y2="1171.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1042.0416305603426" y="1160.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>AIS Service</title></rect><text x="1066.0416305603426" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="328" y1="776" x2="294.0" y2="776.0" stroke="#E07B12" stroke-width="7"/><rect x="270.0" y="765.0" width="48" height="22" rx="5" fill="#E07B12"><title>Bulk</title></rect><text x="294.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUL</text>
+<line x1="370" y1="944" x2="336.0" y2="944.0" stroke="#E07B12" stroke-width="7"/><rect x="312.0" y="933.0" width="48" height="22" rx="5" fill="#E07B12"><title>Bulk</title></rect><text x="336.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUL</text>
+<line x1="160" y1="1574" x2="126.0" y2="1574.0" stroke="#2E7D32" stroke-width="7"/><rect x="102.0" y="1563.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Chain</title></rect><text x="126.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="202" y1="1364" x2="177.9583694396574" y2="1339.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="153.9583694396574" y="1328.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Chain</title></rect><text x="177.9583694396574" y="1344.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="1462" y1="2792" x2="1462.0" y2="2826.0" stroke="#8b2351" stroke-width="7"/><rect x="1438.0" y="2815.0" width="48" height="22" rx="5" fill="#8b2351"><title>Checkout</title></rect><text x="1462.0" y="2831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="1546" y1="2624" x2="1570.0416305603426" y2="2599.9583694396574" stroke="#8b2351" stroke-width="7"/><rect x="1546.0416305603426" y="2588.9583694396574" width="48" height="22" rx="5" fill="#8b2351"><title>Checkout</title></rect><text x="1570.0416305603426" y="2604.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="706" y1="356" x2="681.9583694396574" y2="331.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="657.9583694396574" y="320.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>Construction</title></rect><text x="681.9583694396574" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1126" y1="230" x2="1126.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="1102.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Construction</title></rect><text x="1126.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<rect x="970" y="1017" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="1000" y="1035" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">DOC</text>
+<line x1="1378" y1="1448" x2="1378.0" y2="1414.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1354.0" y="1403.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Fatture</title></rect><text x="1378.0" y="1419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FAT</text>
+<line x1="1630" y1="2120" x2="1654.0416305603426" y2="2144.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="1630.0416305603426" y="2133.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>Fatture</title></rect><text x="1654.0416305603426" y="2149.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FAT</text>
+<line x1="1546" y1="1700" x2="1570.0416305603426" y2="1724.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1546.0416305603426" y="1713.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Fee</title></rect><text x="1570.0416305603426" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FEE</text>
+<line x1="1546" y1="1448" x2="1570.0416305603426" y2="1423.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1546.0416305603426" y="1412.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Fee</title></rect><text x="1570.0416305603426" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FEE</text>
+<line x1="1084" y1="1658" x2="1084.0" y2="1624.0" stroke="#C2410C" stroke-width="7"/><rect x="1060.0" y="1613.0" width="48" height="22" rx="5" fill="#C2410C"><title>pagoPA</title></rect><text x="1084.0" y="1629.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PP</text>
+<line x1="916" y1="2036" x2="891.9583694396574" y2="2060.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="867.9583694396574" y="2049.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>pagoPA</title></rect><text x="891.9583694396574" y="2065.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PP</text>
+<line x1="1420" y1="2666" x2="1444.0416305603426" y2="2641.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1420.0416305603426" y="2630.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Sessioni di checkout</title></rect><text x="1444.0416305603426" y="2646.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SDC</text>
+<line x1="1294" y1="2960" x2="1294.0" y2="2994.0" stroke="#B0287F" stroke-width="7"/><rect x="1270.0" y="2983.0" width="48" height="22" rx="5" fill="#B0287F"><title>Sessioni di checkout</title></rect><text x="1294.0" y="2999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SDC</text>
+<line x1="538" y1="2078" x2="538.0" y2="2112.0" stroke="#B8860B" stroke-width="7"/><rect x="514.0" y="2101.0" width="48" height="22" rx="5" fill="#B8860B"><title>Stipendi</title></rect><text x="538.0" y="2117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STI</text>
+<line x1="328" y1="1826" x2="294.0" y2="1826.0" stroke="#B8860B" stroke-width="7"/><rect x="270.0" y="1815.0" width="48" height="22" rx="5" fill="#B8860B"><title>Stipendi</title></rect><text x="294.0" y="1831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STI</text>
+<line x1="790" y1="1070" x2="824.0" y2="1070.0" stroke="#0B7A75" stroke-width="7"/><rect x="800.0" y="1059.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Transfer</title></rect><text x="824.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="370" y1="1070" x2="336.0" y2="1070.0" stroke="#0B7A75" stroke-width="7"/><rect x="312.0" y="1059.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Transfer</title></rect><text x="336.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="706" y1="1280" x2="681.9583694396574" y2="1304.0416305603426" stroke="#0d6676" stroke-width="7"/><rect x="657.9583694396574" y="1293.0416305603426" width="48" height="22" rx="5" fill="#0d6676"><title>Transfers</title></rect><text x="681.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRN</text>
+<line x1="706" y1="1154" x2="672.0" y2="1154.0" stroke="#0d6676" stroke-width="7"/><rect x="648.0" y="1143.0" width="48" height="22" rx="5" fill="#0d6676"><title>Transfers</title></rect><text x="672.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRN</text>
+<line x1="1588" y1="944" x2="1622.0" y2="944.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1598.0" y="933.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Webhook</title></rect><text x="1622.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1546" y1="398" x2="1546.0" y2="364.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1522.0" y="353.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Webhook</title></rect><text x="1546.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="2302" y1="734" x2="2326.0416305603426" y2="709.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="2302.0416305603426" y="698.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2326.0416305603426" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="2134" y1="1448" x2="2158.0416305603426" y2="1472.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="2134.0416305603426" y="1461.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="2158.0416305603426" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-accounts-api/#op-getAccounts" target="_blank" class="st" data-op="getAccounts"><title>GET /accounts
+Accounts line · getAccounts</title>
+<circle cx="790" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="802" y="781" text-anchor="start" style="fill:#1A1F2C">List accounts <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-accounts-api/#op-createAisConsentSession" target="_blank" class="st" data-op="createAisConsentSession"><title>POST /accounts
+Accounts line · createAisConsentSession</title>
+<circle cx="874" cy="860" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="886" y="865" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-accounts-api/#op-getAccount" target="_blank" class="st" data-op="getAccount"><title>GET /accounts/{accountID}
+Accounts line · getAccount</title>
+<circle cx="874" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="886" y="949" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-ais-service-api/#op-postAis" target="_blank" class="st" data-op="postAis"><title>POST /ais
+AIS Service line · postAis</title>
+<circle cx="958" cy="1280" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="970" y="1285" text-anchor="start" style="fill:#1A1F2C">Create ai</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-ais-service-api/#op-getAisCheckIbanByIbanByVatCode" target="_blank" class="st" data-op="getAisCheckIbanByIbanByVatCode"><title>GET /ais/check-iban/{iban}/{vatCode}
+AIS Service line · getAisCheckIbanByIbanByVatCode</title>
+<circle cx="1042" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="1201" text-anchor="start" style="fill:#1A1F2C">Get check iban</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-ais-service-api/#op-getAisByAisSessionID" target="_blank" class="st" data-op="getAisByAisSessionID"><title>GET /ais/{aisSessionID}
+AIS Service line · getAisByAisSessionID</title>
+<circle cx="1000" cy="1238" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="1243" text-anchor="start" style="fill:#1A1F2C">Get ai</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-authentication-api/#op-GetAccessToken" target="_blank" class="st" data-op="GetAccessToken"><title>POST /oauth/token
+More Local line · GetAccessToken</title>
+<circle cx="1924" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1930" y="974" transform="rotate(-45 1930 974)" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-authentication-api/#op-GetTokenInfo" target="_blank" class="st" data-op="GetTokenInfo"><title>POST /oauth/token/info
+More Local line · GetTokenInfo</title>
+<circle cx="1840" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1846" y="974" transform="rotate(-45 1846 974)" style="fill:#1A1F2C">Update info</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-banche-api/#op-getBanks" target="_blank" class="st" data-op="bancomat-banche-api:getBanks"><title>GET /banks
+More Local line · getBanks</title>
+<circle cx="2302" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2314" y="739" text-anchor="start" style="fill:#1A1F2C">List banks</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-banche-api/#op-getBanksByFlowpayID" target="_blank" class="st" data-op="getBanksByFlowpayID"><title>GET /banks/{flowpayID}
+More Local line · getBanksByFlowpayID</title>
+<circle cx="2218" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2230" y="823" text-anchor="start" style="fill:#1A1F2C">Get bank</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-getByTenantIDBulk" target="_blank" class="st" data-op="getByTenantIDBulk"><title>GET /{tenantID}/bulk
+Bulk line · getByTenantIDBulk</title>
+<circle cx="622" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="634" y="949" text-anchor="start" style="fill:#1A1F2C">Get bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-postByTenantIDBulk" target="_blank" class="st" data-op="postByTenantIDBulk"><title>POST /{tenantID}/bulk
+Bulk line · postByTenantIDBulk</title>
+<circle cx="538" cy="944" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="544" y="932" transform="rotate(-45 544 932)" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-deleteByTenantIDBulkByFingerprint" target="_blank" class="st" data-op="deleteByTenantIDBulkByFingerprint"><title>DELETE /{tenantID}/bulk/{fingerprint}
+Bulk line · deleteByTenantIDBulkByFingerprint</title>
+<circle cx="370" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="366" y1="948" x2="374" y2="940" stroke="#E07B12" stroke-width="2"/>
+<text x="376" y="932" transform="rotate(-45 376 932)" style="fill:#1A1F2C">Delete bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-getByTenantIDBulkByFingerprint" target="_blank" class="st" data-op="getByTenantIDBulkByFingerprint"><title>GET /{tenantID}/bulk/{fingerprint}
+Bulk line · getByTenantIDBulkByFingerprint</title>
+<circle cx="454" cy="944" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="460" y="932" transform="rotate(-45 460 932)" style="fill:#1A1F2C">Get bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-createBulkPayment" target="_blank" class="st" data-op="createBulkPayment"><title>POST /bulk
+Bulk line · createBulkPayment</title>
+<circle cx="412" cy="776" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="418" y="764" transform="rotate(-45 418 764)" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-listBulkPayments" target="_blank" class="st" data-op="listBulkPayments"><title>GET /bulk
+Bulk line · listBulkPayments</title>
+<circle cx="328" cy="776" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="334" y="764" transform="rotate(-45 334 764)" style="fill:#1A1F2C">Get bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-getBulkPayment" target="_blank" class="st" data-op="getBulkPayment"><title>GET /bulk/{fingerprint}
+Bulk line · getBulkPayment</title>
+<circle cx="496" cy="776" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="508" y="781" text-anchor="start" style="fill:#1A1F2C">Get bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-bulk-api/#op-deleteBulkPayment" target="_blank" class="st" data-op="deleteBulkPayment"><title>DELETE /bulk/{fingerprint}
+Bulk line · deleteBulkPayment</title>
+<circle cx="622" cy="902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="618" y1="906" x2="626" y2="898" stroke="#E07B12" stroke-width="2"/>
+<text x="634" y="907" text-anchor="start" style="fill:#1A1F2C">Delete bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-chain-api/#op-getByTenantIDChain" target="_blank" class="st" data-op="getByTenantIDChain"><title>GET /{tenantID}/chain
+Chain line · getByTenantIDChain</title>
+<circle cx="328" cy="1490" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="340" y="1495" text-anchor="start" style="fill:#1A1F2C">Get chain</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-chain-api/#op-postByTenantIDChain" target="_blank" class="st" data-op="postByTenantIDChain"><title>POST /{tenantID}/chain
+Chain line · postByTenantIDChain</title>
+<circle cx="286" cy="1448" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="298" y="1453" text-anchor="start" style="fill:#1A1F2C">Update chain</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-chain-api/#op-getByTenantIDChainByFingerprint" target="_blank" class="st" data-op="getByTenantIDChainByFingerprint"><title>GET /{tenantID}/chain/{fingerprint}
+Chain line · getByTenantIDChainByFingerprint</title>
+<circle cx="202" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="214" y="1369" text-anchor="start" style="fill:#1A1F2C">Get chain</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-chain-api/#op-createChainPayment" target="_blank" class="st" data-op="createChainPayment"><title>POST /chain
+Chain line · createChainPayment</title>
+<circle cx="244" cy="1574" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="1562" transform="rotate(-45 250 1562)" style="fill:#1A1F2C">Update chain</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-chain-api/#op-listChainPayments" target="_blank" class="st" data-op="listChainPayments"><title>GET /chain
+Chain line · listChainPayments</title>
+<circle cx="160" cy="1574" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="166" y="1562" transform="rotate(-45 166 1562)" style="fill:#1A1F2C">Get chain</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-chain-api/#op-getChainPayment" target="_blank" class="st" data-op="getChainPayment"><title>GET /chain/{fingerprint}
+Chain line · getChainPayment</title>
+<circle cx="328" cy="1574" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="340" y="1579" text-anchor="start" style="fill:#1A1F2C">Get chain</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-checkout-api/#op-createCheckout" target="_blank" class="st" data-op="createCheckout"><title>POST /checkout
+Checkout line · createCheckout</title>
+<circle cx="1462" cy="2792" r="5.5" fill="#8b2351" stroke="#8b2351" stroke-width="2.5"/>
+<text x="1474" y="2797" text-anchor="start" style="fill:#1A1F2C">Update checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-checkout-api/#op-getCheckout" target="_blank" class="st" data-op="getCheckout"><title>GET /checkout/{code}
+Checkout line · getCheckout</title>
+<circle cx="1462" cy="2708" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1474" y="2713" text-anchor="start" style="fill:#1A1F2C">Get checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-checkout-api/#op-deleteCheckout" target="_blank" class="st" data-op="deleteCheckout"><title>DELETE /checkout/{code}
+Checkout line · deleteCheckout</title>
+<circle cx="1546" cy="2624" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<line x1="1542" y1="2628" x2="1550" y2="2620" stroke="#8b2351" stroke-width="2"/>
+<text x="1558" y="2629" text-anchor="start" style="fill:#1A1F2C">Delete checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-consent-api/#op-getByTenantIDConsents" target="_blank" class="st" data-op="getByTenantIDConsents"><title>GET /{tenantID}/consents
+More Local line · getByTenantIDConsents</title>
+<circle cx="2050" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2062" y="1369" text-anchor="start" style="fill:#1A1F2C">List consents</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-consent-api/#op-postByTenantIDConsents" target="_blank" class="st" data-op="postByTenantIDConsents"><title>POST /{tenantID}/consents
+More Local line · postByTenantIDConsents</title>
+<circle cx="2134" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="1453" text-anchor="start" style="fill:#1A1F2C">Create consent</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-addSiteWorker" target="_blank" class="st" data-op="addSiteWorker"><title>POST /constructions/contracts
+Construction line · addSiteWorker</title>
+<circle cx="790" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="802" y="445" text-anchor="start" style="fill:#1A1F2C">Create contract</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-getWorkers" target="_blank" class="st" data-op="getWorkers"><title>GET /constructions/contracts
+Construction line · getWorkers</title>
+<circle cx="706" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="361" text-anchor="start" style="fill:#1A1F2C">List contracts</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-acceptSiteAssignment" target="_blank" class="st" data-op="acceptSiteAssignment"><title>PATCH /constructions/contracts/{identifier}
+Construction line · acceptSiteAssignment</title>
+<circle cx="874" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="529" text-anchor="start" style="fill:#1A1F2C">Update contract</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-withdrawFromSite" target="_blank" class="st" data-op="withdrawFromSite"><title>DELETE /constructions/contracts/{identifier}
+Construction line · withdrawFromSite</title>
+<circle cx="958" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="954" y1="612" x2="962" y2="604" stroke="#D6264F" stroke-width="2"/>
+<text x="970" y="613" text-anchor="start" style="fill:#1A1F2C">Delete contract</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-createConstructionSite" target="_blank" class="st" data-op="createConstructionSite"><title>POST /constructions/sites
+Construction line · createConstructionSite</title>
+<circle cx="1126" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="613" text-anchor="start" style="fill:#1A1F2C">Create site</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-getConstructionSites" target="_blank" class="st" data-op="getConstructionSites"><title>GET /constructions/sites
+Construction line · getConstructionSites</title>
+<circle cx="1126" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="697" text-anchor="start" style="fill:#1A1F2C">List sites</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-getConstructionSite" target="_blank" class="st" data-op="getConstructionSite"><title>GET /constructions/sites/{identifier}
+Construction line · getConstructionSite</title>
+<circle cx="1126" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="529" text-anchor="start" style="fill:#1A1F2C">Get site</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-createQuote" target="_blank" class="st" data-op="createQuote"><title>POST /constructions/sites/{identifier}/quote
+Construction line · createQuote</title>
+<circle cx="1126" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="235" text-anchor="start" style="fill:#1A1F2C">Update quote</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-getQuotes" target="_blank" class="st" data-op="getQuotes"><title>GET /constructions/sites/{identifier}/quote
+Construction line · getQuotes</title>
+<circle cx="1126" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="319" text-anchor="start" style="fill:#1A1F2C">Get quote</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-registerWorkProgress" target="_blank" class="st" data-op="registerWorkProgress"><title>POST /constructions/progress
+Construction line · registerWorkProgress</title>
+<circle cx="958" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="946.0" y="739" text-anchor="end" style="fill:#1A1F2C">Update progress</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-getWorkProgress" target="_blank" class="st" data-op="getWorkProgress"><title>GET /constructions/progress
+Construction line · getWorkProgress</title>
+<circle cx="958" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="655" text-anchor="start" style="fill:#1A1F2C">Get progress</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-construction-api/#op-getWorkProgressDetails" target="_blank" class="st" data-op="getWorkProgressDetails"><title>GET /constructions/progress/{identifier}
+Construction line · getWorkProgressDetails</title>
+<circle cx="1084" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="739" text-anchor="start" style="fill:#1A1F2C">Get progress</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-constructions-api/#op-cashout" target="_blank" class="st" data-op="cashout"><title>POST /constructions/sites/{identifier}/cashout
+Construction line · cashout</title>
+<circle cx="1126" cy="440" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1138" y="445" text-anchor="start" style="fill:#1A1F2C">Update cashout <tspan font-weight="700" style="fill:#af2328">⇄ACC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-conti-api/#op-getByTenantIDAccounts" target="_blank" class="st" data-op="getByTenantIDAccounts"><title>GET /{tenantID}/accounts
+Accounts line · getByTenantIDAccounts</title>
+<circle cx="790" cy="944" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="796" y="932" transform="rotate(-45 796 932)" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-createCreditNote" target="_blank" class="st" data-op="bancomat-documents-api:createCreditNote"><title>POST /creditNotes
+Documents line · createCreditNote</title>
+<circle cx="1084" cy="1070" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1090" y="1058" transform="rotate(-45 1090 1058)" style="fill:#1A1F2C">Create creditnote</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getCreditNotes" target="_blank" class="st" data-op="bancomat-documents-api:getCreditNotes"><title>GET /creditNotes
+Documents line · getCreditNotes</title>
+<circle cx="1000" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="988.0" y="1075" text-anchor="end" style="fill:#1A1F2C">List creditnotes</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getCreditNote" target="_blank" class="st" data-op="bancomat-documents-api:getCreditNote"><title>GET /creditNotes/{fingerprint}
+Documents line · getCreditNote</title>
+<circle cx="1168" cy="1070" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="1075" text-anchor="start" style="fill:#1A1F2C">Get creditnote</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-deleteCreditNote" target="_blank" class="st" data-op="bancomat-documents-api:deleteCreditNote"><title>DELETE /creditNotes/{fingerprint}
+Documents line · deleteCreditNote</title>
+<circle cx="1252" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1248" y1="1158" x2="1256" y2="1150" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1264" y="1159" text-anchor="start" style="fill:#1A1F2C">Delete creditnote</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-createInvoice" target="_blank" class="st" data-op="bancomat-documents-api:createInvoice"><title>POST /invoices
+Documents line · createInvoice</title>
+<circle cx="1336" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1348" y="1327" text-anchor="start" style="fill:#1A1F2C">Create invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getInvoices" target="_blank" class="st" data-op="bancomat-documents-api:getInvoices"><title>GET /invoices
+Documents line · getInvoices</title>
+<circle cx="1336" cy="1238" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1348" y="1243" text-anchor="start" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getInvoice" target="_blank" class="st" data-op="bancomat-documents-api:getInvoice"><title>GET /invoices/{fingerprint}
+Documents line · getInvoice</title>
+<circle cx="1336" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1324.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-pagopaPayment" target="_blank" class="st" data-op="pagopaPayment"><title>POST /pagopa
+Documents line · pagopaPayment</title>
+<circle cx="1168" cy="1574" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1180" y="1579" text-anchor="start" style="fill:#1A1F2C">Update pagopa</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getPagopaList" target="_blank" class="st" data-op="getPagopaList"><title>GET /pagopa
+Documents line · getPagopaList</title>
+<circle cx="1252" cy="1490" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1264" y="1495" text-anchor="start" style="fill:#1A1F2C">Get pagopa</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getPagopaDetails" target="_blank" class="st" data-op="getPagopaDetails"><title>GET /pagopa/{fingerprint}
+Documents line · getPagopaDetails</title>
+<circle cx="1084" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1090" y="1562" transform="rotate(-45 1090 1562)" style="fill:#1A1F2C">Get pagopa</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getPagopaReceipt" target="_blank" class="st" data-op="bancomat-documents-api:getPagopaReceipt"><title>GET /pagopa/{fingerprint}/receipt
+Documents line · getPagopaReceipt</title>
+<circle cx="1000" cy="1574" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="988.0" y="1579" text-anchor="end" style="fill:#1A1F2C">Get receipt</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-createProformaInvoice" target="_blank" class="st" data-op="bancomat-documents-api:createProformaInvoice"><title>POST /proforma
+Documents line · createProformaInvoice</title>
+<circle cx="832" cy="1406" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="1411" text-anchor="start" style="fill:#1A1F2C">Update proforma</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getProformaInvoices" target="_blank" class="st" data-op="bancomat-documents-api:getProformaInvoices"><title>GET /proforma
+Documents line · getProformaInvoices</title>
+<circle cx="916" cy="1490" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="1495" text-anchor="start" style="fill:#1A1F2C">Get proforma</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-getProformaInvoice" target="_blank" class="st" data-op="bancomat-documents-api:getProformaInvoice"><title>GET /proforma/{fingerprint}
+Documents line · getProformaInvoice</title>
+<circle cx="832" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="820.0" y="1327" text-anchor="end" style="fill:#1A1F2C">Get proforma</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-deleteProformaInvoice" target="_blank" class="st" data-op="bancomat-documents-api:deleteProformaInvoice"><title>DELETE /proforma/{fingerprint}
+Documents line · deleteProformaInvoice</title>
+<circle cx="832" cy="1238" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="828" y1="1242" x2="836" y2="1234" stroke="#0E9F6E" stroke-width="2"/>
+<text x="844" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete proforma</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-documents-api/#op-createTransfer" target="_blank" class="st" data-op="bancomat-documents-api:createTransfer"><title>POST /transfers
+Documents line · createTransfer</title>
+<circle cx="916" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="1152" text-anchor="start" style="fill:#1A1F2C">Create<tspan x="928" dy="13">transfer <tspan font-weight="700" style="fill:#0d6676">⇄TRN</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-getByTenantIDInvoices" target="_blank" class="st" data-op="getByTenantIDInvoices"><title>GET /{tenantID}/invoices
+Fatture line · getByTenantIDInvoices</title>
+<circle cx="1378" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1390" y="1453" text-anchor="start" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-postByTenantIDInvoices" target="_blank" class="st" data-op="postByTenantIDInvoices"><title>POST /{tenantID}/invoices
+Fatture line · postByTenantIDInvoices</title>
+<circle cx="1378" cy="1574" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1366.0" y="1579" text-anchor="end" style="fill:#1A1F2C">Create invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-getByTenantIDInvoicesPreferences" target="_blank" class="st" data-op="getByTenantIDInvoicesPreferences"><title>GET /{tenantID}/invoices/preferences
+Fatture line · getByTenantIDInvoicesPreferences</title>
+<circle cx="1546" cy="2036" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1558" y="2041" text-anchor="start" style="fill:#1A1F2C">List preferences</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-putByTenantIDInvoicesPreferences" target="_blank" class="st" data-op="putByTenantIDInvoicesPreferences"><title>PUT /{tenantID}/invoices/preferences
+Fatture line · putByTenantIDInvoicesPreferences</title>
+<circle cx="1630" cy="2120" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1642" y="2125" text-anchor="start" style="fill:#1A1F2C">Create preference</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-deleteByTenantIDInvoicesByFingerprint" target="_blank" class="st" data-op="deleteByTenantIDInvoicesByFingerprint"><title>DELETE /{tenantID}/invoices/{fingerprint}
+Fatture line · deleteByTenantIDInvoicesByFingerprint</title>
+<circle cx="1462" cy="1952" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1458" y1="1956" x2="1466" y2="1948" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1474" y="1957" text-anchor="start" style="fill:#1A1F2C">Delete invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-getByTenantIDInvoicesByFingerprint" target="_blank" class="st" data-op="getByTenantIDInvoicesByFingerprint"><title>GET /{tenantID}/invoices/{fingerprint}
+Fatture line · getByTenantIDInvoicesByFingerprint</title>
+<circle cx="1378" cy="1700" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1390" y="1705" text-anchor="start" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-patchByTenantIDInvoicesByFingerprint" target="_blank" class="st" data-op="patchByTenantIDInvoicesByFingerprint"><title>PATCH /{tenantID}/invoices/{fingerprint}
+Fatture line · patchByTenantIDInvoicesByFingerprint</title>
+<circle cx="1378" cy="1868" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1390" y="1873" text-anchor="start" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fatture-api/#op-putByTenantIDInvoicesByFingerprint" target="_blank" class="st" data-op="putByTenantIDInvoicesByFingerprint"><title>PUT /{tenantID}/invoices/{fingerprint}
+Fatture line · putByTenantIDInvoicesByFingerprint</title>
+<circle cx="1378" cy="1784" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1390" y="1789" text-anchor="start" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fee-api/#op-getFees" target="_blank" class="st" data-op="getFees"><title>GET /fee
+Fee line · getFees</title>
+<circle cx="1546" cy="1700" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="1705" text-anchor="start" style="fill:#1A1F2C">Get fee</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fee-api/#op-list_fee_rules" target="_blank" class="st" data-op="list_fee_rules"><title>GET /fee/rules
+Fee line · list_fee_rules</title>
+<circle cx="1462" cy="1616" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1474" y="1621" text-anchor="start" style="fill:#1A1F2C">List rules</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fee-api/#op-getFeeRules" target="_blank" class="st" data-op="getFeeRules"><title>GET /fee/rules/{kind}/{fingerprint}
+Fee line · getFeeRules</title>
+<circle cx="1462" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1474" y="1537" text-anchor="start" style="fill:#1A1F2C">Get rule</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-fee-api/#op-getFeeRuleForPayer" target="_blank" class="st" data-op="getFeeRuleForPayer"><title>GET /fee/rules/{kind}/{fingerprint}/{payer}
+Fee line · getFeeRuleForPayer</title>
+<circle cx="1546" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1558" y="1453" text-anchor="start" style="fill:#1A1F2C">Get rule</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-kyc-api/#op-startKyc" target="_blank" class="st" data-op="startKyc"><title>POST /kyc
+More Local line · startKyc</title>
+<circle cx="2134" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="907" text-anchor="start" style="fill:#1A1F2C">Update kyc</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-kyc-api/#op-getKycStatus" target="_blank" class="st" data-op="getKycStatus"><title>GET /kyc/{identifier}
+More Local line · getKycStatus</title>
+<circle cx="2050" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2062" y="991" text-anchor="start" style="fill:#1A1F2C">Get kyc</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagamenti-api/#op-getByTenantIDPaymentsByServiceByFingerprint" target="_blank" class="st" data-op="getByTenantIDPaymentsByServiceByFingerprint"><title>GET /{tenantID}/payments/{service}/{fingerprint}
+More Local line · getByTenantIDPaymentsByServiceByFingerprint</title>
+<circle cx="1630" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="1117" text-anchor="start" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagopa-api/#op-getPagopa" target="_blank" class="st" data-op="getPagopa"><title>GET /pagopa
+pagoPA line · getPagopa</title>
+<circle cx="1084" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="1663" text-anchor="start" style="fill:#1A1F2C">Get pagopa <tspan font-weight="700" style="fill:#0E9F6E">⇄DOC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagopa-api/#op-postPagopa" target="_blank" class="st" data-op="postPagopa"><title>POST /pagopa
+pagoPA line · postPagopa</title>
+<circle cx="1084" cy="1742" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1096" y="1747" text-anchor="start" style="fill:#1A1F2C">Update pagopa</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagopa-api/#op-getPagopaByFingerprint" target="_blank" class="st" data-op="getPagopaByFingerprint"><title>GET /pagopa/{fingerprint}
+pagoPA line · getPagopaByFingerprint</title>
+<circle cx="1084" cy="1868" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1096" y="1873" text-anchor="start" style="fill:#1A1F2C">Get pagopa</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagopa-api/#op-patchPagopaByFingerprint" target="_blank" class="st" data-op="patchPagopaByFingerprint"><title>PATCH /pagopa/{fingerprint}
+pagoPA line · patchPagopaByFingerprint</title>
+<circle cx="1042" cy="1910" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1054" y="1915" text-anchor="start" style="fill:#1A1F2C">Update pagopa</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagopa-api/#op-getPagopaReceipts:id" target="_blank" class="st" data-op="getPagopaReceipts:id"><title>GET /pagopa/receipts/:id
+pagoPA line · getPagopaReceipts:id</title>
+<circle cx="1000" cy="1952" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1012" y="1957" text-anchor="start" style="fill:#1A1F2C">Get :id</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-pagopa-api/#op-getPagopaReceipt" target="_blank" class="st" data-op="bancomat-pagopa-api:getPagopaReceipt"><title>GET /pagopa/{fingerprint}/receipt
+pagoPA line · getPagopaReceipt</title>
+<circle cx="916" cy="2036" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="928" y="2041" text-anchor="start" style="fill:#1A1F2C">Get receipt</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-payments-api/#op-getPayments" target="_blank" class="st" data-op="getPayments"><title>GET /payments
+More Local line · getPayments</title>
+<circle cx="1756" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1744.0" y="991" text-anchor="end" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-payments-api/#op-getPayment" target="_blank" class="st" data-op="getPayment"><title>GET /payments/{paymentID}
+More Local line · getPayment</title>
+<circle cx="1672" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1075" text-anchor="start" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-saldo-api/#op-getByTenantIDBalances" target="_blank" class="st" data-op="getByTenantIDBalances"><title>GET /{tenantID}/balances
+More Local line · getByTenantIDBalances</title>
+<circle cx="1882" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1888" y="1268" transform="rotate(-45 1888 1268)" style="fill:#1A1F2C">List balances</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-saldo-api/#op-getByTenantIDBalancesLast" target="_blank" class="st" data-op="getByTenantIDBalancesLast"><title>GET /{tenantID}/balances/last
+More Local line · getByTenantIDBalancesLast</title>
+<circle cx="1966" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1978" y="1285" text-anchor="start" style="fill:#1A1F2C">Get last</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-sessioni-di-checkout-api/#op-postByTenantIDCheckout" target="_blank" class="st" data-op="postByTenantIDCheckout"><title>POST /{tenantID}/checkout
+Sessioni di checkout line · postByTenantIDCheckout</title>
+<circle cx="1420" cy="2666" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1408.0" y="2671" text-anchor="end" style="fill:#1A1F2C">Update checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-sessioni-di-checkout-api/#op-postByTenantIDCheckoutIntents" target="_blank" class="st" data-op="postByTenantIDCheckoutIntents"><title>POST /{tenantID}/checkout/intents
+Sessioni di checkout line · postByTenantIDCheckoutIntents</title>
+<circle cx="1294" cy="2876" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="2881" text-anchor="start" style="fill:#1A1F2C">Create intent</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-sessioni-di-checkout-api/#op-deleteByTenantIDCheckoutByCode" target="_blank" class="st" data-op="deleteByTenantIDCheckoutByCode"><title>DELETE /{tenantID}/checkout/{code}
+Sessioni di checkout line · deleteByTenantIDCheckoutByCode</title>
+<circle cx="1378" cy="2708" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1374" y1="2712" x2="1382" y2="2704" stroke="#B0287F" stroke-width="2"/>
+<text x="1366.0" y="2713" text-anchor="end" style="fill:#1A1F2C">Delete checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-sessioni-di-checkout-api/#op-putByTenantIDCheckoutByCodePreferences" target="_blank" class="st" data-op="putByTenantIDCheckoutByCodePreferences"><title>PUT /{tenantID}/checkout/{code}/preferences
+Sessioni di checkout line · putByTenantIDCheckoutByCodePreferences</title>
+<circle cx="1294" cy="2960" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="2965" text-anchor="start" style="fill:#1A1F2C">Create preference</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-sessioni-di-checkout-api/#op-getByTenantIDCheckoutByTypeByFingerprint" target="_blank" class="st" data-op="getByTenantIDCheckoutByTypeByFingerprint"><title>GET /{tenantID}/checkout/{type}/{fingerprint}
+Sessioni di checkout line · getByTenantIDCheckoutByTypeByFingerprint</title>
+<circle cx="1294" cy="2792" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1306" y="2797" text-anchor="start" style="fill:#1A1F2C">Get checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-stipendi-api/#op-getByTenantIDSalaries" target="_blank" class="st" data-op="getByTenantIDSalaries"><title>GET /{tenantID}/salaries
+Stipendi line · getByTenantIDSalaries</title>
+<circle cx="538" cy="2078" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="2083" text-anchor="start" style="fill:#1A1F2C">List salaries</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-stipendi-api/#op-patchByTenantIDSalaries" target="_blank" class="st" data-op="patchByTenantIDSalaries"><title>PATCH /{tenantID}/salaries
+Stipendi line · patchByTenantIDSalaries</title>
+<circle cx="538" cy="1910" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="1915" text-anchor="start" style="fill:#1A1F2C">Create salary</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-stipendi-api/#op-postByTenantIDSalaries" target="_blank" class="st" data-op="postByTenantIDSalaries"><title>POST /{tenantID}/salaries
+Stipendi line · postByTenantIDSalaries</title>
+<circle cx="538" cy="1994" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="1999" text-anchor="start" style="fill:#1A1F2C">Create salary</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-stipendi-api/#op-deleteByTenantIDSalariesByFingerprint" target="_blank" class="st" data-op="deleteByTenantIDSalariesByFingerprint"><title>DELETE /{tenantID}/salaries/{fingerprint}
+Stipendi line · deleteByTenantIDSalariesByFingerprint</title>
+<circle cx="328" cy="1826" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="324" y1="1830" x2="332" y2="1822" stroke="#B8860B" stroke-width="2"/>
+<text x="334" y="1814" transform="rotate(-45 334 1814)" style="fill:#1A1F2C">Delete salary</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-stipendi-api/#op-getByTenantIDSalariesByFingerprint" target="_blank" class="st" data-op="getByTenantIDSalariesByFingerprint"><title>GET /{tenantID}/salaries/{fingerprint}
+Stipendi line · getByTenantIDSalariesByFingerprint</title>
+<circle cx="538" cy="1826" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="1831" text-anchor="start" style="fill:#1A1F2C">Get salary</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-stipendi-api/#op-patchByTenantIDSalariesByFingerprint" target="_blank" class="st" data-op="patchByTenantIDSalariesByFingerprint"><title>PATCH /{tenantID}/salaries/{fingerprint}
+Stipendi line · patchByTenantIDSalariesByFingerprint</title>
+<circle cx="412" cy="1826" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="418" y="1814" transform="rotate(-45 418 1814)" style="fill:#1A1F2C">Update salary</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transactions-api/#op-getTransactions" target="_blank" class="st" data-op="getTransactions"><title>GET /transactions
+More Local line · getTransactions</title>
+<circle cx="1546" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1201" text-anchor="start" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transactions-api/#op-getTransaction" target="_blank" class="st" data-op="getTransaction"><title>GET /transactions/{transactionID}
+More Local line · getTransaction</title>
+<circle cx="1630" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1618.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transazioni-api/#op-getByTenantIDTransactions" target="_blank" class="st" data-op="getByTenantIDTransactions"><title>GET /{tenantID}/transactions
+More Local line · getByTenantIDTransactions</title>
+<circle cx="1714" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1720" y="1268" transform="rotate(-45 1720 1268)" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transazioni-api/#op-getByTenantIDTransactionsByTransactionID" target="_blank" class="st" data-op="getByTenantIDTransactionsByTransactionID"><title>GET /{tenantID}/transactions/{transactionID}
+More Local line · getByTenantIDTransactionsByTransactionID</title>
+<circle cx="1798" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1804" y="1268" transform="rotate(-45 1804 1268)" style="fill:#1A1F2C">Get transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfer-api/#op-getByTenantIDTransfers" target="_blank" class="st" data-op="getByTenantIDTransfers"><title>GET /{tenantID}/transfers
+Transfer line · getByTenantIDTransfers</title>
+<circle cx="790" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="781.0" y="1060" text-anchor="end" style="fill:#1A1F2C">List transfers <tspan font-weight="700" style="fill:#0d6676">⇄TRN</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfer-api/#op-postByTenantIDTransfers" target="_blank" class="st" data-op="postByTenantIDTransfers"><title>POST /{tenantID}/transfers
+Transfer line · postByTenantIDTransfers</title>
+<circle cx="622" cy="1070" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="628" y="1058" transform="rotate(-45 628 1058)" style="fill:#1A1F2C">Create transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfer-api/#op-postByTenantIDTransfersPlan" target="_blank" class="st" data-op="postByTenantIDTransfersPlan"><title>POST /{tenantID}/transfers/plan
+Transfer line · postByTenantIDTransfersPlan</title>
+<circle cx="370" cy="1070" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="376" y="1058" transform="rotate(-45 376 1058)" style="fill:#1A1F2C">Update plan</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfer-api/#op-deleteByTenantIDTransfersByFingerprint" target="_blank" class="st" data-op="deleteByTenantIDTransfersByFingerprint"><title>DELETE /{tenantID}/transfers/{fingerprint}
+Transfer line · deleteByTenantIDTransfersByFingerprint</title>
+<circle cx="454" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="450" y1="1074" x2="458" y2="1066" stroke="#0B7A75" stroke-width="2"/>
+<text x="460" y="1058" transform="rotate(-45 460 1058)" style="fill:#1A1F2C">Delete transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfer-api/#op-getByTenantIDTransfersByFingerprint" target="_blank" class="st" data-op="getByTenantIDTransfersByFingerprint"><title>GET /{tenantID}/transfers/{fingerprint}
+Transfer line · getByTenantIDTransfersByFingerprint</title>
+<circle cx="538" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="544" y="1058" transform="rotate(-45 544 1058)" style="fill:#1A1F2C">Get transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfers-api/#op-getTransfers" target="_blank" class="st" data-op="getTransfers"><title>GET /transfers
+Transfers line · getTransfers</title>
+<circle cx="706" cy="1280" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<text x="718" y="1285" text-anchor="start" style="fill:#1A1F2C">List transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfers-api/#op-getTransfer" target="_blank" class="st" data-op="getTransfer"><title>GET /transfers/{transferID}
+Transfers line · getTransfer</title>
+<circle cx="832" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="841" y="1144" text-anchor="start" style="fill:#1A1F2C">Get transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-transfers-api/#op-deleteTransfer" target="_blank" class="st" data-op="deleteTransfer"><title>DELETE /transfers/{transferID}
+Transfers line · deleteTransfer</title>
+<circle cx="706" cy="1154" r="5.5" fill="#fff" stroke="#0d6676" stroke-width="2.5"/>
+<line x1="702" y1="1158" x2="710" y2="1150" stroke="#0d6676" stroke-width="2"/>
+<text x="712" y="1142" transform="rotate(-45 712 1142)" style="fill:#1A1F2C">Delete transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-getWebhooks" target="_blank" class="st" data-op="getWebhooks"><title>GET /webhooks
+Webhook line · getWebhooks</title>
+<circle cx="1588" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1582" y="956" text-anchor="end" transform="rotate(-45 1582 956)" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-getWebhooksTypes" target="_blank" class="st" data-op="getWebhooksTypes"><title>GET /webhooks/types
+Webhook line · getWebhooksTypes</title>
+<circle cx="1546" cy="482" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="487" text-anchor="start" style="fill:#1A1F2C">List types</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-deleteWebhooksById" target="_blank" class="st" data-op="deleteWebhooksById"><title>DELETE /webhooks/{id}
+Webhook line · deleteWebhooksById</title>
+<circle cx="1420" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1416" y1="948" x2="1424" y2="940" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1408.0" y="949" text-anchor="end" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-getWebhooksById" target="_blank" class="st" data-op="getWebhooksById"><title>GET /webhooks/{id}
+Webhook line · getWebhooksById</title>
+<circle cx="1504" cy="944" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1510" y="932" transform="rotate(-45 1510 932)" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-putWebhooksByIdRenew" target="_blank" class="st" data-op="putWebhooksByIdRenew"><title>PUT /webhooks/{id}/renew
+Webhook line · putWebhooksByIdRenew</title>
+<circle cx="1546" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="403" text-anchor="start" style="fill:#1A1F2C">Update renew</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-getByTenantIDWebhooks" target="_blank" class="st" data-op="getByTenantIDWebhooks"><title>GET /{tenantID}/webhooks
+Webhook line · getByTenantIDWebhooks</title>
+<circle cx="1378" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1390" y="907" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-postByTenantIDWebhooks" target="_blank" class="st" data-op="postByTenantIDWebhooks"><title>POST /{tenantID}/webhooks
+Webhook line · postByTenantIDWebhooks</title>
+<circle cx="1378" cy="776" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1390" y="781" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-deleteByTenantIDWebhooksById" target="_blank" class="st" data-op="deleteByTenantIDWebhooksById"><title>DELETE /{tenantID}/webhooks/{id}
+Webhook line · deleteByTenantIDWebhooksById</title>
+<circle cx="1546" cy="608" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1542" y1="612" x2="1550" y2="604" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1558" y="613" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-getByTenantIDWebhooksById" target="_blank" class="st" data-op="getByTenantIDWebhooksById"><title>GET /{tenantID}/webhooks/{id}
+Webhook line · getByTenantIDWebhooksById</title>
+<circle cx="1420" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="739" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/bancomat/bancomat-webhook-api/#op-putByTenantIDWebhooksById" target="_blank" class="st" data-op="putByTenantIDWebhooksById"><title>PUT /{tenantID}/webhooks/{id}
+Webhook line · putByTenantIDWebhooksById</title>
+<circle cx="1462" cy="692" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1474" y="697" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<text x="2492" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2492" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">CONSTRUCTIONS</text>
+<rect x="2492" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2509" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2534" y="269" font-size="11" fill="#1A1F2C">Construction <tspan fill="#8A93A6">13</tspan></text>
+<rect x="2492" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="2509" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="2534" y="286" font-size="11" fill="#1A1F2C">Accounts <tspan fill="#8A93A6">4</tspan></text>
+<text x="2492" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">CREDIT NOTES</text>
+<rect x="2492" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2509" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOC</text><text x="2534" y="329" font-size="11" fill="#1A1F2C">Documents <tspan fill="#8A93A6">16</tspan></text>
+<text x="2492" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">WEBHOOKS</text>
+<rect x="2492" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2509" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2534" y="372" font-size="11" fill="#1A1F2C">Webhook <tspan fill="#8A93A6">10</tspan></text>
+<text x="2492" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">BULK</text>
+<rect x="2492" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="2509" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BUL</text><text x="2534" y="415" font-size="11" fill="#1A1F2C">Bulk <tspan fill="#8A93A6">8</tspan></text>
+<text x="2492" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">INVOICES</text>
+<rect x="2492" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2509" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FAT</text><text x="2534" y="458" font-size="11" fill="#1A1F2C">Fatture <tspan fill="#8A93A6">8</tspan></text>
+<text x="2492" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">CHECKOUT</text>
+<rect x="2492" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="2509" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SDC</text><text x="2534" y="501" font-size="11" fill="#1A1F2C">Sessioni di checkout <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="508" width="34" height="13" rx="3" fill="#8b2351"/><text x="2509" y="518" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHE</text><text x="2534" y="518" font-size="11" fill="#1A1F2C">Checkout <tspan fill="#8A93A6">3</tspan></text>
+<text x="2492" y="544" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">TRANSFERS</text>
+<rect x="2492" y="551" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2509" y="561" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="2534" y="561" font-size="11" fill="#1A1F2C">Transfer <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2492" y="568" width="34" height="13" rx="3" fill="#0d6676"/><text x="2509" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRN</text><text x="2534" y="578" font-size="11" fill="#1A1F2C">Transfers <tspan fill="#8A93A6">3</tspan></text>
+<text x="2492" y="604" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">SALARIES</text>
+<rect x="2492" y="611" width="34" height="13" rx="3" fill="#B8860B"/><text x="2509" y="621" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STI</text><text x="2534" y="621" font-size="11" fill="#1A1F2C">Stipendi <tspan fill="#8A93A6">6</tspan></text>
+<text x="2492" y="647" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">PAGOPA</text>
+<rect x="2492" y="654" width="34" height="13" rx="3" fill="#C2410C"/><text x="2509" y="664" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PP</text><text x="2534" y="664" font-size="11" fill="#1A1F2C">pagoPA <tspan fill="#8A93A6">6</tspan></text>
+<text x="2492" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">CHAIN</text>
+<rect x="2492" y="697" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2509" y="707" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="2534" y="707" font-size="11" fill="#1A1F2C">Chain <tspan fill="#8A93A6">6</tspan></text>
+<text x="2492" y="733" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">FEE</text>
+<rect x="2492" y="740" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2509" y="750" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FEE</text><text x="2534" y="750" font-size="11" fill="#1A1F2C">Fee <tspan fill="#8A93A6">4</tspan></text>
+<text x="2492" y="776" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2492" y="783" width="34" height="13" rx="3" fill="#D6264F"/><text x="2509" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2534" y="793" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">17</tspan></text>
+<rect x="2492" y="800" width="34" height="13" rx="3" fill="#B0287F"/><text x="2509" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AS</text><text x="2534" y="810" font-size="11" fill="#1A1F2C">AIS Service <tspan fill="#8A93A6">3</tspan></text>
+<text x="2742" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2760,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2786" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2760,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2786" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2760,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2786" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2760,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2786" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2760,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2786" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2760,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2786" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2760,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2786" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2760,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2786" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2742" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2742" y="463" font-size="10.5" fill="#5A6275">“Authentication” → More Local line · 2 ops</text>
+<text x="2742" y="478" font-size="10.5" fill="#5A6275">“Banche” → More Local line · 2 ops</text>
+<text x="2742" y="493" font-size="10.5" fill="#5A6275">“Consent” → More Local line · 2 ops</text>
+<text x="2742" y="508" font-size="10.5" fill="#5A6275">“Constructions” → Construction line · 1 op</text>
+<text x="2742" y="523" font-size="10.5" fill="#5A6275">“Conti” → Accounts line · 1 op</text>
+<text x="2742" y="538" font-size="10.5" fill="#5A6275">“KYC” → More Local line · 2 ops</text>
+<text x="2742" y="553" font-size="10.5" fill="#5A6275">“Pagamenti” → More Local line · 1 op</text>
+<text x="2742" y="568" font-size="10.5" fill="#5A6275">“Payments” → More Local line · 2 ops</text>
+<text x="2742" y="583" font-size="10.5" fill="#5A6275">“Saldo” → More Local line · 2 ops</text>
+<text x="2742" y="598" font-size="10.5" fill="#5A6275">“Transactions” → More Local line · 2 ops</text>
+<text x="2742" y="613" font-size="10.5" fill="#5A6275">“Transazioni” → More Local line · 2 ops</text>
+<text x="2742" y="663" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2742" y="680" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3090" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/bancomat/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

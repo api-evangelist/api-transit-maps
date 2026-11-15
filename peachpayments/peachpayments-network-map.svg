@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1448 936" width="1448" height="936" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1448" height="936" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Peachpayments API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">13 operations as stops · 4 tags as lines · 1 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="405.53846153846155" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">PEACHPAYMENTS</text>
+<line x1="328" y1="398" x2="328" y2="440" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="328" y1="398" x2="328" y2="440" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Checkout" d="M748.0,692.0 L748.0,608.0 L748.0,524.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Checkout</title></path>
+<path class="line" data-line="Payment Links" d="M328.0,398.0 L244.0,314.0 L160.0,230.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Links</title></path>
+<path class="line" data-line="Payouts" d="M160.0,776.0 L160.0,692.0 L160.0,608.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payouts</title></path>
+<path class="line" data-line="Peachpayments Local" d="M580.0,356.0 L496.0,440.0 L421.9,514.1 Q412.0,524.0 402.1,514.1 L328.0,440.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Peachpayments Local</title></path>
+<line x1="748" y1="692" x2="748.0" y2="726.0" stroke="#0E9F6E" stroke-width="7"/><rect x="724.0" y="715.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Checkout</title></rect><text x="748.0" y="731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="748" y1="524" x2="748.0" y2="490.0" stroke="#0E9F6E" stroke-width="7"/><rect x="724.0" y="479.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Checkout</title></rect><text x="748.0" y="495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHE</text>
+<line x1="328" y1="398" x2="352.04163056034264" y2="422.04163056034264" stroke="#1F5FD1" stroke-width="7"/><rect x="328.04163056034264" y="411.04163056034264" width="48" height="22" rx="5" fill="#1F5FD1"><title>Payment Links</title></rect><text x="352.04163056034264" y="427.04163056034264" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAL</text>
+<line x1="160" y1="230" x2="135.9583694396574" y2="205.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="111.95836943965739" y="194.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Payment Links</title></rect><text x="135.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAL</text>
+<line x1="160" y1="776" x2="160.0" y2="810.0" stroke="#E07B12" stroke-width="7"/><rect x="136.0" y="799.0" width="48" height="22" rx="5" fill="#E07B12"><title>Payouts</title></rect><text x="160.0" y="815.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="160" y1="608" x2="160.0" y2="574.0" stroke="#E07B12" stroke-width="7"/><rect x="136.0" y="563.0" width="48" height="22" rx="5" fill="#E07B12"><title>Payouts</title></rect><text x="160.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="580" y1="356" x2="604.0416305603426" y2="331.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="580.0416305603426" y="320.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>Peachpayments Local</title></rect><text x="604.0416305603426" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PL</text>
+<line x1="328" y1="440" x2="291.2304473782995" y2="403.2304473782995" stroke="#D6264F" stroke-width="7"/><rect x="267.2304473782995" y="392.2304473782995" width="48" height="22" rx="5" fill="#D6264F"><title>Peachpayments Local</title></rect><text x="291.2304473782995" y="408.2304473782995" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PL</text>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-authentication-api/#op-createAccessToken" target="_blank" class="st" data-op="createAccessToken"><title>POST /api/oauth/token
+Peachpayments Local line · createAccessToken</title>
+<circle cx="496" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="445" text-anchor="start" style="fill:#1A1F2C">Update token</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-checkout-api/#op-createCheckout" target="_blank" class="st" data-op="createCheckout"><title>POST /v2/checkout
+Checkout line · createCheckout</title>
+<circle cx="748" cy="608" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="613" text-anchor="start" style="fill:#1A1F2C">Update checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-checkout-api/#op-getCheckoutStatus" target="_blank" class="st" data-op="getCheckoutStatus"><title>GET /v2/checkout/{checkoutId}
+Checkout line · getCheckoutStatus</title>
+<circle cx="748" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="529" text-anchor="start" style="fill:#1A1F2C">Get checkout</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-checkout-api/#op-getPaymentMethodsForCurrency" target="_blank" class="st" data-op="getPaymentMethodsForCurrency"><title>POST /merchant-specs
+Checkout line · getPaymentMethodsForCurrency</title>
+<circle cx="748" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="697" text-anchor="start" style="fill:#1A1F2C">Create merchant spec</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payment-links-api/#op-createPaymentLink" target="_blank" class="st" data-op="createPaymentLink"><title>POST /api/channels/{entityId}/payments
+Payment Links line · createPaymentLink</title>
+<circle cx="244" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="256" y="319" text-anchor="start" style="fill:#1A1F2C">Create payment</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payment-links-api/#op-listPaymentLinks" target="_blank" class="st" data-op="listPaymentLinks"><title>GET /api/channels/{entityId}/payments
+Payment Links line · listPaymentLinks</title>
+<circle cx="328" cy="398" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="340" y="403" text-anchor="start" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payment-links-api/#op-cancelPaymentLink" target="_blank" class="st" data-op="cancelPaymentLink"><title>DELETE /api/payments/{paymentId}
+Payment Links line · cancelPaymentLink</title>
+<circle cx="160" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="156" y1="234" x2="164" y2="226" stroke="#1F5FD1" stroke-width="2"/>
+<text x="172" y="235" text-anchor="start" style="fill:#1A1F2C">Delete payment</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payments-api/#op-createPayment" target="_blank" class="st" data-op="createPayment"><title>POST /payments
+Peachpayments Local line · createPayment</title>
+<circle cx="412" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="406" y="536" text-anchor="end" transform="rotate(-45 406 536)" style="fill:#1A1F2C">Create payment</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payments-api/#op-getPaymentStatus" target="_blank" class="st" data-op="getPaymentStatus"><title>GET /payments/{uniqueId}
+Peachpayments Local line · getPaymentStatus</title>
+<circle cx="328" cy="440" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="316.0" y="445" text-anchor="end" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payouts-api/#op-createPayout" target="_blank" class="st" data-op="createPayout"><title>POST /payouts
+Payouts line · createPayout</title>
+<circle cx="160" cy="692" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="172" y="697" text-anchor="start" style="fill:#1A1F2C">Create payout</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payouts-api/#op-getPayout" target="_blank" class="st" data-op="getPayout"><title>GET /payouts/{payoutId}
+Payouts line · getPayout</title>
+<circle cx="160" cy="608" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="172" y="613" text-anchor="start" style="fill:#1A1F2C">Get payout</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-payouts-api/#op-verifyBankAccount" target="_blank" class="st" data-op="verifyBankAccount"><title>POST /api/accounts/verify
+Payouts line · verifyBankAccount</title>
+<circle cx="160" cy="776" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="172" y="781" text-anchor="start" style="fill:#1A1F2C">Verify account</text>
+</a>
+<a href="https://apis.apis.io/apis/peachpayments/peachpayments-reconciliation-api/#op-getTransactionsReconciliation" target="_blank" class="st" data-op="getTransactionsReconciliation"><title>GET /api/merchants/{merchantId}/transactions-recon
+Peachpayments Local line · getTransactionsReconciliation</title>
+<circle cx="580" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="361" text-anchor="start" style="fill:#1A1F2C">Get transactions recon</text>
+</a>
+<text x="938" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="938" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">PEACHPAYMENTS</text>
+<rect x="938" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="955" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PL</text><text x="980" y="269" font-size="11" fill="#1A1F2C">Peachpayments Local <tspan fill="#8A93A6">4</tspan></text>
+<rect x="938" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="955" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHE</text><text x="980" y="286" font-size="11" fill="#1A1F2C">Checkout <tspan fill="#8A93A6">3</tspan></text>
+<rect x="938" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="955" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAL</text><text x="980" y="303" font-size="11" fill="#1A1F2C">Payment Links <tspan fill="#8A93A6">3</tspan></text>
+<rect x="938" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="955" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="980" y="320" font-size="11" fill="#1A1F2C">Payouts <tspan fill="#8A93A6">3</tspan></text>
+<text x="1188" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1206,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1232" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1206,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1232" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1206,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1232" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1206,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1232" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1206,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1232" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1206,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1232" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1206,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1232" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1206,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1232" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1188" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1188" y="463" font-size="10.5" fill="#5A6275">“Authentication” → Peachpayments Local line · 1 op</text>
+<text x="1188" y="478" font-size="10.5" fill="#5A6275">“Payments” → Peachpayments Local line · 2 ops</text>
+<text x="1188" y="493" font-size="10.5" fill="#5A6275">“Reconciliation” → Peachpayments Local line · 1 op</text>
+<text x="1188" y="543" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1188" y="560" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="906" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/peachpayments/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

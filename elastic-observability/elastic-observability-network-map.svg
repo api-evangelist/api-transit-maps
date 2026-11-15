@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1532 1314" width="1532" height="1314" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1532" height="1314" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Elastic-Observability API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">13 operations as stops · 3 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="447.53846153846155" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">ELASTIC OBSERVABILITY</text>
+<path class="line" data-line="Agent Config" d="M832.0,818.0 L832.0,734.0 L832.0,650.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Config</title></path>
+<path class="line" data-line="opentelemetry intake" d="M370.0,230.0 L370.0,314.0 L370.0,426.0 Q370.0,440.0 360.1,449.9 L337.9,472.1 Q328.0,482.0 314.0,482.0 L244.0,482.0 L160.0,482.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>opentelemetry intake</title></path>
+<path class="line" data-line="Elastic Observability Local" d="M412.0,1154.0 L412.0,1042.0 Q412.0,1028.0 402.1,1018.1 L370.0,986.0 L286.0,902.0" fill="none" stroke="#0E9F6E" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Elastic Observability Local</title></path>
+<line x1="832" y1="818" x2="832.0" y2="852.0" stroke="#1F5FD1" stroke-width="7"/><rect x="808.0" y="841.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Agent Config</title></rect><text x="832.0" y="857.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AC</text>
+<line x1="832" y1="650" x2="832.0" y2="616.0" stroke="#1F5FD1" stroke-width="7"/><rect x="808.0" y="605.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Agent Config</title></rect><text x="832.0" y="621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AC</text>
+<line x1="370" y1="230" x2="370.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="346.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>opentelemetry intake</title></rect><text x="370.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OI</text>
+<line x1="160" y1="482" x2="126.0" y2="482.0" stroke="#D6264F" stroke-width="7"/><rect x="102.0" y="471.0" width="48" height="22" rx="5" fill="#D6264F"><title>opentelemetry intake</title></rect><text x="126.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OI</text>
+<line x1="412" y1="1154" x2="412.0" y2="1188.0" stroke="#0E9F6E" stroke-width="7"/><rect x="388.0" y="1177.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Elastic Observability Local</title></rect><text x="412.0" y="1193.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EOL</text>
+<line x1="286" y1="902" x2="261.95836943965736" y2="877.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="237.95836943965736" y="866.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Elastic Observability Local</title></rect><text x="261.95836943965736" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EOL</text>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-agent-config-api/#op-getAgentConfig" target="_blank" class="st" data-op="getAgentConfig"><title>GET /config/v1/agents
+Agent Config line · getAgentConfig</title>
+<circle cx="832" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="844" y="823" text-anchor="start" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-agent-config-api/#op-postAgentConfig" target="_blank" class="st" data-op="postAgentConfig"><title>POST /config/v1/agents
+Agent Config line · postAgentConfig</title>
+<circle cx="832" cy="734" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="844" y="739" text-anchor="start" style="fill:#1A1F2C">Create agent</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-agent-config-api/#op-getRumAgentConfig" target="_blank" class="st" data-op="getRumAgentConfig"><title>GET /config/v1/rum/agents
+Agent Config line · getRumAgentConfig</title>
+<circle cx="832" cy="650" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="844" y="655" text-anchor="start" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-event-intake-api/#op-postEventIntake" target="_blank" class="st" data-op="postEventIntake"><title>POST /intake/v2/events
+Elastic Observability Local line · postEventIntake</title>
+<circle cx="370" cy="986" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="991" text-anchor="start" style="fill:#1A1F2C">Create event</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-event-intake-api/#op-postRumEventIntakeV3" target="_blank" class="st" data-op="postRumEventIntakeV3"><title>POST /intake/v3/rum/events
+Elastic Observability Local line · postRumEventIntakeV3</title>
+<circle cx="286" cy="902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="907" text-anchor="start" style="fill:#1A1F2C">Create event</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-opentelemetry-intake-api/#op-postOtlpGrpcMetrics" target="_blank" class="st" data-op="postOtlpGrpcMetrics"><title>POST /opentelemetry.proto.collector.metrics.v1.MetricsService/Export
+opentelemetry intake line · postOtlpGrpcMetrics</title>
+<circle cx="370" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="319" text-anchor="start" style="fill:#1A1F2C">Export opentelemetry.proto.collector.metrics.v1.metricsservice</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-opentelemetry-intake-api/#op-postOtlpGrpcTraces" target="_blank" class="st" data-op="postOtlpGrpcTraces"><title>POST /opentelemetry.proto.collector.trace.v1.TraceService/Export
+opentelemetry intake line · postOtlpGrpcTraces</title>
+<circle cx="370" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="445" text-anchor="start" style="fill:#1A1F2C">Export opentelemetry.proto.collector.trace.v1.traceservice</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-opentelemetry-intake-api/#op-postOtlpGrpcLogs" target="_blank" class="st" data-op="postOtlpGrpcLogs"><title>POST /opentelemetry.proto.collector.logs.v1.LogsService/Export
+opentelemetry intake line · postOtlpGrpcLogs</title>
+<circle cx="370" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="235" text-anchor="start" style="fill:#1A1F2C">Export opentelemetry.proto.collector.logs.v1.logsservice</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-opentelemetry-intake-api/#op-postOtlpHttpMetrics" target="_blank" class="st" data-op="postOtlpHttpMetrics"><title>POST /v1/metrics
+opentelemetry intake line · postOtlpHttpMetrics</title>
+<circle cx="244" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="250" y="470" transform="rotate(-45 250 470)" style="fill:#1A1F2C">Create metric</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-opentelemetry-intake-api/#op-postOtlpHttpTraces" target="_blank" class="st" data-op="postOtlpHttpTraces"><title>POST /v1/traces
+opentelemetry intake line · postOtlpHttpTraces</title>
+<circle cx="160" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="166" y="470" transform="rotate(-45 166 470)" style="fill:#1A1F2C">Create trace</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-opentelemetry-intake-api/#op-postOtlpHttpLogs" target="_blank" class="st" data-op="postOtlpHttpLogs"><title>POST /v1/logs
+opentelemetry intake line · postOtlpHttpLogs</title>
+<circle cx="328" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="340" y="487" text-anchor="start" style="fill:#1A1F2C">Create log</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-server-info-api/#op-getServerHealth" target="_blank" class="st" data-op="getServerHealth"><title>GET /
+Elastic Observability Local line · getServerHealth</title>
+<circle cx="412" cy="1154" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="424" y="1159" text-anchor="start" style="fill:#1A1F2C">getServerHealth</text>
+</a>
+<a href="https://apis.apis.io/apis/elastic-observability/elastic-observability-server-info-api/#op-postServerHealth" target="_blank" class="st" data-op="postServerHealth"><title>POST /
+Elastic Observability Local line · postServerHealth</title>
+<circle cx="412" cy="1028" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="424" y="1033" text-anchor="start" style="fill:#1A1F2C">postServerHealth</text>
+</a>
+<text x="1022" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1022" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">ELASTIC OBSERVABILITY</text>
+<rect x="1022" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1039" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OI</text><text x="1064" y="269" font-size="11" fill="#1A1F2C">opentelemetry intake <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1022" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1039" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EOL</text><text x="1064" y="286" font-size="11" fill="#1A1F2C">Elastic Observability Local <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1022" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1039" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AC</text><text x="1064" y="303" font-size="11" fill="#1A1F2C">Agent Config <tspan fill="#8A93A6">3</tspan></text>
+<text x="1272" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1290,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1316" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1290,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1316" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1290,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1316" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1290,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1316" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1290,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1316" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1290,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1316" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1290,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1316" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1290,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1316" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1272" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1272" y="463" font-size="10.5" fill="#5A6275">“Server Info” → Elastic Observability Local line · 2 ops</text>
+<text x="1272" y="478" font-size="10.5" fill="#5A6275">“event intake” → Elastic Observability Local line · 2 ops</text>
+<text x="1272" y="528" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1272" y="545" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1284" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/elastic-observability/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
