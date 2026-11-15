@@ -1,0 +1,595 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2330 2364" width="2330" height="2364" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2330" height="2364" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Hitpay API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">89 operations as stops · 18 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M916.0,1070.0 L818.3,972.3 Q790.0,944.0 790.0,904.0 L790.0,818.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="791.0" y="932.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="853.0" y="948.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Recurring Billing</title>1 interchange</text></g>
+<text x="874.0" y="1840" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">CHARGES</text>
+<text x="1399.0" y="1504" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">BENEFICIARIES</text>
+<text x="475.0" y="244" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">LOCATIONS</text>
+<text x="1168.0" y="370" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">PRODUCTS</text>
+<text x="806.8" y="748" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">RECURRING BILLING</text>
+<text x="596.8" y="454" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">ORDERS</text>
+<text x="1411.6" y="622" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">CUSTOMERS</text>
+<text x="311.2" y="748" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">SUBSCRIPTION PLAN</text>
+<text x="806.8" y="286" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">PAYMENT REQUESTS</text>
+<text x="941.2" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">STATIC QR</text>
+<text x="420.4" y="916" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">WEBHOOK EVENTS</text>
+<text x="1099.9310344827586" y="664" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="832" y1="1994" x2="790" y2="2036" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="832" y1="1994" x2="790" y2="2036" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Balances" d="M1504.0,1196.0 L1420.0,1280.0 L1378.0,1322.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Balances</title></path>
+<path class="line" data-line="Beneficiaries" d="M1462.0,1826.0 L1462.0,1742.0 L1462.0,1630.0 Q1462.0,1616.0 1452.1,1606.1 L1429.9,1583.9 Q1420.0,1574.0 1406.0,1574.0 L1336.0,1574.0 L1252.0,1574.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Beneficiaries</title></path>
+<path class="line" data-line="Charges" d="M706.0,1952.0 L780.1,2026.1 Q790.0,2036.0 790.0,2050.0 L790.0,2120.0 L790.0,2204.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Charges</title></path>
+<path class="line" data-line="Customers" d="M1462.0,692.0 L1387.9,766.1 Q1378.0,776.0 1378.0,790.0 L1378.0,804.0 Q1378.0,818.0 1387.9,827.9 L1410.1,850.1 Q1420.0,860.0 1420.0,874.0 L1420.0,986.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Customers</title></path>
+<path class="line" data-line="Invoices" d="M496.0,986.0 L580.0,1070.0 L664.0,1154.0 L748.0,1238.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invoices</title></path>
+<path class="line" data-line="Location" d="M496.0,314.0 L496.0,398.0 L496.0,482.0 L496.0,594.0 Q496.0,608.0 486.1,617.9 L454.0,650.0 L412.0,692.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Location</title></path>
+<path class="line" data-line="Orders" d="M664.0,524.0 L589.9,598.1 Q580.0,608.0 580.0,622.0 L580.0,734.0 L580.0,818.0 L580.0,902.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Payment Requests" d="M664.0,356.0 L738.1,430.1 Q748.0,440.0 762.0,440.0 L860.0,440.0 Q874.0,440.0 874.0,454.0 L874.0,566.0 L874.0,650.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payment Requests</title></path>
+<path class="line" data-line="Payouts" d="M1126.0,1910.0 L1042.0,1910.0 L930.0,1910.0 Q916.0,1910.0 906.1,1919.9 L832.0,1994.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payouts</title></path>
+<path class="line" data-line="Products" d="M1336.0,608.0 L1252.0,608.0 L1182.0,608.0 Q1168.0,608.0 1158.1,598.1 L1084.0,524.0 L1000.0,440.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Products</title></path>
+<path class="line" data-line="Recurring Billing" d="M958.0,818.0 L874.0,818.0 L804.0,818.0 Q790.0,818.0 780.1,827.9 L715.9,892.1 Q706.0,902.0 706.0,916.0 L706.0,986.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Recurring Billing</title></path>
+<path class="line" data-line="Remitters" d="M1252.0,734.0 L1252.0,804.0 Q1252.0,818.0 1242.1,827.9 L1168.0,902.0 L1084.0,986.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Remitters</title></path>
+<path class="line" data-line="Static Qr" d="M1126.0,314.0 L1042.0,314.0 L958.0,314.0 L846.0,314.0 Q832.0,314.0 822.1,304.1 L748.0,230.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Static Qr</title></path>
+<path class="line" data-line="Subscription Plan" d="M160.0,986.0 L244.0,902.0 L318.1,827.9 Q328.0,818.0 342.0,818.0 L370.0,818.0 L454.0,818.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscription Plan</title></path>
+<path class="line" data-line="Transfers" d="M1630.0,1322.0 L1546.0,1406.0 L1513.9,1438.1 Q1504.0,1448.0 1490.0,1448.0 L1378.0,1448.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Transfers</title></path>
+<path class="line" data-line="Virtual Accounts" d="M790.0,1658.0 L874.0,1742.0 L916.0,1784.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Virtual Accounts</title></path>
+<path class="line" data-line="Webhook Events" d="M454.0,1280.0 L454.0,1196.0 L454.0,1126.0 Q454.0,1112.0 444.1,1102.1 L412.0,1070.0 L328.0,986.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhook Events</title></path>
+<path class="line" data-line="More Local" d="M832.0,986.0 L916.0,1070.0 L990.1,1144.1 Q1000.0,1154.0 1014.0,1154.0 L1070.0,1154.0 Q1084.0,1154.0 1093.9,1163.9 L1116.1,1186.1 Q1126.0,1196.0 1126.0,1210.0 L1126.0,1280.0 L1126.0,1364.0 L1126.0,1448.0 L1126.0,1532.0 L1126.0,1616.0 L1126.0,1700.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1504" y1="1196" x2="1528.0416305603426" y2="1171.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1504.0416305603426" y="1160.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Balances</title></rect><text x="1528.0416305603426" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAL</text>
+<line x1="1378" y1="1322" x2="1353.9583694396574" y2="1346.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1329.9583694396574" y="1335.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Balances</title></rect><text x="1353.9583694396574" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BAL</text>
+<line x1="1462" y1="1826" x2="1462.0" y2="1860.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1438.0" y="1849.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Beneficiaries</title></rect><text x="1462.0" y="1865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BEN</text>
+<line x1="1252" y1="1574" x2="1218.0" y2="1574.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1194.0" y="1563.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Beneficiaries</title></rect><text x="1218.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BEN</text>
+<line x1="706" y1="1952" x2="681.9583694396574" y2="1927.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="657.9583694396574" y="1916.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Charges</title></rect><text x="681.9583694396574" y="1932.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="790" y1="2204" x2="790.0" y2="2238.0" stroke="#D6264F" stroke-width="7"/><rect x="766.0" y="2227.0" width="48" height="22" rx="5" fill="#D6264F"><title>Charges</title></rect><text x="790.0" y="2243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CHA</text>
+<line x1="1462" y1="692" x2="1486.0416305603426" y2="667.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1462.0416305603426" y="656.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Customers</title></rect><text x="1486.0416305603426" y="672.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="1420" y1="986" x2="1420.0" y2="1020.0" stroke="#0B7A75" stroke-width="7"/><rect x="1396.0" y="1009.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Customers</title></rect><text x="1420.0" y="1025.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CUS</text>
+<line x1="496" y1="986" x2="471.95836943965736" y2="961.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="447.95836943965736" y="950.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Invoices</title></rect><text x="471.95836943965736" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="748" y1="1238" x2="772.0416305603426" y2="1262.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="748.0416305603426" y="1251.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Invoices</title></rect><text x="772.0416305603426" y="1267.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="496" y1="314" x2="496.0" y2="280.0" stroke="#1F5FD1" stroke-width="7"/><rect x="472.0" y="269.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Location</title></rect><text x="496.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="412" y1="692" x2="387.95836943965736" y2="716.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="363.95836943965736" y="705.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Location</title></rect><text x="387.95836943965736" y="721.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOC</text>
+<line x1="664" y1="524" x2="688.0416305603426" y2="499.95836943965736" stroke="#B0287F" stroke-width="7"/><rect x="664.0416305603426" y="488.95836943965736" width="48" height="22" rx="5" fill="#B0287F"><title>Orders</title></rect><text x="688.0416305603426" y="504.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="580" y1="902" x2="580.0" y2="936.0" stroke="#B0287F" stroke-width="7"/><rect x="556.0" y="925.0" width="48" height="22" rx="5" fill="#B0287F"><title>Orders</title></rect><text x="580.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="664" y1="356" x2="639.9583694396574" y2="331.95836943965736" stroke="#C2410C" stroke-width="7"/><rect x="615.9583694396574" y="320.95836943965736" width="48" height="22" rx="5" fill="#C2410C"><title>Payment Requests</title></rect><text x="639.9583694396574" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PR</text>
+<line x1="874" y1="650" x2="874.0" y2="684.0" stroke="#C2410C" stroke-width="7"/><rect x="850.0" y="673.0" width="48" height="22" rx="5" fill="#C2410C"><title>Payment Requests</title></rect><text x="874.0" y="689.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PR</text>
+<line x1="1126" y1="1910" x2="1160.0" y2="1910.0" stroke="#af2328" stroke-width="7"/><rect x="1136.0" y="1899.0" width="48" height="22" rx="5" fill="#af2328"><title>Payouts</title></rect><text x="1160.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="832" y1="1994" x2="789.5735931288071" y2="1999.6568542494924" stroke="#af2328" stroke-width="7"/><rect x="765.5735931288071" y="1988.6568542494924" width="48" height="22" rx="5" fill="#af2328"><title>Payouts</title></rect><text x="789.5735931288071" y="2004.6568542494924" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="1336" y1="608" x2="1370.0" y2="608.0" stroke="#E07B12" stroke-width="7"/><rect x="1346.0" y="597.0" width="48" height="22" rx="5" fill="#E07B12"><title>Products</title></rect><text x="1370.0" y="613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1000" y1="440" x2="975.9583694396574" y2="415.95836943965736" stroke="#E07B12" stroke-width="7"/><rect x="951.9583694396574" y="404.95836943965736" width="48" height="22" rx="5" fill="#E07B12"><title>Products</title></rect><text x="975.9583694396574" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="958" y1="818" x2="992.0" y2="818.0" stroke="#7B3FE4" stroke-width="7"/><rect x="968.0" y="807.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Recurring Billing</title></rect><text x="992.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RB</text>
+<line x1="706" y1="986" x2="706.0" y2="1020.0" stroke="#7B3FE4" stroke-width="7"/><rect x="682.0" y="1009.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Recurring Billing</title></rect><text x="706.0" y="1025.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RB</text>
+<line x1="1252" y1="734" x2="1252.0" y2="700.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1228.0" y="689.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Remitters</title></rect><text x="1252.0" y="705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REM</text>
+<line x1="1084" y1="986" x2="1059.9583694396574" y2="1010.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1035.9583694396574" y="999.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Remitters</title></rect><text x="1059.9583694396574" y="1015.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REM</text>
+<line x1="1126" y1="314" x2="1160.0" y2="314.0" stroke="#2E7D32" stroke-width="7"/><rect x="1136.0" y="303.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Static Qr</title></rect><text x="1160.0" y="319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="748" y1="230" x2="723.9583694396574" y2="205.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="699.9583694396574" y="194.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Static Qr</title></rect><text x="723.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="160" y1="986" x2="135.9583694396574" y2="1010.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="111.95836943965739" y="999.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Subscription Plan</title></rect><text x="135.9583694396574" y="1015.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="454" y1="818" x2="488.0" y2="818.0" stroke="#B8860B" stroke-width="7"/><rect x="464.0" y="807.0" width="48" height="22" rx="5" fill="#B8860B"><title>Subscription Plan</title></rect><text x="488.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SP</text>
+<line x1="1630" y1="1322" x2="1654.0416305603426" y2="1297.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1630.0416305603426" y="1286.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Transfers</title></rect><text x="1654.0416305603426" y="1302.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="1378" y1="1448" x2="1344.0" y2="1448.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1320.0" y="1437.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Transfers</title></rect><text x="1344.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TRA</text>
+<line x1="790" y1="1658" x2="765.9583694396574" y2="1633.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="741.9583694396574" y="1622.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Virtual Accounts</title></rect><text x="765.9583694396574" y="1638.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VA</text>
+<line x1="916" y1="1784" x2="940.0416305603426" y2="1808.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="916.0416305603426" y="1797.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Virtual Accounts</title></rect><text x="940.0416305603426" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VA</text>
+<line x1="454" y1="1280" x2="454.0" y2="1314.0" stroke="#5C6BC0" stroke-width="7"/><rect x="430.0" y="1303.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Webhook Events</title></rect><text x="454.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WE</text>
+<line x1="328" y1="986" x2="303.95836943965736" y2="961.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="279.95836943965736" y="950.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Webhook Events</title></rect><text x="303.95836943965736" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WE</text>
+<line x1="832" y1="986" x2="807.9583694396574" y2="961.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="783.9583694396574" y="950.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="807.9583694396574" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1126" y1="1700" x2="1126.0" y2="1734.0" stroke="#D6264F" stroke-width="7"/><rect x="1102.0" y="1723.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1126.0" y="1739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-account-status-api/#op-get-account-status" target="_blank" class="st" data-op="get-account-status"><title>GET /v1/account-status
+More Local line · get-account-status</title>
+<circle cx="832" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="991" text-anchor="start" style="fill:#1A1F2C">List account status</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-balances-api/#op-get-balances" target="_blank" class="st" data-op="get-balances"><title>GET /v1/balances
+Balances line · get-balances</title>
+<circle cx="1504" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="1201" text-anchor="start" style="fill:#1A1F2C">List balances</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-balances-api/#op-get-balance-transactions" target="_blank" class="st" data-op="get-balance-transactions"><title>GET /v1/balances/{balance_provider}/transactions
+Balances line · get-balance-transactions</title>
+<circle cx="1420" cy="1280" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="1285" text-anchor="start" style="fill:#1A1F2C">List transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-balances-api/#op-export-transactions" target="_blank" class="st" data-op="export-transactions"><title>POST /v1/balances/{balance_provider}/transactions/export
+Balances line · export-transactions</title>
+<circle cx="1378" cy="1322" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1390" y="1327" text-anchor="start" style="fill:#1A1F2C">Export balances transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-beneficiaries-api/#op-get-schema" target="_blank" class="st" data-op="get-schema"><title>POST /v1/beneficiaries/schema
+Beneficiaries line · get-schema</title>
+<circle cx="1252" cy="1574" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1258" y="1562" transform="rotate(-45 1258 1562)" style="fill:#1A1F2C">Update schema</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-beneficiaries-api/#op-create-beneficiary" target="_blank" class="st" data-op="create-beneficiary"><title>POST /v1/beneficiaries
+Beneficiaries line · create-beneficiary</title>
+<circle cx="1462" cy="1742" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="1747" text-anchor="start" style="fill:#1A1F2C">Create beneficiary</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-beneficiaries-api/#op-get-all-beneficiary" target="_blank" class="st" data-op="get-all-beneficiary"><title>GET /v1/beneficiaries
+Beneficiaries line · get-all-beneficiary</title>
+<circle cx="1462" cy="1826" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="1831" text-anchor="start" style="fill:#1A1F2C">List beneficiaries</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-beneficiaries-api/#op-update-beneficiary" target="_blank" class="st" data-op="update-beneficiary"><title>PATCH /v1/beneficiaries/{beneficiary_id}
+Beneficiaries line · update-beneficiary</title>
+<circle cx="1420" cy="1574" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1579" text-anchor="start" style="fill:#1A1F2C">Update beneficiary</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-beneficiaries-api/#op-delete-beneficiary" target="_blank" class="st" data-op="delete-beneficiary"><title>DELETE /v1/beneficiaries/{beneficiary_id}
+Beneficiaries line · delete-beneficiary</title>
+<circle cx="1336" cy="1574" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1332" y1="1578" x2="1340" y2="1570" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1342" y="1562" transform="rotate(-45 1342 1562)" style="fill:#1A1F2C">Delete beneficiary</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-beneficiaries-api/#op-get-beneficiary-detail" target="_blank" class="st" data-op="get-beneficiary-detail"><title>GET /v1/beneficiaries/{beneficiary_id}
+Beneficiaries line · get-beneficiary-detail</title>
+<circle cx="1462" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="1621" text-anchor="start" style="fill:#1A1F2C">Get beneficiary</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-charge-api/#op-charge-the-saved-card" target="_blank" class="st" data-op="charge-the-saved-card"><title>POST /v1/charge/recurring-billing/{recurring_billing_id}
+More Local line · charge-the-saved-card</title>
+<circle cx="916" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="1075" text-anchor="start" style="fill:#1A1F2C">Update recurring billing <tspan font-weight="700" style="fill:#7B3FE4">⇄RB</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-charges-api/#op-export-charges" target="_blank" class="st" data-op="export-charges"><title>GET /v1/charges/export
+Charges line · export-charges</title>
+<circle cx="790" cy="2120" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="802" y="2125" text-anchor="start" style="fill:#1A1F2C">Export charges</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-charges-api/#op-get-all-charges" target="_blank" class="st" data-op="get-all-charges"><title>GET /v1/charges
+Charges line · get-all-charges</title>
+<circle cx="706" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="1957" text-anchor="start" style="fill:#1A1F2C">List charges</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-charges-api/#op-get-charge" target="_blank" class="st" data-op="get-charge"><title>GET /v1/charges/{charge_id}
+Charges line · get-charge</title>
+<circle cx="790" cy="2036" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="802" y="2041" text-anchor="start" style="fill:#1A1F2C">Get charge</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-charges-api/#op-print-charge-receipt" target="_blank" class="st" data-op="print-charge-receipt"><title>POST /v1/charges/{charge_id}/receipt/print
+Charges line · print-charge-receipt</title>
+<circle cx="790" cy="2204" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="802" y="2209" text-anchor="start" style="fill:#1A1F2C">Update print</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-customers-api/#op-get-all-customers" target="_blank" class="st" data-op="get-all-customers"><title>GET /v1/customers
+Customers line · get-all-customers</title>
+<circle cx="1462" cy="692" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1474" y="697" text-anchor="start" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-customers-api/#op-create-customer" target="_blank" class="st" data-op="create-customer"><title>POST /v1/customers
+Customers line · create-customer</title>
+<circle cx="1378" cy="776" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1390" y="781" text-anchor="start" style="fill:#1A1F2C">Create customer</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-customers-api/#op-get-customer-details" target="_blank" class="st" data-op="get-customer-details"><title>GET /v1/customers/{customer_id}
+Customers line · get-customer-details</title>
+<circle cx="1378" cy="818" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1390" y="823" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-customers-api/#op-update-customer" target="_blank" class="st" data-op="update-customer"><title>PATCH /v1/customers/{customer_id}
+Customers line · update-customer</title>
+<circle cx="1420" cy="860" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="865" text-anchor="start" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-customers-api/#op-delete-customer" target="_blank" class="st" data-op="delete-customer"><title>DELETE /v1/customers/{customer_id}
+Customers line · delete-customer</title>
+<circle cx="1420" cy="986" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1416" y1="990" x2="1424" y2="982" stroke="#0B7A75" stroke-width="2"/>
+<text x="1432" y="991" text-anchor="start" style="fill:#1A1F2C">Delete customer</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-invoices-api/#op-delete-invoice" target="_blank" class="st" data-op="delete-invoice"><title>DELETE /v1/invoices/{invoice_id}
+Invoices line · delete-invoice</title>
+<circle cx="748" cy="1238" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="744" y1="1242" x2="752" y2="1234" stroke="#B0287F" stroke-width="2"/>
+<text x="760" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-invoices-api/#op-update-the-invoice" target="_blank" class="st" data-op="update-the-invoice"><title>PUT /v1/invoices/{invoice_id}
+Invoices line · update-the-invoice</title>
+<circle cx="664" cy="1154" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="1159" text-anchor="start" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-invoices-api/#op-get-invoices" target="_blank" class="st" data-op="get-invoices"><title>GET /v1/invoices
+Invoices line · get-invoices</title>
+<circle cx="496" cy="986" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="505" y="976" text-anchor="start" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-invoices-api/#op-create-invoice" target="_blank" class="st" data-op="create-invoice"><title>POST /v1/invoices
+Invoices line · create-invoice</title>
+<circle cx="580" cy="1070" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="592" y="1075" text-anchor="start" style="fill:#1A1F2C">Create invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-location-api/#op-PublicGetLocations" target="_blank" class="st" data-op="PublicGetLocations"><title>GET /v1/locations
+Location line · PublicGetLocations</title>
+<circle cx="496" cy="314" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="319" text-anchor="start" style="fill:#1A1F2C">List locations</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-location-api/#op-PublicCreateLocation" target="_blank" class="st" data-op="PublicCreateLocation"><title>POST /v1/locations
+Location line · PublicCreateLocation</title>
+<circle cx="496" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="403" text-anchor="start" style="fill:#1A1F2C">Create location</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-location-api/#op-PublicGetLocation" target="_blank" class="st" data-op="PublicGetLocation"><title>GET /v1/locations/{location}
+Location line · PublicGetLocation</title>
+<circle cx="496" cy="482" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="487" text-anchor="start" style="fill:#1A1F2C">Get location</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-location-api/#op-PublicUpdateLocation" target="_blank" class="st" data-op="PublicUpdateLocation"><title>PUT /v1/locations/{location}
+Location line · PublicUpdateLocation</title>
+<circle cx="496" cy="608" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="484.0" y="613" text-anchor="end" style="fill:#1A1F2C">Update location</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-location-api/#op-PublicUpdateLocationActive" target="_blank" class="st" data-op="PublicUpdateLocationActive"><title>PATCH /v1/locations/{location}
+Location line · PublicUpdateLocationActive</title>
+<circle cx="454" cy="650" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="466" y="655" text-anchor="start" style="fill:#1A1F2C">Update location</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-location-api/#op-PublicDeleteLocation" target="_blank" class="st" data-op="PublicDeleteLocation"><title>DELETE /v1/locations/{location}
+Location line · PublicDeleteLocation</title>
+<circle cx="412" cy="692" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="408" y1="696" x2="416" y2="688" stroke="#1F5FD1" stroke-width="2"/>
+<text x="424" y="697" text-anchor="start" style="fill:#1A1F2C">Delete location</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-notifications-api/#op-get-notification-setting" target="_blank" class="st" data-op="get-notification-setting"><title>GET /v1/notifications
+More Local line · get-notification-setting</title>
+<circle cx="1000" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="988.0" y="1159" text-anchor="end" style="fill:#1A1F2C">List notifications</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-notifications-api/#op-update-notification-setting" target="_blank" class="st" data-op="update-notification-setting"><title>PUT /v1/notifications
+More Local line · update-notification-setting</title>
+<circle cx="1084" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1159" text-anchor="start" style="fill:#1A1F2C">Create notification</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-orders-api/#op-get-all-orders" target="_blank" class="st" data-op="get-all-orders"><title>GET /v1/orders
+Orders line · get-all-orders</title>
+<circle cx="664" cy="524" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="529" text-anchor="start" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-orders-api/#op-create-order" target="_blank" class="st" data-op="create-order"><title>POST /v1/orders
+Orders line · create-order</title>
+<circle cx="580" cy="608" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="592" y="613" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-orders-api/#op-get-order" target="_blank" class="st" data-op="get-order"><title>GET /v1/orders/{order_id}
+Orders line · get-order</title>
+<circle cx="580" cy="734" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="592" y="739" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-orders-api/#op-update-the-order" target="_blank" class="st" data-op="update-the-order"><title>PATCH /v1/orders/{order_id}
+Orders line · update-the-order</title>
+<circle cx="580" cy="818" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="592" y="823" text-anchor="start" style="fill:#1A1F2C">Update order</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-orders-api/#op-delete-order" target="_blank" class="st" data-op="delete-order"><title>DELETE /v1/orders/{order_id}
+Orders line · delete-order</title>
+<circle cx="580" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="576" y1="906" x2="584" y2="898" stroke="#B0287F" stroke-width="2"/>
+<text x="592" y="907" text-anchor="start" style="fill:#1A1F2C">Delete order</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payment-requests-api/#op-create-payment-request" target="_blank" class="st" data-op="create-payment-request"><title>POST /v1/payment-requests
+Payment Requests line · create-payment-request</title>
+<circle cx="748" cy="440" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="736.0" y="445" text-anchor="end" style="fill:#1A1F2C">Create payment request</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payment-requests-api/#op-get-payment-requests" target="_blank" class="st" data-op="get-payment-requests"><title>GET /v1/payment-requests
+Payment Requests line · get-payment-requests</title>
+<circle cx="664" cy="356" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="676" y="361" text-anchor="start" style="fill:#1A1F2C">List payment requests</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payment-requests-api/#op-update-payment-request" target="_blank" class="st" data-op="update-payment-request"><title>PUT /v1/payment-requests/{request_id}
+Payment Requests line · update-payment-request</title>
+<circle cx="874" cy="566" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="886" y="571" text-anchor="start" style="fill:#1A1F2C">Update payment request</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payment-requests-api/#op-delete-payment-request" target="_blank" class="st" data-op="delete-payment-request"><title>DELETE /v1/payment-requests/{request_id}
+Payment Requests line · delete-payment-request</title>
+<circle cx="874" cy="650" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="870" y1="654" x2="878" y2="646" stroke="#C2410C" stroke-width="2"/>
+<text x="886" y="655" text-anchor="start" style="fill:#1A1F2C">Delete payment request</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payment-requests-api/#op-get-payment-status" target="_blank" class="st" data-op="get-payment-status"><title>GET /v1/payment-requests/{request_id}
+Payment Requests line · get-payment-status</title>
+<circle cx="874" cy="440" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="865.0" y="459" text-anchor="end" style="fill:#1A1F2C">Get payment request</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payouts-api/#op-list-payouts" target="_blank" class="st" data-op="list-payouts"><title>GET /v1/payouts
+Payouts line · list-payouts</title>
+<circle cx="1126" cy="1910" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="1120" y="1922" text-anchor="end" transform="rotate(-45 1120 1922)" style="fill:#1A1F2C">List payouts</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payouts-api/#op-mock-payout" target="_blank" class="st" data-op="mock-payout"><title>POST /v1/payouts
+Payouts line · mock-payout</title>
+<circle cx="1042" cy="1910" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1048" y="1898" transform="rotate(-45 1048 1898)" style="fill:#1A1F2C">Create payout</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payouts-api/#op-get-payout-details" target="_blank" class="st" data-op="get-payout-details"><title>GET /v1/payouts/{payout_id}
+Payouts line · get-payout-details</title>
+<circle cx="916" cy="1910" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="904.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Get payout</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-payouts-api/#op-list-payout-charges" target="_blank" class="st" data-op="list-payout-charges"><title>GET /v1/payouts/{payout_id}/charges
+Payouts line · list-payout-charges</title>
+<circle cx="832" cy="1994" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="844" y="1999" text-anchor="start" style="fill:#1A1F2C">List charges</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-product-category-api/#op-get-all-product-category" target="_blank" class="st" data-op="get-all-product-category"><title>GET /v1/product-category
+More Local line · get-all-product-category</title>
+<circle cx="1126" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1201" text-anchor="start" style="fill:#1A1F2C">Get product category</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-products-api/#op-get-all-products" target="_blank" class="st" data-op="get-all-products"><title>GET /v1/products
+Products line · get-all-products</title>
+<circle cx="1336" cy="608" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1330" y="620" text-anchor="end" transform="rotate(-45 1330 620)" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-products-api/#op-create-product" target="_blank" class="st" data-op="create-product"><title>POST /v1/products
+Products line · create-product</title>
+<circle cx="1252" cy="608" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1258" y="596" transform="rotate(-45 1258 596)" style="fill:#1A1F2C">Create product</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-products-api/#op-get-product" target="_blank" class="st" data-op="get-product"><title>GET /v1/products/{product_id}
+Products line · get-product</title>
+<circle cx="1168" cy="608" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1156.0" y="613" text-anchor="end" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-products-api/#op-update-product" target="_blank" class="st" data-op="update-product"><title>PATCH /v1/products/{product_id}
+Products line · update-product</title>
+<circle cx="1084" cy="524" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1096" y="529" text-anchor="start" style="fill:#1A1F2C">Update product</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-products-api/#op-delete-product" target="_blank" class="st" data-op="delete-product"><title>DELETE /v1/products/{product_id}
+Products line · delete-product</title>
+<circle cx="1000" cy="440" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="996" y1="444" x2="1004" y2="436" stroke="#E07B12" stroke-width="2"/>
+<text x="1012" y="445" text-anchor="start" style="fill:#1A1F2C">Delete product</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-readers-api/#op-get-card-reader" target="_blank" class="st" data-op="get-card-reader"><title>GET /v1/readers
+More Local line · get-card-reader</title>
+<circle cx="1126" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1285" text-anchor="start" style="fill:#1A1F2C">List readers</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-readers-api/#op-cancel-reader" target="_blank" class="st" data-op="cancel-reader"><title>POST /v1/readers/cancel
+More Local line · cancel-reader</title>
+<circle cx="1126" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1369" text-anchor="start" style="fill:#1A1F2C">Cancel reader</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-recurring-billing-api/#op-create-a-recurring-billing" target="_blank" class="st" data-op="create-a-recurring-billing"><title>POST /v1/recurring-billing
+Recurring Billing line · create-a-recurring-billing</title>
+<circle cx="874" cy="818" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="880" y="806" transform="rotate(-45 880 806)" style="fill:#1A1F2C">Update recurring billing</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-recurring-billing-api/#op-get-all-recurring-billing" target="_blank" class="st" data-op="get-all-recurring-billing"><title>GET /v1/recurring-billing
+Recurring Billing line · get-all-recurring-billing</title>
+<circle cx="958" cy="818" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="952" y="830" text-anchor="end" transform="rotate(-45 952 830)" style="fill:#1A1F2C">Get recurring billing</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-recurring-billing-api/#op-get-saved-card-details" target="_blank" class="st" data-op="get-saved-card-details"><title>GET /v1/recurring-billing/{recurring_billing_id}
+Recurring Billing line · get-saved-card-details</title>
+<circle cx="790" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="790" y="790" text-anchor="middle" style="fill:#1A1F2C">Get recurring<tspan x="790" dy="13">billing</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-recurring-billing-api/#op-update-recurring-billing" target="_blank" class="st" data-op="update-recurring-billing"><title>PUT /v1/recurring-billing/{recurring_billing_id}
+Recurring Billing line · update-recurring-billing</title>
+<circle cx="706" cy="902" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="718" y="907" text-anchor="start" style="fill:#1A1F2C">Update recurring billing</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-recurring-billing-api/#op-delete-a-recurring-billing-detail" target="_blank" class="st" data-op="delete-a-recurring-billing-detail"><title>DELETE /v1/recurring-billing/{recurring_billing_id}
+Recurring Billing line · delete-a-recurring-billing-detail</title>
+<circle cx="706" cy="986" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="702" y1="990" x2="710" y2="982" stroke="#7B3FE4" stroke-width="2"/>
+<text x="694.0" y="991" text-anchor="end" style="fill:#1A1F2C">Delete recurring billing</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-refund-api/#op-refund" target="_blank" class="st" data-op="refund"><title>POST /v1/refund
+More Local line · refund</title>
+<circle cx="1126" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1453" text-anchor="start" style="fill:#1A1F2C">Update refund</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-refund-api/#op-get-refund" target="_blank" class="st" data-op="get-refund"><title>GET /v1/refund/{refund_id}
+More Local line · get-refund</title>
+<circle cx="1126" cy="1532" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1537" text-anchor="start" style="fill:#1A1F2C">Get refund</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-remitters-api/#op-get-remitters" target="_blank" class="st" data-op="get-remitters"><title>GET /v1/remitters
+Remitters line · get-remitters</title>
+<circle cx="1252" cy="734" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="739" text-anchor="start" style="fill:#1A1F2C">List remitters</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-remitters-api/#op-create-remitter" target="_blank" class="st" data-op="create-remitter"><title>POST /v1/remitters
+Remitters line · create-remitter</title>
+<circle cx="1252" cy="818" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="823" text-anchor="start" style="fill:#1A1F2C">Create remitter</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-remitters-api/#op-get-remitter" target="_blank" class="st" data-op="get-remitter"><title>GET /v1/remitters/{remitter_id}
+Remitters line · get-remitter</title>
+<circle cx="1168" cy="902" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="907" text-anchor="start" style="fill:#1A1F2C">Get remitter</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-remitters-api/#op-delete-remitter" target="_blank" class="st" data-op="delete-remitter"><title>DELETE /v1/remitters/{remitter_id}
+Remitters line · delete-remitter</title>
+<circle cx="1084" cy="986" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1080" y1="990" x2="1088" y2="982" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1096" y="991" text-anchor="start" style="fill:#1A1F2C">Delete remitter</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-staffs-api/#op-get-all-staffs" target="_blank" class="st" data-op="get-all-staffs"><title>GET /v1/staffs
+More Local line · get-all-staffs</title>
+<circle cx="1126" cy="1616" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1621" text-anchor="start" style="fill:#1A1F2C">List staffs</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-staffs-api/#op-get-staff-detail" target="_blank" class="st" data-op="get-staff-detail"><title>GET /v1/staffs/{staff_id}
+More Local line · get-staff-detail</title>
+<circle cx="1126" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1705" text-anchor="start" style="fill:#1A1F2C">Get staff</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-static-qr-api/#op-get-static-qr" target="_blank" class="st" data-op="get-static-qr"><title>GET /v1/static_qr
+Static Qr line · get-static-qr</title>
+<circle cx="1126" cy="314" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1120" y="326" text-anchor="end" transform="rotate(-45 1120 326)" style="fill:#1A1F2C">Get static qr</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-static-qr-api/#op-create-static-qr" target="_blank" class="st" data-op="create-static-qr"><title>POST /v1/static_qr
+Static Qr line · create-static-qr</title>
+<circle cx="1042" cy="314" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1048" y="302" transform="rotate(-45 1048 302)" style="fill:#1A1F2C">Update static qr</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-static-qr-api/#op-get-static-qr-details" target="_blank" class="st" data-op="get-static-qr-details"><title>GET /v1/static_qr/{static_qr_id}
+Static Qr line · get-static-qr-details</title>
+<circle cx="958" cy="314" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="964" y="302" transform="rotate(-45 964 302)" style="fill:#1A1F2C">Get static qr</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-static-qr-api/#op-update-static-qr" target="_blank" class="st" data-op="update-static-qr"><title>PUT /v1/static_qr/{static_qr_id}
+Static Qr line · update-static-qr</title>
+<circle cx="832" cy="314" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="820.0" y="319" text-anchor="end" style="fill:#1A1F2C">Update static qr</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-static-qr-api/#op-delete-static-qr" target="_blank" class="st" data-op="delete-static-qr"><title>DELETE /v1/static_qr/{static_qr_id}
+Static Qr line · delete-static-qr</title>
+<circle cx="748" cy="230" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="744" y1="234" x2="752" y2="226" stroke="#2E7D32" stroke-width="2"/>
+<text x="760" y="235" text-anchor="start" style="fill:#1A1F2C">Delete static qr</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-subscription-plan-api/#op-get-all-subscription-plan" target="_blank" class="st" data-op="get-all-subscription-plan"><title>GET /v1/subscription-plan
+Subscription Plan line · get-all-subscription-plan</title>
+<circle cx="160" cy="986" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="172" y="991" text-anchor="start" style="fill:#1A1F2C">Get subscription plan</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-subscription-plan-api/#op-create-subscription-plan" target="_blank" class="st" data-op="create-subscription-plan"><title>POST /v1/subscription-plan
+Subscription Plan line · create-subscription-plan</title>
+<circle cx="244" cy="902" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="232.0" y="907" text-anchor="end" style="fill:#1A1F2C">Update subscription plan</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-subscription-plan-api/#op-get-a-subscription-plan-detail" target="_blank" class="st" data-op="get-a-subscription-plan-detail"><title>GET /v1/subscription-plan/{plan_id}
+Subscription Plan line · get-a-subscription-plan-detail</title>
+<circle cx="328" cy="818" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="316.0" y="823" text-anchor="end" style="fill:#1A1F2C">Get subscription plan</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-subscription-plan-api/#op-update-recurring-billing-plan" target="_blank" class="st" data-op="update-recurring-billing-plan"><title>PUT /v1/subscription-plan/{plan_id}
+Subscription Plan line · update-recurring-billing-plan</title>
+<circle cx="370" cy="818" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="376" y="806" transform="rotate(-45 376 806)" style="fill:#1A1F2C">Update subscription plan</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-subscription-plan-api/#op-delete-subscription" target="_blank" class="st" data-op="delete-subscription"><title>DELETE /v1/subscription-plan/{plan_id}
+Subscription Plan line · delete-subscription</title>
+<circle cx="454" cy="818" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="450" y1="822" x2="458" y2="814" stroke="#B8860B" stroke-width="2"/>
+<text x="448" y="830" text-anchor="end" transform="rotate(-45 448 830)" style="fill:#1A1F2C">Delete subscription plan</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-transfers-api/#op-get-transfers" target="_blank" class="st" data-op="get-transfers"><title>GET /v1/transfers
+Transfers line · get-transfers</title>
+<circle cx="1630" cy="1322" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1642" y="1327" text-anchor="start" style="fill:#1A1F2C">List transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-transfers-api/#op-create-transfer" target="_blank" class="st" data-op="create-transfer"><title>POST /v1/transfers
+Transfers line · create-transfer</title>
+<circle cx="1546" cy="1406" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1558" y="1411" text-anchor="start" style="fill:#1A1F2C">Create transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-transfers-api/#op-get-transfer-detail" target="_blank" class="st" data-op="get-transfer-detail"><title>GET /v1/transfers/{transfer_id}
+Transfers line · get-transfer-detail</title>
+<circle cx="1504" cy="1448" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1516" y="1453" text-anchor="start" style="fill:#1A1F2C">Get transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-transfers-api/#op-estimate-fee" target="_blank" class="st" data-op="estimate-fee"><title>POST /v1/transfers/estimate
+Transfers line · estimate-fee</title>
+<circle cx="1378" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1384" y="1436" transform="rotate(-45 1384 1436)" style="fill:#1A1F2C">Update estimate</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-virtual-accounts-api/#op-getV1VirtualAccounts" target="_blank" class="st" data-op="getV1VirtualAccounts"><title>GET /v1/virtual-accounts
+Virtual Accounts line · getV1VirtualAccounts</title>
+<circle cx="790" cy="1658" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="802" y="1663" text-anchor="start" style="fill:#1A1F2C">List virtual accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-virtual-accounts-api/#op-postV1VirtualAccounts" target="_blank" class="st" data-op="postV1VirtualAccounts"><title>POST /v1/virtual-accounts
+Virtual Accounts line · postV1VirtualAccounts</title>
+<circle cx="874" cy="1742" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="886" y="1747" text-anchor="start" style="fill:#1A1F2C">Create virtual account</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-virtual-accounts-api/#op-getV1VirtualAccountsByVirtualAccountId" target="_blank" class="st" data-op="getV1VirtualAccountsByVirtualAccountId"><title>GET /v1/virtual-accounts/{virtual_account_id}
+Virtual Accounts line · getV1VirtualAccountsByVirtualAccountId</title>
+<circle cx="916" cy="1784" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="928" y="1789" text-anchor="start" style="fill:#1A1F2C">Get virtual account</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-webhook-events-api/#op-get-webhook-events-list" target="_blank" class="st" data-op="get-webhook-events-list"><title>GET /v1/webhook-events
+Webhook Events line · get-webhook-events-list</title>
+<circle cx="454" cy="1280" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="466" y="1285" text-anchor="start" style="fill:#1A1F2C">List webhook events</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-webhook-events-api/#op-create-webhook-event" target="_blank" class="st" data-op="create-webhook-event"><title>POST /v1/webhook-events
+Webhook Events line · create-webhook-event</title>
+<circle cx="454" cy="1196" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="466" y="1201" text-anchor="start" style="fill:#1A1F2C">Create webhook event</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-webhook-events-api/#op-get-webhook-event" target="_blank" class="st" data-op="get-webhook-event"><title>GET /v1/webhook-events/{webhook_event_id}
+Webhook Events line · get-webhook-event</title>
+<circle cx="454" cy="1112" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="466" y="1117" text-anchor="start" style="fill:#1A1F2C">Get webhook event</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-webhook-events-api/#op-update-webhook-event" target="_blank" class="st" data-op="update-webhook-event"><title>PUT /v1/webhook-events/{webhook_event_id}
+Webhook Events line · update-webhook-event</title>
+<circle cx="412" cy="1070" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="424" y="1075" text-anchor="start" style="fill:#1A1F2C">Update webhook event</text>
+</a>
+<a href="https://apis.apis.io/apis/hitpay/hitpay-webhook-events-api/#op-delete-webhook-event" target="_blank" class="st" data-op="delete-webhook-event"><title>DELETE /v1/webhook-events/{webhook_event_id}
+Webhook Events line · delete-webhook-event</title>
+<circle cx="328" cy="986" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="324" y1="990" x2="332" y2="982" stroke="#5C6BC0" stroke-width="2"/>
+<text x="340" y="991" text-anchor="start" style="fill:#1A1F2C">Delete webhook event</text>
+</a>
+<text x="1820" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1820" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">CHARGES</text>
+<rect x="1820" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1837" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CHA</text><text x="1862" y="269" font-size="11" fill="#1A1F2C">Charges <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="1837" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="1862" y="286" font-size="11" fill="#1A1F2C">Payouts <tspan fill="#8A93A6">4</tspan></text>
+<text x="1820" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">BENEFICIARIES</text>
+<rect x="1820" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1837" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BEN</text><text x="1862" y="329" font-size="11" fill="#1A1F2C">Beneficiaries <tspan fill="#8A93A6">6</tspan></text>
+<text x="1820" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">LOCATIONS</text>
+<rect x="1820" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1837" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOC</text><text x="1862" y="372" font-size="11" fill="#1A1F2C">Location <tspan fill="#8A93A6">6</tspan></text>
+<text x="1820" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">PRODUCTS</text>
+<rect x="1820" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="1837" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="1862" y="415" font-size="11" fill="#1A1F2C">Products <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">RECURRING BILLING</text>
+<rect x="1820" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1837" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RB</text><text x="1862" y="458" font-size="11" fill="#1A1F2C">Recurring Billing <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">ORDERS</text>
+<rect x="1820" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="1837" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="1862" y="501" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">CUSTOMERS</text>
+<rect x="1820" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1837" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CUS</text><text x="1862" y="544" font-size="11" fill="#1A1F2C">Customers <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">SUBSCRIPTION PLAN</text>
+<rect x="1820" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="1837" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SP</text><text x="1862" y="587" font-size="11" fill="#1A1F2C">Subscription Plan <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">PAYMENT REQUESTS</text>
+<rect x="1820" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="1837" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PR</text><text x="1862" y="630" font-size="11" fill="#1A1F2C">Payment Requests <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">STATIC QR</text>
+<rect x="1820" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1837" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SQ</text><text x="1862" y="673" font-size="11" fill="#1A1F2C">Static Qr <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">WEBHOOK EVENTS</text>
+<rect x="1820" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1837" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WE</text><text x="1862" y="716" font-size="11" fill="#1A1F2C">Webhook Events <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="1820" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="1837" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="1862" y="759" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">11</tspan></text>
+<rect x="1820" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="1837" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="1862" y="776" font-size="11" fill="#1A1F2C">Invoices <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1837" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REM</text><text x="1862" y="793" font-size="11" fill="#1A1F2C">Remitters <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="800" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1837" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TRA</text><text x="1862" y="810" font-size="11" fill="#1A1F2C">Transfers <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="817" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1837" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BAL</text><text x="1862" y="827" font-size="11" fill="#1A1F2C">Balances <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1820" y="834" width="34" height="13" rx="3" fill="#00838F"/><text x="1837" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VA</text><text x="1862" y="844" font-size="11" fill="#1A1F2C">Virtual Accounts <tspan fill="#8A93A6">3</tspan></text>
+<text x="2070" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2088,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2114" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2088,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2114" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2088,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2114" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2088,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2114" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2088,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2114" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2088,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2114" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2088,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2114" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2088,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2114" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2070" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2070" y="463" font-size="10.5" fill="#5A6275">“Account Status” → More Local line · 1 op</text>
+<text x="2070" y="478" font-size="10.5" fill="#5A6275">“Charge” → More Local line · 1 op</text>
+<text x="2070" y="493" font-size="10.5" fill="#5A6275">“Notifications” → More Local line · 2 ops</text>
+<text x="2070" y="508" font-size="10.5" fill="#5A6275">“Product Category” → More Local line · 1 op</text>
+<text x="2070" y="523" font-size="10.5" fill="#5A6275">“Readers” → More Local line · 2 ops</text>
+<text x="2070" y="538" font-size="10.5" fill="#5A6275">“Refund” → More Local line · 2 ops</text>
+<text x="2070" y="553" font-size="10.5" fill="#5A6275">“Staffs” → More Local line · 2 ops</text>
+<text x="2070" y="603" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2070" y="620" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2334" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/hitpay/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

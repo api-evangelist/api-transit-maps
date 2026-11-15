@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1154 852" width="1154" height="852" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1154" height="852" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Uveye API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">8 operations as stops · 1 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="254.5" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">UVEYE</text>
+<path class="line" data-line="Uveye Local" d="M160.0,692.0 L160.0,608.0 L160.0,538.0 Q160.0,524.0 169.9,514.1 L202.0,482.0 L244.0,440.0 L286.0,398.0 L370.0,314.0 L454.0,230.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Uveye Local</title></path>
+<line x1="160" y1="692" x2="160.0" y2="726.0" stroke="#D6264F" stroke-width="7"/><rect x="136.0" y="715.0" width="48" height="22" rx="5" fill="#D6264F"><title>Uveye Local</title></rect><text x="160.0" y="731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UL</text>
+<line x1="454" y1="230" x2="478.04163056034264" y2="205.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="454.04163056034264" y="194.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Uveye Local</title></rect><text x="478.04163056034264" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UL</text>
+<a href="https://apis.apis.io/apis/uveye/uveye-appraisal-api/#op-getQuoteByInspection" target="_blank" class="st" data-op="getQuoteByInspection"><title>POST /quote
+Uveye Local line · getQuoteByInspection</title>
+<circle cx="454" cy="230" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="235" text-anchor="start" style="fill:#1A1F2C">Update quote</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-inspections-api/#op-getInspectionDetails" target="_blank" class="st" data-op="getInspectionDetails"><title>POST /inspection
+Uveye Local line · getInspectionDetails</title>
+<circle cx="160" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="613" text-anchor="start" style="fill:#1A1F2C">Update inspection</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-inspections-api/#op-listLatestInspections" target="_blank" class="st" data-op="listLatestInspections"><title>POST /latest-inspections
+Uveye Local line · listLatestInspections</title>
+<circle cx="202" cy="482" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="214" y="487" text-anchor="start" style="fill:#1A1F2C">Create latest inspection</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-media-api/#op-getInspectionImage" target="_blank" class="st" data-op="getInspectionImage"><title>GET /image
+Uveye Local line · getInspectionImage</title>
+<circle cx="160" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="697" text-anchor="start" style="fill:#1A1F2C">Get image</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-merchandise-api/#op-submitMerchandiseInventory" target="_blank" class="st" data-op="submitMerchandiseInventory"><title>POST /merchandise/inventory/vehicles
+Uveye Local line · submitMerchandiseInventory</title>
+<circle cx="286" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="403" text-anchor="start" style="fill:#1A1F2C">Create vehicle</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-merchandise-api/#op-markMerchandiseVehiclesSold" target="_blank" class="st" data-op="markMerchandiseVehiclesSold"><title>POST /merchandise/inventory/sold
+Uveye Local line · markMerchandiseVehiclesSold</title>
+<circle cx="244" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="445" text-anchor="start" style="fill:#1A1F2C">Update sold</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-public-links-api/#op-createInspectionPublicLink" target="_blank" class="st" data-op="createInspectionPublicLink"><title>POST /public-link
+Uveye Local line · createInspectionPublicLink</title>
+<circle cx="370" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="319" text-anchor="start" style="fill:#1A1F2C">Update public link</text>
+</a>
+<a href="https://apis.apis.io/apis/uveye/uveye-public-links-api/#op-recordInspectionShared" target="_blank" class="st" data-op="recordInspectionShared"><title>POST /inspection-shared
+Uveye Local line · recordInspectionShared</title>
+<circle cx="160" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="529" text-anchor="start" style="fill:#1A1F2C">Update inspection shared</text>
+</a>
+<text x="644" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="644" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">UVEYE</text>
+<rect x="644" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="661" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UL</text><text x="686" y="269" font-size="11" fill="#1A1F2C">Uveye Local <tspan fill="#8A93A6">8</tspan></text>
+<text x="894" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(912,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="938" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(912,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="938" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(912,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="938" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(912,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="938" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(912,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="938" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(912,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="938" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(912,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="938" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(912,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="938" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="894" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="894" y="463" font-size="10.5" fill="#5A6275">“Appraisal” → Uveye Local line · 1 op</text>
+<text x="894" y="478" font-size="10.5" fill="#5A6275">“Inspections” → Uveye Local line · 2 ops</text>
+<text x="894" y="493" font-size="10.5" fill="#5A6275">“Media” → Uveye Local line · 1 op</text>
+<text x="894" y="508" font-size="10.5" fill="#5A6275">“Merchandise” → Uveye Local line · 2 ops</text>
+<text x="894" y="523" font-size="10.5" fill="#5A6275">“Public Links” → Uveye Local line · 2 ops</text>
+<text x="894" y="573" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="894" y="590" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="822" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/uveye/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
