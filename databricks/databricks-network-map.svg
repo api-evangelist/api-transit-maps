@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1868 1356" width="1868" height="1356" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1868" height="1356" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Databricks API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">25 operations as stops · 3 tags as lines · 1 interchanges · 23 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="758.08" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">DATABRICKS</text>
+<line x1="1126" y1="902" x2="1168" y2="860" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1126" y1="902" x2="1168" y2="860" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Clusters" d="M1168.0,860.0 L1168.0,748.0 Q1168.0,734.0 1158.1,724.1 L1126.0,692.0 L1084.0,650.0 L1009.9,575.9 Q1000.0,566.0 1000.0,552.0 L1000.0,538.0 Q1000.0,524.0 1009.9,514.1 L1116.1,407.9 Q1126.0,398.0 1126.0,384.0 L1126.0,314.0 L1126.0,230.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Clusters</title></path>
+<path class="line" data-line="Jobs" d="M160.0,314.0 L244.0,398.0 L328.0,482.0 L370.0,524.0 L444.1,598.1 Q454.0,608.0 454.0,622.0 L454.0,720.0 Q454.0,734.0 444.1,743.9 L412.0,776.0 L379.9,808.1 Q370.0,818.0 356.0,818.0 L286.0,818.0 L202.0,818.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Jobs</title></path>
+<path class="line" data-line="Workspace" d="M1126.0,902.0 L1051.9,976.1 Q1042.0,986.0 1028.0,986.0 L958.0,986.0 L888.0,986.0 Q874.0,986.0 874.0,1000.0 L874.0,1112.0 L874.0,1196.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workspace</title></path>
+<line x1="1168" y1="860" x2="1168.0" y2="894.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1144.0" y="883.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Clusters</title></rect><text x="1168.0" y="899.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLU</text>
+<line x1="1126" y1="230" x2="1126.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1102.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Clusters</title></rect><text x="1126.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLU</text>
+<line x1="160" y1="314" x2="135.9583694396574" y2="289.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="111.95836943965739" y="278.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>Jobs</title></rect><text x="135.9583694396574" y="294.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOB</text>
+<line x1="202" y1="818" x2="168.0" y2="818.0" stroke="#D6264F" stroke-width="7"/><rect x="144.0" y="807.0" width="48" height="22" rx="5" fill="#D6264F"><title>Jobs</title></rect><text x="168.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JOB</text>
+<line x1="1126" y1="902" x2="1131.6568542494924" y2="859.5735931288071" stroke="#1F5FD1" stroke-width="7"/><rect x="1107.6568542494924" y="848.5735931288071" width="48" height="22" rx="5" fill="#1F5FD1"><title>Workspace</title></rect><text x="1131.6568542494924" y="864.5735931288071" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="874" y1="1196" x2="874.0" y2="1230.0" stroke="#1F5FD1" stroke-width="7"/><rect x="850.0" y="1219.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Workspace</title></rect><text x="874.0" y="1235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-createCluster" target="_blank" class="st" data-op="createCluster"><title>POST /2.0/clusters/create
+Clusters line · createCluster
+Express: X14, X15</title>
+<circle cx="1168" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="1165" y="857" width="6" height="6" transform="rotate(45 1168 860)" fill="#1A1F2C"/>
+<text x="1180" y="865" text-anchor="start" style="fill:#1A1F2C">Create 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-listClusters" target="_blank" class="st" data-op="listClusters"><title>GET /2.0/clusters/list
+Clusters line · listClusters
+Express: X10</title>
+<circle cx="1000" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="997" y="521" width="6" height="6" transform="rotate(45 1000 524)" fill="#1A1F2C"/>
+<text x="1012" y="529" text-anchor="start" style="fill:#1A1F2C">List 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-getCluster" target="_blank" class="st" data-op="getCluster"><title>GET /2.0/clusters/get
+Clusters line · getCluster
+Express: X1, X8, X14, X15, X16, X21, X22</title>
+<circle cx="1000" cy="566" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="997" y="563" width="6" height="6" transform="rotate(45 1000 566)" fill="#1A1F2C"/>
+<text x="1012" y="571" text-anchor="start" style="fill:#1A1F2C">Get 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-startCluster" target="_blank" class="st" data-op="startCluster"><title>POST /2.0/clusters/start
+Clusters line · startCluster
+Express: X10, X21</title>
+<circle cx="1126" cy="230" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1123" y="227" width="6" height="6" transform="rotate(45 1126 230)" fill="#1A1F2C"/>
+<text x="1138" y="235" text-anchor="start" style="fill:#1A1F2C">Start 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-restartCluster" target="_blank" class="st" data-op="restartCluster"><title>POST /2.0/clusters/restart
+Clusters line · restartCluster
+Express: X16</title>
+<circle cx="1126" cy="314" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1123" y="311" width="6" height="6" transform="rotate(45 1126 314)" fill="#1A1F2C"/>
+<text x="1138" y="319" text-anchor="start" style="fill:#1A1F2C">Restart 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-terminateCluster" target="_blank" class="st" data-op="terminateCluster"><title>POST /2.0/clusters/delete
+Clusters line · terminateCluster
+Express: X22</title>
+<circle cx="1168" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1165" y="731" width="6" height="6" transform="rotate(45 1168 734)" fill="#1A1F2C"/>
+<text x="1180" y="739" text-anchor="start" style="fill:#1A1F2C">Delete cluster</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-permanentDeleteCluster" target="_blank" class="st" data-op="permanentDeleteCluster"><title>POST /2.0/clusters/permanent-delete
+Clusters line · permanentDeleteCluster
+Express: X22</title>
+<circle cx="1126" cy="398" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1123" y="395" width="6" height="6" transform="rotate(45 1126 398)" fill="#1A1F2C"/>
+<text x="1138" y="403" text-anchor="start" style="fill:#1A1F2C">Permanent delete 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-editCluster" target="_blank" class="st" data-op="editCluster"><title>POST /2.0/clusters/edit
+Clusters line · editCluster
+Express: X8</title>
+<circle cx="1126" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1123" y="689" width="6" height="6" transform="rotate(45 1126 692)" fill="#1A1F2C"/>
+<text x="1138" y="697" text-anchor="start" style="fill:#1A1F2C">Edit 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-clusters-api/#op-listClusterEvents" target="_blank" class="st" data-op="listClusterEvents"><title>POST /2.0/clusters/events
+Clusters line · listClusterEvents
+Express: X1</title>
+<circle cx="1084" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="1081" y="647" width="6" height="6" transform="rotate(45 1084 650)" fill="#1A1F2C"/>
+<text x="1096" y="655" text-anchor="start" style="fill:#1A1F2C">Events 2.0 clusters</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-createJob" target="_blank" class="st" data-op="createJob"><title>POST /2.1/jobs/create
+Jobs line · createJob
+Express: X5, X6, X14, X20</title>
+<circle cx="160" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="157" y="311" width="6" height="6" transform="rotate(45 160 314)" fill="#1A1F2C"/>
+<text x="172" y="319" text-anchor="start" style="fill:#1A1F2C">Create 2.1 jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-listJobs" target="_blank" class="st" data-op="listJobs"><title>GET /2.1/jobs/list
+Jobs line · listJobs
+Express: X11</title>
+<circle cx="370" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="367" y="521" width="6" height="6" transform="rotate(45 370 524)" fill="#1A1F2C"/>
+<text x="382" y="529" text-anchor="start" style="fill:#1A1F2C">List 2.1 jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-getJob" target="_blank" class="st" data-op="getJob"><title>GET /2.1/jobs/get
+Jobs line · getJob
+Express: X5, X23</title>
+<circle cx="328" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="325" y="479" width="6" height="6" transform="rotate(45 328 482)" fill="#1A1F2C"/>
+<text x="340" y="487" text-anchor="start" style="fill:#1A1F2C">Get 2.1 jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-updateJob" target="_blank" class="st" data-op="updateJob"><title>POST /2.1/jobs/update
+Jobs line · updateJob
+Express: X23</title>
+<circle cx="202" cy="818" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="199" y="815" width="6" height="6" transform="rotate(45 202 818)" fill="#1A1F2C"/>
+<text x="208" y="806" transform="rotate(-45 208 806)" style="fill:#1A1F2C">Update 2.1 jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-deleteJob" target="_blank" class="st" data-op="deleteJob"><title>POST /2.1/jobs/delete
+Jobs line · deleteJob
+Express: X7</title>
+<circle cx="244" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="241" y="395" width="6" height="6" transform="rotate(45 244 398)" fill="#1A1F2C"/>
+<text x="256" y="403" text-anchor="start" style="fill:#1A1F2C">Delete job</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-runJobNow" target="_blank" class="st" data-op="runJobNow"><title>POST /2.1/jobs/run-now
+Jobs line · runJobNow
+Express: X6, X11, X17, X18, X19, X20, X21, X23</title>
+<circle cx="454" cy="608" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="451" y="605" width="6" height="6" transform="rotate(45 454 608)" fill="#1A1F2C"/>
+<text x="466" y="613" text-anchor="start" style="fill:#1A1F2C">Run now 2.1 jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-listJobRuns" target="_blank" class="st" data-op="listJobRuns"><title>GET /2.1/jobs/runs/list
+Jobs line · listJobRuns
+Express: X2, X7, X13</title>
+<circle cx="286" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="283" y="815" width="6" height="6" transform="rotate(45 286 818)" fill="#1A1F2C"/>
+<text x="292" y="806" transform="rotate(-45 292 806)" style="fill:#1A1F2C">List jobs runs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-getJobRun" target="_blank" class="st" data-op="getJobRun"><title>GET /2.1/jobs/runs/get
+Jobs line · getJobRun
+Express: X2, X3, X17, X18, X19</title>
+<circle cx="412" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="409" y="773" width="6" height="6" transform="rotate(45 412 776)" fill="#1A1F2C"/>
+<text x="424" y="781" text-anchor="start" style="fill:#1A1F2C">Get jobs runs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-cancelJobRun" target="_blank" class="st" data-op="cancelJobRun"><title>POST /2.1/jobs/runs/cancel
+Jobs line · cancelJobRun
+Express: X2, X3, X7</title>
+<circle cx="454" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="451" y="731" width="6" height="6" transform="rotate(45 454 734)" fill="#1A1F2C"/>
+<text x="466" y="739" text-anchor="start" style="fill:#1A1F2C">Cancel run</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-jobs-api/#op-getJobRunOutput" target="_blank" class="st" data-op="getJobRunOutput"><title>GET /2.1/jobs/runs/get-output
+Jobs line · getJobRunOutput
+Express: X13, X18, X19</title>
+<circle cx="370" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="367" y="815" width="6" height="6" transform="rotate(45 370 818)" fill="#1A1F2C"/>
+<text x="382" y="823" text-anchor="start" style="fill:#1A1F2C">Get output jobs runs</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-workspace-api/#op-listWorkspaceObjects" target="_blank" class="st" data-op="listWorkspaceObjects"><title>GET /2.0/workspace/list
+Workspace line · listWorkspaceObjects
+Express: X4</title>
+<circle cx="874" cy="1112" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="871" y="1109" width="6" height="6" transform="rotate(45 874 1112)" fill="#1A1F2C"/>
+<text x="886" y="1117" text-anchor="start" style="fill:#1A1F2C">List 2.0 workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-workspace-api/#op-getWorkspaceObjectStatus" target="_blank" class="st" data-op="getWorkspaceObjectStatus"><title>GET /2.0/workspace/get-status
+Workspace line · getWorkspaceObjectStatus
+Express: X12</title>
+<circle cx="958" cy="986" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="955" y="983" width="6" height="6" transform="rotate(45 958 986)" fill="#1A1F2C"/>
+<text x="964" y="974" transform="rotate(-45 964 974)" style="fill:#1A1F2C">Get status 2.0 workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-workspace-api/#op-exportWorkspaceObject" target="_blank" class="st" data-op="exportWorkspaceObject"><title>GET /2.0/workspace/export
+Workspace line · exportWorkspaceObject
+Express: X9, X17</title>
+<circle cx="1042" cy="986" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="1039" y="983" width="6" height="6" transform="rotate(45 1042 986)" fill="#1A1F2C"/>
+<text x="1054" y="991" text-anchor="start" style="fill:#1A1F2C">Export 2.0 workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-workspace-api/#op-importWorkspaceObject" target="_blank" class="st" data-op="importWorkspaceObject"><title>POST /2.0/workspace/import
+Workspace line · importWorkspaceObject
+Express: X9, X12, X20</title>
+<circle cx="874" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="871" y="983" width="6" height="6" transform="rotate(45 874 986)" fill="#1A1F2C"/>
+<text x="862.0" y="991" text-anchor="end" style="fill:#1A1F2C">Import 2.0 workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-workspace-api/#op-deleteWorkspaceObject" target="_blank" class="st" data-op="deleteWorkspaceObject"><title>POST /2.0/workspace/delete
+Workspace line · deleteWorkspaceObject
+Express: X4</title>
+<circle cx="1126" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="1123" y="899" width="6" height="6" transform="rotate(45 1126 902)" fill="#1A1F2C"/>
+<text x="1135" y="921" text-anchor="start" style="fill:#1A1F2C">Delete workspace</text>
+</a>
+<a href="https://apis.apis.io/apis/databricks/databricks-workspace-api/#op-createWorkspaceDirectory" target="_blank" class="st" data-op="createWorkspaceDirectory"><title>POST /2.0/workspace/mkdirs
+Workspace line · createWorkspaceDirectory
+Express: X12</title>
+<circle cx="874" cy="1196" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="871" y="1193" width="6" height="6" transform="rotate(45 874 1196)" fill="#1A1F2C"/>
+<text x="886" y="1201" text-anchor="start" style="fill:#1A1F2C">Mkdirs 2.0 workspace</text>
+</a>
+<text x="1358" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1358" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">DATABRICKS</text>
+<rect x="1358" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1375" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JOB</text><text x="1400" y="269" font-size="11" fill="#1A1F2C">Jobs <tspan fill="#8A93A6">10</tspan></text>
+<rect x="1358" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1375" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLU</text><text x="1400" y="286" font-size="11" fill="#1A1F2C">Clusters <tspan fill="#8A93A6">9</tspan></text>
+<rect x="1358" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1375" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="1400" y="303" font-size="11" fill="#1A1F2C">Workspace <tspan fill="#8A93A6">6</tspan></text>
+<text x="1608" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1626,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1652" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1626,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1652" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1626,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1652" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1626,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1652" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1626,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1652" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1626,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1652" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1626,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1652" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1626,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1652" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1608" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1608" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="getCluster listClusterEvents"><rect x="1608" y="487" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="498" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1645" y="498" font-size="11" fill="#1A1F2C">Audit Cluster Lifecycle Events</text></g>
+<g class="rt" data-stops="listJobRuns cancelJobRun getJobRun"><rect x="1608" y="506" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="517" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1645" y="517" font-size="11" fill="#1A1F2C">Cancel a Job&#x27;s Active Run</text></g>
+<g class="rt" data-stops="cancelJobRun getJobRun"><rect x="1608" y="525" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="536" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1645" y="536" font-size="11" fill="#1A1F2C">Cancel Job Run and Confirm Ter</text></g>
+<g class="rt" data-stops="listWorkspaceObjects deleteWorkspaceObject"><rect x="1608" y="544" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="555" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1645" y="555" font-size="11" fill="#1A1F2C">Inspect and Recursively Delete</text></g>
+<g class="rt" data-stops="getJob createJob"><rect x="1608" y="563" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="574" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1645" y="574" font-size="11" fill="#1A1F2C">Clone a Job From an Existing O</text></g>
+<g class="rt" data-stops="createJob runJobNow"><rect x="1608" y="582" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="593" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1645" y="593" font-size="11" fill="#1A1F2C">Create Job and Trigger First R</text></g>
+<g class="rt" data-stops="listJobRuns cancelJobRun deleteJob"><rect x="1608" y="601" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="612" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1645" y="612" font-size="11" fill="#1A1F2C">Drain Active Runs Then Delete </text></g>
+<g class="rt" data-stops="getCluster editCluster"><rect x="1608" y="620" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="631" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="1645" y="631" font-size="11" fill="#1A1F2C">Edit Cluster Configuration and</text></g>
+<g class="rt" data-stops="exportWorkspaceObject importWorkspaceObject"><rect x="1608" y="639" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="650" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="1645" y="650" font-size="11" fill="#1A1F2C">Export a Notebook and Re-Impor</text></g>
+<g class="rt" data-stops="listClusters startCluster"><rect x="1608" y="658" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="669" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X10</text><text x="1645" y="669" font-size="11" fill="#1A1F2C">Find Terminated Cluster by Nam</text></g>
+<g class="rt" data-stops="listJobs runJobNow"><rect x="1608" y="677" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="688" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X11</text><text x="1645" y="688" font-size="11" fill="#1A1F2C">Find Job by Name and Run It</text></g>
+<g class="rt" data-stops="createWorkspaceDirectory importWorkspaceObject getWorkspaceObjectStatus"><rect x="1608" y="696" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="707" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X12</text><text x="1645" y="707" font-size="11" fill="#1A1F2C">Create Directory and Import No</text></g>
+<g class="rt" data-stops="listJobRuns getJobRunOutput"><rect x="1608" y="715" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="726" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X13</text><text x="1645" y="726" font-size="11" fill="#1A1F2C">Fetch Latest Completed Run Out</text></g>
+<g class="rt" data-stops="createCluster getCluster createJob"><rect x="1608" y="734" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="745" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X14</text><text x="1645" y="745" font-size="11" fill="#1A1F2C">Provision Cluster Then Create </text></g>
+<g class="rt" data-stops="createCluster getCluster"><rect x="1608" y="753" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="764" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X15</text><text x="1645" y="764" font-size="11" fill="#1A1F2C">Provision Cluster and Wait Unt</text></g>
+<g class="rt" data-stops="restartCluster getCluster"><rect x="1608" y="772" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="783" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X16</text><text x="1645" y="783" font-size="11" fill="#1A1F2C">Restart Cluster and Verify Run</text></g>
+<g class="rt" data-stops="runJobNow getJobRun exportWorkspaceObject"><rect x="1608" y="791" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="802" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X17</text><text x="1645" y="802" font-size="11" fill="#1A1F2C">Run Job, Wait, Then Export the</text></g>
+<g class="rt" data-stops="runJobNow getJobRun getJobRunOutput"><rect x="1608" y="810" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="821" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X18</text><text x="1645" y="821" font-size="11" fill="#1A1F2C">Trigger Job Run and Wait for O</text></g>
+<g class="rt" data-stops="runJobNow getJobRun getJobRunOutput"><rect x="1608" y="829" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="840" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X19</text><text x="1645" y="840" font-size="11" fill="#1A1F2C">Run Job and Branch on Success </text></g>
+<g class="rt" data-stops="importWorkspaceObject createJob runJobNow"><rect x="1608" y="848" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="859" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X20</text><text x="1645" y="859" font-size="11" fill="#1A1F2C">Stage Notebook Then Create and</text></g>
+<g class="rt" data-stops="startCluster getCluster runJobNow"><rect x="1608" y="867" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="878" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X21</text><text x="1645" y="878" font-size="11" fill="#1A1F2C">Start Cluster Then Run Job</text></g>
+<g class="rt" data-stops="terminateCluster getCluster permanentDeleteCluster"><rect x="1608" y="886" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="897" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X22</text><text x="1645" y="897" font-size="11" fill="#1A1F2C">Terminate Then Permanently Del</text></g>
+<g class="rt" data-stops="getJob updateJob runJobNow"><rect x="1608" y="905" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1623" y="916" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X23</text><text x="1645" y="916" font-size="11" fill="#1A1F2C">Update Job Settings and Re-Run</text></g>
+<text x="160" y="1326" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/databricks/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

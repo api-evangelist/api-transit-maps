@@ -1,0 +1,913 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3368 3162" width="3368" height="3162" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3368" height="3162" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Coval API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">151 operations as stops · 21 tags as lines · 6 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="732" y1="494" x2="732" y2="450" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="732" y1="494" x2="732" y2="450" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="2448" y1="1990" x2="2492" y2="1990" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="2448" y1="1990" x2="2492" y2="1990" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Agents" d="M2052.0,450.0 L2052.0,538.0 L2052.0,626.0 L2052.0,744.0 Q2052.0,758.0 2061.9,767.9 L2096.0,802.0 L2184.0,890.0 L2218.1,924.1 Q2228.0,934.0 2242.0,934.0 L2360.0,934.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agents</title></path>
+<path class="line" data-line="API Keys" d="M688.0,2298.0 L776.0,2210.0 L820.0,2166.0 L908.0,2078.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Keys</title></path>
+<path class="line" data-line="Conversations" d="M776.0,1902.0 L908.0,1770.0 L996.0,1682.0 L1084.0,1594.0 L1162.1,1515.9 Q1172.0,1506.0 1186.0,1506.0 L1334.0,1506.0 Q1348.0,1506.0 1348.0,1520.0 L1348.0,1594.0 L1348.0,1682.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Conversations</title></path>
+<path class="line" data-line="Dashboards" d="M2668.0,1814.0 L2580.0,1902.0 L2501.9,1980.1 Q2492.0,1990.0 2501.9,1999.9 L2580.0,2078.0 L2668.0,2166.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dashboards</title></path>
+<path class="line" data-line="Simulations" d="M688.0,1682.0 L688.0,1608.0 Q688.0,1594.0 702.0,1594.0 L908.0,1594.0 L982.0,1594.0 Q996.0,1594.0 1005.9,1584.1 L1162.1,1427.9 Q1172.0,1418.0 1186.0,1418.0 L1246.0,1418.0 Q1260.0,1418.0 1260.0,1432.0 L1260.0,1550.0 L1260.0,1580.0 Q1260.0,1594.0 1250.1,1603.9 L1172.0,1682.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Simulations</title></path>
+<path class="line" data-line="Metrics" d="M996.0,1330.0 L1084.0,1330.0 L1172.0,1330.0 L1246.0,1330.0 Q1260.0,1330.0 1269.9,1339.9 L1348.0,1418.0 L1436.0,1506.0 L1514.1,1584.1 Q1524.0,1594.0 1524.0,1608.0 L1524.0,1682.0 L1524.0,1770.0 L1524.0,1844.0 Q1524.0,1858.0 1514.1,1867.9 L1436.0,1946.0 L1357.9,2024.1 Q1348.0,2034.0 1334.0,2034.0 L1260.0,2034.0 L1172.0,2034.0 L1098.0,2034.0 Q1084.0,2034.0 1074.1,2024.1 L996.0,1946.0 L908.0,1858.0 L829.9,1779.9 Q820.0,1770.0 820.0,1756.0 L820.0,1682.0 L820.0,1594.0 L820.0,1520.0 Q820.0,1506.0 829.9,1496.1 L908.0,1418.0 L996.0,1330.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Metrics</title></path>
+<path class="line" data-line="Monitors" d="M952.0,2650.0 L952.0,2562.0 L952.0,2356.0 Q952.0,2342.0 938.0,2342.0 L834.0,2342.0 Q820.0,2342.0 810.1,2351.9 L741.9,2420.1 Q732.0,2430.0 732.0,2444.0 L732.0,2474.0 L732.0,2562.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Monitors</title></path>
+<path class="line" data-line="Mutations" d="M1964.0,670.0 L1876.0,582.0 L1832.0,538.0 L1744.0,450.0 L1656.0,362.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Mutations</title></path>
+<path class="line" data-line="Personas" d="M160.0,3002.0 L160.0,2914.0 L160.0,2840.0 Q160.0,2826.0 169.9,2816.1 L248.0,2738.0 L336.0,2650.0 L414.1,2571.9 Q424.0,2562.0 424.0,2548.0 L424.0,2532.0 Q424.0,2518.0 433.9,2508.1 L468.0,2474.0 L546.1,2395.9 Q556.0,2386.0 556.0,2372.0 L556.0,2298.0 L556.0,2224.0 Q556.0,2210.0 546.1,2200.1 L521.9,2175.9 Q512.0,2166.0 498.0,2166.0 L468.0,2166.0 L380.0,2166.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Personas</title></path>
+<path class="line" data-line="Reports" d="M1040.0,1814.0 L1128.0,1902.0 L1162.1,1936.1 Q1172.0,1946.0 1186.0,1946.0 L1246.0,1946.0 Q1260.0,1946.0 1269.9,1936.1 L1348.0,1858.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reports</title></path>
+<path class="line" data-line="Review Annotations" d="M380.0,1770.0 L512.0,1638.0 L546.1,1603.9 Q556.0,1594.0 546.1,1584.1 L521.9,1559.9 Q512.0,1550.0 498.0,1550.0 L424.0,1550.0 L336.0,1550.0 L248.0,1550.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Review Annotations</title></path>
+<path class="line" data-line="Review Projects" d="M1480.0,2078.0 L1401.9,2156.1 Q1392.0,2166.0 1378.0,2166.0 L1304.0,2166.0 L1216.0,2166.0 L1186.0,2166.0 Q1172.0,2166.0 1172.0,2180.0 L1172.0,2240.0 Q1172.0,2254.0 1181.9,2263.9 L1216.0,2298.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Review Projects</title></path>
+<path class="line" data-line="Run Templates" d="M1084.0,2386.0 L1084.0,2268.0 Q1084.0,2254.0 1070.0,2254.0 L996.0,2254.0 L878.0,2254.0 Q864.0,2254.0 864.0,2268.0 L864.0,2474.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Run Templates</title></path>
+<path class="line" data-line="Runs" d="M908.0,274.0 L820.0,362.0 L741.9,440.1 Q732.0,450.0 722.1,440.1 L644.0,362.0 L556.0,274.0" fill="none" stroke="#b58613" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Runs</title></path>
+<path class="line" data-line="Scheduled Runs" d="M248.0,450.0 L366.0,450.0 Q380.0,450.0 389.9,459.9 L458.1,528.1 Q468.0,538.0 482.0,538.0 L542.0,538.0 Q556.0,538.0 565.9,528.1 L590.1,503.9 Q600.0,494.0 614.0,494.0 L732.0,494.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Scheduled Runs</title></path>
+<path class="line" data-line="Tags" d="M1392.0,2562.0 L1392.0,2444.0 Q1392.0,2430.0 1378.0,2430.0 L1318.0,2430.0 Q1304.0,2430.0 1294.1,2439.9 L1216.0,2518.0 L1128.0,2606.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<path class="line" data-line="Test Cases" d="M512.0,1770.0 L586.0,1770.0 Q600.0,1770.0 609.9,1779.9 L634.1,1804.1 Q644.0,1814.0 644.0,1828.0 L644.0,1902.0 L644.0,1990.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 7"><title>Test Cases</title></path>
+<path class="line" data-line="Test Sets" d="M2624.0,670.0 L2536.0,670.0 L2448.0,670.0 L2316.0,670.0 L2198.0,670.0 Q2184.0,670.0 2174.1,660.1 L2149.9,635.9 Q2140.0,626.0 2140.0,612.0 L2140.0,552.0 Q2140.0,538.0 2149.9,528.1 L2184.0,494.0 L2218.1,459.9 Q2228.0,450.0 2228.0,436.0 L2228.0,318.0 L2228.0,230.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="12 7"><title>Test Sets</title></path>
+<path class="line" data-line="Webhooks" d="M1568.0,2254.0 L1480.0,2254.0 L1406.0,2254.0 Q1392.0,2254.0 1382.1,2263.9 L1348.0,2298.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="Widgets" d="M2448.0,1990.0 L2448.0,2078.0 L2448.0,2166.0 L2448.0,2254.0 L2448.0,2342.0" fill="none" stroke="#8b2351" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Widgets</title></path>
+<path class="line" data-line="More Local" d="M688.0,1242.0 L776.0,1330.0 L898.1,1452.1 Q908.0,1462.0 922.0,1462.0 L996.0,1462.0 L1040.0,1462.0" fill="none" stroke="#00838F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="2052" y1="450" x2="2052.0" y2="416.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2028.0" y="405.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Agents</title></rect><text x="2052.0" y="421.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="2360" y1="934" x2="2394.0" y2="934.0" stroke="#1F5FD1" stroke-width="7"/><rect x="2370.0" y="923.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Agents</title></rect><text x="2394.0" y="939.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="688" y1="2298" x2="663.9583694396574" y2="2322.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="639.9583694396574" y="2311.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>API Keys</title></rect><text x="663.9583694396574" y="2327.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="908" y1="2078" x2="932.0416305603426" y2="2053.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="908.0416305603426" y="2042.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>API Keys</title></rect><text x="932.0416305603426" y="2058.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AK</text>
+<line x1="776" y1="1902" x2="751.9583694396574" y2="1926.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="727.9583694396574" y="1915.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Conversations</title></rect><text x="751.9583694396574" y="1931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1348" y1="1682" x2="1348.0" y2="1716.0" stroke="#B8860B" stroke-width="7"/><rect x="1324.0" y="1705.0" width="48" height="22" rx="5" fill="#B8860B"><title>Conversations</title></rect><text x="1348.0" y="1721.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="2668" y1="1814" x2="2692.0416305603426" y2="1789.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="2668.0416305603426" y="1778.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Dashboards</title></rect><text x="2692.0416305603426" y="1794.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="2668" y1="2166" x2="2692.0416305603426" y2="2190.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2668.0416305603426" y="2179.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Dashboards</title></rect><text x="2692.0416305603426" y="2195.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="688" y1="1682" x2="688.0" y2="1716.0" stroke="#0B7A75" stroke-width="7"/><rect x="664.0" y="1705.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Simulations</title></rect><text x="688.0" y="1721.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SIM</text>
+<line x1="1172" y1="1682" x2="1147.9583694396574" y2="1706.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1123.9583694396574" y="1695.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Simulations</title></rect><text x="1147.9583694396574" y="1711.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SIM</text>
+<rect x="966" y="1277" width="60" height="26" rx="13" fill="#D6264F"/><text x="996" y="1295" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">MET</text>
+<line x1="952" y1="2650" x2="952.0" y2="2684.0" stroke="#2E7D32" stroke-width="7"/><rect x="928.0" y="2673.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Monitors</title></rect><text x="952.0" y="2689.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MON</text>
+<line x1="732" y1="2562" x2="732.0" y2="2596.0" stroke="#2E7D32" stroke-width="7"/><rect x="708.0" y="2585.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Monitors</title></rect><text x="732.0" y="2601.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MON</text>
+<line x1="1964" y1="670" x2="1988.0416305603426" y2="694.0416305603426" stroke="#1d33a9" stroke-width="7"/><rect x="1964.0416305603426" y="683.0416305603426" width="48" height="22" rx="5" fill="#1d33a9"><title>Mutations</title></rect><text x="1988.0416305603426" y="699.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MUT</text>
+<line x1="1656" y1="362" x2="1631.9583694396574" y2="337.95836943965736" stroke="#1d33a9" stroke-width="7"/><rect x="1607.9583694396574" y="326.95836943965736" width="48" height="22" rx="5" fill="#1d33a9"><title>Mutations</title></rect><text x="1631.9583694396574" y="342.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MUT</text>
+<line x1="160" y1="3002" x2="160.0" y2="3036.0" stroke="#0E9F6E" stroke-width="7"/><rect x="136.0" y="3025.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Personas</title></rect><text x="160.0" y="3041.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PER</text>
+<line x1="380" y1="2166" x2="346.0" y2="2166.0" stroke="#0E9F6E" stroke-width="7"/><rect x="322.0" y="2155.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Personas</title></rect><text x="346.0" y="2171.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PER</text>
+<line x1="1040" y1="1814" x2="1015.9583694396574" y2="1789.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="991.9583694396574" y="1778.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Reports</title></rect><text x="1015.9583694396574" y="1794.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="1348" y1="1858" x2="1372.0416305603426" y2="1833.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1348.0416305603426" y="1822.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Reports</title></rect><text x="1372.0416305603426" y="1838.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="380" y1="1770" x2="355.95836943965736" y2="1794.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="331.95836943965736" y="1783.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Review Annotations</title></rect><text x="355.95836943965736" y="1799.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RA</text>
+<line x1="248" y1="1550" x2="214.0" y2="1550.0" stroke="#C2410C" stroke-width="7"/><rect x="190.0" y="1539.0" width="48" height="22" rx="5" fill="#C2410C"><title>Review Annotations</title></rect><text x="214.0" y="1555.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RA</text>
+<line x1="1480" y1="2078" x2="1504.0416305603426" y2="2053.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1480.0416305603426" y="2042.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Review Projects</title></rect><text x="1504.0416305603426" y="2058.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RP</text>
+<line x1="1216" y1="2298" x2="1240.0416305603426" y2="2322.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1216.0416305603426" y="2311.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Review Projects</title></rect><text x="1240.0416305603426" y="2327.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RP</text>
+<line x1="1084" y1="2386" x2="1084.0" y2="2420.0" stroke="#B0287F" stroke-width="7"/><rect x="1060.0" y="2409.0" width="48" height="22" rx="5" fill="#B0287F"><title>Run Templates</title></rect><text x="1084.0" y="2425.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="864" y1="2474" x2="864.0" y2="2508.0" stroke="#B0287F" stroke-width="7"/><rect x="840.0" y="2497.0" width="48" height="22" rx="5" fill="#B0287F"><title>Run Templates</title></rect><text x="864.0" y="2513.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="908" y1="274" x2="932.0416305603426" y2="249.9583694396574" stroke="#b58613" stroke-width="7"/><rect x="908.0416305603426" y="238.9583694396574" width="48" height="22" rx="5" fill="#b58613"><title>Runs</title></rect><text x="932.0416305603426" y="254.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="556" y1="274" x2="531.9583694396574" y2="249.9583694396574" stroke="#b58613" stroke-width="7"/><rect x="507.9583694396574" y="238.9583694396574" width="48" height="22" rx="5" fill="#b58613"><title>Runs</title></rect><text x="531.9583694396574" y="254.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUN</text>
+<line x1="248" y1="450" x2="214.0" y2="450.0" stroke="#E07B12" stroke-width="7"/><rect x="190.0" y="439.0" width="48" height="22" rx="5" fill="#E07B12"><title>Scheduled Runs</title></rect><text x="214.0" y="455.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="732" y1="494" x2="766.0" y2="494.0" stroke="#E07B12" stroke-width="7"/><rect x="742.0" y="483.0" width="48" height="22" rx="5" fill="#E07B12"><title>Scheduled Runs</title></rect><text x="766.0" y="499.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="1392" y1="2562" x2="1392.0" y2="2596.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1368.0" y="2585.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Tags</title></rect><text x="1392.0" y="2601.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="1128" y1="2606" x2="1103.9583694396574" y2="2630.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1079.9583694396574" y="2619.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Tags</title></rect><text x="1103.9583694396574" y="2635.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="512" y1="1770" x2="478.0" y2="1770.0" stroke="#0E9F6E" stroke-width="7"/><rect x="454.0" y="1759.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Test Cases</title></rect><text x="478.0" y="1775.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TC</text>
+<line x1="644" y1="1990" x2="644.0" y2="2024.0" stroke="#0E9F6E" stroke-width="7"/><rect x="620.0" y="2013.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Test Cases</title></rect><text x="644.0" y="2029.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TC</text>
+<line x1="2624" y1="670" x2="2658.0" y2="670.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2634.0" y="659.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Test Sets</title></rect><text x="2658.0" y="675.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TS</text>
+<line x1="2228" y1="230" x2="2228.0" y2="196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2204.0" y="185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Test Sets</title></rect><text x="2228.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TS</text>
+<line x1="1568" y1="2254" x2="1602.0" y2="2254.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1578.0" y="2243.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Webhooks</title></rect><text x="1602.0" y="2259.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1348" y1="2298" x2="1323.9583694396574" y2="2322.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1299.9583694396574" y="2311.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Webhooks</title></rect><text x="1323.9583694396574" y="2327.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="2448" y1="1990" x2="2448.0" y2="1956.0" stroke="#8b2351" stroke-width="7"/><rect x="2424.0" y="1945.0" width="48" height="22" rx="5" fill="#8b2351"><title>Widgets</title></rect><text x="2448.0" y="1961.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WID</text>
+<line x1="2448" y1="2342" x2="2448.0" y2="2376.0" stroke="#8b2351" stroke-width="7"/><rect x="2424.0" y="2365.0" width="48" height="22" rx="5" fill="#8b2351"><title>Widgets</title></rect><text x="2448.0" y="2381.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WID</text>
+<line x1="688" y1="1242" x2="663.9583694396574" y2="1217.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="639.9583694396574" y="1206.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>More Local</title></rect><text x="663.9583694396574" y="1222.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1040" y1="1462" x2="1074.0" y2="1462.0" stroke="#00838F" stroke-width="7"/><rect x="1050.0" y="1451.0" width="48" height="22" rx="5" fill="#00838F"><title>More Local</title></rect><text x="1074.0" y="1467.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-listAgents" target="_blank" class="st" data-op="listAgents"><title>GET /agents
+Agents line · listAgents</title>
+<circle cx="2052" cy="450" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2064" y="455" text-anchor="start" style="fill:#1A1F2C">List agents</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-createAgent" target="_blank" class="st" data-op="createAgent"><title>POST /agents
+Agents line · createAgent</title>
+<circle cx="2052" cy="538" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2040.0" y="543" text-anchor="end" style="fill:#1A1F2C">Create agent</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-getAgent" target="_blank" class="st" data-op="getAgent"><title>GET /agents/{agent_id}
+Agents line · getAgent</title>
+<circle cx="2052" cy="626" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2064" y="631" text-anchor="start" style="fill:#1A1F2C">Get agent</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-updateAgent" target="_blank" class="st" data-op="updateAgent"><title>PATCH /agents/{agent_id}
+Agents line · updateAgent</title>
+<circle cx="2052" cy="758" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2064" y="763" text-anchor="start" style="fill:#1A1F2C">Update agent</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-deleteAgent" target="_blank" class="st" data-op="deleteAgent"><title>DELETE /agents/{agent_id}
+Agents line · deleteAgent</title>
+<circle cx="2096" cy="802" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="2092" y1="806" x2="2100" y2="798" stroke="#1F5FD1" stroke-width="2"/>
+<text x="2108" y="807" text-anchor="start" style="fill:#1A1F2C">Delete agent</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-duplicateAgent" target="_blank" class="st" data-op="duplicateAgent"><title>POST /agents/{agent_id}/duplicate
+Agents line · duplicateAgent</title>
+<circle cx="2184" cy="890" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2196" y="895" text-anchor="start" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-listAgentVersions" target="_blank" class="st" data-op="listAgentVersions"><title>GET /agents/{agent_id}/versions
+Agents line · listAgentVersions</title>
+<circle cx="2228" cy="934" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2216.0" y="939" text-anchor="end" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-agents-api/#op-revertAgentVersion" target="_blank" class="st" data-op="revertAgentVersion"><title>POST /agents/{agent_id}/versions/{version_id}/revert
+Agents line · revertAgentVersion</title>
+<circle cx="2360" cy="934" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="2354" y="946" text-anchor="end" transform="rotate(-45 2354 946)" style="fill:#1A1F2C">Update revert</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-api-keys-api/#op-createApiKey" target="_blank" class="st" data-op="createApiKey"><title>POST /api-keys
+API Keys line · createApiKey</title>
+<circle cx="776" cy="2210" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="788" y="2215" text-anchor="start" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-api-keys-api/#op-listApiKeys" target="_blank" class="st" data-op="listApiKeys"><title>GET /api-keys
+API Keys line · listApiKeys</title>
+<circle cx="688" cy="2298" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="700" y="2303" text-anchor="start" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-api-keys-api/#op-updateApiKeyStatus" target="_blank" class="st" data-op="updateApiKeyStatus"><title>PATCH /api-keys/{api_key_id}
+API Keys line · updateApiKeyStatus</title>
+<circle cx="820" cy="2166" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="832" y="2171" text-anchor="start" style="fill:#1A1F2C">Update api key</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-api-keys-api/#op-deleteApiKey" target="_blank" class="st" data-op="deleteApiKey"><title>DELETE /api-keys/{api_key_id}
+API Keys line · deleteApiKey</title>
+<circle cx="908" cy="2078" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="904" y1="2082" x2="912" y2="2074" stroke="#0B7A75" stroke-width="2"/>
+<text x="920" y="2083" text-anchor="start" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-audio-api/#op-createAudioUpload" target="_blank" class="st" data-op="createAudioUpload"><title>POST /audio:upload
+More Local line · createAudioUpload</title>
+<circle cx="688" cy="1242" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="700" y="1247" text-anchor="start" style="fill:#1A1F2C">Update audio:upload</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-audio-api/#op-getConversationAudio" target="_blank" class="st" data-op="getConversationAudio"><title>GET /conversations/{conversation_id}/audio
+Conversations line · getConversationAudio</title>
+<circle cx="1172" cy="1506" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1160.0" y="1511" text-anchor="end" style="fill:#1A1F2C">Get audio</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-submitConversation" target="_blank" class="st" data-op="submitConversation"><title>POST /conversations:submit
+Conversations line · submitConversation</title>
+<circle cx="1348" cy="1682" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1360" y="1680" text-anchor="start" style="fill:#1A1F2C">Update<tspan x="1360" dy="13">conversations:submit</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-listConversations" target="_blank" class="st" data-op="listConversations"><title>GET /conversations
+Conversations line · listConversations</title>
+<circle cx="776" cy="1902" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="788" y="1907" text-anchor="start" style="fill:#1A1F2C">List conversations</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-getConversation" target="_blank" class="st" data-op="getConversation"><title>GET /conversations/{conversation_id}
+Conversations line · getConversation</title>
+<circle cx="908" cy="1770" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="899.0" y="1760" text-anchor="end" style="fill:#1A1F2C">Get conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-deleteConversation" target="_blank" class="st" data-op="deleteConversation"><title>DELETE /conversations/{conversation_id}
+Conversations line · deleteConversation</title>
+<circle cx="1084" cy="1594" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1080" y1="1598" x2="1088" y2="1590" stroke="#B8860B" stroke-width="2"/>
+<text x="1093" y="1613" text-anchor="start" style="fill:#1A1F2C">Delete conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-patchConversation" target="_blank" class="st" data-op="patchConversation"><title>PATCH /conversations/{conversation_id}
+Conversations line · patchConversation</title>
+<circle cx="996" cy="1682" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1008" y="1687" text-anchor="start" style="fill:#1A1F2C">Update conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-listConversationMetrics" target="_blank" class="st" data-op="listConversationMetrics"><title>GET /conversations/{conversation_id}/metrics
+Conversations line · listConversationMetrics</title>
+<circle cx="1348" cy="1506" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348" y="1478" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1348" dy="13">metrics <tspan font-weight="700" style="fill:#D6264F">⇄MET</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-conversations-api/#op-getConversationMetric" target="_blank" class="st" data-op="getConversationMetric"><title>GET /conversations/{conversation_id}/metrics/{metric_output_id}
+Conversations line · getConversationMetric</title>
+<circle cx="1348" cy="1594" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1360" y="1599" text-anchor="start" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-dashboards-api/#op-createDashboard" target="_blank" class="st" data-op="createDashboard"><title>POST /dashboards
+Dashboards line · createDashboard</title>
+<circle cx="2580" cy="1902" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2592" y="1907" text-anchor="start" style="fill:#1A1F2C">Create dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-dashboards-api/#op-listDashboards" target="_blank" class="st" data-op="listDashboards"><title>GET /dashboards
+Dashboards line · listDashboards</title>
+<circle cx="2668" cy="1814" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2680" y="1819" text-anchor="start" style="fill:#1A1F2C">List dashboards</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-dashboards-api/#op-getDashboard" target="_blank" class="st" data-op="getDashboard"><title>GET /dashboards/{dashboard_id}
+Dashboards line · getDashboard</title>
+<circle cx="2492" cy="1990" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2504" y="1995" text-anchor="start" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-dashboards-api/#op-updateDashboard" target="_blank" class="st" data-op="updateDashboard"><title>PATCH /dashboards/{dashboard_id}
+Dashboards line · updateDashboard</title>
+<circle cx="2580" cy="2078" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2592" y="2083" text-anchor="start" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-dashboards-api/#op-deleteDashboard" target="_blank" class="st" data-op="deleteDashboard"><title>DELETE /dashboards/{dashboard_id}
+Dashboards line · deleteDashboard</title>
+<circle cx="2668" cy="2166" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2664" y1="2170" x2="2672" y2="2162" stroke="#B0287F" stroke-width="2"/>
+<text x="2680" y="2171" text-anchor="start" style="fill:#1A1F2C">Delete dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metric-outputs-api/#op-listMetrics" target="_blank" class="st" data-op="coval-metric-outputs-api:listMetrics"><title>GET /simulations/{simulation_id}/metrics
+Simulations line · listMetrics</title>
+<circle cx="1260" cy="1418" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1260" y="1390" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="1260" dy="13">metrics <tspan font-weight="700" style="fill:#D6264F">⇄MET</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metric-outputs-api/#op-getMetric" target="_blank" class="st" data-op="coval-metric-outputs-api:getMetric"><title>GET /simulations/{simulation_id}/metrics/{metric_output_id}
+Simulations line · getMetric</title>
+<circle cx="1260" cy="1550" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1272" y="1555" text-anchor="start" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listMetrics" target="_blank" class="st" data-op="coval-metrics-api:listMetrics"><title>GET /metrics
+Metrics line · listMetrics</title>
+<circle cx="996" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="984.0" y="1335" text-anchor="end" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-createMetric" target="_blank" class="st" data-op="createMetric"><title>POST /metrics
+Metrics line · createMetric</title>
+<circle cx="1084" cy="1330" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1090" y="1318" transform="rotate(-45 1090 1318)" style="fill:#1A1F2C">Create metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listMetricTemplateVariables" target="_blank" class="st" data-op="listMetricTemplateVariables"><title>GET /metrics/template-variables
+Metrics line · listMetricTemplateVariables</title>
+<circle cx="1260" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1272" y="1335" text-anchor="start" style="fill:#1A1F2C">List template variables</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-getMetric" target="_blank" class="st" data-op="coval-metrics-api:getMetric"><title>GET /metrics/{metric_id}
+Metrics line · getMetric</title>
+<circle cx="1348" cy="1418" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1360" y="1423" text-anchor="start" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-updateMetric" target="_blank" class="st" data-op="updateMetric"><title>PATCH /metrics/{metric_id}
+Metrics line · updateMetric</title>
+<circle cx="1436" cy="1506" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1448" y="1511" text-anchor="start" style="fill:#1A1F2C">Update metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-deleteMetric" target="_blank" class="st" data-op="deleteMetric"><title>DELETE /metrics/{metric_id}
+Metrics line · deleteMetric</title>
+<circle cx="1524" cy="1594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1520" y1="1598" x2="1528" y2="1590" stroke="#D6264F" stroke-width="2"/>
+<text x="1536" y="1599" text-anchor="start" style="fill:#1A1F2C">Delete metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listMetricVersions" target="_blank" class="st" data-op="listMetricVersions"><title>GET /metrics/{metric_id}/versions
+Metrics line · listMetricVersions</title>
+<circle cx="820" cy="1594" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="829" y="1584" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-revertMetricVersion" target="_blank" class="st" data-op="revertMetricVersion"><title>POST /metrics/{metric_id}/versions/{version_id}/revert
+Metrics line · revertMetricVersion</title>
+<circle cx="820" cy="1506" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="832" y="1511" text-anchor="start" style="fill:#1A1F2C">Update revert</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listRecentlyDeletedMetrics" target="_blank" class="st" data-op="listRecentlyDeletedMetrics"><title>GET /metrics/recently-deleted
+Metrics line · listRecentlyDeletedMetrics</title>
+<circle cx="1172" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1178" y="1318" transform="rotate(-45 1178 1318)" style="fill:#1A1F2C">Get recently deleted</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-restoreMetric" target="_blank" class="st" data-op="restoreMetric"><title>POST /metrics/{metric_id}/restore
+Metrics line · restoreMetric</title>
+<circle cx="1260" cy="2034" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1266" y="2022" transform="rotate(-45 1266 2022)" style="fill:#1A1F2C">Update restore</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listMetricThresholds" target="_blank" class="st" data-op="listMetricThresholds"><title>GET /metrics/{metric_id}/thresholds
+Metrics line · listMetricThresholds</title>
+<circle cx="908" cy="1858" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="920" y="1863" text-anchor="start" style="fill:#1A1F2C">List thresholds</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-createMetricThreshold" target="_blank" class="st" data-op="createMetricThreshold"><title>POST /metrics/{metric_id}/thresholds
+Metrics line · createMetricThreshold</title>
+<circle cx="820" cy="1770" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="808.0" y="1775" text-anchor="end" style="fill:#1A1F2C">Create threshold</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-getMetricThreshold" target="_blank" class="st" data-op="getMetricThreshold"><title>GET /metrics/{metric_id}/threshold
+Metrics line · getMetricThreshold</title>
+<circle cx="1084" cy="2034" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="2039" text-anchor="end" style="fill:#1A1F2C">Get threshold</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-updateMetricThreshold" target="_blank" class="st" data-op="updateMetricThreshold"><title>PATCH /metrics/{metric_id}/threshold
+Metrics line · updateMetricThreshold</title>
+<circle cx="996" cy="1946" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="984.0" y="1951" text-anchor="end" style="fill:#1A1F2C">Update threshold</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-deleteMetricThreshold" target="_blank" class="st" data-op="deleteMetricThreshold"><title>DELETE /metrics/{metric_id}/thresholds/{threshold_id}
+Metrics line · deleteMetricThreshold</title>
+<circle cx="820" cy="1682" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="816" y1="1686" x2="824" y2="1678" stroke="#D6264F" stroke-width="2"/>
+<text x="832" y="1687" text-anchor="start" style="fill:#1A1F2C">Delete threshold</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listMetricBaselines" target="_blank" class="st" data-op="listMetricBaselines"><title>GET /metrics/{metric_id}/baselines
+Metrics line · listMetricBaselines</title>
+<circle cx="1524" cy="1682" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1536" y="1687" text-anchor="start" style="fill:#1A1F2C">List baselines</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-createMetricBaseline" target="_blank" class="st" data-op="createMetricBaseline"><title>POST /metrics/{metric_id}/baselines
+Metrics line · createMetricBaseline</title>
+<circle cx="1524" cy="1770" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1536" y="1775" text-anchor="start" style="fill:#1A1F2C">Create baseline</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-getMetricBaseline" target="_blank" class="st" data-op="getMetricBaseline"><title>GET /metrics/{metric_id}/baselines/{baseline_id}
+Metrics line · getMetricBaseline</title>
+<circle cx="1524" cy="1858" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1536" y="1863" text-anchor="start" style="fill:#1A1F2C">Get baseline</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-updateMetricBaseline" target="_blank" class="st" data-op="updateMetricBaseline"><title>PATCH /metrics/{metric_id}/baselines/{baseline_id}
+Metrics line · updateMetricBaseline</title>
+<circle cx="1436" cy="1946" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1448" y="1951" text-anchor="start" style="fill:#1A1F2C">Update baseline</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-deleteMetricBaseline" target="_blank" class="st" data-op="deleteMetricBaseline"><title>DELETE /metrics/{metric_id}/baselines/{baseline_id}
+Metrics line · deleteMetricBaseline</title>
+<circle cx="1348" cy="2034" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1344" y1="2038" x2="1352" y2="2030" stroke="#D6264F" stroke-width="2"/>
+<text x="1360" y="2039" text-anchor="start" style="fill:#1A1F2C">Delete baseline</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-testMetric" target="_blank" class="st" data-op="testMetric"><title>POST /metrics/{metric_id}/test
+Metrics line · testMetric</title>
+<circle cx="1172" cy="2034" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1178" y="2022" transform="rotate(-45 1178 2022)" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-metrics-api/#op-listMetricModels" target="_blank" class="st" data-op="listMetricModels"><title>GET /models/metric
+Metrics line · listMetricModels</title>
+<circle cx="908" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="920" y="1423" text-anchor="start" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitor-events-api/#op-listMonitorEvents" target="_blank" class="st" data-op="listMonitorEvents"><title>GET /monitors/{monitor_id}/events
+Monitors line · listMonitorEvents</title>
+<circle cx="732" cy="2474" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="744" y="2479" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitors-api/#op-listMonitors" target="_blank" class="st" data-op="listMonitors"><title>GET /monitors
+Monitors line · listMonitors</title>
+<circle cx="952" cy="2650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="964" y="2655" text-anchor="start" style="fill:#1A1F2C">List monitors</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitors-api/#op-createMonitor" target="_blank" class="st" data-op="createMonitor"><title>POST /monitors
+Monitors line · createMonitor</title>
+<circle cx="952" cy="2562" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="964" y="2567" text-anchor="start" style="fill:#1A1F2C">Create monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitors-api/#op-getMonitor" target="_blank" class="st" data-op="getMonitor"><title>GET /monitors/{monitor_id}
+Monitors line · getMonitor</title>
+<circle cx="952" cy="2342" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="964" y="2347" text-anchor="start" style="fill:#1A1F2C">Get monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitors-api/#op-updateMonitor" target="_blank" class="st" data-op="updateMonitor"><title>PATCH /monitors/{monitor_id}
+Monitors line · updateMonitor</title>
+<circle cx="820" cy="2342" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="808.0" y="2347" text-anchor="end" style="fill:#1A1F2C">Update monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitors-api/#op-deleteMonitor" target="_blank" class="st" data-op="deleteMonitor"><title>DELETE /monitors/{monitor_id}
+Monitors line · deleteMonitor</title>
+<circle cx="732" cy="2430" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="728" y1="2434" x2="736" y2="2426" stroke="#2E7D32" stroke-width="2"/>
+<text x="744" y="2435" text-anchor="start" style="fill:#1A1F2C">Delete monitor</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-monitors-api/#op-testEvaluateMonitor" target="_blank" class="st" data-op="testEvaluateMonitor"><title>POST /monitors/{monitor_id}/test-evaluate
+Monitors line · testEvaluateMonitor</title>
+<circle cx="732" cy="2562" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="744" y="2567" text-anchor="start" style="fill:#1A1F2C">Update test evaluate</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-mutations-api/#op-listMutations" target="_blank" class="st" data-op="listMutations"><title>GET /agents/{agent_id}/mutations
+Mutations line · listMutations</title>
+<circle cx="1964" cy="670" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1952.0" y="675" text-anchor="end" style="fill:#1A1F2C">List mutations <tspan font-weight="700" style="fill:#1F5FD1">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-mutations-api/#op-createMutation" target="_blank" class="st" data-op="createMutation"><title>POST /agents/{agent_id}/mutations
+Mutations line · createMutation</title>
+<circle cx="1876" cy="582" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1888" y="587" text-anchor="start" style="fill:#1A1F2C">Create mutation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-mutations-api/#op-getMutation" target="_blank" class="st" data-op="getMutation"><title>GET /agents/{agent_id}/mutations/{mutation_id}
+Mutations line · getMutation</title>
+<circle cx="1832" cy="538" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1844" y="543" text-anchor="start" style="fill:#1A1F2C">Get mutation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-mutations-api/#op-updateMutation" target="_blank" class="st" data-op="updateMutation"><title>PATCH /agents/{agent_id}/mutations/{mutation_id}
+Mutations line · updateMutation</title>
+<circle cx="1744" cy="450" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1756" y="455" text-anchor="start" style="fill:#1A1F2C">Update mutation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-mutations-api/#op-deleteMutation" target="_blank" class="st" data-op="deleteMutation"><title>DELETE /agents/{agent_id}/mutations/{mutation_id}
+Mutations line · deleteMutation</title>
+<circle cx="1656" cy="362" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<line x1="1652" y1="366" x2="1660" y2="358" stroke="#1d33a9" stroke-width="2"/>
+<text x="1668" y="367" text-anchor="start" style="fill:#1A1F2C">Delete mutation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-organization-conversations-config-api/#op-getMonitoringMetrics" target="_blank" class="st" data-op="getMonitoringMetrics"><title>GET /organization/monitoring-metrics
+More Local line · getMonitoringMetrics</title>
+<circle cx="776" cy="1330" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="764.0" y="1335" text-anchor="end" style="fill:#1A1F2C">List monitoring metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-organization-conversations-config-api/#op-updateMonitoringMetrics" target="_blank" class="st" data-op="updateMonitoringMetrics"><title>PATCH /organization/monitoring-metrics
+More Local line · updateMonitoringMetrics</title>
+<circle cx="996" cy="1462" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1002" y="1450" transform="rotate(-45 1002 1450)" style="fill:#1A1F2C">Create monitoring metric</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-listPersonas" target="_blank" class="st" data-op="listPersonas"><title>GET /personas
+Personas line · listPersonas</title>
+<circle cx="160" cy="3002" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="3007" text-anchor="start" style="fill:#1A1F2C">List personas</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-createPersona" target="_blank" class="st" data-op="createPersona"><title>POST /personas
+Personas line · createPersona</title>
+<circle cx="160" cy="2914" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="2919" text-anchor="start" style="fill:#1A1F2C">Create persona</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-getPersona" target="_blank" class="st" data-op="getPersona"><title>GET /personas/{persona_id}
+Personas line · getPersona</title>
+<circle cx="160" cy="2826" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="172" y="2831" text-anchor="start" style="fill:#1A1F2C">Get persona</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-updatePersona" target="_blank" class="st" data-op="updatePersona"><title>PATCH /personas/{persona_id}
+Personas line · updatePersona</title>
+<circle cx="248" cy="2738" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="260" y="2743" text-anchor="start" style="fill:#1A1F2C">Update persona</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-deletePersona" target="_blank" class="st" data-op="deletePersona"><title>DELETE /personas/{persona_id}
+Personas line · deletePersona</title>
+<circle cx="336" cy="2650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="332" y1="2654" x2="340" y2="2646" stroke="#0E9F6E" stroke-width="2"/>
+<text x="348" y="2655" text-anchor="start" style="fill:#1A1F2C">Delete persona</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-duplicatePersona" target="_blank" class="st" data-op="duplicatePersona"><title>POST /personas/{persona_id}/duplicate
+Personas line · duplicatePersona</title>
+<circle cx="512" cy="2166" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="524" y="2171" text-anchor="start" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-listPersonaVersions" target="_blank" class="st" data-op="listPersonaVersions"><title>GET /personas/{persona_id}/versions
+Personas line · listPersonaVersions</title>
+<circle cx="468" cy="2166" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="474" y="2154" transform="rotate(-45 474 2154)" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-revertPersonaVersion" target="_blank" class="st" data-op="revertPersonaVersion"><title>POST /personas/{persona_id}/versions/{version_id}/revert
+Personas line · revertPersonaVersion</title>
+<circle cx="380" cy="2166" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="386" y="2154" transform="rotate(-45 386 2154)" style="fill:#1A1F2C">Update revert</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-listBackgroundSounds" target="_blank" class="st" data-op="listBackgroundSounds"><title>GET /personas/background-sounds
+Personas line · listBackgroundSounds</title>
+<circle cx="424" cy="2562" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="436" y="2567" text-anchor="start" style="fill:#1A1F2C">List background sounds</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-createBackgroundSound" target="_blank" class="st" data-op="createBackgroundSound"><title>POST /personas/background-sounds
+Personas line · createBackgroundSound</title>
+<circle cx="424" cy="2518" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="436" y="2523" text-anchor="start" style="fill:#1A1F2C">Create background sound</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-completeBackgroundSound" target="_blank" class="st" data-op="completeBackgroundSound"><title>POST /personas/background-sounds/{background_sound_id}/complete
+Personas line · completeBackgroundSound</title>
+<circle cx="556" cy="2386" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="544.0" y="2391" text-anchor="end" style="fill:#1A1F2C">Complete personas background sounds</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-updateBackgroundSound" target="_blank" class="st" data-op="updateBackgroundSound"><title>PATCH /personas/background-sounds/{background_sound_id}
+Personas line · updateBackgroundSound</title>
+<circle cx="468" cy="2474" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="480" y="2479" text-anchor="start" style="fill:#1A1F2C">Update background sound</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-listPersonasPhoneNumbers" target="_blank" class="st" data-op="listPersonasPhoneNumbers"><title>GET /personas/phone-numbers
+Personas line · listPersonasPhoneNumbers</title>
+<circle cx="556" cy="2298" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="568" y="2303" text-anchor="start" style="fill:#1A1F2C">List phone numbers</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-personas-api/#op-listPersonasVoices" target="_blank" class="st" data-op="listPersonasVoices"><title>GET /personas/voices
+Personas line · listPersonasVoices</title>
+<circle cx="556" cy="2210" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="568" y="2215" text-anchor="start" style="fill:#1A1F2C">List voices</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-reports-api/#op-listReports" target="_blank" class="st" data-op="listReports"><title>GET /reports
+Reports line · listReports</title>
+<circle cx="1040" cy="1814" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1052" y="1819" text-anchor="start" style="fill:#1A1F2C">List reports</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-reports-api/#op-createReport" target="_blank" class="st" data-op="createReport"><title>POST /reports
+Reports line · createReport</title>
+<circle cx="1128" cy="1902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1907" text-anchor="start" style="fill:#1A1F2C">Create report</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-reports-api/#op-getReport" target="_blank" class="st" data-op="getReport"><title>GET /reports/{report_id}
+Reports line · getReport</title>
+<circle cx="1172" cy="1946" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1160.0" y="1951" text-anchor="end" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-reports-api/#op-updateReport" target="_blank" class="st" data-op="updateReport"><title>PATCH /reports/{report_id}
+Reports line · updateReport</title>
+<circle cx="1260" cy="1946" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1272" y="1951" text-anchor="start" style="fill:#1A1F2C">Update report</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-reports-api/#op-deleteReport" target="_blank" class="st" data-op="deleteReport"><title>DELETE /reports/{report_id}
+Reports line · deleteReport</title>
+<circle cx="1348" cy="1858" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1344" y1="1862" x2="1352" y2="1854" stroke="#D6264F" stroke-width="2"/>
+<text x="1360" y="1863" text-anchor="start" style="fill:#1A1F2C">Delete report</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-listReviewAnnotations" target="_blank" class="st" data-op="listReviewAnnotations"><title>GET /review-annotations
+Review Annotations line · listReviewAnnotations</title>
+<circle cx="380" cy="1770" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="368.0" y="1775" text-anchor="end" style="fill:#1A1F2C">List review annotations</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-createReviewAnnotation" target="_blank" class="st" data-op="createReviewAnnotation"><title>POST /review-annotations
+Review Annotations line · createReviewAnnotation</title>
+<circle cx="512" cy="1638" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="524" y="1643" text-anchor="start" style="fill:#1A1F2C">Create review annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-getReviewAnnotation" target="_blank" class="st" data-op="getReviewAnnotation"><title>GET /review-annotations/{annotation_id}
+Review Annotations line · getReviewAnnotation</title>
+<circle cx="556" cy="1594" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="544.0" y="1599" text-anchor="end" style="fill:#1A1F2C">Get review annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-updateReviewAnnotation" target="_blank" class="st" data-op="updateReviewAnnotation"><title>PATCH /review-annotations/{annotation_id}
+Review Annotations line · updateReviewAnnotation</title>
+<circle cx="512" cy="1550" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="524" y="1555" text-anchor="start" style="fill:#1A1F2C">Update review annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-deleteReviewAnnotation" target="_blank" class="st" data-op="deleteReviewAnnotation"><title>DELETE /review-annotations/{annotation_id}
+Review Annotations line · deleteReviewAnnotation</title>
+<circle cx="424" cy="1550" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="420" y1="1554" x2="428" y2="1546" stroke="#C2410C" stroke-width="2"/>
+<text x="430" y="1538" transform="rotate(-45 430 1538)" style="fill:#1A1F2C">Delete review annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-getReviewMetricHealthStats" target="_blank" class="st" data-op="getReviewMetricHealthStats"><title>GET /review-annotations/metric-health-stats
+Review Annotations line · getReviewMetricHealthStats</title>
+<circle cx="336" cy="1550" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="342" y="1538" transform="rotate(-45 342 1538)" style="fill:#1A1F2C">List metric health stats</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-annotations-api/#op-getReviewAnnotationsWithMetricOutputs" target="_blank" class="st" data-op="getReviewAnnotationsWithMetricOutputs"><title>POST /review-annotations:withMetricOutputs
+Review Annotations line · getReviewAnnotationsWithMetricOutputs</title>
+<circle cx="248" cy="1550" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="254" y="1538" transform="rotate(-45 254 1538)" style="fill:#1A1F2C">Create review annotations:withmetricoutput</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-listReviewProjects" target="_blank" class="st" data-op="listReviewProjects"><title>GET /review-projects
+Review Projects line · listReviewProjects</title>
+<circle cx="1480" cy="2078" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1492" y="2083" text-anchor="start" style="fill:#1A1F2C">List review projects</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-createReviewProject" target="_blank" class="st" data-op="createReviewProject"><title>POST /review-projects
+Review Projects line · createReviewProject</title>
+<circle cx="1392" cy="2166" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1404" y="2171" text-anchor="start" style="fill:#1A1F2C">Create review project</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-getReviewProject" target="_blank" class="st" data-op="getReviewProject"><title>GET /review-projects/{project_id}
+Review Projects line · getReviewProject</title>
+<circle cx="1304" cy="2166" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1310" y="2154" transform="rotate(-45 1310 2154)" style="fill:#1A1F2C">Get review project</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-updateReviewProject" target="_blank" class="st" data-op="updateReviewProject"><title>PATCH /review-projects/{project_id}
+Review Projects line · updateReviewProject</title>
+<circle cx="1216" cy="2166" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1222" y="2154" transform="rotate(-45 1222 2154)" style="fill:#1A1F2C">Update review project</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-deleteReviewProject" target="_blank" class="st" data-op="deleteReviewProject"><title>DELETE /review-projects/{project_id}
+Review Projects line · deleteReviewProject</title>
+<circle cx="1172" cy="2166" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1168" y1="2170" x2="1176" y2="2162" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1160.0" y="2171" text-anchor="end" style="fill:#1A1F2C">Delete review project</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-getReviewProjectMetricAgreement" target="_blank" class="st" data-op="getReviewProjectMetricAgreement"><title>GET /review-projects/{project_id}/metric-agreement
+Review Projects line · getReviewProjectMetricAgreement</title>
+<circle cx="1216" cy="2298" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1225" y="2288" text-anchor="start" style="fill:#1A1F2C">Get metric agreement</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-review-projects-api/#op-getReviewProjectInsights" target="_blank" class="st" data-op="getReviewProjectInsights"><title>GET /review-projects/{project_id}/insights
+Review Projects line · getReviewProjectInsights</title>
+<circle cx="1172" cy="2254" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1184" y="2259" text-anchor="start" style="fill:#1A1F2C">List insights</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-run-templates-api/#op-listRunTemplates" target="_blank" class="st" data-op="listRunTemplates"><title>GET /run-templates
+Run Templates line · listRunTemplates</title>
+<circle cx="1084" cy="2386" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1096" y="2391" text-anchor="start" style="fill:#1A1F2C">List run templates</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-run-templates-api/#op-createRunTemplate" target="_blank" class="st" data-op="createRunTemplate"><title>POST /run-templates
+Run Templates line · createRunTemplate</title>
+<circle cx="1084" cy="2254" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1075.0" y="2273" text-anchor="end" style="fill:#1A1F2C">Create run template</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-run-templates-api/#op-getRunTemplate" target="_blank" class="st" data-op="getRunTemplate"><title>GET /run-templates/{run_template_id}
+Run Templates line · getRunTemplate</title>
+<circle cx="996" cy="2254" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1002" y="2242" transform="rotate(-45 1002 2242)" style="fill:#1A1F2C">Get run template</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-run-templates-api/#op-updateRunTemplate" target="_blank" class="st" data-op="updateRunTemplate"><title>PATCH /run-templates/{run_template_id}
+Run Templates line · updateRunTemplate</title>
+<circle cx="864" cy="2254" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="873" y="2244" text-anchor="start" style="fill:#1A1F2C">Update run template</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-run-templates-api/#op-deleteRunTemplate" target="_blank" class="st" data-op="deleteRunTemplate"><title>DELETE /run-templates/{run_template_id}
+Run Templates line · deleteRunTemplate</title>
+<circle cx="864" cy="2474" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="860" y1="2478" x2="868" y2="2470" stroke="#B0287F" stroke-width="2"/>
+<text x="876" y="2472" text-anchor="start" style="fill:#1A1F2C">Delete run<tspan x="876" dy="13">template</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-runs-api/#op-listRuns" target="_blank" class="st" data-op="listRuns"><title>GET /runs
+Runs line · listRuns</title>
+<circle cx="908" cy="274" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<text x="920" y="279" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-runs-api/#op-launchRun" target="_blank" class="st" data-op="launchRun"><title>POST /runs
+Runs line · launchRun</title>
+<circle cx="820" cy="362" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="832" y="367" text-anchor="start" style="fill:#1A1F2C">Create run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-runs-api/#op-getRun" target="_blank" class="st" data-op="getRun"><title>GET /runs/{run_id}
+Runs line · getRun</title>
+<circle cx="732" cy="450" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="741" y="469" text-anchor="start" style="fill:#1A1F2C">Get run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-runs-api/#op-deleteRun" target="_blank" class="st" data-op="deleteRun"><title>DELETE /runs/{run_id}
+Runs line · deleteRun</title>
+<circle cx="556" cy="274" r="5.5" fill="#fff" stroke="#b58613" stroke-width="2.5"/>
+<line x1="552" y1="278" x2="560" y2="270" stroke="#b58613" stroke-width="2"/>
+<text x="568" y="279" text-anchor="start" style="fill:#1A1F2C">Delete run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-runs-api/#op-updateRun" target="_blank" class="st" data-op="updateRun"><title>PATCH /runs/{run_id}
+Runs line · updateRun</title>
+<circle cx="644" cy="362" r="5.5" fill="#b58613" stroke="#b58613" stroke-width="2.5"/>
+<text x="656" y="367" text-anchor="start" style="fill:#1A1F2C">Update run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-scheduled-runs-api/#op-listScheduledRuns" target="_blank" class="st" data-op="listScheduledRuns"><title>GET /scheduled-runs
+Scheduled Runs line · listScheduledRuns</title>
+<circle cx="248" cy="450" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="254" y="438" transform="rotate(-45 254 438)" style="fill:#1A1F2C">List scheduled runs</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-scheduled-runs-api/#op-createScheduledRun" target="_blank" class="st" data-op="createScheduledRun"><title>POST /scheduled-runs
+Scheduled Runs line · createScheduledRun</title>
+<circle cx="380" cy="450" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="392" y="455" text-anchor="start" style="fill:#1A1F2C">Create scheduled run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-scheduled-runs-api/#op-getScheduledRun" target="_blank" class="st" data-op="getScheduledRun"><title>GET /scheduled-runs/{scheduled_run_id}
+Scheduled Runs line · getScheduledRun</title>
+<circle cx="468" cy="538" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="456.0" y="543" text-anchor="end" style="fill:#1A1F2C">Get scheduled run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-scheduled-runs-api/#op-updateScheduledRun" target="_blank" class="st" data-op="updateScheduledRun"><title>PATCH /scheduled-runs/{scheduled_run_id}
+Scheduled Runs line · updateScheduledRun</title>
+<circle cx="556" cy="538" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="568" y="543" text-anchor="start" style="fill:#1A1F2C">Update scheduled run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-scheduled-runs-api/#op-deleteScheduledRun" target="_blank" class="st" data-op="deleteScheduledRun"><title>DELETE /scheduled-runs/{scheduled_run_id}
+Scheduled Runs line · deleteScheduledRun</title>
+<circle cx="600" cy="494" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="596" y1="498" x2="604" y2="490" stroke="#E07B12" stroke-width="2"/>
+<text x="588.0" y="499" text-anchor="end" style="fill:#1A1F2C">Delete scheduled run</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-scheduled-runs-api/#op-listScheduledRunHistory" target="_blank" class="st" data-op="listScheduledRunHistory"><title>GET /scheduled-runs/{scheduled_run_id}/runs
+Scheduled Runs line · listScheduledRunHistory</title>
+<circle cx="732" cy="494" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="723.0" y="484" text-anchor="end" style="fill:#1A1F2C">List runs</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-listSimulations" target="_blank" class="st" data-op="listSimulations"><title>GET /simulations
+Simulations line · listSimulations</title>
+<circle cx="688" cy="1682" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="700" y="1687" text-anchor="start" style="fill:#1A1F2C">List simulations</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-getSimulation" target="_blank" class="st" data-op="getSimulation"><title>GET /simulations/{simulation_id}
+Simulations line · getSimulation</title>
+<circle cx="688" cy="1594" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="676.0" y="1599" text-anchor="end" style="fill:#1A1F2C">Get simulation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-updateSimulation" target="_blank" class="st" data-op="updateSimulation"><title>PATCH /simulations/{simulation_id}
+Simulations line · updateSimulation</title>
+<circle cx="908" cy="1594" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="914" y="1582" transform="rotate(-45 914 1582)" style="fill:#1A1F2C">Update simulation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-deleteSimulation" target="_blank" class="st" data-op="deleteSimulation"><title>DELETE /simulations/{simulation_id}
+Simulations line · deleteSimulation</title>
+<circle cx="996" cy="1594" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="992" y1="1598" x2="1000" y2="1590" stroke="#0B7A75" stroke-width="2"/>
+<text x="987.0" y="1613" text-anchor="end" style="fill:#1A1F2C">Delete simulation</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-resimulateSimulation" target="_blank" class="st" data-op="resimulateSimulation"><title>POST /simulations/{simulation_id}/resimulate
+Simulations line · resimulateSimulation</title>
+<circle cx="1260" cy="1594" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1248.0" y="1599" text-anchor="end" style="fill:#1A1F2C">Update resimulate</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-rerunMetrics" target="_blank" class="st" data-op="rerunMetrics"><title>POST /simulations:rerunMetrics
+Simulations line · rerunMetrics</title>
+<circle cx="1172" cy="1682" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1184" y="1680" text-anchor="start" style="fill:#1A1F2C">Create<tspan x="1184" dy="13">simulations:rerunmetric</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-simulations-api/#op-getAudioURL" target="_blank" class="st" data-op="getAudioURL"><title>GET /simulations/{simulation_id}/audio
+Simulations line · getAudioURL</title>
+<circle cx="1172" cy="1418" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1160.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Get audio</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-tags-api/#op-listTags" target="_blank" class="st" data-op="listTags"><title>GET /tags
+Tags line · listTags</title>
+<circle cx="1392" cy="2562" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1404" y="2567" text-anchor="start" style="fill:#1A1F2C">List tags</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-tags-api/#op-createTag" target="_blank" class="st" data-op="createTag"><title>POST /tags
+Tags line · createTag</title>
+<circle cx="1392" cy="2430" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1404" y="2435" text-anchor="start" style="fill:#1A1F2C">Create tag</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-tags-api/#op-getTag" target="_blank" class="st" data-op="getTag"><title>GET /tags/{tag_id}
+Tags line · getTag</title>
+<circle cx="1304" cy="2430" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1292.0" y="2435" text-anchor="end" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-tags-api/#op-updateTag" target="_blank" class="st" data-op="updateTag"><title>PATCH /tags/{tag_id}
+Tags line · updateTag</title>
+<circle cx="1216" cy="2518" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1228" y="2523" text-anchor="start" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-tags-api/#op-deleteTag" target="_blank" class="st" data-op="deleteTag"><title>DELETE /tags/{tag_id}
+Tags line · deleteTag</title>
+<circle cx="1128" cy="2606" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1124" y1="2610" x2="1132" y2="2602" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1140" y="2611" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-cases-api/#op-listTestCases" target="_blank" class="st" data-op="listTestCases"><title>GET /test-cases
+Test Cases line · listTestCases</title>
+<circle cx="512" cy="1770" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="518" y="1758" transform="rotate(-45 518 1758)" style="fill:#1A1F2C">List test cases</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-cases-api/#op-createTestCase" target="_blank" class="st" data-op="createTestCase"><title>POST /test-cases
+Test Cases line · createTestCase</title>
+<circle cx="600" cy="1770" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="612" y="1775" text-anchor="start" style="fill:#1A1F2C">Create test cas</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-cases-api/#op-getTestCase" target="_blank" class="st" data-op="getTestCase"><title>GET /test-cases/{test_case_id}
+Test Cases line · getTestCase</title>
+<circle cx="644" cy="1814" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="656" y="1819" text-anchor="start" style="fill:#1A1F2C">Get test cas</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-cases-api/#op-updateTestCase" target="_blank" class="st" data-op="updateTestCase"><title>PATCH /test-cases/{test_case_id}
+Test Cases line · updateTestCase</title>
+<circle cx="644" cy="1902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="656" y="1907" text-anchor="start" style="fill:#1A1F2C">Update test cas</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-cases-api/#op-deleteTestCase" target="_blank" class="st" data-op="deleteTestCase"><title>DELETE /test-cases/{test_case_id}
+Test Cases line · deleteTestCase</title>
+<circle cx="644" cy="1990" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="640" y1="1994" x2="648" y2="1986" stroke="#0E9F6E" stroke-width="2"/>
+<text x="656" y="1995" text-anchor="start" style="fill:#1A1F2C">Delete test cas</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-listTestSets" target="_blank" class="st" data-op="listTestSets"><title>GET /test-sets
+Test Sets line · listTestSets</title>
+<circle cx="2624" cy="670" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2618" y="682" text-anchor="end" transform="rotate(-45 2618 682)" style="fill:#1A1F2C">List test sets</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-createTestSet" target="_blank" class="st" data-op="createTestSet"><title>POST /test-sets
+Test Sets line · createTestSet</title>
+<circle cx="2536" cy="670" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2542" y="658" transform="rotate(-45 2542 658)" style="fill:#1A1F2C">Create test set</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-getTestSet" target="_blank" class="st" data-op="getTestSet"><title>GET /test-sets/{test_set_id}
+Test Sets line · getTestSet</title>
+<circle cx="2448" cy="670" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2454" y="658" transform="rotate(-45 2454 658)" style="fill:#1A1F2C">Get test set</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-updateTestSet" target="_blank" class="st" data-op="updateTestSet"><title>PATCH /test-sets/{test_set_id}
+Test Sets line · updateTestSet</title>
+<circle cx="2316" cy="670" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2322" y="658" transform="rotate(-45 2322 658)" style="fill:#1A1F2C">Update test set</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-deleteTestSet" target="_blank" class="st" data-op="deleteTestSet"><title>DELETE /test-sets/{test_set_id}
+Test Sets line · deleteTestSet</title>
+<circle cx="2184" cy="670" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2180" y1="674" x2="2188" y2="666" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2172.0" y="675" text-anchor="end" style="fill:#1A1F2C">Delete test set</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-duplicateTestSet" target="_blank" class="st" data-op="duplicateTestSet"><title>POST /test-sets/{test_set_id}/duplicate
+Test Sets line · duplicateTestSet</title>
+<circle cx="2228" cy="450" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2240" y="455" text-anchor="start" style="fill:#1A1F2C">Update duplicate</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-listTestSetVersions" target="_blank" class="st" data-op="listTestSetVersions"><title>GET /test-sets/{test_set_id}/versions
+Test Sets line · listTestSetVersions</title>
+<circle cx="2228" cy="318" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2240" y="323" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-revertTestSetVersion" target="_blank" class="st" data-op="revertTestSetVersion"><title>POST /test-sets/{test_set_id}/versions/{version_id}/revert
+Test Sets line · revertTestSetVersion</title>
+<circle cx="2228" cy="230" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2240" y="235" text-anchor="start" style="fill:#1A1F2C">Update revert</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-listTestSetAgents" target="_blank" class="st" data-op="listTestSetAgents"><title>GET /test-sets/{test_set_id}/agents
+Test Sets line · listTestSetAgents</title>
+<circle cx="2140" cy="626" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2152" y="631" text-anchor="start" style="fill:#1A1F2C">List agents <tspan font-weight="700" style="fill:#1F5FD1">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-addTestSetAgents" target="_blank" class="st" data-op="addTestSetAgents"><title>POST /test-sets/{test_set_id}/agents:add
+Test Sets line · addTestSetAgents</title>
+<circle cx="2184" cy="494" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2196" y="499" text-anchor="start" style="fill:#1A1F2C">Update agents:add</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-test-sets-api/#op-removeTestSetAgent" target="_blank" class="st" data-op="removeTestSetAgent"><title>DELETE /test-sets/{test_set_id}/agents/{agent_id}
+Test Sets line · removeTestSetAgent</title>
+<circle cx="2140" cy="538" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2136" y1="542" x2="2144" y2="534" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2152" y="543" text-anchor="start" style="fill:#1A1F2C">Delete agent</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-traces-api/#op-ingestTraces" target="_blank" class="st" data-op="ingestTraces"><title>POST /traces
+More Local line · ingestTraces</title>
+<circle cx="1040" cy="1462" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1031.0" y="1481" text-anchor="end" style="fill:#1A1F2C">Create trace</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-webhooks-api/#op-listWebhooks" target="_blank" class="st" data-op="listWebhooks"><title>GET /webhooks
+Webhooks line · listWebhooks</title>
+<circle cx="1568" cy="2254" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1562" y="2266" text-anchor="end" transform="rotate(-45 1562 2266)" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-webhooks-api/#op-createWebhook" target="_blank" class="st" data-op="createWebhook"><title>POST /webhooks
+Webhooks line · createWebhook</title>
+<circle cx="1480" cy="2254" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1486" y="2242" transform="rotate(-45 1486 2242)" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-webhooks-api/#op-updateWebhook" target="_blank" class="st" data-op="updateWebhook"><title>PATCH /webhooks/{webhook_id}
+Webhooks line · updateWebhook</title>
+<circle cx="1392" cy="2254" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1380.0" y="2259" text-anchor="end" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-webhooks-api/#op-deleteWebhook" target="_blank" class="st" data-op="deleteWebhook"><title>DELETE /webhooks/{webhook_id}
+Webhooks line · deleteWebhook</title>
+<circle cx="1348" cy="2298" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1344" y1="2302" x2="1352" y2="2294" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1360" y="2303" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-widgets-api/#op-createWidget" target="_blank" class="st" data-op="createWidget"><title>POST /dashboards/{dashboard_id}/widgets
+Widgets line · createWidget</title>
+<circle cx="2448" cy="2078" r="5.5" fill="#8b2351" stroke="#8b2351" stroke-width="2.5"/>
+<text x="2460" y="2083" text-anchor="start" style="fill:#1A1F2C">Create widget</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-widgets-api/#op-listWidgets" target="_blank" class="st" data-op="listWidgets"><title>GET /dashboards/{dashboard_id}/widgets
+Widgets line · listWidgets</title>
+<circle cx="2448" cy="1990" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2436.0" y="1995" text-anchor="end" style="fill:#1A1F2C">List widgets</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-widgets-api/#op-getWidget" target="_blank" class="st" data-op="getWidget"><title>GET /dashboards/{dashboard_id}/widgets/{widget_id}
+Widgets line · getWidget</title>
+<circle cx="2448" cy="2166" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<text x="2460" y="2171" text-anchor="start" style="fill:#1A1F2C">Get widget</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-widgets-api/#op-updateWidget" target="_blank" class="st" data-op="updateWidget"><title>PATCH /dashboards/{dashboard_id}/widgets/{widget_id}
+Widgets line · updateWidget</title>
+<circle cx="2448" cy="2254" r="5.5" fill="#8b2351" stroke="#8b2351" stroke-width="2.5"/>
+<text x="2460" y="2259" text-anchor="start" style="fill:#1A1F2C">Update widget</text>
+</a>
+<a href="https://apis.apis.io/apis/coval/coval-widgets-api/#op-deleteWidget" target="_blank" class="st" data-op="deleteWidget"><title>DELETE /dashboards/{dashboard_id}/widgets/{widget_id}
+Widgets line · deleteWidget</title>
+<circle cx="2448" cy="2342" r="5.5" fill="#fff" stroke="#8b2351" stroke-width="2.5"/>
+<line x1="2444" y1="2346" x2="2452" y2="2338" stroke="#8b2351" stroke-width="2"/>
+<text x="2460" y="2347" text-anchor="start" style="fill:#1A1F2C">Delete widget</text>
+</a>
+<text x="2858" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2858" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">METRICS</text>
+<rect x="2858" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2875" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MET</text><text x="2900" y="269" font-size="11" fill="#1A1F2C">Metrics <tspan fill="#8A93A6">22</tspan></text>
+<text x="2858" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">PERSONAS</text>
+<rect x="2858" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2875" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PER</text><text x="2900" y="312" font-size="11" fill="#1A1F2C">Personas <tspan fill="#8A93A6">14</tspan></text>
+<text x="2858" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">AGENTS</text>
+<rect x="2858" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2875" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="2900" y="355" font-size="11" fill="#1A1F2C">Agents <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2858" y="362" width="34" height="13" rx="3" fill="#1d33a9"/><text x="2875" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MUT</text><text x="2900" y="372" font-size="11" fill="#1A1F2C">Mutations <tspan fill="#8A93A6">5</tspan></text>
+<text x="2858" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">SCHEDULED RUNS</text>
+<rect x="2858" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="2875" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SR</text><text x="2900" y="415" font-size="11" fill="#1A1F2C">Scheduled Runs <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2858" y="422" width="34" height="13" rx="3" fill="#b58613"/><text x="2875" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RUN</text><text x="2900" y="432" font-size="11" fill="#1A1F2C">Runs <tspan fill="#8A93A6">5</tspan></text>
+<text x="2858" y="458" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">TEST SETS</text>
+<rect x="2858" y="465" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2875" y="475" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TS</text><text x="2900" y="475" font-size="11" fill="#1A1F2C">Test Sets <tspan fill="#8A93A6">11</tspan></text>
+<text x="2858" y="501" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">DASHBOARDS</text>
+<rect x="2858" y="508" width="34" height="13" rx="3" fill="#B0287F"/><text x="2875" y="518" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAS</text><text x="2900" y="518" font-size="11" fill="#1A1F2C">Dashboards <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2858" y="525" width="34" height="13" rx="3" fill="#8b2351"/><text x="2875" y="535" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WID</text><text x="2900" y="535" font-size="11" fill="#1A1F2C">Widgets <tspan fill="#8A93A6">5</tspan></text>
+<text x="2858" y="561" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">SIMULATIONS</text>
+<rect x="2858" y="568" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2875" y="578" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SIM</text><text x="2900" y="578" font-size="11" fill="#1A1F2C">Simulations <tspan fill="#8A93A6">9</tspan></text>
+<text x="2858" y="604" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">CONVERSATIONS</text>
+<rect x="2858" y="611" width="34" height="13" rx="3" fill="#B8860B"/><text x="2875" y="621" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2900" y="621" font-size="11" fill="#1A1F2C">Conversations <tspan fill="#8A93A6">8</tspan></text>
+<text x="2858" y="647" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">REVIEW ANNOTATIONS</text>
+<rect x="2858" y="654" width="34" height="13" rx="3" fill="#C2410C"/><text x="2875" y="664" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RA</text><text x="2900" y="664" font-size="11" fill="#1A1F2C">Review Annotations <tspan fill="#8A93A6">7</tspan></text>
+<text x="2858" y="690" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">MONITORS</text>
+<rect x="2858" y="697" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2875" y="707" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MON</text><text x="2900" y="707" font-size="11" fill="#1A1F2C">Monitors <tspan fill="#8A93A6">7</tspan></text>
+<text x="2858" y="733" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">REVIEW PROJECTS</text>
+<rect x="2858" y="740" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2875" y="750" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RP</text><text x="2900" y="750" font-size="11" fill="#1A1F2C">Review Projects <tspan fill="#8A93A6">7</tspan></text>
+<text x="2858" y="776" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2858" y="783" width="34" height="13" rx="3" fill="#D6264F"/><text x="2875" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="2900" y="793" font-size="11" fill="#1A1F2C">Reports <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2858" y="800" width="34" height="13" rx="3" fill="#B0287F"/><text x="2875" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RT</text><text x="2900" y="810" font-size="11" fill="#1A1F2C">Run Templates <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2858" y="817" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2875" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="2900" y="827" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2858" y="834" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2875" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TC</text><text x="2900" y="844" font-size="11" fill="#1A1F2C">Test Cases <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2858" y="851" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2875" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AK</text><text x="2900" y="861" font-size="11" fill="#1A1F2C">API Keys <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2858" y="868" width="34" height="13" rx="3" fill="#00838F"/><text x="2875" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2900" y="878" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2858" y="885" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2875" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2900" y="895" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">4</tspan></text>
+<text x="3108" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3126,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3152" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3126,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3152" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3126,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3152" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3126,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3152" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3126,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3152" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3126,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3152" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3126,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3152" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3126,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3152" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3108" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3108" y="463" font-size="10.5" fill="#5A6275">“Audio” → Conversations line · 1 op</text>
+<text x="3108" y="478" font-size="10.5" fill="#5A6275">“Audio” → More Local line · 1 op</text>
+<text x="3108" y="493" font-size="10.5" fill="#5A6275">“Metric Outputs” → Simulations line · 2 ops</text>
+<text x="3108" y="508" font-size="10.5" fill="#5A6275">“Monitor Events” → Monitors line · 1 op</text>
+<text x="3108" y="523" font-size="10.5" fill="#5A6275">“Organization Conversations Config” → More Local line · 2 ops</text>
+<text x="3108" y="538" font-size="10.5" fill="#5A6275">“Traces” → More Local line · 1 op</text>
+<text x="3108" y="588" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3108" y="605" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3132" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/coval/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
