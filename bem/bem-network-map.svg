@@ -1,0 +1,571 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3170 1776" width="3170" height="1776" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3170" height="1776" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Bem API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">86 operations as stops · 14 tags as lines · 5 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1672.0,398.0 L2021.7,747.7 Q2050.0,776.0 2090.0,776.0 L2344.0,776.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1946.0" y="575.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="2008.0" y="591.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Eval ⇄ Functions</title>1 interchange</text></g>
+<path d="M1042.0,1364.0 L1349.7,1056.3 Q1378.0,1028.0 1378.0,988.0 L1378.0,818.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1148.0" y="1079.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1210.0" y="1095.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Buckets ⇄ More</title>2 interchanges</text></g>
+<path d="M1546.0,1364.0 L1406.3,1224.3 Q1378.0,1196.0 1378.0,1156.0 L1378.0,818.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1400.0" y="1079.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1462.0" y="1095.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Buckets ⇄ Workflows</title>1 interchange</text></g>
+<text x="1743.4" y="244" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">EVAL</text>
+<text x="864.6666666666666" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">ENTITY TYPES</text>
+<text x="1485.3333333333333" y="916" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">WORKFLOWS</text>
+<text x="1761.25" y="454" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">COLLECTIONS</text>
+<text x="2239.0" y="580" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">FUNCTIONS</text>
+<text x="1084.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">VIEWS</text>
+<text x="1386.4" y="622" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">BUCKETS</text>
+<text x="1445.2" y="1378" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">SUBSCRIPTIONS</text>
+<text x="1126.0" y="538" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">CALLS</text>
+<text x="1406.0" y="496" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">WEBHOOK SECRET</text>
+<text x="244.0" y="1000" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">CONNECTORS</text>
+<text x="745.375" y="706" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="874" y1="1490" x2="916" y2="1448" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="874" y1="1490" x2="916" y2="1448" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Buckets" d="M1546.0,818.0 L1462.0,818.0 L1392.0,818.0 Q1378.0,818.0 1368.1,808.1 L1294.0,734.0 L1252.0,692.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Buckets</title></path>
+<path class="line" data-line="Calls" d="M1126.0,608.0 L1126.0,692.0 L1126.0,776.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Calls</title></path>
+<path class="line" data-line="Collections" d="M1966.0,860.0 L1882.0,860.0 L1798.0,860.0 L1770.0,860.0 Q1756.0,860.0 1746.1,850.1 L1681.9,785.9 Q1672.0,776.0 1672.0,762.0 L1672.0,692.0 L1672.0,608.0 L1672.0,524.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Collections</title></path>
+<path class="line" data-line="Connectors" d="M160.0,1070.0 L244.0,1070.0 L328.0,1070.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Connectors</title></path>
+<path class="line" data-line="Entity Type Reviewers" d="M874.0,1490.0 L762.0,1490.0 Q748.0,1490.0 738.1,1499.9 L706.0,1532.0 L622.0,1616.0" fill="none" stroke="#0d7768" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Type Reviewers</title></path>
+<path class="line" data-line="Entity Types" d="M916.0,1280.0 L916.0,1364.0 L916.0,1434.0 Q916.0,1448.0 925.9,1457.9 L1000.0,1532.0 L1084.0,1616.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Entity Types</title></path>
+<path class="line" data-line="Function Accuracy" d="M2134.0,356.0 L2050.0,356.0 L1938.0,356.0 Q1924.0,356.0 1914.1,365.9 L1891.9,388.1 Q1882.0,398.0 1868.0,398.0 L1756.0,398.0 L1672.0,398.0 L1602.0,398.0 Q1588.0,398.0 1578.1,388.1 L1546.0,356.0 L1513.9,323.9 Q1504.0,314.0 1490.0,314.0 L1378.0,314.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Function Accuracy</title></path>
+<path class="line" data-line="Functions" d="M2470.0,650.0 L2386.0,734.0 L2353.9,766.1 Q2344.0,776.0 2330.0,776.0 L2190.0,776.0 Q2176.0,776.0 2166.1,785.9 L2143.9,808.1 Q2134.0,818.0 2134.0,832.0 L2134.0,902.0 L2134.0,986.0 L2134.0,1070.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Functions</title></path>
+<path class="line" data-line="Subscriptions" d="M1252.0,1448.0 L1336.0,1448.0 L1448.0,1448.0 Q1462.0,1448.0 1471.9,1457.9 L1546.0,1532.0 L1630.0,1616.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscriptions</title></path>
+<path class="line" data-line="Views" d="M1252.0,230.0 L1168.0,314.0 L1126.0,356.0 L1042.0,440.0 L1009.9,472.1 Q1000.0,482.0 1000.0,496.0 L1000.0,608.0 L1000.0,692.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Views</title></path>
+<path class="line" data-line="Webhooks" d="M1462.0,692.0 L1420.0,650.0 L1336.0,566.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="Workflows" d="M1336.0,986.0 L1378.0,1028.0 L1410.1,1060.1 Q1420.0,1070.0 1420.0,1084.0 L1420.0,1154.0 L1420.0,1224.0 Q1420.0,1238.0 1429.9,1247.9 L1504.0,1322.0 L1546.0,1364.0 L1630.0,1448.0 L1714.0,1532.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workflows</title></path>
+<path class="line" data-line="Entities Local" d="M244.0,776.0 L328.0,860.0 L412.0,944.0 L454.0,986.0 L486.1,1018.1 Q496.0,1028.0 496.0,1042.0 L496.0,1098.0 Q496.0,1112.0 486.1,1121.9 L370.0,1238.0 L286.0,1322.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Entities Local</title></path>
+<path class="line" data-line="More Local" d="M1252.0,860.0 L1210.0,902.0 L1126.0,986.0 L1084.0,1028.0 L1051.9,1060.1 Q1042.0,1070.0 1042.0,1084.0 L1042.0,1196.0 L1042.0,1280.0 L1042.0,1364.0" fill="none" stroke="#B0287F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1546" y1="818" x2="1580.0" y2="818.0" stroke="#0B7A75" stroke-width="7"/><rect x="1556.0" y="807.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Buckets</title></rect><text x="1580.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUC</text>
+<line x1="1252" y1="692" x2="1227.9583694396574" y2="667.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1203.9583694396574" y="656.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Buckets</title></rect><text x="1227.9583694396574" y="672.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BUC</text>
+<line x1="1126" y1="608" x2="1126.0" y2="574.0" stroke="#C2410C" stroke-width="7"/><rect x="1102.0" y="563.0" width="48" height="22" rx="5" fill="#C2410C"><title>Calls</title></rect><text x="1126.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAL</text>
+<line x1="1126" y1="776" x2="1126.0" y2="810.0" stroke="#C2410C" stroke-width="7"/><rect x="1102.0" y="799.0" width="48" height="22" rx="5" fill="#C2410C"><title>Calls</title></rect><text x="1126.0" y="815.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAL</text>
+<line x1="1966" y1="860" x2="2000.0" y2="860.0" stroke="#E07B12" stroke-width="7"/><rect x="1976.0" y="849.0" width="48" height="22" rx="5" fill="#E07B12"><title>Collections</title></rect><text x="2000.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="1672" y1="524" x2="1672.0" y2="490.0" stroke="#E07B12" stroke-width="7"/><rect x="1648.0" y="479.0" width="48" height="22" rx="5" fill="#E07B12"><title>Collections</title></rect><text x="1672.0" y="495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COL</text>
+<line x1="160" y1="1070" x2="126.0" y2="1070.0" stroke="#5C6BC0" stroke-width="7"/><rect x="102.0" y="1059.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Connectors</title></rect><text x="126.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="328" y1="1070" x2="362.0" y2="1070.0" stroke="#5C6BC0" stroke-width="7"/><rect x="338.0" y="1059.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Connectors</title></rect><text x="362.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="874" y1="1490" x2="908.0" y2="1490.0" stroke="#0d7768" stroke-width="7"/><rect x="884.0" y="1479.0" width="48" height="22" rx="5" fill="#0d7768"><title>Entity Type Reviewers</title></rect><text x="908.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ETR</text>
+<line x1="622" y1="1616" x2="597.9583694396574" y2="1640.0416305603426" stroke="#0d7768" stroke-width="7"/><rect x="573.9583694396574" y="1629.0416305603426" width="48" height="22" rx="5" fill="#0d7768"><title>Entity Type Reviewers</title></rect><text x="597.9583694396574" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ETR</text>
+<line x1="916" y1="1280" x2="916.0" y2="1246.0" stroke="#0E9F6E" stroke-width="7"/><rect x="892.0" y="1235.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Entity Types</title></rect><text x="916.0" y="1251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ET</text>
+<line x1="1084" y1="1616" x2="1108.0416305603426" y2="1640.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1084.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Entity Types</title></rect><text x="1108.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ET</text>
+<line x1="2134" y1="356" x2="2168.0" y2="356.0" stroke="#D6264F" stroke-width="7"/><rect x="2144.0" y="345.0" width="48" height="22" rx="5" fill="#D6264F"><title>Function Accuracy</title></rect><text x="2168.0" y="361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FA</text>
+<line x1="1378" y1="314" x2="1344.0" y2="314.0" stroke="#D6264F" stroke-width="7"/><rect x="1320.0" y="303.0" width="48" height="22" rx="5" fill="#D6264F"><title>Function Accuracy</title></rect><text x="1344.0" y="319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FA</text>
+<line x1="2470" y1="650" x2="2494.0416305603426" y2="625.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="2470.0416305603426" y="614.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Functions</title></rect><text x="2494.0416305603426" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUN</text>
+<line x1="2134" y1="1070" x2="2134.0" y2="1104.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2110.0" y="1093.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Functions</title></rect><text x="2134.0" y="1109.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">FUN</text>
+<line x1="1252" y1="1448" x2="1218.0" y2="1448.0" stroke="#B8860B" stroke-width="7"/><rect x="1194.0" y="1437.0" width="48" height="22" rx="5" fill="#B8860B"><title>Subscriptions</title></rect><text x="1218.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1630" y1="1616" x2="1654.0416305603426" y2="1640.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1630.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Subscriptions</title></rect><text x="1654.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1252" y1="230" x2="1276.0416305603426" y2="205.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1252.0416305603426" y="194.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Views</title></rect><text x="1276.0416305603426" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VIE</text>
+<line x1="1000" y1="692" x2="1000.0" y2="726.0" stroke="#B0287F" stroke-width="7"/><rect x="976.0" y="715.0" width="48" height="22" rx="5" fill="#B0287F"><title>Views</title></rect><text x="1000.0" y="731.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VIE</text>
+<line x1="1462" y1="692" x2="1486.0416305603426" y2="716.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="1462.0416305603426" y="705.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Webhooks</title></rect><text x="1486.0416305603426" y="721.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1336" y1="566" x2="1311.9583694396574" y2="541.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1287.9583694396574" y="530.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Webhooks</title></rect><text x="1311.9583694396574" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1336" y1="986" x2="1311.9583694396574" y2="961.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1287.9583694396574" y="950.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Workflows</title></rect><text x="1311.9583694396574" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="1714" y1="1532" x2="1738.0416305603426" y2="1556.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1714.0416305603426" y="1545.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Workflows</title></rect><text x="1738.0416305603426" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="244" y1="776" x2="219.9583694396574" y2="751.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="195.9583694396574" y="740.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Entities Local</title></rect><text x="219.9583694396574" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EL</text>
+<line x1="286" y1="1322" x2="261.95836943965736" y2="1346.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="237.95836943965736" y="1335.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Entities Local</title></rect><text x="261.95836943965736" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EL</text>
+<line x1="1252" y1="860" x2="1276.0416305603426" y2="835.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1252.0416305603426" y="824.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>More Local</title></rect><text x="1276.0416305603426" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1042" y1="1364" x2="1042.0" y2="1398.0" stroke="#B0287F" stroke-width="7"/><rect x="1018.0" y="1387.0" width="48" height="22" rx="5" fill="#B0287F"><title>More Local</title></rect><text x="1042.0" y="1403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/bem/bem-buckets-api/#op-v3-create-bucket" target="_blank" class="st" data-op="v3-create-bucket"><title>POST /v3/buckets
+Buckets line · v3-create-bucket</title>
+<circle cx="1462" cy="818" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1468" y="806" transform="rotate(-45 1468 806)" style="fill:#1A1F2C">Create bucket</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-buckets-api/#op-v3-list-buckets" target="_blank" class="st" data-op="v3-list-buckets"><title>GET /v3/buckets
+Buckets line · v3-list-buckets</title>
+<circle cx="1546" cy="818" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1540" y="830" text-anchor="end" transform="rotate(-45 1540 830)" style="fill:#1A1F2C">List buckets</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-buckets-api/#op-v3-get-bucket" target="_blank" class="st" data-op="v3-get-bucket"><title>GET /v3/buckets/{bucketID}
+Buckets line · v3-get-bucket</title>
+<circle cx="1378" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1366.0" y="823" text-anchor="end" style="fill:#1A1F2C">Get bucket</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-buckets-api/#op-v3-update-bucket" target="_blank" class="st" data-op="v3-update-bucket"><title>PATCH /v3/buckets/{bucketID}
+Buckets line · v3-update-bucket</title>
+<circle cx="1294" cy="734" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1306" y="739" text-anchor="start" style="fill:#1A1F2C">Update bucket</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-buckets-api/#op-v3-delete-bucket" target="_blank" class="st" data-op="v3-delete-bucket"><title>DELETE /v3/buckets/{bucketID}
+Buckets line · v3-delete-bucket</title>
+<circle cx="1252" cy="692" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1248" y1="696" x2="1256" y2="688" stroke="#0B7A75" stroke-width="2"/>
+<text x="1264" y="697" text-anchor="start" style="fill:#1A1F2C">Delete bucket</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-calls-api/#op-v3-list-calls" target="_blank" class="st" data-op="v3-list-calls"><title>GET /v3/calls
+Calls line · v3-list-calls</title>
+<circle cx="1126" cy="608" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1138" y="613" text-anchor="start" style="fill:#1A1F2C">List calls</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-calls-api/#op-v3-get-call" target="_blank" class="st" data-op="v3-get-call"><title>GET /v3/calls/{callID}
+Calls line · v3-get-call</title>
+<circle cx="1126" cy="692" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1138" y="697" text-anchor="start" style="fill:#1A1F2C">Get call</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-calls-api/#op-v3-get-call-trace" target="_blank" class="st" data-op="v3-get-call-trace"><title>GET /v3/calls/{callID}/trace
+Calls line · v3-get-call-trace</title>
+<circle cx="1126" cy="776" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1138" y="781" text-anchor="start" style="fill:#1A1F2C">Get trace</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-delete-collection" target="_blank" class="st" data-op="v3-delete-collection"><title>DELETE /v3/collections
+Collections line · v3-delete-collection</title>
+<circle cx="1798" cy="860" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1794" y1="864" x2="1802" y2="856" stroke="#E07B12" stroke-width="2"/>
+<text x="1804" y="848" transform="rotate(-45 1804 848)" style="fill:#1A1F2C">Delete collection</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-list-collections" target="_blank" class="st" data-op="v3-list-collections"><title>GET /v3/collections
+Collections line · v3-list-collections</title>
+<circle cx="1966" cy="860" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1960" y="872" text-anchor="end" transform="rotate(-45 1960 872)" style="fill:#1A1F2C">List collections</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-create-collection" target="_blank" class="st" data-op="v3-create-collection"><title>POST /v3/collections
+Collections line · v3-create-collection</title>
+<circle cx="1882" cy="860" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1888" y="848" transform="rotate(-45 1888 848)" style="fill:#1A1F2C">Create collection</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-delete-collection-item" target="_blank" class="st" data-op="v3-delete-collection-item"><title>DELETE /v3/collections/items
+Collections line · v3-delete-collection-item</title>
+<circle cx="1672" cy="608" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1668" y1="612" x2="1676" y2="604" stroke="#E07B12" stroke-width="2"/>
+<text x="1684" y="613" text-anchor="start" style="fill:#1A1F2C">Delete item</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-get-collection" target="_blank" class="st" data-op="v3-get-collection"><title>GET /v3/collections/items
+Collections line · v3-get-collection</title>
+<circle cx="1756" cy="860" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1744.0" y="865" text-anchor="end" style="fill:#1A1F2C">List items</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-add-collection-items" target="_blank" class="st" data-op="v3-add-collection-items"><title>POST /v3/collections/items
+Collections line · v3-add-collection-items</title>
+<circle cx="1672" cy="776" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1684" y="781" text-anchor="start" style="fill:#1A1F2C">Create item</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-update-collection-items" target="_blank" class="st" data-op="v3-update-collection-items"><title>PUT /v3/collections/items
+Collections line · v3-update-collection-items</title>
+<circle cx="1672" cy="692" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1684" y="697" text-anchor="start" style="fill:#1A1F2C">Create item</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-collections-api/#op-v3-count-tokens" target="_blank" class="st" data-op="v3-count-tokens"><title>POST /v3/collections/token-count
+Collections line · v3-count-tokens</title>
+<circle cx="1672" cy="524" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1684" y="529" text-anchor="start" style="fill:#1A1F2C">Update token count</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-connectors-api/#op-v3-create-connector" target="_blank" class="st" data-op="v3-create-connector"><title>POST /v3/connectors
+Connectors line · v3-create-connector</title>
+<circle cx="244" cy="1070" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="250" y="1058" transform="rotate(-45 250 1058)" style="fill:#1A1F2C">Create connector</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-connectors-api/#op-v3-list-connectors" target="_blank" class="st" data-op="v3-list-connectors"><title>GET /v3/connectors
+Connectors line · v3-list-connectors</title>
+<circle cx="160" cy="1070" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="166" y="1058" transform="rotate(-45 166 1058)" style="fill:#1A1F2C">List connectors</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-connectors-api/#op-v3-delete-connector" target="_blank" class="st" data-op="v3-delete-connector"><title>DELETE /v3/connectors/{connectorID}
+Connectors line · v3-delete-connector</title>
+<circle cx="328" cy="1070" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="324" y1="1074" x2="332" y2="1066" stroke="#5C6BC0" stroke-width="2"/>
+<text x="322" y="1082" text-anchor="end" transform="rotate(-45 322 1082)" style="fill:#1A1F2C">Delete connector</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-bulk-seed-api/#op-v3-bulk-seed-entities" target="_blank" class="st" data-op="v3-bulk-seed-entities"><title>POST /v3/entities/bulk
+Entities Local line · v3-bulk-seed-entities</title>
+<circle cx="328" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="340" y="865" text-anchor="start" style="fill:#1A1F2C">Update bulk <tspan font-weight="700" style="fill:#0B7A75">⇄BUC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-bulk-seed-api/#op-v3-get-seed-job" target="_blank" class="st" data-op="v3-get-seed-job"><title>GET /v3/entities/seed/{id}
+Entities Local line · v3-get-seed-job</title>
+<circle cx="454" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="991" text-anchor="start" style="fill:#1A1F2C">Get seed</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-curation-api/#op-v3-bulk-validate-entities" target="_blank" class="st" data-op="v3-bulk-validate-entities"><title>POST /v3/entities/bulk-validate
+Entities Local line · v3-bulk-validate-entities</title>
+<circle cx="412" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="949" text-anchor="start" style="fill:#1A1F2C">Update bulk validate</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-curation-api/#op-v3-update-entity" target="_blank" class="st" data-op="v3-update-entity"><title>PATCH /v3/entities/{id}
+Entities Local line · v3-update-entity</title>
+<circle cx="244" cy="776" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="781" text-anchor="start" style="fill:#1A1F2C">Update entity</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-synonyms-api/#op-v3-add-entity-synonym" target="_blank" class="st" data-op="v3-add-entity-synonym"><title>POST /v3/entities/{id}/synonyms
+Entities Local line · v3-add-entity-synonym</title>
+<circle cx="496" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="1117" text-anchor="start" style="fill:#1A1F2C">Create synonym</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-synonyms-api/#op-v3-remove-entity-synonym" target="_blank" class="st" data-op="v3-remove-entity-synonym"><title>DELETE /v3/entities/{id}/synonyms/{synonymID}
+Entities Local line · v3-remove-entity-synonym</title>
+<circle cx="370" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="366" y1="1242" x2="374" y2="1234" stroke="#D6264F" stroke-width="2"/>
+<text x="382" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete synonym</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-type-reviewers-api/#op-v3-add-entity-type-reviewer" target="_blank" class="st" data-op="v3-add-entity-type-reviewer"><title>POST /v3/entity-types/{typeID}/reviewers
+Entity Type Reviewers line · v3-add-entity-type-reviewer</title>
+<circle cx="748" cy="1490" r="5.5" fill="#0d7768" stroke="#0d7768" stroke-width="2.5"/>
+<text x="736.0" y="1495" text-anchor="end" style="fill:#1A1F2C">Create reviewer</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-type-reviewers-api/#op-v3-list-entity-type-reviewers" target="_blank" class="st" data-op="v3-list-entity-type-reviewers"><title>GET /v3/entity-types/{typeID}/reviewers
+Entity Type Reviewers line · v3-list-entity-type-reviewers</title>
+<circle cx="874" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="868" y="1502" text-anchor="end" transform="rotate(-45 868 1502)" style="fill:#1A1F2C">List reviewers</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-type-reviewers-api/#op-v3-remove-entity-type-reviewer" target="_blank" class="st" data-op="v3-remove-entity-type-reviewer"><title>DELETE /v3/entity-types/{typeID}/reviewers/{userID}
+Entity Type Reviewers line · v3-remove-entity-type-reviewer</title>
+<circle cx="706" cy="1532" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<line x1="702" y1="1536" x2="710" y2="1528" stroke="#0d7768" stroke-width="2"/>
+<text x="718" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete reviewer</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-type-reviewers-api/#op-v3-list-user-reviewer-assignments" target="_blank" class="st" data-op="v3-list-user-reviewer-assignments"><title>GET /v3/users/{userID}/reviewer-assignments
+Entity Type Reviewers line · v3-list-user-reviewer-assignments</title>
+<circle cx="622" cy="1616" r="5.5" fill="#fff" stroke="#0d7768" stroke-width="2.5"/>
+<text x="634" y="1621" text-anchor="start" style="fill:#1A1F2C">List reviewer assignments</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-types-api/#op-v3-create-entity-type" target="_blank" class="st" data-op="v3-create-entity-type"><title>POST /v3/entity-types
+Entity Types line · v3-create-entity-type</title>
+<circle cx="916" cy="1364" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="904.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Create entity type</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-types-api/#op-v3-list-entity-types" target="_blank" class="st" data-op="v3-list-entity-types"><title>GET /v3/entity-types
+Entity Types line · v3-list-entity-types</title>
+<circle cx="916" cy="1280" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="928" y="1285" text-anchor="start" style="fill:#1A1F2C">List entity types</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-types-api/#op-v3-get-entity-type" target="_blank" class="st" data-op="v3-get-entity-type"><title>GET /v3/entity-types/{typeID}
+Entity Types line · v3-get-entity-type</title>
+<circle cx="916" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="928" y="1453" text-anchor="start" style="fill:#1A1F2C">Get entity type</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-types-api/#op-v3-update-entity-type" target="_blank" class="st" data-op="v3-update-entity-type"><title>PATCH /v3/entity-types/{typeID}
+Entity Types line · v3-update-entity-type</title>
+<circle cx="1000" cy="1532" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1012" y="1537" text-anchor="start" style="fill:#1A1F2C">Update entity type</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-entity-types-api/#op-v3-delete-entity-type" target="_blank" class="st" data-op="v3-delete-entity-type"><title>DELETE /v3/entity-types/{typeID}
+Entity Types line · v3-delete-entity-type</title>
+<circle cx="1084" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1080" y1="1620" x2="1088" y2="1612" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1096" y="1621" text-anchor="start" style="fill:#1A1F2C">Delete entity type</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-errors-api/#op-v3-list-errors" target="_blank" class="st" data-op="v3-list-errors"><title>GET /v3/errors
+More Local line · v3-list-errors</title>
+<circle cx="1252" cy="860" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="865" text-anchor="start" style="fill:#1A1F2C">List errors</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-errors-api/#op-v3-get-error" target="_blank" class="st" data-op="v3-get-error"><title>GET /v3/errors/{eventID}
+More Local line · v3-get-error</title>
+<circle cx="1210" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="907" text-anchor="start" style="fill:#1A1F2C">Get error</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-feedback-api/#op-v3-submit-event-feedback" target="_blank" class="st" data-op="v3-submit-event-feedback"><title>POST /v3/events/{eventID}/feedback
+More Local line · v3-submit-event-feedback</title>
+<circle cx="1126" cy="986" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="991" text-anchor="start" style="fill:#1A1F2C">Update feedback</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-filesystem-api/#op-v3-fs" target="_blank" class="st" data-op="v3-fs"><title>POST /v3/fs
+More Local line · v3-fs</title>
+<circle cx="1084" cy="1028" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1096" y="1033" text-anchor="start" style="fill:#1A1F2C">Create f</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-trigger-transformation-evaluations" target="_blank" class="st" data-op="v3-trigger-transformation-evaluations"><title>POST /v3/eval
+Function Accuracy line · v3-trigger-transformation-evaluations</title>
+<circle cx="2134" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2128" y="368" text-anchor="end" transform="rotate(-45 2128 368)" style="fill:#1A1F2C">Update eval</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-get-evaluation-results" target="_blank" class="st" data-op="v3-get-evaluation-results"><title>GET /v3/eval/results
+Function Accuracy line · v3-get-evaluation-results</title>
+<circle cx="2050" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2056" y="344" transform="rotate(-45 2056 344)" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-eval-score-create" target="_blank" class="st" data-op="v3-eval-score-create"><title>POST /v3/eval/score
+Function Accuracy line · v3-eval-score-create</title>
+<circle cx="1924" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1912.0" y="361" text-anchor="end" style="fill:#1A1F2C">Update score</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-eval-score-get" target="_blank" class="st" data-op="v3-eval-score-get"><title>GET /v3/eval/score/{scoreRunID}
+Function Accuracy line · v3-eval-score-get</title>
+<circle cx="1882" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1894" y="403" text-anchor="start" style="fill:#1A1F2C">Get score</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-eval-score-cancel" target="_blank" class="st" data-op="v3-eval-score-cancel"><title>POST /v3/eval/score/{scoreRunID}/cancel
+Function Accuracy line · v3-eval-score-cancel</title>
+<circle cx="1756" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1762" y="386" transform="rotate(-45 1762 386)" style="fill:#1A1F2C">Cancel score</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-function-version-compare" target="_blank" class="st" data-op="v3-function-version-compare"><title>POST /v3/functions/compare
+Function Accuracy line · v3-function-version-compare</title>
+<circle cx="1672" cy="398" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1678" y="386" transform="rotate(-45 1678 386)" style="fill:#1A1F2C">Update compare <tspan font-weight="700" style="fill:#7B3FE4">⇄FUN</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-get-function-metrics" target="_blank" class="st" data-op="v3-get-function-metrics"><title>GET /v3/functions/metrics
+Function Accuracy line · v3-get-function-metrics</title>
+<circle cx="1588" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1576.0" y="403" text-anchor="end" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-function-regression" target="_blank" class="st" data-op="v3-function-regression"><title>POST /v3/functions/regression
+Function Accuracy line · v3-function-regression</title>
+<circle cx="1546" cy="356" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="361" text-anchor="start" style="fill:#1A1F2C">Update regression</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-apply-baseline-corrections" target="_blank" class="st" data-op="v3-apply-baseline-corrections"><title>POST /v3/functions/regression/corrections
+Function Accuracy line · v3-apply-baseline-corrections</title>
+<circle cx="1504" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="319" text-anchor="start" style="fill:#1A1F2C">Create correction</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-function-accuracy-api/#op-v3-function-review" target="_blank" class="st" data-op="v3-function-review"><title>POST /v3/functions/review
+Function Accuracy line · v3-function-review</title>
+<circle cx="1378" cy="314" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1384" y="302" transform="rotate(-45 1384 302)" style="fill:#1A1F2C">Update review</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-create-function" target="_blank" class="st" data-op="v3-create-function"><title>POST /v3/functions
+Functions line · v3-create-function</title>
+<circle cx="2386" cy="734" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2398" y="739" text-anchor="start" style="fill:#1A1F2C">Create function</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-list-functions" target="_blank" class="st" data-op="v3-list-functions"><title>GET /v3/functions
+Functions line · v3-list-functions</title>
+<circle cx="2470" cy="650" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2482" y="655" text-anchor="start" style="fill:#1A1F2C">List functions</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-copy-function" target="_blank" class="st" data-op="v3-copy-function"><title>POST /v3/functions/copy
+Functions line · v3-copy-function</title>
+<circle cx="2134" cy="902" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2146" y="907" text-anchor="start" style="fill:#1A1F2C">Update copy</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-delete-function" target="_blank" class="st" data-op="v3-delete-function"><title>DELETE /v3/functions/{functionName}
+Functions line · v3-delete-function</title>
+<circle cx="2134" cy="818" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2130" y1="822" x2="2138" y2="814" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2146" y="823" text-anchor="start" style="fill:#1A1F2C">Delete function</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-get-function" target="_blank" class="st" data-op="v3-get-function"><title>GET /v3/functions/{functionName}
+Functions line · v3-get-function</title>
+<circle cx="2344" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2356" y="781" text-anchor="start" style="fill:#1A1F2C">Get function</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-update-function" target="_blank" class="st" data-op="v3-update-function"><title>PATCH /v3/functions/{functionName}
+Functions line · v3-update-function</title>
+<circle cx="2176" cy="776" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2164.0" y="781" text-anchor="end" style="fill:#1A1F2C">Update function</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-list-function-versions" target="_blank" class="st" data-op="v3-list-function-versions"><title>GET /v3/functions/{functionName}/versions
+Functions line · v3-list-function-versions</title>
+<circle cx="2134" cy="986" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2146" y="991" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-functions-api/#op-v3-get-function-version" target="_blank" class="st" data-op="v3-get-function-version"><title>GET /v3/functions/{functionName}/versions/{versionNum}
+Functions line · v3-get-function-version</title>
+<circle cx="2134" cy="1070" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2146" y="1075" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-knowledge-graph-api/#op-v3-get-entity-relations" target="_blank" class="st" data-op="v3-get-entity-relations"><title>GET /v3/entities/{id}/relations
+Entities Local line · v3-get-entity-relations</title>
+<circle cx="496" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="1033" text-anchor="start" style="fill:#1A1F2C">List relations</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-knowledge-graph-api/#op-v3-get-knowledge-graph" target="_blank" class="st" data-op="v3-get-knowledge-graph"><title>GET /v3/knowledge-graph
+Entities Local line · v3-get-knowledge-graph</title>
+<circle cx="286" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="1327" text-anchor="start" style="fill:#1A1F2C">Get knowledge graph</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-outputs-api/#op-v3-list-outputs" target="_blank" class="st" data-op="v3-list-outputs"><title>GET /v3/outputs
+More Local line · v3-list-outputs</title>
+<circle cx="1042" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="1201" text-anchor="start" style="fill:#1A1F2C">List outputs</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-outputs-api/#op-v3-get-output" target="_blank" class="st" data-op="v3-get-output"><title>GET /v3/outputs/{eventID}
+More Local line · v3-get-output</title>
+<circle cx="1042" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="1285" text-anchor="start" style="fill:#1A1F2C">Get output</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-review-queue-api/#op-v3-list-review-queue" target="_blank" class="st" data-op="v3-list-review-queue"><title>GET /v3/review-queue
+More Local line · v3-list-review-queue</title>
+<circle cx="1042" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1054" y="1369" text-anchor="start" style="fill:#1A1F2C">Get review queue <tspan font-weight="700" style="fill:#0B7A75">⇄BUC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-schema-inference-api/#op-v3-infer-schema" target="_blank" class="st" data-op="v3-infer-schema"><title>POST /v3/infer-schema
+More Local line · v3-infer-schema</title>
+<circle cx="1042" cy="1070" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="1075" text-anchor="start" style="fill:#1A1F2C">Update infer schema</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-subscriptions-api/#op-v3-list-subscriptions" target="_blank" class="st" data-op="v3-list-subscriptions"><title>GET /v3/subscriptions
+Subscriptions line · v3-list-subscriptions</title>
+<circle cx="1252" cy="1448" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1258" y="1436" transform="rotate(-45 1258 1436)" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-subscriptions-api/#op-v3-create-subscription" target="_blank" class="st" data-op="v3-create-subscription"><title>POST /v3/subscriptions
+Subscriptions line · v3-create-subscription</title>
+<circle cx="1336" cy="1448" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1342" y="1436" transform="rotate(-45 1342 1436)" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-subscriptions-api/#op-v3-delete-subscription" target="_blank" class="st" data-op="v3-delete-subscription"><title>DELETE /v3/subscriptions/{subscriptionID}
+Subscriptions line · v3-delete-subscription</title>
+<circle cx="1630" cy="1616" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1626" y1="1620" x2="1634" y2="1612" stroke="#B8860B" stroke-width="2"/>
+<text x="1642" y="1621" text-anchor="start" style="fill:#1A1F2C">Delete subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-subscriptions-api/#op-v3-get-subscription" target="_blank" class="st" data-op="v3-get-subscription"><title>GET /v3/subscriptions/{subscriptionID}
+Subscriptions line · v3-get-subscription</title>
+<circle cx="1462" cy="1448" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1474" y="1453" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-subscriptions-api/#op-v3-update-subscription" target="_blank" class="st" data-op="v3-update-subscription"><title>PATCH /v3/subscriptions/{subscriptionID}
+Subscriptions line · v3-update-subscription</title>
+<circle cx="1546" cy="1532" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1558" y="1537" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-list-views" target="_blank" class="st" data-op="v3-list-views"><title>GET /v3/views
+Views line · v3-list-views</title>
+<circle cx="1252" cy="230" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="235" text-anchor="start" style="fill:#1A1F2C">List views</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-create-view" target="_blank" class="st" data-op="v3-create-view"><title>POST /v3/views
+Views line · v3-create-view</title>
+<circle cx="1168" cy="314" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="319" text-anchor="start" style="fill:#1A1F2C">Create view</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-generate-view-aggregation-data" target="_blank" class="st" data-op="v3-generate-view-aggregation-data"><title>POST /v3/views/aggregation-data
+Views line · v3-generate-view-aggregation-data</title>
+<circle cx="1000" cy="608" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="988.0" y="613" text-anchor="end" style="fill:#1A1F2C">Update aggregation data</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-generate-view-table-data" target="_blank" class="st" data-op="v3-generate-view-table-data"><title>POST /v3/views/table-data
+Views line · v3-generate-view-table-data</title>
+<circle cx="1000" cy="692" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1012" y="697" text-anchor="start" style="fill:#1A1F2C">Update table data</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-delete-view" target="_blank" class="st" data-op="v3-delete-view"><title>DELETE /v3/views/{view_id}
+Views line · v3-delete-view</title>
+<circle cx="1000" cy="482" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="996" y1="486" x2="1004" y2="478" stroke="#B0287F" stroke-width="2"/>
+<text x="1012" y="487" text-anchor="start" style="fill:#1A1F2C">Delete view</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-get-view" target="_blank" class="st" data-op="v3-get-view"><title>GET /v3/views/{view_id}
+Views line · v3-get-view</title>
+<circle cx="1126" cy="356" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="361" text-anchor="start" style="fill:#1A1F2C">Get view</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-views-api/#op-v3-update-view" target="_blank" class="st" data-op="v3-update-view"><title>PUT /v3/views/{view_id}
+Views line · v3-update-view</title>
+<circle cx="1042" cy="440" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1054" y="445" text-anchor="start" style="fill:#1A1F2C">Update view</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-webhooks-api/#op-v3-get-webhook-secret" target="_blank" class="st" data-op="v3-get-webhook-secret"><title>GET /v3/webhook-secret
+Webhooks line · v3-get-webhook-secret</title>
+<circle cx="1462" cy="692" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1474" y="697" text-anchor="start" style="fill:#1A1F2C">Get webhook secret</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-webhooks-api/#op-v3-generate-webhook-secret" target="_blank" class="st" data-op="v3-generate-webhook-secret"><title>POST /v3/webhook-secret
+Webhooks line · v3-generate-webhook-secret</title>
+<circle cx="1420" cy="650" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1432" y="655" text-anchor="start" style="fill:#1A1F2C">Update webhook secret</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-webhooks-api/#op-v3-revoke-webhook-secret" target="_blank" class="st" data-op="v3-revoke-webhook-secret"><title>DELETE /v3/webhook-secret
+Webhooks line · v3-revoke-webhook-secret</title>
+<circle cx="1336" cy="566" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1332" y1="570" x2="1340" y2="562" stroke="#2E7D32" stroke-width="2"/>
+<text x="1348" y="571" text-anchor="start" style="fill:#1A1F2C">Delete webhook secret</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-list-workflows" target="_blank" class="st" data-op="v3-list-workflows"><title>GET /v3/workflows
+Workflows line · v3-list-workflows</title>
+<circle cx="1336" cy="986" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1348" y="991" text-anchor="start" style="fill:#1A1F2C">List workflows</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-create-workflow" target="_blank" class="st" data-op="v3-create-workflow"><title>POST /v3/workflows
+Workflows line · v3-create-workflow</title>
+<circle cx="1378" cy="1028" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1390" y="1033" text-anchor="start" style="fill:#1A1F2C">Create workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-copy-workflow" target="_blank" class="st" data-op="v3-copy-workflow"><title>POST /v3/workflows/copy
+Workflows line · v3-copy-workflow</title>
+<circle cx="1504" cy="1322" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1516" y="1327" text-anchor="start" style="fill:#1A1F2C">Update copy</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-delete-workflow" target="_blank" class="st" data-op="v3-delete-workflow"><title>DELETE /v3/workflows/{workflowName}
+Workflows line · v3-delete-workflow</title>
+<circle cx="1420" cy="1238" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1416" y1="1242" x2="1424" y2="1234" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1432" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-get-workflow" target="_blank" class="st" data-op="v3-get-workflow"><title>GET /v3/workflows/{workflowName}
+Workflows line · v3-get-workflow</title>
+<circle cx="1420" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="1075" text-anchor="start" style="fill:#1A1F2C">Get workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-update-workflow" target="_blank" class="st" data-op="v3-update-workflow"><title>PATCH /v3/workflows/{workflowName}
+Workflows line · v3-update-workflow</title>
+<circle cx="1420" cy="1154" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="1159" text-anchor="start" style="fill:#1A1F2C">Update workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-call-workflow" target="_blank" class="st" data-op="v3-call-workflow"><title>POST /v3/workflows/{workflowName}/call
+Workflows line · v3-call-workflow</title>
+<circle cx="1546" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1558" y="1369" text-anchor="start" style="fill:#1A1F2C">Update call <tspan font-weight="700" style="fill:#0B7A75">⇄BUC</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-list-workflow-versions" target="_blank" class="st" data-op="v3-list-workflow-versions"><title>GET /v3/workflows/{workflowName}/versions
+Workflows line · v3-list-workflow-versions</title>
+<circle cx="1630" cy="1448" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1642" y="1453" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/bem/bem-workflows-api/#op-v3-get-workflow-version" target="_blank" class="st" data-op="v3-get-workflow-version"><title>GET /v3/workflows/{workflowName}/versions/{versionNum}
+Workflows line · v3-get-workflow-version</title>
+<circle cx="1714" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1726" y="1537" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<text x="2660" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2660" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">EVAL</text>
+<rect x="2660" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2677" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FA</text><text x="2702" y="269" font-size="11" fill="#1A1F2C">Function Accuracy <tspan fill="#8A93A6">10</tspan></text>
+<text x="2660" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">ENTITY TYPES</text>
+<rect x="2660" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2677" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ET</text><text x="2702" y="312" font-size="11" fill="#1A1F2C">Entity Types <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2660" y="319" width="34" height="13" rx="3" fill="#0d7768"/><text x="2677" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ETR</text><text x="2702" y="329" font-size="11" fill="#1A1F2C">Entity Type Reviewers <tspan fill="#8A93A6">4</tspan></text>
+<text x="2660" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">WORKFLOWS</text>
+<rect x="2660" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2677" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="2702" y="372" font-size="11" fill="#1A1F2C">Workflows <tspan fill="#8A93A6">9</tspan></text>
+<text x="2660" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">COLLECTIONS</text>
+<rect x="2660" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="2677" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COL</text><text x="2702" y="415" font-size="11" fill="#1A1F2C">Collections <tspan fill="#8A93A6">8</tspan></text>
+<text x="2660" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">FUNCTIONS</text>
+<rect x="2660" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2677" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">FUN</text><text x="2702" y="458" font-size="11" fill="#1A1F2C">Functions <tspan fill="#8A93A6">8</tspan></text>
+<text x="2660" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">VIEWS</text>
+<rect x="2660" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="2677" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VIE</text><text x="2702" y="501" font-size="11" fill="#1A1F2C">Views <tspan fill="#8A93A6">7</tspan></text>
+<text x="2660" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">BUCKETS</text>
+<rect x="2660" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2677" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BUC</text><text x="2702" y="544" font-size="11" fill="#1A1F2C">Buckets <tspan fill="#8A93A6">5</tspan></text>
+<text x="2660" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">SUBSCRIPTIONS</text>
+<rect x="2660" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="2677" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUB</text><text x="2702" y="587" font-size="11" fill="#1A1F2C">Subscriptions <tspan fill="#8A93A6">5</tspan></text>
+<text x="2660" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">CALLS</text>
+<rect x="2660" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="2677" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAL</text><text x="2702" y="630" font-size="11" fill="#1A1F2C">Calls <tspan fill="#8A93A6">3</tspan></text>
+<text x="2660" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">WEBHOOK SECRET</text>
+<rect x="2660" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2677" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="2702" y="673" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">3</tspan></text>
+<text x="2660" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">CONNECTORS</text>
+<rect x="2660" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2677" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="2702" y="716" font-size="11" fill="#1A1F2C">Connectors <tspan fill="#8A93A6">3</tspan></text>
+<text x="2660" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2660" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="2677" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EL</text><text x="2702" y="759" font-size="11" fill="#1A1F2C">Entities Local <tspan fill="#8A93A6">8</tspan></text>
+<rect x="2660" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="2677" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2702" y="776" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">8</tspan></text>
+<text x="2910" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2928,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2954" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2928,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2954" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2928,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2954" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2928,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2954" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2928,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2954" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2928,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2954" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2928,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2954" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2928,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2954" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2910" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2910" y="463" font-size="10.5" fill="#5A6275">“Entity Bulk Seed” → Entities Local line · 2 ops</text>
+<text x="2910" y="478" font-size="10.5" fill="#5A6275">“Entity Curation” → Entities Local line · 2 ops</text>
+<text x="2910" y="493" font-size="10.5" fill="#5A6275">“Entity Synonyms” → Entities Local line · 2 ops</text>
+<text x="2910" y="508" font-size="10.5" fill="#5A6275">“Errors” → More Local line · 2 ops</text>
+<text x="2910" y="523" font-size="10.5" fill="#5A6275">“Feedback” → More Local line · 1 op</text>
+<text x="2910" y="538" font-size="10.5" fill="#5A6275">“Filesystem” → More Local line · 1 op</text>
+<text x="2910" y="553" font-size="10.5" fill="#5A6275">“Knowledge Graph” → Entities Local line · 2 ops</text>
+<text x="2910" y="568" font-size="10.5" fill="#5A6275">“Outputs” → More Local line · 2 ops</text>
+<text x="2910" y="583" font-size="10.5" fill="#5A6275">“Review Queue” → More Local line · 1 op</text>
+<text x="2910" y="598" font-size="10.5" fill="#5A6275">“Schema Inference” → More Local line · 1 op</text>
+<text x="2910" y="648" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2910" y="665" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1746" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/bem/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
