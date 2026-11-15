@@ -1,0 +1,608 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1994 1986" width="1994" height="1986" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1994" height="1986" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Amazon-Neptune API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">85 operations as stops · 15 tags as lines · 8 interchanges · 15 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="412" y1="692" x2="454" y2="734" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="412" y1="692" x2="454" y2="734" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="1084" y1="482" x2="1042" y2="524" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1084" y1="482" x2="1042" y2="524" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="790" y1="650" x2="748" y2="692" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="790" y1="650" x2="748" y2="692" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<line x1="790" y1="1070" x2="748" y2="1028" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="790" y1="1070" x2="748" y2="1028" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Operations" d="M580.0,692.0 L664.0,692.0 L734.0,692.0 Q748.0,692.0 757.9,701.9 L822.1,766.1 Q832.0,776.0 832.0,790.0 L832.0,860.0 L832.0,930.0 Q832.0,944.0 822.1,953.9 L757.9,1018.1 Q748.0,1028.0 734.0,1028.0 L664.0,1028.0 L594.0,1028.0 Q580.0,1028.0 570.1,1018.1 L505.9,953.9 Q496.0,944.0 496.0,930.0 L496.0,860.0 L496.0,790.0 Q496.0,776.0 505.9,766.1 L580.0,692.0" fill="none" stroke="#0E9F6E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Operations</title></path>
+<path class="line" data-line="Exporttasks" d="M1084.0,1154.0 L1000.0,1070.0 L967.9,1037.9 Q958.0,1028.0 958.0,1014.0 L958.0,902.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Exporttasks</title></path>
+<path class="line" data-line="Graph Snapshots" d="M412.0,356.0 L486.1,430.1 Q496.0,440.0 510.0,440.0 L524.0,440.0 Q538.0,440.0 547.9,430.1 L570.1,407.9 Q580.0,398.0 580.0,384.0 L580.0,314.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Graph Snapshots</title></path>
+<path class="line" data-line="Graphs" d="M244.0,902.0 L286.0,860.0 L402.1,743.9 Q412.0,734.0 426.0,734.0 L454.0,734.0 L286.0,734.0 L244.0,734.0 L160.0,734.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Graphs</title></path>
+<path class="line" data-line="Gremlin" d="M706.0,230.0 L706.0,314.0 L706.0,384.0 Q706.0,398.0 715.9,407.9 L738.1,430.1 Q748.0,440.0 757.9,430.1 L790.0,398.0 L832.0,356.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Gremlin</title></path>
+<path class="line" data-line="Import Tasks" d="M412.0,818.0 L412.0,902.0 L412.0,1014.0 Q412.0,1028.0 398.0,1028.0 L286.0,1028.0 L202.0,1028.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Import Tasks</title></path>
+<path class="line" data-line="Loader" d="M1168.0,776.0 L1126.0,818.0 L1093.9,850.1 Q1084.0,860.0 1084.0,874.0 L1084.0,944.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Loader</title></path>
+<path class="line" data-line="Ml" d="M916.0,1826.0 L916.0,1742.0 L916.0,1658.0 L916.0,1588.0 Q916.0,1574.0 906.1,1564.1 L841.9,1499.9 Q832.0,1490.0 832.0,1476.0 L832.0,1378.0 Q832.0,1364.0 822.1,1354.1 L790.0,1322.0 L706.0,1238.0 L673.9,1205.9 Q664.0,1196.0 650.0,1196.0 L594.0,1196.0 Q580.0,1196.0 570.1,1205.9 L496.0,1280.0 L454.0,1322.0 L370.0,1406.0 L253.9,1522.1 Q244.0,1532.0 244.0,1546.0 L244.0,1574.0 L244.0,1658.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Ml</title></path>
+<path class="line" data-line="Open Cypher" d="M916.0,272.0 L916.0,426.0 Q916.0,440.0 906.1,449.9 L883.9,472.1 Q874.0,482.0 883.9,491.9 L906.1,514.1 Q916.0,524.0 930.0,524.0 L1042.0,524.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Open Cypher</title></path>
+<path class="line" data-line="Private Graph Endpoints" d="M412.0,692.0 L328.0,608.0 L286.0,566.0 L202.0,482.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Private Graph Endpoints</title></path>
+<path class="line" data-line="Query" d="M1084.0,482.0 L1158.1,556.1 Q1168.0,566.0 1168.0,580.0 L1168.0,594.0 Q1168.0,608.0 1177.9,617.9 L1210.0,650.0 L1294.0,734.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query</title></path>
+<path class="line" data-line="Sparql" d="M370.0,482.0 L398.0,482.0 Q412.0,482.0 421.9,491.9 L486.1,556.1 Q496.0,566.0 510.0,566.0 L580.0,566.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Sparql</title></path>
+<path class="line" data-line="Status" d="M790.0,650.0 L790.0,566.0 L790.0,524.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Status</title></path>
+<path class="line" data-line="Storage" d="M790.0,1070.0 L874.0,1154.0 L958.0,1238.0 L1042.0,1322.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Storage</title></path>
+<path class="line" data-line="Amazon Neptune Local" d="M1042.0,734.0 L958.0,734.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Amazon Neptune Local</title></path>
+<rect x="550" y="639" width="60" height="26" rx="13" fill="#0E9F6E"/><text x="580" y="657" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">OPE</text>
+<line x1="1084" y1="1154" x2="1108.0416305603426" y2="1178.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1084.0416305603426" y="1167.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Exporttasks</title></rect><text x="1108.0416305603426" y="1183.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXP</text>
+<line x1="958" y1="902" x2="958.0" y2="868.0" stroke="#C2410C" stroke-width="7"/><rect x="934.0" y="857.0" width="48" height="22" rx="5" fill="#C2410C"><title>Exporttasks</title></rect><text x="958.0" y="873.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXP</text>
+<line x1="412" y1="356" x2="387.95836943965736" y2="331.95836943965736" stroke="#7B3FE4" stroke-width="7"/><rect x="363.95836943965736" y="320.95836943965736" width="48" height="22" rx="5" fill="#7B3FE4"><title>Graph Snapshots</title></rect><text x="387.95836943965736" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GS</text>
+<line x1="580" y1="314" x2="580.0" y2="280.0" stroke="#7B3FE4" stroke-width="7"/><rect x="556.0" y="269.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Graph Snapshots</title></rect><text x="580.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GS</text>
+<line x1="244" y1="902" x2="219.9583694396574" y2="926.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="195.9583694396574" y="915.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Graphs</title></rect><text x="219.9583694396574" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRA</text>
+<line x1="160" y1="734" x2="126.0" y2="734.0" stroke="#1F5FD1" stroke-width="7"/><rect x="102.0" y="723.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Graphs</title></rect><text x="126.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRA</text>
+<line x1="706" y1="230" x2="706.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="682.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Gremlin</title></rect><text x="706.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRE</text>
+<line x1="832" y1="356" x2="856.0416305603426" y2="331.95836943965736" stroke="#E07B12" stroke-width="7"/><rect x="832.0416305603426" y="320.95836943965736" width="48" height="22" rx="5" fill="#E07B12"><title>Gremlin</title></rect><text x="856.0416305603426" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRE</text>
+<line x1="412" y1="818" x2="412.0" y2="784.0" stroke="#B0287F" stroke-width="7"/><rect x="388.0" y="773.0" width="48" height="22" rx="5" fill="#B0287F"><title>Import Tasks</title></rect><text x="412.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IT</text>
+<line x1="202" y1="1028" x2="168.0" y2="1028.0" stroke="#B0287F" stroke-width="7"/><rect x="144.0" y="1017.0" width="48" height="22" rx="5" fill="#B0287F"><title>Import Tasks</title></rect><text x="168.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IT</text>
+<line x1="1168" y1="776" x2="1192.0416305603426" y2="751.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1168.0416305603426" y="740.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Loader</title></rect><text x="1192.0416305603426" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOA</text>
+<line x1="1084" y1="944" x2="1084.0" y2="978.0" stroke="#2E7D32" stroke-width="7"/><rect x="1060.0" y="967.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Loader</title></rect><text x="1084.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LOA</text>
+<line x1="916" y1="1826" x2="916.0" y2="1860.0" stroke="#D6264F" stroke-width="7"/><rect x="892.0" y="1849.0" width="48" height="22" rx="5" fill="#D6264F"><title>Ml</title></rect><text x="916.0" y="1865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="244" y1="1658" x2="244.0" y2="1692.0" stroke="#D6264F" stroke-width="7"/><rect x="220.0" y="1681.0" width="48" height="22" rx="5" fill="#D6264F"><title>Ml</title></rect><text x="244.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="916" y1="272" x2="916.0" y2="238.0" stroke="#0B7A75" stroke-width="7"/><rect x="892.0" y="227.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Open Cypher</title></rect><text x="916.0" y="243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OC</text>
+<line x1="1042" y1="524" x2="1076.0" y2="524.0" stroke="#0B7A75" stroke-width="7"/><rect x="1052.0" y="513.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Open Cypher</title></rect><text x="1076.0" y="529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OC</text>
+<line x1="412" y1="692" x2="454.42640687119285" y2="697.6568542494924" stroke="#5C6BC0" stroke-width="7"/><rect x="430.42640687119285" y="686.6568542494924" width="48" height="22" rx="5" fill="#5C6BC0"><title>Private Graph Endpoints</title></rect><text x="454.42640687119285" y="702.6568542494924" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PGE</text>
+<line x1="202" y1="482" x2="177.9583694396574" y2="457.95836943965736" stroke="#5C6BC0" stroke-width="7"/><rect x="153.9583694396574" y="446.95836943965736" width="48" height="22" rx="5" fill="#5C6BC0"><title>Private Graph Endpoints</title></rect><text x="177.9583694396574" y="462.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PGE</text>
+<line x1="1084" y1="482" x2="1059.9583694396574" y2="457.95836943965736" stroke="#B8860B" stroke-width="7"/><rect x="1035.9583694396574" y="446.95836943965736" width="48" height="22" rx="5" fill="#B8860B"><title>Query</title></rect><text x="1059.9583694396574" y="462.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="1294" y1="734" x2="1318.0416305603426" y2="758.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1294.0416305603426" y="747.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Query</title></rect><text x="1318.0416305603426" y="763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="370" y1="482" x2="336.0" y2="482.0" stroke="#00838F" stroke-width="7"/><rect x="312.0" y="471.0" width="48" height="22" rx="5" fill="#00838F"><title>Sparql</title></rect><text x="336.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SPA</text>
+<line x1="580" y1="566" x2="614.0" y2="566.0" stroke="#00838F" stroke-width="7"/><rect x="590.0" y="555.0" width="48" height="22" rx="5" fill="#00838F"><title>Sparql</title></rect><text x="614.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SPA</text>
+<line x1="790" y1="650" x2="790.0" y2="684.0" stroke="#4A5568" stroke-width="7"/><rect x="766.0" y="673.0" width="48" height="22" rx="5" fill="#4A5568"><title>Status</title></rect><text x="790.0" y="689.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STA</text>
+<line x1="790" y1="524" x2="790.0" y2="490.0" stroke="#4A5568" stroke-width="7"/><rect x="766.0" y="479.0" width="48" height="22" rx="5" fill="#4A5568"><title>Status</title></rect><text x="790.0" y="495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STA</text>
+<line x1="790" y1="1070" x2="784.3431457505076" y2="1027.5735931288073" stroke="#8D6E63" stroke-width="7"/><rect x="760.3431457505076" y="1016.5735931288073" width="48" height="22" rx="5" fill="#8D6E63"><title>Storage</title></rect><text x="784.3431457505076" y="1032.5735931288073" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="1042" y1="1322" x2="1066.0416305603426" y2="1346.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1042.0416305603426" y="1335.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Storage</title></rect><text x="1066.0416305603426" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="1042" y1="734" x2="1076.0" y2="734.0" stroke="#D6264F" stroke-width="7"/><rect x="1052.0" y="723.0" width="48" height="22" rx="5" fill="#D6264F"><title>Amazon Neptune Local</title></rect><text x="1076.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ANL</text>
+<line x1="958" y1="734" x2="924.0" y2="734.0" stroke="#D6264F" stroke-width="7"/><rect x="900.0" y="723.0" width="48" height="22" rx="5" fill="#D6264F"><title>Amazon Neptune Local</title></rect><text x="924.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ANL</text>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-amazon-neptune-management-api-api/#op-AddTagsToResource" target="_blank" class="st" data-op="AddTagsToResource"><title>POST /?Action=AddTagsToResource
+Amazon Neptune Local line · AddTagsToResource</title>
+<circle cx="1042" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1036" y="746" text-anchor="end" transform="rotate(-45 1036 746)" style="fill:#1A1F2C">AddTagsToResource</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-amazon-neptune-management-api-api/#op-ListTagsForResource" target="_blank" class="st" data-op="amazon-neptune-amazon-neptune-management-api-api:ListTagsForResource"><title>GET /tags/{resourceArn}
+Operations line · ListTagsForResource</title>
+<circle cx="496" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="949" text-anchor="start" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-exporttasks-api/#op-CancelExportTask" target="_blank" class="st" data-op="CancelExportTask"><title>DELETE /exporttasks/{taskIdentifier}
+Exporttasks line · CancelExportTask</title>
+<circle cx="958" cy="902" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="954" y1="906" x2="962" y2="898" stroke="#C2410C" stroke-width="2"/>
+<text x="970" y="907" text-anchor="start" style="fill:#1A1F2C">Delete exporttask</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-exporttasks-api/#op-GetExportTask" target="_blank" class="st" data-op="GetExportTask"><title>GET /exporttasks/{taskIdentifier}
+Exporttasks line · GetExportTask</title>
+<circle cx="958" cy="1028" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="970" y="1033" text-anchor="start" style="fill:#1A1F2C">Get exporttask</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-exporttasks-api/#op-ListExportTasks" target="_blank" class="st" data-op="ListExportTasks"><title>GET /exporttasks
+Exporttasks line · ListExportTasks</title>
+<circle cx="1084" cy="1154" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1096" y="1159" text-anchor="start" style="fill:#1A1F2C">List exporttasks</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-exporttasks-api/#op-StartExportTask" target="_blank" class="st" data-op="StartExportTask"><title>POST /exporttasks
+Exporttasks line · StartExportTask</title>
+<circle cx="1000" cy="1070" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1012" y="1075" text-anchor="start" style="fill:#1A1F2C">Create exporttask</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graph-snapshots-api/#op-RestoreGraphFromSnapshot" target="_blank" class="st" data-op="RestoreGraphFromSnapshot"><title>POST /snapshots/{snapshotIdentifier}/restore
+Graph Snapshots line · RestoreGraphFromSnapshot
+Express: X6</title>
+<circle cx="580" cy="314" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="577" y="311" width="6" height="6" transform="rotate(45 580 314)" fill="#1A1F2C"/>
+<text x="592" y="319" text-anchor="start" style="fill:#1A1F2C">Update restore</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graph-snapshots-api/#op-CreateGraphSnapshot" target="_blank" class="st" data-op="amazon-neptune-graph-snapshots-api:CreateGraphSnapshot"><title>POST /snapshots
+Graph Snapshots line · CreateGraphSnapshot
+Express: X6</title>
+<circle cx="496" cy="440" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="493" y="437" width="6" height="6" transform="rotate(45 496 440)" fill="#1A1F2C"/>
+<text x="484.0" y="445" text-anchor="end" style="fill:#1A1F2C">Create snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graph-snapshots-api/#op-ListGraphSnapshots" target="_blank" class="st" data-op="amazon-neptune-graph-snapshots-api:ListGraphSnapshots"><title>GET /snapshots
+Graph Snapshots line · ListGraphSnapshots</title>
+<circle cx="412" cy="356" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="424" y="361" text-anchor="start" style="fill:#1A1F2C">List snapshots</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graph-snapshots-api/#op-DeleteGraphSnapshot" target="_blank" class="st" data-op="amazon-neptune-graph-snapshots-api:DeleteGraphSnapshot"><title>DELETE /snapshots/{snapshotIdentifier}
+Graph Snapshots line · DeleteGraphSnapshot</title>
+<circle cx="580" cy="398" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="576" y1="402" x2="584" y2="394" stroke="#7B3FE4" stroke-width="2"/>
+<text x="568.0" y="403" text-anchor="end" style="fill:#1A1F2C">Delete snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graph-snapshots-api/#op-GetGraphSnapshot" target="_blank" class="st" data-op="amazon-neptune-graph-snapshots-api:GetGraphSnapshot"><title>GET /snapshots/{snapshotIdentifier}
+Graph Snapshots line · GetGraphSnapshot
+Express: X6</title>
+<circle cx="538" cy="440" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="535" y="437" width="6" height="6" transform="rotate(45 538 440)" fill="#1A1F2C"/>
+<text x="550" y="445" text-anchor="start" style="fill:#1A1F2C">Get snapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graphs-api/#op-CreateGraph" target="_blank" class="st" data-op="CreateGraph"><title>POST /graphs
+Graphs line · CreateGraph
+Express: X2</title>
+<circle cx="286" cy="860" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="283" y="857" width="6" height="6" transform="rotate(45 286 860)" fill="#1A1F2C"/>
+<text x="298" y="865" text-anchor="start" style="fill:#1A1F2C">Create graph</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graphs-api/#op-ListGraphs" target="_blank" class="st" data-op="ListGraphs"><title>GET /graphs
+Graphs line · ListGraphs</title>
+<circle cx="244" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="232.0" y="907" text-anchor="end" style="fill:#1A1F2C">List graphs</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graphs-api/#op-DeleteGraph" target="_blank" class="st" data-op="DeleteGraph"><title>DELETE /graphs/{graphIdentifier}
+Graphs line · DeleteGraph</title>
+<circle cx="160" cy="734" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="156" y1="738" x2="164" y2="730" stroke="#1F5FD1" stroke-width="2"/>
+<text x="166" y="722" transform="rotate(-45 166 722)" style="fill:#1A1F2C">Delete graph</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graphs-api/#op-GetGraph" target="_blank" class="st" data-op="GetGraph"><title>GET /graphs/{graphIdentifier}
+Graphs line · GetGraph
+Express: X2, X4, X5</title>
+<circle cx="454" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="451" y="731" width="6" height="6" transform="rotate(45 454 734)" fill="#1A1F2C"/>
+<text x="466" y="739" text-anchor="start" style="fill:#1A1F2C">Get graph</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graphs-api/#op-ResetGraph" target="_blank" class="st" data-op="ResetGraph"><title>PUT /graphs/{graphIdentifier}
+Graphs line · ResetGraph
+Express: X5</title>
+<circle cx="286" cy="734" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="283" y="731" width="6" height="6" transform="rotate(45 286 734)" fill="#1A1F2C"/>
+<text x="280" y="746" text-anchor="end" transform="rotate(-45 280 746)" style="fill:#1A1F2C">Update graph</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-graphs-api/#op-UpdateGraph" target="_blank" class="st" data-op="UpdateGraph"><title>PATCH /graphs/{graphIdentifier}
+Graphs line · UpdateGraph</title>
+<circle cx="244" cy="734" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="250" y="722" transform="rotate(-45 250 722)" style="fill:#1A1F2C">Update graph</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-gremlin-api/#op-CancelGremlinQuery" target="_blank" class="st" data-op="amazon-neptune-gremlin-api:CancelGremlinQuery"><title>DELETE /gremlin/status/{queryId}
+Gremlin line · CancelGremlinQuery</title>
+<circle cx="832" cy="356" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="828" y1="360" x2="836" y2="352" stroke="#E07B12" stroke-width="2"/>
+<text x="820.0" y="361" text-anchor="end" style="fill:#1A1F2C">Delete statu</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-gremlin-api/#op-GetGremlinQueryStatus" target="_blank" class="st" data-op="amazon-neptune-gremlin-api:GetGremlinQueryStatus"><title>GET /gremlin/status/{queryId}
+Gremlin line · GetGremlinQueryStatus
+Express: X9</title>
+<circle cx="790" cy="398" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="787" y="395" width="6" height="6" transform="rotate(45 790 398)" fill="#1A1F2C"/>
+<text x="802" y="403" text-anchor="start" style="fill:#1A1F2C">Get statu</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-gremlin-api/#op-ExecuteGremlinExplainQuery" target="_blank" class="st" data-op="ExecuteGremlinExplainQuery"><title>POST /gremlin/explain
+Gremlin line · ExecuteGremlinExplainQuery
+Express: X8</title>
+<circle cx="706" cy="314" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="703" y="311" width="6" height="6" transform="rotate(45 706 314)" fill="#1A1F2C"/>
+<text x="718" y="319" text-anchor="start" style="fill:#1A1F2C">Update explain</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-gremlin-api/#op-ExecuteGremlinProfileQuery" target="_blank" class="st" data-op="ExecuteGremlinProfileQuery"><title>POST /gremlin/profile
+Gremlin line · ExecuteGremlinProfileQuery
+Express: X8</title>
+<circle cx="706" cy="398" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="703" y="395" width="6" height="6" transform="rotate(45 706 398)" fill="#1A1F2C"/>
+<text x="694.0" y="403" text-anchor="end" style="fill:#1A1F2C">Update profile</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-gremlin-api/#op-ExecuteGremlinQuery" target="_blank" class="st" data-op="ExecuteGremlinQuery"><title>POST /gremlin
+Gremlin line · ExecuteGremlinQuery
+Express: X9</title>
+<circle cx="706" cy="230" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="703" y="227" width="6" height="6" transform="rotate(45 706 230)" fill="#1A1F2C"/>
+<text x="718" y="235" text-anchor="start" style="fill:#1A1F2C">Update gremlin</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-gremlin-api/#op-ListGremlinQueries" target="_blank" class="st" data-op="ListGremlinQueries"><title>GET /gremlin/status
+Gremlin line · ListGremlinQueries</title>
+<circle cx="748" cy="440" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="742" y="452" text-anchor="end" transform="rotate(-45 742 452)" style="fill:#1A1F2C">List status <tspan font-weight="700" style="fill:#4A5568">⇄STA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-import-tasks-api/#op-CancelImportTask" target="_blank" class="st" data-op="CancelImportTask"><title>DELETE /importtasks/{taskIdentifier}
+Import Tasks line · CancelImportTask
+Express: X1</title>
+<circle cx="202" cy="1028" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="198" y1="1032" x2="206" y2="1024" stroke="#B0287F" stroke-width="2"/>
+<rect x="199" y="1025" width="6" height="6" transform="rotate(45 202 1028)" fill="#1A1F2C"/>
+<text x="208" y="1016" transform="rotate(-45 208 1016)" style="fill:#1A1F2C">Delete importtask</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-import-tasks-api/#op-GetImportTask" target="_blank" class="st" data-op="GetImportTask"><title>GET /importtasks/{taskIdentifier}
+Import Tasks line · GetImportTask
+Express: X1, X3</title>
+<circle cx="286" cy="1028" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="283" y="1025" width="6" height="6" transform="rotate(45 286 1028)" fill="#1A1F2C"/>
+<text x="292" y="1016" transform="rotate(-45 292 1016)" style="fill:#1A1F2C">Get importtask</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-import-tasks-api/#op-CreateGraphUsingImportTask" target="_blank" class="st" data-op="CreateGraphUsingImportTask"><title>POST /importtasks
+Import Tasks line · CreateGraphUsingImportTask
+Express: X3</title>
+<circle cx="412" cy="1028" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="409" y="1025" width="6" height="6" transform="rotate(45 412 1028)" fill="#1A1F2C"/>
+<text x="421" y="1018" text-anchor="start" style="fill:#1A1F2C">Create importtask</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-import-tasks-api/#op-ListImportTasks" target="_blank" class="st" data-op="ListImportTasks"><title>GET /importtasks
+Import Tasks line · ListImportTasks</title>
+<circle cx="412" cy="902" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="400.0" y="907" text-anchor="end" style="fill:#1A1F2C">List importtasks</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-import-tasks-api/#op-StartImportTask" target="_blank" class="st" data-op="StartImportTask"><title>POST /graphs/{graphIdentifier}/importtasks
+Import Tasks line · StartImportTask</title>
+<circle cx="412" cy="818" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="434" y="823" text-anchor="start" style="fill:#1A1F2C">Create importtask <tspan font-weight="700" style="fill:#1F5FD1">⇄GRA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-loader-api/#op-CancelLoaderJob" target="_blank" class="st" data-op="CancelLoaderJob"><title>DELETE /loader/{loadId}
+Loader line · CancelLoaderJob
+Express: X10</title>
+<circle cx="1084" cy="944" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1080" y1="948" x2="1088" y2="940" stroke="#2E7D32" stroke-width="2"/>
+<rect x="1081" y="941" width="6" height="6" transform="rotate(45 1084 944)" fill="#1A1F2C"/>
+<text x="1096" y="949" text-anchor="start" style="fill:#1A1F2C">Delete loader</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-loader-api/#op-GetLoaderJobStatus" target="_blank" class="st" data-op="GetLoaderJobStatus"><title>GET /loader/{loadId}
+Loader line · GetLoaderJobStatus
+Express: X7, X10, X11</title>
+<circle cx="1084" cy="860" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="1081" y="857" width="6" height="6" transform="rotate(45 1084 860)" fill="#1A1F2C"/>
+<text x="1096" y="865" text-anchor="start" style="fill:#1A1F2C">Get loader</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-loader-api/#op-ListLoaderJobs" target="_blank" class="st" data-op="ListLoaderJobs"><title>GET /loader
+Loader line · ListLoaderJobs
+Express: X11</title>
+<circle cx="1168" cy="776" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="1165" y="773" width="6" height="6" transform="rotate(45 1168 776)" fill="#1A1F2C"/>
+<text x="1180" y="781" text-anchor="start" style="fill:#1A1F2C">Get loader</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-loader-api/#op-StartLoaderJob" target="_blank" class="st" data-op="StartLoaderJob"><title>POST /loader
+Loader line · StartLoaderJob
+Express: X7, X11</title>
+<circle cx="1126" cy="818" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<rect x="1123" y="815" width="6" height="6" transform="rotate(45 1126 818)" fill="#1A1F2C"/>
+<text x="1138" y="823" text-anchor="start" style="fill:#1A1F2C">Update loader</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-CancelMLDataProcessingJob" target="_blank" class="st" data-op="CancelMLDataProcessingJob"><title>DELETE /ml/dataprocessing/{id}
+Ml line · CancelMLDataProcessingJob</title>
+<circle cx="916" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="912" y1="1578" x2="920" y2="1570" stroke="#D6264F" stroke-width="2"/>
+<text x="928" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete dataprocessing</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-GetMLDataProcessingJob" target="_blank" class="st" data-op="GetMLDataProcessingJob"><title>GET /ml/dataprocessing/{id}
+Ml line · GetMLDataProcessingJob</title>
+<circle cx="916" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1663" text-anchor="start" style="fill:#1A1F2C">Get dataprocessing</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-CancelMLModelTrainingJob" target="_blank" class="st" data-op="CancelMLModelTrainingJob"><title>DELETE /ml/modeltraining/{id}
+Ml line · CancelMLModelTrainingJob</title>
+<circle cx="454" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="450" y1="1326" x2="458" y2="1318" stroke="#D6264F" stroke-width="2"/>
+<text x="466" y="1327" text-anchor="start" style="fill:#1A1F2C">Delete modeltraining</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-GetMLModelTrainingJob" target="_blank" class="st" data-op="GetMLModelTrainingJob"><title>GET /ml/modeltraining/{id}
+Ml line · GetMLModelTrainingJob</title>
+<circle cx="496" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="1285" text-anchor="start" style="fill:#1A1F2C">Get modeltraining</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-CancelMLModelTransformJob" target="_blank" class="st" data-op="CancelMLModelTransformJob"><title>DELETE /ml/modeltransform/{id}
+Ml line · CancelMLModelTransformJob</title>
+<circle cx="244" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="240" y1="1662" x2="248" y2="1654" stroke="#D6264F" stroke-width="2"/>
+<text x="256" y="1663" text-anchor="start" style="fill:#1A1F2C">Delete modeltransform</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-GetMLModelTransformJob" target="_blank" class="st" data-op="GetMLModelTransformJob"><title>GET /ml/modeltransform/{id}
+Ml line · GetMLModelTransformJob</title>
+<circle cx="244" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="1579" text-anchor="start" style="fill:#1A1F2C">Get modeltransform</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-CreateMLEndpoint" target="_blank" class="st" data-op="CreateMLEndpoint"><title>POST /ml/endpoints
+Ml line · CreateMLEndpoint</title>
+<circle cx="832" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1369" text-anchor="start" style="fill:#1A1F2C">Create endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-ListMLEndpoints" target="_blank" class="st" data-op="ListMLEndpoints"><title>GET /ml/endpoints
+Ml line · ListMLEndpoints</title>
+<circle cx="832" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1495" text-anchor="start" style="fill:#1A1F2C">List endpoints</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-DeleteMLEndpoint" target="_blank" class="st" data-op="DeleteMLEndpoint"><title>DELETE /ml/endpoints/{id}
+Ml line · DeleteMLEndpoint</title>
+<circle cx="706" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="702" y1="1242" x2="710" y2="1234" stroke="#D6264F" stroke-width="2"/>
+<text x="718" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-GetMLEndpoint" target="_blank" class="st" data-op="GetMLEndpoint"><title>GET /ml/endpoints/{id}
+Ml line · GetMLEndpoint</title>
+<circle cx="790" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="802" y="1327" text-anchor="start" style="fill:#1A1F2C">Get endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-ListMLDataProcessingJobs" target="_blank" class="st" data-op="ListMLDataProcessingJobs"><title>GET /ml/dataprocessing
+Ml line · ListMLDataProcessingJobs</title>
+<circle cx="916" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1831" text-anchor="start" style="fill:#1A1F2C">Get dataprocessing</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-StartMLDataProcessingJob" target="_blank" class="st" data-op="StartMLDataProcessingJob"><title>POST /ml/dataprocessing
+Ml line · StartMLDataProcessingJob</title>
+<circle cx="916" cy="1742" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1747" text-anchor="start" style="fill:#1A1F2C">Update dataprocessing</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-ListMLModelTrainingJobs" target="_blank" class="st" data-op="ListMLModelTrainingJobs"><title>GET /ml/modeltraining
+Ml line · ListMLModelTrainingJobs</title>
+<circle cx="664" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1201" text-anchor="start" style="fill:#1A1F2C">Get modeltraining</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-StartMLModelTrainingJob" target="_blank" class="st" data-op="StartMLModelTrainingJob"><title>POST /ml/modeltraining
+Ml line · StartMLModelTrainingJob</title>
+<circle cx="580" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="568.0" y="1201" text-anchor="end" style="fill:#1A1F2C">Update modeltraining</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-ListMLModelTransformJobs" target="_blank" class="st" data-op="ListMLModelTransformJobs"><title>GET /ml/modeltransform
+Ml line · ListMLModelTransformJobs</title>
+<circle cx="370" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="1411" text-anchor="start" style="fill:#1A1F2C">Get modeltransform</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-ml-api/#op-StartMLModelTransformJob" target="_blank" class="st" data-op="StartMLModelTransformJob"><title>POST /ml/modeltransform
+Ml line · StartMLModelTransformJob</title>
+<circle cx="244" cy="1532" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="256" y="1537" text-anchor="start" style="fill:#1A1F2C">Update modeltransform</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-open-cypher-api/#op-CancelOpenCypherQuery" target="_blank" class="st" data-op="amazon-neptune-open-cypher-api:CancelOpenCypherQuery"><title>DELETE /opencypher/status/{queryId}
+Open Cypher line · CancelOpenCypherQuery</title>
+<circle cx="1042" cy="524" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1036" y="536" text-anchor="end" transform="rotate(-45 1036 536)" style="fill:#1A1F2C">Delete statu</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-open-cypher-api/#op-GetOpenCypherQueryStatus" target="_blank" class="st" data-op="amazon-neptune-open-cypher-api:GetOpenCypherQueryStatus"><title>GET /opencypher/status/{queryId}
+Open Cypher line · GetOpenCypherQueryStatus
+Express: X13</title>
+<circle cx="916" cy="524" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="913" y="521" width="6" height="6" transform="rotate(45 916 524)" fill="#1A1F2C"/>
+<text x="904.0" y="529" text-anchor="end" style="fill:#1A1F2C">Get statu</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-open-cypher-api/#op-ExecuteOpenCypherExplainQuery" target="_blank" class="st" data-op="ExecuteOpenCypherExplainQuery"><title>POST /opencypher/explain
+Open Cypher line · ExecuteOpenCypherExplainQuery
+Express: X12</title>
+<circle cx="916" cy="440" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="913" y="437" width="6" height="6" transform="rotate(45 916 440)" fill="#1A1F2C"/>
+<text x="928" y="445" text-anchor="start" style="fill:#1A1F2C">Update explain</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-open-cypher-api/#op-ExecuteOpenCypherQuery" target="_blank" class="st" data-op="amazon-neptune-open-cypher-api:ExecuteOpenCypherQuery"><title>POST /opencypher
+Open Cypher line · ExecuteOpenCypherQuery
+Express: X12, X13</title>
+<circle cx="916" cy="272" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="913" y="269" width="6" height="6" transform="rotate(45 916 272)" fill="#1A1F2C"/>
+<text x="928" y="277" text-anchor="start" style="fill:#1A1F2C">Update opencypher</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-open-cypher-api/#op-ListOpenCypherQueries" target="_blank" class="st" data-op="ListOpenCypherQueries"><title>GET /opencypher/status
+Open Cypher line · ListOpenCypherQueries</title>
+<circle cx="874" cy="482" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="886" y="487" text-anchor="start" style="fill:#1A1F2C">List status <tspan font-weight="700" style="fill:#4A5568">⇄STA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-GetGraphSummary" target="_blank" class="st" data-op="GetGraphSummary"><title>GET /summary
+Operations line · GetGraphSummary</title>
+<circle cx="664" cy="1028" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="670" y="1016" transform="rotate(-45 670 1016)" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-TagResource" target="_blank" class="st" data-op="TagResource"><title>POST /tags/{resourceArn}
+Operations line · TagResource</title>
+<circle cx="496" cy="860" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="508" y="865" text-anchor="start" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-UntagResource" target="_blank" class="st" data-op="UntagResource"><title>DELETE /tags/{resourceArn}
+Operations line · UntagResource</title>
+<circle cx="496" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="492" y1="780" x2="500" y2="772" stroke="#0E9F6E" stroke-width="2"/>
+<text x="508" y="781" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-StartGraph" target="_blank" class="st" data-op="StartGraph"><title>POST /graphs/{graphIdentifier}/start
+Operations line · StartGraph</title>
+<circle cx="580" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="571.0" y="682" text-anchor="end" style="fill:#1A1F2C">Start graphs <tspan font-weight="700" style="fill:#1F5FD1">⇄GRA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-StopGraph" target="_blank" class="st" data-op="StopGraph"><title>POST /graphs/{graphIdentifier}/stop
+Operations line · StopGraph</title>
+<circle cx="664" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="670" y="680" transform="rotate(-45 670 680)" style="fill:#1A1F2C">Update stop</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-CancelIndexRebuild" target="_blank" class="st" data-op="CancelIndexRebuild"><title>POST /storage/indexes/rebuilds/{rebuildId}/cancel
+Operations line · CancelIndexRebuild</title>
+<circle cx="748" cy="1028" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="739.0" y="1047" text-anchor="end" style="fill:#1A1F2C">Cancel rebuild</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-DeletePropertygraphStatistics" target="_blank" class="st" data-op="DeletePropertygraphStatistics"><title>DELETE /propertygraph/statistics
+Operations line · DeletePropertygraphStatistics</title>
+<circle cx="748" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="739.0" y="711" text-anchor="end" style="fill:#1A1F2C">Delete statistic</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-GetPropertygraphSummary" target="_blank" class="st" data-op="GetPropertygraphSummary"><title>GET /propertygraph/statistics/summary
+Operations line · GetPropertygraphSummary</title>
+<circle cx="832" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="781" text-anchor="start" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-ExecuteFastReset" target="_blank" class="st" data-op="ExecuteFastReset"><title>POST /system
+Operations line · ExecuteFastReset</title>
+<circle cx="580" cy="1028" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="568.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Update system</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-operations-api/#op-GetRDFGraphSummary" target="_blank" class="st" data-op="GetRDFGraphSummary"><title>GET /rdf/statistics/summary
+Operations line · GetRDFGraphSummary</title>
+<circle cx="832" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="949" text-anchor="start" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-private-graph-endpoints-api/#op-CreatePrivateGraphEndpoint" target="_blank" class="st" data-op="CreatePrivateGraphEndpoint"><title>POST /graphs/{graphIdentifier}/endpoints/
+Private Graph Endpoints line · CreatePrivateGraphEndpoint
+Express: X4</title>
+<circle cx="328" cy="608" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<rect x="325" y="605" width="6" height="6" transform="rotate(45 328 608)" fill="#1A1F2C"/>
+<text x="340" y="613" text-anchor="start" style="fill:#1A1F2C">Create endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-private-graph-endpoints-api/#op-ListPrivateGraphEndpoints" target="_blank" class="st" data-op="ListPrivateGraphEndpoints"><title>GET /graphs/{graphIdentifier}/endpoints/
+Private Graph Endpoints line · ListPrivateGraphEndpoints</title>
+<circle cx="412" cy="692" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="400.0" y="697" text-anchor="end" style="fill:#1A1F2C">List endpoints</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-private-graph-endpoints-api/#op-DeletePrivateGraphEndpoint" target="_blank" class="st" data-op="DeletePrivateGraphEndpoint"><title>DELETE /graphs/{graphIdentifier}/endpoints/{vpcId}
+Private Graph Endpoints line · DeletePrivateGraphEndpoint</title>
+<circle cx="202" cy="482" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="198" y1="486" x2="206" y2="478" stroke="#5C6BC0" stroke-width="2"/>
+<text x="214" y="487" text-anchor="start" style="fill:#1A1F2C">Delete endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-private-graph-endpoints-api/#op-GetPrivateGraphEndpoint" target="_blank" class="st" data-op="GetPrivateGraphEndpoint"><title>GET /graphs/{graphIdentifier}/endpoints/{vpcId}
+Private Graph Endpoints line · GetPrivateGraphEndpoint
+Express: X4</title>
+<circle cx="286" cy="566" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<rect x="283" y="563" width="6" height="6" transform="rotate(45 286 566)" fill="#1A1F2C"/>
+<text x="298" y="571" text-anchor="start" style="fill:#1A1F2C">Get endpoint</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-property-graph-stream-api/#op-GetPropertygraphStream" target="_blank" class="st" data-op="amazon-neptune-property-graph-stream-api:GetPropertygraphStream"><title>GET /propertygraph/stream
+Operations line · GetPropertygraphStream</title>
+<circle cx="832" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="865" text-anchor="start" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-query-api/#op-CancelQuery" target="_blank" class="st" data-op="CancelQuery"><title>DELETE /queries/{queryId}
+Query line · CancelQuery</title>
+<circle cx="1294" cy="734" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1290" y1="738" x2="1298" y2="730" stroke="#B8860B" stroke-width="2"/>
+<text x="1306" y="739" text-anchor="start" style="fill:#1A1F2C">Delete query</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-query-api/#op-GetQuery" target="_blank" class="st" data-op="GetQuery"><title>GET /queries/{queryId}
+Query line · GetQuery</title>
+<circle cx="1210" cy="650" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1222" y="655" text-anchor="start" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-query-api/#op-ExecuteQuery" target="_blank" class="st" data-op="ExecuteQuery"><title>POST /queries
+Query line · ExecuteQuery</title>
+<circle cx="1168" cy="608" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="613" text-anchor="start" style="fill:#1A1F2C">Create query</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-query-api/#op-ListQueries" target="_blank" class="st" data-op="ListQueries"><title>GET /queries
+Query line · ListQueries</title>
+<circle cx="1168" cy="566" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="571" text-anchor="start" style="fill:#1A1F2C">List queries</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-query-api/#op-ExecuteOpenCypherQuery" target="_blank" class="st" data-op="amazon-neptune-query-api:ExecuteOpenCypherQuery"><title>POST /opencypher
+Query line · ExecuteOpenCypherQuery</title>
+<circle cx="1084" cy="482" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="487" text-anchor="start" style="fill:#1A1F2C">Update opencypher</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-snapshots-api/#op-RestoreDBClusterFromSnapshot" target="_blank" class="st" data-op="amazon-neptune-snapshots-api:RestoreDBClusterFromSnapshot"><title>POST /?Action=RestoreDBClusterFromSnapshot
+Amazon Neptune Local line · RestoreDBClusterFromSnapshot</title>
+<circle cx="958" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="958" y="707" text-anchor="middle" style="fill:#1A1F2C">amazon-neptune-snapshots-api:RestoreDBClusterFromSnapshot</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-sparql-api/#op-DeleteSparqlStatistics" target="_blank" class="st" data-op="DeleteSparqlStatistics"><title>DELETE /sparql/statistics
+Sparql line · DeleteSparqlStatistics</title>
+<circle cx="496" cy="566" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="492" y1="570" x2="500" y2="562" stroke="#00838F" stroke-width="2"/>
+<text x="484.0" y="571" text-anchor="end" style="fill:#1A1F2C">Delete statistic</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-sparql-api/#op-GetSparqlStatistics" target="_blank" class="st" data-op="amazon-neptune-sparql-api:GetSparqlStatistics"><title>GET /sparql/statistics
+Sparql line · GetSparqlStatistics
+Express: X15</title>
+<circle cx="370" cy="482" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<rect x="367" y="479" width="6" height="6" transform="rotate(45 370 482)" fill="#1A1F2C"/>
+<text x="379" y="472" text-anchor="start" style="fill:#1A1F2C">List statistics</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-sparql-api/#op-ManageSparqlStatistics" target="_blank" class="st" data-op="amazon-neptune-sparql-api:ManageSparqlStatistics"><title>POST /sparql/statistics
+Sparql line · ManageSparqlStatistics
+Express: X15</title>
+<circle cx="412" cy="482" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<rect x="409" y="479" width="6" height="6" transform="rotate(45 412 482)" fill="#1A1F2C"/>
+<text x="424" y="487" text-anchor="start" style="fill:#1A1F2C">Create statistic</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-sparql-api/#op-GetSparqlStream" target="_blank" class="st" data-op="amazon-neptune-sparql-api:GetSparqlStream"><title>GET /sparql/stream
+Sparql line · GetSparqlStream</title>
+<circle cx="580" cy="566" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="574" y="578" text-anchor="end" transform="rotate(-45 574 578)" style="fill:#1A1F2C">Get stream</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-status-api/#op-GetEngineStatus" target="_blank" class="st" data-op="GetEngineStatus"><title>GET /status
+Status line · GetEngineStatus
+Express: X9, X13, X14, X15</title>
+<circle cx="790" cy="524" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="787" y="521" width="6" height="6" transform="rotate(45 790 524)" fill="#1A1F2C"/>
+<text x="778.0" y="529" text-anchor="end" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-status-api/#op-GetPropertygraphStatistics" target="_blank" class="st" data-op="GetPropertygraphStatistics"><title>GET /propertygraph/statistics
+Status line · GetPropertygraphStatistics
+Express: X14</title>
+<circle cx="790" cy="650" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="787" y="647" width="6" height="6" transform="rotate(45 790 650)" fill="#1A1F2C"/>
+<text x="802" y="655" text-anchor="start" style="fill:#1A1F2C">List statistics</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-status-api/#op-ManagePropertygraphStatistics" target="_blank" class="st" data-op="ManagePropertygraphStatistics"><title>POST /propertygraph/statistics
+Status line · ManagePropertygraphStatistics
+Express: X14</title>
+<circle cx="790" cy="566" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<rect x="787" y="563" width="6" height="6" transform="rotate(45 790 566)" fill="#1A1F2C"/>
+<text x="802" y="571" text-anchor="start" style="fill:#1A1F2C">Create statistic</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-storage-api/#op-GetIndexRebuildStatus" target="_blank" class="st" data-op="GetIndexRebuildStatus"><title>GET /storage/indexes/rebuilds/{rebuildId}
+Storage line · GetIndexRebuildStatus</title>
+<circle cx="958" cy="1238" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="970" y="1243" text-anchor="start" style="fill:#1A1F2C">Get rebuild</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-storage-api/#op-GetStorageInfo" target="_blank" class="st" data-op="GetStorageInfo"><title>GET /storage/info
+Storage line · GetStorageInfo</title>
+<circle cx="1042" cy="1322" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1054" y="1327" text-anchor="start" style="fill:#1A1F2C">Get info</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-storage-api/#op-ListIndexRebuilds" target="_blank" class="st" data-op="ListIndexRebuilds"><title>GET /storage/indexes/rebuilds
+Storage line · ListIndexRebuilds</title>
+<circle cx="790" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="802" y="1075" text-anchor="start" style="fill:#1A1F2C">List rebuilds</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-neptune/amazon-neptune-storage-api/#op-StartIndexRebuild" target="_blank" class="st" data-op="StartIndexRebuild"><title>POST /storage/indexes/rebuilds
+Storage line · StartIndexRebuild</title>
+<circle cx="874" cy="1154" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="886" y="1159" text-anchor="start" style="fill:#1A1F2C">Create rebuild</text>
+</a>
+<text x="1484" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1484" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AMAZON NEPTUNE</text>
+<rect x="1484" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1501" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="1526" y="269" font-size="11" fill="#1A1F2C">Ml <tspan fill="#8A93A6">16</tspan></text>
+<rect x="1484" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1501" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OPE</text><text x="1526" y="286" font-size="11" fill="#1A1F2C">Operations <tspan fill="#8A93A6">12</tspan></text>
+<rect x="1484" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1501" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRA</text><text x="1526" y="303" font-size="11" fill="#1A1F2C">Graphs <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1484" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1501" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRE</text><text x="1526" y="320" font-size="11" fill="#1A1F2C">Gremlin <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1484" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1501" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GS</text><text x="1526" y="337" font-size="11" fill="#1A1F2C">Graph Snapshots <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1484" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="1501" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IT</text><text x="1526" y="354" font-size="11" fill="#1A1F2C">Import Tasks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1484" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1501" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OC</text><text x="1526" y="371" font-size="11" fill="#1A1F2C">Open Cypher <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1484" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="1501" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QUE</text><text x="1526" y="388" font-size="11" fill="#1A1F2C">Query <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1484" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="1501" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EXP</text><text x="1526" y="405" font-size="11" fill="#1A1F2C">Exporttasks <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1484" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1501" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LOA</text><text x="1526" y="422" font-size="11" fill="#1A1F2C">Loader <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1484" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1501" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PGE</text><text x="1526" y="439" font-size="11" fill="#1A1F2C">Private Graph Endpoints <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1484" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="1501" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SPA</text><text x="1526" y="456" font-size="11" fill="#1A1F2C">Sparql <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1484" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="1501" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STO</text><text x="1526" y="473" font-size="11" fill="#1A1F2C">Storage <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1484" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="1501" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STA</text><text x="1526" y="490" font-size="11" fill="#1A1F2C">Status <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1484" y="497" width="34" height="13" rx="3" fill="#D6264F"/><text x="1501" y="507" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ANL</text><text x="1526" y="507" font-size="11" fill="#1A1F2C">Amazon Neptune Local <tspan fill="#8A93A6">2</tspan></text>
+<text x="1734" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1752,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1778" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1752,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1778" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1752,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1778" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1752,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1778" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1752,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1778" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1752,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1778" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1752,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1778" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1752,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1778" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1734" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1734" y="463" font-size="10.5" fill="#5A6275">“Amazon Neptune Management Api” → Amazon Neptune Local line · 1 op</text>
+<text x="1734" y="478" font-size="10.5" fill="#5A6275">“Amazon Neptune Management Api” → Operations line · 1 op</text>
+<text x="1734" y="493" font-size="10.5" fill="#5A6275">“Property Graph Stream” → Operations line · 1 op</text>
+<text x="1734" y="508" font-size="10.5" fill="#5A6275">“Snapshots” → Amazon Neptune Local line · 1 op</text>
+<text x="1734" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1734" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="GetImportTask CancelImportTask"><rect x="1734" y="587" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="598" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1771" y="598" font-size="11" fill="#1A1F2C">Amazon Neptune Analytics Cance</text></g>
+<g class="rt" data-stops="CreateGraph GetGraph"><rect x="1734" y="606" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="617" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1771" y="617" font-size="11" fill="#1A1F2C">Amazon Neptune Analytics Creat</text></g>
+<g class="rt" data-stops="CreateGraphUsingImportTask GetImportTask"><rect x="1734" y="625" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="636" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1771" y="636" font-size="11" fill="#1A1F2C">Amazon Neptune Analytics Creat</text></g>
+<g class="rt" data-stops="GetGraph CreatePrivateGraphEndpoint GetPrivateGraphEndpoint"><rect x="1734" y="644" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="655" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1771" y="655" font-size="11" fill="#1A1F2C">Amazon Neptune Analytics Creat</text></g>
+<g class="rt" data-stops="GetGraph ResetGraph"><rect x="1734" y="663" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="674" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1771" y="674" font-size="11" fill="#1A1F2C">Amazon Neptune Analytics Reset</text></g>
+<g class="rt" data-stops="amazon-neptune-graph-snapshots-api:CreateGraphSnapshot amazon-neptune-graph-snapshots-api:GetGraphSnapshot RestoreGraphFromSnapshot"><rect x="1734" y="682" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="693" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1771" y="693" font-size="11" fill="#1A1F2C">Amazon Neptune Analytics Snaps</text></g>
+<g class="rt" data-stops="StartLoaderJob GetLoaderJobStatus"><rect x="1734" y="701" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="712" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1771" y="712" font-size="11" fill="#1A1F2C">Amazon Neptune Bulk Loader Sta</text></g>
+<g class="rt" data-stops="ExecuteGremlinExplainQuery ExecuteGremlinProfileQuery"><rect x="1734" y="720" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="731" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="1771" y="731" font-size="11" fill="#1A1F2C">Amazon Neptune Gremlin Explain</text></g>
+<g class="rt" data-stops="GetEngineStatus ExecuteGremlinQuery amazon-neptune-gremlin-api:GetGremlinQueryStatus"><rect x="1734" y="739" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="750" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="1771" y="750" font-size="11" fill="#1A1F2C">Amazon Neptune Gremlin Query w</text></g>
+<g class="rt" data-stops="GetLoaderJobStatus CancelLoaderJob"><rect x="1734" y="758" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="769" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X10</text><text x="1771" y="769" font-size="11" fill="#1A1F2C">Amazon Neptune Cancel a Runnin</text></g>
+<g class="rt" data-stops="StartLoaderJob ListLoaderJobs GetLoaderJobStatus"><rect x="1734" y="777" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="788" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X11</text><text x="1771" y="788" font-size="11" fill="#1A1F2C">Amazon Neptune Bulk Load Job L</text></g>
+<g class="rt" data-stops="ExecuteOpenCypherExplainQuery amazon-neptune-open-cypher-api:ExecuteOpenCypherQuery"><rect x="1734" y="796" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="807" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X12</text><text x="1771" y="807" font-size="11" fill="#1A1F2C">Amazon Neptune openCypher Expl</text></g>
+<g class="rt" data-stops="GetEngineStatus amazon-neptune-open-cypher-api:ExecuteOpenCypherQuery amazon-neptune-open-cypher-api:GetOpenCypherQueryStatus"><rect x="1734" y="815" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="826" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X13</text><text x="1771" y="826" font-size="11" fill="#1A1F2C">Amazon Neptune openCypher Quer</text></g>
+<g class="rt" data-stops="GetEngineStatus ManagePropertygraphStatistics GetPropertygraphStatistics"><rect x="1734" y="834" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="845" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X14</text><text x="1771" y="845" font-size="11" fill="#1A1F2C">Amazon Neptune Property Graph </text></g>
+<g class="rt" data-stops="GetEngineStatus amazon-neptune-sparql-api:ManageSparqlStatistics amazon-neptune-sparql-api:GetSparqlStatistics"><rect x="1734" y="853" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1749" y="864" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X15</text><text x="1771" y="864" font-size="11" fill="#1A1F2C">Amazon Neptune SPARQL Statisti</text></g>
+<text x="160" y="1956" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/amazon-neptune/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
