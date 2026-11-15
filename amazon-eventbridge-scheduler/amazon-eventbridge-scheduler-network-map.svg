@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1532 1188" width="1532" height="1188" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1532" height="1188" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Amazon-Eventbridge-Scheduler API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">12 operations as stops · 3 tags as lines · 0 interchanges · 7 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="471.5" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">AMAZON EVENTBRIDGE SCHEDULER</text>
+<path class="line" data-line="Schedule Groups" d="M454.0,1028.0 L454.0,916.0 Q454.0,902.0 444.1,892.1 L412.0,860.0 L328.0,776.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Schedule Groups</title></path>
+<path class="line" data-line="Schedules" d="M664.0,230.0 L664.0,314.0 L664.0,384.0 Q664.0,398.0 673.9,407.9 L696.1,430.1 Q706.0,440.0 720.0,440.0 L832.0,440.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Schedules</title></path>
+<path class="line" data-line="Tags" d="M160.0,314.0 L160.0,398.0 L160.0,482.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tags</title></path>
+<line x1="454" y1="1028" x2="454.0" y2="1062.0" stroke="#0E9F6E" stroke-width="7"/><rect x="430.0" y="1051.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Schedule Groups</title></rect><text x="454.0" y="1067.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SG</text>
+<line x1="328" y1="776" x2="303.95836943965736" y2="751.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="279.95836943965736" y="740.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Schedule Groups</title></rect><text x="303.95836943965736" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SG</text>
+<line x1="664" y1="230" x2="664.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="640.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Schedules</title></rect><text x="664.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="832" y1="440" x2="866.0" y2="440.0" stroke="#D6264F" stroke-width="7"/><rect x="842.0" y="429.0" width="48" height="22" rx="5" fill="#D6264F"><title>Schedules</title></rect><text x="866.0" y="445.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCH</text>
+<line x1="160" y1="314" x2="160.0" y2="280.0" stroke="#1F5FD1" stroke-width="7"/><rect x="136.0" y="269.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Tags</title></rect><text x="160.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<line x1="160" y1="482" x2="160.0" y2="516.0" stroke="#1F5FD1" stroke-width="7"/><rect x="136.0" y="505.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Tags</title></rect><text x="160.0" y="521.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAG</text>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedule-groups-api/#op-CreateScheduleGroup" target="_blank" class="st" data-op="CreateScheduleGroup"><title>POST /schedule-groups/{Name}
+Schedule Groups line · CreateScheduleGroup
+Express: X4, X5, X6</title>
+<circle cx="412" cy="860" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="409" y="857" width="6" height="6" transform="rotate(45 412 860)" fill="#1A1F2C"/>
+<text x="424" y="865" text-anchor="start" style="fill:#1A1F2C">Update schedule group</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedule-groups-api/#op-GetScheduleGroup" target="_blank" class="st" data-op="GetScheduleGroup"><title>GET /schedule-groups/{Name}
+Schedule Groups line · GetScheduleGroup
+Express: X1, X5, X7</title>
+<circle cx="454" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="451" y="899" width="6" height="6" transform="rotate(45 454 902)" fill="#1A1F2C"/>
+<text x="466" y="907" text-anchor="start" style="fill:#1A1F2C">Get schedule group</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedule-groups-api/#op-DeleteScheduleGroup" target="_blank" class="st" data-op="DeleteScheduleGroup"><title>DELETE /schedule-groups/{Name}
+Schedule Groups line · DeleteScheduleGroup
+Express: X5</title>
+<circle cx="328" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="324" y1="780" x2="332" y2="772" stroke="#0E9F6E" stroke-width="2"/>
+<rect x="325" y="773" width="6" height="6" transform="rotate(45 328 776)" fill="#1A1F2C"/>
+<text x="340" y="781" text-anchor="start" style="fill:#1A1F2C">Delete schedule group</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedule-groups-api/#op-ListScheduleGroups" target="_blank" class="st" data-op="ListScheduleGroups"><title>GET /schedule-groups
+Schedule Groups line · ListScheduleGroups
+Express: X1</title>
+<circle cx="454" cy="1028" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="451" y="1025" width="6" height="6" transform="rotate(45 454 1028)" fill="#1A1F2C"/>
+<text x="466" y="1033" text-anchor="start" style="fill:#1A1F2C">List schedule groups</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedules-api/#op-CreateSchedule" target="_blank" class="st" data-op="CreateSchedule"><title>POST /schedules/{Name}
+Schedules line · CreateSchedule
+Express: X2, X4</title>
+<circle cx="664" cy="398" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="395" width="6" height="6" transform="rotate(45 664 398)" fill="#1A1F2C"/>
+<text x="676" y="403" text-anchor="start" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedules-api/#op-GetSchedule" target="_blank" class="st" data-op="GetSchedule"><title>GET /schedules/{Name}
+Schedules line · GetSchedule
+Express: X2, X3, X4</title>
+<circle cx="664" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="311" width="6" height="6" transform="rotate(45 664 314)" fill="#1A1F2C"/>
+<text x="676" y="319" text-anchor="start" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedules-api/#op-UpdateSchedule" target="_blank" class="st" data-op="UpdateSchedule"><title>PUT /schedules/{Name}
+Schedules line · UpdateSchedule
+Express: X2</title>
+<circle cx="706" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="703" y="437" width="6" height="6" transform="rotate(45 706 440)" fill="#1A1F2C"/>
+<text x="694.0" y="445" text-anchor="end" style="fill:#1A1F2C">Update schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedules-api/#op-DeleteSchedule" target="_blank" class="st" data-op="DeleteSchedule"><title>DELETE /schedules/{Name}
+Schedules line · DeleteSchedule
+Express: X3</title>
+<circle cx="832" cy="440" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="828" y1="444" x2="836" y2="436" stroke="#D6264F" stroke-width="2"/>
+<rect x="829" y="437" width="6" height="6" transform="rotate(45 832 440)" fill="#1A1F2C"/>
+<text x="826" y="452" text-anchor="end" transform="rotate(-45 826 452)" style="fill:#1A1F2C">Delete schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-schedules-api/#op-ListSchedules" target="_blank" class="st" data-op="ListSchedules"><title>GET /schedules
+Schedules line · ListSchedules
+Express: X3</title>
+<circle cx="664" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="227" width="6" height="6" transform="rotate(45 664 230)" fill="#1A1F2C"/>
+<text x="676" y="235" text-anchor="start" style="fill:#1A1F2C">List schedules</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-tags-api/#op-ListTagsForResource" target="_blank" class="st" data-op="ListTagsForResource"><title>GET /tags/{ResourceArn}
+Tags line · ListTagsForResource
+Express: X1, X6, X7</title>
+<circle cx="160" cy="314" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="157" y="311" width="6" height="6" transform="rotate(45 160 314)" fill="#1A1F2C"/>
+<text x="172" y="319" text-anchor="start" style="fill:#1A1F2C">Get tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-tags-api/#op-TagResource" target="_blank" class="st" data-op="TagResource"><title>POST /tags/{ResourceArn}
+Tags line · TagResource
+Express: X6</title>
+<circle cx="160" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="157" y="395" width="6" height="6" transform="rotate(45 160 398)" fill="#1A1F2C"/>
+<text x="172" y="403" text-anchor="start" style="fill:#1A1F2C">Update tag</text>
+</a>
+<a href="https://apis.apis.io/apis/amazon-eventbridge-scheduler/amazon-eventbridge-scheduler-tags-api/#op-UntagResource" target="_blank" class="st" data-op="UntagResource"><title>DELETE /tags/{ResourceArn}
+Tags line · UntagResource</title>
+<circle cx="160" cy="482" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="156" y1="486" x2="164" y2="478" stroke="#1F5FD1" stroke-width="2"/>
+<text x="172" y="487" text-anchor="start" style="fill:#1A1F2C">Delete tag</text>
+</a>
+<text x="1022" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1022" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AMAZON EVENTBRIDGE SCHEDULER</text>
+<rect x="1022" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1039" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCH</text><text x="1064" y="269" font-size="11" fill="#1A1F2C">Schedules <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1022" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1039" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SG</text><text x="1064" y="286" font-size="11" fill="#1A1F2C">Schedule Groups <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1022" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1039" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAG</text><text x="1064" y="303" font-size="11" fill="#1A1F2C">Tags <tspan fill="#8A93A6">3</tspan></text>
+<text x="1272" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1290,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1316" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1290,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1316" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1290,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1316" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1290,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1316" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1290,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1316" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1290,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1316" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1290,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1316" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1290,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1316" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1272" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1272" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="ListScheduleGroups GetScheduleGroup ListTagsForResource"><rect x="1272" y="487" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="498" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="1309" y="498" font-size="11" fill="#1A1F2C">EventBridge Scheduler Audit Sc</text></g>
+<g class="rt" data-stops="CreateSchedule UpdateSchedule GetSchedule"><rect x="1272" y="506" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="517" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="1309" y="517" font-size="11" fill="#1A1F2C">EventBridge Scheduler Create T</text></g>
+<g class="rt" data-stops="ListSchedules GetSchedule DeleteSchedule"><rect x="1272" y="525" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="536" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="1309" y="536" font-size="11" fill="#1A1F2C">EventBridge Scheduler List Ins</text></g>
+<g class="rt" data-stops="CreateScheduleGroup CreateSchedule GetSchedule"><rect x="1272" y="544" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="555" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="1309" y="555" font-size="11" fill="#1A1F2C">EventBridge Scheduler Provisio</text></g>
+<g class="rt" data-stops="CreateScheduleGroup GetScheduleGroup DeleteScheduleGroup"><rect x="1272" y="563" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="574" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="1309" y="574" font-size="11" fill="#1A1F2C">EventBridge Scheduler Schedule</text></g>
+<g class="rt" data-stops="CreateScheduleGroup TagResource ListTagsForResource"><rect x="1272" y="582" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="593" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="1309" y="593" font-size="11" fill="#1A1F2C">EventBridge Scheduler Tag Sche</text></g>
+<g class="rt" data-stops="GetScheduleGroup ListTagsForResource"><rect x="1272" y="601" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="1287" y="612" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="1309" y="612" font-size="11" fill="#1A1F2C">EventBridge Scheduler Untag Sc</text></g>
+<text x="160" y="1158" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/amazon-eventbridge-scheduler/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

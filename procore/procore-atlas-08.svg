@@ -1,0 +1,343 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1238 1146" width="1238" height="1146" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1238" height="1146" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Procore API · Transit Map · Sheet 8: Actual Production Quantities, Actual Production Quantity</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">9 operations as stops · 2 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="365.3333333333333" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">ACTUAL PRODUCTION QUANTITIES</text>
+<path class="line" data-line="Actual Production Quantities" d="M160.0,230.0 L244.0,314.0 L318.1,388.1 Q328.0,398.0 342.0,398.0 L412.0,398.0 L496.0,398.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Actual Production Quantities</title></path>
+<path class="line" data-line="Actual Production Quantity" d="M538.0,986.0 L454.0,986.0 L370.0,986.0 L286.0,986.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Actual Production Quantity</title></path>
+<line x1="160" y1="230" x2="135.9583694396574" y2="205.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="111.95836943965739" y="194.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Actual Production Quantities</title></rect><text x="135.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APQ</text>
+<line x1="496" y1="398" x2="530.0" y2="398.0" stroke="#1F5FD1" stroke-width="7"/><rect x="506.0" y="387.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Actual Production Quantities</title></rect><text x="530.0" y="403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APQ</text>
+<line x1="538" y1="986" x2="572.0" y2="986.0" stroke="#1d33a9" stroke-width="7"/><rect x="548.0" y="975.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Actual Production Quantity</title></rect><text x="572.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACPQ</text>
+<line x1="286" y1="986" x2="252.0" y2="986.0" stroke="#1d33a9" stroke-width="7"/><rect x="228.0" y="975.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Actual Production Quantity</title></rect><text x="252.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACPQ</text>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantities-api/#op-showActualProductionQuantity" target="_blank" class="st" data-op="showActualProductionQuantity"><title>GET /rest/v1.0/projects/{project_id}/actual_production_quantities/{id}
+Actual Production Quantities line · showActualProductionQuantity</title>
+<circle cx="160" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="172" y="235" text-anchor="start" style="fill:#1A1F2C">Get actual production quantity</text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantities-api/#op-listOfActualProductionQuantityIds" target="_blank" class="st" data-op="listOfActualProductionQuantityIds"><title>GET /rest/v1.0/projects/{project_id}/actual_production_quantities/ids
+Actual Production Quantities line · listOfActualProductionQuantityIds</title>
+<circle cx="496" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="490" y="410" text-anchor="end" transform="rotate(-45 490 410)" style="fill:#1A1F2C">List ids</text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantities-api/#op-bulkCreateActualProductionQuantities" target="_blank" class="st" data-op="bulkCreateActualProductionQuantities"><title>POST /rest/v1.0/projects/{project_id}/actual_production_quantities/bulk_create
+Actual Production Quantities line · bulkCreateActualProductionQuantities</title>
+<circle cx="244" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="256" y="319" text-anchor="start" style="fill:#1A1F2C">Update bulk create <tspan font-weight="700" style="fill:#dd5b5c">⇄PROJ p.5</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantities-api/#op-bulkUpdateActualProductionQuantities" target="_blank" class="st" data-op="bulkUpdateActualProductionQuantities"><title>PATCH /rest/v1.0/projects/{project_id}/actual_production_quantities/bulk_update
+Actual Production Quantities line · bulkUpdateActualProductionQuantities</title>
+<circle cx="412" cy="398" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="418" y="386" transform="rotate(-45 418 386)" style="fill:#1A1F2C">Update bulk update</text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantities-api/#op-bulkDestroyActualProductionQuantities" target="_blank" class="st" data-op="bulkDestroyActualProductionQuantities"><title>DELETE /rest/v1.0/projects/{project_id}/actual_production_quantities/bulk_destroy
+Actual Production Quantities line · bulkDestroyActualProductionQuantities</title>
+<circle cx="328" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="324" y1="402" x2="332" y2="394" stroke="#1F5FD1" stroke-width="2"/>
+<text x="316.0" y="403" text-anchor="end" style="fill:#1A1F2C">Delete bulk destroy</text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantity-api/#op-listAllActualProductionQuantities" target="_blank" class="st" data-op="listAllActualProductionQuantities"><title>GET /rest/v1.0/projects/{project_id}/actual_production_quantities
+Actual Production Quantity line · listAllActualProductionQuantities</title>
+<circle cx="538" cy="986" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="532" y="998" text-anchor="end" transform="rotate(-45 532 998)" style="fill:#1A1F2C">List actual production quantities <tspan font-weight="700" style="fill:#dd5b5c">⇄PROJ p.5</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantity-api/#op-createActualProductionQuantity" target="_blank" class="st" data-op="createActualProductionQuantity"><title>POST /rest/v1.0/projects/{project_id}/actual_production_quantities
+Actual Production Quantity line · createActualProductionQuantity</title>
+<circle cx="454" cy="986" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="460" y="974" transform="rotate(-45 460 974)" style="fill:#1A1F2C">Create actual production quantity</text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantity-api/#op-updateActualProductionQuantity" target="_blank" class="st" data-op="updateActualProductionQuantity"><title>PATCH /rest/v1.0/projects/{project_id}/actual_production_quantities/{id}
+Actual Production Quantity line · updateActualProductionQuantity</title>
+<circle cx="370" cy="986" r="5.5" fill="#1d33a9" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="376" y="974" transform="rotate(-45 376 974)" style="fill:#1A1F2C">Update actual production quantity</text>
+</a>
+<a href="https://apis.apis.io/apis/procore/procore-actual-production-quantity-api/#op-deleteActualProductionQuantity" target="_blank" class="st" data-op="deleteActualProductionQuantity"><title>DELETE /rest/v1.0/projects/{project_id}/actual_production_quantities/{id}
+Actual Production Quantity line · deleteActualProductionQuantity</title>
+<circle cx="286" cy="986" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<line x1="282" y1="990" x2="290" y2="982" stroke="#1d33a9" stroke-width="2"/>
+<text x="292" y="974" transform="rotate(-45 292 974)" style="fill:#1A1F2C">Delete actual production quantity</text>
+</a>
+<text x="728" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="728" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">ACTUAL PRODUCTION QUANTITIES</text>
+<rect x="728" y="259" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="745" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APQ</text><text x="770" y="269" font-size="11" fill="#1A1F2C">Actual Production Quantities <tspan fill="#8A93A6">5</tspan></text>
+<rect x="728" y="276" width="34" height="13" rx="3" fill="#1d33a9"/><text x="745" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACPQ</text><text x="770" y="286" font-size="11" fill="#1A1F2C">Actual Production Quantity <tspan fill="#8A93A6">4</tspan></text>
+<text x="978" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(996,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1022" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(996,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1022" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(996,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1022" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(996,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1022" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(996,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1022" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(996,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1022" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(996,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1022" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(996,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1022" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="978" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="978" y="463" font-size="10.5" fill="#5A6275">“Action Plan Approver Signature” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="478" font-size="10.5" fill="#5A6275">“Action Plan Approvers” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="493" font-size="10.5" fill="#5A6275">“Action Plan Parties” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="508" font-size="10.5" fill="#5A6275">“Action Plan Receivers” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="523" font-size="10.5" fill="#5A6275">“Action Plan Reference” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="538" font-size="10.5" fill="#5A6275">“Action Plan Template References” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="553" font-size="10.5" fill="#5A6275">“Action Plan Template Sections” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="568" font-size="10.5" fill="#5A6275">“Action Type” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="583" font-size="10.5" fill="#5A6275">“Admin Equipment” → More Local line · 1 op</text>
+<text x="978" y="598" font-size="10.5" fill="#5A6275">“Advanced forecasting” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="613" font-size="10.5" fill="#5A6275">“Affliction Type” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="628" font-size="10.5" fill="#5A6275">“Alert Recipient” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="643" font-size="10.5" fill="#5A6275">“Alerts” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="658" font-size="10.5" fill="#5A6275">“App Installations” → More Local line · 2 ops</text>
+<text x="978" y="673" font-size="10.5" fill="#5A6275">“Async Job” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="688" font-size="10.5" fill="#5A6275">“Audit Logs (Company)” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="703" font-size="10.5" fill="#5A6275">“Audit Logs (Project)” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="718" font-size="10.5" fill="#5A6275">“Available Punch Item Managers” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="733" font-size="10.5" fill="#5A6275">“BIM File” → BIM Files line · 1 op</text>
+<text x="978" y="748" font-size="10.5" fill="#5A6275">“BIM Geometry Files” → More Local line · 1 op</text>
+<text x="978" y="763" font-size="10.5" fill="#5A6275">“BIM Model Properties” → BIM Model Revisions line · 1 op</text>
+<text x="978" y="778" font-size="10.5" fill="#5A6275">“BIM Model Revision Objects” → BIM Model Revisions line · 1 op</text>
+<text x="978" y="793" font-size="10.5" fill="#5A6275">“BIM Model Revision Planss” → BIM Model Revision Plans line · 1 op</text>
+<text x="978" y="808" font-size="10.5" fill="#5A6275">“BIM Model Revision Viewpoints” → More Local line · 2 ops</text>
+<text x="978" y="823" font-size="10.5" fill="#5A6275">“BIM Planss” → BIM Plans line · 1 op</text>
+<text x="978" y="838" font-size="10.5" fill="#5A6275">“BIM Property File Objects” → More Local line · 1 op</text>
+<text x="978" y="853" font-size="10.5" fill="#5A6275">“BIM Property File Properties” → More Local line · 1 op</text>
+<text x="978" y="868" font-size="10.5" fill="#5A6275">“Bid Form Items” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="883" font-size="10.5" fill="#5A6275">“Bid Form Sections” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="898" font-size="10.5" fill="#5A6275">“Bid Uploads” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="913" font-size="10.5" fill="#5A6275">“Billing Periods” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="928" font-size="10.5" fill="#5A6275">“Body Parts” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="943" font-size="10.5" fill="#5A6275">“Budget Change Adjustment” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="958" font-size="10.5" fill="#5A6275">“Budget Change History” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="973" font-size="10.5" fill="#5A6275">“Budget Import” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="988" font-size="10.5" fill="#5A6275">“Budget View” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1003" font-size="10.5" fill="#5A6275">“Budget View Snapshot” → Budget View Snapshots line · 1 op</text>
+<text x="978" y="1018" font-size="10.5" fill="#5A6275">“Budgeted Production Quantities” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1033" font-size="10.5" fill="#5A6275">“Cached Open Items” → More Local line · 2 ops</text>
+<text x="978" y="1048" font-size="10.5" fill="#5A6275">“Calendar Events” → More Local line · 1 op</text>
+<text x="978" y="1063" font-size="10.5" fill="#5A6275">“Capital Planning — Change History” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1078" font-size="10.5" fill="#5A6275">“Capital Planning — Onboarding” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1093" font-size="10.5" fill="#5A6275">“Capital Planning — Portfolio Programs” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1108" font-size="10.5" fill="#5A6275">“Capital Planning — Programs” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1123" font-size="10.5" fill="#5A6275">“Capital Planning — Settings” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1138" font-size="10.5" fill="#5A6275">“Change History” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1153" font-size="10.5" fill="#5A6275">“Change Types” → More Local line · 1 op</text>
+<text x="978" y="1168" font-size="10.5" fill="#5A6275">“Checklist Schedule Change Histories” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1183" font-size="10.5" fill="#5A6275">“Checklists (Inspections)” → Checklists (Inspections) · Checklist line · 31 ops</text>
+<text x="978" y="1198" font-size="10.5" fill="#5A6275">“Checklists (Inspections)” → Checklists (Inspections) · Companies line · 45 ops</text>
+<text x="978" y="1213" font-size="10.5" fill="#5A6275">“Checklists (Inspections)” → Checklists (Inspections) · Projects Checklist line · 34 ops</text>
+<text x="978" y="1228" font-size="10.5" fill="#5A6275">“Checklists (Inspections)” → Checklists (Inspections) · Projects Inspection Templates line · 5 ops</text>
+<text x="978" y="1243" font-size="10.5" fill="#5A6275">“Checklists (Inspections)” → Checklists (Inspections) · Projects Recycle Bin line · 10 ops</text>
+<text x="978" y="1258" font-size="10.5" fill="#5A6275">“Clones” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1273" font-size="10.5" fill="#5A6275">“Commitment Change Order Rows” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1288" font-size="10.5" fill="#5A6275">“Commitment Contract Summary” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1303" font-size="10.5" fill="#5A6275">“Companies” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1318" font-size="10.5" fill="#5A6275">“Company Action Plan Template Reference” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1333" font-size="10.5" fill="#5A6275">“Company Action Plan Template Sections” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1348" font-size="10.5" fill="#5A6275">“Company Admin” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1363" font-size="10.5" fill="#5A6275">“Company Inactive Users” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1378" font-size="10.5" fill="#5A6275">“Company Inactive Vendors” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1393" font-size="10.5" fill="#5A6275">“Company Managed Equipment” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1408" font-size="10.5" fill="#5A6275">“Company Managed Equipment User Permissions” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1423" font-size="10.5" fill="#5A6275">“Company Observation Templates” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1438" font-size="10.5" fill="#5A6275">“Company Observation Types” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1453" font-size="10.5" fill="#5A6275">“Company Project Tools” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1468" font-size="10.5" fill="#5A6275">“Company Schedule” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1483" font-size="10.5" fill="#5A6275">“Company Security Settings” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1498" font-size="10.5" fill="#5A6275">“Company Vendor Comments” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1513" font-size="10.5" fill="#5A6275">“Company Vendors Business Registers” → Company Vendors line · 2 ops</text>
+<text x="978" y="1528" font-size="10.5" fill="#5A6275">“CompanyProjects” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1543" font-size="10.5" fill="#5A6275">“Construction Volume” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1558" font-size="10.5" fill="#5A6275">“Contact Options” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1573" font-size="10.5" fill="#5A6275">“Coordination Issue Assignment” → Coordination Issues line · 1 op</text>
+<text x="978" y="1588" font-size="10.5" fill="#5A6275">“Coordination Issue Attachment” → Coordination Issues line · 1 op</text>
+<text x="978" y="1603" font-size="10.5" fill="#5A6275">“Coordination Issue Templates” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1618" font-size="10.5" fill="#5A6275">“Correspondence Type Items” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="1633" font-size="10.5" fill="#5A6275">“Correspondence Types Defaults” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1648" font-size="10.5" fill="#5A6275">“Correspondence Types Permissions” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1663" font-size="10.5" fill="#5A6275">“Correspondence Types Users” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1678" font-size="10.5" fill="#5A6275">“Count” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1693" font-size="10.5" fill="#5A6275">“Counts” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1708" font-size="10.5" fill="#5A6275">“Custom Field Sections” → More Local line · 1 op</text>
+<text x="978" y="1723" font-size="10.5" fill="#5A6275">“Custom Fields” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1738" font-size="10.5" fill="#5A6275">“Custom Fields Sections” → More Local line · 1 op</text>
+<text x="978" y="1753" font-size="10.5" fill="#5A6275">“Custom Fields User Options” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1768" font-size="10.5" fill="#5A6275">“Custom Fields User Options” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1783" font-size="10.5" fill="#5A6275">“Custom Tools Users” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1798" font-size="10.5" fill="#5A6275">“Daily Logs” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1813" font-size="10.5" fill="#5A6275">“Delivery Methods” → More Local line · 1 op</text>
+<text x="978" y="1828" font-size="10.5" fill="#5A6275">“Document Collections” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1843" font-size="10.5" fill="#5A6275">“Document Markup” → More Local line · 1 op</text>
+<text x="978" y="1858" font-size="10.5" fill="#5A6275">“Drawing Uploads” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="1873" font-size="10.5" fill="#5A6275">“Environmental Types” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1888" font-size="10.5" fill="#5A6275">“Equipment Models Bulk Update” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1903" font-size="10.5" fill="#5A6275">“Equipment Timecard Entries” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1918" font-size="10.5" fill="#5A6275">“Equipment Types Bulk Update” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1933" font-size="10.5" fill="#5A6275">“EstimatingProject” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1948" font-size="10.5" fill="#5A6275">“EstimatingSettings” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="1963" font-size="10.5" fill="#5A6275">“Field Production Report” → More Local line · 1 op</text>
+<text x="978" y="1978" font-size="10.5" fill="#5A6275">“Field Sets” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="1993" font-size="10.5" fill="#5A6275">“Fields” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2008" font-size="10.5" fill="#5A6275">“Generic Tool” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2023" font-size="10.5" fill="#5A6275">“Generic Tool Item” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2038" font-size="10.5" fill="#5A6275">“Generic Tool Status” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2053" font-size="10.5" fill="#5A6275">“Generic Tool Statuses” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2068" font-size="10.5" fill="#5A6275">“Generic Tools” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2083" font-size="10.5" fill="#5A6275">“Harm Source” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2098" font-size="10.5" fill="#5A6275">“Imports” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2113" font-size="10.5" fill="#5A6275">“Incident” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2128" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Companies line · 4 ops</text>
+<text x="978" y="2143" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects line · 5 ops</text>
+<text x="978" y="2158" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Actions line · 6 ops</text>
+<text x="978" y="2173" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Environmentals line · 9 ops</text>
+<text x="978" y="2188" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Filter Options line · 6 ops</text>
+<text x="978" y="2203" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Injuries line · 15 ops</text>
+<text x="978" y="2218" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Near Misses line · 11 ops</text>
+<text x="978" y="2233" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Property Damages line · 9 ops</text>
+<text x="978" y="2248" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Recycle Bin line · 21 ops</text>
+<text x="978" y="2263" font-size="10.5" fill="#5A6275">“Incidents” → Incidents · Projects Witness Statements line · 6 ops</text>
+<text x="978" y="2278" font-size="10.5" fill="#5A6275">“Inspection Schedules” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2293" font-size="10.5" fill="#5A6275">“Installation Requests” → More Local line · 2 ops</text>
+<text x="978" y="2308" font-size="10.5" fill="#5A6275">“Invoice Configuration” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2323" font-size="10.5" fill="#5A6275">“Invoice Payment Terms” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2338" font-size="10.5" fill="#5A6275">“Invoicing” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2353" font-size="10.5" fill="#5A6275">“Line Item Type Categories” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2368" font-size="10.5" fill="#5A6275">“MPZ” → More Local line · 1 op</text>
+<text x="978" y="2383" font-size="10.5" fill="#5A6275">“Maintenance Logs Attachments” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2398" font-size="10.5" fill="#5A6275">“Managed Equipment Attachment” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2413" font-size="10.5" fill="#5A6275">“Managed Equipment Make” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2428" font-size="10.5" fill="#5A6275">“Managed Equipment User Permissions” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2443" font-size="10.5" fill="#5A6275">“Me” → More Local line · 1 op</text>
+<text x="978" y="2458" font-size="10.5" fill="#5A6275">“Meeting Templates” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2473" font-size="10.5" fill="#5A6275">“Meeting Topics” → Meetings line · 1 op</text>
+<text x="978" y="2488" font-size="10.5" fill="#5A6275">“Meeting Topics” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2503" font-size="10.5" fill="#5A6275">“Observation Assignee Options” → Observations line · 1 op</text>
+<text x="978" y="2518" font-size="10.5" fill="#5A6275">“Operations” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2533" font-size="10.5" fill="#5A6275">“Payment Terms” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2548" font-size="10.5" fill="#5A6275">“Permissions” → More Local line · 1 op</text>
+<text x="978" y="2563" font-size="10.5" fill="#5A6275">“Plan Template References” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2578" font-size="10.5" fill="#5A6275">“Prime Change Order Rows” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2593" font-size="10.5" fill="#5A6275">“Prime Change Orders Batches” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2608" font-size="10.5" fill="#5A6275">“Prime Contract Summary” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2623" font-size="10.5" fill="#5A6275">“Project Action Plan Template Items” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2638" font-size="10.5" fill="#5A6275">“Project Action Plan Template Reference” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2653" font-size="10.5" fill="#5A6275">“Project Action Plan Template Sections” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2668" font-size="10.5" fill="#5A6275">“Project Action Plan Template Test Record Requests” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2683" font-size="10.5" fill="#5A6275">“Project Action Plan Templates” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2698" font-size="10.5" fill="#5A6275">“Project Area Bids” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2713" font-size="10.5" fill="#5A6275">“Project Assignable Users” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2728" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Names” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2743" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Permission Templates” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2758" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Programs” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2773" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Project Numbers” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2788" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Project Types” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2803" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Regions” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2818" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Roles” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2833" font-size="10.5" fill="#5A6275">“Project Assignments Filter Options - Stages” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="2848" font-size="10.5" fill="#5A6275">“Project Filter Options - Cost Codes” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2863" font-size="10.5" fill="#5A6275">“Project Filter Options - Country Codes” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2878" font-size="10.5" fill="#5A6275">“Project Filter Options - Job Titles” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2893" font-size="10.5" fill="#5A6275">“Project Filter Options - Permission Templates” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2908" font-size="10.5" fill="#5A6275">“Project Filter Options - State Codes” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2923" font-size="10.5" fill="#5A6275">“Project Filter Options - Trades” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2938" font-size="10.5" fill="#5A6275">“Project Funding Sources” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="2953" font-size="10.5" fill="#5A6275">“Project Inactive Users” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2968" font-size="10.5" fill="#5A6275">“Project Inactive Vendors” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="2983" font-size="10.5" fill="#5A6275">“Project Observation Templates” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="2998" font-size="10.5" fill="#5A6275">“Project People” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="3013" font-size="10.5" fill="#5A6275">“Project Permission Template Assignments” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3028" font-size="10.5" fill="#5A6275">“Project Permission Templates” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3043" font-size="10.5" fill="#5A6275">“Project Punch Item Templates” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3058" font-size="10.5" fill="#5A6275">“Project Templates” → More Local line · 1 op</text>
+<text x="978" y="3073" font-size="10.5" fill="#5A6275">“Punch Item Assignments” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="3088" font-size="10.5" fill="#5A6275">“Punch List Assignee Options” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3103" font-size="10.5" fill="#5A6275">“Punch List Available Final Approvers” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3118" font-size="10.5" fill="#5A6275">“Punch List Filter Options” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="3133" font-size="10.5" fill="#5A6275">“Punch List Read User Options” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3148" font-size="10.5" fill="#5A6275">“Rate Columns (Project)” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3163" font-size="10.5" fill="#5A6275">“Recent Activity” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3178" font-size="10.5" fill="#5A6275">“Recycle Bin Forms” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3193" font-size="10.5" fill="#5A6275">“RecycleBin” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3208" font-size="10.5" fill="#5A6275">“Requested Change” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="3223" font-size="10.5" fill="#5A6275">“Requisitions” → Requisitions (Subcontractor Invoices) line · 1 op</text>
+<text x="978" y="3238" font-size="10.5" fill="#5A6275">“Requisitions (Subcontractor Invoice)” → Requisitions (Subcontractor Invoices) line · 1 op</text>
+<text x="978" y="3253" font-size="10.5" fill="#5A6275">“Resource Assignments” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3268" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · Custom Fields line · 7 ops</text>
+<text x="978" y="3283" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · Groups line · 13 ops</text>
+<text x="978" y="3298" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · Job Titles line · 7 ops</text>
+<text x="978" y="3313" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · People line · 18 ops</text>
+<text x="978" y="3328" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · Projects line · 27 ops</text>
+<text x="978" y="3343" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · Requests line · 3 ops</text>
+<text x="978" y="3358" font-size="10.5" fill="#5A6275">“Resource Planning” → Resource Planning · Tags line · 7 ops</text>
+<text x="978" y="3373" font-size="10.5" fill="#5A6275">“Saved Views V2” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3388" font-size="10.5" fill="#5A6275">“Schedule Resources” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3403" font-size="10.5" fill="#5A6275">“Schedule Type” → More Local line · 2 ops</text>
+<text x="978" y="3418" font-size="10.5" fill="#5A6275">“Segment Item” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3433" font-size="10.5" fill="#5A6275">“Segment Item” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3448" font-size="10.5" fill="#5A6275">“Specifications User Permissions” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3463" font-size="10.5" fill="#5A6275">“Standard Cost Codes” → Cost Codes line · 2 ops</text>
+<text x="978" y="3478" font-size="10.5" fill="#5A6275">“Submittal Packages” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3493" font-size="10.5" fill="#5A6275">“Submittal Statuses” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3508" font-size="10.5" fill="#5A6275">“Submittal Types” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3523" font-size="10.5" fill="#5A6275">“Submittals” → Submittals · Companies line · 22 ops</text>
+<text x="978" y="3538" font-size="10.5" fill="#5A6275">“Submittals” → Submittals · Projects line · 5 ops</text>
+<text x="978" y="3553" font-size="10.5" fill="#5A6275">“Submittals” → Submittals · Projects Filter Options line · 43 ops</text>
+<text x="978" y="3568" font-size="10.5" fill="#5A6275">“Submittals” → Submittals · Submittal Approvers line · 1 op</text>
+<text x="978" y="3583" font-size="10.5" fill="#5A6275">“Submittals” → Submittals · Submittal Associated Attachments line · 1 op</text>
+<text x="978" y="3598" font-size="10.5" fill="#5A6275">“Submittals” → Submittals · Submittal Responses line · 1 op</text>
+<text x="978" y="3613" font-size="10.5" fill="#5A6275">“Submittals · Submittal Approvers” → More Local line · 1 op</text>
+<text x="978" y="3628" font-size="10.5" fill="#5A6275">“Submittals · Submittal Associated Attachments” → More Local line · 1 op</text>
+<text x="978" y="3643" font-size="10.5" fill="#5A6275">“Submittals · Submittal Responses” → More Local line · 1 op</text>
+<text x="978" y="3658" font-size="10.5" fill="#5A6275">“Support Pins” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3673" font-size="10.5" fill="#5A6275">“Task Item Assignee Options” → Task Items line · 1 op</text>
+<text x="978" y="3688" font-size="10.5" fill="#5A6275">“Task Items Distribution Members” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3703" font-size="10.5" fill="#5A6275">“Tax Project Codes” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3718" font-size="10.5" fill="#5A6275">“Tax Project Configuration” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3733" font-size="10.5" fill="#5A6275">“Time and Material Attachments” → Submittals · Projects Filter Options line · 2 ops</text>
+<text x="978" y="3748" font-size="10.5" fill="#5A6275">“Time and Material Entry Configurable Field Sets” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3763" font-size="10.5" fill="#5A6275">“Time and Material Signature” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3778" font-size="10.5" fill="#5A6275">“Timecard Entries” → More Local line · 1 op</text>
+<text x="978" y="3793" font-size="10.5" fill="#5A6275">“Unit of Measure” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3808" font-size="10.5" fill="#5A6275">“Unit of Measure Categories” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3823" font-size="10.5" fill="#5A6275">“Upload Requirements” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3838" font-size="10.5" fill="#5A6275">“WBS Segment” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3853" font-size="10.5" fill="#5A6275">“WBS Segment Item Lists” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3868" font-size="10.5" fill="#5A6275">“WBS Task Codes” → Submittals · Projects Filter Options line · 1 op</text>
+<text x="978" y="3883" font-size="10.5" fill="#5A6275">“Work Activity” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3898" font-size="10.5" fill="#5A6275">“Work Scopes” → More Local line · 1 op</text>
+<text x="978" y="3913" font-size="10.5" fill="#5A6275">“Workflow Instances (Bulk)” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3928" font-size="10.5" fill="#5A6275">“Workflow Managers” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3943" font-size="10.5" fill="#5A6275">“Workflow Possible Assignees” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="3958" font-size="10.5" fill="#5A6275">“Workflow Template Versions” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3973" font-size="10.5" fill="#5A6275">“Workflow Templates” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="3988" font-size="10.5" fill="#5A6275">“Workflow Tools” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4003" font-size="10.5" fill="#5A6275">“accessible-tools-v-2-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4018" font-size="10.5" fill="#5A6275">“activities-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4033" font-size="10.5" fill="#5A6275">“activity-links-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4048" font-size="10.5" fill="#5A6275">“asset-permissions-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4063" font-size="10.5" fill="#5A6275">“asset-status-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4078" font-size="10.5" fill="#5A6275">“asset-system-state-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4093" font-size="10.5" fill="#5A6275">“asset-type-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4108" font-size="10.5" fill="#5A6275">“calendars-controller-v-21” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4123" font-size="10.5" fill="#5A6275">“fieldset-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4138" font-size="10.5" fill="#5A6275">“group-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4153" font-size="10.5" fill="#5A6275">“item-permission-v-2-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4168" font-size="10.5" fill="#5A6275">“markup-copy-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4183" font-size="10.5" fill="#5A6275">“markup-indicator-v-2-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4198" font-size="10.5" fill="#5A6275">“markup-retrieval-v-2-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4213" font-size="10.5" fill="#5A6275">“permission-v-2-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4228" font-size="10.5" fill="#5A6275">“permissions-controller” → Checklists (Inspections) · Companies line · 1 op</text>
+<text x="978" y="4243" font-size="10.5" fill="#5A6275">“requirement-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4258" font-size="10.5" fill="#5A6275">“schedules-controller” → Checklists (Inspections) · Companies line · 2 ops</text>
+<text x="978" y="4308" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="978" y="4325" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1116" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/procore/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
