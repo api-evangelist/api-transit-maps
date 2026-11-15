@@ -1,0 +1,639 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2330 2238" width="2330" height="2238" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2330" height="2238" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Panther API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">96 operations as stops · 21 tags as lines · 4 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="825.7" y="1126" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">LOG SOURCES</text>
+<text x="363.0" y="622" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">API TOKENS</text>
+<text x="823.6" y="1000" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">USERS</text>
+<text x="319.6" y="1504" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">QUERIES</text>
+<text x="622.0" y="1630" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">DATA MODELS</text>
+<text x="454.0" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">SIMPLE RULES</text>
+<text x="328.0" y="1042" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">GLOBALS</text>
+<text x="1512.4" y="1252" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">RULES</text>
+<text x="1025.2" y="1840" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">ROLES</text>
+<text x="1294.0" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">POLICIES</text>
+<text x="1218.4" y="1588" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">ALERTS</text>
+<text x="1077.28" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="790" y1="1406" x2="832" y2="1448" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="790" y1="1406" x2="832" y2="1448" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Alert" d="M1378.0,1784.0 L1294.0,1700.0 L1261.9,1667.9 Q1252.0,1658.0 1238.0,1658.0 L1126.0,1658.0 L1042.0,1658.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Alert</title></path>
+<path class="line" data-line="API Token" d="M328.0,692.0 L328.0,776.0 L328.0,860.0 L328.0,930.0 Q328.0,944.0 337.9,953.9 L360.1,976.1 Q370.0,986.0 384.0,986.0 L496.0,986.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Token</title></path>
+<path class="line" data-line="Aws Cloud Account" d="M622.0,776.0 L706.0,776.0 L776.0,776.0 Q790.0,776.0 790.0,790.0 L790.0,902.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Aws Cloud Account</title></path>
+<path class="line" data-line="Comment" d="M1294.0,356.0 L1294.0,440.0 L1294.0,524.0 L1294.0,608.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Comment</title></path>
+<path class="line" data-line="contexttag" d="M1546.0,860.0 L1462.0,860.0 L1392.0,860.0 Q1378.0,860.0 1378.0,874.0 L1378.0,986.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>contexttag</title></path>
+<path class="line" data-line="correlation rule" d="M958.0,734.0 L1042.0,734.0 L1070.0,734.0 Q1084.0,734.0 1093.9,743.9 L1168.0,818.0 L1252.0,902.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>correlation rule</title></path>
+<path class="line" data-line="Data Model" d="M454.0,1868.0 L538.0,1868.0 L608.0,1868.0 Q622.0,1868.0 631.9,1858.1 L706.0,1784.0 L790.0,1700.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Data Model</title></path>
+<path class="line" data-line="gcs source" d="M832.0,1448.0 L948.1,1331.9 Q958.0,1322.0 948.1,1312.1 L916.0,1280.0 L832.0,1196.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>gcs source</title></path>
+<path class="line" data-line="Global" d="M160.0,1280.0 L244.0,1196.0 L318.1,1121.9 Q328.0,1112.0 342.0,1112.0 L412.0,1112.0 L496.0,1112.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Global</title></path>
+<path class="line" data-line="http source" d="M916.0,1448.0 L1028.0,1448.0 Q1042.0,1448.0 1051.9,1457.9 L1084.0,1490.0 L1126.0,1532.0" fill="none" stroke="#af2323" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>http source</title></path>
+<path class="line" data-line="log forwarder source" d="M706.0,1490.0 L706.0,1518.0 Q706.0,1532.0 696.1,1541.9 L580.0,1658.0 L496.0,1742.0" fill="none" stroke="#dd5b98" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>log forwarder source</title></path>
+<path class="line" data-line="log source alarm" d="M1084.0,1196.0 L1168.0,1112.0 L1252.0,1028.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>log source alarm</title></path>
+<path class="line" data-line="Policy" d="M1504.0,1280.0 L1429.9,1354.1 Q1420.0,1364.0 1406.0,1364.0 L1266.0,1364.0 Q1252.0,1364.0 1242.1,1354.1 L1219.9,1331.9 Q1210.0,1322.0 1196.0,1322.0 L1084.0,1322.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Policy</title></path>
+<path class="line" data-line="pub/sub source" d="M790.0,1406.0 L706.0,1322.0 L664.0,1280.0 L580.0,1196.0" fill="none" stroke="#e87451" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>pub/sub source</title></path>
+<path class="line" data-line="Query" d="M370.0,1574.0 L370.0,1658.0 L370.0,1728.0 Q370.0,1742.0 360.1,1751.9 L286.0,1826.0 L202.0,1910.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query</title></path>
+<path class="line" data-line="Role" d="M874.0,2078.0 L958.0,1994.0 L1032.1,1919.9 Q1042.0,1910.0 1056.0,1910.0 L1084.0,1910.0 L1168.0,1910.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Role</title></path>
+<path class="line" data-line="Rule" d="M1630.0,1322.0 L1546.0,1406.0 L1471.9,1480.1 Q1462.0,1490.0 1462.0,1504.0 L1462.0,1574.0 L1462.0,1658.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Rule</title></path>
+<path class="line" data-line="s3 source" d="M832.0,1532.0 L906.1,1606.1 Q916.0,1616.0 916.0,1630.0 L916.0,1658.0 L916.0,1742.0" fill="none" stroke="#af2385" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>s3 source</title></path>
+<path class="line" data-line="scheduled rule" d="M874.0,230.0 L874.0,342.0 Q874.0,356.0 864.1,365.9 L841.9,388.1 Q832.0,398.0 818.0,398.0 L790.0,398.0 L706.0,398.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>scheduled rule</title></path>
+<path class="line" data-line="simple rule" d="M580.0,1532.0 L496.0,1448.0 L454.0,1406.0 L412.0,1364.0 L328.0,1280.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>simple rule</title></path>
+<path class="line" data-line="User" d="M1000.0,1070.0 L916.0,1070.0 L832.0,1070.0 L748.0,1070.0 L622.0,1070.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User</title></path>
+<line x1="1378" y1="1784" x2="1402.0416305603426" y2="1808.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1378.0416305603426" y="1797.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Alert</title></rect><text x="1402.0416305603426" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALE</text>
+<line x1="1042" y1="1658" x2="1008.0" y2="1658.0" stroke="#5C6BC0" stroke-width="7"/><rect x="984.0" y="1647.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Alert</title></rect><text x="1008.0" y="1663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ALE</text>
+<line x1="328" y1="692" x2="328.0" y2="658.0" stroke="#0E9F6E" stroke-width="7"/><rect x="304.0" y="647.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>API Token</title></rect><text x="328.0" y="663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AT</text>
+<line x1="496" y1="986" x2="530.0" y2="986.0" stroke="#0E9F6E" stroke-width="7"/><rect x="506.0" y="975.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>API Token</title></rect><text x="530.0" y="991.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AT</text>
+<line x1="622" y1="776" x2="588.0" y2="776.0" stroke="#5C6BC0" stroke-width="7"/><rect x="564.0" y="765.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Aws Cloud Account</title></rect><text x="588.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACA</text>
+<line x1="790" y1="902" x2="790.0" y2="936.0" stroke="#5C6BC0" stroke-width="7"/><rect x="766.0" y="925.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Aws Cloud Account</title></rect><text x="790.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACA</text>
+<line x1="1294" y1="356" x2="1294.0" y2="322.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1270.0" y="311.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Comment</title></rect><text x="1294.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1294" y1="608" x2="1294.0" y2="642.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1270.0" y="631.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Comment</title></rect><text x="1294.0" y="647.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1546" y1="860" x2="1580.0" y2="860.0" stroke="#0B7A75" stroke-width="7"/><rect x="1556.0" y="849.0" width="48" height="22" rx="5" fill="#0B7A75"><title>contexttag</title></rect><text x="1580.0" y="865.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1378" y1="986" x2="1378.0" y2="1020.0" stroke="#0B7A75" stroke-width="7"/><rect x="1354.0" y="1009.0" width="48" height="22" rx="5" fill="#0B7A75"><title>contexttag</title></rect><text x="1378.0" y="1025.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="958" y1="734" x2="924.0" y2="734.0" stroke="#D6264F" stroke-width="7"/><rect x="900.0" y="723.0" width="48" height="22" rx="5" fill="#D6264F"><title>correlation rule</title></rect><text x="924.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CR</text>
+<line x1="1252" y1="902" x2="1276.0416305603426" y2="926.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1252.0416305603426" y="915.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>correlation rule</title></rect><text x="1276.0416305603426" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CR</text>
+<line x1="454" y1="1868" x2="420.0" y2="1868.0" stroke="#7B3FE4" stroke-width="7"/><rect x="396.0" y="1857.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Data Model</title></rect><text x="420.0" y="1873.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DM</text>
+<line x1="790" y1="1700" x2="814.0416305603426" y2="1675.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="790.0416305603426" y="1664.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Data Model</title></rect><text x="814.0416305603426" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DM</text>
+<line x1="832" y1="1448" x2="807.9583694396574" y2="1472.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="783.9583694396574" y="1461.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>gcs source</title></rect><text x="807.9583694396574" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GS</text>
+<line x1="832" y1="1196" x2="807.9583694396574" y2="1171.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="783.9583694396574" y="1160.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>gcs source</title></rect><text x="807.9583694396574" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GS</text>
+<line x1="160" y1="1280" x2="135.9583694396574" y2="1304.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="111.95836943965739" y="1293.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Global</title></rect><text x="135.9583694396574" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GLO</text>
+<line x1="496" y1="1112" x2="530.0" y2="1112.0" stroke="#0B7A75" stroke-width="7"/><rect x="506.0" y="1101.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Global</title></rect><text x="530.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GLO</text>
+<line x1="916" y1="1448" x2="882.0" y2="1448.0" stroke="#af2323" stroke-width="7"/><rect x="858.0" y="1437.0" width="48" height="22" rx="5" fill="#af2323"><title>http source</title></rect><text x="882.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HS</text>
+<line x1="1126" y1="1532" x2="1150.0416305603426" y2="1556.0416305603426" stroke="#af2323" stroke-width="7"/><rect x="1126.0416305603426" y="1545.0416305603426" width="48" height="22" rx="5" fill="#af2323"><title>http source</title></rect><text x="1150.0416305603426" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">HS</text>
+<line x1="706" y1="1490" x2="706.0" y2="1456.0" stroke="#dd5b98" stroke-width="7"/><rect x="682.0" y="1445.0" width="48" height="22" rx="5" fill="#dd5b98"><title>log forwarder source</title></rect><text x="706.0" y="1461.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LFS</text>
+<line x1="496" y1="1742" x2="471.95836943965736" y2="1766.0416305603426" stroke="#dd5b98" stroke-width="7"/><rect x="447.95836943965736" y="1755.0416305603426" width="48" height="22" rx="5" fill="#dd5b98"><title>log forwarder source</title></rect><text x="471.95836943965736" y="1771.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LFS</text>
+<line x1="1084" y1="1196" x2="1059.9583694396574" y2="1220.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="1035.9583694396574" y="1209.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>log source alarm</title></rect><text x="1059.9583694396574" y="1225.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LSA</text>
+<line x1="1252" y1="1028" x2="1276.0416305603426" y2="1003.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="1252.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>log source alarm</title></rect><text x="1276.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">LSA</text>
+<line x1="1504" y1="1280" x2="1528.0416305603426" y2="1255.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="1504.0416305603426" y="1244.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Policy</title></rect><text x="1528.0416305603426" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POL</text>
+<line x1="1084" y1="1322" x2="1050.0" y2="1322.0" stroke="#2E7D32" stroke-width="7"/><rect x="1026.0" y="1311.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Policy</title></rect><text x="1050.0" y="1327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POL</text>
+<line x1="790" y1="1406" x2="832.4264068711929" y2="1411.6568542494924" stroke="#e87451" stroke-width="7"/><rect x="808.4264068711929" y="1400.6568542494924" width="48" height="22" rx="5" fill="#e87451"><title>pub/sub source</title></rect><text x="832.4264068711929" y="1416.6568542494924" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PSS</text>
+<line x1="580" y1="1196" x2="555.9583694396574" y2="1171.9583694396574" stroke="#e87451" stroke-width="7"/><rect x="531.9583694396574" y="1160.9583694396574" width="48" height="22" rx="5" fill="#e87451"><title>pub/sub source</title></rect><text x="555.9583694396574" y="1176.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PSS</text>
+<line x1="370" y1="1574" x2="370.0" y2="1540.0" stroke="#E07B12" stroke-width="7"/><rect x="346.0" y="1529.0" width="48" height="22" rx="5" fill="#E07B12"><title>Query</title></rect><text x="370.0" y="1545.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="202" y1="1910" x2="177.9583694396574" y2="1934.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="153.9583694396574" y="1923.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Query</title></rect><text x="177.9583694396574" y="1939.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="874" y1="2078" x2="849.9583694396574" y2="2102.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="825.9583694396574" y="2091.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Role</title></rect><text x="849.9583694396574" y="2107.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="1168" y1="1910" x2="1202.0" y2="1910.0" stroke="#C2410C" stroke-width="7"/><rect x="1178.0" y="1899.0" width="48" height="22" rx="5" fill="#C2410C"><title>Role</title></rect><text x="1202.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ROL</text>
+<line x1="1630" y1="1322" x2="1654.0416305603426" y2="1297.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1630.0416305603426" y="1286.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Rule</title></rect><text x="1654.0416305603426" y="1302.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUL</text>
+<line x1="1462" y1="1658" x2="1462.0" y2="1692.0" stroke="#B8860B" stroke-width="7"/><rect x="1438.0" y="1681.0" width="48" height="22" rx="5" fill="#B8860B"><title>Rule</title></rect><text x="1462.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RUL</text>
+<line x1="832" y1="1532" x2="807.9583694396574" y2="1507.9583694396574" stroke="#af2385" stroke-width="7"/><rect x="783.9583694396574" y="1496.9583694396574" width="48" height="22" rx="5" fill="#af2385"><title>s3 source</title></rect><text x="807.9583694396574" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">S3S</text>
+<line x1="916" y1="1742" x2="916.0" y2="1776.0" stroke="#af2385" stroke-width="7"/><rect x="892.0" y="1765.0" width="48" height="22" rx="5" fill="#af2385"><title>s3 source</title></rect><text x="916.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">S3S</text>
+<line x1="874" y1="230" x2="874.0" y2="196.0" stroke="#B0287F" stroke-width="7"/><rect x="850.0" y="185.0" width="48" height="22" rx="5" fill="#B0287F"><title>scheduled rule</title></rect><text x="874.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="706" y1="398" x2="672.0" y2="398.0" stroke="#B0287F" stroke-width="7"/><rect x="648.0" y="387.0" width="48" height="22" rx="5" fill="#B0287F"><title>scheduled rule</title></rect><text x="672.0" y="403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="580" y1="1532" x2="604.0416305603426" y2="1556.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="580.0416305603426" y="1545.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>simple rule</title></rect><text x="604.0416305603426" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SIR</text>
+<line x1="328" y1="1280" x2="303.95836943965736" y2="1255.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="279.95836943965736" y="1244.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>simple rule</title></rect><text x="303.95836943965736" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SIR</text>
+<line x1="1000" y1="1070" x2="1034.0" y2="1070.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1010.0" y="1059.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>User</title></rect><text x="1034.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="622" y1="1070" x2="588.0" y2="1070.0" stroke="#1F5FD1" stroke-width="7"/><rect x="564.0" y="1059.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>User</title></rect><text x="588.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<a href="https://apis.apis.io/apis/panther/panther-alert-api/#op-alert#list" target="_blank" class="st" data-op="alert#list"><title>GET /alerts
+Alert line · alert#list</title>
+<circle cx="1378" cy="1784" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1390" y="1789" text-anchor="start" style="fill:#1A1F2C">List alerts</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-alert-api/#op-alert#bulkPatch" target="_blank" class="st" data-op="alert#bulkPatch"><title>PATCH /alerts
+Alert line · alert#bulkPatch</title>
+<circle cx="1294" cy="1700" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1306" y="1705" text-anchor="start" style="fill:#1A1F2C">Create alert</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-alert-api/#op-alert#get" target="_blank" class="st" data-op="alert#get"><title>GET /alerts/{id}
+Alert line · alert#get</title>
+<circle cx="1252" cy="1658" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="1663" text-anchor="start" style="fill:#1A1F2C">Get alert</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-alert-api/#op-alert#patch" target="_blank" class="st" data-op="alert#patch"><title>PATCH /alerts/{id}
+Alert line · alert#patch</title>
+<circle cx="1126" cy="1658" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1132" y="1646" transform="rotate(-45 1132 1646)" style="fill:#1A1F2C">Update alert</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-alert-api/#op-alert#events" target="_blank" class="st" data-op="alert#events"><title>GET /alerts/{id}/events
+Alert line · alert#events</title>
+<circle cx="1042" cy="1658" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1048" y="1646" transform="rotate(-45 1048 1646)" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-api-token-api/#op-apiToken#list" target="_blank" class="st" data-op="apiToken#list"><title>GET /api-tokens
+API Token line · apiToken#list</title>
+<circle cx="328" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="697" text-anchor="start" style="fill:#1A1F2C">List api tokens</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-api-token-api/#op-apiToken#create" target="_blank" class="st" data-op="apiToken#create"><title>POST /api-tokens
+API Token line · apiToken#create</title>
+<circle cx="328" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="781" text-anchor="start" style="fill:#1A1F2C">Create api token</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-api-token-api/#op-apiToken#delete" target="_blank" class="st" data-op="apiToken#delete"><title>DELETE /api-tokens/{id}
+API Token line · apiToken#delete</title>
+<circle cx="370" cy="986" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="366" y1="990" x2="374" y2="982" stroke="#0E9F6E" stroke-width="2"/>
+<text x="358.0" y="991" text-anchor="end" style="fill:#1A1F2C">Delete api token</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-api-token-api/#op-apiToken#get" target="_blank" class="st" data-op="apiToken#get"><title>GET /api-tokens/{id}
+API Token line · apiToken#get</title>
+<circle cx="328" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="865" text-anchor="start" style="fill:#1A1F2C">Get api token</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-api-token-api/#op-apiToken#update" target="_blank" class="st" data-op="apiToken#update"><title>POST /api-tokens/{id}
+API Token line · apiToken#update</title>
+<circle cx="328" cy="944" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="949" text-anchor="start" style="fill:#1A1F2C">Update api token</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-api-token-api/#op-apiToken#rotate" target="_blank" class="st" data-op="apiToken#rotate"><title>POST /api-tokens/{id}/rotate
+API Token line · apiToken#rotate</title>
+<circle cx="496" cy="986" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="490" y="998" text-anchor="end" transform="rotate(-45 490 998)" style="fill:#1A1F2C">Update rotate</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-aws-cloud-account-api/#op-awsCloudAccount#create" target="_blank" class="st" data-op="awsCloudAccount#create"><title>POST /cloud-accounts/aws
+Aws Cloud Account line · awsCloudAccount#create</title>
+<circle cx="622" cy="776" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="628" y="764" transform="rotate(-45 628 764)" style="fill:#1A1F2C">Create aw</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-aws-cloud-account-api/#op-awsCloudAccount#delete" target="_blank" class="st" data-op="awsCloudAccount#delete"><title>DELETE /cloud-accounts/aws/{id}
+Aws Cloud Account line · awsCloudAccount#delete</title>
+<circle cx="790" cy="902" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="786" y1="906" x2="794" y2="898" stroke="#5C6BC0" stroke-width="2"/>
+<text x="802" y="907" text-anchor="start" style="fill:#1A1F2C">Delete aw</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-aws-cloud-account-api/#op-awsCloudAccount#get" target="_blank" class="st" data-op="awsCloudAccount#get"><title>GET /cloud-accounts/aws/{id}
+Aws Cloud Account line · awsCloudAccount#get</title>
+<circle cx="706" cy="776" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="712" y="764" transform="rotate(-45 712 764)" style="fill:#1A1F2C">Get aw</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-aws-cloud-account-api/#op-awsCloudAccount#put" target="_blank" class="st" data-op="awsCloudAccount#put"><title>PUT /cloud-accounts/aws/{id}
+Aws Cloud Account line · awsCloudAccount#put</title>
+<circle cx="790" cy="776" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="802" y="781" text-anchor="start" style="fill:#1A1F2C">Update aw</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-comment-api/#op-comment#list" target="_blank" class="st" data-op="comment#list"><title>GET /alert-comments
+Comment line · comment#list</title>
+<circle cx="1294" cy="356" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="361" text-anchor="start" style="fill:#1A1F2C">List alert comments</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-comment-api/#op-comment#create" target="_blank" class="st" data-op="comment#create"><title>POST /alert-comments
+Comment line · comment#create</title>
+<circle cx="1294" cy="440" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="445" text-anchor="start" style="fill:#1A1F2C">Create alert comment</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-comment-api/#op-comment#get" target="_blank" class="st" data-op="comment#get"><title>GET /alert-comments/{id}
+Comment line · comment#get</title>
+<circle cx="1294" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="529" text-anchor="start" style="fill:#1A1F2C">Get alert comment</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-comment-api/#op-comment#update" target="_blank" class="st" data-op="comment#update"><title>POST /alert-comments/{id}
+Comment line · comment#update</title>
+<circle cx="1294" cy="608" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1306" y="613" text-anchor="start" style="fill:#1A1F2C">Update alert comment</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-contexttag-api/#op-contexttag#list" target="_blank" class="st" data-op="contexttag#list"><title>GET /alert-context-tags
+contexttag line · contexttag#list</title>
+<circle cx="1546" cy="860" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1540" y="872" text-anchor="end" transform="rotate(-45 1540 872)" style="fill:#1A1F2C">List alert context tags</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-contexttag-api/#op-contexttag#create" target="_blank" class="st" data-op="contexttag#create"><title>POST /alert-context-tags
+contexttag line · contexttag#create</title>
+<circle cx="1462" cy="860" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1468" y="848" transform="rotate(-45 1468 848)" style="fill:#1A1F2C">Create alert context tag</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-contexttag-api/#op-contexttag#delete" target="_blank" class="st" data-op="contexttag#delete"><title>DELETE /alert-context-tags/{tag}
+contexttag line · contexttag#delete</title>
+<circle cx="1378" cy="986" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1374" y1="990" x2="1382" y2="982" stroke="#0B7A75" stroke-width="2"/>
+<text x="1390" y="991" text-anchor="start" style="fill:#1A1F2C">Delete alert context tag</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-contexttag-api/#op-contexttag#update" target="_blank" class="st" data-op="contexttag#update"><title>PATCH /alert-context-tags/{tag}
+contexttag line · contexttag#update</title>
+<circle cx="1378" cy="860" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1366.0" y="858" text-anchor="end" style="fill:#1A1F2C">Update alert<tspan x="1366.0" dy="13">context tag</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-correlation-rule-api/#op-correlationRule#list" target="_blank" class="st" data-op="correlationRule#list"><title>GET /correlation-rules
+correlation rule line · correlationRule#list</title>
+<circle cx="958" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="722" transform="rotate(-45 964 722)" style="fill:#1A1F2C">List correlation rules</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-correlation-rule-api/#op-correlationRule#create" target="_blank" class="st" data-op="correlationRule#create"><title>POST /correlation-rules
+correlation rule line · correlationRule#create</title>
+<circle cx="1042" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1048" y="722" transform="rotate(-45 1048 722)" style="fill:#1A1F2C">Create correlation rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-correlation-rule-api/#op-correlationRule#delete" target="_blank" class="st" data-op="correlationRule#delete"><title>DELETE /correlation-rules/{id}
+correlation rule line · correlationRule#delete</title>
+<circle cx="1252" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1248" y1="906" x2="1256" y2="898" stroke="#D6264F" stroke-width="2"/>
+<text x="1240.0" y="907" text-anchor="end" style="fill:#1A1F2C">Delete correlation rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-correlation-rule-api/#op-correlationRule#get" target="_blank" class="st" data-op="correlationRule#get"><title>GET /correlation-rules/{id}
+correlation rule line · correlationRule#get</title>
+<circle cx="1084" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="739" text-anchor="start" style="fill:#1A1F2C">Get correlation rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-correlation-rule-api/#op-correlationRule#put" target="_blank" class="st" data-op="correlationRule#put"><title>PUT /correlation-rules/{id}
+correlation rule line · correlationRule#put</title>
+<circle cx="1168" cy="818" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="823" text-anchor="start" style="fill:#1A1F2C">Update correlation rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-data-model-api/#op-dataModel#list" target="_blank" class="st" data-op="dataModel#list"><title>GET /data-models
+Data Model line · dataModel#list</title>
+<circle cx="454" cy="1868" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="460" y="1856" transform="rotate(-45 460 1856)" style="fill:#1A1F2C">List data models</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-data-model-api/#op-dataModel#create" target="_blank" class="st" data-op="dataModel#create"><title>POST /data-models
+Data Model line · dataModel#create</title>
+<circle cx="538" cy="1868" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="544" y="1856" transform="rotate(-45 544 1856)" style="fill:#1A1F2C">Create data model</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-data-model-api/#op-dataModel#delete" target="_blank" class="st" data-op="dataModel#delete"><title>DELETE /data-models/{id}
+Data Model line · dataModel#delete</title>
+<circle cx="790" cy="1700" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="786" y1="1704" x2="794" y2="1696" stroke="#7B3FE4" stroke-width="2"/>
+<text x="802" y="1705" text-anchor="start" style="fill:#1A1F2C">Delete data model</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-data-model-api/#op-dataModel#get" target="_blank" class="st" data-op="dataModel#get"><title>GET /data-models/{id}
+Data Model line · dataModel#get</title>
+<circle cx="622" cy="1868" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="634" y="1873" text-anchor="start" style="fill:#1A1F2C">Get data model</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-data-model-api/#op-dataModel#put" target="_blank" class="st" data-op="dataModel#put"><title>PUT /data-models/{id}
+Data Model line · dataModel#put</title>
+<circle cx="706" cy="1784" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="718" y="1789" text-anchor="start" style="fill:#1A1F2C">Update data model</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-gcs-source-api/#op-gcsSource#create" target="_blank" class="st" data-op="gcsSource#create"><title>POST /log-sources/gcs
+gcs source line · gcsSource#create</title>
+<circle cx="832" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="820.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Create gc</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-gcs-source-api/#op-gcsSource#delete" target="_blank" class="st" data-op="gcsSource#delete"><title>DELETE /log-sources/gcs/{id}
+gcs source line · gcsSource#delete</title>
+<circle cx="832" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="828" y1="1200" x2="836" y2="1192" stroke="#D6264F" stroke-width="2"/>
+<text x="844" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete gc</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-gcs-source-api/#op-gcsSource#get" target="_blank" class="st" data-op="gcsSource#get"><title>GET /log-sources/gcs/{id}
+gcs source line · gcsSource#get</title>
+<circle cx="958" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="1327" text-anchor="start" style="fill:#1A1F2C">Get gc</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-gcs-source-api/#op-gcsSource#put" target="_blank" class="st" data-op="gcsSource#put"><title>PUT /log-sources/gcs/{id}
+gcs source line · gcsSource#put</title>
+<circle cx="916" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1285" text-anchor="start" style="fill:#1A1F2C">Update gc</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-global-api/#op-global#list" target="_blank" class="st" data-op="global#list"><title>GET /globals
+Global line · global#list</title>
+<circle cx="160" cy="1280" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="172" y="1285" text-anchor="start" style="fill:#1A1F2C">List globals</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-global-api/#op-global#create" target="_blank" class="st" data-op="global#create"><title>POST /globals
+Global line · global#create</title>
+<circle cx="244" cy="1196" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="256" y="1201" text-anchor="start" style="fill:#1A1F2C">Create global</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-global-api/#op-global#delete" target="_blank" class="st" data-op="global#delete"><title>DELETE /globals/{id}
+Global line · global#delete</title>
+<circle cx="496" cy="1112" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="492" y1="1116" x2="500" y2="1108" stroke="#0B7A75" stroke-width="2"/>
+<text x="490" y="1124" text-anchor="end" transform="rotate(-45 490 1124)" style="fill:#1A1F2C">Delete global</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-global-api/#op-global#get" target="_blank" class="st" data-op="global#get"><title>GET /globals/{id}
+Global line · global#get</title>
+<circle cx="328" cy="1112" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="316.0" y="1117" text-anchor="end" style="fill:#1A1F2C">Get global</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-global-api/#op-global#put" target="_blank" class="st" data-op="global#put"><title>PUT /globals/{id}
+Global line · global#put</title>
+<circle cx="412" cy="1112" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="418" y="1100" transform="rotate(-45 418 1100)" style="fill:#1A1F2C">Update global</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-http-source-api/#op-httpSource#create" target="_blank" class="st" data-op="httpSource#create"><title>POST /log-sources/http
+http source line · httpSource#create</title>
+<circle cx="916" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="922" y="1436" transform="rotate(-45 922 1436)" style="fill:#1A1F2C">Update http <tspan font-weight="700" style="fill:#D6264F">⇄GS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-http-source-api/#op-httpSource#delete" target="_blank" class="st" data-op="httpSource#delete"><title>DELETE /log-sources/http/{id}
+http source line · httpSource#delete</title>
+<circle cx="1126" cy="1532" r="5.5" fill="#fff" stroke="#af2323" stroke-width="2.5"/>
+<line x1="1122" y1="1536" x2="1130" y2="1528" stroke="#af2323" stroke-width="2"/>
+<text x="1138" y="1537" text-anchor="start" style="fill:#1A1F2C">Delete http</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-http-source-api/#op-httpSource#get" target="_blank" class="st" data-op="httpSource#get"><title>GET /log-sources/http/{id}
+http source line · httpSource#get</title>
+<circle cx="1042" cy="1448" r="5.5" fill="#fff" stroke="#af2323" stroke-width="2.5"/>
+<text x="1054" y="1453" text-anchor="start" style="fill:#1A1F2C">Get http</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-http-source-api/#op-httpSource#put" target="_blank" class="st" data-op="httpSource#put"><title>PUT /log-sources/http/{id}
+http source line · httpSource#put</title>
+<circle cx="1084" cy="1490" r="5.5" fill="#af2323" stroke="#af2323" stroke-width="2.5"/>
+<text x="1096" y="1495" text-anchor="start" style="fill:#1A1F2C">Update http</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-forwarder-source-api/#op-logForwarderSource#create" target="_blank" class="st" data-op="logForwarderSource#create"><title>POST /log-sources/log-forwarder
+log forwarder source line · logForwarderSource#create</title>
+<circle cx="706" cy="1490" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="694.0" y="1488" text-anchor="end" style="fill:#1A1F2C">Update log<tspan x="694.0" dy="13">forwarder <tspan font-weight="700" style="fill:#D6264F">⇄GS</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-forwarder-source-api/#op-logForwarderSource#delete" target="_blank" class="st" data-op="logForwarderSource#delete"><title>DELETE /log-sources/log-forwarder/{id}
+log forwarder source line · logForwarderSource#delete</title>
+<circle cx="496" cy="1742" r="5.5" fill="#fff" stroke="#dd5b98" stroke-width="2.5"/>
+<line x1="492" y1="1746" x2="500" y2="1738" stroke="#dd5b98" stroke-width="2"/>
+<text x="508" y="1747" text-anchor="start" style="fill:#1A1F2C">Delete log forwarder</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-forwarder-source-api/#op-logForwarderSource#get" target="_blank" class="st" data-op="logForwarderSource#get"><title>GET /log-sources/log-forwarder/{id}
+log forwarder source line · logForwarderSource#get</title>
+<circle cx="706" cy="1532" r="5.5" fill="#fff" stroke="#dd5b98" stroke-width="2.5"/>
+<text x="718" y="1537" text-anchor="start" style="fill:#1A1F2C">Get log forwarder</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-forwarder-source-api/#op-logForwarderSource#put" target="_blank" class="st" data-op="logForwarderSource#put"><title>PUT /log-sources/log-forwarder/{id}
+log forwarder source line · logForwarderSource#put</title>
+<circle cx="580" cy="1658" r="5.5" fill="#dd5b98" stroke="#dd5b98" stroke-width="2.5"/>
+<text x="592" y="1663" text-anchor="start" style="fill:#1A1F2C">Update log forwarder</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-source-alarm-api/#op-logSourceAlarm#delete" target="_blank" class="st" data-op="logSourceAlarm#delete"><title>DELETE /log-source-alarms/{sourceId}/{type}
+log source alarm line · logSourceAlarm#delete</title>
+<circle cx="1252" cy="1028" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1248" y1="1032" x2="1256" y2="1024" stroke="#00838F" stroke-width="2"/>
+<text x="1240.0" y="1033" text-anchor="end" style="fill:#1A1F2C">Delete log source alarm</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-source-alarm-api/#op-logSourceAlarm#get" target="_blank" class="st" data-op="logSourceAlarm#get"><title>GET /log-source-alarms/{sourceId}/{type}
+log source alarm line · logSourceAlarm#get</title>
+<circle cx="1084" cy="1196" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1096" y="1201" text-anchor="start" style="fill:#1A1F2C">Get log source alarm</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-log-source-alarm-api/#op-logSourceAlarm#put" target="_blank" class="st" data-op="logSourceAlarm#put"><title>PUT /log-source-alarms/{sourceId}/{type}
+log source alarm line · logSourceAlarm#put</title>
+<circle cx="1168" cy="1112" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1180" y="1117" text-anchor="start" style="fill:#1A1F2C">Update log source alarm</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-policy-api/#op-policy#list" target="_blank" class="st" data-op="policy#list"><title>GET /policies
+Policy line · policy#list</title>
+<circle cx="1504" cy="1280" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1516" y="1285" text-anchor="start" style="fill:#1A1F2C">List policies</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-policy-api/#op-policy#create" target="_blank" class="st" data-op="policy#create"><title>POST /policies
+Policy line · policy#create</title>
+<circle cx="1420" cy="1364" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1432" y="1369" text-anchor="start" style="fill:#1A1F2C">Create policy</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-policy-api/#op-policy#delete" target="_blank" class="st" data-op="policy#delete"><title>DELETE /policies/{id}
+Policy line · policy#delete</title>
+<circle cx="1084" cy="1322" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1080" y1="1326" x2="1088" y2="1318" stroke="#2E7D32" stroke-width="2"/>
+<text x="1090" y="1310" transform="rotate(-45 1090 1310)" style="fill:#1A1F2C">Delete policy</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-policy-api/#op-policy#get" target="_blank" class="st" data-op="policy#get"><title>GET /policies/{id}
+Policy line · policy#get</title>
+<circle cx="1252" cy="1364" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1240.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Get policy</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-policy-api/#op-policy#put" target="_blank" class="st" data-op="policy#put"><title>PUT /policies/{id}
+Policy line · policy#put</title>
+<circle cx="1210" cy="1322" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1222" y="1327" text-anchor="start" style="fill:#1A1F2C">Update policy</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-pub-sub-source-api/#op-pub/subSource#create" target="_blank" class="st" data-op="pub/subSource#create"><title>POST /log-sources/pubsub
+pub/sub source line · pub/subSource#create</title>
+<circle cx="790" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="778.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Update pubsub</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-pub-sub-source-api/#op-pub/subSource#delete" target="_blank" class="st" data-op="pub/subSource#delete"><title>DELETE /log-sources/pubsub/{id}
+pub/sub source line · pub/subSource#delete</title>
+<circle cx="580" cy="1196" r="5.5" fill="#fff" stroke="#e87451" stroke-width="2.5"/>
+<line x1="576" y1="1200" x2="584" y2="1192" stroke="#e87451" stroke-width="2"/>
+<text x="592" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete pubsub</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-pub-sub-source-api/#op-pub/subSource#get" target="_blank" class="st" data-op="pub/subSource#get"><title>GET /log-sources/pubsub/{id}
+pub/sub source line · pub/subSource#get</title>
+<circle cx="706" cy="1322" r="5.5" fill="#fff" stroke="#e87451" stroke-width="2.5"/>
+<text x="718" y="1327" text-anchor="start" style="fill:#1A1F2C">Get pubsub</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-pub-sub-source-api/#op-pub/subSource#put" target="_blank" class="st" data-op="pub/subSource#put"><title>PUT /log-sources/pubsub/{id}
+pub/sub source line · pub/subSource#put</title>
+<circle cx="664" cy="1280" r="5.5" fill="#e87451" stroke="#e87451" stroke-width="2.5"/>
+<text x="676" y="1285" text-anchor="start" style="fill:#1A1F2C">Update pubsub</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-query-api/#op-query#list" target="_blank" class="st" data-op="query#list"><title>GET /queries
+Query line · query#list</title>
+<circle cx="370" cy="1574" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="382" y="1579" text-anchor="start" style="fill:#1A1F2C">List queries</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-query-api/#op-query#create" target="_blank" class="st" data-op="query#create"><title>POST /queries
+Query line · query#create</title>
+<circle cx="370" cy="1658" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="382" y="1663" text-anchor="start" style="fill:#1A1F2C">Create query</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-query-api/#op-query#delete" target="_blank" class="st" data-op="query#delete"><title>DELETE /queries/{id}
+Query line · query#delete</title>
+<circle cx="202" cy="1910" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="198" y1="1914" x2="206" y2="1906" stroke="#E07B12" stroke-width="2"/>
+<text x="214" y="1915" text-anchor="start" style="fill:#1A1F2C">Delete query</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-query-api/#op-query#get" target="_blank" class="st" data-op="query#get"><title>GET /queries/{id}
+Query line · query#get</title>
+<circle cx="370" cy="1742" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="382" y="1747" text-anchor="start" style="fill:#1A1F2C">Get query</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-query-api/#op-query#update" target="_blank" class="st" data-op="query#update"><title>POST /queries/{id}
+Query line · query#update</title>
+<circle cx="286" cy="1826" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="298" y="1831" text-anchor="start" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-role-api/#op-role#list" target="_blank" class="st" data-op="role#list"><title>GET /roles
+Role line · role#list</title>
+<circle cx="874" cy="2078" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="886" y="2083" text-anchor="start" style="fill:#1A1F2C">List roles</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-role-api/#op-role#create" target="_blank" class="st" data-op="role#create"><title>POST /roles
+Role line · role#create</title>
+<circle cx="958" cy="1994" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="970" y="1999" text-anchor="start" style="fill:#1A1F2C">Create role</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-role-api/#op-role#delete" target="_blank" class="st" data-op="role#delete"><title>DELETE /roles/{id}
+Role line · role#delete</title>
+<circle cx="1168" cy="1910" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1164" y1="1914" x2="1172" y2="1906" stroke="#C2410C" stroke-width="2"/>
+<text x="1162" y="1922" text-anchor="end" transform="rotate(-45 1162 1922)" style="fill:#1A1F2C">Delete role</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-role-api/#op-role#get" target="_blank" class="st" data-op="role#get"><title>GET /roles/{id}
+Role line · role#get</title>
+<circle cx="1042" cy="1910" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1030.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Get role</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-role-api/#op-role#update" target="_blank" class="st" data-op="role#update"><title>POST /roles/{id}
+Role line · role#update</title>
+<circle cx="1084" cy="1910" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1090" y="1898" transform="rotate(-45 1090 1898)" style="fill:#1A1F2C">Update role</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-rule-api/#op-rule#list" target="_blank" class="st" data-op="rule#list"><title>GET /rules
+Rule line · rule#list</title>
+<circle cx="1630" cy="1322" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1642" y="1327" text-anchor="start" style="fill:#1A1F2C">List rules</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-rule-api/#op-rule#create" target="_blank" class="st" data-op="rule#create"><title>POST /rules
+Rule line · rule#create</title>
+<circle cx="1546" cy="1406" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1558" y="1411" text-anchor="start" style="fill:#1A1F2C">Create rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-rule-api/#op-rule#delete" target="_blank" class="st" data-op="rule#delete"><title>DELETE /rules/{id}
+Rule line · rule#delete</title>
+<circle cx="1462" cy="1658" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1458" y1="1662" x2="1466" y2="1654" stroke="#B8860B" stroke-width="2"/>
+<text x="1474" y="1663" text-anchor="start" style="fill:#1A1F2C">Delete rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-rule-api/#op-rule#get" target="_blank" class="st" data-op="rule#get"><title>GET /rules/{id}
+Rule line · rule#get</title>
+<circle cx="1462" cy="1490" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1474" y="1495" text-anchor="start" style="fill:#1A1F2C">Get rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-rule-api/#op-rule#put" target="_blank" class="st" data-op="rule#put"><title>PUT /rules/{id}
+Rule line · rule#put</title>
+<circle cx="1462" cy="1574" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1474" y="1579" text-anchor="start" style="fill:#1A1F2C">Update rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-s3-source-api/#op-s3Source#create" target="_blank" class="st" data-op="s3Source#create"><title>POST /log-sources/s3
+s3 source line · s3Source#create</title>
+<circle cx="832" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="844" y="1537" text-anchor="start" style="fill:#1A1F2C">Update s3 <tspan font-weight="700" style="fill:#D6264F">⇄GS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-s3-source-api/#op-s3Source#delete" target="_blank" class="st" data-op="s3Source#delete"><title>DELETE /log-sources/s3/{id}
+s3 source line · s3Source#delete</title>
+<circle cx="916" cy="1742" r="5.5" fill="#fff" stroke="#af2385" stroke-width="2.5"/>
+<line x1="912" y1="1746" x2="920" y2="1738" stroke="#af2385" stroke-width="2"/>
+<text x="928" y="1747" text-anchor="start" style="fill:#1A1F2C">Delete s3</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-s3-source-api/#op-s3Source#get" target="_blank" class="st" data-op="s3Source#get"><title>GET /log-sources/s3/{id}
+s3 source line · s3Source#get</title>
+<circle cx="916" cy="1616" r="5.5" fill="#fff" stroke="#af2385" stroke-width="2.5"/>
+<text x="928" y="1621" text-anchor="start" style="fill:#1A1F2C">Get s3</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-s3-source-api/#op-s3Source#put" target="_blank" class="st" data-op="s3Source#put"><title>PUT /log-sources/s3/{id}
+s3 source line · s3Source#put</title>
+<circle cx="916" cy="1658" r="5.5" fill="#af2385" stroke="#af2385" stroke-width="2.5"/>
+<text x="904.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Update s3</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-scheduled-rule-api/#op-scheduledRule#list" target="_blank" class="st" data-op="scheduledRule#list"><title>GET /scheduled-rules
+scheduled rule line · scheduledRule#list</title>
+<circle cx="874" cy="230" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="886" y="235" text-anchor="start" style="fill:#1A1F2C">List scheduled rules</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-scheduled-rule-api/#op-scheduledRule#create" target="_blank" class="st" data-op="scheduledRule#create"><title>POST /scheduled-rules
+scheduled rule line · scheduledRule#create</title>
+<circle cx="874" cy="356" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="886" y="361" text-anchor="start" style="fill:#1A1F2C">Create scheduled rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-scheduled-rule-api/#op-scheduledRule#delete" target="_blank" class="st" data-op="scheduledRule#delete"><title>DELETE /scheduled-rules/{id}
+scheduled rule line · scheduledRule#delete</title>
+<circle cx="706" cy="398" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="702" y1="402" x2="710" y2="394" stroke="#B0287F" stroke-width="2"/>
+<text x="712" y="386" transform="rotate(-45 712 386)" style="fill:#1A1F2C">Delete scheduled rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-scheduled-rule-api/#op-scheduledRule#get" target="_blank" class="st" data-op="scheduledRule#get"><title>GET /scheduled-rules/{id}
+scheduled rule line · scheduledRule#get</title>
+<circle cx="832" cy="398" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="844" y="403" text-anchor="start" style="fill:#1A1F2C">Get scheduled rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-scheduled-rule-api/#op-scheduledRule#put" target="_blank" class="st" data-op="scheduledRule#put"><title>PUT /scheduled-rules/{id}
+scheduled rule line · scheduledRule#put</title>
+<circle cx="790" cy="398" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="784" y="410" text-anchor="end" transform="rotate(-45 784 410)" style="fill:#1A1F2C">Update scheduled rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-simple-rule-api/#op-simpleRule#list" target="_blank" class="st" data-op="simpleRule#list"><title>GET /simple-rules
+simple rule line · simpleRule#list</title>
+<circle cx="580" cy="1532" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="568.0" y="1537" text-anchor="end" style="fill:#1A1F2C">List simple rules</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-simple-rule-api/#op-simpleRule#create" target="_blank" class="st" data-op="simpleRule#create"><title>POST /simple-rules
+simple rule line · simpleRule#create</title>
+<circle cx="496" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="508" y="1453" text-anchor="start" style="fill:#1A1F2C">Create simple rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-simple-rule-api/#op-simpleRule#delete" target="_blank" class="st" data-op="simpleRule#delete"><title>DELETE /simple-rules/{id}
+simple rule line · simpleRule#delete</title>
+<circle cx="328" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="324" y1="1284" x2="332" y2="1276" stroke="#B0287F" stroke-width="2"/>
+<text x="340" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete simple rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-simple-rule-api/#op-simpleRule#get" target="_blank" class="st" data-op="simpleRule#get"><title>GET /simple-rules/{id}
+simple rule line · simpleRule#get</title>
+<circle cx="454" cy="1406" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="466" y="1411" text-anchor="start" style="fill:#1A1F2C">Get simple rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-simple-rule-api/#op-simpleRule#put" target="_blank" class="st" data-op="simpleRule#put"><title>PUT /simple-rules/{id}
+simple rule line · simpleRule#put</title>
+<circle cx="412" cy="1364" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="424" y="1369" text-anchor="start" style="fill:#1A1F2C">Update simple rule</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-user-api/#op-user#list" target="_blank" class="st" data-op="user#list"><title>GET /users
+User line · user#list</title>
+<circle cx="1000" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="994" y="1082" text-anchor="end" transform="rotate(-45 994 1082)" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-user-api/#op-user#create" target="_blank" class="st" data-op="user#create"><title>POST /users
+User line · user#create</title>
+<circle cx="916" cy="1070" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="922" y="1058" transform="rotate(-45 922 1058)" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-user-api/#op-user#delete" target="_blank" class="st" data-op="user#delete"><title>DELETE /users/{id}
+User line · user#delete</title>
+<circle cx="622" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="618" y1="1074" x2="626" y2="1066" stroke="#1F5FD1" stroke-width="2"/>
+<text x="628" y="1058" transform="rotate(-45 628 1058)" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-user-api/#op-user#get" target="_blank" class="st" data-op="user#get"><title>GET /users/{id}
+User line · user#get</title>
+<circle cx="832" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="838" y="1058" transform="rotate(-45 838 1058)" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/panther/panther-user-api/#op-user#update" target="_blank" class="st" data-op="user#update"><title>POST /users/{id}
+User line · user#update</title>
+<circle cx="748" cy="1070" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="754" y="1058" transform="rotate(-45 754 1058)" style="fill:#1A1F2C">Update user</text>
+</a>
+<text x="1820" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1820" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">LOG SOURCES</text>
+<rect x="1820" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1837" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GS</text><text x="1862" y="269" font-size="11" fill="#1A1F2C">gcs source <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="276" width="34" height="13" rx="3" fill="#af2323"/><text x="1837" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">HS</text><text x="1862" y="286" font-size="11" fill="#1A1F2C">http source <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="293" width="34" height="13" rx="3" fill="#dd5b98"/><text x="1837" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LFS</text><text x="1862" y="303" font-size="11" fill="#1A1F2C">log forwarder source <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="310" width="34" height="13" rx="3" fill="#e87451"/><text x="1837" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PSS</text><text x="1862" y="320" font-size="11" fill="#1A1F2C">pub/sub source <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="327" width="34" height="13" rx="3" fill="#af2385"/><text x="1837" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">S3S</text><text x="1862" y="337" font-size="11" fill="#1A1F2C">s3 source <tspan fill="#8A93A6">4</tspan></text>
+<text x="1820" y="363" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">API TOKENS</text>
+<rect x="1820" y="370" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1837" y="380" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AT</text><text x="1862" y="380" font-size="11" fill="#1A1F2C">API Token <tspan fill="#8A93A6">6</tspan></text>
+<text x="1820" y="406" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">USERS</text>
+<rect x="1820" y="413" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1837" y="423" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="1862" y="423" font-size="11" fill="#1A1F2C">User <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="449" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">QUERIES</text>
+<rect x="1820" y="456" width="34" height="13" rx="3" fill="#E07B12"/><text x="1837" y="466" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QUE</text><text x="1862" y="466" font-size="11" fill="#1A1F2C">Query <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="492" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">DATA MODELS</text>
+<rect x="1820" y="499" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1837" y="509" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DM</text><text x="1862" y="509" font-size="11" fill="#1A1F2C">Data Model <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="535" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">SIMPLE RULES</text>
+<rect x="1820" y="542" width="34" height="13" rx="3" fill="#B0287F"/><text x="1837" y="552" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SIR</text><text x="1862" y="552" font-size="11" fill="#1A1F2C">simple rule <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="578" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">GLOBALS</text>
+<rect x="1820" y="585" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1837" y="595" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GLO</text><text x="1862" y="595" font-size="11" fill="#1A1F2C">Global <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="621" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">RULES</text>
+<rect x="1820" y="628" width="34" height="13" rx="3" fill="#B8860B"/><text x="1837" y="638" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RUL</text><text x="1862" y="638" font-size="11" fill="#1A1F2C">Rule <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="664" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">ROLES</text>
+<rect x="1820" y="671" width="34" height="13" rx="3" fill="#C2410C"/><text x="1837" y="681" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ROL</text><text x="1862" y="681" font-size="11" fill="#1A1F2C">Role <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="707" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">POLICIES</text>
+<rect x="1820" y="714" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1837" y="724" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POL</text><text x="1862" y="724" font-size="11" fill="#1A1F2C">Policy <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="750" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">ALERTS</text>
+<rect x="1820" y="757" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1837" y="767" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ALE</text><text x="1862" y="767" font-size="11" fill="#1A1F2C">Alert <tspan fill="#8A93A6">5</tspan></text>
+<text x="1820" y="793" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="1820" y="800" width="34" height="13" rx="3" fill="#D6264F"/><text x="1837" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CR</text><text x="1862" y="810" font-size="11" fill="#1A1F2C">correlation rule <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1820" y="817" width="34" height="13" rx="3" fill="#B0287F"/><text x="1837" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SR</text><text x="1862" y="827" font-size="11" fill="#1A1F2C">scheduled rule <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1820" y="834" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1837" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACA</text><text x="1862" y="844" font-size="11" fill="#1A1F2C">Aws Cloud Account <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="851" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1837" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="1862" y="861" font-size="11" fill="#1A1F2C">Comment <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="868" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1837" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="1862" y="878" font-size="11" fill="#1A1F2C">contexttag <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1820" y="885" width="34" height="13" rx="3" fill="#00838F"/><text x="1837" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">LSA</text><text x="1862" y="895" font-size="11" fill="#1A1F2C">log source alarm <tspan fill="#8A93A6">3</tspan></text>
+<text x="2070" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2088,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2114" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2088,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2114" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2088,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2114" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2088,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2114" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2088,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2114" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2088,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2114" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2088,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2114" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2088,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2114" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2070" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2070" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2208" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/panther/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

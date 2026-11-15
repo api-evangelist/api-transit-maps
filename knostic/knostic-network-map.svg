@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1322 1104" width="1322" height="1104" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1322" height="1104" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Knostic API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">12 operations as stops · 4 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="387.5" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">KNOSTIC</text>
+<path class="line" data-line="Extensions" d="M538.0,230.0 L538.0,314.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Extensions</title></path>
+<path class="line" data-line="MCP" d="M622.0,776.0 L538.0,860.0 L454.0,944.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>MCP</title></path>
+<path class="line" data-line="Scans" d="M370.0,734.0 L370.0,650.0 L370.0,566.0 L370.0,482.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Scans</title></path>
+<path class="line" data-line="Skills" d="M160.0,398.0 L160.0,482.0 L160.0,566.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Skills</title></path>
+<line x1="538" y1="230" x2="538.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="514.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Extensions</title></rect><text x="538.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXT</text>
+<line x1="538" y1="314" x2="538.0" y2="348.0" stroke="#E07B12" stroke-width="7"/><rect x="514.0" y="337.0" width="48" height="22" rx="5" fill="#E07B12"><title>Extensions</title></rect><text x="538.0" y="353.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">EXT</text>
+<line x1="622" y1="776" x2="646.0416305603426" y2="751.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="622.0416305603426" y="740.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>MCP</title></rect><text x="646.0416305603426" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MCP</text>
+<line x1="454" y1="944" x2="429.95836943965736" y2="968.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="405.95836943965736" y="957.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>MCP</title></rect><text x="429.95836943965736" y="973.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MCP</text>
+<line x1="370" y1="734" x2="370.0" y2="768.0" stroke="#D6264F" stroke-width="7"/><rect x="346.0" y="757.0" width="48" height="22" rx="5" fill="#D6264F"><title>Scans</title></rect><text x="370.0" y="773.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCA</text>
+<line x1="370" y1="482" x2="370.0" y2="448.0" stroke="#D6264F" stroke-width="7"/><rect x="346.0" y="437.0" width="48" height="22" rx="5" fill="#D6264F"><title>Scans</title></rect><text x="370.0" y="453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCA</text>
+<line x1="160" y1="398" x2="160.0" y2="364.0" stroke="#1F5FD1" stroke-width="7"/><rect x="136.0" y="353.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Skills</title></rect><text x="160.0" y="369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<line x1="160" y1="566" x2="160.0" y2="600.0" stroke="#1F5FD1" stroke-width="7"/><rect x="136.0" y="589.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Skills</title></rect><text x="160.0" y="605.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SKI</text>
+<a href="https://apis.apis.io/apis/knostic/knostic-extensions-api/#op-listExtensions" target="_blank" class="st" data-op="listExtensions"><title>GET /extensions
+Extensions line · listExtensions</title>
+<circle cx="538" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="550" y="235" text-anchor="start" style="fill:#1A1F2C">List extensions</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-extensions-api/#op-getExtension" target="_blank" class="st" data-op="getExtension"><title>GET /extensions/{ext_id}
+Extensions line · getExtension</title>
+<circle cx="538" cy="314" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="550" y="319" text-anchor="start" style="fill:#1A1F2C">Get extension</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-mcp-api/#op-listMcp" target="_blank" class="st" data-op="listMcp"><title>GET /mcp
+MCP line · listMcp</title>
+<circle cx="622" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="781" text-anchor="start" style="fill:#1A1F2C">Get mcp</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-mcp-api/#op-getMcp" target="_blank" class="st" data-op="getMcp"><title>GET /mcp/{server_id}
+MCP line · getMcp</title>
+<circle cx="538" cy="860" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="550" y="865" text-anchor="start" style="fill:#1A1F2C">Get mcp</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-mcp-api/#op-getMcpVersionScans" target="_blank" class="st" data-op="getMcpVersionScans"><title>GET /mcp/{server_id}/versions/{version_id}
+MCP line · getMcpVersionScans</title>
+<circle cx="454" cy="944" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="949" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-scans-api/#op-scanSkill" target="_blank" class="st" data-op="scanSkill"><title>POST /scan/skill/{slug}
+Scans line · scanSkill</title>
+<circle cx="370" cy="650" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="655" text-anchor="start" style="fill:#1A1F2C">Update skill</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-scans-api/#op-scanExtension" target="_blank" class="st" data-op="scanExtension"><title>POST /scan/extension/{slug}
+Scans line · scanExtension</title>
+<circle cx="370" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="739" text-anchor="start" style="fill:#1A1F2C">Update extension</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-scans-api/#op-listScans" target="_blank" class="st" data-op="listScans"><title>GET /scans
+Scans line · listScans</title>
+<circle cx="370" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="571" text-anchor="start" style="fill:#1A1F2C">List scans</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-scans-api/#op-getScan" target="_blank" class="st" data-op="getScan"><title>GET /scans/{scan_id}
+Scans line · getScan</title>
+<circle cx="370" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="487" text-anchor="start" style="fill:#1A1F2C">Get scan</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-skills-api/#op-listSkills" target="_blank" class="st" data-op="listSkills"><title>GET /skills
+Skills line · listSkills</title>
+<circle cx="160" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="172" y="403" text-anchor="start" style="fill:#1A1F2C">List skills</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-skills-api/#op-getSkill" target="_blank" class="st" data-op="getSkill"><title>GET /skills/{skill_id}
+Skills line · getSkill</title>
+<circle cx="160" cy="482" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="172" y="487" text-anchor="start" style="fill:#1A1F2C">Get skill</text>
+</a>
+<a href="https://apis.apis.io/apis/knostic/knostic-skills-api/#op-getVersionScans" target="_blank" class="st" data-op="getVersionScans"><title>GET /skills/{skill_id}/versions/{version_id}
+Skills line · getVersionScans</title>
+<circle cx="160" cy="566" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="172" y="571" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<text x="812" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="812" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">KNOSTIC</text>
+<rect x="812" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="829" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCA</text><text x="854" y="269" font-size="11" fill="#1A1F2C">Scans <tspan fill="#8A93A6">4</tspan></text>
+<rect x="812" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="829" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MCP</text><text x="854" y="286" font-size="11" fill="#1A1F2C">MCP <tspan fill="#8A93A6">3</tspan></text>
+<rect x="812" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="829" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SKI</text><text x="854" y="303" font-size="11" fill="#1A1F2C">Skills <tspan fill="#8A93A6">3</tspan></text>
+<rect x="812" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="829" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">EXT</text><text x="854" y="320" font-size="11" fill="#1A1F2C">Extensions <tspan fill="#8A93A6">2</tspan></text>
+<text x="1062" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1080,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1106" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1080,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1106" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1080,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1106" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1080,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1106" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1080,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1106" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1080,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1106" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1080,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1106" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1080,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1106" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1062" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1062" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1074" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/knostic/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
