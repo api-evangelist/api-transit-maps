@@ -1,0 +1,627 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2372 2154" width="2372" height="2154" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2372" height="2154" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Canvas-Medical API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">85 operations as stops · 20 tags as lines · 2 interchanges · 7 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1000.0,1700.0 L1021.0,1679.0 Q1042.0,1658.0 1042.0,1628.3 L1042.0,1070.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="959.0" y="1373.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1021.0" y="1389.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Appointment ⇄ More</title>1 interchange</text></g>
+<text x="1413.0" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">QUESTIONNAIRE</text>
+<text x="1378.0" y="1588" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">COVERAGE</text>
+<text x="853.0" y="1630" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">APPOINTMENT</text>
+<text x="265.0" y="1000" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">SERVICE REQUEST</text>
+<text x="832.0" y="1840" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">GOAL</text>
+<text x="1126.0" y="1672" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">IMMUNIZATION</text>
+<text x="622.0" y="622" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">ALLERGY INTOLERANCE</text>
+<text x="1357.0" y="286" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">CONDITION</text>
+<text x="244.0" y="1294" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">PATIENT</text>
+<text x="485.5" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">ENCOUNTER</text>
+<text x="1021.0" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">MEDICATION REQUEST</text>
+<text x="978.4615384615385" y="412" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<path class="line" data-line="Allergy Intolerance" d="M496.0,692.0 L580.0,692.0 L664.0,692.0 L748.0,692.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Allergy Intolerance</title></path>
+<path class="line" data-line="Appointment" d="M1000.0,1700.0 L916.0,1700.0 L804.0,1700.0 Q790.0,1700.0 780.1,1709.9 L706.0,1784.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Appointment</title></path>
+<path class="line" data-line="Claim" d="M958.0,482.0 L874.0,566.0 L832.0,608.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Claim</title></path>
+<path class="line" data-line="Communication" d="M706.0,902.0 L748.0,860.0 L832.0,776.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Communication</title></path>
+<path class="line" data-line="Condition" d="M1462.0,566.0 L1378.0,482.0 L1336.0,440.0 L1252.0,356.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Condition</title></path>
+<path class="line" data-line="Consent" d="M1252.0,1322.0 L1336.0,1238.0 L1420.0,1154.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Consent</title></path>
+<path class="line" data-line="Coverage" d="M1504.0,1658.0 L1420.0,1658.0 L1336.0,1658.0 L1252.0,1658.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Coverage</title></path>
+<path class="line" data-line="Document Reference" d="M1252.0,1532.0 L1168.0,1532.0 L1084.0,1532.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Document Reference</title></path>
+<path class="line" data-line="Encounter" d="M370.0,944.0 L454.0,944.0 L524.0,944.0 Q538.0,944.0 547.9,934.1 L580.0,902.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Encounter</title></path>
+<path class="line" data-line="Goal" d="M958.0,1910.0 L874.0,1910.0 L790.0,1910.0 L706.0,1910.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Goal</title></path>
+<path class="line" data-line="Immunization" d="M1126.0,1994.0 L1126.0,1910.0 L1126.0,1826.0 L1126.0,1742.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Immunization</title></path>
+<path class="line" data-line="Medication Request" d="M1000.0,230.0 L1000.0,314.0 L1000.0,342.0 Q1000.0,356.0 1009.9,365.9 L1084.0,440.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Medication Request</title></path>
+<path class="line" data-line="Observation" d="M664.0,1154.0 L580.0,1238.0 L496.0,1322.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Observation</title></path>
+<path class="line" data-line="Patient" d="M244.0,1364.0 L244.0,1448.0 L244.0,1532.0 L244.0,1616.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Patient</title></path>
+<path class="line" data-line="Procedure" d="M538.0,1532.0 L496.0,1490.0 L412.0,1406.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Procedure</title></path>
+<path class="line" data-line="Questionnaire" d="M1168.0,1028.0 L1252.0,944.0 L1294.0,902.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Questionnaire</title></path>
+<path class="line" data-line="QuestionnaireResponse" d="M1504.0,1406.0 L1588.0,1322.0 L1672.0,1238.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>QuestionnaireResponse</title></path>
+<path class="line" data-line="ServiceRequest" d="M370.0,1280.0 L286.0,1196.0 L244.0,1154.0 L160.0,1070.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ServiceRequest</title></path>
+<path class="line" data-line="Task" d="M1588.0,692.0 L1476.0,692.0 Q1462.0,692.0 1452.1,701.9 L1420.0,734.0 L1378.0,776.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Task</title></path>
+<path class="line" data-line="More Local" d="M1294.0,608.0 L1252.0,650.0 L1168.0,734.0 L1135.9,766.1 Q1126.0,776.0 1126.0,790.0 L1126.0,804.0 Q1126.0,818.0 1116.1,827.9 L1051.9,892.1 Q1042.0,902.0 1042.0,916.0 L1042.0,986.0 L1042.0,1070.0 L1042.0,1154.0 L1042.0,1266.0 Q1042.0,1280.0 1032.1,1289.9 L1000.0,1322.0 L925.9,1396.1 Q916.0,1406.0 902.0,1406.0 L832.0,1406.0 L762.0,1406.0 Q748.0,1406.0 738.1,1415.9 L673.9,1480.1 Q664.0,1490.0 664.0,1504.0 L664.0,1574.0 L664.0,1658.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="496" y1="692" x2="462.0" y2="692.0" stroke="#0B7A75" stroke-width="7"/><rect x="438.0" y="681.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Allergy Intolerance</title></rect><text x="462.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AI</text>
+<line x1="748" y1="692" x2="782.0" y2="692.0" stroke="#0B7A75" stroke-width="7"/><rect x="758.0" y="681.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Allergy Intolerance</title></rect><text x="782.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AI</text>
+<line x1="1000" y1="1700" x2="1034.0" y2="1700.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1010.0" y="1689.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Appointment</title></rect><text x="1034.0" y="1705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="706" y1="1784" x2="681.9583694396574" y2="1808.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="657.9583694396574" y="1797.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Appointment</title></rect><text x="681.9583694396574" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="958" y1="482" x2="982.0416305603426" y2="457.95836943965736" stroke="#5C6BC0" stroke-width="7"/><rect x="958.0416305603426" y="446.95836943965736" width="48" height="22" rx="5" fill="#5C6BC0"><title>Claim</title></rect><text x="982.0416305603426" y="462.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="832" y1="608" x2="807.9583694396574" y2="632.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="783.9583694396574" y="621.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Claim</title></rect><text x="807.9583694396574" y="637.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CLA</text>
+<line x1="706" y1="902" x2="681.9583694396574" y2="926.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="657.9583694396574" y="915.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Communication</title></rect><text x="681.9583694396574" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="832" y1="776" x2="856.0416305603426" y2="751.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="832.0416305603426" y="740.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Communication</title></rect><text x="856.0416305603426" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COM</text>
+<line x1="1462" y1="566" x2="1486.0416305603426" y2="590.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1462.0416305603426" y="579.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Condition</title></rect><text x="1486.0416305603426" y="595.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1252" y1="356" x2="1227.9583694396574" y2="331.95836943965736" stroke="#B8860B" stroke-width="7"/><rect x="1203.9583694396574" y="320.95836943965736" width="48" height="22" rx="5" fill="#B8860B"><title>Condition</title></rect><text x="1227.9583694396574" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1252" y1="1322" x2="1227.9583694396574" y2="1346.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1203.9583694396574" y="1335.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Consent</title></rect><text x="1227.9583694396574" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CNS</text>
+<line x1="1420" y1="1154" x2="1444.0416305603426" y2="1129.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1420.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Consent</title></rect><text x="1444.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CNS</text>
+<line x1="1504" y1="1658" x2="1538.0" y2="1658.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1514.0" y="1647.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Coverage</title></rect><text x="1538.0" y="1663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COV</text>
+<line x1="1252" y1="1658" x2="1218.0" y2="1658.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1194.0" y="1647.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Coverage</title></rect><text x="1218.0" y="1663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COV</text>
+<line x1="1252" y1="1532" x2="1286.0" y2="1532.0" stroke="#00838F" stroke-width="7"/><rect x="1262.0" y="1521.0" width="48" height="22" rx="5" fill="#00838F"><title>Document Reference</title></rect><text x="1286.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DR</text>
+<line x1="1084" y1="1532" x2="1050.0" y2="1532.0" stroke="#00838F" stroke-width="7"/><rect x="1026.0" y="1521.0" width="48" height="22" rx="5" fill="#00838F"><title>Document Reference</title></rect><text x="1050.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DR</text>
+<line x1="370" y1="944" x2="336.0" y2="944.0" stroke="#2E7D32" stroke-width="7"/><rect x="312.0" y="933.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Encounter</title></rect><text x="336.0" y="949.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENC</text>
+<line x1="580" y1="902" x2="604.0416305603426" y2="877.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="580.0416305603426" y="866.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Encounter</title></rect><text x="604.0416305603426" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ENC</text>
+<line x1="958" y1="1910" x2="992.0" y2="1910.0" stroke="#7B3FE4" stroke-width="7"/><rect x="968.0" y="1899.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Goal</title></rect><text x="992.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GOA</text>
+<line x1="706" y1="1910" x2="672.0" y2="1910.0" stroke="#7B3FE4" stroke-width="7"/><rect x="648.0" y="1899.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Goal</title></rect><text x="672.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GOA</text>
+<line x1="1126" y1="1994" x2="1126.0" y2="2028.0" stroke="#B0287F" stroke-width="7"/><rect x="1102.0" y="2017.0" width="48" height="22" rx="5" fill="#B0287F"><title>Immunization</title></rect><text x="1126.0" y="2033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IMM</text>
+<line x1="1126" y1="1742" x2="1126.0" y2="1708.0" stroke="#B0287F" stroke-width="7"/><rect x="1102.0" y="1697.0" width="48" height="22" rx="5" fill="#B0287F"><title>Immunization</title></rect><text x="1126.0" y="1713.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IMM</text>
+<line x1="1000" y1="230" x2="1000.0" y2="196.0" stroke="#5C6BC0" stroke-width="7"/><rect x="976.0" y="185.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Medication Request</title></rect><text x="1000.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MR</text>
+<line x1="1084" y1="440" x2="1108.0416305603426" y2="464.04163056034264" stroke="#5C6BC0" stroke-width="7"/><rect x="1084.0416305603426" y="453.04163056034264" width="48" height="22" rx="5" fill="#5C6BC0"><title>Medication Request</title></rect><text x="1108.0416305603426" y="469.04163056034264" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MR</text>
+<line x1="664" y1="1154" x2="688.0416305603426" y2="1129.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="664.0416305603426" y="1118.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Observation</title></rect><text x="688.0416305603426" y="1134.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OBS</text>
+<line x1="496" y1="1322" x2="471.95836943965736" y2="1346.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="447.95836943965736" y="1335.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Observation</title></rect><text x="471.95836943965736" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">OBS</text>
+<line x1="244" y1="1364" x2="244.0" y2="1330.0" stroke="#C2410C" stroke-width="7"/><rect x="220.0" y="1319.0" width="48" height="22" rx="5" fill="#C2410C"><title>Patient</title></rect><text x="244.0" y="1335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="244" y1="1616" x2="244.0" y2="1650.0" stroke="#C2410C" stroke-width="7"/><rect x="220.0" y="1639.0" width="48" height="22" rx="5" fill="#C2410C"><title>Patient</title></rect><text x="244.0" y="1655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="538" y1="1532" x2="562.0416305603426" y2="1556.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="538.0416305603426" y="1545.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Procedure</title></rect><text x="562.0416305603426" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="412" y1="1406" x2="387.95836943965736" y2="1381.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="363.95836943965736" y="1370.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>Procedure</title></rect><text x="387.95836943965736" y="1386.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="1168" y1="1028" x2="1143.9583694396574" y2="1052.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1119.9583694396574" y="1041.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Questionnaire</title></rect><text x="1143.9583694396574" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="1294" y1="902" x2="1318.0416305603426" y2="877.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1294.0416305603426" y="866.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>Questionnaire</title></rect><text x="1318.0416305603426" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QUE</text>
+<line x1="1504" y1="1406" x2="1479.9583694396574" y2="1430.0416305603426" stroke="#af2328" stroke-width="7"/><rect x="1455.9583694396574" y="1419.0416305603426" width="48" height="22" rx="5" fill="#af2328"><title>QuestionnaireResponse</title></rect><text x="1479.9583694396574" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QR</text>
+<line x1="1672" y1="1238" x2="1696.0416305603426" y2="1213.9583694396574" stroke="#af2328" stroke-width="7"/><rect x="1672.0416305603426" y="1202.9583694396574" width="48" height="22" rx="5" fill="#af2328"><title>QuestionnaireResponse</title></rect><text x="1696.0416305603426" y="1218.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QR</text>
+<line x1="370" y1="1280" x2="394.04163056034264" y2="1304.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="370.04163056034264" y="1293.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>ServiceRequest</title></rect><text x="394.04163056034264" y="1309.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="160" y1="1070" x2="135.9583694396574" y2="1045.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="111.95836943965739" y="1034.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>ServiceRequest</title></rect><text x="135.9583694396574" y="1050.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SR</text>
+<line x1="1588" y1="692" x2="1622.0" y2="692.0" stroke="#B0287F" stroke-width="7"/><rect x="1598.0" y="681.0" width="48" height="22" rx="5" fill="#B0287F"><title>Task</title></rect><text x="1622.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="1378" y1="776" x2="1353.9583694396574" y2="800.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1329.9583694396574" y="789.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Task</title></rect><text x="1353.9583694396574" y="805.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TAS</text>
+<line x1="1294" y1="608" x2="1318.0416305603426" y2="583.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1294.0416305603426" y="572.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1318.0416305603426" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="664" y1="1658" x2="664.0" y2="1692.0" stroke="#D6264F" stroke-width="7"/><rect x="640.0" y="1681.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="664.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-allergy-intolerance-api/#op-searchAllergyIntolerance" target="_blank" class="st" data-op="searchAllergyIntolerance"><title>GET /AllergyIntolerance
+Allergy Intolerance line · searchAllergyIntolerance
+Express: X4, X7</title>
+<circle cx="496" cy="692" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="493" y="689" width="6" height="6" transform="rotate(45 496 692)" fill="#1A1F2C"/>
+<text x="502" y="680" transform="rotate(-45 502 680)" style="fill:#1A1F2C">Get allergyintolerance</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-allergy-intolerance-api/#op-createAllergyIntolerance" target="_blank" class="st" data-op="createAllergyIntolerance"><title>POST /AllergyIntolerance
+Allergy Intolerance line · createAllergyIntolerance</title>
+<circle cx="580" cy="692" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="586" y="680" transform="rotate(-45 586 680)" style="fill:#1A1F2C">Update allergyintolerance</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-allergy-intolerance-api/#op-readAllergyIntolerance" target="_blank" class="st" data-op="readAllergyIntolerance"><title>GET /AllergyIntolerance/{id}
+Allergy Intolerance line · readAllergyIntolerance</title>
+<circle cx="664" cy="692" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="670" y="680" transform="rotate(-45 670 680)" style="fill:#1A1F2C">Get allergyintolerance</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-allergy-intolerance-api/#op-updateAllergyIntolerance" target="_blank" class="st" data-op="updateAllergyIntolerance"><title>PUT /AllergyIntolerance/{id}
+Allergy Intolerance line · updateAllergyIntolerance</title>
+<circle cx="748" cy="692" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="742" y="704" text-anchor="end" transform="rotate(-45 742 704)" style="fill:#1A1F2C">Update allergyintolerance</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-appointment-api/#op-searchAppointment" target="_blank" class="st" data-op="searchAppointment"><title>GET /Appointment
+Appointment line · searchAppointment</title>
+<circle cx="1000" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="994" y="1712" text-anchor="end" transform="rotate(-45 994 1712)" style="fill:#1A1F2C">Get appointment <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-appointment-api/#op-createAppointment" target="_blank" class="st" data-op="createAppointment"><title>POST /Appointment
+Appointment line · createAppointment
+Express: X1</title>
+<circle cx="916" cy="1700" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="913" y="1697" width="6" height="6" transform="rotate(45 916 1700)" fill="#1A1F2C"/>
+<text x="922" y="1688" transform="rotate(-45 922 1688)" style="fill:#1A1F2C">Update appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-appointment-api/#op-readAppointment" target="_blank" class="st" data-op="readAppointment"><title>GET /Appointment/{id}
+Appointment line · readAppointment
+Express: X1</title>
+<circle cx="790" cy="1700" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="787" y="1697" width="6" height="6" transform="rotate(45 790 1700)" fill="#1A1F2C"/>
+<text x="799" y="1690" text-anchor="start" style="fill:#1A1F2C">Get appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-appointment-api/#op-updateAppointment" target="_blank" class="st" data-op="updateAppointment"><title>PUT /Appointment/{id}
+Appointment line · updateAppointment</title>
+<circle cx="706" cy="1784" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="1789" text-anchor="start" style="fill:#1A1F2C">Update appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-care-plan-api/#op-searchCarePlan" target="_blank" class="st" data-op="searchCarePlan"><title>GET /CarePlan
+More Local line · searchCarePlan
+Express: X2</title>
+<circle cx="1294" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1291" y="605" width="6" height="6" transform="rotate(45 1294 608)" fill="#1A1F2C"/>
+<text x="1306" y="613" text-anchor="start" style="fill:#1A1F2C">Get careplan</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-care-plan-api/#op-readCarePlan" target="_blank" class="st" data-op="readCarePlan"><title>GET /CarePlan/{id}
+More Local line · readCarePlan</title>
+<circle cx="1252" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="655" text-anchor="start" style="fill:#1A1F2C">Get careplan</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-careteam-api/#op-searchCareTeam" target="_blank" class="st" data-op="searchCareTeam"><title>GET /CareTeam
+More Local line · searchCareTeam
+Express: X2</title>
+<circle cx="1168" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1165" y="731" width="6" height="6" transform="rotate(45 1168 734)" fill="#1A1F2C"/>
+<text x="1180" y="739" text-anchor="start" style="fill:#1A1F2C">Get careteam</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-careteam-api/#op-readCareTeam" target="_blank" class="st" data-op="readCareTeam"><title>GET /CareTeam/{id}
+More Local line · readCareTeam</title>
+<circle cx="1126" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="781" text-anchor="start" style="fill:#1A1F2C">Get careteam</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-claim-api/#op-searchClaim" target="_blank" class="st" data-op="searchClaim"><title>GET /Claim
+Claim line · searchClaim</title>
+<circle cx="958" cy="482" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="970" y="487" text-anchor="start" style="fill:#1A1F2C">Get claim</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-claim-api/#op-createClaim" target="_blank" class="st" data-op="createClaim"><title>POST /Claim
+Claim line · createClaim</title>
+<circle cx="874" cy="566" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="886" y="571" text-anchor="start" style="fill:#1A1F2C">Update claim</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-claim-api/#op-readClaim" target="_blank" class="st" data-op="readClaim"><title>GET /Claim/{id}
+Claim line · readClaim</title>
+<circle cx="832" cy="608" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="844" y="613" text-anchor="start" style="fill:#1A1F2C">Get claim</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-communication-api/#op-searchCommunication" target="_blank" class="st" data-op="searchCommunication"><title>GET /Communication
+Communication line · searchCommunication</title>
+<circle cx="706" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="907" text-anchor="start" style="fill:#1A1F2C">Get communication</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-communication-api/#op-createCommunication" target="_blank" class="st" data-op="createCommunication"><title>POST /Communication
+Communication line · createCommunication</title>
+<circle cx="748" cy="860" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="865" text-anchor="start" style="fill:#1A1F2C">Update communication</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-communication-api/#op-readCommunication" target="_blank" class="st" data-op="readCommunication"><title>GET /Communication/{id}
+Communication line · readCommunication</title>
+<circle cx="832" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="844" y="781" text-anchor="start" style="fill:#1A1F2C">Get communication</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-condition-api/#op-searchCondition" target="_blank" class="st" data-op="searchCondition"><title>GET /Condition
+Condition line · searchCondition
+Express: X7</title>
+<circle cx="1462" cy="566" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<rect x="1459" y="563" width="6" height="6" transform="rotate(45 1462 566)" fill="#1A1F2C"/>
+<text x="1474" y="571" text-anchor="start" style="fill:#1A1F2C">Get condition</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-condition-api/#op-createCondition" target="_blank" class="st" data-op="createCondition"><title>POST /Condition
+Condition line · createCondition</title>
+<circle cx="1378" cy="482" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1390" y="487" text-anchor="start" style="fill:#1A1F2C">Update condition</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-condition-api/#op-readCondition" target="_blank" class="st" data-op="readCondition"><title>GET /Condition/{id}
+Condition line · readCondition</title>
+<circle cx="1336" cy="440" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1348" y="445" text-anchor="start" style="fill:#1A1F2C">Get condition</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-condition-api/#op-updateCondition" target="_blank" class="st" data-op="updateCondition"><title>PUT /Condition/{id}
+Condition line · updateCondition</title>
+<circle cx="1252" cy="356" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1264" y="361" text-anchor="start" style="fill:#1A1F2C">Update condition</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-consent-api/#op-searchConsent" target="_blank" class="st" data-op="searchConsent"><title>GET /Consent
+Consent line · searchConsent</title>
+<circle cx="1252" cy="1322" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1264" y="1327" text-anchor="start" style="fill:#1A1F2C">Get consent</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-consent-api/#op-createConsent" target="_blank" class="st" data-op="createConsent"><title>POST /Consent
+Consent line · createConsent</title>
+<circle cx="1336" cy="1238" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1348" y="1243" text-anchor="start" style="fill:#1A1F2C">Update consent</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-consent-api/#op-readConsent" target="_blank" class="st" data-op="readConsent"><title>GET /Consent/{id}
+Consent line · readConsent</title>
+<circle cx="1420" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="1159" text-anchor="start" style="fill:#1A1F2C">Get consent</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-coverage-api/#op-searchCoverage" target="_blank" class="st" data-op="searchCoverage"><title>GET /Coverage
+Coverage line · searchCoverage</title>
+<circle cx="1504" cy="1658" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1498" y="1670" text-anchor="end" transform="rotate(-45 1498 1670)" style="fill:#1A1F2C">Get coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-coverage-api/#op-createCoverage" target="_blank" class="st" data-op="createCoverage"><title>POST /Coverage
+Coverage line · createCoverage</title>
+<circle cx="1420" cy="1658" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1426" y="1646" transform="rotate(-45 1426 1646)" style="fill:#1A1F2C">Update coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-coverage-api/#op-readCoverage" target="_blank" class="st" data-op="readCoverage"><title>GET /Coverage/{id}
+Coverage line · readCoverage</title>
+<circle cx="1336" cy="1658" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1342" y="1646" transform="rotate(-45 1342 1646)" style="fill:#1A1F2C">Get coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-coverage-api/#op-updateCoverage" target="_blank" class="st" data-op="updateCoverage"><title>PUT /Coverage/{id}
+Coverage line · updateCoverage</title>
+<circle cx="1252" cy="1658" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1258" y="1646" transform="rotate(-45 1258 1646)" style="fill:#1A1F2C">Update coverage</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-diagnosticreport-api/#op-searchDiagnosticReport" target="_blank" class="st" data-op="searchDiagnosticReport"><title>GET /DiagnosticReport
+More Local line · searchDiagnosticReport
+Express: X3</title>
+<circle cx="1126" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1123" y="815" width="6" height="6" transform="rotate(45 1126 818)" fill="#1A1F2C"/>
+<text x="1138" y="823" text-anchor="start" style="fill:#1A1F2C">Get diagnosticreport</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-diagnosticreport-api/#op-readDiagnosticReport" target="_blank" class="st" data-op="readDiagnosticReport"><title>GET /DiagnosticReport/{id}
+More Local line · readDiagnosticReport</title>
+<circle cx="1042" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="907" text-anchor="start" style="fill:#1A1F2C">Get diagnosticreport</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-document-reference-api/#op-searchDocumentReference" target="_blank" class="st" data-op="searchDocumentReference"><title>GET /DocumentReference
+Document Reference line · searchDocumentReference</title>
+<circle cx="1252" cy="1532" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1246" y="1544" text-anchor="end" transform="rotate(-45 1246 1544)" style="fill:#1A1F2C">Get documentreference</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-document-reference-api/#op-createDocumentReference" target="_blank" class="st" data-op="createDocumentReference"><title>POST /DocumentReference
+Document Reference line · createDocumentReference</title>
+<circle cx="1168" cy="1532" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1174" y="1520" transform="rotate(-45 1174 1520)" style="fill:#1A1F2C">Update documentreference</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-document-reference-api/#op-readDocumentReference" target="_blank" class="st" data-op="readDocumentReference"><title>GET /DocumentReference/{id}
+Document Reference line · readDocumentReference</title>
+<circle cx="1084" cy="1532" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1090" y="1520" transform="rotate(-45 1090 1520)" style="fill:#1A1F2C">Get documentreference</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-encounter-api/#op-searchEncounter" target="_blank" class="st" data-op="searchEncounter"><title>GET /Encounter
+Encounter line · searchEncounter</title>
+<circle cx="370" cy="944" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="376" y="932" transform="rotate(-45 376 932)" style="fill:#1A1F2C">Get encounter</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-encounter-api/#op-createEncounter" target="_blank" class="st" data-op="createEncounter"><title>POST /Encounter
+Encounter line · createEncounter</title>
+<circle cx="454" cy="944" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="460" y="932" transform="rotate(-45 460 932)" style="fill:#1A1F2C">Update encounter</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-encounter-api/#op-readEncounter" target="_blank" class="st" data-op="readEncounter"><title>GET /Encounter/{id}
+Encounter line · readEncounter</title>
+<circle cx="538" cy="944" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="550" y="949" text-anchor="start" style="fill:#1A1F2C">Get encounter</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-encounter-api/#op-updateEncounter" target="_blank" class="st" data-op="updateEncounter"><title>PUT /Encounter/{id}
+Encounter line · updateEncounter</title>
+<circle cx="580" cy="902" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="592" y="907" text-anchor="start" style="fill:#1A1F2C">Update encounter</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-goal-api/#op-searchGoal" target="_blank" class="st" data-op="searchGoal"><title>GET /Goal
+Goal line · searchGoal</title>
+<circle cx="958" cy="1910" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="952" y="1922" text-anchor="end" transform="rotate(-45 952 1922)" style="fill:#1A1F2C">Get goal</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-goal-api/#op-createGoal" target="_blank" class="st" data-op="createGoal"><title>POST /Goal
+Goal line · createGoal
+Express: X2</title>
+<circle cx="874" cy="1910" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="871" y="1907" width="6" height="6" transform="rotate(45 874 1910)" fill="#1A1F2C"/>
+<text x="880" y="1898" transform="rotate(-45 880 1898)" style="fill:#1A1F2C">Update goal</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-goal-api/#op-readGoal" target="_blank" class="st" data-op="readGoal"><title>GET /Goal/{id}
+Goal line · readGoal</title>
+<circle cx="790" cy="1910" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="796" y="1898" transform="rotate(-45 796 1898)" style="fill:#1A1F2C">Get goal</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-goal-api/#op-updateGoal" target="_blank" class="st" data-op="updateGoal"><title>PUT /Goal/{id}
+Goal line · updateGoal</title>
+<circle cx="706" cy="1910" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="712" y="1898" transform="rotate(-45 712 1898)" style="fill:#1A1F2C">Update goal</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-immunization-api/#op-searchImmunization" target="_blank" class="st" data-op="searchImmunization"><title>GET /Immunization
+Immunization line · searchImmunization</title>
+<circle cx="1126" cy="1994" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="1999" text-anchor="start" style="fill:#1A1F2C">Get immunization</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-immunization-api/#op-createImmunization" target="_blank" class="st" data-op="createImmunization"><title>POST /Immunization
+Immunization line · createImmunization</title>
+<circle cx="1126" cy="1910" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="1915" text-anchor="start" style="fill:#1A1F2C">Update immunization</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-immunization-api/#op-readImmunization" target="_blank" class="st" data-op="readImmunization"><title>GET /Immunization/{id}
+Immunization line · readImmunization</title>
+<circle cx="1126" cy="1826" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="1831" text-anchor="start" style="fill:#1A1F2C">Get immunization</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-immunization-api/#op-updateImmunization" target="_blank" class="st" data-op="updateImmunization"><title>PUT /Immunization/{id}
+Immunization line · updateImmunization</title>
+<circle cx="1126" cy="1742" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="1747" text-anchor="start" style="fill:#1A1F2C">Update immunization</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-location-api/#op-searchLocation" target="_blank" class="st" data-op="searchLocation"><title>GET /Location
+More Local line · searchLocation</title>
+<circle cx="1042" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="991" text-anchor="start" style="fill:#1A1F2C">Get location</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-location-api/#op-readLocation" target="_blank" class="st" data-op="readLocation"><title>GET /Location/{id}
+More Local line · readLocation</title>
+<circle cx="1042" cy="1070" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1030.0" y="1075" text-anchor="end" style="fill:#1A1F2C">Get location</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-medication-request-api/#op-searchMedicationRequest" target="_blank" class="st" data-op="searchMedicationRequest"><title>GET /MedicationRequest
+Medication Request line · searchMedicationRequest
+Express: X4, X7</title>
+<circle cx="1000" cy="230" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<rect x="997" y="227" width="6" height="6" transform="rotate(45 1000 230)" fill="#1A1F2C"/>
+<text x="1012" y="235" text-anchor="start" style="fill:#1A1F2C">Get medicationrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-medication-request-api/#op-createMedicationRequest" target="_blank" class="st" data-op="createMedicationRequest"><title>POST /MedicationRequest
+Medication Request line · createMedicationRequest
+Express: X4</title>
+<circle cx="1000" cy="314" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<rect x="997" y="311" width="6" height="6" transform="rotate(45 1000 314)" fill="#1A1F2C"/>
+<text x="1012" y="319" text-anchor="start" style="fill:#1A1F2C">Update medicationrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-medication-request-api/#op-readMedicationRequest" target="_blank" class="st" data-op="readMedicationRequest"><title>GET /MedicationRequest/{id}
+Medication Request line · readMedicationRequest
+Express: X4</title>
+<circle cx="1000" cy="356" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<rect x="997" y="353" width="6" height="6" transform="rotate(45 1000 356)" fill="#1A1F2C"/>
+<text x="1012" y="361" text-anchor="start" style="fill:#1A1F2C">Get medicationrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-medication-request-api/#op-updateMedicationRequest" target="_blank" class="st" data-op="updateMedicationRequest"><title>PUT /MedicationRequest/{id}
+Medication Request line · updateMedicationRequest</title>
+<circle cx="1084" cy="440" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1096" y="445" text-anchor="start" style="fill:#1A1F2C">Update medicationrequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-metadata-api/#op-getCapabilityStatement" target="_blank" class="st" data-op="getCapabilityStatement"><title>GET /metadata
+More Local line · getCapabilityStatement
+Express: X7</title>
+<circle cx="1042" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1039" y="1151" width="6" height="6" transform="rotate(45 1042 1154)" fill="#1A1F2C"/>
+<text x="1054" y="1159" text-anchor="start" style="fill:#1A1F2C">Get metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-observation-api/#op-searchObservation" target="_blank" class="st" data-op="searchObservation"><title>GET /Observation
+Observation line · searchObservation
+Express: X3, X7</title>
+<circle cx="664" cy="1154" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<rect x="661" y="1151" width="6" height="6" transform="rotate(45 664 1154)" fill="#1A1F2C"/>
+<text x="676" y="1159" text-anchor="start" style="fill:#1A1F2C">Get observation</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-observation-api/#op-createObservation" target="_blank" class="st" data-op="createObservation"><title>POST /Observation
+Observation line · createObservation</title>
+<circle cx="580" cy="1238" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="592" y="1243" text-anchor="start" style="fill:#1A1F2C">Update observation</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-observation-api/#op-readObservation" target="_blank" class="st" data-op="readObservation"><title>GET /Observation/{id}
+Observation line · readObservation</title>
+<circle cx="496" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="1327" text-anchor="start" style="fill:#1A1F2C">Get observation</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-organization-api/#op-searchOrganization" target="_blank" class="st" data-op="searchOrganization"><title>GET /Organization
+More Local line · searchOrganization</title>
+<circle cx="1042" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1285" text-anchor="start" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-organization-api/#op-readOrganization" target="_blank" class="st" data-op="readOrganization"><title>GET /Organization/{id}
+More Local line · readOrganization</title>
+<circle cx="1000" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1327" text-anchor="start" style="fill:#1A1F2C">Get organization</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-patient-api/#op-searchPatient" target="_blank" class="st" data-op="searchPatient"><title>GET /Patient
+Patient line · searchPatient
+Express: X1, X5, X7</title>
+<circle cx="244" cy="1364" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<rect x="241" y="1361" width="6" height="6" transform="rotate(45 244 1364)" fill="#1A1F2C"/>
+<text x="256" y="1369" text-anchor="start" style="fill:#1A1F2C">Get patient</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-patient-api/#op-createPatient" target="_blank" class="st" data-op="createPatient"><title>POST /Patient
+Patient line · createPatient
+Express: X5</title>
+<circle cx="244" cy="1448" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<rect x="241" y="1445" width="6" height="6" transform="rotate(45 244 1448)" fill="#1A1F2C"/>
+<text x="256" y="1453" text-anchor="start" style="fill:#1A1F2C">Update patient</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-patient-api/#op-readPatient" target="_blank" class="st" data-op="readPatient"><title>GET /Patient/{id}
+Patient line · readPatient
+Express: X2, X4, X7</title>
+<circle cx="244" cy="1532" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<rect x="241" y="1529" width="6" height="6" transform="rotate(45 244 1532)" fill="#1A1F2C"/>
+<text x="256" y="1537" text-anchor="start" style="fill:#1A1F2C">Get patient</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-patient-api/#op-updatePatient" target="_blank" class="st" data-op="updatePatient"><title>PUT /Patient/{id}
+Patient line · updatePatient
+Express: X5</title>
+<circle cx="244" cy="1616" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<rect x="241" y="1613" width="6" height="6" transform="rotate(45 244 1616)" fill="#1A1F2C"/>
+<text x="256" y="1621" text-anchor="start" style="fill:#1A1F2C">Update patient</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-practitioner-api/#op-searchPractitioner" target="_blank" class="st" data-op="searchPractitioner"><title>GET /Practitioner
+More Local line · searchPractitioner
+Express: X1</title>
+<circle cx="916" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="913" y="1403" width="6" height="6" transform="rotate(45 916 1406)" fill="#1A1F2C"/>
+<text x="928" y="1411" text-anchor="start" style="fill:#1A1F2C">Get practitioner</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-practitioner-api/#op-readPractitioner" target="_blank" class="st" data-op="readPractitioner"><title>GET /Practitioner/{id}
+More Local line · readPractitioner</title>
+<circle cx="832" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="838" y="1394" transform="rotate(-45 838 1394)" style="fill:#1A1F2C">Get practitioner</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-procedure-api/#op-searchProcedure" target="_blank" class="st" data-op="searchProcedure"><title>GET /Procedure
+Procedure line · searchProcedure</title>
+<circle cx="538" cy="1532" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="1537" text-anchor="start" style="fill:#1A1F2C">Get procedure</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-procedure-api/#op-createProcedure" target="_blank" class="st" data-op="createProcedure"><title>POST /Procedure
+Procedure line · createProcedure</title>
+<circle cx="496" cy="1490" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="508" y="1495" text-anchor="start" style="fill:#1A1F2C">Update procedure</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-procedure-api/#op-readProcedure" target="_blank" class="st" data-op="readProcedure"><title>GET /Procedure/{id}
+Procedure line · readProcedure</title>
+<circle cx="412" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="424" y="1411" text-anchor="start" style="fill:#1A1F2C">Get procedure</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-questionnaire-api/#op-searchQuestionnaire" target="_blank" class="st" data-op="searchQuestionnaire"><title>GET /Questionnaire
+Questionnaire line · searchQuestionnaire
+Express: X6</title>
+<circle cx="1168" cy="1028" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1165" y="1025" width="6" height="6" transform="rotate(45 1168 1028)" fill="#1A1F2C"/>
+<text x="1180" y="1033" text-anchor="start" style="fill:#1A1F2C">Get questionnaire</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-questionnaire-api/#op-createQuestionnaire" target="_blank" class="st" data-op="createQuestionnaire"><title>POST /Questionnaire
+Questionnaire line · createQuestionnaire</title>
+<circle cx="1252" cy="944" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1264" y="949" text-anchor="start" style="fill:#1A1F2C">Update questionnaire</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-questionnaire-api/#op-readQuestionnaire" target="_blank" class="st" data-op="readQuestionnaire"><title>GET /Questionnaire/{id}
+Questionnaire line · readQuestionnaire</title>
+<circle cx="1294" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1306" y="907" text-anchor="start" style="fill:#1A1F2C">Get questionnaire</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-questionnaireresponse-api/#op-searchQuestionnaireResponse" target="_blank" class="st" data-op="searchQuestionnaireResponse"><title>GET /QuestionnaireResponse
+QuestionnaireResponse line · searchQuestionnaireResponse</title>
+<circle cx="1504" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1516" y="1411" text-anchor="start" style="fill:#1A1F2C">Get questionnaireresponse <tspan font-weight="700" style="fill:#D6264F">⇄QUE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-questionnaireresponse-api/#op-createQuestionnaireResponse" target="_blank" class="st" data-op="createQuestionnaireResponse"><title>POST /QuestionnaireResponse
+QuestionnaireResponse line · createQuestionnaireResponse
+Express: X6</title>
+<circle cx="1588" cy="1322" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<rect x="1585" y="1319" width="6" height="6" transform="rotate(45 1588 1322)" fill="#1A1F2C"/>
+<text x="1600" y="1327" text-anchor="start" style="fill:#1A1F2C">Update questionnaireresponse</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-questionnaireresponse-api/#op-readQuestionnaireResponse" target="_blank" class="st" data-op="readQuestionnaireResponse"><title>GET /QuestionnaireResponse/{id}
+QuestionnaireResponse line · readQuestionnaireResponse
+Express: X6</title>
+<circle cx="1672" cy="1238" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<rect x="1669" y="1235" width="6" height="6" transform="rotate(45 1672 1238)" fill="#1A1F2C"/>
+<text x="1684" y="1243" text-anchor="start" style="fill:#1A1F2C">Get questionnaireresponse</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-schedule-api/#op-searchSchedule" target="_blank" class="st" data-op="searchSchedule"><title>GET /Schedule
+More Local line · searchSchedule
+Express: X1</title>
+<circle cx="748" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="745" y="1403" width="6" height="6" transform="rotate(45 748 1406)" fill="#1A1F2C"/>
+<text x="736.0" y="1411" text-anchor="end" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-schedule-api/#op-readSchedule" target="_blank" class="st" data-op="readSchedule"><title>GET /Schedule/{id}
+More Local line · readSchedule</title>
+<circle cx="664" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1495" text-anchor="start" style="fill:#1A1F2C">Get schedule</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-servicerequest-api/#op-searchServiceRequest" target="_blank" class="st" data-op="searchServiceRequest"><title>GET /ServiceRequest
+ServiceRequest line · searchServiceRequest</title>
+<circle cx="370" cy="1280" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="382" y="1285" text-anchor="start" style="fill:#1A1F2C">Get servicerequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-servicerequest-api/#op-createServiceRequest" target="_blank" class="st" data-op="createServiceRequest"><title>POST /ServiceRequest
+ServiceRequest line · createServiceRequest
+Express: X3</title>
+<circle cx="286" cy="1196" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="283" y="1193" width="6" height="6" transform="rotate(45 286 1196)" fill="#1A1F2C"/>
+<text x="298" y="1201" text-anchor="start" style="fill:#1A1F2C">Update servicerequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-servicerequest-api/#op-readServiceRequest" target="_blank" class="st" data-op="readServiceRequest"><title>GET /ServiceRequest/{id}
+ServiceRequest line · readServiceRequest</title>
+<circle cx="244" cy="1154" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="256" y="1159" text-anchor="start" style="fill:#1A1F2C">Get servicerequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-servicerequest-api/#op-updateServiceRequest" target="_blank" class="st" data-op="updateServiceRequest"><title>PUT /ServiceRequest/{id}
+ServiceRequest line · updateServiceRequest</title>
+<circle cx="160" cy="1070" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="172" y="1075" text-anchor="start" style="fill:#1A1F2C">Update servicerequest</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-slot-api/#op-searchSlot" target="_blank" class="st" data-op="searchSlot"><title>GET /Slot
+More Local line · searchSlot
+Express: X1</title>
+<circle cx="664" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="661" y="1571" width="6" height="6" transform="rotate(45 664 1574)" fill="#1A1F2C"/>
+<text x="676" y="1579" text-anchor="start" style="fill:#1A1F2C">Get slot</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-slot-api/#op-readSlot" target="_blank" class="st" data-op="readSlot"><title>GET /Slot/{id}
+More Local line · readSlot</title>
+<circle cx="664" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1663" text-anchor="start" style="fill:#1A1F2C">Get slot</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-task-api/#op-searchTask" target="_blank" class="st" data-op="searchTask"><title>GET /Task
+Task line · searchTask</title>
+<circle cx="1588" cy="692" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1582" y="704" text-anchor="end" transform="rotate(-45 1582 704)" style="fill:#1A1F2C">Get task</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-task-api/#op-createTask" target="_blank" class="st" data-op="createTask"><title>POST /Task
+Task line · createTask</title>
+<circle cx="1462" cy="692" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1450.0" y="697" text-anchor="end" style="fill:#1A1F2C">Update task</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-task-api/#op-readTask" target="_blank" class="st" data-op="readTask"><title>GET /Task/{id}
+Task line · readTask</title>
+<circle cx="1420" cy="734" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="739" text-anchor="start" style="fill:#1A1F2C">Get task</text>
+</a>
+<a href="https://apis.apis.io/apis/canvas-medical/canvas-medical-task-api/#op-updateTask" target="_blank" class="st" data-op="updateTask"><title>PUT /Task/{id}
+Task line · updateTask</title>
+<circle cx="1378" cy="776" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="781" text-anchor="start" style="fill:#1A1F2C">Update task</text>
+</a>
+<text x="1862" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1862" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">QUESTIONNAIRE</text>
+<rect x="1862" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1879" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QUE</text><text x="1904" y="269" font-size="11" fill="#1A1F2C">Questionnaire <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1862" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="1879" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QR</text><text x="1904" y="286" font-size="11" fill="#1A1F2C">QuestionnaireResponse <tspan fill="#8A93A6">3</tspan></text>
+<text x="1862" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">COVERAGE</text>
+<rect x="1862" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1879" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COV</text><text x="1904" y="329" font-size="11" fill="#1A1F2C">Coverage <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">APPOINTMENT</text>
+<rect x="1862" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1879" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="1904" y="372" font-size="11" fill="#1A1F2C">Appointment <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">SERVICE REQUEST</text>
+<rect x="1862" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="1879" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SR</text><text x="1904" y="415" font-size="11" fill="#1A1F2C">ServiceRequest <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">GOAL</text>
+<rect x="1862" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1879" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GOA</text><text x="1904" y="458" font-size="11" fill="#1A1F2C">Goal <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">IMMUNIZATION</text>
+<rect x="1862" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="1879" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IMM</text><text x="1904" y="501" font-size="11" fill="#1A1F2C">Immunization <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">ALLERGY INTOLERANCE</text>
+<rect x="1862" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1879" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AI</text><text x="1904" y="544" font-size="11" fill="#1A1F2C">Allergy Intolerance <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">CONDITION</text>
+<rect x="1862" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="1879" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="1904" y="587" font-size="11" fill="#1A1F2C">Condition <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">PATIENT</text>
+<rect x="1862" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="1879" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAT</text><text x="1904" y="630" font-size="11" fill="#1A1F2C">Patient <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">ENCOUNTER</text>
+<rect x="1862" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1879" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ENC</text><text x="1904" y="673" font-size="11" fill="#1A1F2C">Encounter <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">MEDICATION REQUEST</text>
+<rect x="1862" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1879" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MR</text><text x="1904" y="716" font-size="11" fill="#1A1F2C">Medication Request <tspan fill="#8A93A6">4</tspan></text>
+<text x="1862" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="1862" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="1879" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="1904" y="759" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">17</tspan></text>
+<rect x="1862" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="1879" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TAS</text><text x="1904" y="776" font-size="11" fill="#1A1F2C">Task <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1862" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1879" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CLA</text><text x="1904" y="793" font-size="11" fill="#1A1F2C">Claim <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1862" y="800" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1879" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COM</text><text x="1904" y="810" font-size="11" fill="#1A1F2C">Communication <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1862" y="817" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1879" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CNS</text><text x="1904" y="827" font-size="11" fill="#1A1F2C">Consent <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1862" y="834" width="34" height="13" rx="3" fill="#00838F"/><text x="1879" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DR</text><text x="1904" y="844" font-size="11" fill="#1A1F2C">Document Reference <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1862" y="851" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1879" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">OBS</text><text x="1904" y="861" font-size="11" fill="#1A1F2C">Observation <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1862" y="868" width="34" height="13" rx="3" fill="#B8860B"/><text x="1879" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="1904" y="878" font-size="11" fill="#1A1F2C">Procedure <tspan fill="#8A93A6">3</tspan></text>
+<text x="2112" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2130,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2156" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2130,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2156" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2130,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2156" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2130,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2156" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2130,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2156" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2130,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2156" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2130,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2156" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2130,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2156" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2112" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2112" y="463" font-size="10.5" fill="#5A6275">“Care plan” → More Local line · 2 ops</text>
+<text x="2112" y="478" font-size="10.5" fill="#5A6275">“CareTeam” → More Local line · 2 ops</text>
+<text x="2112" y="493" font-size="10.5" fill="#5A6275">“DiagnosticReport” → More Local line · 2 ops</text>
+<text x="2112" y="508" font-size="10.5" fill="#5A6275">“Location” → More Local line · 2 ops</text>
+<text x="2112" y="523" font-size="10.5" fill="#5A6275">“Metadata” → More Local line · 1 op</text>
+<text x="2112" y="538" font-size="10.5" fill="#5A6275">“Organization” → More Local line · 2 ops</text>
+<text x="2112" y="553" font-size="10.5" fill="#5A6275">“Practitioner” → More Local line · 2 ops</text>
+<text x="2112" y="568" font-size="10.5" fill="#5A6275">“Schedule” → More Local line · 2 ops</text>
+<text x="2112" y="583" font-size="10.5" fill="#5A6275">“Slot” → More Local line · 2 ops</text>
+<text x="2112" y="633" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2112" y="650" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="searchPatient searchPractitioner searchSchedule searchSlot createAppointment readAppointment"><rect x="2112" y="662" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="673" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="2149" y="673" font-size="11" fill="#1A1F2C">Canvas Medical Appointment Sch</text></g>
+<g class="rt" data-stops="readPatient createGoal searchCarePlan searchCareTeam"><rect x="2112" y="681" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="692" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="2149" y="692" font-size="11" fill="#1A1F2C">Canvas Medical Care Plan Manag</text></g>
+<g class="rt" data-stops="createServiceRequest searchDiagnosticReport searchObservation"><rect x="2112" y="700" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="711" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="2149" y="711" font-size="11" fill="#1A1F2C">Canvas Medical Lab Order to Re</text></g>
+<g class="rt" data-stops="readPatient searchAllergyIntolerance searchMedicationRequest createMedicationRequest readMedicationRequest"><rect x="2112" y="719" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="730" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="2149" y="730" font-size="11" fill="#1A1F2C">Canvas Medical Medication Pres</text></g>
+<g class="rt" data-stops="searchPatient updatePatient createPatient"><rect x="2112" y="738" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="749" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="2149" y="749" font-size="11" fill="#1A1F2C">Canvas Medical Patient Registr</text></g>
+<g class="rt" data-stops="searchQuestionnaire createQuestionnaireResponse readQuestionnaireResponse"><rect x="2112" y="757" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="768" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="2149" y="768" font-size="11" fill="#1A1F2C">Canvas Medical Questionnaire A</text></g>
+<g class="rt" data-stops="getCapabilityStatement searchPatient readPatient searchCondition searchObservation searchMedicationRequest searchAllergyIntolerance"><rect x="2112" y="776" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="2127" y="787" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="2149" y="787" font-size="11" fill="#1A1F2C">Canvas Medical SMART on FHIR U</text></g>
+<text x="160" y="2124" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/canvas-medical/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

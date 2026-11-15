@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1616 1062" width="1616" height="1062" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="1616" height="1062" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Northbeam API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">15 operations as stops · 4 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="479.2" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">NORTHBEAM</text>
+<path class="line" data-line="Orders" d="M916.0,482.0 L804.0,482.0 Q790.0,482.0 780.1,472.1 L748.0,440.0 L664.0,356.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Spend" d="M328.0,230.0 L244.0,314.0 L160.0,398.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Spend</title></path>
+<path class="line" data-line="Spend Hourly" d="M496.0,902.0 L412.0,818.0 L370.0,776.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Spend Hourly</title></path>
+<path class="line" data-line="Northbeam Local" d="M538.0,398.0 L454.0,482.0 L412.0,524.0 L370.0,566.0 L286.0,650.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Northbeam Local</title></path>
+<line x1="916" y1="482" x2="950.0" y2="482.0" stroke="#0E9F6E" stroke-width="7"/><rect x="926.0" y="471.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Orders</title></rect><text x="950.0" y="487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="664" y1="356" x2="639.9583694396574" y2="331.95836943965736" stroke="#0E9F6E" stroke-width="7"/><rect x="615.9583694396574" y="320.95836943965736" width="48" height="22" rx="5" fill="#0E9F6E"><title>Orders</title></rect><text x="639.9583694396574" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="328" y1="230" x2="352.04163056034264" y2="205.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="328.04163056034264" y="194.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Spend</title></rect><text x="352.04163056034264" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SPE</text>
+<line x1="160" y1="398" x2="135.9583694396574" y2="422.04163056034264" stroke="#1F5FD1" stroke-width="7"/><rect x="111.95836943965739" y="411.04163056034264" width="48" height="22" rx="5" fill="#1F5FD1"><title>Spend</title></rect><text x="135.9583694396574" y="427.04163056034264" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SPE</text>
+<line x1="496" y1="902" x2="520.0416305603426" y2="926.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="496.0416305603426" y="915.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Spend Hourly</title></rect><text x="520.0416305603426" y="931.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SH</text>
+<line x1="370" y1="776" x2="345.95836943965736" y2="751.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="321.95836943965736" y="740.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Spend Hourly</title></rect><text x="345.95836943965736" y="756.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SH</text>
+<line x1="538" y1="398" x2="562.0416305603426" y2="373.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="538.0416305603426" y="362.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>Northbeam Local</title></rect><text x="562.0416305603426" y="378.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NL</text>
+<line x1="286" y1="650" x2="261.95836943965736" y2="674.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="237.95836943965736" y="663.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Northbeam Local</title></rect><text x="261.95836943965736" y="679.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NL</text>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-attribution-models-api/#op-getAttributionModels" target="_blank" class="st" data-op="getAttributionModels"><title>GET /attribution-models
+Northbeam Local line · getAttributionModels</title>
+<circle cx="538" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="403" text-anchor="start" style="fill:#1A1F2C">List attribution models</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-breakdowns-api/#op-getBreakdowns" target="_blank" class="st" data-op="getBreakdowns"><title>GET /breakdowns
+Northbeam Local line · getBreakdowns</title>
+<circle cx="454" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="466" y="487" text-anchor="start" style="fill:#1A1F2C">List breakdowns</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-data-export-api/#op-postDataExport" target="_blank" class="st" data-op="postDataExport"><title>POST /data-export
+Northbeam Local line · postDataExport</title>
+<circle cx="412" cy="524" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="424" y="529" text-anchor="start" style="fill:#1A1F2C">Update data export</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-data-export-api/#op-getDataExportResultByExportId" target="_blank" class="st" data-op="getDataExportResultByExportId"><title>GET /data-export/result/{export_id}
+Northbeam Local line · getDataExportResultByExportId</title>
+<circle cx="370" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="382" y="571" text-anchor="start" style="fill:#1A1F2C">Get result</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-metrics-api/#op-getMetrics" target="_blank" class="st" data-op="getMetrics"><title>GET /metrics
+Northbeam Local line · getMetrics</title>
+<circle cx="286" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="298" y="655" text-anchor="start" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-orders-api/#op-postOrders" target="_blank" class="st" data-op="postOrders"><title>POST /orders
+Orders line · postOrders</title>
+<circle cx="790" cy="482" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="778.0" y="487" text-anchor="end" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-orders-api/#op-patchOrders" target="_blank" class="st" data-op="patchOrders"><title>PATCH /orders
+Orders line · patchOrders</title>
+<circle cx="748" cy="440" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="445" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-orders-api/#op-getOrders" target="_blank" class="st" data-op="getOrders"><title>GET /orders
+Orders line · getOrders</title>
+<circle cx="916" cy="482" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="910" y="494" text-anchor="end" transform="rotate(-45 910 494)" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-orders-api/#op-addOrderAliases" target="_blank" class="st" data-op="addOrderAliases"><title>POST /orders/aliases
+Orders line · addOrderAliases</title>
+<circle cx="664" cy="356" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="676" y="361" text-anchor="start" style="fill:#1A1F2C">Create alias</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-spend-api/#op-getSpend" target="_blank" class="st" data-op="getSpend"><title>GET /spend
+Spend line · getSpend</title>
+<circle cx="328" cy="230" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="340" y="235" text-anchor="start" style="fill:#1A1F2C">Get spend</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-spend-api/#op-postSpend" target="_blank" class="st" data-op="postSpend"><title>POST /spend
+Spend line · postSpend</title>
+<circle cx="244" cy="314" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="256" y="319" text-anchor="start" style="fill:#1A1F2C">Update spend</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-spend-api/#op-deleteSpend" target="_blank" class="st" data-op="deleteSpend"><title>DELETE /spend
+Spend line · deleteSpend</title>
+<circle cx="160" cy="398" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="156" y1="402" x2="164" y2="394" stroke="#1F5FD1" stroke-width="2"/>
+<text x="172" y="403" text-anchor="start" style="fill:#1A1F2C">Delete spend</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-spend-hourly-api/#op-getSpendHourly" target="_blank" class="st" data-op="getSpendHourly"><title>GET /spend_hourly
+Spend Hourly line · getSpendHourly</title>
+<circle cx="496" cy="902" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="508" y="907" text-anchor="start" style="fill:#1A1F2C">Get spend hourly</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-spend-hourly-api/#op-postSpendHourly" target="_blank" class="st" data-op="postSpendHourly"><title>POST /spend_hourly
+Spend Hourly line · postSpendHourly</title>
+<circle cx="412" cy="818" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="424" y="823" text-anchor="start" style="fill:#1A1F2C">Update spend hourly</text>
+</a>
+<a href="https://apis.apis.io/apis/northbeam/northbeam-spend-hourly-api/#op-deleteSpendHourly" target="_blank" class="st" data-op="deleteSpendHourly"><title>DELETE /spend_hourly
+Spend Hourly line · deleteSpendHourly</title>
+<circle cx="370" cy="776" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="366" y1="780" x2="374" y2="772" stroke="#E07B12" stroke-width="2"/>
+<text x="382" y="781" text-anchor="start" style="fill:#1A1F2C">Delete spend hourly</text>
+</a>
+<text x="1106" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1106" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">NORTHBEAM</text>
+<rect x="1106" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1123" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NL</text><text x="1148" y="269" font-size="11" fill="#1A1F2C">Northbeam Local <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1106" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1123" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="1148" y="286" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1106" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1123" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SPE</text><text x="1148" y="303" font-size="11" fill="#1A1F2C">Spend <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1106" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1123" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SH</text><text x="1148" y="320" font-size="11" fill="#1A1F2C">Spend Hourly <tspan fill="#8A93A6">3</tspan></text>
+<text x="1356" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1374,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1374,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1400" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1374,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1400" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1374,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1400" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1374,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1400" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1374,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1400" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1374,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1400" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1374,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1400" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1356" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1356" y="463" font-size="10.5" fill="#5A6275">“Attribution Models” → Northbeam Local line · 1 op</text>
+<text x="1356" y="478" font-size="10.5" fill="#5A6275">“Breakdowns” → Northbeam Local line · 1 op</text>
+<text x="1356" y="493" font-size="10.5" fill="#5A6275">“Data Export” → Northbeam Local line · 2 ops</text>
+<text x="1356" y="508" font-size="10.5" fill="#5A6275">“Metrics” → Northbeam Local line · 1 op</text>
+<text x="1356" y="558" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1356" y="575" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1032" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/northbeam/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

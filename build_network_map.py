@@ -315,7 +315,9 @@ if DISTRICTS:
         Xf -= Xf[-1]                                   # anchor at the district's origin
         el_ = [np.linalg.norm(Xf[mem.index(i)] - Xf[mem.index(j)]) for i, j, _ in line_edges
                if i in mem and j in mem]
-        Xf /= (np.median(el_) if el_ else 1.0)          # one hop = one line edge
+        _m = float(np.median(el_)) if el_ else 0.0
+        Xf /= (_m if np.isfinite(_m) and _m > 1e-9 else 1.0)          # one hop = one line edge
+        Xf = np.nan_to_num(Xf)
         blocks[f] = (mem, Xf, np.linalg.norm(Xf, axis=1).max() + 3)
     # districts placed by the product graph: products that share interchanges sit side by side
     from scipy.sparse.csgraph import shortest_path as _sp
