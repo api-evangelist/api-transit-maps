@@ -1,0 +1,861 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3212 2700" width="3212" height="2700" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3212" height="2700" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Vijil API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">149 operations as stops · 14 tags as lines · 3 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="496" y1="1028" x2="538" y2="986" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="496" y1="1028" x2="538" y2="986" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Agent Environment · Configurations" d="M454.0,1364.0 L538.0,1364.0 L608.0,1364.0 Q622.0,1364.0 631.9,1354.1 L654.1,1331.9 Q664.0,1322.0 664.0,1308.0 L664.0,1252.0 Q664.0,1238.0 654.1,1228.1 L547.9,1121.9 Q538.0,1112.0 538.0,1098.0 L538.0,1084.0 Q538.0,1070.0 528.1,1060.1 L505.9,1037.9 Q496.0,1028.0 482.0,1028.0 L370.0,1028.0 L286.0,1028.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Configurations</title></path>
+<path class="line" data-line="Agent Environment · Agents" d="M1126.0,1406.0 L1238.0,1406.0 Q1252.0,1406.0 1261.9,1415.9 L1284.1,1438.1 Q1294.0,1448.0 1284.1,1457.9 L1261.9,1480.1 Q1252.0,1490.0 1252.0,1504.0 L1252.0,1700.0 L1252.0,1784.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Agents</title></path>
+<path class="line" data-line="Agent Environment · Personas" d="M244.0,1574.0 L328.0,1574.0 L412.0,1574.0 L496.0,1574.0 L608.0,1574.0 Q622.0,1574.0 631.9,1564.1 L664.0,1532.0 L706.0,1490.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Personas</title></path>
+<path class="line" data-line="Agent Environment · Demographics" d="M664.0,1742.0 L738.1,1667.9 Q748.0,1658.0 762.0,1658.0 L818.0,1658.0 Q832.0,1658.0 832.0,1672.0 L832.0,1728.0 Q832.0,1742.0 822.1,1751.9 L748.0,1826.0 L673.9,1900.1 Q664.0,1910.0 650.0,1910.0 L594.0,1910.0 Q580.0,1910.0 570.1,1919.9 L496.0,1994.0 L454.0,2036.0 L370.0,2120.0 L286.0,2204.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Demographics</title></path>
+<path class="line" data-line="Agent Environment · Dimensions" d="M1420.0,1028.0 L1387.9,1060.1 Q1378.0,1070.0 1378.0,1084.0 L1378.0,1140.0 Q1378.0,1154.0 1392.0,1154.0 L1406.0,1154.0 Q1420.0,1154.0 1429.9,1144.1 L1546.0,1028.0 L1588.0,986.0 L1662.1,911.9 Q1672.0,902.0 1672.0,888.0 L1672.0,832.0 Q1672.0,818.0 1681.9,808.1 L1756.0,734.0 L1840.0,650.0 L1924.0,566.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Dimensions</title></path>
+<path class="line" data-line="Agent Environment · Policies" d="M1042.0,1154.0 L1126.0,1154.0 L1196.0,1154.0 Q1210.0,1154.0 1219.9,1163.9 L1294.0,1238.0 L1368.1,1312.1 Q1378.0,1322.0 1378.0,1336.0 L1378.0,1406.0 L1378.0,1476.0 Q1378.0,1490.0 1368.1,1499.9 L1303.9,1564.1 Q1294.0,1574.0 1280.0,1574.0 L1210.0,1574.0 L1140.0,1574.0 Q1126.0,1574.0 1116.1,1564.1 L1042.0,1490.0 L967.9,1415.9 Q958.0,1406.0 958.0,1392.0 L958.0,1322.0 L958.0,1252.0 Q958.0,1238.0 967.9,1228.1 L1042.0,1154.0" fill="none" stroke="#E07B12" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Policies</title></path>
+<path class="line" data-line="Agent Environment · Rules" d="M832.0,1406.0 L864.1,1373.9 Q874.0,1364.0 874.0,1350.0 L874.0,1238.0 L874.0,1126.0 Q874.0,1112.0 883.9,1102.1 L916.0,1070.0 L1000.0,986.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Rules</title></path>
+<path class="line" data-line="Agent Environment · Proposals" d="M1210.0,1322.0 L1177.9,1289.9 Q1168.0,1280.0 1154.0,1280.0 L1084.0,1280.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Proposals</title></path>
+<path class="line" data-line="Agent Environment · Genomes" d="M1168.0,776.0 L1168.0,860.0 L1168.0,930.0 Q1168.0,944.0 1177.9,953.9 L1242.1,1018.1 Q1252.0,1028.0 1261.9,1018.1 L1326.1,953.9 Q1336.0,944.0 1336.0,930.0 L1336.0,860.0 L1336.0,776.0 L1336.0,650.0 L1336.0,566.0 L1336.0,482.0 L1336.0,398.0 L1336.0,314.0 L1336.0,230.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Agent Environment · Genomes</title></path>
+<path class="line" data-line="Diamond" d="M2512.0,1196.0 L2428.0,1196.0 L2344.0,1196.0 L2218.0,1196.0 L2106.0,1196.0 Q2092.0,1196.0 2082.1,1205.9 L2059.9,1228.1 Q2050.0,1238.0 2036.0,1238.0 L1966.0,1238.0 L1896.0,1238.0 Q1882.0,1238.0 1872.1,1247.9 L1807.9,1312.1 Q1798.0,1322.0 1784.0,1322.0 L1714.0,1322.0 L1644.0,1322.0 Q1630.0,1322.0 1620.1,1331.9 L1555.9,1396.1 Q1546.0,1406.0 1546.0,1420.0 L1546.0,1434.0 Q1546.0,1448.0 1555.9,1457.9 L1672.0,1574.0 L1746.1,1648.1 Q1756.0,1658.0 1770.0,1658.0 L1826.0,1658.0 Q1840.0,1658.0 1849.9,1667.9 L1924.0,1742.0 L2008.0,1826.0 L2082.1,1900.1 Q2092.0,1910.0 2106.0,1910.0 L2120.0,1910.0 Q2134.0,1910.0 2143.9,1919.9 L2218.0,1994.0 L2292.1,2068.1 Q2302.0,2078.0 2316.0,2078.0 L2344.0,2078.0 L2428.0,2078.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Diamond</title></path>
+<path class="line" data-line="Dome" d="M160.0,776.0 L244.0,776.0 L314.0,776.0 Q328.0,776.0 337.9,785.9 L370.0,818.0 L454.0,902.0 L528.1,976.1 Q538.0,986.0 552.0,986.0 L622.0,986.0 L706.0,986.0 L734.0,986.0 Q748.0,986.0 757.9,976.1 L780.1,953.9 Q790.0,944.0 790.0,930.0 L790.0,818.0 L790.0,734.0 L790.0,650.0 L790.0,524.0 L790.0,412.0 Q790.0,398.0 780.1,388.1 L748.0,356.0 L664.0,272.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dome</title></path>
+<path class="line" data-line="Red Team" d="M1546.0,1868.0 L1546.0,1784.0 L1546.0,1756.0 Q1546.0,1742.0 1536.1,1732.1 L1471.9,1667.9 Q1462.0,1658.0 1448.0,1658.0 L1392.0,1658.0 Q1378.0,1658.0 1378.0,1672.0 L1378.0,1742.0 L1378.0,1854.0 Q1378.0,1868.0 1387.9,1877.9 L1410.1,1900.1 Q1420.0,1910.0 1420.0,1924.0 L1420.0,2036.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Red Team</title></path>
+<path class="line" data-line="Teams" d="M916.0,2288.0 L916.0,2204.0 L916.0,2120.0 L916.0,1994.0 L916.0,1924.0 Q916.0,1910.0 925.9,1900.1 L990.1,1835.9 Q1000.0,1826.0 1014.0,1826.0 L1070.0,1826.0 Q1084.0,1826.0 1093.9,1835.9 L1126.0,1868.0 L1158.1,1900.1 Q1168.0,1910.0 1168.0,1924.0 L1168.0,2036.0 L1168.0,2162.0 L1168.0,2246.0 L1168.0,2330.0 L1168.0,2456.0 L1168.0,2540.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Teams</title></path>
+<path class="line" data-line="Vijil Local" d="M874.0,1532.0 L958.0,1616.0 L1042.0,1700.0" fill="none" stroke="#4A5568" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Vijil Local</title></path>
+<line x1="454" y1="1364" x2="420.0" y2="1364.0" stroke="#B8860B" stroke-width="7"/><rect x="396.0" y="1353.0" width="48" height="22" rx="5" fill="#B8860B"><title>Agent Environment · Configurations</title></rect><text x="420.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AEC</text>
+<line x1="286" y1="1028" x2="252.0" y2="1028.0" stroke="#B8860B" stroke-width="7"/><rect x="228.0" y="1017.0" width="48" height="22" rx="5" fill="#B8860B"><title>Agent Environment · Configurations</title></rect><text x="252.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AEC</text>
+<line x1="1126" y1="1406" x2="1092.0" y2="1406.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1068.0" y="1395.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Agent Environment · Agents</title></rect><text x="1092.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AEA</text>
+<line x1="1252" y1="1784" x2="1252.0" y2="1818.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1228.0" y="1807.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Agent Environment · Agents</title></rect><text x="1252.0" y="1823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AEA</text>
+<line x1="244" y1="1574" x2="210.0" y2="1574.0" stroke="#2E7D32" stroke-width="7"/><rect x="186.0" y="1563.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Agent Environment · Personas</title></rect><text x="210.0" y="1579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGEP</text>
+<line x1="706" y1="1490" x2="730.0416305603426" y2="1465.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="706.0416305603426" y="1454.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Agent Environment · Personas</title></rect><text x="730.0416305603426" y="1470.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGEP</text>
+<line x1="664" y1="1742" x2="639.9583694396574" y2="1766.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="615.9583694396574" y="1755.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Agent Environment · Demographics</title></rect><text x="639.9583694396574" y="1771.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AED</text>
+<line x1="286" y1="2204" x2="261.95836943965736" y2="2228.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="237.95836943965736" y="2217.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Agent Environment · Demographics</title></rect><text x="261.95836943965736" y="2233.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AED</text>
+<line x1="1420" y1="1028" x2="1444.0416305603426" y2="1003.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1420.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Agent Environment · Dimensions</title></rect><text x="1444.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGED</text>
+<line x1="1924" y1="566" x2="1948.0416305603426" y2="541.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1924.0416305603426" y="530.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Agent Environment · Dimensions</title></rect><text x="1948.0416305603426" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGED</text>
+<rect x="1012" y="1101" width="60" height="26" rx="13" fill="#E07B12"/><text x="1042" y="1119" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">AEP</text>
+<line x1="832" y1="1406" x2="807.9583694396574" y2="1430.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="783.9583694396574" y="1419.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Agent Environment · Rules</title></rect><text x="807.9583694396574" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AER</text>
+<line x1="1000" y1="986" x2="1024.0416305603426" y2="961.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="1000.0416305603426" y="950.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Agent Environment · Rules</title></rect><text x="1024.0416305603426" y="966.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AER</text>
+<line x1="1210" y1="1322" x2="1234.0416305603426" y2="1346.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="1210.0416305603426" y="1335.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Agent Environment · Proposals</title></rect><text x="1234.0416305603426" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="1084" y1="1280" x2="1050.0" y2="1280.0" stroke="#8D6E63" stroke-width="7"/><rect x="1026.0" y="1269.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Agent Environment · Proposals</title></rect><text x="1050.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AGE</text>
+<line x1="1168" y1="776" x2="1168.0" y2="742.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1144.0" y="731.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Agent Environment · Genomes</title></rect><text x="1168.0" y="747.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AEG</text>
+<line x1="1336" y1="230" x2="1336.0" y2="196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1312.0" y="185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Agent Environment · Genomes</title></rect><text x="1336.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AEG</text>
+<line x1="2512" y1="1196" x2="2546.0" y2="1196.0" stroke="#D6264F" stroke-width="7"/><rect x="2522.0" y="1185.0" width="48" height="22" rx="5" fill="#D6264F"><title>Diamond</title></rect><text x="2546.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIA</text>
+<line x1="2428" y1="2078" x2="2462.0" y2="2078.0" stroke="#D6264F" stroke-width="7"/><rect x="2438.0" y="2067.0" width="48" height="22" rx="5" fill="#D6264F"><title>Diamond</title></rect><text x="2462.0" y="2083.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DIA</text>
+<line x1="160" y1="776" x2="126.0" y2="776.0" stroke="#0E9F6E" stroke-width="7"/><rect x="102.0" y="765.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dome</title></rect><text x="126.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="664" y1="272" x2="639.9583694396574" y2="247.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="615.9583694396574" y="236.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dome</title></rect><text x="639.9583694396574" y="252.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DOM</text>
+<line x1="1546" y1="1868" x2="1546.0" y2="1902.0" stroke="#C2410C" stroke-width="7"/><rect x="1522.0" y="1891.0" width="48" height="22" rx="5" fill="#C2410C"><title>Red Team</title></rect><text x="1546.0" y="1907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="1420" y1="2036" x2="1420.0" y2="2070.0" stroke="#C2410C" stroke-width="7"/><rect x="1396.0" y="2059.0" width="48" height="22" rx="5" fill="#C2410C"><title>Red Team</title></rect><text x="1420.0" y="2075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="916" y1="2288" x2="916.0" y2="2322.0" stroke="#1F5FD1" stroke-width="7"/><rect x="892.0" y="2311.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Teams</title></rect><text x="916.0" y="2327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="1168" y1="2540" x2="1168.0" y2="2574.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1144.0" y="2563.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Teams</title></rect><text x="1168.0" y="2579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TEA</text>
+<line x1="874" y1="1532" x2="849.9583694396574" y2="1507.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="825.9583694396574" y="1496.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>Vijil Local</title></rect><text x="849.9583694396574" y="1512.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VL</text>
+<line x1="1042" y1="1700" x2="1066.0416305603426" y2="1724.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="1042.0416305603426" y="1713.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>Vijil Local</title></rect><text x="1066.0416305603426" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VL</text>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_agent_configuration_v1_agent_configurations__post" target="_blank" class="st" data-op="create_agent_configuration_v1_agent_configurations__post"><title>POST /v1/agent-configurations/
+Agent Environment · Configurations line · create_agent_configuration_v1_agent_configurations__post</title>
+<circle cx="538" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="532" y="1376" text-anchor="end" transform="rotate(-45 532 1376)" style="fill:#1A1F2C">Create agent configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_agent_configurations_v1_agent_configurations__get" target="_blank" class="st" data-op="get_agent_configurations_v1_agent_configurations__get"><title>GET /v1/agent-configurations/
+Agent Environment · Configurations line · get_agent_configurations_v1_agent_configurations__get</title>
+<circle cx="454" cy="1364" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="460" y="1352" transform="rotate(-45 460 1352)" style="fill:#1A1F2C">List agent configurations</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_agent_configuration_by_id_v1_agent_configurations__id__get" target="_blank" class="st" data-op="get_agent_configuration_by_id_v1_agent_configurations__id__get"><title>GET /v1/agent-configurations/{id}
+Agent Environment · Configurations line · get_agent_configuration_by_id_v1_agent_configurations__id__get</title>
+<circle cx="622" cy="1364" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="634" y="1369" text-anchor="start" style="fill:#1A1F2C">Get agent configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_agent_configuration_v1_agent_configurations__id__put" target="_blank" class="st" data-op="update_agent_configuration_v1_agent_configurations__id__put"><title>PUT /v1/agent-configurations/{id}
+Agent Environment · Configurations line · update_agent_configuration_v1_agent_configurations__id__put</title>
+<circle cx="664" cy="1322" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="676" y="1327" text-anchor="start" style="fill:#1A1F2C">Update agent configuration</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-archive_agent_configuration_v1_agent_configurations__id__archive_put" target="_blank" class="st" data-op="archive_agent_configuration_v1_agent_configurations__id__archive_put"><title>PUT /v1/agent-configurations/{id}/archive
+Agent Environment · Configurations line · archive_agent_configuration_v1_agent_configurations__id__archive_put</title>
+<circle cx="538" cy="1070" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="1075" text-anchor="start" style="fill:#1A1F2C">Archive agent configurations</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_agent_lifecycle_v1_agent_configurations__id__lifecycle_put" target="_blank" class="st" data-op="update_agent_lifecycle_v1_agent_configurations__id__lifecycle_put"><title>PUT /v1/agent-configurations/{id}/lifecycle
+Agent Environment · Configurations line · update_agent_lifecycle_v1_agent_configurations__id__lifecycle_put</title>
+<circle cx="286" cy="1028" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="292" y="1016" transform="rotate(-45 292 1016)" style="fill:#1A1F2C">Update lifecycle</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_agent_dome_config_v1_agent_configurations__agent_id__dome_configs_get" target="_blank" class="st" data-op="get_agent_dome_config_v1_agent_configurations__agent_id__dome_configs_get"><title>GET /v1/agent-configurations/{agent_id}/dome-configs
+Agent Environment · Configurations line · get_agent_dome_config_v1_agent_configurations__agent_id__dome_configs_get</title>
+<circle cx="496" cy="1028" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="508" y="1033" text-anchor="start" style="fill:#1A1F2C">List dome configs</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_evaluation_config_v1_agent_configurations__id__evaluation_config_get" target="_blank" class="st" data-op="get_evaluation_config_v1_agent_configurations__id__evaluation_config_get"><title>GET /v1/agent-configurations/{id}/evaluation-config
+Agent Environment · Configurations line · get_evaluation_config_v1_agent_configurations__id__evaluation_config_get</title>
+<circle cx="370" cy="1028" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="376" y="1016" transform="rotate(-45 376 1016)" style="fill:#1A1F2C">Get evaluation config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_agent_constraints_v1_agents__agent_id__constraints_get" target="_blank" class="st" data-op="get_agent_constraints_v1_agents__agent_id__constraints_get"><title>GET /v1/agents/{agent_id}/constraints
+Agent Environment · Agents line · get_agent_constraints_v1_agents__agent_id__constraints_get</title>
+<circle cx="1126" cy="1406" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1135" y="1396" text-anchor="start" style="fill:#1A1F2C">List constraints</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-validate_agent_import_v1_agent_configurations_import_validate_post" target="_blank" class="st" data-op="validate_agent_import_v1_agent_configurations_import_validate_post"><title>POST /v1/agent-configurations/import/validate
+Agent Environment · Configurations line · validate_agent_import_v1_agent_configurations_import_validate_post</title>
+<circle cx="538" cy="1112" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="550" y="1117" text-anchor="start" style="fill:#1A1F2C">Update validate</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-import_agent_unified_v1_agent_configurations_import_post" target="_blank" class="st" data-op="import_agent_unified_v1_agent_configurations_import_post"><title>POST /v1/agent-configurations/import
+Agent Environment · Configurations line · import_agent_unified_v1_agent_configurations_import_post</title>
+<circle cx="664" cy="1238" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="676" y="1243" text-anchor="start" style="fill:#1A1F2C">Import agent configurations</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_persona_v1_personas__id__get" target="_blank" class="st" data-op="get_persona_v1_personas__id__get"><title>GET /v1/personas/{id}
+Agent Environment · Personas line · get_persona_v1_personas__id__get</title>
+<circle cx="412" cy="1574" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="418" y="1562" transform="rotate(-45 418 1562)" style="fill:#1A1F2C">Get persona</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_persona_v1_personas__id__put" target="_blank" class="st" data-op="update_persona_v1_personas__id__put"><title>PUT /v1/personas/{id}
+Agent Environment · Personas line · update_persona_v1_personas__id__put</title>
+<circle cx="496" cy="1574" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="502" y="1562" transform="rotate(-45 502 1562)" style="fill:#1A1F2C">Update persona</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_persona_v1_personas__id__delete" target="_blank" class="st" data-op="delete_persona_v1_personas__id__delete"><title>DELETE /v1/personas/{id}
+Agent Environment · Personas line · delete_persona_v1_personas__id__delete</title>
+<circle cx="622" cy="1574" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="618" y1="1578" x2="626" y2="1570" stroke="#2E7D32" stroke-width="2"/>
+<text x="634" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete persona</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_personas_v1_personas__get" target="_blank" class="st" data-op="list_personas_v1_personas__get"><title>GET /v1/personas/
+Agent Environment · Personas line · list_personas_v1_personas__get</title>
+<circle cx="244" cy="1574" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="250" y="1562" transform="rotate(-45 250 1562)" style="fill:#1A1F2C">List personas</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_persona_v1_personas__post" target="_blank" class="st" data-op="create_persona_v1_personas__post"><title>POST /v1/personas/
+Agent Environment · Personas line · create_persona_v1_personas__post</title>
+<circle cx="328" cy="1574" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="334" y="1562" transform="rotate(-45 334 1562)" style="fill:#1A1F2C">Create persona</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_presets_v1_personas_presets__get" target="_blank" class="st" data-op="list_presets_v1_personas_presets__get"><title>GET /v1/personas/presets/
+Agent Environment · Personas line · list_presets_v1_personas_presets__get</title>
+<circle cx="706" cy="1490" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="718" y="1495" text-anchor="start" style="fill:#1A1F2C">List presets</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_from_preset_v1_personas_from_preset__preset_id__post" target="_blank" class="st" data-op="create_from_preset_v1_personas_from_preset__preset_id__post"><title>POST /v1/personas/from-preset/{preset_id}
+Agent Environment · Personas line · create_from_preset_v1_personas_from_preset__preset_id__post</title>
+<circle cx="664" cy="1532" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="676" y="1537" text-anchor="start" style="fill:#1A1F2C">Update from preset</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_dimensions_v1_demographics__get" target="_blank" class="st" data-op="list_dimensions_v1_demographics__get"><title>GET /v1/demographics/
+Agent Environment · Demographics line · list_dimensions_v1_demographics__get</title>
+<circle cx="664" cy="1742" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="1747" text-anchor="start" style="fill:#1A1F2C">List demographics</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_dimension_v1_demographics__post" target="_blank" class="st" data-op="create_dimension_v1_demographics__post"><title>POST /v1/demographics/
+Agent Environment · Demographics line · create_dimension_v1_demographics__post</title>
+<circle cx="748" cy="1658" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="736.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Create demographic</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_dimension_v1_demographics__dimension_id__get" target="_blank" class="st" data-op="get_dimension_v1_demographics__dimension_id__get"><title>GET /v1/demographics/{dimension_id}
+Agent Environment · Demographics line · get_dimension_v1_demographics__dimension_id__get</title>
+<circle cx="832" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="844" y="1663" text-anchor="start" style="fill:#1A1F2C">Get demographic</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_dimension_v1_demographics__dimension_id__put" target="_blank" class="st" data-op="update_dimension_v1_demographics__dimension_id__put"><title>PUT /v1/demographics/{dimension_id}
+Agent Environment · Demographics line · update_dimension_v1_demographics__dimension_id__put</title>
+<circle cx="832" cy="1742" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="844" y="1747" text-anchor="start" style="fill:#1A1F2C">Update demographic</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_dimension_v1_demographics__dimension_id__delete" target="_blank" class="st" data-op="delete_dimension_v1_demographics__dimension_id__delete"><title>DELETE /v1/demographics/{dimension_id}
+Agent Environment · Demographics line · delete_dimension_v1_demographics__dimension_id__delete</title>
+<circle cx="748" cy="1826" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="744" y1="1830" x2="752" y2="1822" stroke="#B0287F" stroke-width="2"/>
+<text x="760" y="1831" text-anchor="start" style="fill:#1A1F2C">Delete demographic</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_dimension_by_name_v1_demographics_by_name__name__get" target="_blank" class="st" data-op="get_dimension_by_name_v1_demographics_by_name__name__get"><title>GET /v1/demographics/by-name/{name}
+Agent Environment · Demographics line · get_dimension_by_name_v1_demographics_by_name__name__get</title>
+<circle cx="664" cy="1910" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="1915" text-anchor="start" style="fill:#1A1F2C">Get by name</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_values_v1_demographics__dimension_id__values_get" target="_blank" class="st" data-op="list_values_v1_demographics__dimension_id__values_get"><title>GET /v1/demographics/{dimension_id}/values
+Agent Environment · Demographics line · list_values_v1_demographics__dimension_id__values_get</title>
+<circle cx="454" cy="2036" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="466" y="2041" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-add_value_v1_demographics__dimension_id__values_post" target="_blank" class="st" data-op="add_value_v1_demographics__dimension_id__values_post"><title>POST /v1/demographics/{dimension_id}/values
+Agent Environment · Demographics line · add_value_v1_demographics__dimension_id__values_post</title>
+<circle cx="370" cy="2120" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="382" y="2125" text-anchor="start" style="fill:#1A1F2C">Create value</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-bulk_add_values_v1_demographics__dimension_id__values_bulk_post" target="_blank" class="st" data-op="bulk_add_values_v1_demographics__dimension_id__values_bulk_post"><title>POST /v1/demographics/{dimension_id}/values/bulk
+Agent Environment · Demographics line · bulk_add_values_v1_demographics__dimension_id__values_bulk_post</title>
+<circle cx="286" cy="2204" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="298" y="2209" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_value_v1_demographics_values__value_id__put" target="_blank" class="st" data-op="update_value_v1_demographics_values__value_id__put"><title>PUT /v1/demographics/values/{value_id}
+Agent Environment · Demographics line · update_value_v1_demographics_values__value_id__put</title>
+<circle cx="580" cy="1910" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="568.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Update value</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_value_v1_demographics_values__value_id__delete" target="_blank" class="st" data-op="delete_value_v1_demographics_values__value_id__delete"><title>DELETE /v1/demographics/values/{value_id}
+Agent Environment · Demographics line · delete_value_v1_demographics_values__value_id__delete</title>
+<circle cx="496" cy="1994" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="492" y1="1998" x2="500" y2="1990" stroke="#B0287F" stroke-width="2"/>
+<text x="508" y="1999" text-anchor="start" style="fill:#1A1F2C">Delete value</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_dimensions_v1_dimensions__get" target="_blank" class="st" data-op="list_dimensions_v1_dimensions__get"><title>GET /v1/dimensions/
+Agent Environment · Dimensions line · list_dimensions_v1_dimensions__get</title>
+<circle cx="1420" cy="1028" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="1033" text-anchor="start" style="fill:#1A1F2C">List dimensions</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_dimension_v1_dimensions__post" target="_blank" class="st" data-op="create_dimension_v1_dimensions__post"><title>POST /v1/dimensions/
+Agent Environment · Dimensions line · create_dimension_v1_dimensions__post</title>
+<circle cx="1378" cy="1070" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1390" y="1075" text-anchor="start" style="fill:#1A1F2C">Create dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_dimension_v1_dimensions__dimension_id__get" target="_blank" class="st" data-op="get_dimension_v1_dimensions__dimension_id__get"><title>GET /v1/dimensions/{dimension_id}
+Agent Environment · Dimensions line · get_dimension_v1_dimensions__dimension_id__get</title>
+<circle cx="1378" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1366.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Get dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_dimension_v1_dimensions__dimension_id__put" target="_blank" class="st" data-op="update_dimension_v1_dimensions__dimension_id__put"><title>PUT /v1/dimensions/{dimension_id}
+Agent Environment · Dimensions line · update_dimension_v1_dimensions__dimension_id__put</title>
+<circle cx="1420" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1432" y="1159" text-anchor="start" style="fill:#1A1F2C">Update dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_dimension_v1_dimensions__dimension_id__delete" target="_blank" class="st" data-op="delete_dimension_v1_dimensions__dimension_id__delete"><title>DELETE /v1/dimensions/{dimension_id}
+Agent Environment · Dimensions line · delete_dimension_v1_dimensions__dimension_id__delete</title>
+<circle cx="1546" cy="1028" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1542" y1="1032" x2="1550" y2="1024" stroke="#0B7A75" stroke-width="2"/>
+<text x="1558" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete dimension</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_dimension_by_name_v1_dimensions_by_name__name__get" target="_blank" class="st" data-op="get_dimension_by_name_v1_dimensions_by_name__name__get"><title>GET /v1/dimensions/by-name/{name}
+Agent Environment · Dimensions line · get_dimension_by_name_v1_dimensions_by_name__name__get</title>
+<circle cx="1588" cy="986" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1600" y="991" text-anchor="start" style="fill:#1A1F2C">Get by name</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_values_v1_dimensions__dimension_id__values_get" target="_blank" class="st" data-op="list_values_v1_dimensions__dimension_id__values_get"><title>GET /v1/dimensions/{dimension_id}/values
+Agent Environment · Dimensions line · list_values_v1_dimensions__dimension_id__values_get</title>
+<circle cx="1756" cy="734" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1768" y="739" text-anchor="start" style="fill:#1A1F2C">List values</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-add_value_v1_dimensions__dimension_id__values_post" target="_blank" class="st" data-op="add_value_v1_dimensions__dimension_id__values_post"><title>POST /v1/dimensions/{dimension_id}/values
+Agent Environment · Dimensions line · add_value_v1_dimensions__dimension_id__values_post</title>
+<circle cx="1840" cy="650" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1852" y="655" text-anchor="start" style="fill:#1A1F2C">Create value</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-bulk_add_values_v1_dimensions__dimension_id__values_bulk_post" target="_blank" class="st" data-op="bulk_add_values_v1_dimensions__dimension_id__values_bulk_post"><title>POST /v1/dimensions/{dimension_id}/values/bulk
+Agent Environment · Dimensions line · bulk_add_values_v1_dimensions__dimension_id__values_bulk_post</title>
+<circle cx="1924" cy="566" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1936" y="571" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_value_v1_dimensions_values__value_id__put" target="_blank" class="st" data-op="update_value_v1_dimensions_values__value_id__put"><title>PUT /v1/dimensions/values/{value_id}
+Agent Environment · Dimensions line · update_value_v1_dimensions_values__value_id__put</title>
+<circle cx="1672" cy="902" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1684" y="907" text-anchor="start" style="fill:#1A1F2C">Update value</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_value_v1_dimensions_values__value_id__delete" target="_blank" class="st" data-op="delete_value_v1_dimensions_values__value_id__delete"><title>DELETE /v1/dimensions/values/{value_id}
+Agent Environment · Dimensions line · delete_value_v1_dimensions_values__value_id__delete</title>
+<circle cx="1672" cy="818" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1668" y1="822" x2="1676" y2="814" stroke="#0B7A75" stroke-width="2"/>
+<text x="1684" y="823" text-anchor="start" style="fill:#1A1F2C">Delete value</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_policy_v1_policies__policy_id__get" target="_blank" class="st" data-op="get_policy_v1_policies__policy_id__get"><title>GET /v1/policies/{policy_id}
+Agent Environment · Policies line · get_policy_v1_policies__policy_id__get</title>
+<circle cx="1378" cy="1322" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1390" y="1327" text-anchor="start" style="fill:#1A1F2C">Get policy</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_policy_v1_policies__policy_id__patch" target="_blank" class="st" data-op="update_policy_v1_policies__policy_id__patch"><title>PATCH /v1/policies/{policy_id}
+Agent Environment · Policies line · update_policy_v1_policies__policy_id__patch</title>
+<circle cx="1378" cy="1406" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1390" y="1411" text-anchor="start" style="fill:#1A1F2C">Update policy</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_policy_v1_policies__policy_id__delete" target="_blank" class="st" data-op="delete_policy_v1_policies__policy_id__delete"><title>DELETE /v1/policies/{policy_id}
+Agent Environment · Policies line · delete_policy_v1_policies__policy_id__delete</title>
+<circle cx="1378" cy="1490" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1374" y1="1494" x2="1382" y2="1486" stroke="#E07B12" stroke-width="2"/>
+<text x="1390" y="1495" text-anchor="start" style="fill:#1A1F2C">Delete policy</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_policies_v1_policies__get" target="_blank" class="st" data-op="list_policies_v1_policies__get"><title>GET /v1/policies/
+Agent Environment · Policies line · list_policies_v1_policies__get</title>
+<circle cx="1042" cy="1154" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1030.0" y="1159" text-anchor="end" style="fill:#1A1F2C">List policies</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_policy_v1_policies__post" target="_blank" class="st" data-op="create_policy_v1_policies__post"><title>POST /v1/policies/
+Agent Environment · Policies line · create_policy_v1_policies__post</title>
+<circle cx="1126" cy="1154" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1132" y="1142" transform="rotate(-45 1132 1142)" style="fill:#1A1F2C">Create policy</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_presets_v1_policies_presets__get" target="_blank" class="st" data-op="list_presets_v1_policies_presets__get"><title>GET /v1/policies/presets/
+Agent Environment · Policies line · list_presets_v1_policies_presets__get</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1219" y="1144" text-anchor="start" style="fill:#1A1F2C">List presets</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-copy_preset_v1_policies_presets__preset_id__copy_post" target="_blank" class="st" data-op="copy_preset_v1_policies_presets__preset_id__copy_post"><title>POST /v1/policies/presets/{preset_id}/copy
+Agent Environment · Policies line · copy_preset_v1_policies_presets__preset_id__copy_post</title>
+<circle cx="1294" cy="1238" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1306" y="1243" text-anchor="start" style="fill:#1A1F2C">Update copy</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-upload_file_v1_policies__policy_id__upload_post" target="_blank" class="st" data-op="upload_file_v1_policies__policy_id__upload_post"><title>POST /v1/policies/{policy_id}/upload
+Agent Environment · Policies line · upload_file_v1_policies__policy_id__upload_post</title>
+<circle cx="958" cy="1238" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="1243" text-anchor="start" style="fill:#1A1F2C">Update upload</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-activate_policy_v1_policies__policy_id__activate_post" target="_blank" class="st" data-op="activate_policy_v1_policies__policy_id__activate_post"><title>POST /v1/policies/{policy_id}/activate
+Agent Environment · Policies line · activate_policy_v1_policies__policy_id__activate_post</title>
+<circle cx="1294" cy="1574" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1306" y="1579" text-anchor="start" style="fill:#1A1F2C">Activate policy</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-download_file_v1_policies__policy_id__file_get" target="_blank" class="st" data-op="download_file_v1_policies__policy_id__file_get"><title>GET /v1/policies/{policy_id}/file
+Agent Environment · Policies line · download_file_v1_policies__policy_id__file_get</title>
+<circle cx="1126" cy="1574" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1114.0" y="1579" text-anchor="end" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_file_v1_policies__policy_id__file_delete" target="_blank" class="st" data-op="delete_file_v1_policies__policy_id__file_delete"><title>DELETE /v1/policies/{policy_id}/file
+Agent Environment · Policies line · delete_file_v1_policies__policy_id__file_delete</title>
+<circle cx="1042" cy="1490" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1038" y1="1494" x2="1046" y2="1486" stroke="#E07B12" stroke-width="2"/>
+<text x="1054" y="1495" text-anchor="start" style="fill:#1A1F2C">Delete file</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-download_converted_file_v1_policies__policy_id__converted_get" target="_blank" class="st" data-op="download_converted_file_v1_policies__policy_id__converted_get"><title>GET /v1/policies/{policy_id}/converted
+Agent Environment · Policies line · download_converted_file_v1_policies__policy_id__converted_get</title>
+<circle cx="1210" cy="1574" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1204" y="1586" text-anchor="end" transform="rotate(-45 1204 1586)" style="fill:#1A1F2C">Get converted</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_policy_rules_v1_policies__policy_id__rules_get" target="_blank" class="st" data-op="list_policy_rules_v1_policies__policy_id__rules_get"><title>GET /v1/policies/{policy_id}/rules
+Agent Environment · Policies line · list_policy_rules_v1_policies__policy_id__rules_get</title>
+<circle cx="958" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="970" y="1411" text-anchor="start" style="fill:#1A1F2C">List rules <tspan font-weight="700" style="fill:#00838F">⇄AER</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_policy_rule_v1_policies__policy_id__rules_post" target="_blank" class="st" data-op="create_policy_rule_v1_policies__policy_id__rules_post"><title>POST /v1/policies/{policy_id}/rules
+Agent Environment · Policies line · create_policy_rule_v1_policies__policy_id__rules_post</title>
+<circle cx="958" cy="1322" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="1327" text-anchor="start" style="fill:#1A1F2C">Create rule</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_rule_v1_rules__rule_id__get" target="_blank" class="st" data-op="get_rule_v1_rules__rule_id__get"><title>GET /v1/rules/{rule_id}
+Agent Environment · Rules line · get_rule_v1_rules__rule_id__get</title>
+<circle cx="874" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="886" y="1369" text-anchor="start" style="fill:#1A1F2C">Get rule</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-update_rule_v1_rules__rule_id__patch" target="_blank" class="st" data-op="update_rule_v1_rules__rule_id__patch"><title>PATCH /v1/rules/{rule_id}
+Agent Environment · Rules line · update_rule_v1_rules__rule_id__patch</title>
+<circle cx="874" cy="1238" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="883" y="1228" text-anchor="start" style="fill:#1A1F2C">Update rule</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_rule_v1_rules__rule_id__delete" target="_blank" class="st" data-op="delete_rule_v1_rules__rule_id__delete"><title>DELETE /v1/rules/{rule_id}
+Agent Environment · Rules line · delete_rule_v1_rules__rule_id__delete</title>
+<circle cx="874" cy="1112" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="870" y1="1116" x2="878" y2="1108" stroke="#00838F" stroke-width="2"/>
+<text x="886" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete rule</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_rules_v1_rules__get" target="_blank" class="st" data-op="list_rules_v1_rules__get"><title>GET /v1/rules/
+Agent Environment · Rules line · list_rules_v1_rules__get</title>
+<circle cx="832" cy="1406" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="844" y="1411" text-anchor="start" style="fill:#1A1F2C">List rules</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-approve_rule_v1_rules__rule_id__approve_post" target="_blank" class="st" data-op="approve_rule_v1_rules__rule_id__approve_post"><title>POST /v1/rules/{rule_id}/approve
+Agent Environment · Rules line · approve_rule_v1_rules__rule_id__approve_post</title>
+<circle cx="916" cy="1070" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="928" y="1075" text-anchor="start" style="fill:#1A1F2C">Approve rule</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-reject_rule_v1_rules__rule_id__reject_post" target="_blank" class="st" data-op="reject_rule_v1_rules__rule_id__reject_post"><title>POST /v1/rules/{rule_id}/reject
+Agent Environment · Rules line · reject_rule_v1_rules__rule_id__reject_post</title>
+<circle cx="1000" cy="986" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1012" y="991" text-anchor="start" style="fill:#1A1F2C">Reject rule</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_trust_dashboard_v1_dashboard_trust_get" target="_blank" class="st" data-op="get_trust_dashboard_v1_dashboard_trust_get"><title>GET /v1/dashboard/trust
+Vijil Local line · get_trust_dashboard_v1_dashboard_trust_get</title>
+<circle cx="874" cy="1532" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="886" y="1537" text-anchor="start" style="fill:#1A1F2C">Get trust</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-trigger_evolution_v1_agents__agent_id__evolutions_post" target="_blank" class="st" data-op="trigger_evolution_v1_agents__agent_id__evolutions_post"><title>POST /v1/agents/{agent_id}/evolutions
+Agent Environment · Agents line · trigger_evolution_v1_agents__agent_id__evolutions_post</title>
+<circle cx="1252" cy="1700" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="1705" text-anchor="start" style="fill:#1A1F2C">Create evolution</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_evolution_jobs_v1_agents__agent_id__evolutions_get" target="_blank" class="st" data-op="list_evolution_jobs_v1_agents__agent_id__evolutions_get"><title>GET /v1/agents/{agent_id}/evolutions
+Agent Environment · Agents line · list_evolution_jobs_v1_agents__agent_id__evolutions_get</title>
+<circle cx="1252" cy="1490" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="1495" text-anchor="start" style="fill:#1A1F2C">List evolutions</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_evolution_job_status_v1_agents__agent_id__evolutions__evolution_id__get" target="_blank" class="st" data-op="get_evolution_job_status_v1_agents__agent_id__evolutions__evolution_id__get"><title>GET /v1/agents/{agent_id}/evolutions/{evolution_id}
+Agent Environment · Agents line · get_evolution_job_status_v1_agents__agent_id__evolutions__evolution_id__get</title>
+<circle cx="1252" cy="1784" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1264" y="1789" text-anchor="start" style="fill:#1A1F2C">Get evolution</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_proposals_v1_agents__agent_id__evolution_proposals_get" target="_blank" class="st" data-op="list_proposals_v1_agents__agent_id__evolution_proposals_get"><title>GET /v1/agents/{agent_id}/evolution/proposals
+Agent Environment · Agents line · list_proposals_v1_agents__agent_id__evolution_proposals_get</title>
+<circle cx="1252" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1243.0" y="1425" text-anchor="end" style="fill:#1A1F2C">List proposals <tspan font-weight="700" style="fill:#8D6E63">⇄AGE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_proposal_v1_agents__agent_id__evolution_proposals__proposal_id__get" target="_blank" class="st" data-op="get_proposal_v1_agents__agent_id__evolution_proposals__proposal_id__get"><title>GET /v1/agents/{agent_id}/evolution/proposals/{proposal_id}
+Agent Environment · Agents line · get_proposal_v1_agents__agent_id__evolution_proposals__proposal_id__get</title>
+<circle cx="1294" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1282.0" y="1453" text-anchor="end" style="fill:#1A1F2C">Get proposal</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_proposal_by_id_v1_proposals__proposal_id__get" target="_blank" class="st" data-op="get_proposal_by_id_v1_proposals__proposal_id__get"><title>GET /v1/proposals/{proposal_id}
+Agent Environment · Proposals line · get_proposal_by_id_v1_proposals__proposal_id__get</title>
+<circle cx="1210" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1222" y="1327" text-anchor="start" style="fill:#1A1F2C">Get proposal</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-approve_proposal_v1_proposals__proposal_id__approve_post" target="_blank" class="st" data-op="approve_proposal_v1_proposals__proposal_id__approve_post"><title>POST /v1/proposals/{proposal_id}/approve
+Agent Environment · Proposals line · approve_proposal_v1_proposals__proposal_id__approve_post</title>
+<circle cx="1168" cy="1280" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1180" y="1285" text-anchor="start" style="fill:#1A1F2C">Approve proposal</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-reject_proposal_v1_proposals__proposal_id__reject_post" target="_blank" class="st" data-op="reject_proposal_v1_proposals__proposal_id__reject_post"><title>POST /v1/proposals/{proposal_id}/reject
+Agent Environment · Proposals line · reject_proposal_v1_proposals__proposal_id__reject_post</title>
+<circle cx="1084" cy="1280" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1090" y="1268" transform="rotate(-45 1090 1268)" style="fill:#1A1F2C">Reject proposal</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_evolution_status_v1_evolution_status__agent_id__get" target="_blank" class="st" data-op="get_evolution_status_v1_evolution_status__agent_id__get"><title>GET /v1/evolution/status/{agent_id}
+Vijil Local line · get_evolution_status_v1_evolution_status__agent_id__get</title>
+<circle cx="1042" cy="1700" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1054" y="1705" text-anchor="start" style="fill:#1A1F2C">Get statu</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_genome_map_v1_evolution_genome_map_get" target="_blank" class="st" data-op="get_genome_map_v1_evolution_genome_map_get"><title>GET /v1/evolution/genome-map
+Vijil Local line · get_genome_map_v1_evolution_genome_map_get</title>
+<circle cx="958" cy="1616" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="970" y="1621" text-anchor="start" style="fill:#1A1F2C">Get genome map</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-create_genome_v1_genomes__post" target="_blank" class="st" data-op="create_genome_v1_genomes__post"><title>POST /v1/genomes/
+Agent Environment · Genomes line · create_genome_v1_genomes__post</title>
+<circle cx="1168" cy="860" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="865" text-anchor="start" style="fill:#1A1F2C">Create genome</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_genomes_v1_genomes__get" target="_blank" class="st" data-op="list_genomes_v1_genomes__get"><title>GET /v1/genomes/
+Agent Environment · Genomes line · list_genomes_v1_genomes__get</title>
+<circle cx="1168" cy="776" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="781" text-anchor="start" style="fill:#1A1F2C">List genomes</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_genome_by_agent_v1_genomes_by_agent__agent_id__get" target="_blank" class="st" data-op="get_genome_by_agent_v1_genomes_by_agent__agent_id__get"><title>GET /v1/genomes/by-agent/{agent_id}
+Agent Environment · Genomes line · get_genome_by_agent_v1_genomes_by_agent__agent_id__get</title>
+<circle cx="1336" cy="944" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="949" text-anchor="start" style="fill:#1A1F2C">Get by agent</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_mutation_history_v1_genomes_by_agent__agent_id__mutation_history_get" target="_blank" class="st" data-op="get_mutation_history_v1_genomes_by_agent__agent_id__mutation_history_get"><title>GET /v1/genomes/by-agent/{agent_id}/mutation-history
+Agent Environment · Genomes line · get_mutation_history_v1_genomes_by_agent__agent_id__mutation_history_get</title>
+<circle cx="1336" cy="860" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="865" text-anchor="start" style="fill:#1A1F2C">Get mutation history</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_genome_v1_genomes__genome_id__get" target="_blank" class="st" data-op="get_genome_v1_genomes__genome_id__get"><title>GET /v1/genomes/{genome_id}
+Agent Environment · Genomes line · get_genome_v1_genomes__genome_id__get</title>
+<circle cx="1168" cy="944" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="949" text-anchor="start" style="fill:#1A1F2C">Get genome</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-delete_genome_v1_genomes__genome_id__delete" target="_blank" class="st" data-op="delete_genome_v1_genomes__genome_id__delete"><title>DELETE /v1/genomes/{genome_id}
+Agent Environment · Genomes line · delete_genome_v1_genomes__genome_id__delete</title>
+<circle cx="1252" cy="1028" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1248" y1="1032" x2="1256" y2="1024" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1252" y="1051" text-anchor="middle" style="fill:#1A1F2C">Delete genome</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-list_genome_versions_v1_genomes__genome_id__versions_get" target="_blank" class="st" data-op="list_genome_versions_v1_genomes__genome_id__versions_get"><title>GET /v1/genomes/{genome_id}/versions
+Agent Environment · Genomes line · list_genome_versions_v1_genomes__genome_id__versions_get</title>
+<circle cx="1336" cy="314" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="319" text-anchor="start" style="fill:#1A1F2C">List versions</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_genome_version_v1_genomes__genome_id__versions__version__get" target="_blank" class="st" data-op="get_genome_version_v1_genomes__genome_id__versions__version__get"><title>GET /v1/genomes/{genome_id}/versions/{version}
+Agent Environment · Genomes line · get_genome_version_v1_genomes__genome_id__versions__version__get</title>
+<circle cx="1336" cy="230" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="235" text-anchor="start" style="fill:#1A1F2C">Get version</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-get_genome_ancestry_v1_genomes__genome_id__ancestry_get" target="_blank" class="st" data-op="get_genome_ancestry_v1_genomes__genome_id__ancestry_get"><title>GET /v1/genomes/{genome_id}/ancestry
+Agent Environment · Genomes line · get_genome_ancestry_v1_genomes__genome_id__ancestry_get</title>
+<circle cx="1336" cy="650" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="655" text-anchor="start" style="fill:#1A1F2C">Get ancestry</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-diff_genome_versions_v1_genomes__genome_id__diff_get" target="_blank" class="st" data-op="diff_genome_versions_v1_genomes__genome_id__diff_get"><title>GET /v1/genomes/{genome_id}/diff
+Agent Environment · Genomes line · diff_genome_versions_v1_genomes__genome_id__diff_get</title>
+<circle cx="1336" cy="566" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="571" text-anchor="start" style="fill:#1A1F2C">Get diff</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-find_similar_genomes_v1_genomes__genome_id__similar_get" target="_blank" class="st" data-op="find_similar_genomes_v1_genomes__genome_id__similar_get"><title>GET /v1/genomes/{genome_id}/similar
+Agent Environment · Genomes line · find_similar_genomes_v1_genomes__genome_id__similar_get</title>
+<circle cx="1336" cy="482" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="487" text-anchor="start" style="fill:#1A1F2C">Get similar</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-extract_genome_from_agent_v1_genomes_extract_from_agent__agent_id__post" target="_blank" class="st" data-op="extract_genome_from_agent_v1_genomes_extract_from_agent__agent_id__post"><title>POST /v1/genomes/extract-from-agent/{agent_id}
+Agent Environment · Genomes line · extract_genome_from_agent_v1_genomes_extract_from_agent__agent_id__post</title>
+<circle cx="1336" cy="776" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="781" text-anchor="start" style="fill:#1A1F2C">Update extract from agent</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-agent-environment-api/#op-genome_to_agent_update_v1_genomes__genome_id__to_agent_update_get" target="_blank" class="st" data-op="genome_to_agent_update_v1_genomes__genome_id__to_agent_update_get"><title>GET /v1/genomes/{genome_id}/to-agent-update
+Agent Environment · Genomes line · genome_to_agent_update_v1_genomes__genome_id__to_agent_update_get</title>
+<circle cx="1336" cy="398" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1348" y="403" text-anchor="start" style="fill:#1A1F2C">Get to agent update</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-list_team_evaluations_v1_evaluations__get" target="_blank" class="st" data-op="list_team_evaluations_v1_evaluations__get"><title>GET /v1/evaluations/
+Diamond line · list_team_evaluations_v1_evaluations__get</title>
+<circle cx="1756" cy="1658" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1744.0" y="1663" text-anchor="end" style="fill:#1A1F2C">List evaluations</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-create_evaluation_v1_evaluations__post" target="_blank" class="st" data-op="create_evaluation_v1_evaluations__post"><title>POST /v1/evaluations/
+Diamond line · create_evaluation_v1_evaluations__post</title>
+<circle cx="1840" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1852" y="1663" text-anchor="start" style="fill:#1A1F2C">Create evaluation</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_html_report_v1_evaluations__evaluation_id__html_get" target="_blank" class="st" data-op="get_evaluation_html_report_v1_evaluations__evaluation_id__html_get"><title>GET /v1/evaluations/{evaluation_id}/html
+Diamond line · get_evaluation_html_report_v1_evaluations__evaluation_id__html_get</title>
+<circle cx="2134" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2146" y="1915" text-anchor="start" style="fill:#1A1F2C">Get html</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_pdf_report_v1_evaluations__evaluation_id__pdf_get" target="_blank" class="st" data-op="get_evaluation_pdf_report_v1_evaluations__evaluation_id__pdf_get"><title>GET /v1/evaluations/{evaluation_id}/pdf
+Diamond line · get_evaluation_pdf_report_v1_evaluations__evaluation_id__pdf_get</title>
+<circle cx="2302" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2290.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Get pdf</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_logs_v1_evaluations__evaluation_id__logs_get" target="_blank" class="st" data-op="get_evaluation_logs_v1_evaluations__evaluation_id__logs_get"><title>GET /v1/evaluations/{evaluation_id}/logs
+Diamond line · get_evaluation_logs_v1_evaluations__evaluation_id__logs_get</title>
+<circle cx="2218" cy="1994" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2230" y="1999" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_v1_evaluations__evaluation_id__get" target="_blank" class="st" data-op="get_evaluation_v1_evaluations__evaluation_id__get"><title>GET /v1/evaluations/{evaluation_id}
+Diamond line · get_evaluation_v1_evaluations__evaluation_id__get</title>
+<circle cx="1924" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1936" y="1747" text-anchor="start" style="fill:#1A1F2C">Get evaluation</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-delete_evaluation_v1_evaluations__evaluation_id__delete" target="_blank" class="st" data-op="delete_evaluation_v1_evaluations__evaluation_id__delete"><title>DELETE /v1/evaluations/{evaluation_id}
+Diamond line · delete_evaluation_v1_evaluations__evaluation_id__delete</title>
+<circle cx="2008" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2004" y1="1830" x2="2012" y2="1822" stroke="#D6264F" stroke-width="2"/>
+<text x="2020" y="1831" text-anchor="start" style="fill:#1A1F2C">Delete evaluation</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-cancel_evaluation_v1_evaluations__evaluation_id__cancel_post" target="_blank" class="st" data-op="cancel_evaluation_v1_evaluations__evaluation_id__cancel_post"><title>POST /v1/evaluations/{evaluation_id}/cancel
+Diamond line · cancel_evaluation_v1_evaluations__evaluation_id__cancel_post</title>
+<circle cx="2092" cy="1910" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2080.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Cancel evaluation</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-generate_report_on_demand_v1_evaluations__evaluation_id__report_post" target="_blank" class="st" data-op="generate_report_on_demand_v1_evaluations__evaluation_id__report_post"><title>POST /v1/evaluations/{evaluation_id}/report
+Diamond line · generate_report_on_demand_v1_evaluations__evaluation_id__report_post</title>
+<circle cx="2344" cy="2078" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2350" y="2066" transform="rotate(-45 2350 2066)" style="fill:#1A1F2C">Update report</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-list_completed_evaluations_v1_evaluation_results__get" target="_blank" class="st" data-op="list_completed_evaluations_v1_evaluation_results__get"><title>GET /v1/evaluation-results/
+Diamond line · list_completed_evaluations_v1_evaluation_results__get</title>
+<circle cx="1966" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1972" y="1226" transform="rotate(-45 1972 1226)" style="fill:#1A1F2C">List evaluation results</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_results_v1_evaluation_results__evaluation_id__results_get" target="_blank" class="st" data-op="get_evaluation_results_v1_evaluation_results__evaluation_id__results_get"><title>GET /v1/evaluation-results/{evaluation_id}/results
+Diamond line · get_evaluation_results_v1_evaluation_results__evaluation_id__results_get</title>
+<circle cx="1714" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1720" y="1310" transform="rotate(-45 1720 1310)" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_report_v1_evaluation_results__evaluation_id__report_get" target="_blank" class="st" data-op="get_evaluation_report_v1_evaluation_results__evaluation_id__report_get"><title>GET /v1/evaluation-results/{evaluation_id}/report
+Diamond line · get_evaluation_report_v1_evaluation_results__evaluation_id__report_get</title>
+<circle cx="1882" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1870.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_report_html_v1_evaluation_results__evaluation_id__report_html_get" target="_blank" class="st" data-op="get_evaluation_report_html_v1_evaluation_results__evaluation_id__report_html_get"><title>GET /v1/evaluation-results/{evaluation_id}/report.html
+Diamond line · get_evaluation_report_html_v1_evaluation_results__evaluation_id__report_html_get</title>
+<circle cx="1798" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1810" y="1327" text-anchor="start" style="fill:#1A1F2C">Get report.html</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-list_evaluation_summaries_v1_evaluation_summaries__get" target="_blank" class="st" data-op="list_evaluation_summaries_v1_evaluation_summaries__get"><title>GET /v1/evaluation-summaries/
+Diamond line · list_evaluation_summaries_v1_evaluation_summaries__get</title>
+<circle cx="1630" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1618.0" y="1327" text-anchor="end" style="fill:#1A1F2C">List evaluation summaries</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-list_latest_evaluation_summaries_by_agent_v1_evaluation_summaries_latest_by_agent_get" target="_blank" class="st" data-op="list_latest_evaluation_summaries_by_agent_v1_evaluation_summaries_latest_by_agent_get"><title>GET /v1/evaluation-summaries/latest-by-agent
+Diamond line · list_latest_evaluation_summaries_by_agent_v1_evaluation_summaries_latest_by_agent_get</title>
+<circle cx="1672" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1684" y="1579" text-anchor="start" style="fill:#1A1F2C">Get latest by agent</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_evaluation_summary_v1_evaluation_summaries__evaluation_id__get" target="_blank" class="st" data-op="get_evaluation_summary_v1_evaluation_summaries__evaluation_id__get"><title>GET /v1/evaluation-summaries/{evaluation_id}
+Diamond line · get_evaluation_summary_v1_evaluation_summaries__evaluation_id__get</title>
+<circle cx="1546" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1558" y="1411" text-anchor="start" style="fill:#1A1F2C">Get evaluation summary</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-delete_evaluation_summary_v1_evaluation_summaries__evaluation_id__delete" target="_blank" class="st" data-op="delete_evaluation_summary_v1_evaluation_summaries__evaluation_id__delete"><title>DELETE /v1/evaluation-summaries/{evaluation_id}
+Diamond line · delete_evaluation_summary_v1_evaluation_summaries__evaluation_id__delete</title>
+<circle cx="1546" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1542" y1="1452" x2="1550" y2="1444" stroke="#D6264F" stroke-width="2"/>
+<text x="1558" y="1453" text-anchor="start" style="fill:#1A1F2C">Delete evaluation summary</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-list_harnesses_v1_harnesses__get" target="_blank" class="st" data-op="list_harnesses_v1_harnesses__get"><title>GET /v1/harnesses/
+Diamond line · list_harnesses_v1_harnesses__get</title>
+<circle cx="2428" cy="2078" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2422" y="2090" text-anchor="end" transform="rotate(-45 2422 2090)" style="fill:#1A1F2C">List harnesses</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-list_custom_harnesses_v1_custom_harnesses__get" target="_blank" class="st" data-op="list_custom_harnesses_v1_custom_harnesses__get"><title>GET /v1/custom-harnesses/
+Diamond line · list_custom_harnesses_v1_custom_harnesses__get</title>
+<circle cx="2512" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2506" y="1208" text-anchor="end" transform="rotate(-45 2506 1208)" style="fill:#1A1F2C">List custom harnesses</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-create_custom_harness_v1_custom_harnesses__post" target="_blank" class="st" data-op="create_custom_harness_v1_custom_harnesses__post"><title>POST /v1/custom-harnesses/
+Diamond line · create_custom_harness_v1_custom_harnesses__post</title>
+<circle cx="2428" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2434" y="1184" transform="rotate(-45 2434 1184)" style="fill:#1A1F2C">Create custom harness</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_custom_harness_v1_custom_harnesses__harness_id__get" target="_blank" class="st" data-op="get_custom_harness_v1_custom_harnesses__harness_id__get"><title>GET /v1/custom-harnesses/{harness_id}
+Diamond line · get_custom_harness_v1_custom_harnesses__harness_id__get</title>
+<circle cx="2344" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2350" y="1184" transform="rotate(-45 2350 1184)" style="fill:#1A1F2C">Get custom harness</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-delete_custom_harness_v1_custom_harnesses__harness_id__delete" target="_blank" class="st" data-op="delete_custom_harness_v1_custom_harnesses__harness_id__delete"><title>DELETE /v1/custom-harnesses/{harness_id}
+Diamond line · delete_custom_harness_v1_custom_harnesses__harness_id__delete</title>
+<circle cx="2218" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2214" y1="1200" x2="2222" y2="1192" stroke="#D6264F" stroke-width="2"/>
+<text x="2212" y="1208" text-anchor="end" transform="rotate(-45 2212 1208)" style="fill:#1A1F2C">Delete custom harness</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-cancel_custom_harness_v1_custom_harnesses__harness_id__cancel_post" target="_blank" class="st" data-op="cancel_custom_harness_v1_custom_harnesses__harness_id__cancel_post"><title>POST /v1/custom-harnesses/{harness_id}/cancel
+Diamond line · cancel_custom_harness_v1_custom_harnesses__harness_id__cancel_post</title>
+<circle cx="2092" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2101" y="1186" text-anchor="start" style="fill:#1A1F2C">Cancel custom harness</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-diamond-api/#op-get_custom_harness_prompts_v1_custom_harnesses__harness_id__prompts_get" target="_blank" class="st" data-op="get_custom_harness_prompts_v1_custom_harnesses__harness_id__prompts_get"><title>GET /v1/custom-harnesses/{harness_id}/prompts
+Diamond line · get_custom_harness_prompts_v1_custom_harnesses__harness_id__prompts_get</title>
+<circle cx="2050" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2062" y="1243" text-anchor="start" style="fill:#1A1F2C">List prompts</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-register_dome_v1_webhooks_register_dome_post" target="_blank" class="st" data-op="register_dome_v1_webhooks_register_dome_post"><title>POST /v1/webhooks/register-dome
+Dome line · register_dome_v1_webhooks_register_dome_post</title>
+<circle cx="664" cy="272" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="676" y="277" text-anchor="start" style="fill:#1A1F2C">Update register dome</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-create_detection_v1_detections_post" target="_blank" class="st" data-op="create_detection_v1_detections_post"><title>POST /v1/detections
+Dome line · create_detection_v1_detections_post</title>
+<circle cx="244" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="250" y="764" transform="rotate(-45 250 764)" style="fill:#1A1F2C">Create detection</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_detection_v1_detections__detection_id__get" target="_blank" class="st" data-op="get_detection_v1_detections__detection_id__get"><title>GET /v1/detections/{detection_id}
+Dome line · get_detection_v1_detections__detection_id__get</title>
+<circle cx="328" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="781" text-anchor="start" style="fill:#1A1F2C">Get detection</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-create_dome_config_v1_dome_configs_post" target="_blank" class="st" data-op="create_dome_config_v1_dome_configs_post"><title>POST /v1/dome-configs
+Dome line · create_dome_config_v1_dome_configs_post</title>
+<circle cx="454" cy="902" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="907" text-anchor="start" style="fill:#1A1F2C">Create dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-list_dome_configs_v1_dome_configs_get" target="_blank" class="st" data-op="list_dome_configs_v1_dome_configs_get"><title>GET /v1/dome-configs
+Dome line · list_dome_configs_v1_dome_configs_get</title>
+<circle cx="370" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="382" y="823" text-anchor="start" style="fill:#1A1F2C">List dome configs</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_dome_config_v1_dome_configs__config_id__get" target="_blank" class="st" data-op="get_dome_config_v1_dome_configs__config_id__get"><title>GET /v1/dome-configs/{config_id}
+Dome line · get_dome_config_v1_dome_configs__config_id__get</title>
+<circle cx="538" cy="986" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="526.0" y="991" text-anchor="end" style="fill:#1A1F2C">Get dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-update_dome_config_v1_dome_configs__config_id__put" target="_blank" class="st" data-op="update_dome_config_v1_dome_configs__config_id__put"><title>PUT /v1/dome-configs/{config_id}
+Dome line · update_dome_config_v1_dome_configs__config_id__put</title>
+<circle cx="622" cy="986" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="628" y="974" transform="rotate(-45 628 974)" style="fill:#1A1F2C">Update dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-patch_dome_config_v1_dome_configs__config_id__patch" target="_blank" class="st" data-op="patch_dome_config_v1_dome_configs__config_id__patch"><title>PATCH /v1/dome-configs/{config_id}
+Dome line · patch_dome_config_v1_dome_configs__config_id__patch</title>
+<circle cx="706" cy="986" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="706" y="1009" text-anchor="middle" style="fill:#1A1F2C">Update dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-delete_dome_config_v1_dome_configs__config_id__delete" target="_blank" class="st" data-op="delete_dome_config_v1_dome_configs__config_id__delete"><title>DELETE /v1/dome-configs/{config_id}
+Dome line · delete_dome_config_v1_dome_configs__config_id__delete</title>
+<circle cx="748" cy="986" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="744" y1="990" x2="752" y2="982" stroke="#0E9F6E" stroke-width="2"/>
+<text x="760" y="991" text-anchor="start" style="fill:#1A1F2C">Delete dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-apply_dome_config_v1_dome_configs__config_id__apply_post" target="_blank" class="st" data-op="apply_dome_config_v1_dome_configs__config_id__apply_post"><title>POST /v1/dome-configs/{config_id}/apply
+Dome line · apply_dome_config_v1_dome_configs__config_id__apply_post</title>
+<circle cx="790" cy="944" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="949" text-anchor="start" style="fill:#1A1F2C">Apply dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_default_dome_config_v1_default_dome_config_get" target="_blank" class="st" data-op="get_default_dome_config_v1_default_dome_config_get"><title>GET /v1/default-dome-config
+Dome line · get_default_dome_config_v1_default_dome_config_get</title>
+<circle cx="160" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="166" y="764" transform="rotate(-45 166 764)" style="fill:#1A1F2C">Get default dome config</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_counter_total_v1_telemetry_counters__metric_name__total_get" target="_blank" class="st" data-op="get_counter_total_v1_telemetry_counters__metric_name__total_get"><title>GET /v1/telemetry/counters/{metric_name}/total
+Dome line · get_counter_total_v1_telemetry_counters__metric_name__total_get</title>
+<circle cx="790" cy="734" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="739" text-anchor="start" style="fill:#1A1F2C">Get total</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_counter_time_series_v1_telemetry_counters__metric_name__time_series_get" target="_blank" class="st" data-op="get_counter_time_series_v1_telemetry_counters__metric_name__time_series_get"><title>GET /v1/telemetry/counters/{metric_name}/time_series
+Dome line · get_counter_time_series_v1_telemetry_counters__metric_name__time_series_get</title>
+<circle cx="790" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="823" text-anchor="start" style="fill:#1A1F2C">List time series</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_latency_over_time_v1_telemetry_latency__metric_name__get" target="_blank" class="st" data-op="get_latency_over_time_v1_telemetry_latency__metric_name__get"><title>GET /v1/telemetry/latency/{metric_name}
+Dome line · get_latency_over_time_v1_telemetry_latency__metric_name__get</title>
+<circle cx="790" cy="650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="655" text-anchor="start" style="fill:#1A1F2C">Get latency</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_logs_v1_telemetry_logs_get" target="_blank" class="st" data-op="get_logs_v1_telemetry_logs_get"><title>GET /v1/telemetry/logs
+Dome line · get_logs_v1_telemetry_logs_get</title>
+<circle cx="790" cy="524" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="529" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-search_traces_v1_telemetry_traces_get" target="_blank" class="st" data-op="search_traces_v1_telemetry_traces_get"><title>GET /v1/telemetry/traces
+Dome line · search_traces_v1_telemetry_traces_get</title>
+<circle cx="790" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="403" text-anchor="start" style="fill:#1A1F2C">List traces</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-dome-api/#op-get_trace_by_id_v1_telemetry_traces__trace_id__get" target="_blank" class="st" data-op="get_trace_by_id_v1_telemetry_traces__trace_id__get"><title>GET /v1/telemetry/traces/{trace_id}
+Dome line · get_trace_by_id_v1_telemetry_traces__trace_id__get</title>
+<circle cx="748" cy="356" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="361" text-anchor="start" style="fill:#1A1F2C">Get trace</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-list_tools_v1_tools_get" target="_blank" class="st" data-op="list_tools_v1_tools_get"><title>GET /v1/tools
+Red Team line · list_tools_v1_tools_get</title>
+<circle cx="1420" cy="2036" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1432" y="2041" text-anchor="start" style="fill:#1A1F2C">List tools</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-list_campaigns_v1_campaigns_get" target="_blank" class="st" data-op="list_campaigns_v1_campaigns_get"><title>GET /v1/campaigns
+Red Team line · list_campaigns_v1_campaigns_get</title>
+<circle cx="1546" cy="1868" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="1873" text-anchor="start" style="fill:#1A1F2C">List campaigns</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-create_campaign_v1_campaigns_post" target="_blank" class="st" data-op="create_campaign_v1_campaigns_post"><title>POST /v1/campaigns
+Red Team line · create_campaign_v1_campaigns_post</title>
+<circle cx="1546" cy="1784" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="1789" text-anchor="start" style="fill:#1A1F2C">Create campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-get_campaign_status_v1_campaigns__campaign_id__get" target="_blank" class="st" data-op="get_campaign_status_v1_campaigns__campaign_id__get"><title>GET /v1/campaigns/{campaign_id}
+Red Team line · get_campaign_status_v1_campaigns__campaign_id__get</title>
+<circle cx="1546" cy="1742" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="1747" text-anchor="start" style="fill:#1A1F2C">Get campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-delete_campaign_v1_campaigns__campaign_id__delete" target="_blank" class="st" data-op="delete_campaign_v1_campaigns__campaign_id__delete"><title>DELETE /v1/campaigns/{campaign_id}
+Red Team line · delete_campaign_v1_campaigns__campaign_id__delete</title>
+<circle cx="1462" cy="1658" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1458" y1="1662" x2="1466" y2="1654" stroke="#C2410C" stroke-width="2"/>
+<text x="1474" y="1663" text-anchor="start" style="fill:#1A1F2C">Delete campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-download_campaign_results_v1_campaigns__campaign_id__results_download_get" target="_blank" class="st" data-op="download_campaign_results_v1_campaigns__campaign_id__results_download_get"><title>GET /v1/campaigns/{campaign_id}/results/download
+Red Team line · download_campaign_results_v1_campaigns__campaign_id__results_download_get</title>
+<circle cx="1420" cy="1910" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1432" y="1915" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-get_campaign_results_v1_campaigns__campaign_id__results_get" target="_blank" class="st" data-op="get_campaign_results_v1_campaigns__campaign_id__results_get"><title>GET /v1/campaigns/{campaign_id}/results
+Red Team line · get_campaign_results_v1_campaigns__campaign_id__results_get</title>
+<circle cx="1378" cy="1868" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1390" y="1873" text-anchor="start" style="fill:#1A1F2C">List results</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-get_campaign_logs_v1_campaigns__campaign_id__logs_get" target="_blank" class="st" data-op="get_campaign_logs_v1_campaigns__campaign_id__logs_get"><title>GET /v1/campaigns/{campaign_id}/logs
+Red Team line · get_campaign_logs_v1_campaigns__campaign_id__logs_get</title>
+<circle cx="1378" cy="1742" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1390" y="1747" text-anchor="start" style="fill:#1A1F2C">List logs</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-red-team-api/#op-cancel_campaign_v1_campaigns__campaign_id__cancel_post" target="_blank" class="st" data-op="cancel_campaign_v1_campaigns__campaign_id__cancel_post"><title>POST /v1/campaigns/{campaign_id}/cancel
+Red Team line · cancel_campaign_v1_campaigns__campaign_id__cancel_post</title>
+<circle cx="1378" cy="1658" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1366.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Cancel campaign</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-jwt_login_v1_auth_jwt_login_post" target="_blank" class="st" data-op="jwt_login_v1_auth_jwt_login_post"><title>POST /v1/auth/jwt/login
+Teams line · jwt_login_v1_auth_jwt_login_post</title>
+<circle cx="916" cy="2204" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="2209" text-anchor="start" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-jwt_logout_v1_auth_jwt_logout_post" target="_blank" class="st" data-op="jwt_logout_v1_auth_jwt_logout_post"><title>POST /v1/auth/jwt/logout
+Teams line · jwt_logout_v1_auth_jwt_logout_post</title>
+<circle cx="916" cy="2120" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="2125" text-anchor="start" style="fill:#1A1F2C">Update logout</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_current_user_info_v1_auth_users_me_get" target="_blank" class="st" data-op="get_current_user_info_v1_auth_users_me_get"><title>GET /v1/auth/users/me
+Teams line · get_current_user_info_v1_auth_users_me_get</title>
+<circle cx="916" cy="1910" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="1915" text-anchor="start" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-jwt_refresh_v1_auth_jwt_refresh_post" target="_blank" class="st" data-op="jwt_refresh_v1_auth_jwt_refresh_post"><title>POST /v1/auth/jwt/refresh
+Teams line · jwt_refresh_v1_auth_jwt_refresh_post</title>
+<circle cx="916" cy="1994" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="1999" text-anchor="start" style="fill:#1A1F2C">Refresh jwt</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-change_password_v1_auth_change_password_post" target="_blank" class="st" data-op="change_password_v1_auth_change_password_post"><title>POST /v1/auth/change-password
+Teams line · change_password_v1_auth_change_password_post</title>
+<circle cx="916" cy="2288" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="2293" text-anchor="start" style="fill:#1A1F2C">Update change password</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-create_user_v1_users__post" target="_blank" class="st" data-op="create_user_v1_users__post"><title>POST /v1/users/
+Teams line · create_user_v1_users__post</title>
+<circle cx="1168" cy="2246" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="2251" text-anchor="start" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_user_v1_users__get" target="_blank" class="st" data-op="get_user_v1_users__get"><title>GET /v1/users/
+Teams line · get_user_v1_users__get</title>
+<circle cx="1168" cy="2162" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="2167" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_current_user_v1_users_me_get" target="_blank" class="st" data-op="get_current_user_v1_users_me_get"><title>GET /v1/users/me
+Teams line · get_current_user_v1_users_me_get</title>
+<circle cx="1168" cy="2456" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="2461" text-anchor="start" style="fill:#1A1F2C">Get me</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_my_teams_v1_users_me_teams_get" target="_blank" class="st" data-op="get_my_teams_v1_users_me_teams_get"><title>GET /v1/users/me/teams
+Teams line · get_my_teams_v1_users_me_teams_get</title>
+<circle cx="1168" cy="2540" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="2545" text-anchor="start" style="fill:#1A1F2C">List teams</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_user_by_id_v1_users__user_id__get" target="_blank" class="st" data-op="get_user_by_id_v1_users__user_id__get"><title>GET /v1/users/{user_id}
+Teams line · get_user_by_id_v1_users__user_id__get</title>
+<circle cx="1168" cy="2330" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="2335" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-create_team_v1_teams__post" target="_blank" class="st" data-op="create_team_v1_teams__post"><title>POST /v1/teams/
+Teams line · create_team_v1_teams__post</title>
+<circle cx="1000" cy="1826" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="988.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Create team</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-invite_users_v1_teams__team_id__invites_post" target="_blank" class="st" data-op="invite_users_v1_teams__team_id__invites_post"><title>POST /v1/teams/{team_id}/invites
+Teams line · invite_users_v1_teams__team_id__invites_post</title>
+<circle cx="1126" cy="1868" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="1873" text-anchor="start" style="fill:#1A1F2C">Create invite</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-accept_invite_v1_teams_invites__invitation_id__accept_post" target="_blank" class="st" data-op="accept_invite_v1_teams_invites__invitation_id__accept_post"><title>POST /v1/teams/invites/{invitation_id}/accept
+Teams line · accept_invite_v1_teams_invites__invitation_id__accept_post</title>
+<circle cx="1168" cy="1910" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="1915" text-anchor="start" style="fill:#1A1F2C">Accept invite</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_team_users_v1_teams__team_id__users_get" target="_blank" class="st" data-op="get_team_users_v1_teams__team_id__users_get"><title>GET /v1/teams/{team_id}/users
+Teams line · get_team_users_v1_teams__team_id__users_get</title>
+<circle cx="1168" cy="2036" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="2041" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/vijil/vijil-teams-api/#op-get_team_v1_teams__team_id__get" target="_blank" class="st" data-op="get_team_v1_teams__team_id__get"><title>GET /v1/teams/{team_id}
+Teams line · get_team_v1_teams__team_id__get</title>
+<circle cx="1084" cy="1826" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1096" y="1831" text-anchor="start" style="fill:#1A1F2C">Get team</text>
+</a>
+<text x="2702" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2702" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">VIJIL</text>
+<rect x="2702" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2719" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DIA</text><text x="2744" y="269" font-size="11" fill="#1A1F2C">Diamond <tspan fill="#8A93A6">24</tspan></text>
+<rect x="2702" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2719" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DOM</text><text x="2744" y="286" font-size="11" fill="#1A1F2C">Dome <tspan fill="#8A93A6">17</tspan></text>
+<rect x="2702" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2719" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TEA</text><text x="2744" y="303" font-size="11" fill="#1A1F2C">Teams <tspan fill="#8A93A6">15</tspan></text>
+<rect x="2702" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="2719" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AEP</text><text x="2744" y="320" font-size="11" fill="#1A1F2C">Agent Environment · Policies <tspan fill="#8A93A6">14</tspan></text>
+<rect x="2702" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2719" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AEG</text><text x="2744" y="337" font-size="11" fill="#1A1F2C">Agent Environment · Genomes <tspan fill="#8A93A6">13</tspan></text>
+<rect x="2702" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="2719" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AED</text><text x="2744" y="354" font-size="11" fill="#1A1F2C">Agent Environment · Demographics <tspan fill="#8A93A6">11</tspan></text>
+<rect x="2702" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2719" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGED</text><text x="2744" y="371" font-size="11" fill="#1A1F2C">Agent Environment · Dimensions <tspan fill="#8A93A6">11</tspan></text>
+<rect x="2702" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="2719" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AEC</text><text x="2744" y="388" font-size="11" fill="#1A1F2C">Agent Environment · Configurations <tspan fill="#8A93A6">10</tspan></text>
+<rect x="2702" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="2719" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RT</text><text x="2744" y="405" font-size="11" fill="#1A1F2C">Red Team <tspan fill="#8A93A6">9</tspan></text>
+<rect x="2702" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2719" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGEP</text><text x="2744" y="422" font-size="11" fill="#1A1F2C">Agent Environment · Personas <tspan fill="#8A93A6">7</tspan></text>
+<rect x="2702" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2719" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AEA</text><text x="2744" y="439" font-size="11" fill="#1A1F2C">Agent Environment · Agents <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2702" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="2719" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AER</text><text x="2744" y="456" font-size="11" fill="#1A1F2C">Agent Environment · Rules <tspan fill="#8A93A6">6</tspan></text>
+<rect x="2702" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2719" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AGE</text><text x="2744" y="473" font-size="11" fill="#1A1F2C">Agent Environment · Proposals <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2702" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="2719" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VL</text><text x="2744" y="490" font-size="11" fill="#1A1F2C">Vijil Local <tspan fill="#8A93A6">3</tspan></text>
+<text x="2952" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2970,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2996" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2970,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2996" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2970,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2996" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2970,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2996" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2970,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2996" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2970,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2996" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2970,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2996" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2970,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2996" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2952" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2952" y="463" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Agents line · 6 ops</text>
+<text x="2952" y="478" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Configurations line · 10 ops</text>
+<text x="2952" y="493" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Dashboard line · 1 op</text>
+<text x="2952" y="508" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Demographics line · 11 ops</text>
+<text x="2952" y="523" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Dimensions line · 11 ops</text>
+<text x="2952" y="538" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Evolution line · 2 ops</text>
+<text x="2952" y="553" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Genomes line · 13 ops</text>
+<text x="2952" y="568" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Personas line · 7 ops</text>
+<text x="2952" y="583" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Policies line · 14 ops</text>
+<text x="2952" y="598" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Proposals line · 3 ops</text>
+<text x="2952" y="613" font-size="10.5" fill="#5A6275">“Agent Environment” → Agent Environment · Rules line · 6 ops</text>
+<text x="2952" y="628" font-size="10.5" fill="#5A6275">“Agent Environment · Dashboard” → Vijil Local line · 1 op</text>
+<text x="2952" y="643" font-size="10.5" fill="#5A6275">“Agent Environment · Evolution” → Vijil Local line · 2 ops</text>
+<text x="2952" y="693" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2952" y="710" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2670" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/vijil/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

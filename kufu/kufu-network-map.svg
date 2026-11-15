@@ -1,0 +1,734 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2204 2364" width="2204" height="2364" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2204" height="2364" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Kufu API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">120 operations as stops · 15 tags as lines · 4 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Crew Custom Field Template Groups" d="M1210.0,1658.0 L1210.0,1546.0 Q1210.0,1532.0 1200.1,1522.1 L1168.0,1490.0 L1135.9,1457.9 Q1126.0,1448.0 1126.0,1434.0 L1126.0,1378.0 Q1126.0,1364.0 1135.9,1354.1 L1210.0,1280.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Crew Custom Field Template Groups</title></path>
+<path class="line" data-line="Crew Custom Field Templates" d="M412.0,776.0 L566.0,776.0 Q580.0,776.0 589.9,785.9 L654.1,850.1 Q664.0,860.0 678.0,860.0 L692.0,860.0 Q706.0,860.0 696.1,869.9 L631.9,934.1 Q622.0,944.0 608.0,944.0 L594.0,944.0 Q580.0,944.0 570.1,934.1 L496.0,860.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Crew Custom Field Templates</title></path>
+<path class="line" data-line="Batch Jobs" d="M328.0,1616.0 L328.0,1728.0 Q328.0,1742.0 342.0,1742.0 L454.0,1742.0 L524.0,1742.0 Q538.0,1742.0 547.9,1751.9 L580.0,1784.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Batch Jobs</title></path>
+<path class="line" data-line="Users" d="M160.0,1070.0 L244.0,1070.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="Users" d="M244.0,1070.0 L328.0,1070.0 L370.0,1070.0 L440.0,1070.0 Q454.0,1070.0 454.0,1056.0 L454.0,1000.0 Q454.0,986.0 444.1,976.1 L412.0,944.0 L328.0,860.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="Crews" d="M748.0,944.0 L832.0,944.0 L902.0,944.0 Q916.0,944.0 925.9,953.9 L1000.0,1028.0 L1074.1,1102.1 Q1084.0,1112.0 1084.0,1126.0 L1084.0,1196.0 L1084.0,1266.0 Q1084.0,1280.0 1074.1,1289.9 L1000.0,1364.0 L925.9,1438.1 Q916.0,1448.0 902.0,1448.0 L832.0,1448.0 L762.0,1448.0 Q748.0,1448.0 738.1,1438.1 L664.0,1364.0 L589.9,1289.9 Q580.0,1280.0 580.0,1266.0 L580.0,1196.0 L580.0,1126.0 Q580.0,1112.0 589.9,1102.1 L748.0,944.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Crews</title></path>
+<path class="line" data-line="Job Titles" d="M202.0,1280.0 L286.0,1280.0 L482.0,1280.0 Q496.0,1280.0 496.0,1294.0 L496.0,1308.0 Q496.0,1322.0 486.1,1331.9 L463.9,1354.1 Q454.0,1364.0 440.0,1364.0 L370.0,1364.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Job Titles</title></path>
+<path class="line" data-line="Recruitment Types" d="M1336.0,692.0 L1252.0,776.0 L1168.0,860.0 L1093.9,934.1 Q1084.0,944.0 1074.1,934.1 L1009.9,869.9 Q1000.0,860.0 1009.9,850.1 L1126.0,734.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Recruitment Types</title></path>
+<path class="line" data-line="Tax Withholdings" d="M1336.0,1322.0 L1177.9,1163.9 Q1168.0,1154.0 1168.0,1140.0 L1168.0,1084.0 Q1168.0,1070.0 1182.0,1070.0 L1294.0,1070.0 L1420.0,1070.0 L1504.0,1070.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tax Withholdings</title></path>
+<path class="line" data-line="Tax Withholdings" d="M1168.0,1070.0 L1135.9,1037.9 Q1126.0,1028.0 1135.9,1018.1 L1168.0,986.0 L1252.0,902.0 L1326.1,827.9 Q1336.0,818.0 1350.0,818.0 L1420.0,818.0 L1504.0,818.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Tax Withholdings</title></path>
+<path class="line" data-line="Grades" d="M1000.0,566.0 L1000.0,650.0 L1000.0,762.0 Q1000.0,776.0 990.1,785.9 L925.9,850.1 Q916.0,860.0 906.1,850.1 L883.9,827.9 Q874.0,818.0 874.0,804.0 L874.0,692.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Grades</title></path>
+<path class="line" data-line="Payrolls" d="M790.0,230.0 L790.0,314.0 L790.0,398.0 L790.0,524.0 L790.0,594.0 Q790.0,608.0 780.1,617.9 L757.9,640.1 Q748.0,650.0 748.0,664.0 L748.0,762.0 Q748.0,776.0 734.0,776.0 L678.0,776.0 Q664.0,776.0 654.1,766.1 L580.0,692.0 L496.0,608.0 L454.0,566.0 L421.9,533.9 Q412.0,524.0 398.0,524.0 L286.0,524.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payrolls</title></path>
+<path class="line" data-line="Job Categories" d="M622.0,1658.0 L664.0,1616.0 L706.0,1574.0 L738.1,1541.9 Q748.0,1532.0 762.0,1532.0 L818.0,1532.0 Q832.0,1532.0 832.0,1546.0 L832.0,1616.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Job Categories</title></path>
+<path class="line" data-line="Departments" d="M874.0,1070.0 L948.1,1144.1 Q958.0,1154.0 958.0,1168.0 L958.0,1224.0 Q958.0,1238.0 944.0,1238.0 L874.0,1238.0 L748.0,1238.0 L678.0,1238.0 Q664.0,1238.0 654.1,1228.1 L631.9,1205.9 Q622.0,1196.0 608.0,1196.0 L412.0,1196.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Departments</title></path>
+<path class="line" data-line="Employment Types" d="M328.0,1490.0 L412.0,1490.0 L496.0,1490.0 L566.0,1490.0 Q580.0,1490.0 580.0,1504.0 L580.0,1518.0 Q580.0,1532.0 570.1,1541.9 L496.0,1616.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Employment Types</title></path>
+<path class="line" data-line="Webhooks" d="M1084.0,1742.0 L1084.0,1658.0 L1084.0,1588.0 Q1084.0,1574.0 1074.1,1564.1 L1051.9,1541.9 Q1042.0,1532.0 1032.1,1541.9 L967.9,1606.1 Q958.0,1616.0 958.0,1630.0 L958.0,1700.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="More Local" d="M916.0,2204.0 L916.0,2120.0 L916.0,2036.0 L916.0,1952.0 L916.0,1840.0 Q916.0,1826.0 906.1,1816.1 L874.0,1784.0 L841.9,1751.9 Q832.0,1742.0 818.0,1742.0 L762.0,1742.0 Q748.0,1742.0 738.1,1751.9 L706.0,1784.0 L589.9,1900.1 Q580.0,1910.0 580.0,1924.0 L580.0,1952.0 L580.0,2036.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1210" y1="1658" x2="1210.0" y2="1692.0" stroke="#B0287F" stroke-width="7"/><rect x="1186.0" y="1681.0" width="48" height="22" rx="5" fill="#B0287F"><title>Crew Custom Field Template Groups</title></rect><text x="1210.0" y="1697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CCFT</text>
+<line x1="1210" y1="1280" x2="1234.0416305603426" y2="1255.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1210.0416305603426" y="1244.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Crew Custom Field Template Groups</title></rect><text x="1234.0416305603426" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CCFT</text>
+<line x1="412" y1="776" x2="378.0" y2="776.0" stroke="#C2410C" stroke-width="7"/><rect x="354.0" y="765.0" width="48" height="22" rx="5" fill="#C2410C"><title>Crew Custom Field Templates</title></rect><text x="378.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRCF</text>
+<line x1="496" y1="860" x2="471.95836943965736" y2="835.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="447.95836943965736" y="824.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Crew Custom Field Templates</title></rect><text x="471.95836943965736" y="840.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRCF</text>
+<line x1="328" y1="1616" x2="328.0" y2="1582.0" stroke="#0E9F6E" stroke-width="7"/><rect x="304.0" y="1571.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Batch Jobs</title></rect><text x="328.0" y="1587.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BJ</text>
+<line x1="580" y1="1784" x2="604.0416305603426" y2="1808.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="580.0416305603426" y="1797.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Batch Jobs</title></rect><text x="604.0416305603426" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BJ</text>
+<line x1="321.6360389693746" y1="866.3639610306253" x2="334.3639610306254" y2="853.6360389693747" stroke="#E07B12" stroke-width="6" stroke-linecap="round"/>
+<line x1="160" y1="1070" x2="126.0" y2="1070.0" stroke="#E07B12" stroke-width="7"/><rect x="102.0" y="1059.0" width="48" height="22" rx="5" fill="#E07B12"><title>Users</title></rect><text x="126.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="244" y1="1070" x2="278.0" y2="1070.0" stroke="#E07B12" stroke-width="7"/><rect x="254.0" y="1059.0" width="48" height="22" rx="5" fill="#E07B12"><title>Users</title></rect><text x="278.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<rect x="718" y="891" width="60" height="26" rx="13" fill="#D6264F"/><text x="748" y="909" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CRE</text>
+<line x1="202" y1="1280" x2="168.0" y2="1280.0" stroke="#B8860B" stroke-width="7"/><rect x="144.0" y="1269.0" width="48" height="22" rx="5" fill="#B8860B"><title>Job Titles</title></rect><text x="168.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JT</text>
+<line x1="370" y1="1364" x2="336.0" y2="1364.0" stroke="#B8860B" stroke-width="7"/><rect x="312.0" y="1353.0" width="48" height="22" rx="5" fill="#B8860B"><title>Job Titles</title></rect><text x="336.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JT</text>
+<line x1="1336" y1="692" x2="1360.0416305603426" y2="667.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1336.0416305603426" y="656.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Recruitment Types</title></rect><text x="1360.0416305603426" y="672.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="1126" y1="734" x2="1150.0416305603426" y2="709.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1126.0416305603426" y="698.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Recruitment Types</title></rect><text x="1150.0416305603426" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RT</text>
+<line x1="1504.0" y1="809.0000000001071" x2="1504.0" y2="826.9999999998929" stroke="#1F5FD1" stroke-width="6" stroke-linecap="round"/>
+<line x1="1336" y1="1322" x2="1360.0416305603426" y2="1346.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="1336.0416305603426" y="1335.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Tax Withholdings</title></rect><text x="1360.0416305603426" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TW</text>
+<line x1="1504" y1="1070" x2="1538.0" y2="1070.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1514.0" y="1059.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Tax Withholdings</title></rect><text x="1538.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">TW</text>
+<line x1="1000" y1="566" x2="1000.0" y2="532.0" stroke="#0B7A75" stroke-width="7"/><rect x="976.0" y="521.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Grades</title></rect><text x="1000.0" y="537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRA</text>
+<line x1="874" y1="692" x2="874.0" y2="658.0" stroke="#0B7A75" stroke-width="7"/><rect x="850.0" y="647.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Grades</title></rect><text x="874.0" y="663.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GRA</text>
+<line x1="790" y1="230" x2="790.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="766.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Payrolls</title></rect><text x="790.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="286" y1="524" x2="252.0" y2="524.0" stroke="#0E9F6E" stroke-width="7"/><rect x="228.0" y="513.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Payrolls</title></rect><text x="252.0" y="529.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="622" y1="1658" x2="597.9583694396574" y2="1682.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="573.9583694396574" y="1671.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Job Categories</title></rect><text x="597.9583694396574" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JC</text>
+<line x1="832" y1="1616" x2="832.0" y2="1650.0" stroke="#B0287F" stroke-width="7"/><rect x="808.0" y="1639.0" width="48" height="22" rx="5" fill="#B0287F"><title>Job Categories</title></rect><text x="832.0" y="1655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">JC</text>
+<line x1="874" y1="1070" x2="849.9583694396574" y2="1045.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="825.9583694396574" y="1034.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>Departments</title></rect><text x="849.9583694396574" y="1050.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEP</text>
+<line x1="412" y1="1196" x2="378.0" y2="1196.0" stroke="#7B3FE4" stroke-width="7"/><rect x="354.0" y="1185.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Departments</title></rect><text x="378.0" y="1201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DEP</text>
+<line x1="328" y1="1490" x2="294.0" y2="1490.0" stroke="#5C6BC0" stroke-width="7"/><rect x="270.0" y="1479.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Employment Types</title></rect><text x="294.0" y="1495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ET</text>
+<line x1="496" y1="1616" x2="471.95836943965736" y2="1640.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="447.95836943965736" y="1629.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Employment Types</title></rect><text x="471.95836943965736" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ET</text>
+<line x1="1084" y1="1742" x2="1084.0" y2="1776.0" stroke="#2E7D32" stroke-width="7"/><rect x="1060.0" y="1765.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Webhooks</title></rect><text x="1084.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="958" y1="1700" x2="958.0" y2="1734.0" stroke="#2E7D32" stroke-width="7"/><rect x="934.0" y="1723.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Webhooks</title></rect><text x="958.0" y="1739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="916" y1="2204" x2="916.0" y2="2238.0" stroke="#D6264F" stroke-width="7"/><rect x="892.0" y="2227.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="916.0" y="2243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="580" y1="2036" x2="580.0" y2="2070.0" stroke="#D6264F" stroke-width="7"/><rect x="556.0" y="2059.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="580.0" y="2075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1DependentCustomFieldTemplates" target="_blank" class="st" data-op="getV1DependentCustomFieldTemplates"><title>GET /v1/dependent_custom_field_templates
+More Local line · getV1DependentCustomFieldTemplates</title>
+<circle cx="832" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="832" y="1714" text-anchor="middle" style="fill:#1A1F2C">List dependent custom<tspan x="832" dy="13">field templates</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewCustomFieldTemplateGroupsId" target="_blank" class="st" data-op="getV1CrewCustomFieldTemplateGroupsId"><title>GET /v1/crew_custom_field_template_groups/{id}
+Crew Custom Field Template Groups line · getV1CrewCustomFieldTemplateGroupsId</title>
+<circle cx="1168" cy="1490" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1180" y="1495" text-anchor="start" style="fill:#1A1F2C">Get crew custom field template group</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1CrewCustomFieldTemplateGroupsId" target="_blank" class="st" data-op="putV1CrewCustomFieldTemplateGroupsId"><title>PUT /v1/crew_custom_field_template_groups/{id}
+Crew Custom Field Template Groups line · putV1CrewCustomFieldTemplateGroupsId</title>
+<circle cx="1126" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1138" y="1453" text-anchor="start" style="fill:#1A1F2C">Update crew custom field template group</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1CrewCustomFieldTemplateGroupsId" target="_blank" class="st" data-op="patchV1CrewCustomFieldTemplateGroupsId"><title>PATCH /v1/crew_custom_field_template_groups/{id}
+Crew Custom Field Template Groups line · patchV1CrewCustomFieldTemplateGroupsId</title>
+<circle cx="1126" cy="1364" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1126" y="1386" text-anchor="middle" style="fill:#1A1F2C">Update crew custom<tspan x="1126" dy="13">field template group</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1CrewCustomFieldTemplateGroupsId" target="_blank" class="st" data-op="deleteV1CrewCustomFieldTemplateGroupsId"><title>DELETE /v1/crew_custom_field_template_groups/{id}
+Crew Custom Field Template Groups line · deleteV1CrewCustomFieldTemplateGroupsId</title>
+<circle cx="1210" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1206" y1="1284" x2="1214" y2="1276" stroke="#B0287F" stroke-width="2"/>
+<text x="1222" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete crew custom field template group</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewCustomFieldTemplateGroups" target="_blank" class="st" data-op="getV1CrewCustomFieldTemplateGroups"><title>GET /v1/crew_custom_field_template_groups
+Crew Custom Field Template Groups line · getV1CrewCustomFieldTemplateGroups</title>
+<circle cx="1210" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="1663" text-anchor="start" style="fill:#1A1F2C">List crew custom field template groups</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1CrewCustomFieldTemplateGroups" target="_blank" class="st" data-op="postV1CrewCustomFieldTemplateGroups"><title>POST /v1/crew_custom_field_template_groups
+Crew Custom Field Template Groups line · postV1CrewCustomFieldTemplateGroups</title>
+<circle cx="1210" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1222" y="1537" text-anchor="start" style="fill:#1A1F2C">Create crew custom field template group</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewCustomFieldTemplates" target="_blank" class="st" data-op="getV1CrewCustomFieldTemplates"><title>GET /v1/crew_custom_field_templates
+Crew Custom Field Templates line · getV1CrewCustomFieldTemplates</title>
+<circle cx="412" cy="776" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="412" y="749" text-anchor="middle" style="fill:#1A1F2C">List crew custom field templates</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1CrewCustomFieldTemplates" target="_blank" class="st" data-op="postV1CrewCustomFieldTemplates"><title>POST /v1/crew_custom_field_templates
+Crew Custom Field Templates line · postV1CrewCustomFieldTemplates</title>
+<circle cx="580" cy="776" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="580" y="762" text-anchor="middle" style="fill:#1A1F2C">Create crew custom field template</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewCustomFieldTemplatesId" target="_blank" class="st" data-op="getV1CrewCustomFieldTemplatesId"><title>GET /v1/crew_custom_field_templates/{id}
+Crew Custom Field Templates line · getV1CrewCustomFieldTemplatesId</title>
+<circle cx="706" cy="860" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="718" y="865" text-anchor="start" style="fill:#1A1F2C">Get crew custom field template</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1CrewCustomFieldTemplatesId" target="_blank" class="st" data-op="putV1CrewCustomFieldTemplatesId"><title>PUT /v1/crew_custom_field_templates/{id}
+Crew Custom Field Templates line · putV1CrewCustomFieldTemplatesId</title>
+<circle cx="622" cy="944" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="622" y="966" text-anchor="middle" style="fill:#1A1F2C">Update crew custom<tspan x="622" dy="13">field template</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1CrewCustomFieldTemplatesId" target="_blank" class="st" data-op="patchV1CrewCustomFieldTemplatesId"><title>PATCH /v1/crew_custom_field_templates/{id}
+Crew Custom Field Templates line · patchV1CrewCustomFieldTemplatesId</title>
+<circle cx="580" cy="944" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="589" y="934" text-anchor="start" style="fill:#1A1F2C">Update crew custom field template</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1CrewCustomFieldTemplatesId" target="_blank" class="st" data-op="deleteV1CrewCustomFieldTemplatesId"><title>DELETE /v1/crew_custom_field_templates/{id}
+Crew Custom Field Templates line · deleteV1CrewCustomFieldTemplatesId</title>
+<circle cx="496" cy="860" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="492" y1="864" x2="500" y2="856" stroke="#C2410C" stroke-width="2"/>
+<text x="508" y="858" text-anchor="start" style="fill:#1A1F2C">Delete crew custom<tspan x="508" dy="13">field template</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1BatchJobs" target="_blank" class="st" data-op="getV1BatchJobs"><title>GET /v1/batch_jobs
+Batch Jobs line · getV1BatchJobs</title>
+<circle cx="328" cy="1616" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="340" y="1621" text-anchor="start" style="fill:#1A1F2C">List batch jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1BatchJobsId" target="_blank" class="st" data-op="getV1BatchJobsId"><title>GET /v1/batch_jobs/{id}
+Batch Jobs line · getV1BatchJobsId</title>
+<circle cx="328" cy="1742" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="316.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Get batch job</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1BatchJobsJobTypesCrewExport" target="_blank" class="st" data-op="postV1BatchJobsJobTypesCrewExport"><title>POST /v1/batch_jobs/job_types/crew_export
+Batch Jobs line · postV1BatchJobsJobTypesCrewExport</title>
+<circle cx="454" cy="1742" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="460" y="1730" transform="rotate(-45 460 1730)" style="fill:#1A1F2C">Update crew export</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1BatchJobsJobTypesCrewImport" target="_blank" class="st" data-op="postV1BatchJobsJobTypesCrewImport"><title>POST /v1/batch_jobs/job_types/crew_import
+Batch Jobs line · postV1BatchJobsJobTypesCrewImport</title>
+<circle cx="538" cy="1742" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="547" y="1732" text-anchor="start" style="fill:#1A1F2C">Update crew import</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1BatchJobsJobTypesDependentImport" target="_blank" class="st" data-op="postV1BatchJobsJobTypesDependentImport"><title>POST /v1/batch_jobs/job_types/dependent_import
+Batch Jobs line · postV1BatchJobsJobTypesDependentImport</title>
+<circle cx="580" cy="1784" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="568.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Update dependent import</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1BatchJobAttachmentsIdFile" target="_blank" class="st" data-op="getV1BatchJobAttachmentsIdFile"><title>GET /v1/batch_job_attachments/{id}/file
+More Local line · getV1BatchJobAttachmentsIdFile</title>
+<circle cx="916" cy="2120" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="2125" text-anchor="start" style="fill:#1A1F2C">Get file</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1MailFormats" target="_blank" class="st" data-op="getV1MailFormats"><title>GET /v1/mail_formats
+More Local line · getV1MailFormats</title>
+<circle cx="706" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="718" y="1789" text-anchor="start" style="fill:#1A1F2C">List mail formats</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1MailFormatsId" target="_blank" class="st" data-op="getV1MailFormatsId"><title>GET /v1/mail_formats/{id}
+More Local line · getV1MailFormatsId</title>
+<circle cx="580" cy="1910" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1915" text-anchor="start" style="fill:#1A1F2C">Get mail format</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1Users" target="_blank" class="st" data-op="getV1Users"><title>GET /v1/users
+Users line · getV1Users</title>
+<circle cx="160" cy="1070" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="166" y="1058" transform="rotate(-45 166 1058)" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1UsersId" target="_blank" class="st" data-op="getV1UsersId"><title>GET /v1/users/{id}
+Users line · getV1UsersId</title>
+<circle cx="244" cy="1070" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="238" y="1082" text-anchor="end" transform="rotate(-45 238 1082)" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1UsersIdSamlUser" target="_blank" class="st" data-op="getV1UsersIdSamlUser"><title>GET /v1/users/{id}/saml_user
+Users line · getV1UsersIdSamlUser</title>
+<circle cx="328" cy="1070" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="334" y="1058" transform="rotate(-45 334 1058)" style="fill:#1A1F2C">Get saml user</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1UsersIdSamlUser" target="_blank" class="st" data-op="postV1UsersIdSamlUser"><title>POST /v1/users/{id}/saml_user
+Users line · postV1UsersIdSamlUser</title>
+<circle cx="370" cy="1070" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="364" y="1082" text-anchor="end" transform="rotate(-45 364 1082)" style="fill:#1A1F2C">Update saml user</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1UsersIdSamlUser" target="_blank" class="st" data-op="patchV1UsersIdSamlUser"><title>PATCH /v1/users/{id}/saml_user
+Users line · patchV1UsersIdSamlUser</title>
+<circle cx="454" cy="1070" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="466" y="1075" text-anchor="start" style="fill:#1A1F2C">Update saml user</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1UsersIdSamlUser" target="_blank" class="st" data-op="deleteV1UsersIdSamlUser"><title>DELETE /v1/users/{id}/saml_user
+Users line · deleteV1UsersIdSamlUser</title>
+<circle cx="454" cy="986" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="450" y1="990" x2="458" y2="982" stroke="#E07B12" stroke-width="2"/>
+<text x="466" y="991" text-anchor="start" style="fill:#1A1F2C">Delete saml user</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1UsersIdSamlUserEnable" target="_blank" class="st" data-op="patchV1UsersIdSamlUserEnable"><title>PATCH /v1/users/{id}/saml_user/enable
+Users line · patchV1UsersIdSamlUserEnable</title>
+<circle cx="328" cy="860" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="340" y="865" text-anchor="start" style="fill:#1A1F2C">Update enable</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1UsersIdSamlUserDisable" target="_blank" class="st" data-op="patchV1UsersIdSamlUserDisable"><title>PATCH /v1/users/{id}/saml_user/disable
+Users line · patchV1UsersIdSamlUserDisable</title>
+<circle cx="412" cy="944" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="424" y="949" text-anchor="start" style="fill:#1A1F2C">Update disable</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1BizEstablishments" target="_blank" class="st" data-op="getV1BizEstablishments"><title>GET /v1/biz_establishments
+More Local line · getV1BizEstablishments</title>
+<circle cx="916" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="2041" text-anchor="start" style="fill:#1A1F2C">List biz establishments</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1Companies" target="_blank" class="st" data-op="getV1Companies"><title>GET /v1/companies
+More Local line · getV1Companies</title>
+<circle cx="916" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1957" text-anchor="start" style="fill:#1A1F2C">List companies</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1BankAccountSettings" target="_blank" class="st" data-op="getV1BankAccountSettings"><title>GET /v1/bank_account_settings
+More Local line · getV1BankAccountSettings</title>
+<circle cx="916" cy="2204" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="2209" text-anchor="start" style="fill:#1A1F2C">List bank account settings</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewsCrewIdDependents" target="_blank" class="st" data-op="getV1CrewsCrewIdDependents"><title>GET /v1/crews/{crew_id}/dependents
+Crews line · getV1CrewsCrewIdDependents</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1012" y="1369" text-anchor="start" style="fill:#1A1F2C">List dependents</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1CrewsCrewIdDependents" target="_blank" class="st" data-op="postV1CrewsCrewIdDependents"><title>POST /v1/crews/{crew_id}/dependents
+Crews line · postV1CrewsCrewIdDependents</title>
+<circle cx="916" cy="1448" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1453" text-anchor="start" style="fill:#1A1F2C">Create dependent</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewsCrewIdDependentsId" target="_blank" class="st" data-op="getV1CrewsCrewIdDependentsId"><title>GET /v1/crews/{crew_id}/dependents/{id}
+Crews line · getV1CrewsCrewIdDependentsId</title>
+<circle cx="832" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="838" y="1436" transform="rotate(-45 838 1436)" style="fill:#1A1F2C">Get dependent</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1CrewsCrewIdDependentsId" target="_blank" class="st" data-op="putV1CrewsCrewIdDependentsId"><title>PUT /v1/crews/{crew_id}/dependents/{id}
+Crews line · putV1CrewsCrewIdDependentsId
+DEPRECATED</title>
+<circle cx="748" cy="1448" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="736.0" y="1453" text-anchor="end" style="fill:#A0A7B4">Update dependent</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1CrewsCrewIdDependentsId" target="_blank" class="st" data-op="patchV1CrewsCrewIdDependentsId"><title>PATCH /v1/crews/{crew_id}/dependents/{id}
+Crews line · patchV1CrewsCrewIdDependentsId</title>
+<circle cx="664" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="1369" text-anchor="start" style="fill:#1A1F2C">Update dependent</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1CrewsCrewIdDependentsId" target="_blank" class="st" data-op="deleteV1CrewsCrewIdDependentsId"><title>DELETE /v1/crews/{crew_id}/dependents/{id}
+Crews line · deleteV1CrewsCrewIdDependentsId</title>
+<circle cx="580" cy="1280" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="576" y1="1284" x2="584" y2="1276" stroke="#D6264F" stroke-width="2"/>
+<text x="592" y="1285" text-anchor="start" style="fill:#1A1F2C">Delete dependent</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1JobTitlesId" target="_blank" class="st" data-op="getV1JobTitlesId"><title>GET /v1/job_titles/{id}
+Job Titles line · getV1JobTitlesId</title>
+<circle cx="496" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="487.0" y="1299" text-anchor="end" style="fill:#1A1F2C">Get job title</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1JobTitlesId" target="_blank" class="st" data-op="putV1JobTitlesId"><title>PUT /v1/job_titles/{id}
+Job Titles line · putV1JobTitlesId</title>
+<circle cx="496" cy="1322" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="508" y="1327" text-anchor="start" style="fill:#1A1F2C">Update job title</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1JobTitlesId" target="_blank" class="st" data-op="patchV1JobTitlesId"><title>PATCH /v1/job_titles/{id}
+Job Titles line · patchV1JobTitlesId</title>
+<circle cx="454" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="466" y="1369" text-anchor="start" style="fill:#1A1F2C">Update job title</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1JobTitlesId" target="_blank" class="st" data-op="deleteV1JobTitlesId"><title>DELETE /v1/job_titles/{id}
+Job Titles line · deleteV1JobTitlesId</title>
+<circle cx="370" cy="1364" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="366" y1="1368" x2="374" y2="1360" stroke="#B8860B" stroke-width="2"/>
+<text x="379" y="1383" text-anchor="start" style="fill:#1A1F2C">Delete job title</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1JobTitles" target="_blank" class="st" data-op="getV1JobTitles"><title>GET /v1/job_titles
+Job Titles line · getV1JobTitles</title>
+<circle cx="202" cy="1280" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="208" y="1268" transform="rotate(-45 208 1268)" style="fill:#1A1F2C">List job titles</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1JobTitles" target="_blank" class="st" data-op="postV1JobTitles"><title>POST /v1/job_titles
+Job Titles line · postV1JobTitles</title>
+<circle cx="286" cy="1280" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="280" y="1292" text-anchor="end" transform="rotate(-45 280 1292)" style="fill:#1A1F2C">Create job title</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1Crews" target="_blank" class="st" data-op="getV1Crews"><title>GET /v1/crews
+Crews line · getV1Crews</title>
+<circle cx="748" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="736.0" y="949" text-anchor="end" style="fill:#1A1F2C">List crews</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1Crews" target="_blank" class="st" data-op="postV1Crews"><title>POST /v1/crews
+Crews line · postV1Crews</title>
+<circle cx="832" cy="944" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="826" y="956" text-anchor="end" transform="rotate(-45 826 956)" style="fill:#1A1F2C">Create crew <tspan font-weight="700" style="fill:#0B7A75">⇄GRA</tspan> <tspan font-weight="700" style="fill:#B0287F">⇄JC</tspan> <tspan font-weight="700" style="fill:#5C6BC0">⇄RT</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewsId" target="_blank" class="st" data-op="getV1CrewsId"><title>GET /v1/crews/{id}
+Crews line · getV1CrewsId</title>
+<circle cx="916" cy="944" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="949" text-anchor="start" style="fill:#1A1F2C">Get crew</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1CrewsId" target="_blank" class="st" data-op="putV1CrewsId"><title>PUT /v1/crews/{id}
+Crews line · putV1CrewsId
+DEPRECATED</title>
+<circle cx="1000" cy="1028" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="1012" y="1033" text-anchor="start" style="fill:#A0A7B4">Update crew</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1CrewsId" target="_blank" class="st" data-op="patchV1CrewsId"><title>PATCH /v1/crews/{id}
+Crews line · patchV1CrewsId</title>
+<circle cx="1084" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1096" y="1117" text-anchor="start" style="fill:#1A1F2C">Update crew</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1CrewsId" target="_blank" class="st" data-op="deleteV1CrewsId"><title>DELETE /v1/crews/{id}
+Crews line · deleteV1CrewsId</title>
+<circle cx="1084" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1080" y1="1200" x2="1088" y2="1192" stroke="#D6264F" stroke-width="2"/>
+<text x="1096" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete crew</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1CrewsIdInvite" target="_blank" class="st" data-op="putV1CrewsIdInvite"><title>PUT /v1/crews/{id}/invite
+Crews line · putV1CrewsIdInvite</title>
+<circle cx="580" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="589" y="1186" text-anchor="start" style="fill:#1A1F2C">Update invite</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1CrewsCrewIdDepartments" target="_blank" class="st" data-op="deleteV1CrewsCrewIdDepartments"><title>DELETE /v1/crews/{crew_id}/departments
+Crews line · deleteV1CrewsCrewIdDepartments</title>
+<circle cx="1084" cy="1280" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1072.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Delete department <tspan font-weight="700" style="fill:#7B3FE4">⇄DEP</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewInputForms" target="_blank" class="st" data-op="getV1CrewInputForms"><title>GET /v1/crew_input_forms
+More Local line · getV1CrewInputForms</title>
+<circle cx="916" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1831" text-anchor="start" style="fill:#1A1F2C">List crew input forms</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewInputFormsId" target="_blank" class="st" data-op="getV1CrewInputFormsId"><title>GET /v1/crew_input_forms/{id}
+More Local line · getV1CrewInputFormsId</title>
+<circle cx="874" cy="1784" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="1789" text-anchor="start" style="fill:#1A1F2C">Get crew input form</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1RecruitmentTypesId" target="_blank" class="st" data-op="getV1RecruitmentTypesId"><title>GET /v1/recruitment_types/{id}
+Recruitment Types line · getV1RecruitmentTypesId</title>
+<circle cx="1168" cy="860" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1159.0" y="850" text-anchor="end" style="fill:#1A1F2C">Get recruitment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1RecruitmentTypesId" target="_blank" class="st" data-op="putV1RecruitmentTypesId"><title>PUT /v1/recruitment_types/{id}
+Recruitment Types line · putV1RecruitmentTypesId</title>
+<circle cx="1084" cy="944" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1084" y="967" text-anchor="middle" style="fill:#1A1F2C">Update recruitment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1RecruitmentTypesId" target="_blank" class="st" data-op="patchV1RecruitmentTypesId"><title>PATCH /v1/recruitment_types/{id}
+Recruitment Types line · patchV1RecruitmentTypesId</title>
+<circle cx="1000" cy="860" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1012" y="865" text-anchor="start" style="fill:#1A1F2C">Update recruitment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1RecruitmentTypesId" target="_blank" class="st" data-op="deleteV1RecruitmentTypesId"><title>DELETE /v1/recruitment_types/{id}
+Recruitment Types line · deleteV1RecruitmentTypesId</title>
+<circle cx="1126" cy="734" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1122" y1="738" x2="1130" y2="730" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1138" y="739" text-anchor="start" style="fill:#1A1F2C">Delete recruitment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1RecruitmentTypes" target="_blank" class="st" data-op="getV1RecruitmentTypes"><title>GET /v1/recruitment_types
+Recruitment Types line · getV1RecruitmentTypes</title>
+<circle cx="1336" cy="692" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1348" y="697" text-anchor="start" style="fill:#1A1F2C">List recruitment types</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1RecruitmentTypes" target="_blank" class="st" data-op="postV1RecruitmentTypes"><title>POST /v1/recruitment_types
+Recruitment Types line · postV1RecruitmentTypes</title>
+<circle cx="1252" cy="776" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1240.0" y="781" text-anchor="end" style="fill:#1A1F2C">Create recruitment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlips" target="_blank" class="st" data-op="getV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlips"><title>GET /v1/tax_withholdings/{tax_withholding_id}/tax_withholding_slips
+Tax Withholdings line · getV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlips</title>
+<circle cx="1126" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1138" y="1033" text-anchor="start" style="fill:#1A1F2C">List tax withholding slips</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlips" target="_blank" class="st" data-op="postV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlips"><title>POST /v1/tax_withholdings/{tax_withholding_id}/tax_withholding_slips
+Tax Withholdings line · postV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlips</title>
+<circle cx="1168" cy="986" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="991" text-anchor="start" style="fill:#1A1F2C">Create tax withholding slip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId" target="_blank" class="st" data-op="getV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId"><title>GET /v1/tax_withholdings/{tax_withholding_id}/tax_withholding_slips/{id}
+Tax Withholdings line · getV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId</title>
+<circle cx="1252" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1264" y="907" text-anchor="start" style="fill:#1A1F2C">Get tax withholding slip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId" target="_blank" class="st" data-op="putV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId"><title>PUT /v1/tax_withholdings/{tax_withholding_id}/tax_withholding_slips/{id}
+Tax Withholdings line · putV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId</title>
+<circle cx="1336" cy="818" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1336" y="790" text-anchor="middle" style="fill:#1A1F2C">Update tax<tspan x="1336" dy="13">withholding slip</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId" target="_blank" class="st" data-op="patchV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId"><title>PATCH /v1/tax_withholdings/{tax_withholding_id}/tax_withholding_slips/{id}
+Tax Withholdings line · patchV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId</title>
+<circle cx="1420" cy="818" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1426" y="806" transform="rotate(-45 1426 806)" style="fill:#1A1F2C">Update tax withholding slip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId" target="_blank" class="st" data-op="deleteV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId"><title>DELETE /v1/tax_withholdings/{tax_withholding_id}/tax_withholding_slips/{id}
+Tax Withholdings line · deleteV1TaxWithholdingsTaxWithholdingIdTaxWithholdingSlipsId</title>
+<circle cx="1504" cy="818" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1500" y1="822" x2="1508" y2="814" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1510" y="806" transform="rotate(-45 1510 806)" style="fill:#1A1F2C">Delete tax withholding slip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1TaxWithholdings" target="_blank" class="st" data-op="getV1TaxWithholdings"><title>GET /v1/tax_withholdings
+Tax Withholdings line · getV1TaxWithholdings</title>
+<circle cx="1336" cy="1322" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1348" y="1327" text-anchor="start" style="fill:#1A1F2C">List tax withholdings</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1TaxWithholdings" target="_blank" class="st" data-op="postV1TaxWithholdings"><title>POST /v1/tax_withholdings
+Tax Withholdings line · postV1TaxWithholdings</title>
+<circle cx="1168" cy="1154" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1180" y="1159" text-anchor="start" style="fill:#1A1F2C">Create tax withholding</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1TaxWithholdingsId" target="_blank" class="st" data-op="getV1TaxWithholdingsId"><title>GET /v1/tax_withholdings/{id}
+Tax Withholdings line · getV1TaxWithholdingsId</title>
+<circle cx="1168" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1177" y="1060" text-anchor="start" style="fill:#1A1F2C">Get tax withholding</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1TaxWithholdingsId" target="_blank" class="st" data-op="putV1TaxWithholdingsId"><title>PUT /v1/tax_withholdings/{id}
+Tax Withholdings line · putV1TaxWithholdingsId</title>
+<circle cx="1294" cy="1070" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1300" y="1058" transform="rotate(-45 1300 1058)" style="fill:#1A1F2C">Update tax withholding</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1TaxWithholdingsId" target="_blank" class="st" data-op="patchV1TaxWithholdingsId"><title>PATCH /v1/tax_withholdings/{id}
+Tax Withholdings line · patchV1TaxWithholdingsId</title>
+<circle cx="1420" cy="1070" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1426" y="1058" transform="rotate(-45 1426 1058)" style="fill:#1A1F2C">Update tax withholding</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1TaxWithholdingsId" target="_blank" class="st" data-op="deleteV1TaxWithholdingsId"><title>DELETE /v1/tax_withholdings/{id}
+Tax Withholdings line · deleteV1TaxWithholdingsId</title>
+<circle cx="1504" cy="1070" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1500" y1="1074" x2="1508" y2="1066" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1498" y="1082" text-anchor="end" transform="rotate(-45 1498 1082)" style="fill:#1A1F2C">Delete tax withholding</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1CrewsCrewIdMaternityChildcareLeaves" target="_blank" class="st" data-op="getV1CrewsCrewIdMaternityChildcareLeaves"><title>GET /v1/crews/{crew_id}/maternity_childcare_leaves
+Crews line · getV1CrewsCrewIdMaternityChildcareLeaves</title>
+<circle cx="580" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1117" text-anchor="start" style="fill:#1A1F2C">List maternity childcare leaves</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1GradesId" target="_blank" class="st" data-op="getV1GradesId"><title>GET /v1/grades/{id}
+Grades line · getV1GradesId</title>
+<circle cx="1000" cy="776" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1012" y="781" text-anchor="start" style="fill:#1A1F2C">Get grade</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1GradesId" target="_blank" class="st" data-op="putV1GradesId"><title>PUT /v1/grades/{id}
+Grades line · putV1GradesId</title>
+<circle cx="916" cy="860" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="910" y="872" text-anchor="end" transform="rotate(-45 910 872)" style="fill:#1A1F2C">Update grade</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1GradesId" target="_blank" class="st" data-op="patchV1GradesId"><title>PATCH /v1/grades/{id}
+Grades line · patchV1GradesId</title>
+<circle cx="874" cy="818" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="862.0" y="823" text-anchor="end" style="fill:#1A1F2C">Update grade</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1GradesId" target="_blank" class="st" data-op="deleteV1GradesId"><title>DELETE /v1/grades/{id}
+Grades line · deleteV1GradesId</title>
+<circle cx="874" cy="692" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="870" y1="696" x2="878" y2="688" stroke="#0B7A75" stroke-width="2"/>
+<text x="886" y="697" text-anchor="start" style="fill:#1A1F2C">Delete grade</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1Grades" target="_blank" class="st" data-op="getV1Grades"><title>GET /v1/grades
+Grades line · getV1Grades</title>
+<circle cx="1000" cy="566" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1012" y="571" text-anchor="start" style="fill:#1A1F2C">List grades</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1Grades" target="_blank" class="st" data-op="postV1Grades"><title>POST /v1/grades
+Grades line · postV1Grades</title>
+<circle cx="1000" cy="650" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1012" y="655" text-anchor="start" style="fill:#1A1F2C">Create grade</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1PaymentPeriods" target="_blank" class="st" data-op="getV1PaymentPeriods"><title>GET /v1/payment_periods
+More Local line · getV1PaymentPeriods</title>
+<circle cx="580" cy="1952" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="1957" text-anchor="start" style="fill:#1A1F2C">List payment periods</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1PaymentPeriodsId" target="_blank" class="st" data-op="getV1PaymentPeriodsId"><title>GET /v1/payment_periods/{id}
+More Local line · getV1PaymentPeriodsId</title>
+<circle cx="580" cy="2036" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="2041" text-anchor="start" style="fill:#1A1F2C">Get payment period</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1PayrollsPayrollIdPayslips" target="_blank" class="st" data-op="getV1PayrollsPayrollIdPayslips"><title>GET /v1/payrolls/{payroll_id}/payslips
+Payrolls line · getV1PayrollsPayrollIdPayslips</title>
+<circle cx="748" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="781" text-anchor="start" style="fill:#1A1F2C">List payslips</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1PayrollsPayrollIdPayslips" target="_blank" class="st" data-op="postV1PayrollsPayrollIdPayslips"><title>POST /v1/payrolls/{payroll_id}/payslips
+Payrolls line · postV1PayrollsPayrollIdPayslips</title>
+<circle cx="664" cy="776" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="673" y="795" text-anchor="start" style="fill:#1A1F2C">Create payslip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1PayrollsPayrollIdPayslipsId" target="_blank" class="st" data-op="getV1PayrollsPayrollIdPayslipsId"><title>GET /v1/payrolls/{payroll_id}/payslips/{id}
+Payrolls line · getV1PayrollsPayrollIdPayslipsId</title>
+<circle cx="580" cy="692" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="592" y="697" text-anchor="start" style="fill:#1A1F2C">Get payslip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1PayrollsPayrollIdPayslipsId" target="_blank" class="st" data-op="deleteV1PayrollsPayrollIdPayslipsId"><title>DELETE /v1/payrolls/{payroll_id}/payslips/{id}
+Payrolls line · deleteV1PayrollsPayrollIdPayslipsId</title>
+<circle cx="496" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="492" y1="612" x2="500" y2="604" stroke="#0E9F6E" stroke-width="2"/>
+<text x="508" y="613" text-anchor="start" style="fill:#1A1F2C">Delete payslip</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1PayrollsPayrollIdPayslipsBulk" target="_blank" class="st" data-op="postV1PayrollsPayrollIdPayslipsBulk"><title>POST /v1/payrolls/{payroll_id}/payslips/bulk
+Payrolls line · postV1PayrollsPayrollIdPayslipsBulk</title>
+<circle cx="454" cy="566" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="466" y="571" text-anchor="start" style="fill:#1A1F2C">Update bulk</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1Payrolls" target="_blank" class="st" data-op="getV1Payrolls"><title>GET /v1/payrolls
+Payrolls line · getV1Payrolls</title>
+<circle cx="790" cy="230" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="235" text-anchor="start" style="fill:#1A1F2C">List payrolls</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1Payrolls" target="_blank" class="st" data-op="postV1Payrolls"><title>POST /v1/payrolls
+Payrolls line · postV1Payrolls</title>
+<circle cx="790" cy="314" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="319" text-anchor="start" style="fill:#1A1F2C">Create payroll</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1PayrollsId" target="_blank" class="st" data-op="getV1PayrollsId"><title>GET /v1/payrolls/{id}
+Payrolls line · getV1PayrollsId</title>
+<circle cx="790" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="403" text-anchor="start" style="fill:#1A1F2C">Get payroll</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1PayrollsId" target="_blank" class="st" data-op="patchV1PayrollsId"><title>PATCH /v1/payrolls/{id}
+Payrolls line · patchV1PayrollsId</title>
+<circle cx="790" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="529" text-anchor="start" style="fill:#1A1F2C">Update payroll</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1PayrollsId" target="_blank" class="st" data-op="deleteV1PayrollsId"><title>DELETE /v1/payrolls/{id}
+Payrolls line · deleteV1PayrollsId</title>
+<circle cx="790" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="786" y1="612" x2="794" y2="604" stroke="#0E9F6E" stroke-width="2"/>
+<text x="802" y="613" text-anchor="start" style="fill:#1A1F2C">Delete payroll</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1PayrollsIdFix" target="_blank" class="st" data-op="patchV1PayrollsIdFix"><title>PATCH /v1/payrolls/{id}/fix
+Payrolls line · patchV1PayrollsIdFix</title>
+<circle cx="748" cy="650" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="655" text-anchor="start" style="fill:#1A1F2C">Update fix</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1PayrollsIdUnfix" target="_blank" class="st" data-op="patchV1PayrollsIdUnfix"><title>PATCH /v1/payrolls/{id}/unfix
+Payrolls line · patchV1PayrollsIdUnfix</title>
+<circle cx="286" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="292" y="512" transform="rotate(-45 292 512)" style="fill:#1A1F2C">Update unfix</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1PayrollsIdPublish" target="_blank" class="st" data-op="patchV1PayrollsIdPublish"><title>PATCH /v1/payrolls/{id}/publish
+Payrolls line · patchV1PayrollsIdPublish</title>
+<circle cx="412" cy="524" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="424" y="529" text-anchor="start" style="fill:#1A1F2C">Update publish</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1DependentRelations" target="_blank" class="st" data-op="getV1DependentRelations"><title>GET /v1/dependent_relations
+More Local line · getV1DependentRelations</title>
+<circle cx="748" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="736.0" y="1747" text-anchor="end" style="fill:#1A1F2C">List dependent relations</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1JobCategoriesId" target="_blank" class="st" data-op="getV1JobCategoriesId"><title>GET /v1/job_categories/{id}
+Job Categories line · getV1JobCategoriesId</title>
+<circle cx="706" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="718" y="1579" text-anchor="start" style="fill:#1A1F2C">Get job category</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1JobCategoriesId" target="_blank" class="st" data-op="putV1JobCategoriesId"><title>PUT /v1/job_categories/{id}
+Job Categories line · putV1JobCategoriesId</title>
+<circle cx="748" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="736.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Update job category</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1JobCategoriesId" target="_blank" class="st" data-op="patchV1JobCategoriesId"><title>PATCH /v1/job_categories/{id}
+Job Categories line · patchV1JobCategoriesId</title>
+<circle cx="832" cy="1532" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="844" y="1537" text-anchor="start" style="fill:#1A1F2C">Update job category</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1JobCategoriesId" target="_blank" class="st" data-op="deleteV1JobCategoriesId"><title>DELETE /v1/job_categories/{id}
+Job Categories line · deleteV1JobCategoriesId</title>
+<circle cx="832" cy="1616" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="828" y1="1620" x2="836" y2="1612" stroke="#B0287F" stroke-width="2"/>
+<text x="841" y="1606" text-anchor="start" style="fill:#1A1F2C">Delete job category</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1JobCategories" target="_blank" class="st" data-op="getV1JobCategories"><title>GET /v1/job_categories
+Job Categories line · getV1JobCategories</title>
+<circle cx="622" cy="1658" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="634" y="1663" text-anchor="start" style="fill:#1A1F2C">List job categories</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1JobCategories" target="_blank" class="st" data-op="postV1JobCategories"><title>POST /v1/job_categories
+Job Categories line · postV1JobCategories</title>
+<circle cx="664" cy="1616" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="1621" text-anchor="start" style="fill:#1A1F2C">Create job category</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1Departments" target="_blank" class="st" data-op="getV1Departments"><title>GET /v1/departments
+Departments line · getV1Departments</title>
+<circle cx="874" cy="1070" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="886" y="1075" text-anchor="start" style="fill:#1A1F2C">List departments</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1Departments" target="_blank" class="st" data-op="postV1Departments"><title>POST /v1/departments
+Departments line · postV1Departments</title>
+<circle cx="958" cy="1154" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="970" y="1159" text-anchor="start" style="fill:#1A1F2C">Create department</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1DepartmentsId" target="_blank" class="st" data-op="getV1DepartmentsId"><title>GET /v1/departments/{id}
+Departments line · getV1DepartmentsId</title>
+<circle cx="958" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="970" y="1243" text-anchor="start" style="fill:#1A1F2C">Get department</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1DepartmentsId" target="_blank" class="st" data-op="putV1DepartmentsId"><title>PUT /v1/departments/{id}
+Departments line · putV1DepartmentsId</title>
+<circle cx="874" cy="1238" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="868" y="1250" text-anchor="end" transform="rotate(-45 868 1250)" style="fill:#1A1F2C">Update department</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1DepartmentsId" target="_blank" class="st" data-op="patchV1DepartmentsId"><title>PATCH /v1/departments/{id}
+Departments line · patchV1DepartmentsId</title>
+<circle cx="748" cy="1238" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="754" y="1226" transform="rotate(-45 754 1226)" style="fill:#1A1F2C">Update department</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1DepartmentsId" target="_blank" class="st" data-op="deleteV1DepartmentsId"><title>DELETE /v1/departments/{id}
+Departments line · deleteV1DepartmentsId
+DEPRECATED</title>
+<circle cx="664" cy="1238" r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/>
+<text x="670" y="1226" transform="rotate(-45 670 1226)" style="fill:#A0A7B4">Delete department</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1DepartmentsIdDiscontinue" target="_blank" class="st" data-op="postV1DepartmentsIdDiscontinue"><title>POST /v1/departments/{id}/discontinue
+Departments line · postV1DepartmentsIdDiscontinue</title>
+<circle cx="412" cy="1196" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="418" y="1184" transform="rotate(-45 418 1184)" style="fill:#1A1F2C">Update discontinue</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1EmploymentTypes" target="_blank" class="st" data-op="getV1EmploymentTypes"><title>GET /v1/employment_types
+Employment Types line · getV1EmploymentTypes</title>
+<circle cx="328" cy="1490" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="334" y="1478" transform="rotate(-45 334 1478)" style="fill:#1A1F2C">List employment types</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-postV1EmploymentTypes" target="_blank" class="st" data-op="postV1EmploymentTypes"><title>POST /v1/employment_types
+Employment Types line · postV1EmploymentTypes</title>
+<circle cx="412" cy="1490" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="418" y="1478" transform="rotate(-45 418 1478)" style="fill:#1A1F2C">Create employment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-getV1EmploymentTypesId" target="_blank" class="st" data-op="getV1EmploymentTypesId"><title>GET /v1/employment_types/{id}
+Employment Types line · getV1EmploymentTypesId</title>
+<circle cx="496" cy="1490" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="502" y="1478" transform="rotate(-45 502 1478)" style="fill:#1A1F2C">Get employment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-putV1EmploymentTypesId" target="_blank" class="st" data-op="putV1EmploymentTypesId"><title>PUT /v1/employment_types/{id}
+Employment Types line · putV1EmploymentTypesId</title>
+<circle cx="580" cy="1490" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="592" y="1495" text-anchor="start" style="fill:#1A1F2C">Update employment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-patchV1EmploymentTypesId" target="_blank" class="st" data-op="patchV1EmploymentTypesId"><title>PATCH /v1/employment_types/{id}
+Employment Types line · patchV1EmploymentTypesId</title>
+<circle cx="580" cy="1532" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="568.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Update employment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-default-api/#op-deleteV1EmploymentTypesId" target="_blank" class="st" data-op="deleteV1EmploymentTypesId"><title>DELETE /v1/employment_types/{id}
+Employment Types line · deleteV1EmploymentTypesId</title>
+<circle cx="496" cy="1616" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="492" y1="1620" x2="500" y2="1612" stroke="#5C6BC0" stroke-width="2"/>
+<text x="508" y="1621" text-anchor="start" style="fill:#1A1F2C">Delete employment type</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-webhook-api/#op-getV1WebhooksId" target="_blank" class="st" data-op="getV1WebhooksId"><title>GET /v1/webhooks/{id}
+Webhooks line · getV1WebhooksId</title>
+<circle cx="1084" cy="1574" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="1579" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-webhook-api/#op-putV1WebhooksId" target="_blank" class="st" data-op="putV1WebhooksId"><title>PUT /v1/webhooks/{id}
+Webhooks line · putV1WebhooksId</title>
+<circle cx="1042" cy="1532" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1048" y="1520" transform="rotate(-45 1048 1520)" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-webhook-api/#op-patchV1WebhooksId" target="_blank" class="st" data-op="patchV1WebhooksId"><title>PATCH /v1/webhooks/{id}
+Webhooks line · patchV1WebhooksId</title>
+<circle cx="958" cy="1616" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="970" y="1621" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-webhook-api/#op-deleteV1WebhooksId" target="_blank" class="st" data-op="deleteV1WebhooksId"><title>DELETE /v1/webhooks/{id}
+Webhooks line · deleteV1WebhooksId</title>
+<circle cx="958" cy="1700" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="954" y1="1704" x2="962" y2="1696" stroke="#2E7D32" stroke-width="2"/>
+<text x="970" y="1705" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-webhook-api/#op-getV1Webhooks" target="_blank" class="st" data-op="getV1Webhooks"><title>GET /v1/webhooks
+Webhooks line · getV1Webhooks</title>
+<circle cx="1084" cy="1742" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="1747" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/kufu/kufu-webhook-api/#op-postV1Webhooks" target="_blank" class="st" data-op="postV1Webhooks"><title>POST /v1/webhooks
+Webhooks line · postV1Webhooks</title>
+<circle cx="1084" cy="1658" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1096" y="1663" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<text x="1694" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1694" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">CREWS</text>
+<rect x="1694" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1711" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CRE</text><text x="1736" y="269" font-size="11" fill="#1A1F2C">Crews <tspan fill="#8A93A6">15</tspan></text>
+<text x="1694" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">PAYROLLS</text>
+<rect x="1694" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1711" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="1736" y="312" font-size="11" fill="#1A1F2C">Payrolls <tspan fill="#8A93A6">13</tspan></text>
+<text x="1694" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">TAX WITHHOLDINGS</text>
+<rect x="1694" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1711" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">TW</text><text x="1736" y="355" font-size="11" fill="#1A1F2C">Tax Withholdings <tspan fill="#8A93A6">12</tspan></text>
+<text x="1694" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">USERS</text>
+<rect x="1694" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="1711" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="1736" y="398" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">8</tspan></text>
+<text x="1694" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">DEPARTMENTS</text>
+<rect x="1694" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1711" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DEP</text><text x="1736" y="441" font-size="11" fill="#1A1F2C">Departments <tspan fill="#8A93A6">7</tspan></text>
+<text x="1694" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">JOB CATEGORIES</text>
+<rect x="1694" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="1711" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JC</text><text x="1736" y="484" font-size="11" fill="#1A1F2C">Job Categories <tspan fill="#8A93A6">6</tspan></text>
+<text x="1694" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">GRADES</text>
+<rect x="1694" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1711" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GRA</text><text x="1736" y="527" font-size="11" fill="#1A1F2C">Grades <tspan fill="#8A93A6">6</tspan></text>
+<text x="1694" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">JOB TITLES</text>
+<rect x="1694" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="1711" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">JT</text><text x="1736" y="570" font-size="11" fill="#1A1F2C">Job Titles <tspan fill="#8A93A6">6</tspan></text>
+<text x="1694" y="596" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">CREW CUSTOM FIELD TEMPLATES</text>
+<rect x="1694" y="603" width="34" height="13" rx="3" fill="#C2410C"/><text x="1711" y="613" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CRCF</text><text x="1736" y="613" font-size="11" fill="#1A1F2C">Crew Custom Field Templates <tspan fill="#8A93A6">6</tspan></text>
+<text x="1694" y="639" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">WEBHOOKS</text>
+<rect x="1694" y="646" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1711" y="656" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="1736" y="656" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">6</tspan></text>
+<text x="1694" y="682" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">RECRUITMENT TYPES</text>
+<rect x="1694" y="689" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1711" y="699" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RT</text><text x="1736" y="699" font-size="11" fill="#1A1F2C">Recruitment Types <tspan fill="#8A93A6">6</tspan></text>
+<text x="1694" y="725" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="1694" y="732" width="34" height="13" rx="3" fill="#D6264F"/><text x="1711" y="742" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="1736" y="742" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">12</tspan></text>
+<rect x="1694" y="749" width="34" height="13" rx="3" fill="#B0287F"/><text x="1711" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CCFT</text><text x="1736" y="759" font-size="11" fill="#1A1F2C">Crew Custom Field Template Groups <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1694" y="766" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1711" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ET</text><text x="1736" y="776" font-size="11" fill="#1A1F2C">Employment Types <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1694" y="783" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1711" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BJ</text><text x="1736" y="793" font-size="11" fill="#1A1F2C">Batch Jobs <tspan fill="#8A93A6">5</tspan></text>
+<text x="1944" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1962,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1988" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1962,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1988" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1962,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1988" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1962,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1988" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1962,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1988" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1962,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1988" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1962,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1988" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1962,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1988" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1944" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1944" y="463" font-size="10.5" fill="#5A6275">“Bank Account Settings” → More Local line · 1 op</text>
+<text x="1944" y="478" font-size="10.5" fill="#5A6275">“Batch Job Attachments” → More Local line · 1 op</text>
+<text x="1944" y="493" font-size="10.5" fill="#5A6275">“Biz Establishments” → More Local line · 1 op</text>
+<text x="1944" y="508" font-size="10.5" fill="#5A6275">“Companies” → More Local line · 1 op</text>
+<text x="1944" y="523" font-size="10.5" fill="#5A6275">“Crew Input Forms” → More Local line · 2 ops</text>
+<text x="1944" y="538" font-size="10.5" fill="#5A6275">“Dependent Custom Field Templates” → More Local line · 1 op</text>
+<text x="1944" y="553" font-size="10.5" fill="#5A6275">“Dependent Relations” → More Local line · 1 op</text>
+<text x="1944" y="568" font-size="10.5" fill="#5A6275">“Mail Formats” → More Local line · 2 ops</text>
+<text x="1944" y="583" font-size="10.5" fill="#5A6275">“Payment Periods” → More Local line · 2 ops</text>
+<text x="1944" y="633" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1944" y="650" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="2334" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/kufu/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

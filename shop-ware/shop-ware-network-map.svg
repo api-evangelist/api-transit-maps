@@ -1,0 +1,542 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2004 1578" width="2004" height="1578" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2004" height="1578" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Shop-Ware API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">90 operations as stops · 14 tags as lines · 11 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="600" y1="406" x2="600" y2="362" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="600" y1="406" x2="600" y2="362" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Partners" d="M820.0,1022.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Partners</title></path>
+<path class="line" data-line="Appointments" d="M556.0,626.0 L521.9,660.1 Q512.0,670.0 512.0,684.0 L512.0,700.0 Q512.0,714.0 502.1,723.9 L477.9,748.1 Q468.0,758.0 468.0,772.0 L468.0,846.0 L468.0,934.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Appointments</title></path>
+<path class="line" data-line="Customers" d="M512.0,362.0 L600.0,362.0 L688.0,362.0 L776.0,362.0 L864.0,362.0 L938.0,362.0 Q952.0,362.0 961.9,371.9 L1040.0,450.0 L1128.0,538.0 L1216.0,626.0 L1294.1,704.1 Q1304.0,714.0 1304.0,728.0 L1304.0,802.0 L1304.0,890.0 L1304.0,978.0 L1304.0,1052.0 Q1304.0,1066.0 1294.1,1075.9 L1216.0,1154.0 L1128.0,1242.0 L1040.0,1330.0 L961.9,1408.1 Q952.0,1418.0 938.0,1418.0 L864.0,1418.0 L776.0,1418.0 L688.0,1418.0 L600.0,1418.0 L526.0,1418.0 Q512.0,1418.0 502.1,1408.1 L424.0,1330.0 L336.0,1242.0 L248.0,1154.0 L169.9,1075.9 Q160.0,1066.0 160.0,1052.0 L160.0,978.0 L160.0,890.0 L160.0,802.0 L160.0,728.0 Q160.0,714.0 169.9,704.1 L248.0,626.0 L336.0,538.0 L424.0,450.0 L512.0,362.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Customers</title></path>
+<path class="line" data-line="Integrator Tags" d="M644.0,494.0 L678.1,528.1 Q688.0,538.0 688.0,552.0 L688.0,758.0 L688.0,788.0 Q688.0,802.0 697.9,811.9 L722.1,836.1 Q732.0,846.0 732.0,860.0 L732.0,934.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Integrator Tags</title></path>
+<path class="line" data-line="Inventories" d="M600.0,406.0 L634.1,440.1 Q644.0,450.0 658.0,450.0 L806.0,450.0 Q820.0,450.0 829.9,459.9 L898.1,528.1 Q908.0,538.0 908.0,552.0 L908.0,568.0 Q908.0,582.0 922.0,582.0 L996.0,582.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Inventories</title></path>
+<path class="line" data-line="Notes" d="M732.0,538.0 L810.1,616.1 Q820.0,626.0 820.0,640.0 L820.0,656.0 Q820.0,670.0 829.9,679.9 L908.0,758.0 L986.1,836.1 Q996.0,846.0 1010.0,846.0 L1040.0,846.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Notes</title></path>
+<path class="line" data-line="Pay Rates" d="M732.0,450.0 L810.1,528.1 Q820.0,538.0 820.0,552.0 L820.0,568.0 Q820.0,582.0 829.9,591.9 L898.1,660.1 Q908.0,670.0 922.0,670.0 L1114.0,670.0 Q1128.0,670.0 1128.0,684.0 L1128.0,758.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Pay Rates</title></path>
+<path class="line" data-line="Payments" d="M512.0,230.0 L424.0,230.0 L336.0,230.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payments</title></path>
+<path class="line" data-line="Recommendations" d="M556.0,538.0 L590.1,572.1 Q600.0,582.0 600.0,596.0 L600.0,758.0 L600.0,802.0 L600.0,890.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Recommendations</title></path>
+<path class="line" data-line="Repair Orders" d="M512.0,450.0 L301.9,660.1 Q292.0,670.0 301.9,679.9 L336.0,714.0 L370.1,748.1 Q380.0,758.0 380.0,772.0 L380.0,832.0 Q380.0,846.0 370.1,855.9 L292.0,934.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Repair Orders</title></path>
+<path class="line" data-line="Services" d="M600.0,274.0 L477.9,396.1 Q468.0,406.0 468.0,420.0 L468.0,568.0 Q468.0,582.0 458.1,591.9 L424.0,626.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Services</title></path>
+<path class="line" data-line="Staffs" d="M688.0,626.0 L732.0,670.0 L810.1,748.1 Q820.0,758.0 820.0,772.0 L820.0,788.0 Q820.0,802.0 829.9,811.9 L864.0,846.0 L952.0,934.0 L996.0,978.0 L1084.0,1066.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Staffs</title></path>
+<path class="line" data-line="Vehicles" d="M688.0,230.0 L732.0,274.0 L908.0,450.0 L952.0,494.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Vehicles</title></path>
+<path class="line" data-line="Webhooks" d="M556.0,1286.0 L556.0,1168.0 Q556.0,1154.0 570.0,1154.0 L630.0,1154.0 Q644.0,1154.0 653.9,1163.9 L688.0,1198.0 L776.0,1286.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<line x1="820" y1="1022" x2="854.0" y2="1022.0" stroke="#4A5568" stroke-width="7"/><rect x="830.0" y="1011.0" width="48" height="22" rx="5" fill="#4A5568"><title>Partners</title></rect><text x="854.0" y="1027.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAR</text>
+<line x1="820" y1="1022" x2="820.0" y2="1052.0" stroke="#4A5568" stroke-width="7"/><rect x="796.0" y="1041.0" width="48" height="22" rx="5" fill="#4A5568"><title>Partners</title></rect><text x="820.0" y="1057.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAR</text>
+<line x1="556" y1="626" x2="580.0416305603426" y2="601.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="556.0416305603426" y="590.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>Appointments</title></rect><text x="580.0416305603426" y="606.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<line x1="468" y1="934" x2="468.0" y2="968.0" stroke="#E07B12" stroke-width="7"/><rect x="444.0" y="957.0" width="48" height="22" rx="5" fill="#E07B12"><title>Appointments</title></rect><text x="468.0" y="973.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">APP</text>
+<rect x="482" y="309" width="60" height="26" rx="13" fill="#D6264F"/><text x="512" y="327" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CUS</text>
+<line x1="644" y1="494" x2="619.9583694396574" y2="469.95836943965736" stroke="#7B3FE4" stroke-width="7"/><rect x="595.9583694396574" y="458.95836943965736" width="48" height="22" rx="5" fill="#7B3FE4"><title>Integrator Tags</title></rect><text x="619.9583694396574" y="474.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IT</text>
+<line x1="732" y1="934" x2="732.0" y2="968.0" stroke="#7B3FE4" stroke-width="7"/><rect x="708.0" y="957.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Integrator Tags</title></rect><text x="732.0" y="973.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">IT</text>
+<line x1="600" y1="406" x2="575.9583694396574" y2="381.95836943965736" stroke="#B8860B" stroke-width="7"/><rect x="551.9583694396574" y="370.95836943965736" width="48" height="22" rx="5" fill="#B8860B"><title>Inventories</title></rect><text x="575.9583694396574" y="386.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="996" y1="582" x2="1030.0" y2="582.0" stroke="#B8860B" stroke-width="7"/><rect x="1006.0" y="571.0" width="48" height="22" rx="5" fill="#B8860B"><title>Inventories</title></rect><text x="1030.0" y="587.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="732" y1="538" x2="707.9583694396574" y2="513.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="683.9583694396574" y="502.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Notes</title></rect><text x="707.9583694396574" y="518.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="1040" y1="846" x2="1074.0" y2="846.0" stroke="#C2410C" stroke-width="7"/><rect x="1050.0" y="835.0" width="48" height="22" rx="5" fill="#C2410C"><title>Notes</title></rect><text x="1074.0" y="851.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="732" y1="450" x2="707.9583694396574" y2="425.95836943965736" stroke="#B0287F" stroke-width="7"/><rect x="683.9583694396574" y="414.95836943965736" width="48" height="22" rx="5" fill="#B0287F"><title>Pay Rates</title></rect><text x="707.9583694396574" y="430.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PR</text>
+<line x1="1128" y1="758" x2="1128.0" y2="792.0" stroke="#B0287F" stroke-width="7"/><rect x="1104.0" y="781.0" width="48" height="22" rx="5" fill="#B0287F"><title>Pay Rates</title></rect><text x="1128.0" y="797.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PR</text>
+<line x1="512" y1="230" x2="546.0" y2="230.0" stroke="#00838F" stroke-width="7"/><rect x="522.0" y="219.0" width="48" height="22" rx="5" fill="#00838F"><title>Payments</title></rect><text x="546.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="336" y1="230" x2="302.0" y2="230.0" stroke="#00838F" stroke-width="7"/><rect x="278.0" y="219.0" width="48" height="22" rx="5" fill="#00838F"><title>Payments</title></rect><text x="302.0" y="235.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="556" y1="538" x2="531.9583694396574" y2="513.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="507.9583694396574" y="502.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>Recommendations</title></rect><text x="531.9583694396574" y="518.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REC</text>
+<line x1="600" y1="890" x2="600.0" y2="924.0" stroke="#2E7D32" stroke-width="7"/><rect x="576.0" y="913.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Recommendations</title></rect><text x="600.0" y="929.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REC</text>
+<line x1="512" y1="450" x2="536.0416305603426" y2="425.95836943965736" stroke="#1F5FD1" stroke-width="7"/><rect x="512.0416305603426" y="414.95836943965736" width="48" height="22" rx="5" fill="#1F5FD1"><title>Repair Orders</title></rect><text x="536.0416305603426" y="430.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RO</text>
+<line x1="292" y1="934" x2="267.95836943965736" y2="958.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="243.95836943965736" y="947.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Repair Orders</title></rect><text x="267.95836943965736" y="963.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RO</text>
+<line x1="600" y1="274" x2="624.0416305603426" y2="249.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="600.0416305603426" y="238.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>Services</title></rect><text x="624.0416305603426" y="254.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SER</text>
+<line x1="424" y1="626" x2="399.95836943965736" y2="650.0416305603426" stroke="#8D6E63" stroke-width="7"/><rect x="375.95836943965736" y="639.0416305603426" width="48" height="22" rx="5" fill="#8D6E63"><title>Services</title></rect><text x="399.95836943965736" y="655.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SER</text>
+<line x1="688" y1="626" x2="663.9583694396574" y2="601.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="639.9583694396574" y="590.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Staffs</title></rect><text x="663.9583694396574" y="606.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STA</text>
+<line x1="1084" y1="1066" x2="1108.0416305603426" y2="1090.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1084.0416305603426" y="1079.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Staffs</title></rect><text x="1108.0416305603426" y="1095.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STA</text>
+<line x1="688" y1="230" x2="663.9583694396574" y2="205.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="639.9583694396574" y="194.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Vehicles</title></rect><text x="663.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VEH</text>
+<line x1="952" y1="494" x2="976.0416305603426" y2="518.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="952.0416305603426" y="507.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Vehicles</title></rect><text x="976.0416305603426" y="523.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VEH</text>
+<line x1="556" y1="1286" x2="556.0" y2="1320.0" stroke="#0B7A75" stroke-width="7"/><rect x="532.0" y="1309.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Webhooks</title></rect><text x="556.0" y="1325.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="776" y1="1286" x2="800.0416305603426" y2="1310.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="776.0416305603426" y="1299.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Webhooks</title></rect><text x="800.0416305603426" y="1315.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-api-partners-api/#op-getApiV2PartnersByPartnerIdAuthorizations" target="_blank" class="st" data-op="getApiV2PartnersByPartnerIdAuthorizations"><title>GET /api/v2/partners/{partner_id}/authorizations
+Partners line · getApiV2PartnersByPartnerIdAuthorizations</title>
+<circle cx="820" cy="1022" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="808.0" y="1020" text-anchor="end" style="fill:#1A1F2C">List<tspan x="808.0" dy="13">authorizations</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-appointments-api/#op-getApiV2TenantsByTenantIdAppointments" target="_blank" class="st" data-op="getApiV2TenantsByTenantIdAppointments"><title>GET /api/v2/tenants/{tenant_id}/appointments
+Appointments line · getApiV2TenantsByTenantIdAppointments</title>
+<circle cx="556" cy="626" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="556" y="648" text-anchor="middle" style="fill:#1A1F2C">List<tspan x="556" dy="13">appointments <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-appointments-api/#op-postApiV2TenantsByTenantIdAppointments" target="_blank" class="st" data-op="postApiV2TenantsByTenantIdAppointments"><title>POST /api/v2/tenants/{tenant_id}/appointments
+Appointments line · postApiV2TenantsByTenantIdAppointments</title>
+<circle cx="512" cy="714" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="521" y="704" text-anchor="start" style="fill:#1A1F2C">Create appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-appointments-api/#op-getApiV2TenantsByTenantIdAppointmentsById" target="_blank" class="st" data-op="getApiV2TenantsByTenantIdAppointmentsById"><title>GET /api/v2/tenants/{tenant_id}/appointments/{id}
+Appointments line · getApiV2TenantsByTenantIdAppointmentsById</title>
+<circle cx="468" cy="758" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="480" y="763" text-anchor="start" style="fill:#1A1F2C">Get appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-appointments-api/#op-putApiV2TenantsByTenantIdAppointmentsById" target="_blank" class="st" data-op="putApiV2TenantsByTenantIdAppointmentsById"><title>PUT /api/v2/tenants/{tenant_id}/appointments/{id}
+Appointments line · putApiV2TenantsByTenantIdAppointmentsById</title>
+<circle cx="468" cy="846" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="480" y="851" text-anchor="start" style="fill:#1A1F2C">Update appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-appointments-api/#op-deleteApiV2TenantsByTenantIdAppointmentsById" target="_blank" class="st" data-op="deleteApiV2TenantsByTenantIdAppointmentsById"><title>DELETE /api/v2/tenants/{tenant_id}/appointments/{id}
+Appointments line · deleteApiV2TenantsByTenantIdAppointmentsById</title>
+<circle cx="468" cy="934" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="464" y1="938" x2="472" y2="930" stroke="#E07B12" stroke-width="2"/>
+<text x="456.0" y="939" text-anchor="end" style="fill:#1A1F2C">Delete appointment</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-assignments-api/#op-getApiV2TenantsByTenantIdAssignments" target="_blank" class="st" data-op="getApiV2TenantsByTenantIdAssignments"><title>GET /api/v2/tenants/{tenant_id}/assignments
+Customers line · getApiV2TenantsByTenantIdAssignments</title>
+<circle cx="336" cy="538" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="324.0" y="543" text-anchor="end" style="fill:#1A1F2C">List assignments</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-assignments-api/#op-getApiV2TenantsByTenantIdAssignmentsById" target="_blank" class="st" data-op="getApiV2TenantsByTenantIdAssignmentsById"><title>GET /api/v2/tenants/{tenant_id}/assignments/{id}
+Customers line · getApiV2TenantsByTenantIdAssignmentsById</title>
+<circle cx="424" cy="450" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="412.0" y="455" text-anchor="end" style="fill:#1A1F2C">Get assignment</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-canned-jobs-api/#op-getApiV1TenantsByTenantIdCannedJobs" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCannedJobs"><title>GET /api/v1/tenants/{tenant_id}/canned_jobs
+Customers line · getApiV1TenantsByTenantIdCannedJobs</title>
+<circle cx="688" cy="362" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="688" y="348" text-anchor="middle" style="fill:#1A1F2C">List canned jobs</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-canned-jobs-api/#op-getApiV1TenantsByTenantIdCannedJobsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCannedJobsById"><title>GET /api/v1/tenants/{tenant_id}/canned_jobs/{id}
+Customers line · getApiV1TenantsByTenantIdCannedJobsById</title>
+<circle cx="776" cy="362" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="776" y="385" text-anchor="middle" style="fill:#1A1F2C">Get canned job</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-categories-api/#op-getApiV1TenantsByTenantIdCategories" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCategories"><title>GET /api/v1/tenants/{tenant_id}/categories
+Customers line · getApiV1TenantsByTenantIdCategories</title>
+<circle cx="864" cy="362" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="870" y="350" transform="rotate(-45 870 350)" style="fill:#1A1F2C">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-categories-api/#op-getApiV1TenantsByTenantIdCategoriesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCategoriesById"><title>GET /api/v1/tenants/{tenant_id}/categories/{id}
+Customers line · getApiV1TenantsByTenantIdCategoriesById</title>
+<circle cx="952" cy="362" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="367" text-anchor="start" style="fill:#1A1F2C">Get category</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-contacts-api/#op-getApiV1TenantsByTenantIdCustomersByCustomerIdContacts" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCustomersByCustomerIdContacts"><title>GET /api/v1/tenants/{tenant_id}/customers/{customer_id}/contacts
+Customers line · getApiV1TenantsByTenantIdCustomersByCustomerIdContacts</title>
+<circle cx="1304" cy="802" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="807" text-anchor="start" style="fill:#1A1F2C">List contacts</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-contacts-api/#op-postApiV1TenantsByTenantIdCustomersByCustomerIdContacts" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdCustomersByCustomerIdContacts"><title>POST /api/v1/tenants/{tenant_id}/customers/{customer_id}/contacts
+Customers line · postApiV1TenantsByTenantIdCustomersByCustomerIdContacts</title>
+<circle cx="1304" cy="890" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="895" text-anchor="start" style="fill:#1A1F2C">Create contact</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-contacts-api/#op-putApiV1TenantsByTenantIdCustomersByCustomerIdContactsById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdCustomersByCustomerIdContactsById"><title>PUT /api/v1/tenants/{tenant_id}/customers/{customer_id}/contacts/{id}
+Customers line · putApiV1TenantsByTenantIdCustomersByCustomerIdContactsById</title>
+<circle cx="1304" cy="978" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="983" text-anchor="start" style="fill:#1A1F2C">Update contact</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-customers-api/#op-getApiV1TenantsByTenantIdCustomers" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCustomers"><title>GET /api/v1/tenants/{tenant_id}/customers
+Customers line · getApiV1TenantsByTenantIdCustomers</title>
+<circle cx="1040" cy="450" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1052" y="455" text-anchor="start" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-customers-api/#op-postApiV1TenantsByTenantIdCustomers" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdCustomers"><title>POST /api/v1/tenants/{tenant_id}/customers
+Customers line · postApiV1TenantsByTenantIdCustomers</title>
+<circle cx="1128" cy="538" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="543" text-anchor="start" style="fill:#1A1F2C">Create customer</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-customers-api/#op-getApiV1TenantsByTenantIdCustomersById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdCustomersById"><title>GET /api/v1/tenants/{tenant_id}/customers/{id}
+Customers line · getApiV1TenantsByTenantIdCustomersById</title>
+<circle cx="1216" cy="626" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1228" y="631" text-anchor="start" style="fill:#1A1F2C">Get customer</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-customers-api/#op-putApiV1TenantsByTenantIdCustomersById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdCustomersById"><title>PUT /api/v1/tenants/{tenant_id}/customers/{id}
+Customers line · putApiV1TenantsByTenantIdCustomersById</title>
+<circle cx="1304" cy="714" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="719" text-anchor="start" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-estimates-api/#op-putApiV1TenantsByTenantIdEstimatesByEstimateIdCannedJobsByCannedJobId" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdEstimatesByEstimateIdCannedJobsByCannedJobId"><title>PUT /api/v1/tenants/{tenant_id}/estimates/{estimate_id}/canned_jobs/{canned_job_id}
+Customers line · putApiV1TenantsByTenantIdEstimatesByEstimateIdCannedJobsByCannedJobId</title>
+<circle cx="1304" cy="1066" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1316" y="1071" text-anchor="start" style="fill:#1A1F2C">Update canned job</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-estimates-api/#op-deleteApiV1TenantsByTenantIdEstimatesByEstimateIdServicesByServiceId" target="_blank" class="st" data-op="deleteApiV1TenantsByTenantIdEstimatesByEstimateIdServicesByServiceId"><title>DELETE /api/v1/tenants/{tenant_id}/estimates/{estimate_id}/services/{service_id}
+Customers line · deleteApiV1TenantsByTenantIdEstimatesByEstimateIdServicesByServiceId</title>
+<circle cx="1216" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1212" y1="1158" x2="1220" y2="1150" stroke="#D6264F" stroke-width="2"/>
+<text x="1228" y="1159" text-anchor="start" style="fill:#1A1F2C">Delete service</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-gp-exceptions-api/#op-getApiV1TenantsByTenantIdGpExceptions" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdGpExceptions"><title>GET /api/v1/tenants/{tenant_id}/gp_exceptions
+Customers line · getApiV1TenantsByTenantIdGpExceptions</title>
+<circle cx="1128" cy="1242" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1140" y="1247" text-anchor="start" style="fill:#1A1F2C">List gp exceptions</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-gp-exceptions-api/#op-getApiV1TenantsByTenantIdGpExceptionsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdGpExceptionsById"><title>GET /api/v1/tenants/{tenant_id}/gp_exceptions/{id}
+Customers line · getApiV1TenantsByTenantIdGpExceptionsById</title>
+<circle cx="1040" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1052" y="1335" text-anchor="start" style="fill:#1A1F2C">Get gp exception</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-integrator-tags-api/#op-getApiV1TenantsByTenantIdIntegratorTags" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdIntegratorTags"><title>GET /api/v1/tenants/{tenant_id}/integrator_tags
+Integrator Tags line · getApiV1TenantsByTenantIdIntegratorTags</title>
+<circle cx="644" cy="494" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="632.0" y="499" text-anchor="end" style="fill:#1A1F2C">List integrator tags <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-integrator-tags-api/#op-postApiV1TenantsByTenantIdIntegratorTags" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdIntegratorTags"><title>POST /api/v1/tenants/{tenant_id}/integrator_tags
+Integrator Tags line · postApiV1TenantsByTenantIdIntegratorTags</title>
+<circle cx="688" cy="758" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="700" y="756" text-anchor="start" style="fill:#1A1F2C">Create<tspan x="700" dy="13">integrator tag</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-integrator-tags-api/#op-getApiV1TenantsByTenantIdIntegratorTagsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdIntegratorTagsById"><title>GET /api/v1/tenants/{tenant_id}/integrator_tags/{id}
+Integrator Tags line · getApiV1TenantsByTenantIdIntegratorTagsById</title>
+<circle cx="688" cy="802" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="700" y="807" text-anchor="start" style="fill:#1A1F2C">Get integrator tag</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-integrator-tags-api/#op-putApiV1TenantsByTenantIdIntegratorTagsById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdIntegratorTagsById"><title>PUT /api/v1/tenants/{tenant_id}/integrator_tags/{id}
+Integrator Tags line · putApiV1TenantsByTenantIdIntegratorTagsById</title>
+<circle cx="732" cy="846" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="744" y="844" text-anchor="start" style="fill:#1A1F2C">Update<tspan x="744" dy="13">integrator tag</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-integrator-tags-api/#op-deleteApiV1TenantsByTenantIdIntegratorTagsById" target="_blank" class="st" data-op="deleteApiV1TenantsByTenantIdIntegratorTagsById"><title>DELETE /api/v1/tenants/{tenant_id}/integrator_tags/{id}
+Integrator Tags line · deleteApiV1TenantsByTenantIdIntegratorTagsById</title>
+<circle cx="732" cy="934" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="728" y1="938" x2="736" y2="930" stroke="#7B3FE4" stroke-width="2"/>
+<text x="744" y="939" text-anchor="start" style="fill:#1A1F2C">Delete integrator tag</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-inventory-api/#op-getApiV1TenantsByTenantIdInventories" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdInventories"><title>GET /api/v1/tenants/{tenant_id}/inventories
+Inventories line · getApiV1TenantsByTenantIdInventories</title>
+<circle cx="600" cy="406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="609" y="396" text-anchor="start" style="fill:#1A1F2C">List inventories</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-inventory-api/#op-getApiV1TenantsByTenantIdInventoriesActiveRosPartsNetValue" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdInventoriesActiveRosPartsNetValue"><title>GET /api/v1/tenants/{tenant_id}/inventories/active_ros_parts_net_value
+Inventories line · getApiV1TenantsByTenantIdInventoriesActiveRosPartsNetValue</title>
+<circle cx="996" cy="582" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="996" y="618" text-anchor="middle" style="fill:#1A1F2C">Get active ros parts net value</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-inventory-api/#op-getApiV1TenantsByTenantIdInventoriesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdInventoriesById"><title>GET /api/v1/tenants/{tenant_id}/inventories/{id}
+Inventories line · getApiV1TenantsByTenantIdInventoriesById</title>
+<circle cx="820" cy="450" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="820" y="423" text-anchor="middle" style="fill:#1A1F2C">Get inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-inventory-api/#op-putApiV1TenantsByTenantIdInventoriesById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdInventoriesById"><title>PUT /api/v1/tenants/{tenant_id}/inventories/{id}
+Inventories line · putApiV1TenantsByTenantIdInventoriesById</title>
+<circle cx="908" cy="582" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="896.0" y="580" text-anchor="end" style="fill:#1A1F2C">Update<tspan x="896.0" dy="13">inventory</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-labels-api/#op-getApiV1TenantsByTenantIdLabels" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdLabels"><title>GET /api/v1/tenants/{tenant_id}/labels
+Customers line · getApiV1TenantsByTenantIdLabels</title>
+<circle cx="952" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="964" y="1423" text-anchor="start" style="fill:#1A1F2C">List labels</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-labels-api/#op-getApiV1TenantsByTenantIdLabelsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdLabelsById"><title>GET /api/v1/tenants/{tenant_id}/labels/{id}
+Customers line · getApiV1TenantsByTenantIdLabelsById</title>
+<circle cx="864" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="870" y="1406" transform="rotate(-45 870 1406)" style="fill:#1A1F2C">Get label</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-notes-api/#op-getApiV1TenantsByTenantIdNotes" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdNotes"><title>GET /api/v1/tenants/{tenant_id}/notes
+Notes line · getApiV1TenantsByTenantIdNotes</title>
+<circle cx="732" cy="538" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="720.0" y="543" text-anchor="end" style="fill:#1A1F2C">List notes <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-notes-api/#op-postApiV1TenantsByTenantIdNotes" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdNotes"><title>POST /api/v1/tenants/{tenant_id}/notes
+Notes line · postApiV1TenantsByTenantIdNotes</title>
+<circle cx="820" cy="670" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="811.0" y="660" text-anchor="end" style="fill:#1A1F2C">Create note</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-notes-api/#op-getApiV1TenantsByTenantIdNotesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdNotesById"><title>GET /api/v1/tenants/{tenant_id}/notes/{id}
+Notes line · getApiV1TenantsByTenantIdNotesById</title>
+<circle cx="908" cy="758" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="920" y="763" text-anchor="start" style="fill:#1A1F2C">Get note</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-notes-api/#op-putApiV1TenantsByTenantIdNotesById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdNotesById"><title>PUT /api/v1/tenants/{tenant_id}/notes/{id}
+Notes line · putApiV1TenantsByTenantIdNotesById</title>
+<circle cx="1040" cy="846" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1031.0" y="865" text-anchor="end" style="fill:#1A1F2C">Update note</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-past-recommendations-api/#op-getApiV1TenantsByTenantIdPastRecommendations" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPastRecommendations"><title>GET /api/v1/tenants/{tenant_id}/past_recommendations
+Customers line · getApiV1TenantsByTenantIdPastRecommendations</title>
+<circle cx="776" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="782" y="1406" transform="rotate(-45 782 1406)" style="fill:#1A1F2C">List past recommendations</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-past-recommendations-api/#op-getApiV1TenantsByTenantIdPastRecommendationsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPastRecommendationsById"><title>GET /api/v1/tenants/{tenant_id}/past_recommendations/{id}
+Customers line · getApiV1TenantsByTenantIdPastRecommendationsById</title>
+<circle cx="688" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="682" y="1430" text-anchor="end" transform="rotate(-45 682 1430)" style="fill:#1A1F2C">Get past recommendation</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-pay-rates-api/#op-getApiV1TenantsByTenantIdPayRates" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPayRates"><title>GET /api/v1/tenants/{tenant_id}/pay_rates
+Pay Rates line · getApiV1TenantsByTenantIdPayRates</title>
+<circle cx="732" cy="450" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="741" y="440" text-anchor="start" style="fill:#1A1F2C">List pay rates <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-pay-rates-api/#op-postApiV1TenantsByTenantIdPayRates" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdPayRates"><title>POST /api/v1/tenants/{tenant_id}/pay_rates
+Pay Rates line · postApiV1TenantsByTenantIdPayRates</title>
+<circle cx="820" cy="582" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="820" y="554" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="820" dy="13">pay rate</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-pay-rates-api/#op-putApiV1TenantsByTenantIdPayRates" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdPayRates"><title>PUT /api/v1/tenants/{tenant_id}/pay_rates
+Pay Rates line · putApiV1TenantsByTenantIdPayRates</title>
+<circle cx="908" cy="670" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="917" y="660" text-anchor="start" style="fill:#1A1F2C">Create pay rate</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-pay-rates-api/#op-getApiV1TenantsByTenantIdPayRatesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPayRatesById"><title>GET /api/v1/tenants/{tenant_id}/pay_rates/{id}
+Pay Rates line · getApiV1TenantsByTenantIdPayRatesById</title>
+<circle cx="1128" cy="670" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1140" y="675" text-anchor="start" style="fill:#1A1F2C">Get pay rate</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-pay-rates-api/#op-postApiV1TenantsByTenantIdPayRatesDelete" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdPayRatesDelete"><title>POST /api/v1/tenants/{tenant_id}/pay_rates/delete
+Pay Rates line · postApiV1TenantsByTenantIdPayRatesDelete</title>
+<circle cx="1128" cy="758" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1140" y="763" text-anchor="start" style="fill:#1A1F2C">Delete pay rate</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-payment-transactions-api/#op-getApiV1TenantsByTenantIdPaymentTransactions" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPaymentTransactions"><title>GET /api/v1/tenants/{tenant_id}/payment_transactions
+Customers line · getApiV1TenantsByTenantIdPaymentTransactions</title>
+<circle cx="600" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="606" y="1406" transform="rotate(-45 606 1406)" style="fill:#1A1F2C">List payment transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-payment-transactions-api/#op-getApiV1TenantsByTenantIdPaymentTransactionsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPaymentTransactionsById"><title>GET /api/v1/tenants/{tenant_id}/payment_transactions/{id}
+Customers line · getApiV1TenantsByTenantIdPaymentTransactionsById</title>
+<circle cx="512" cy="1418" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="500.0" y="1423" text-anchor="end" style="fill:#1A1F2C">Get payment transaction</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-payments-api/#op-getApiV1TenantsByTenantIdPaymentsCustomerPaymentTypes" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPaymentsCustomerPaymentTypes"><title>GET /api/v1/tenants/{tenant_id}/payments/customer_payment_types
+Payments line · getApiV1TenantsByTenantIdPaymentsCustomerPaymentTypes</title>
+<circle cx="336" cy="230" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="342" y="218" transform="rotate(-45 342 218)" style="fill:#1A1F2C">List customer payment types</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-payments-api/#op-getApiV1TenantsByTenantIdPayments" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPayments"><title>GET /api/v1/tenants/{tenant_id}/payments
+Payments line · getApiV1TenantsByTenantIdPayments</title>
+<circle cx="512" cy="230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="506" y="242" text-anchor="end" transform="rotate(-45 506 242)" style="fill:#1A1F2C">List payments <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-payments-api/#op-getApiV1TenantsByTenantIdPaymentsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPaymentsById"><title>GET /api/v1/tenants/{tenant_id}/payments/{id}
+Payments line · getApiV1TenantsByTenantIdPaymentsById</title>
+<circle cx="424" cy="230" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="430" y="218" transform="rotate(-45 430 218)" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-purchase-records-api/#op-getApiV1TenantsByTenantIdPurchaseRecords" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPurchaseRecords"><title>GET /api/v1/tenants/{tenant_id}/purchase_records
+Customers line · getApiV1TenantsByTenantIdPurchaseRecords</title>
+<circle cx="424" cy="1330" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="412.0" y="1335" text-anchor="end" style="fill:#1A1F2C">List purchase records</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-purchase-records-api/#op-getApiV1TenantsByTenantIdPurchaseRecordsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdPurchaseRecordsById"><title>GET /api/v1/tenants/{tenant_id}/purchase_records/{id}
+Customers line · getApiV1TenantsByTenantIdPurchaseRecordsById</title>
+<circle cx="336" cy="1242" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="348" y="1247" text-anchor="start" style="fill:#1A1F2C">Get purchase record</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-recommendations-api/#op-getApiV1TenantsByTenantIdRecommendations" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdRecommendations"><title>GET /api/v1/tenants/{tenant_id}/recommendations
+Recommendations line · getApiV1TenantsByTenantIdRecommendations</title>
+<circle cx="556" cy="538" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="550" y="550" text-anchor="end" transform="rotate(-45 550 550)" style="fill:#1A1F2C">List recommendations <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-recommendations-api/#op-postApiV1TenantsByTenantIdRecommendations" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdRecommendations"><title>POST /api/v1/tenants/{tenant_id}/recommendations
+Recommendations line · postApiV1TenantsByTenantIdRecommendations</title>
+<circle cx="600" cy="758" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="600" y="730" text-anchor="middle" style="fill:#1A1F2C">Create<tspan x="600" dy="13">recommendation</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-recommendations-api/#op-getApiV1TenantsByTenantIdRecommendationsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdRecommendationsById"><title>GET /api/v1/tenants/{tenant_id}/recommendations/{id}
+Recommendations line · getApiV1TenantsByTenantIdRecommendationsById</title>
+<circle cx="600" cy="802" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="588.0" y="807" text-anchor="end" style="fill:#1A1F2C">Get recommendation</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-recommendations-api/#op-putApiV1TenantsByTenantIdRecommendationsById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdRecommendationsById"><title>PUT /api/v1/tenants/{tenant_id}/recommendations/{id}
+Recommendations line · putApiV1TenantsByTenantIdRecommendationsById</title>
+<circle cx="600" cy="890" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="612" y="888" text-anchor="start" style="fill:#1A1F2C">Update<tspan x="612" dy="13">recommendation</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-repair-orders-api/#op-postApiV1TenantsByTenantIdRepairOrdersByIdStart" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdRepairOrdersByIdStart"><title>POST /api/v1/tenants/{tenant_id}/repair_orders/{id}/start
+Repair Orders line · postApiV1TenantsByTenantIdRepairOrdersByIdStart</title>
+<circle cx="292" cy="934" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="301" y="953" text-anchor="start" style="fill:#1A1F2C">Start tenants repair orders</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-repair-orders-api/#op-postApiV1TenantsByTenantIdRepairOrdersByIdShare" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdRepairOrdersByIdShare"><title>POST /api/v1/tenants/{tenant_id}/repair_orders/{id}/share
+Repair Orders line · postApiV1TenantsByTenantIdRepairOrdersByIdShare</title>
+<circle cx="380" cy="846" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="368.0" y="851" text-anchor="end" style="fill:#1A1F2C">Update share</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-repair-orders-api/#op-getApiV1TenantsByTenantIdRepairOrdersById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdRepairOrdersById"><title>GET /api/v1/tenants/{tenant_id}/repair_orders/{id}
+Repair Orders line · getApiV1TenantsByTenantIdRepairOrdersById</title>
+<circle cx="512" cy="450" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="512" y="472" text-anchor="middle" style="fill:#1A1F2C">Get repair<tspan x="512" dy="13">order <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-repair-orders-api/#op-putApiV1TenantsByTenantIdRepairOrdersById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdRepairOrdersById"><title>PUT /api/v1/tenants/{tenant_id}/repair_orders/{id}
+Repair Orders line · putApiV1TenantsByTenantIdRepairOrdersById</title>
+<circle cx="292" cy="670" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="304" y="675" text-anchor="start" style="fill:#1A1F2C">Update repair order</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-repair-orders-api/#op-getApiV2TenantsByTenantIdRepairOrders" target="_blank" class="st" data-op="getApiV2TenantsByTenantIdRepairOrders"><title>GET /api/v2/tenants/{tenant_id}/repair_orders
+Repair Orders line · getApiV2TenantsByTenantIdRepairOrders</title>
+<circle cx="336" cy="714" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="348" y="719" text-anchor="start" style="fill:#1A1F2C">List repair orders</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-repair-orders-api/#op-postApiV2TenantsByTenantIdRepairOrders" target="_blank" class="st" data-op="postApiV2TenantsByTenantIdRepairOrders"><title>POST /api/v2/tenants/{tenant_id}/repair_orders
+Repair Orders line · postApiV2TenantsByTenantIdRepairOrders</title>
+<circle cx="380" cy="758" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="368.0" y="763" text-anchor="end" style="fill:#1A1F2C">Create repair order</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-services-api/#op-getApiV1TenantsByTenantIdServices" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdServices"><title>GET /api/v1/tenants/{tenant_id}/services
+Services line · getApiV1TenantsByTenantIdServices</title>
+<circle cx="600" cy="274" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="612" y="279" text-anchor="start" style="fill:#1A1F2C">List services <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-services-api/#op-getApiV1TenantsByTenantIdServicesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdServicesById"><title>GET /api/v1/tenants/{tenant_id}/services/{id}
+Services line · getApiV1TenantsByTenantIdServicesById</title>
+<circle cx="468" cy="582" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="468" y="568" text-anchor="middle" style="fill:#1A1F2C">Get service</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-services-api/#op-putApiV1TenantsByTenantIdServicesById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdServicesById"><title>PUT /api/v1/tenants/{tenant_id}/services/{id}
+Services line · putApiV1TenantsByTenantIdServicesById</title>
+<circle cx="424" cy="626" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="412.0" y="631" text-anchor="end" style="fill:#1A1F2C">Update service</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-shift-clocks-api/#op-getApiV1TenantsByTenantIdTimeClocks" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdTimeClocks"><title>GET /api/v1/tenants/{tenant_id}/time_clocks
+Customers line · getApiV1TenantsByTenantIdTimeClocks</title>
+<circle cx="160" cy="802" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="807" text-anchor="start" style="fill:#1A1F2C">List time clocks</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-shops-api/#op-getApiV1TenantsByTenantIdShops" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdShops"><title>GET /api/v1/tenants/{tenant_id}/shops
+Customers line · getApiV1TenantsByTenantIdShops</title>
+<circle cx="248" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="260" y="1159" text-anchor="start" style="fill:#1A1F2C">List shops</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-shops-api/#op-getApiV1TenantsByTenantIdShopsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdShopsById"><title>GET /api/v1/tenants/{tenant_id}/shops/{id}
+Customers line · getApiV1TenantsByTenantIdShopsById</title>
+<circle cx="160" cy="1066" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="1071" text-anchor="start" style="fill:#1A1F2C">Get shop</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-members-api/#op-getApiV1TenantsByTenantIdStaffs" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdStaffs"><title>GET /api/v1/tenants/{tenant_id}/staffs
+Staffs line · getApiV1TenantsByTenantIdStaffs</title>
+<circle cx="688" cy="626" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="700" y="631" text-anchor="start" style="fill:#1A1F2C">List staffs <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-members-api/#op-postApiV1TenantsByTenantIdStaffs" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdStaffs"><title>POST /api/v1/tenants/{tenant_id}/staffs
+Staffs line · postApiV1TenantsByTenantIdStaffs</title>
+<circle cx="732" cy="670" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="720.0" y="675" text-anchor="end" style="fill:#1A1F2C">Create staff</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-members-api/#op-putApiV1TenantsByTenantIdStaffs" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdStaffs"><title>PUT /api/v1/tenants/{tenant_id}/staffs
+Staffs line · putApiV1TenantsByTenantIdStaffs</title>
+<circle cx="820" cy="802" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="832" y="807" text-anchor="start" style="fill:#1A1F2C">Create staff</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-members-api/#op-getApiV1TenantsByTenantIdStaffsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdStaffsById"><title>GET /api/v1/tenants/{tenant_id}/staffs/{id}
+Staffs line · getApiV1TenantsByTenantIdStaffsById</title>
+<circle cx="864" cy="846" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="876" y="851" text-anchor="start" style="fill:#1A1F2C">Get staff</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-members-api/#op-putApiV1TenantsByTenantIdStaffsById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdStaffsById"><title>PUT /api/v1/tenants/{tenant_id}/staffs/{id}
+Staffs line · putApiV1TenantsByTenantIdStaffsById</title>
+<circle cx="952" cy="934" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="964" y="939" text-anchor="start" style="fill:#1A1F2C">Update staff</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-members-api/#op-postApiV1TenantsByTenantIdStaffsNotification" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdStaffsNotification"><title>POST /api/v1/tenants/{tenant_id}/staffs/notification
+Staffs line · postApiV1TenantsByTenantIdStaffsNotification</title>
+<circle cx="996" cy="978" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1008" y="983" text-anchor="start" style="fill:#1A1F2C">Update notification</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-staff-shift-clocks-api/#op-getApiV1TenantsByTenantIdStaffsByStaffIdTimeClocks" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdStaffsByStaffIdTimeClocks"><title>GET /api/v1/tenants/{tenant_id}/staffs/{staff_id}/time_clocks
+Staffs line · getApiV1TenantsByTenantIdStaffsByStaffIdTimeClocks</title>
+<circle cx="1084" cy="1066" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1096" y="1071" text-anchor="start" style="fill:#1A1F2C">List time clocks</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-statuses-api/#op-getApiV1TenantsByTenantIdStatuses" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdStatuses"><title>GET /api/v1/tenants/{tenant_id}/statuses
+Customers line · getApiV1TenantsByTenantIdStatuses</title>
+<circle cx="160" cy="978" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="983" text-anchor="start" style="fill:#1A1F2C">List statuses</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-statuses-api/#op-getApiV1TenantsByTenantIdStatusesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdStatusesById"><title>GET /api/v1/tenants/{tenant_id}/statuses/{id}
+Customers line · getApiV1TenantsByTenantIdStatusesById</title>
+<circle cx="160" cy="890" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="895" text-anchor="start" style="fill:#1A1F2C">Get status</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-tenants-api/#op-getApiV1Tenants" target="_blank" class="st" data-op="getApiV1Tenants"><title>GET /api/v1/tenants
+Customers line · getApiV1Tenants</title>
+<circle cx="512" cy="362" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="500.0" y="367" text-anchor="end" style="fill:#1A1F2C">List tenants</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-tenants-api/#op-getApiV1TenantsById" target="_blank" class="st" data-op="getApiV1TenantsById"><title>GET /api/v1/tenants/{id}
+Customers line · getApiV1TenantsById</title>
+<circle cx="600" cy="362" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="606" y="350" transform="rotate(-45 606 350)" style="fill:#1A1F2C">Get tenant</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-vehicles-api/#op-getApiV1TenantsByTenantIdVehicles" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdVehicles"><title>GET /api/v1/tenants/{tenant_id}/vehicles
+Vehicles line · getApiV1TenantsByTenantIdVehicles</title>
+<circle cx="688" cy="230" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="700" y="235" text-anchor="start" style="fill:#1A1F2C">List vehicles <tspan font-weight="700" style="fill:#D6264F">⇄CUS</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-vehicles-api/#op-postApiV1TenantsByTenantIdVehicles" target="_blank" class="st" data-op="postApiV1TenantsByTenantIdVehicles"><title>POST /api/v1/tenants/{tenant_id}/vehicles
+Vehicles line · postApiV1TenantsByTenantIdVehicles</title>
+<circle cx="732" cy="274" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="744" y="279" text-anchor="start" style="fill:#1A1F2C">Create vehicle</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-vehicles-api/#op-getApiV1TenantsByTenantIdVehiclesById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdVehiclesById"><title>GET /api/v1/tenants/{tenant_id}/vehicles/{id}
+Vehicles line · getApiV1TenantsByTenantIdVehiclesById</title>
+<circle cx="908" cy="450" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="920" y="455" text-anchor="start" style="fill:#1A1F2C">Get vehicle</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-vehicles-api/#op-putApiV1TenantsByTenantIdVehiclesById" target="_blank" class="st" data-op="putApiV1TenantsByTenantIdVehiclesById"><title>PUT /api/v1/tenants/{tenant_id}/vehicles/{id}
+Vehicles line · putApiV1TenantsByTenantIdVehiclesById</title>
+<circle cx="952" cy="494" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="964" y="499" text-anchor="start" style="fill:#1A1F2C">Update vehicle</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-vendors-api/#op-getApiV1TenantsByTenantIdVendors" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdVendors"><title>GET /api/v1/tenants/{tenant_id}/vendors
+Customers line · getApiV1TenantsByTenantIdVendors</title>
+<circle cx="160" cy="714" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="172" y="719" text-anchor="start" style="fill:#1A1F2C">List vendors</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-vendors-api/#op-getApiV1TenantsByTenantIdVendorsById" target="_blank" class="st" data-op="getApiV1TenantsByTenantIdVendorsById"><title>GET /api/v1/tenants/{tenant_id}/vendors/{id}
+Customers line · getApiV1TenantsByTenantIdVendorsById</title>
+<circle cx="248" cy="626" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="260" y="631" text-anchor="start" style="fill:#1A1F2C">Get vendor</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-webhooks-api/#op-getApiV1Webhooks" target="_blank" class="st" data-op="getApiV1Webhooks"><title>GET /api/v1/webhooks
+Webhooks line · getApiV1Webhooks</title>
+<circle cx="556" cy="1286" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="568" y="1291" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-webhooks-api/#op-postApiV1Webhooks" target="_blank" class="st" data-op="postApiV1Webhooks"><title>POST /api/v1/webhooks
+Webhooks line · postApiV1Webhooks</title>
+<circle cx="556" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="544.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-webhooks-api/#op-getApiV1WebhooksById" target="_blank" class="st" data-op="getApiV1WebhooksById"><title>GET /api/v1/webhooks/{id}
+Webhooks line · getApiV1WebhooksById</title>
+<circle cx="644" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="656" y="1159" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-webhooks-api/#op-putApiV1WebhooksById" target="_blank" class="st" data-op="putApiV1WebhooksById"><title>PUT /api/v1/webhooks/{id}
+Webhooks line · putApiV1WebhooksById</title>
+<circle cx="688" cy="1198" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="700" y="1203" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/shop-ware/shop-ware-webhooks-api/#op-deleteApiV1WebhooksById" target="_blank" class="st" data-op="deleteApiV1WebhooksById"><title>DELETE /api/v1/webhooks/{id}
+Webhooks line · deleteApiV1WebhooksById</title>
+<circle cx="776" cy="1286" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="772" y1="1290" x2="780" y2="1282" stroke="#0B7A75" stroke-width="2"/>
+<text x="788" y="1291" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<text x="1494" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1494" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SHOP WARE</text>
+<rect x="1494" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1511" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CUS</text><text x="1536" y="269" font-size="11" fill="#1A1F2C">Customers <tspan fill="#8A93A6">34</tspan></text>
+<rect x="1494" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1511" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STA</text><text x="1536" y="286" font-size="11" fill="#1A1F2C">Staffs <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1494" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1511" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RO</text><text x="1536" y="303" font-size="11" fill="#1A1F2C">Repair Orders <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1494" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1511" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="1536" y="320" font-size="11" fill="#1A1F2C">Appointments <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1494" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1511" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">IT</text><text x="1536" y="337" font-size="11" fill="#1A1F2C">Integrator Tags <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1494" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="1511" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PR</text><text x="1536" y="354" font-size="11" fill="#1A1F2C">Pay Rates <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1494" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1511" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="1536" y="371" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1494" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="1511" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="1536" y="388" font-size="11" fill="#1A1F2C">Inventories <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1494" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="1511" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NOT</text><text x="1536" y="405" font-size="11" fill="#1A1F2C">Notes <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1494" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1511" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REC</text><text x="1536" y="422" font-size="11" fill="#1A1F2C">Recommendations <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1494" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1511" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VEH</text><text x="1536" y="439" font-size="11" fill="#1A1F2C">Vehicles <tspan fill="#8A93A6">4</tspan></text>
+<rect x="1494" y="446" width="34" height="13" rx="3" fill="#00838F"/><text x="1511" y="456" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="1536" y="456" font-size="11" fill="#1A1F2C">Payments <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1494" y="463" width="34" height="13" rx="3" fill="#8D6E63"/><text x="1511" y="473" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SER</text><text x="1536" y="473" font-size="11" fill="#1A1F2C">Services <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1494" y="480" width="34" height="13" rx="3" fill="#4A5568"/><text x="1511" y="490" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAR</text><text x="1536" y="490" font-size="11" fill="#1A1F2C">Partners <tspan fill="#8A93A6">1</tspan></text>
+<text x="1744" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1762,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1788" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1762,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1788" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1762,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1788" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1762,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1788" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1762,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1788" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1762,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1788" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1762,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1788" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1762,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1788" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1744" y="458" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1744" y="475" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1548" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/shop-ware/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

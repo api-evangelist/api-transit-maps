@@ -1,0 +1,912 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3632 2406" width="3632" height="2406" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3632" height="2406" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Swell-Io API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">135 operations as stops · 22 tags as lines · 6 interchanges · 13 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path d="M1756.0,1784.0 L1616.3,1644.3 Q1588.0,1616.0 1588.0,1576.0 L1588.0,1364.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1610.0" y="1562.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1672.0" y="1578.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Account ⇄ Orders</title>1 interchange</text></g>
+<path d="M1462.0,1616.0 L1238.3,1392.3 Q1210.0,1364.0 1170.0,1364.0 L664.0,1364.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1001.0" y="1478.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1063.0" y="1494.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>More ⇄ Payments</title>1 interchange</text></g>
+<path d="M1252.0,2246.0 L1433.7,2064.3 Q1462.0,2036.0 1462.0,1996.0 L1462.0,1448.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="1295.0" y="1835.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="1357.0" y="1851.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Pages ⇄ Payments</title>1 interchange</text></g>
+<path d="M2596.0,1154.0 L2414.3,1335.7 Q2386.0,1364.0 2346.0,1364.0 L1588.0,1364.0" fill="none" stroke="#DCE0E7" stroke-width="4" stroke-dasharray="12 10" stroke-linecap="round"/>
+<g><rect x="2030.0" y="1247.0" width="124" height="24" rx="12" fill="#fff" stroke="#C3C8D2" stroke-width="1.5"/><text x="2092.0" y="1263.0" text-anchor="middle" font-size="11" fill="#5A6275"><title>Account ⇄ Subscriptions</title>1 interchange</text></g>
+<text x="1858.0" y="1042" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">ACCOUNT</text>
+<text x="2576.909090909091" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">ACCOUNTS</text>
+<text x="1332.1818181818182" y="1630" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">PAGES</text>
+<text x="2474.6666666666665" y="1336" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">CART</text>
+<text x="2312.5" y="1084" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">SUBSCRIPTIONS</text>
+<text x="1942.0" y="1294" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">ORDERS</text>
+<text x="2692.0" y="1294" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">PRODUCTS</text>
+<text x="2020.0" y="622" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">CATEGORIES</text>
+<text x="1546.0" y="748" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">COUPONS</text>
+<text x="1882.0" y="832" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">VARIANTS</text>
+<text x="1445.2" y="1210" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">PAYMENTS</text>
+<text x="694.8" y="538" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE</text>
+<line x1="1588" y1="1406" x2="1588" y2="1364" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1588" y1="1406" x2="1588" y2="1364" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="Accounts" d="M2722.0,230.0 L2722.0,314.0 L2722.0,384.0 Q2722.0,398.0 2712.1,407.9 L2689.9,430.1 Q2680.0,440.0 2680.0,454.0 L2680.0,594.0 Q2680.0,608.0 2670.1,617.9 L2638.0,650.0 L2596.0,692.0 L2512.0,776.0 L2479.9,808.1 Q2470.0,818.0 2456.0,818.0 L2344.0,818.0 L2260.0,818.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Accounts</title></path>
+<path class="line" data-line="Account" d="M1588.0,1364.0 L1672.0,1280.0 L1756.0,1196.0 L1788.1,1163.9 Q1798.0,1154.0 1812.0,1154.0 L1868.0,1154.0 Q1882.0,1154.0 1891.9,1163.9 L1956.1,1228.1 Q1966.0,1238.0 1980.0,1238.0 L2036.0,1238.0 Q2050.0,1238.0 2059.9,1228.1 L2166.1,1121.9 Q2176.0,1112.0 2190.0,1112.0 L2260.0,1112.0 L2344.0,1112.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account</title></path>
+<path class="line" data-line="Account Session" d="M1588.0,1406.0 L1588.0,1476.0 Q1588.0,1490.0 1597.9,1499.9 L1630.0,1532.0 L1714.0,1616.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Account Session</title></path>
+<path class="line" data-line="Attributes" d="M1210.0,1196.0 L1210.0,1280.0 L1210.0,1364.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Attributes</title></path>
+<path class="line" data-line="Cart" d="M2764.0,1910.0 L2680.0,1910.0 L2610.0,1910.0 Q2596.0,1910.0 2586.1,1900.1 L2512.0,1826.0 L2428.0,1742.0 L2386.0,1700.0 L2311.9,1625.9 Q2302.0,1616.0 2302.0,1602.0 L2302.0,1532.0 L2302.0,1406.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Cart</title></path>
+<path class="line" data-line="Carts" d="M832.0,650.0 L748.0,734.0 L715.9,766.1 Q706.0,776.0 696.1,766.1 L673.9,743.9 Q664.0,734.0 664.0,720.0 L664.0,608.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Carts</title></path>
+<path class="line" data-line="Categories" d="M2134.0,944.0 L2134.0,860.0 L2134.0,748.0 Q2134.0,734.0 2124.1,724.1 L2101.9,701.9 Q2092.0,692.0 2078.0,692.0 L1966.0,692.0 L1882.0,692.0 L1798.0,692.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Categories</title></path>
+<path class="line" data-line="Content" d="M1084.0,1994.0 L1168.0,1994.0 L1252.0,1994.0 L1322.0,1994.0 Q1336.0,1994.0 1345.9,1984.1 L1420.0,1910.0 L1462.0,1868.0 L1546.0,1784.0 L1630.0,1700.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Content</title></path>
+<path class="line" data-line="Coupons" d="M1546.0,818.0 L1546.0,902.0 L1546.0,986.0 L1546.0,1070.0 L1546.0,1154.0 L1546.0,1238.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Coupons</title></path>
+<path class="line" data-line="Gift Cards" d="M202.0,902.0 L286.0,902.0 L398.0,902.0 Q412.0,902.0 412.0,888.0 L412.0,818.0 L412.0,734.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Gift Cards</title></path>
+<path class="line" data-line="Invoices" d="M1168.0,1028.0 L1084.0,1112.0 L1000.0,1196.0 L958.0,1238.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Invoices</title></path>
+<path class="line" data-line="Orders" d="M1756.0,1784.0 L1830.1,1709.9 Q1840.0,1700.0 1854.0,1700.0 L1868.0,1700.0 Q1882.0,1700.0 1891.9,1690.1 L1966.0,1616.0 L2040.1,1541.9 Q2050.0,1532.0 2050.0,1518.0 L2050.0,1448.0 L2050.0,1364.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Orders</title></path>
+<path class="line" data-line="Payments" d="M1378.0,1280.0 L1452.1,1354.1 Q1462.0,1364.0 1462.0,1378.0 L1462.0,1448.0 L1462.0,1532.0 L1462.0,1616.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Payments</title></path>
+<path class="line" data-line="Products" d="M2428.0,1448.0 L2512.0,1448.0 L2596.0,1448.0 L2708.0,1448.0 Q2722.0,1448.0 2731.9,1438.1 L2796.1,1373.9 Q2806.0,1364.0 2820.0,1364.0 L2848.0,1364.0 L2932.0,1364.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Products</title></path>
+<path class="line" data-line="Promotions" d="M202.0,1406.0 L276.1,1331.9 Q286.0,1322.0 286.0,1308.0 L286.0,1252.0 Q286.0,1238.0 276.1,1228.1 L244.0,1196.0 L160.0,1112.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Promotions</title></path>
+<path class="line" data-line="Returns" d="M916.0,1826.0 L832.0,1742.0 L748.0,1658.0 L664.0,1574.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Returns</title></path>
+<path class="line" data-line="Shipments" d="M1126.0,1742.0 L1126.0,1658.0 L1126.0,1574.0 L1126.0,1490.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Shipments</title></path>
+<path class="line" data-line="Store" d="M1252.0,2078.0 L1252.0,2162.0 L1252.0,2246.0" fill="none" stroke="#1d33a9" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Store</title></path>
+<path class="line" data-line="Subscriptions" d="M2596.0,1154.0 L2484.0,1154.0 Q2470.0,1154.0 2460.1,1163.9 L2395.9,1228.1 Q2386.0,1238.0 2372.0,1238.0 L2302.0,1238.0 L2232.0,1238.0 Q2218.0,1238.0 2208.1,1247.9 L2185.9,1270.1 Q2176.0,1280.0 2176.0,1294.0 L2176.0,1364.0 L2176.0,1448.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Subscriptions</title></path>
+<path class="line" data-line="Variants" d="M1714.0,902.0 L1798.0,902.0 L1868.0,902.0 Q1882.0,902.0 1891.9,911.9 L1966.0,986.0 L2050.0,1070.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Variants</title></path>
+<path class="line" data-line="Webhooks" d="M580.0,1658.0 L496.0,1574.0 L454.0,1532.0 L412.0,1490.0 L370.0,1448.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="More Local" d="M538.0,986.0 L538.0,1070.0 L538.0,1154.0 L538.0,1224.0 Q538.0,1238.0 547.9,1247.9 L622.0,1322.0 L654.1,1354.1 Q664.0,1364.0 678.0,1364.0 L748.0,1364.0 L832.0,1364.0 L916.0,1364.0 L1000.0,1364.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="2722" y1="230" x2="2722.0" y2="196.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2698.0" y="185.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Accounts</title></rect><text x="2722.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="2260" y1="818" x2="2226.0" y2="818.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2202.0" y="807.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Accounts</title></rect><text x="2226.0" y="823.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACC</text>
+<line x1="1588" y1="1364" x2="1563.9583694396574" y2="1388.0416305603426" stroke="#D6264F" stroke-width="7"/><rect x="1539.9583694396574" y="1377.0416305603426" width="48" height="22" rx="5" fill="#D6264F"><title>Account</title></rect><text x="1563.9583694396574" y="1393.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACCO</text>
+<line x1="2344" y1="1112" x2="2378.0" y2="1112.0" stroke="#D6264F" stroke-width="7"/><rect x="2354.0" y="1101.0" width="48" height="22" rx="5" fill="#D6264F"><title>Account</title></rect><text x="2378.0" y="1117.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ACCO</text>
+<line x1="1588" y1="1406" x2="1588.0" y2="1334.0" stroke="#af2328" stroke-width="7"/><rect x="1564.0" y="1323.0" width="48" height="22" rx="5" fill="#af2328"><title>Account Session</title></rect><text x="1588.0" y="1339.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="1714" y1="1616" x2="1738.0416305603426" y2="1640.0416305603426" stroke="#af2328" stroke-width="7"/><rect x="1714.0416305603426" y="1629.0416305603426" width="48" height="22" rx="5" fill="#af2328"><title>Account Session</title></rect><text x="1738.0416305603426" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AS</text>
+<line x1="1210" y1="1196" x2="1210.0" y2="1162.0" stroke="#8D6E63" stroke-width="7"/><rect x="1186.0" y="1151.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Attributes</title></rect><text x="1210.0" y="1167.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ATT</text>
+<line x1="1210" y1="1364" x2="1210.0" y2="1398.0" stroke="#8D6E63" stroke-width="7"/><rect x="1186.0" y="1387.0" width="48" height="22" rx="5" fill="#8D6E63"><title>Attributes</title></rect><text x="1210.0" y="1403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ATT</text>
+<line x1="2764" y1="1910" x2="2798.0" y2="1910.0" stroke="#E07B12" stroke-width="7"/><rect x="2774.0" y="1899.0" width="48" height="22" rx="5" fill="#E07B12"><title>Cart</title></rect><text x="2798.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAR</text>
+<line x1="2302" y1="1406" x2="2302.0" y2="1372.0" stroke="#E07B12" stroke-width="7"/><rect x="2278.0" y="1361.0" width="48" height="22" rx="5" fill="#E07B12"><title>Cart</title></rect><text x="2302.0" y="1377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAR</text>
+<line x1="832" y1="650" x2="856.0416305603426" y2="625.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="832.0416305603426" y="614.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Carts</title></rect><text x="856.0416305603426" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRT</text>
+<line x1="664" y1="608" x2="664.0" y2="574.0" stroke="#B0287F" stroke-width="7"/><rect x="640.0" y="563.0" width="48" height="22" rx="5" fill="#B0287F"><title>Carts</title></rect><text x="664.0" y="579.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CRT</text>
+<line x1="2134" y1="944" x2="2134.0" y2="978.0" stroke="#B8860B" stroke-width="7"/><rect x="2110.0" y="967.0" width="48" height="22" rx="5" fill="#B8860B"><title>Categories</title></rect><text x="2134.0" y="983.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAT</text>
+<line x1="1798" y1="692" x2="1764.0" y2="692.0" stroke="#B8860B" stroke-width="7"/><rect x="1740.0" y="681.0" width="48" height="22" rx="5" fill="#B8860B"><title>Categories</title></rect><text x="1764.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAT</text>
+<line x1="1084" y1="1994" x2="1050.0" y2="1994.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1026.0" y="1983.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Content</title></rect><text x="1050.0" y="1999.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1630" y1="1700" x2="1654.0416305603426" y2="1675.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1630.0416305603426" y="1664.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Content</title></rect><text x="1654.0416305603426" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CON</text>
+<line x1="1546" y1="818" x2="1546.0" y2="784.0" stroke="#C2410C" stroke-width="7"/><rect x="1522.0" y="773.0" width="48" height="22" rx="5" fill="#C2410C"><title>Coupons</title></rect><text x="1546.0" y="789.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COU</text>
+<line x1="1546" y1="1238" x2="1546.0" y2="1272.0" stroke="#C2410C" stroke-width="7"/><rect x="1522.0" y="1261.0" width="48" height="22" rx="5" fill="#C2410C"><title>Coupons</title></rect><text x="1546.0" y="1277.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">COU</text>
+<line x1="202" y1="902" x2="168.0" y2="902.0" stroke="#5C6BC0" stroke-width="7"/><rect x="144.0" y="891.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Gift Cards</title></rect><text x="168.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GC</text>
+<line x1="412" y1="734" x2="412.0" y2="700.0" stroke="#5C6BC0" stroke-width="7"/><rect x="388.0" y="689.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Gift Cards</title></rect><text x="412.0" y="705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">GC</text>
+<line x1="1168" y1="1028" x2="1192.0416305603426" y2="1003.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="1168.0416305603426" y="992.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>Invoices</title></rect><text x="1192.0416305603426" y="1008.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="958" y1="1238" x2="933.9583694396574" y2="1262.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="909.9583694396574" y="1251.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>Invoices</title></rect><text x="933.9583694396574" y="1267.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">INV</text>
+<line x1="1756" y1="1784" x2="1731.9583694396574" y2="1808.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="1707.9583694396574" y="1797.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>Orders</title></rect><text x="1731.9583694396574" y="1813.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="2050" y1="1364" x2="2050.0" y2="1330.0" stroke="#B0287F" stroke-width="7"/><rect x="2026.0" y="1319.0" width="48" height="22" rx="5" fill="#B0287F"><title>Orders</title></rect><text x="2050.0" y="1335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ORD</text>
+<line x1="1378" y1="1280" x2="1353.9583694396574" y2="1255.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1329.9583694396574" y="1244.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Payments</title></rect><text x="1353.9583694396574" y="1260.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="1462" y1="1616" x2="1462.0" y2="1650.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1438.0" y="1639.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Payments</title></rect><text x="1462.0" y="1655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAY</text>
+<line x1="2428" y1="1448" x2="2394.0" y2="1448.0" stroke="#0B7A75" stroke-width="7"/><rect x="2370.0" y="1437.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Products</title></rect><text x="2394.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="2932" y1="1364" x2="2966.0" y2="1364.0" stroke="#0B7A75" stroke-width="7"/><rect x="2942.0" y="1353.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Products</title></rect><text x="2966.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRO</text>
+<line x1="202" y1="1406" x2="177.9583694396574" y2="1430.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="153.9583694396574" y="1419.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Promotions</title></rect><text x="177.9583694396574" y="1435.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRM</text>
+<line x1="160" y1="1112" x2="135.9583694396574" y2="1087.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="111.95836943965739" y="1076.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Promotions</title></rect><text x="135.9583694396574" y="1092.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PRM</text>
+<line x1="916" y1="1826" x2="940.0416305603426" y2="1850.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="916.0416305603426" y="1839.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Returns</title></rect><text x="940.0416305603426" y="1855.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RET</text>
+<line x1="664" y1="1574" x2="639.9583694396574" y2="1549.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="615.9583694396574" y="1538.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Returns</title></rect><text x="639.9583694396574" y="1554.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RET</text>
+<line x1="1126" y1="1742" x2="1126.0" y2="1776.0" stroke="#B8860B" stroke-width="7"/><rect x="1102.0" y="1765.0" width="48" height="22" rx="5" fill="#B8860B"><title>Shipments</title></rect><text x="1126.0" y="1781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHI</text>
+<line x1="1126" y1="1490" x2="1126.0" y2="1456.0" stroke="#B8860B" stroke-width="7"/><rect x="1102.0" y="1445.0" width="48" height="22" rx="5" fill="#B8860B"><title>Shipments</title></rect><text x="1126.0" y="1461.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SHI</text>
+<line x1="1252" y1="2078" x2="1252.0" y2="2044.0" stroke="#1d33a9" stroke-width="7"/><rect x="1228.0" y="2033.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Store</title></rect><text x="1252.0" y="2049.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="1252" y1="2246" x2="1252.0" y2="2280.0" stroke="#1d33a9" stroke-width="7"/><rect x="1228.0" y="2269.0" width="48" height="22" rx="5" fill="#1d33a9"><title>Store</title></rect><text x="1252.0" y="2285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="2596" y1="1154" x2="2630.0" y2="1154.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2606.0" y="1143.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Subscriptions</title></rect><text x="2630.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="2176" y1="1448" x2="2176.0" y2="1482.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2152.0" y="1471.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Subscriptions</title></rect><text x="2176.0" y="1487.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUB</text>
+<line x1="1714" y1="902" x2="1680.0" y2="902.0" stroke="#2E7D32" stroke-width="7"/><rect x="1656.0" y="891.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Variants</title></rect><text x="1680.0" y="907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VAR</text>
+<line x1="2050" y1="1070" x2="2074.0416305603426" y2="1094.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="2050.0416305603426" y="1083.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Variants</title></rect><text x="2074.0416305603426" y="1099.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VAR</text>
+<line x1="580" y1="1658" x2="604.0416305603426" y2="1682.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="580.0416305603426" y="1671.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>Webhooks</title></rect><text x="604.0416305603426" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="370" y1="1448" x2="345.95836943965736" y2="1423.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="321.95836943965736" y="1412.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>Webhooks</title></rect><text x="345.95836943965736" y="1428.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="538" y1="986" x2="538.0" y2="952.0" stroke="#D6264F" stroke-width="7"/><rect x="514.0" y="941.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="538.0" y="957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="1000" y1="1364" x2="1034.0" y2="1364.0" stroke="#D6264F" stroke-width="7"/><rect x="1010.0" y="1353.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="1034.0" y="1369.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-addresses-api/#op-listAccountAddresses" target="_blank" class="st" data-op="listAccountAddresses"><title>GET /accounts/{id}/addresses
+Accounts line · listAccountAddresses</title>
+<circle cx="2638" cy="650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2650" y="655" text-anchor="start" style="fill:#1A1F2C">List addresses</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-addresses-api/#op-createAccountAddress" target="_blank" class="st" data-op="createAccountAddress"><title>POST /accounts/{id}/addresses
+Accounts line · createAccountAddress</title>
+<circle cx="2596" cy="692" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2608" y="697" text-anchor="start" style="fill:#1A1F2C">Create address</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendGetAccount" target="_blank" class="st" data-op="frontendGetAccount"><title>GET /api/account
+Account line · frontendGetAccount</title>
+<circle cx="1588" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1600" y="1369" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendUpdateAccount" target="_blank" class="st" data-op="frontendUpdateAccount"><title>PUT /api/account
+Account line · frontendUpdateAccount</title>
+<circle cx="1756" cy="1196" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1768" y="1201" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendCreateAccount" target="_blank" class="st" data-op="frontendCreateAccount"><title>POST /api/account
+Account line · frontendCreateAccount
+Express: X12</title>
+<circle cx="1672" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<rect x="1669" y="1277" width="6" height="6" transform="rotate(45 1672 1280)" fill="#1A1F2C"/>
+<text x="1684" y="1285" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendListAccountAddresses" target="_blank" class="st" data-op="frontendListAccountAddresses"><title>GET /api/account/addresses
+Account line · frontendListAccountAddresses</title>
+<circle cx="1798" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1786.0" y="1159" text-anchor="end" style="fill:#1A1F2C">List addresses</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendCreateAccountAddress" target="_blank" class="st" data-op="frontendCreateAccountAddress"><title>POST /api/account/addresses
+Account line · frontendCreateAccountAddress</title>
+<circle cx="1882" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1894" y="1159" text-anchor="start" style="fill:#1A1F2C">Create address</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendUpdateAccountAddress" target="_blank" class="st" data-op="frontendUpdateAccountAddress"><title>PUT /api/account/addresses/{id}
+Account line · frontendUpdateAccountAddress</title>
+<circle cx="1966" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1954.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Update address</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendDeleteAccountAddress" target="_blank" class="st" data-op="frontendDeleteAccountAddress"><title>DELETE /api/account/addresses/{id}
+Account line · frontendDeleteAccountAddress</title>
+<circle cx="2050" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2046" y1="1242" x2="2054" y2="1234" stroke="#D6264F" stroke-width="2"/>
+<text x="2041.0" y="1257" text-anchor="end" style="fill:#1A1F2C">Delete address</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendListAccountCards" target="_blank" class="st" data-op="frontendListAccountCards"><title>GET /api/account/cards
+Account line · frontendListAccountCards</title>
+<circle cx="2176" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2164.0" y="1117" text-anchor="end" style="fill:#1A1F2C">List cards</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendCreateAccountCard" target="_blank" class="st" data-op="frontendCreateAccountCard"><title>POST /api/account/cards
+Account line · frontendCreateAccountCard</title>
+<circle cx="2260" cy="1112" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="2266" y="1100" transform="rotate(-45 2266 1100)" style="fill:#1A1F2C">Create card</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-api/#op-frontendDeleteAccountCard" target="_blank" class="st" data-op="frontendDeleteAccountCard"><title>DELETE /api/account/cards/{id}
+Account line · frontendDeleteAccountCard</title>
+<circle cx="2344" cy="1112" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="2340" y1="1116" x2="2348" y2="1108" stroke="#D6264F" stroke-width="2"/>
+<text x="2338" y="1124" text-anchor="end" transform="rotate(-45 2338 1124)" style="fill:#1A1F2C">Delete card</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-cards-api/#op-listAccountCards" target="_blank" class="st" data-op="listAccountCards"><title>GET /accounts/{id}/cards
+Accounts line · listAccountCards</title>
+<circle cx="2512" cy="776" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2524" y="781" text-anchor="start" style="fill:#1A1F2C">List cards</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-cards-api/#op-createAccountCard" target="_blank" class="st" data-op="createAccountCard"><title>POST /accounts/{id}/cards
+Accounts line · createAccountCard</title>
+<circle cx="2470" cy="818" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2482" y="823" text-anchor="start" style="fill:#1A1F2C">Create card</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-credits-api/#op-listAccountCredits" target="_blank" class="st" data-op="listAccountCredits"><title>GET /accounts/{id}/credits
+Accounts line · listAccountCredits</title>
+<circle cx="2344" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2350" y="806" transform="rotate(-45 2350 806)" style="fill:#1A1F2C">List credits</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-credits-api/#op-createAccountCredit" target="_blank" class="st" data-op="createAccountCredit"><title>POST /accounts/{id}/credits
+Accounts line · createAccountCredit</title>
+<circle cx="2260" cy="818" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2266" y="806" transform="rotate(-45 2266 806)" style="fill:#1A1F2C">Create credit</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-session-api/#op-frontendAccountLogin" target="_blank" class="st" data-op="frontendAccountLogin"><title>POST /api/account/login
+Account Session line · frontendAccountLogin
+Express: X12</title>
+<circle cx="1588" cy="1406" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="1585" y="1403" width="6" height="6" transform="rotate(45 1588 1406)" fill="#1A1F2C"/>
+<text x="1600" y="1411" text-anchor="start" style="fill:#1A1F2C">Update login</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-session-api/#op-frontendAccountLogout" target="_blank" class="st" data-op="frontendAccountLogout"><title>POST /api/account/logout
+Account Session line · frontendAccountLogout</title>
+<circle cx="1588" cy="1490" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1600" y="1495" text-anchor="start" style="fill:#1A1F2C">Update logout</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-session-api/#op-frontendAccountRecover" target="_blank" class="st" data-op="frontendAccountRecover"><title>POST /api/account/recover
+Account Session line · frontendAccountRecover</title>
+<circle cx="1630" cy="1532" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1642" y="1537" text-anchor="start" style="fill:#1A1F2C">Update recover</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-account-session-api/#op-frontendAccountResetPassword" target="_blank" class="st" data-op="frontendAccountResetPassword"><title>PUT /api/account/recover/{key}
+Account Session line · frontendAccountResetPassword</title>
+<circle cx="1714" cy="1616" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="1726" y="1621" text-anchor="start" style="fill:#1A1F2C">Update recover</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-accounts-api/#op-listAccounts" target="_blank" class="st" data-op="listAccounts"><title>GET /accounts
+Accounts line · listAccounts
+Express: X8</title>
+<circle cx="2722" cy="230" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="2719" y="227" width="6" height="6" transform="rotate(45 2722 230)" fill="#1A1F2C"/>
+<text x="2734" y="235" text-anchor="start" style="fill:#1A1F2C">List accounts</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-accounts-api/#op-createAccount" target="_blank" class="st" data-op="createAccount"><title>POST /accounts
+Accounts line · createAccount
+Express: X8, X9</title>
+<circle cx="2722" cy="314" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<rect x="2719" y="311" width="6" height="6" transform="rotate(45 2722 314)" fill="#1A1F2C"/>
+<text x="2734" y="319" text-anchor="start" style="fill:#1A1F2C">Create account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-accounts-api/#op-getAccount" target="_blank" class="st" data-op="getAccount"><title>GET /accounts/{id}
+Accounts line · getAccount</title>
+<circle cx="2722" cy="398" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2734" y="403" text-anchor="start" style="fill:#1A1F2C">Get account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-accounts-api/#op-updateAccount" target="_blank" class="st" data-op="updateAccount"><title>PUT /accounts/{id}
+Accounts line · updateAccount</title>
+<circle cx="2680" cy="440" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2692" y="445" text-anchor="start" style="fill:#1A1F2C">Update account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-accounts-api/#op-deleteAccount" target="_blank" class="st" data-op="deleteAccount"><title>DELETE /accounts/{id}
+Accounts line · deleteAccount</title>
+<circle cx="2680" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="2676" y1="612" x2="2684" y2="604" stroke="#0E9F6E" stroke-width="2"/>
+<text x="2692" y="613" text-anchor="start" style="fill:#1A1F2C">Delete account</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-attributes-api/#op-listAttributes" target="_blank" class="st" data-op="listAttributes"><title>GET /attributes
+Attributes line · listAttributes</title>
+<circle cx="1210" cy="1280" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1222" y="1285" text-anchor="start" style="fill:#1A1F2C">List attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-attributes-api/#op-createAttribute" target="_blank" class="st" data-op="createAttribute"><title>POST /attributes
+Attributes line · createAttribute</title>
+<circle cx="1210" cy="1364" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1222" y="1369" text-anchor="start" style="fill:#1A1F2C">Create attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-attributes-api/#op-frontendListAttributes" target="_blank" class="st" data-op="frontendListAttributes"><title>GET /api/attributes
+Attributes line · frontendListAttributes</title>
+<circle cx="1210" cy="1196" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1222" y="1201" text-anchor="start" style="fill:#1A1F2C">List attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendGetCart" target="_blank" class="st" data-op="frontendGetCart"><title>GET /api/cart
+Cart line · frontendGetCart
+Express: X13</title>
+<circle cx="2764" cy="1910" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="2761" y="1907" width="6" height="6" transform="rotate(45 2764 1910)" fill="#1A1F2C"/>
+<text x="2758" y="1922" text-anchor="end" transform="rotate(-45 2758 1922)" style="fill:#1A1F2C">Get cart</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendUpdateCart" target="_blank" class="st" data-op="frontendUpdateCart"><title>PUT /api/cart
+Cart line · frontendUpdateCart</title>
+<circle cx="2680" cy="1910" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2686" y="1898" transform="rotate(-45 2686 1898)" style="fill:#1A1F2C">Update cart</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendAddCartItem" target="_blank" class="st" data-op="frontendAddCartItem"><title>POST /api/cart/items
+Cart line · frontendAddCartItem
+Express: X11</title>
+<circle cx="2428" cy="1742" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="2425" y="1739" width="6" height="6" transform="rotate(45 2428 1742)" fill="#1A1F2C"/>
+<text x="2440" y="1747" text-anchor="start" style="fill:#1A1F2C">Create item</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendUpdateCartItem" target="_blank" class="st" data-op="frontendUpdateCartItem"><title>PUT /api/cart/items/{itemId}
+Cart line · frontendUpdateCartItem
+Express: X13</title>
+<circle cx="2386" cy="1700" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="2383" y="1697" width="6" height="6" transform="rotate(45 2386 1700)" fill="#1A1F2C"/>
+<text x="2398" y="1705" text-anchor="start" style="fill:#1A1F2C">Update item</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendRemoveCartItem" target="_blank" class="st" data-op="frontendRemoveCartItem"><title>DELETE /api/cart/items/{itemId}
+Cart line · frontendRemoveCartItem</title>
+<circle cx="2302" cy="1616" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2298" y1="1620" x2="2306" y2="1612" stroke="#E07B12" stroke-width="2"/>
+<text x="2314" y="1621" text-anchor="start" style="fill:#1A1F2C">Delete item</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendApplyCoupon" target="_blank" class="st" data-op="frontendApplyCoupon"><title>PUT /api/cart/apply-coupon
+Cart line · frontendApplyCoupon
+Express: X10</title>
+<circle cx="2596" cy="1910" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="2593" y="1907" width="6" height="6" transform="rotate(45 2596 1910)" fill="#1A1F2C"/>
+<text x="2584.0" y="1915" text-anchor="end" style="fill:#1A1F2C">Update apply coupon</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendApplyGiftcard" target="_blank" class="st" data-op="frontendApplyGiftcard"><title>PUT /api/cart/apply-giftcard
+Cart line · frontendApplyGiftcard</title>
+<circle cx="2512" cy="1826" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2524" y="1831" text-anchor="start" style="fill:#1A1F2C">Update apply giftcard</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-cart-api/#op-frontendRecoverCart" target="_blank" class="st" data-op="frontendRecoverCart"><title>GET /api/cart/recover/{token}
+Cart line · frontendRecoverCart</title>
+<circle cx="2302" cy="1532" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2314" y="1537" text-anchor="start" style="fill:#1A1F2C">Get recover</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-carts-api/#op-listCarts" target="_blank" class="st" data-op="listCarts"><title>GET /carts
+Carts line · listCarts</title>
+<circle cx="832" cy="650" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="844" y="655" text-anchor="start" style="fill:#1A1F2C">List carts</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-carts-api/#op-createCart" target="_blank" class="st" data-op="createCart"><title>POST /carts
+Carts line · createCart
+Express: X1, X2</title>
+<circle cx="748" cy="734" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="745" y="731" width="6" height="6" transform="rotate(45 748 734)" fill="#1A1F2C"/>
+<text x="760" y="739" text-anchor="start" style="fill:#1A1F2C">Create cart</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-carts-api/#op-getCart" target="_blank" class="st" data-op="getCart"><title>GET /carts/{id}
+Carts line · getCart</title>
+<circle cx="706" cy="776" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="700" y="788" text-anchor="end" transform="rotate(-45 700 788)" style="fill:#1A1F2C">Get cart</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-carts-api/#op-updateCart" target="_blank" class="st" data-op="updateCart"><title>PUT /carts/{id}
+Carts line · updateCart
+Express: X1, X2</title>
+<circle cx="664" cy="734" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="661" y="731" width="6" height="6" transform="rotate(45 664 734)" fill="#1A1F2C"/>
+<text x="652.0" y="739" text-anchor="end" style="fill:#1A1F2C">Update cart</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-carts-api/#op-deleteCart" target="_blank" class="st" data-op="deleteCart"><title>DELETE /carts/{id}
+Carts line · deleteCart</title>
+<circle cx="664" cy="608" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="660" y1="612" x2="668" y2="604" stroke="#B0287F" stroke-width="2"/>
+<text x="676" y="613" text-anchor="start" style="fill:#1A1F2C">Delete cart</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-listCategories" target="_blank" class="st" data-op="listCategories"><title>GET /categories
+Categories line · listCategories</title>
+<circle cx="2134" cy="734" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2146" y="739" text-anchor="start" style="fill:#1A1F2C">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-createCategory" target="_blank" class="st" data-op="createCategory"><title>POST /categories
+Categories line · createCategory
+Express: X5</title>
+<circle cx="2092" cy="692" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<rect x="2089" y="689" width="6" height="6" transform="rotate(45 2092 692)" fill="#1A1F2C"/>
+<text x="2104" y="697" text-anchor="start" style="fill:#1A1F2C">Create category</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-getCategory" target="_blank" class="st" data-op="getCategory"><title>GET /categories/{id}
+Categories line · getCategory</title>
+<circle cx="1966" cy="692" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1972" y="680" transform="rotate(-45 1972 680)" style="fill:#1A1F2C">Get category</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-updateCategory" target="_blank" class="st" data-op="updateCategory"><title>PUT /categories/{id}
+Categories line · updateCategory</title>
+<circle cx="1882" cy="692" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1888" y="680" transform="rotate(-45 1888 680)" style="fill:#1A1F2C">Update category</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-deleteCategory" target="_blank" class="st" data-op="deleteCategory"><title>DELETE /categories/{id}
+Categories line · deleteCategory</title>
+<circle cx="1798" cy="692" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1794" y1="696" x2="1802" y2="688" stroke="#B8860B" stroke-width="2"/>
+<text x="1804" y="680" transform="rotate(-45 1804 680)" style="fill:#1A1F2C">Delete category</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-frontendListCategories" target="_blank" class="st" data-op="frontendListCategories"><title>GET /api/categories
+Categories line · frontendListCategories</title>
+<circle cx="2134" cy="944" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2146" y="949" text-anchor="start" style="fill:#1A1F2C">List categories</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-categories-api/#op-frontendGetCategory" target="_blank" class="st" data-op="frontendGetCategory"><title>GET /api/categories/{slug}
+Categories line · frontendGetCategory</title>
+<circle cx="2134" cy="860" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="2146" y="865" text-anchor="start" style="fill:#1A1F2C">Get category</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-checkout-api/#op-frontendSubmitOrder" target="_blank" class="st" data-op="frontendSubmitOrder"><title>POST /api/cart/submit-order
+Cart line · frontendSubmitOrder
+Express: X11</title>
+<circle cx="2302" cy="1406" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<rect x="2299" y="1403" width="6" height="6" transform="rotate(45 2302 1406)" fill="#1A1F2C"/>
+<text x="2314" y="1411" text-anchor="start" style="fill:#1A1F2C">Update submit order</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-listPages" target="_blank" class="st" data-op="listPages"><title>GET /pages
+Content line · listPages</title>
+<circle cx="1336" cy="1994" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1348" y="1999" text-anchor="start" style="fill:#1A1F2C">List pages</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-createPage" target="_blank" class="st" data-op="createPage"><title>POST /pages
+Content line · createPage</title>
+<circle cx="1420" cy="1910" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1432" y="1915" text-anchor="start" style="fill:#1A1F2C">Create page</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-getPage" target="_blank" class="st" data-op="getPage"><title>GET /pages/{id}
+Content line · getPage</title>
+<circle cx="1462" cy="1868" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1474" y="1873" text-anchor="start" style="fill:#1A1F2C">Get page</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-updatePage" target="_blank" class="st" data-op="updatePage"><title>PUT /pages/{id}
+Content line · updatePage</title>
+<circle cx="1546" cy="1784" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1558" y="1789" text-anchor="start" style="fill:#1A1F2C">Update page</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-deletePage" target="_blank" class="st" data-op="deletePage"><title>DELETE /pages/{id}
+Content line · deletePage</title>
+<circle cx="1630" cy="1700" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1626" y1="1704" x2="1634" y2="1696" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1642" y="1705" text-anchor="start" style="fill:#1A1F2C">Delete page</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-frontendListMenus" target="_blank" class="st" data-op="frontendListMenus"><title>GET /api/settings/menus
+Content line · frontendListMenus</title>
+<circle cx="1252" cy="1994" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1258" y="1982" transform="rotate(-45 1258 1982)" style="fill:#1A1F2C">List menus</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-frontendListContent" target="_blank" class="st" data-op="frontendListContent"><title>GET /api/content/{model}
+Content line · frontendListContent</title>
+<circle cx="1084" cy="1994" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1090" y="1982" transform="rotate(-45 1090 1982)" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-content-api/#op-frontendGetContent" target="_blank" class="st" data-op="frontendGetContent"><title>GET /api/content/{model}/{slug}
+Content line · frontendGetContent</title>
+<circle cx="1168" cy="1994" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1174" y="1982" transform="rotate(-45 1174 1982)" style="fill:#1A1F2C">Get content</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-coupons-api/#op-listCoupons" target="_blank" class="st" data-op="listCoupons"><title>GET /coupons
+Coupons line · listCoupons</title>
+<circle cx="1546" cy="902" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="907" text-anchor="start" style="fill:#1A1F2C">List coupons</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-coupons-api/#op-createCoupon" target="_blank" class="st" data-op="createCoupon"><title>POST /coupons
+Coupons line · createCoupon</title>
+<circle cx="1546" cy="986" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="991" text-anchor="start" style="fill:#1A1F2C">Create coupon</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-coupons-api/#op-getCoupon" target="_blank" class="st" data-op="getCoupon"><title>GET /coupons/{id}
+Coupons line · getCoupon</title>
+<circle cx="1546" cy="1070" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="1075" text-anchor="start" style="fill:#1A1F2C">Get coupon</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-coupons-api/#op-updateCoupon" target="_blank" class="st" data-op="updateCoupon"><title>PUT /coupons/{id}
+Coupons line · updateCoupon</title>
+<circle cx="1546" cy="1154" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1558" y="1159" text-anchor="start" style="fill:#1A1F2C">Update coupon</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-coupons-api/#op-deleteCoupon" target="_blank" class="st" data-op="deleteCoupon"><title>DELETE /coupons/{id}
+Coupons line · deleteCoupon</title>
+<circle cx="1546" cy="1238" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1542" y1="1242" x2="1550" y2="1234" stroke="#C2410C" stroke-width="2"/>
+<text x="1558" y="1243" text-anchor="start" style="fill:#1A1F2C">Delete coupon</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-coupons-api/#op-frontendGetCoupon" target="_blank" class="st" data-op="frontendGetCoupon"><title>GET /api/coupons/{code}
+Coupons line · frontendGetCoupon
+Express: X10</title>
+<circle cx="1546" cy="818" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<rect x="1543" y="815" width="6" height="6" transform="rotate(45 1546 818)" fill="#1A1F2C"/>
+<text x="1558" y="823" text-anchor="start" style="fill:#1A1F2C">Get coupon</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-events-api/#op-listEvents" target="_blank" class="st" data-op="listEvents"><title>GET /events
+More Local line · listEvents</title>
+<circle cx="538" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="991" text-anchor="start" style="fill:#1A1F2C">List events</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-files-api/#op-listFiles" target="_blank" class="st" data-op="listFiles"><title>GET /files
+More Local line · listFiles</title>
+<circle cx="538" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1075" text-anchor="start" style="fill:#1A1F2C">List files</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-files-api/#op-uploadFile" target="_blank" class="st" data-op="uploadFile"><title>POST /files
+More Local line · uploadFile</title>
+<circle cx="538" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1159" text-anchor="start" style="fill:#1A1F2C">Create file</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-gift-cards-api/#op-listGiftcards" target="_blank" class="st" data-op="listGiftcards"><title>GET /giftcards
+Gift Cards line · listGiftcards</title>
+<circle cx="286" cy="902" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="292" y="890" transform="rotate(-45 292 890)" style="fill:#1A1F2C">List giftcards</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-gift-cards-api/#op-createGiftcard" target="_blank" class="st" data-op="createGiftcard"><title>POST /giftcards
+Gift Cards line · createGiftcard</title>
+<circle cx="412" cy="902" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="424" y="907" text-anchor="start" style="fill:#1A1F2C">Create giftcard</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-gift-cards-api/#op-getGiftcard" target="_blank" class="st" data-op="getGiftcard"><title>GET /giftcards/{id}
+Gift Cards line · getGiftcard</title>
+<circle cx="412" cy="818" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="424" y="823" text-anchor="start" style="fill:#1A1F2C">Get giftcard</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-gift-cards-api/#op-updateGiftcard" target="_blank" class="st" data-op="updateGiftcard"><title>PUT /giftcards/{id}
+Gift Cards line · updateGiftcard</title>
+<circle cx="412" cy="734" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="424" y="739" text-anchor="start" style="fill:#1A1F2C">Update giftcard</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-gift-cards-api/#op-frontendGetGiftcard" target="_blank" class="st" data-op="frontendGetGiftcard"><title>GET /api/giftcards/{code}
+Gift Cards line · frontendGetGiftcard</title>
+<circle cx="202" cy="902" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="208" y="890" transform="rotate(-45 208 890)" style="fill:#1A1F2C">Get giftcard</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-invoices-api/#op-listInvoices" target="_blank" class="st" data-op="listInvoices"><title>GET /invoices
+Invoices line · listInvoices</title>
+<circle cx="1168" cy="1028" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1180" y="1033" text-anchor="start" style="fill:#1A1F2C">List invoices</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-invoices-api/#op-createInvoice" target="_blank" class="st" data-op="createInvoice"><title>POST /invoices
+Invoices line · createInvoice</title>
+<circle cx="1084" cy="1112" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1096" y="1117" text-anchor="start" style="fill:#1A1F2C">Create invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-invoices-api/#op-getInvoice" target="_blank" class="st" data-op="getInvoice"><title>GET /invoices/{id}
+Invoices line · getInvoice</title>
+<circle cx="1000" cy="1196" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1012" y="1201" text-anchor="start" style="fill:#1A1F2C">Get invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-invoices-api/#op-updateInvoice" target="_blank" class="st" data-op="updateInvoice"><title>PUT /invoices/{id}
+Invoices line · updateInvoice</title>
+<circle cx="958" cy="1238" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="970" y="1243" text-anchor="start" style="fill:#1A1F2C">Update invoice</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-listOrders" target="_blank" class="st" data-op="listOrders"><title>GET /orders
+Orders line · listOrders</title>
+<circle cx="1882" cy="1700" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="1705" text-anchor="start" style="fill:#1A1F2C">List orders</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-createOrder" target="_blank" class="st" data-op="createOrder"><title>POST /orders
+Orders line · createOrder
+Express: X2, X8, X9</title>
+<circle cx="1966" cy="1616" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<rect x="1963" y="1613" width="6" height="6" transform="rotate(45 1966 1616)" fill="#1A1F2C"/>
+<text x="1978" y="1621" text-anchor="start" style="fill:#1A1F2C">Create order</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-getOrder" target="_blank" class="st" data-op="getOrder"><title>GET /orders/{id}
+Orders line · getOrder</title>
+<circle cx="2050" cy="1532" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="1537" text-anchor="start" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-updateOrder" target="_blank" class="st" data-op="updateOrder"><title>PATCH /orders/{id}
+Orders line · updateOrder</title>
+<circle cx="2050" cy="1448" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="1453" text-anchor="start" style="fill:#1A1F2C">Update order</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-deleteOrder" target="_blank" class="st" data-op="deleteOrder"><title>DELETE /orders/{id}
+Orders line · deleteOrder</title>
+<circle cx="2050" cy="1364" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="2046" y1="1368" x2="2054" y2="1360" stroke="#B0287F" stroke-width="2"/>
+<text x="2062" y="1369" text-anchor="start" style="fill:#1A1F2C">Delete order</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-frontendListAccountOrders" target="_blank" class="st" data-op="frontendListAccountOrders"><title>GET /api/account/orders
+Orders line · frontendListAccountOrders</title>
+<circle cx="1756" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1768" y="1789" text-anchor="start" style="fill:#1A1F2C">List orders <tspan font-weight="700" style="fill:#D6264F">⇄ACCO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-orders-api/#op-frontendGetAccountOrder" target="_blank" class="st" data-op="frontendGetAccountOrder"><title>GET /api/account/orders/{id}
+Orders line · frontendGetAccountOrder</title>
+<circle cx="1840" cy="1700" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1828.0" y="1705" text-anchor="end" style="fill:#1A1F2C">Get order</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-payments-api/#op-listPayments" target="_blank" class="st" data-op="listPayments"><title>GET /payments
+Payments line · listPayments</title>
+<circle cx="1378" cy="1280" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1390" y="1285" text-anchor="start" style="fill:#1A1F2C">List payments</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-payments-api/#op-createPayment" target="_blank" class="st" data-op="createPayment"><title>POST /payments
+Payments line · createPayment
+Express: X4</title>
+<circle cx="1462" cy="1364" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<rect x="1459" y="1361" width="6" height="6" transform="rotate(45 1462 1364)" fill="#1A1F2C"/>
+<text x="1474" y="1369" text-anchor="start" style="fill:#1A1F2C">Create payment</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-payments-api/#op-getPayment" target="_blank" class="st" data-op="getPayment"><title>GET /payments/{id}
+Payments line · getPayment</title>
+<circle cx="1462" cy="1448" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1474" y="1453" text-anchor="start" style="fill:#1A1F2C">Get payment</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-payments-api/#op-updatePayment" target="_blank" class="st" data-op="updatePayment"><title>PUT /payments/{id}
+Payments line · updatePayment</title>
+<circle cx="1462" cy="1532" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1474" y="1537" text-anchor="start" style="fill:#1A1F2C">Update payment</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-listProducts" target="_blank" class="st" data-op="listProducts"><title>GET /products
+Products line · listProducts</title>
+<circle cx="2596" cy="1448" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2602" y="1436" transform="rotate(-45 2602 1436)" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-createProduct" target="_blank" class="st" data-op="createProduct"><title>POST /products
+Products line · createProduct
+Express: X5, X6</title>
+<circle cx="2722" cy="1448" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="2719" y="1445" width="6" height="6" transform="rotate(45 2722 1448)" fill="#1A1F2C"/>
+<text x="2734" y="1453" text-anchor="start" style="fill:#1A1F2C">Create product</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-getProduct" target="_blank" class="st" data-op="getProduct"><title>GET /products/{id}
+Products line · getProduct
+Express: X6</title>
+<circle cx="2806" cy="1364" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="2803" y="1361" width="6" height="6" transform="rotate(45 2806 1364)" fill="#1A1F2C"/>
+<text x="2794.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-updateProduct" target="_blank" class="st" data-op="updateProduct"><title>PUT /products/{id}
+Products line · updateProduct</title>
+<circle cx="2848" cy="1364" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2854" y="1352" transform="rotate(-45 2854 1352)" style="fill:#1A1F2C">Update product</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-deleteProduct" target="_blank" class="st" data-op="deleteProduct"><title>DELETE /products/{id}
+Products line · deleteProduct</title>
+<circle cx="2932" cy="1364" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2928" y1="1368" x2="2936" y2="1360" stroke="#0B7A75" stroke-width="2"/>
+<text x="2926" y="1376" text-anchor="end" transform="rotate(-45 2926 1376)" style="fill:#1A1F2C">Delete product</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-frontendListProducts" target="_blank" class="st" data-op="frontendListProducts"><title>GET /api/products
+Products line · frontendListProducts</title>
+<circle cx="2428" cy="1448" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="2434" y="1436" transform="rotate(-45 2434 1436)" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-products-api/#op-frontendGetProduct" target="_blank" class="st" data-op="frontendGetProduct"><title>GET /api/products/{slug}
+Products line · frontendGetProduct
+Express: X11</title>
+<circle cx="2512" cy="1448" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<rect x="2509" y="1445" width="6" height="6" transform="rotate(45 2512 1448)" fill="#1A1F2C"/>
+<text x="2518" y="1436" transform="rotate(-45 2518 1436)" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-promotions-api/#op-listPromotions" target="_blank" class="st" data-op="listPromotions"><title>GET /promotions
+Promotions line · listPromotions</title>
+<circle cx="202" cy="1406" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="214" y="1411" text-anchor="start" style="fill:#1A1F2C">List promotions</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-promotions-api/#op-createPromotion" target="_blank" class="st" data-op="createPromotion"><title>POST /promotions
+Promotions line · createPromotion</title>
+<circle cx="286" cy="1322" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="1327" text-anchor="start" style="fill:#1A1F2C">Create promotion</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-promotions-api/#op-getPromotion" target="_blank" class="st" data-op="getPromotion"><title>GET /promotions/{id}
+Promotions line · getPromotion</title>
+<circle cx="286" cy="1238" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="298" y="1243" text-anchor="start" style="fill:#1A1F2C">Get promotion</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-promotions-api/#op-updatePromotion" target="_blank" class="st" data-op="updatePromotion"><title>PUT /promotions/{id}
+Promotions line · updatePromotion</title>
+<circle cx="244" cy="1196" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="256" y="1201" text-anchor="start" style="fill:#1A1F2C">Update promotion</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-promotions-api/#op-deletePromotion" target="_blank" class="st" data-op="deletePromotion"><title>DELETE /promotions/{id}
+Promotions line · deletePromotion</title>
+<circle cx="160" cy="1112" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="156" y1="1116" x2="164" y2="1108" stroke="#0E9F6E" stroke-width="2"/>
+<text x="172" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete promotion</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-purchase-links-api/#op-listPurchaseLinks" target="_blank" class="st" data-op="listPurchaseLinks"><title>GET /purchase-links
+More Local line · listPurchaseLinks</title>
+<circle cx="538" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1243" text-anchor="start" style="fill:#1A1F2C">List purchase links</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-purchase-links-api/#op-createPurchaseLink" target="_blank" class="st" data-op="createPurchaseLink"><title>POST /purchase-links
+More Local line · createPurchaseLink</title>
+<circle cx="622" cy="1322" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="634" y="1327" text-anchor="start" style="fill:#1A1F2C">Create purchase link</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-refunds-api/#op-refundPayment" target="_blank" class="st" data-op="refundPayment"><title>POST /payments/{id}/refunds
+Payments line · refundPayment
+Express: X4</title>
+<circle cx="1462" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<rect x="1459" y="1613" width="6" height="6" transform="rotate(45 1462 1616)" fill="#1A1F2C"/>
+<text x="1474" y="1621" text-anchor="start" style="fill:#1A1F2C">Create refund <tspan font-weight="700" style="fill:#D6264F">⇄ML</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-refunds-api/#op-listRefunds" target="_blank" class="st" data-op="listRefunds"><title>GET /refunds
+More Local line · listRefunds</title>
+<circle cx="664" cy="1364" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="652.0" y="1369" text-anchor="end" style="fill:#1A1F2C">List refunds</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-returns-api/#op-listReturns" target="_blank" class="st" data-op="listReturns"><title>GET /returns
+Returns line · listReturns</title>
+<circle cx="916" cy="1826" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="928" y="1831" text-anchor="start" style="fill:#1A1F2C">List returns</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-returns-api/#op-createReturn" target="_blank" class="st" data-op="createReturn"><title>POST /returns
+Returns line · createReturn</title>
+<circle cx="832" cy="1742" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="844" y="1747" text-anchor="start" style="fill:#1A1F2C">Create return</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-returns-api/#op-getReturn" target="_blank" class="st" data-op="getReturn"><title>GET /returns/{id}
+Returns line · getReturn</title>
+<circle cx="748" cy="1658" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="760" y="1663" text-anchor="start" style="fill:#1A1F2C">Get return</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-returns-api/#op-updateReturn" target="_blank" class="st" data-op="updateReturn"><title>PUT /returns/{id}
+Returns line · updateReturn</title>
+<circle cx="664" cy="1574" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="1579" text-anchor="start" style="fill:#1A1F2C">Update return</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-shipments-api/#op-listShipments" target="_blank" class="st" data-op="listShipments"><title>GET /shipments
+Shipments line · listShipments</title>
+<circle cx="1126" cy="1742" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1138" y="1747" text-anchor="start" style="fill:#1A1F2C">List shipments</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-shipments-api/#op-createShipment" target="_blank" class="st" data-op="createShipment"><title>POST /shipments
+Shipments line · createShipment</title>
+<circle cx="1126" cy="1658" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1138" y="1663" text-anchor="start" style="fill:#1A1F2C">Create shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-shipments-api/#op-getShipment" target="_blank" class="st" data-op="getShipment"><title>GET /shipments/{id}
+Shipments line · getShipment</title>
+<circle cx="1126" cy="1574" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1138" y="1579" text-anchor="start" style="fill:#1A1F2C">Get shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-shipments-api/#op-updateShipment" target="_blank" class="st" data-op="updateShipment"><title>PUT /shipments/{id}
+Shipments line · updateShipment</title>
+<circle cx="1126" cy="1490" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1138" y="1495" text-anchor="start" style="fill:#1A1F2C">Update shipment</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-stock-api/#op-listStock" target="_blank" class="st" data-op="listStock"><title>GET /stock
+More Local line · listStock</title>
+<circle cx="748" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="754" y="1352" transform="rotate(-45 754 1352)" style="fill:#1A1F2C">Get stock</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-stock-api/#op-adjustStock" target="_blank" class="st" data-op="adjustStock"><title>POST /stock
+More Local line · adjustStock</title>
+<circle cx="832" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="838" y="1352" transform="rotate(-45 838 1352)" style="fill:#1A1F2C">Update stock</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-store-api/#op-frontendGetSettings" target="_blank" class="st" data-op="frontendGetSettings"><title>GET /api/settings
+Store line · frontendGetSettings</title>
+<circle cx="1252" cy="2078" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1264" y="2083" text-anchor="start" style="fill:#1A1F2C">List settings <tspan font-weight="700" style="fill:#1F5FD1">⇄CON</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-store-api/#op-frontendGetPaymentSettings" target="_blank" class="st" data-op="frontendGetPaymentSettings"><title>GET /api/settings/payments
+Store line · frontendGetPaymentSettings</title>
+<circle cx="1252" cy="2246" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1264" y="2251" text-anchor="start" style="fill:#1A1F2C">List payments <tspan font-weight="700" style="fill:#5C6BC0">⇄PAY</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-store-api/#op-frontendListCurrencies" target="_blank" class="st" data-op="frontendListCurrencies"><title>GET /api/settings/currencies
+Store line · frontendListCurrencies</title>
+<circle cx="1252" cy="2162" r="5.5" fill="#fff" stroke="#1d33a9" stroke-width="2.5"/>
+<text x="1264" y="2167" text-anchor="start" style="fill:#1A1F2C">List currencies</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscription-plans-api/#op-listSubscriptionPlans" target="_blank" class="st" data-op="listSubscriptionPlans"><title>GET /subscription-plans
+More Local line · listSubscriptionPlans</title>
+<circle cx="916" cy="1364" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="922" y="1352" transform="rotate(-45 922 1352)" style="fill:#1A1F2C">List subscription plans</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscription-plans-api/#op-createSubscriptionPlan" target="_blank" class="st" data-op="createSubscriptionPlan"><title>POST /subscription-plans
+More Local line · createSubscriptionPlan</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="994" y="1376" text-anchor="end" transform="rotate(-45 994 1376)" style="fill:#1A1F2C">Create subscription plan</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-listSubscriptions" target="_blank" class="st" data-op="listSubscriptions"><title>GET /subscriptions
+Subscriptions line · listSubscriptions
+Express: X3</title>
+<circle cx="2302" cy="1238" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="2299" y="1235" width="6" height="6" transform="rotate(45 2302 1238)" fill="#1A1F2C"/>
+<text x="2308" y="1226" transform="rotate(-45 2308 1226)" style="fill:#1A1F2C">List subscriptions</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-createSubscription" target="_blank" class="st" data-op="createSubscription"><title>POST /subscriptions
+Subscriptions line · createSubscription
+Express: X7</title>
+<circle cx="2218" cy="1238" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="2215" y="1235" width="6" height="6" transform="rotate(45 2218 1238)" fill="#1A1F2C"/>
+<text x="2206.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Create subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-getSubscription" target="_blank" class="st" data-op="getSubscription"><title>GET /subscriptions/{id}
+Subscriptions line · getSubscription
+Express: X7</title>
+<circle cx="2176" cy="1280" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<rect x="2173" y="1277" width="6" height="6" transform="rotate(45 2176 1280)" fill="#1A1F2C"/>
+<text x="2188" y="1285" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-updateSubscription" target="_blank" class="st" data-op="updateSubscription"><title>PUT /subscriptions/{id}
+Subscriptions line · updateSubscription</title>
+<circle cx="2176" cy="1364" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2185" y="1354" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-cancelSubscription" target="_blank" class="st" data-op="cancelSubscription"><title>DELETE /subscriptions/{id}
+Subscriptions line · cancelSubscription
+Express: X3</title>
+<circle cx="2176" cy="1448" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2172" y1="1452" x2="2180" y2="1444" stroke="#7B3FE4" stroke-width="2"/>
+<rect x="2173" y="1445" width="6" height="6" transform="rotate(45 2176 1448)" fill="#1A1F2C"/>
+<text x="2188" y="1446" text-anchor="start" style="fill:#1A1F2C">Delete<tspan x="2188" dy="13">subscription</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-frontendListAccountSubscriptions" target="_blank" class="st" data-op="frontendListAccountSubscriptions"><title>GET /api/account/subscriptions
+Subscriptions line · frontendListAccountSubscriptions</title>
+<circle cx="2596" cy="1154" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="2587.0" y="1144" text-anchor="end" style="fill:#1A1F2C">List subscriptions <tspan font-weight="700" style="fill:#D6264F">⇄ACCO</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-frontendGetAccountSubscription" target="_blank" class="st" data-op="frontendGetAccountSubscription"><title>GET /api/account/subscriptions/{id}
+Subscriptions line · frontendGetAccountSubscription</title>
+<circle cx="2470" cy="1154" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2479" y="1173" text-anchor="start" style="fill:#1A1F2C">Get subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-subscriptions-api/#op-frontendUpdateAccountSubscription" target="_blank" class="st" data-op="frontendUpdateAccountSubscription"><title>PUT /api/account/subscriptions/{id}
+Subscriptions line · frontendUpdateAccountSubscription</title>
+<circle cx="2386" cy="1238" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2398" y="1243" text-anchor="start" style="fill:#1A1F2C">Update subscription</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-variants-api/#op-listVariants" target="_blank" class="st" data-op="listVariants"><title>GET /variants
+Variants line · listVariants</title>
+<circle cx="1714" cy="902" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1720" y="890" transform="rotate(-45 1720 890)" style="fill:#1A1F2C">List variants</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-variants-api/#op-createVariant" target="_blank" class="st" data-op="createVariant"><title>POST /variants
+Variants line · createVariant</title>
+<circle cx="1798" cy="902" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1804" y="890" transform="rotate(-45 1804 890)" style="fill:#1A1F2C">Create variant</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-variants-api/#op-getVariant" target="_blank" class="st" data-op="getVariant"><title>GET /variants/{id}
+Variants line · getVariant</title>
+<circle cx="1882" cy="902" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1894" y="907" text-anchor="start" style="fill:#1A1F2C">Get variant</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-variants-api/#op-updateVariant" target="_blank" class="st" data-op="updateVariant"><title>PUT /variants/{id}
+Variants line · updateVariant</title>
+<circle cx="1966" cy="986" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1978" y="991" text-anchor="start" style="fill:#1A1F2C">Update variant</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-variants-api/#op-deleteVariant" target="_blank" class="st" data-op="deleteVariant"><title>DELETE /variants/{id}
+Variants line · deleteVariant</title>
+<circle cx="2050" cy="1070" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="2046" y1="1074" x2="2054" y2="1066" stroke="#2E7D32" stroke-width="2"/>
+<text x="2062" y="1075" text-anchor="start" style="fill:#1A1F2C">Delete variant</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-webhooks-api/#op-listWebhooks" target="_blank" class="st" data-op="listWebhooks"><title>GET /webhooks
+Webhooks line · listWebhooks</title>
+<circle cx="580" cy="1658" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="592" y="1663" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-webhooks-api/#op-createWebhook" target="_blank" class="st" data-op="createWebhook"><title>POST /webhooks
+Webhooks line · createWebhook</title>
+<circle cx="496" cy="1574" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="508" y="1579" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-webhooks-api/#op-getWebhook" target="_blank" class="st" data-op="getWebhook"><title>GET /webhooks/{id}
+Webhooks line · getWebhook</title>
+<circle cx="454" cy="1532" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="466" y="1537" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-webhooks-api/#op-updateWebhook" target="_blank" class="st" data-op="updateWebhook"><title>PUT /webhooks/{id}
+Webhooks line · updateWebhook</title>
+<circle cx="412" cy="1490" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="424" y="1495" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/swell-io/swell-io-webhooks-api/#op-deleteWebhook" target="_blank" class="st" data-op="deleteWebhook"><title>DELETE /webhooks/{id}
+Webhooks line · deleteWebhook</title>
+<circle cx="370" cy="1448" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="366" y1="1452" x2="374" y2="1444" stroke="#0B7A75" stroke-width="2"/>
+<text x="382" y="1453" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<text x="3122" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="3122" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">ACCOUNT</text>
+<rect x="3122" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="3139" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACCO</text><text x="3164" y="269" font-size="11" fill="#1A1F2C">Account <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3122" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="3139" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AS</text><text x="3164" y="286" font-size="11" fill="#1A1F2C">Account Session <tspan fill="#8A93A6">4</tspan></text>
+<text x="3122" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">ACCOUNTS</text>
+<rect x="3122" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3139" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ACC</text><text x="3164" y="329" font-size="11" fill="#1A1F2C">Accounts <tspan fill="#8A93A6">11</tspan></text>
+<text x="3122" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">PAGES</text>
+<rect x="3122" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3139" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="3164" y="372" font-size="11" fill="#1A1F2C">Content <tspan fill="#8A93A6">8</tspan></text>
+<rect x="3122" y="379" width="34" height="13" rx="3" fill="#1d33a9"/><text x="3139" y="389" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STO</text><text x="3164" y="389" font-size="11" fill="#1A1F2C">Store <tspan fill="#8A93A6">3</tspan></text>
+<text x="3122" y="415" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">CART</text>
+<rect x="3122" y="422" width="34" height="13" rx="3" fill="#E07B12"/><text x="3139" y="432" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAR</text><text x="3164" y="432" font-size="11" fill="#1A1F2C">Cart <tspan fill="#8A93A6">9</tspan></text>
+<text x="3122" y="458" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">SUBSCRIPTIONS</text>
+<rect x="3122" y="465" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="3139" y="475" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUB</text><text x="3164" y="475" font-size="11" fill="#1A1F2C">Subscriptions <tspan fill="#8A93A6">8</tspan></text>
+<text x="3122" y="501" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">ORDERS</text>
+<rect x="3122" y="508" width="34" height="13" rx="3" fill="#B0287F"/><text x="3139" y="518" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ORD</text><text x="3164" y="518" font-size="11" fill="#1A1F2C">Orders <tspan fill="#8A93A6">7</tspan></text>
+<text x="3122" y="544" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">PRODUCTS</text>
+<rect x="3122" y="551" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3139" y="561" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRO</text><text x="3164" y="561" font-size="11" fill="#1A1F2C">Products <tspan fill="#8A93A6">7</tspan></text>
+<text x="3122" y="587" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">CATEGORIES</text>
+<rect x="3122" y="594" width="34" height="13" rx="3" fill="#B8860B"/><text x="3139" y="604" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAT</text><text x="3164" y="604" font-size="11" fill="#1A1F2C">Categories <tspan fill="#8A93A6">7</tspan></text>
+<text x="3122" y="630" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">COUPONS</text>
+<rect x="3122" y="637" width="34" height="13" rx="3" fill="#C2410C"/><text x="3139" y="647" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">COU</text><text x="3164" y="647" font-size="11" fill="#1A1F2C">Coupons <tspan fill="#8A93A6">6</tspan></text>
+<text x="3122" y="673" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">VARIANTS</text>
+<rect x="3122" y="680" width="34" height="13" rx="3" fill="#2E7D32"/><text x="3139" y="690" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VAR</text><text x="3164" y="690" font-size="11" fill="#1A1F2C">Variants <tspan fill="#8A93A6">5</tspan></text>
+<text x="3122" y="716" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">PAYMENTS</text>
+<rect x="3122" y="723" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3139" y="733" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAY</text><text x="3164" y="733" font-size="11" fill="#1A1F2C">Payments <tspan fill="#8A93A6">5</tspan></text>
+<text x="3122" y="759" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="3122" y="766" width="34" height="13" rx="3" fill="#D6264F"/><text x="3139" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="3164" y="776" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">10</tspan></text>
+<rect x="3122" y="783" width="34" height="13" rx="3" fill="#B0287F"/><text x="3139" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CRT</text><text x="3164" y="793" font-size="11" fill="#1A1F2C">Carts <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3122" y="800" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="3139" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">GC</text><text x="3164" y="810" font-size="11" fill="#1A1F2C">Gift Cards <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3122" y="817" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="3139" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PRM</text><text x="3164" y="827" font-size="11" fill="#1A1F2C">Promotions <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3122" y="834" width="34" height="13" rx="3" fill="#0B7A75"/><text x="3139" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="3164" y="844" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">5</tspan></text>
+<rect x="3122" y="851" width="34" height="13" rx="3" fill="#00838F"/><text x="3139" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">INV</text><text x="3164" y="861" font-size="11" fill="#1A1F2C">Invoices <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3122" y="868" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="3139" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RET</text><text x="3164" y="878" font-size="11" fill="#1A1F2C">Returns <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3122" y="885" width="34" height="13" rx="3" fill="#B8860B"/><text x="3139" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SHI</text><text x="3164" y="895" font-size="11" fill="#1A1F2C">Shipments <tspan fill="#8A93A6">4</tspan></text>
+<rect x="3122" y="902" width="34" height="13" rx="3" fill="#8D6E63"/><text x="3139" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ATT</text><text x="3164" y="912" font-size="11" fill="#1A1F2C">Attributes <tspan fill="#8A93A6">3</tspan></text>
+<text x="3372" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(3390,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3416" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(3390,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="3416" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(3390,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="3416" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(3390,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="3416" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(3390,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="3416" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(3390,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="3416" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(3390,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="3416" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(3390,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="3416" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="3372" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="3372" y="463" font-size="10.5" fill="#5A6275">“Account Addresses” → Accounts line · 2 ops</text>
+<text x="3372" y="478" font-size="10.5" fill="#5A6275">“Account Cards” → Accounts line · 2 ops</text>
+<text x="3372" y="493" font-size="10.5" fill="#5A6275">“Account Credits” → Accounts line · 2 ops</text>
+<text x="3372" y="508" font-size="10.5" fill="#5A6275">“Checkout” → Cart line · 1 op</text>
+<text x="3372" y="523" font-size="10.5" fill="#5A6275">“Events” → More Local line · 1 op</text>
+<text x="3372" y="538" font-size="10.5" fill="#5A6275">“Files” → More Local line · 2 ops</text>
+<text x="3372" y="553" font-size="10.5" fill="#5A6275">“Purchase Links” → More Local line · 2 ops</text>
+<text x="3372" y="568" font-size="10.5" fill="#5A6275">“Refunds” → More Local line · 1 op</text>
+<text x="3372" y="583" font-size="10.5" fill="#5A6275">“Refunds” → Payments line · 1 op</text>
+<text x="3372" y="598" font-size="10.5" fill="#5A6275">“Stock” → More Local line · 2 ops</text>
+<text x="3372" y="613" font-size="10.5" fill="#5A6275">“Subscription Plans” → More Local line · 2 ops</text>
+<text x="3372" y="663" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="3372" y="680" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<g class="rt" data-stops="createCart updateCart"><rect x="3372" y="692" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="703" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X1</text><text x="3409" y="703" font-size="11" fill="#1A1F2C">Swell Create Cart and Apply Co</text></g>
+<g class="rt" data-stops="createCart updateCart createOrder"><rect x="3372" y="711" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="722" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X2</text><text x="3409" y="722" font-size="11" fill="#1A1F2C">Swell Build Cart and Convert t</text></g>
+<g class="rt" data-stops="listSubscriptions cancelSubscription"><rect x="3372" y="730" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="741" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X3</text><text x="3409" y="741" font-size="11" fill="#1A1F2C">Swell Find and Cancel Active S</text></g>
+<g class="rt" data-stops="createPayment refundPayment"><rect x="3372" y="749" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="760" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X4</text><text x="3409" y="760" font-size="11" fill="#1A1F2C">Swell Capture and Refund Payme</text></g>
+<g class="rt" data-stops="createCategory createProduct"><rect x="3372" y="768" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="779" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X5</text><text x="3409" y="779" font-size="11" fill="#1A1F2C">Swell Create Category and Prod</text></g>
+<g class="rt" data-stops="createProduct getProduct"><rect x="3372" y="787" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="798" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X6</text><text x="3409" y="798" font-size="11" fill="#1A1F2C">Swell Create and Verify Produc</text></g>
+<g class="rt" data-stops="createSubscription getSubscription"><rect x="3372" y="806" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="817" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X7</text><text x="3409" y="817" font-size="11" fill="#1A1F2C">Swell Create and Verify Subscr</text></g>
+<g class="rt" data-stops="listAccounts createOrder createAccount"><rect x="3372" y="825" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="836" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X8</text><text x="3409" y="836" font-size="11" fill="#1A1F2C">Swell Find-or-Create Customer </text></g>
+<g class="rt" data-stops="createAccount createOrder"><rect x="3372" y="844" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="855" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X9</text><text x="3409" y="855" font-size="11" fill="#1A1F2C">Swell Onboard Customer and Pla</text></g>
+<g class="rt" data-stops="frontendGetCoupon frontendApplyCoupon"><rect x="3372" y="863" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="874" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X10</text><text x="3409" y="874" font-size="11" fill="#1A1F2C">Swell Storefront Validate and </text></g>
+<g class="rt" data-stops="frontendGetProduct frontendAddCartItem frontendSubmitOrder"><rect x="3372" y="882" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="893" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X11</text><text x="3409" y="893" font-size="11" fill="#1A1F2C">Swell Storefront Add Item and </text></g>
+<g class="rt" data-stops="frontendCreateAccount frontendAccountLogin"><rect x="3372" y="901" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="912" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X12</text><text x="3409" y="912" font-size="11" fill="#1A1F2C">Swell Storefront Register and </text></g>
+<g class="rt" data-stops="frontendGetCart frontendUpdateCartItem"><rect x="3372" y="920" width="30" height="15" rx="3" fill="#1A1F2C"/><text x="3387" y="931" text-anchor="middle" font-size="10" font-weight="700" fill="#fff">X13</text><text x="3409" y="931" font-size="11" fill="#1A1F2C">Swell Storefront Adjust Cart I</text></g>
+<text x="160" y="2376" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/swell-io/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
