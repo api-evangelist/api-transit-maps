@@ -1,0 +1,490 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2078 1986" width="2078" height="1986" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="2078" height="1986" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Aifordatabase API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">80 operations as stops · 11 tags as lines · 0 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<path class="line" data-line="Connections" d="M706.0,734.0 L790.0,734.0 L860.0,734.0 Q874.0,734.0 883.9,743.9 L958.0,818.0 L1032.1,892.1 Q1042.0,902.0 1042.0,916.0 L1042.0,986.0 L1042.0,1056.0 Q1042.0,1070.0 1032.1,1079.9 L958.0,1154.0 L883.9,1228.1 Q874.0,1238.0 860.0,1238.0 L790.0,1238.0 L720.0,1238.0 Q706.0,1238.0 696.1,1228.1 L622.0,1154.0 L547.9,1079.9 Q538.0,1070.0 538.0,1056.0 L538.0,986.0 L538.0,916.0 Q538.0,902.0 547.9,892.1 L706.0,734.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Connections</title></path>
+<path class="line" data-line="Conversations" d="M160.0,1070.0 L244.0,1070.0 L272.0,1070.0 Q286.0,1070.0 295.9,1079.9 L318.1,1102.1 Q328.0,1112.0 328.0,1126.0 L328.0,1196.0 L328.0,1280.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Conversations</title></path>
+<path class="line" data-line="Dashboards" d="M538.0,1238.0 L612.1,1163.9 Q622.0,1154.0 636.0,1154.0 L692.0,1154.0 Q706.0,1154.0 715.9,1144.1 L748.0,1112.0 L790.0,1070.0 L864.1,995.9 Q874.0,986.0 874.0,972.0 L874.0,902.0 L874.0,832.0 Q874.0,818.0 883.9,808.1 L948.1,743.9 Q958.0,734.0 972.0,734.0 L986.0,734.0 Q1000.0,734.0 990.1,724.1 L916.0,650.0 L874.0,608.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dashboards</title></path>
+<path class="line" data-line="Keys" d="M412.0,1028.0 L412.0,944.0 L412.0,860.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Keys</title></path>
+<path class="line" data-line="Metrics" d="M1378.0,1154.0 L1294.0,1154.0 L1224.0,1154.0 Q1210.0,1154.0 1200.1,1163.9 L1177.9,1186.1 Q1168.0,1196.0 1168.0,1210.0 L1168.0,1266.0 Q1168.0,1280.0 1182.0,1280.0 L1252.0,1280.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Metrics</title></path>
+<path class="line" data-line="Query Approval" d="M790.0,1826.0 L706.0,1742.0 L673.9,1709.9 Q664.0,1700.0 664.0,1686.0 L664.0,1574.0 L664.0,1448.0 L664.0,1378.0 Q664.0,1364.0 650.0,1364.0 L594.0,1364.0 Q580.0,1364.0 570.1,1373.9 L496.0,1448.0 L412.0,1532.0 L328.0,1616.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Query Approval</title></path>
+<path class="line" data-line="Saved Queries" d="M1084.0,1532.0 L1000.0,1448.0 L967.9,1415.9 Q958.0,1406.0 967.9,1396.1 L990.1,1373.9 Q1000.0,1364.0 1014.0,1364.0 L1112.0,1364.0 Q1126.0,1364.0 1135.9,1373.9 L1210.0,1448.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Saved Queries</title></path>
+<path class="line" data-line="Webhooks" d="M370.0,566.0 L482.0,566.0 Q496.0,566.0 505.9,575.9 L528.1,598.1 Q538.0,608.0 538.0,622.0 L538.0,678.0 Q538.0,692.0 524.0,692.0 L454.0,692.0 L370.0,692.0 L286.0,692.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Webhooks</title></path>
+<path class="line" data-line="Workflow Credentials" d="M1336.0,1028.0 L1252.0,944.0 L1177.9,869.9 Q1168.0,860.0 1177.9,850.1 L1294.0,734.0 L1378.0,650.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workflow Credentials</title></path>
+<path class="line" data-line="Workflows" d="M958.0,230.0 L958.0,314.0 L958.0,426.0 Q958.0,440.0 948.1,449.9 L925.9,472.1 Q916.0,482.0 902.0,482.0 L832.0,482.0 L720.0,482.0 Q706.0,482.0 706.0,468.0 L706.0,398.0 L706.0,314.0 L706.0,230.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Workflows</title></path>
+<path class="line" data-line="Aifordatabase Local" d="M1168.0,734.0 L1126.0,692.0 L1042.0,608.0" fill="none" stroke="#5C6BC0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>Aifordatabase Local</title></path>
+<rect x="676" y="681" width="60" height="26" rx="13" fill="#D6264F"/><text x="706" y="699" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">CON</text>
+<line x1="160" y1="1070" x2="126.0" y2="1070.0" stroke="#B0287F" stroke-width="7"/><rect x="102.0" y="1059.0" width="48" height="22" rx="5" fill="#B0287F"><title>Conversations</title></rect><text x="126.0" y="1075.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CNV</text>
+<line x1="328" y1="1280" x2="328.0" y2="1314.0" stroke="#B0287F" stroke-width="7"/><rect x="304.0" y="1303.0" width="48" height="22" rx="5" fill="#B0287F"><title>Conversations</title></rect><text x="328.0" y="1319.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CNV</text>
+<line x1="538" y1="1238" x2="513.9583694396574" y2="1262.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="489.9583694396574" y="1251.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dashboards</title></rect><text x="513.9583694396574" y="1267.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="874" y1="608" x2="849.9583694396574" y2="583.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="825.9583694396574" y="572.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Dashboards</title></rect><text x="849.9583694396574" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="412" y1="1028" x2="412.0" y2="1062.0" stroke="#2E7D32" stroke-width="7"/><rect x="388.0" y="1051.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Keys</title></rect><text x="412.0" y="1067.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">KEY</text>
+<line x1="412" y1="860" x2="412.0" y2="826.0" stroke="#2E7D32" stroke-width="7"/><rect x="388.0" y="815.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Keys</title></rect><text x="412.0" y="831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">KEY</text>
+<line x1="1378" y1="1154" x2="1412.0" y2="1154.0" stroke="#0B7A75" stroke-width="7"/><rect x="1388.0" y="1143.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Metrics</title></rect><text x="1412.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MET</text>
+<line x1="1252" y1="1280" x2="1286.0" y2="1280.0" stroke="#0B7A75" stroke-width="7"/><rect x="1262.0" y="1269.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Metrics</title></rect><text x="1286.0" y="1285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MET</text>
+<line x1="790" y1="1826" x2="814.0416305603426" y2="1850.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="790.0416305603426" y="1839.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Query Approval</title></rect><text x="814.0416305603426" y="1855.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QA</text>
+<line x1="328" y1="1616" x2="303.95836943965736" y2="1640.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="279.95836943965736" y="1629.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Query Approval</title></rect><text x="303.95836943965736" y="1645.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">QA</text>
+<line x1="1084" y1="1532" x2="1108.0416305603426" y2="1556.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1084.0416305603426" y="1545.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Saved Queries</title></rect><text x="1108.0416305603426" y="1561.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="1210" y1="1448" x2="1234.0416305603426" y2="1472.0416305603426" stroke="#B8860B" stroke-width="7"/><rect x="1210.0416305603426" y="1461.0416305603426" width="48" height="22" rx="5" fill="#B8860B"><title>Saved Queries</title></rect><text x="1234.0416305603426" y="1477.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SQ</text>
+<line x1="370" y1="566" x2="336.0" y2="566.0" stroke="#7B3FE4" stroke-width="7"/><rect x="312.0" y="555.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Webhooks</title></rect><text x="336.0" y="571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="286" y1="692" x2="252.0" y2="692.0" stroke="#7B3FE4" stroke-width="7"/><rect x="228.0" y="681.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>Webhooks</title></rect><text x="252.0" y="697.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WEB</text>
+<line x1="1336" y1="1028" x2="1360.0416305603426" y2="1052.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1336.0416305603426" y="1041.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Workflow Credentials</title></rect><text x="1360.0416305603426" y="1057.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WC</text>
+<line x1="1378" y1="650" x2="1402.0416305603426" y2="625.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1378.0416305603426" y="614.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>Workflow Credentials</title></rect><text x="1402.0416305603426" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WC</text>
+<line x1="958" y1="230" x2="958.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="934.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Workflows</title></rect><text x="958.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="706" y1="230" x2="706.0" y2="196.0" stroke="#E07B12" stroke-width="7"/><rect x="682.0" y="185.0" width="48" height="22" rx="5" fill="#E07B12"><title>Workflows</title></rect><text x="706.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WOR</text>
+<line x1="1168" y1="734" x2="1192.0416305603426" y2="758.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1168.0416305603426" y="747.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>Aifordatabase Local</title></rect><text x="1192.0416305603426" y="763.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AL</text>
+<line x1="1042" y1="608" x2="1017.9583694396574" y2="583.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="993.9583694396574" y="572.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>Aifordatabase Local</title></rect><text x="1017.9583694396574" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AL</text>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-chat-api/#op-sendChatMessage" target="_blank" class="st" data-op="sendChatMessage"><title>POST /chat
+Aifordatabase Local line · sendChatMessage</title>
+<circle cx="1168" cy="734" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="739" text-anchor="start" style="fill:#1A1F2C">Update chat</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-listConnections" target="_blank" class="st" data-op="listConnections"><title>GET /connections
+Connections line · listConnections</title>
+<circle cx="706" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="694.0" y="739" text-anchor="end" style="fill:#1A1F2C">List connections</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-createConnection" target="_blank" class="st" data-op="createConnection"><title>POST /connections
+Connections line · createConnection</title>
+<circle cx="790" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="796" y="722" transform="rotate(-45 796 722)" style="fill:#1A1F2C">Create connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-getConnection" target="_blank" class="st" data-op="getConnection"><title>GET /connections/{id}
+Connections line · getConnection</title>
+<circle cx="874" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="883" y="724" text-anchor="start" style="fill:#1A1F2C">Get connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-updateConnection" target="_blank" class="st" data-op="updateConnection"><title>PATCH /connections/{id}
+Connections line · updateConnection</title>
+<circle cx="958" cy="818" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="823" text-anchor="start" style="fill:#1A1F2C">Update connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-deleteConnection" target="_blank" class="st" data-op="deleteConnection"><title>DELETE /connections/{id}
+Connections line · deleteConnection</title>
+<circle cx="1042" cy="902" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1038" y1="906" x2="1046" y2="898" stroke="#D6264F" stroke-width="2"/>
+<text x="1054" y="907" text-anchor="start" style="fill:#1A1F2C">Delete connection</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-testConnection" target="_blank" class="st" data-op="testConnection"><title>POST /connections/{id}/test
+Connections line · testConnection</title>
+<circle cx="538" cy="902" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="907" text-anchor="start" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-getConnectionSchema" target="_blank" class="st" data-op="getConnectionSchema"><title>GET /connections/{id}/schema
+Connections line · getConnectionSchema</title>
+<circle cx="538" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="1075" text-anchor="start" style="fill:#1A1F2C">Get schema</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-introspectConnectionSchema" target="_blank" class="st" data-op="introspectConnectionSchema"><title>POST /connections/{id}/schema
+Connections line · introspectConnectionSchema</title>
+<circle cx="538" cy="986" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="550" y="991" text-anchor="start" style="fill:#1A1F2C">Update schema</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-executeQuery" target="_blank" class="st" data-op="executeQuery"><title>POST /connections/{id}/query
+Connections line · executeQuery</title>
+<circle cx="622" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="610.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Update query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-listAnnotations" target="_blank" class="st" data-op="listAnnotations"><title>GET /connections/{id}/annotations
+Connections line · listAnnotations</title>
+<circle cx="1042" cy="986" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="991" text-anchor="start" style="fill:#1A1F2C">List annotations</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-createAnnotation" target="_blank" class="st" data-op="createAnnotation"><title>POST /connections/{id}/annotations
+Connections line · createAnnotation</title>
+<circle cx="1042" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1054" y="1075" text-anchor="start" style="fill:#1A1F2C">Create annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-getAnnotation" target="_blank" class="st" data-op="getAnnotation"><title>GET /connections/{id}/annotations/{annotationId}
+Connections line · getAnnotation</title>
+<circle cx="874" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="886" y="1243" text-anchor="start" style="fill:#1A1F2C">Get annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-updateAnnotation" target="_blank" class="st" data-op="updateAnnotation"><title>PATCH /connections/{id}/annotations/{annotationId}
+Connections line · updateAnnotation</title>
+<circle cx="790" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="796" y="1226" transform="rotate(-45 796 1226)" style="fill:#1A1F2C">Update annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-deleteAnnotation" target="_blank" class="st" data-op="deleteAnnotation"><title>DELETE /connections/{id}/annotations/{annotationId}
+Connections line · deleteAnnotation</title>
+<circle cx="706" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="702" y1="1242" x2="710" y2="1234" stroke="#D6264F" stroke-width="2"/>
+<text x="694.0" y="1243" text-anchor="end" style="fill:#1A1F2C">Delete annotation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-connections-api/#op-autoGenerateAnnotations" target="_blank" class="st" data-op="autoGenerateAnnotations"><title>POST /connections/{id}/annotations/auto
+Connections line · autoGenerateAnnotations</title>
+<circle cx="958" cy="1154" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="1159" text-anchor="start" style="fill:#1A1F2C">Update auto</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-conversations-api/#op-listConversations" target="_blank" class="st" data-op="listConversations"><title>GET /conversations
+Conversations line · listConversations</title>
+<circle cx="160" cy="1070" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="166" y="1058" transform="rotate(-45 166 1058)" style="fill:#1A1F2C">List conversations</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-conversations-api/#op-createConversation" target="_blank" class="st" data-op="createConversation"><title>POST /conversations
+Conversations line · createConversation</title>
+<circle cx="244" cy="1070" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="250" y="1058" transform="rotate(-45 250 1058)" style="fill:#1A1F2C">Create conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-conversations-api/#op-getConversation" target="_blank" class="st" data-op="getConversation"><title>GET /conversations/{id}
+Conversations line · getConversation</title>
+<circle cx="286" cy="1070" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="277.0" y="1089" text-anchor="end" style="fill:#1A1F2C">Get conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-conversations-api/#op-updateConversation" target="_blank" class="st" data-op="updateConversation"><title>PATCH /conversations/{id}
+Conversations line · updateConversation</title>
+<circle cx="328" cy="1112" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="340" y="1117" text-anchor="start" style="fill:#1A1F2C">Update conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-conversations-api/#op-deleteConversation" target="_blank" class="st" data-op="deleteConversation"><title>DELETE /conversations/{id}
+Conversations line · deleteConversation</title>
+<circle cx="328" cy="1196" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="324" y1="1200" x2="332" y2="1192" stroke="#B0287F" stroke-width="2"/>
+<text x="340" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete conversation</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-conversations-api/#op-listConversationMessages" target="_blank" class="st" data-op="listConversationMessages"><title>GET /conversations/{id}/messages
+Conversations line · listConversationMessages</title>
+<circle cx="328" cy="1280" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="340" y="1285" text-anchor="start" style="fill:#1A1F2C">List messages</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-listDashboards" target="_blank" class="st" data-op="listDashboards"><title>GET /dashboards
+Dashboards line · listDashboards</title>
+<circle cx="538" cy="1238" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="526.0" y="1243" text-anchor="end" style="fill:#1A1F2C">List dashboards</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-createDashboard" target="_blank" class="st" data-op="createDashboard"><title>POST /dashboards
+Dashboards line · createDashboard</title>
+<circle cx="706" cy="1154" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="1159" text-anchor="start" style="fill:#1A1F2C">Create dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-getDashboard" target="_blank" class="st" data-op="getDashboard"><title>GET /dashboards/{id}
+Dashboards line · getDashboard</title>
+<circle cx="748" cy="1112" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="760" y="1117" text-anchor="start" style="fill:#1A1F2C">Get dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-updateDashboard" target="_blank" class="st" data-op="updateDashboard"><title>PATCH /dashboards/{id}
+Dashboards line · updateDashboard</title>
+<circle cx="790" cy="1070" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="802" y="1075" text-anchor="start" style="fill:#1A1F2C">Update dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-deleteDashboard" target="_blank" class="st" data-op="deleteDashboard"><title>DELETE /dashboards/{id}
+Dashboards line · deleteDashboard</title>
+<circle cx="874" cy="986" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="870" y1="990" x2="878" y2="982" stroke="#0E9F6E" stroke-width="2"/>
+<text x="886" y="991" text-anchor="start" style="fill:#1A1F2C">Delete dashboard</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-listWidgets" target="_blank" class="st" data-op="listWidgets"><title>GET /dashboards/{id}/widgets
+Dashboards line · listWidgets</title>
+<circle cx="874" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="907" text-anchor="start" style="fill:#1A1F2C">List widgets</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-createWidget" target="_blank" class="st" data-op="createWidget"><title>POST /dashboards/{id}/widgets
+Dashboards line · createWidget</title>
+<circle cx="874" cy="818" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="862.0" y="823" text-anchor="end" style="fill:#1A1F2C">Create widget</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-updateWidget" target="_blank" class="st" data-op="updateWidget"><title>PATCH /dashboards/{id}/widgets/{widgetId}
+Dashboards line · updateWidget</title>
+<circle cx="1000" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1012" y="739" text-anchor="start" style="fill:#1A1F2C">Update widget</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-deleteWidget" target="_blank" class="st" data-op="deleteWidget"><title>DELETE /dashboards/{id}/widgets/{widgetId}
+Dashboards line · deleteWidget</title>
+<circle cx="916" cy="650" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="912" y1="654" x2="920" y2="646" stroke="#0E9F6E" stroke-width="2"/>
+<text x="928" y="655" text-anchor="start" style="fill:#1A1F2C">Delete widget</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-dashboards-api/#op-getWidgetData" target="_blank" class="st" data-op="getWidgetData"><title>GET /dashboards/{id}/widgets/{widgetId}/data
+Dashboards line · getWidgetData</title>
+<circle cx="874" cy="608" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="886" y="613" text-anchor="start" style="fill:#1A1F2C">Get data</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-keys-api/#op-listApiKeys" target="_blank" class="st" data-op="listApiKeys"><title>GET /keys
+Keys line · listApiKeys</title>
+<circle cx="412" cy="1028" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="424" y="1033" text-anchor="start" style="fill:#1A1F2C">List keys</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-keys-api/#op-createApiKey" target="_blank" class="st" data-op="createApiKey"><title>POST /keys
+Keys line · createApiKey</title>
+<circle cx="412" cy="944" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="424" y="949" text-anchor="start" style="fill:#1A1F2C">Create key</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-keys-api/#op-revokeApiKey" target="_blank" class="st" data-op="revokeApiKey"><title>DELETE /keys/{id}
+Keys line · revokeApiKey</title>
+<circle cx="412" cy="860" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="408" y1="864" x2="416" y2="856" stroke="#2E7D32" stroke-width="2"/>
+<text x="424" y="865" text-anchor="start" style="fill:#1A1F2C">Delete key</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-metrics-api/#op-listMetrics" target="_blank" class="st" data-op="listMetrics"><title>GET /metrics
+Metrics line · listMetrics</title>
+<circle cx="1378" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1372" y="1166" text-anchor="end" transform="rotate(-45 1372 1166)" style="fill:#1A1F2C">List metrics</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-metrics-api/#op-createMetric" target="_blank" class="st" data-op="createMetric"><title>POST /metrics
+Metrics line · createMetric</title>
+<circle cx="1294" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1300" y="1142" transform="rotate(-45 1300 1142)" style="fill:#1A1F2C">Create metric</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-metrics-api/#op-getMetric" target="_blank" class="st" data-op="getMetric"><title>GET /metrics/{id}
+Metrics line · getMetric</title>
+<circle cx="1210" cy="1154" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1198.0" y="1159" text-anchor="end" style="fill:#1A1F2C">Get metric</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-metrics-api/#op-updateMetric" target="_blank" class="st" data-op="updateMetric"><title>PATCH /metrics/{id}
+Metrics line · updateMetric</title>
+<circle cx="1168" cy="1196" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1180" y="1201" text-anchor="start" style="fill:#1A1F2C">Update metric</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-metrics-api/#op-deleteMetric" target="_blank" class="st" data-op="deleteMetric"><title>DELETE /metrics/{id}
+Metrics line · deleteMetric</title>
+<circle cx="1168" cy="1280" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1164" y1="1284" x2="1172" y2="1276" stroke="#0B7A75" stroke-width="2"/>
+<text x="1156.0" y="1285" text-anchor="end" style="fill:#1A1F2C">Delete metric</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-metrics-api/#op-getMetricValue" target="_blank" class="st" data-op="getMetricValue"><title>GET /metrics/{id}/value
+Metrics line · getMetricValue</title>
+<circle cx="1252" cy="1280" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1246" y="1292" text-anchor="end" transform="rotate(-45 1246 1292)" style="fill:#1A1F2C">Get value</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-listApprovalRules" target="_blank" class="st" data-op="listApprovalRules"><title>GET /approval-rules
+Query Approval line · listApprovalRules</title>
+<circle cx="790" cy="1826" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="802" y="1831" text-anchor="start" style="fill:#1A1F2C">List approval rules</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-createApprovalRule" target="_blank" class="st" data-op="createApprovalRule"><title>POST /approval-rules
+Query Approval line · createApprovalRule</title>
+<circle cx="706" cy="1742" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="1747" text-anchor="start" style="fill:#1A1F2C">Create approval rule</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-getApprovalRule" target="_blank" class="st" data-op="getApprovalRule"><title>GET /approval-rules/{id}
+Query Approval line · getApprovalRule</title>
+<circle cx="664" cy="1700" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="1705" text-anchor="start" style="fill:#1A1F2C">Get approval rule</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-updateApprovalRule" target="_blank" class="st" data-op="updateApprovalRule"><title>PATCH /approval-rules/{id}
+Query Approval line · updateApprovalRule</title>
+<circle cx="664" cy="1574" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="1579" text-anchor="start" style="fill:#1A1F2C">Update approval rule</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-deleteApprovalRule" target="_blank" class="st" data-op="deleteApprovalRule"><title>DELETE /approval-rules/{id}
+Query Approval line · deleteApprovalRule</title>
+<circle cx="664" cy="1448" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="660" y1="1452" x2="668" y2="1444" stroke="#1F5FD1" stroke-width="2"/>
+<text x="676" y="1453" text-anchor="start" style="fill:#1A1F2C">Delete approval rule</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-submitQueryForApproval" target="_blank" class="st" data-op="submitQueryForApproval"><title>POST /queries/submit
+Query Approval line · submitQueryForApproval</title>
+<circle cx="580" cy="1364" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="568.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Submit query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-getQueryApprovalStatus" target="_blank" class="st" data-op="getQueryApprovalStatus"><title>GET /queries/{id}/status
+Query Approval line · getQueryApprovalStatus</title>
+<circle cx="328" cy="1616" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="340" y="1621" text-anchor="start" style="fill:#1A1F2C">List status</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-listPendingQueries" target="_blank" class="st" data-op="listPendingQueries"><title>GET /queries/pending
+Query Approval line · listPendingQueries</title>
+<circle cx="664" cy="1364" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="676" y="1369" text-anchor="start" style="fill:#1A1F2C">Get pending</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-approveQuery" target="_blank" class="st" data-op="approveQuery"><title>POST /queries/{id}/approve
+Query Approval line · approveQuery</title>
+<circle cx="496" cy="1448" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="1453" text-anchor="start" style="fill:#1A1F2C">Approve query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-query-approval-api/#op-rejectQuery" target="_blank" class="st" data-op="rejectQuery"><title>POST /queries/{id}/reject
+Query Approval line · rejectQuery</title>
+<circle cx="412" cy="1532" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="424" y="1537" text-anchor="start" style="fill:#1A1F2C">Reject query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-saved-queries-api/#op-listSavedQueries" target="_blank" class="st" data-op="listSavedQueries"><title>GET /saved-queries
+Saved Queries line · listSavedQueries</title>
+<circle cx="1084" cy="1532" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1096" y="1537" text-anchor="start" style="fill:#1A1F2C">List saved queries</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-saved-queries-api/#op-createSavedQuery" target="_blank" class="st" data-op="createSavedQuery"><title>POST /saved-queries
+Saved Queries line · createSavedQuery</title>
+<circle cx="1000" cy="1448" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1012" y="1453" text-anchor="start" style="fill:#1A1F2C">Create saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-saved-queries-api/#op-getSavedQuery" target="_blank" class="st" data-op="getSavedQuery"><title>GET /saved-queries/{id}
+Saved Queries line · getSavedQuery</title>
+<circle cx="958" cy="1406" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="970" y="1411" text-anchor="start" style="fill:#1A1F2C">Get saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-saved-queries-api/#op-updateSavedQuery" target="_blank" class="st" data-op="updateSavedQuery"><title>PATCH /saved-queries/{id}
+Saved Queries line · updateSavedQuery</title>
+<circle cx="1000" cy="1364" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="988.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Update saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-saved-queries-api/#op-deleteSavedQuery" target="_blank" class="st" data-op="deleteSavedQuery"><title>DELETE /saved-queries/{id}
+Saved Queries line · deleteSavedQuery</title>
+<circle cx="1126" cy="1364" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1122" y1="1368" x2="1130" y2="1360" stroke="#B8860B" stroke-width="2"/>
+<text x="1138" y="1369" text-anchor="start" style="fill:#1A1F2C">Delete saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-saved-queries-api/#op-executeSavedQuery" target="_blank" class="st" data-op="executeSavedQuery"><title>POST /saved-queries/{id}/run
+Saved Queries line · executeSavedQuery</title>
+<circle cx="1210" cy="1448" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1222" y="1453" text-anchor="start" style="fill:#1A1F2C">Run saved query</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-usage-api/#op-listUsageRecords" target="_blank" class="st" data-op="listUsageRecords"><title>GET /usage
+Aifordatabase Local line · listUsageRecords</title>
+<circle cx="1126" cy="692" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="697" text-anchor="start" style="fill:#1A1F2C">Get usage</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-usage-api/#op-getUsageBudget" target="_blank" class="st" data-op="getUsageBudget"><title>GET /usage/budget
+Aifordatabase Local line · getUsageBudget</title>
+<circle cx="1042" cy="608" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1054" y="613" text-anchor="start" style="fill:#1A1F2C">Get budget</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-listWebhookEndpoints" target="_blank" class="st" data-op="listWebhookEndpoints"><title>GET /webhooks
+Webhooks line · listWebhookEndpoints</title>
+<circle cx="370" cy="566" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="376" y="554" transform="rotate(-45 376 554)" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-createWebhookEndpoint" target="_blank" class="st" data-op="createWebhookEndpoint"><title>POST /webhooks
+Webhooks line · createWebhookEndpoint</title>
+<circle cx="496" cy="566" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="508" y="571" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-getWebhookEndpoint" target="_blank" class="st" data-op="getWebhookEndpoint"><title>GET /webhooks/{id}
+Webhooks line · getWebhookEndpoint</title>
+<circle cx="538" cy="608" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="550" y="613" text-anchor="start" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-updateWebhookEndpoint" target="_blank" class="st" data-op="updateWebhookEndpoint"><title>PATCH /webhooks/{id}
+Webhooks line · updateWebhookEndpoint</title>
+<circle cx="538" cy="692" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="550" y="697" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-deleteWebhookEndpoint" target="_blank" class="st" data-op="deleteWebhookEndpoint"><title>DELETE /webhooks/{id}
+Webhooks line · deleteWebhookEndpoint</title>
+<circle cx="454" cy="692" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="450" y1="696" x2="458" y2="688" stroke="#7B3FE4" stroke-width="2"/>
+<text x="460" y="680" transform="rotate(-45 460 680)" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-listWebhookDeliveries" target="_blank" class="st" data-op="listWebhookDeliveries"><title>GET /webhooks/{id}/deliveries
+Webhooks line · listWebhookDeliveries</title>
+<circle cx="370" cy="692" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="376" y="680" transform="rotate(-45 376 680)" style="fill:#1A1F2C">List deliveries</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-webhooks-api/#op-testWebhookEndpoint" target="_blank" class="st" data-op="testWebhookEndpoint"><title>POST /webhooks/{id}/test
+Webhooks line · testWebhookEndpoint</title>
+<circle cx="286" cy="692" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="292" y="680" transform="rotate(-45 292 680)" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflow-credentials-api/#op-listWorkflowCredentials" target="_blank" class="st" data-op="listWorkflowCredentials"><title>GET /workflow-credentials
+Workflow Credentials line · listWorkflowCredentials</title>
+<circle cx="1336" cy="1028" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1348" y="1033" text-anchor="start" style="fill:#1A1F2C">List workflow credentials</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflow-credentials-api/#op-createWorkflowCredential" target="_blank" class="st" data-op="createWorkflowCredential"><title>POST /workflow-credentials
+Workflow Credentials line · createWorkflowCredential</title>
+<circle cx="1252" cy="944" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1264" y="949" text-anchor="start" style="fill:#1A1F2C">Create workflow credential</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflow-credentials-api/#op-getWorkflowCredential" target="_blank" class="st" data-op="getWorkflowCredential"><title>GET /workflow-credentials/{id}
+Workflow Credentials line · getWorkflowCredential</title>
+<circle cx="1168" cy="860" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1180" y="865" text-anchor="start" style="fill:#1A1F2C">Get workflow credential</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflow-credentials-api/#op-rotateWorkflowCredential" target="_blank" class="st" data-op="rotateWorkflowCredential"><title>PATCH /workflow-credentials/{id}
+Workflow Credentials line · rotateWorkflowCredential</title>
+<circle cx="1294" cy="734" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1306" y="739" text-anchor="start" style="fill:#1A1F2C">Update workflow credential</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflow-credentials-api/#op-deleteWorkflowCredential" target="_blank" class="st" data-op="deleteWorkflowCredential"><title>DELETE /workflow-credentials/{id}
+Workflow Credentials line · deleteWorkflowCredential</title>
+<circle cx="1378" cy="650" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1374" y1="654" x2="1382" y2="646" stroke="#C2410C" stroke-width="2"/>
+<text x="1390" y="655" text-anchor="start" style="fill:#1A1F2C">Delete workflow credential</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-listWorkflows" target="_blank" class="st" data-op="listWorkflows"><title>GET /workflows
+Workflows line · listWorkflows</title>
+<circle cx="958" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="235" text-anchor="start" style="fill:#1A1F2C">List workflows</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-createWorkflow" target="_blank" class="st" data-op="createWorkflow"><title>POST /workflows
+Workflows line · createWorkflow</title>
+<circle cx="958" cy="314" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="319" text-anchor="start" style="fill:#1A1F2C">Create workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-getWorkflow" target="_blank" class="st" data-op="getWorkflow"><title>GET /workflows/{id}
+Workflows line · getWorkflow</title>
+<circle cx="958" cy="440" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="970" y="445" text-anchor="start" style="fill:#1A1F2C">Get workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-updateWorkflow" target="_blank" class="st" data-op="updateWorkflow"><title>PATCH /workflows/{id}
+Workflows line · updateWorkflow</title>
+<circle cx="916" cy="482" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="928" y="487" text-anchor="start" style="fill:#1A1F2C">Update workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-deleteWorkflow" target="_blank" class="st" data-op="deleteWorkflow"><title>DELETE /workflows/{id}
+Workflows line · deleteWorkflow</title>
+<circle cx="832" cy="482" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="828" y1="486" x2="836" y2="478" stroke="#E07B12" stroke-width="2"/>
+<text x="838" y="470" transform="rotate(-45 838 470)" style="fill:#1A1F2C">Delete workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-triggerWorkflow" target="_blank" class="st" data-op="triggerWorkflow"><title>POST /workflows/{id}/run
+Workflows line · triggerWorkflow</title>
+<circle cx="706" cy="314" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="718" y="319" text-anchor="start" style="fill:#1A1F2C">Run workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-previewWorkflow" target="_blank" class="st" data-op="previewWorkflow"><title>POST /workflows/{id}/preview
+Workflows line · previewWorkflow</title>
+<circle cx="706" cy="398" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="718" y="403" text-anchor="start" style="fill:#1A1F2C">Preview workflow</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-testWorkflowAction" target="_blank" class="st" data-op="testWorkflowAction"><title>POST /workflows/{id}/actions/{order}/test
+Workflows line · testWorkflowAction</title>
+<circle cx="706" cy="482" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="694.0" y="487" text-anchor="end" style="fill:#1A1F2C">Update test</text>
+</a>
+<a href="https://apis.apis.io/apis/aifordatabase/aifordatabase-workflows-api/#op-listWorkflowRuns" target="_blank" class="st" data-op="listWorkflowRuns"><title>GET /workflows/{id}/runs
+Workflows line · listWorkflowRuns</title>
+<circle cx="706" cy="230" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="718" y="235" text-anchor="start" style="fill:#1A1F2C">List runs</text>
+</a>
+<text x="1568" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="1568" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">AIFORDATABASE</text>
+<rect x="1568" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="1585" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CON</text><text x="1610" y="269" font-size="11" fill="#1A1F2C">Connections <tspan fill="#8A93A6">15</tspan></text>
+<rect x="1568" y="276" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="1585" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAS</text><text x="1610" y="286" font-size="11" fill="#1A1F2C">Dashboards <tspan fill="#8A93A6">10</tspan></text>
+<rect x="1568" y="293" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="1585" y="303" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">QA</text><text x="1610" y="303" font-size="11" fill="#1A1F2C">Query Approval <tspan fill="#8A93A6">10</tspan></text>
+<rect x="1568" y="310" width="34" height="13" rx="3" fill="#E07B12"/><text x="1585" y="320" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WOR</text><text x="1610" y="320" font-size="11" fill="#1A1F2C">Workflows <tspan fill="#8A93A6">9</tspan></text>
+<rect x="1568" y="327" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="1585" y="337" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WEB</text><text x="1610" y="337" font-size="11" fill="#1A1F2C">Webhooks <tspan fill="#8A93A6">7</tspan></text>
+<rect x="1568" y="344" width="34" height="13" rx="3" fill="#B0287F"/><text x="1585" y="354" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CNV</text><text x="1610" y="354" font-size="11" fill="#1A1F2C">Conversations <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1568" y="361" width="34" height="13" rx="3" fill="#0B7A75"/><text x="1585" y="371" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MET</text><text x="1610" y="371" font-size="11" fill="#1A1F2C">Metrics <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1568" y="378" width="34" height="13" rx="3" fill="#B8860B"/><text x="1585" y="388" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SQ</text><text x="1610" y="388" font-size="11" fill="#1A1F2C">Saved Queries <tspan fill="#8A93A6">6</tspan></text>
+<rect x="1568" y="395" width="34" height="13" rx="3" fill="#C2410C"/><text x="1585" y="405" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WC</text><text x="1610" y="405" font-size="11" fill="#1A1F2C">Workflow Credentials <tspan fill="#8A93A6">5</tspan></text>
+<rect x="1568" y="412" width="34" height="13" rx="3" fill="#2E7D32"/><text x="1585" y="422" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">KEY</text><text x="1610" y="422" font-size="11" fill="#1A1F2C">Keys <tspan fill="#8A93A6">3</tspan></text>
+<rect x="1568" y="429" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="1585" y="439" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AL</text><text x="1610" y="439" font-size="11" fill="#1A1F2C">Aifordatabase Local <tspan fill="#8A93A6">3</tspan></text>
+<text x="1818" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(1836,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1862" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(1836,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="1862" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(1836,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="1862" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(1836,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="1862" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(1836,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="1862" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(1836,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="1862" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(1836,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="1862" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(1836,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="1862" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="1818" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="1818" y="463" font-size="10.5" fill="#5A6275">“Chat” → Aifordatabase Local line · 1 op</text>
+<text x="1818" y="478" font-size="10.5" fill="#5A6275">“Usage” → Aifordatabase Local line · 2 ops</text>
+<text x="1818" y="528" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="1818" y="545" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="1956" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/aifordatabase/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

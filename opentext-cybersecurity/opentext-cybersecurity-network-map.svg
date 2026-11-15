@@ -1,0 +1,934 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3170 3078" width="3170" height="3078" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3170" height="3078" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Opentext-Cybersecurity API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">159 operations as stops · 18 tags as lines · 9 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<line x1="1126" y1="1616" x2="1084" y2="1616" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="1126" y1="1616" x2="1084" y2="1616" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<path class="line" data-line="API Key Management" d="M1882.0,650.0 L1798.0,650.0 L1714.0,650.0 L1630.0,650.0 L1560.0,650.0 Q1546.0,650.0 1546.0,636.0 L1546.0,538.0 Q1546.0,524.0 1555.9,514.1 L1578.1,491.9 Q1588.0,482.0 1588.0,468.0 L1588.0,398.0 L1588.0,314.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>API Key Management</title></path>
+<path class="line" data-line="Applications" d="M1084.0,1070.0 L1168.0,1070.0 L1252.0,1070.0 L1322.0,1070.0 Q1336.0,1070.0 1345.9,1079.9 L1420.0,1154.0 L1504.0,1238.0 L1578.1,1312.1 Q1588.0,1322.0 1588.0,1336.0 L1588.0,1406.0 L1588.0,1490.0 L1588.0,1560.0 Q1588.0,1574.0 1578.1,1583.9 L1504.0,1658.0 L1420.0,1742.0 L1345.9,1816.1 Q1336.0,1826.0 1322.0,1826.0 L1252.0,1826.0 L1168.0,1826.0 L1098.0,1826.0 Q1084.0,1826.0 1074.1,1816.1 L1000.0,1742.0 L916.0,1658.0 L841.9,1583.9 Q832.0,1574.0 832.0,1560.0 L832.0,1490.0 L832.0,1406.0 L832.0,1336.0 Q832.0,1322.0 841.9,1312.1 L916.0,1238.0 L1084.0,1070.0" fill="none" stroke="#D6264F" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"><title>Applications</title></path>
+<path class="line" data-line="Attributes" d="M1420.0,608.0 L1336.0,692.0 L1261.9,766.1 Q1252.0,776.0 1238.0,776.0 L1210.0,776.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Attributes</title></path>
+<path class="line" data-line="DAST Automated Scans" d="M1084.0,1700.0 L1009.9,1774.1 Q1000.0,1784.0 1000.0,1798.0 L1000.0,1826.0 L1000.0,1952.0 L1000.0,2064.0 Q1000.0,2078.0 990.1,2087.9 L967.9,2110.1 Q958.0,2120.0 958.0,2134.0 L958.0,2232.0 Q958.0,2246.0 948.1,2255.9 L916.0,2288.0 L832.0,2372.0 L748.0,2456.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>DAST Automated Scans</title></path>
+<path class="line" data-line="Dynamic Scans" d="M1210.0,1448.0 L1210.0,1518.0 Q1210.0,1532.0 1219.9,1541.9 L1242.1,1564.1 Q1252.0,1574.0 1266.0,1574.0 L1294.0,1574.0 L1364.0,1574.0 Q1378.0,1574.0 1387.9,1564.1 L1410.1,1541.9 Q1420.0,1532.0 1434.0,1532.0 L1490.0,1532.0 Q1504.0,1532.0 1513.9,1541.9 L1672.0,1700.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Dynamic Scans</title></path>
+<path class="line" data-line="Mobile Scans" d="M1084.0,1532.0 L1084.0,1448.0 L1084.0,1364.0 L1084.0,1280.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Mobile Scans</title></path>
+<path class="line" data-line="Notifications" d="M1462.0,734.0 L1462.0,818.0 L1462.0,902.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Notifications</title></path>
+<path class="line" data-line="Vulnerabilities" d="M1210.0,1658.0 L1252.0,1700.0 L1410.1,1858.1 Q1420.0,1868.0 1420.0,1882.0 L1420.0,1896.0 Q1420.0,1910.0 1429.9,1919.9 L1504.0,1994.0 L1578.1,2068.1 Q1588.0,2078.0 1588.0,2092.0 L1588.0,2106.0 Q1588.0,2120.0 1597.9,2129.9 L1620.1,2152.1 Q1630.0,2162.0 1644.0,2162.0 L1714.0,2162.0 L1798.0,2162.0 L1924.0,2162.0 L1994.0,2162.0 Q2008.0,2162.0 2017.9,2171.9 L2092.0,2246.0 L2208.1,2362.1 Q2218.0,2372.0 2218.0,2386.0 L2218.0,2414.0 L2218.0,2442.0 Q2218.0,2456.0 2227.9,2465.9 L2334.1,2572.1 Q2344.0,2582.0 2344.0,2596.0 L2344.0,2610.0 Q2344.0,2624.0 2353.9,2633.9 L2428.0,2708.0 L2460.1,2740.1 Q2470.0,2750.0 2470.0,2764.0 L2470.0,2834.0 L2470.0,2918.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Vulnerabilities</title></path>
+<path class="line" data-line="Personal Access Tokens" d="M790.0,524.0 L790.0,608.0 L790.0,650.0 L790.0,678.0 Q790.0,692.0 780.1,701.9 L622.0,860.0 L538.0,944.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Personal Access Tokens</title></path>
+<path class="line" data-line="Releases" d="M958.0,1406.0 L958.0,1476.0 Q958.0,1490.0 967.9,1499.9 L1074.1,1606.1 Q1084.0,1616.0 1070.0,1616.0 L1014.0,1616.0 Q1000.0,1616.0 990.1,1625.9 L925.9,1690.1 Q916.0,1700.0 916.0,1714.0 L916.0,1728.0 Q916.0,1742.0 902.0,1742.0 L832.0,1742.0 L762.0,1742.0 Q748.0,1742.0 738.1,1751.9 L715.9,1774.1 Q706.0,1784.0 692.0,1784.0 L594.0,1784.0 Q580.0,1784.0 570.1,1774.1 L505.9,1709.9 Q496.0,1700.0 505.9,1690.1 L528.1,1667.9 Q538.0,1658.0 552.0,1658.0 L650.0,1658.0 Q664.0,1658.0 664.0,1644.0 L664.0,1546.0 Q664.0,1532.0 650.0,1532.0 L580.0,1532.0 L496.0,1532.0 L412.0,1532.0 L328.0,1532.0 L244.0,1532.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Releases</title></path>
+<path class="line" data-line="Reports" d="M2344.0,1616.0 L2260.0,1616.0 L2176.0,1616.0 L2050.0,1616.0 L1938.0,1616.0 Q1924.0,1616.0 1914.1,1606.1 L1891.9,1583.9 Q1882.0,1574.0 1872.1,1583.9 L1849.9,1606.1 Q1840.0,1616.0 1840.0,1630.0 L1840.0,1728.0 Q1840.0,1742.0 1849.9,1751.9 L1882.0,1784.0 L1966.0,1868.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Reports</title></path>
+<path class="line" data-line="Scans" d="M748.0,1574.0 L748.0,1504.0 Q748.0,1490.0 738.1,1480.1 L673.9,1415.9 Q664.0,1406.0 650.0,1406.0 L538.0,1406.0 L412.0,1406.0 L328.0,1406.0 L244.0,1406.0 L160.0,1406.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Scans</title></path>
+<path class="line" data-line="Static Scans" d="M1126.0,1616.0 L1200.1,1690.1 Q1210.0,1700.0 1210.0,1714.0 L1210.0,1784.0 L1210.0,1896.0 Q1210.0,1910.0 1200.1,1919.9 L1177.9,1942.1 Q1168.0,1952.0 1168.0,1966.0 L1168.0,2078.0 L1168.0,2162.0 L1168.0,2246.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Static Scans</title></path>
+<path class="line" data-line="User Management" d="M622.0,2120.0 L706.0,2036.0 L738.1,2003.9 Q748.0,1994.0 748.0,1980.0 L748.0,1924.0 Q748.0,1910.0 734.0,1910.0 L664.0,1910.0 L580.0,1910.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>User Management</title></path>
+<path class="line" data-line="UserApplicationAccess" d="M1084.0,818.0 L1126.0,860.0 L1210.0,944.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>UserApplicationAccess</title></path>
+<path class="line" data-line="UserGroupApplicationAccess" d="M1630.0,860.0 L1630.0,944.0 L1630.0,1028.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>UserGroupApplicationAccess</title></path>
+<path class="line" data-line="Users" d="M622.0,1238.0 L706.0,1238.0 L776.0,1238.0 Q790.0,1238.0 799.9,1228.1 L832.0,1196.0 L916.0,1112.0" fill="none" stroke="#af2328" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Users</title></path>
+<path class="line" data-line="More Local" d="M496.0,356.0 L580.0,440.0 L654.1,514.1 Q664.0,524.0 664.0,538.0 L664.0,594.0 Q664.0,608.0 673.9,617.9 L706.0,650.0 L864.1,808.1 Q874.0,818.0 888.0,818.0 L944.0,818.0 Q958.0,818.0 958.0,804.0 L958.0,692.0 L958.0,566.0 L958.0,482.0 L958.0,398.0 L958.0,314.0 L958.0,230.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local</title></path>
+<line x1="1882" y1="650" x2="1916.0" y2="650.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1892.0" y="639.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>API Key Management</title></rect><text x="1916.0" y="655.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AKM</text>
+<line x1="1588" y1="314" x2="1588.0" y2="280.0" stroke="#7B3FE4" stroke-width="7"/><rect x="1564.0" y="269.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>API Key Management</title></rect><text x="1588.0" y="285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">AKM</text>
+<rect x="1054" y="1017" width="60" height="26" rx="13" fill="#D6264F"/><text x="1084" y="1035" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">APP</text>
+<line x1="1420" y1="608" x2="1444.0416305603426" y2="583.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1420.0416305603426" y="572.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>Attributes</title></rect><text x="1444.0416305603426" y="588.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ATT</text>
+<line x1="1210" y1="776" x2="1176.0" y2="776.0" stroke="#B0287F" stroke-width="7"/><rect x="1152.0" y="765.0" width="48" height="22" rx="5" fill="#B0287F"><title>Attributes</title></rect><text x="1176.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ATT</text>
+<line x1="1084" y1="1700" x2="1108.0416305603426" y2="1675.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1084.0416305603426" y="1664.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>DAST Automated Scans</title></rect><text x="1108.0416305603426" y="1680.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="748" y1="2456" x2="723.9583694396574" y2="2480.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="699.9583694396574" y="2469.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>DAST Automated Scans</title></rect><text x="723.9583694396574" y="2485.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DAS</text>
+<line x1="1210" y1="1448" x2="1210.0" y2="1414.0" stroke="#C2410C" stroke-width="7"/><rect x="1186.0" y="1403.0" width="48" height="22" rx="5" fill="#C2410C"><title>Dynamic Scans</title></rect><text x="1210.0" y="1419.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DS</text>
+<line x1="1672" y1="1700" x2="1696.0416305603426" y2="1724.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1672.0416305603426" y="1713.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>Dynamic Scans</title></rect><text x="1696.0416305603426" y="1729.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DS</text>
+<line x1="1084" y1="1532" x2="1084.0" y2="1566.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1060.0" y="1555.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Mobile Scans</title></rect><text x="1084.0" y="1571.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MS</text>
+<line x1="1084" y1="1280" x2="1084.0" y2="1246.0" stroke="#5C6BC0" stroke-width="7"/><rect x="1060.0" y="1235.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>Mobile Scans</title></rect><text x="1084.0" y="1251.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MS</text>
+<line x1="1462" y1="734" x2="1462.0" y2="700.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1438.0" y="689.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Notifications</title></rect><text x="1462.0" y="705.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="1462" y1="902" x2="1462.0" y2="936.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1438.0" y="925.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Notifications</title></rect><text x="1462.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">NOT</text>
+<line x1="1210" y1="1658" x2="1185.9583694396574" y2="1633.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="1161.9583694396574" y="1622.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>Vulnerabilities</title></rect><text x="1185.9583694396574" y="1638.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VUL</text>
+<line x1="2470" y1="2918" x2="2470.0" y2="2952.0" stroke="#0E9F6E" stroke-width="7"/><rect x="2446.0" y="2941.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>Vulnerabilities</title></rect><text x="2470.0" y="2957.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VUL</text>
+<line x1="790" y1="524" x2="790.0" y2="490.0" stroke="#2E7D32" stroke-width="7"/><rect x="766.0" y="479.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Personal Access Tokens</title></rect><text x="790.0" y="495.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="538" y1="944" x2="513.9583694396574" y2="968.0416305603426" stroke="#2E7D32" stroke-width="7"/><rect x="489.9583694396574" y="957.0416305603426" width="48" height="22" rx="5" fill="#2E7D32"><title>Personal Access Tokens</title></rect><text x="513.9583694396574" y="973.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PAT</text>
+<line x1="958" y1="1406" x2="958.0" y2="1372.0" stroke="#1F5FD1" stroke-width="7"/><rect x="934.0" y="1361.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Releases</title></rect><text x="958.0" y="1377.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REL</text>
+<line x1="244" y1="1532" x2="210.0" y2="1532.0" stroke="#1F5FD1" stroke-width="7"/><rect x="186.0" y="1521.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>Releases</title></rect><text x="210.0" y="1537.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REL</text>
+<line x1="2344" y1="1616" x2="2378.0" y2="1616.0" stroke="#E07B12" stroke-width="7"/><rect x="2354.0" y="1605.0" width="48" height="22" rx="5" fill="#E07B12"><title>Reports</title></rect><text x="2378.0" y="1621.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="1966" y1="1868" x2="1990.0416305603426" y2="1892.0416305603426" stroke="#E07B12" stroke-width="7"/><rect x="1966.0416305603426" y="1881.0416305603426" width="48" height="22" rx="5" fill="#E07B12"><title>Reports</title></rect><text x="1990.0416305603426" y="1897.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">REP</text>
+<line x1="748" y1="1574" x2="748.0" y2="1608.0" stroke="#0B7A75" stroke-width="7"/><rect x="724.0" y="1597.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Scans</title></rect><text x="748.0" y="1613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCA</text>
+<line x1="160" y1="1406" x2="126.0" y2="1406.0" stroke="#0B7A75" stroke-width="7"/><rect x="102.0" y="1395.0" width="48" height="22" rx="5" fill="#0B7A75"><title>Scans</title></rect><text x="126.0" y="1411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SCA</text>
+<line x1="1126" y1="1616" x2="1147.2132034355964" y2="1594.7867965644036" stroke="#B8860B" stroke-width="7"/><rect x="1123.2132034355964" y="1583.7867965644036" width="48" height="22" rx="5" fill="#B8860B"><title>Static Scans</title></rect><text x="1147.2132034355964" y="1599.7867965644036" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SS</text>
+<line x1="1168" y1="2246" x2="1168.0" y2="2280.0" stroke="#B8860B" stroke-width="7"/><rect x="1144.0" y="2269.0" width="48" height="22" rx="5" fill="#B8860B"><title>Static Scans</title></rect><text x="1168.0" y="2285.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SS</text>
+<line x1="622" y1="2120" x2="597.9583694396574" y2="2144.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="573.9583694396574" y="2133.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>User Management</title></rect><text x="597.9583694396574" y="2149.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UM</text>
+<line x1="580" y1="1910" x2="546.0" y2="1910.0" stroke="#5C6BC0" stroke-width="7"/><rect x="522.0" y="1899.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>User Management</title></rect><text x="546.0" y="1915.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UM</text>
+<line x1="1084" y1="818" x2="1059.9583694396574" y2="793.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1035.9583694396574" y="782.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>UserApplicationAccess</title></rect><text x="1059.9583694396574" y="798.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UAA</text>
+<line x1="1210" y1="944" x2="1234.0416305603426" y2="968.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1210.0416305603426" y="957.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>UserApplicationAccess</title></rect><text x="1234.0416305603426" y="973.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UAA</text>
+<line x1="1630" y1="860" x2="1630.0" y2="826.0" stroke="#00838F" stroke-width="7"/><rect x="1606.0" y="815.0" width="48" height="22" rx="5" fill="#00838F"><title>UserGroupApplicationAccess</title></rect><text x="1630.0" y="831.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UGAA</text>
+<line x1="1630" y1="1028" x2="1630.0" y2="1062.0" stroke="#00838F" stroke-width="7"/><rect x="1606.0" y="1051.0" width="48" height="22" rx="5" fill="#00838F"><title>UserGroupApplicationAccess</title></rect><text x="1630.0" y="1067.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">UGAA</text>
+<line x1="622" y1="1238" x2="588.0" y2="1238.0" stroke="#af2328" stroke-width="7"/><rect x="564.0" y="1227.0" width="48" height="22" rx="5" fill="#af2328"><title>Users</title></rect><text x="588.0" y="1243.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="916" y1="1112" x2="940.0416305603426" y2="1087.9583694396574" stroke="#af2328" stroke-width="7"/><rect x="916.0416305603426" y="1076.9583694396574" width="48" height="22" rx="5" fill="#af2328"><title>Users</title></rect><text x="940.0416305603426" y="1092.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">USE</text>
+<line x1="496" y1="356" x2="471.95836943965736" y2="331.95836943965736" stroke="#D6264F" stroke-width="7"/><rect x="447.95836943965736" y="320.95836943965736" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="471.95836943965736" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<line x1="958" y1="230" x2="958.0" y2="196.0" stroke="#D6264F" stroke-width="7"/><rect x="934.0" y="185.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local</title></rect><text x="958.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML</text>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_GetApiKeys" target="_blank" class="st" data-op="ApiKeyManagementV3_GetApiKeys"><title>GET /api/v3/api-keys
+API Key Management line · ApiKeyManagementV3_GetApiKeys</title>
+<circle cx="1882" cy="650" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1876" y="662" text-anchor="end" transform="rotate(-45 1876 662)" style="fill:#1A1F2C">List api keys</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_PostApiKey" target="_blank" class="st" data-op="ApiKeyManagementV3_PostApiKey"><title>POST /api/v3/api-keys
+API Key Management line · ApiKeyManagementV3_PostApiKey</title>
+<circle cx="1798" cy="650" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1804" y="638" transform="rotate(-45 1804 638)" style="fill:#1A1F2C">Create api key</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_GetApiKey" target="_blank" class="st" data-op="ApiKeyManagementV3_GetApiKey"><title>GET /api/v3/api-keys/{apiKeyId}
+API Key Management line · ApiKeyManagementV3_GetApiKey</title>
+<circle cx="1714" cy="650" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1720" y="638" transform="rotate(-45 1720 638)" style="fill:#1A1F2C">Get api key</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_PutApiKey" target="_blank" class="st" data-op="ApiKeyManagementV3_PutApiKey"><title>PUT /api/v3/api-keys/{apiKeyId}
+API Key Management line · ApiKeyManagementV3_PutApiKey</title>
+<circle cx="1630" cy="650" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1636" y="638" transform="rotate(-45 1636 638)" style="fill:#1A1F2C">Update api key</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_DeleteApiKey" target="_blank" class="st" data-op="ApiKeyManagementV3_DeleteApiKey"><title>DELETE /api/v3/api-keys/{apiKeyId}
+API Key Management line · ApiKeyManagementV3_DeleteApiKey</title>
+<circle cx="1546" cy="650" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1542" y1="654" x2="1550" y2="646" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1534.0" y="655" text-anchor="end" style="fill:#1A1F2C">Delete api key</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_PostNewSecret" target="_blank" class="st" data-op="ApiKeyManagementV3_PostNewSecret"><title>POST /api/v3/api-keys/{apiKeyId}/newsecret
+API Key Management line · ApiKeyManagementV3_PostNewSecret</title>
+<circle cx="1588" cy="398" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1600" y="403" text-anchor="start" style="fill:#1A1F2C">Update newsecret</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_GetAssignedApplicationsToApiKey" target="_blank" class="st" data-op="ApiKeyManagementV3_GetAssignedApplicationsToApiKey"><title>GET /api/v3/api-keys/{apiKeyId}/application-access
+API Key Management line · ApiKeyManagementV3_GetAssignedApplicationsToApiKey</title>
+<circle cx="1546" cy="524" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1558" y="529" text-anchor="start" style="fill:#1A1F2C">Get application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_ApplicationAccess" target="_blank" class="st" data-op="ApiKeyManagementV3_ApplicationAccess"><title>PUT /api/v3/api-keys/{apiKeyId}/application-access
+API Key Management line · ApiKeyManagementV3_ApplicationAccess</title>
+<circle cx="1588" cy="482" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1600" y="487" text-anchor="start" style="fill:#1A1F2C">Update application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-api-key-management-api/#op-ApiKeyManagementV3_UnassignApplicationAccess" target="_blank" class="st" data-op="ApiKeyManagementV3_UnassignApplicationAccess"><title>PUT /api/v3/api-keys/{apiKeyId}/unassign-application-access
+API Key Management line · ApiKeyManagementV3_UnassignApplicationAccess</title>
+<circle cx="1588" cy="314" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1600" y="319" text-anchor="start" style="fill:#1A1F2C">Update unassign application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplication" target="_blank" class="st" data-op="ApplicationsV3_GetApplication"><title>GET /api/v3/applications/{applicationId}
+Applications line · ApplicationsV3_GetApplication</title>
+<circle cx="1420" cy="1154" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1159" text-anchor="start" style="fill:#1A1F2C">Get application</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_PutApplication" target="_blank" class="st" data-op="ApplicationsV3_PutApplication"><title>PUT /api/v3/applications/{applicationId}
+Applications line · ApplicationsV3_PutApplication</title>
+<circle cx="1504" cy="1238" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="1243" text-anchor="start" style="fill:#1A1F2C">Update application</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_Delete" target="_blank" class="st" data-op="ApplicationsV3_Delete"><title>DELETE /api/v3/applications/{applicationId}
+Applications line · ApplicationsV3_Delete</title>
+<circle cx="1588" cy="1322" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1584" y1="1326" x2="1592" y2="1318" stroke="#D6264F" stroke-width="2"/>
+<text x="1600" y="1327" text-anchor="start" style="fill:#1A1F2C">Delete application</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplications" target="_blank" class="st" data-op="ApplicationsV3_GetApplications"><title>GET /api/v3/applications
+Applications line · ApplicationsV3_GetApplications</title>
+<circle cx="1084" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1072.0" y="1075" text-anchor="end" style="fill:#1A1F2C">List applications</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_PostApplication" target="_blank" class="st" data-op="ApplicationsV3_PostApplication"><title>POST /api/v3/applications
+Applications line · ApplicationsV3_PostApplication</title>
+<circle cx="1168" cy="1070" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1174" y="1058" transform="rotate(-45 1174 1058)" style="fill:#1A1F2C">Create application</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetAutoReport" target="_blank" class="st" data-op="ApplicationsV3_GetAutoReport"><title>GET /api/v3/applications/{applicationId}/auto-report
+Applications line · ApplicationsV3_GetAutoReport</title>
+<circle cx="1588" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1579" text-anchor="start" style="fill:#1A1F2C">Get auto report</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_PostAutoReport" target="_blank" class="st" data-op="ApplicationsV3_PostAutoReport"><title>POST /api/v3/applications/{applicationId}/auto-report
+Applications line · ApplicationsV3_PostAutoReport</title>
+<circle cx="1504" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1492.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Update auto report</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationUsers" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationUsers"><title>GET /api/v3/applications/{applicationId}/users
+Applications line · ApplicationsV3_GetApplicationUsers</title>
+<circle cx="832" cy="1322" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="844" y="1327" text-anchor="start" style="fill:#1A1F2C">List users <tspan font-weight="700" style="fill:#af2328">⇄USE</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationUserGroups" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationUserGroups"><title>GET /api/v3/applications/{applicationId}/user-groups
+Applications line · ApplicationsV3_GetApplicationUserGroups</title>
+<circle cx="832" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="844" y="1495" text-anchor="start" style="fill:#1A1F2C">List user groups</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationOwners" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationOwners"><title>GET /api/v3/applications/owners
+Applications line · ApplicationsV3_GetApplicationOwners</title>
+<circle cx="1336" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1075" text-anchor="start" style="fill:#1A1F2C">List owners</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationUserPermissions" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationUserPermissions"><title>GET /api/v3/applications/{applicationId}/user-permissions
+Applications line · ApplicationsV3_GetApplicationUserPermissions</title>
+<circle cx="832" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="820.0" y="1411" text-anchor="end" style="fill:#1A1F2C">List user permissions</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationReleases" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationReleases"><title>GET /api/v3/applications/{applicationId}/releases
+Applications line · ApplicationsV3_GetApplicationReleases</title>
+<circle cx="916" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="904.0" y="1663" text-anchor="end" style="fill:#1A1F2C">List releases <tspan font-weight="700" style="fill:#1F5FD1">⇄REL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationIssueCount" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationIssueCount"><title>GET /api/v3/applications/{applicationId}/issue-count-by-severity
+Applications line · ApplicationsV3_GetApplicationIssueCount</title>
+<circle cx="1336" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1831" text-anchor="start" style="fill:#1A1F2C">Get issue count by severity</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetScansByApplicationId" target="_blank" class="st" data-op="ApplicationsV3_GetScansByApplicationId"><title>GET /api/v3/applications/{applicationId}/scans
+Applications line · ApplicationsV3_GetScansByApplicationId</title>
+<circle cx="832" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="844" y="1579" text-anchor="start" style="fill:#1A1F2C">List scans <tspan font-weight="700" style="fill:#0B7A75">⇄SCA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationBugTracker" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationBugTracker"><title>GET /api/v3/applications/{applicationId}/bug-tracker
+Applications line · ApplicationsV3_GetApplicationBugTracker</title>
+<circle cx="1420" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1432" y="1747" text-anchor="start" style="fill:#1A1F2C">Get bug tracker</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetApplicationMicroservices" target="_blank" class="st" data-op="ApplicationsV3_GetApplicationMicroservices"><title>GET /api/v3/applications/{applicationId}/microservices
+Applications line · ApplicationsV3_GetApplicationMicroservices</title>
+<circle cx="1252" cy="1826" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1261" y="1845" text-anchor="start" style="fill:#1A1F2C">List microservices</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_PostApplicationMicroservice" target="_blank" class="st" data-op="ApplicationsV3_PostApplicationMicroservice"><title>POST /api/v3/applications/{applicationId}/microservices
+Applications line · ApplicationsV3_PostApplicationMicroservice</title>
+<circle cx="1168" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1162" y="1838" text-anchor="end" transform="rotate(-45 1162 1838)" style="fill:#1A1F2C">Create microservice</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_PutApplicationMicroservice" target="_blank" class="st" data-op="ApplicationsV3_PutApplicationMicroservice"><title>PUT /api/v3/applications/{applicationId}/microservices/{microserviceId}
+Applications line · ApplicationsV3_PutApplicationMicroservice</title>
+<circle cx="1084" cy="1826" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1075.0" y="1845" text-anchor="end" style="fill:#1A1F2C">Update microservice</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_DeleteApplicationMicroservice" target="_blank" class="st" data-op="ApplicationsV3_DeleteApplicationMicroservice"><title>DELETE /api/v3/applications/{applicationId}/microservices/{microserviceId}
+Applications line · ApplicationsV3_DeleteApplicationMicroservice</title>
+<circle cx="1000" cy="1742" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="996" y1="1746" x2="1004" y2="1738" stroke="#D6264F" stroke-width="2"/>
+<text x="1006" y="1730" transform="rotate(-45 1006 1730)" style="fill:#1A1F2C">Delete microservice</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetAuditTemplates" target="_blank" class="st" data-op="ApplicationsV3_GetAuditTemplates"><title>GET /api/v3/applications/{applicationId}/audittemplates
+Applications line · ApplicationsV3_GetAuditTemplates</title>
+<circle cx="1588" cy="1406" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1411" text-anchor="start" style="fill:#1A1F2C">List audittemplates</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_PutApplicationAuditTemplates" target="_blank" class="st" data-op="ApplicationsV3_PutApplicationAuditTemplates"><title>PUT /api/v3/applications/{applicationId}/audittemplates
+Applications line · ApplicationsV3_PutApplicationAuditTemplates</title>
+<circle cx="1588" cy="1490" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1600" y="1495" text-anchor="start" style="fill:#1A1F2C">Create audittemplate</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-applications-api/#op-ApplicationsV3_GetVulnerabilityInstancesinApplicationByVulnerabilityId" target="_blank" class="st" data-op="ApplicationsV3_GetVulnerabilityInstancesinApplicationByVulnerabilityId"><title>GET /api/v3/applications/{applicationId}/vulnerabilities/{Id}
+Applications line · ApplicationsV3_GetVulnerabilityInstancesinApplicationByVulnerabilityId</title>
+<circle cx="916" cy="1238" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="928" y="1243" text-anchor="start" style="fill:#1A1F2C">Get vulnerability</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-attributes-api/#op-AttributesV3_GetAttribute" target="_blank" class="st" data-op="AttributesV3_GetAttribute"><title>GET /api/v3/attributes
+Attributes line · AttributesV3_GetAttribute</title>
+<circle cx="1420" cy="608" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="613" text-anchor="start" style="fill:#1A1F2C">List attributes</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-attributes-api/#op-AttributesV3_PostAttribute" target="_blank" class="st" data-op="AttributesV3_PostAttribute"><title>POST /api/v3/attributes
+Attributes line · AttributesV3_PostAttribute</title>
+<circle cx="1336" cy="692" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1327.0" y="682" text-anchor="end" style="fill:#1A1F2C">Create attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-attributes-api/#op-AttributesV3_PutAttribute" target="_blank" class="st" data-op="AttributesV3_PutAttribute"><title>PUT /api/v3/attributes/{attributeId}
+Attributes line · AttributesV3_PutAttribute</title>
+<circle cx="1252" cy="776" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1264" y="781" text-anchor="start" style="fill:#1A1F2C">Update attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-attributes-api/#op-AttributesV3_Delete" target="_blank" class="st" data-op="AttributesV3_Delete"><title>DELETE /api/v3/attributes/{attributeId}
+Attributes line · AttributesV3_Delete</title>
+<circle cx="1210" cy="776" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1206" y1="780" x2="1214" y2="772" stroke="#B0287F" stroke-width="2"/>
+<text x="1216" y="764" transform="rotate(-45 1216 764)" style="fill:#1A1F2C">Delete attribute</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-audittemplate-api/#op-AuditTemplateV3_GetGlobalAuditTemplates" target="_blank" class="st" data-op="AuditTemplateV3_GetGlobalAuditTemplates"><title>GET /api/v3/audittemplate/globalaudittemplates
+More Local line · AuditTemplateV3_GetGlobalAuditTemplates</title>
+<circle cx="496" cy="356" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="508" y="361" text-anchor="start" style="fill:#1A1F2C">List globalaudittemplates</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-audittemplate-api/#op-AuditTemplateV3_PutGlobalAuditTemplates" target="_blank" class="st" data-op="AuditTemplateV3_PutGlobalAuditTemplates"><title>PUT /api/v3/audittemplate/globalaudittemplates
+More Local line · AuditTemplateV3_PutGlobalAuditTemplates</title>
+<circle cx="580" cy="440" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="592" y="445" text-anchor="start" style="fill:#1A1F2C">Create globalaudittemplate</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_GetDastAutomatedScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_GetDastAutomatedScanSetup"><title>GET /api/v3/releases/{releaseId}/dast-automated-scans/scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_GetDastAutomatedScanSetup</title>
+<circle cx="958" cy="2120" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="970" y="2125" text-anchor="start" style="fill:#1A1F2C">Get scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PutDastAutomatedWebsiteScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_PutDastAutomatedWebsiteScanSetup"><title>PUT /api/v3/releases/{releaseId}/dast-automated-scans/website-scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_PutDastAutomatedWebsiteScanSetup</title>
+<circle cx="832" cy="2372" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="844" y="2377" text-anchor="start" style="fill:#1A1F2C">Update website scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PutDastAutomatedWorkflowScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_PutDastAutomatedWorkflowScanSetup"><title>PUT /api/v3/releases/{releaseId}/dast-automated-scans/workflow-scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_PutDastAutomatedWorkflowScanSetup</title>
+<circle cx="748" cy="2456" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="760" y="2461" text-anchor="start" style="fill:#1A1F2C">Update workflow scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PutDastAutomatedOpenApiScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_PutDastAutomatedOpenApiScanSetup"><title>PUT /api/v3/releases/{releaseId}/dast-automated-scans/openapi-scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_PutDastAutomatedOpenApiScanSetup</title>
+<circle cx="1000" cy="1952" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="988.0" y="1957" text-anchor="end" style="fill:#1A1F2C">Update openapi scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PutDastAutomatedGraphQlScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_PutDastAutomatedGraphQlScanSetup"><title>PUT /api/v3/releases/{releaseId}/dast-automated-scans/graphql-scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_PutDastAutomatedGraphQlScanSetup</title>
+<circle cx="1084" cy="1700" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1084" y="1722" text-anchor="middle" style="fill:#1A1F2C">Update graphql<tspan x="1084" dy="13">scan setup <tspan font-weight="700" style="fill:#1F5FD1">⇄REL</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PutDastAutomatedGrpcScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_PutDastAutomatedGrpcScanSetup"><title>PUT /api/v3/releases/{releaseId}/dast-automated-scans/grpc-scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_PutDastAutomatedGrpcScanSetup</title>
+<circle cx="1000" cy="1826" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="988.0" y="1831" text-anchor="end" style="fill:#1A1F2C">Update grpc scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PutDastAutomatedPostmanScanSetup" target="_blank" class="st" data-op="DastAutomatedScansV3_PutDastAutomatedPostmanScanSetup"><title>PUT /api/v3/releases/{releaseId}/dast-automated-scans/postman-scan-setup
+DAST Automated Scans line · DastAutomatedScansV3_PutDastAutomatedPostmanScanSetup</title>
+<circle cx="1000" cy="2078" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="988.0" y="2083" text-anchor="end" style="fill:#1A1F2C">Update postman scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_PatchDastAutomatedScanFileUpload" target="_blank" class="st" data-op="DastAutomatedScansV3_PatchDastAutomatedScanFileUpload"><title>PATCH /api/v3/releases/{releaseId}/dast-automated-scans/scan-setup/file-upload
+DAST Automated Scans line · DastAutomatedScansV3_PatchDastAutomatedScanFileUpload</title>
+<circle cx="958" cy="2246" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="970" y="2251" text-anchor="start" style="fill:#1A1F2C">Update file upload</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dast-automated-scans-api/#op-DastAutomatedScansV3_StartDastAutomatedScan" target="_blank" class="st" data-op="DastAutomatedScansV3_StartDastAutomatedScan"><title>POST /api/v3/releases/{releaseId}/dast-automated-scans/start-scan
+DAST Automated Scans line · DastAutomatedScansV3_StartDastAutomatedScan</title>
+<circle cx="916" cy="2288" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="928" y="2293" text-anchor="start" style="fill:#1A1F2C">Update start scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_GetDynamicScanSetup" target="_blank" class="st" data-op="DynamicScansV3_GetDynamicScanSetup"><title>GET /api/v3/releases/{releaseId}/dynamic-scans/scan-setup
+Dynamic Scans line · DynamicScansV3_GetDynamicScanSetup</title>
+<circle cx="1378" cy="1574" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1390" y="1579" text-anchor="start" style="fill:#1A1F2C">Get scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_PutDynamicScanSetup" target="_blank" class="st" data-op="DynamicScansV3_PutDynamicScanSetup"><title>PUT /api/v3/releases/{releaseId}/dynamic-scans/scan-setup
+Dynamic Scans line · DynamicScansV3_PutDynamicScanSetup</title>
+<circle cx="1420" cy="1532" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1408.0" y="1537" text-anchor="end" style="fill:#1A1F2C">Update scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_PatchDynamicScanManifestSetup" target="_blank" class="st" data-op="DynamicScansV3_PatchDynamicScanManifestSetup"><title>PATCH /api/v3/releases/{releaseId}/dynamic-scans/scan-setup/manifest
+Dynamic Scans line · DynamicScansV3_PatchDynamicScanManifestSetup</title>
+<circle cx="1504" cy="1532" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1504" y="1504" text-anchor="middle" style="fill:#1A1F2C">Update<tspan x="1504" dy="13">manifest</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_StartDynamicScan" target="_blank" class="st" data-op="DynamicScansV3_StartDynamicScan"><title>POST /api/v3/releases/{releaseId}/dynamic-scans/start-scan
+Dynamic Scans line · DynamicScansV3_StartDynamicScan</title>
+<circle cx="1672" cy="1700" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1684" y="1705" text-anchor="start" style="fill:#1A1F2C">Update start scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_PutImportScan" target="_blank" class="st" data-op="DynamicScansV3_PutImportScan"><title>PUT /api/v3/releases/{releaseId}/dynamic-scans/import-scan
+Dynamic Scans line · DynamicScansV3_PutImportScan</title>
+<circle cx="1294" cy="1574" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1294" y="1597" text-anchor="middle" style="fill:#1A1F2C">Update import scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_PutDynamicSetupDetailsToDastAutomated" target="_blank" class="st" data-op="DynamicScansV3_PutDynamicSetupDetailsToDastAutomated"><title>PUT /api/v3/releases/{releaseId}/dynamic-scans/dynamic-to-dast
+Dynamic Scans line · DynamicScansV3_PutDynamicSetupDetailsToDastAutomated</title>
+<circle cx="1210" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1219" y="1522" text-anchor="start" style="fill:#1A1F2C">Update dynamic to dast <tspan font-weight="700" style="fill:#1F5FD1">⇄REL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-dynamic-scans-api/#op-DynamicScansV3_ParseTotpQrCode" target="_blank" class="st" data-op="DynamicScansV3_ParseTotpQrCode"><title>POST /api/v3/dynamic-scans/parse-totp-qr
+Dynamic Scans line · DynamicScansV3_ParseTotpQrCode</title>
+<circle cx="1210" cy="1448" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1222" y="1453" text-anchor="start" style="fill:#1A1F2C">Update parse totp qr</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-event-logs-api/#op-EventLogsV3_Download" target="_blank" class="st" data-op="EventLogsV3_Download"><title>GET /api/v3/eventlogs/download
+More Local line · EventLogsV3_Download</title>
+<circle cx="664" cy="524" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="676" y="529" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-fortifyondemandconnectnetworks-api/#op-FortifyOnDemandConnectNetworksV3_GetNetworks" target="_blank" class="st" data-op="FortifyOnDemandConnectNetworksV3_GetNetworks"><title>GET /api/v3/fortify-on-demand-connect-networks
+More Local line · FortifyOnDemandConnectNetworksV3_GetNetworks</title>
+<circle cx="664" cy="608" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="652.0" y="613" text-anchor="end" style="fill:#1A1F2C">List fortify on demand connect networks</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-lookup-items-api/#op-LookupItemsV3_GetLookupItems" target="_blank" class="st" data-op="LookupItemsV3_GetLookupItems"><title>GET /api/v3/lookup-items
+More Local line · LookupItemsV3_GetLookupItems</title>
+<circle cx="706" cy="650" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="694.0" y="655" text-anchor="end" style="fill:#1A1F2C">List lookup items</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-mobile-scans-api/#op-MobileScansV3_GetMobileScanSetup" target="_blank" class="st" data-op="MobileScansV3_GetMobileScanSetup"><title>GET /api/v3/releases/{releaseId}/mobile-scans/scan-setup
+Mobile Scans line · MobileScansV3_GetMobileScanSetup</title>
+<circle cx="1084" cy="1448" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1096" y="1453" text-anchor="start" style="fill:#1A1F2C">Get scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-mobile-scans-api/#op-MobileScansV3_PutMobileScanSetup" target="_blank" class="st" data-op="MobileScansV3_PutMobileScanSetup"><title>PUT /api/v3/releases/{releaseId}/mobile-scans/scan-setup
+Mobile Scans line · MobileScansV3_PutMobileScanSetup</title>
+<circle cx="1084" cy="1364" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1096" y="1369" text-anchor="start" style="fill:#1A1F2C">Update scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-mobile-scans-api/#op-MobileScansV3_Scan" target="_blank" class="st" data-op="MobileScansV3_Scan"><title>POST /api/v3/releases/{releaseId}/mobile-scans/start-scan
+Mobile Scans line · MobileScansV3_Scan</title>
+<circle cx="1084" cy="1280" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1096" y="1285" text-anchor="start" style="fill:#1A1F2C">Update start scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-mobile-scans-api/#op-MobileScansV3_PutImportScan" target="_blank" class="st" data-op="MobileScansV3_PutImportScan"><title>PUT /api/v3/releases/{releaseId}/mobile-scans/import-scan
+Mobile Scans line · MobileScansV3_PutImportScan</title>
+<circle cx="1084" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1096" y="1530" text-anchor="start" style="fill:#1A1F2C">Update import<tspan x="1096" dy="13">scan <tspan font-weight="700" style="fill:#1F5FD1">⇄REL</tspan></tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-multifactorauthorizationcode-api/#op-MultiFactorAuthorizationCodeV3_Post" target="_blank" class="st" data-op="MultiFactorAuthorizationCodeV3_Post"><title>POST /api/v3/multi-factor-authorization-code
+More Local line · MultiFactorAuthorizationCodeV3_Post</title>
+<circle cx="874" cy="818" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="874" y="840" text-anchor="middle" style="fill:#1A1F2C">Update multi factor<tspan x="874" dy="13">authorization code</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-notifications-api/#op-NotificationsV3_GetUnreadNotifications" target="_blank" class="st" data-op="NotificationsV3_GetUnreadNotifications"><title>GET /api/v3/notifications/unread
+Notifications line · NotificationsV3_GetUnreadNotifications</title>
+<circle cx="1462" cy="902" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="907" text-anchor="start" style="fill:#1A1F2C">Get unread</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-notifications-api/#op-NotificationsV3_GetReadNotifications" target="_blank" class="st" data-op="NotificationsV3_GetReadNotifications"><title>GET /api/v3/notifications/read
+Notifications line · NotificationsV3_GetReadNotifications</title>
+<circle cx="1462" cy="818" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="823" text-anchor="start" style="fill:#1A1F2C">Get read</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-notifications-api/#op-NotificationsV3_MarkNotificaitonsAsRead" target="_blank" class="st" data-op="NotificationsV3_MarkNotificaitonsAsRead"><title>POST /api/v3/notifications/markasread
+Notifications line · NotificationsV3_MarkNotificaitonsAsRead</title>
+<circle cx="1462" cy="734" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1474" y="739" text-anchor="start" style="fill:#1A1F2C">Update markasread</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-open-source-components-api/#op-OpenSourceComponentsV3_GetOpenSourceComponents" target="_blank" class="st" data-op="OpenSourceComponentsV3_GetOpenSourceComponents"><title>GET /api/v3/applications/open-source-components
+Applications line · OpenSourceComponentsV3_GetOpenSourceComponents</title>
+<circle cx="1252" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1258" y="1058" transform="rotate(-45 1258 1058)" style="fill:#1A1F2C">List open source components</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-open-source-components-api/#op-OpenSourceComponentsV3_DownloadOpenSourceSbomFile" target="_blank" class="st" data-op="OpenSourceComponentsV3_DownloadOpenSourceSbomFile"><title>GET /api/v3/open-source-scans/{scanId}/sbom
+More Local line · OpenSourceComponentsV3_DownloadOpenSourceSbomFile</title>
+<circle cx="958" cy="818" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="823" text-anchor="start" style="fill:#1A1F2C">Get sbom</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-open-source-scans-api/#op-OpenSourceScansV3_StartScan" target="_blank" class="st" data-op="OpenSourceScansV3_StartScan"><title>POST /api/v3/releases/{releaseId}/open-source-scans/start-scan
+Vulnerabilities line · OpenSourceScansV3_StartScan</title>
+<circle cx="1210" cy="1658" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1222" y="1663" text-anchor="start" style="fill:#1A1F2C">Update start scan <tspan font-weight="700" style="fill:#1F5FD1">⇄REL</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-personal-access-tokens-api/#op-PersonalAccessTokensV3_GetPersonalAccessToken" target="_blank" class="st" data-op="PersonalAccessTokensV3_GetPersonalAccessToken"><title>GET /api/v3/personal-access-tokens/{personalAccessTokenId}
+Personal Access Tokens line · PersonalAccessTokensV3_GetPersonalAccessToken</title>
+<circle cx="790" cy="650" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="799" y="640" text-anchor="start" style="fill:#1A1F2C">Get personal access token</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-personal-access-tokens-api/#op-PersonalAccessTokensV3_PutPersonalAccessToken" target="_blank" class="st" data-op="PersonalAccessTokensV3_PutPersonalAccessToken"><title>PUT /api/v3/personal-access-tokens/{personalAccessTokenId}
+Personal Access Tokens line · PersonalAccessTokensV3_PutPersonalAccessToken</title>
+<circle cx="790" cy="692" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="802" y="690" text-anchor="start" style="fill:#1A1F2C">Update personal<tspan x="802" dy="13">access token</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-personal-access-tokens-api/#op-PersonalAccessTokensV3_DeletePersonalAccessToken" target="_blank" class="st" data-op="PersonalAccessTokensV3_DeletePersonalAccessToken"><title>DELETE /api/v3/personal-access-tokens/{personalAccessTokenId}
+Personal Access Tokens line · PersonalAccessTokensV3_DeletePersonalAccessToken</title>
+<circle cx="622" cy="860" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="618" y1="864" x2="626" y2="856" stroke="#2E7D32" stroke-width="2"/>
+<text x="634" y="865" text-anchor="start" style="fill:#1A1F2C">Delete personal access token</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-personal-access-tokens-api/#op-PersonalAccessTokensV3_GetPersonalAccessTokens" target="_blank" class="st" data-op="PersonalAccessTokensV3_GetPersonalAccessTokens"><title>GET /api/v3/personal-access-tokens
+Personal Access Tokens line · PersonalAccessTokensV3_GetPersonalAccessTokens</title>
+<circle cx="790" cy="524" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="802" y="522" text-anchor="start" style="fill:#1A1F2C">List personal<tspan x="802" dy="13">access tokens</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-personal-access-tokens-api/#op-PersonalAccessTokensV3_PostPersonalAccessToken" target="_blank" class="st" data-op="PersonalAccessTokensV3_PostPersonalAccessToken"><title>POST /api/v3/personal-access-tokens
+Personal Access Tokens line · PersonalAccessTokensV3_PostPersonalAccessToken</title>
+<circle cx="790" cy="608" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="802" y="606" text-anchor="start" style="fill:#1A1F2C">Create personal<tspan x="802" dy="13">access token</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-personal-access-tokens-api/#op-PersonalAccessTokensV3_PutPersonalAccessTokenSecret" target="_blank" class="st" data-op="PersonalAccessTokensV3_PutPersonalAccessTokenSecret"><title>PUT /api/v3/personal-access-tokens/{personalAccessTokenId}/secret
+Personal Access Tokens line · PersonalAccessTokensV3_PutPersonalAccessTokenSecret</title>
+<circle cx="538" cy="944" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="550" y="949" text-anchor="start" style="fill:#1A1F2C">Update secret</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetRelease" target="_blank" class="st" data-op="ReleasesV3_GetRelease"><title>GET /api/v3/releases/{releaseId}
+Releases line · ReleasesV3_GetRelease</title>
+<circle cx="1084" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1075.0" y="1635" text-anchor="end" style="fill:#1A1F2C">Get releas</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_PutRelease" target="_blank" class="st" data-op="ReleasesV3_PutRelease"><title>PUT /api/v3/releases/{releaseId}
+Releases line · ReleasesV3_PutRelease</title>
+<circle cx="1000" cy="1616" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="988.0" y="1621" text-anchor="end" style="fill:#1A1F2C">Update releas</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_DeleteRelease" target="_blank" class="st" data-op="ReleasesV3_DeleteRelease"><title>DELETE /api/v3/releases/{releaseId}
+Releases line · ReleasesV3_DeleteRelease</title>
+<circle cx="916" cy="1742" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="912" y1="1746" x2="920" y2="1738" stroke="#1F5FD1" stroke-width="2"/>
+<text x="907.0" y="1761" text-anchor="end" style="fill:#1A1F2C">Delete releas</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetReleases" target="_blank" class="st" data-op="ReleasesV3_GetReleases"><title>GET /api/v3/releases
+Releases line · ReleasesV3_GetReleases</title>
+<circle cx="958" cy="1406" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="1411" text-anchor="start" style="fill:#1A1F2C">List releases</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_PostRelease" target="_blank" class="st" data-op="ReleasesV3_PostRelease"><title>POST /api/v3/releases
+Releases line · ReleasesV3_PostRelease</title>
+<circle cx="958" cy="1490" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="1495" text-anchor="start" style="fill:#1A1F2C">Create releas</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetReleaseScanByScanId" target="_blank" class="st" data-op="ReleasesV3_GetReleaseScanByScanId"><title>GET /api/v3/releases/{releaseId}/scans/{scanId}/polling-summary
+Releases line · ReleasesV3_GetReleaseScanByScanId</title>
+<circle cx="412" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="418" y="1520" transform="rotate(-45 418 1520)" style="fill:#1A1F2C">Get polling summary</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetReleasesFPR" target="_blank" class="st" data-op="ReleasesV3_GetReleasesFPR"><title>GET /api/v3/releases/{releaseId}/fpr
+Releases line · ReleasesV3_GetReleasesFPR</title>
+<circle cx="496" cy="1700" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="508" y="1705" text-anchor="start" style="fill:#1A1F2C">Get fpr</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_CategoryRollups" target="_blank" class="st" data-op="ReleasesV3_CategoryRollups"><title>GET /api/v3/releases/{releaseId}/category-rollups
+Releases line · ReleasesV3_CategoryRollups</title>
+<circle cx="580" cy="1784" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="568.0" y="1789" text-anchor="end" style="fill:#1A1F2C">List category rollups</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetReleaseScan" target="_blank" class="st" data-op="ReleasesV3_GetReleaseScan"><title>GET /api/v3/releases/{releaseId}/scans/{scanId}
+Releases line · ReleasesV3_GetReleaseScan</title>
+<circle cx="580" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="586" y="1520" transform="rotate(-45 586 1520)" style="fill:#1A1F2C">Get scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetScansByReleaseId" target="_blank" class="st" data-op="ReleasesV3_GetScansByReleaseId"><title>GET /api/v3/releases/{releaseId}/scans
+Releases line · ReleasesV3_GetScansByReleaseId</title>
+<circle cx="664" cy="1532" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="655.0" y="1551" text-anchor="end" style="fill:#1A1F2C">List scans <tspan font-weight="700" style="fill:#0B7A75">⇄SCA</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_PostAuditAction" target="_blank" class="st" data-op="ReleasesV3_PostAuditAction"><title>POST /api/v3/releases/{releaseId}/audit-action
+Releases line · ReleasesV3_PostAuditAction</title>
+<circle cx="748" cy="1742" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="736.0" y="1747" text-anchor="end" style="fill:#1A1F2C">Update audit action</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetAuditOptions" target="_blank" class="st" data-op="ReleasesV3_GetAuditOptions"><title>GET /api/v3/releases/{releaseId}/audit-options
+Releases line · ReleasesV3_GetAuditOptions</title>
+<circle cx="706" cy="1784" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="718" y="1789" text-anchor="start" style="fill:#1A1F2C">List audit options</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetStaticScanOptions" target="_blank" class="st" data-op="ReleasesV3_GetStaticScanOptions"><title>GET /api/v3/releases/{releaseId}/static-scan-options
+Releases line · ReleasesV3_GetStaticScanOptions</title>
+<circle cx="244" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="250" y="1520" transform="rotate(-45 250 1520)" style="fill:#1A1F2C">List static scan options</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetAssessmentTypes" target="_blank" class="st" data-op="ReleasesV3_GetAssessmentTypes"><title>GET /api/v3/releases/{releaseId}/assessment-types
+Releases line · ReleasesV3_GetAssessmentTypes</title>
+<circle cx="832" cy="1742" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="832" y="1728" text-anchor="middle" style="fill:#1A1F2C">List assessment types</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetImportScanSessionId" target="_blank" class="st" data-op="ReleasesV3_GetImportScanSessionId"><title>GET /api/v3/releases/{releaseId}/import-scan-session-id
+Releases line · ReleasesV3_GetImportScanSessionId</title>
+<circle cx="538" cy="1658" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="526.0" y="1663" text-anchor="end" style="fill:#1A1F2C">Get import scan session id</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_PutImportScan" target="_blank" class="st" data-op="ReleasesV3_PutImportScan"><title>PUT /api/v3/releases/{releaseId}/open-source-scans/import-cyclonedx-sbom
+Releases line · ReleasesV3_PutImportScan</title>
+<circle cx="664" cy="1658" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="673" y="1648" text-anchor="start" style="fill:#1A1F2C">Update import cyclonedx sbom</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_PostCancelScan" target="_blank" class="st" data-op="ReleasesV3_PostCancelScan"><title>POST /api/v3/releases/{releaseId}/scans/{scanId}/cancel-scan
+Releases line · ReleasesV3_PostCancelScan</title>
+<circle cx="496" cy="1532" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="502" y="1520" transform="rotate(-45 502 1520)" style="fill:#1A1F2C">Update cancel scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-releases-api/#op-ReleasesV3_GetStaticScanBSIToken" target="_blank" class="st" data-op="ReleasesV3_GetStaticScanBSIToken"><title>GET /api/v3/releases/{releaseId}/static-scan-bsi-token
+Releases line · ReleasesV3_GetStaticScanBSIToken</title>
+<circle cx="328" cy="1532" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="334" y="1520" transform="rotate(-45 334 1520)" style="fill:#1A1F2C">Get static scan bsi token</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_GetReport" target="_blank" class="st" data-op="ReportsV3_GetReport"><title>GET /api/v3/reports/{reportId}
+Reports line · ReportsV3_GetReport</title>
+<circle cx="2176" cy="1616" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2182" y="1604" transform="rotate(-45 2182 1604)" style="fill:#1A1F2C">Get report</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_Delete" target="_blank" class="st" data-op="ReportsV3_Delete"><title>DELETE /api/v3/reports/{reportId}
+Reports line · ReportsV3_Delete</title>
+<circle cx="2050" cy="1616" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2046" y1="1620" x2="2054" y2="1612" stroke="#E07B12" stroke-width="2"/>
+<text x="2056" y="1604" transform="rotate(-45 2056 1604)" style="fill:#1A1F2C">Delete report</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_GetReports" target="_blank" class="st" data-op="ReportsV3_GetReports"><title>GET /api/v3/reports
+Reports line · ReportsV3_GetReports</title>
+<circle cx="2344" cy="1616" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2338" y="1628" text-anchor="end" transform="rotate(-45 2338 1628)" style="fill:#1A1F2C">List reports</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_PostReport" target="_blank" class="st" data-op="ReportsV3_PostReport"><title>POST /api/v3/reports
+Reports line · ReportsV3_PostReport</title>
+<circle cx="2260" cy="1616" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2266" y="1604" transform="rotate(-45 2266 1604)" style="fill:#1A1F2C">Create report</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_Download" target="_blank" class="st" data-op="ReportsV3_Download"><title>GET /api/v3/reports/{reportId}/download
+Reports line · ReportsV3_Download</title>
+<circle cx="1966" cy="1868" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1978" y="1873" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_GetDataExports" target="_blank" class="st" data-op="ReportsV3_GetDataExports"><title>GET /api/v3/reports/dataexports
+Reports line · ReportsV3_GetDataExports</title>
+<circle cx="1924" cy="1616" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1933" y="1606" text-anchor="start" style="fill:#1A1F2C">List dataexports</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_PostDataExport" target="_blank" class="st" data-op="ReportsV3_PostDataExport"><title>POST /api/v3/reports/dataexports
+Reports line · ReportsV3_PostDataExport</title>
+<circle cx="1882" cy="1574" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1888" y="1562" transform="rotate(-45 1888 1562)" style="fill:#1A1F2C">Create dataexport</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_DownloadExport" target="_blank" class="st" data-op="ReportsV3_DownloadExport"><title>GET /api/v3/reports/dataexports/{dataExportId}/download
+Reports line · ReportsV3_DownloadExport</title>
+<circle cx="1882" cy="1784" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1894" y="1789" text-anchor="start" style="fill:#1A1F2C">Get download</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_GetDataExportTemplates" target="_blank" class="st" data-op="ReportsV3_GetDataExportTemplates"><title>GET /api/v3/reports/dataexports/templates
+Reports line · ReportsV3_GetDataExportTemplates</title>
+<circle cx="1840" cy="1742" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1852" y="1747" text-anchor="start" style="fill:#1A1F2C">List templates</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-reports-api/#op-ReportsV3_GetDataExport" target="_blank" class="st" data-op="ReportsV3_GetDataExport"><title>GET /api/v3/reports/dataexports/{dataExportId}
+Reports line · ReportsV3_GetDataExport</title>
+<circle cx="1840" cy="1616" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1828.0" y="1621" text-anchor="end" style="fill:#1A1F2C">Get dataexport</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_GetScans" target="_blank" class="st" data-op="ScansV3_GetScans"><title>GET /api/v3/scans
+Scans line · ScansV3_GetScans</title>
+<circle cx="748" cy="1574" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="760" y="1579" text-anchor="start" style="fill:#1A1F2C">List scans</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_GetScanSummary" target="_blank" class="st" data-op="ScansV3_GetScanSummary"><title>GET /api/v3/scans/{scanId}/summary
+Scans line · ScansV3_GetScanSummary</title>
+<circle cx="244" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="250" y="1394" transform="rotate(-45 250 1394)" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_DownloadManifest" target="_blank" class="st" data-op="ScansV3_DownloadManifest"><title>GET /api/v3/scans/{scanId}/manifest
+Scans line · ScansV3_DownloadManifest</title>
+<circle cx="664" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="673" y="1396" text-anchor="start" style="fill:#1A1F2C">Get manifest</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_GetSiteTree" target="_blank" class="st" data-op="ScansV3_GetSiteTree"><title>GET /api/v3/scans/{scanId}/site-tree
+Scans line · ScansV3_GetSiteTree</title>
+<circle cx="412" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="418" y="1394" transform="rotate(-45 418 1394)" style="fill:#1A1F2C">Get site tree</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_DownloadStaticScanSourceFile" target="_blank" class="st" data-op="ScansV3_DownloadStaticScanSourceFile"><title>GET /api/v3/scans/{scanId}/static-source-file
+Scans line · ScansV3_DownloadStaticScanSourceFile</title>
+<circle cx="328" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="334" y="1394" transform="rotate(-45 334 1394)" style="fill:#1A1F2C">Get static source file</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_GetFPRByScanId" target="_blank" class="st" data-op="ScansV3_GetFPRByScanId"><title>GET /api/v3/scans/{scanId}/fpr
+Scans line · ScansV3_GetFPRByScanId</title>
+<circle cx="748" cy="1490" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="760" y="1495" text-anchor="start" style="fill:#1A1F2C">Get fpr</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_GetValidationResults" target="_blank" class="st" data-op="ScansV3_GetValidationResults"><title>GET /api/v3/scans/{scanId}/mobile-scans/payload-validation-results
+Scans line · ScansV3_GetValidationResults</title>
+<circle cx="538" cy="1406" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="544" y="1394" transform="rotate(-45 544 1394)" style="fill:#1A1F2C">List payload validation results</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-scans-api/#op-ScansV3_PutScan" target="_blank" class="st" data-op="ScansV3_PutScan"><title>PUT /api/v3scans/{scanId}
+Scans line · ScansV3_PutScan</title>
+<circle cx="160" cy="1406" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="166" y="1394" transform="rotate(-45 166 1394)" style="fill:#1A1F2C">Update v3scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_StartScan" target="_blank" class="st" data-op="StaticScansV3_StartScan"><title>POST /api/v3/releases/{releaseId}/static-scans/start-scan
+Static Scans line · StaticScansV3_StartScan</title>
+<circle cx="1168" cy="2078" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="2083" text-anchor="start" style="fill:#1A1F2C">Update start scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_StartScanWithDefaults" target="_blank" class="st" data-op="StaticScansV3_StartScanWithDefaults"><title>POST /api/v3/releases/{releaseId}/static-scans/start-scan-with-defaults
+Static Scans line · StaticScansV3_StartScanWithDefaults</title>
+<circle cx="1168" cy="2246" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="2251" text-anchor="start" style="fill:#1A1F2C">Create start scan with default</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_StartScanAdvanced" target="_blank" class="st" data-op="StaticScansV3_StartScanAdvanced"><title>POST /api/v3/releases/{releaseId}/static-scans/start-scan-advanced
+Static Scans line · StaticScansV3_StartScanAdvanced</title>
+<circle cx="1168" cy="2162" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="2167" text-anchor="start" style="fill:#1A1F2C">Update start scan advanced</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_PutImportScan" target="_blank" class="st" data-op="StaticScansV3_PutImportScan"><title>PUT /api/v3/releases/{releaseId}/static-scans/import-scan
+Static Scans line · StaticScansV3_PutImportScan</title>
+<circle cx="1210" cy="1784" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1198.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Update import scan</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_GetStaticScanSetup" target="_blank" class="st" data-op="StaticScansV3_GetStaticScanSetup"><title>GET /api/v3/releases/{releaseId}/static-scans/scan-setup
+Static Scans line · StaticScansV3_GetStaticScanSetup</title>
+<circle cx="1210" cy="1910" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1222" y="1915" text-anchor="start" style="fill:#1A1F2C">Get scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_PutStaticScanSetup" target="_blank" class="st" data-op="StaticScansV3_PutStaticScanSetup"><title>PUT /api/v3/releases/{releaseId}/static-scans/scan-setup
+Static Scans line · StaticScansV3_PutStaticScanSetup</title>
+<circle cx="1168" cy="1952" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1180" y="1957" text-anchor="start" style="fill:#1A1F2C">Update scan setup</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-static-scans-api/#op-StaticScansV3_PutImportSarifScan" target="_blank" class="st" data-op="StaticScansV3_PutImportSarifScan"><title>PUT /api/v3/releases/{releaseId}/static-scans/import-sarif
+Static Scans line · StaticScansV3_PutImportSarifScan</title>
+<circle cx="1126" cy="1616" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1138" y="1621" text-anchor="start" style="fill:#1A1F2C">Update import sarif</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-tenantentitlements-api/#op-TenantEntitlementsV3_Get" target="_blank" class="st" data-op="TenantEntitlementsV3_Get"><title>GET /api/v3/tenant-entitlements
+More Local line · TenantEntitlementsV3_Get</title>
+<circle cx="958" cy="692" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="697" text-anchor="start" style="fill:#1A1F2C">List tenant entitlements</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-tenantentitlements-api/#op-TenantEntitlementsV3_GetOpenSourceEntitlements" target="_blank" class="st" data-op="TenantEntitlementsV3_GetOpenSourceEntitlements"><title>GET /api/v3/tenant-open-source-entitlements
+More Local line · TenantEntitlementsV3_GetOpenSourceEntitlements</title>
+<circle cx="958" cy="482" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="487" text-anchor="start" style="fill:#1A1F2C">List tenant open source entitlements</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-tenantheatmaps-api/#op-TenantHeatMapsV3_GetTenantHeatMap" target="_blank" class="st" data-op="TenantHeatMapsV3_GetTenantHeatMap"><title>GET /api/v3/tenant-heat-maps
+More Local line · TenantHeatMapsV3_GetTenantHeatMap</title>
+<circle cx="958" cy="566" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="571" text-anchor="start" style="fill:#1A1F2C">List tenant heat maps</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-tenants-api/#op-TenantsV3_GetFeatures" target="_blank" class="st" data-op="TenantsV3_GetFeatures"><title>GET /api/v3/tenants/features
+More Local line · TenantsV3_GetFeatures</title>
+<circle cx="958" cy="230" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="235" text-anchor="start" style="fill:#1A1F2C">List features</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-tenants-api/#op-TenantsV3_GetTenant" target="_blank" class="st" data-op="TenantsV3_GetTenant"><title>GET /api/v3/tenants
+More Local line · TenantsV3_GetTenant</title>
+<circle cx="958" cy="314" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="319" text-anchor="start" style="fill:#1A1F2C">List tenants</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-tenantsummary-api/#op-TenantSummaryV3_GetTenantSummary" target="_blank" class="st" data-op="TenantSummaryV3_GetTenantSummary"><title>GET /api/v3/tenant-summary
+More Local line · TenantSummaryV3_GetTenantSummary</title>
+<circle cx="958" cy="398" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="970" y="403" text-anchor="start" style="fill:#1A1F2C">Get tenant summary</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-user-management-api/#op-UserManagementV3_GetUserGroups" target="_blank" class="st" data-op="UserManagementV3_GetUserGroups"><title>GET /api/v3/user-management/user-groups
+User Management line · UserManagementV3_GetUserGroups</title>
+<circle cx="622" cy="2120" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="634" y="2125" text-anchor="start" style="fill:#1A1F2C">List user groups</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-user-management-api/#op-UserManagementV3_PostUserGroup" target="_blank" class="st" data-op="UserManagementV3_PostUserGroup"><title>POST /api/v3/user-management/user-groups
+User Management line · UserManagementV3_PostUserGroup</title>
+<circle cx="706" cy="2036" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="718" y="2041" text-anchor="start" style="fill:#1A1F2C">Create user group</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-user-management-api/#op-UserManagementV3_PutGroup" target="_blank" class="st" data-op="UserManagementV3_PutGroup"><title>PUT /api/v3/user-management/user-groups/{groupId}
+User Management line · UserManagementV3_PutGroup</title>
+<circle cx="748" cy="1994" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="760" y="1999" text-anchor="start" style="fill:#1A1F2C">Update user group</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-user-management-api/#op-UserManagementV3_DeleteGroup" target="_blank" class="st" data-op="UserManagementV3_DeleteGroup"><title>DELETE /api/v3/user-management/user-groups/{groupId}
+User Management line · UserManagementV3_DeleteGroup</title>
+<circle cx="748" cy="1910" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="744" y1="1914" x2="752" y2="1906" stroke="#5C6BC0" stroke-width="2"/>
+<text x="760" y="1915" text-anchor="start" style="fill:#1A1F2C">Delete user group</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-user-management-api/#op-UserManagementV3_GetGroupmembers" target="_blank" class="st" data-op="UserManagementV3_GetGroupmembers"><title>GET /api/v3/user-management/user-groups/{groupId}/members
+User Management line · UserManagementV3_GetGroupmembers</title>
+<circle cx="664" cy="1910" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="670" y="1898" transform="rotate(-45 670 1898)" style="fill:#1A1F2C">List members</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-user-management-api/#op-UserManagementV3_UpdateGroupMembership" target="_blank" class="st" data-op="UserManagementV3_UpdateGroupMembership"><title>PATCH /api/v3/user-management/user-groups/{groupId}/members
+User Management line · UserManagementV3_UpdateGroupMembership</title>
+<circle cx="580" cy="1910" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="586" y="1898" transform="rotate(-45 586 1898)" style="fill:#1A1F2C">Create member</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-userapplicationaccess-api/#op-UserApplicationAccessV3_GetUserApplicationAccess" target="_blank" class="st" data-op="UserApplicationAccessV3_GetUserApplicationAccess"><title>GET /api/v3/user-application-access/{userId}
+UserApplicationAccess line · UserApplicationAccessV3_GetUserApplicationAccess</title>
+<circle cx="1084" cy="818" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="823" text-anchor="start" style="fill:#1A1F2C">Get user application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-userapplicationaccess-api/#op-UserApplicationAccessV3_PostUserApplicationAccess" target="_blank" class="st" data-op="UserApplicationAccessV3_PostUserApplicationAccess"><title>POST /api/v3/user-application-access/{userId}
+UserApplicationAccess line · UserApplicationAccessV3_PostUserApplicationAccess</title>
+<circle cx="1126" cy="860" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1138" y="865" text-anchor="start" style="fill:#1A1F2C">Update user application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-userapplicationaccess-api/#op-UserApplicationAccessV3_DeleteUserApplicationAccess" target="_blank" class="st" data-op="UserApplicationAccessV3_DeleteUserApplicationAccess"><title>DELETE /api/v3/user-application-access/{userId}/{applicationId}
+UserApplicationAccess line · UserApplicationAccessV3_DeleteUserApplicationAccess</title>
+<circle cx="1210" cy="944" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1206" y1="948" x2="1214" y2="940" stroke="#0B7A75" stroke-width="2"/>
+<text x="1198.0" y="949" text-anchor="end" style="fill:#1A1F2C">Delete user application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-usergroupapplicationaccess-api/#op-UserGroupApplicationAccessV3_GetUserGroupApplicationAccess" target="_blank" class="st" data-op="UserGroupApplicationAccessV3_GetUserGroupApplicationAccess"><title>GET /api/v3/user-group-application-access/{userGroupId}
+UserGroupApplicationAccess line · UserGroupApplicationAccessV3_GetUserGroupApplicationAccess</title>
+<circle cx="1630" cy="860" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1642" y="865" text-anchor="start" style="fill:#1A1F2C">Get user group application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-usergroupapplicationaccess-api/#op-UserGroupApplicationAccessV3_PostUserGroupApplicationAccess" target="_blank" class="st" data-op="UserGroupApplicationAccessV3_PostUserGroupApplicationAccess"><title>POST /api/v3/user-group-application-access/{userGroupId}
+UserGroupApplicationAccess line · UserGroupApplicationAccessV3_PostUserGroupApplicationAccess</title>
+<circle cx="1630" cy="944" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1642" y="949" text-anchor="start" style="fill:#1A1F2C">Update user group application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-usergroupapplicationaccess-api/#op-UserGroupApplicationAccessV3_DeleteUserGroupApplicationAccess" target="_blank" class="st" data-op="UserGroupApplicationAccessV3_DeleteUserGroupApplicationAccess"><title>DELETE /api/v3/user-group-application-access/{userGroupId}/{applicationId}
+UserGroupApplicationAccess line · UserGroupApplicationAccessV3_DeleteUserGroupApplicationAccess</title>
+<circle cx="1630" cy="1028" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="1626" y1="1032" x2="1634" y2="1024" stroke="#00838F" stroke-width="2"/>
+<text x="1642" y="1033" text-anchor="start" style="fill:#1A1F2C">Delete user group application access</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-users-api/#op-UsersV3_GetUser" target="_blank" class="st" data-op="UsersV3_GetUser"><title>GET /api/v3/users/{userId}
+Users line · UsersV3_GetUser</title>
+<circle cx="790" cy="1238" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="802" y="1243" text-anchor="start" style="fill:#1A1F2C">Get user</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-users-api/#op-UsersV3_PutUser" target="_blank" class="st" data-op="UsersV3_PutUser"><title>PUT /api/v3/users/{userId}
+Users line · UsersV3_PutUser</title>
+<circle cx="832" cy="1196" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="844" y="1201" text-anchor="start" style="fill:#1A1F2C">Update user</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-users-api/#op-UsersV3_DeleteUser" target="_blank" class="st" data-op="UsersV3_DeleteUser"><title>DELETE /api/v3/users/{userId}
+Users line · UsersV3_DeleteUser</title>
+<circle cx="916" cy="1112" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<line x1="912" y1="1116" x2="920" y2="1108" stroke="#af2328" stroke-width="2"/>
+<text x="928" y="1117" text-anchor="start" style="fill:#1A1F2C">Delete user</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-users-api/#op-UsersV3_GetUsers" target="_blank" class="st" data-op="UsersV3_GetUsers"><title>GET /api/v3/users
+Users line · UsersV3_GetUsers</title>
+<circle cx="622" cy="1238" r="5.5" fill="#fff" stroke="#af2328" stroke-width="2.5"/>
+<text x="628" y="1226" transform="rotate(-45 628 1226)" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-users-api/#op-UsersV3_PostUser" target="_blank" class="st" data-op="UsersV3_PostUser"><title>POST /api/v3/users
+Users line · UsersV3_PostUser</title>
+<circle cx="706" cy="1238" r="5.5" fill="#af2328" stroke="#af2328" stroke-width="2.5"/>
+<text x="712" y="1226" transform="rotate(-45 712 1226)" style="fill:#1A1F2C">Create user</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilities" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilities"><title>GET /api/v3/releases/{releaseId}/vulnerabilities
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilities</title>
+<circle cx="1252" cy="1700" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1264" y="1705" text-anchor="start" style="fill:#1A1F2C">List vulnerabilities</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityAllData" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityAllData"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/all-data
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityAllData</title>
+<circle cx="1504" cy="1994" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1516" y="1999" text-anchor="start" style="fill:#1A1F2C">Get all data</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilitySummary" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilitySummary"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/summary
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilitySummary</title>
+<circle cx="2344" cy="2624" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2356" y="2629" text-anchor="start" style="fill:#1A1F2C">Get summary</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityDetails" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityDetails"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/details
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityDetails</title>
+<circle cx="1798" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1804" y="2150" transform="rotate(-45 1804 2150)" style="fill:#1A1F2C">List details</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityRecommendations" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityRecommendations"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/recommendations
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityRecommendations</title>
+<circle cx="2218" cy="2372" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2230" y="2377" text-anchor="start" style="fill:#1A1F2C">List recommendations</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityHistory" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityHistory"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/history
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityHistory</title>
+<circle cx="2008" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2020" y="2167" text-anchor="start" style="fill:#1A1F2C">Get history</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityScreenshots" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityScreenshots"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/screenshots
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityScreenshots</title>
+<circle cx="2344" cy="2582" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2356" y="2587" text-anchor="start" style="fill:#1A1F2C">List screenshots</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetScreenshot" target="_blank" class="st" data-op="VulnerabilitiesV3_GetScreenshot"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/screenshot/{screenshotId}
+Vulnerabilities line · VulnerabilitiesV3_GetScreenshot</title>
+<circle cx="2218" cy="2456" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2230" y="2461" text-anchor="start" style="fill:#1A1F2C">Get screenshot</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityRequestResponse" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityRequestResponse"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/request-response
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityRequestResponse</title>
+<circle cx="2218" cy="2414" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2230" y="2419" text-anchor="start" style="fill:#1A1F2C">Get request response</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityHeaders" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityHeaders"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/headers
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityHeaders</title>
+<circle cx="1924" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1930" y="2150" transform="rotate(-45 1930 2150)" style="fill:#1A1F2C">List headers</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityParameters" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityParameters"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/parameters
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityParameters</title>
+<circle cx="2092" cy="2246" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2104" y="2251" text-anchor="start" style="fill:#1A1F2C">List parameters</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityTraces" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityTraces"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/traces
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityTraces</title>
+<circle cx="2428" cy="2708" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2440" y="2713" text-anchor="start" style="fill:#1A1F2C">List traces</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityTraceCode" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityTraceCode"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/traces/{traceIndex}/{traceEntryIndex}/code
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityTraceCode</title>
+<circle cx="2470" cy="2750" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2482" y="2755" text-anchor="start" style="fill:#1A1F2C">Get code</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityTraceSnippet" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityTraceSnippet"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/traces/{traceIndex}/{traceEntryIndex}/snippet
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityTraceSnippet</title>
+<circle cx="2470" cy="2834" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2482" y="2839" text-anchor="start" style="fill:#1A1F2C">Get snippet</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityAuditOptions" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityAuditOptions"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/audit-options
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityAuditOptions</title>
+<circle cx="1588" cy="2120" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1600" y="2125" text-anchor="start" style="fill:#1A1F2C">List audit options</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_PostVulnerabilityEdit" target="_blank" class="st" data-op="VulnerabilitiesV3_PostVulnerabilityEdit"><title>POST /api/v3/releases/{releaseId}/vulnerabilities/bulk-edit
+Vulnerabilities line · VulnerabilitiesV3_PostVulnerabilityEdit</title>
+<circle cx="1420" cy="1910" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1915" text-anchor="start" style="fill:#1A1F2C">Update bulk edit</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityFilters" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityFilters"><title>GET /api/v3/releases/{releaseId}/vulnerability-filters
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityFilters</title>
+<circle cx="2470" cy="2918" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2482" y="2923" text-anchor="start" style="fill:#1A1F2C">List vulnerability filters</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_PostVulnerabilityBugLink" target="_blank" class="st" data-op="VulnerabilitiesV3_PostVulnerabilityBugLink"><title>POST /api/v3/releases/{releaseId}/vulnerabilities/bug-link
+Vulnerabilities line · VulnerabilitiesV3_PostVulnerabilityBugLink</title>
+<circle cx="1420" cy="1868" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1432" y="1873" text-anchor="start" style="fill:#1A1F2C">Update bug link</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetVulnerabilityAuditComments" target="_blank" class="st" data-op="VulnerabilitiesV3_GetVulnerabilityAuditComments"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/comments
+Vulnerabilities line · VulnerabilitiesV3_GetVulnerabilityAuditComments</title>
+<circle cx="1714" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1720" y="2150" transform="rotate(-45 1720 2150)" style="fill:#1A1F2C">List comments</text>
+</a>
+<a href="https://apis.apis.io/apis/opentext-cybersecurity/opentext-cybersecurity-vulnerabilities-api/#op-VulnerabilitiesV3_GetAviatorRemediationGuidanceForVulneribility" target="_blank" class="st" data-op="VulnerabilitiesV3_GetAviatorRemediationGuidanceForVulneribility"><title>GET /api/v3/releases/{releaseId}/vulnerabilities/{vulnId}/aviator-remediation-guidance
+Vulnerabilities line · VulnerabilitiesV3_GetAviatorRemediationGuidanceForVulneribility</title>
+<circle cx="1630" cy="2162" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1618.0" y="2167" text-anchor="end" style="fill:#1A1F2C">Get aviator remediation guidance</text>
+</a>
+<text x="2660" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2660" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">APPLICATIONS</text>
+<rect x="2660" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2677" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">APP</text><text x="2702" y="269" font-size="11" fill="#1A1F2C">Applications <tspan fill="#8A93A6">23</tspan></text>
+<rect x="2660" y="276" width="34" height="13" rx="3" fill="#af2328"/><text x="2677" y="286" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">USE</text><text x="2702" y="286" font-size="11" fill="#1A1F2C">Users <tspan fill="#8A93A6">5</tspan></text>
+<text x="2660" y="312" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">VULNERABILITIES</text>
+<rect x="2660" y="319" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2677" y="329" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VUL</text><text x="2702" y="329" font-size="11" fill="#1A1F2C">Vulnerabilities <tspan fill="#8A93A6">21</tspan></text>
+<text x="2660" y="355" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">RELEASES</text>
+<rect x="2660" y="362" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2677" y="372" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REL</text><text x="2702" y="372" font-size="11" fill="#1A1F2C">Releases <tspan fill="#8A93A6">18</tspan></text>
+<text x="2660" y="398" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">REPORTS</text>
+<rect x="2660" y="405" width="34" height="13" rx="3" fill="#E07B12"/><text x="2677" y="415" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">REP</text><text x="2702" y="415" font-size="11" fill="#1A1F2C">Reports <tspan fill="#8A93A6">10</tspan></text>
+<text x="2660" y="441" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">API KEYS</text>
+<rect x="2660" y="448" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2677" y="458" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">AKM</text><text x="2702" y="458" font-size="11" fill="#1A1F2C">API Key Management <tspan fill="#8A93A6">9</tspan></text>
+<text x="2660" y="484" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">DAST AUTOMATED SCANS</text>
+<rect x="2660" y="491" width="34" height="13" rx="3" fill="#B0287F"/><text x="2677" y="501" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DAS</text><text x="2702" y="501" font-size="11" fill="#1A1F2C">DAST Automated Scans <tspan fill="#8A93A6">9</tspan></text>
+<text x="2660" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">SCANS</text>
+<rect x="2660" y="534" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2677" y="544" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SCA</text><text x="2702" y="544" font-size="11" fill="#1A1F2C">Scans <tspan fill="#8A93A6">8</tspan></text>
+<text x="2660" y="570" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">STATIC SCANS</text>
+<rect x="2660" y="577" width="34" height="13" rx="3" fill="#B8860B"/><text x="2677" y="587" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SS</text><text x="2702" y="587" font-size="11" fill="#1A1F2C">Static Scans <tspan fill="#8A93A6">7</tspan></text>
+<text x="2660" y="613" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">DYNAMIC SCANS</text>
+<rect x="2660" y="620" width="34" height="13" rx="3" fill="#C2410C"/><text x="2677" y="630" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DS</text><text x="2702" y="630" font-size="11" fill="#1A1F2C">Dynamic Scans <tspan fill="#8A93A6">7</tspan></text>
+<text x="2660" y="656" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">PERSONAL ACCESS TOKENS</text>
+<rect x="2660" y="663" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2677" y="673" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PAT</text><text x="2702" y="673" font-size="11" fill="#1A1F2C">Personal Access Tokens <tspan fill="#8A93A6">6</tspan></text>
+<text x="2660" y="699" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">USER MANAGEMENT</text>
+<rect x="2660" y="706" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2677" y="716" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UM</text><text x="2702" y="716" font-size="11" fill="#1A1F2C">User Management <tspan fill="#8A93A6">6</tspan></text>
+<text x="2660" y="742" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2660" y="749" width="34" height="13" rx="3" fill="#D6264F"/><text x="2677" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML</text><text x="2702" y="759" font-size="11" fill="#1A1F2C">More Local <tspan fill="#8A93A6">13</tspan></text>
+<rect x="2660" y="766" width="34" height="13" rx="3" fill="#B0287F"/><text x="2677" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ATT</text><text x="2702" y="776" font-size="11" fill="#1A1F2C">Attributes <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2660" y="783" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2677" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MS</text><text x="2702" y="793" font-size="11" fill="#1A1F2C">Mobile Scans <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2660" y="800" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2677" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">NOT</text><text x="2702" y="810" font-size="11" fill="#1A1F2C">Notifications <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2660" y="817" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2677" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UAA</text><text x="2702" y="827" font-size="11" fill="#1A1F2C">UserApplicationAccess <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2660" y="834" width="34" height="13" rx="3" fill="#00838F"/><text x="2677" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">UGAA</text><text x="2702" y="844" font-size="11" fill="#1A1F2C">UserGroupApplicationAccess <tspan fill="#8A93A6">3</tspan></text>
+<text x="2910" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2928,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2954" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2928,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2954" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2928,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2954" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2928,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2954" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2928,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2954" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2928,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2954" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2928,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2954" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2928,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2954" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2910" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2910" y="463" font-size="10.5" fill="#5A6275">“AuditTemplate” → More Local line · 2 ops</text>
+<text x="2910" y="478" font-size="10.5" fill="#5A6275">“Event Logs” → More Local line · 1 op</text>
+<text x="2910" y="493" font-size="10.5" fill="#5A6275">“FortifyOnDemandConnectNetworks” → More Local line · 1 op</text>
+<text x="2910" y="508" font-size="10.5" fill="#5A6275">“Lookup Items” → More Local line · 1 op</text>
+<text x="2910" y="523" font-size="10.5" fill="#5A6275">“MultiFactorAuthorizationCode” → More Local line · 1 op</text>
+<text x="2910" y="538" font-size="10.5" fill="#5A6275">“Open Source Components” → Applications line · 1 op</text>
+<text x="2910" y="553" font-size="10.5" fill="#5A6275">“Open Source Components” → More Local line · 1 op</text>
+<text x="2910" y="568" font-size="10.5" fill="#5A6275">“Open Source Scans” → Vulnerabilities line · 1 op</text>
+<text x="2910" y="583" font-size="10.5" fill="#5A6275">“TenantEntitlements” → More Local line · 2 ops</text>
+<text x="2910" y="598" font-size="10.5" fill="#5A6275">“TenantHeatMaps” → More Local line · 1 op</text>
+<text x="2910" y="613" font-size="10.5" fill="#5A6275">“TenantSummary” → More Local line · 1 op</text>
+<text x="2910" y="628" font-size="10.5" fill="#5A6275">“Tenants” → More Local line · 2 ops</text>
+<text x="2910" y="678" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2910" y="695" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="3048" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/opentext-cybersecurity/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>

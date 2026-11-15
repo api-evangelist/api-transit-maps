@@ -1,0 +1,1423 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3086 4086" width="3086" height="4086" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<style>
+.st text{font-size:11px;fill:#1A1F2C}
+.st:hover text{font-weight:700}
+.xfer{fill:none;stroke:#1A1F2C;stroke-width:1.4;stroke-dasharray:2 3;opacity:.5}
+.dim{opacity:.1}
+.rt{cursor:pointer}.rt:hover text{font-weight:700}
+</style>
+<rect width="3086" height="4086" fill="#FFFFFF"/>
+<text x="160" y="80" font-size="44" font-weight="700" fill="#1A1F2C">The Katana API · Transit Map</text>
+<text x="160" y="116" font-size="16" fill="#5A6275">226 operations as stops · 43 tags as lines · 2 interchanges · 0 express routes (Arazzo) · click any stop for its apis.io page</text>
+<text x="1528.0" y="2554" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#D6264F" opacity=".85">SALES ORDERS</text>
+<text x="1840.0" y="2932" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0E9F6E" opacity=".85">BIN TRANSFERS</text>
+<text x="1672.0" y="3184" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#1F5FD1" opacity=".85">SALES RETURNS</text>
+<text x="2211.0" y="2596" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#E07B12" opacity=".85">SALES RETURN ROWS</text>
+<text x="1189.0" y="2596" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#7B3FE4" opacity=".85">SALES ORDER ROWS</text>
+<text x="1411.6" y="2890" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B0287F" opacity=".85">MATERIALS</text>
+<text x="1865.2" y="2764" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#0B7A75" opacity=".85">SERVICES</text>
+<text x="1184.8" y="2722" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#B8860B" opacity=".85">MANUFACTURING ORDER RECIPE ROWS</text>
+<text x="1705.6" y="2344" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#C2410C" opacity=".85">PURCHASE ORDERS</text>
+<text x="1420.0" y="2428" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#2E7D32" opacity=".85">VARIANTS</text>
+<text x="1924.0" y="2470" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#5C6BC0" opacity=".85">PO ADDITIONAL COST ROWS</text>
+<text x="1420.84" y="160" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE · MORE LOCAL 2 &amp; MORE LOCAL 1</text>
+<text x="718.9230769230769" y="2764" text-anchor="middle" font-size="30" font-weight="700" letter-spacing="4" fill="#6B7280" opacity=".85">MORE · SALESORDERFULFILLMENTCONTROLLER &amp; SALESORDERSHIPPINGFEECONTROLLER</text>
+<path class="line" data-line="BinLocationController" d="M748.0,3842.0 L748.0,3758.0 L748.0,3688.0 Q748.0,3674.0 757.9,3664.1 L832.0,3590.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>BinLocationController</title></path>
+<path class="line" data-line="BinTransferController" d="M1630.0,3170.0 L1714.0,3170.0 L1798.0,3170.0 L1868.0,3170.0 Q1882.0,3170.0 1891.9,3160.1 L1966.0,3086.0 L2050.0,3002.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>BinTransferController</title></path>
+<path class="line" data-line="BinTransferRowController" d="M1756.0,1406.0 L1672.0,1490.0 L1630.0,1532.0 L1588.0,1574.0 L1504.0,1658.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>BinTransferRowController</title></path>
+<path class="line" data-line="BomRowController" d="M706.0,1448.0 L790.0,1448.0 L874.0,1448.0 L958.0,1448.0 L1042.0,1448.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>BomRowController</title></path>
+<path class="line" data-line="Customer Controller" d="M580.0,3842.0 L654.1,3767.9 Q664.0,3758.0 664.0,3744.0 L664.0,3730.0 Q664.0,3716.0 654.1,3706.1 L580.0,3632.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Customer Controller</title></path>
+<path class="line" data-line="CustomerAddressController" d="M454.0,3758.0 L454.0,3674.0 L454.0,3604.0 Q454.0,3590.0 463.9,3580.1 L538.0,3506.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>CustomerAddressController</title></path>
+<path class="line" data-line="CustomFieldDefinitionController" d="M1462.0,1364.0 L1462.0,1280.0 L1462.0,1210.0 Q1462.0,1196.0 1471.9,1186.1 L1504.0,1154.0 L1588.0,1070.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>CustomFieldDefinitionController</title></path>
+<path class="line" data-line="DemandForecastController" d="M160.0,3086.0 L244.0,3170.0 L328.0,3254.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>DemandForecastController</title></path>
+<path class="line" data-line="MakeToOrderMOController" d="M412.0,2918.0 L328.0,3002.0 L286.0,3044.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>MakeToOrderMOController</title></path>
+<path class="line" data-line="ManufacturingOrderController" d="M916.0,1154.0 L1028.0,1154.0 Q1042.0,1154.0 1051.9,1163.9 L1074.1,1186.1 Q1084.0,1196.0 1074.1,1205.9 L1000.0,1280.0 L958.0,1322.0" fill="none" stroke="#00838F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ManufacturingOrderController</title></path>
+<path class="line" data-line="ManufacturingOrderOperationRowController" d="M916.0,902.0 L948.1,934.1 Q958.0,944.0 958.0,958.0 L958.0,1014.0 Q958.0,1028.0 944.0,1028.0 L874.0,1028.0 L790.0,1028.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ManufacturingOrderOperationRowController</title></path>
+<path class="line" data-line="ManufacturingOrderProductionController" d="M958.0,650.0 L1032.1,724.1 Q1042.0,734.0 1042.0,748.0 L1042.0,762.0 Q1042.0,776.0 1028.0,776.0 L958.0,776.0 L874.0,776.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ManufacturingOrderProductionController</title></path>
+<path class="line" data-line="ManufacturingOrderRecipeRowController" d="M1210.0,3086.0 L1210.0,3002.0 L1210.0,2890.0 Q1210.0,2876.0 1200.1,2866.1 L1168.0,2834.0 L1126.0,2792.0" fill="none" stroke="#B8860B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ManufacturingOrderRecipeRowController</title></path>
+<path class="line" data-line="MaterialController" d="M1378.0,3296.0 L1378.0,3170.0 L1378.0,3100.0 Q1378.0,3086.0 1387.9,3076.1 L1420.0,3044.0 L1504.0,2960.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>MaterialController</title></path>
+<path class="line" data-line="PoAdditionalCostRowController" d="M2092.0,2540.0 L2008.0,2540.0 L1938.0,2540.0 Q1924.0,2540.0 1914.1,2549.9 L1840.0,2624.0 L1756.0,2708.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PoAdditionalCostRowController</title></path>
+<path class="line" data-line="PriceListController" d="M1126.0,440.0 L1200.1,514.1 Q1210.0,524.0 1210.0,538.0 L1210.0,594.0 Q1210.0,608.0 1196.0,608.0 L1098.0,608.0 Q1084.0,608.0 1074.1,598.1 L1000.0,524.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PriceListController</title></path>
+<path class="line" data-line="PriceListCustomerController" d="M1420.0,356.0 L1494.1,430.1 Q1504.0,440.0 1494.1,449.9 L1387.9,556.1 Q1378.0,566.0 1368.1,556.1 L1303.9,491.9 Q1294.0,482.0 1294.0,468.0 L1294.0,356.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PriceListCustomerController</title></path>
+<path class="line" data-line="PriceListRowController" d="M1924.0,986.0 L1840.0,902.0 L1765.9,827.9 Q1756.0,818.0 1756.0,804.0 L1756.0,748.0 Q1756.0,734.0 1770.0,734.0 L1882.0,734.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PriceListRowController</title></path>
+<path class="line" data-line="ProductController" d="M1504.0,230.0 L1588.0,314.0 L1620.1,346.1 Q1630.0,356.0 1644.0,356.0 L1714.0,356.0 L1798.0,356.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ProductController</title></path>
+<path class="line" data-line="ProductOperationsController" d="M2134.0,524.0 L2050.0,608.0 L2017.9,640.1 Q2008.0,650.0 2008.0,664.0 L2008.0,720.0 Q2008.0,734.0 2022.0,734.0 L2134.0,734.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ProductOperationsController</title></path>
+<path class="line" data-line="PurchaseOrderController" d="M1840.0,2414.0 L1756.0,2498.0 L1714.0,2540.0 L1630.0,2624.0 L1588.0,2666.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PurchaseOrderController</title></path>
+<path class="line" data-line="PurchaseOrderRecipeRowController" d="M1966.0,230.0 L1966.0,314.0 L1966.0,426.0 Q1966.0,440.0 1980.0,440.0 L2036.0,440.0 Q2050.0,440.0 2059.9,430.1 L2134.0,356.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PurchaseOrderRecipeRowController</title></path>
+<path class="line" data-line="PurchaseOrderRowController" d="M1168.0,1868.0 L1168.0,1784.0 L1168.0,1714.0 Q1168.0,1700.0 1158.1,1690.1 L1126.0,1658.0 L1042.0,1574.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>PurchaseOrderRowController</title></path>
+<path class="line" data-line="RecipeController" d="M706.0,2834.0 L631.9,2908.1 Q622.0,2918.0 608.0,2918.0 L580.0,2918.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>RecipeController</title></path>
+<path class="line" data-line="SalesOrderAddressController" d="M1000.0,3044.0 L916.0,3128.0 L883.9,3160.1 Q874.0,3170.0 860.0,3170.0 L748.0,3170.0" fill="none" stroke="#8D6E63" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesOrderAddressController</title></path>
+<path class="line" data-line="SalesOrderController" d="M1798.0,2834.0 L1672.0,2834.0 L1560.0,2834.0 Q1546.0,2834.0 1536.1,2824.1 L1504.0,2792.0 L1462.0,2750.0 L1378.0,2666.0 L1336.0,2624.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesOrderController</title></path>
+<path class="line" data-line="SalesOrderFulfillmentController" d="M706.0,3548.0 L706.0,3464.0 L706.0,3352.0 Q706.0,3338.0 696.1,3328.1 L664.0,3296.0 L622.0,3254.0" fill="none" stroke="#B0287F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesOrderFulfillmentController</title></path>
+<path class="line" data-line="SalesOrderRowController" d="M1000.0,2666.0 L1084.0,2666.0 L1154.0,2666.0 Q1168.0,2666.0 1177.9,2675.9 L1210.0,2708.0 L1294.0,2792.0 L1378.0,2876.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesOrderRowController</title></path>
+<path class="line" data-line="SalesOrderShippingFeeController" d="M1210.0,3254.0 L1135.9,3328.1 Q1126.0,3338.0 1126.0,3352.0 L1126.0,3408.0 Q1126.0,3422.0 1135.9,3431.9 L1168.0,3464.0 L1252.0,3548.0" fill="none" stroke="#5C6BC0" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesOrderShippingFeeController</title></path>
+<path class="line" data-line="SalesReturnRowController" d="M2008.0,2666.0 L2092.0,2666.0 L2204.0,2666.0 Q2218.0,2666.0 2227.9,2675.9 L2250.1,2698.1 Q2260.0,2708.0 2274.0,2708.0 L2302.0,2708.0 L2386.0,2708.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesReturnRowController</title></path>
+<path class="line" data-line="SalesReturnsController" d="M1882.0,3422.0 L1798.0,3422.0 L1686.0,3422.0 Q1672.0,3422.0 1662.1,3412.1 L1630.0,3380.0 L1546.0,3296.0 L1504.0,3254.0" fill="none" stroke="#1F5FD1" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SalesReturnsController</title></path>
+<path class="line" data-line="SerialNumberController" d="M1168.0,734.0 L1210.0,776.0 L1242.1,808.1 Q1252.0,818.0 1252.0,832.0 L1252.0,902.0" fill="none" stroke="#E07B12" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SerialNumberController</title></path>
+<path class="line" data-line="ServiceController" d="M1714.0,2960.0 L1798.0,2960.0 L1868.0,2960.0 Q1882.0,2960.0 1891.9,2950.1 L1924.0,2918.0 L2008.0,2834.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>ServiceController</title></path>
+<path class="line" data-line="StockAdjustmentController" d="M1042.0,3254.0 L967.9,3328.1 Q958.0,3338.0 944.0,3338.0 L916.0,3338.0 L832.0,3338.0" fill="none" stroke="#C2410C" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>StockAdjustmentController</title></path>
+<path class="line" data-line="StocktakeController" d="M370.0,3506.0 L454.0,3422.0 L486.1,3389.9 Q496.0,3380.0 510.0,3380.0 L580.0,3380.0" fill="none" stroke="#4A5568" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>StocktakeController</title></path>
+<path class="line" data-line="StocktakeRowController" d="M244.0,3380.0 L356.0,3380.0 Q370.0,3380.0 379.9,3370.1 L412.0,3338.0 L496.0,3254.0" fill="none" stroke="#7B3FE4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>StocktakeRowController</title></path>
+<path class="line" data-line="StockTransferController" d="M1126.0,3758.0 L1051.9,3683.9 Q1042.0,3674.0 1042.0,3660.0 L1042.0,3604.0 Q1042.0,3590.0 1056.0,3590.0 L1112.0,3590.0 Q1126.0,3590.0 1135.9,3599.9 L1210.0,3674.0" fill="none" stroke="#0E9F6E" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>StockTransferController</title></path>
+<path class="line" data-line="SupplierAddressController" d="M832.0,2918.0 L832.0,3030.0 Q832.0,3044.0 818.0,3044.0 L762.0,3044.0 Q748.0,3044.0 738.1,3034.1 L706.0,3002.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SupplierAddressController</title></path>
+<path class="line" data-line="SupplierController" d="M496.0,3002.0 L496.0,3030.0 Q496.0,3044.0 505.9,3053.9 L570.1,3118.1 Q580.0,3128.0 594.0,3128.0 L622.0,3128.0" fill="none" stroke="#D6264F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>SupplierController</title></path>
+<path class="line" data-line="Variant Controller" d="M1252.0,2498.0 L1336.0,2498.0 L1420.0,2498.0 L1504.0,2498.0 L1588.0,2498.0" fill="none" stroke="#2E7D32" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>Variant Controller</title></path>
+<path class="line" data-line="webhook controller" d="M1084.0,3884.0 L1009.9,3809.9 Q1000.0,3800.0 986.0,3800.0 L930.0,3800.0 Q916.0,3800.0 906.1,3809.9 L883.9,3832.1 Q874.0,3842.0 874.0,3856.0 L874.0,3926.0" fill="none" stroke="#0B7A75" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><title>webhook controller</title></path>
+<path class="line" data-line="More Local 1" d="M2050.0,2162.0 L1966.0,2078.0 L1882.0,1994.0 L1840.0,1952.0 L1756.0,1868.0 L1714.0,1826.0 L1681.9,1793.9 Q1672.0,1784.0 1658.0,1784.0 L1560.0,1784.0 Q1546.0,1784.0 1536.1,1793.9 L1429.9,1900.1 Q1420.0,1910.0 1420.0,1924.0 L1420.0,1952.0 L1420.0,2036.0 L1420.0,2106.0 Q1420.0,2120.0 1410.1,2129.9 L1387.9,2152.1 Q1378.0,2162.0 1378.0,2176.0 L1378.0,2288.0 L1378.0,2372.0" fill="none" stroke="#B0287F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 1</title></path>
+<path class="line" data-line="More Local 2" d="M1294.0,1574.0 L1294.0,1490.0 L1294.0,1448.0 L1294.0,1364.0 L1294.0,1280.0 L1294.0,1196.0 L1294.0,1084.0 Q1294.0,1070.0 1303.9,1060.1 L1326.1,1037.9 Q1336.0,1028.0 1336.0,1014.0 L1336.0,902.0 L1336.0,790.0 Q1336.0,776.0 1345.9,766.1 L1368.1,743.9 Q1378.0,734.0 1392.0,734.0 L1462.0,734.0 L1546.0,734.0 L1616.0,734.0 Q1630.0,734.0 1639.9,724.1 L1714.0,650.0 L1798.0,566.0" fill="none" stroke="#D6264F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>More Local 2</title></path>
+<line x1="748" y1="3842" x2="748.0" y2="3876.0" stroke="#00838F" stroke-width="7"/><rect x="724.0" y="3865.0" width="48" height="22" rx="5" fill="#00838F"><title>BinLocationController</title></rect><text x="748.0" y="3881.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BLC</text>
+<line x1="832" y1="3590" x2="856.0416305603426" y2="3565.9583694396574" stroke="#00838F" stroke-width="7"/><rect x="832.0416305603426" y="3554.9583694396574" width="48" height="22" rx="5" fill="#00838F"><title>BinLocationController</title></rect><text x="856.0416305603426" y="3570.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BLC</text>
+<line x1="1630" y1="3170" x2="1596.0" y2="3170.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1572.0" y="3159.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>BinTransferController</title></rect><text x="1596.0" y="3175.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BTC</text>
+<line x1="2050" y1="3002" x2="2074.0416305603426" y2="2977.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="2050.0416305603426" y="2966.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>BinTransferController</title></rect><text x="2074.0416305603426" y="2982.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BTC</text>
+<line x1="1756" y1="1406" x2="1780.0416305603426" y2="1381.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1756.0416305603426" y="1370.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>BinTransferRowController</title></rect><text x="1780.0416305603426" y="1386.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BTRC</text>
+<line x1="1504" y1="1658" x2="1479.9583694396574" y2="1682.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1455.9583694396574" y="1671.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>BinTransferRowController</title></rect><text x="1479.9583694396574" y="1687.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BTRC</text>
+<line x1="706" y1="1448" x2="672.0" y2="1448.0" stroke="#0E9F6E" stroke-width="7"/><rect x="648.0" y="1437.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>BomRowController</title></rect><text x="672.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BRC</text>
+<line x1="1042" y1="1448" x2="1076.0" y2="1448.0" stroke="#0E9F6E" stroke-width="7"/><rect x="1052.0" y="1437.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>BomRowController</title></rect><text x="1076.0" y="1453.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">BRC</text>
+<line x1="580" y1="3842" x2="555.9583694396574" y2="3866.0416305603426" stroke="#1F5FD1" stroke-width="7"/><rect x="531.9583694396574" y="3855.0416305603426" width="48" height="22" rx="5" fill="#1F5FD1"><title>Customer Controller</title></rect><text x="555.9583694396574" y="3871.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CC</text>
+<line x1="580" y1="3632" x2="555.9583694396574" y2="3607.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="531.9583694396574" y="3596.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>Customer Controller</title></rect><text x="555.9583694396574" y="3612.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CC</text>
+<line x1="454" y1="3758" x2="454.0" y2="3792.0" stroke="#B8860B" stroke-width="7"/><rect x="430.0" y="3781.0" width="48" height="22" rx="5" fill="#B8860B"><title>CustomerAddressController</title></rect><text x="454.0" y="3797.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAC</text>
+<line x1="538" y1="3506" x2="562.0416305603426" y2="3481.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="538.0416305603426" y="3470.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>CustomerAddressController</title></rect><text x="562.0416305603426" y="3486.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CAC</text>
+<line x1="1462" y1="1364" x2="1462.0" y2="1398.0" stroke="#0B7A75" stroke-width="7"/><rect x="1438.0" y="1387.0" width="48" height="22" rx="5" fill="#0B7A75"><title>CustomFieldDefinitionController</title></rect><text x="1462.0" y="1403.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CFDC</text>
+<line x1="1588" y1="1070" x2="1612.0416305603426" y2="1045.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="1588.0416305603426" y="1034.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>CustomFieldDefinitionController</title></rect><text x="1612.0416305603426" y="1050.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">CFDC</text>
+<line x1="160" y1="3086" x2="135.9583694396574" y2="3061.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="111.95836943965739" y="3050.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>DemandForecastController</title></rect><text x="135.9583694396574" y="3066.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DFC</text>
+<line x1="328" y1="3254" x2="352.04163056034264" y2="3278.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="328.04163056034264" y="3267.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>DemandForecastController</title></rect><text x="352.04163056034264" y="3283.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">DFC</text>
+<line x1="412" y1="2918" x2="436.04163056034264" y2="2893.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="412.04163056034264" y="2882.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>MakeToOrderMOController</title></rect><text x="436.04163056034264" y="2898.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MTOM</text>
+<line x1="286" y1="3044" x2="261.95836943965736" y2="3068.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="237.95836943965736" y="3057.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>MakeToOrderMOController</title></rect><text x="261.95836943965736" y="3073.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MTOM</text>
+<line x1="916" y1="1154" x2="882.0" y2="1154.0" stroke="#00838F" stroke-width="7"/><rect x="858.0" y="1143.0" width="48" height="22" rx="5" fill="#00838F"><title>ManufacturingOrderController</title></rect><text x="882.0" y="1159.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOC</text>
+<line x1="958" y1="1322" x2="933.9583694396574" y2="1346.0416305603426" stroke="#00838F" stroke-width="7"/><rect x="909.9583694396574" y="1335.0416305603426" width="48" height="22" rx="5" fill="#00838F"><title>ManufacturingOrderController</title></rect><text x="933.9583694396574" y="1351.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOC</text>
+<line x1="916" y1="902" x2="891.9583694396574" y2="877.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="867.9583694396574" y="866.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>ManufacturingOrderOperationRowController</title></rect><text x="891.9583694396574" y="882.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOOR</text>
+<line x1="790" y1="1028" x2="756.0" y2="1028.0" stroke="#1F5FD1" stroke-width="7"/><rect x="732.0" y="1017.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>ManufacturingOrderOperationRowController</title></rect><text x="756.0" y="1033.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOOR</text>
+<line x1="958" y1="650" x2="933.9583694396574" y2="625.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="909.9583694396574" y="614.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>ManufacturingOrderProductionController</title></rect><text x="933.9583694396574" y="630.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOPC</text>
+<line x1="874" y1="776" x2="840.0" y2="776.0" stroke="#B8860B" stroke-width="7"/><rect x="816.0" y="765.0" width="48" height="22" rx="5" fill="#B8860B"><title>ManufacturingOrderProductionController</title></rect><text x="840.0" y="781.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MOPC</text>
+<line x1="1210" y1="3086" x2="1210.0" y2="3120.0" stroke="#B8860B" stroke-width="7"/><rect x="1186.0" y="3109.0" width="48" height="22" rx="5" fill="#B8860B"><title>ManufacturingOrderRecipeRowController</title></rect><text x="1210.0" y="3125.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MORR</text>
+<line x1="1126" y1="2792" x2="1101.9583694396574" y2="2767.9583694396574" stroke="#B8860B" stroke-width="7"/><rect x="1077.9583694396574" y="2756.9583694396574" width="48" height="22" rx="5" fill="#B8860B"><title>ManufacturingOrderRecipeRowController</title></rect><text x="1101.9583694396574" y="2772.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MORR</text>
+<line x1="1378" y1="3296" x2="1378.0" y2="3330.0" stroke="#B0287F" stroke-width="7"/><rect x="1354.0" y="3319.0" width="48" height="22" rx="5" fill="#B0287F"><title>MaterialController</title></rect><text x="1378.0" y="3335.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MC</text>
+<line x1="1504" y1="2960" x2="1528.0416305603426" y2="2935.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="1504.0416305603426" y="2924.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>MaterialController</title></rect><text x="1528.0416305603426" y="2940.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">MC</text>
+<line x1="2092" y1="2540" x2="2126.0" y2="2540.0" stroke="#5C6BC0" stroke-width="7"/><rect x="2102.0" y="2529.0" width="48" height="22" rx="5" fill="#5C6BC0"><title>PoAdditionalCostRowController</title></rect><text x="2126.0" y="2545.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PACR</text>
+<line x1="1756" y1="2708" x2="1731.9583694396574" y2="2732.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1707.9583694396574" y="2721.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>PoAdditionalCostRowController</title></rect><text x="1731.9583694396574" y="2737.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PACR</text>
+<line x1="1126" y1="440" x2="1101.9583694396574" y2="415.95836943965736" stroke="#8D6E63" stroke-width="7"/><rect x="1077.9583694396574" y="404.95836943965736" width="48" height="22" rx="5" fill="#8D6E63"><title>PriceListController</title></rect><text x="1101.9583694396574" y="420.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLC</text>
+<line x1="1000" y1="524" x2="975.9583694396574" y2="499.95836943965736" stroke="#8D6E63" stroke-width="7"/><rect x="951.9583694396574" y="488.95836943965736" width="48" height="22" rx="5" fill="#8D6E63"><title>PriceListController</title></rect><text x="975.9583694396574" y="504.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLC</text>
+<line x1="1420" y1="356" x2="1395.9583694396574" y2="331.95836943965736" stroke="#E07B12" stroke-width="7"/><rect x="1371.9583694396574" y="320.95836943965736" width="48" height="22" rx="5" fill="#E07B12"><title>PriceListCustomerController</title></rect><text x="1395.9583694396574" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLCC</text>
+<line x1="1294" y1="356" x2="1294.0" y2="322.0" stroke="#E07B12" stroke-width="7"/><rect x="1270.0" y="311.0" width="48" height="22" rx="5" fill="#E07B12"><title>PriceListCustomerController</title></rect><text x="1294.0" y="327.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLCC</text>
+<line x1="1924" y1="986" x2="1948.0416305603426" y2="1010.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1924.0416305603426" y="999.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>PriceListRowController</title></rect><text x="1948.0416305603426" y="1015.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLRC</text>
+<line x1="1882" y1="734" x2="1916.0" y2="734.0" stroke="#C2410C" stroke-width="7"/><rect x="1892.0" y="723.0" width="48" height="22" rx="5" fill="#C2410C"><title>PriceListRowController</title></rect><text x="1916.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PLRC</text>
+<line x1="1504" y1="230" x2="1479.9583694396574" y2="205.9583694396574" stroke="#4A5568" stroke-width="7"/><rect x="1455.9583694396574" y="194.9583694396574" width="48" height="22" rx="5" fill="#4A5568"><title>ProductController</title></rect><text x="1479.9583694396574" y="210.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PC</text>
+<line x1="1798" y1="356" x2="1832.0" y2="356.0" stroke="#4A5568" stroke-width="7"/><rect x="1808.0" y="345.0" width="48" height="22" rx="5" fill="#4A5568"><title>ProductController</title></rect><text x="1832.0" y="361.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PC</text>
+<line x1="2134" y1="524" x2="2158.0416305603426" y2="499.95836943965736" stroke="#7B3FE4" stroke-width="7"/><rect x="2134.0416305603426" y="488.95836943965736" width="48" height="22" rx="5" fill="#7B3FE4"><title>ProductOperationsController</title></rect><text x="2158.0416305603426" y="504.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POC</text>
+<line x1="2134" y1="734" x2="2168.0" y2="734.0" stroke="#7B3FE4" stroke-width="7"/><rect x="2144.0" y="723.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>ProductOperationsController</title></rect><text x="2168.0" y="739.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">POC</text>
+<line x1="1840" y1="2414" x2="1864.0416305603426" y2="2389.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1840.0416305603426" y="2378.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>PurchaseOrderController</title></rect><text x="1864.0416305603426" y="2394.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PUOC</text>
+<line x1="1588" y1="2666" x2="1563.9583694396574" y2="2690.0416305603426" stroke="#C2410C" stroke-width="7"/><rect x="1539.9583694396574" y="2679.0416305603426" width="48" height="22" rx="5" fill="#C2410C"><title>PurchaseOrderController</title></rect><text x="1563.9583694396574" y="2695.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PUOC</text>
+<line x1="1966" y1="230" x2="1966.0" y2="196.0" stroke="#2E7D32" stroke-width="7"/><rect x="1942.0" y="185.0" width="48" height="22" rx="5" fill="#2E7D32"><title>PurchaseOrderRecipeRowController</title></rect><text x="1966.0" y="201.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PORR</text>
+<line x1="2134" y1="356" x2="2158.0416305603426" y2="331.95836943965736" stroke="#2E7D32" stroke-width="7"/><rect x="2134.0416305603426" y="320.95836943965736" width="48" height="22" rx="5" fill="#2E7D32"><title>PurchaseOrderRecipeRowController</title></rect><text x="2158.0416305603426" y="336.95836943965736" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PORR</text>
+<line x1="1168" y1="1868" x2="1168.0" y2="1902.0" stroke="#D6264F" stroke-width="7"/><rect x="1144.0" y="1891.0" width="48" height="22" rx="5" fill="#D6264F"><title>PurchaseOrderRowController</title></rect><text x="1168.0" y="1907.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PORC</text>
+<line x1="1042" y1="1574" x2="1017.9583694396574" y2="1549.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="993.9583694396574" y="1538.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>PurchaseOrderRowController</title></rect><text x="1017.9583694396574" y="1554.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">PORC</text>
+<line x1="706" y1="2834" x2="730.0416305603426" y2="2809.9583694396574" stroke="#0E9F6E" stroke-width="7"/><rect x="706.0416305603426" y="2798.9583694396574" width="48" height="22" rx="5" fill="#0E9F6E"><title>RecipeController</title></rect><text x="730.0416305603426" y="2814.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RC</text>
+<line x1="580" y1="2918" x2="546.0" y2="2918.0" stroke="#0E9F6E" stroke-width="7"/><rect x="522.0" y="2907.0" width="48" height="22" rx="5" fill="#0E9F6E"><title>RecipeController</title></rect><text x="546.0" y="2923.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">RC</text>
+<line x1="1000" y1="3044" x2="1024.0416305603426" y2="3019.9583694396574" stroke="#8D6E63" stroke-width="7"/><rect x="1000.0416305603426" y="3008.9583694396574" width="48" height="22" rx="5" fill="#8D6E63"><title>SalesOrderAddressController</title></rect><text x="1024.0416305603426" y="3024.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOAC</text>
+<line x1="748" y1="3170" x2="714.0" y2="3170.0" stroke="#8D6E63" stroke-width="7"/><rect x="690.0" y="3159.0" width="48" height="22" rx="5" fill="#8D6E63"><title>SalesOrderAddressController</title></rect><text x="714.0" y="3175.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOAC</text>
+<line x1="1798" y1="2834" x2="1832.0" y2="2834.0" stroke="#D6264F" stroke-width="7"/><rect x="1808.0" y="2823.0" width="48" height="22" rx="5" fill="#D6264F"><title>SalesOrderController</title></rect><text x="1832.0" y="2839.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOC</text>
+<line x1="1336" y1="2624" x2="1311.9583694396574" y2="2599.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1287.9583694396574" y="2588.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>SalesOrderController</title></rect><text x="1311.9583694396574" y="2604.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOC</text>
+<line x1="706" y1="3548" x2="706.0" y2="3582.0" stroke="#B0287F" stroke-width="7"/><rect x="682.0" y="3571.0" width="48" height="22" rx="5" fill="#B0287F"><title>SalesOrderFulfillmentController</title></rect><text x="706.0" y="3587.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOFC</text>
+<line x1="622" y1="3254" x2="597.9583694396574" y2="3229.9583694396574" stroke="#B0287F" stroke-width="7"/><rect x="573.9583694396574" y="3218.9583694396574" width="48" height="22" rx="5" fill="#B0287F"><title>SalesOrderFulfillmentController</title></rect><text x="597.9583694396574" y="3234.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOFC</text>
+<line x1="1000" y1="2666" x2="966.0" y2="2666.0" stroke="#7B3FE4" stroke-width="7"/><rect x="942.0" y="2655.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>SalesOrderRowController</title></rect><text x="966.0" y="2671.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SORC</text>
+<line x1="1378" y1="2876" x2="1402.0416305603426" y2="2900.0416305603426" stroke="#7B3FE4" stroke-width="7"/><rect x="1378.0416305603426" y="2889.0416305603426" width="48" height="22" rx="5" fill="#7B3FE4"><title>SalesOrderRowController</title></rect><text x="1402.0416305603426" y="2905.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SORC</text>
+<line x1="1210" y1="3254" x2="1234.0416305603426" y2="3229.9583694396574" stroke="#5C6BC0" stroke-width="7"/><rect x="1210.0416305603426" y="3218.9583694396574" width="48" height="22" rx="5" fill="#5C6BC0"><title>SalesOrderShippingFeeController</title></rect><text x="1234.0416305603426" y="3234.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOSF</text>
+<line x1="1252" y1="3548" x2="1276.0416305603426" y2="3572.0416305603426" stroke="#5C6BC0" stroke-width="7"/><rect x="1252.0416305603426" y="3561.0416305603426" width="48" height="22" rx="5" fill="#5C6BC0"><title>SalesOrderShippingFeeController</title></rect><text x="1276.0416305603426" y="3577.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SOSF</text>
+<line x1="2008" y1="2666" x2="1974.0" y2="2666.0" stroke="#E07B12" stroke-width="7"/><rect x="1950.0" y="2655.0" width="48" height="22" rx="5" fill="#E07B12"><title>SalesReturnRowController</title></rect><text x="1974.0" y="2671.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SRRC</text>
+<line x1="2386" y1="2708" x2="2420.0" y2="2708.0" stroke="#E07B12" stroke-width="7"/><rect x="2396.0" y="2697.0" width="48" height="22" rx="5" fill="#E07B12"><title>SalesReturnRowController</title></rect><text x="2420.0" y="2713.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SRRC</text>
+<line x1="1882" y1="3422" x2="1916.0" y2="3422.0" stroke="#1F5FD1" stroke-width="7"/><rect x="1892.0" y="3411.0" width="48" height="22" rx="5" fill="#1F5FD1"><title>SalesReturnsController</title></rect><text x="1916.0" y="3427.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SRC</text>
+<line x1="1504" y1="3254" x2="1479.9583694396574" y2="3229.9583694396574" stroke="#1F5FD1" stroke-width="7"/><rect x="1455.9583694396574" y="3218.9583694396574" width="48" height="22" rx="5" fill="#1F5FD1"><title>SalesReturnsController</title></rect><text x="1479.9583694396574" y="3234.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SRC</text>
+<line x1="1168" y1="734" x2="1143.9583694396574" y2="709.9583694396574" stroke="#E07B12" stroke-width="7"/><rect x="1119.9583694396574" y="698.9583694396574" width="48" height="22" rx="5" fill="#E07B12"><title>SerialNumberController</title></rect><text x="1143.9583694396574" y="714.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SNC</text>
+<line x1="1252" y1="902" x2="1252.0" y2="936.0" stroke="#E07B12" stroke-width="7"/><rect x="1228.0" y="925.0" width="48" height="22" rx="5" fill="#E07B12"><title>SerialNumberController</title></rect><text x="1252.0" y="941.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SNC</text>
+<line x1="1714" y1="2960" x2="1680.0" y2="2960.0" stroke="#0B7A75" stroke-width="7"/><rect x="1656.0" y="2949.0" width="48" height="22" rx="5" fill="#0B7A75"><title>ServiceController</title></rect><text x="1680.0" y="2965.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SC</text>
+<line x1="2008" y1="2834" x2="2032.0416305603426" y2="2809.9583694396574" stroke="#0B7A75" stroke-width="7"/><rect x="2008.0416305603426" y="2798.9583694396574" width="48" height="22" rx="5" fill="#0B7A75"><title>ServiceController</title></rect><text x="2032.0416305603426" y="2814.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SC</text>
+<line x1="1042" y1="3254" x2="1066.0416305603426" y2="3229.9583694396574" stroke="#C2410C" stroke-width="7"/><rect x="1042.0416305603426" y="3218.9583694396574" width="48" height="22" rx="5" fill="#C2410C"><title>StockAdjustmentController</title></rect><text x="1066.0416305603426" y="3234.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SAC</text>
+<line x1="832" y1="3338" x2="798.0" y2="3338.0" stroke="#C2410C" stroke-width="7"/><rect x="774.0" y="3327.0" width="48" height="22" rx="5" fill="#C2410C"><title>StockAdjustmentController</title></rect><text x="798.0" y="3343.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SAC</text>
+<line x1="370" y1="3506" x2="345.95836943965736" y2="3530.0416305603426" stroke="#4A5568" stroke-width="7"/><rect x="321.95836943965736" y="3519.0416305603426" width="48" height="22" rx="5" fill="#4A5568"><title>StocktakeController</title></rect><text x="345.95836943965736" y="3535.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="580" y1="3380" x2="614.0" y2="3380.0" stroke="#4A5568" stroke-width="7"/><rect x="590.0" y="3369.0" width="48" height="22" rx="5" fill="#4A5568"><title>StocktakeController</title></rect><text x="614.0" y="3385.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STO</text>
+<line x1="244" y1="3380" x2="210.0" y2="3380.0" stroke="#7B3FE4" stroke-width="7"/><rect x="186.0" y="3369.0" width="48" height="22" rx="5" fill="#7B3FE4"><title>StocktakeRowController</title></rect><text x="210.0" y="3385.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STRC</text>
+<line x1="496" y1="3254" x2="520.0416305603426" y2="3229.9583694396574" stroke="#7B3FE4" stroke-width="7"/><rect x="496.0416305603426" y="3218.9583694396574" width="48" height="22" rx="5" fill="#7B3FE4"><title>StocktakeRowController</title></rect><text x="520.0416305603426" y="3234.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STRC</text>
+<line x1="1126" y1="3758" x2="1150.0416305603426" y2="3782.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1126.0416305603426" y="3771.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>StockTransferController</title></rect><text x="1150.0416305603426" y="3787.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STC</text>
+<line x1="1210" y1="3674" x2="1234.0416305603426" y2="3698.0416305603426" stroke="#0E9F6E" stroke-width="7"/><rect x="1210.0416305603426" y="3687.0416305603426" width="48" height="22" rx="5" fill="#0E9F6E"><title>StockTransferController</title></rect><text x="1234.0416305603426" y="3703.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">STC</text>
+<line x1="832" y1="2918" x2="832.0" y2="2884.0" stroke="#2E7D32" stroke-width="7"/><rect x="808.0" y="2873.0" width="48" height="22" rx="5" fill="#2E7D32"><title>SupplierAddressController</title></rect><text x="832.0" y="2889.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUAC</text>
+<line x1="706" y1="3002" x2="681.9583694396574" y2="2977.9583694396574" stroke="#2E7D32" stroke-width="7"/><rect x="657.9583694396574" y="2966.9583694396574" width="48" height="22" rx="5" fill="#2E7D32"><title>SupplierAddressController</title></rect><text x="681.9583694396574" y="2982.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUAC</text>
+<line x1="496" y1="3002" x2="496.0" y2="2968.0" stroke="#D6264F" stroke-width="7"/><rect x="472.0" y="2957.0" width="48" height="22" rx="5" fill="#D6264F"><title>SupplierController</title></rect><text x="496.0" y="2973.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUC</text>
+<line x1="622" y1="3128" x2="656.0" y2="3128.0" stroke="#D6264F" stroke-width="7"/><rect x="632.0" y="3117.0" width="48" height="22" rx="5" fill="#D6264F"><title>SupplierController</title></rect><text x="656.0" y="3133.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">SUC</text>
+<line x1="1252" y1="2498" x2="1218.0" y2="2498.0" stroke="#2E7D32" stroke-width="7"/><rect x="1194.0" y="2487.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Variant Controller</title></rect><text x="1218.0" y="2503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VC</text>
+<line x1="1588" y1="2498" x2="1622.0" y2="2498.0" stroke="#2E7D32" stroke-width="7"/><rect x="1598.0" y="2487.0" width="48" height="22" rx="5" fill="#2E7D32"><title>Variant Controller</title></rect><text x="1622.0" y="2503.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">VC</text>
+<line x1="1084" y1="3884" x2="1108.0416305603426" y2="3908.0416305603426" stroke="#0B7A75" stroke-width="7"/><rect x="1084.0416305603426" y="3897.0416305603426" width="48" height="22" rx="5" fill="#0B7A75"><title>webhook controller</title></rect><text x="1108.0416305603426" y="3913.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WC</text>
+<line x1="874" y1="3926" x2="874.0" y2="3960.0" stroke="#0B7A75" stroke-width="7"/><rect x="850.0" y="3949.0" width="48" height="22" rx="5" fill="#0B7A75"><title>webhook controller</title></rect><text x="874.0" y="3965.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">WC</text>
+<line x1="2050" y1="2162" x2="2074.0416305603426" y2="2186.0416305603426" stroke="#B0287F" stroke-width="7"/><rect x="2050.0416305603426" y="2175.0416305603426" width="48" height="22" rx="5" fill="#B0287F"><title>More Local 1</title></rect><text x="2074.0416305603426" y="2191.0416305603426" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML1</text>
+<line x1="1378" y1="2372" x2="1378.0" y2="2406.0" stroke="#B0287F" stroke-width="7"/><rect x="1354.0" y="2395.0" width="48" height="22" rx="5" fill="#B0287F"><title>More Local 1</title></rect><text x="1378.0" y="2411.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML1</text>
+<line x1="1294" y1="1574" x2="1294.0" y2="1608.0" stroke="#D6264F" stroke-width="7"/><rect x="1270.0" y="1597.0" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 2</title></rect><text x="1294.0" y="1613.0" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML2</text>
+<line x1="1798" y1="566" x2="1822.0416305603426" y2="541.9583694396574" stroke="#D6264F" stroke-width="7"/><rect x="1798.0416305603426" y="530.9583694396574" width="48" height="22" rx="5" fill="#D6264F"><title>More Local 2</title></rect><text x="1822.0416305603426" y="546.9583694396574" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">ML2</text>
+<a href="https://apis.apis.io/apis/katana/katana-additionalcostcontroller-api/#op-AdditionalCostController.getAdditionalCosts" target="_blank" class="st" data-op="AdditionalCostController.getAdditionalCosts"><title>GET /additional_costs
+More Local 1 line · AdditionalCostController.getAdditionalCosts</title>
+<circle cx="2050" cy="2162" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="2062" y="2167" text-anchor="start" style="fill:#1A1F2C">List additional costs</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-batchcontroller-api/#op-BatchController.createBatch" target="_blank" class="st" data-op="BatchController.createBatch"><title>POST /batches
+More Local 1 line · BatchController.createBatch</title>
+<circle cx="1840" cy="1952" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1852" y="1957" text-anchor="start" style="fill:#1A1F2C">Create batche</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-batchstockcontroller-api/#op-BatchStockController.updateBatchStock" target="_blank" class="st" data-op="BatchStockController.updateBatchStock"><title>PATCH /batch_stocks/{id}
+More Local 1 line · BatchStockController.updateBatchStock</title>
+<circle cx="1882" cy="1994" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1894" y="1999" text-anchor="start" style="fill:#1A1F2C">Update batch stock</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-batchstockcontroller-api/#op-BatchStockController.getBatchStock" target="_blank" class="st" data-op="BatchStockController.getBatchStock"><title>GET /batch_stocks
+More Local 1 line · BatchStockController.getBatchStock</title>
+<circle cx="1966" cy="2078" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1978" y="2083" text-anchor="start" style="fill:#1A1F2C">List batch stocks</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bininventorycontroller-api/#op-BinInventoryController.findAndPaginate" target="_blank" class="st" data-op="BinInventoryController.findAndPaginate"><title>GET /bin_inventory
+More Local 1 line · BinInventoryController.findAndPaginate</title>
+<circle cx="1756" cy="1868" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1768" y="1873" text-anchor="start" style="fill:#1A1F2C">Get bin inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-binlocationcontroller-api/#op-BinLocationController.updateBinLocation" target="_blank" class="st" data-op="BinLocationController.updateBinLocation"><title>PATCH /bin_locations/{id}
+BinLocationController line · BinLocationController.updateBinLocation</title>
+<circle cx="748" cy="3674" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="760" y="3679" text-anchor="start" style="fill:#1A1F2C">Update bin location</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-binlocationcontroller-api/#op-BinLocationController.deleteBinLocation" target="_blank" class="st" data-op="BinLocationController.deleteBinLocation"><title>DELETE /bin_locations/{id}
+BinLocationController line · BinLocationController.deleteBinLocation</title>
+<circle cx="832" cy="3590" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="828" y1="3594" x2="836" y2="3586" stroke="#00838F" stroke-width="2"/>
+<text x="841" y="3609" text-anchor="start" style="fill:#1A1F2C">Delete bin location</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-binlocationcontroller-api/#op-BinLocationController.createBinLocation" target="_blank" class="st" data-op="BinLocationController.createBinLocation"><title>POST /bin_locations
+BinLocationController line · BinLocationController.createBinLocation</title>
+<circle cx="748" cy="3758" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="760" y="3763" text-anchor="start" style="fill:#1A1F2C">Create bin location</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-binlocationcontroller-api/#op-BinLocationController.findBinLocations" target="_blank" class="st" data-op="BinLocationController.findBinLocations"><title>GET /bin_locations
+BinLocationController line · BinLocationController.findBinLocations</title>
+<circle cx="748" cy="3842" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="736.0" y="3847" text-anchor="end" style="fill:#1A1F2C">List bin locations</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransfercontroller-api/#op-BinTransferController.updateStatus" target="_blank" class="st" data-op="BinTransferController.updateStatus"><title>PATCH /bin_transfers/{id}/status
+BinTransferController line · BinTransferController.updateStatus</title>
+<circle cx="2050" cy="3002" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="2062" y="3007" text-anchor="start" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransfercontroller-api/#op-BinTransferController.updateById" target="_blank" class="st" data-op="BinTransferController.updateById"><title>PATCH /bin_transfers/{id}
+BinTransferController line · BinTransferController.updateById</title>
+<circle cx="1882" cy="3170" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1894" y="3175" text-anchor="start" style="fill:#1A1F2C">Update bin transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransfercontroller-api/#op-BinTransferController.findById" target="_blank" class="st" data-op="BinTransferController.findById"><title>GET /bin_transfers/{id}
+BinTransferController line · BinTransferController.findById</title>
+<circle cx="1798" cy="3170" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1804" y="3158" transform="rotate(-45 1804 3158)" style="fill:#1A1F2C">Get bin transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransfercontroller-api/#op-BinTransferController.deleteById" target="_blank" class="st" data-op="BinTransferController.deleteById"><title>DELETE /bin_transfers/{id}
+BinTransferController line · BinTransferController.deleteById</title>
+<circle cx="1966" cy="3086" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1962" y1="3090" x2="1970" y2="3082" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1978" y="3091" text-anchor="start" style="fill:#1A1F2C">Delete bin transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransfercontroller-api/#op-BinTransferController.create" target="_blank" class="st" data-op="BinTransferController.create"><title>POST /bin_transfers
+BinTransferController line · BinTransferController.create</title>
+<circle cx="1714" cy="3170" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1720" y="3158" transform="rotate(-45 1720 3158)" style="fill:#1A1F2C">Create bin transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransfercontroller-api/#op-BinTransferController.findAndPaginate" target="_blank" class="st" data-op="BinTransferController.findAndPaginate"><title>GET /bin_transfers
+BinTransferController line · BinTransferController.findAndPaginate</title>
+<circle cx="1630" cy="3170" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1636" y="3158" transform="rotate(-45 1636 3158)" style="fill:#1A1F2C">List bin transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransferrowcontroller-api/#op-BinTransferRowController.updateById" target="_blank" class="st" data-op="BinTransferRowController.updateById"><title>PATCH /bin_transfer_rows/{id}
+BinTransferRowController line · BinTransferRowController.updateById</title>
+<circle cx="1588" cy="1574" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1600" y="1579" text-anchor="start" style="fill:#1A1F2C">Update bin transfer row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransferrowcontroller-api/#op-BinTransferRowController.findById" target="_blank" class="st" data-op="BinTransferRowController.findById"><title>GET /bin_transfer_rows/{id}
+BinTransferRowController line · BinTransferRowController.findById</title>
+<circle cx="1630" cy="1532" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1642" y="1537" text-anchor="start" style="fill:#1A1F2C">Get bin transfer row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransferrowcontroller-api/#op-BinTransferRowController.deleteById" target="_blank" class="st" data-op="BinTransferRowController.deleteById"><title>DELETE /bin_transfer_rows/{id}
+BinTransferRowController line · BinTransferRowController.deleteById</title>
+<circle cx="1504" cy="1658" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1500" y1="1662" x2="1508" y2="1654" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1516" y="1663" text-anchor="start" style="fill:#1A1F2C">Delete bin transfer row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransferrowcontroller-api/#op-BinTransferRowController.create" target="_blank" class="st" data-op="BinTransferRowController.create"><title>POST /bin_transfer_rows
+BinTransferRowController line · BinTransferRowController.create</title>
+<circle cx="1672" cy="1490" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1684" y="1495" text-anchor="start" style="fill:#1A1F2C">Create bin transfer row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bintransferrowcontroller-api/#op-BinTransferRowController.findAndPaginate" target="_blank" class="st" data-op="BinTransferRowController.findAndPaginate"><title>GET /bin_transfer_rows
+BinTransferRowController line · BinTransferRowController.findAndPaginate</title>
+<circle cx="1756" cy="1406" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1768" y="1411" text-anchor="start" style="fill:#1A1F2C">List bin transfer rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bomrowcontroller-api/#op-BomRowController.createBomRowsBatch" target="_blank" class="st" data-op="BomRowController.createBomRowsBatch"><title>POST /bom_rows/batch/create
+BomRowController line · BomRowController.createBomRowsBatch</title>
+<circle cx="1042" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1036" y="1460" text-anchor="end" transform="rotate(-45 1036 1460)" style="fill:#1A1F2C">Create bom rows batch</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bomrowcontroller-api/#op-BomRowController.updateBomRow" target="_blank" class="st" data-op="BomRowController.updateBomRow"><title>PATCH /bom_rows/{id}
+BomRowController line · BomRowController.updateBomRow</title>
+<circle cx="874" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="880" y="1436" transform="rotate(-45 880 1436)" style="fill:#1A1F2C">Update bom row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bomrowcontroller-api/#op-BomRowController.deleteBomRow" target="_blank" class="st" data-op="BomRowController.deleteBomRow"><title>DELETE /bom_rows/{id}
+BomRowController line · BomRowController.deleteBomRow</title>
+<circle cx="958" cy="1448" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="954" y1="1452" x2="962" y2="1444" stroke="#0E9F6E" stroke-width="2"/>
+<text x="964" y="1436" transform="rotate(-45 964 1436)" style="fill:#1A1F2C">Delete bom row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bomrowcontroller-api/#op-BomRowController.createBomRow" target="_blank" class="st" data-op="BomRowController.createBomRow"><title>POST /bom_rows
+BomRowController line · BomRowController.createBomRow</title>
+<circle cx="790" cy="1448" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="796" y="1436" transform="rotate(-45 796 1436)" style="fill:#1A1F2C">Create bom row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-bomrowcontroller-api/#op-BomRowController.getBomRows" target="_blank" class="st" data-op="BomRowController.getBomRows"><title>GET /bom_rows
+BomRowController line · BomRowController.getBomRows</title>
+<circle cx="706" cy="1448" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="712" y="1436" transform="rotate(-45 712 1436)" style="fill:#1A1F2C">List bom rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customer-controller-api/#op-CustomerController.updateVariant" target="_blank" class="st" data-op="CustomerController.updateVariant"><title>PATCH /customers/{id}
+Customer Controller line · CustomerController.updateVariant</title>
+<circle cx="664" cy="3716" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="652.0" y="3721" text-anchor="end" style="fill:#1A1F2C">Update customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customer-controller-api/#op-CustomerController.deleteCustomer" target="_blank" class="st" data-op="CustomerController.deleteCustomer"><title>DELETE /customers/{id}
+Customer Controller line · CustomerController.deleteCustomer</title>
+<circle cx="580" cy="3632" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="576" y1="3636" x2="584" y2="3628" stroke="#1F5FD1" stroke-width="2"/>
+<text x="592" y="3637" text-anchor="start" style="fill:#1A1F2C">Delete customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customer-controller-api/#op-CustomerController.createCustomer" target="_blank" class="st" data-op="CustomerController.createCustomer"><title>POST /customers
+Customer Controller line · CustomerController.createCustomer</title>
+<circle cx="664" cy="3758" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="652.0" y="3763" text-anchor="end" style="fill:#1A1F2C">Create customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customer-controller-api/#op-CustomerController.getAllCustomers" target="_blank" class="st" data-op="CustomerController.getAllCustomers"><title>GET /customers
+Customer Controller line · CustomerController.getAllCustomers</title>
+<circle cx="580" cy="3842" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="568.0" y="3847" text-anchor="end" style="fill:#1A1F2C">List customers</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customeraddresscontroller-api/#op-CustomerAddressController.updateCustomerAddress" target="_blank" class="st" data-op="CustomerAddressController.updateCustomerAddress"><title>PATCH /customer_addresses/{id}
+CustomerAddressController line · CustomerAddressController.updateCustomerAddress</title>
+<circle cx="454" cy="3590" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="442.0" y="3595" text-anchor="end" style="fill:#1A1F2C">Update customer address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customeraddresscontroller-api/#op-CustomerAddressController.deleteCustomerAddress" target="_blank" class="st" data-op="CustomerAddressController.deleteCustomerAddress"><title>DELETE /customer_addresses/{id}
+CustomerAddressController line · CustomerAddressController.deleteCustomerAddress</title>
+<circle cx="538" cy="3506" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="534" y1="3510" x2="542" y2="3502" stroke="#B8860B" stroke-width="2"/>
+<text x="550" y="3511" text-anchor="start" style="fill:#1A1F2C">Delete customer address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customeraddresscontroller-api/#op-CustomerAddressController.createCustomerAddress" target="_blank" class="st" data-op="CustomerAddressController.createCustomerAddress"><title>POST /customer_addresses
+CustomerAddressController line · CustomerAddressController.createCustomerAddress</title>
+<circle cx="454" cy="3674" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="466" y="3679" text-anchor="start" style="fill:#1A1F2C">Create customer address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customeraddresscontroller-api/#op-CustomerAddressController.getAllCustomerAddresses" target="_blank" class="st" data-op="CustomerAddressController.getAllCustomerAddresses"><title>GET /customer_addresses
+CustomerAddressController line · CustomerAddressController.getAllCustomerAddresses</title>
+<circle cx="454" cy="3758" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="442.0" y="3763" text-anchor="end" style="fill:#1A1F2C">List customer addresses</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customfielddefinitioncontroller-api/#op-CustomFieldDefinitionController.update" target="_blank" class="st" data-op="CustomFieldDefinitionController.update"><title>PATCH /custom_field_definitions/{id}
+CustomFieldDefinitionController line · CustomFieldDefinitionController.update</title>
+<circle cx="1504" cy="1154" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1516" y="1159" text-anchor="start" style="fill:#1A1F2C">Update custom field definition</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customfielddefinitioncontroller-api/#op-CustomFieldDefinitionController.getById" target="_blank" class="st" data-op="CustomFieldDefinitionController.getById"><title>GET /custom_field_definitions/{id}
+CustomFieldDefinitionController line · CustomFieldDefinitionController.getById</title>
+<circle cx="1462" cy="1196" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1474" y="1201" text-anchor="start" style="fill:#1A1F2C">Get custom field definition</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customfielddefinitioncontroller-api/#op-CustomFieldDefinitionController.deleteById" target="_blank" class="st" data-op="CustomFieldDefinitionController.deleteById"><title>DELETE /custom_field_definitions/{id}
+CustomFieldDefinitionController line · CustomFieldDefinitionController.deleteById</title>
+<circle cx="1588" cy="1070" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="1584" y1="1074" x2="1592" y2="1066" stroke="#0B7A75" stroke-width="2"/>
+<text x="1600" y="1075" text-anchor="start" style="fill:#1A1F2C">Delete custom field definition</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customfielddefinitioncontroller-api/#op-CustomFieldDefinitionController.create" target="_blank" class="st" data-op="CustomFieldDefinitionController.create"><title>POST /custom_field_definitions
+CustomFieldDefinitionController line · CustomFieldDefinitionController.create</title>
+<circle cx="1462" cy="1280" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1474" y="1285" text-anchor="start" style="fill:#1A1F2C">Create custom field definition</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customfielddefinitioncontroller-api/#op-CustomFieldDefinitionController.getAll" target="_blank" class="st" data-op="CustomFieldDefinitionController.getAll"><title>GET /custom_field_definitions
+CustomFieldDefinitionController line · CustomFieldDefinitionController.getAll</title>
+<circle cx="1462" cy="1364" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1474" y="1369" text-anchor="start" style="fill:#1A1F2C">List custom field definitions</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-customsalesordercontroller-api/#op-CustomSalesOrderController.rerank" target="_blank" class="st" data-op="CustomSalesOrderController.rerank"><title>POST /sales_order_rerank
+More Local 2 line · CustomSalesOrderController.rerank</title>
+<circle cx="1336" cy="1028" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="1033" text-anchor="start" style="fill:#1A1F2C">Update sales order rerank</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-demandforecastcontroller-api/#op-DemandForecastController.updateDemandForecast" target="_blank" class="st" data-op="DemandForecastController.updateDemandForecast"><title>POST /demand_forecasts
+DemandForecastController line · DemandForecastController.updateDemandForecast</title>
+<circle cx="244" cy="3170" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="256" y="3175" text-anchor="start" style="fill:#1A1F2C">Create demand forecast</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-demandforecastcontroller-api/#op-DemandForecastController.findDemandForecast" target="_blank" class="st" data-op="DemandForecastController.findDemandForecast"><title>GET /demand_forecasts
+DemandForecastController line · DemandForecastController.findDemandForecast</title>
+<circle cx="160" cy="3086" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="148.0" y="3091" text-anchor="end" style="fill:#1A1F2C">List demand forecasts</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-demandforecastcontroller-api/#op-DemandForecastController.clearDemandForecast" target="_blank" class="st" data-op="DemandForecastController.clearDemandForecast"><title>DELETE /demand_forecasts
+DemandForecastController line · DemandForecastController.clearDemandForecast</title>
+<circle cx="328" cy="3254" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="324" y1="3258" x2="332" y2="3250" stroke="#B0287F" stroke-width="2"/>
+<text x="340" y="3259" text-anchor="start" style="fill:#1A1F2C">Delete demand forecast</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-factory-controller-api/#op-FactoryController.getFactory" target="_blank" class="st" data-op="FactoryController.getFactory"><title>GET /factory
+More Local 1 line · FactoryController.getFactory</title>
+<circle cx="1672" cy="1784" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1684" y="1789" text-anchor="start" style="fill:#1A1F2C">Get factory</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-inventorycontroller-api/#op-InventoryController.getInventories" target="_blank" class="st" data-op="InventoryController.getInventories"><title>GET /inventory
+More Local 1 line · InventoryController.getInventories</title>
+<circle cx="1546" cy="1784" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1534.0" y="1789" text-anchor="end" style="fill:#1A1F2C">Get inventory</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-inventorycontroller-api/#op-InventoryController.getInventoryMovements" target="_blank" class="st" data-op="InventoryController.getInventoryMovements"><title>GET /inventory_movements
+More Local 1 line · InventoryController.getInventoryMovements</title>
+<circle cx="1420" cy="1910" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="1915" text-anchor="start" style="fill:#1A1F2C">List inventory movements</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-inventorysafetystocklevelcontroller-api/#op-InventorySafetyStockLevelController.createInventoryReorderPoint" target="_blank" class="st" data-op="InventorySafetyStockLevelController.createInventoryReorderPoint"><title>POST /inventory_reorder_points
+More Local 1 line · InventorySafetyStockLevelController.createInventoryReorderPoint</title>
+<circle cx="1420" cy="1952" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="1957" text-anchor="start" style="fill:#1A1F2C">Create inventory reorder point</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-inventorysafetystocklevelcontroller-api/#op-InventorySafetyStockLevelController.createInventorySafetyStockLevel" target="_blank" class="st" data-op="InventorySafetyStockLevelController.createInventorySafetyStockLevel"><title>POST /inventory_safety_stock_levels
+More Local 1 line · InventorySafetyStockLevelController.createInventorySafetyStockLevel</title>
+<circle cx="1420" cy="2036" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2041" text-anchor="start" style="fill:#1A1F2C">Create inventory safety stock level</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-itemscustomfieldscollectioncontroller-api/#op-ItemsCustomFieldsCollectionController.getAllCollections" target="_blank" class="st" data-op="ItemsCustomFieldsCollectionController.getAllCollections"><title>GET /custom_fields_collections
+More Local 1 line · ItemsCustomFieldsCollectionController.getAllCollections</title>
+<circle cx="1714" cy="1826" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1726" y="1831" text-anchor="start" style="fill:#1A1F2C">List custom fields collections</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-location-controller-api/#op-LocationController.getLocation" target="_blank" class="st" data-op="LocationController.getLocation"><title>GET /locations/{id}
+More Local 1 line · LocationController.getLocation</title>
+<circle cx="1378" cy="2162" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2167" text-anchor="start" style="fill:#1A1F2C">Get location</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-location-controller-api/#op-LocationController.getAllLocations" target="_blank" class="st" data-op="LocationController.getAllLocations"><title>GET /locations
+More Local 1 line · LocationController.getAllLocations</title>
+<circle cx="1420" cy="2120" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="2125" text-anchor="start" style="fill:#1A1F2C">List locations</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-maketoordermocontroller-api/#op-MakeToOrderMOController.createMTO" target="_blank" class="st" data-op="MakeToOrderMOController.createMTO"><title>POST /manufacturing_order_make_to_order
+MakeToOrderMOController line · MakeToOrderMOController.createMTO</title>
+<circle cx="412" cy="2918" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="400.0" y="2923" text-anchor="end" style="fill:#1A1F2C">Update manufacturing order make to order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-maketoordermocontroller-api/#op-MakeToOrderMOController.rerank" target="_blank" class="st" data-op="MakeToOrderMOController.rerank"><title>POST /manufacturing_order_rerank
+MakeToOrderMOController line · MakeToOrderMOController.rerank</title>
+<circle cx="328" cy="3002" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="316.0" y="3007" text-anchor="end" style="fill:#1A1F2C">Update manufacturing order rerank</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-maketoordermocontroller-api/#op-MakeToOrderMOController.unlink" target="_blank" class="st" data-op="MakeToOrderMOController.unlink"><title>POST /manufacturing_order_unlink
+MakeToOrderMOController line · MakeToOrderMOController.unlink</title>
+<circle cx="286" cy="3044" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="277.0" y="3034" text-anchor="end" style="fill:#1A1F2C">Update manufacturing order unlink</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingordercontroller-api/#op-ManufacturingOrderController.updateManufacturingOrder" target="_blank" class="st" data-op="ManufacturingOrderController.updateManufacturingOrder"><title>PATCH /manufacturing_orders/{id}
+ManufacturingOrderController line · ManufacturingOrderController.updateManufacturingOrder</title>
+<circle cx="1000" cy="1280" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1012" y="1285" text-anchor="start" style="fill:#1A1F2C">Update manufacturing order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingordercontroller-api/#op-ManufacturingOrderController.getManufacturingOrder" target="_blank" class="st" data-op="ManufacturingOrderController.getManufacturingOrder"><title>GET /manufacturing_orders/{id}
+ManufacturingOrderController line · ManufacturingOrderController.getManufacturingOrder</title>
+<circle cx="1084" cy="1196" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="1096" y="1201" text-anchor="start" style="fill:#1A1F2C">Get manufacturing order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingordercontroller-api/#op-ManufacturingOrderController.deleteManufacturingOrder" target="_blank" class="st" data-op="ManufacturingOrderController.deleteManufacturingOrder"><title>DELETE /manufacturing_orders/{id}
+ManufacturingOrderController line · ManufacturingOrderController.deleteManufacturingOrder</title>
+<circle cx="958" cy="1322" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<line x1="954" y1="1326" x2="962" y2="1318" stroke="#00838F" stroke-width="2"/>
+<text x="970" y="1327" text-anchor="start" style="fill:#1A1F2C">Delete manufacturing order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingordercontroller-api/#op-ManufacturingOrderController.createManufacturingOrder" target="_blank" class="st" data-op="ManufacturingOrderController.createManufacturingOrder"><title>POST /manufacturing_orders
+ManufacturingOrderController line · ManufacturingOrderController.createManufacturingOrder</title>
+<circle cx="1042" cy="1154" r="5.5" fill="#00838F" stroke="#00838F" stroke-width="2.5"/>
+<text x="1054" y="1159" text-anchor="start" style="fill:#1A1F2C">Create manufacturing order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingordercontroller-api/#op-ManufacturingOrderController.getManufacturingOrders" target="_blank" class="st" data-op="ManufacturingOrderController.getManufacturingOrders"><title>GET /manufacturing_orders
+ManufacturingOrderController line · ManufacturingOrderController.getManufacturingOrders</title>
+<circle cx="916" cy="1154" r="5.5" fill="#fff" stroke="#00838F" stroke-width="2.5"/>
+<text x="922" y="1142" transform="rotate(-45 922 1142)" style="fill:#1A1F2C">List manufacturing orders</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderoperationrowcontroller-api/#op-ManufacturingOrderOperationRowController.updateManufacturingOrderOperationRow" target="_blank" class="st" data-op="ManufacturingOrderOperationRowController.updateManufacturingOrderOperationRow"><title>PATCH /manufacturing_order_operation_rows/{id}
+ManufacturingOrderOperationRowController line · ManufacturingOrderOperationRowController.updateManufacturingOrderOperationRow</title>
+<circle cx="874" cy="1028" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="868" y="1040" text-anchor="end" transform="rotate(-45 868 1040)" style="fill:#1A1F2C">Update manufacturing order operation row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderoperationrowcontroller-api/#op-ManufacturingOrderOperationRowController.retrieveManufacturingOrderOperationRow" target="_blank" class="st" data-op="ManufacturingOrderOperationRowController.retrieveManufacturingOrderOperationRow"><title>GET /manufacturing_order_operation_rows/{id}
+ManufacturingOrderOperationRowController line · ManufacturingOrderOperationRowController.retrieveManufacturingOrderOperationRow</title>
+<circle cx="958" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="1033" text-anchor="start" style="fill:#1A1F2C">Get manufacturing order operation row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderoperationrowcontroller-api/#op-ManufacturingOrderOperationRowController.deleteManufacturingOrderOperationRow" target="_blank" class="st" data-op="ManufacturingOrderOperationRowController.deleteManufacturingOrderOperationRow"><title>DELETE /manufacturing_order_operation_rows/{id}
+ManufacturingOrderOperationRowController line · ManufacturingOrderOperationRowController.deleteManufacturingOrderOperationRow</title>
+<circle cx="790" cy="1028" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="786" y1="1032" x2="794" y2="1024" stroke="#1F5FD1" stroke-width="2"/>
+<text x="790" y="1001" text-anchor="middle" style="fill:#1A1F2C">Delete manufacturing order operation row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderoperationrowcontroller-api/#op-ManufacturingOrderOperationRowController.createManufacturingOrderOperationRow" target="_blank" class="st" data-op="ManufacturingOrderOperationRowController.createManufacturingOrderOperationRow"><title>POST /manufacturing_order_operation_rows
+ManufacturingOrderOperationRowController line · ManufacturingOrderOperationRowController.createManufacturingOrderOperationRow</title>
+<circle cx="958" cy="944" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="970" y="949" text-anchor="start" style="fill:#1A1F2C">Create manufacturing order operation row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderoperationrowcontroller-api/#op-ManufacturingOrderOperationRowController.getManufacturingOrderOperationRows" target="_blank" class="st" data-op="ManufacturingOrderOperationRowController.getManufacturingOrderOperationRows"><title>GET /manufacturing_order_operation_rows
+ManufacturingOrderOperationRowController line · ManufacturingOrderOperationRowController.getManufacturingOrderOperationRows</title>
+<circle cx="916" cy="902" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="904.0" y="907" text-anchor="end" style="fill:#1A1F2C">List manufacturing order operation rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioncontroller-api/#op-ManufacturingOrderProductionController.update" target="_blank" class="st" data-op="ManufacturingOrderProductionController.update"><title>PATCH /manufacturing_order_productions/{id}
+ManufacturingOrderProductionController line · ManufacturingOrderProductionController.update</title>
+<circle cx="958" cy="776" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="958" y="748" text-anchor="middle" style="fill:#1A1F2C">Update manufacturing<tspan x="958" dy="13">order production</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioncontroller-api/#op-ManufacturingOrderProductionController.findById" target="_blank" class="st" data-op="ManufacturingOrderProductionController.findById"><title>GET /manufacturing_order_productions/{id}
+ManufacturingOrderProductionController line · ManufacturingOrderProductionController.findById</title>
+<circle cx="1042" cy="776" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1054" y="774" text-anchor="start" style="fill:#1A1F2C">Get manufacturing<tspan x="1054" dy="13">order production</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioncontroller-api/#op-ManufacturingOrderProductionController.deleteManufacturingOrderProduction" target="_blank" class="st" data-op="ManufacturingOrderProductionController.deleteManufacturingOrderProduction"><title>DELETE /manufacturing_order_productions/{id}
+ManufacturingOrderProductionController line · ManufacturingOrderProductionController.deleteManufacturingOrderProduction</title>
+<circle cx="874" cy="776" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="870" y1="780" x2="878" y2="772" stroke="#B8860B" stroke-width="2"/>
+<text x="874" y="812" text-anchor="middle" style="fill:#1A1F2C">Delete manufacturing order production</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioncontroller-api/#op-ManufacturingOrderProductionController.completePartially" target="_blank" class="st" data-op="ManufacturingOrderProductionController.completePartially"><title>POST /manufacturing_order_productions
+ManufacturingOrderProductionController line · ManufacturingOrderProductionController.completePartially</title>
+<circle cx="1042" cy="734" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1051" y="724" text-anchor="start" style="fill:#1A1F2C">Create manufacturing order production</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioncontroller-api/#op-ManufacturingOrderProductionController.find" target="_blank" class="st" data-op="ManufacturingOrderProductionController.find"><title>GET /manufacturing_order_productions
+ManufacturingOrderProductionController line · ManufacturingOrderProductionController.find</title>
+<circle cx="958" cy="650" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="970" y="655" text-anchor="start" style="fill:#1A1F2C">List manufacturing order productions</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioningredientcontroller-api/#op-ManufacturingOrderProductionIngredientController.updateManufacturingOrderProductionIngredient" target="_blank" class="st" data-op="ManufacturingOrderProductionIngredientController.updateManufacturingOrderProductionIngredient"><title>PATCH /manufacturing_order_production_ingredients/{id}
+More Local 1 line · ManufacturingOrderProductionIngredientController.updateManufacturingOrderProductionIngredient</title>
+<circle cx="1378" cy="2372" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2377" text-anchor="start" style="fill:#1A1F2C">Update manufacturing order production ingredient</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderproductioningredientcontroller-api/#op-ManufacturingOrderProductionIngredientController.find" target="_blank" class="st" data-op="ManufacturingOrderProductionIngredientController.find"><title>GET /manufacturing_order_production_ingredients
+More Local 1 line · ManufacturingOrderProductionIngredientController.find</title>
+<circle cx="1378" cy="2288" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="2293" text-anchor="start" style="fill:#1A1F2C">List manufacturing order production ingredients</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderreciperowcontroller-api/#op-ManufacturingOrderRecipeRowController.updateManufacturingRecipeRow" target="_blank" class="st" data-op="ManufacturingOrderRecipeRowController.updateManufacturingRecipeRow"><title>PATCH /manufacturing_order_recipe_rows/{id}
+ManufacturingOrderRecipeRowController line · ManufacturingOrderRecipeRowController.updateManufacturingRecipeRow</title>
+<circle cx="1168" cy="2834" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1156.0" y="2839" text-anchor="end" style="fill:#1A1F2C">Update manufacturing order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderreciperowcontroller-api/#op-ManufacturingOrderRecipeRowController.findManufacturingOrderRecipeRowById" target="_blank" class="st" data-op="ManufacturingOrderRecipeRowController.findManufacturingOrderRecipeRowById"><title>GET /manufacturing_order_recipe_rows/{id}
+ManufacturingOrderRecipeRowController line · ManufacturingOrderRecipeRowController.findManufacturingOrderRecipeRowById</title>
+<circle cx="1210" cy="2876" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1198.0" y="2881" text-anchor="end" style="fill:#1A1F2C">Get manufacturing order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderreciperowcontroller-api/#op-ManufacturingOrderRecipeRowController.deleteManufacturingOrderRecipeRow" target="_blank" class="st" data-op="ManufacturingOrderRecipeRowController.deleteManufacturingOrderRecipeRow"><title>DELETE /manufacturing_order_recipe_rows/{id}
+ManufacturingOrderRecipeRowController line · ManufacturingOrderRecipeRowController.deleteManufacturingOrderRecipeRow</title>
+<circle cx="1126" cy="2792" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<line x1="1122" y1="2796" x2="1130" y2="2788" stroke="#B8860B" stroke-width="2"/>
+<text x="1114.0" y="2797" text-anchor="end" style="fill:#1A1F2C">Delete manufacturing order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderreciperowcontroller-api/#op-ManufacturingOrderRecipeRowController.createManufacturingOrderRecipeRow" target="_blank" class="st" data-op="ManufacturingOrderRecipeRowController.createManufacturingOrderRecipeRow"><title>POST /manufacturing_order_recipe_rows
+ManufacturingOrderRecipeRowController line · ManufacturingOrderRecipeRowController.createManufacturingOrderRecipeRow</title>
+<circle cx="1210" cy="3002" r="5.5" fill="#B8860B" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1222" y="3007" text-anchor="start" style="fill:#1A1F2C">Create manufacturing order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-manufacturingorderreciperowcontroller-api/#op-ManufacturingOrderRecipeRowController.findManufacturingOrderRecipeRows" target="_blank" class="st" data-op="ManufacturingOrderRecipeRowController.findManufacturingOrderRecipeRows"><title>GET /manufacturing_order_recipe_rows
+ManufacturingOrderRecipeRowController line · ManufacturingOrderRecipeRowController.findManufacturingOrderRecipeRows</title>
+<circle cx="1210" cy="3086" r="5.5" fill="#fff" stroke="#B8860B" stroke-width="2.5"/>
+<text x="1198.0" y="3091" text-anchor="end" style="fill:#1A1F2C">List manufacturing order recipe rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-materialcontroller-api/#op-MaterialController.updateMaterial" target="_blank" class="st" data-op="MaterialController.updateMaterial"><title>PATCH /materials/{id}
+MaterialController line · MaterialController.updateMaterial</title>
+<circle cx="1420" cy="3044" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1432" y="3049" text-anchor="start" style="fill:#1A1F2C">Update material</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-materialcontroller-api/#op-MaterialController.getMaterial" target="_blank" class="st" data-op="MaterialController.getMaterial"><title>GET /materials/{id}
+MaterialController line · MaterialController.getMaterial</title>
+<circle cx="1378" cy="3086" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="3091" text-anchor="start" style="fill:#1A1F2C">Get material</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-materialcontroller-api/#op-MaterialController.deleteManufacturingOrder" target="_blank" class="st" data-op="MaterialController.deleteManufacturingOrder"><title>DELETE /materials/{id}
+MaterialController line · MaterialController.deleteManufacturingOrder</title>
+<circle cx="1504" cy="2960" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="1500" y1="2964" x2="1508" y2="2956" stroke="#B0287F" stroke-width="2"/>
+<text x="1516" y="2965" text-anchor="start" style="fill:#1A1F2C">Delete material</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-materialcontroller-api/#op-MaterialController.createMaterial" target="_blank" class="st" data-op="MaterialController.createMaterial"><title>POST /materials
+MaterialController line · MaterialController.createMaterial</title>
+<circle cx="1378" cy="3170" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="3175" text-anchor="start" style="fill:#1A1F2C">Create material</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-materialcontroller-api/#op-MaterialController.getAllMaterials" target="_blank" class="st" data-op="MaterialController.getAllMaterials"><title>GET /materials
+MaterialController line · MaterialController.getAllMaterials</title>
+<circle cx="1378" cy="3296" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="1390" y="3301" text-anchor="start" style="fill:#1A1F2C">List materials</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-negativestocklatestmovementcontroller-api/#op-NegativeStockLatestMovementController.getAllNegativeStockLatestMovements" target="_blank" class="st" data-op="NegativeStockLatestMovementController.getAllNegativeStockLatestMovements"><title>GET /negative_stock
+More Local 2 line · NegativeStockLatestMovementController.getAllNegativeStockLatestMovements</title>
+<circle cx="1294" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="1579" text-anchor="start" style="fill:#1A1F2C">Get negative stock</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-operatorscontroller-api/#op-OperatorsController.find" target="_blank" class="st" data-op="OperatorsController.find"><title>GET /operators
+More Local 2 line · OperatorsController.find</title>
+<circle cx="1294" cy="1490" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="1495" text-anchor="start" style="fill:#1A1F2C">List operators</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-poadditionalcostrowcontroller-api/#op-PoAdditionalCostRowController.updatePoAdditionalCostRow" target="_blank" class="st" data-op="PoAdditionalCostRowController.updatePoAdditionalCostRow"><title>PATCH /po_additional_cost_rows/{id}
+PoAdditionalCostRowController line · PoAdditionalCostRowController.updatePoAdditionalCostRow</title>
+<circle cx="1840" cy="2624" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1852" y="2629" text-anchor="start" style="fill:#1A1F2C">Update po additional cost row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-poadditionalcostrowcontroller-api/#op-PoAdditionalCostRowController.getPoAdditionalCostRow" target="_blank" class="st" data-op="PoAdditionalCostRowController.getPoAdditionalCostRow"><title>GET /po_additional_cost_rows/{id}
+PoAdditionalCostRowController line · PoAdditionalCostRowController.getPoAdditionalCostRow</title>
+<circle cx="1924" cy="2540" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1912.0" y="2545" text-anchor="end" style="fill:#1A1F2C">Get po additional cost row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-poadditionalcostrowcontroller-api/#op-PoAdditionalCostRowController.deletePoAdditionalCostRow" target="_blank" class="st" data-op="PoAdditionalCostRowController.deletePoAdditionalCostRow"><title>DELETE /po_additional_cost_rows/{id}
+PoAdditionalCostRowController line · PoAdditionalCostRowController.deletePoAdditionalCostRow</title>
+<circle cx="1756" cy="2708" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1752" y1="2712" x2="1760" y2="2704" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1768" y="2713" text-anchor="start" style="fill:#1A1F2C">Delete po additional cost row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-poadditionalcostrowcontroller-api/#op-PoAdditionalCostRowController.createPoAdditionalCostRow" target="_blank" class="st" data-op="PoAdditionalCostRowController.createPoAdditionalCostRow"><title>POST /po_additional_cost_rows
+PoAdditionalCostRowController line · PoAdditionalCostRowController.createPoAdditionalCostRow</title>
+<circle cx="2008" cy="2540" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2014" y="2528" transform="rotate(-45 2014 2528)" style="fill:#1A1F2C">Create po additional cost row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-poadditionalcostrowcontroller-api/#op-PoAdditionalCostRowController.getPoAdditionalCostRows" target="_blank" class="st" data-op="PoAdditionalCostRowController.getPoAdditionalCostRows"><title>GET /po_additional_cost_rows
+PoAdditionalCostRowController line · PoAdditionalCostRowController.getPoAdditionalCostRows</title>
+<circle cx="2092" cy="2540" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="2092" y="2576" text-anchor="middle" style="fill:#1A1F2C">List po additional cost rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcontroller-api/#op-PriceListController.updateById" target="_blank" class="st" data-op="PriceListController.updateById"><title>PATCH /price_lists/{id}
+PriceListController line · PriceListController.updateById</title>
+<circle cx="1084" cy="608" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1072.0" y="613" text-anchor="end" style="fill:#1A1F2C">Update price list</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcontroller-api/#op-PriceListController.findById" target="_blank" class="st" data-op="PriceListController.findById"><title>GET /price_lists/{id}
+PriceListController line · PriceListController.findById</title>
+<circle cx="1210" cy="608" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1222" y="613" text-anchor="start" style="fill:#1A1F2C">Get price list</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcontroller-api/#op-PriceListController.deleteById" target="_blank" class="st" data-op="PriceListController.deleteById"><title>DELETE /price_lists/{id}
+PriceListController line · PriceListController.deleteById</title>
+<circle cx="1000" cy="524" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="996" y1="528" x2="1004" y2="520" stroke="#8D6E63" stroke-width="2"/>
+<text x="1012" y="529" text-anchor="start" style="fill:#1A1F2C">Delete price list</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcontroller-api/#op-PriceListController.create" target="_blank" class="st" data-op="PriceListController.create"><title>POST /price_lists
+PriceListController line · PriceListController.create</title>
+<circle cx="1210" cy="524" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1222" y="529" text-anchor="start" style="fill:#1A1F2C">Create price list</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcontroller-api/#op-PriceListController.findAndPaginate" target="_blank" class="st" data-op="PriceListController.findAndPaginate"><title>GET /price_lists
+PriceListController line · PriceListController.findAndPaginate</title>
+<circle cx="1126" cy="440" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1138" y="445" text-anchor="start" style="fill:#1A1F2C">List price lists</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcustomercontroller-api/#op-PriceListCustomerController.updateById" target="_blank" class="st" data-op="PriceListCustomerController.updateById"><title>PATCH /price_list_customers/{id}
+PriceListCustomerController line · PriceListCustomerController.updateById</title>
+<circle cx="1294" cy="482" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1303" y="472" text-anchor="start" style="fill:#1A1F2C">Update price list customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcustomercontroller-api/#op-PriceListCustomerController.findById" target="_blank" class="st" data-op="PriceListCustomerController.findById"><title>GET /price_list_customers/{id}
+PriceListCustomerController line · PriceListCustomerController.findById</title>
+<circle cx="1378" cy="566" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1372" y="578" text-anchor="end" transform="rotate(-45 1372 578)" style="fill:#1A1F2C">Get price list customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcustomercontroller-api/#op-PriceListCustomerController.deleteById" target="_blank" class="st" data-op="PriceListCustomerController.deleteById"><title>DELETE /price_list_customers/{id}
+PriceListCustomerController line · PriceListCustomerController.deleteById</title>
+<circle cx="1294" cy="356" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1290" y1="360" x2="1298" y2="352" stroke="#E07B12" stroke-width="2"/>
+<text x="1282.0" y="361" text-anchor="end" style="fill:#1A1F2C">Delete price list customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcustomercontroller-api/#op-PriceListCustomerController.create" target="_blank" class="st" data-op="PriceListCustomerController.create"><title>POST /price_list_customers
+PriceListCustomerController line · PriceListCustomerController.create</title>
+<circle cx="1504" cy="440" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1516" y="445" text-anchor="start" style="fill:#1A1F2C">Create price list customer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistcustomercontroller-api/#op-PriceListCustomerController.findAndPaginate" target="_blank" class="st" data-op="PriceListCustomerController.findAndPaginate"><title>GET /price_list_customers
+PriceListCustomerController line · PriceListCustomerController.findAndPaginate</title>
+<circle cx="1420" cy="356" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1429" y="346" text-anchor="start" style="fill:#1A1F2C">List price list customers</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistrowcontroller-api/#op-PriceListRowController.updateById" target="_blank" class="st" data-op="PriceListRowController.updateById"><title>PATCH /price_list_rows/{id}
+PriceListRowController line · PriceListRowController.updateById</title>
+<circle cx="1756" cy="734" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1747.0" y="753" text-anchor="end" style="fill:#1A1F2C">Update price list row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistrowcontroller-api/#op-PriceListRowController.findById" target="_blank" class="st" data-op="PriceListRowController.findById"><title>GET /price_list_rows/{id}
+PriceListRowController line · PriceListRowController.findById</title>
+<circle cx="1756" cy="818" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1768" y="823" text-anchor="start" style="fill:#1A1F2C">Get price list row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistrowcontroller-api/#op-PriceListRowController.deleteById" target="_blank" class="st" data-op="PriceListRowController.deleteById"><title>DELETE /price_list_rows/{id}
+PriceListRowController line · PriceListRowController.deleteById</title>
+<circle cx="1882" cy="734" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1878" y1="738" x2="1886" y2="730" stroke="#C2410C" stroke-width="2"/>
+<text x="1873.0" y="724" text-anchor="end" style="fill:#1A1F2C">Delete price list row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistrowcontroller-api/#op-PriceListRowController.create" target="_blank" class="st" data-op="PriceListRowController.create"><title>POST /price_list_rows
+PriceListRowController line · PriceListRowController.create</title>
+<circle cx="1840" cy="902" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1852" y="907" text-anchor="start" style="fill:#1A1F2C">Create price list row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-pricelistrowcontroller-api/#op-PriceListRowController.findAndPaginate" target="_blank" class="st" data-op="PriceListRowController.findAndPaginate"><title>GET /price_list_rows
+PriceListRowController line · PriceListRowController.findAndPaginate</title>
+<circle cx="1924" cy="986" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1936" y="991" text-anchor="start" style="fill:#1A1F2C">List price list rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productcontroller-api/#op-ProductController.updateProduct" target="_blank" class="st" data-op="ProductController.updateProduct"><title>PATCH /products/{id}
+ProductController line · ProductController.updateProduct</title>
+<circle cx="1714" cy="356" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1720" y="344" transform="rotate(-45 1720 344)" style="fill:#1A1F2C">Update product</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productcontroller-api/#op-ProductController.getProduct" target="_blank" class="st" data-op="ProductController.getProduct"><title>GET /products/{id}
+ProductController line · ProductController.getProduct</title>
+<circle cx="1630" cy="356" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1618.0" y="361" text-anchor="end" style="fill:#1A1F2C">Get product</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productcontroller-api/#op-ProductController.deleteProduct" target="_blank" class="st" data-op="ProductController.deleteProduct"><title>DELETE /products/{id}
+ProductController line · ProductController.deleteProduct</title>
+<circle cx="1798" cy="356" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="1794" y1="360" x2="1802" y2="352" stroke="#4A5568" stroke-width="2"/>
+<text x="1792" y="368" text-anchor="end" transform="rotate(-45 1792 368)" style="fill:#1A1F2C">Delete product</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productcontroller-api/#op-ProductController.createProduct" target="_blank" class="st" data-op="ProductController.createProduct"><title>POST /products
+ProductController line · ProductController.createProduct</title>
+<circle cx="1588" cy="314" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1600" y="319" text-anchor="start" style="fill:#1A1F2C">Create product</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productcontroller-api/#op-ProductController.getAllProducts" target="_blank" class="st" data-op="ProductController.getAllProducts"><title>GET /products
+ProductController line · ProductController.getAllProducts</title>
+<circle cx="1504" cy="230" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="1516" y="235" text-anchor="start" style="fill:#1A1F2C">List products</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productoperationscontroller-api/#op-ProductOperationsController.reRankOperationRow" target="_blank" class="st" data-op="ProductOperationsController.reRankOperationRow"><title>POST /product_operation_rerank
+ProductOperationsController line · ProductOperationsController.reRankOperationRow</title>
+<circle cx="2134" cy="524" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2146" y="529" text-anchor="start" style="fill:#1A1F2C">Update product operation rerank</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productoperationscontroller-api/#op-ProductOperationsController.updateProductOperationRow" target="_blank" class="st" data-op="ProductOperationsController.updateProductOperationRow"><title>PATCH /product_operation_rows/{id}
+ProductOperationsController line · ProductOperationsController.updateProductOperationRow</title>
+<circle cx="2008" cy="734" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2008" y="706" text-anchor="middle" style="fill:#1A1F2C">Update product<tspan x="2008" dy="13">operation row</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productoperationscontroller-api/#op-ProductOperationsController.deleteProductOperationRow" target="_blank" class="st" data-op="ProductOperationsController.deleteProductOperationRow"><title>DELETE /product_operation_rows/{id}
+ProductOperationsController line · ProductOperationsController.deleteProductOperationRow</title>
+<circle cx="2134" cy="734" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="2130" y1="738" x2="2138" y2="730" stroke="#7B3FE4" stroke-width="2"/>
+<text x="2128" y="746" text-anchor="end" transform="rotate(-45 2128 746)" style="fill:#1A1F2C">Delete product operation row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productoperationscontroller-api/#op-ProductOperationsController.createProductOperationRows" target="_blank" class="st" data-op="ProductOperationsController.createProductOperationRows"><title>POST /product_operation_rows
+ProductOperationsController line · ProductOperationsController.createProductOperationRows</title>
+<circle cx="2008" cy="650" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2020" y="655" text-anchor="start" style="fill:#1A1F2C">Create product operation row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-productoperationscontroller-api/#op-ProductOperationsController.getProductOperationRows" target="_blank" class="st" data-op="ProductOperationsController.getProductOperationRows"><title>GET /product_operation_rows
+ProductOperationsController line · ProductOperationsController.getProductOperationRows</title>
+<circle cx="2050" cy="608" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="2062" y="613" text-anchor="start" style="fill:#1A1F2C">List product operation rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderaccountingmetadatacontroller-api/#op-PurchaseOrderAccountingMetadataController.getAllPurchaseOrderAccountingMetadata" target="_blank" class="st" data-op="PurchaseOrderAccountingMetadataController.getAllPurchaseOrderAccountingMetadata"><title>GET /purchase_order_accounting_metadata
+More Local 2 line · PurchaseOrderAccountingMetadataController.getAllPurchaseOrderAccountingMetadata</title>
+<circle cx="1294" cy="1448" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="1453" text-anchor="start" style="fill:#1A1F2C">Get purchase order accounting metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseordercontroller-api/#op-PurchaseOrderController.updatePurchaseOrder" target="_blank" class="st" data-op="PurchaseOrderController.updatePurchaseOrder"><title>PATCH /purchase_orders/{id}
+PurchaseOrderController line · PurchaseOrderController.updatePurchaseOrder</title>
+<circle cx="1630" cy="2624" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1642" y="2629" text-anchor="start" style="fill:#1A1F2C">Update purchase order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseordercontroller-api/#op-PurchaseOrderController.getPurchaseOrder" target="_blank" class="st" data-op="PurchaseOrderController.getPurchaseOrder"><title>GET /purchase_orders/{id}
+PurchaseOrderController line · PurchaseOrderController.getPurchaseOrder</title>
+<circle cx="1714" cy="2540" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1702.0" y="2545" text-anchor="end" style="fill:#1A1F2C">Get purchase order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseordercontroller-api/#op-PurchaseOrderController.deletePurchaseOrder" target="_blank" class="st" data-op="PurchaseOrderController.deletePurchaseOrder"><title>DELETE /purchase_orders/{id}
+PurchaseOrderController line · PurchaseOrderController.deletePurchaseOrder</title>
+<circle cx="1588" cy="2666" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="1584" y1="2670" x2="1592" y2="2662" stroke="#C2410C" stroke-width="2"/>
+<text x="1600" y="2671" text-anchor="start" style="fill:#1A1F2C">Delete purchase order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseordercontroller-api/#op-PurchaseOrderController.createPurchaseOrder" target="_blank" class="st" data-op="PurchaseOrderController.createPurchaseOrder"><title>POST /purchase_orders
+PurchaseOrderController line · PurchaseOrderController.createPurchaseOrder</title>
+<circle cx="1756" cy="2498" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1768" y="2503" text-anchor="start" style="fill:#1A1F2C">Create purchase order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseordercontroller-api/#op-PurchaseOrderController.getPurchaseOrders" target="_blank" class="st" data-op="PurchaseOrderController.getPurchaseOrders"><title>GET /purchase_orders
+PurchaseOrderController line · PurchaseOrderController.getPurchaseOrders</title>
+<circle cx="1840" cy="2414" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1852" y="2419" text-anchor="start" style="fill:#1A1F2C">List purchase orders</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderreceivecontroller-api/#op-PurchaseOrderReceiveController.receivePartially" target="_blank" class="st" data-op="PurchaseOrderReceiveController.receivePartially"><title>POST /purchase_order_receive
+More Local 2 line · PurchaseOrderReceiveController.receivePartially</title>
+<circle cx="1294" cy="1364" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1282.0" y="1369" text-anchor="end" style="fill:#1A1F2C">Update purchase order receive</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderreciperowcontroller-api/#op-PurchaseOrderRecipeRowController.updatePurchaseOrderRecipeRow" target="_blank" class="st" data-op="PurchaseOrderRecipeRowController.updatePurchaseOrderRecipeRow"><title>PATCH /outsourced_purchase_order_recipe_rows/{id}
+PurchaseOrderRecipeRowController line · PurchaseOrderRecipeRowController.updatePurchaseOrderRecipeRow</title>
+<circle cx="2050" cy="440" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="2062" y="445" text-anchor="start" style="fill:#1A1F2C">Update outsourced purchase order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderreciperowcontroller-api/#op-PurchaseOrderRecipeRowController.getPurchaseOrderRecipeRow" target="_blank" class="st" data-op="PurchaseOrderRecipeRowController.getPurchaseOrderRecipeRow"><title>GET /outsourced_purchase_order_recipe_rows/{id}
+PurchaseOrderRecipeRowController line · PurchaseOrderRecipeRowController.getPurchaseOrderRecipeRow</title>
+<circle cx="1966" cy="440" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1954.0" y="445" text-anchor="end" style="fill:#1A1F2C">Get outsourced purchase order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderreciperowcontroller-api/#op-PurchaseOrderRecipeRowController.deletePurchaseOrderRecipeRow" target="_blank" class="st" data-op="PurchaseOrderRecipeRowController.deletePurchaseOrderRecipeRow"><title>DELETE /outsourced_purchase_order_recipe_rows/{id}
+PurchaseOrderRecipeRowController line · PurchaseOrderRecipeRowController.deletePurchaseOrderRecipeRow</title>
+<circle cx="2134" cy="356" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="2130" y1="360" x2="2138" y2="352" stroke="#2E7D32" stroke-width="2"/>
+<text x="2146" y="361" text-anchor="start" style="fill:#1A1F2C">Delete outsourced purchase order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderreciperowcontroller-api/#op-PurchaseOrderRecipeRowController.createPurchaseOrderRecipeRow" target="_blank" class="st" data-op="PurchaseOrderRecipeRowController.createPurchaseOrderRecipeRow"><title>POST /outsourced_purchase_order_recipe_rows
+PurchaseOrderRecipeRowController line · PurchaseOrderRecipeRowController.createPurchaseOrderRecipeRow</title>
+<circle cx="1966" cy="314" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1975" y="304" text-anchor="start" style="fill:#1A1F2C">Create outsourced purchase order recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderreciperowcontroller-api/#op-PurchaseOrderRecipeRowController.getPurchaseOrderRecipeRows" target="_blank" class="st" data-op="PurchaseOrderRecipeRowController.getPurchaseOrderRecipeRows"><title>GET /outsourced_purchase_order_recipe_rows
+PurchaseOrderRecipeRowController line · PurchaseOrderRecipeRowController.getPurchaseOrderRecipeRows</title>
+<circle cx="1966" cy="230" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1978" y="235" text-anchor="start" style="fill:#1A1F2C">List outsourced purchase order recipe rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderrowcontroller-api/#op-PurchaseOrderRowController.updatePurchaseOrderRow" target="_blank" class="st" data-op="PurchaseOrderRowController.updatePurchaseOrderRow"><title>PATCH /purchase_order_rows/{id}
+PurchaseOrderRowController line · PurchaseOrderRowController.updatePurchaseOrderRow</title>
+<circle cx="1126" cy="1658" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1138" y="1663" text-anchor="start" style="fill:#1A1F2C">Update purchase order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderrowcontroller-api/#op-PurchaseOrderRowController.getPurchaseOrderRow" target="_blank" class="st" data-op="PurchaseOrderRowController.getPurchaseOrderRow"><title>GET /purchase_order_rows/{id}
+PurchaseOrderRowController line · PurchaseOrderRowController.getPurchaseOrderRow</title>
+<circle cx="1168" cy="1700" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="1705" text-anchor="start" style="fill:#1A1F2C">Get purchase order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderrowcontroller-api/#op-PurchaseOrderRowController.deletePurchaseOrderRow" target="_blank" class="st" data-op="PurchaseOrderRowController.deletePurchaseOrderRow"><title>DELETE /purchase_order_rows/{id}
+PurchaseOrderRowController line · PurchaseOrderRowController.deletePurchaseOrderRow</title>
+<circle cx="1042" cy="1574" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1038" y1="1578" x2="1046" y2="1570" stroke="#D6264F" stroke-width="2"/>
+<text x="1054" y="1579" text-anchor="start" style="fill:#1A1F2C">Delete purchase order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderrowcontroller-api/#op-PurchaseOrderRowController.addPurchaseOrderRow" target="_blank" class="st" data-op="PurchaseOrderRowController.addPurchaseOrderRow"><title>POST /purchase_order_rows
+PurchaseOrderRowController line · PurchaseOrderRowController.addPurchaseOrderRow</title>
+<circle cx="1168" cy="1784" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1180" y="1789" text-anchor="start" style="fill:#1A1F2C">Create purchase order row <tspan font-weight="700" style="fill:#D6264F">⇄ML2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-purchaseorderrowcontroller-api/#op-PurchaseOrderRowController.getPurchaseOrderRows" target="_blank" class="st" data-op="PurchaseOrderRowController.getPurchaseOrderRows"><title>GET /purchase_order_rows
+PurchaseOrderRowController line · PurchaseOrderRowController.getPurchaseOrderRows</title>
+<circle cx="1168" cy="1868" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1180" y="1873" text-anchor="start" style="fill:#1A1F2C">List purchase order rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-recipecontroller-api/#op-RecipeController.deleteRecipeById" target="_blank" class="st" data-op="RecipeController.deleteRecipeById"><title>DELETE /recipes/{id}
+RecipeController line · RecipeController.deleteRecipeById</title>
+<circle cx="580" cy="2918" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="576" y1="2922" x2="584" y2="2914" stroke="#0E9F6E" stroke-width="2"/>
+<text x="586" y="2906" transform="rotate(-45 586 2906)" style="fill:#1A1F2C">Delete recipe</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-recipecontroller-api/#op-RecipeController.createRecipeRow" target="_blank" class="st" data-op="RecipeController.createRecipeRow"><title>POST /recipes
+RecipeController line · RecipeController.createRecipeRow</title>
+<circle cx="622" cy="2918" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="634" y="2923" text-anchor="start" style="fill:#1A1F2C">Create recipe</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-recipecontroller-api/#op-RecipeController.getAllRecipes" target="_blank" class="st" data-op="RecipeController.getAllRecipes"><title>GET /recipes
+RecipeController line · RecipeController.getAllRecipes</title>
+<circle cx="706" cy="2834" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="718" y="2839" text-anchor="start" style="fill:#1A1F2C">List recipes</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-reciperowcontroller-api/#op-RecipeRowController.updateRecipeRow" target="_blank" class="st" data-op="RecipeRowController.updateRecipeRow"><title>PATCH /recipe_rows/{id}
+More Local 2 line · RecipeRowController.updateRecipeRow</title>
+<circle cx="1294" cy="1280" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="1285" text-anchor="start" style="fill:#1A1F2C">Update recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-reciperowcontroller-api/#op-RecipeRowController.deleteRecipeRow" target="_blank" class="st" data-op="RecipeRowController.deleteRecipeRow"><title>DELETE /recipe_rows/{id}
+More Local 2 line · RecipeRowController.deleteRecipeRow</title>
+<circle cx="1294" cy="1196" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1290" y1="1200" x2="1298" y2="1192" stroke="#D6264F" stroke-width="2"/>
+<text x="1306" y="1201" text-anchor="start" style="fill:#1A1F2C">Delete recipe row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderaccountingmetadatacontroller-api/#op-SalesOrderAccountingMetadataController.getAllSalesOrderAccountingMetadata" target="_blank" class="st" data-op="SalesOrderAccountingMetadataController.getAllSalesOrderAccountingMetadata"><title>GET /sales_order_accounting_metadata
+More Local 2 line · SalesOrderAccountingMetadataController.getAllSalesOrderAccountingMetadata</title>
+<circle cx="1294" cy="1070" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1306" y="1075" text-anchor="start" style="fill:#1A1F2C">Get sales order accounting metadata</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderaddresscontroller-api/#op-SalesOrderAddressController.updateById" target="_blank" class="st" data-op="SalesOrderAddressController.updateById"><title>PATCH /sales_order_addresses/{id}
+SalesOrderAddressController line · SalesOrderAddressController.updateById</title>
+<circle cx="874" cy="3170" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="886" y="3175" text-anchor="start" style="fill:#1A1F2C">Update sales order address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderaddresscontroller-api/#op-SalesOrderAddressController.deleteById" target="_blank" class="st" data-op="SalesOrderAddressController.deleteById"><title>DELETE /sales_order_addresses/{id}
+SalesOrderAddressController line · SalesOrderAddressController.deleteById</title>
+<circle cx="748" cy="3170" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<line x1="744" y1="3174" x2="752" y2="3166" stroke="#8D6E63" stroke-width="2"/>
+<text x="757" y="3189" text-anchor="start" style="fill:#1A1F2C">Delete sales order address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderaddresscontroller-api/#op-SalesOrderAddressController.createAddress" target="_blank" class="st" data-op="SalesOrderAddressController.createAddress"><title>POST /sales_order_addresses
+SalesOrderAddressController line · SalesOrderAddressController.createAddress</title>
+<circle cx="916" cy="3128" r="5.5" fill="#8D6E63" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="928" y="3133" text-anchor="start" style="fill:#1A1F2C">Create sales order address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderaddresscontroller-api/#op-SalesOrderAddressController.getAllSalesOrderAddresses" target="_blank" class="st" data-op="SalesOrderAddressController.getAllSalesOrderAddresses"><title>GET /sales_order_addresses
+SalesOrderAddressController line · SalesOrderAddressController.getAllSalesOrderAddresses</title>
+<circle cx="1000" cy="3044" r="5.5" fill="#fff" stroke="#8D6E63" stroke-width="2.5"/>
+<text x="1012" y="3049" text-anchor="start" style="fill:#1A1F2C">List sales order addresses</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.searchSalesOrders" target="_blank" class="st" data-op="SalesOrderController.searchSalesOrders"><title>POST /sales_orders/search
+SalesOrderController line · SalesOrderController.searchSalesOrders</title>
+<circle cx="1378" cy="2666" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1390" y="2671" text-anchor="start" style="fill:#1A1F2C">Search sales orders</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.getReturnableItems" target="_blank" class="st" data-op="SalesOrderController.getReturnableItems"><title>GET /sales_orders/{id}/returnable_items
+SalesOrderController line · SalesOrderController.getReturnableItems</title>
+<circle cx="1336" cy="2624" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="2629" text-anchor="start" style="fill:#1A1F2C">List returnable items</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.updateSalesOrder" target="_blank" class="st" data-op="SalesOrderController.updateSalesOrder"><title>PATCH /sales_orders/{id}
+SalesOrderController line · SalesOrderController.updateSalesOrder</title>
+<circle cx="1504" cy="2792" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1516" y="2797" text-anchor="start" style="fill:#1A1F2C">Update sales order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.getSalesOrder" target="_blank" class="st" data-op="SalesOrderController.getSalesOrder"><title>GET /sales_orders/{id}
+SalesOrderController line · SalesOrderController.getSalesOrder</title>
+<circle cx="1546" cy="2834" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1534.0" y="2839" text-anchor="end" style="fill:#1A1F2C">Get sales order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.deleteSalesOrder" target="_blank" class="st" data-op="SalesOrderController.deleteSalesOrder"><title>DELETE /sales_orders/{id}
+SalesOrderController line · SalesOrderController.deleteSalesOrder</title>
+<circle cx="1462" cy="2750" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="1458" y1="2754" x2="1466" y2="2746" stroke="#D6264F" stroke-width="2"/>
+<text x="1474" y="2755" text-anchor="start" style="fill:#1A1F2C">Delete sales order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.createSalesOrder" target="_blank" class="st" data-op="SalesOrderController.createSalesOrder"><title>POST /sales_orders
+SalesOrderController line · SalesOrderController.createSalesOrder</title>
+<circle cx="1672" cy="2834" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1678" y="2822" transform="rotate(-45 1678 2822)" style="fill:#1A1F2C">Create sales order</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordercontroller-api/#op-SalesOrderController.getAllSalesOrders" target="_blank" class="st" data-op="SalesOrderController.getAllSalesOrders"><title>GET /sales_orders
+SalesOrderController line · SalesOrderController.getAllSalesOrders</title>
+<circle cx="1798" cy="2834" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1792" y="2846" text-anchor="end" transform="rotate(-45 1792 2846)" style="fill:#1A1F2C">List sales orders</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderfulfillmentcontroller-api/#op-SalesOrderFulfillmentController.updateSalesOrderFulfillment" target="_blank" class="st" data-op="SalesOrderFulfillmentController.updateSalesOrderFulfillment"><title>PATCH /sales_order_fulfillments/{id}
+SalesOrderFulfillmentController line · SalesOrderFulfillmentController.updateSalesOrderFulfillment</title>
+<circle cx="664" cy="3296" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="676" y="3301" text-anchor="start" style="fill:#1A1F2C">Update sales order fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderfulfillmentcontroller-api/#op-SalesOrderFulfillmentController.getSalesOrderFulfillment" target="_blank" class="st" data-op="SalesOrderFulfillmentController.getSalesOrderFulfillment"><title>GET /sales_order_fulfillments/{id}
+SalesOrderFulfillmentController line · SalesOrderFulfillmentController.getSalesOrderFulfillment</title>
+<circle cx="706" cy="3338" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="694.0" y="3343" text-anchor="end" style="fill:#1A1F2C">Get sales order fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderfulfillmentcontroller-api/#op-SalesOrderFulfillmentController.deleteSalesOrderFulfillment" target="_blank" class="st" data-op="SalesOrderFulfillmentController.deleteSalesOrderFulfillment"><title>DELETE /sales_order_fulfillments/{id}
+SalesOrderFulfillmentController line · SalesOrderFulfillmentController.deleteSalesOrderFulfillment</title>
+<circle cx="622" cy="3254" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<line x1="618" y1="3258" x2="626" y2="3250" stroke="#B0287F" stroke-width="2"/>
+<text x="634" y="3259" text-anchor="start" style="fill:#1A1F2C">Delete sales order fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderfulfillmentcontroller-api/#op-SalesOrderFulfillmentController.createSalesOrderFulfillment" target="_blank" class="st" data-op="SalesOrderFulfillmentController.createSalesOrderFulfillment"><title>POST /sales_order_fulfillments
+SalesOrderFulfillmentController line · SalesOrderFulfillmentController.createSalesOrderFulfillment</title>
+<circle cx="706" cy="3464" r="5.5" fill="#B0287F" stroke="#B0287F" stroke-width="2.5"/>
+<text x="718" y="3469" text-anchor="start" style="fill:#1A1F2C">Create sales order fulfillment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderfulfillmentcontroller-api/#op-SalesOrderFulfillmentController.getAllSalesOrderFulfillments" target="_blank" class="st" data-op="SalesOrderFulfillmentController.getAllSalesOrderFulfillments"><title>GET /sales_order_fulfillments
+SalesOrderFulfillmentController line · SalesOrderFulfillmentController.getAllSalesOrderFulfillments</title>
+<circle cx="706" cy="3548" r="5.5" fill="#fff" stroke="#B0287F" stroke-width="2.5"/>
+<text x="694.0" y="3553" text-anchor="end" style="fill:#1A1F2C">List sales order fulfillments</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderrowcontroller-api/#op-SalesOrderRowController.searchSalesOrderRows" target="_blank" class="st" data-op="SalesOrderRowController.searchSalesOrderRows"><title>POST /sales_order_rows/search
+SalesOrderRowController line · SalesOrderRowController.searchSalesOrderRows</title>
+<circle cx="1378" cy="2876" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1390" y="2881" text-anchor="start" style="fill:#1A1F2C">Search sales order rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderrowcontroller-api/#op-SalesOrderRowController.updateSalesOrderRow" target="_blank" class="st" data-op="SalesOrderRowController.updateSalesOrderRow"><title>PATCH /sales_order_rows/{id}
+SalesOrderRowController line · SalesOrderRowController.updateSalesOrderRow</title>
+<circle cx="1210" cy="2708" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1222" y="2713" text-anchor="start" style="fill:#1A1F2C">Update sales order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderrowcontroller-api/#op-SalesOrderRowController.findById" target="_blank" class="st" data-op="SalesOrderRowController.findById"><title>GET /sales_order_rows/{id}
+SalesOrderRowController line · SalesOrderRowController.findById</title>
+<circle cx="1168" cy="2666" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1180" y="2671" text-anchor="start" style="fill:#1A1F2C">Get sales order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderrowcontroller-api/#op-SalesOrderRowController.deleteSalesOrderRow" target="_blank" class="st" data-op="SalesOrderRowController.deleteSalesOrderRow"><title>DELETE /sales_order_rows/{id}
+SalesOrderRowController line · SalesOrderRowController.deleteSalesOrderRow</title>
+<circle cx="1294" cy="2792" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="1290" y1="2796" x2="1298" y2="2788" stroke="#7B3FE4" stroke-width="2"/>
+<text x="1306" y="2797" text-anchor="start" style="fill:#1A1F2C">Delete sales order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderrowcontroller-api/#op-SalesOrderRowController.createSalesOrderRow" target="_blank" class="st" data-op="SalesOrderRowController.createSalesOrderRow"><title>POST /sales_order_rows
+SalesOrderRowController line · SalesOrderRowController.createSalesOrderRow</title>
+<circle cx="1084" cy="2666" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1090" y="2654" transform="rotate(-45 1090 2654)" style="fill:#1A1F2C">Create sales order row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesorderrowcontroller-api/#op-SalesOrderRowController.findAllSalesOrders" target="_blank" class="st" data-op="SalesOrderRowController.findAllSalesOrders"><title>GET /sales_order_rows
+SalesOrderRowController line · SalesOrderRowController.findAllSalesOrders</title>
+<circle cx="1000" cy="2666" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="1006" y="2654" transform="rotate(-45 1006 2654)" style="fill:#1A1F2C">List sales order rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordershippingfeecontroller-api/#op-SalesOrderShippingFeeController.updateShippingFee" target="_blank" class="st" data-op="SalesOrderShippingFeeController.updateShippingFee"><title>PATCH /sales_order_shipping_fee/{id}
+SalesOrderShippingFeeController line · SalesOrderShippingFeeController.updateShippingFee</title>
+<circle cx="1168" cy="3464" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1180" y="3469" text-anchor="start" style="fill:#1A1F2C">Update sales order shipping fee</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordershippingfeecontroller-api/#op-SalesOrderShippingFeeController.getShippingFee" target="_blank" class="st" data-op="SalesOrderShippingFeeController.getShippingFee"><title>GET /sales_order_shipping_fee/{id}
+SalesOrderShippingFeeController line · SalesOrderShippingFeeController.getShippingFee</title>
+<circle cx="1126" cy="3422" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="3427" text-anchor="start" style="fill:#1A1F2C">Get sales order shipping fee</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordershippingfeecontroller-api/#op-SalesOrderShippingFeeController.deleteShippingFee" target="_blank" class="st" data-op="SalesOrderShippingFeeController.deleteShippingFee"><title>DELETE /sales_order_shipping_fee/{id}
+SalesOrderShippingFeeController line · SalesOrderShippingFeeController.deleteShippingFee</title>
+<circle cx="1252" cy="3548" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<line x1="1248" y1="3552" x2="1256" y2="3544" stroke="#5C6BC0" stroke-width="2"/>
+<text x="1264" y="3553" text-anchor="start" style="fill:#1A1F2C">Delete sales order shipping fee</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordershippingfeecontroller-api/#op-SalesOrderShippingFeeController.addShippingFee" target="_blank" class="st" data-op="SalesOrderShippingFeeController.addShippingFee"><title>POST /sales_order_shipping_fee
+SalesOrderShippingFeeController line · SalesOrderShippingFeeController.addShippingFee</title>
+<circle cx="1126" cy="3338" r="5.5" fill="#5C6BC0" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1138" y="3343" text-anchor="start" style="fill:#1A1F2C">Update sales order shipping fee</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesordershippingfeecontroller-api/#op-SalesOrderShippingFeeController.getAllShippingFees" target="_blank" class="st" data-op="SalesOrderShippingFeeController.getAllShippingFees"><title>GET /sales_order_shipping_fee
+SalesOrderShippingFeeController line · SalesOrderShippingFeeController.getAllShippingFees</title>
+<circle cx="1210" cy="3254" r="5.5" fill="#fff" stroke="#5C6BC0" stroke-width="2.5"/>
+<text x="1198.0" y="3252" text-anchor="end" style="fill:#1A1F2C">Get sales order<tspan x="1198.0" dy="13">shipping fee</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnrowcontroller-api/#op-SalesReturnRowController.getUnassignedBatchTransactions" target="_blank" class="st" data-op="SalesReturnRowController.getUnassignedBatchTransactions"><title>GET /sales_return_rows/{id}/unassigned_batch_transactions
+SalesReturnRowController line · SalesReturnRowController.getUnassignedBatchTransactions</title>
+<circle cx="2386" cy="2708" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2380" y="2720" text-anchor="end" transform="rotate(-45 2380 2720)" style="fill:#1A1F2C">List unassigned batch transactions</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnrowcontroller-api/#op-SalesReturnRowController.updateById" target="_blank" class="st" data-op="SalesReturnRowController.updateById"><title>PATCH /sales_return_rows/{id}
+SalesReturnRowController line · SalesReturnRowController.updateById</title>
+<circle cx="2260" cy="2708" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2248.0" y="2713" text-anchor="end" style="fill:#1A1F2C">Update sales return row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnrowcontroller-api/#op-SalesReturnRowController.getById" target="_blank" class="st" data-op="SalesReturnRowController.getById"><title>GET /sales_return_rows/{id}
+SalesReturnRowController line · SalesReturnRowController.getById</title>
+<circle cx="2218" cy="2666" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2218" y="2638" text-anchor="middle" style="fill:#1A1F2C">Get sales<tspan x="2218" dy="13">return row</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnrowcontroller-api/#op-SalesReturnRowController.deleteById" target="_blank" class="st" data-op="SalesReturnRowController.deleteById"><title>DELETE /sales_return_rows/{id}
+SalesReturnRowController line · SalesReturnRowController.deleteById</title>
+<circle cx="2302" cy="2708" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="2298" y1="2712" x2="2306" y2="2704" stroke="#E07B12" stroke-width="2"/>
+<text x="2308" y="2696" transform="rotate(-45 2308 2696)" style="fill:#1A1F2C">Delete sales return row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnrowcontroller-api/#op-SalesReturnRowController.create" target="_blank" class="st" data-op="SalesReturnRowController.create"><title>POST /sales_return_rows
+SalesReturnRowController line · SalesReturnRowController.create</title>
+<circle cx="2092" cy="2666" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2086" y="2678" text-anchor="end" transform="rotate(-45 2086 2678)" style="fill:#1A1F2C">Create sales return row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnrowcontroller-api/#op-SalesReturnRowController.findAndPaginate" target="_blank" class="st" data-op="SalesReturnRowController.findAndPaginate"><title>GET /sales_return_rows
+SalesReturnRowController line · SalesReturnRowController.findAndPaginate</title>
+<circle cx="2008" cy="2666" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="2017" y="2656" text-anchor="start" style="fill:#1A1F2C">List sales return rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnscontroller-api/#op-SalesReturnsController.getReturnReasons" target="_blank" class="st" data-op="SalesReturnsController.getReturnReasons"><title>GET /sales_returns/return_reasons
+SalesReturnsController line · SalesReturnsController.getReturnReasons</title>
+<circle cx="1504" cy="3254" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1516" y="3259" text-anchor="start" style="fill:#1A1F2C">List return reasons</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnscontroller-api/#op-SalesReturnsController.updateById" target="_blank" class="st" data-op="SalesReturnsController.updateById"><title>PATCH /sales_returns/{id}
+SalesReturnsController line · SalesReturnsController.updateById</title>
+<circle cx="1630" cy="3380" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1642" y="3385" text-anchor="start" style="fill:#1A1F2C">Update sales return</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnscontroller-api/#op-SalesReturnsController.findById" target="_blank" class="st" data-op="SalesReturnsController.findById"><title>GET /sales_returns/{id}
+SalesReturnsController line · SalesReturnsController.findById</title>
+<circle cx="1672" cy="3422" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1660.0" y="3427" text-anchor="end" style="fill:#1A1F2C">Get sales return</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnscontroller-api/#op-SalesReturnsController.deleteById" target="_blank" class="st" data-op="SalesReturnsController.deleteById"><title>DELETE /sales_returns/{id}
+SalesReturnsController line · SalesReturnsController.deleteById</title>
+<circle cx="1546" cy="3296" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<line x1="1542" y1="3300" x2="1550" y2="3292" stroke="#1F5FD1" stroke-width="2"/>
+<text x="1558" y="3301" text-anchor="start" style="fill:#1A1F2C">Delete sales return</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnscontroller-api/#op-SalesReturnsController.create" target="_blank" class="st" data-op="SalesReturnsController.create"><title>POST /sales_returns
+SalesReturnsController line · SalesReturnsController.create</title>
+<circle cx="1798" cy="3422" r="5.5" fill="#1F5FD1" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1804" y="3410" transform="rotate(-45 1804 3410)" style="fill:#1A1F2C">Create sales return</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-salesreturnscontroller-api/#op-SalesReturnsController.findAndPaginate" target="_blank" class="st" data-op="SalesReturnsController.findAndPaginate"><title>GET /sales_returns
+SalesReturnsController line · SalesReturnsController.findAndPaginate</title>
+<circle cx="1882" cy="3422" r="5.5" fill="#fff" stroke="#1F5FD1" stroke-width="2.5"/>
+<text x="1876" y="3434" text-anchor="end" transform="rotate(-45 1876 3434)" style="fill:#1A1F2C">List sales returns</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-serialnumbercontroller-api/#op-SerialNumberController.list" target="_blank" class="st" data-op="SerialNumberController.list"><title>GET /serial_numbers/serial_numbers_stock
+SerialNumberController line · SerialNumberController.list</title>
+<circle cx="1252" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1240.0" y="907" text-anchor="end" style="fill:#1A1F2C">Get serial numbers stock <tspan font-weight="700" style="fill:#D6264F">⇄ML2</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-serialnumbercontroller-api/#op-SerialNumberController.addSerialNumbersToEntity" target="_blank" class="st" data-op="SerialNumberController.addSerialNumbersToEntity"><title>POST /serial_numbers
+SerialNumberController line · SerialNumberController.addSerialNumbersToEntity</title>
+<circle cx="1210" cy="776" r="5.5" fill="#E07B12" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1219" y="766" text-anchor="start" style="fill:#1A1F2C">Create serial number</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-serialnumbercontroller-api/#op-SerialNumberController.find" target="_blank" class="st" data-op="SerialNumberController.find"><title>GET /serial_numbers
+SerialNumberController line · SerialNumberController.find</title>
+<circle cx="1168" cy="734" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<text x="1159.0" y="753" text-anchor="end" style="fill:#1A1F2C">List serial numbers</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-serialnumbercontroller-api/#op-SerialNumberController.deleteFromEntity" target="_blank" class="st" data-op="SerialNumberController.deleteFromEntity"><title>DELETE /serial_numbers
+SerialNumberController line · SerialNumberController.deleteFromEntity</title>
+<circle cx="1252" cy="818" r="5.5" fill="#fff" stroke="#E07B12" stroke-width="2.5"/>
+<line x1="1248" y1="822" x2="1256" y2="814" stroke="#E07B12" stroke-width="2"/>
+<text x="1264" y="823" text-anchor="start" style="fill:#1A1F2C">Delete serial number</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-serialnumberstockcontroller-api/#op-SerialNumberStockController.list" target="_blank" class="st" data-op="SerialNumberStockController.list"><title>GET /serial_numbers_stock
+More Local 2 line · SerialNumberStockController.list</title>
+<circle cx="1336" cy="902" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1348" y="907" text-anchor="start" style="fill:#1A1F2C">Get serial numbers stock</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-servicecontroller-api/#op-ServiceController.updateService" target="_blank" class="st" data-op="ServiceController.updateService"><title>PATCH /services/{id}
+ServiceController line · ServiceController.updateService</title>
+<circle cx="1924" cy="2918" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1936" y="2923" text-anchor="start" style="fill:#1A1F2C">Update service</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-servicecontroller-api/#op-ServiceController.getService" target="_blank" class="st" data-op="ServiceController.getService"><title>GET /services/{id}
+ServiceController line · ServiceController.getService</title>
+<circle cx="1882" cy="2960" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1894" y="2965" text-anchor="start" style="fill:#1A1F2C">Get service</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-servicecontroller-api/#op-ServiceController.deleteService" target="_blank" class="st" data-op="ServiceController.deleteService"><title>DELETE /services/{id}
+ServiceController line · ServiceController.deleteService</title>
+<circle cx="2008" cy="2834" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="2004" y1="2838" x2="2012" y2="2830" stroke="#0B7A75" stroke-width="2"/>
+<text x="2020" y="2839" text-anchor="start" style="fill:#1A1F2C">Delete service</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-servicecontroller-api/#op-ServiceController.createService" target="_blank" class="st" data-op="ServiceController.createService"><title>POST /services
+ServiceController line · ServiceController.createService</title>
+<circle cx="1798" cy="2960" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1804" y="2948" transform="rotate(-45 1804 2948)" style="fill:#1A1F2C">Create service</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-servicecontroller-api/#op-ServiceController.getAllServices" target="_blank" class="st" data-op="ServiceController.getAllServices"><title>GET /services
+ServiceController line · ServiceController.getAllServices</title>
+<circle cx="1714" cy="2960" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1720" y="2948" transform="rotate(-45 1720 2948)" style="fill:#1A1F2C">List services</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stockadjustmentcontroller-api/#op-StockAdjustmentController.updateStockAdjustment" target="_blank" class="st" data-op="StockAdjustmentController.updateStockAdjustment"><title>PATCH /stock_adjustments/{id}
+StockAdjustmentController line · StockAdjustmentController.updateStockAdjustment</title>
+<circle cx="916" cy="3338" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="922" y="3326" transform="rotate(-45 922 3326)" style="fill:#1A1F2C">Update stock adjustment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stockadjustmentcontroller-api/#op-StockAdjustmentController.deleteStockAdjustment" target="_blank" class="st" data-op="StockAdjustmentController.deleteStockAdjustment"><title>DELETE /stock_adjustments/{id}
+StockAdjustmentController line · StockAdjustmentController.deleteStockAdjustment</title>
+<circle cx="832" cy="3338" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<line x1="828" y1="3342" x2="836" y2="3334" stroke="#C2410C" stroke-width="2"/>
+<text x="841" y="3357" text-anchor="start" style="fill:#1A1F2C">Delete stock adjustment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stockadjustmentcontroller-api/#op-StockAdjustmentController.createStockAdjustment" target="_blank" class="st" data-op="StockAdjustmentController.createStockAdjustment"><title>POST /stock_adjustments
+StockAdjustmentController line · StockAdjustmentController.createStockAdjustment</title>
+<circle cx="958" cy="3338" r="5.5" fill="#C2410C" stroke="#C2410C" stroke-width="2.5"/>
+<text x="970" y="3343" text-anchor="start" style="fill:#1A1F2C">Create stock adjustment</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stockadjustmentcontroller-api/#op-StockAdjustmentController.findStockAdjustments" target="_blank" class="st" data-op="StockAdjustmentController.findStockAdjustments"><title>GET /stock_adjustments
+StockAdjustmentController line · StockAdjustmentController.findStockAdjustments</title>
+<circle cx="1042" cy="3254" r="5.5" fill="#fff" stroke="#C2410C" stroke-width="2.5"/>
+<text x="1042" y="3276" text-anchor="middle" style="fill:#1A1F2C">List stock<tspan x="1042" dy="13">adjustments</tspan></text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakecontroller-api/#op-StocktakeController.updateById" target="_blank" class="st" data-op="StocktakeController.updateById"><title>PATCH /stocktakes/{id}
+StocktakeController line · StocktakeController.updateById</title>
+<circle cx="496" cy="3380" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="484.0" y="3385" text-anchor="end" style="fill:#1A1F2C">Update stocktake</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakecontroller-api/#op-StocktakeController.deleteById" target="_blank" class="st" data-op="StocktakeController.deleteById"><title>DELETE /stocktakes/{id}
+StocktakeController line · StocktakeController.deleteById</title>
+<circle cx="580" cy="3380" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<line x1="576" y1="3384" x2="584" y2="3376" stroke="#4A5568" stroke-width="2"/>
+<text x="574" y="3392" text-anchor="end" transform="rotate(-45 574 3392)" style="fill:#1A1F2C">Delete stocktake</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakecontroller-api/#op-StocktakeController.createStocktake" target="_blank" class="st" data-op="StocktakeController.createStocktake"><title>POST /stocktakes
+StocktakeController line · StocktakeController.createStocktake</title>
+<circle cx="454" cy="3422" r="5.5" fill="#4A5568" stroke="#4A5568" stroke-width="2.5"/>
+<text x="442.0" y="3427" text-anchor="end" style="fill:#1A1F2C">Create stocktake</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakecontroller-api/#op-StocktakeController.findStocktakes" target="_blank" class="st" data-op="StocktakeController.findStocktakes"><title>GET /stocktakes
+StocktakeController line · StocktakeController.findStocktakes</title>
+<circle cx="370" cy="3506" r="5.5" fill="#fff" stroke="#4A5568" stroke-width="2.5"/>
+<text x="382" y="3511" text-anchor="start" style="fill:#1A1F2C">List stocktakes</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakerowcontroller-api/#op-StocktakeRowController.updateById" target="_blank" class="st" data-op="StocktakeRowController.updateById"><title>PATCH /stocktake_rows/{id}
+StocktakeRowController line · StocktakeRowController.updateById</title>
+<circle cx="412" cy="3338" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="400.0" y="3343" text-anchor="end" style="fill:#1A1F2C">Update stocktake row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakerowcontroller-api/#op-StocktakeRowController.deleteById" target="_blank" class="st" data-op="StocktakeRowController.deleteById"><title>DELETE /stocktake_rows/{id}
+StocktakeRowController line · StocktakeRowController.deleteById</title>
+<circle cx="496" cy="3254" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<line x1="492" y1="3258" x2="500" y2="3250" stroke="#7B3FE4" stroke-width="2"/>
+<text x="487.0" y="3244" text-anchor="end" style="fill:#1A1F2C">Delete stocktake row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakerowcontroller-api/#op-StocktakeRowController.createStocktakeRows" target="_blank" class="st" data-op="StocktakeRowController.createStocktakeRows"><title>POST /stocktake_rows
+StocktakeRowController line · StocktakeRowController.createStocktakeRows</title>
+<circle cx="370" cy="3380" r="5.5" fill="#7B3FE4" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="361.0" y="3399" text-anchor="end" style="fill:#1A1F2C">Create stocktake row</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktakerowcontroller-api/#op-StocktakeRowController.findStocktakeRows" target="_blank" class="st" data-op="StocktakeRowController.findStocktakeRows"><title>GET /stocktake_rows
+StocktakeRowController line · StocktakeRowController.findStocktakeRows</title>
+<circle cx="244" cy="3380" r="5.5" fill="#fff" stroke="#7B3FE4" stroke-width="2.5"/>
+<text x="253" y="3370" text-anchor="start" style="fill:#1A1F2C">List stocktake rows</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktransfercontroller-api/#op-StockTransferController.updateStockTransferStatus" target="_blank" class="st" data-op="StockTransferController.updateStockTransferStatus"><title>PATCH /stock_transfers/{id}/status
+StockTransferController line · StockTransferController.updateStockTransferStatus</title>
+<circle cx="1210" cy="3674" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1222" y="3679" text-anchor="start" style="fill:#1A1F2C">Create statu</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktransfercontroller-api/#op-StockTransferController.updateStockTransfer" target="_blank" class="st" data-op="StockTransferController.updateStockTransfer"><title>PATCH /stock_transfers/{id}
+StockTransferController line · StockTransferController.updateStockTransfer</title>
+<circle cx="1042" cy="3590" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1030.0" y="3595" text-anchor="end" style="fill:#1A1F2C">Update stock transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktransfercontroller-api/#op-StockTransferController.deleteStockTransfer" target="_blank" class="st" data-op="StockTransferController.deleteStockTransfer"><title>DELETE /stock_transfers/{id}
+StockTransferController line · StockTransferController.deleteStockTransfer</title>
+<circle cx="1126" cy="3590" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<line x1="1122" y1="3594" x2="1130" y2="3586" stroke="#0E9F6E" stroke-width="2"/>
+<text x="1117.0" y="3609" text-anchor="end" style="fill:#1A1F2C">Delete stock transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktransfercontroller-api/#op-StockTransferController.createStockTransfer" target="_blank" class="st" data-op="StockTransferController.createStockTransfer"><title>POST /stock_transfers
+StockTransferController line · StockTransferController.createStockTransfer</title>
+<circle cx="1042" cy="3674" r="5.5" fill="#0E9F6E" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1054" y="3679" text-anchor="start" style="fill:#1A1F2C">Create stock transfer</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-stocktransfercontroller-api/#op-StockTransferController.findStockTransfers" target="_blank" class="st" data-op="StockTransferController.findStockTransfers"><title>GET /stock_transfers
+StockTransferController line · StockTransferController.findStockTransfers</title>
+<circle cx="1126" cy="3758" r="5.5" fill="#fff" stroke="#0E9F6E" stroke-width="2.5"/>
+<text x="1138" y="3763" text-anchor="start" style="fill:#1A1F2C">List stock transfers</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-supplieraddresscontroller-api/#op-SupplierAddressController.updateSupplierAddress" target="_blank" class="st" data-op="SupplierAddressController.updateSupplierAddress"><title>PATCH /supplier_addresses/{id}
+SupplierAddressController line · SupplierAddressController.updateSupplierAddress</title>
+<circle cx="748" cy="3044" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="736.0" y="3049" text-anchor="end" style="fill:#1A1F2C">Update supplier address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-supplieraddresscontroller-api/#op-SupplierAddressController.deleteSupplierAddress" target="_blank" class="st" data-op="SupplierAddressController.deleteSupplierAddress"><title>DELETE /supplier_addresses/{id}
+SupplierAddressController line · SupplierAddressController.deleteSupplierAddress</title>
+<circle cx="706" cy="3002" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="702" y1="3006" x2="710" y2="2998" stroke="#2E7D32" stroke-width="2"/>
+<text x="694.0" y="3007" text-anchor="end" style="fill:#1A1F2C">Delete supplier address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-supplieraddresscontroller-api/#op-SupplierAddressController.createSupplierAddress" target="_blank" class="st" data-op="SupplierAddressController.createSupplierAddress"><title>POST /supplier_addresses
+SupplierAddressController line · SupplierAddressController.createSupplierAddress</title>
+<circle cx="832" cy="3044" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="844" y="3049" text-anchor="start" style="fill:#1A1F2C">Create supplier address</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-supplieraddresscontroller-api/#op-SupplierAddressController.getAllSupplierAddresses" target="_blank" class="st" data-op="SupplierAddressController.getAllSupplierAddresses"><title>GET /supplier_addresses
+SupplierAddressController line · SupplierAddressController.getAllSupplierAddresses</title>
+<circle cx="832" cy="2918" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="844" y="2923" text-anchor="start" style="fill:#1A1F2C">List supplier addresses</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-suppliercontroller-api/#op-SupplierController.updateSupplier" target="_blank" class="st" data-op="SupplierController.updateSupplier"><title>PATCH /suppliers/{id}
+SupplierController line · SupplierController.updateSupplier</title>
+<circle cx="580" cy="3128" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="568.0" y="3133" text-anchor="end" style="fill:#1A1F2C">Update supplier</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-suppliercontroller-api/#op-SupplierController.deleteSupplier" target="_blank" class="st" data-op="SupplierController.deleteSupplier"><title>DELETE /suppliers/{id}
+SupplierController line · SupplierController.deleteSupplier</title>
+<circle cx="622" cy="3128" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<line x1="618" y1="3132" x2="626" y2="3124" stroke="#D6264F" stroke-width="2"/>
+<text x="616" y="3140" text-anchor="end" transform="rotate(-45 616 3140)" style="fill:#1A1F2C">Delete supplier</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-suppliercontroller-api/#op-SupplierController.createSupplier" target="_blank" class="st" data-op="SupplierController.createSupplier"><title>POST /suppliers
+SupplierController line · SupplierController.createSupplier</title>
+<circle cx="496" cy="3044" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="484.0" y="3049" text-anchor="end" style="fill:#1A1F2C">Create supplier</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-suppliercontroller-api/#op-SupplierController.getAllSuppliers" target="_blank" class="st" data-op="SupplierController.getAllSuppliers"><title>GET /suppliers
+SupplierController line · SupplierController.getAllSuppliers</title>
+<circle cx="496" cy="3002" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="484.0" y="3007" text-anchor="end" style="fill:#1A1F2C">List suppliers</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-taxratecontroller-api/#op-TaxRateController.createTaxRate" target="_blank" class="st" data-op="TaxRateController.createTaxRate"><title>POST /tax_rates
+More Local 2 line · TaxRateController.createTaxRate</title>
+<circle cx="1378" cy="734" r="8.5" fill="#fff" stroke="#1A1F2C" stroke-width="3"/>
+<text x="1366.0" y="739" text-anchor="end" style="fill:#1A1F2C">Create tax rate</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-taxratecontroller-api/#op-TaxRateController.getAllTaxRates" target="_blank" class="st" data-op="TaxRateController.getAllTaxRates"><title>GET /tax_rates
+More Local 2 line · TaxRateController.getAllTaxRates</title>
+<circle cx="1336" cy="776" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1348" y="781" text-anchor="start" style="fill:#1A1F2C">List tax rates</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-unlinkvariantbinlocationcontroller-api/#op-UnlinkVariantBinLocationController.unlinkBinLocations" target="_blank" class="st" data-op="UnlinkVariantBinLocationController.unlinkBinLocations"><title>POST /unlink_variant_bin_locations
+More Local 2 line · UnlinkVariantBinLocationController.unlinkBinLocations</title>
+<circle cx="1462" cy="734" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1468" y="722" transform="rotate(-45 1468 722)" style="fill:#1A1F2C">Create unlink variant bin location</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-users-controller-api/#op-UsersController.getUserInfo" target="_blank" class="st" data-op="UsersController.getUserInfo"><title>GET /user_info
+More Local 2 line · UsersController.getUserInfo</title>
+<circle cx="1546" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1552" y="722" transform="rotate(-45 1552 722)" style="fill:#1A1F2C">Get user info</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-users-controller-api/#op-UsersController.getAllUsers" target="_blank" class="st" data-op="UsersController.getAllUsers"><title>GET /users
+More Local 2 line · UsersController.getAllUsers</title>
+<circle cx="1630" cy="734" r="5.5" fill="#fff" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1642" y="739" text-anchor="start" style="fill:#1A1F2C">List users</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-variant-controller-api/#op-VariantController.updateVariant" target="_blank" class="st" data-op="VariantController.updateVariant"><title>PATCH /variants/{id}
+Variant Controller line · VariantController.updateVariant</title>
+<circle cx="1504" cy="2498" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1510" y="2486" transform="rotate(-45 1510 2486)" style="fill:#1A1F2C">Update variant</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-variant-controller-api/#op-VariantController.getVariant" target="_blank" class="st" data-op="VariantController.getVariant"><title>GET /variants/{id}
+Variant Controller line · VariantController.getVariant</title>
+<circle cx="1420" cy="2498" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1426" y="2486" transform="rotate(-45 1426 2486)" style="fill:#1A1F2C">Get variant</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-variant-controller-api/#op-VariantController.deleteManufacturingOrder" target="_blank" class="st" data-op="VariantController.deleteManufacturingOrder"><title>DELETE /variants/{id}
+Variant Controller line · VariantController.deleteManufacturingOrder</title>
+<circle cx="1588" cy="2498" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<line x1="1584" y1="2502" x2="1592" y2="2494" stroke="#2E7D32" stroke-width="2"/>
+<text x="1582" y="2510" text-anchor="end" transform="rotate(-45 1582 2510)" style="fill:#1A1F2C">Delete variant</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-variant-controller-api/#op-VariantController.createVariant" target="_blank" class="st" data-op="VariantController.createVariant"><title>POST /variants
+Variant Controller line · VariantController.createVariant</title>
+<circle cx="1336" cy="2498" r="5.5" fill="#2E7D32" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1342" y="2486" transform="rotate(-45 1342 2486)" style="fill:#1A1F2C">Create variant</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-variant-controller-api/#op-VariantController.getAllVariants" target="_blank" class="st" data-op="VariantController.getAllVariants"><title>GET /variants
+Variant Controller line · VariantController.getAllVariants</title>
+<circle cx="1252" cy="2498" r="5.5" fill="#fff" stroke="#2E7D32" stroke-width="2.5"/>
+<text x="1258" y="2486" transform="rotate(-45 1258 2486)" style="fill:#1A1F2C">List variants</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-variantbinlocationcontroller-api/#op-VariantBinLocationController.bulkUpsertVariantBinLocations" target="_blank" class="st" data-op="VariantBinLocationController.bulkUpsertVariantBinLocations"><title>POST /variant_bin_locations
+More Local 2 line · VariantBinLocationController.bulkUpsertVariantBinLocations</title>
+<circle cx="1714" cy="650" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1726" y="655" text-anchor="start" style="fill:#1A1F2C">Create variant bin location</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-webhook-controller-api/#op-WebhookController.updateWebhook" target="_blank" class="st" data-op="WebhookController.updateWebhook"><title>PATCH /webhooks/{id}
+webhook controller line · WebhookController.updateWebhook</title>
+<circle cx="874" cy="3842" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="886" y="3847" text-anchor="start" style="fill:#1A1F2C">Update webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-webhook-controller-api/#op-WebhookController.getWebhook" target="_blank" class="st" data-op="WebhookController.getWebhook"><title>GET /webhooks/{id}
+webhook controller line · WebhookController.getWebhook</title>
+<circle cx="916" cy="3800" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="904.0" y="3805" text-anchor="end" style="fill:#1A1F2C">Get webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-webhook-controller-api/#op-WebhookController.deleteWebhook" target="_blank" class="st" data-op="WebhookController.deleteWebhook"><title>DELETE /webhooks/{id}
+webhook controller line · WebhookController.deleteWebhook</title>
+<circle cx="874" cy="3926" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<line x1="870" y1="3930" x2="878" y2="3922" stroke="#0B7A75" stroke-width="2"/>
+<text x="886" y="3931" text-anchor="start" style="fill:#1A1F2C">Delete webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-webhook-controller-api/#op-WebhookController.createWebhook" target="_blank" class="st" data-op="WebhookController.createWebhook"><title>POST /webhooks
+webhook controller line · WebhookController.createWebhook</title>
+<circle cx="1000" cy="3800" r="5.5" fill="#0B7A75" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1012" y="3805" text-anchor="start" style="fill:#1A1F2C">Create webhook</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-webhook-controller-api/#op-WebhookController.getAllWebhooks" target="_blank" class="st" data-op="WebhookController.getAllWebhooks"><title>GET /webhooks
+webhook controller line · WebhookController.getAllWebhooks</title>
+<circle cx="1084" cy="3884" r="5.5" fill="#fff" stroke="#0B7A75" stroke-width="2.5"/>
+<text x="1096" y="3889" text-anchor="start" style="fill:#1A1F2C">List webhooks</text>
+</a>
+<a href="https://apis.apis.io/apis/katana/katana-webhooklogscontroller-api/#op-WebhookLogsController.exportWebhookLogs" target="_blank" class="st" data-op="WebhookLogsController.exportWebhookLogs"><title>POST /webhook_logs_export
+More Local 2 line · WebhookLogsController.exportWebhookLogs</title>
+<circle cx="1798" cy="566" r="5.5" fill="#D6264F" stroke="#D6264F" stroke-width="2.5"/>
+<text x="1810" y="571" text-anchor="start" style="fill:#1A1F2C">Update webhook logs export</text>
+</a>
+<text x="2576" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">LINES</text>
+<text x="2576" y="252" font-size="12" font-weight="700" letter-spacing="1.5" fill="#D6264F">SALES ORDERS</text>
+<rect x="2576" y="259" width="34" height="13" rx="3" fill="#D6264F"/><text x="2593" y="269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SOC</text><text x="2618" y="269" font-size="11" fill="#1A1F2C">SalesOrderController <tspan fill="#8A93A6">7</tspan></text>
+<text x="2576" y="295" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E9F6E">BIN TRANSFERS</text>
+<rect x="2576" y="302" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2593" y="312" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BTC</text><text x="2618" y="312" font-size="11" fill="#1A1F2C">BinTransferController <tspan fill="#8A93A6">6</tspan></text>
+<text x="2576" y="338" font-size="12" font-weight="700" letter-spacing="1.5" fill="#1F5FD1">SALES RETURNS</text>
+<rect x="2576" y="345" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2593" y="355" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SRC</text><text x="2618" y="355" font-size="11" fill="#1A1F2C">SalesReturnsController <tspan fill="#8A93A6">6</tspan></text>
+<text x="2576" y="381" font-size="12" font-weight="700" letter-spacing="1.5" fill="#E07B12">SALES RETURN ROWS</text>
+<rect x="2576" y="388" width="34" height="13" rx="3" fill="#E07B12"/><text x="2593" y="398" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SRRC</text><text x="2618" y="398" font-size="11" fill="#1A1F2C">SalesReturnRowController <tspan fill="#8A93A6">6</tspan></text>
+<text x="2576" y="424" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7B3FE4">SALES ORDER ROWS</text>
+<rect x="2576" y="431" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2593" y="441" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SORC</text><text x="2618" y="441" font-size="11" fill="#1A1F2C">SalesOrderRowController <tspan fill="#8A93A6">6</tspan></text>
+<text x="2576" y="467" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B0287F">MATERIALS</text>
+<rect x="2576" y="474" width="34" height="13" rx="3" fill="#B0287F"/><text x="2593" y="484" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MC</text><text x="2618" y="484" font-size="11" fill="#1A1F2C">MaterialController <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="510" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0B7A75">SERVICES</text>
+<rect x="2576" y="517" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2593" y="527" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SC</text><text x="2618" y="527" font-size="11" fill="#1A1F2C">ServiceController <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="553" font-size="12" font-weight="700" letter-spacing="1.5" fill="#B8860B">MANUFACTURING ORDER RECIPE ROWS</text>
+<rect x="2576" y="560" width="34" height="13" rx="3" fill="#B8860B"/><text x="2593" y="570" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MORR</text><text x="2618" y="570" font-size="11" fill="#1A1F2C">ManufacturingOrderRecipeRowController <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="596" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C2410C">PURCHASE ORDERS</text>
+<rect x="2576" y="603" width="34" height="13" rx="3" fill="#C2410C"/><text x="2593" y="613" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PUOC</text><text x="2618" y="613" font-size="11" fill="#1A1F2C">PurchaseOrderController <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="639" font-size="12" font-weight="700" letter-spacing="1.5" fill="#2E7D32">VARIANTS</text>
+<rect x="2576" y="646" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2593" y="656" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">VC</text><text x="2618" y="656" font-size="11" fill="#1A1F2C">Variant Controller <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="682" font-size="12" font-weight="700" letter-spacing="1.5" fill="#5C6BC0">PO ADDITIONAL COST ROWS</text>
+<rect x="2576" y="689" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2593" y="699" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PACR</text><text x="2618" y="699" font-size="11" fill="#1A1F2C">PoAdditionalCostRowController <tspan fill="#8A93A6">5</tspan></text>
+<text x="2576" y="725" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6B7280">MORE</text>
+<rect x="2576" y="732" width="34" height="13" rx="3" fill="#D6264F"/><text x="2593" y="742" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML2</text><text x="2618" y="742" font-size="11" fill="#1A1F2C">More Local 2 <tspan fill="#8A93A6">16</tspan></text>
+<rect x="2576" y="749" width="34" height="13" rx="3" fill="#B0287F"/><text x="2593" y="759" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">ML1</text><text x="2618" y="759" font-size="11" fill="#1A1F2C">More Local 1 <tspan fill="#8A93A6">15</tspan></text>
+<rect x="2576" y="766" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2593" y="776" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BTRC</text><text x="2618" y="776" font-size="11" fill="#1A1F2C">BinTransferRowController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="783" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2593" y="793" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BRC</text><text x="2618" y="793" font-size="11" fill="#1A1F2C">BomRowController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="800" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2593" y="810" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CFDC</text><text x="2618" y="810" font-size="11" fill="#1A1F2C">CustomFieldDefinitionController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="817" width="34" height="13" rx="3" fill="#00838F"/><text x="2593" y="827" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MOC</text><text x="2618" y="827" font-size="11" fill="#1A1F2C">ManufacturingOrderController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="834" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2593" y="844" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MOOR</text><text x="2618" y="844" font-size="11" fill="#1A1F2C">ManufacturingOrderOperationRowController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="851" width="34" height="13" rx="3" fill="#B8860B"/><text x="2593" y="861" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MOPC</text><text x="2618" y="861" font-size="11" fill="#1A1F2C">ManufacturingOrderProductionController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="868" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2593" y="878" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLC</text><text x="2618" y="878" font-size="11" fill="#1A1F2C">PriceListController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="885" width="34" height="13" rx="3" fill="#E07B12"/><text x="2593" y="895" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLCC</text><text x="2618" y="895" font-size="11" fill="#1A1F2C">PriceListCustomerController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="902" width="34" height="13" rx="3" fill="#C2410C"/><text x="2593" y="912" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PLRC</text><text x="2618" y="912" font-size="11" fill="#1A1F2C">PriceListRowController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="919" width="34" height="13" rx="3" fill="#4A5568"/><text x="2593" y="929" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PC</text><text x="2618" y="929" font-size="11" fill="#1A1F2C">ProductController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="936" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2593" y="946" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">POC</text><text x="2618" y="946" font-size="11" fill="#1A1F2C">ProductOperationsController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="953" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2593" y="963" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PORR</text><text x="2618" y="963" font-size="11" fill="#1A1F2C">PurchaseOrderRecipeRowController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="970" width="34" height="13" rx="3" fill="#D6264F"/><text x="2593" y="980" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">PORC</text><text x="2618" y="980" font-size="11" fill="#1A1F2C">PurchaseOrderRowController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="987" width="34" height="13" rx="3" fill="#B0287F"/><text x="2593" y="997" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SOFC</text><text x="2618" y="997" font-size="11" fill="#1A1F2C">SalesOrderFulfillmentController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="1004" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2593" y="1014" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SOSF</text><text x="2618" y="1014" font-size="11" fill="#1A1F2C">SalesOrderShippingFeeController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="1021" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2593" y="1031" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STC</text><text x="2618" y="1031" font-size="11" fill="#1A1F2C">StockTransferController <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="1038" width="34" height="13" rx="3" fill="#0B7A75"/><text x="2593" y="1048" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">WC</text><text x="2618" y="1048" font-size="11" fill="#1A1F2C">webhook controller <tspan fill="#8A93A6">5</tspan></text>
+<rect x="2576" y="1055" width="34" height="13" rx="3" fill="#00838F"/><text x="2593" y="1065" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">BLC</text><text x="2618" y="1065" font-size="11" fill="#1A1F2C">BinLocationController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1072" width="34" height="13" rx="3" fill="#1F5FD1"/><text x="2593" y="1082" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CC</text><text x="2618" y="1082" font-size="11" fill="#1A1F2C">Customer Controller <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1089" width="34" height="13" rx="3" fill="#B8860B"/><text x="2593" y="1099" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CAC</text><text x="2618" y="1099" font-size="11" fill="#1A1F2C">CustomerAddressController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1106" width="34" height="13" rx="3" fill="#8D6E63"/><text x="2593" y="1116" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SOAC</text><text x="2618" y="1116" font-size="11" fill="#1A1F2C">SalesOrderAddressController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1123" width="34" height="13" rx="3" fill="#E07B12"/><text x="2593" y="1133" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SNC</text><text x="2618" y="1133" font-size="11" fill="#1A1F2C">SerialNumberController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1140" width="34" height="13" rx="3" fill="#C2410C"/><text x="2593" y="1150" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SAC</text><text x="2618" y="1150" font-size="11" fill="#1A1F2C">StockAdjustmentController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1157" width="34" height="13" rx="3" fill="#4A5568"/><text x="2593" y="1167" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STO</text><text x="2618" y="1167" font-size="11" fill="#1A1F2C">StocktakeController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1174" width="34" height="13" rx="3" fill="#7B3FE4"/><text x="2593" y="1184" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">STRC</text><text x="2618" y="1184" font-size="11" fill="#1A1F2C">StocktakeRowController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1191" width="34" height="13" rx="3" fill="#2E7D32"/><text x="2593" y="1201" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUAC</text><text x="2618" y="1201" font-size="11" fill="#1A1F2C">SupplierAddressController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1208" width="34" height="13" rx="3" fill="#D6264F"/><text x="2593" y="1218" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">SUC</text><text x="2618" y="1218" font-size="11" fill="#1A1F2C">SupplierController <tspan fill="#8A93A6">4</tspan></text>
+<rect x="2576" y="1225" width="34" height="13" rx="3" fill="#B0287F"/><text x="2593" y="1235" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">DFC</text><text x="2618" y="1235" font-size="11" fill="#1A1F2C">DemandForecastController <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="1242" width="34" height="13" rx="3" fill="#5C6BC0"/><text x="2593" y="1252" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">MTOM</text><text x="2618" y="1252" font-size="11" fill="#1A1F2C">MakeToOrderMOController <tspan fill="#8A93A6">3</tspan></text>
+<rect x="2576" y="1259" width="34" height="13" rx="3" fill="#0E9F6E"/><text x="2593" y="1269" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">RC</text><text x="2618" y="1269" font-size="11" fill="#1A1F2C">RecipeController <tspan fill="#8A93A6">3</tspan></text>
+<text x="2826" y="210" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">KEY</text>
+<g transform="translate(2844,240)"><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2870" y="244" font-size="12" fill="#1A1F2C">GET — read</text>
+<g transform="translate(2844,264)"><circle r="5.5" fill="#1A1F2C" stroke="#1A1F2C" stroke-width="2.5"/></g><text x="2870" y="268" font-size="12" fill="#1A1F2C">POST — write</text>
+<g transform="translate(2844,288)"><g><circle r="5.5" fill="#fff" stroke="#1A1F2C" stroke-width="2.5"/><line x1="-4" y1="4" x2="4" y2="-4" stroke="#1A1F2C" stroke-width="2"/></g></g><text x="2870" y="292" font-size="12" fill="#1A1F2C">DELETE</text>
+<g transform="translate(2844,312)"><g><line x1="-10" x2="10" stroke="#1A1F2C" stroke-width="11" stroke-linecap="round"/><line x1="-10" x2="10" stroke="#fff" stroke-width="5" stroke-linecap="round"/><circle cx="-10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/><circle cx="10" r="7" fill="#fff" stroke="#1A1F2C" stroke-width="3"/></g></g><text x="2870" y="316" font-size="12" fill="#1A1F2C">Interchange</text>
+<g transform="translate(2844,336)"><text x="-14" y="4" font-size="11" font-weight="700" fill="#E07B12">⇄ACC</text></g><text x="2870" y="340" font-size="12" fill="#1A1F2C">Change for another line</text>
+<g transform="translate(2844,360)"><rect x="-3" y="-3" width="6" height="6" transform="rotate(45)" fill="#1A1F2C"/></g><text x="2870" y="364" font-size="12" fill="#1A1F2C">Express stop</text>
+<g transform="translate(2844,384)"><circle r="6" fill="#fff" stroke="#A0A7B4" stroke-width="2" stroke-dasharray="2 2"/></g><text x="2870" y="388" font-size="12" fill="#1A1F2C">Closed (deprecated)</text>
+<g transform="translate(2844,408)"><line x1="-14" x2="14" stroke="#8A93A6" stroke-width="7" stroke-dasharray="8 5"/></g><text x="2870" y="412" font-size="12" fill="#1A1F2C">Depot (test mode)</text>
+<text x="2826" y="448" font-size="11" font-weight="700" fill="#5A6275">MERGED TAGS (spec-split artefacts)</text>
+<text x="2826" y="463" font-size="10.5" fill="#5A6275">“AdditionalCostController” → More Local line · 1 op</text>
+<text x="2826" y="478" font-size="10.5" fill="#5A6275">“BatchController” → More Local line · 1 op</text>
+<text x="2826" y="493" font-size="10.5" fill="#5A6275">“BatchStockController” → More Local line · 2 ops</text>
+<text x="2826" y="508" font-size="10.5" fill="#5A6275">“BinInventoryController” → More Local line · 1 op</text>
+<text x="2826" y="523" font-size="10.5" fill="#5A6275">“CustomSalesOrderController” → More Local line · 1 op</text>
+<text x="2826" y="538" font-size="10.5" fill="#5A6275">“Factory Controller” → More Local line · 1 op</text>
+<text x="2826" y="553" font-size="10.5" fill="#5A6275">“InventoryController” → More Local line · 2 ops</text>
+<text x="2826" y="568" font-size="10.5" fill="#5A6275">“InventorySafetyStockLevelController” → More Local line · 2 ops</text>
+<text x="2826" y="583" font-size="10.5" fill="#5A6275">“ItemsCustomFieldsCollectionController” → More Local line · 1 op</text>
+<text x="2826" y="598" font-size="10.5" fill="#5A6275">“Location Controller” → More Local line · 2 ops</text>
+<text x="2826" y="613" font-size="10.5" fill="#5A6275">“ManufacturingOrderProductionIngredientController” → More Local line · 2 ops</text>
+<text x="2826" y="628" font-size="10.5" fill="#5A6275">“NegativeStockLatestMovementController” → More Local line · 1 op</text>
+<text x="2826" y="643" font-size="10.5" fill="#5A6275">“OperatorsController” → More Local line · 1 op</text>
+<text x="2826" y="658" font-size="10.5" fill="#5A6275">“PurchaseOrderAccountingMetadataController” → More Local line · 1 op</text>
+<text x="2826" y="673" font-size="10.5" fill="#5A6275">“PurchaseOrderReceiveController” → More Local line · 1 op</text>
+<text x="2826" y="688" font-size="10.5" fill="#5A6275">“RecipeRowController” → More Local line · 2 ops</text>
+<text x="2826" y="703" font-size="10.5" fill="#5A6275">“SalesOrderAccountingMetadataController” → More Local line · 1 op</text>
+<text x="2826" y="718" font-size="10.5" fill="#5A6275">“SerialNumberStockController” → More Local line · 1 op</text>
+<text x="2826" y="733" font-size="10.5" fill="#5A6275">“TaxRateController” → More Local line · 2 ops</text>
+<text x="2826" y="748" font-size="10.5" fill="#5A6275">“UnlinkVariantBinLocationController” → More Local line · 1 op</text>
+<text x="2826" y="763" font-size="10.5" fill="#5A6275">“Users Controller” → More Local line · 2 ops</text>
+<text x="2826" y="778" font-size="10.5" fill="#5A6275">“VariantBinLocationController” → More Local line · 1 op</text>
+<text x="2826" y="793" font-size="10.5" fill="#5A6275">“WebhookLogsController” → More Local line · 1 op</text>
+<text x="2826" y="843" font-size="16" font-weight="700" letter-spacing="2" fill="#1A1F2C">EXPRESS</text>
+<text x="2826" y="860" font-size="10.5" fill="#5A6275">Arazzo workflows · hover to trace</text>
+<text x="160" y="4056" font-size="12" fill="#5A6275">Source: s3://api-evangelist-profiles/providers/katana/ openapi + arazzo · api-transit-maps/build_network_map.py · every stop links to apis.io</text>
+<script><![CDATA[
+(function(){var svg=document.documentElement;function all(s){return [].slice.call(svg.querySelectorAll(s));}
+function clear(){all('.dim').forEach(function(e){e.classList.remove('dim')});}
+all('.rt').forEach(function(rt){rt.addEventListener('mouseenter',function(){var s=rt.getAttribute('data-stops').split(' ');
+all('.st').forEach(function(e){if(s.indexOf(e.getAttribute('data-op'))<0)e.classList.add('dim');});
+all('.line').forEach(function(e){e.classList.add('dim');});});rt.addEventListener('mouseleave',clear);});})();
+]]></script></svg>
