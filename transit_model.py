@@ -392,6 +392,23 @@ def load(PROV, FAM_FILE=None):
                 lines[nm_] = part; tag2fam[nm_] = fam['name']; local_lines.add(nm_)
                 fam.setdefault('tags', []).append(nm_)
 
+    # ---------- long lines: a line of 100+ stops is drawn as an arm running off the city ----------
+    # (Azure Functions, Cisco Secure Firewall); cut it into path-ordered runs, numbered 1, 2, ...
+    LONG = int(fams_raw.get('long_line', 60))
+    if not explicit_fams:
+        for t in [t for t in lines if len(lines[t]) > LONG and t not in local_lines]:
+            lst = lines.pop(t); fam_n = tag2fam.get(t, default_fam)
+            nch = -(-len(lst) // LONG)
+            for c_ in range(nch):
+                nm_ = f"{t} {c_ + 1}"
+                part = lst[c_ * len(lst) // nch:(c_ + 1) * len(lst) // nch]
+                for o in part:
+                    retagged[(o['tag'], nm_)] += 1
+                    o['orig_tag'] = o.get('orig_tag', o['tag']); o['tag'] = nm_
+                lines[nm_] = part; tag2fam[nm_] = fam_n
+                if fam_n in fam_by_name:
+                    fam_by_name[fam_n].setdefault('tags', []).append(nm_)
+
     # ---------- resource homes + interchanges ----------
     home = {}          # collection name -> op (prefer GET /coll/{id})
     for o in ops:

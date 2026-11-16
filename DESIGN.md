@@ -204,3 +204,6 @@ First draft lessons: the engine's automatic line source re-derived lines from pa
 - **Crowded sheets are redrawn larger.** Labels are a fixed font size, so a sheet with > 40 labels on track re-runs at 80 px/cell, then 100 (same layout; `--umin`). Worst atlas sheets: palo-alto 170 -> 48, oracle-hospitality 125 -> 41, optimizely 117 -> 39; maps: malwarebytes 124 -> 38, cloudera 64 -> 12. Splaying stops further apart (`--radius`) made it worse (117 -> 134).
 - `BAND=strong ./run_next.sh 50` maps the next band.
 - **Stranded groups dock as a unit.** Single strays were docked, but pairs and trios (Atlassian Jira) stayed 100+ cells out; detached components smaller than 5% of stops now slide toward the main body. atlassian-jira 15,818 x 12,702 -> 9,856 x 10,686 px.
+
+## Long-line cap (cleanup pass, strong band)
+Any auto-family line over 60 stops (`long_line` in families yml) is cut into path-ordered runs "Tag 1", "Tag 2"... A 150-stop line drew as a straight arm off the city (Azure Functions 17084x31382 -> 9296x7971). Explicit families are untouched. render.sh: Chrome capped at 180s (a hung Kondukto render stalled the loop 3h).
